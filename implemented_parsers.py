@@ -1,5 +1,7 @@
 '''
 Implementations of the ParserPaper for ECS and RSC!
+The ParserPaper is a abstract class that can be used to create specific
+publishers parser. ParserECS and PaperRSC are implementations for ECS and RSC.  
 '''
 
 __author__ = "Tiago Botari"

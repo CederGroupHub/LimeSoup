@@ -1,10 +1,10 @@
 '''
-ParserPaper is a class to parser html, xml papers from different publisher
-into simples text. It can be used to feed a database.
-This is a first version, I tried to separate things 
-related with a specific publisher in the ParsePaper in order to help
+ParserPaper is a class to parse HTML, XML papers from different publishers into
+simples text. It can be used to feed a database.
+This is the first version, I tried to separate things 
+related to a specific publisher in the ParsePaper in order to help
 to think how to reuse code in new publishers.
-This class is not yet finished, just a securit copy in github..
+This class is not yet finished, just a security copy in GitHub.
 '''
 
 __author__ = "Tiago Botari"
@@ -39,19 +39,21 @@ class ParserPaper:
         self.debugging = debugging
         # parsers 'html.parser', 'lxml', 'html5lib', 'lxml-xml'
         self.soup = bs4.BeautifulSoup('{:}'.format(raw_html), 'lxml-xml')
-        # Tags to be removed from the HTML paper ECS 
+        '''Tags to be removed from the HTML paper, should implement!'''
         list_remove = [
-            {'name':'div' , 'class_':'section-nav'},     # Navigation bottons
-            {'name':'div' , 'class_':'contributors'},    # Authors
-            {'name':'span' , 'class_':'disp-formula'},   # Formulas
-            {'name':'code'},                             # Codes inside the HTML 
-            {'name':'div', 'class_':'fig pos-float odd'},# Figures
-            {'name':'div', 'id':'ref-list-1'},           # References
-            {'name':'span' , 'class_':'disp-formula'},   # Formulas
-            {'name':'span', 'class_':'kwd-group-title'}, # Keyword lables
-            {'name':'div', 'class_':'table-caption'},    # Caption Table
-            {'name':'div', 'class_':'table-inline'},     # Table in line
-            {'name':'div', 'id':'fn-group-1'}            # Footnotes   
+            # Example:  
+            {'name':'<name_tag>' , 'class_':'<class_tag>', 'id':'<id_tag>'},
+            # Navigation bottons
+            # Authors
+            # Formulas
+            # Codes inside the HTML 
+            # Figures
+            # References
+            # Formulas
+            # Keyword lables
+            # Caption Table
+            # Table in line
+            # Footnotes   
         ]
         self._remove_tags(rules=list_remove)
         # Save the soup after cleaning, to test and check
@@ -60,8 +62,15 @@ class ParserPaper:
                 filename='after_cleaning.html',
                 prettify=True
             )
-        # This create a standard of sections tag name  
-        self._change_name_tag_sections()
+        ''' This create a standard for the sections tag name, should implement! 
+        if some division is present in the HTML you can use the method:
+        >>>self._change_name_tag_sections()
+        if no division is presented between sections you can use:
+        >>>self._change_name_tag_sections()    
+        >>>self._create_tag_from_selection(rule, name_new_tag)
+        '''      
+        
+        ''' should implement! Rule for the keywords and title! '''
         self._get_keywords(rules=[{'name':'li','class_':'kwd'}])
         self._get_title(rules = [
             {'name':'h1', 'recursive':True},
@@ -74,7 +83,7 @@ class ParserPaper:
                 '{:}'.format(str(self.soup)),
                 'lxml-xml'
             )
-        #Parameters of sections parameters from standard
+        # Paremeters that specify each section, from standard! 
         parameters = {'name':re.compile('^section_h[1-6]'),'recursive':False}
         parse_section =  self.create_parser_setion(self.soup, parameters)
         self.data_sections = parse_section.data
