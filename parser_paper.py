@@ -15,7 +15,7 @@ __email__ = "tiagobotari@gmail.com"
 __date__ = "Feb 18 2018"
 
 
-#from abc import ABCMeta  
+from abc import ABCMeta, abstractmethod  
 import itertools
 import warnings
 import re
@@ -31,8 +31,10 @@ def convert_to_text(text_input):
     return text
         
         
-class ParserPaper(object):
+class ParserPaper:
+    __metaclass__ = ABCMeta
     
+    @abstractmethod 
     def __init__(self, raw_html, debugging=False):
         self.debugging = debugging
         # parsers 'html.parser', 'lxml', 'html5lib', 'lxml-xml'
@@ -62,8 +64,8 @@ class ParserPaper(object):
         self._change_name_tag_sections()
         self._get_keywords(rules=[{'name':'li','class_':'kwd'}])
         self._get_title(rules = [
-                            {'name':'h1', 'recursive':True},
-                            {'name':'h2', 'class_':'subtitle', 'recursive':True}
+            {'name':'h1', 'recursive':True},
+            {'name':'h2', 'class_':'subtitle', 'recursive':True}
                                              ]
         )
         # Create a copy of the soup to obtain some information after parser
@@ -74,7 +76,7 @@ class ParserPaper(object):
             )
         #Parameters of sections parameters from standard
         parameters = {'name':re.compile('^section_h[1-6]'),'recursive':False}
-        parse_section = ParserSections(self.soup, parameters)
+        parse_section =  self.create_parser_setion(self.soup, parameters)
         self.data_sections = parse_section.data
         self.headings_sections = parse_section.heading
         self.number_paragraphs_sections = parse_section.number_paragraphs 
@@ -85,6 +87,16 @@ class ParserPaper(object):
                 prettify=True
             )
         del parse_section
+    
+    def compile(self, pattern):
+        return re.compile(pattern)
+        
+    def create_parser_setion(self, soup, parameters):
+        return ParserSections(soup, parameters)
+        
+    def create_soup(self, html_xlm, parser_type='html.parser'):
+        #parser_types = ['html.parser', 'lxml', 'html5lib', 'lxml-xml']
+        return bs4.BeautifulSoup(html_xlm, parser_type)
         
     def save_soup_to_file(self, filename='soup.html', prettify=True):
         with open(filename, 'w', encoding='utf-8') as fd_div:
@@ -161,8 +173,14 @@ class ParserPaper(object):
         )
         print(' Number of Paragraphs externo : ', number_of_paragraphs_children)
             
-    
-    def _create_tag_sections(self):
+    def _create_tag_from_selection(self, rule, name_new_tag):
+        inside_tags = self.soup.find_all(**rule)
+        section = self.soup.new_tag('section_{}'.format(name_new_tag))
+        for tag in inside_tags:
+            tag.wrap(section)
+            section.append(tag)
+        
+    def _create_tag_sections(self, rule=None):
         tag_names = ['h{}'.format(i) for i in range(1,6)] 
         for tag_name in tag_names:
             tags = self.soup.find_all(tag_name)
@@ -181,15 +199,13 @@ class ParserPaper(object):
             each_tag.parent.name = 'section_{}'.format(each_tag.name)
      
               
-            
 class ParserSections(object):
-    
+
     number_paragraphs = 0
     number_heading = 0
     list_heading =[]
-    
+        
     def __init__(self, soup, parameters, debugging=False):
-        self.var_title = []
         parsertypes = ['html.parser', 'lxml', 'html5lib', 'lxml-xml']
         self.soup = bs4.BeautifulSoup(repr(soup), parsertypes[-1])
         self.soup1 = list(self.soup.children)
@@ -218,9 +234,9 @@ class ParserSections(object):
         method_name = '_deal_' + str(self.content.name)
         method_name_default = '_deal_default'
         method = getattr(
-                        self,
-                        method_name, 
-                        getattr(self, method_name_default)
+            self,
+            method_name, 
+            getattr(self, method_name_default)
         )  
         return method()
    
@@ -256,9 +272,10 @@ class ParserSections(object):
         name_section = convert_to_text(self.content.get_text())
         if (self.content_section != None):   
             self.data.append(self.content_section)
-        self._create_section(name=name_section, 
-                             type_section=self.content.parent.name
-                             )
+        self._create_section(
+            name=name_section, 
+            type_section=self.content.parent.name
+        )
         ParserSections.list_heading.append(name_section)
         ParserSections.number_heading += 1
         self.content.extract()  
