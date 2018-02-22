@@ -22,8 +22,6 @@ __date__ = "May 20 2017"
 import unittest
 import argparse
 
-from parser_paper import ParserPaper
-
 
 class test1_offline(query_mp_database.query_mp_database):
 
