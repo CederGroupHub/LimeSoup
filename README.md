@@ -1,4 +1,4 @@
-# parser_paper
+# LimeSoup
 
 ParserPaper is an abstract class that can be used to create a class that helps
 in the process of parse HTML or XML papers from different publishers. It can be

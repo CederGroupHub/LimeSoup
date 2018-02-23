@@ -18,4 +18,4 @@ if __name__ == "__main__":
           author_email="tiagobotari@gmail.com, rongzq08@gmail.com",
           license="MIT License",
           packages=find_packages(),
-          zip_safe=False)
+          zip_safe=False, install_requires=['beautifulsoup4'])

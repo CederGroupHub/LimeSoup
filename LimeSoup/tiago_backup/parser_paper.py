@@ -19,7 +19,6 @@ from abc import ABCMeta, abstractmethod
 import itertools
 import warnings
 import re
-
 import bs4
 
 
@@ -34,7 +33,7 @@ def convert_to_text(text_input):
 class ParserPaper:
     __metaclass__ = ABCMeta
     
-    @abstractmethod 
+    @abstractmethod
     def __init__(self, raw_html, debugging=False):
         self.debugging = debugging
         # parsers 'html.parser', 'lxml', 'html5lib', 'lxml-xml'
