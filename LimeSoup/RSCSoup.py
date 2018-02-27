@@ -4,6 +4,7 @@ from __future__ import print_function
 from __future__ import division
 from __future__ import absolute_import
 from LimeSoup.lime_soup import Soup, RuleIngredient
+from bs4 import BeautifulSoup
 
 __author__ = 'Ziqin (Shaun) Rong'
 __maintainer__ = 'Ziqin (Shaun) Rong'
