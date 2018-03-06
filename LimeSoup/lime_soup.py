@@ -36,7 +36,7 @@ class SoupBase(object):
         :param ingredient: A parsing rule ingredient concrete class
         """
         if self._next:
-            self._next.add_rule(ingredient)
+            self._next.add_ingredient(ingredient)
         else:
             self._next = ingredient
 
