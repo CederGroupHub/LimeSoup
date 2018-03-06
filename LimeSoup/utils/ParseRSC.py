@@ -11,6 +11,7 @@ __email__ = 'rongzq08@gmail.com'
 
 
 if __name__ == '__main__':
-    html_str = ""
+    html_str = "->"
     # Provide input interface to the html str, associated with the paper DOI index
     processed_json = RSCSoup.parse(html_str)
+    print(processed_json)

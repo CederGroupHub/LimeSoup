@@ -17,6 +17,7 @@ class RSCRemoveCaption(RuleIngredient):
     @staticmethod
     def _parse(html_str):
         # Remove captions from the HTML string
+        html_str += 'remove caption '
         return html_str
 
 
@@ -26,6 +27,7 @@ class RSCRemoveReferences(RuleIngredient):
     @staticmethod
     def _parse(html_str):
         # Remove reference numbers from the HTML string
+        html_str += " rscremovereference "
         return html_str
 
 
