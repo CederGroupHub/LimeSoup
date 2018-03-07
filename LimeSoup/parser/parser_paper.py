@@ -91,6 +91,10 @@ class ParserPaper:
                 keyword.extract()
 
     def remove_tags(self, rules):
+        """
+        :param rules: list() of dict() of rules of bs4 find_all()
+        :return: None
+        """
         for rule in rules:
             [s.extract() for s in self.soup.find_all(**rule)]
 

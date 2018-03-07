@@ -22,14 +22,19 @@ __date__ = "May 20 2017"
 import unittest
 import argparse
 
-from LimeSoup.ECSSoup import ECSSoup
 import json
+
+from LimeSoup.ECSSoup import ECSSoup, ECSRemoveTrash, ECSCreateTags, ECSCollect
+from LimeSoup.lime_soup import Soup
+
+
+# from LimeSoup.lime_soup import RuleIngredient
+# from LimeSoup.parser.parser_paper import ParserPaper
 
 
 class TestKnownValuesOffline(unittest.TestCase):
     # Test a list of html files from paper of different publishers, future...
     # Create a instance with a emulated method to create a test set offline
-    from LimeSoup.ECSSoup import ECSSoup
 
     # This a test for known values, other tests can be included.
     def test_ECSSoup_parser(self):
@@ -40,6 +45,36 @@ class TestKnownValuesOffline(unittest.TestCase):
                 html_str = fd.read()
             result = ECSSoup.parse(html_str)
             self.assertEqual(know_value, result)
+
+
+class TestIngredients(unittest.TestCase):
+
+    def test_ECSSoup_ECSRemoveTrash(self):
+        test_value = ('<?xml version="1.0" encoding="utf-8"?>\n<html>\n Bla\n'
+                      + ' <code>\n Bla\n <code/>\n <html/>\n</html>')
+        know_value = '<?xml version="1.0" encoding="utf-8"?>\n<html>\n Bla\n</html>'
+        ecs_soup_test = Soup()
+        ecs_soup_test.add_ingredient(ECSRemoveTrash())
+        result = ecs_soup_test.parse(test_value)
+        self.assertEqual(know_value, result)
+
+    def test_ECSSoup_ECSCreateTags(self):
+        test_value = '<html>\n <h2> section1 </h2> Bla\n  </html>'
+        know_value = ('<?xml version="1.0" encoding="utf-8"?>\n<section_h2>\n <h2>\n  section1\n </h2>'
+                      + '\n Bla\n</section_h2>')
+        ecs_soup_test = Soup()
+        ecs_soup_test.add_ingredient(ECSCreateTags())
+        result = ecs_soup_test.parse(test_value)
+        self.assertEqual(know_value, result)
+
+    def test_ECSSoup_ECSCollect(self):
+        test_value = ('<?xml version="1.0" encoding="utf-8"?>\n<html>\n <h1> title </h1> \n'
+                      + ' <code>\n Bla\n <code/>\n <html/>\n</html>')
+        know_value = {'Title': ['title'], 'Keywords': [], 'Sections': [None]}
+        ecs_soup_test = Soup()
+        ecs_soup_test.add_ingredient(ECSCollect())
+        result = ecs_soup_test.parse(test_value)
+        self.assertEqual(know_value, result)
 
 
 if __name__ == '__main__':
@@ -60,4 +95,6 @@ if __name__ == '__main__':
         print("Performing just offline test!")
     print("\nPerforming offline test!")
     suite = unittest.TestLoader().loadTestsFromTestCase(TestKnownValuesOffline)
+    unittest.TextTestRunner().run(suite)
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestIngredients)
     unittest.TextTestRunner().run(suite)

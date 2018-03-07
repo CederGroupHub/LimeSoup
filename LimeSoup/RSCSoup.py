@@ -8,7 +8,7 @@ from LimeSoup.lime_soup import Soup, RuleIngredient
 from LimeSoup.parser.parser_paper import ParserPaper
 
 
-__author__ = 'Ziqin (Shaun) Rong'
+__author__ = 'Ziqin (Shaun) Rong, Tiago Botari'
 __maintainer__ = 'Ziqin (Shaun) Rong'
 __email__ = 'rongzq08@gmail.com'
 
@@ -82,8 +82,8 @@ class RSCCollect(RuleIngredient):
 
 
 RSCSoup = Soup()
-RSCSoup.add_ingredient(RSCRemoveTrash)
-RSCSoup.add_ingredient(RSCCreateTags)
-RSCSoup.add_ingredient(RSCCreateTagAbstract)
-RSCSoup.add_ingredient(RSCCollect)
+RSCSoup.add_ingredient(RSCRemoveTrash())
+RSCSoup.add_ingredient(RSCCreateTags())
+RSCSoup.add_ingredient(RSCCreateTagAbstract())
+RSCSoup.add_ingredient(RSCCollect())
 
