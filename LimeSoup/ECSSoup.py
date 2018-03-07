@@ -69,7 +69,7 @@ class ECSCollect(RuleIngredient):
 
 
 ECSSoup = Soup()
-ECSSoup.add_ingredient(ECSRemoveTrash)
-ECSSoup.add_ingredient(ECSCreateTags)
-ECSSoup.add_ingredient(ECSCollect)
+ECSSoup.add_ingredient(ECSRemoveTrash())
+ECSSoup.add_ingredient(ECSCreateTags())
+ECSSoup.add_ingredient(ECSCollect())
 
