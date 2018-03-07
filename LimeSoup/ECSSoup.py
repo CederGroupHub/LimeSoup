@@ -4,63 +4,49 @@ from __future__ import print_function
 from __future__ import division
 from __future__ import absolute_import
 
-import bs4
-
 from LimeSoup.lime_soup import Soup, RuleIngredient
 from LimeSoup.parser.parser_paper import ParserPaper
 
 
-__author__ = 'Ziqin (Shaun) Rong'
-__maintainer__ = 'Ziqin (Shaun) Rong'
-__email__ = 'rongzq08@gmail.com'
+__author__ = 'Tiago Botari'
+__maintainer__ = 'Tiago Botari'
+__email__ = 'tiagobotari@gmail.com'
 
 
-class RSCRemoveTrash(RuleIngredient):
+class ECSRemoveTrash(RuleIngredient):
 
     @staticmethod
     def _parse(html_str):
         # Tags to be removed from the HTML paper ECS
         list_remove = [
-            {'name': 'p', 'class_': 'header_text'},  # Authors
-            {'name': 'div', 'id': 'art-admin'},  # Data rec./accept.
-            {'name': 'div', 'class_': 'image_table'},  # Figures
-            {'name': 'a', 'class_': 'simple'},  # Logo
-            {'name': 'div', 'id': 'crossmark-content'},  # Another Logo
+            {'name': 'div', 'class_': 'section-nav'},  # Navigation buttons
+            {'name': 'div', 'class_': 'contributors'},  # Authors
+            {'name': 'span', 'class_': 'disp-formula'},  # Formulas
             {'name': 'code'},  # Codes inside the HTML
+            {'name': 'div', 'class_': 'fig pos-float odd'},  # Figures
+            {'name': 'div', 'id': 'ref-list-1'},  # References
+            {'name': 'span', 'class_': 'disp-formula'},  # Formulas
+            {'name': 'span', 'class_': 'kwd-group-title'},  # Keyword labels
+            {'name': 'div', 'class_': 'table-caption'},  # Caption Table
+            {'name': 'div', 'class_': 'table-inline'},  # Table in line
+            {'name': 'div', 'id': 'fn-group-1'}  # Footnotes
         ]
         parser = ParserPaper(html_str, debugging=False)
         parser.remove_tags(rules=list_remove)
-        parser.remove_tag(
-            rules=[{'name': 'p', 'class_': 'bold italic', 'string': parser.compile('First')}]
-        )
         return parser.raw_html
 
 
-class RSCCreateTags(RuleIngredient):
+class ECSCreateTags(RuleIngredient):
 
     @staticmethod
     def _parse(html_str):
         # This create a standard of sections tag name
         parser = ParserPaper(html_str, debugging=False)
-        parser.create_tag_sections()
+        parser.change_name_tag_sections()
         return parser.raw_html
 
 
-class RSCCreateTagAbstract(RuleIngredient):
-
-    @staticmethod
-    def _parse(html_str):
-        # Create tag from selection function in ParserPaper
-        parser = ParserPaper(html_str, debugging=False)
-        parser.create_tag_from_selection(
-            rule={'name': 'p', 'class': 'abstract'},
-            name_new_tag='h2'
-        )
-        parser.save_soup_to_file('RSCCreateTagAbstract.html', prettify=True)
-        return parser.raw_html
-
-
-class RSCCollect(RuleIngredient):
+class ECSCollect(RuleIngredient):
 
     @staticmethod
     def _parse(html_str):
@@ -73,8 +59,7 @@ class RSCCollect(RuleIngredient):
             ]
         )
         # Create tag from selection function in ParserPaper
-        parameters = {'name': parser.compile('^section_h[1-6]'), 'recursive': False}
-        parser.deal_with_sections(parameters)
+        parser.deal_with_sections()
         result = {
             'Title': parser.title,
             'Keywords': parser.keywords,
@@ -83,9 +68,8 @@ class RSCCollect(RuleIngredient):
         return result
 
 
-RSCSoup = Soup()
-RSCSoup.add_ingredient(RSCRemoveTrash)
-RSCSoup.add_ingredient(RSCCreateTags)
-RSCSoup.add_ingredient(RSCCreateTagAbstract)
-RSCSoup.add_ingredient(RSCCollect)
+ECSSoup = Soup()
+ECSSoup.add_ingredient(ECSRemoveTrash)
+ECSSoup.add_ingredient(ECSCreateTags)
+ECSSoup.add_ingredient(ECSCollect)
 

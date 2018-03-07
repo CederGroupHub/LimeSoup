@@ -38,7 +38,7 @@ class SoupBase(object):
         if self._next:
             self._next.add_ingredient(ingredient)
         else:
-            self._next = ingredient()  # Initiate here?
+            self._next = ingredient()
 
 
 class Soup(SoupBase):

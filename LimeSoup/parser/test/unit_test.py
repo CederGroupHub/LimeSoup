@@ -22,24 +22,11 @@ __date__ = "May 20 2017"
 import unittest
 import argparse
 
-from LimeSoup.ECSSoup import ECSSoup
-import json
 
-
-class TestKnownValuesOffline(unittest.TestCase):
+class test1_offline(query_mp_database.query_mp_database):
     # Test a list of html files from paper of different publishers, future...
-    # Create a instance with a emulated method to create a test set offline
-    from LimeSoup.ECSSoup import ECSSoup
 
-    # This a test for known values, other tests can be included.
-    def test_ECSSoup_parser(self):
-        """parser should give known result with known input"""
-        for k in range(1, 2):
-            know_value = json.load(open('ecs_papers/paper{:}.json'.format(k)))
-            with open('ecs_papers/paper{:}.html'.format(k), 'r') as fd:
-                html_str = fd.read()
-            result = ECSSoup.parse(html_str)
-            self.assertEqual(know_value, result)
+    files = []
 
 
 if __name__ == '__main__':
@@ -54,10 +41,10 @@ if __name__ == '__main__':
     args = parser.parse_args()
     if args.ARG1 is None:
         ARG1 = args.ARG1
-    if ARG1 is not None:
+    if len(ARG1) > 0:
         print("Performing online test!")
     else:
         print("Performing just offline test!")
     print("\nPerforming offline test!")
-    suite = unittest.TestLoader().loadTestsFromTestCase(TestKnownValuesOffline)
+    suite = unittest.TestLoader().loadTestsFromTestCase(test1_offline)
     unittest.TextTestRunner().run(suite)
