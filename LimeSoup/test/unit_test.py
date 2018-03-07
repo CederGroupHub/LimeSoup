@@ -1,14 +1,13 @@
 #!/usr/bin/env python
 
 """
-unit_test script is a script to test the parser_paper class.
-Future to be implementated, this is file is from an old
-implementation for a different problem.
+unit_test script is a script to test the Soup classes.
+Implemented for ECSSoup and its ingredients.
+Future:
+    -> Implemented for RCSSoup and its ingredients.
 
 Use:
-    python 
-
-
+    python unit_test.py
 
 """
 
@@ -23,19 +22,36 @@ import unittest
 import argparse
 
 import json
+import bs4
 
 from LimeSoup.ECSSoup import ECSSoup, ECSRemoveTrash, ECSCreateTags, ECSCollect
 from LimeSoup.lime_soup import Soup
-
+from LimeSoup.parser.parser_paper import ParserPaper
 
 # from LimeSoup.lime_soup import RuleIngredient
 # from LimeSoup.parser.parser_paper import ParserPaper
 
 
+class TestFunctions(unittest.TestCase):
+
+    def number_of_section(self):
+        parse = ParserPaper()
+        soup = bs4.BeautifulSoup("{:}".format(raw_html), "lxml-xml")
+        know_value = soup.find_all(parse.compile('^h[1-6]$'))
+        result = parse.number_headings
+        self.assertEqual(know_value, result)
+
+    def number_of_paragraphs(self):
+        parse = ParserPaper()
+        soup = bs4.BeautifulSoup("{:}".format(raw_html), "lxml-xml")
+        know_value = soup.find_all(parse.compile('^h[1-6]$'))
+        result = parse.number_paragraphs
+        self.assertEqual(know_value, result)
+
+
 class TestKnownValuesOffline(unittest.TestCase):
     # Test a list of html files from paper of different publishers, future...
     # Create a instance with a emulated method to create a test set offline
-
     # This a test for known values, other tests can be included.
     def test_ECSSoup_parser(self):
         """parser should give known result with known input"""
