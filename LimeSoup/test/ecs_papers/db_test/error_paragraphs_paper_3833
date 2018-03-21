@@ -1,0 +1,35 @@
+from test: 0 Abstract not Available.
+from Soup: 0 Abstract not Available.
+ ###### 
+from test: 1 This work was supported by the University of Virginia and the National Science Foundation IGERT Program under grant no. 9972790 and the NSF CREST Project HRD-9805059.
+from Soup: 1 Several errors in Table I have been brought to my attention. 1 In the process of checking the values listed in Table I , I have reanalyzed all of the fits to ensure the accuracy of the values. Several changes to Table I have been made, either correcting typographical errors or reflecting improved fits. The changes are summarized as follows
+ ###### 
+from test: 2 Several errors in Table I have been brought to my attention.1 In the process of checking the values listed in Table I, I have reanalyzed all of the fits to ensure the accuracy of the values. Several changes to Table I have been made, either correcting typographical errors or reflecting improved fits. The changes are summarized as follows
+from Soup: 2 0.1–6molkg−1 HF : Improved coefficients for F− and H2F3− and corrected coefficients for HF2− .
+ ###### 
+from test: 3 0.1–6molkg−1 HF
+from Soup: 3 0.1–5molkg−1HF+0.1molkg−1HCl : Range corrected to 0.1–5molkg−1 HF and H2F2− should read HF2− .
+ ###### 
+from test: 4 : Improved coefficients for F− and H2F3− and corrected coefficients for HF2− .
+from Soup: 4 0.1–6molkg−1HF+0.5molkg−1NaF : Improved coefficients for H+ .
+ ###### 
+from test: 5 0.1–5molkg−1HF+0.1molkg−1HCl
+from Soup: 5 0.1–2molkg−1 KHF2 : Improved coefficients for H+ and F− .
+ ###### 
+from test: 6 : Range corrected to 0.1–5molkg−1 HF and H2F2− should read HF2− .
+from Soup: 6 0.1–2molkg−1 93%NH4HF2+6%NH4F : The previous values were only valid from 0.1–1.3molkg−1 , whereas the new values are valid for the range 0.1–2molkg−1 .
+ ###### 
+from test: 7 0.1–6molkg−1HF+0.5molkg−1NaF
+from Soup: 7 1molkg−1NaF+0.1–2molkg−1HCl
+ ###### 
+from test: 8 : Improved coefficients for H+ .
+from Soup: 8 The natural logarithms of the activities of H+ and F− are fitted to the formal concentration of HCl initially added to the solution, [HCl]0 , not ln[HCl]0 .
+ ###### 
+from test: 9 0.1–2molkg−1 KHF2
+from Soup: 9 This work was supported by the University of Virginia and the National Science Foundation IGERT Program under grant no. 9972790 and the NSF CREST Project HRD-9805059.
+ ###### 
+from test: 10 : Improved coefficients for H+ and F− .
+from test: 11 0.1–2molkg−1 93%NH4HF2+6%NH4F
+from test: 12 : The previous values were only valid from 0.1–1.3molkg−1 , whereas the new values are valid for the range 0.1–2molkg−1 .
+from test: 13 1molkg−1NaF+0.1–2molkg−1HCl
+from test: 14 The natural logarithms of the activities of H+ and F− are fitted to the formal concentration of HCl initially added to the solution, [HCl]0 , not ln[HCl]0 .

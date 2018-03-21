@@ -22,16 +22,19 @@ import bs4
 
 import LimeSoup.parser.tools as tl
 
+
 class ParserSections(object):
     number_paragraphs = 0
     number_heading = 0
     list_heading = []
 
-    def __init__(self, soup, parameters, debugging=False):
-        parser_types = ['html.parser', 'lxml', 'html5lib', 'lxml-xml']
-        self.soup = bs4.BeautifulSoup(repr(soup), parser_types[-1])
+    def __init__(self, soup, parameters, debugging=False, parser_type='lxml-xml'):
+        # parser_types = ['html.parser', 'lxml', 'html5lib', 'lxml-xml']
+        self.parser_type = parser_type
+        self.soup = bs4.BeautifulSoup(repr(soup), parser_type)
         self.soup1 = list(self.soup.children)
         if len(self.soup1) != 1:
+            #self.save_soup_to_file('some_thing_wrong_chieldren.html')
             warnings.warn(' Some think is wrong in children!=1')
             exit()
         self.soup1 = self.soup1[0]
@@ -42,15 +45,35 @@ class ParserSections(object):
         self.paragraphs = list()
         self.content_section = None
         self.data = list()
+
         for item in self.soup1.find_all(**parameters):
             for content in item.contents:
                 self.content = content
-                if self.content.name is not None:
-                    if self.sub_section_name in self.content.name:
+                if self.content.name is not None:  # deal with empty content
+                    if self.sub_section_name in self.content.name:  # standard sections <section_h#>
                         self._create_sub_division()
                     else:
                         self._deal()
         self.data.append(self.content_section)
+        lost_section = {
+            'type': 'lost_content'
+            , 'name': 'lost_content'
+            , 'content': []
+        }
+        save_lost = False
+        tags_lost = self.soup1.find_all()
+        for tag in tags_lost:
+            text1 = tl.convert_to_text(tag.get_text())
+            if len(text1) > 0:
+                save_lost = True
+                lost_section['content'].append(text1)
+            tag.extract()
+        text1 = tl.convert_to_text(self.soup1.get_text())
+        if len(text1) > 0:
+            save_lost = True
+            lost_section['content'].append(text1)
+        if save_lost:
+            self.data.append(lost_section)
 
     def _deal(self):
         method_name = '_deal_' + str(self.content.name)
@@ -125,7 +148,7 @@ class ParserSections(object):
             )
         # create a parent aux-tag
         self._wrap_bs(self.content, self.soup.new_tag('aux-tag'))
-        parse_intern = ParserSections(self.content.parent, self.parameters)
+        parse_intern = ParserSections(self.content.parent, self.parameters, parser_type=self.parser_type)
         self.content_section['content'].append(parse_intern.data)
         del parse_intern
         self.content.extract()

@@ -9,6 +9,7 @@ __maintainer__ = "Tiago Botari"
 __email__ = "tiagobotari@gmail.com"
 __date__ = "Mar 12 2018"
 
+
 def convert_to_text(text_input):
     # import unicodedata
     text = text_input.rstrip()

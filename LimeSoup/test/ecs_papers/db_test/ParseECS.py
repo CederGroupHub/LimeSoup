@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
     data_list = list(coll_paper_raw_html.find({"Publisher": "ECS"}).limit(5000))
     fd = open('problems.txt', 'w')
-    for i_paper in range(520,  5000, 1):
+    for i_paper in range(3833, 5000, 1):
         data = data_list[i_paper]
         id_paper = data["_id"]
         print("Dealing with paper number: {}".format(i_paper))
@@ -38,6 +38,7 @@ if __name__ == '__main__':
         data = data_complete['obj']
         plan_data = tl.n_paragraphs_sections(data)
         parser_tb = parser.ParserPaper(html_str, debugging=True)
+        parser_tb.save_soup_to_file('original.html')
         list_remove = [
             {'name': 'div', 'class_': 'section-nav'},  # Navigation buttons
             {'name': 'div', 'class_': 'contributors'},  # Authors
@@ -53,6 +54,14 @@ if __name__ == '__main__':
             {'name': 'div', 'id': 'license-1'}
         ]
         parser_tb.remove_tags(rules=list_remove)
+        rules = [
+            {'name': 'span', 'class': 'highwire-journal-article-marker-start'},
+            {'name': 'ul', 'class': 'epreprint-list'}
+        ]
+        parser_tb.strip_tags(rules)
+
+        parser_tb.save_soup_to_file('clean_paper.html')
+        print(' Create from parser_tb!!!!')
         parser_tb.create_tag_to_paragraphs_inside_tag(
             rule={'name': 'div', 'class': 'article fulltext-view'},
             name_new_tag='h2',
@@ -73,27 +82,45 @@ if __name__ == '__main__':
             print(len(parser_tb.paragraphs), len(plan_data['paragraphs']))
             fd.write('problem paragraphs paper i: {}\n'.format(i_paper))
             # input('problem paragraphs')
+            with open('error_paragraphs_paper_{}'.format(i_paper), 'w') as fd1:
+                for i, heading_i in enumerate(parser_tb.paragraphs):
+                    try:
+                        fd1.write('from test: {} {}\n'.format(i, parser_tb.paragraphs[i]))
+                        fd1.write('from Soup: {} {}\n'.format(i, plan_data['paragraphs'][i]))
+                        fd1.write(" ###### \n")
+                    except:
+                        continue
+
         if len(parser_tb.headings) > len(plan_data['headings']):
             data['problem'] = True
             data['problem_h'] = True
             print(len(parser_tb.headings), len(plan_data['headings']))
             fd.write('problem headings paper i: {}\n'.format(i_paper))
+            with open('error_headings_paper_{}'.format(i_paper), 'w') as fd1:
+                for i, heading_i in enumerate(parser_tb.headings):
+                    try:
+                        fd1.write('{} {}\n'.format(i, parser_tb.paragraphs[i]))
+                        fd1.write('{} {}\n'.format(i, plan_data['paragraphs'][i]))
+                        fd1.write("###### \n")
+                    except:
+                        continue
             # input('problem headings')
         # saving data to the database
         new_data_id = coll_parser_papers.insert_one(data).inserted_id
+        print('Save!!!')
+        #       lost_paragraphs = list()
+            #       for i, heading_i in enumerate(parser_tb.paragraphs):
+            #           if heading_i not in plan_data['paragraphs']:
+            #               lost_paragraphs.append(heading_i)
         """
-        for i, heading_i in enumerate(plan_data['headings']):
-            print(i, heading_i)
-        print(" ###### ")
-        for i, heading_i in enumerate(parser_tb.headings):
-            print(i, heading_i)
-        """
-        for i, heading_i in enumerate(parser_tb.paragraphs):
-            #try:
-                print(i, parser_tb.paragraphs[i])
-                print(i, plan_data['paragraphs'][i])
-                print(" ###### ")
-            #except:
-            #    print('error!!!')
+            try:
+                print('from test: {} {}\n'.format(i, parser_tb.paragraphs[i]))
+                print('from Soup: {} {}\n'.format(i, plan_data['paragraphs'][i]))
+                print(" ###### \n")
+            except:
+                continue
+            """
+#        print('----->', len(parser_tb.paragraphs), len(plan_data['paragraphs']))
         if 'problem' in data.keys():
             input('continue...')
+

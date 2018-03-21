@@ -31,10 +31,17 @@ class ECSRemoveTrash(RuleIngredient):
             {'name': 'div', 'class_': 'table-caption'},  # Caption Table
             {'name': 'div', 'class_': 'table-inline'},  # Table in line
             {'name': 'div', 'id': 'fn-group-1'},  # Footnotes
-            {'name': 'div', 'id': 'license-1'}  # License
+            {'name': 'div', 'id': 'license-1'},  # License
+            {'name': 'ul', 'class': 'history-list'},  # some historical information of the paper
+            {'name': 'ul', 'class': 'copyright-statement'}
         ]
         parser = ParserPaper(html_str, debugging=False)
         parser.remove_tags(rules=list_remove)
+        rules = [
+            {'name': 'span', 'class': 'highwire-journal-article-marker-start'},
+            {'name': 'ul', 'class': 'epreprint-list'}
+        ]
+        parser.strip_tags(rules)
         return {'obj': obj, 'html_txt': parser.raw_html}
 
 
@@ -65,18 +72,42 @@ class ECSCreateTags(RuleIngredient):
         # This create a standard of sections tag name
         parser = ParserPaper(html_str, debugging=False)
         parser.change_name_tag_sections()
+        #  Create the Introduction section.
         parser.create_tag_to_paragraphs_inside_tag(
             rule={'name': 'div', 'class': parser.compile('article fulltext-view')},
             name_new_tag='h2',
             name_section='Introduction(guess)'
         )
-        # the follow line is to solve the problem of sections that contain only section
-        parser.strip_tags(rules=[
+        return {'obj': obj, 'html_txt': parser.raw_html}
+
+
+class ECSDealDivWithNoHeading(RuleIngredient):
+
+    @staticmethod
+    def _parse(parser_obj):
+        html_str = parser_obj['html_txt']
+        obj = parser_obj['obj']
+        parser = ParserPaper(html_str, debugging=False)
+        #  Remove the content inside of empty div tags for ECS
+        # TODO: Need to improve, the recovered paragraphs go to wrong section.
+        rules = [
             {'name': 'div', 'class': 'subsection'},
             {'name': 'div', 'class': 'section'}
-        ])
-        #parser.rename_tag(rule={'name': 'div', 'class': 'subsection'}, new_name='section_h4')
-        parser.save_soup_to_file('test_inside_ECSSOUP.html')
+        ]
+        for rule in rules:
+            tags = parser.soup.find_all(**rule)
+            for tag in tags:
+                tag_close_sibling = tag
+                while True:
+                    tag_close_sibling = tag_close_sibling.previous_sibling
+                    if tag_close_sibling is None:
+                        break
+                    if tag_close_sibling.name is None:
+                        continue
+                    if 'section_h' in tag_close_sibling.name:
+                        tag_close_sibling.append(tag)
+                        break
+        parser.strip_tags(rules)
         return {'obj': obj, 'html_txt': parser.raw_html}
 
 
@@ -98,5 +129,6 @@ ECSSoup = Soup()
 ECSSoup.add_ingredient(ECSRemoveTrash())
 ECSSoup.add_ingredient(ECSCollectTitleKeywords())
 ECSSoup.add_ingredient(ECSCreateTags())
+ECSSoup.add_ingredient(ECSDealDivWithNoHeading())
 ECSSoup.add_ingredient(ECSCollect())
 
