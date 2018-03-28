@@ -40,7 +40,11 @@ if __name__ == '__main__':
     coll_paper_raw_html = db["Paper_Raw_HTML"]
     coll_parser_papers = db["Parsered_Paper"]
 
-    data_list = list(coll_paper_raw_html.find({"Publisher": "RSC"}).limit(5000))
+    data_list = list(coll_paper_raw_html.find())  # {"Publisher": "RSC"}
+
+    print(len(data_list))
+
+    exit()
     fd = open('problems.txt', 'w')
 
     # for i_paper in range(5000):
@@ -160,3 +164,29 @@ if __name__ == '__main__':
 #        if 'problem' in data.keys():
 #            input('continue...')
 
+
+def data1():
+    for raw_doc in tqdm(raw_col.find(), total=raw_col.find().count()):
+        if "parsed" in raw_doc and \
+                raw_doc["parsed"] and \
+                StrictVersion(raw_doc["parser_version"]) >= StrictVersion(parser_version):
+            pass
+    else:
+        parsed_doc = None
+    try:
+        if raw_doc['Publisher'] == "ECS":
+            parsed_doc = ECSSoup.parse(raw_doc['Paper_Raw_HTML'])['obj']
+    elif raw_doc['Publisher'] == "RSC":
+    parsed_doc = RSCSoup.parse(raw_doc['Paper_Raw_HTML'])['obj']
+    if parsed_doc is not None:
+        parsed_doc['DOI'] = raw_doc['DOI']
+    parsed_doc["parser_version"] = parser_version
+    parsed_col.replace_one({'DOI': raw_doc["DOI"].strip()}, parsed_doc, upsert=True)
+    raw_doc["parsed"] = True
+    except Exception as e:
+    raw_doc["parsed"] = False
+    raw_doc["err_msg"] = str(e)
+    logging.warning("Failed to parse " + raw_doc['DOI'] + ": " + str(e))
+    raw_doc["parser_version"] = parser_version
+    raw_col.replace_one({'DOI': raw_doc["DOI"].strip()}, raw_doc)
+    logging.info("Finished Parsing Raw HTML")

@@ -141,7 +141,7 @@ class ParserPaper:
         :return: None
         """
         for rule in rules:
-            [s.extract() for s in self.soup.find_all(**rule, limit=1)]
+            [s.extract() for s in self.soup.find_all(limit=1, **rule)]
 
     @property
     def headings_orig(self):
