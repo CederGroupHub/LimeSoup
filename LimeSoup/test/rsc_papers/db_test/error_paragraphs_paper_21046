@@ -1,0 +1,414 @@
+From cou.: 0 Journal
+From Soup: 0 Phys. Chem. Chem. Phys.
+ ###### 
+From cou.: 1 We study the electron transmission through a Coulomb blockaded quantum emitter coupled to metal nanoparticles possessing plasmon resonances by employing the time-dependent non-crossing approximation. We find that the coupling of the nanoparticle plasmons with the excitons results in a significant enhancement of the conductance through the discrete state with higher energy beyond the unitarity limit while the other discrete state with lower energy remains Coulomb blockaded. We show that boosting the plasmon–exciton coupling well below the Kondo temperature increases the enhancement adding another quantum of counductance upon saturation. Finite bias and increasing emitter resonance energy tend to reduce this enhancement. We attribute these observations to the opening of an additional transport channel via the plasmon–exciton coupling.
+From Soup: 1 We study the electron transmission through a Coulomb blockaded quantum emitter coupled to metal nanoparticles possessing plasmon resonances by employing the time-dependent non-crossing approximation. We find that the coupling of the nanoparticle plasmons with the excitons results in a significant enhancement of the conductance through the discrete state with higher energy beyond the unitarity limit while the other discrete state with lower energy remains Coulomb blockaded. We show that boosting the plasmon–exciton coupling well below the Kondo temperature increases the enhancement adding another quantum of counductance upon saturation. Finite bias and increasing emitter resonance energy tend to reduce this enhancement. We attribute these observations to the opening of an additional transport channel via the plasmon–exciton coupling.
+ ###### 
+From cou.: 2 Elements like lenses that concentrate optical energy into spatial regions much smaller than the wavelength of light have been in high demand for a long time in order to be able to keep up with the ever shrinking size of the state-of-the-art electronic devices and design high performance miniature optoelectronic components. Realization of tunable plasmon resonances in metal nanoparticles via optical excitations1 provided a major breakthrough towards this end. These plasmon resonances generate tremendous field enhancements around the metal nanoparticles.2 This feature opens a new avenue by enabling coupling between the metal nanoparticles and nearby quantum impurities like dots or molecules.
+From Soup: 2 Elements like lenses that concentrate optical energy into spatial regions much smaller than the wavelength of light have been in high demand for a long time in order to be able to keep up with the ever shrinking size of the state-of-the-art electronic devices and design high performance miniature optoelectronic components. Realization of tunable plasmon resonances in metal nanoparticles via optical excitations 1 provided a major breakthrough towards this end. These plasmon resonances generate tremendous field enhancements around the metal nanoparticles. 2 This feature opens a new avenue by enabling coupling between the metal nanoparticles and nearby quantum impurities like dots or molecules.
+ ###### 
+From cou.: 3 An entangled two-level quantum emitter located between two plasmonic nanoparticles can be considered as a prototype for a two qubit quantum computer.3 Therefore, it is of great interest to understand how a direct coupling of nanoparticle plasmons with the excitons in the quantum emitter influences the spin dependent electron transport through this device. The term plexcitonics has been coined for the hybrid light-matter states involving plasmon–exciton couplings4 and it is thought to be the first stride towards future tunable molecular systems5 and plasmonic switches.6
+From Soup: 3 An entangled two-level quantum emitter located between two plasmonic nanoparticles can be considered as a prototype for a two qubit quantum computer. 3 Therefore, it is of great interest to understand how a direct coupling of nanoparticle plasmons with the excitons in the quantum emitter influences the spin dependent electron transport through this device. The term plexcitonics has been coined for the hybrid light-matter states involving plasmon–exciton couplings 4 and it is thought to be the first stride towards future tunable molecular systems 5 and plasmonic switches. 6
+ ###### 
+From cou.: 4 Observation of the Fano resonance in plexcitonic systems7 necessitated the development of a full quantum theory for electron transport across such a junction by taking into account the electron spin and the Coulomb interaction explicitly. Initial attempts utilized time-dependent density functional theory8 and a semiclassical model involving the incorporation of quantum coherent electron tunnelling into a classical electromagnetic framework9 by completely ignoring the plasmon–exciton coupling and spin effects. Subsequent studies employed more intricate Green function methods to demonstrate that only the dipolar plasmon mode is relevant in the strong coupling regime.10 The same method has been used to investigate the exciton transfer through a collection11 and a chain12 of quantum emitters near a metallic nanoparticle.
+From Soup: 4 Observation of the Fano resonance in plexcitonic systems 7 necessitated the development of a full quantum theory for electron transport across such a junction by taking into account the electron spin and the Coulomb interaction explicitly. Initial attempts utilized time-dependent density functional theory 8 and a semiclassical model involving the incorporation of quantum coherent electron tunnelling into a classical electromagnetic framework 9 by completely ignoring the plasmon–exciton coupling and spin effects. Subsequent studies employed more intricate Green function methods to demonstrate that only the dipolar plasmon mode is relevant in the strong coupling regime. 10 The same method has been used to investigate the exciton transfer through a collection 11 and a chain 12 of quantum emitters near a metallic nanoparticle.
+ ###### 
+From cou.: 5 Despite all these efforts, incorporation of strong electron correlations into plexcitonics by accounting for the electron spin remains missing to this day. We recently developed a many-body Green function theory for this system and showed that the Fano resonance arising due to the plasmon–exciton coupling is quenched for a Coulomb blockaded quantum emitter above the Kondo temperature of the discrete state with higher energy.13 In this paper, we will extend this formalism and investigate for the first time how strong electron correlations alter the electron transport for a Coulomb blockaded plexcitonic junction. It has already been shown that the plasmon-induced oscillating field within a single-molecule junction can boost the conductance outside the Coulomb blockade regime.14 Here, we will demonstrate for the first time that the conductance can also be significantly enhanced with a finite plasmon–exciton coupling at sufficiently low temperatures where the Coulomb blockade can be lifted with an exquisite many-body phenomenon called the Kondo effect.
+From Soup: 5 Despite all these efforts, incorporation of strong electron correlations into plexcitonics by accounting for the electron spin remains missing to this day. We recently developed a many-body Green function theory for this system and showed that the Fano resonance arising due to the plasmon–exciton coupling is quenched for a Coulomb blockaded quantum emitter above the Kondo temperature of the discrete state with higher energy. 13 In this paper, we will extend this formalism and investigate for the first time how strong electron correlations alter the electron transport for a Coulomb blockaded plexcitonic junction. It has already been shown that the plasmon-induced oscillating field within a single-molecule junction can boost the conductance outside the Coulomb blockade regime. 14 Here, we will demonstrate for the first time that the conductance can also be significantly enhanced with a finite plasmon–exciton coupling at sufficiently low temperatures where the Coulomb blockade can be lifted with an exquisite many-body phenomenon called the Kondo effect.
+ ###### 
+From cou.: 6 We consider a system which is comprised of a quantum emitter which can be represented by two discrete states located between two metal nanoparticles possessing plasmon resonances. This quantum emitter corresponds to a parallel-coupled double quantum dot in reality. A schematic illustration of this physical system is shown in Fig. 1. We can describe this system with the Hamiltonian given byHere, HN models the metal nanoparticles asand HEN corresponds to the plasmon–exciton couplingHE describes the quantum emitter aswhereas VE describes the electron tunneling between the quantum emitter and the metal nanoparticles
+From Soup: 6 We consider a system which is comprised of a quantum emitter which can be represented by two discrete states located between two metal nanoparticles possessing plasmon resonances. This quantum emitter corresponds to a parallel-coupled double quantum dot in reality. A schematic illustration of this physical system is shown in Fig. 1 . We can describe this system with the Hamiltonian given by Here, H N models the metal nanoparticles as and H EN corresponds to the plasmon–exciton coupling H E describes the quantum emitter as whereas V E describes the electron tunneling between the quantum emitter and the metal nanoparticles
+ ###### 
+From cou.: 7 The radiation field is introduced via
+From Soup: 7 The radiation field is introduced via
+ ###### 
+From cou.: 8 In these expressions, (cKσ) is the creation(annihilation) operator for free electrons with spin σ in the metal nanoparticles while (csσ) is the electron creation(annihilation) operator in each spin degenerate discrete state within the quantum emitter. These spin degenerate states are denoted |g〉 and |e〉 whose energy difference is |εe − εg|. εα is the energy of the radiation field with mode α and εpK is the plasmon energy in the left (K = L) and right (K = R) metal nanoparticle. The amplitudes appearing in the fourth and sixth terms J and VK,g(e) are the electron tunneling (electron transfer) between the states |g〉 and |e〉 and between the metal nanoparticles and the state |s ∈ g,e〉 respectively. Besides, Wα,K and ΔK denote the amplitudes of coupling between the radiation field with mode α and the dipolar plasmons of each nanoparticle and between the exciton and the same dipolar plasmon modes. To simplify the above equations we denote the exciton annihilation and creation operators xσ and , respectively,
+From Soup: 8 In these expressions, ( c Kσ ) is the creation(annihilation) operator for free electrons with spin σ in the metal nanoparticles while ( c sσ ) is the electron creation(annihilation) operator in each spin degenerate discrete state within the quantum emitter. These spin degenerate states are denoted | g 〉 and | e 〉 whose energy difference is | ε e − ε g |. ε α is the energy of the radiation field with mode α and ε p K is the plasmon energy in the left ( K = L ) and right ( K = R ) metal nanoparticle. The amplitudes appearing in the fourth and sixth terms J and V K , g ( e ) are the electron tunneling (electron transfer) between the states | g 〉 and | e 〉 and between the metal nanoparticles and the state | s ∈ g , e 〉 respectively. Besides, W α , K and Δ K denote the amplitudes of coupling between the radiation field with mode α and the dipolar plasmons of each nanoparticle and between the exciton and the same dipolar plasmon modes. To simplify the above equations we denote the exciton annihilation and creation operators x σ and , respectively,
+ ###### 
+From cou.: 9 g
+From Soup: 9 g
+ ###### 
+From cou.: 10 e
+From Soup: 10 e
+ ###### 
+From cou.: 11 U
+From Soup: 11 U
+ ###### 
+From cou.: 12 n
+From Soup: 12 n
+ ###### 
+From cou.: 13 sσ
+From Soup: 13 sσ
+ ###### 
+From cou.: 14 Typically, the U term in the Hamiltonian overwhelms the other energy scales in this model owing to the confinement of the electrons within each state. This condition leads to U → ∞ which forbids double occupancy on both discrete states. We will deal with this situation by writing the electron operators acting on the states |g〉 and |e〉 in terms of a pseudofermion and a massless boson as
+From Soup: 14 Typically, the U term in the Hamiltonian overwhelms the other energy scales in this model owing to the confinement of the electrons within each state. This condition leads to U → ∞ which forbids double occupancy on both discrete states. We will deal with this situation by writing the electron operators acting on the states | g 〉 and | e 〉 in terms of a pseudofermion and a massless boson as
+ ###### 
+From cou.: 15 x
+From Soup: 15 x
+ ###### 
+From cou.: 16 mσ
+From Soup: 16 mσ
+ ###### 
+From cou.: 17 g
+From Soup: 17 g
+ ###### 
+From cou.: 18 e
+From Soup: 18 e
+ ###### 
+From cou.: 19 U
+From Soup: 19 U
+ ###### 
+From cou.: 20 H
+From Soup: 20 H
+ ###### 
+From cou.: 21 Following previous work,13,15 we assume that the incident laser is perpendicular to the axis connecting the metal nanoparticles. In this case, the metal nanoparticles absorb the photons of the incident laser in the same phase. Furthermore, we assume that the incident laser is not directly coupled to the quantum emitter and the sole pumping of the system occurs via a single laser mode ε0 which only excites the dipolar plasmon mode of the metal nanoparticles. Hence, the role of the plasmonic dimer is to store the energy delivered by the radiation field and transfer it to the quantum emitter via plasmon–exciton coupling. The J term in HE will be dropped in this situation since the quantum emitter is not allowed to absorb energy directly from the laser. These assumptions enable us to take the dipolar plasmon energy of each nanoparticle equal as εpL = εpL = εp. Similarly, symmetrical plasmon–exciton and plasmon–laser couplings will be considered such that ΔL = ΔR = Δ and W0,L = W0,R = W0.
+From Soup: 21 E
+ ###### 
+From cou.: 22 In order to investigate the nonequilibrium dynamics of this system, we invoke the time-ordered double-time Green functions defined as
+From Soup: 22 Following previous work, 13,15 we assume that the incident laser is perpendicular to the axis connecting the metal nanoparticles. In this case, the metal nanoparticles absorb the photons of the incident laser in the same phase. Furthermore, we assume that the incident laser is not directly coupled to the quantum emitter and the sole pumping of the system occurs via a single laser mode ε 0 which only excites the dipolar plasmon mode of the metal nanoparticles. Hence, the role of the plasmonic dimer is to store the energy delivered by the radiation field and transfer it to the quantum emitter via plasmon–exciton coupling. The J term in H E will be dropped in this situation since the quantum emitter is not allowed to absorb energy directly from the laser. These assumptions enable us to take the dipolar plasmon energy of each nanoparticle equal as ε p L = ε p L = ε p . Similarly, symmetrical plasmon–exciton and plasmon–laser couplings will be considered such that Δ L = Δ R = Δ and W 0, L = W 0, R = W 0 .
+ ###### 
+From cou.: 23 T
+From Soup: 23 In order to investigate the nonequilibrium dynamics of this system, we invoke the time-ordered double-time Green functions defined as
+ ###### 
+From cou.: 24 Since the plasmon–exciton coupling strength is typically two orders of magnitude smaller than the electron–electron interactions within the quantum emitter, it is possible to approach this problem by treating the plasmon–exciton coupling perturbatively. This can be accomplished by setting up Dyson equations for Brg(e), Grg(e) and , . These equations can be explicitly written as
+From Soup: 24 T
+ ###### 
+From cou.: 25 The pseudofermion and slave-boson self energies are required to solve these integro-differential equations. We invoke the non-crossing approximation (NCA) to express the self-energies and project them into QB,g(e) = 1 subspace. Dynamical quantities can be obtained quite accurately via NCA with the exception of very low temperatures and a finite magnetic field. The details of our self-energy calculations are presented in Appendix A extensively. Upon introducing16,17
+From Soup: 25 c
+ ###### 
+From cou.: 26 Similarly, slave-boson Green functions can be determined by solving the Dyson equations which are written employing the projected self-energies as
+From Soup: 26 Since the plasmon–exciton coupling strength is typically two orders of magnitude smaller than the electron–electron interactions within the quantum emitter, it is possible to approach this problem by treating the plasmon–exciton coupling perturbatively. This can be accomplished by setting up Dyson equations for B r g ( e ) , G r g ( e ) and , . These equations can be explicitly written as
+ ###### 
+From cou.: 27 g
+From Soup: 27 The pseudofermion and slave-boson self energies are required to solve these integro-differential equations. We invoke the non-crossing approximation (NCA) to express the self-energies and project them into Q B , g ( e ) = 1 subspace. Dynamical quantities can be obtained quite accurately via NCA with the exception of very low temperatures and a finite magnetic field. The details of our self-energy calculations are presented in Appendix A extensively. Upon introducing 16,17
+ ###### 
+From cou.: 28 e
+From Soup: 28 Similarly, slave-boson Green functions can be determined by solving the Dyson equations which are written employing the projected self-energies as
+ ###### 
+From cou.: 29 17
+From Soup: 29 g
+ ###### 
+From cou.: 30 g
+From Soup: 30 e
+ ###### 
+From cou.: 31 e
+From Soup: 31 17
+ ###### 
+From cou.: 32 After solving the above-mentioned Dyson equations for the pseudofermion and slave-boson reterdad Green functions, we need to solve the related lesser Green functions for the pseudofermion and the slave-boson propagator using the Dyson equations given by
+From Soup: 32 g
+ ###### 
+From cou.: 33 13
+From Soup: 33 e
+ ###### 
+From cou.: 34 18
+From Soup: 34 After solving the above-mentioned Dyson equations for the pseudofermion and slave-boson reterdad Green functions, we need to solve the related lesser Green functions for the pseudofermion and the slave-boson propagator using the Dyson equations given by
+ ###### 
+From cou.: 35 The influence of ambient temperature is encoded in the Dyson equations explicitly through the Kernels given by eqn (A15) and implicitly through the pseudofermion and slave boson Green functions with a tilde on top which are calculated by utilizing the same Kernels. Moreover, the ambient temperature is also implicitly built into the plasmon Green functions which are determined by employing the same pseudofermion and slave boson Green functions with a tilde on top.13
+From Soup: 35 13
+ ###### 
+From cou.: 36 The Kondo effect is a quite subtle many-body effect that emerges when the discrete energy levels |g〉 and |e〉 lie below the Fermi level of the metal nanoparticles εf. It manifests itself in the density of states of each discrete level at sufficiently low temperatures as a very sharp resonance located slightly above the Fermi level of the metal nanoparticles εf with a linewidth on the order of
+From Soup: 36 18
+ ###### 
+From cou.: 37 D
+From Soup: 37 The influence of ambient temperature is encoded in the Dyson equations explicitly through the Kernels given by eqn (A15) and implicitly through the pseudofermion and slave boson Green functions with a tilde on top which are calculated by utilizing the same Kernels. Moreover, the ambient temperature is also implicitly built into the plasmon Green functions which are determined by employing the same pseudofermion and slave boson Green functions with a tilde on top. 13
+ ###### 
+From cou.: 38 T
+From Soup: 38 The Kondo effect is a quite subtle many-body effect that emerges when the discrete energy levels | g 〉 and | e 〉 lie below the Fermi level of the metal nanoparticles ε f . It manifests itself in the density of states of each discrete level at sufficiently low temperatures as a very sharp resonance located slightly above the Fermi level of the metal nanoparticles ε f with a linewidth on the order of
+ ###### 
+From cou.: 39 g
+From Soup: 39 D
+ ###### 
+From cou.: 40 e
+From Soup: 40 T
+ ###### 
+From cou.: 41 19
+From Soup: 41 K, g ( e )
+ ###### 
+From cou.: 42 Once the Dyson equations are solved properly, the last step is to obtain the electrical current flowing through the discrete states within the quantum emitter. Following the earlier general formalism,20 the current flowing from the left or right nanoparticle to either |g〉 or |e〉 is given by21
+From Soup: 42 19
+ ###### 
+From cou.: 43 The net current through each level is equal to the difference between the left and right currents and can be written for a symmetrically coupled system as
+From Soup: 43 Once the Dyson equations are solved properly, the last step is to obtain the electrical current flowing through the discrete states within the quantum emitter. Following the earlier general formalism, 20 the current flowing from the left or right nanoparticle to either | g 〉 or | e 〉 is given by 21
+ ###### 
+From cou.: 44 We start by investigating the electrical current through a quantum emitter whose singly occupied discrete states lie at εg = −4.8 eV and εe = −1.6 eV with respect to the Fermi level of the metal nanoparticles. We refer to these set of parameters as system 1. This choice yields an emitter resonance energy of 3.2 eV which amounts to the energy gap between the two discrete states. During our calculations for the plasmon Green functions, we take the dipolar plasmon energy εp = 3.49 eV, the laser bandwidth δ = 1 meV and coupling of the dipolar plasmon to the laser γ = 2π|W0|2 = 86 meV for the sake of consistency with the earlier optical absorption studies.13,15
+From Soup: 44 The net current through each level is equal to the difference between the left and right currents and can be written for a symmetrically coupled system as
+ ###### 
+From cou.: 45 We also assume that the left and right metal nanoparticles are identical and use the parabolic density of states with D = 9Γ in our calculations for simplicity. Furthermore, the coupling of the electrons in the discrete states to the metal nanoparticles is taken constant as = 0.2 eV and Γ = 0.8 eV. We would like to note that we have the ability to incorporate the realistic band structure of the metal nanoparticles into our calculations.21–23 Since this complexity significantly increases the computational cost, we leave it to the future studies.
+From Soup: 45 We start by investigating the electrical current through a quantum emitter whose singly occupied discrete states lie at ε g = −4.8 eV and ε e = −1.6 eV with respect to the Fermi level of the metal nanoparticles. We refer to these set of parameters as system 1. This choice yields an emitter resonance energy of 3.2 eV which amounts to the energy gap between the two discrete states. During our calculations for the plasmon Green functions, we take the dipolar plasmon energy ε p = 3.49 eV, the laser bandwidth δ = 1 meV and coupling of the dipolar plasmon to the laser γ = 2π| W 0 | 2 = 86 meV for the sake of consistency with the earlier optical absorption studies. 13,15
+ ###### 
+From cou.: 46 We only explore the electrical current through |e〉 because the electrical current flowing through |g〉 remains zero for any attainable ambient temperature as long as the emitter resonance energy is around the dipolar plasmon energy since the Kondo temperature of |g〉 is essentially zero in this case. Therefore, the only electrical current flowing in the circuit goes through |e〉. The conductance of system 1 is depicted in Fig. 2 as a function of the ambient temperature for various values of the plasmon–exciton coupling Δ which is taken to be equal for the left and right metal nanoparticles due to the symmetry. We estimate that the Kondo temperature of |e〉 is around 23 K for this system.
+From Soup: 46 We also assume that the left and right metal nanoparticles are identical and use the parabolic density of states with D = 9 Γ in our calculations for simplicity. Furthermore, the coupling of the electrons in the discrete states to the metal nanoparticles is taken constant as = 0.2 eV and Γ = 0.8 eV. We would like to note that we have the ability to incorporate the realistic band structure of the metal nanoparticles into our calculations. 21–23 Since this complexity significantly increases the computational cost, we leave it to the future studies.
+ ###### 
+From cou.: 47 Fig. 2 clearly shows that our conductance results in the absence of any plasmon–exciton coupling perfectly match the earlier results calculated for a single quantum dot in the Kondo regime.24 This serves as a verification of the veracity of our approach. We then begin increasing the plasmon–exciton coupling gradually starting with Δ = 20 meV used previously for an optical absorption investigation.15 It is obvious from Fig. 2 that the finite plasmon–exciton coupling causes enhancement of the conductance at almost any ambient temperature with respect to the zero plasmon–exciton coupling case but the enhancement becomes particularly pronounced when the ambient temperature is around or falls below the Kondo temperature. We also boost the plasmon–exciton coupling to test the generality of the conductance enhancement. It can be easily seen from Fig. 2 that the conductance enhancement tends to increase with higher plasmon–exciton coupling values at any given ambient temperature. The most remarkable feature here is that the conductance saturates at twice the unitarity limit when the ambient temperature falls well below the Kondo temperature.
+From Soup: 47 We only explore the electrical current through | e 〉 because the electrical current flowing through | g 〉 remains zero for any attainable ambient temperature as long as the emitter resonance energy is around the dipolar plasmon energy since the Kondo temperature of | g 〉 is essentially zero in this case. Therefore, the only electrical current flowing in the circuit goes through | e 〉. The conductance of system 1 is depicted in Fig. 2 as a function of the ambient temperature for various values of the plasmon–exciton coupling Δ which is taken to be equal for the left and right metal nanoparticles due to the symmetry. We estimate that the Kondo temperature of | e 〉 is around 23 K for this system.
+ ###### 
+From cou.: 48 We then study how the position of the discrete state |e〉 with respect to the Fermi level of the metal nanoparticles alters the conductance results. Towards this end, we choose an emitter whose singly occupied discrete states are located at εg = −5.0 eV and εe = −1.8 eV. We refer to this configuration as system 2 which has the same emitter resonance energy with system 1. All other parameters for systems 1 and 2 are kept identical and we carry out the conductance calculations for system 2 as a function of ambient temperature. The results of this calculation are shown in Fig. 3 where we also superimpose the results from Fig. 2 for system 1. The Kondo temperature of εe in system 2 is estimated to be around 11 K. Therefore, we scale each system's results with respect to the Kondo temperature of εe in order to facilitate a direct comparison. One can quickly see from Fig. 3 the almost perfect scaling between the conductance results of systems 1 and 2.
+From Soup: 48 Fig. 2 clearly shows that our conductance results in the absence of any plasmon–exciton coupling perfectly match the earlier results calculated for a single quantum dot in the Kondo regime. 24 This serves as a verification of the veracity of our approach. We then begin increasing the plasmon–exciton coupling gradually starting with Δ = 20 meV used previously for an optical absorption investigation. 15 It is obvious from Fig. 2 that the finite plasmon–exciton coupling causes enhancement of the conductance at almost any ambient temperature with respect to the zero plasmon–exciton coupling case but the enhancement becomes particularly pronounced when the ambient temperature is around or falls below the Kondo temperature. We also boost the plasmon–exciton coupling to test the generality of the conductance enhancement. It can be easily seen from Fig. 2 that the conductance enhancement tends to increase with higher plasmon–exciton coupling values at any given ambient temperature. The most remarkable feature here is that the conductance saturates at twice the unitarity limit when the ambient temperature falls well below the Kondo temperature.
+ ###### 
+From cou.: 49 It is interesting to test whether changing the emitter resonance energy results in a deviation from the scaling we observe above. We choose an emitter with εg = −4.95 eV and εe = −1.6 eV for this purpose. We refer to this configuration as system 3 which has a slightly higher emitter resonance energy than system 1. We perform the conductance calculations through system 3 by keeping its other parameters the same as system 1. The results are shown in Fig. 4, where we also plot the data from system 1 as well for comparison. It is quite remarkable that an increase in the emitter resonance energy results in a drop in the conductance at temperatures below the Kondo temperature despite the fact that the Kondo temperature of |e〉 is equal for both systems. On the other hand, the conductance difference between systems 1 and 3 tends to decrease as the ambient temperature is increased and diminishes at temperatures much higher than the Kondo temperature.
+From Soup: 49 We then study how the position of the discrete state | e 〉 with respect to the Fermi level of the metal nanoparticles alters the conductance results. Towards this end, we choose an emitter whose singly occupied discrete states are located at ε g = −5.0 eV and ε e = −1.8 eV. We refer to this configuration as system 2 which has the same emitter resonance energy with system 1. All other parameters for systems 1 and 2 are kept identical and we carry out the conductance calculations for system 2 as a function of ambient temperature. The results of this calculation are shown in Fig. 3 where we also superimpose the results from Fig. 2 for system 1. The Kondo temperature of ε e in system 2 is estimated to be around 11 K. Therefore, we scale each system's results with respect to the Kondo temperature of ε e in order to facilitate a direct comparison. One can quickly see from Fig. 3 the almost perfect scaling between the conductance results of systems 1 and 2.
+ ###### 
+From cou.: 50 So far, all our calculations pertained to the infinitesimal voltage bias between the metal nanoparticles. One may wonder how applying finite bias effects the conductance enhancement we observe due to the finite plasmon–exciton coupling. Fig. 5 shows the results of our conductance calculations as a function of the voltage bias for system 1 at three different ambient temperatures assuming a finite plasmon–exciton coupling. It is clear from this figure that increasing the voltage bias reduces the conductance at all ambient temperatures but this effect is much more dramatic at temperatures below the Kondo temperature since the finite bias inhibits the Kondo resonance by splitting it into two distinct peaks located at each nanoparticle's Fermi level.24 Consequently, we can conclude that the finite bias tends to curb the conductance enhancement caused by the finite plasmon–exciton coupling to an extent that depends on the ambient temperature.
+From Soup: 50 It is interesting to test whether changing the emitter resonance energy results in a deviation from the scaling we observe above. We choose an emitter with ε g = −4.95 eV and ε e = −1.6 eV for this purpose. We refer to this configuration as system 3 which has a slightly higher emitter resonance energy than system 1. We perform the conductance calculations through system 3 by keeping its other parameters the same as system 1. The results are shown in Fig. 4 , where we also plot the data from system 1 as well for comparison. It is quite remarkable that an increase in the emitter resonance energy results in a drop in the conductance at temperatures below the Kondo temperature despite the fact that the Kondo temperature of | e 〉 is equal for both systems. On the other hand, the conductance difference between systems 1 and 3 tends to decrease as the ambient temperature is increased and diminishes at temperatures much higher than the Kondo temperature.
+ ###### 
+From cou.: 51 We repeat the conductance calculations of Fig. 5 for system 1 by using the same ambient temperatures and assuming a higher plasmon–exciton coupling in order to test the robustness of the reduction in the conductance enhancement. Our results are displayed in Fig. 6, which clearly demonstrates that the reduction in the conductance enhancement upon increasing the voltage bias is applicable to the elevated values of plasmon–exciton coupling as well. In fact, one can easily see that the enhancement in the conductance gets quenched more rapidly at temperatures below the Kondo temperature when the plasmon–exciton coupling increases.
+From Soup: 51 So far, all our calculations pertained to the infinitesimal voltage bias between the metal nanoparticles. One may wonder how applying finite bias effects the conductance enhancement we observe due to the finite plasmon–exciton coupling. Fig. 5 shows the results of our conductance calculations as a function of the voltage bias for system 1 at three different ambient temperatures assuming a finite plasmon–exciton coupling. It is clear from this figure that increasing the voltage bias reduces the conductance at all ambient temperatures but this effect is much more dramatic at temperatures below the Kondo temperature since the finite bias inhibits the Kondo resonance by splitting it into two distinct peaks located at each nanoparticle's Fermi level. 24 Consequently, we can conclude that the finite bias tends to curb the conductance enhancement caused by the finite plasmon–exciton coupling to an extent that depends on the ambient temperature.
+ ###### 
+From cou.: 52 All these observations suggest that the conductance enhancement due to the finite plasmon–exciton coupling is somehow intrinsically related to the existence of the Kondo resonance in the density of states of |e〉 because the enhancement starts to dwindle once the Kondo resonance gets inhibited gradually. Therefore, it is important to put forward a microscopic scenario to elucidate our conductance calculations. The electron transport mechanism is relatively straightforward in the absence of any plasmon–exciton coupling. In this case, the flow of electrons occurs solely through |e〉 via spin flips in the cotunneling regime. Since |g〉 lies too far away from the Fermi level of the metal nanoparticles, it remains firmly Coulomb blockaded. Consequently, it cannot contribute to the electron transport at all. This is identical to the case where a single quantum dot is attached to two metallic leads.24 There is only one channel available for the electron transport and the conductance saturates at one quantum of conductance G0 when the ambient temperature falls well below the Kondo temperature. Unsurprisingly, we recover those results precisely ignoring any plasmon–exciton coupling as one can see in Fig. 2.
+From Soup: 52 We repeat the conductance calculations of Fig. 5 for system 1 by using the same ambient temperatures and assuming a higher plasmon–exciton coupling in order to test the robustness of the reduction in the conductance enhancement. Our results are displayed in Fig. 6 , which clearly demonstrates that the reduction in the conductance enhancement upon increasing the voltage bias is applicable to the elevated values of plasmon–exciton coupling as well. In fact, one can easily see that the enhancement in the conductance gets quenched more rapidly at temperatures below the Kondo temperature when the plasmon–exciton coupling increases.
+ ###### 
+From cou.: 53 The situation becomes more complicated when the plasmon–exciton coupling is turned on. An electron occupying |g〉 must be able to jump to |e〉 when the plasmon is annihilated in one of the metal nanoparticles or vice versa for this mechanism to be active. Since the double occupancy is forbidden in each discrete level, this process is not possible in the sequential tunneling regime. Consequently, the plasmon–exciton coupling is unable to contribute to the electron transport unless the Kondo effect starts to play a role. On the other hand, the spin flip processes taking place at |e〉 becomes possible when the ambient temperature approaches or falls below the Kondo temperature of |e〉. In this cotunneling regime, annihilation of the plasmon in one of the metal nanoparticles can trigger the tunneling of an electron from |g〉 to |e〉 if an electron with the opposite spin vacates |e〉 momentarily by tunneling to one of the metal nanoparticles. Fig. 7 depicts the spin flip mechanism and the ensuing Kondo resonance at |e〉 due to the plasmon–exciton coupling alongside the configurations of the quantum emitter corresponding to systems 1, 2 and 3. This process arising purely due to the plasmon–exciton coupling generates an additional electron flow across the metal nanoparticles by opening up a new transport channel. This is why we see the saturation of the conductance at twice the quantum of conductance at temperatures well below the Kondo temperature of |e〉.
+From Soup: 53 All these observations suggest that the conductance enhancement due to the finite plasmon–exciton coupling is somehow intrinsically related to the existence of the Kondo resonance in the density of states of | e 〉 because the enhancement starts to dwindle once the Kondo resonance gets inhibited gradually. Therefore, it is important to put forward a microscopic scenario to elucidate our conductance calculations. The electron transport mechanism is relatively straightforward in the absence of any plasmon–exciton coupling. In this case, the flow of electrons occurs solely through | e 〉 via spin flips in the cotunneling regime. Since | g 〉 lies too far away from the Fermi level of the metal nanoparticles, it remains firmly Coulomb blockaded. Consequently, it cannot contribute to the electron transport at all. This is identical to the case where a single quantum dot is attached to two metallic leads. 24 There is only one channel available for the electron transport and the conductance saturates at one quantum of conductance G 0 when the ambient temperature falls well below the Kondo temperature. Unsurprisingly, we recover those results precisely ignoring any plasmon–exciton coupling as one can see in Fig. 2 .
+ ###### 
+From cou.: 54 The solutions of Dyson equations rely on the self-energy terms which involve the plasmon Green functions as well as the pseudofermion and slave boson Green functions. The electron transport mechanism which is governed by the solution of the Dyson equations depends on the formation and existence of the Kondo resonance in the density of states of |e〉 as well as the emitter resonance energy crucially because the emitter resonance energy influences the position and the shape of the Fano resonance in the optical absorption spectrum.15 This is reflected in the plasmon Green functions which come into play in our electron transport calculations by appearing in the self-energy terms of each Dyson equation. Systems 1 and 2 both have the same emitter resonance energy pinning their Fano resonance to the same spot in the optical absorption spectrum.15 Consequently their optical absorption spectra which involve the convolution of the Fourier transform of the plasmon Green function with the laser induced mode population show universal scaling with respect to the Kondo temperature of |e〉.13 The slave-boson and pseudofermion Green functions which originate from the solutions of separate single quantum dot problems are the only other factors appearing in the self-energy terms of Dyson equations and the electron transport has also been shown to exhibit universal scaling with respect to the Kondo temperature for a single quantum dot problem previously.18,24 Therefore, it should be expected that the conductance curves of systems 1 and 2 also overlap after scaling with respect to the Kondo temperature of |e〉 and this is indeed precisely what we observe in Fig. 3. This universal scaling of quantum transport in the Kondo regime has also been observed experimentally for various single molecule devices utilizing C60 and the Cu-containing transition metal complex as the active element25 albeit in the absence of any plasmon–exciton coupling.
+From Soup: 54 The situation becomes more complicated when the plasmon–exciton coupling is turned on. An electron occupying | g 〉 must be able to jump to | e 〉 when the plasmon is annihilated in one of the metal nanoparticles or vice versa for this mechanism to be active. Since the double occupancy is forbidden in each discrete level, this process is not possible in the sequential tunneling regime. Consequently, the plasmon–exciton coupling is unable to contribute to the electron transport unless the Kondo effect starts to play a role. On the other hand, the spin flip processes taking place at | e 〉 becomes possible when the ambient temperature approaches or falls below the Kondo temperature of | e 〉. In this cotunneling regime, annihilation of the plasmon in one of the metal nanoparticles can trigger the tunneling of an electron from | g 〉 to | e 〉 if an electron with the opposite spin vacates | e 〉 momentarily by tunneling to one of the metal nanoparticles. Fig. 7 depicts the spin flip mechanism and the ensuing Kondo resonance at | e 〉 due to the plasmon–exciton coupling alongside the configurations of the quantum emitter corresponding to systems 1, 2 and 3. This process arising purely due to the plasmon–exciton coupling generates an additional electron flow across the metal nanoparticles by opening up a new transport channel. This is why we see the saturation of the conductance at twice the quantum of conductance at temperatures well below the Kondo temperature of | e 〉.
+ ###### 
+From cou.: 55 On the other hand, the conductance curves for systems 1 and 3 differ slightly at temperatures around or below the Kondo temperature of |e〉 but start overlapping at high temperatures. This is again due to the difference in the position and the shape of the Fano resonance in the optical absorption spectra of the two systems. However, once the Kondo resonance starts to diminish at high temperatures so does the Fano resonance in the optical absorption spectrum13 and the optical absorption spectra of both systems consists of nothing but a plasmon resonance at elevated temperatures. This makes the plasmon Green functions identical for systems 1 and 3 and the overlap in the conductance curves is recovered in this limit.
+From Soup: 55 The solutions of Dyson equations rely on the self-energy terms which involve the plasmon Green functions as well as the pseudofermion and slave boson Green functions. The electron transport mechanism which is governed by the solution of the Dyson equations depends on the formation and existence of the Kondo resonance in the density of states of | e 〉 as well as the emitter resonance energy crucially because the emitter resonance energy influences the position and the shape of the Fano resonance in the optical absorption spectrum. 15 This is reflected in the plasmon Green functions which come into play in our electron transport calculations by appearing in the self-energy terms of each Dyson equation. Systems 1 and 2 both have the same emitter resonance energy pinning their Fano resonance to the same spot in the optical absorption spectrum. 15 Consequently their optical absorption spectra which involve the convolution of the Fourier transform of the plasmon Green function with the laser induced mode population show universal scaling with respect to the Kondo temperature of | e 〉. 13 The slave-boson and pseudofermion Green functions which originate from the solutions of separate single quantum dot problems are the only other factors appearing in the self-energy terms of Dyson equations and the electron transport has also been shown to exhibit universal scaling with respect to the Kondo temperature for a single quantum dot problem previously. 18,24 Therefore, it should be expected that the conductance curves of systems 1 and 2 also overlap after scaling with respect to the Kondo temperature of | e 〉 and this is indeed precisely what we observe in Fig. 3 . This universal scaling of quantum transport in the Kondo regime has also been observed experimentally for various single molecule devices utilizing C 60 and the Cu-containing transition metal complex as the active element 25 albeit in the absence of any plasmon–exciton coupling.
+ ###### 
+From cou.: 56 The advantage of having low temperature samples is to be able to investigate the influence of the spin flip dynamics associated with the formation of the Kondo resonance at or below the Kondo temperature on the electron transmission. The low ambient temperatures below the Kondo temperature reported in this paper can be accessed in an experiment by immersing the whole system in a cryostat.25 Bringing the discrete states of the quantum emitter closer to the Fermi level of the nanoparticles via a gate voltage constitutes a possible remedy for this difficulty since it increases the Kondo temperature. All the reported ambient temperatures also increase in this situation due to the scaling and this can reduce the reliance on a cryostat somewhat. Moreover, the formation of plasmons in metal nanoparticles requires illumination by a laser. This naturally leads to heating and may also be a serious impediment to reduce the ambient temperatures to the desired level experimentally. It has previously been shown that this inherent problem can be circumvented by using a laser whose pulse duration is much longer than 100 ps.26 This helps to diffuse the heat to the environment, thereby curtailing the temperature rise in the molecule–metal nanoparticle dimer system considerably.
+From Soup: 56 On the other hand, the conductance curves for systems 1 and 3 differ slightly at temperatures around or below the Kondo temperature of | e 〉 but start overlapping at high temperatures. This is again due to the difference in the position and the shape of the Fano resonance in the optical absorption spectra of the two systems. However, once the Kondo resonance starts to diminish at high temperatures so does the Fano resonance in the optical absorption spectrum 13 and the optical absorption spectra of both systems consists of nothing but a plasmon resonance at elevated temperatures. This makes the plasmon Green functions identical for systems 1 and 3 and the overlap in the conductance curves is recovered in this limit.
+ ###### 
+From cou.: 57 In this paper, we investigated the electrical current flowing through a Coulomb blockaded quantum emitter coupled to plasmonic metal nanoparticles by developing a novel many-body theory for the first time. We found that the plasmon–exciton coupling can serve as an enhancement for the conductance through this device by opening up a new transport channel at temperatures around or below the Kondo temperature of the discrete state lying closer to the Fermi level of the metal nanoparticles. It turned out that the application of finite bias between the metal nanoparticles and increasing the emitter resonance energy tend to suppress this enhancement. We proposed a detailed microscopic scheme to account for these peculiarities based on the spin flip processes which give rise to an intricate many-body state called the Kondo effect. We hope that our pioneering work will provide further excitement and motivation to carry out experiments at cryogenic temperatures which will hopefully provide a better understanding of plexcitonic systems.
+From Soup: 57 The advantage of having low temperature samples is to be able to investigate the influence of the spin flip dynamics associated with the formation of the Kondo resonance at or below the Kondo temperature on the electron transmission. The low ambient temperatures below the Kondo temperature reported in this paper can be accessed in an experiment by immersing the whole system in a cryostat. 25 Bringing the discrete states of the quantum emitter closer to the Fermi level of the nanoparticles via a gate voltage constitutes a possible remedy for this difficulty since it increases the Kondo temperature. All the reported ambient temperatures also increase in this situation due to the scaling and this can reduce the reliance on a cryostat somewhat. Moreover, the formation of plasmons in metal nanoparticles requires illumination by a laser. This naturally leads to heating and may also be a serious impediment to reduce the ambient temperatures to the desired level experimentally. It has previously been shown that this inherent problem can be circumvented by using a laser whose pulse duration is much longer than 100 ps. 26 This helps to diffuse the heat to the environment, thereby curtailing the temperature rise in the molecule–metal nanoparticle dimer system considerably.
+ ###### 
+From cou.: 58 The self energy of a pseudofermion within the quantum emitter due to the plasmon–exciton coupling is shown in Fig. 8. On the other hand, the self-energy of a pseudofermion due to emitter–nanoparticle coupling is shown in panel a of Fig. 10. Based on these diagrams, the unprojected lesser and greater pseudofermion self-energies for a pseudofermion residing in |g〉 can be written as a sum of contributions from panels a of Fig. 8 and 10, yielding
+From Soup: 58 In this paper, we investigated the electrical current flowing through a Coulomb blockaded quantum emitter coupled to plasmonic metal nanoparticles by developing a novel many-body theory for the first time. We found that the plasmon–exciton coupling can serve as an enhancement for the conductance through this device by opening up a new transport channel at temperatures around or below the Kondo temperature of the discrete state lying closer to the Fermi level of the metal nanoparticles. It turned out that the application of finite bias between the metal nanoparticles and increasing the emitter resonance energy tend to suppress this enhancement. We proposed a detailed microscopic scheme to account for these peculiarities based on the spin flip processes which give rise to an intricate many-body state called the Kondo effect. We hope that our pioneering work will provide further excitement and motivation to carry out experiments at cryogenic temperatures which will hopefully provide a better understanding of plexcitonic systems.
+ ###### 
+From cou.: 59 Similarly, the summation of contributions from panel b of Fig. 8 and panel a of Fig. 10 yields the unprojected lesser and greater self energies for a pseudofermion residing in |e〉 as
+From Soup: 59 The self energy of a pseudofermion within the quantum emitter due to the plasmon–exciton coupling is shown in Fig. 8 . On the other hand, the self-energy of a pseudofermion due to emitter–nanoparticle coupling is shown in panel a of Fig. 10 . Based on these diagrams, the unprojected lesser and greater pseudofermion self-energies for a pseudofermion residing in | g 〉 can be written as a sum of contributions from panels a of Fig. 8 and 10 , yielding
+ ###### 
+From cou.: 60 Since the retarded pseudo-fermion self-energy is defined as
+From Soup: 60 Similarly, the summation of contributions from panel b of Fig. 8 and panel a of Fig. 10 yields the unprojected lesser and greater self energies for a pseudofermion residing in | e 〉 as
+ ###### 
+From cou.: 61 The self energy of a slave-boson within the emitter due to the plasmon–exciton coupling is shown in Fig. 9. Moreover, the self-energy of a slave-boson due to emitter–nanoparticle coupling is shown in panel b of Fig. 10. Hence, the unprojected lesser and greater slave-boson self-energies for a slave-boson residing in |g〉 can be written as a sum of contributions from panel a of Fig. 9 and panel b of Fig. 10, yielding
+From Soup: 61 Since the retarded pseudo-fermion self-energy is defined as
+ ###### 
+From cou.: 62 In a similar fashion, the summation of contributions from panel b of Fig. 9 and panel b of Fig. 10 yield the unprojected lesser and greater self energies for a slave-boson in |e〉 as
+From Soup: 62 The self energy of a slave-boson within the emitter due to the plasmon–exciton coupling is shown in Fig. 9 . Moreover, the self-energy of a slave-boson due to emitter–nanoparticle coupling is shown in panel b of Fig. 10 . Hence, the unprojected lesser and greater slave-boson self-energies for a slave-boson residing in | g 〉 can be written as a sum of contributions from panel a of Fig. 9 and panel b of Fig. 10 , yielding
+ ###### 
+From cou.: 63 The retarded slave boson self-energy is defined as
+From Soup: 63 In a similar fashion, the summation of contributions from panel b of Fig. 9 and panel b of Fig. 10 yield the unprojected lesser and greater self energies for a slave-boson in | e 〉 as
+ ###### 
+From cou.: 64 After some manipulations, we end up with the unprojected retarded slave-boson self-energies as
+From Soup: 64 The retarded slave boson self-energy is defined as
+ ###### 
+From cou.: 65 and appearing in these expressions are defined in terms of the density of states of the metal nanoparticles with a half bandwidth of D as
+From Soup: 65 After some manipulations, we end up with the unprojected retarded slave-boson self-energies as
+ ###### 
+From cou.: 66 β
+From Soup: 66 and appearing in these expressions are defined in terms of the density of states of the metal nanoparticles with a half bandwidth of D as
+ ###### 
+From cou.: 67 ε
+From Soup: 67 β
+ ###### 
+From cou.: 68 V
+From Soup: 68 ε
+ ###### 
+From cou.: 69 K
+From Soup: 69 f
+ ###### 
+From cou.: 70 g
+From Soup: 70 V
+ ###### 
+From cou.: 71 e
+From Soup: 71 K , g ( e )
+ ###### 
+From cou.: 72 ε
+From Soup: 72 ε
+ ###### 
+From cou.: 73 V
+From Soup: 73 V
+ ###### 
+From cou.: 74 K
+From Soup: 74 K , g ( e )
+ ###### 
+From cou.: 75 g
+From Soup: 75 ε
+ ###### 
+From cou.: 76 e
+From Soup: 76 f
+ ###### 
+From cou.: 77 ε
+From Soup: 77 V
+ ###### 
+From cou.: 78 V
+From Soup: 78 K , g ( e )
+ ###### 
+From cou.: 79 K
+From Soup: 79 V
+ ###### 
+From cou.: 80 g
+From Soup: 80 K ′, g ( e )
+ ###### 
+From cou.: 81 e
+From Soup: 81 V
+ ###### 
+From cou.: 82 V
+From Soup: 82 K ′, e ( g )
+ ###### 
+From cou.: 83 K
+From Soup: 83 L , g ( e )
+ ###### 
+From cou.: 84 g
+From Soup: 84 R , g ( e )
+ ###### 
+From cou.: 85 e
+From Soup: 85 K
+ ###### 
+From cou.: 86 V
+From Soup: 86 >
+ ###### 
+From cou.: 87 K
+From Soup: 87 t
+ ###### 
+From cou.: 88 e
+From Soup: 88 t
+ ###### 
+From cou.: 89 g
+From Soup: 89 K
+ ###### 
+From cou.: 90 L
+From Soup: 90 <
+ ###### 
+From cou.: 91 g
+From Soup: 91 t
+ ###### 
+From cou.: 92 e
+From Soup: 92 t
+ ###### 
+From cou.: 93 R
+From Soup: 93 Γ
+ ###### 
+From cou.: 94 g
+From Soup: 94 ε
+ ###### 
+From cou.: 95 e
+From Soup: 95 ρ
+ ###### 
+From cou.: 96 K
+From Soup: 96 ε
+ ###### 
+From cou.: 97 >
+From Soup: 97 Γ
+ ###### 
+From cou.: 98 t
+From Soup: 98 Γ
+ ###### 
+From cou.: 99 t
+From Soup: 99 ε
+ ###### 
+From cou.: 100 K
+From Soup: 100 ε
+ ###### 
+From cou.: 101 <
+From Soup: 101 f
+ ###### 
+From cou.: 102 t
+From Soup: 102 We now need to project the lesser, greater and retarded self energies into Q B , g ( e ) = 1 subspace. In order to put our equations in a compact form, we will introduce
+ ###### 
+From cou.: 103 t
+From Soup: 103 The Green functions have to be calculated by plugging the corresponding projected self-energies into the relevant Dyson equation. To obtain these projected self-energies, we need to maintain the same charge dependency on both sides of the Dyson equations. Projections have to be performed for each discrete energy level independently by taking into account eqn (10) . We would like to note that the retarded pseudofermion and slave-boson Green functions are of the order Q 0 B , g ( e ) while the less than ones are of the order Q 1 B , g ( e ) . When one of the less than Green functions appears on the l.h.s. of a Dyson equation for | g 〉 or | e 〉, the r.h.s. must be modified such that it is also of the order Q 1 B , g ( e ) by utilizing the relations in eqn (A17)–(A20) .
+ ###### 
+From cou.: 104 Γ
+From Soup: 104 We can consider the Dyson equation in eqn (19) for | g 〉 to demonstrate explicitly how the projection procedure is applied. Since the l.h.s. of this equation scales with Q 1 B , g we need to modify the r.h.s. accordingly where retarded and less than self-energy expressions play a role. After inserting eqn (A6) into eqn (19) we see that the less than slave boson Green function for | g 〉 whose charge dependency is Q 1 B , g appears in several terms. Consequently, the related lines multiplying with this Green function have to be removed. In the meantime, the greater than pseudofermion Green function for | e 〉 in one of the remaning lines has to be transformed into zero charge dependency by invoking eqn (A20) . In this arrangement, the less than slave boson Green function for | e 〉 multiplies the less than pseudofermion Green function for | e 〉 in this term. We have to drop the latter one in order to reduce the charge dependency to Q 1 B , e on the r.h.s. We would like to emphasize that this truncation is required and is not an additional approximation. 17 Similar treatment is required for the second term on the r.h.s. of eqn (19) using the less than pseudofermion self-energy expression for | g 〉 given by eqn (A1) .
+ ###### 
+From cou.: 105 ε
+From Soup: 105 Moreover, the pseudo-fermion and slave boson Green functions within the self-energy expressions have to be calculated in the absence of any coupling between the discrete states | g 〉 and | e 〉 following the previous work. 17 This implies that these Green functions have to be calculated by solving the Dyson equations for two independent impurities in the absence of any plasmon–exciton coupling. 17 This is required in order not to take into account the plasmon–exciton coupling twice, namely to avoid the double counting problem. From now on, we denote these Green functions with a tilde on top to differentiate them. These adjustments give us the projected pseudofermion self-energies as
+ ###### 
+From cou.: 106 ρ
+From Soup: 106 Similarly the projected slave-boson self energies are given by
+ ###### 
+From cou.: 107 ε
+From Soup: 107 We thank Tübitak for financial support via grants 111T303 and 114F195.
+ ###### 
+From cou.: 108 Γ
+From Soup: 108 S. Lal, S. Link and N. J. Halas, Nat. Photonics , 2007, 1 , 641–648 CrossRef CAS .
+ ###### 
+From cou.: 109 Γ
+From Soup: 109 J. A. Schuller, E. S. Barnard, W. Cai, Y. C. Jun, J. S. White and M. L. Brongersma, Nat. Mater. , 2010, 9 , 193–204 CrossRef CAS .
+ ###### 
+From cou.: 110 ε
+From Soup: 110 D. D. Awschalom, L. C. Bassett, A. S. Dzurak, E. L. Hu and J. R. Petta, Science , 2013, 339 , 1174–1179 CrossRef CAS PubMed .
+ ###### 
+From cou.: 111 ε
+From Soup: 111 N. T. Fofang, T. H. Park, O. Neumann, N. A. Mirin, P. Nordlander and N. J. Halas, Nano Lett. , 2008, 8 , 3481–3487 CrossRef CAS .
+ ###### 
+From cou.: 112 We now need to project the lesser, greater and retarded self energies into QB,g(e) = 1 subspace. In order to put our equations in a compact form, we will introduce
+From Soup: 112 G. A. Wurtz, P. R. Evans, W. Hendren, R. Atkinson, W. Dickson, R. J. Pollard, A. V. Zayats, W. Harrison and C. Bower, Nano Lett. , 2007, 7 , 1297–1303 CrossRef CAS PubMed .
+ ###### 
+From cou.: 113 The Green functions have to be calculated by plugging the corresponding projected self-energies into the relevant Dyson equation. To obtain these projected self-energies, we need to maintain the same charge dependency on both sides of the Dyson equations. Projections have to be performed for each discrete energy level independently by taking into account eqn (10). We would like to note that the retarded pseudofermion and slave-boson Green functions are of the order Q0B,g(e) while the less than ones are of the order Q1B,g(e). When one of the less than Green functions appears on the l.h.s. of a Dyson equation for |g〉 or |e〉, the r.h.s. must be modified such that it is also of the order Q1B,g(e) by utilizing the relations in eqn (A17)–(A20).
+From Soup: 113 Y. B. Zheng, B. Kiraly, S. Cheunkar, T. J. Huang and P. S. Weiss, Nano Lett. , 2011, 11 , 2061–2065 CrossRef CAS PubMed .
+ ###### 
+From cou.: 114 We can consider the Dyson equation in eqn (19) for |g〉 to demonstrate explicitly how the projection procedure is applied. Since the l.h.s. of this equation scales with Q1B,g we need to modify the r.h.s. accordingly where retarded and less than self-energy expressions play a role. After inserting eqn (A6) into eqn (19) we see that the less than slave boson Green function for |g〉 whose charge dependency is Q1B,g appears in several terms. Consequently, the related lines multiplying with this Green function have to be removed. In the meantime, the greater than pseudofermion Green function for |e〉 in one of the remaning lines has to be transformed into zero charge dependency by invoking eqn (A20). In this arrangement, the less than slave boson Green function for |e〉 multiplies the less than pseudofermion Green function for |e〉 in this term. We have to drop the latter one in order to reduce the charge dependency to Q1B,e on the r.h.s. We would like to emphasize that this truncation is required and is not an additional approximation.17 Similar treatment is required for the second term on the r.h.s. of eqn (19) using the less than pseudofermion self-energy expression for |g〉 given by eqn (A1).
+From Soup: 114 B. Luk'yanchuk, N. I. Zheludev, S. A. Maier, N. J. Halas, P. Nordlander, H. Giessen and C. T. Chong, Nat. Mater. , 2010, 9 , 707–715 CrossRef .
+ ###### 
+From cou.: 115 Moreover, the pseudo-fermion and slave boson Green functions within the self-energy expressions have to be calculated in the absence of any coupling between the discrete states |g〉 and |e〉 following the previous work.17 This implies that these Green functions have to be calculated by solving the Dyson equations for two independent impurities in the absence of any plasmon–exciton coupling.17 This is required in order not to take into account the plasmon–exciton coupling twice, namely to avoid the double counting problem. From now on, we denote these Green functions with a tilde on top to differentiate them. These adjustments give us the projected pseudofermion self-energies as
+From Soup: 115 P. Song, P. Nordlander and S. Gao, J. Chem. Phys. , 2011, 134 , 074701 CrossRef .
+ ###### 
+From cou.: 116 Similarly the projected slave-boson self energies are given by
+From Soup: 116 R. Esteban, A. G. Borisov, P. Nordlander and J. Aizpurua, Nat. Commun. , 2012, 3 , 825 CrossRef .
+ ###### 
+From cou.: 117 We thank Tübitak for financial support via grants 111T303 and 114F195.
+From Soup: 117 A. Delga, J. Feist, J. Bravo-Abad and F. J. Garcia-Vidal, J. Opt. , 2014, 16 , 114018 CrossRef .
+ ###### 
+From cou.: 118 S. Lal, S. Link and N. J. Halas, Nat. Photonics, 2007, 1, 641–648 CrossRef CAS .
+From Soup: 118 A. Delga, J. Feist, J. Bravo-Abad and F. J. Garcia-Vidal, Phys. Rev. Lett. , 2014, 112 , 253601 CrossRef CAS PubMed .
+ ###### 
+From cou.: 119 J. A. Schuller, E. S. Barnard, W. Cai, Y. C. Jun, J. S. White and M. L. Brongersma, Nat. Mater., 2010, 9, 193–204 CrossRef CAS .
+From Soup: 119 J. Feist and F. J. Garcia-Vidal, Phys. Rev. Lett. , 2015, 114 , 196402 CrossRef PubMed .
+ ###### 
+From cou.: 120 D. D. Awschalom, L. C. Bassett, A. S. Dzurak, E. L. Hu and J. R. Petta, Science, 2013, 339, 1174–1179 CrossRef CAS PubMed .
+From Soup: 120 A. Goker, Phys. Chem. Chem. Phys. , 2015, 17 , 11569–11576 RSC .
+ ###### 
+From cou.: 121 N. T. Fofang, T. H. Park, O. Neumann, N. A. Mirin, P. Nordlander and N. J. Halas, Nano Lett., 2008, 8, 3481–3487 CrossRef CAS .
+From Soup: 121 M. Vadai, N. Nachman, M. Ben-Zion, M. Burkle, F. Pauly, J. C. Cuevas and Y. Selzer, J. Phys. Chem. Lett. , 2013, 4 , 2811–2816 CrossRef CAS .
+ ###### 
+From cou.: 122 G. A. Wurtz, P. R. Evans, W. Hendren, R. Atkinson, W. Dickson, R. J. Pollard, A. V. Zayats, W. Harrison and C. Bower, Nano Lett., 2007, 7, 1297–1303 CrossRef CAS PubMed .
+From Soup: 122 A. Manjavacas, F. J. G. de Abajo and P. Nordlander, Nano Lett. , 2011, 11 , 2318–2323 CrossRef CAS .
+ ###### 
+From cou.: 123 Y. B. Zheng, B. Kiraly, S. Cheunkar, T. J. Huang and P. S. Weiss, Nano Lett., 2011, 11, 2061–2065 CrossRef CAS PubMed .
+From Soup: 123 H. X. Shao, D. C. Langreth and P. Nordlander, Phys. Rev. B: Condens. Matter Mater. Phys. , 1994, 49 , 13929–13947 CrossRef CAS .
+ ###### 
+From cou.: 124 B. Luk'yanchuk, N. I. Zheludev, S. A. Maier, N. J. Halas, P. Nordlander, H. Giessen and C. T. Chong, Nat. Mater., 2010, 9, 707–715 CrossRef .
+From Soup: 124 R. Aguado and D. C. Langreth, Phys. Rev. B: Condens. Matter Mater. Phys. , 2003, 67 , 245307 CrossRef .
+ ###### 
+From cou.: 125 P. Song, P. Nordlander and S. Gao, J. Chem. Phys., 2011, 134, 074701 CrossRef .
+From Soup: 125 A. F. Izmaylov, A. Goker, B. A. Friedman and P. Nordlander, J. Phys.: Condens. Matter , 2006, 18 , 8995–9006 CrossRef CAS .
+ ###### 
+From cou.: 126 R. Esteban, A. G. Borisov, P. Nordlander and J. Aizpurua, Nat. Commun., 2012, 3, 825 CrossRef .
+From Soup: 126 J. Kondo, Prog. Theor. Phys. , 1964, 32 , 37 CrossRef CAS .
+ ###### 
+From cou.: 127 A. Delga, J. Feist, J. Bravo-Abad and F. J. Garcia-Vidal, J. Opt., 2014, 16, 114018 CrossRef .
+From Soup: 127 A. P. Jauho, N. S. Wingreen and Y. Meir, Phys. Rev. B: Condens. Matter Mater. Phys. , 1994, 50 , 5528 CrossRef CAS .
+ ###### 
+From cou.: 128 A. Delga, J. Feist, J. Bravo-Abad and F. J. Garcia-Vidal, Phys. Rev. Lett., 2014, 112, 253601 CrossRef CAS PubMed .
+From Soup: 128 A. Goker, B. A. Friedman and P. Nordlander, J. Phys.: Condens. Matter , 2007, 19 , 376206 CrossRef .
+ ###### 
+From cou.: 129 J. Feist and F. J. Garcia-Vidal, Phys. Rev. Lett., 2015, 114, 196402 CrossRef PubMed .
+From Soup: 129 A. Goker, Z. Y. Zhu, A. Manchon and U. Schwingenschlogl, Chem. Phys. Lett. , 2011, 509 , 48 CrossRef CAS .
+ ###### 
+From cou.: 130 A. Goker, Phys. Chem. Chem. Phys., 2015, 17, 11569–11576 RSC .
+From Soup: 130 A. Goker, Z. Y. Zhu, A. Manchon and U. Schwingenschlogl, Phys. Rev. B: Condens. Matter Mater. Phys. , 2010, 82 , 161304(R) CrossRef .
+ ###### 
+From cou.: 131 M. Vadai, N. Nachman, M. Ben-Zion, M. Burkle, F. Pauly, J. C. Cuevas and Y. Selzer, J. Phys. Chem. Lett., 2013, 4, 2811–2816 CrossRef CAS .
+From Soup: 131 M. Plihal, A. C. Langreth and P. Nordlander, Phys. Rev. B: Condens. Matter Mater. Phys. , 2005, 71 , 165321 CrossRef .
+ ###### 
+From cou.: 132 A. Manjavacas, F. J. G. de Abajo and P. Nordlander, Nano Lett., 2011, 11, 2318–2323 CrossRef CAS .
+From Soup: 132 G. D. Scott, Z. K. Keane, J. W. Ciszek, J. M. Tour and D. Natelson, Phys. Rev. B: Condens. Matter Mater. Phys. , 2009, 79 , 165413 CrossRef .
+ ###### 
+From cou.: 133 H. X. Shao, D. C. Langreth and P. Nordlander, Phys. Rev. B: Condens. Matter Mater. Phys., 1994, 49, 13929–13947 CrossRef CAS .
+From Soup: 133 B. S. Luk'yanchuk, A. E. Miroshnichenko, M. I. Tribelsky, Y. S. Kivshar and A. R. Khokhlov, New J. Phys. , 2012, 14 , 093022 CrossRef .
+ ###### 
+From cou.: 134 R. Aguado and D. C. Langreth, Phys. Rev. B: Condens. Matter Mater. Phys., 2003, 67, 245307 CrossRef .
+From Soup: 134 and the coupling between the radiation field and the dipolar plasmons of each nanoparticle is given by Finally, the Coulomb repulsion energy within the discrete states | 〉 and | 〉 is denoted the term while the number operator is denoted . subject to the condition Now we can also write ( ) exciton creation(annihilation) operators in terms of the slave-boson representation as This restriction ensures that the occupancy of | 〉 and | 〉 is unity. This allows us to remove the term from and we end up with Moreover, the electron tunneling between the quantum emitter and the metal nanoparticles becomes where the time ordering operator acts along the Kadanoff–Baym contour. The analytic pieces of these Green functions are given by In these expressions, the lesser Green functions can be written in terms of the pseudofermion and the slave boson operators as and whereas the greater ones are and . We can also write the retarded Green functions by combining these analytic pieces as and the Dyson equations for pseudofermion Green functions expressed in terms of the projected self-energies turn out to be and and In these equations, the Green functions with a tilde on top are part of the self-energy terms and are calculated in the absence of any coupling between the discrete states | 〉 and | 〉. We want to emphasize that this decoupling scheme is required by the projection procedure in Appendix A which closely follows the earlier NCA treatment of two impurity Kondo problems. In essence, the only coupling mechanism between the states | 〉 and | 〉 consists of the plasmon–exciton interaction in our model. Therefore, inserting the Green functions that are calculated in the presence of the plasmon–exciton coupling into the self-energy terms would cause double counting problem because the plasmon–exciton coupling is already accounted for in Dyson equations. and where we again used the projected self-energies obtained in Appendix A. Plasmon Green functions are obtained by solving the Dyson equation for the plasmon Green function using the method described previously and plugged into the above Dyson equations. The values of all Green functions are kept in a square matrix whose size is gradually increased until the values converge. Consequently, it is imperative that the matrix size of the plasmon Green functions is equal to the matrix size of the pseudofermion and slave boson Green functions. The explicit discretization and solution algorithm of the Dyson equations have been discussed in a detailed way previously. where is the half bandwidth of the electrode density of states. The linewidth of the Kondo resonance is an energy scale called the Kondo temperature. The underlying mechanism behind the Kondo resonance is the occurrence of the cotunneling processes at ambient temperatures below . Simultaneous tunneling of two electrons with different spins results in an effective spin flip at the discrete levels. This enables lifting the Coulomb blockade and generates a current flow between the two metal nanoparticles. and In these expressions,
+ ###### 
+From cou.: 135 A. F. Izmaylov, A. Goker, B. A. Friedman and P. Nordlander, J. Phys.: Condens. Matter, 2006, 18, 8995–9006 CrossRef CAS .
+From cou.: 136 J. Kondo, Prog. Theor. Phys., 1964, 32, 37 CrossRef CAS .
+From cou.: 137 A. P. Jauho, N. S. Wingreen and Y. Meir, Phys. Rev. B: Condens. Matter Mater. Phys., 1994, 50, 5528 CrossRef CAS .
+From cou.: 138 A. Goker, B. A. Friedman and P. Nordlander, J. Phys.: Condens. Matter, 2007, 19, 376206 CrossRef .
+From cou.: 139 A. Goker, Z. Y. Zhu, A. Manchon and U. Schwingenschlogl, Chem. Phys. Lett., 2011, 509, 48 CrossRef CAS .
+From cou.: 140 A. Goker, Z. Y. Zhu, A. Manchon and U. Schwingenschlogl, Phys. Rev. B: Condens. Matter Mater. Phys., 2010, 82, 161304(R) CrossRef .
+From cou.: 141 M. Plihal, A. C. Langreth and P. Nordlander, Phys. Rev. B: Condens. Matter Mater. Phys., 2005, 71, 165321 CrossRef .
+From cou.: 142 G. D. Scott, Z. K. Keane, J. W. Ciszek, J. M. Tour and D. Natelson, Phys. Rev. B: Condens. Matter Mater. Phys., 2009, 79, 165413 CrossRef .
+From cou.: 143 B. S. Luk'yanchuk, A. E. Miroshnichenko, M. I. Tribelsky, Y. S. Kivshar and A. R. Khokhlov, New J. Phys., 2012, 14, 093022 CrossRef .

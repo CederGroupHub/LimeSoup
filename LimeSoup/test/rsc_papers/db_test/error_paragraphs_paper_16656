@@ -1,0 +1,318 @@
+From cou.: 0 Journal
+From Soup: 0 Anal. Methods
+ ###### 
+From cou.: 1 Extreme learning machines (ELMs) have drawn increasing attention due to their characteristics of simple structure, high learning speed and excellent performance. However, a single ELM tends to low predictive accuracy and instability in dealing with quantitative analysis of complex samples. To further improve the predictive accuracy and stability of ELMs, a new quantitative model, called the boosting ELM is proposed. In this approach, a large number of ELM sub-models are sequentially built by selecting a certain number of samples from the original training set according to the distribution of the sampling weights, and then their predictions are aggregated using the weighted median. The activation function and the number of hidden nodes of ELM sub-models are determined simultaneously by the ratio of mean value and standard deviation of correlation coefficients (MSR). The performance of the proposed method is tested with diesel fuel and blended edible oil samples. Compared with partial least squares (PLS) and ELMs, our results demonstrate that the boosting ELM is an efficient ensemble model and has obvious superiorities in predictive accuracy and stability. Therefore, the proposed method may be an alternative for near-infrared (NIR) spectral quantitative analysis of complex samples.
+From Soup: 1 Extreme learning machines (ELMs) have drawn increasing attention due to their characteristics of simple structure, high learning speed and excellent performance. However, a single ELM tends to low predictive accuracy and instability in dealing with quantitative analysis of complex samples. To further improve the predictive accuracy and stability of ELMs, a new quantitative model, called the boosting ELM is proposed. In this approach, a large number of ELM sub-models are sequentially built by selecting a certain number of samples from the original training set according to the distribution of the sampling weights, and then their predictions are aggregated using the weighted median. The activation function and the number of hidden nodes of ELM sub-models are determined simultaneously by the ratio of mean value and standard deviation of correlation coefficients (MSR). The performance of the proposed method is tested with diesel fuel and blended edible oil samples. Compared with partial least squares (PLS) and ELMs, our results demonstrate that the boosting ELM is an efficient ensemble model and has obvious superiorities in predictive accuracy and stability. Therefore, the proposed method may be an alternative for near-infrared (NIR) spectral quantitative analysis of complex samples.
+ ###### 
+From cou.: 2 Near-infrared (NIR) spectroscopy has been widely used in various fields including food, fuel, medicine and soil because it is fast, convenient, green, and requires little or no sample preprocessing.1–4 Nevertheless, the presence of the relatively weak and highly overlapping spectral bands originating from the overtones and combinations of fundamental vibrations of hydrogen bonds like C–H, N–H, and O–H5,6 makes NIR spectroscopy heavily rely on the use of chemometrics to construct an appropriate calibration model for quantitative analysis of the target component in complex samples.
+From Soup: 2 Near-infrared (NIR) spectroscopy has been widely used in various fields including food, fuel, medicine and soil because it is fast, convenient, green, and requires little or no sample preprocessing. 1–4 Nevertheless, the presence of the relatively weak and highly overlapping spectral bands originating from the overtones and combinations of fundamental vibrations of hydrogen bonds like C–H, N–H, and O–H 5,6 makes NIR spectroscopy heavily rely on the use of chemometrics to construct an appropriate calibration model for quantitative analysis of the target component in complex samples.
+ ###### 
+From cou.: 3 The most commonly used multivariate calibration model is partial least squares (PLS)7–9 due to its advantages of rapidity, simplicity and ease-of-use. However, PLS is essentially a linear modeling method and would produce large errors when the system exhibits strong nonlinear behaviors, such as deviations from the Beer–Lambert law, nonlinear detector response, scattering of light, changes in temperature, interaction between analytes, etc.5,6,10 Many nonlinear techniques7,10,11 such as artificial neural network (ANN) and support vector regression (SVR) are developed. These methods may perform well on nonlinear data but are time-consuming compared with linear methods, easy to trap in local optimum and require many parameters. Recently, a new supervised algorithm called extreme learning machines (ELMs) for single-hidden layer feed-forward neural networks (SLFNs) was proposed by Huang et al.12–14 ELMs combine the superiorities of linear and non-linear methods15 and have attracted increasing attention in spectral quantitative analysis of complex samples.10,15–18 Compared with traditional multivariate calibration methods,7–11 the superiority of ELMs is attributed to their inherent characteristics of simple structure, high learning speed and excellent predictive performance.
+From Soup: 3 The most commonly used multivariate calibration model is partial least squares (PLS) 7–9 due to its advantages of rapidity, simplicity and ease-of-use. However, PLS is essentially a linear modeling method and would produce large errors when the system exhibits strong nonlinear behaviors, such as deviations from the Beer–Lambert law, nonlinear detector response, scattering of light, changes in temperature, interaction between analytes, etc. 5,6,10 Many nonlinear techniques 7,10,11 such as artificial neural network (ANN) and support vector regression (SVR) are developed. These methods may perform well on nonlinear data but are time-consuming compared with linear methods, easy to trap in local optimum and require many parameters. Recently, a new supervised algorithm called extreme learning machines (ELMs) for single-hidden layer feed-forward neural networks (SLFNs) was proposed by Huang et al. 12–14 ELMs combine the superiorities of linear and non-linear methods 15 and have attracted increasing attention in spectral quantitative analysis of complex samples. 10,15–18 Compared with traditional multivariate calibration methods, 7–11 the superiority of ELMs is attributed to their inherent characteristics of simple structure, high learning speed and excellent predictive performance.
+ ###### 
+From cou.: 4 To achieve good predictive performance, ELMs minimize training error on the whole training dataset. Thus they might suffer from overfitting19 and give unsatisfactory prediction for the unknown samples. In addition, the weights and biases for hidden nodes can be randomly generated without iteratively adjusting ELMs.15,20 This increases the learning speed and reduces the number of parameters that need to be optimized. However, the random initialization of the input weights and hidden layer biases may make ELMs unstable in practice,20,21 that is, different runs of the ELM model will lead to fluctuation in the predicted results. Therefore, it is highly demanded to develop a new approach for improving the predictive accuracy and stability of ELMs.
+From Soup: 4 To achieve good predictive performance, ELMs minimize training error on the whole training dataset. Thus they might suffer from overfitting 19 and give unsatisfactory prediction for the unknown samples. In addition, the weights and biases for hidden nodes can be randomly generated without iteratively adjusting ELMs. 15,20 This increases the learning speed and reduces the number of parameters that need to be optimized. However, the random initialization of the input weights and hidden layer biases may make ELMs unstable in practice, 20,21 that is, different runs of the ELM model will lead to fluctuation in the predicted results. Therefore, it is highly demanded to develop a new approach for improving the predictive accuracy and stability of ELMs.
+ ###### 
+From cou.: 5 Considerable research studies have demonstrated that ensemble modeling is one of the best ways to prevent overfitting19,22 and improve the accuracy and stability of a single model.7,23,24 The most popular ensemble strategies are bagging and boosting. It has been reported that boosting is usually superior to bagging.25 Boosting, which originated from machine learning,26 has attracted increasing interest in chemometrics.7,25,27 Boosting provides an accurate prediction by combining a series of rough and inaccurate sub-models. Such a series of sub-models is developed by using the training subsets selected from the original training set according to the distribution of the sampling weights. As a prominent ensemble strategy, boosting has been used to improve the performance of a single multivariate calibration model such as PLS,27–33 ANN,34,35 and SVR.36–38 Recently, the boosting ELM has been developed19,39,40 for classification problems in the fields of mathematics and computer science. However, until now, few studies have been performed to combine boosting with ELMs for multivariate calibration.
+From Soup: 5 Considerable research studies have demonstrated that ensemble modeling is one of the best ways to prevent overfitting 19,22 and improve the accuracy and stability of a single model. 7,23,24 The most popular ensemble strategies are bagging and boosting. It has been reported that boosting is usually superior to bagging. 25 Boosting, which originated from machine learning, 26 has attracted increasing interest in chemometrics. 7,25,27 Boosting provides an accurate prediction by combining a series of rough and inaccurate sub-models. Such a series of sub-models is developed by using the training subsets selected from the original training set according to the distribution of the sampling weights. As a prominent ensemble strategy, boosting has been used to improve the performance of a single multivariate calibration model such as PLS, 27–33 ANN, 34,35 and SVR. 36–38 Recently, the boosting ELM has been developed 19,39,40 for classification problems in the fields of mathematics and computer science. However, until now, few studies have been performed to combine boosting with ELMs for multivariate calibration.
+ ###### 
+From cou.: 6 Inspired by the attractive feature of boosting and ELMs, a novel method named the boosting ELM is proposed to improve the performance of ELMs. As comparisons to the boosting ELM, the conventional PLS and ELM have been investigated. To assess the predictive performance and computational efficiency of the boosting ELM model, two NIR spectral datasets are utilized. One is used to calibrate the total aromatic contents of diesel fuel samples, which directly affects the combustion degree, engine life and automobile exhaust emissions.41 The other is used to calibrate the corn oil content of edible blend oil samples. The contents and compositions of edible blend oil affect its quality, price and nutritional value.42
+From Soup: 6 Inspired by the attractive feature of boosting and ELMs, a novel method named the boosting ELM is proposed to improve the performance of ELMs. As comparisons to the boosting ELM, the conventional PLS and ELM have been investigated. To assess the predictive performance and computational efficiency of the boosting ELM model, two NIR spectral datasets are utilized. One is used to calibrate the total aromatic contents of diesel fuel samples, which directly affects the combustion degree, engine life and automobile exhaust emissions. 41 The other is used to calibrate the corn oil content of edible blend oil samples. The contents and compositions of edible blend oil affect its quality, price and nutritional value. 42
+ ###### 
+From cou.: 7 The ELM is a simple and efficient learning algorithm for SLFNs.12–14 Conventional learning algorithms for neural networks, such as back propagation and gradient descent algorithms, have some disadvantages including the difficulty in adjusting many parameters, the tendency to get trapped in the local minimum and the slow learning speed. Fortunately, the above disadvantages can be avoided in the ELM. The topology structure of the ELM is shown in Fig. 1. From the figure, it can be seen that the ELM has two appealing characteristics. One is that the learning parameters of hidden nodes, including input weights and hidden layer biases, can be randomly assigned independently. The other is that the weights between the hidden nodes and the output layer nodes are calculated by using the least square method (Moore-Penrose generalized inverse). These two characteristics provide the method with the advantages of fast learning speed, high generalization performance and a few involved parameters.
+From Soup: 7 The ELM is a simple and efficient learning algorithm for SLFNs. 12–14 Conventional learning algorithms for neural networks, such as back propagation and gradient descent algorithms, have some disadvantages including the difficulty in adjusting many parameters, the tendency to get trapped in the local minimum and the slow learning speed. Fortunately, the above disadvantages can be avoided in the ELM. The topology structure of the ELM is shown in Fig. 1 . From the figure, it can be seen that the ELM has two appealing characteristics. One is that the learning parameters of hidden nodes, including input weights and hidden layer biases, can be randomly assigned independently. The other is that the weights between the hidden nodes and the output layer nodes are calculated by using the least square method (Moore-Penrose generalized inverse). These two characteristics provide the method with the advantages of fast learning speed, high generalization performance and a few involved parameters.
+ ###### 
+From cou.: 8 The ELM algorithm consists of four simple steps. Firstly, the input weights and hidden layer biases are randomly initialized. Secondly, the appropriate activation function and the number of hidden nodes are chosen. Thirdly, the hidden layer output matrix is calculated. Finally, the output weights are obtained by the Moore-Penrose generalized inverse of the hidden layer output matrix and target values. More detailed descriptions of ELM are provided in ref. 12, 15, 20 and 43.
+From Soup: 8 The ELM algorithm consists of four simple steps. Firstly, the input weights and hidden layer biases are randomly initialized. Secondly, the appropriate activation function and the number of hidden nodes are chosen. Thirdly, the hidden layer output matrix is calculated. Finally, the output weights are obtained by the Moore-Penrose generalized inverse of the hidden layer output matrix and target values. More detailed descriptions of ELM are provided in ref. 12, 15, 20 and 43 .
+ ###### 
+From cou.: 9 From the above mentioned steps, only two parameters, i.e., the activation function and the number of hidden nodes need to be optimized for the ELM. Considering the predictive accuracy and stability of the model simultaneously, the ratio of mean value and standard deviation (SD) of correlation coefficient (R), which is abbreviated as MSR, was introduced in our previous work.15 In this study, the activation function and the number of hidden nodes are determined simultaneously according to the variation of MSR with the two parameters. The optimal activation function and the number of hidden nodes of ELM are selected simultaneously corresponding to the maximum value of MSR.
+From Soup: 9 From the above mentioned steps, only two parameters, i.e. , the activation function and the number of hidden nodes need to be optimized for the ELM. Considering the predictive accuracy and stability of the model simultaneously, the ratio of mean value and standard deviation (SD) of correlation coefficient (R), which is abbreviated as MSR, was introduced in our previous work. 15 In this study, the activation function and the number of hidden nodes are determined simultaneously according to the variation of MSR with the two parameters. The optimal activation function and the number of hidden nodes of ELM are selected simultaneously corresponding to the maximum value of MSR.
+ ###### 
+From cou.: 10 The ELM has many advantages due to its two characteristics. However, the ELM also tends to instability and inaccuracy to some extent because of the random set of input weights and hidden layer biases20,21 and the use of least squares to calculate the output weights.44 To improve the predictive accuracy and stability of the ELM, a new algorithm named the boosting ELM is proposed by combining the boosting strategy with the ELM. The boosting ELM is implemented by sequentially developing multiple sub-models using the training subsets selected from the original training set according to the sampling probability formed by the previous iteration. The sub-models are trained by the ELM and then their predictions are combined using the weighted median to get the final prediction for unknown samples. The brief flowchart of the method is given in Fig. 2 and the corresponding detailed procedure is described as follows.
+From Soup: 10 The ELM has many advantages due to its two characteristics. However, the ELM also tends to instability and inaccuracy to some extent because of the random set of input weights and hidden layer biases 20,21 and the use of least squares to calculate the output weights. 44 To improve the predictive accuracy and stability of the ELM, a new algorithm named the boosting ELM is proposed by combining the boosting strategy with the ELM. The boosting ELM is implemented by sequentially developing multiple sub-models using the training subsets selected from the original training set according to the sampling probability formed by the previous iteration. The sub-models are trained by the ELM and then their predictions are combined using the weighted median to get the final prediction for unknown samples. The brief flowchart of the method is given in Fig. 2 and the corresponding detailed procedure is described as follows.
+ ###### 
+From cou.: 11 First, all the samples in the training set are given the equal sampling weights, wi,1 = 1/m (i = 1, 2,⋯, m), where m is the number of samples in the training set.
+From Soup: 11 First, all the samples in the training set are given the equal sampling weights, w i ,1 = 1/ m ( i = 1, 2,⋯, m ), where m is the number of samples in the training set.
+ ###### 
+From cou.: 12 Then, for t = 1, 2,⋯T (T is the number of iterations), perform the following steps.
+From Soup: 12 Then, for t = 1, 2,⋯ T ( T is the number of iterations), perform the following steps.
+ ###### 
+From cou.: 13 (1) Select a certain number of samples from the training set to form the training subset according to the probability distributions of wi,t.
+From Soup: 13 (1) Select a certain number of samples from the training set to form the training subset according to the probability distributions of w i , t .
+ ###### 
+From cou.: 14 (2) Establish an ELM sub-model by using the training subset with the optimal activation function and the number of hidden nodes, and then use this model to predict the target value of the training set. Then the predicted values yi,t (i = 1, 2,⋯, m) are obtained.
+From Soup: 14 (2) Establish an ELM sub-model by using the training subset with the optimal activation function and the number of hidden nodes, and then use this model to predict the target value of the training set. Then the predicted values y i , t ( i = 1, 2,⋯, m ) are obtained.
+ ###### 
+From cou.: 15 (3) Calculate the absolute error ei,t of each sample in the training set.
+From Soup: 15 (3) Calculate the absolute error e i , t of each sample in the training set.
+ ###### 
+From cou.: 16 ŷ
+From Soup: 16 ŷ
+ ###### 
+From cou.: 17 i
+From Soup: 17 i
+ ###### 
+From cou.: 18 i
+From Soup: 18 i
+ ###### 
+From cou.: 19 (4) Compute the loss function Li,t by using the exponential form.25,33
+From Soup: 19 (4) Compute the loss function L i , t by using the exponential form. 25,33
+ ###### 
+From cou.: 20 (5) Compute the mean loss function t.
+From Soup: 20 (5) Compute the mean loss function t .
+ ###### 
+From cou.: 21 (6) Calculate the confidence indicator βt.
+From Soup: 21 (6) Calculate the confidence indicator β t .
+ ###### 
+From cou.: 22 (7) Update the new sampling weight wi,t+1 of each sample in the training set.
+From Soup: 22 (7) Update the new sampling weight w i , t +1 of each sample in the training set.
+ ###### 
+From cou.: 23 The new sampling weights should be normalized to ensure that .
+From Soup: 23 The new sampling weights should be normalized to ensure that .
+ ###### 
+From cou.: 24 Finally, after performing T iterations, T ELM sub-models are established. For the prediction stage, each ELM sub-model gives a prediction yi,t and a corresponding βt for the ith unknown sample. The final prediction is obtained by combining these T predictions using the weighted median according to the following process.
+From Soup: 24 Finally, after performing T iterations, T ELM sub-models are established. For the prediction stage, each ELM sub-model gives a prediction y i , t and a corresponding β t for the i th unknown sample. The final prediction is obtained by combining these T predictions using the weighted median according to the following process.
+ ###### 
+From cou.: 25 Sort these T predictions yi,t (t = 1, 2,⋯, T) for the ith sample in the incremental order and simultaneously obtain the corresponding βnt to yi,nt.
+From Soup: 25 Sort these T predictions y i , t ( t = 1, 2,⋯, T ) for the i th sample in the incremental order and simultaneously obtain the corresponding β n t to y i , n t .
+ ###### 
+From cou.: 26 n
+From Soup: 26 n
+ ###### 
+From cou.: 27 t
+From Soup: 27 t
+ ###### 
+From cou.: 28 t
+From Soup: 28 t
+ ###### 
+From cou.: 29 T
+From Soup: 29 T
+ ###### 
+From cou.: 30 T
+From Soup: 30 T
+ ###### 
+From cou.: 31 β
+From Soup: 31 β
+ ###### 
+From cou.: 32 n
+From Soup: 32 n t
+ ###### 
+From cou.: 33 t
+From Soup: 33 t
+ ###### 
+From cou.: 34 t
+From Soup: 34 r
+ ###### 
+From cou.: 35 r
+From Soup: 35 i.e.
+ ###### 
+From cou.: 36 i.e.
+From Soup: 36 r
+ ###### 
+From cou.: 37 r
+From Soup: 37 n
+ ###### 
+From cou.: 38 n
+From Soup: 38 r
+ ###### 
+From cou.: 39 r
+From Soup: 39 y
+ ###### 
+From cou.: 40 y
+From Soup: 40 i , n r
+ ###### 
+From cou.: 41 i
+From Soup: 41 n
+ ###### 
+From cou.: 42 n
+From Soup: 42 r
+ ###### 
+From cou.: 43 r
+From Soup: 43 i
+ ###### 
+From cou.: 44 n
+From Soup: 44 To evaluate the performance of the boosting ELM, two spectral datasets were used for this study. The diesel fuel dataset consists of NIR spectra of 256 samples and six physical properties including boiling point at 50% recovery, cetane number, density, freezing temperature, total aromatics and the viscosity of those fuels. 45 The spectra of diesel fuel samples were measured directly at Southwest Research Institute (SWRI) on a project sponsored by the U.S. Army. First-derivative spectral data at 401 wavelengths in the NIR region were supplied. Each spectrum is composed of 401 variables recorded in the wavelength range 750–1550 nm. The six properties of the same diesel fuel sample were independently measured by the American Society of Testing and Materials (ASTM) standard method. The dataset was provided by SWRI, San Antonio, TX through Eigenvector Research, Inc. (Manson, Washington) and can be downloaded freely from http://www.eigenvector.com/Data/SWRI. The spectra and total aromatic contents were investigated for this study. Fig. 3(a) displays the NIR first-derivative spectra of the 256 samples.
+ ###### 
+From cou.: 45 r
+From Soup: 45 The edible blend oil dataset, measured by us, contains the NIR spectra of 50 samples and the contents of ternary components including soybean oil, corn oil and sesame oil of those samples. The spectra of edible blend oil samples were measured directly on a Vertex70 spectrometer (Bruker Optics, Ettlingen, Germany) over 4148 channels recorded in the wavelength range 833.3–2500 nm. The spectrometer was balanced at ca. 25 °C for 60 min before measurement. To increase the signal to noise ratio, the spectra were measured with scan number 64, and the average spectrum of three parallel measurements was used for each sample. The spectra and corn oil contents were used for this study. Fig. 3(b) displays the NIR original spectra of the 50 samples, which are of high quality and used for calibration directly without processing.
+ ###### 
+From cou.: 46 i
+From Soup: 46 Before calculation, the datasets were divided into the training and prediction sets. For the fuel oil dataset, the two datasets were divided according to the dataset grouping in the website. 138 samples including the spectra (t_sd_hl and t_sd_ll_b sets) and the total aromatic contents (t_y_hl and t_y_ll_b sets) were used as the training set. 118 samples including the spectra (t_sd_ll_a set) and the total aromatic contents (t_y_ll_a set) were taken as the prediction set. For the edible blend oil dataset, 33 samples were selected as the training set and the remaining 17 samples were used as the prediction set by using the Kennard–Stone (KS) grouping algorithm. 46 For the PLS model, the number of latent variables (LV) is determined to be 8 and 9 by Monte Carlo cross-validation (MCCV) combined with Osten's F criterion 47 for diesel fuel and edible blend oil datasets, respectively.
+ ###### 
+From cou.: 47 To evaluate the performance of the boosting ELM, two spectral datasets were used for this study. The diesel fuel dataset consists of NIR spectra of 256 samples and six physical properties including boiling point at 50% recovery, cetane number, density, freezing temperature, total aromatics and the viscosity of those fuels.45 The spectra of diesel fuel samples were measured directly at Southwest Research Institute (SWRI) on a project sponsored by the U.S. Army. First-derivative spectral data at 401 wavelengths in the NIR region were supplied. Each spectrum is composed of 401 variables recorded in the wavelength range 750–1550 nm. The six properties of the same diesel fuel sample were independently measured by the American Society of Testing and Materials (ASTM) standard method. The dataset was provided by SWRI, San Antonio, TX through Eigenvector Research, Inc. (Manson, Washington) and can be downloaded freely from http://www.eigenvector.com/Data/SWRI. The spectra and total aromatic contents were investigated for this study. Fig. 3(a) displays the NIR first-derivative spectra of the 256 samples.
+From Soup: 47 As mentioned above, the activation function and the number of hidden nodes are two important parameters required to be optimized, which have great effects on the predictive accuracy and stability of the ELM model. Thus, the optimal activation function and the number of hidden nodes should be selected simultaneously at first. The number of hidden nodes was set from 1 to 100 with the interval 1, and sigmoidal (sig), sine (sin), hardlim, triangular basis (tribas) and radial basis (radbas) functions were used as activation functions, respectively. For each activation function and each hidden node number, the ELM model was established. The process was repeated 500 times and 500 R between the predicted and measured values were calculated. Then the ratio of mean value and SD of 500R, i.e. , MSR, was obtained, which increases with the increase of mean value and the decrease of SD of R.
+ ###### 
+From cou.: 48 The edible blend oil dataset, measured by us, contains the NIR spectra of 50 samples and the contents of ternary components including soybean oil, corn oil and sesame oil of those samples. The spectra of edible blend oil samples were measured directly on a Vertex70 spectrometer (Bruker Optics, Ettlingen, Germany) over 4148 channels recorded in the wavelength range 833.3–2500 nm. The spectrometer was balanced at ca. 25 °C for 60 min before measurement. To increase the signal to noise ratio, the spectra were measured with scan number 64, and the average spectrum of three parallel measurements was used for each sample. The spectra and corn oil contents were used for this study. Fig. 3(b) displays the NIR original spectra of the 50 samples, which are of high quality and used for calibration directly without processing.
+From Soup: 48 Taking the diesel fuel dataset as an example, Fig. 4 shows the variation of MSR values with activation functions and the number of hidden nodes. It can be clearly seen that the MSR values of sig, sin, tribas and radbas functions are much bigger than those of hardlim function overall. The sig, sin, tribas and radbas functions produce similar predictive accuracy and stability with the same number of hidden nodes. Specifically, MSR values first increase obviously with the increase of the number of hidden nodes, and reach the maximum value at 44, 44, 46 and 47 for sig, sin, tribas and radbas functions, respectively. After the maximum values, they decrease to the end. For further comparison, the sin function has the best predictive performance. Thus, the optimal activation function and the number of hidden nodes are sin and 44, respectively. Similar analysis can be performed for the edible blend oil dataset and sig and 18 are determined as the optimal activation function and the number of hidden nodes for this dataset.
+ ###### 
+From cou.: 49 Before calculation, the datasets were divided into the training and prediction sets. For the fuel oil dataset, the two datasets were divided according to the dataset grouping in the website. 138 samples including the spectra (t_sd_hl and t_sd_ll_b sets) and the total aromatic contents (t_y_hl and t_y_ll_b sets) were used as the training set. 118 samples including the spectra (t_sd_ll_a set) and the total aromatic contents (t_y_ll_a set) were taken as the prediction set. For the edible blend oil dataset, 33 samples were selected as the training set and the remaining 17 samples were used as the prediction set by using the Kennard–Stone (KS) grouping algorithm.46 For the PLS model, the number of latent variables (LV) is determined to be 8 and 9 by Monte Carlo cross-validation (MCCV) combined with Osten's F criterion47 for diesel fuel and edible blend oil datasets, respectively.
+From Soup: 49 The iteration number ( T ), i.e. , the number of ELM sub-models, is an important parameter involved in the boosting ELM. A certain number of T is needed to improve the predictive accuracy and stability of the proposed model. However, with too large T , the complexity of the boosting model is increased and the computation will be time-consuming. Therefore, an appropriate iteration number should be selected.
+ ###### 
+From cou.: 50 As mentioned above, the activation function and the number of hidden nodes are two important parameters required to be optimized, which have great effects on the predictive accuracy and stability of the ELM model. Thus, the optimal activation function and the number of hidden nodes should be selected simultaneously at first. The number of hidden nodes was set from 1 to 100 with the interval 1, and sigmoidal (sig), sine (sin), hardlim, triangular basis (tribas) and radial basis (radbas) functions were used as activation functions, respectively. For each activation function and each hidden node number, the ELM model was established. The process was repeated 500 times and 500 R between the predicted and measured values were calculated. Then the ratio of mean value and SD of 500R, i.e., MSR, was obtained, which increases with the increase of mean value and the decrease of SD of R.
+From Soup: 50 In this study, T from 1 to 600 was investigated. For each T , a boosting ELM model is developed and then the model was used to predict the prediction set. The above process is performed 50 times independently and then the mean root mean square error of prediction (RMSEP) and its SD are calculated for each T . Fig. 5(a) shows the variation of mean RMSEP and its SD with the iteration number T for the diesel fuel dataset. From the figure, it can be clearly seen that the mean RMSEP and its SD are both comparatively large at the beginning. With the increase of T , the mean RMSEP and its SD first tend to decrease sharply and then descend gradually before 100. When it is above 100, the decrease of mean RMSEP and its SD becomes slow. For further distinguishing the difference, the variations of mean RMSEP and its SD with T in the range of 100–600 are plotted in Fig. 5(b) . Because the range of the vertical coordinate becomes smaller, it is easy to find that the mean RMSEP and its SD still go down until 500. After that, both the mean RMSEP and its SD maintain a stable value. Considering the predictive ability and efficiency, 500 is used for the optimal iteration number for diesel fuel. The edible blend oil dataset has similar results. Accordingly, iteration number T is set as 500 for both datasets.
+ ###### 
+From cou.: 51 Taking the diesel fuel dataset as an example, Fig. 4 shows the variation of MSR values with activation functions and the number of hidden nodes. It can be clearly seen that the MSR values of sig, sin, tribas and radbas functions are much bigger than those of hardlim function overall. The sig, sin, tribas and radbas functions produce similar predictive accuracy and stability with the same number of hidden nodes. Specifically, MSR values first increase obviously with the increase of the number of hidden nodes, and reach the maximum value at 44, 44, 46 and 47 for sig, sin, tribas and radbas functions, respectively. After the maximum values, they decrease to the end. For further comparison, the sin function has the best predictive performance. Thus, the optimal activation function and the number of hidden nodes are sin and 44, respectively. Similar analysis can be performed for the edible blend oil dataset and sig and 18 are determined as the optimal activation function and the number of hidden nodes for this dataset.
+From Soup: 51 In the boosting ELM method, a series of ELM sub-models is developed by using a certain number of samples selected from the original training set. Therefore another key parameter of the proposed method is the number of the selected samples, i.e. , the size of the training subset. It is important that the optimal parameter is the tradeoff between the accuracy and diversity of the sub-models. Thus, the size of the training subset needs to be investigated prior to establishment of the boosting ELM model. In order to show the relative size of the training subset, the percentage of the total number of training samples from 5% to 100% with an interval of 5% is investigated.
+ ###### 
+From cou.: 52 The iteration number (T), i.e., the number of ELM sub-models, is an important parameter involved in the boosting ELM. A certain number of T is needed to improve the predictive accuracy and stability of the proposed model. However, with too large T, the complexity of the boosting model is increased and the computation will be time-consuming. Therefore, an appropriate iteration number should be selected.
+From Soup: 52 Fig. 6(a) shows the variation of mean RMSEP and its SD with the size of the training subset for the diesel fuel dataset. It is clear that the mean RMSEP is very large at first and decreases quickly before 30%, and then remains relatively stable in the range of 30–100%. For more details, in the range of 35–45%, the mean RMSEP has a slight rising and then falling trend. After 50%, the mean RMSEP maintains almost a line. For further considering the stability of the model, SD first decreases with the increase of the training subset. The smallest SD is located at 50%. After that, the SD increases gradually. Therefore, for considering the predictive accuracy and stability simultaneously, 50% of the total training samples are used as the optimal size of the training subset for the diesel fuel dataset in the following discussion. Similar analysis indicates that the optimal size of the training subset is 70% for the edible blend oil dataset.
+ ###### 
+From cou.: 53 In this study, T from 1 to 600 was investigated. For each T, a boosting ELM model is developed and then the model was used to predict the prediction set. The above process is performed 50 times independently and then the mean root mean square error of prediction (RMSEP) and its SD are calculated for each T. Fig. 5(a) shows the variation of mean RMSEP and its SD with the iteration number T for the diesel fuel dataset. From the figure, it can be clearly seen that the mean RMSEP and its SD are both comparatively large at the beginning. With the increase of T, the mean RMSEP and its SD first tend to decrease sharply and then descend gradually before 100. When it is above 100, the decrease of mean RMSEP and its SD becomes slow. For further distinguishing the difference, the variations of mean RMSEP and its SD with T in the range of 100–600 are plotted in Fig. 5(b). Because the range of the vertical coordinate becomes smaller, it is easy to find that the mean RMSEP and its SD still go down until 500. After that, both the mean RMSEP and its SD maintain a stable value. Considering the predictive ability and efficiency, 500 is used for the optimal iteration number for diesel fuel. The edible blend oil dataset has similar results. Accordingly, iteration number T is set as 500 for both datasets.
+From Soup: 53 With the optimal parameters determined above, the boosting ELM model can be developed to predict unknown samples. The predictive ability of the proposed method is estimated by RMSE, the ratio of the standard error of prediction to the SD of the reference values (RPD) and R. Apparently, a better model should have a lower RMSE, a bigger RPD and R. Due to the instability of ELM sub-models and probability sampling involved in the proposed method, 50 independent runs are performed. The mean RMSEC, RPD, R and their SDs for the training set and the mean RMSEP, RPD, R and their SDs for the prediction set are listed in Table 1 . As a comparison, the statistical results of PLS and the ELM with the same training set and prediction set are also calculated and summarized in Table 1 .
+ ###### 
+From cou.: 54 In the boosting ELM method, a series of ELM sub-models is developed by using a certain number of samples selected from the original training set. Therefore another key parameter of the proposed method is the number of the selected samples, i.e., the size of the training subset. It is important that the optimal parameter is the tradeoff between the accuracy and diversity of the sub-models. Thus, the size of the training subset needs to be investigated prior to establishment of the boosting ELM model. In order to show the relative size of the training subset, the percentage of the total number of training samples from 5% to 100% with an interval of 5% is investigated.
+From Soup: 54 From Table 1 , the ELM and the boosting ELM have lower mean RMSEC, bigger mean RPD and R than PLS for the two datasets, suggesting that ELM based methods can achieve better calibration accuracy than PLS. Moreover, the SDs of RMSECs, RPDs and Rs in the boosting ELM are obviously smaller than those in the ELM. This demonstrates that the boosting strategy can improve the stability of the ELM greatly. The SDs of PLS are zero since no random process is involved. The mean RMSEP, RPD, R and their SDs for the prediction set have a similar changing law to those of the training set. To further display the predictive result of each run, the variation of RMSEPs (a), RPDs (b) and Rs (c) for the prediction set obtained by PLS, ELM and boosting ELM in 50 runs for the fuel oil dataset and the edible blend oil dataset is shown in Fig. 7 and 8 , respectively. For the fuel oil dataset ( Fig. 7 ), the ELM and the boosting ELM have lower RMSEPs, bigger RPDs and Rs in all runs than PLS. Moreover, the variation of RMSEPs, RPDs and Rs is all with large fluctuation for the ELM, with small fluctuation for the boosting ELM and no change for PLS. For the edible blend oil dataset ( Fig. 8 ), 47, 46 and 43 in 50 RMSEPs, RPDs and Rs of the ELM are actually better than those of PLS, respectively. The three parameters and their mean values of the boosting ELM in all runs are all better than those of PLS. Herein, the ELM provides better prediction in some runs and worse prediction in other runs than PLS, since it is unstable in replicate runs. The boosting ELM can further improve the predictive accuracy and stability of the ELM and provide better prediction than PLS in all runs for the two datasets. Although the replicate results of the boosting ELM are not reproducible, the method can be used independently since the SD is very small compared with the mean value.
+ ###### 
+From cou.: 55 Fig. 6(a) shows the variation of mean RMSEP and its SD with the size of the training subset for the diesel fuel dataset. It is clear that the mean RMSEP is very large at first and decreases quickly before 30%, and then remains relatively stable in the range of 30–100%. For more details, in the range of 35–45%, the mean RMSEP has a slight rising and then falling trend. After 50%, the mean RMSEP maintains almost a line. For further considering the stability of the model, SD first decreases with the increase of the training subset. The smallest SD is located at 50%. After that, the SD increases gradually. Therefore, for considering the predictive accuracy and stability simultaneously, 50% of the total training samples are used as the optimal size of the training subset for the diesel fuel dataset in the following discussion. Similar analysis indicates that the optimal size of the training subset is 70% for the edible blend oil dataset.
+From Soup: 55 Table 1 also lists the computational times in calibration and prediction steps of the three methods for the two datasets. The ELM is faster than PLS in the calibration step and as efficient as PLS in the prediction step. The higher rapidity of the ELM is attributed to the arbitrarily assigning of input weights and hidden layer biases and calculating the output weights using the generalized inverse in the ELM. The boosting ELM needs more time than the ELM and PLS both in calibration and prediction steps, because T iterations are involved in the boosting ELM. In each iteration, the sampling weights, ELM sub-model and prediction should be calculated again. However, due to the rapidity of the ELM sub-model, the calibration and prediction steps of the boosting ELM only take several seconds (2.7725 and 1.1714 seconds for the diesel fuel dataset, 3.0551 and 0.2024 seconds for the edible blend oil dataset, respectively). Thus, the boosting ELM can be considered as an efficient ensemble method.
+ ###### 
+From cou.: 56 With the optimal parameters determined above, the boosting ELM model can be developed to predict unknown samples. The predictive ability of the proposed method is estimated by RMSE, the ratio of the standard error of prediction to the SD of the reference values (RPD) and R. Apparently, a better model should have a lower RMSE, a bigger RPD and R. Due to the instability of ELM sub-models and probability sampling involved in the proposed method, 50 independent runs are performed. The mean RMSEC, RPD, R and their SDs for the training set and the mean RMSEP, RPD, R and their SDs for the prediction set are listed in Table 1. As a comparison, the statistical results of PLS and the ELM with the same training set and prediction set are also calculated and summarized in Table 1.
+From Soup: 56 In order to improve the predictive accuracy and stability of the ELM, a new ensemble model named the boosting ELM was proposed. This method establishes a series of ELM sub-models sequentially by selecting a certain number of samples from the original training set and then the final prediction is obtained by taking the weighted median of the predictions from ELM sub-models. To validate the effectiveness of the boosting ELM model for NIR spectral multivariate calibration, two datasets of complex samples are used. Moreover, the predictive performance and computational efficiency of the proposed method are also compared with those of the ELM and PLS. The results show that the boosting ELM can greatly improve the predictive accuracy and stability compared with the ELM. Although it takes more time to calibrate a model and predict unknown samples than those of the ELM and PLS, the boosting ELM is an efficient ensemble method. Therefore, the combination of boosting with the ELM offered a promising tool for improving the NIR spectral analysis of complex samples.
+ ###### 
+From cou.: 57 From Table 1, the ELM and the boosting ELM have lower mean RMSEC, bigger mean RPD and R than PLS for the two datasets, suggesting that ELM based methods can achieve better calibration accuracy than PLS. Moreover, the SDs of RMSECs, RPDs and Rs in the boosting ELM are obviously smaller than those in the ELM. This demonstrates that the boosting strategy can improve the stability of the ELM greatly. The SDs of PLS are zero since no random process is involved. The mean RMSEP, RPD, R and their SDs for the prediction set have a similar changing law to those of the training set. To further display the predictive result of each run, the variation of RMSEPs (a), RPDs (b) and Rs (c) for the prediction set obtained by PLS, ELM and boosting ELM in 50 runs for the fuel oil dataset and the edible blend oil dataset is shown in Fig. 7 and 8, respectively. For the fuel oil dataset (Fig. 7), the ELM and the boosting ELM have lower RMSEPs, bigger RPDs and Rs in all runs than PLS. Moreover, the variation of RMSEPs, RPDs and Rs is all with large fluctuation for the ELM, with small fluctuation for the boosting ELM and no change for PLS. For the edible blend oil dataset (Fig. 8), 47, 46 and 43 in 50 RMSEPs, RPDs and Rs of the ELM are actually better than those of PLS, respectively. The three parameters and their mean values of the boosting ELM in all runs are all better than those of PLS. Herein, the ELM provides better prediction in some runs and worse prediction in other runs than PLS, since it is unstable in replicate runs. The boosting ELM can further improve the predictive accuracy and stability of the ELM and provide better prediction than PLS in all runs for the two datasets. Although the replicate results of the boosting ELM are not reproducible, the method can be used independently since the SD is very small compared with the mean value.
+From Soup: 57 Thanks are due to Prof. Xueguang Shao for providing instrumental support. This study is supported by the National Basic Research Program of China (No. 2014CB660813), the National Natural Science Foundation of China (Nos. 21405110 and 21676199) and the Science and Technology Plans of Tianjin (Nos. 15PTSYJC00230 and 16JCTPJC44700).
+ ###### 
+From cou.: 58 Table 1 also lists the computational times in calibration and prediction steps of the three methods for the two datasets. The ELM is faster than PLS in the calibration step and as efficient as PLS in the prediction step. The higher rapidity of the ELM is attributed to the arbitrarily assigning of input weights and hidden layer biases and calculating the output weights using the generalized inverse in the ELM. The boosting ELM needs more time than the ELM and PLS both in calibration and prediction steps, because T iterations are involved in the boosting ELM. In each iteration, the sampling weights, ELM sub-model and prediction should be calculated again. However, due to the rapidity of the ELM sub-model, the calibration and prediction steps of the boosting ELM only take several seconds (2.7725 and 1.1714 seconds for the diesel fuel dataset, 3.0551 and 0.2024 seconds for the edible blend oil dataset, respectively). Thus, the boosting ELM can be considered as an efficient ensemble method.
+From Soup: 58 L. Wang, D. W. Sun, H. B. Pu and J. H. Cheng, Crit. Rev. Food Sci. Nutr. , 2017, 57 , 1524–1538 CrossRef CAS PubMed .
+ ###### 
+From cou.: 59 In order to improve the predictive accuracy and stability of the ELM, a new ensemble model named the boosting ELM was proposed. This method establishes a series of ELM sub-models sequentially by selecting a certain number of samples from the original training set and then the final prediction is obtained by taking the weighted median of the predictions from ELM sub-models. To validate the effectiveness of the boosting ELM model for NIR spectral multivariate calibration, two datasets of complex samples are used. Moreover, the predictive performance and computational efficiency of the proposed method are also compared with those of the ELM and PLS. The results show that the boosting ELM can greatly improve the predictive accuracy and stability compared with the ELM. Although it takes more time to calibrate a model and predict unknown samples than those of the ELM and PLS, the boosting ELM is an efficient ensemble method. Therefore, the combination of boosting with the ELM offered a promising tool for improving the NIR spectral analysis of complex samples.
+From Soup: 59 A. Sakudo, Clin. Chim. Acta , 2016, 455 , 181–188 CrossRef CAS PubMed .
+ ###### 
+From cou.: 60 Thanks are due to Prof. Xueguang Shao for providing instrumental support. This study is supported by the National Basic Research Program of China (No. 2014CB660813), the National Natural Science Foundation of China (Nos. 21405110 and 21676199) and the Science and Technology Plans of Tianjin (Nos. 15PTSYJC00230 and 16JCTPJC44700).
+From Soup: 60 J. J. Roberts and D. Cozzolino, TrAC, Trends Anal. Chem. , 2016, 83 , 25–30 CrossRef CAS .
+ ###### 
+From cou.: 61 L. Wang, D. W. Sun, H. B. Pu and J. H. Cheng, Crit. Rev. Food Sci. Nutr., 2017, 57, 1524–1538 CrossRef CAS PubMed .
+From Soup: 61 X. Y. Cui, X. W. Liu, X. M. Yu, W. S. Cai and X. G. Shao, Anal. Chim. Acta , 2017, 957 , 47–54 CrossRef CAS PubMed .
+ ###### 
+From cou.: 62 A. Sakudo, Clin. Chim. Acta, 2016, 455, 181–188 CrossRef CAS PubMed .
+From Soup: 62 C. Tan, H. Chen, Z. H. Xu, T. Wu, L. Wang and W. P. Zhu, Spectrochim. Acta, Part A , 2012, 96 , 526–531 CrossRef CAS PubMed .
+ ###### 
+From cou.: 63 J. J. Roberts and D. Cozzolino, TrAC, Trends Anal. Chem., 2016, 83, 25–30 CrossRef CAS .
+From Soup: 63 C. Tan, X. Qin and M. L. Li, Anal. Bioanal. Chem. , 2008, 392 , 515–521 CrossRef CAS PubMed .
+ ###### 
+From cou.: 64 X. Y. Cui, X. W. Liu, X. M. Yu, W. S. Cai and X. G. Shao, Anal. Chim. Acta, 2017, 957, 47–54 CrossRef CAS PubMed .
+From Soup: 64 X. G. Shao, X. H. Bian, J. J. Liu, M. Zhang and W. S. Cai, Anal. Methods , 2010, 2 , 1662–1666 RSC .
+ ###### 
+From cou.: 65 C. Tan, H. Chen, Z. H. Xu, T. Wu, L. Wang and W. P. Zhu, Spectrochim. Acta, Part A, 2012, 96, 526–531 CrossRef CAS PubMed .
+From Soup: 65 S. Wold, M. Sjostrom and L. Eriksson, Chemom. Intell. Lab. Syst. , 2001, 58 , 109–130 CrossRef CAS .
+ ###### 
+From cou.: 66 C. Tan, X. Qin and M. L. Li, Anal. Bioanal. Chem., 2008, 392, 515–521 CrossRef CAS PubMed .
+From Soup: 66 J. P. M. Andries, Y. Vander Heyden and L. M. C. Buydens, Anal. Chem. , 2013, 85 , 5444–5453 CrossRef CAS PubMed .
+ ###### 
+From cou.: 67 X. G. Shao, X. H. Bian, J. J. Liu, M. Zhang and W. S. Cai, Anal. Methods, 2010, 2, 1662–1666 RSC .
+From Soup: 67 J. T. Peng, L. Q. Li and Y. Y. Tang, Chemom. Intell. Lab. Syst. , 2013, 120 , 53–58 CrossRef CAS .
+ ###### 
+From cou.: 68 S. Wold, M. Sjostrom and L. Eriksson, Chemom. Intell. Lab. Syst., 2001, 58, 109–130 CrossRef CAS .
+From Soup: 68 R. M. Balabin and E. I. Lomakina, Analyst , 2011, 136 , 1703–1712 RSC .
+ ###### 
+From cou.: 69 J. P. M. Andries, Y. Vander Heyden and L. M. C. Buydens, Anal. Chem., 2013, 85, 5444–5453 CrossRef CAS PubMed .
+From Soup: 69 G. B. Huang, Q. Y. Zhu and C. K. Siew, Neurocomputing , 2006, 70 , 489–501 CrossRef .
+ ###### 
+From cou.: 70 J. T. Peng, L. Q. Li and Y. Y. Tang, Chemom. Intell. Lab. Syst., 2013, 120, 53–58 CrossRef CAS .
+From Soup: 70 G. B. Huang, L. Chen and C. K. Siew, IEEE Transactions on Neural Networks , 2006, 17 , 879–892 CrossRef PubMed .
+ ###### 
+From cou.: 71 R. M. Balabin and E. I. Lomakina, Analyst, 2011, 136, 1703–1712 RSC .
+From Soup: 71 W. Y. Deng, Z. Bai, G. B. Huang and Q. H. Zheng, Neural Network. , 2016, 77 , 14–28 CrossRef PubMed .
+ ###### 
+From cou.: 72 G. B. Huang, Q. Y. Zhu and C. K. Siew, Neurocomputing, 2006, 70, 489–501 CrossRef .
+From Soup: 72 X. H. Bian, S. J. Li, M. R. Meng, Y. G. Guo, N. Chang and J. J. Wang, Anal. Methods , 2016, 8 , 4674–46799 RSC .
+ ###### 
+From cou.: 73 G. B. Huang, L. Chen and C. K. Siew, IEEE Transactions on Neural Networks, 2006, 17, 879–892 CrossRef PubMed .
+From Soup: 73 H. Jiang, G. H. Liu, C. L. Mei and Q. S. Chen, Anal. Methods , 2013, 5 , 1872–1880 RSC .
+ ###### 
+From cou.: 74 W. Y. Deng, Z. Bai, G. B. Huang and Q. H. Zheng, Neural Network., 2016, 77, 14–28 CrossRef PubMed .
+From Soup: 74 H. AlHichri, Y. Bazi, N. Alajlan, F. Melgani, S. Malek and R. R. Yager, J. Chemom. , 2013, 27 , 447–456 CrossRef CAS .
+ ###### 
+From cou.: 75 X. H. Bian, S. J. Li, M. R. Meng, Y. G. Guo, N. Chang and J. J. Wang, Anal. Methods, 2016, 8, 4674–46799 RSC .
+From Soup: 75 D. Xiao, J. C. Wang and Z. Z. Mao, Chemom. Intell. Lab. Syst. , 2014, 134 , 118–122 CrossRef CAS .
+ ###### 
+From cou.: 76 H. Jiang, G. H. Liu, C. L. Mei and Q. S. Chen, Anal. Methods, 2013, 5, 1872–1880 RSC .
+From Soup: 76 H. M. Feng and X. Z. Wang, Neural Network. , 2015, 63 , 87–93 CrossRef PubMed .
+ ###### 
+From cou.: 77 H. AlHichri, Y. Bazi, N. Alajlan, F. Melgani, S. Malek and R. R. Yager, J. Chemom., 2013, 27, 447–456 CrossRef CAS .
+From Soup: 77 W. R. Chen, J. Bin, H. M. Lu, Z. M. Zhang and Y. Z. Liang, Analyst , 2016, 141 , 1973–1980 RSC .
+ ###### 
+From cou.: 78 D. Xiao, J. C. Wang and Z. Z. Mao, Chemom. Intell. Lab. Syst., 2014, 134, 118–122 CrossRef CAS .
+From Soup: 78 H. J. Lu, C. L. An, E. H. Zheng and Y. Lu, Neurocomputing , 2014, 128 , 22–30 CrossRef .
+ ###### 
+From cou.: 79 H. M. Feng and X. Z. Wang, Neural Network., 2015, 63, 87–93 CrossRef PubMed .
+From Soup: 79 B. C. Deng, Y. H. Yun, Y. Z. Liang, D. S. Cao, Q. S. Xu, L. Z. Yi and X. Huang, Anal. Chim. Acta , 2015, 880 , 32–41 CrossRef CAS PubMed .
+ ###### 
+From cou.: 80 W. R. Chen, J. Bin, H. M. Lu, Z. M. Zhang and Y. Z. Liang, Analyst, 2016, 141, 1973–1980 RSC .
+From Soup: 80 Y. K. Li, X. G. Shao and W. S. Cai, Talanta , 2007, 72 , 217–222 CrossRef CAS PubMed .
+ ###### 
+From cou.: 81 H. J. Lu, C. L. An, E. H. Zheng and Y. Lu, Neurocomputing, 2014, 128, 22–30 CrossRef .
+From Soup: 81 X. H. Bian, S. J. Li, L. G. Lin, X. Y. Tan, Q. J. Fan and M. Li, Anal. Chim. Acta , 2016, 925 , 16–22 CrossRef CAS PubMed .
+ ###### 
+From cou.: 82 B. C. Deng, Y. H. Yun, Y. Z. Liang, D. S. Cao, Q. S. Xu, L. Z. Yi and X. Huang, Anal. Chim. Acta, 2015, 880, 32–41 CrossRef CAS PubMed .
+From Soup: 82 J. Jiao, S. M. Tan, R. M. Luo and Y. P. Zhou, J. Chem. Inf. Model. , 2011, 51 , 816–828 CrossRef CAS PubMed .
+ ###### 
+From cou.: 83 Y. K. Li, X. G. Shao and W. S. Cai, Talanta, 2007, 72, 217–222 CrossRef CAS PubMed .
+From Soup: 83 R. E. Schapire, Machine Learning , 1990, 5 , 197–227 Search PubMed .
+ ###### 
+From cou.: 84 X. H. Bian, S. J. Li, L. G. Lin, X. Y. Tan, Q. J. Fan and M. Li, Anal. Chim. Acta, 2016, 925, 16–22 CrossRef CAS PubMed .
+From Soup: 84 M. H. Zhang, Q. S. Xu and D. L. Massart, Anal. Chem. , 2005, 77 , 1423–1431 CrossRef CAS PubMed .
+ ###### 
+From cou.: 85 J. Jiao, S. M. Tan, R. M. Luo and Y. P. Zhou, J. Chem. Inf. Model., 2011, 51, 816–828 CrossRef CAS PubMed .
+From Soup: 85 Y. P. Zhou, C. B. Cai, S. Huan, J. H. Jiang, H. L. Wu, G. L. Shen and R. Q. Yu, Anal. Chim. Acta , 2007, 593 , 68–74 CrossRef CAS PubMed .
+ ###### 
+From cou.: 86 R. E. Schapire, Machine Learning, 1990, 5, 197–227 Search PubMed .
+From Soup: 86 X. G. Shao, X. H. Bian and W. S. Cai, Anal. Chim. Acta , 2010, 666 , 32–37 CrossRef CAS PubMed .
+ ###### 
+From cou.: 87 M. H. Zhang, Q. S. Xu and D. L. Massart, Anal. Chem., 2005, 77, 1423–1431 CrossRef CAS PubMed .
+From Soup: 87 D. S. Cao, Q. S. Xu, Y. Z. Liang, L. X. Zhang and H. D. Li, Chemom. Intell. Lab. Syst. , 2010, 100 , 1–11 CrossRef CAS .
+ ###### 
+From cou.: 88 Y. P. Zhou, C. B. Cai, S. Huan, J. H. Jiang, H. L. Wu, G. L. Shen and R. Q. Yu, Anal. Chim. Acta, 2007, 593, 68–74 CrossRef CAS PubMed .
+From Soup: 88 Y. K. Li, Anal. Methods , 2012, 4 , 254–258 RSC .
+ ###### 
+From cou.: 89 X. G. Shao, X. H. Bian and W. S. Cai, Anal. Chim. Acta, 2010, 666, 32–37 CrossRef CAS PubMed .
+From Soup: 89 Q. S. Xu, J. Xu, D. S. Cao and Y. Z. Liang, Chemom. Intell. Lab. Syst. , 2016, 152 , 134–139 CrossRef CAS .
+ ###### 
+From cou.: 90 D. S. Cao, Q. S. Xu, Y. Z. Liang, L. X. Zhang and H. D. Li, Chemom. Intell. Lab. Syst., 2010, 100, 1–11 CrossRef CAS .
+From Soup: 90 X. H. Bian, S. J. Li, X. G. Shao and P. Liu, Chemom. Intell. Lab. Syst. , 2016, 158 , 174–179 CrossRef CAS .
+ ###### 
+From cou.: 91 Y. K. Li, Anal. Methods, 2012, 4, 254–258 RSC .
+From Soup: 91 W. X. Pan, J. W. Zhao, Q. S. Chen and D. L. Zhang, Food Analytical Methods , 2015, 8 , 749–757 CrossRef .
+ ###### 
+From cou.: 92 Q. S. Xu, J. Xu, D. S. Cao and Y. Z. Liang, Chemom. Intell. Lab. Syst., 2016, 152, 134–139 CrossRef CAS .
+From Soup: 92 Q. Ouyang, Q. S. Chen and J. W. Zhao, Spectrochim. Acta, Part A , 2016, 154 , 42–46 CrossRef CAS PubMed .
+ ###### 
+From cou.: 93 X. H. Bian, S. J. Li, X. G. Shao and P. Liu, Chemom. Intell. Lab. Syst., 2016, 158, 174–179 CrossRef CAS .
+From Soup: 93 Y. P. Zhou, L. Xu, L. J. Tang, J. H. Jiang, G. L. Shen, R. Q. Yu and Y. Ozaki, Anal. Sci. , 2007, 23 , 793–798 CrossRef CAS PubMed .
+ ###### 
+From cou.: 94 W. X. Pan, J. W. Zhao, Q. S. Chen and D. L. Zhang, Food Analytical Methods, 2015, 8, 749–757 CrossRef .
+From Soup: 94 R. M. Luo, S. M. Tan, Y. P. Zhou, S. J. Liu, H. Xu, D. D. Song, Y. F. Cui, H. Y. Fu and T. M. Yang, J. Chemom. , 2013, 27 , 198–206 CrossRef CAS .
+ ###### 
+From cou.: 95 Q. Ouyang, Q. S. Chen and J. W. Zhao, Spectrochim. Acta, Part A, 2016, 154, 42–46 CrossRef CAS PubMed .
+From Soup: 95 P. R. Filgueras, L. A. Terra, E. V. R. Castro, L. M. S. L. Olivera, J. C. M. Dias and R. J. Poppi, Talanta , 2015, 142 , 197–205 CrossRef PubMed .
+ ###### 
+From cou.: 96 Y. P. Zhou, L. Xu, L. J. Tang, J. H. Jiang, G. L. Shen, R. Q. Yu and Y. Ozaki, Anal. Sci., 2007, 23, 793–798 CrossRef CAS PubMed .
+From Soup: 96 K. Li, X. F. Kong, Z. Lu, W. Y. Liu and J. P. Yin, Neurocomputing , 2014, 128 , 15–21 CrossRef .
+ ###### 
+From cou.: 97 R. M. Luo, S. M. Tan, Y. P. Zhou, S. J. Liu, H. Xu, D. D. Song, Y. F. Cui, H. Y. Fu and T. M. Yang, J. Chemom., 2013, 27, 198–206 CrossRef CAS .
+From Soup: 97 Y. L. Jiang, Y. F. Shen, Y. Liu and W. C. Liu, Math. Probl. Eng. , 2015, 918105 Search PubMed .
+ ###### 
+From cou.: 98 P. R. Filgueras, L. A. Terra, E. V. R. Castro, L. M. S. L. Olivera, J. C. M. Dias and R. J. Poppi, Talanta, 2015, 142, 197–205 CrossRef PubMed .
+From Soup: 98 J. C. Laurentino Alves and R. J. Poppi, Analyst , 2013, 138 , 6477–6648 RSC .
+ ###### 
+From cou.: 99 K. Li, X. F. Kong, Z. Lu, W. Y. Liu and J. P. Yin, Neurocomputing, 2014, 128, 15–21 CrossRef .
+From Soup: 99 O. Jovic, T. Smolic, I. Primozic and T. Hrenar, Anal. Chem. , 2016, 88 , 4516–4524 CrossRef CAS PubMed .
+ ###### 
+From cou.: 100 Y. L. Jiang, Y. F. Shen, Y. Liu and W. C. Liu, Math. Probl. Eng., 2015, 918105 Search PubMed .
+From Soup: 100 Y. L. He, Z. Q. Geng and Q. X. Zhu, Chemom. Intell. Lab. Syst. , 2016, 151 , 78–88 CrossRef CAS .
+ ###### 
+From cou.: 101 J. C. Laurentino Alves and R. J. Poppi, Analyst, 2013, 138, 6477–6648 RSC .
+From Soup: 101 G. A. Barreto and A. L. S. P. Barros, Neurocomputing , 2016, 176 , 3–13 CrossRef .
+ ###### 
+From cou.: 102 O. Jovic, T. Smolic, I. Primozic and T. Hrenar, Anal. Chem., 2016, 88, 4516–4524 CrossRef CAS PubMed .
+From Soup: 102 O. O. Soyemi, M. A. Busch and K. W. Busch, J. Chem. Inf. Comput. Sci. , 2000, 40 , 1093–1100 CrossRef CAS PubMed .
+ ###### 
+From cou.: 103 Y. L. He, Z. Q. Geng and Q. X. Zhu, Chemom. Intell. Lab. Syst., 2016, 151, 78–88 CrossRef CAS .
+From Soup: 103 R. W. Kennard and L. A. Stone, Technometrics , 1969, 11 , 137–148 CrossRef .
+ ###### 
+From cou.: 104 G. A. Barreto and A. L. S. P. Barros, Neurocomputing, 2016, 176, 3–13 CrossRef .
+From Soup: 104 Q. S. Xu and Y. Z. Liang, Chemom. Intell. Lab. Syst. , 2001, 56 , 1–11 CrossRef CAS .
+ ###### 
+From cou.: 105 O. O. Soyemi, M. A. Busch and K. W. Busch, J. Chem. Inf. Comput. Sci., 2000, 40, 1093–1100 CrossRef CAS PubMed .
+From cou.: 106 R. W. Kennard and L. A. Stone, Technometrics, 1969, 11, 137–148 CrossRef .
+From cou.: 107 Q. S. Xu and Y. Z. Liang, Chemom. Intell. Lab. Syst., 2001, 56, 1–11 CrossRef CAS .

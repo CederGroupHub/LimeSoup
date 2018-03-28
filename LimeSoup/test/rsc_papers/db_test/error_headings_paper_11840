@@ -1,0 +1,32 @@
+from test: 0 Dechlorination of pentachlorophenol in supercritical carbon dioxide with a zero-valent silver–iron bimetallic mixture
+from soup: 0 Dechlorination of pentachlorophenol in supercritical carbon dioxide with a zero-valent silver–iron bimetallic mixture
+ ###### 
+from test: 1 Abstract
+from soup: 1 Abstract
+ ###### 
+from test: 2 Introduction
+from soup: 2 Introduction(guess)
+ ###### 
+from test: 3 Experimental
+from soup: 3 Introduction
+ ###### 
+from test: 4 Chemicals
+from soup: 4 Experimental
+ ###### 
+from test: 5 Reactor
+from soup: 5 Chemicals
+ ###### 
+from test: 6 Reactor operation
+from soup: 6 Reactor
+ ###### 
+from test: 7 Organically bound chlorine
+from soup: 7 Reactor operation
+ ###### 
+from test: 8 Gas chromatography–mass spectrometry
+from soup: 8 Organically bound chlorine
+ ###### 
+from test: 9 Results and discussion
+from soup: 9 Gas chromatography–mass spectrometry
+ ###### 
+from test: 10 Acknowledgements
+from test: 11 References

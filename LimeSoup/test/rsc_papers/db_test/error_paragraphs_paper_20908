@@ -1,0 +1,429 @@
+From cou.: 0 Journal
+From Soup: 0 Phys. Chem. Chem. Phys.
+ ###### 
+From cou.: 1 We developed a program code of configuration interaction singles (CIS) based on a numerical grid method. We used Kohn–Sham (KS) as well as Hartree–Fock (HF) orbitals as a reference configuration and Lagrange-sinc functions as a basis set. Our calculations show that KS-CIS is more cost-effective and more accurate than HF-CIS. The former is due to the fact that the non-local HF exchange potential greatly reduces the sparsity of the Hamiltonian matrix in grid-based methods. The latter is because the energy gaps between KS occupied and virtual orbitals are already closer to vertical excitation energies and thus KS-CIS needs small corrections, whereas HF results in much larger energy gaps and more diffuse virtual orbitals. KS-CIS using the Lagrange-sinc basis set also shows a better or a similar accuracy to smaller orbital space compared to the standard HF-CIS using Gaussian basis sets. In particular, KS orbitals from an exact exchange potential by the Krieger–Li–Iafrate approximation lead to more accurate excitation energies than those from conventional (semi-) local exchange–correlation potentials.
+From Soup: 1 We developed a program code of configuration interaction singles (CIS) based on a numerical grid method. We used Kohn–Sham (KS) as well as Hartree–Fock (HF) orbitals as a reference configuration and Lagrange-sinc functions as a basis set. Our calculations show that KS-CIS is more cost-effective and more accurate than HF-CIS. The former is due to the fact that the non-local HF exchange potential greatly reduces the sparsity of the Hamiltonian matrix in grid-based methods. The latter is because the energy gaps between KS occupied and virtual orbitals are already closer to vertical excitation energies and thus KS-CIS needs small corrections, whereas HF results in much larger energy gaps and more diffuse virtual orbitals. KS-CIS using the Lagrange-sinc basis set also shows a better or a similar accuracy to smaller orbital space compared to the standard HF-CIS using Gaussian basis sets. In particular, KS orbitals from an exact exchange potential by the Krieger–Li–Iafrate approximation lead to more accurate excitation energies than those from conventional (semi-) local exchange–correlation potentials.
+ ###### 
+From cou.: 2 Rapidly growing interest in computational materials design1–5 and quantum biology6 has encouraged development of innovative methods for accurate electronic structure calculations of large systems.7–12 Though quantum chemistry using atom-centred basis functions such as Gaussian basis sets shows unrivalled performance for small and medium size molecules in terms of computation costs, they face the limit of their capabilities in dealing with large systems. Apparently, grid-based methods are promising alternatives, because their computational costs can be reduced through massive parallelization as well as linear scaling algorithms7–10,13–15 and their accuracy can be systematically improved by single parameter control without optimizing system- or method-dependent parameters.
+From Soup: 2 Rapidly growing interest in computational materials design 1–5 and quantum biology 6 has encouraged development of innovative methods for accurate electronic structure calculations of large systems. 7–12 Though quantum chemistry using atom-centred basis functions such as Gaussian basis sets shows unrivalled performance for small and medium size molecules in terms of computation costs, they face the limit of their capabilities in dealing with large systems. Apparently, grid-based methods are promising alternatives, because their computational costs can be reduced through massive parallelization as well as linear scaling algorithms 7–10,13–15 and their accuracy can be systematically improved by single parameter control without optimizing system- or method-dependent parameters.
+ ###### 
+From cou.: 3 Most available codes using numerical grid basis sets adopt density functional theory (DFT) for ground state calculations and time-dependent DFT for excited state calculations.7–10,16 Though (time-dependent) DFT offers a cost-effective way to describe large systems with reliable accuracy in many cases, it fails even qualitatively for strongly-correlated systems,17,18 since it relies on a single-determinant approach.
+From Soup: 3 Most available codes using numerical grid basis sets adopt density functional theory (DFT) for ground state calculations and time-dependent DFT for excited state calculations. 7–10,16 Though (time-dependent) DFT offers a cost-effective way to describe large systems with reliable accuracy in many cases, it fails even qualitatively for strongly-correlated systems, 17,18 since it relies on a single-determinant approach.
+ ###### 
+From cou.: 4 Strong correlation effects of electrons can readily be captured by using multiconfiguration (MC) methods. To our best knowledge, however, no traditional wave function theory has been used in real-space numerical grid methods. The so-called post-Hartree–Fock (post-HF) approaches may not be adequate for numerical grid basis sets, since the nonlocal HF exchange operator greatly reduces the sparsity of the Hamiltonian matrix and consequently increases computational costs. The optimized effective potential (OEP) method which constructs a local potential from the nonlocal HF exchange energy can be employed to circumvent such a numerical burden. Then, one is able to use the framework of a conventional Kohn–Sham (KS) DFT method but that a local exchange potential is replaced by an orbital-dependent exact exchange (EXX) potential. For practical purposes, the Krieger–Li–Iafrate (KLI) approximation,19–23 the localized HF method,24–26 and the common energy denominator approximation27,28 have been developed to implement EXX in a cost-effective manner.
+From Soup: 4 Strong correlation effects of electrons can readily be captured by using multiconfiguration (MC) methods. To our best knowledge, however, no traditional wave function theory has been used in real-space numerical grid methods. The so-called post-Hartree–Fock (post-HF) approaches may not be adequate for numerical grid basis sets, since the nonlocal HF exchange operator greatly reduces the sparsity of the Hamiltonian matrix and consequently increases computational costs. The optimized effective potential (OEP) method which constructs a local potential from the nonlocal HF exchange energy can be employed to circumvent such a numerical burden. Then, one is able to use the framework of a conventional Kohn–Sham (KS) DFT method but that a local exchange potential is replaced by an orbital-dependent exact exchange (EXX) potential. For practical purposes, the Krieger–Li–Iafrate (KLI) approximation, 19–23 the localized HF method, 24–26 and the common energy denominator approximation 27,28 have been developed to implement EXX in a cost-effective manner.
+ ###### 
+From cou.: 5 MC methods require virtual orbitals in addition to occupied orbitals. KS orbitals obtained from EXX may show similar or better performance for application to MC methods than HF orbitals. In our previous work, we investigated the features of KLI orbitals through comparison to HF orbitals and conventional KS orbitals obtained from local density approximation (LDA) and generalized gradient approximation (GGA).29 Since the KLI potential has been derived from the HF exchange term, occupied orbitals of KLI are similar to those of HF in terms of energy and shape. However, their virtual orbitals have no such similarity. KLI virtual orbitals are the result of an n-electron system as usual KS orbitals and thus their energies are relatively closer to vertical excitation energies.29–31 In contrast, HF yields virtual orbitals of an (n + 1)-electron system and thus their energies are regarded as electron affinities. In addition, the KLI potential has the correct −1/r asymptotic behaviour, while LDA and GGA potentials exponentially decay due to self-interaction errors.29,32 As a result, the KLI potential well describes Rydberg-like states with a number of bound virtual orbitals, whereas HF or conventional KS orbitals have few bound states.29 In fact, KLI orbitals are relatively closer to the so-called exact KS orbitals.29–31 Therefore, we expect that these distinct features of KLI orbitals certainly offer benefits for excited state calculations using MC methods.
+From Soup: 5 MC methods require virtual orbitals in addition to occupied orbitals. KS orbitals obtained from EXX may show similar or better performance for application to MC methods than HF orbitals. In our previous work, we investigated the features of KLI orbitals through comparison to HF orbitals and conventional KS orbitals obtained from local density approximation (LDA) and generalized gradient approximation (GGA). 29 Since the KLI potential has been derived from the HF exchange term, occupied orbitals of KLI are similar to those of HF in terms of energy and shape. However, their virtual orbitals have no such similarity. KLI virtual orbitals are the result of an n -electron system as usual KS orbitals and thus their energies are relatively closer to vertical excitation energies. 29–31 In contrast, HF yields virtual orbitals of an ( n + 1)-electron system and thus their energies are regarded as electron affinities. In addition, the KLI potential has the correct −1/ r asymptotic behaviour, while LDA and GGA potentials exponentially decay due to self-interaction errors. 29,32 As a result, the KLI potential well describes Rydberg-like states with a number of bound virtual orbitals, whereas HF or conventional KS orbitals have few bound states. 29 In fact, KLI orbitals are relatively closer to the so-called exact KS orbitals. 29–31 Therefore, we expect that these distinct features of KLI orbitals certainly offer benefits for excited state calculations using MC methods.
+ ###### 
+From cou.: 6 There have been preceding research studies on MC methods using KS orbitals. For instance, the accurate excitation energies of atoms and small molecules could be obtained using (multi-reference) configuration interaction (CI) methods.33–39 Gutlé et al. reported that a coupled-cluster singles and doubles method using approximated OEP orbitals produced quantitatively similar correlation energies for atoms compared to the HF version.40 CI with configurations obtained from constrained DFT described various excited state properties of molecules in a qualitatively correct manner, where KS theory fails.41
+From Soup: 6 There have been preceding research studies on MC methods using KS orbitals. For instance, the accurate excitation energies of atoms and small molecules could be obtained using (multi-reference) configuration interaction (CI) methods. 33–39 Gutlé et al. reported that a coupled-cluster singles and doubles method using approximated OEP orbitals produced quantitatively similar correlation energies for atoms compared to the HF version. 40 CI with configurations obtained from constrained DFT described various excited state properties of molecules in a qualitatively correct manner, where KS theory fails. 41
+ ###### 
+From cou.: 7 It should be noted that the aforementioned KS-MC methods are based on atom-centred basis sets. Yanai et al. devised the linear response TD-HF method using multiresolution multiwavelet basis sets.42 However, the extension of such an approach to double or higher excitations will be an intractable task due to the increased dimensionality of response function accordingly. In this work, we, for the first time, developed a CI method based on real-space numerical grids using the traditional matrix approach, which can be straightforwardly extended to higher levels. For comparison, we used KLI, GGA, and HF orbitals to build a reference configuration. Specifically, the CI code includes only single excitations as a prototype and was implemented in our KS-DFT code that uses Lagrange-sinc functions (LSFs) as a basis set. We already reported the details of our KS-DFT code and its accuracy for ground state calculations of molecules in comparison to the results of widely-used Gaussian basis sets.29,43 Here, we briefly explain the features of the LSFs as a basis set and the KLI approximation, and then describe details of the CIS implementation using LSFs. We compared between KLI-, GGA-, and HF-CIS results for excited state calculations of molecules and finally draw conclusions with future outlook on the extension of the present CI method to double and higher excitations.
+From Soup: 7 It should be noted that the aforementioned KS-MC methods are based on atom-centred basis sets. Yanai et al. devised the linear response TD-HF method using multiresolution multiwavelet basis sets. 42 However, the extension of such an approach to double or higher excitations will be an intractable task due to the increased dimensionality of response function accordingly. In this work, we, for the first time, developed a CI method based on real-space numerical grids using the traditional matrix approach, which can be straightforwardly extended to higher levels. For comparison, we used KLI, GGA, and HF orbitals to build a reference configuration. Specifically, the CI code includes only single excitations as a prototype and was implemented in our KS-DFT code that uses Lagrange-sinc functions (LSFs) as a basis set. We already reported the details of our KS-DFT code and its accuracy for ground state calculations of molecules in comparison to the results of widely-used Gaussian basis sets. 29,43 Here, we briefly explain the features of the LSFs as a basis set and the KLI approximation, and then describe details of the CIS implementation using LSFs. We compared between KLI-, GGA-, and HF-CIS results for excited state calculations of molecules and finally draw conclusions with future outlook on the extension of the present CI method to double and higher excitations.
+ ###### 
+From cou.: 8 A sinc function localized on a grid point xi (e.g., the red curve in Fig. 1) is given bywhere h is a scaling factor. The roots of a sinc function form a set of grid points with uniform spacing h. Sinc functions localized on those grid points have the following intriguing attributes: cardinality and orthonormality written asrespectively. In fact, there is a family of functions, namely the Lagrange functions that share the above two attributes. Therefore, sinc functions localized on grid points with uniform spacing h are called the Lagrange-sinc functions (LSFs), while the grid is named as the Lagrange-sinc mesh. For more details of the Lagrange functions, we refer to ref. 44 and 45.
+From Soup: 8 A sinc function localized on a grid point x i ( e.g. , the red curve in Fig. 1 ) is given by where h is a scaling factor. The roots of a sinc function form a set of grid points with uniform spacing h . Sinc functions localized on those grid points have the following intriguing attributes: cardinality and orthonormality written as respectively. In fact, there is a family of functions, namely the Lagrange functions that share the above two attributes. Therefore, sinc functions localized on grid points with uniform spacing h are called the Lagrange-sinc functions (LSFs), while the grid is named as the Lagrange-sinc mesh. For more details of the Lagrange functions, we refer to ref. 44 and 45 .
+ ###### 
+From cou.: 9 The LSFs can be used as a basis set to represent HF or KS orbitals;
+From Soup: 9 The LSFs can be used as a basis set to represent HF or KS orbitals;
+ ###### 
+From cou.: 10 c
+From Soup: 10 c
+ ###### 
+From cou.: 11 n
+From Soup: 11 n
+ ###### 
+From cou.: 12 ijk
+From Soup: 12 ijk
+ ###### 
+From cou.: 13 v
+From Soup: 13 v
+ ###### 
+From cou.: 14 r
+From Soup: 14 r
+ ###### 
+From cou.: 15 x
+From Soup: 15 x
+ ###### 
+From cou.: 16 LSFs apparently have beneficial features for application in electronic structure calculations. Compared to the finite difference method which shares the same uniform grid, LSFs guarantee more accurate kinetic energy thanks to the analytic expression for derivatives. However, the use of pseudopotentials is essential for cost-effective calculations. We have implemented a KS-DFT code using LSFs as a basis set with norm-conserving pseudopotentials.43 Our previous work showed that accuracy of the Lagrange-sinc basis set can be systematically improved for atomization energies, ionization energies, electron affinities, and polarizabilities of atoms and molecules. In particular, we demonstrated that it is suitable to describe highly diffuse and polarized orbitals. For more details of implementation and its accuracy, we refer to ref. 43.
+From Soup: 16 LSFs apparently have beneficial features for application in electronic structure calculations. Compared to the finite difference method which shares the same uniform grid, LSFs guarantee more accurate kinetic energy thanks to the analytic expression for derivatives. However, the use of pseudopotentials is essential for cost-effective calculations. We have implemented a KS-DFT code using LSFs as a basis set with norm-conserving pseudopotentials. 43 Our previous work showed that accuracy of the Lagrange-sinc basis set can be systematically improved for atomization energies, ionization energies, electron affinities, and polarizabilities of atoms and molecules. In particular, we demonstrated that it is suitable to describe highly diffuse and polarized orbitals. For more details of implementation and its accuracy, we refer to ref. 43 .
+ ###### 
+From cou.: 17 The KLI approximation has been regarded as a practical approach to obtain a local EXX potential. We implemented this method in our code and addressed the distinct features of KLI orbitals compared to HF or conventional LDA/GGA orbitals.29 Here, we provide a brief review on the KLI approximation but for more details we refer to ref. 23 and 29.
+From Soup: 17 The KLI approximation has been regarded as a practical approach to obtain a local EXX potential. We implemented this method in our code and addressed the distinct features of KLI orbitals compared to HF or conventional LDA/GGA orbitals. 29 Here, we provide a brief review on the KLI approximation but for more details we refer to ref. 23 and 29 .
+ ###### 
+From cou.: 18 The HF exchange energy, EHFx, can be written as
+From Soup: 18 The HF exchange energy, E HF x , can be written as
+ ###### 
+From cou.: 19 N
+From Soup: 19 N
+ ###### 
+From cou.: 20 σ
+From Soup: 20 σ
+ ###### 
+From cou.: 21 ϕ
+From Soup: 21 ϕ
+ ###### 
+From cou.: 22 iσ
+From Soup: 22 iσ
+ ###### 
+From cou.: 23 σ
+From Soup: 23 σ
+ ###### 
+From cou.: 24 HF
+From Soup: 24 HF
+ ###### 
+From cou.: 25 x
+From Soup: 25 x , iσ
+ ###### 
+From cou.: 26 iσ
+From Soup: 26 eqn (1)
+ ###### 
+From cou.: 27 HF
+From Soup: 27 eqn (2)
+ ###### 
+From cou.: 28 x
+From Soup: 28 HF
+ ###### 
+From cou.: 29 iσ
+From Soup: 29 x , iσ
+ ###### 
+From cou.: 30 ϕ
+From Soup: 30 ϕ
+ ###### 
+From cou.: 31 iσ
+From Soup: 31 iσ
+ ###### 
+From cou.: 32 HF
+From Soup: 32 HF
+ ###### 
+From cou.: 33 x
+From Soup: 33 x , iσ
+ ###### 
+From cou.: 34 iσ
+From Soup: 34 ϕ
+ ###### 
+From cou.: 35 ϕ
+From Soup: 35 iσ
+ ###### 
+From cou.: 36 iσ
+From Soup: 36 KLI
+ ###### 
+From cou.: 37 KLI
+From Soup: 37 x , iσ
+ ###### 
+From cou.: 38 x
+From Soup: 38 ϕ
+ ###### 
+From cou.: 39 iσ
+From Soup: 39 iσ
+ ###### 
+From cou.: 40 ϕ
+From Soup: 40 KLI
+ ###### 
+From cou.: 41 iσ
+From Soup: 41 x , iσ
+ ###### 
+From cou.: 42 KLI
+From Soup: 42 ϕ
+ ###### 
+From cou.: 43 x
+From Soup: 43 iσ
+ ###### 
+From cou.: 44 iσ
+From Soup: 44 19,20
+ ###### 
+From cou.: 45 ϕ
+From Soup: 45 We implemented a CIS method using KS orbitals in our code. We use a Slater determinant composed of ground state KS orbitals, | Φ 0 〉, as a reference configuration. Then, we performed CIS calculations almost in the same manner by the traditional HF-CIS method. For instance, a single excitation configuration | Φ a i 〉 can be generated by promoting one electron from an occupied orbital ϕ i to a virtual orbital ϕ a . Because we use numerical grid methods and pseudopotentials, the generation of single excitation configurations should be carried out within an active orbital space which includes only valence orbitals in the occupied space and a finite number of virtual orbitals truncated by an energy threshold. It should also be noted that KS orbitals are not the eigenfunctions of the Fock operator and thus unlike the HF-CI method, Brillouin's theorem does not hold for namely the KS-CI method as shown in eqn (3) . To consider the spin state of each excitation, we used a configuration state function | 2 S +1 Φ a i 〉, where 2 S + 1 indicates the spin multiplicity. A KS-CIS matrix element for a singlet excitation can be written as where Ĥ , E 0 and ε i / a denote a molecular Hamiltonian under the Born–Oppenheimer approximation, the corresponding ground state total energy, and the i / a -th orbital energy, respectively. In the process of constructing the KS-CIS matrix, the evaluation of the following two-centre integral is the most time-consuming part. To efficiently evaluate the integral in eqn (5) , we employed the interpolating scaling function method which has been originally used to compute Hartree potentials. 46–51 First, eqn (5) can be rewritten as where we define and ρ kl ( r ) ≡ ϕ k *( r ) ϕ l ( r ). In eqn (7) , | r 1 − r 2 | −1 was replaced by the integration of a Gaussian function. Then, we expand ρ kl ( r ) with LSFs as and insert it into eqn (7) . Using the fact that both the Gaussian function and LSFs can be written as the products of three functions, eqn (7) can be re-expressed as which just requires to perform three one-dimensional integrals. The integral along t s can be evaluated using a Gaussian quadrature method with 51 grid points { t s } and corresponding weight factors { w s }, and t f is the largest value in { t s }. Since we eventually need to compute eqn (6) on a given Lagrange-mesh, eqn (9) can be transformed into a matrix form as where a so-called F matrix is given by Eqn (11) is independent of orbitals and therefore calculated once at the beginning of calculations. The computational cost of the summation in eqn (10) is proportional to N 4/3 grid where N grid is the total number of grid points on the Lagrange-mesh. 49 Consequently the cost of calculating { K kl } for all orbital pairs of CIS is scaled as N 4/3 grid ( N occ + N vir ) 2 where N occ and N vir are the numbers of occupied and virtual orbitals in an active space, respectively. Finally, eqn (6) is computed using a Gaussian quadrature method on the Lagrange-mesh. Considering all orbital pairs in the active space, the cost of computing eqn (6) using pre-determined K kl is proportional to N grid · N occ 2 N vir 2 . As a result, the total computational cost of the two-centre integrals for CIS is scaled as N 4/3 grid ( N occ + N vir ) 2 + N grid · N occ 2 N vir 2 . If we use KLI orbitals as a reference configuration, the part of { K kl } corresponding to occupied orbitals is already computed during ground state calculations [ eqn (2) ] and thus additional costs for CIS calculations will be N 4/3 grid ( N vir 2 + N occ N vir ) + N grid · N occ 2 N vir 2 .
+ ###### 
+From cou.: 46 iσ
+From Soup: 46 We performed a series of CIS calculations to obtain the excitation energies of H 2 , formaldehyde, formamide, and benzene. The bond length of H 2 was set to 1.5 Bohr, while the geometries of the other molecules were obtained from ref. 52 and 53 . For comparison, we used both KS-CIS and HF-CIS methods with various basis sets. KS orbitals for CIS calculations have been calculated using the KLI exchange-only potential and the PBE 54 exchange–correlation potential. Because virtual orbitals are more diffuse than occupied orbitals, their energies and shapes would be more sensitive to the choice of basis set than those of occupied orbitals. Therefore, we studied the effects of simulation box size and grid spacing on CIS results. Also, we investigated the dependence of the CIS results on active space size that is denoted by the notation, (n-electrons, m-orbitals), used in conventional post-HF methods.
+ ###### 
+From cou.: 47 19,20
+From Soup: 47 We used our KS-DFT code to obtain KLI and PBE orbitals. To perform HF-CIS calculations using a numerical grid basis set, we first obtained HF orbitals from the Octopus program, 7 which uses the finite difference method, and then put them in our code for the remaining calculations. We applied an identical grid setting with a sphere-shape simulation box and identical norm-conserving pseudopotentials at the PBE level 55 to obtain KLI, PBE, and HF orbitals. We also carried out HF-CIS calculations using (aug)-cc-pVNZ (N = D, Q) basis sets as implemented in the Gaussian 09 package 56 and compared the results with those of the grid basis sets. All orbital figures were drawn with the isovalue of 0.014.
+ ###### 
+From cou.: 48 We implemented a CIS method using KS orbitals in our code. We use a Slater determinant composed of ground state KS orbitals, |Φ0〉, as a reference configuration. Then, we performed CIS calculations almost in the same manner by the traditional HF-CIS method. For instance, a single excitation configuration |Φai〉 can be generated by promoting one electron from an occupied orbital ϕi to a virtual orbital ϕa. Because we use numerical grid methods and pseudopotentials, the generation of single excitation configurations should be carried out within an active orbital space which includes only valence orbitals in the occupied space and a finite number of virtual orbitals truncated by an energy threshold. It should also be noted that KS orbitals are not the eigenfunctions of the Fock operator and thus unlike the HF-CI method, Brillouin's theorem does not hold for namely the KS-CI method as shown in eqn (3). To consider the spin state of each excitation, we used a configuration state function |2S+1Φai〉, where 2S + 1 indicates the spin multiplicity. A KS-CIS matrix element for a singlet excitation can be written aswhere Ĥ, E0 and εi/a denote a molecular Hamiltonian under the Born–Oppenheimer approximation, the corresponding ground state total energy, and the i/a-th orbital energy, respectively. In the process of constructing the KS-CIS matrix, the evaluation of the following two-centre integral is the most time-consuming part. To efficiently evaluate the integral in eqn (5), we employed the interpolating scaling function method which has been originally used to compute Hartree potentials.46–51 First, eqn (5) can be rewritten aswhere we defineand ρkl(r) ≡ ϕk*(r)ϕl(r). In eqn (7), |r1 − r2|−1 was replaced by the integration of a Gaussian function. Then, we expand ρkl(r) with LSFs asand insert it into eqn (7). Using the fact that both the Gaussian function and LSFs can be written as the products of three functions, eqn (7) can be re-expressed aswhich just requires to perform three one-dimensional integrals. The integral along ts can be evaluated using a Gaussian quadrature method with 51 grid points {ts} and corresponding weight factors {ws}, and tf is the largest value in {ts}. Since we eventually need to compute eqn (6) on a given Lagrange-mesh, eqn (9) can be transformed into a matrix form aswhere a so-called F matrix is given byEqn (11) is independent of orbitals and therefore calculated once at the beginning of calculations. The computational cost of the summation in eqn (10) is proportional to N4/3grid where Ngrid is the total number of grid points on the Lagrange-mesh.49 Consequently the cost of calculating {Kkl} for all orbital pairs of CIS is scaled as N4/3grid (Nocc + Nvir)2 where Nocc and Nvir are the numbers of occupied and virtual orbitals in an active space, respectively. Finally, eqn (6) is computed using a Gaussian quadrature method on the Lagrange-mesh. Considering all orbital pairs in the active space, the cost of computing eqn (6) using pre-determined Kkl is proportional to Ngrid·Nocc2Nvir2. As a result, the total computational cost of the two-centre integrals for CIS is scaled as N4/3grid(Nocc + Nvir)2 + Ngrid·Nocc2Nvir2. If we use KLI orbitals as a reference configuration, the part of {Kkl} corresponding to occupied orbitals is already computed during ground state calculations [eqn (2)] and thus additional costs for CIS calculations will be N4/3grid(Nvir2 + NoccNvir) + Ngrid·Nocc2Nvir2.
+From Soup: 48 We first investigated the convergence of CIS excitation energies as a function of the radius of a spherical simulation box and the scaling factor h . As a test set, we used the three valence excitation energies of formaldehyde (1 1 A 2 , 1 1 B 2 , and 1 1 B 1 ) obtained from KLI-CIS with the active space (12,24).
+ ###### 
+From cou.: 49 We performed a series of CIS calculations to obtain the excitation energies of H2, formaldehyde, formamide, and benzene. The bond length of H2 was set to 1.5 Bohr, while the geometries of the other molecules were obtained from ref. 52 and 53. For comparison, we used both KS-CIS and HF-CIS methods with various basis sets. KS orbitals for CIS calculations have been calculated using the KLI exchange-only potential and the PBE54 exchange–correlation potential. Because virtual orbitals are more diffuse than occupied orbitals, their energies and shapes would be more sensitive to the choice of basis set than those of occupied orbitals. Therefore, we studied the effects of simulation box size and grid spacing on CIS results. Also, we investigated the dependence of the CIS results on active space size that is denoted by the notation, (n-electrons, m-orbitals), used in conventional post-HF methods.
+From Soup: 49 Simulation box size.
+ ###### 
+From cou.: 50 We used our KS-DFT code to obtain KLI and PBE orbitals. To perform HF-CIS calculations using a numerical grid basis set, we first obtained HF orbitals from the Octopus program,7 which uses the finite difference method, and then put them in our code for the remaining calculations. We applied an identical grid setting with a sphere-shape simulation box and identical norm-conserving pseudopotentials at the PBE level55 to obtain KLI, PBE, and HF orbitals. We also carried out HF-CIS calculations using (aug)-cc-pVNZ (N = D, Q) basis sets as implemented in the Gaussian 09 package56 and compared the results with those of the grid basis sets. All orbital figures were drawn with the isovalue of 0.014.
+From Soup: 50 The CIS calculations were carried out using a spherical simulation box with a fixed scaling factor ( h = 0.3 Bohr), as shown in Fig. 2(a) . The reference values for each excitation energy were obtained using the radius of 21.0 Bohr. The energies of 1 1 A 2 and 1 1 B 1 readily converge with a small deviation (<0.02 eV) over the whole range, but the energy of 1 1 B 2 converges as the radius is larger than 13.5 Bohr. 1 1 A 2 and 1 1 B 1 correspond to the excitations from 2b 2 and 5a 1 , respectively, to the π* orbital (2b 1 ), while 1 1 B 2 is due to the excitation from 2b 2 to the σ* orbital (6a 1 ). The σ* orbital is more diffuse than the π* orbital, and thus the former needs a relatively large simulation box to be converged (Fig. S1, ESI † ). (For the detailed assignments of each excitation, see Fig. S3, ESI. † ) In such a way, excitation energies involving diffuse orbitals strongly depend on the simulation box size, so that it must be carefully determined.
+ ###### 
+From cou.: 51 We first investigated the convergence of CIS excitation energies as a function of the radius of a spherical simulation box and the scaling factor h. As a test set, we used the three valence excitation energies of formaldehyde (11A2, 11B2, and 11B1) obtained from KLI-CIS with the active space (12,24).
+From Soup: 51 Scaling factor.
+ ###### 
+From cou.: 52 Simulation box size.
+From Soup: 52 The scaling factor is also an important parameter for energy convergence. Fig. 2(b) shows the convergence of excitation energy differences between PBE-CIS and KLI-CIS as a function of the scaling factor with a fixed radius of the simulation box (15.0 Bohr). The reference values of each excitation were obtained using a fine grid ( h = 0.231 Bohr). The energy differences rapidly converge as h decreases and when h = 0.3 Bohr, the maximum energy difference is about 0.007 eV. It should be noted that despite such rapid convergence of the energy differences, individual excitation energies themselves converge slowly because of the accuracy of the Gaussian quadrature integration for pseudopotentials on coarse grids (Fig. S2, ESI † ).
+ ###### 
+From cou.: 53 The CIS calculations were carried out using a spherical simulation box with a fixed scaling factor (h = 0.3 Bohr), as shown in Fig. 2(a). The reference values for each excitation energy were obtained using the radius of 21.0 Bohr. The energies of 11A2 and 11B1 readily converge with a small deviation (<0.02 eV) over the whole range, but the energy of 11B2 converges as the radius is larger than 13.5 Bohr. 11A2 and 11B1 correspond to the excitations from 2b2 and 5a1, respectively, to the π* orbital (2b1), while 11B2 is due to the excitation from 2b2 to the σ* orbital (6a1). The σ* orbital is more diffuse than the π* orbital, and thus the former needs a relatively large simulation box to be converged (Fig. S1, ESI†). (For the detailed assignments of each excitation, see Fig. S3, ESI.†) In such a way, excitation energies involving diffuse orbitals strongly depend on the simulation box size, so that it must be carefully determined.
+From Soup: 53 Hereafter, all calculations were done using a spherical simulation box with the radius of 15.0 Bohr and the scaling factor of 0.3 Bohr.
+ ###### 
+From cou.: 54 Scaling factor.
+From Soup: 54 We compared the excitation energies of formaldehyde, benzene, formamide, and hydrogen molecules obtained from KLI-, PBE-, and HF-CIS methods.
+ ###### 
+From cou.: 55 The scaling factor is also an important parameter for energy convergence. Fig. 2(b) shows the convergence of excitation energy differences between PBE-CIS and KLI-CIS as a function of the scaling factor with a fixed radius of the simulation box (15.0 Bohr). The reference values of each excitation were obtained using a fine grid (h = 0.231 Bohr). The energy differences rapidly converge as h decreases and when h = 0.3 Bohr, the maximum energy difference is about 0.007 eV. It should be noted that despite such rapid convergence of the energy differences, individual excitation energies themselves converge slowly because of the accuracy of the Gaussian quadrature integration for pseudopotentials on coarse grids (Fig. S2, ESI†).
+From Soup: 55 Determination of active space.
+ ###### 
+From cou.: 56 Hereafter, all calculations were done using a spherical simulation box with the radius of 15.0 Bohr and the scaling factor of 0.3 Bohr.
+From Soup: 56 We first need to determine an active space for CIS calculations. Apparently, the size of active space itself is a convergence parameter for excitation energies. The standard HF-CIS method uses whole orbital space as an active space, since computational costs of CIS are not significantly affected by the active space size. In the case of grid-based methods, the diagonalization of the Hamiltonian matrix typically produces millions of virtual orbitals. In practice, we need an appropriate threshold to restrict the virtual orbital space. The larger the active space, the more accurate the excitation energies. However, obtaining virtual orbitals from grid-based methods entails additional computational costs, because the matrix diagonalization is solved using iterative methods. Therefore, the active space size should be determined as a trade-off between accuracy and computational costs.
+ ###### 
+From cou.: 57 We compared the excitation energies of formaldehyde, benzene, formamide, and hydrogen molecules obtained from KLI-, PBE-, and HF-CIS methods.
+From Soup: 57 Fig. 3 shows the convergence of CIS excitation energies as a function of active space size with respect to the best known values computed by multireference methods (see the caption of Table 2 ). Fig. 3(a) shows that the absolute deviations of PBE- and KLI-CIS excitation energies for formaldehyde readily converge to certain values with small deviations (<0.05 eV) as more than 30 virtual orbitals are included in the active space, whereas the HF-CIS results converge slowly (see Tables S1 and S2, ESI † for the complete data). We extended the convergence test of active space size for formaldehyde, benzene, formamide, and hydrogen molecules. In Fig. 3(b) , the mean absolute deviation (MAD) values of PBE- and KLI-CIS converge rapidly, while that of HF-CIS converges slowly, implying that KS-CIS requires a smaller active space than HF-CIS for the same accuracy.
+ ###### 
+From cou.: 58 Determination of active space.
+From Soup: 58 More intriguingly, the results of each method converge to different values. It is understandable by considering that the ground state determinants from each method are not orthogonal to each other and hence their CIS spaces span different subspaces of a given Hilbert space. Therefore, the accuracy of truncated CI methods should depend on the reference configuration obtained from ground state calculations. Fig. 3(b) demonstrates that KLI provides better reference configurations than PBE and HF.
+ ###### 
+From cou.: 59 We first need to determine an active space for CIS calculations. Apparently, the size of active space itself is a convergence parameter for excitation energies. The standard HF-CIS method uses whole orbital space as an active space, since computational costs of CIS are not significantly affected by the active space size. In the case of grid-based methods, the diagonalization of the Hamiltonian matrix typically produces millions of virtual orbitals. In practice, we need an appropriate threshold to restrict the virtual orbital space. The larger the active space, the more accurate the excitation energies. However, obtaining virtual orbitals from grid-based methods entails additional computational costs, because the matrix diagonalization is solved using iterative methods. Therefore, the active space size should be determined as a trade-off between accuracy and computational costs.
+From Soup: 59 From the convergence test in Fig. 3 , we chose the active spaces shown in Table 1 for more detailed study on the individual excited states of each molecule in the following sections. In Table 1 , the active space names, “45”, “6”, and “3”, denote the number of virtual orbitals in the given active space. In the case of “45”, the conventional expressions for the active spaces of formaldehyde, benzene, formamide, and hydrogen molecules correspond to (12,51), (30,60), (18,54), and (2,46), respectively. For comparison, the active spaces for Gaussian basis sets are also given in Table 1 .
+ ###### 
+From cou.: 60 Fig. 3 shows the convergence of CIS excitation energies as a function of active space size with respect to the best known values computed by multireference methods (see the caption of Table 2). Fig. 3(a) shows that the absolute deviations of PBE- and KLI-CIS excitation energies for formaldehyde readily converge to certain values with small deviations (<0.05 eV) as more than 30 virtual orbitals are included in the active space, whereas the HF-CIS results converge slowly (see Tables S1 and S2, ESI† for the complete data). We extended the convergence test of active space size for formaldehyde, benzene, formamide, and hydrogen molecules. In Fig. 3(b), the mean absolute deviation (MAD) values of PBE- and KLI-CIS converge rapidly, while that of HF-CIS converges slowly, implying that KS-CIS requires a smaller active space than HF-CIS for the same accuracy.
+From Soup: 60 Excitation energies.
+ ###### 
+From cou.: 61 More intriguingly, the results of each method converge to different values. It is understandable by considering that the ground state determinants from each method are not orthogonal to each other and hence their CIS spaces span different subspaces of a given Hilbert space. Therefore, the accuracy of truncated CI methods should depend on the reference configuration obtained from ground state calculations. Fig. 3(b) demonstrates that KLI provides better reference configurations than PBE and HF.
+From Soup: 61 Table 2 summarizes the results of various CIS calculations. The second column indicates three valence excited states of each molecule and corresponding transition characteristics. The best estimation values in the third column were obtained using multireference methods (see the table caption for details). The following columns subsequently show the excitation energies of each state computed using HF-CIS (grid and Gaussian basis sets), KLI-, and PBE-CIS with various active spaces for the grid basis set or with various basis set sizes for the Gaussian case. Finally, the bottom row shows the MADs of each column with respect to the best estimation values. First, we compare the results using grid-based methods. The KLI-CIS results with the active space “45” have the smallest MAD (0.44 eV). For the same active space, PBE-CIS gives a slightly larger MAD (0.55 eV), but HF-CIS results in a significantly larger MAD (0.91 eV).
+ ###### 
+From cou.: 62 From the convergence test in Fig. 3, we chose the active spaces shown in Table 1 for more detailed study on the individual excited states of each molecule in the following sections. In Table 1, the active space names, “45”, “6”, and “3”, denote the number of virtual orbitals in the given active space. In the case of “45”, the conventional expressions for the active spaces of formaldehyde, benzene, formamide, and hydrogen molecules correspond to (12,51), (30,60), (18,54), and (2,46), respectively. For comparison, the active spaces for Gaussian basis sets are also given in Table 1.
+From Soup: 62 To understand such differences, we invoke the features of KLI, PBE, and HF orbitals. As learned from our previous work, 29 the energy gaps between occupied and virtual orbitals from KLI are relatively closer to vertical excitations. PBE orbital energies are overall upshifted compared to those of KLI, but their energy gaps are similar to those of KLI. However, HF has substantially large energy gaps. Furthermore, HF virtual orbitals are much more diffuse than KLI and PBE counterparts. As shown in eqn (4) , CIS adds the energy correction from the two-centre integrals between single excitation configurations to the corresponding orbital energy gap. Therefore, KLI-CIS readily gives accurate excitation energies even with small correction from the two-centre integral, while HF-CIS needs large corrections. As a result, as long as we use the same size of active space, KLI-CIS will give us more accurate results than HF-CIS.
+ ###### 
+From cou.: 63 Excitation energies.
+From Soup: 63 The comparison between aug-cc-pVDZ and cc-pVQZ manifests the importance of diffuse basis functions to obtain accurate excitation energies. For grid basis sets, the accuracy for diffuse states can be systematically tuned by controlling the size of the simulation box. 43 If a sufficiently large simulation box is used, grid basis sets may perform better for diffuse states than Gaussian basis sets. In Table 2 , however, the MADs of the grid-based HF-CIS are larger than those of aug-cc-pVNZ. This can be understood from the fact that the active space in the grid-based HF-CIS is much smaller than that in the Gaussian basis sets [ cf. Fig. 3(b) ].
+ ###### 
+From cou.: 64 Table 2 summarizes the results of various CIS calculations. The second column indicates three valence excited states of each molecule and corresponding transition characteristics. The best estimation values in the third column were obtained using multireference methods (see the table caption for details). The following columns subsequently show the excitation energies of each state computed using HF-CIS (grid and Gaussian basis sets), KLI-, and PBE-CIS with various active spaces for the grid basis set or with various basis set sizes for the Gaussian case. Finally, the bottom row shows the MADs of each column with respect to the best estimation values. First, we compare the results using grid-based methods. The KLI-CIS results with the active space “45” have the smallest MAD (0.44 eV). For the same active space, PBE-CIS gives a slightly larger MAD (0.55 eV), but HF-CIS results in a significantly larger MAD (0.91 eV).
+From Soup: 64 We also found that the excitation energies from KS-CIS are relatively insensitive to the size of active space compared to HF-CIS. For example, the MAD of HF-CIS decreases by 1.60 eV as the active space size increases from “6” to “45”, whereas that of KS-CIS decreases by 0.05 eV for the same change. This is another important aspect for practical applications.
+ ###### 
+From cou.: 65 To understand such differences, we invoke the features of KLI, PBE, and HF orbitals. As learned from our previous work,29 the energy gaps between occupied and virtual orbitals from KLI are relatively closer to vertical excitations. PBE orbital energies are overall upshifted compared to those of KLI, but their energy gaps are similar to those of KLI. However, HF has substantially large energy gaps. Furthermore, HF virtual orbitals are much more diffuse than KLI and PBE counterparts. As shown in eqn (4), CIS adds the energy correction from the two-centre integrals between single excitation configurations to the corresponding orbital energy gap. Therefore, KLI-CIS readily gives accurate excitation energies even with small correction from the two-centre integral, while HF-CIS needs large corrections. As a result, as long as we use the same size of active space, KLI-CIS will give us more accurate results than HF-CIS.
+From Soup: 65 In order to further uncover the difference between KS-CIS and HF-CIS, we closely examine individual excitations of each molecule especially by focusing on their CIS coefficients and corresponding orbital shapes in the following section.
+ ###### 
+From cou.: 66 The comparison between aug-cc-pVDZ and cc-pVQZ manifests the importance of diffuse basis functions to obtain accurate excitation energies. For grid basis sets, the accuracy for diffuse states can be systematically tuned by controlling the size of the simulation box.43 If a sufficiently large simulation box is used, grid basis sets may perform better for diffuse states than Gaussian basis sets. In Table 2, however, the MADs of the grid-based HF-CIS are larger than those of aug-cc-pVNZ. This can be understood from the fact that the active space in the grid-based HF-CIS is much smaller than that in the Gaussian basis sets [cf.Fig. 3(b)].
+From Soup: 66 A singlet excited state wavefunction using CIS can be written as where c 0 is zero in the case of HF-CIS by virtue of Brillouin's theorem (for Brillouin's theorem of KS-CIS, we refer to ref. 29 ). Due to the normalization condition of wavefunction, the coefficients satisfy the following relation.
+ ###### 
+From cou.: 67 We also found that the excitation energies from KS-CIS are relatively insensitive to the size of active space compared to HF-CIS. For example, the MAD of HF-CIS decreases by 1.60 eV as the active space size increases from “6” to “45”, whereas that of KS-CIS decreases by 0.05 eV for the same change. This is another important aspect for practical applications.
+From Soup: 67 Thus, without loss of generality, we investigated the absolute squared values of CIS coefficients to analyse individual excitations instead of the coefficients themselves.
+ ###### 
+From cou.: 68 In order to further uncover the difference between KS-CIS and HF-CIS, we closely examine individual excitations of each molecule especially by focusing on their CIS coefficients and corresponding orbital shapes in the following section.
+From Soup: 68 Formaldehyde.
+ ###### 
+From cou.: 69 A singlet excited state wavefunction using CIS can be written aswhere c0 is zero in the case of HF-CIS by virtue of Brillouin's theorem (for Brillouin's theorem of KS-CIS, we refer to ref. 29). Due to the normalization condition of wavefunction, the coefficients satisfy the following relation.
+From Soup: 69 Though HF-CIS is generally inaccurate compared to KS-CIS, the HF-CIS excitation energy of formaldehyde to the first excited state, 1 1 A 2 , is particularly worse; for the active space “45”, the excitation energy of HF-CIS is ∼1.5 eV larger than that of KLI-CIS as shown in Table 2 . Fig. 4 shows the CIS coefficients of the 1 1 A 2 state obtained using various methods with different active spaces or basis sets. In the case of KS-CIS, the 2b 2 → 2b 1 excitation is dominant and thus their excitation energies are not only accurate, but also insensitive to the active space size, since both small and large active spaces include the 2b 2 and 2b 1 orbitals. In contrast, HF-CIS for both grid and Gaussian basis sets needs more configurations in addition to the 2b 2 → 2b 1 excitation. In fact, as the active space or basis set size increases, the coefficient corresponding to the 2b 2 → 2b 1 excitation becomes considerably small, while the contribution from 2b 2 → 3b 1 or 2b 2 → 4b 1 becomes more dominant.
+ ###### 
+From cou.: 70 Thus, without loss of generality, we investigated the absolute squared values of CIS coefficients to analyse individual excitations instead of the coefficients themselves.
+From Soup: 70 Table 3 shows those orbitals involved in the excitation to the 1 1 A 2 state. The highest occupied molecular orbitals (HOMOs) denoted as 2b 2 from KLI and HF have very similar shapes at least to the naked eye. In contrast, as stressed above, their virtual orbitals are substantially different in shape and size. In particular, the 2b 1 orbital from KLI is more compact than those from HF. Moreover, the energy gap (4.19 eV) between 2b 2 and 2b 1 from KLI is much smaller, that is closer to the best estimation value (3.88 eV), than those from HF (13.17 or 13.64 eV). As a result, HF-CIS needs to add more virtual orbitals with the same symmetry to improve accuracy ( Fig. 4 ). In general, KLI gives a number of bound virtual orbitals with negative energies and compact shapes, whereas HF produces unbound virtual orbitals with positive energies and diffuse shapes. 29 Thus, the excitation to the 1 1 B 1 and 2 1 A 1 states also shows similar trends as depicted in Fig. S3 (ESI † ).
+ ###### 
+From cou.: 71 Formaldehyde.
+From Soup: 71 Benzene.
+ ###### 
+From cou.: 72 Though HF-CIS is generally inaccurate compared to KS-CIS, the HF-CIS excitation energy of formaldehyde to the first excited state, 11A2, is particularly worse; for the active space “45”, the excitation energy of HF-CIS is ∼1.5 eV larger than that of KLI-CIS as shown in Table 2. Fig. 4 shows the CIS coefficients of the 11A2 state obtained using various methods with different active spaces or basis sets. In the case of KS-CIS, the 2b2 → 2b1 excitation is dominant and thus their excitation energies are not only accurate, but also insensitive to the active space size, since both small and large active spaces include the 2b2 and 2b1 orbitals. In contrast, HF-CIS for both grid and Gaussian basis sets needs more configurations in addition to the 2b2 → 2b1 excitation. In fact, as the active space or basis set size increases, the coefficient corresponding to the 2b2 → 2b1 excitation becomes considerably small, while the contribution from 2b2 → 3b1 or 2b2 → 4b1 becomes more dominant.
+From Soup: 72 Unlike formaldehyde, MCs are vital to properly express the excited states of benzene that involve various π → π* excitations. In Table 2 , the 1 1 B 1u and 1 1 B 2u states correspond to the excitations from two degenerate π bonding orbitals to two degenerate π antibonding orbitals as schematically depicted in Fig. 5 . Because degenerate orbitals have the same symmetry representation, ( e.g. , 1e 1g for π bonding orbitals of benzene), MC nature of such excited states is unavoidable. For notations, we denote π orbitals formed by the 2p and 3p carbon atomic orbitals as nπ and n′π, respectively ( cf. Fig. 5–7 ).
+ ###### 
+From cou.: 73 Table 3 shows those orbitals involved in the excitation to the 11A2 state. The highest occupied molecular orbitals (HOMOs) denoted as 2b2 from KLI and HF have very similar shapes at least to the naked eye. In contrast, as stressed above, their virtual orbitals are substantially different in shape and size. In particular, the 2b1 orbital from KLI is more compact than those from HF. Moreover, the energy gap (4.19 eV) between 2b2 and 2b1 from KLI is much smaller, that is closer to the best estimation value (3.88 eV), than those from HF (13.17 or 13.64 eV). As a result, HF-CIS needs to add more virtual orbitals with the same symmetry to improve accuracy (Fig. 4). In general, KLI gives a number of bound virtual orbitals with negative energies and compact shapes, whereas HF produces unbound virtual orbitals with positive energies and diffuse shapes.29 Thus, the excitation to the 11B1 and 21A1 states also shows similar trends as depicted in Fig. S3 (ESI†).
+From Soup: 73 In the case of KS-CIS, the 1 1 B 1u state is represented by mainly two π → π* excitations as shown in Fig. 6 : 2π → 5π and 3π → 4π. In constrast, HF-CIS (grid) has no such excitation characteristics within the small active spaces (“3” and “6”), leading to the large deviations in the excitation energies ( Table 2 ). For the active space “45”, more configurations especially involving nπ → n′π excitations in addition to the two π → π* excitations contribute to the corresponding excitation energy, and then the excitation energy of HF-CIS (grid) is comparable to that of KS-CIS. This indicates that for HF-CIS (grid) the two configurations are not sufficient to achieve a similar accuracy to KLI-CIS and thus more configurations should be added. A similar trend is observed for the Gaussian basis sets.
+ ###### 
+From cou.: 74 Benzene.
+From Soup: 74 Fig. 7 shows the orbitals involved in the excitation to the 1 1 B 1u state. Like the case of formaldehyde, KLI and HF have similar occupied π orbitals (2π,3π), but considerably different virtual orbitals with strong dependence on the basis set size. The relatively small Gaussian basis set (cc-pVDZ) gives compact 4π and 5π orbitals that are similar to those from KLI. However, HF with a larger basis set such as aug-cc-pVQZ or numerical grid yields much more diffuse orbitals. KLI (5.23 eV) has smaller energy gaps between (2π,3π) and (4π,5π) than HF (grid: 11.74 eV and aug-cc-pVQZ: 11.8 eV). Therefore, HF-CIS (“45” and aug-cc-pVQZ) compensates the large energy gap by adding the contribution from the 2π → 5′π and 3π → 4′π excitations to the 2π → 5π and 3π → 4π excitations.
+ ###### 
+From cou.: 75 Unlike formaldehyde, MCs are vital to properly express the excited states of benzene that involve various π → π* excitations. In Table 2, the 11B1u and 11B2u states correspond to the excitations from two degenerate π bonding orbitals to two degenerate π antibonding orbitals as schematically depicted in Fig. 5. Because degenerate orbitals have the same symmetry representation, (e.g., 1e1g for π bonding orbitals of benzene), MC nature of such excited states is unavoidable. For notations, we denote π orbitals formed by the 2p and 3p carbon atomic orbitals as nπ and n′π, respectively (cf.Fig. 5–7).
+From Soup: 75 Formamide.
+ ###### 
+From cou.: 76 In the case of KS-CIS, the 11B1u state is represented by mainly two π → π* excitations as shown in Fig. 6: 2π → 5π and 3π → 4π. In constrast, HF-CIS (grid) has no such excitation characteristics within the small active spaces (“3” and “6”), leading to the large deviations in the excitation energies (Table 2). For the active space “45”, more configurations especially involving nπ → n′π excitations in addition to the two π → π* excitations contribute to the corresponding excitation energy, and then the excitation energy of HF-CIS (grid) is comparable to that of KS-CIS. This indicates that for HF-CIS (grid) the two configurations are not sufficient to achieve a similar accuracy to KLI-CIS and thus more configurations should be added. A similar trend is observed for the Gaussian basis sets.
+From Soup: 76 As observed from the above two examples, KLI-CIS needs a single configuration for non-degenerate excitations and MCs for degenerate excitations, whereas HF-CIS mostly requires MCs for any excitation. PBE-CIS shows similar trends with KLI-CIS. For the excitation of formamide to the 1 1 A” state, a single configuration involving (10a′ → 3a′′) is dominant for KLI-CIS (Fig. S5, ESI † ). However, the 2 1 A′ and 3 1 A′ states demand MCs even for KLI-CIS, though the two states are not due to degenerate excitations as shown in Fig. 8 (also see Fig. S5, ESI † ). Moreover, the excitation energies of formamide computed from all methods have relatively larger deviations from the best estimation values compared to the other molecules. For instance, the excitation energy of 1 1 A” from KLI-CIS converged within 0.02 eV with respect to the active space size but yet has a large deviation (0.83 eV). This may be attributed to its intrinsic multiple-excitation characteristics. In this case, we expect that the large deviation can be reduced by including multiple excitations in the CI expansion. Nonetheless, KLI-CIS still gives better excitation energies with respect to the best estimation values than PBE- and HF-CIS.
+ ###### 
+From cou.: 77 Fig. 7 shows the orbitals involved in the excitation to the 11B1u state. Like the case of formaldehyde, KLI and HF have similar occupied π orbitals (2π,3π), but considerably different virtual orbitals with strong dependence on the basis set size. The relatively small Gaussian basis set (cc-pVDZ) gives compact 4π and 5π orbitals that are similar to those from KLI. However, HF with a larger basis set such as aug-cc-pVQZ or numerical grid yields much more diffuse orbitals. KLI (5.23 eV) has smaller energy gaps between (2π,3π) and (4π,5π) than HF (grid: 11.74 eV and aug-cc-pVQZ: 11.8 eV). Therefore, HF-CIS (“45” and aug-cc-pVQZ) compensates the large energy gap by adding the contribution from the 2π → 5′π and 3π → 4′π excitations to the 2π → 5π and 3π → 4π excitations.
+From Soup: 77 Hydrogen molecule.
+ ###### 
+From cou.: 78 Formamide.
+From Soup: 78 A hydrogen molecule is the simplest neutral molecule. It has a well-defined symmetry and only two electrons. Therefore, as expected, all methods show similar good accuracy (Fig. S6, ESI † ). For example, the excitation energies of HF-CIS (grid) with the active space “45” are comparable to the KLI- or PBE-CIS results, although they are still sensitive to the size of active space ( Table 2 ). Through the expansion of the active space from “6” to “45”, the excitation energies of HF-CIS (grid) were lowered by 0.4–0.79 eV, while those of KLI-CIS were varied within 0.06–0.09 eV.
+ ###### 
+From cou.: 79 As observed from the above two examples, KLI-CIS needs a single configuration for non-degenerate excitations and MCs for degenerate excitations, whereas HF-CIS mostly requires MCs for any excitation. PBE-CIS shows similar trends with KLI-CIS. For the excitation of formamide to the 11A” state, a single configuration involving (10a′ → 3a′′) is dominant for KLI-CIS (Fig. S5, ESI†). However, the 21A′ and 31A′ states demand MCs even for KLI-CIS, though the two states are not due to degenerate excitations as shown in Fig. 8 (also see Fig. S5, ESI†). Moreover, the excitation energies of formamide computed from all methods have relatively larger deviations from the best estimation values compared to the other molecules. For instance, the excitation energy of 11A” from KLI-CIS converged within 0.02 eV with respect to the active space size but yet has a large deviation (0.83 eV). This may be attributed to its intrinsic multiple-excitation characteristics. In this case, we expect that the large deviation can be reduced by including multiple excitations in the CI expansion. Nonetheless, KLI-CIS still gives better excitation energies with respect to the best estimation values than PBE- and HF-CIS.
+From Soup: 79 Real-space numerical grid methods are promising for accurate electronic structure calculations of large molecules, because their computational costs can be reduced through massive parallelization as well as linear scaling algorithms and their accuracy can be systematically improved toward complete basis set limits. In particular, those methods are inherently good for excited state calculations in which large basis sets including diffuse functions are essential. We developed a CIS method using Lagrange-sinc functions localized on a uniform grid. The nonlocal HF exchange operator reduces the sparsity of the Hamiltonian matrix, giving rise to high computational costs. Therefore, the traditional HF-based CIS seems impractical for grid-based methods. Instead, we proposed a KS-based CIS in particular with an exact exchange potential. KLI and PBE orbitals as well as HF orbitals were used to build a reference configuration and their relative accuracy for excitation energies of molecules has been assessed.
+ ###### 
+From cou.: 80 Hydrogen molecule.
+From Soup: 80 Since the grid-based method uses an iterative diagonalization scheme, the size of active space should be determined in a way to compromise between computational costs and accuracy. For our test molecules with the active space using all occupied orbitals and 45 virtual orbitals, KLI-CIS shows smallest deviations (MAD = 0.44 eV) in excitation energy calculations with respect to the known best estimation values, followed by PBE-CIS (MAD = 0.55 eV), while HF-CIS (MAD = 0.91 eV) causes significantly large deviations. We also found that excitation energies from KLI-CIS are less sensitive to the size of active space, whereas the results from HF-CIS are very sensitive. Such differences originate from the unique features of KLI orbitals; HF-like occupied orbitals, but KS-like virtual orbitals. Compared to HF, KLI yields many bound virtual orbitals with more compact shapes and smaller energy gaps between occupied and virtual orbitals. As a result, for H 2 , benzene, and formaldehyde, KLI-CIS needs mostly a specific single configuration for non-degenerate excitations and multiconfigurations for degenerate excitations, whereas HF-CIS demands multiconfigurations for any excitation. However, for formamide, both KLI-CIS and HF-CIS require multiconfigurations to obtain accurate excitation energies which may be due to its multiple-excitation character. Consequently, the size of active space should be cautiously determined as a convergence parameter especially for HF-CIS.
+ ###### 
+From cou.: 81 A hydrogen molecule is the simplest neutral molecule. It has a well-defined symmetry and only two electrons. Therefore, as expected, all methods show similar good accuracy (Fig. S6, ESI†). For example, the excitation energies of HF-CIS (grid) with the active space “45” are comparable to the KLI- or PBE-CIS results, although they are still sensitive to the size of active space (Table 2). Through the expansion of the active space from “6” to “45”, the excitation energies of HF-CIS (grid) were lowered by 0.4–0.79 eV, while those of KLI-CIS were varied within 0.06–0.09 eV.
+From Soup: 81 The size of active space is directly related to computational costs of multiconfiguration methods. For CI singles and doubles (CISD) calculations, the number of configurations is approximately proportional to N occ 2 N vir 2 . Based on the CIS results in this work, we expect that KLI-CISD should be more cost-effective because it needs smaller active space to achieve similar accuracy than HF-CISD. For benzene as an example, KLI-CISD with the active space “45” and “6” have 315 and 2644 times smaller number of configurations than HF-CISD with aug-cc-pVQZ, respectively ( cf. Table 1 ). Hence, we believe that KLI-based multiconfiguration methods combined with numerical grid basis sets will provide a new promising way for accurate electronic structure calculations of large systems.
+ ###### 
+From cou.: 82 Real-space numerical grid methods are promising for accurate electronic structure calculations of large molecules, because their computational costs can be reduced through massive parallelization as well as linear scaling algorithms and their accuracy can be systematically improved toward complete basis set limits. In particular, those methods are inherently good for excited state calculations in which large basis sets including diffuse functions are essential. We developed a CIS method using Lagrange-sinc functions localized on a uniform grid. The nonlocal HF exchange operator reduces the sparsity of the Hamiltonian matrix, giving rise to high computational costs. Therefore, the traditional HF-based CIS seems impractical for grid-based methods. Instead, we proposed a KS-based CIS in particular with an exact exchange potential. KLI and PBE orbitals as well as HF orbitals were used to build a reference configuration and their relative accuracy for excitation energies of molecules has been assessed.
+From Soup: 82 This work was supported by Basic Science Research Programs (NRF-2012R1A1A1004154), the EDISON Program (NRF-2012M3C1A6035359), and the MIR center (No. 20090083525) through the NRF funded by the Korea government [MSIP]. The authors would like to acknowledge the support from KISTI supercomputing center for computing time (KSC-2013-C1-028). W.Y.K. is also grateful for financial support from Chung-Am Fellowship and EWon assistant professorship.
+ ###### 
+From cou.: 83 Since the grid-based method uses an iterative diagonalization scheme, the size of active space should be determined in a way to compromise between computational costs and accuracy. For our test molecules with the active space using all occupied orbitals and 45 virtual orbitals, KLI-CIS shows smallest deviations (MAD = 0.44 eV) in excitation energy calculations with respect to the known best estimation values, followed by PBE-CIS (MAD = 0.55 eV), while HF-CIS (MAD = 0.91 eV) causes significantly large deviations. We also found that excitation energies from KLI-CIS are less sensitive to the size of active space, whereas the results from HF-CIS are very sensitive. Such differences originate from the unique features of KLI orbitals; HF-like occupied orbitals, but KS-like virtual orbitals. Compared to HF, KLI yields many bound virtual orbitals with more compact shapes and smaller energy gaps between occupied and virtual orbitals. As a result, for H2, benzene, and formaldehyde, KLI-CIS needs mostly a specific single configuration for non-degenerate excitations and multiconfigurations for degenerate excitations, whereas HF-CIS demands multiconfigurations for any excitation. However, for formamide, both KLI-CIS and HF-CIS require multiconfigurations to obtain accurate excitation energies which may be due to its multiple-excitation character. Consequently, the size of active space should be cautiously determined as a convergence parameter especially for HF-CIS.
+From Soup: 83 I. Samish, C. M. MacDermaid, J. M. Perez-Aguilar and J. G. Saven, Annu. Rev. Phys. Chem. , 2011, 62 , 129–149 CrossRef CAS PubMed .
+ ###### 
+From cou.: 84 The size of active space is directly related to computational costs of multiconfiguration methods. For CI singles and doubles (CISD) calculations, the number of configurations is approximately proportional to Nocc2Nvir2. Based on the CIS results in this work, we expect that KLI-CISD should be more cost-effective because it needs smaller active space to achieve similar accuracy than HF-CISD. For benzene as an example, KLI-CISD with the active space “45” and “6” have 315 and 2644 times smaller number of configurations than HF-CISD with aug-cc-pVQZ, respectively (cf.Table 1). Hence, we believe that KLI-based multiconfiguration methods combined with numerical grid basis sets will provide a new promising way for accurate electronic structure calculations of large systems.
+From Soup: 84 J. K. Nørskov, T. Bligaard, J. Rossmeisl and C. H. Christensen, Nat. Chem. , 2009, 1 , 37–46 CrossRef PubMed .
+ ###### 
+From cou.: 85 This work was supported by Basic Science Research Programs (NRF-2012R1A1A1004154), the EDISON Program (NRF-2012M3C1A6035359), and the MIR center (No. 20090083525) through the NRF funded by the Korea government [MSIP]. The authors would like to acknowledge the support from KISTI supercomputing center for computing time (KSC-2013-C1-028). W.Y.K. is also grateful for financial support from Chung-Am Fellowship and EWon assistant professorship.
+From Soup: 85 S. Martí, J. Andrés, V. Moliner, E. Silla, I. Tuñón and J. Bertrán, Chem. Soc. Rev. , 2008, 37 , 2634–2643 RSC .
+ ###### 
+From cou.: 86 I. Samish, C. M. MacDermaid, J. M. Perez-Aguilar and J. G. Saven, Annu. Rev. Phys. Chem., 2011, 62, 129–149 CrossRef CAS PubMed.
+From Soup: 86 L. Wang, G. Nan, X. Yang, Q. Peng, Q. Li and Z. Shuai, Chem. Soc. Rev. , 2010, 39 , 423–434 RSC .
+ ###### 
+From cou.: 87 J. K. Nørskov, T. Bligaard, J. Rossmeisl and C. H. Christensen, Nat. Chem., 2009, 1, 37–46 CrossRef PubMed.
+From Soup: 87 V. Nanda and R. L. Koder, Nat. Chem. , 2010, 2 , 15–24 CrossRef CAS PubMed .
+ ###### 
+From cou.: 88 S. Martí, J. Andrés, V. Moliner, E. Silla, I. Tuñón and J. Bertrán, Chem. Soc. Rev., 2008, 37, 2634–2643 RSC.
+From Soup: 88 N. Lambert, Y.-N. Chen, Y.-C. Cheng, C.-M. Li, G.-Y. Chen and F. Nori, Nat. Phys. , 2013, 9 , 10 CrossRef CAS PubMed .
+ ###### 
+From cou.: 89 L. Wang, G. Nan, X. Yang, Q. Peng, Q. Li and Z. Shuai, Chem. Soc. Rev., 2010, 39, 423–434 RSC.
+From Soup: 89 X. Andrade, J. Alberdi-Rodriguez, D. A. Strubbe, M. J. T. Oliveira, F. Nogueira, A. Castro, J. Muguerza, A. Arruabarrena, S. G. Louie, A. Aspuru-Guzik, A. Rubio and M. A. L. Marques, J. Phys.: Condens. Matter , 2012, 24 , 233202 CrossRef PubMed .
+ ###### 
+From cou.: 90 V. Nanda and R. L. Koder, Nat. Chem., 2010, 2, 15–24 CrossRef CAS PubMed.
+From Soup: 90 J. Enkovaara, C. Rostgaard, J. J. Mortensen, J. Chen, M. Dułak, L. Ferrighi, J. Gavnholt, C. Glinsvad, V. Haikola, H. A. Hansen, H. H. Kristoffersen, M. Kuisma, A. H. Larsen, L. Lehtovaara, M. Ljungberg, O. Lopez-Acevedo, P. G. Moses, J. Ojanen, T. Olsen, V. Petzold, N. A. Romero, J. Stausholm-Møller, M. Strange, G. A. Tritsaris, M. Vanin, M. Walter, B. Hammer, H. Häkkinen, G. K. H. Madsen, R. M. Nieminen, J. K. Nørskov, M. Puska, T. T. Rantala, J. Schiøtz, K. S. Thygesen and K. W. Jacobsen, J. Phys.: Condens. Matter , 2010, 22 , 253202 CrossRef CAS PubMed .
+ ###### 
+From cou.: 91 N. Lambert, Y.-N. Chen, Y.-C. Cheng, C.-M. Li, G.-Y. Chen and F. Nori, Nat. Phys., 2013, 9, 10 CrossRef CAS PubMed.
+From Soup: 91 S. Mohr, L. E. Ratcliff, P. Boulanger, L. Genovese, D. Caliste, T. Deutsch and S. Goedecker, J. Chem. Phys. , 2014, 140 , 204110 CrossRef PubMed .
+ ###### 
+From cou.: 92 X. Andrade, J. Alberdi-Rodriguez, D. A. Strubbe, M. J. T. Oliveira, F. Nogueira, A. Castro, J. Muguerza, A. Arruabarrena, S. G. Louie, A. Aspuru-Guzik, A. Rubio and M. A. L. Marques, J. Phys.: Condens. Matter, 2012, 24, 233202 CrossRef PubMed.
+From Soup: 92 C. K. Skylaris, P. D. Haynes, A. A. Mostofi and M. C. Payne, J. Chem. Phys. , 2005, 122 , 084119 CrossRef PubMed .
+ ###### 
+From cou.: 93 J. Enkovaara, C. Rostgaard, J. J. Mortensen, J. Chen, M. Dułak, L. Ferrighi, J. Gavnholt, C. Glinsvad, V. Haikola, H. A. Hansen, H. H. Kristoffersen, M. Kuisma, A. H. Larsen, L. Lehtovaara, M. Ljungberg, O. Lopez-Acevedo, P. G. Moses, J. Ojanen, T. Olsen, V. Petzold, N. A. Romero, J. Stausholm-Møller, M. Strange, G. A. Tritsaris, M. Vanin, M. Walter, B. Hammer, H. Häkkinen, G. K. H. Madsen, R. M. Nieminen, J. K. Nørskov, M. Puska, T. T. Rantala, J. Schiøtz, K. S. Thygesen and K. W. Jacobsen, J. Phys.: Condens. Matter, 2010, 22, 253202 CrossRef CAS PubMed.
+From Soup: 93 J. I. Iwata, D. Takahashi, A. Oshiyama, T. Boku, K. Shiraishi, S. Okada and K. Yabana, J. Comput. Phys. , 2010, 229 , 2339–2363 CrossRef CAS PubMed .
+ ###### 
+From cou.: 94 S. Mohr, L. E. Ratcliff, P. Boulanger, L. Genovese, D. Caliste, T. Deutsch and S. Goedecker, J. Chem. Phys., 2014, 140, 204110 CrossRef PubMed.
+From Soup: 94 L. Kronik, A. Makmal, M. L. Tiago, M. M. G. Alemany, M. Jain, X. Huang, Y. Saad and J. R. Chelikowsky, Phys. Status Solidi , 2006, 243 , 1063–1079 CrossRef CAS PubMed .
+ ###### 
+From cou.: 95 C. K. Skylaris, P. D. Haynes, A. A. Mostofi and M. C. Payne, J. Chem. Phys., 2005, 122, 084119 CrossRef PubMed.
+From Soup: 95 F. Bottin, S. Leroux, A. Knyazev and G. Zérah, Comput. Mater. Sci. , 2008, 42 , 329–336 CrossRef CAS PubMed .
+ ###### 
+From cou.: 96 J. I. Iwata, D. Takahashi, A. Oshiyama, T. Boku, K. Shiraishi, S. Okada and K. Yabana, J. Comput. Phys., 2010, 229, 2339–2363 CrossRef CAS PubMed.
+From Soup: 96 E. Di Napoli and M. Berljafa, Comput. Phys. Commun. , 2013, 184 , 2478–2488 CrossRef CAS PubMed .
+ ###### 
+From cou.: 97 L. Kronik, A. Makmal, M. L. Tiago, M. M. G. Alemany, M. Jain, X. Huang, Y. Saad and J. R. Chelikowsky, Phys. Status Solidi, 2006, 243, 1063–1079 CrossRef CAS PubMed.
+From Soup: 97 Y. Zhou and Y. Saad, Numer. Algorithm. , 2008, 47 , 341–359 CrossRef .
+ ###### 
+From cou.: 98 F. Bottin, S. Leroux, A. Knyazev and G. Zérah, Comput. Mater. Sci., 2008, 42, 329–336 CrossRef CAS PubMed.
+From Soup: 98 A. Sitt, L. Kronik, S. Ismail-Beigi and J. R. Chelikowsky, Phys. Rev. A: At., Mol., Opt. Phys. , 2007, 76 , 054501 CrossRef .
+ ###### 
+From cou.: 99 E. Di Napoli and M. Berljafa, Comput. Phys. Commun., 2013, 184, 2478–2488 CrossRef CAS PubMed.
+From Soup: 99 C. J. Cramer and D. G. Truhlar, Phys. Chem. Chem. Phys. , 2009, 11 , 10757–10816 RSC .
+ ###### 
+From cou.: 100 Y. Zhou and Y. Saad, Numer. Algorithm., 2008, 47, 341–359 CrossRef.
+From Soup: 100 A. J. Cohen, P. Mori-Sanchez and W. Yang, Chem. Rev. , 2012, 112 , 289–320 CrossRef CAS PubMed .
+ ###### 
+From cou.: 101 A. Sitt, L. Kronik, S. Ismail-Beigi and J. R. Chelikowsky, Phys. Rev. A: At., Mol., Opt. Phys., 2007, 76, 054501 CrossRef.
+From Soup: 101 J. B. Krieger, Y. Li and G. J. Iafrate, Phys. Rev. A: At., Mol., Opt. Phys. , 1992, 45 , 101 CrossRef CAS .
+ ###### 
+From cou.: 102 C. J. Cramer and D. G. Truhlar, Phys. Chem. Chem. Phys., 2009, 11, 10757–10816 RSC.
+From Soup: 102 J. B. Krieger, Y. Li and G. J. Iafrate, Phys. Rev. A: At., Mol., Opt. Phys. , 1992, 46 , 5453–5458 CrossRef .
+ ###### 
+From cou.: 103 A. J. Cohen, P. Mori-Sanchez and W. Yang, Chem. Rev., 2012, 112, 289–320 CrossRef CAS PubMed.
+From Soup: 103 J. B. Krieger, Y. Li and G. J. Iafrate, Phys. Lett. A , 1990, 148 , 470–474 CrossRef .
+ ###### 
+From cou.: 104 J. B. Krieger, Y. Li and G. J. Iafrate, Phys. Rev. A: At., Mol., Opt. Phys., 1992, 45, 101 CrossRef CAS.
+From Soup: 104 J. B. Krieger, Y. Li and G. J. Iafrate, in Density Functional Theory , ed. E. K. U. Gross and R. M. Dreizler, Springer US, 1995, pp. 191–216 Search PubMed .
+ ###### 
+From cou.: 105 J. B. Krieger, Y. Li and G. J. Iafrate, Phys. Rev. A: At., Mol., Opt. Phys., 1992, 46, 5453–5458 CrossRef.
+From Soup: 105 G. J. Iafrate and J. B. Krieger, J. Chem. Phys. , 2013, 138 , 094104 CrossRef CAS PubMed .
+ ###### 
+From cou.: 106 J. B. Krieger, Y. Li and G. J. Iafrate, Phys. Lett. A, 1990, 148, 470–474 CrossRef.
+From Soup: 106 F. Della Sala and A. Görling, J. Chem. Phys. , 2001, 115 , 5718–5732 CrossRef CAS PubMed .
+ ###### 
+From cou.: 107 J. B. Krieger, Y. Li and G. J. Iafrate, in Density Functional Theory, ed. E. K. U. Gross and R. M. Dreizler, Springer US, 1995, pp. 191–216 Search PubMed.
+From Soup: 107 F. Della Sala and A. Görling, J. Chem. Phys. , 2002, 116 , 5374–5388 CrossRef CAS PubMed .
+ ###### 
+From cou.: 108 G. J. Iafrate and J. B. Krieger, J. Chem. Phys., 2013, 138, 094104 CrossRef CAS PubMed.
+From Soup: 108 F. Della Sala and A. Görling, J. Chem. Phys. , 2003, 118 , 10439–10454 CrossRef CAS PubMed .
+ ###### 
+From cou.: 109 F. Della Sala and A. Görling, J. Chem. Phys., 2001, 115, 5718–5732 CrossRef CAS PubMed.
+From Soup: 109 O. Gritsenko and E. J. Baerends, Phys. Rev. A: At., Mol., Opt. Phys. , 2001, 64 , 042506 CrossRef .
+ ###### 
+From cou.: 110 F. Della Sala and A. Görling, J. Chem. Phys., 2002, 116, 5374–5388 CrossRef CAS PubMed.
+From Soup: 110 M. Grüning, O. V. Gritsenko and E. J. Baerends, J. Chem. Phys. , 2002, 116 , 6435–6442 CrossRef PubMed .
+ ###### 
+From cou.: 111 F. Della Sala and A. Görling, J. Chem. Phys., 2003, 118, 10439–10454 CrossRef CAS PubMed.
+From Soup: 111 J. Kim, K. Hong, S. Choi and W. Y. Kim, Bull. Korean Chem. Soc. , 2015, 36 , 998–1007 Search PubMed .
+ ###### 
+From cou.: 112 O. Gritsenko and E. J. Baerends, Phys. Rev. A: At., Mol., Opt. Phys., 2001, 64, 042506 CrossRef.
+From Soup: 112 R. van Meer, O. V. Gritsenko and E. J. Baerends, J. Chem. Theory Comput. , 2014, 10 , 4432–4441 CrossRef CAS .
+ ###### 
+From cou.: 113 M. Grüning, O. V. Gritsenko and E. J. Baerends, J. Chem. Phys., 2002, 116, 6435–6442 CrossRef PubMed.
+From Soup: 113 E. J. Baerends, O. V Gritsenko and R. van Meer, Phys. Chem. Chem. Phys. , 2013, 15 , 16408–16425 RSC .
+ ###### 
+From cou.: 114 J. Kim, K. Hong, S. Choi and W. Y. Kim, Bull. Korean Chem. Soc., 2015, 36, 998–1007 Search PubMed.
+From Soup: 114 Y.-H. Kim, M. Stadele and R. M. Martin, Phys. Rev. A: At., Mol., Opt. Phys. , 1999, 60 , 3633–3640 CrossRef CAS .
+ ###### 
+From cou.: 115 R. van Meer, O. V. Gritsenko and E. J. Baerends, J. Chem. Theory Comput., 2014, 10, 4432–4441 CrossRef CAS.
+From Soup: 115 S. Grimme, Chem. Phys. Lett. , 1996, 259 , 128–137 CrossRef CAS .
+ ###### 
+From cou.: 116 E. J. Baerends, O. V Gritsenko and R. van Meer, Phys. Chem. Chem. Phys., 2013, 15, 16408–16425 RSC.
+From Soup: 116 S. Grimme and M. Waletzke, J. Chem. Phys. , 1999, 111 , 5645 CrossRef CAS PubMed .
+ ###### 
+From cou.: 117 Y.-H. Kim, M. Stadele and R. M. Martin, Phys. Rev. A: At., Mol., Opt. Phys., 1999, 60, 3633–3640 CrossRef CAS.
+From Soup: 117 P. Bour, Chem. Phys. Lett. , 2001, 345 , 331–337 CrossRef CAS .
+ ###### 
+From cou.: 118 S. Grimme, Chem. Phys. Lett., 1996, 259, 128–137 CrossRef CAS.
+From Soup: 118 L. Veseth, J. Chem. Phys. , 2001, 114 , 8789 CrossRef CAS PubMed .
+ ###### 
+From cou.: 119 S. Grimme and M. Waletzke, J. Chem. Phys., 1999, 111, 5645 CrossRef CAS PubMed.
+From Soup: 119 T. Hupp, B. Engels, F. Della and G. Andreas, Chem. Phys. Lett. , 2002, 360 , 175–181 CrossRef CAS .
+ ###### 
+From cou.: 120 P. Bour, Chem. Phys. Lett., 2001, 345, 331–337 CrossRef CAS.
+From Soup: 120 T. Hupp, B. Engels and A. Görling, J. Chem. Phys. , 2003, 119 , 11591 CrossRef CAS PubMed .
+ ###### 
+From cou.: 121 L. Veseth, J. Chem. Phys., 2001, 114, 8789 CrossRef CAS PubMed.
+From Soup: 121 M. Roemelt, D. Maganas, S. DeBeer and F. Neese, J. Chem. Phys. , 2013, 138 , 204101 CrossRef PubMed .
+ ###### 
+From cou.: 122 T. Hupp, B. Engels, F. Della and G. Andreas, Chem. Phys. Lett., 2002, 360, 175–181 CrossRef CAS.
+From Soup: 122 C. Gutlé, J. L. Heully, J. B. Krieger and A. Savin, Phys. Rev. A: At., Mol., Opt. Phys. , 2002, 66 , 012504 CrossRef .
+ ###### 
+From cou.: 123 T. Hupp, B. Engels and A. Görling, J. Chem. Phys., 2003, 119, 11591 CrossRef CAS PubMed.
+From Soup: 123 B. Kaduk, T. Kowalczyk and T. Van Voorhis, Chem. Rev. , 2012, 112 , 321–370 CrossRef CAS PubMed .
+ ###### 
+From cou.: 124 M. Roemelt, D. Maganas, S. DeBeer and F. Neese, J. Chem. Phys., 2013, 138, 204101 CrossRef PubMed.
+From Soup: 124 T. Yanai, R. J. Harrison and N. C. Handy, Mol. Phys. , 2005, 103 , 413–424 CrossRef CAS PubMed .
+ ###### 
+From cou.: 125 C. Gutlé, J. L. Heully, J. B. Krieger and A. Savin, Phys. Rev. A: At., Mol., Opt. Phys., 2002, 66, 012504 CrossRef.
+From Soup: 125 S. Choi, K. Hong, J. Kim and W. Y. Kim, J. Chem. Phys. , 2015, 142 , 094116 CrossRef PubMed .
+ ###### 
+From cou.: 126 B. Kaduk, T. Kowalczyk and T. Van Voorhis, Chem. Rev., 2012, 112, 321–370 CrossRef CAS PubMed.
+From Soup: 126 D. Baye, Phys. Status Solidi , 2006, 243 , 1095–1109 CrossRef CAS PubMed .
+ ###### 
+From cou.: 127 T. Yanai, R. J. Harrison and N. C. Handy, Mol. Phys., 2005, 103, 413–424 CrossRef CAS PubMed.
+From Soup: 127 K. Varga and S. T. Pantelides, Phys. Status Solidi , 2006, 243 , 1110–1120 CrossRef CAS PubMed .
+ ###### 
+From cou.: 128 S. Choi, K. Hong, J. Kim and W. Y. Kim, J. Chem. Phys., 2015, 142, 094116 CrossRef PubMed.
+From Soup: 128 L. Genovese, T. Deutsch, A. Neelov, S. Goedecker and G. Beylkin, J. Chem. Phys. , 2006, 125 , 074105 CrossRef PubMed .
+ ###### 
+From cou.: 129 D. Baye, Phys. Status Solidi, 2006, 243, 1095–1109 CrossRef CAS PubMed.
+From Soup: 129 S. A. Losilla, D. Sundholm and J. Jusélius, J. Chem. Phys. , 2010, 132 , 024102 CrossRef CAS PubMed .
+ ###### 
+From cou.: 130 K. Varga and S. T. Pantelides, Phys. Status Solidi, 2006, 243, 1110–1120 CrossRef CAS PubMed.
+From Soup: 130 J. Jusélius and D. Sundholm, J. Chem. Phys. , 2007, 126 , 094101 CrossRef PubMed .
+ ###### 
+From cou.: 131 L. Genovese, T. Deutsch, A. Neelov, S. Goedecker and G. Beylkin, J. Chem. Phys., 2006, 125, 074105 CrossRef PubMed.
+From Soup: 131 H.-S. Lee and M. E. Tuckerman, J. Chem. Phys. , 2008, 129 , 224108 CrossRef PubMed .
+ ###### 
+From cou.: 132 S. A. Losilla, D. Sundholm and J. Jusélius, J. Chem. Phys., 2010, 132, 024102 CrossRef CAS PubMed.
+From Soup: 132 G. Beylkin and L. Monzón, Appl. Comput. Harmon. Anal. , 2005, 19 , 17–48 CrossRef PubMed .
+ ###### 
+From cou.: 133 J. Jusélius and D. Sundholm, J. Chem. Phys., 2007, 126, 094101 CrossRef PubMed.
+From Soup: 133 M. M. Mehine, S. A. Losilla and D. Sundholm, Mol. Phys. , 2013, 111 , 2536 CrossRef CAS PubMed .
+ ###### 
+From cou.: 134 H.-S. Lee and M. E. Tuckerman, J. Chem. Phys., 2008, 129, 224108 CrossRef PubMed.
+From Soup: 134 M. Schreiber, M. R. Silva-Junior, S. P. A. Sauer and W. Thiel, J. Chem. Phys. , 2008, 128 , 134110 CrossRef PubMed .
+ ###### 
+From cou.: 135 G. Beylkin and L. Monzón, Appl. Comput. Harmon. Anal., 2005, 19, 17–48 CrossRef PubMed.
+From Soup: 135 M. R. Silva-Junior, M. Schreiber, S. P. A. Sauer and W. Thiel, J. Chem. Phys. , 2008, 129 , 104103 CrossRef PubMed .
+ ###### 
+From cou.: 136 M. M. Mehine, S. A. Losilla and D. Sundholm, Mol. Phys., 2013, 111, 2536 CrossRef CAS PubMed.
+From Soup: 136 J. P. Perdew, K. Burke and M. Ernzerhof, Phys. Rev. Lett. , 1996, 77 , 3865–3868 CrossRef CAS .
+ ###### 
+From cou.: 137 M. Schreiber, M. R. Silva-Junior, S. P. A. Sauer and W. Thiel, J. Chem. Phys., 2008, 128, 134110 CrossRef PubMed.
+From Soup: 137 THEOS, http://theossrv1.epfl.ch/Main/Pseudopotentials, accessed Jan. 19, 2015.
+ ###### 
+From cou.: 138 M. R. Silva-Junior, M. Schreiber, S. P. A. Sauer and W. Thiel, J. Chem. Phys., 2008, 129, 104103 CrossRef PubMed.
+From Soup: 138 M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, B. Mennucci, G. A. Petersson, H. Nakatsuji, M. Caricato, X. Li, H. P. Hratchian, A. F. Izmaylov, J. Bloino, G. Zheng, J. L. Sonnenberg, M. Hada, M. Ehara, K. Toyota, R. Fukuda, J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, T. Vreven, J. A. Montgomery, Jr., J. E. Peralta, F. Ogliaro, M. Bearpark, J. J. Heyd, E. Brothers, K. N. Kudin, V. N. Staroverov, R. Kobayashi, J. Normand, K. Raghavachari, A. Rendell, J. C. Burant, S. S. Iyengar, J. Tomasi, M. Cossi, N. Rega, J. M. Millam, M. Klene, J. E. Knox, J. B. Cross, V. Bakken, C. Adamo, J. Jaramillo, R. Gomperts, R. E. Stratmann, O. Yazyev, A. J. Austin, R. Cammi, C. Pomelli, J. W. Ochterski, R. L. Martin, K. Morokuma, V. G. Zakrzewski, G. A. Voth, P. Salvador, J. J. Dannenberg, S. Dapprich, A. D. Daniels, O. Farkas, J. B. Foresman, J. V. Ortiz, J. Cioslowski and D. J. Fox, Gaussian 09, Revision A.02 , Gaussian, Inc., Wallingford CT, 2009 Search PubMed .
+ ###### 
+From cou.: 139 J. P. Perdew, K. Burke and M. Ernzerhof, Phys. Rev. Lett., 1996, 77, 3865–3868 CrossRef CAS.
+From Soup: 139 W. Kolos and L. Wolniewicz, J. Chem. Phys. , 1965, 43 , 2429–2441 CrossRef CAS PubMed .
+ ###### 
+From cou.: 140 THEOS, http://theossrv1.epfl.ch/Main/Pseudopotentials, accessed Jan. 19, 2015.
+From Soup: 140 W. Kolos and L. Wolniewicz, J. Chem. Phys. , 1969, 50 , 3228 CrossRef CAS PubMed .
+ ###### 
+From cou.: 141 M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, B. Mennucci, G. A. Petersson, H. Nakatsuji, M. Caricato, X. Li, H. P. Hratchian, A. F. Izmaylov, J. Bloino, G. Zheng, J. L. Sonnenberg, M. Hada, M. Ehara, K. Toyota, R. Fukuda, J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, T. Vreven, J. A. Montgomery, Jr., J. E. Peralta, F. Ogliaro, M. Bearpark, J. J. Heyd, E. Brothers, K. N. Kudin, V. N. Staroverov, R. Kobayashi, J. Normand, K. Raghavachari, A. Rendell, J. C. Burant, S. S. Iyengar, J. Tomasi, M. Cossi, N. Rega, J. M. Millam, M. Klene, J. E. Knox, J. B. Cross, V. Bakken, C. Adamo, J. Jaramillo, R. Gomperts, R. E. Stratmann, O. Yazyev, A. J. Austin, R. Cammi, C. Pomelli, J. W. Ochterski, R. L. Martin, K. Morokuma, V. G. Zakrzewski, G. A. Voth, P. Salvador, J. J. Dannenberg, S. Dapprich, A. D. Daniels, O. Farkas, J. B. Foresman, J. V. Ortiz, J. Cioslowski and D. J. Fox, Gaussian 09, Revision A.02, Gaussian, Inc., Wallingford CT, 2009 Search PubMed.
+From Soup: 141 L. Wolniewicz and K. Dressler, J. Chem. Phys. , 1988, 88 , 3861 CrossRef CAS PubMed .
+ ###### 
+From cou.: 142 W. Kolos and L. Wolniewicz, J. Chem. Phys., 1965, 43, 2429–2441 CrossRef CAS PubMed.
+From cou.: 143 W. Kolos and L. Wolniewicz, J. Chem. Phys., 1969, 50, 3228 CrossRef CAS PubMed.
+From cou.: 144 L. Wolniewicz and K. Dressler, J. Chem. Phys., 1988, 88, 3861 CrossRef CAS PubMed.

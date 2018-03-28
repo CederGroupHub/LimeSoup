@@ -1,0 +1,1059 @@
+From cou.: 0 Journal
+From Soup: 0 CrystEngComm
+ ###### 
+From cou.: 1 A process model for the crystallization of L-phenylalanine crystals from mixed propanol–water solution, an enantiotropic system, is developed with nucleation and growth kinetics estimated for the anhydrate and monohydrate forms using in situATR-FTIR spectroscopy and laser backscattering. A challenging aspect of estimating kinetics for this system is the formation of large numbers of small crystals under certain conditions, which result in biases in the data collected from in situATR-FTIR and FBRM probes. Batch experiments were designed to follow particular trajectories in the phase diagram so that some kinetic phenomena are suppressed in some runs, which enabled the estimation of sets of kinetic parameters in stages, reducing the number of parameters to be estimated simultaneously. The model was validated by comparison of model predictions and experiments for the product crystals and metastable limits obtained from independent characterization and experiments. This combination of experimental design and process modeling may be emulated to facilitate process modeling and development for crystallizations involving multiple crystal structures.
+From Soup: 1 A process model for the crystallization of L -phenylalanine crystals from mixed propanol –water solution, an enantiotropic system, is developed with nucleation and growth kinetics estimated for the anhydrate and monohydrate forms using in situ ATR-FTIR spectroscopy and laser backscattering. A challenging aspect of estimating kinetics for this system is the formation of large numbers of small crystals under certain conditions, which result in biases in the data collected from in situ ATR-FTIR and FBRM probes. Batch experiments were designed to follow particular trajectories in the phase diagram so that some kinetic phenomena are suppressed in some runs, which enabled the estimation of sets of kinetic parameters in stages, reducing the number of parameters to be estimated simultaneously. The model was validated by comparison of model predictions and experiments for the product crystals and metastable limits obtained from independent characterization and experiments. This combination of experimental design and process modeling may be emulated to facilitate process modeling and development for crystallizations involving multiple crystal structures.
+ ###### 
+From cou.: 2 Polymorphism is the ability of a compound to adopt different crystalline arrangements.1 Although chemically identical, different polymorphs of the same compound display a variation in physical properties such as crystal morphology, density, solubility, and color. Quality control for polymorphic or pseudo-polymorphic systems requires the control of the crystal structure in order to provide the desired product performance. Multiple crystal structures are more frequently encountered in the pharmaceutical industry, with the increase in structural complexity of high value-added products. A reliable production process for the targeted crystal form is critical for feasible economic yield and regulatory compliance. Numerous works have developed methods for selective crystallization2–10 including our own11 which utilized feedback control based on the solute concentration measured in situ to operate the crystallizer in appropriate domains that suppress secondary nucleation. This approach12–14 robustly produces crystals of the desired crystal structure without requiring identification of the kinetics for crystal nucleation or growth.
+From Soup: 2 Polymorphism is the ability of a compound to adopt different crystalline arrangements. 1 Although chemically identical, different polymorphs of the same compound display a variation in physical properties such as crystal morphology, density, solubility, and color. Quality control for polymorphic or pseudo-polymorphic systems requires the control of the crystal structure in order to provide the desired product performance. Multiple crystal structures are more frequently encountered in the pharmaceutical industry, with the increase in structural complexity of high value-added products. A reliable production process for the targeted crystal form is critical for feasible economic yield and regulatory compliance. Numerous works have developed methods for selective crystallization 2–10 including our own 11 which utilized feedback control based on the solute concentration measured in situ to operate the crystallizer in appropriate domains that suppress secondary nucleation. This approach 12–14 robustly produces crystals of the desired crystal structure without requiring identification of the kinetics for crystal nucleation or growth.
+ ###### 
+From cou.: 3 Crystallization kinetics are useful for further optimization of the operating conditions, specifically to elucidate the combined effect of operating variables such as the temperature profile, antisolvent addition rates, and seeding conditions, as well as crystallizer baffling, mixing blade design, and feed pipe location.15 In addition, process models of the transformations between crystal structures facilitate the understanding of the relative importance of various competing crystallization mechanisms, such as different mechanisms for secondary nucleation.
+From Soup: 3 Crystallization kinetics are useful for further optimization of the operating conditions, specifically to elucidate the combined effect of operating variables such as the temperature profile, antisolvent addition rates, and seeding conditions, as well as crystallizer baffling, mixing blade design, and feed pipe location. 15 In addition, process models of the transformations between crystal structures facilitate the understanding of the relative importance of various competing crystallization mechanisms, such as different mechanisms for secondary nucleation.
+ ###### 
+From cou.: 4 The transformation rate of the anhydrate to the monohydrate form in water below the transition temperature has been monitored previously based on the offline powder X-ray diffraction (PXRD) analysis.6 More recent studies on monitoring the transformation of organic compounds have utilized in situ instruments such as ATR-FTIR and Raman spectroscopy, which have been applied in monotropic and enantiotropic systems.16–21In situ process monitoring and modeling with kinetics estimation have been applied to L-glutamic acid,22–24 a monotropic dimorph system. Similar transformation analysis has been applied to the enantiotropic pseudo-dimorph of citric acid,25 but only pertaining to the dissolution of the metastable form and nucleation and growth of the stable form.
+From Soup: 4 The transformation rate of the anhydrate to the monohydrate form in water below the transition temperature has been monitored previously based on the offline powder X-ray diffraction ( PXRD ) analysis. 6 More recent studies on monitoring the transformation of organic compounds have utilized in situ instruments such as ATR-FTIR and Raman spectroscopy , which have been applied in monotropic and enantiotropic systems. 16–21 In situ process monitoring and modeling with kinetics estimation have been applied to L -glutamic acid , 22–24 a monotropic dimorph system. Similar transformation analysis has been applied to the enantiotropic pseudo-dimorph of citric acid , 25 but only pertaining to the dissolution of the metastable form and nucleation and growth of the stable form.
+ ###### 
+From cou.: 5 This paper describes the staged design of experiments and parameter estimation to model the nucleation and growth of L-phenylalanine (L-phe) crystals in propanol–water solution, which is an enantiotropic system.6 The crystallization model includes kinetic parameters for both the anhydrate and monohydrate forms (previously denoted as β and α-forms,5,26 respectively, see Fig. 1), estimated from in situexperimental data, specifically, the solute concentration measured using Attenuated Total Reflection-Fourier Transform Infrared (ATR-FTIR) spectroscopy and moments of the chord length distribution (CLD) obtained using Focused Beam Reflectance Measurement (FBRM). The concentration feedback control approach12–14 is used to implement experimental designs to follow specified trajectories in the solid–liquid phase diagram. The staged design enables individual sets of kinetic parameters to be estimated, as opposed to the simultaneous estimation of all kinetic parameters. The predictive ability of the model was evaluated based on comparisons with offline characterization of the product crystals as well as with the experimentally determined metastable limits. To the best of the authors' knowledge, this is the first comprehensive crystallization study for an enantiotropic system, which includes in situ monitoring and parameter estimation of the nucleation and growth kinetics of both forms.
+From Soup: 5 This paper describes the staged design of experiments and parameter estimation to model the nucleation and growth of L -phenylalanine ( L -phe ) crystals in propanol –water solution, which is an enantiotropic system. 6 The crystallization model includes kinetic parameters for both the anhydrate and monohydrate forms (previously denoted as β and α-forms, 5,26 respectively, see Fig. 1 ), estimated from in situ experimental data, specifically, the solute concentration measured using Attenuated Total Reflection-Fourier Transform Infrared (ATR-FTIR) spectroscopy and moments of the chord length distribution (CLD) obtained using Focused Beam Reflectance Measurement (FBRM). The concentration feedback control approach 12–14 is used to implement experimental designs to follow specified trajectories in the solid–liquid phase diagram. The staged design enables individual sets of kinetic parameters to be estimated, as opposed to the simultaneous estimation of all kinetic parameters. The predictive ability of the model was evaluated based on comparisons with offline characterization of the product crystals as well as with the experimentally determined metastable limits. To the best of the authors' knowledge, this is the first comprehensive crystallization study for an enantiotropic system, which includes in situ monitoring and parameter estimation of the nucleation and growth kinetics of both forms.
+ ###### 
+From cou.: 6 A Dipper-210 ATR immersion probe (Axiom Analytical) with ZnSe as the internal reflectance element attached to a Nicolet Protégé 460 FTIR spectrophotometer was used to obtain the spectra of the L-phe solution. The chord length distribution of the crystals in solution was measured every 30 s using Lasentec FBRM with version 6.0b12 of the FBRM Control Interface software. In situ images of the slurry were collected using Lasentec Particle Vision and Measurement (PVM). The solution temperature was controlled by ratioing hot and cold water to the jacket with a control valve,12 and was measured every 2 s using a Teflon-coated thermocouple attached to a Data Translation 3004 data acquisition board via a Fluke 80TK thermocouple module. PXRD patterns of L-phe crystals were collected offline using the Bruker General Area Detector Diffraction System (GADDS, Bruker AXS, Inc.) with Cu Kα1 and Cu Kα2 (weighted sum) radiation and a step size of 0.02°. The anhydrate form is orthorhombic while the monohydrate form is monoclinic; the space group is P2221 for both.6,26L-Phe crystals obtained commercially (>98.5%, Sigma Aldrich) were verified using PXRD to be pure anhydrate form in which the characteristic peaks of the monohydrate form were not observed. The monohydrate form was produced by rapid cooling,6,11 and was similarly verified using PXRD. Recrystallized anhydrate crystals were used in the metastable limit and batch crystallization experiments as seeds because these had a well-defined rhombic shape as opposed to the commercially available crystals which were irregular platelets. The recrystallized crystals were produced by transformation of the monohydrate form.11 The solvent consisted of 75 wt% DI water and 25 wt% 2-propanol (ACS grade, Sigma Aldrich). Scanning Electron Microscopy (SEM) samples were sputtered with 4–8 nm of Au/Pd before being recorded with a JEOL 7000F SEM.
+From Soup: 6 A Dipper-210 ATR immersion probe (Axiom Analytical) with ZnSe as the internal reflectance element attached to a Nicolet Protégé 460 FTIR spectrophotometer was used to obtain the spectra of the L -phe solution. The chord length distribution of the crystals in solution was measured every 30 s using Lasentec FBRM with version 6.0b12 of the FBRM Control Interface software. In situ images of the slurry were collected using Lasentec Particle Vision and Measurement (PVM). The solution temperature was controlled by ratioing hot and cold water to the jacket with a control valve, 12 and was measured every 2 s using a Teflon-coated thermocouple attached to a Data Translation 3004 data acquisition board via a Fluke 80TK thermocouple module. PXRD patterns of L -phe crystals were collected offline using the Bruker General Area Detector Diffraction System (GADDS, Bruker AXS , Inc.) with Cu K α1 and Cu K α2 (weighted sum) radiation and a step size of 0.02°. The anhydrate form is orthorhombic while the monohydrate form is monoclinic; the space group is P 222 1 for both. 6,26 L -Phe crystals obtained commercially (>98.5%, Sigma Aldrich) were verified using PXRD to be pure anhydrate form in which the characteristic peaks of the monohydrate form were not observed. The monohydrate form was produced by rapid cooling, 6,11 and was similarly verified using PXRD . Recrystallized anhydrate crystals were used in the metastable limit and batch crystallization experiments as seeds because these had a well-defined rhombic shape as opposed to the commercially available crystals which were irregular platelets. The recrystallized crystals were produced by transformation of the monohydrate form. 11 The solvent consisted of 75 wt% DI water and 25 wt% 2-propanol (ACS grade, Sigma Aldrich). Scanning Electron Microscopy ( SEM ) samples were sputtered with 4–8 nm of Au/Pd before being recorded with a JEOL 7000F SEM .
+ ###### 
+From cou.: 7 Different solute concentrations of L-phe and the mixed solvent (∼400.00 g) were placed in a 500 ml jacketed round-bottom flask and heated until complete dissolution; an overhead mixer was used to agitate the solution with a stirring speed of 175 rpm. The solution was cooled at 0.5 °C min−1 while the IR spectra were collected. The IR spectra in the range 1100–1650 cm−1 were used to construct the calibration model, which was determined using various chemometrics methods.27 The chemometrics forward selection PCR 2 (FPCR 2) method28 was selected, which gave a prediction interval of ±0.00034 g per g solvent.
+From Soup: 7 Different solute concentrations of L -phe and the mixed solvent (∼400.00 g) were placed in a 500 ml jacketed round-bottom flask and heated until complete dissolution; an overhead mixer was used to agitate the solution with a stirring speed of 175 rpm. The solution was cooled at 0.5 °C min −1 while the IR spectra were collected. The IR spectra in the range 1100–1650 cm −1 were used to construct the calibration model, which was determined using various chemometrics methods. 27 The chemometrics forward selection PCR 2 (FPCR 2) method 28 was selected, which gave a prediction interval of ±0.00034 g per g solvent .
+ ###### 
+From cou.: 8 The IR spectra of L-phe slurries of each form were collected at different temperatures. At each evaluated temperature, the slurry was equilibrated for 30 min to an hour while recording IR spectra. The equilibrium solute concentration was then calculated using the calibration model. Care was taken to ensure that the monohydrate-form crystal slurry contained only a small amount of excess solids, to prevent significant solid-phase interference on the IR measurements. The solubility for the monohydrate form was also determined using a slow heating method to validate the result from the earlier measurements.11 The metastable limit of L-phe solutions was determined based on the polythermal method,29 using a constant cooling rate of 0.1 °C min−1 for various initial solute concentrations (Table 1). The same seeding conditions were used as that in the main crystallization experiments; anhydrate crystals (0.50 g, 220–520 µm) were added at 0.6 °C after the solution temperature, T [°C], crossed the saturation temperature of the anhydrate form. The CLD of the crystals was monitored using FBRM. A nucleation event was identified by the start of a sharp increase in the total counts per s profiles (ignoring the increase due to seeding). PVM images were also recorded to check the appearance of the monohydrate needles. In both the solubility and metastable limit experiments, the solvent mass and composition as well as the stirring speed of the overhead mixer were similar to that for calibration.
+From Soup: 8 The IR spectra of L -phe slurries of each form were collected at different temperatures. At each evaluated temperature, the slurry was equilibrated for 30 min to an hour while recording IR spectra . The equilibrium solute concentration was then calculated using the calibration model. Care was taken to ensure that the monohydrate-form crystal slurry contained only a small amount of excess solids, to prevent significant solid-phase interference on the IR measurements. The solubility for the monohydrate form was also determined using a slow heating method to validate the result from the earlier measurements. 11 The metastable limit of L -phe solutions was determined based on the polythermal method, 29 using a constant cooling rate of 0.1 °C min −1 for various initial solute concentrations ( Table 1 ). The same seeding conditions were used as that in the main crystallization experiments; anhydrate crystals (0.50 g, 220–520 µm) were added at 0.6 °C after the solution temperature, T [°C], crossed the saturation temperature of the anhydrate form. The CLD of the crystals was monitored using FBRM. A nucleation event was identified by the start of a sharp increase in the total counts per s profiles (ignoring the increase due to seeding). PVM images were also recorded to check the appearance of the monohydrate needles. In both the solubility and metastable limit experiments, the solvent mass and composition as well as the stirring speed of the overhead mixer were similar to that for calibration.
+ ###### 
+From cou.: 9 An undersaturated solution with solute concentration ∼0.02300 g per g solvent was cooled at 0.1 °C min−1 to 0.6 °C below the anhydrate form saturation temperature, upon which anhydrate seeds with similar crystal size distribution (CSD) as that in the metastable limit experiments were added. The seed masses were 0.51, 0.49, and 0.46 g for runs 1, 2, and 3, respectively. The stirring conditions were the same as that used previously. Preset supersaturation profiles were followed during crystallization using concentration feedback control12,13 to adjust the cooling rate accordingly based on in situ solute concentration measurements. The control algorithm was started shortly after seeding. Supersaturation setpoint profiles were selected at different constant absolute supersaturations (ΔCi = C − Csat,i) with respect to both the anhydrate and monohydrate forms, where C [g per g solvent] is the solute concentration, Csat,i [g per g solvent] is the solubility, and i indicates either the anhydrate (a) or monohydrate form (m). The solvent composition was identical to that used for calibration; the solvent masses were 400.16 g (300.11 g deionised water, 100.05 g 2-propanol), 400.20 g (300.17 g deionised water, 100.03 g 2-propanol), and 400.31 g (300.21 g deionised water, 100.10 g 2-propanol) for runs 1, 2, and 3, respectively.
+From Soup: 9 An undersaturated solution with solute concentration ∼0.02300 g per g solvent was cooled at 0.1 °C min −1 to 0.6 °C below the anhydrate form saturation temperature, upon which anhydrate seeds with similar crystal size distribution ( CSD ) as that in the metastable limit experiments were added. The seed masses were 0.51, 0.49, and 0.46 g for runs 1, 2, and 3, respectively. The stirring conditions were the same as that used previously. Preset supersaturation profiles were followed during crystallization using concentration feedback control 12,13 to adjust the cooling rate accordingly based on in situ solute concentration measurements. The control algorithm was started shortly after seeding. Supersaturation setpoint profiles were selected at different constant absolute supersaturations (Δ C i = C − C sat, i ) with respect to both the anhydrate and monohydrate forms, where C [g per g solvent ] is the solute concentration, C sat, i [g per g solvent ] is the solubility, and i indicates either the anhydrate ( a ) or monohydrate form ( m ). The solvent composition was identical to that used for calibration; the solvent masses were 400.16 g (300.11 g deionised water , 100.05 g 2-propanol ), 400.20 g (300.17 g deionised water , 100.03 g 2-propanol ), and 400.31 g (300.21 g deionised water , 100.10 g 2-propanol ) for runs 1, 2, and 3, respectively.
+ ###### 
+From cou.: 10 The solubility curves (each fitted to a second-order polynomial11) of both forms of L-phe and the metastable limits are shown in Fig. 2 (the data points used to construct the metastable limits are shown in Fig. S1, ESI†). An increase in the total number of particles counted per second measured by FBRM, also referred to as the total counts per s, indicates a nucleation event but cannot directly identify the nucleated form. The nucleated form was inferred depending on when monohydrate needles were detected viaPVM images relative to the rise in total counts per s. At temperatures above the transition point, needles were not detected prior to or at the onset of an increase in total counts per s but were only observed at a substantially later time, indicating that the first nucleation event detected viaFBRM was of the seeded anhydrate form. Below the transition temperature, needles were observed before an increase in FBRM counts, indicating cross-nucleation as the first nucleation event. Both of these metastable limits are shown in Fig. 2.
+From Soup: 10 The solubility curves (each fitted to a second-order polynomial 11 ) of both forms of L -phe and the metastable limits are shown in Fig. 2 (the data points used to construct the metastable limits are shown in Fig. S1, ESI † ). An increase in the total number of particles counted per second measured by FBRM, also referred to as the total counts per s, indicates a nucleation event but cannot directly identify the nucleated form. The nucleated form was inferred depending on when monohydrate needles were detected via PVM images relative to the rise in total counts per s. At temperatures above the transition point, needles were not detected prior to or at the onset of an increase in total counts per s but were only observed at a substantially later time, indicating that the first nucleation event detected via FBRM was of the seeded anhydrate form. Below the transition temperature, needles were observed before an increase in FBRM counts, indicating cross-nucleation as the first nucleation event. Both of these metastable limits are shown in Fig. 2 .
+ ###### 
+From cou.: 11 Fig. 2 compares the supersaturation profiles of the three seeded concentration-controlled crystallization experiments (runs 1–3). Table 2 summarizes the operating conditions and results. The anhydrate seeds for all three runs were from the same batch, with crystal size characterized by the largest distance across a crystal measurable from microscopy images, La [µm], which occurs along the diagonal. The size distribution for the anhydrate product crystals was similarly constructed.
+From Soup: 11 Fig. 2 compares the supersaturation profiles of the three seeded concentration-controlled crystallization experiments (runs 1–3). Table 2 summarizes the operating conditions and results. The anhydrate seeds for all three runs were from the same batch, with crystal size characterized by the largest distance across a crystal measurable from microscopy images, L a [µm], which occurs along the diagonal. The size distribution for the anhydrate product crystals was similarly constructed.
+ ###### 
+From cou.: 12 A crystallization model for L-phe was constructed to describe the nucleation and growth kinetics of both anhydrate and monohydrate forms. The model has a large number of kinetic parameters that are challenging to estimate simultaneously. In the above experiments, some kinetic phenomena were suppressed at certain segments of the experimental data, to reduce the number of kinetic parameters to facilitate efficient and accurate parameter estimation. The newly determined kinetic parameters were then utilized in the next set of data to facilitate the estimation of the remaining kinetic parameters. For example, the growth kinetics of the anhydrate form can be estimated from run 3 and the first 0–275 min of run 2 because nucleation of either form was not detected in these ranges (as cross-nucleation was detected in run 2 at 291 min, the data range was limited to 275 min to ensure no hydrate crystals were in the system). The newly determined growth kinetics for the anhydrate form were then incorporated into the analysis of the next segment of the experimental data, for example, to account for the effects of anhydrate-form growth while estimating its nucleation kinetics from the first 100 min of run 1. Both sets of kinetic parameters for the anhydrate form were then utilized in the analysis of the remaining experimental data while estimating crystallization kinetics of the monohydrate form. The implementation of experiments and parameter estimation in stages reduces the number of parameters to be estimated simultaneously and thus decreases the chance of obtaining poorly conditioned parameter estimation optimizations.24,30Table 3 summarizes the segments of the experimental data relevant to the different kinetics. The development of the crystallization model along with the parameter estimation, corresponding confidence intervals, and model validation is described next.
+From Soup: 12 A crystallization model for L -phe was constructed to describe the nucleation and growth kinetics of both anhydrate and monohydrate forms. The model has a large number of kinetic parameters that are challenging to estimate simultaneously. In the above experiments, some kinetic phenomena were suppressed at certain segments of the experimental data, to reduce the number of kinetic parameters to facilitate efficient and accurate parameter estimation. The newly determined kinetic parameters were then utilized in the next set of data to facilitate the estimation of the remaining kinetic parameters. For example, the growth kinetics of the anhydrate form can be estimated from run 3 and the first 0–275 min of run 2 because nucleation of either form was not detected in these ranges (as cross-nucleation was detected in run 2 at 291 min, the data range was limited to 275 min to ensure no hydrate crystals were in the system). The newly determined growth kinetics for the anhydrate form were then incorporated into the analysis of the next segment of the experimental data, for example, to account for the effects of anhydrate-form growth while estimating its nucleation kinetics from the first 100 min of run 1. Both sets of kinetic parameters for the anhydrate form were then utilized in the analysis of the remaining experimental data while estimating crystallization kinetics of the monohydrate form. The implementation of experiments and parameter estimation in stages reduces the number of parameters to be estimated simultaneously and thus decreases the chance of obtaining poorly conditioned parameter estimation optimizations. 24,30 Table 3 summarizes the segments of the experimental data relevant to the different kinetics. The development of the crystallization model along with the parameter estimation, corresponding confidence intervals, and model validation is described next.
+ ###### 
+From cou.: 13 This section presents the mathematical model for the crystallization of L-phe. This was based on the population balance equation (PBE), coupled with the kinetic expressions for nucleation and crystal growth for both the anhydrate and monohydrate forms. The kinetic parameters were estimated using weighted least-squares regressions applied to the data from the concentration-controlled experiments. The model was then validated based on the offline characterization of the product crystals and the metastable limit experiments.
+From Soup: 13 This section presents the mathematical model for the crystallization of L -phe . This was based on the population balance equation (PBE), coupled with the kinetic expressions for nucleation and crystal growth for both the anhydrate and monohydrate forms. The kinetic parameters were estimated using weighted least-squares regressions applied to the data from the concentration-controlled experiments. The model was then validated based on the offline characterization of the product crystals and the metastable limit experiments.
+ ###### 
+From cou.: 14 The model is based on the assumption that the crystallizer is well-mixed, that is, no spatial variations in T, C, or CSD. Such assumptions are common in the industrial crystallization literature for a lab-scale crystallizer.30 The population balances that describe the time-dependent CSDs, fi(Li,t) [# crystals/(µm g solvent)], are:where i = anhydrate (a) or monohydrate (m) of L-phe, Li [µm] is the characteristic crystal dimension and L0,i > 0 is the characteristic size for nucleated crystals, T is temperature [°C], Gi [µm min−1] is the crystal growth rate along the characteristic dimension, Bi [# crystals/(min g solvent)] is the nucleation rate, Si [—] is the relative supersaturation (C − Csat,i)/Csat,i, δ(·) is the Dirac delta function, and θg,i and θb,i are sets of growth and nucleation parameters. The seed crystals consisted of pure anhydrate form. Thus the initial condition for the population balance is given by the CSD of the anhydrate seed crystals fa(La,0) with fm(Lm,0) = 0. Assuming that there is no mechanism for producing either form of crystals of size L0,i = 0 and that the initial distribution does not have anhydrate crystals of size La = 0, the boundary condition is
+From Soup: 14 The model is based on the assumption that the crystallizer is well-mixed, that is, no spatial variations in T , C , or CSD . Such assumptions are common in the industrial crystallization literature for a lab-scale crystallizer. 30 The population balances that describe the time-dependent CSDs, f i ( L i , t ) [# crystals/(µm g solvent )], are: where i = anhydrate ( a ) or monohydrate ( m ) of L -phe , L i [µm] is the characteristic crystal dimension and L 0, i > 0 is the characteristic size for nucleated crystals, T is temperature [°C], G i [µm min −1 ] is the crystal growth rate along the characteristic dimension, B i [# crystals/(min g solvent )] is the nucleation rate, S i [—] is the relative supersaturation ( C − C sat, i )/ C sat, i , δ ( · ) is the Dirac delta function, and θ g , i and θ b , i are sets of growth and nucleation parameters. The seed crystals consisted of pure anhydrate form. Thus the initial condition for the population balance is given by the CSD of the anhydrate seed crystals f a ( L a ,0) with f m ( L m ,0) = 0. Assuming that there is no mechanism for producing either form of crystals of size L 0, i = 0 and that the initial distribution does not have anhydrate crystals of size L a = 0, the boundary condition is
+ ###### 
+From cou.: 15 Applying the method of moments, the population balance equations were converted into the system of ordinary differential equations (ODEs) by multiplying both sides of eqn (1) by Lj, for j = 0, 1, 2,…, and integrating each term of 0 to ∞:31
+From Soup: 15 Applying the method of moments, the population balance equations were converted into the system of ordinary differential equations (ODEs) by multiplying both sides of eqn (1) by L j , for j = 0, 1, 2,…, and integrating each term of 0 to ∞: 31
+ ###### 
+From cou.: 16 j
+From Soup: 16 j
+ ###### 
+From cou.: 17 th
+From Soup: 17 th
+ ###### 
+From cou.: 18 The CSD moments relate to the physical properties of the crystals in the distribution; µ0,i [# crystals/g solvent], µ1,i [(# crystals µm)/g solvent], µ2,i [(# crystals µm2)/g solvent], and µ3,i [(# crystals µm3)/g solvent] are proportional to the total number, length, surface area, and volume of the crystals, respectively. The solute mass balance is:32
+From Soup: 18 The CSD moments relate to the physical properties of the crystals in the distribution; µ 0, i [# crystals/g solvent ], µ 1, i [(# crystals µm)/g solvent ], µ 2, i [(# crystals µm 2 )/g solvent ], and µ 3, i [(# crystals µm 3 )/g solvent ] are proportional to the total number, length, surface area, and volume of the crystals, respectively. The solute mass balance is: 32
+ ###### 
+From cou.: 19 ρ
+From Soup: 19 ρ
+ ###### 
+From cou.: 20 i
+From Soup: 20 i
+ ###### 
+From cou.: 21 ρ
+From Soup: 21 ρ
+ ###### 
+From cou.: 22 a
+From Soup: 22 a
+ ###### 
+From cou.: 23 −12
+From Soup: 23 −12
+ ###### 
+From cou.: 24 −3
+From Soup: 24 −3
+ ###### 
+From cou.: 25 ρ
+From Soup: 25 ρ
+ ###### 
+From cou.: 26 m
+From Soup: 26 m
+ ###### 
+From cou.: 27 −12
+From Soup: 27 −12
+ ###### 
+From cou.: 28 −3
+From Soup: 28 −3
+ ###### 
+From cou.: 29 k
+From Soup: 29 k
+ ###### 
+From cou.: 30 v
+From Soup: 30 v , i
+ ###### 
+From cou.: 31 i
+From Soup: 31 v
+ ###### 
+From cou.: 32 v
+From Soup: 32 i
+ ###### 
+From cou.: 33 i
+From Soup: 33 k
+ ###### 
+From cou.: 34 k
+From Soup: 34 v , i
+ ###### 
+From cou.: 35 v
+From Soup: 35 L
+ ###### 
+From cou.: 36 i
+From Soup: 36 3
+ ###### 
+From cou.: 37 L
+From Soup: 37 i
+ ###### 
+From cou.: 38 3
+From Soup: 38 v
+ ###### 
+From cou.: 39 i
+From Soup: 39 i
+ ###### 
+From cou.: 40 v
+From Soup: 40 i
+ ###### 
+From cou.: 41 i
+From Soup: 41 v
+ ###### 
+From cou.: 42 i
+From Soup: 42 i
+ ###### 
+From cou.: 43 v
+From Soup: 43 3
+ ###### 
+From cou.: 44 i
+From Soup: 44 k
+ ###### 
+From cou.: 45 3
+From Soup: 45 v , i
+ ###### 
+From cou.: 46 k
+From Soup: 46 L
+ ###### 
+From cou.: 47 v
+From Soup: 47 a
+ ###### 
+From cou.: 48 i
+From Soup: 48 L
+ ###### 
+From cou.: 49 L
+From Soup: 49 m
+ ###### 
+From cou.: 50 a
+From Soup: 50 k
+ ###### 
+From cou.: 51 L
+From Soup: 51 v , a
+ ###### 
+From cou.: 52 m
+From Soup: 52 k
+ ###### 
+From cou.: 53 k
+From Soup: 53 v , m
+ ###### 
+From cou.: 54 v
+From Soup: 54 L
+ ###### 
+From cou.: 55 a
+From Soup: 55 0, i
+ ###### 
+From cou.: 56 k
+From Soup: 56 L
+ ###### 
+From cou.: 57 v
+From Soup: 57 0, i
+ ###### 
+From cou.: 58 m
+From Soup: 58 µ
+ ###### 
+From cou.: 59 L
+From Soup: 59 j , i
+ ###### 
+From cou.: 60 i
+From Soup: 60 C
+ ###### 
+From cou.: 61 L
+From Soup: 61 L
+ ###### 
+From cou.: 62 i
+From Soup: 62 0, i
+ ###### 
+From cou.: 63 µ
+From Soup: 63 30,31
+ ###### 
+From cou.: 64 j
+From Soup: 64 µ
+ ###### 
+From cou.: 65 i
+From Soup: 65 0, i
+ ###### 
+From cou.: 66 C
+From Soup: 66 µ
+ ###### 
+From cou.: 67 L
+From Soup: 67 1, i
+ ###### 
+From cou.: 68 i
+From Soup: 68 µ
+ ###### 
+From cou.: 69 30,31
+From Soup: 69 2, i
+ ###### 
+From cou.: 70 µ
+From Soup: 70 C
+ ###### 
+From cou.: 71 i
+From Soup: 71 eqn (3)
+ ###### 
+From cou.: 72 µ
+From Soup: 72 (4)
+ ###### 
+From cou.: 73 i
+From Soup: 73 eqn (6)
+ ###### 
+From cou.: 74 µ
+From Soup: 74 µ
+ ###### 
+From cou.: 75 i
+From Soup: 75 3, i
+ ###### 
+From cou.: 76 C
+From Soup: 76 For the system of ODEs ( eqn (3) and (4) ), the initial conditions were calculated from the CSD of the anhydrate seed crystals using:
+ ###### 
+From cou.: 77 µ
+From Soup: 77 L
+ ###### 
+From cou.: 78 i
+From Soup: 78 1, a
+ ###### 
+From cou.: 79 For the system of ODEs (eqn (3) and (4)), the initial conditions were calculated from the CSD of the anhydrate seed crystals using:
+From Soup: 79 L
+ ###### 
+From cou.: 80 L
+From Soup: 80 N , a
+ ###### 
+From cou.: 81 a
+From Soup: 81 f
+ ###### 
+From cou.: 82 L
+From Soup: 82 s
+ ###### 
+From cou.: 83 N
+From Soup: 83 a
+ ###### 
+From cou.: 84 a
+From Soup: 84 L
+ ###### 
+From cou.: 85 f
+From Soup: 85 k
+ ###### 
+From cou.: 86 s
+From Soup: 86 +
+ ###### 
+From cou.: 87 a
+From Soup: 87 1,
+ ###### 
+From cou.: 88 L
+From Soup: 88 a
+ ###### 
+From cou.: 89 k
+From Soup: 89 L
+ ###### 
+From cou.: 90 a
+From Soup: 90 k , a
+ ###### 
+From cou.: 91 L
+From Soup: 91 L
+ ###### 
+From cou.: 92 k
+From Soup: 92 k
+ ###### 
+From cou.: 93 a
+From Soup: 93 +1, a
+ ###### 
+From cou.: 94 L
+From Soup: 94 L
+ ###### 
+From cou.: 95 k
+From Soup: 95 k , a
+ ###### 
+From cou.: 96 a
+From Soup: 96 t
+ ###### 
+From cou.: 97 L
+From Soup: 97 µ
+ ###### 
+From cou.: 98 k
+From Soup: 98 j , a
+ ###### 
+From cou.: 99 a
+From Soup: 99 µ
+ ###### 
+From cou.: 100 t
+From Soup: 100 j , m
+ ###### 
+From cou.: 101 µ
+From Soup: 101 solvent
+ ###### 
+From cou.: 102 j
+From Soup: 102 eqn (7)
+ ###### 
+From cou.: 103 a
+From Soup: 103 λ
+ ###### 
+From cou.: 104 µ
+From Soup: 104 solvent
+ ###### 
+From cou.: 105 j
+From Soup: 105 The initial value for µ 3, a can be calculated from mass balance:
+ ###### 
+From cou.: 106 m
+From Soup: 106 m
+ ###### 
+From cou.: 107 solvent
+From Soup: 107 sd
+ ###### 
+From cou.: 108 λ
+From Soup: 108 m
+ ###### 
+From cou.: 109 solvent
+From Soup: 109 solv
+ ###### 
+From cou.: 110 The initial value for µ3,a can be calculated from mass balance:
+From Soup: 110 solvent
+ ###### 
+From cou.: 111 m
+From Soup: 111 λ
+ ###### 
+From cou.: 112 m
+From Soup: 112 µ
+ ###### 
+From cou.: 113 solvent
+From Soup: 113 s
+ ###### 
+From cou.: 114 λ
+From Soup: 114 3, a
+ ###### 
+From cou.: 115 µ
+From Soup: 115 t
+ ###### 
+From cou.: 116 s
+From Soup: 116 eqn (7)
+ ###### 
+From cou.: 117 a
+From Soup: 117 µ
+ ###### 
+From cou.: 118 t
+From Soup: 118 3, a
+ ###### 
+From cou.: 119 µ
+From Soup: 119 t
+ ###### 
+From cou.: 120 a
+From Soup: 120 eqn (9)
+ ###### 
+From cou.: 121 t
+From Soup: 121 λ
+ ###### 
+From cou.: 122 λ
+From Soup: 122 µ
+ ###### 
+From cou.: 123 µ
+From Soup: 123 j , a
+ ###### 
+From cou.: 124 j
+From Soup: 124 t
+ ###### 
+From cou.: 125 a
+From Soup: 125 µ
+ ###### 
+From cou.: 126 t
+From Soup: 126 s
+ ###### 
+From cou.: 127 µ
+From Soup: 127 j , a
+ ###### 
+From cou.: 128 s
+From Soup: 128 t
+ ###### 
+From cou.: 129 j
+From Soup: 129 j
+ ###### 
+From cou.: 130 a
+From Soup: 130 C
+ ###### 
+From cou.: 131 t
+From Soup: 131 t
+ ###### 
+From cou.: 132 j
+From Soup: 132 C
+ ###### 
+From cou.: 133 C
+From Soup: 133 0
+ ###### 
+From cou.: 134 t
+From Soup: 134 30,31
+ ###### 
+From cou.: 135 C
+From Soup: 135 G
+ ###### 
+From cou.: 136 30,31
+From Soup: 136 a
+ ###### 
+From cou.: 137 G
+From Soup: 137 k
+ ###### 
+From cou.: 138 a
+From Soup: 138 ′
+ ###### 
+From cou.: 139 k
+From Soup: 139 g , a
+ ###### 
+From cou.: 140 ′
+From Soup: 140 −1
+ ###### 
+From cou.: 141 g
+From Soup: 141 g
+ ###### 
+From cou.: 142 a
+From Soup: 142 a
+ ###### 
+From cou.: 143 −1
+From Soup: 143 E
+ ###### 
+From cou.: 144 g
+From Soup: 144 g , a
+ ###### 
+From cou.: 145 a
+From Soup: 145 −1
+ ###### 
+From cou.: 146 E
+From Soup: 146 R
+ ###### 
+From cou.: 147 g
+From Soup: 147 −1
+ ###### 
+From cou.: 148 a
+From Soup: 148 −1
+ ###### 
+From cou.: 149 −1
+From Soup: 149 k
+ ###### 
+From cou.: 150 R
+From Soup: 150 g , a
+ ###### 
+From cou.: 151 −1
+From Soup: 151 k
+ ###### 
+From cou.: 152 −1
+From Soup: 152 ′
+ ###### 
+From cou.: 153 k
+From Soup: 153 g , a
+ ###### 
+From cou.: 154 g
+From Soup: 154 γ
+ ###### 
+From cou.: 155 a
+From Soup: 155 33
+ ###### 
+From cou.: 156 k
+From Soup: 156 eqn (12)
+ ###### 
+From cou.: 157 ′
+From Soup: 157 The solute mass balance eqn (6) was modified in the same manner. For the monohydrate form, the growth rate G m was assumed to be independent of both size and temperature:
+ ###### 
+From cou.: 158 g
+From Soup: 158 k
+ ###### 
+From cou.: 159 a
+From Soup: 159 g , m
+ ###### 
+From cou.: 160 γ
+From Soup: 160 −1
+ ###### 
+From cou.: 161 33
+From Soup: 161 g
+ ###### 
+From cou.: 162 The solute mass balance eqn (6) was modified in the same manner. For the monohydrate form, the growth rate Gm was assumed to be independent of both size and temperature:
+From Soup: 162 m
+ ###### 
+From cou.: 163 k
+From Soup: 163 k
+ ###### 
+From cou.: 164 g
+From Soup: 164 ′
+ ###### 
+From cou.: 165 m
+From Soup: 165 b , a
+ ###### 
+From cou.: 166 −1
+From Soup: 166 2
+ ###### 
+From cou.: 167 g
+From Soup: 167 b
+ ###### 
+From cou.: 168 m
+From Soup: 168 a
+ ###### 
+From cou.: 169 k
+From Soup: 169 E
+ ###### 
+From cou.: 170 ′
+From Soup: 170 b , a
+ ###### 
+From cou.: 171 b
+From Soup: 171 −1
+ ###### 
+From cou.: 172 a
+From Soup: 172 k
+ ###### 
+From cou.: 173 2
+From Soup: 173 b , a
+ ###### 
+From cou.: 174 b
+From Soup: 174 k
+ ###### 
+From cou.: 175 a
+From Soup: 175 ′
+ ###### 
+From cou.: 176 E
+From Soup: 176 b , a
+ ###### 
+From cou.: 177 b
+From Soup: 177 k
+ ###### 
+From cou.: 178 a
+From Soup: 178 b 1, m
+ ###### 
+From cou.: 179 −1
+From Soup: 179 2
+ ###### 
+From cou.: 180 k
+From Soup: 180 k
+ ###### 
+From cou.: 181 b
+From Soup: 181 b 2, m
+ ###### 
+From cou.: 182 a
+From Soup: 182 2
+ ###### 
+From cou.: 183 k
+From Soup: 183 b
+ ###### 
+From cou.: 184 ′
+From Soup: 184 1, m
+ ###### 
+From cou.: 185 b
+From Soup: 185 b
+ ###### 
+From cou.: 186 a
+From Soup: 186 1, m
+ ###### 
+From cou.: 187 k
+From Soup: 187 i.e.
+ ###### 
+From cou.: 188 b
+From Soup: 188 µ
+ ###### 
+From cou.: 189 m
+From Soup: 189 2, a
+ ###### 
+From cou.: 190 2
+From Soup: 190 6
+ ###### 
+From cou.: 191 k
+From Soup: 191 The FBRM probe emits a laser beam which moves in a circular path at a high frequency using rotating optics. As the laser beam ‘crosses’ a particle, a chord length or a count is registered, i.e. , a chord length is the distance across the crystal surface as observed by the laser beam. The CLD measured in situ is related to but not the same as the CSD. The model eqn (3) and (4) utilize the CSD moments; these data are not available in real-time, but can be estimated from the measured CLD. Specifically the CSD is first recovered from the CLD before calculating its moments. Numerous previous works 34–36 have studied how the CSD can be recovered from the measured CLD by geometric modeling. The relationship between the CLD and CSD moments has also been modeled by: 37,38 where µ c j −1 is the ( j − 1) th moment of the CLD and ξ j is a shape-dependent scaling factor (a function of the single-particle CLD). Models that attempt to construct the CSD from the CLD require many assumptions, 39 including perfect backscattering of the laser at all angles and that all particles have a known shape. While these may hold true for some particulate systems, these assumptions are not applicable for other systems, and will not be true for most pharmaceutical systems, in which the refractive indices of crystal and solution are similar. Furthermore, unmodeled factors such as the optical properties of solids and solvents , as well as the positioning of the probe in relation to the surrounding flow, can significantly impact the CLD and subsequently the estimated CSD. 39 An alternative approach is to use the low-order CLD moments, without first obtaining a CSD estimate; this replaces the first-principles model for the CSD with a gray-box model for the CLD, in which the structure of the first-principles model for the low-order CSD moments is used to parametrize that of the CLD. 25,40 The low-order CLD moments should follow the same dynamic trends as the low CSD moments because the mapping between the CLD and CSD is static (most of the models mentioned earlier assume that the mapping is not only static but also linear). This study follows a modification of that approach to establish the relationship between the CSD and CLD moments. At any experimental time point, the solute mass balance can be written as:
+ ###### 
+From cou.: 192 b
+From Soup: 192 For run 3, µ 3, m was set to 0 because cross-nucleation was not detected. Simplifying eqn (19) and using the values of the solute concentration accurately determined in-situ from ATR-FTIR spectroscopy , µ 3, a was calculated at various time points and compared to the second-, third-, and fourth-order CLD moments for the anhydrate form, µ c 2, a [(# counts µm 2 )/s], µ c 3, a [(# counts µm 3 )/s], and µ c 4, a [(# counts µm 4 )/s], respectively. The CLD moments were estimated based on the superposition principle in which both forms contribute additively to the overall CLD, i.e. , µ c j = µ c j , a + µ c j , m . From the overall (measured) CLD,
+ ###### 
+From cou.: 193 m
+From Soup: 193 L
+ ###### 
+From cou.: 194 2
+From Soup: 194 c
+ ###### 
+From cou.: 195 b
+From Soup: 195 1
+ ###### 
+From cou.: 196 m
+From Soup: 196 L
+ ###### 
+From cou.: 197 b
+From Soup: 197 c
+ ###### 
+From cou.: 198 m
+From Soup: 198 N
+ ###### 
+From cou.: 199 i.e.
+From Soup: 199 f
+ ###### 
+From cou.: 200 µ
+From Soup: 200 c
+ ###### 
+From cou.: 201 a
+From Soup: 201 L
+ ###### 
+From cou.: 202 6
+From Soup: 202 c
+ ###### 
+From cou.: 203 The FBRM probe emits a laser beam which moves in a circular path at a high frequency using rotating optics. As the laser beam ‘crosses’ a particle, a chord length or a count is registered, i.e., a chord length is the distance across the crystal surface as observed by the laser beam. The CLD measured in situ is related to but not the same as the CSD. The model eqn (3) and (4) utilize the CSD moments; these data are not available in real-time, but can be estimated from the measured CLD. Specifically the CSD is first recovered from the CLD before calculating its moments. Numerous previous works34–36 have studied how the CSD can be recovered from the measured CLD by geometric modeling. The relationship between the CLD and CSD moments has also been modeled by:37,38where µcj−1 is the (j − 1)th moment of the CLD and ξj is a shape-dependent scaling factor (a function of the single-particle CLD). Models that attempt to construct the CSD from the CLD require many assumptions,39 including perfect backscattering of the laser at all angles and that all particles have a known shape. While these may hold true for some particulate systems, these assumptions are not applicable for other systems, and will not be true for most pharmaceutical systems, in which the refractive indices of crystal and solution are similar. Furthermore, unmodeled factors such as the optical properties of solids and solvents, as well as the positioning of the probe in relation to the surrounding flow, can significantly impact the CLD and subsequently the estimated CSD.39 An alternative approach is to use the low-order CLD moments, without first obtaining a CSD estimate; this replaces the first-principles model for the CSD with a gray-box model for the CLD, in which the structure of the first-principles model for the low-order CSD moments is used to parametrize that of the CLD.25,40 The low-order CLD moments should follow the same dynamic trends as the low CSD moments because the mapping between the CLD and CSD is static (most of the models mentioned earlier assume that the mapping is not only static but also linear). This study follows a modification of that approach to establish the relationship between the CSD and CLD moments. At any experimental time point, the solute mass balance can be written as:
+From Soup: 203 k +1
+ ###### 
+From cou.: 204 For run 3, µ3,m was set to 0 because cross-nucleation was not detected. Simplifying eqn (19) and using the values of the solute concentration accurately determined in-situ from ATR-FTIR spectroscopy, µ3,a was calculated at various time points and compared to the second-, third-, and fourth-order CLD moments for the anhydrate form, µc2,a [(# counts µm2)/s], µc3,a [(# counts µm3)/s], and µc4,a [(# counts µm4)/s], respectively. The CLD moments were estimated based on the superposition principle in which both forms contribute additively to the overall CLD, i.e., µcj = µcj,a + µcj,m. From the overall (measured) CLD,
+From Soup: 204 L
+ ###### 
+From cou.: 205 L
+From Soup: 205 c
+ ###### 
+From cou.: 206 c
+From Soup: 206 k
+ ###### 
+From cou.: 207 L
+From Soup: 207 L
+ ###### 
+From cou.: 208 c
+From Soup: 208 c
+ ###### 
+From cou.: 209 N
+From Soup: 209 k +1
+ ###### 
+From cou.: 210 f
+From Soup: 210 L
+ ###### 
+From cou.: 211 c
+From Soup: 211 c
+ ###### 
+From cou.: 212 L
+From Soup: 212 k
+ ###### 
+From cou.: 213 c
+From Soup: 213 µ
+ ###### 
+From cou.: 214 k
+From Soup: 214 c
+ ###### 
+From cou.: 215 L
+From Soup: 215 j , m
+ ###### 
+From cou.: 216 c
+From Soup: 216 µ
+ ###### 
+From cou.: 217 k
+From Soup: 217 c
+ ###### 
+From cou.: 218 L
+From Soup: 218 j , a
+ ###### 
+From cou.: 219 c
+From Soup: 219 eqn (20)
+ ###### 
+From cou.: 220 k
+From Soup: 220 µ
+ ###### 
+From cou.: 221 L
+From Soup: 221 c
+ ###### 
+From cou.: 222 c
+From Soup: 222 j , a
+ ###### 
+From cou.: 223 k
+From Soup: 223 µ
+ ###### 
+From cou.: 224 µ
+From Soup: 224 3, a
+ ###### 
+From cou.: 225 c
+From Soup: 225 Fig. 3
+ ###### 
+From cou.: 226 j
+From Soup: 226 µ
+ ###### 
+From cou.: 227 m
+From Soup: 227 c
+ ###### 
+From cou.: 228 µ
+From Soup: 228 4, a
+ ###### 
+From cou.: 229 c
+From Soup: 229 µ
+ ###### 
+From cou.: 230 j
+From Soup: 230 3, a
+ ###### 
+From cou.: 231 a
+From Soup: 231 CSD
+ ###### 
+From cou.: 232 µ
+From Soup: 232 Φ
+ ###### 
+From cou.: 233 c
+From Soup: 233 j , a
+ ###### 
+From cou.: 234 j
+From Soup: 234 solvent
+ ###### 
+From cou.: 235 a
+From Soup: 235 eqn (21)
+ ###### 
+From cou.: 236 µ
+From Soup: 236 eqn (18)
+ ###### 
+From cou.: 237 a
+From Soup: 237 eqn (21)
+ ###### 
+From cou.: 238 µ
+From Soup: 238 eqn (18)
+ ###### 
+From cou.: 239 c
+From Soup: 239 Eqn (3) , (4) , and (6) describing the nucleation and growth of both forms of L -phe contain 12 parameters that were estimated using the in situ experimental solute concentration recorded by ATR-FTIR spectroscopy and moments µ c j (for j = 1, 2, and 3) measured by FBRM for runs 1, 2, and 3. The kinetic parameters were estimated by minimizing the weighted difference between the experimental measurements y ex and model predictions y md : where θ is the vector of the estimated parameters, N v (= 4) is the number of measured variables, N s is the number of sampling instances, and w q is a weighting factor that is the inverse of an estimate of the error variance σ 2 q . Initially, σ q was set to the standard deviation of the actual measurement. A set of parameters was estimated by solving the system of ODEs ( eqn (3) , (4) , and (6) coupled with the optimization in eqn (22) , using the built-in Matlab codes ‘ode45’ 41 and ‘fmincon’. 42 The standard deviations for the errors in the q th measured variable were then estimated and used for σ q in a re-solving of the parameter estimation optimization. The iterative procedure was repeated until no significant difference between the given and estimated standard deviations was detected.
+ ###### 
+From cou.: 240 a
+From Soup: 240 The parameter estimation for the different sets of kinetic parameters was carried out in stages. In Stage 1, the parameters for the anhydrate form growth were estimated first using the experimental data from run 2 (up to 275 min) and run 3 (for the entire experiment, see Tables 2 and 3 ). In these durations, no nucleation was detected, and the time evolution of the solute concentration and CLD moments µ c j , a were solely due to the growth of anhydrate crystals. The system of ODEs was simplified by setting B a , B m , and G m = 0. The proportionality constants Φ j , a in eqn (21) were calculated from:
+ ###### 
+From cou.: 241 µ
+From Soup: 241 Φ
+ ###### 
+From cou.: 242 a
+From Soup: 242 j , a
+ ###### 
+From cou.: 243 CSD
+From Soup: 243 µ
+ ###### 
+From cou.: 244 Φ
+From Soup: 244 c ,md
+ ###### 
+From cou.: 245 j
+From Soup: 245 j +1, a
+ ###### 
+From cou.: 246 a
+From Soup: 246 eqn (21)
+ ###### 
+From cou.: 247 solvent
+From Soup: 247 eqn (22)
+ ###### 
+From cou.: 248 Eqn (3), (4), and (6) describing the nucleation and growth of both forms of L-phe contain 12 parameters that were estimated using the in situ experimental solute concentration recorded by ATR-FTIR spectroscopy and moments µcj (for j = 1, 2, and 3) measured by FBRM for runs 1, 2, and 3. The kinetic parameters were estimated by minimizing the weighted difference between the experimental measurements yex and model predictions ymd:where θ is the vector of the estimated parameters, Nv (= 4) is the number of measured variables, Ns is the number of sampling instances, and wq is a weighting factor that is the inverse of an estimate of the error variance σ2q. Initially, σq was set to the standard deviation of the actual measurement. A set of parameters was estimated by solving the system of ODEs (eqn (3), (4), and (6) coupled with the optimization in eqn (22), using the built-in Matlab codes ‘ode45’41 and ‘fmincon’.42 The standard deviations for the errors in the qth measured variable were then estimated and used for σq in a re-solving of the parameter estimation optimization. The iterative procedure was repeated until no significant difference between the given and estimated standard deviations was detected.
+From Soup: 248 Fig. 4
+ ###### 
+From cou.: 249 The parameter estimation for the different sets of kinetic parameters was carried out in stages. In Stage 1, the parameters for the anhydrate form growth were estimated first using the experimental data from run 2 (up to 275 min) and run 3 (for the entire experiment, see Tables 2 and 3). In these durations, no nucleation was detected, and the time evolution of the solute concentration and CLD moments µcj,a were solely due to the growth of anhydrate crystals. The system of ODEs was simplified by setting Ba, Bm, and Gm = 0. The proportionality constants Φj,a in eqn (21) were calculated from:
+From Soup: 249 †
+ ###### 
+From cou.: 250 Φ
+From Soup: 250 experimental data
+ ###### 
+From cou.: 251 j
+From Soup: 251 †
+ ###### 
+From cou.: 252 a
+From Soup: 252 Although not utilized for regression, µ md 3 was also simulated, scaled, and compared to µ c ,ex 4 , as shown in Fig. 4d and S2d † . The agreement between the Stage 1 model and data is very good. Variants of the power-law model for the growth rate for the anhydrate form were also investigated (see Table 4 ), along with the nominal model ( eqn (10) and (11) ). The F -test was used to compare the first and second model based on the weighted sum-of-squared residuals, Ψ 1 and Ψ 2 , respectively. The F -test statistic is given by: 43
+ ###### 
+From cou.: 253 µ
+From Soup: 253 N
+ ###### 
+From cou.: 254 c,md
+From Soup: 254 θ ,2
+ ###### 
+From cou.: 255 j
+From Soup: 255 N
+ ###### 
+From cou.: 256 a
+From Soup: 256 θ ,1
+ ###### 
+From cou.: 257 experimental data
+From Soup: 257 N
+ ###### 
+From cou.: 258 Although not utilized for regression, µmd3 was also simulated, scaled, and compared to µc,ex4, as shown in Fig. 4d and S2d†. The agreement between the Stage 1 model and data is very good. Variants of the power-law model for the growth rate for the anhydrate form were also investigated (see Table 4), along with the nominal model (eqn (10) and (11)). The F-test was used to compare the first and second model based on the weighted sum-of-squared residuals, Ψ1 and Ψ2, respectively. The F-test statistic is given by:43
+From Soup: 258 t
+ ###### 
+From cou.: 259 N
+From Soup: 259 ATR-FTIR spectroscopy
+ ###### 
+From cou.: 260 θ
+From Soup: 260 F
+ ###### 
+From cou.: 261 N
+From Soup: 261 Table 4
+ ###### 
+From cou.: 262 θ
+From Soup: 262 N
+ ###### 
+From cou.: 263 N
+From Soup: 263 θ ,2
+ ###### 
+From cou.: 264 ATR-FTIR spectroscopy
+From Soup: 264 N
+ ###### 
+From cou.: 265 F
+From Soup: 265 θ ,1
+ ###### 
+From cou.: 266 N
+From Soup: 266 N
+ ###### 
+From cou.: 267 θ
+From Soup: 267 t
+ ###### 
+From cou.: 268 N
+From Soup: 268 N
+ ###### 
+From cou.: 269 θ
+From Soup: 269 θ ,2
+ ###### 
+From cou.: 270 N
+From Soup: 270 F
+ ###### 
+From cou.: 271 N
+From Soup: 271 F
+ ###### 
+From cou.: 272 θ
+From Soup: 272 Ψ
+ ###### 
+From cou.: 273 F
+From Soup: 273 Ψ
+ ###### 
+From cou.: 274 F
+From Soup: 274 γ
+ ###### 
+From cou.: 275 Ψ
+From Soup: 275 in situ
+ ###### 
+From cou.: 276 Ψ
+From Soup: 276 γ
+ ###### 
+From cou.: 277 γ
+From Soup: 277 In Stage 2 of the parameter estimation, the parameters for the nucleation of the anhydrate form were determined from the experimental data from run 1 (up to 100 min, where cross-nucleation was negligible, see Tables 2 and 3 ). The same set of ODEs was used with B m = G m = 0 with the kinetics for G a inserted. The proportionality constants Φ j , a for the CLD moments were estimated in the same manner using eqn (23) . Their values were nearly the same as in Stage 1, for example, Φ 0, a was 0.487 and 0.519 in Stages 1 and 2, respectively. The minor difference may have been due to a slight variation in the crystal habit of the anhydrate seed crystals used in the different experiments. The Stage 2 model and experimental data show good agreement for the modeled time range (see Fig. S3 † , with the lack of fit starting from 100 min onwards due to cross-nucleation which was not modeled in Stage 2).
+ ###### 
+From cou.: 278 in situ
+From Soup: 278 A simpler variant of the power-law model for the nucleation of the anhydrate form was also studied. Similar analysis using the F -test statistics (with N t = 251 and F -critical based on the same rejection probability as before) indicated that the improvement in the fits between experimental data and the model was statistically significant with the addition of E b , a to describe the temperature dependence ( Table 5 ).
+ ###### 
+From cou.: 279 γ
+From Soup: 279 In Stage 3 of the parameter estimation, the parameters for both the nucleation and growth of the monohydrate form were determined using the relevant range of experimental data in run 1 (100 to 200 min) and run 2 (from 275 min onwards, see Tables 2 and 3 ). Although cross-nucleation occurred in run 1 from 100 min onwards, the modeled time range was restricted up to 200 min because preliminary modeling gave extremely poor fits in the CLD moments from about 200 min onwards. The FBRM probe likely became partially clogged at increasingly high solids density of the monohydrate needles. In addition, despite the appearance of distinct individual needles in the PVM images, there was possible formation of aggregates or ‘bundles’ which would produce erroneous high counts of the chord length. The model for parameter estimation was the ODEs with the newly estimated kinetics for B a and G a to account for the nucleation and growth of anhydrate form crystals. The measured CLD moments, µ c ,ex j +1 , were due to both anhydrate and monohydrate forms. The rates B a and G a were used to simulate the CLD moments due solely to the anhydrate form, µ c ,md j +1, a from eqn (21) ; the excess moments after subtracting from µ c ,ex j +1 were attributed only to the monohydrate form and were then used to estimate its kinetics. The proportionality constants were calculated using:
+ ###### 
+From cou.: 280 In Stage 2 of the parameter estimation, the parameters for the nucleation of the anhydrate form were determined from the experimental data from run 1 (up to 100 min, where cross-nucleation was negligible, see Tables 2 and 3). The same set of ODEs was used with Bm = Gm = 0 with the kinetics for Ga inserted. The proportionality constants Φj,a for the CLD moments were estimated in the same manner using eqn (23). Their values were nearly the same as in Stage 1, for example, Φ0,a was 0.487 and 0.519 in Stages 1 and 2, respectively. The minor difference may have been due to a slight variation in the crystal habit of the anhydrate seed crystals used in the different experiments. The Stage 2 model and experimental data show good agreement for the modeled time range (see Fig. S3†, with the lack of fit starting from 100 min onwards due to cross-nucleation which was not modeled in Stage 2).
+From Soup: 280 The model CLD moments µ c ,md j +1, m calculated from these Φ j , m were used for regression in eqn (22) . Although not used in regression, µ md 3, m was simulated and scaled to give µ c ,md 4, m . Fig. S2 and S3 † show good agreement between the model and experimental data for modeled range (the overall model CLD moments µ c ,md j +1 = µ c ,md j +1, a + µ c ,md j +1, m ). Although not used in the regression, µ c ,md 4 agreed well with µ c ,ex 4 in the modeled range (Fig. S2d and S3d † ). As mentioned earlier, the lack of fit for the moment profiles in run 1 starting from 200 min onwards was likely due to some sticking of crystals on the FBRM probe tip or formation of aggregates. The solution concentration profile in Fig. S3e † showed a poorer fit to the experimental profile from 200 min onwards. This could also be associated with the progressively higher solid density of the monohydrate needles. In most crystal–solvent systems, the penetration depth of the evanescent field (∼0.5 to 2.5 µm, for the experimental setup in this study) into the solution is smaller than the liquid phase barrier between the probe and the particles. Then when the ATR probe is inserted into the crystal slurry, the substance in immediate contact with the probe is nearly all liquid, with negligible interference from the crystals. In contrast, in this specific case the monohydrate needles were of dimensions comparable to the penetration depth; although initially negligible at low solid density, the interference from this solid phase became increasingly significant as run 1 progressed with the rising monohydrate form solid density. The kinetic expressions for the crystallization of the monohydrate form ( eqn (14) and (17) ) contain a total of 6 parameters to be estimated simultaneously, fairly larger than that for the anhydrate form. Unlike the anhydrate-form growth kinetic parameters that were determined from anhydrate-form seeded experiments, it is difficult to reduce the number of estimated parameters for the monohydrate form by first evaluating its growth kinetics solely in a separate experiment using monohydrate seed crystals. This is because it is very difficult to estimate the CSD (and its moments) of the monohydrate seeds reliably, given its smaller dimensions (thickness typically 2–10 µm, see Fig. 1b ) and the tendency of the needles to aggregate when in the dried state and ease of breaking during handling. Inaccurate estimation of CSD moments as the initial conditions in the system of ODEs will lead to unreliable models and kinetic parameters. The variants of the power-law model for both the nucleation and growth of the monohydrate form were also not investigated. Incorporating the temperature dependence using the Arrhenius equation will lead to a total of 9 parameters, or more if the parameter describing size-dependence growth is included as well. Simultaneous estimation of a large number of crystallization parameters results in a wide range of parameters that produce similar quality fit to the data with highly correlated uncertainty descriptions. 32
+ ###### 
+From cou.: 281 A simpler variant of the power-law model for the nucleation of the anhydrate form was also studied. Similar analysis using the F-test statistics (with Nt = 251 and F-critical based on the same rejection probability as before) indicated that the improvement in the fits between experimental data and the model was statistically significant with the addition of Eb,a to describe the temperature dependence (Table 5).
+From Soup: 281 Table 6 lists all the parameter estimates from Stages 1, 2, and 3. The growth exponent ranges from 1 to 2 for diffusion-limited and surface integration-limited growth, respectively; the estimates indicate that the growth of anhydrate crystals is likely be controlled more by the latter, while the growth of the monohydrate form is affected by both. In the secondary nucleation of the monohydrate form, the larger estimate for b 1, m relative to b 2, m suggests that nucleation on its own surfaces may have a stronger dependence on S m compared to nucleation on the crystal surfaces of the anhydrate form.
+ ###### 
+From cou.: 282 In Stage 3 of the parameter estimation, the parameters for both the nucleation and growth of the monohydrate form were determined using the relevant range of experimental data in run 1 (100 to 200 min) and run 2 (from 275 min onwards, see Tables 2 and 3). Although cross-nucleation occurred in run 1 from 100 min onwards, the modeled time range was restricted up to 200 min because preliminary modeling gave extremely poor fits in the CLD moments from about 200 min onwards. The FBRM probe likely became partially clogged at increasingly high solids density of the monohydrate needles. In addition, despite the appearance of distinct individual needles in the PVM images, there was possible formation of aggregates or ‘bundles’ which would produce erroneous high counts of the chord length. The model for parameter estimation was the ODEs with the newly estimated kinetics for Ba and Ga to account for the nucleation and growth of anhydrate form crystals. The measured CLD moments, µc,exj+1, were due to both anhydrate and monohydrate forms. The rates Ba and Ga were used to simulate the CLD moments due solely to the anhydrate form, µc,mdj+1,a from eqn (21); the excess moments after subtracting from µc,exj+1 were attributed only to the monohydrate form and were then used to estimate its kinetics. The proportionality constants were calculated using:
+From Soup: 282 Parameter uncertainties were estimated by linearization of the model 43,44 around the vector of the parameter estimates: where θ T = [ln ( k g , a ), g a , ln ( E g , a ),…, g m ], p = 1, 2,…, 12, the Jacobian: Y md is a vector of model outputs C md and µ c ,md j for j = 1, 2, and 3. The Jacobian was computed using central differences; this matrix contains the first derivative of the model outputs with respect to θ , arranged so that derivatives with respect to a particular parameter, θ p , are in the same column. The parameter covariance matrix for the linearized problem is given by: 43 where V Y is the covariance matrix for Y md . The 100(1 − α)% confidence interval 44 for each parameter is described by: which are listed in Table 6 for all parameter estimates, where t is the Student t -distribution. The F J matrices from all three parameter estimation stages satisfied the identifiability condition, 43 indicating that all of the parameters could be identified from the experimental data.
+ ###### 
+From cou.: 283 The model CLD moments µc,mdj+1,m calculated from these Φj,m were used for regression in eqn (22). Although not used in regression, µmd3,m was simulated and scaled to give µc,md4,m. Fig. S2 and S3† show good agreement between the model and experimental data for modeled range (the overall model CLD moments µc,mdj+1 = µc,mdj+1,a + µc,mdj+1,m). Although not used in the regression, µc,md4 agreed well with µc,ex4 in the modeled range (Fig. S2d and S3d†). As mentioned earlier, the lack of fit for the moment profiles in run 1 starting from 200 min onwards was likely due to some sticking of crystals on the FBRM probe tip or formation of aggregates. The solution concentration profile in Fig. S3e† showed a poorer fit to the experimental profile from 200 min onwards. This could also be associated with the progressively higher solid density of the monohydrate needles. In most crystal–solvent systems, the penetration depth of the evanescent field (∼0.5 to 2.5 µm, for the experimental setup in this study) into the solution is smaller than the liquid phase barrier between the probe and the particles. Then when the ATR probe is inserted into the crystal slurry, the substance in immediate contact with the probe is nearly all liquid, with negligible interference from the crystals. In contrast, in this specific case the monohydrate needles were of dimensions comparable to the penetration depth; although initially negligible at low solid density, the interference from this solid phase became increasingly significant as run 1 progressed with the rising monohydrate form solid density. The kinetic expressions for the crystallization of the monohydrate form (eqn (14) and (17)) contain a total of 6 parameters to be estimated simultaneously, fairly larger than that for the anhydrate form. Unlike the anhydrate-form growth kinetic parameters that were determined from anhydrate-form seeded experiments, it is difficult to reduce the number of estimated parameters for the monohydrate form by first evaluating its growth kinetics solely in a separate experiment using monohydrate seed crystals. This is because it is very difficult to estimate the CSD (and its moments) of the monohydrate seeds reliably, given its smaller dimensions (thickness typically 2–10 µm, see Fig. 1b) and the tendency of the needles to aggregate when in the dried state and ease of breaking during handling. Inaccurate estimation of CSD moments as the initial conditions in the system of ODEs will lead to unreliable models and kinetic parameters. The variants of the power-law model for both the nucleation and growth of the monohydrate form were also not investigated. Incorporating the temperature dependence using the Arrhenius equation will lead to a total of 9 parameters, or more if the parameter describing size-dependence growth is included as well. Simultaneous estimation of a large number of crystallization parameters results in a wide range of parameters that produce similar quality fit to the data with highly correlated uncertainty descriptions.32
+From Soup: 283 Further analysis was performed by evaluating the linear correlation matrix R c which measures the degree of linear dependence between a pair of parameters, where a magnitude of 1 indicates perfect correlation and a value of 0 indicates no correlation. Whenever all the off-diagonal elements have magnitude exceeding 0.8, the estimates are highly correlated and tend to be inaccurate. These correlation coefficients in R c are given by: 43
+ ###### 
+From cou.: 284 Table 6 lists all the parameter estimates from Stages 1, 2, and 3. The growth exponent ranges from 1 to 2 for diffusion-limited and surface integration-limited growth, respectively; the estimates indicate that the growth of anhydrate crystals is likely be controlled more by the latter, while the growth of the monohydrate form is affected by both. In the secondary nucleation of the monohydrate form, the larger estimate for b1,m relative to b2,m suggests that nucleation on its own surfaces may have a stronger dependence on Sm compared to nucleation on the crystal surfaces of the anhydrate form.
+From Soup: 284 The parameter covariance and correlation matrices for Stage 1 of the parameter estimation were:
+ ###### 
+From cou.: 285 Parameter uncertainties were estimated by linearization of the model43,44 around the vector of the parameter estimates:where θT = [ln (kg,a), ga, ln (Eg,a),…, gm], p = 1, 2,…, 12, the Jacobian:Ymd is a vector of model outputs Cmd and µc,mdj for j = 1, 2, and 3. The Jacobian was computed using central differences; this matrix contains the first derivative of the model outputs with respect to θ, arranged so that derivatives with respect to a particular parameter, θp, are in the same column. The parameter covariance matrix for the linearized problem is given by:43where VY is the covariance matrix for Ymd. The 100(1 − α)% confidence interval44 for each parameter is described by:which are listed in Table 6 for all parameter estimates, where t is the Student t-distribution. The FJ matrices from all three parameter estimation stages satisfied the identifiability condition,43indicating that all of the parameters could be identified from the experimental data.
+From Soup: 285 The off-diagonal terms of R c indicate that, while there is some correlation between parameter estimates, the correlations are not excessive. The correlations between parameter estimates in Stage 2 are comparable in magnitude:
+ ###### 
+From cou.: 286 Further analysis was performed by evaluating the linear correlation matrix Rc which measures the degree of linear dependence between a pair of parameters, where a magnitude of 1 indicates perfect correlation and a value of 0 indicates no correlation. Whenever all the off-diagonal elements have magnitude exceeding 0.8, the estimates are highly correlated and tend to be inaccurate. These correlation coefficients in Rc are given by:43
+From Soup: 286 The corresponding matrices for Stage 3 are below.
+ ###### 
+From cou.: 287 The parameter covariance and correlation matrices for Stage 1 of the parameter estimation were:
+From Soup: 287 While the off-diagonal elements of R c do not exceed 0.8, some of the elements are very near to that value. This was expected, as the number of parameters estimated in Stage 3 is significantly larger than Stages 1 and 2. Correlation coefficients larger than 0.8 would likely occur if more parameters were estimated, which would occur by including the temperature dependence in the nucleation and growth expressions for the monohydrate form.
+ ###### 
+From cou.: 288 The off-diagonal terms of Rc indicate that, while there is some correlation between parameter estimates, the correlations are not excessive. The correlations between parameter estimates in Stage 2 are comparable in magnitude:
+From Soup: 288 The crystallization model for L -phe was validated in two parts. The first validation compares the model prediction of the average size of the anhydrate crystals and the composition of the product crystals to offline measured data for runs 1, 2, and 3. The second validation compares the metastable limit predicted from the model to that determined experimentally.
+ ###### 
+From cou.: 289 The corresponding matrices for Stage 3 are below.
+From Soup: 289 A plot of the average size of the i -form crystals, L i = µ 1, i / µ 0, i , from the model indicates that the three runs covered a range of growth rates ( Fig. 5a and b ), which was required to estimate independent values for the growth exponents and pre-exponential factors. The associated crystal composition is shown in Fig. 5c . The average % difference between the model and experimental anhydrate product size is ∼11% ( Table 7 ), while crystal compositions had somewhat larger deviations. The product thickness L m of the monohydrate form predicted by the model was ∼5 µm ( Fig. 5b ), which is consistent with that observed from the distinct individual monohydrate needles in a PVM image obtained towards the end of run 1. 11 No comparison is shown for the CSD for the monohydrate needles in the final product due to their tendency to aggregate when in the dried state and as ease of breaking during handling. The CSD for the monohydrate form was difficult to determine using offline microscopy ; any experimental data estimated in this manner would be highly inaccurate and meaningless for comparison.
+ ###### 
+From cou.: 290 While the off-diagonal elements of Rc do not exceed 0.8, some of the elements are very near to that value. This was expected, as the number of parameters estimated in Stage 3 is significantly larger than Stages 1 and 2. Correlation coefficients larger than 0.8 would likely occur if more parameters were estimated, which would occur by including the temperature dependence in the nucleation and growth expressions for the monohydrate form.
+From Soup: 290 The second validation compares the model predictions to the results from seeded metastable limit experiments (runs 1m to 5m; Fig. 6 with operating conditions listed in Table 1 ). The anhydrate seeds were from the same group of crystals as used in runs 1, 2, and 3. The initial conditions for the moments in the model were calculated using eqn (7)–(9) , and the same operating conditions were applied (seeding temperatures and temperature profiles) as in the experiments. The model and experimental solute concentration and µ c 1 (due to both anhydrate and monohydrate forms) have good agreement, providing some support for the predictive ability of the model.
+ ###### 
+From cou.: 291 The crystallization model for L-phe was validated in two parts. The first validation compares the model prediction of the average size of the anhydrate crystals and the composition of the product crystals to offline measured data for runs 1, 2, and 3. The second validation compares the metastable limit predicted from the model to that determined experimentally.
+From Soup: 291 The modeled metastable limit was determined by assessing the evolution of the number and mean size of the nucleated crystals. Experimentally, the onset of cross-nucleation was evaluated using the PVM, which has a detection limit ≈ 3 µm. 35,45 Considering the possible spread or distribution in L m , the modeled metastable limit was determined when its mean size, µ 1, m / µ 0, m reached 2.5 µm (Fig. S4a † ), slightly smaller than the experimental detection limit. In each of the five runs, the corresponding solute concentration C and temperature T were determined at the time point at which µ 1, m / µ 0, m reached this value. Fig. S5a † shows good agreement between the model and experimental metastable limits, supporting the predictive ability of the model for the monohydrate form. For the anhydrate form, the system of ODEs was modified slightly before carrying out similar analysis as above. The nucleation rate B a was set to zero in the original set of ODEs pertaining to the anhydrate form, so that this set of ODEs only described the growth of the anhydrate seeds. Another set of ODEs ( eqn (3) and (4) ) was incorporated to describe the nucleated anhydrate crystals. The model metastable zone for the anhydrate form determined in similar fashion (Fig. S4b † ) as above was very narrow and inconsistent with the experimental results which were determined using FBRM (detection limit ≥ 1 µm). Further analysis revealed that the corresponding increase in the model µ 0, a was <0.5% from an initial value of 450 (Fig. S4d † ). This indicated an exceedingly small number of nucleated anhydrate crystals, unlike the monohydrate form which had corresponding simulated values of µ 0, m ranging from 2000 to 3000 (Fig. S4c † ), when the simulated mean L m = 2.5 µm. In this case, evaluating the predicted metastable limit based solely on the simulated mean size of the nucleated crystals will not yield realistic results comparable to experimental findings given the noise in the measured CLD moments and possible masking effect in delaying the detection of nucleation. A more suitable criterion is to apply a certain threshold for the increase in the model µ 0, a (assumed to be 10% in this study) in which enough nuclei are produced to be detected by FBRM. The corresponding values of the solute concentration C and temperature T were used to plot the model metastable limit for the anhydrate form in Fig. S5b † , which shows good agreement to the experimental metastable limit. Given the arbitrary selection for the threshold increase in µ 0, a , this analysis does not fully validate the crystallization model for the anhydrate form, but does demonstrate predictive ability to some extent.
+ ###### 
+From cou.: 292 A plot of the average size of the i-form crystals, Li = µ1,i/µ0,i, from the model indicates that the three runs covered a range of growth rates (Fig. 5a and b), which was required to estimate independent values for the growth exponents and pre-exponential factors. The associated crystal composition is shown in Fig. 5c. The average % difference between the model and experimental anhydrate product size is ∼11% (Table 7), while crystal compositions had somewhat larger deviations. The product thickness Lm of the monohydrate form predicted by the model was ∼5 µm (Fig. 5b), which is consistent with that observed from the distinct individual monohydrate needles in a PVM image obtained towards the end of run 1.11 No comparison is shown for the CSD for the monohydrate needles in the final product due to their tendency to aggregate when in the dried state and as ease of breaking during handling. The CSD for the monohydrate form was difficult to determine using offline microscopy; any experimental data estimated in this manner would be highly inaccurate and meaningless for comparison.
+From Soup: 292 Any person who has constructed a process model for a sufficiently complex system has used some sort of staged approach, in which simplified experiments are designed to enable the estimation of individual sets of parameters. An advantage of the staged approach is that numerical optimizations for eqn (22) are more likely to converge to the global solution, due to the smaller number of parameters. The optimization in eqn (22) is rarely convex for nonlinear dynamic processes with more than 10 parameters, such as those that occur in crystallizations involving transformation between different crystal structures, in which case numerical optimization algorithms can converge to a local solution that may produce both a poor fit to experimental data and a model with poor predictive ability. Numerical optimization over three parameters such as in Stages 1 and 2 is more likely to converge to the global solution by numerical optimization, and could even be solved graphically by gridding over the kinetic parameters.
+ ###### 
+From cou.: 293 The second validation compares the model predictions to the results from seeded metastable limit experiments (runs 1m to 5m; Fig. 6 with operating conditions listed in Table 1). The anhydrate seeds were from the same group of crystals as used in runs 1, 2, and 3. The initial conditions for the moments in the model were calculated using eqn (7)–(9), and the same operating conditions were applied (seeding temperatures and temperature profiles) as in the experiments. The model and experimental solute concentration and µc1 (due to both anhydrate and monohydrate forms) have good agreement, providing some support for the predictive ability of the model.
+From Soup: 293 Another advantage of the staged approach is that it reduces the effect of model bias on the initial sets of estimated parameters. To understand this argument, consider that all process models have limitations. 46–49 For example, most crystallization models assume that a lab-scale crystallizer is well-mixed and that all crystals of a particular structure have exactly the same crystal shape, which are only approximations. Due to these limitations, parameters estimated by fitting data to the outputs of these models are biased. 50 A goal of process modeling is for this bias to be sufficiently small that the process model is accurate enough for its intended purposes (such as design). An advantage of the staged approach to experimental design is that the bias in the kinetic parameters associated with parameter estimation in an early stage is only affected by model assumptions for the crystallization phenomena occurring at that and earlier stages—not on model assumptions associated with crystallization phenomena that only occur in later stages. Alternatively, the simultaneous estimation of parameters can produce very large biases. Actually, before applying the staged approach we attempted to simultaneously fit all parameters to all experimental data , which resulted in poor fits to the Stage 1 and Stage 2 data, as the simultaneous parameter estimation shifted those kinetic parameters to achieve a better fit to the remaining data. The staged approach also made it easier to identify the faulty data produced by the in situ ATR-FTIR and FBRM probes (discussed earlier).
+ ###### 
+From cou.: 294 The modeled metastable limit was determined by assessing the evolution of the number and mean size of the nucleated crystals. Experimentally, the onset of cross-nucleation was evaluated using the PVM, which has a detection limit ≈ 3 µm.35,45 Considering the possible spread or distribution in Lm, the modeled metastable limit was determined when its mean size, µ1,m/µ0,m reached 2.5 µm (Fig. S4a†), slightly smaller than the experimental detection limit. In each of the five runs, the corresponding solute concentration C and temperature T were determined at the time point at which µ1,m/µ0,m reached this value. Fig. S5a† shows good agreement between the model and experimental metastable limits, supporting the predictive ability of the model for the monohydrate form. For the anhydrate form, the system of ODEs was modified slightly before carrying out similar analysis as above. The nucleation rate Ba was set to zero in the original set of ODEs pertaining to the anhydrate form, so that this set of ODEs only described the growth of the anhydrate seeds. Another set of ODEs (eqn (3) and (4)) was incorporated to describe the nucleated anhydrate crystals. The model metastable zone for the anhydrate form determined in similar fashion (Fig. S4b†) as above was very narrow and inconsistent with the experimental results which were determined using FBRM (detection limit ≥ 1 µm). Further analysis revealed that the corresponding increase in the model µ0,a was <0.5% from an initial value of 450 (Fig. S4d†). This indicated an exceedingly small number of nucleated anhydrate crystals, unlike the monohydrate form which had corresponding simulated values of µ0,m ranging from 2000 to 3000 (Fig. S4c†), when the simulated mean Lm = 2.5 µm. In this case, evaluating the predicted metastable limit based solely on the simulated mean size of the nucleated crystals will not yield realistic results comparable to experimental findings given the noise in the measured CLD moments and possible masking effect in delaying the detection of nucleation. A more suitable criterion is to apply a certain threshold for the increase in the model µ0,a (assumed to be 10% in this study) in which enough nuclei are produced to be detected by FBRM. The corresponding values of the solute concentration C and temperature T were used to plot the model metastable limit for the anhydrate form in Fig. S5b†, which shows good agreement to the experimental metastable limit. Given the arbitrary selection for the threshold increase in µ0,a, this analysis does not fully validate the crystallization model for the anhydrate form, but does demonstrate predictive ability to some extent.
+From Soup: 294 A weakness of the staged approach is that any biases in the parameter estimates at any particular stage will bias the parameter estimates in subsequent stages. Also, confidence intervals computed in subsequent stages (such as in Table 6 ) will underestimate the amount of uncertainty in the parameter estimates. These effects should be small in this study due to the small size of the confidence intervals in Stages 1 and 2 (see Table 6 ). While the effects of uncertainties on parameter estimates in one stage on the uncertainty in parameter estimates on subsequent stages can be quantified using similar techniques, 51–53 these methods rely on the underlying model structure being known and fully characterized mathematically, which is not true in the presence of model bias. For these reasons, it is important to evaluate model predictions by comparing with experiment data collected from a separate set of experiments (as done here).
+ ###### 
+From cou.: 295 Any person who has constructed a process model for a sufficiently complex system has used some sort of staged approach, in which simplified experiments are designed to enable the estimation of individual sets of parameters. An advantage of the staged approach is that numerical optimizations for eqn (22) are more likely to converge to the global solution, due to the smaller number of parameters. The optimization in eqn (22) is rarely convex for nonlinear dynamic processes with more than 10 parameters, such as those that occur in crystallizations involving transformation between different crystal structures, in which case numerical optimization algorithms can converge to a local solution that may produce both a poor fit to experimental data and a model with poor predictive ability. Numerical optimization over three parameters such as in Stages 1 and 2 is more likely to converge to the global solution by numerical optimization, and could even be solved graphically by gridding over the kinetic parameters.
+From Soup: 295 The staged experimental designs implemented here are very different from the D-optimal designs that have been applied extensively to crystallizations involving one crystal structure. 32,40,53,54 D-optimal design can result in experimental designs in which all crystallization phenomena occur simultaneously, forcing the simultaneous estimation of all of the parameters. It should be possible, however, to add constraints in the crystallization phase diagram to the D-optimal approach so that staged experimental designs can be implemented that minimize the uncertainties in the parameters while retaining the advantages of stage design. This would combine the best features of the two approaches.
+ ###### 
+From cou.: 296 Another advantage of the staged approach is that it reduces the effect of model bias on the initial sets of estimated parameters. To understand this argument, consider that all process models have limitations.46–49 For example, most crystallization models assume that a lab-scale crystallizer is well-mixed and that all crystals of a particular structure have exactly the same crystal shape, which are only approximations. Due to these limitations, parameters estimated by fitting data to the outputs of these models are biased.50 A goal of process modeling is for this bias to be sufficiently small that the process model is accurate enough for its intended purposes (such as design). An advantage of the staged approach to experimental design is that the bias in the kinetic parameters associated with parameter estimation in an early stage is only affected by model assumptions for the crystallization phenomena occurring at that and earlier stages—not on model assumptions associated with crystallization phenomena that only occur in later stages. Alternatively, the simultaneous estimation of parameters can produce very large biases. Actually, before applying the staged approach we attempted to simultaneously fit all parameters to all experimental data, which resulted in poor fits to the Stage 1 and Stage 2 data, as the simultaneous parameter estimation shifted those kinetic parameters to achieve a better fit to the remaining data. The staged approach also made it easier to identify the faulty data produced by the in situATR-FTIR and FBRM probes (discussed earlier).
+From Soup: 296 A process model for the crystallization of L -phenylalanine, an enantiotropic pseudo-dimorph system, was developed. The kinetic parameters for nucleation and growth for both the anhydrate and monohydrate forms were estimated using in situ probes (solute concentration obtained from ATR-FTIR spectroscopy and CLD moments measured using FBRM) from experiments in which feedback controlled motion in the crystallization phase diagram suppressed certain kinetic events (for example, cross-nucleation) in particular segments of the experimental data. This simplified the crystallization model and reduced the number of parameters to be estimated simultaneously, by focusing on the relevant segments of the experimental data pertaining only to certain kinetics. This facilitated the estimation of the parameters in a stage-wise manner for each set of kinetics. Such an approach is advantageous for crystallization models with a large number of parameters such as for pseudo-polymorphic and polymorphic systems. The predictive ability of the crystallization model was evaluated based on the model properties of the product crystals and metastable limit which were in good agreement with that from independent characterization and experiments. This combination of experimental design and process modeling may facilitate process modeling and development for other pharmaceutical compounds involving transformation between different crystal structures.
+ ###### 
+From cou.: 297 A weakness of the staged approach is that any biases in the parameter estimates at any particular stage will bias the parameter estimates in subsequent stages. Also, confidence intervals computed in subsequent stages (such as in Table 6) will underestimate the amount of uncertainty in the parameter estimates. These effects should be small in this study due to the small size of the confidence intervals in Stages 1 and 2 (see Table 6). While the effects of uncertainties on parameter estimates in one stage on the uncertainty in parameter estimates on subsequent stages can be quantified using similar techniques,51–53 these methods rely on the underlying model structure being known and fully characterized mathematically, which is not true in the presence of model bias. For these reasons, it is important to evaluate model predictions by comparing with experiment data collected from a separate set of experiments (as done here).
+From Soup: 297 Mitsuko Fujiwara is acknowledged for providing technical advice on this project. The authors thank Professor Emeritus Ted White from the University of Queensland, Australia for providing helpful references. The authors thank Scott Wilson and Maya Ramesh from the 3M Materials Laboratory at the University of Illinois for the PXRD data collection and James Mabon for the SEM imaging carried out in the Frederick Seitz Materials Research Laboratory Central Facilities at the University of Illinois, which are partially supported by the US Department of Energy under grants DE-FG02-07ER46453 and DE-FG02-07ER46471. Financial support is also acknowledged from the Singapore Agency for Science, Technology and Research.
+ ###### 
+From cou.: 298 The staged experimental designs implemented here are very different from the D-optimal designs that have been applied extensively to crystallizations involving one crystal structure.32,40,53,54 D-optimal design can result in experimental designs in which all crystallization phenomena occur simultaneously, forcing the simultaneous estimation of all of the parameters. It should be possible, however, to add constraints in the crystallization phase diagram to the D-optimal approach so that staged experimental designs can be implemented that minimize the uncertainties in the parameters while retaining the advantages of stage design. This would combine the best features of the two approaches.
+From Soup: 298 J. M. Bernstein, Polymorphism in Molecular Crystals , Clarendon Press, Oxford, 2002 Search PubMed .
+ ###### 
+From cou.: 299 A process model for the crystallization of L-phenylalanine, an enantiotropic pseudo-dimorph system, was developed. The kinetic parameters for nucleation and growth for both the anhydrate and monohydrate forms were estimated using in situprobes (solute concentration obtained from ATR-FTIR spectroscopy and CLD moments measured using FBRM) from experiments in which feedback controlled motion in the crystallization phase diagram suppressed certain kinetic events (for example, cross-nucleation) in particular segments of the experimental data. This simplified the crystallization model and reduced the number of parameters to be estimated simultaneously, by focusing on the relevant segments of the experimental data pertaining only to certain kinetics. This facilitated the estimation of the parameters in a stage-wise manner for each set of kinetics. Such an approach is advantageous for crystallization models with a large number of parameters such as for pseudo-polymorphic and polymorphic systems. The predictive ability of the crystallization model was evaluated based on the model properties of the product crystals and metastable limit which were in good agreement with that from independent characterization and experiments. This combination of experimental design and process modeling may facilitate process modeling and development for other pharmaceutical compounds involving transformation between different crystal structures.
+From Soup: 299 N. Doki, M. Yokota, K. Kido, S. Sasaki and N. Kubota, Cryst. Growth Des. , 2004, 4 , 103–107 CrossRef CAS .
+ ###### 
+From cou.: 300 Mitsuko Fujiwara is acknowledged for providing technical advice on this project. The authors thank Professor Emeritus Ted White from the University of Queensland, Australia for providing helpful references. The authors thank Scott Wilson and Maya Ramesh from the 3M Materials Laboratory at the University of Illinois for the PXRD data collection and James Mabon for the SEM imaging carried out in the Frederick Seitz Materials Research Laboratory Central Facilities at the University of Illinois, which are partially supported by the US Department of Energy under grants DE-FG02-07ER46453 and DE-FG02-07ER46471. Financial support is also acknowledged from the Singapore Agency for Science, Technology and Research.
+From Soup: 300 N. Doki, H. Seki, K. Takano, H. Asatani, M. Yokota and N. Kubota, Cryst. Growth Des. , 2004, 4 , 949–953 CrossRef CAS .
+ ###### 
+From cou.: 301 J. M. Bernstein, Polymorphism in Molecular Crystals, Clarendon Press, Oxford, 2002 Search PubMed .
+From Soup: 301 R. J. Davey, N. Blagden, G. D. Potts and R. Docherty, J. Am. Chem. Soc. , 1997, 119 , 1767–1772 CrossRef CAS .
+ ###### 
+From cou.: 302 N. Doki, M. Yokota, K. Kido, S. Sasaki and N. Kubota, Cryst. Growth Des., 2004, 4, 103–107 CrossRef CAS .
+From Soup: 302 J. Yano, H. F. Milhofer, E. Wachtel and N. Garti, Langmuir , 2000, 16 , 10005–10014 CrossRef CAS .
+ ###### 
+From cou.: 303 N. Doki, H. Seki, K. Takano, H. Asatani, M. Yokota and N. Kubota, Cryst. Growth Des., 2004, 4, 949–953 CrossRef CAS .
+From Soup: 303 R. Mohan, K. K. Koo, C. Strege and A. S. Myerson, Ind. Eng. Chem. Res. , 2001, 40 , 6111–6117 CrossRef CAS .
+ ###### 
+From cou.: 304 R. J. Davey, N. Blagden, G. D. Potts and R. Docherty, J. Am. Chem. Soc., 1997, 119, 1767–1772 CrossRef CAS .
+From Soup: 304 S. Gracin, M. Uusi-Penttila and A. C. Rasmuson, Cryst. Growth Des. , 2005, 5 , 1787–1794 CrossRef CAS .
+ ###### 
+From cou.: 305 J. Yano, H. F. Milhofer, E. Wachtel and N. Garti, Langmuir, 2000, 16, 10005–10014 CrossRef CAS .
+From Soup: 305 V. M. Profir and A. C. Rasmuson, Cryst. Growth Des. , 2004, 4 , 315–323 CrossRef CAS .
+ ###### 
+From cou.: 306 R. Mohan, K. K. Koo, C. Strege and A. S. Myerson, Ind. Eng. Chem. Res., 2001, 40, 6111–6117 CrossRef CAS .
+From Soup: 306 M. Mirmehrabi and S. Rohani, J. Pharm. Sci. , 2005, 94 , 1560–1576 CrossRef .
+ ###### 
+From cou.: 307 S. Gracin, M. Uusi-Penttila and A. C. Rasmuson, Cryst. Growth Des., 2005, 5, 1787–1794 CrossRef CAS .
+From Soup: 307 M. Trifkovic and S. Rohani, Org. Process Res. Dev. , 2007, 11 , 138–143 Search PubMed .
+ ###### 
+From cou.: 308 V. M. Profir and A. C. Rasmuson, Cryst. Growth Des., 2004, 4, 315–323 CrossRef CAS .
+From Soup: 308 N. C. S. Kee, R. B. H. Tan and R. D. Braatz, Cryst. Growth Des. , 2009, 9 , 3044–3051 CrossRef CAS ; N. C. S. Kee, P. D. Arendt, R. B. H. Tan and R. D. Braatz, Cryst. Growth Des. , 2009, 9 , 3052–3061 CrossRef CAS .
+ ###### 
+From cou.: 309 M. Mirmehrabi and S. Rohani, J. Pharm. Sci., 2005, 94, 1560–1576 CrossRef .
+From Soup: 309 M. Fujiwara, P. S. Chow, D. L. Ma and R. D. Braatz, Cryst. Growth Des. , 2002, 2 , 363–370 CrossRef CAS .
+ ###### 
+From cou.: 310 M. Trifkovic and S. Rohani, Org. Process Res. Dev., 2007, 11, 138–143 Search PubMed .
+From Soup: 310 G. X. Zhou, M. Fujiwara, X. Y. Woo, E. Rusli, H.-H. Tung, C. Starbuck, O. Davidson, Z. Ge and R. D. Braatz, Cryst. Growth Des. , 2006, 6 , 892–898 CrossRef CAS ; Z. K. Nagy, J. W. Chew, M. Fujiwara and R. D. Braatz, J. Process Control , 2008, 18 , 399–407 CrossRef CAS .
+ ###### 
+From cou.: 311 N. C. S. Kee, R. B. H. Tan and R. D. Braatz, Cryst. Growth Des., 2009, 9, 3044–3051 CrossRef CAS ; N. C. S. Kee, P. D. Arendt, R. B. H. Tan and R. D. Braatz, Cryst. Growth Des., 2009, 9, 3052–3061 CrossRef CAS .
+From Soup: 311 V. Liotta and V. Sabesan, Org. Process Res. Dev. , 2004, 8 , 488–494 Search PubMed .
+ ###### 
+From cou.: 312 M. Fujiwara, P. S. Chow, D. L. Ma and R. D. Braatz, Cryst. Growth Des., 2002, 2, 363–370 CrossRef CAS .
+From Soup: 312 X. Y. Woo, R. B. H. Tan, P. S. Chow and R. D. Braatz, Cryst. Growth Des. , 2006, 6 , 1291–1303 CrossRef CAS ; G. P. Lian, S. Moore and L. Heeney, Chem. Eng. Sci. , 2006, 61 , 7819–7826 CrossRef CAS ; X. Y. Woo, R. B. H. Tan and R. D. Braatz, Cryst. Growth Des. , 2009, 9 , 156–164 CrossRef CAS ; G. di Veroli and S. Rigopoulos, AIChE J. , 2010, 56 , 878–892 CAS .
+ ###### 
+From cou.: 313 G. X. Zhou, M. Fujiwara, X. Y. Woo, E. Rusli, H.-H. Tung, C. Starbuck, O. Davidson, Z. Ge and R. D. Braatz, Cryst. Growth Des., 2006, 6, 892–898 CrossRef CAS ; Z. K. Nagy, J. W. Chew, M. Fujiwara and R. D. Braatz, J. Process Control, 2008, 18, 399–407 CrossRef CAS .
+From Soup: 313 F. Wang, J. A. Wachter, F. J. Antosz and K. A. Berglund, Org. Process Res. Dev. , 2000, 4 , 391–395 Search PubMed .
+ ###### 
+From cou.: 314 V. Liotta and V. Sabesan, Org. Process Res. Dev., 2004, 8, 488–494 Search PubMed .
+From Soup: 314 H. Groen and K. J. Roberts, J. Phys. Chem. B , 2001, 105 , 10723–10730 CrossRef CAS .
+ ###### 
+From cou.: 315 X. Y. Woo, R. B. H. Tan, P. S. Chow and R. D. Braatz, Cryst. Growth Des., 2006, 6, 1291–1303 CrossRef CAS ; G. P. Lian, S. Moore and L. Heeney, Chem. Eng. Sci., 2006, 61, 7819–7826 CrossRef CAS ; X. Y. Woo, R. B. H. Tan and R. D. Braatz, Cryst. Growth Des., 2009, 9, 156–164 CrossRef CAS ; G. di Veroli and S. Rigopoulos, AIChE J., 2010, 56, 878–892 CAS .
+From Soup: 315 C. Starbuck, A. Spartalis, L. Wai, W. Jian, P. Fernandez, C. M. Lindemann, G. X. Zhou and Z. Ge, Cryst. Growth Des. , 2002, 2 , 515–522 CrossRef CAS .
+ ###### 
+From cou.: 316 F. Wang, J. A. Wachter, F. J. Antosz and K. A. Berglund, Org. Process Res. Dev., 2000, 4, 391–395 Search PubMed .
+From Soup: 316 Y. Hu, J. K. Liang, A. S. Myerson and L. S. Taylor, Ind. Eng. Chem. Res. , 2005, 44 , 1233–1240 CrossRef CAS .
+ ###### 
+From cou.: 317 H. Groen and K. J. Roberts, J. Phys. Chem. B, 2001, 105, 10723–10730 CrossRef CAS .
+From Soup: 317 H. Qu, M. Louhi-Kultanen, J. Rantanen and J. Kallas, Cryst. Growth Des. , 2006, 6 , 2053–2060 CrossRef CAS .
+ ###### 
+From cou.: 318 C. Starbuck, A. Spartalis, L. Wai, W. Jian, P. Fernandez, C. M. Lindemann, G. X. Zhou and Z. Ge, Cryst. Growth Des., 2002, 2, 515–522 CrossRef CAS .
+From Soup: 318 A. Caillet, F. Puel and G. Fevotte, Int. J. Pharm. , 2006, 307 , 201–208 CrossRef CAS .
+ ###### 
+From cou.: 319 Y. Hu, J. K. Liang, A. S. Myerson and L. S. Taylor, Ind. Eng. Chem. Res., 2005, 44, 1233–1240 CrossRef CAS .
+From Soup: 319 T. Ono, H. J. M. Kramer, J. H. Horst and P. J. Jansens, Cryst. Growth Des. , 2004, 4 , 1161–1167 CrossRef CAS .
+ ###### 
+From cou.: 320 H. Qu, M. Louhi-Kultanen, J. Rantanen and J. Kallas, Cryst. Growth Des., 2006, 6, 2053–2060 CrossRef CAS .
+From Soup: 320 J. Schöll, D. Bonalumi, L. Vicum and M. Mazzotti, Cryst. Growth Des. , 2006, 6 , 881–891 CrossRef .
+ ###### 
+From cou.: 321 A. Caillet, F. Puel and G. Fevotte, Int. J. Pharm., 2006, 307, 201–208 CrossRef CAS .
+From Soup: 321 M. W. Hermanto, N. C. S. Kee, R. B. H. Tan, M. S. Chiu and R. D. Braatz, AIChE J. , 2008, 54 , 3248–3259 CrossRef CAS .
+ ###### 
+From cou.: 322 T. Ono, H. J. M. Kramer, J. H. Horst and P. J. Jansens, Cryst. Growth Des., 2004, 4, 1161–1167 CrossRef CAS .
+From Soup: 322 A. Caillet, N. Sheibat-Othman and G. Fevotte, Cryst. Growth Des. , 2007, 7 , 2088–2095 CrossRef CAS .
+ ###### 
+From cou.: 323 J. Schöll, D. Bonalumi, L. Vicum and M. Mazzotti, Cryst. Growth Des., 2006, 6, 881–891 CrossRef .
+From Soup: 323 B. Khawas, Indian J. Chem., Sect. A: Inorg., Phys., Theor. Anal. , 1985, 59 , 219–226 Search PubMed .
+ ###### 
+From cou.: 324 M. W. Hermanto, N. C. S. Kee, R. B. H. Tan, M. S. Chiu and R. D. Braatz, AIChE J., 2008, 54, 3248–3259 CrossRef CAS .
+From Soup: 324 T. Togkalidou, M. Fujiwara, S. Patel and R. D. Braatz, J. Cryst. Growth , 2001, 231 , 534–543 CrossRef CAS ; T. Togkalidou, R. D. Braatz, B. K. Johnson, O. Davidson and A. Andrews, AIChE J. , 2001, 47 , 160–168 CrossRef CAS ; T. Togkalidou, H.-H. Tun, Y. Sun, A. Andrews and R. D. Braatz, Org. Process Res. Dev. , 2002, 6 , 317–322 Search PubMed .
+ ###### 
+From cou.: 325 A. Caillet, N. Sheibat-Othman and G. Fevotte, Cryst. Growth Des., 2007, 7, 2088–2095 CrossRef CAS .
+From Soup: 325 Y. Xie and J. Kalivas, Anal. Chim. Acta , 1997, 348 , 19–27 CrossRef CAS .
+ ###### 
+From cou.: 326 B. Khawas, Indian J. Chem., Sect. A: Inorg., Phys., Theor. Anal., 1985, 59, 219–226 Search PubMed .
+From Soup: 326 J. Nyvlt, O. Sohnel, M. Matuchova and M. Broul, The Kinetics of Industrial Crystallization , Elsevier, New York, 1985 Search PubMed .
+ ###### 
+From cou.: 327 T. Togkalidou, M. Fujiwara, S. Patel and R. D. Braatz, J. Cryst. Growth, 2001, 231, 534–543 CrossRef CAS ; T. Togkalidou, R. D. Braatz, B. K. Johnson, O. Davidson and A. Andrews, AIChE J., 2001, 47, 160–168 CrossRef CAS ; T. Togkalidou, H.-H. Tun, Y. Sun, A. Andrews and R. D. Braatz, Org. Process Res. Dev., 2002, 6, 317–322 Search PubMed .
+From Soup: 327 J. B. Rawlings, S. M. Miller and W. R. Witkowski, Ind. Eng. Chem. Res. , 1993, 32 , 1275–1296 CrossRef CAS ; R. Gunawan, D. L. Ma, M. Fujiwara and R. D. Braatz, Int. J. Mod. Phys. B , 2002, 16 , 367–374 CrossRef CAS ; Z. K. Nagy, M. Fujiwara, X. Y. Woo and R. D. Braatz, Ind. Eng. Chem. Res. , 2008, 47 , 1245–1252 CrossRef CAS .
+ ###### 
+From cou.: 328 Y. Xie and J. Kalivas, Anal. Chim. Acta, 1997, 348, 19–27 CrossRef CAS .
+From Soup: 328 A. D. Randolph and M. A. Larson, Theory of Particulate Processes , Academic Press, San Diego, 2nd edn, 1988 Search PubMed .
+ ###### 
+From cou.: 329 J. Nyvlt, O. Sohnel, M. Matuchova and M. Broul, The Kinetics of Industrial Crystallization, Elsevier, New York, 1985 Search PubMed .
+From Soup: 329 S. M. Miller and J. B. Rawlings, AIChE J. , 1994, 40 , 1312–1327 CrossRef CAS .
+ ###### 
+From cou.: 330 J. B. Rawlings, S. M. Miller and W. R. Witkowski, Ind. Eng. Chem. Res., 1993, 32, 1275–1296 CrossRef CAS ; R. Gunawan, D. L. Ma, M. Fujiwara and R. D. Braatz, Int. J. Mod. Phys. B, 2002, 16, 367–374 CrossRef CAS ; Z. K. Nagy, M. Fujiwara, X. Y. Woo and R. D. Braatz, Ind. Eng. Chem. Res., 2008, 47, 1245–1252 CrossRef CAS .
+From Soup: 330 H. L. MacGillivray, J. Appl. Probab. , 1980, 17 , 956–967 Search PubMed .
+ ###### 
+From cou.: 331 A. D. Randolph and M. A. Larson, Theory of Particulate Processes, Academic Press, San Diego, 2nd edn, 1988 Search PubMed .
+From Soup: 331 A. Tadayyon and S. Rohani, Part. Part. Syst. Charact. , 1998, 15 , 127–135 CrossRef CAS .
+ ###### 
+From cou.: 332 S. M. Miller and J. B. Rawlings, AIChE J., 1994, 40, 1312–1327 CrossRef CAS .
+From Soup: 332 E. J. Hukkanen and R. D. Braatz, Sens. Actuators, B , 2003, 96 , 451–459 CrossRef .
+ ###### 
+From cou.: 333 H. L. MacGillivray, J. Appl. Probab., 1980, 17, 956–967 Search PubMed .
+From Soup: 333 M. Li, D. Wilkinson and K. Patchigolla, Part. Part. Syst. Charact. , 2006, 23 , 170–174 CrossRef .
+ ###### 
+From cou.: 334 A. Tadayyon and S. Rohani, Part. Part. Syst. Charact., 1998, 15, 127–135 CrossRef CAS .
+From Soup: 334 E. J. W. Wynn, Powder Technol. , 2003, 133 , 125–133 CrossRef CAS .
+ ###### 
+From cou.: 335 E. J. Hukkanen and R. D. Braatz, Sens. Actuators, B, 2003, 96, 451–459 CrossRef .
+From Soup: 335 A. Vaccaro, J. Šefcík and M. Morbidelli, Part. Part. Syst. Charact. , 2007, 23 , 360–373 CAS .
+ ###### 
+From cou.: 336 M. Li, D. Wilkinson and K. Patchigolla, Part. Part. Syst. Charact., 2006, 23, 170–174 CrossRef .
+From Soup: 336 J. Worlitschek and M. Mazzotti, Cryst. Growth Des. , 2004, 4 , 891–903 CrossRef CAS ; M. N. Pons, K. Milferstedt and E. Morgenroth, Chem. Eng. Sci. , 2006, 61 , 3962–3973 CrossRef CAS ; L. Ehrl, M. Soos and M. Morbidelli, Part. Part. Syst. Charact. , 2007, 23 , 438–447 ; N. Kail, H. Briesen and W. Marquardt, Part. Part. Syst. Charact. , 2007, 24 , 184–192 CrossRef ; N. Kail, H. Briesen and W. Marquardt, Powder Technol. , 2008, 185 , 211–222 CrossRef CAS ; N. Kail, H. Briesen and W. Marquardt, Chem. Eng. Sci. , 2009, 64 , 984–1000 CrossRef CAS .
+ ###### 
+From cou.: 337 E. J. W. Wynn, Powder Technol., 2003, 133, 125–133 CrossRef CAS .
+From Soup: 337 T. Togkalidou, H.-H. Tung, Y. Sun, A. T. Andrews and R. D. Braatz, Ind. Eng. Chem. Res. , 2004, 43 , 6168–6181 CrossRef CAS .
+ ###### 
+From cou.: 338 A. Vaccaro, J. Šefcík and M. Morbidelli, Part. Part. Syst. Charact., 2007, 23, 360–373 CAS .
+From Soup: 338 http://www.mathworks.com/access/helpdesk/help/techdoc/ref/ode23.html .
+ ###### 
+From cou.: 339 J. Worlitschek and M. Mazzotti, Cryst. Growth Des., 2004, 4, 891–903 CrossRef CAS ; M. N. Pons, K. Milferstedt and E. Morgenroth, Chem. Eng. Sci., 2006, 61, 3962–3973 CrossRef CAS ; L. Ehrl, M. Soos and M. Morbidelli, Part. Part. Syst. Charact., 2007, 23, 438–447 ; N. Kail, H. Briesen and W. Marquardt, Part. Part. Syst. Charact., 2007, 24, 184–192 CrossRef ; N. Kail, H. Briesen and W. Marquardt, Powder Technol., 2008, 185, 211–222 CrossRef CAS ; N. Kail, H. Briesen and W. Marquardt, Chem. Eng. Sci., 2009, 64, 984–1000 CrossRef CAS .
+From Soup: 339 http://www.mathworks.com/access/helpdesk/help/toolbox/optim/ug/fmincon.html .
+ ###### 
+From cou.: 340 T. Togkalidou, H.-H. Tung, Y. Sun, A. T. Andrews and R. D. Braatz, Ind. Eng. Chem. Res., 2004, 43, 6168–6181 CrossRef CAS .
+From Soup: 340 J. V. Beck and K. J. Arnold, Parameter Estimation in Engineering and Science , Wiley, New York, 1977 Search PubMed .
+ ###### 
+From cou.: 341 http://www.mathworks.com/access/helpdesk/help/techdoc/ref/ode23.html .
+From Soup: 341 E. Rusli, F. Xue, T. O. Drews, P. Vereecken, P. Andracacos, H. Deligianni, R. D. Braatz and R. C. Alkire, J. Electrochem. Soc. , 2007, 154 , D584–D597 CrossRef CAS .
+ ###### 
+From cou.: 342 http://www.mathworks.com/access/helpdesk/help/toolbox/optim/ug/fmincon.html .
+From Soup: 342 E. J. Hukkanen and B. Smith, Proceedings of the AIChE Spring National Meeting, Fifth World Congress on Particle Technology , AIChE Press, New York, 2006, Abstract 156e Search PubMed .
+ ###### 
+From cou.: 343 J. V. Beck and K. J. Arnold, Parameter Estimation in Engineering and Science, Wiley, New York, 1977 Search PubMed .
+From Soup: 343 G. E. P. Box, in Robustness in Statistics , ed. R. L. Launer and G. N. Wilkinson, Academic Press, New York, 1979 Search PubMed .
+ ###### 
+From cou.: 344 E. Rusli, F. Xue, T. O. Drews, P. Vereecken, P. Andracacos, H. Deligianni, R. D. Braatz and R. C. Alkire, J. Electrochem. Soc., 2007, 154, D584–D597 CrossRef CAS .
+From Soup: 344 K. Denbigh, The Thermodynamics of the Steady State , Mathuen & Co., New York, 1951 Search PubMed .
+ ###### 
+From cou.: 345 E. J. Hukkanen and B. Smith, Proceedings of the AIChE Spring National Meeting, Fifth World Congress on Particle Technology, AIChE Press, New York, 2006, Abstract 156e Search PubMed .
+From Soup: 345 R. Aris, Mathematical Modeling Techniques , Pitman Publishing, London, 1978 Search PubMed .
+ ###### 
+From cou.: 346 G. E. P. Box, in Robustness in Statistics, ed. R. L. Launer and G. N. Wilkinson, Academic Press, New York, 1979 Search PubMed .
+From Soup: 346 M. M. Denn, Process Modeling , Longman, New York, 1986 Search PubMed .
+ ###### 
+From cou.: 347 K. Denbigh, The Thermodynamics of the Steady State, Mathuen & Co., New York, 1951 Search PubMed .
+From Soup: 347 L. Ljung, System Identification: Theory for the User , Prentice Hall, Englewood Cliffs, NJ, 1987 Search PubMed .
+ ###### 
+From cou.: 348 R. Aris, Mathematical Modeling Techniques, Pitman Publishing, London, 1978 Search PubMed .
+From Soup: 348 D. L. Ma, S. H. Chung and R. D. Braatz, AIChE J. , 1999, 45 , 1469–1476 CrossRef CAS ; D. L. Ma and R. D. Braatz, IEEE Trans. Control Syst. Technol. , 2001, 9 , 766–774 CrossRef .
+ ###### 
+From cou.: 349 M. M. Denn, Process Modeling, Longman, New York, 1986 Search PubMed .
+From Soup: 349 Z. K. Nagy and R. D. Braatz, IEEE Trans. Control Syst. Technol. , 2003, 11 , 694–704 CrossRef ; Z. K. Nagy and R. D. Braatz, J. Process Control , 2004, 14 , 411–422 CrossRef CAS .
+ ###### 
+From cou.: 350 L. Ljung, System Identification: Theory for the User, Prentice Hall, Englewood Cliffs, NJ, 1987 Search PubMed .
+From Soup: 350 H. B. Matthews, PhD thesis, University of Wisconsin-Madison, April 1997 ; H. B. Matthews and J. B. Rawlings, AIChE J. , 1998, 44 , 1119–1127 Search PubMed .
+ ###### 
+From cou.: 351 D. L. Ma, S. H. Chung and R. D. Braatz, AIChE J., 1999, 45, 1469–1476 CrossRef CAS ; D. L. Ma and R. D. Braatz, IEEE Trans. Control Syst. Technol., 2001, 9, 766–774 CrossRef .
+From Soup: 351 S. H. Chung, D. L. Ma and R. D. Braatz, Chemom. Intell. Lab. Syst. , 2000, 50 , 83–90 CrossRef CAS .
+ ###### 
+From cou.: 352 Z. K. Nagy and R. D. Braatz, IEEE Trans. Control Syst. Technol., 2003, 11, 694–704 CrossRef ; Z. K. Nagy and R. D. Braatz, J. Process Control, 2004, 14, 411–422 CrossRef CAS .
+From cou.: 353 H. B. Matthews, PhD thesis, University of Wisconsin-Madison, April 1997 ; H. B. Matthews and J. B. Rawlings, AIChE J., 1998, 44, 1119–1127 Search PubMed .
+From cou.: 354 S. H. Chung, D. L. Ma and R. D. Braatz, Chemom. Intell. Lab. Syst., 2000, 50, 83–90 CrossRef CAS .

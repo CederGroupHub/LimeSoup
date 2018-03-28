@@ -1,0 +1,367 @@
+From cou.: 0 Journal
+From Soup: 0 Phys. Chem. Chem. Phys.
+ ###### 
+From cou.: 1 Metal-aqua ion ([M(H2O)n]X+) formation is a fundamental step in mechanisms that are central to enzymatic and industrial catalysis. Past investigations of such ions have yielded a wealth of information regarding their properties, however questions still exist involving the exact structures of these complexes. A prominent example of this is hexaaqua copper(II) ([Cu(H2O)6]2+), with the solution versus gas-phase configurations under debate. The differences are often attributed to the intermolecular interactions between the bulk solvent and the aquated complex, resulting in structures stabilized by extended hydrogen-bonding networks. Yet solution phase systems are difficult to study due to the lack of atomic-level positional details. Crystalline solids are ideal models for comparative study, as they contain fixed structures that can be fully characterized using diffraction techniques. Here, crystalline copper sulfate pentahydrate (CuSO4·5H2O), which contains two unique copper–water geometries, was studied in order to elucidate the origin of these contrasting hydrated metal envrionments. A combination of solid-state density functional theory and low-temperature X-ray diffraction was used to probe the electronic origins of this phenomenon. This was accomplished through implementation of crystal orbital overlap population and crystal orbital Hamiltonian population analyses into a developmental version of the CRYSTAL14 software. These new computational methods help highlight the delicate interplay between electronic structure and metal–water geometries.
+From Soup: 1 Metal-aqua ion ([M(H 2 O) n ] X + ) formation is a fundamental step in mechanisms that are central to enzymatic and industrial catalysis. Past investigations of such ions have yielded a wealth of information regarding their properties, however questions still exist involving the exact structures of these complexes. A prominent example of this is hexaaqua copper( II ) ([Cu(H 2 O) 6 ] 2+ ), with the solution versus gas-phase configurations under debate. The differences are often attributed to the intermolecular interactions between the bulk solvent and the aquated complex, resulting in structures stabilized by extended hydrogen-bonding networks. Yet solution phase systems are difficult to study due to the lack of atomic-level positional details. Crystalline solids are ideal models for comparative study, as they contain fixed structures that can be fully characterized using diffraction techniques. Here, crystalline copper sulfate pentahydrate (CuSO 4 ·5H 2 O), which contains two unique copper–water geometries, was studied in order to elucidate the origin of these contrasting hydrated metal envrionments. A combination of solid-state density functional theory and low-temperature X-ray diffraction was used to probe the electronic origins of this phenomenon. This was accomplished through implementation of crystal orbital overlap population and crystal orbital Hamiltonian population analyses into a developmental version of the CRYSTAL14 software. These new computational methods help highlight the delicate interplay between electronic structure and metal–water geometries.
+ ###### 
+From cou.: 2 Metal–water interactions are key aspects of numerous chemical processes, especially those occurring throughout biology.1–4 Despite their importance, description of metal–water coordination bonds beyond the traditional ‘point-charge’ model are not widely utilized, presumably due to the difficulty in studying such species.5–7 This challenge is exemplified by the metal–water complexes that commonly form in aqueous solutions,8,9 where discrepancies appear in the literature (both experimental and theoretical) concerning their characteristics.10–13 One such species is hexaaqua-copper(II), whose solvent phase structure has been a subject of controversy, specifically regarding the orientation of the coordinated water molecules.7,9,14–17 While not a direct probe of the solvated aqueous copper(II) cation, X-ray diffraction (XRD) studies of crystallized copper(II) hydrates can provide useful geometry information regarding the local environment around the metal cations with atomic precision. Investigation of crystalline solid-state samples enables rigorous study of both geometry and underlying electronic structure, leading to deeper understanding of their relationship.18–21 In this study, copper sulfate pentahydrate (CuSO4·5H2O) crystals were investigated using a combination of XRD and solid-state density functional theory (DFT) in order to accurately assess the synergistic roles that electronic structure and crystalline packing have on copper–water interactions.
+From Soup: 2 Metal–water interactions are key aspects of numerous chemical processes, especially those occurring throughout biology. 1–4 Despite their importance, description of metal–water coordination bonds beyond the traditional ‘point-charge’ model are not widely utilized, presumably due to the difficulty in studying such species. 5–7 This challenge is exemplified by the metal–water complexes that commonly form in aqueous solutions, 8,9 where discrepancies appear in the literature (both experimental and theoretical) concerning their characteristics. 10–13 One such species is hexaaqua-copper( II ), whose solvent phase structure has been a subject of controversy, specifically regarding the orientation of the coordinated water molecules. 7,9,14–17 While not a direct probe of the solvated aqueous copper( II ) cation, X-ray diffraction (XRD) studies of crystallized copper( II ) hydrates can provide useful geometry information regarding the local environment around the metal cations with atomic precision. Investigation of crystalline solid-state samples enables rigorous study of both geometry and underlying electronic structure, leading to deeper understanding of their relationship. 18–21 In this study, copper sulfate pentahydrate (CuSO 4 ·5H 2 O) crystals were investigated using a combination of XRD and solid-state density functional theory (DFT) in order to accurately assess the synergistic roles that electronic structure and crystalline packing have on copper–water interactions.
+ ###### 
+From cou.: 3 In most crystalline solids, the individual molecules or formula units have the same internal geometries.22,23 In some cases, two or more molecular configurations can exist concomitantly, presenting an opportunity to investigate how various packing interactions may lead to multiple unique structures within a single crystal.24,25 Copper sulfate pentahydrate (CuSO4·5H2O) is one such crystal, where two distinct copper cation coordination geometries exist within the same solid.26–29 The coordination of one copper cation is almost identical to the solution-phase structure, while the other is markedly different.7,14–16,30 This has led to a detailed investigation of the copper–water interaction in the solid state, ultimately helping to clarify the origins of the dissimilar metal–water coordination configurations.
+From Soup: 3 In most crystalline solids, the individual molecules or formula units have the same internal geometries. 22,23 In some cases, two or more molecular configurations can exist concomitantly, presenting an opportunity to investigate how various packing interactions may lead to multiple unique structures within a single crystal. 24,25 Copper sulfate pentahydrate (CuSO 4 ·5H 2 O) is one such crystal, where two distinct copper cation coordination geometries exist within the same solid. 26–29 The coordination of one copper cation is almost identical to the solution-phase structure, while the other is markedly different. 7,14–16,30 This has led to a detailed investigation of the copper–water interaction in the solid state, ultimately helping to clarify the origins of the dissimilar metal–water coordination configurations.
+ ###### 
+From cou.: 4 While evaluation of quantum mechanical phenomena, such as chemical bond strengths and electron occupations, may be possible using experimental techniques, the roots of these properties (i.e. molecular orbital structure) are difficult to examine experimentally.31–34 Yet these aspects are of critical importance in determining the various physical properties of a material, such as molecular structure, electronic absorption and emission profiles, and catalytic potential.35–39 Solid-state DFT has proven to be a powerful tool for the study of crystals containing transition metals, and enables direct investigation of these fundamental interactions.40,41 The utilization of periodic boundary conditions in solid-state DFT permits the simulation of observable properties with greater accuracy as compared to isolated cluster calculations (when using the same level of theory), allowing for even subtle bulk effects to be captured.42,43
+From Soup: 4 While evaluation of quantum mechanical phenomena, such as chemical bond strengths and electron occupations, may be possible using experimental techniques, the roots of these properties ( i.e. molecular orbital structure) are difficult to examine experimentally. 31–34 Yet these aspects are of critical importance in determining the various physical properties of a material, such as molecular structure, electronic absorption and emission profiles, and catalytic potential. 35–39 Solid-state DFT has proven to be a powerful tool for the study of crystals containing transition metals, and enables direct investigation of these fundamental interactions. 40,41 The utilization of periodic boundary conditions in solid-state DFT permits the simulation of observable properties with greater accuracy as compared to isolated cluster calculations (when using the same level of theory), allowing for even subtle bulk effects to be captured. 42,43
+ ###### 
+From cou.: 5 Typical vibrational or electronic density of states (DOS) calculations provide valuable insight into the electronic structure of solids, but they often lack the ability to characterize a specific bond within a material.33,44,45 In order to accomplish this, the atomic orbitals of interest can be projected onto the entire molecular or crystalline orbital, thus yielding insight into the contribution that a particular fragment has to the overall electronic structure.46,47 However even this analysis is incomplete, as it does not take into account factors other than the extent of orbital occupation. Thus the crystal orbital overlap population (COOP) method was developed by Hoffman and Hughbanks to characterize single interactions in solids.48 The COOP analysis is an analogue to DOS calculations, yet unlike the DOS scheme, the COOP method only considers two discrete groups of atomic orbitals. This provides qualitative information regarding the specific bonding and antibonding components of a chemical bond, discerning the nature of specific electronic interactions. An extension of the COOP method is the crystal orbital Hamiltonian population (COHP), which partitions the band energies, rather than electron states, into bonding and antibonding regions.17,40,49 Here, the COOP and COHP schemes were implemented into a development version of CRYSTAL14,42 marking the first time these methods have been included in a localized orbital software package.
+From Soup: 5 Typical vibrational or electronic density of states (DOS) calculations provide valuable insight into the electronic structure of solids, but they often lack the ability to characterize a specific bond within a material. 33,44,45 In order to accomplish this, the atomic orbitals of interest can be projected onto the entire molecular or crystalline orbital, thus yielding insight into the contribution that a particular fragment has to the overall electronic structure. 46,47 However even this analysis is incomplete, as it does not take into account factors other than the extent of orbital occupation. Thus the crystal orbital overlap population (COOP) method was developed by Hoffman and Hughbanks to characterize single interactions in solids. 48 The COOP analysis is an analogue to DOS calculations, yet unlike the DOS scheme, the COOP method only considers two discrete groups of atomic orbitals. This provides qualitative information regarding the specific bonding and antibonding components of a chemical bond, discerning the nature of specific electronic interactions. An extension of the COOP method is the crystal orbital Hamiltonian population (COHP), which partitions the band energies, rather than electron states, into bonding and antibonding regions. 17,40,49 Here, the COOP and COHP schemes were implemented into a development version of CRYSTAL14, 42 marking the first time these methods have been included in a localized orbital software package.
+ ###### 
+From cou.: 6 Copper sulfate pentahydrate was prepared by dissolving anhydrous copper sulfate (Sigma-Aldrich, ≥99.99%) in deionized water and allowing the blue solution to evaporate under ambient conditions. After approximately one week, large blue crystals formed and single-crystal XRD measurements were taken to confirm them as being CuSO4·5H2O. Low-temperature (90 K) single-crystal XRD measurements were done on a Bruker KAPPA APEX DUO diffractometer containing an APEX II CCD system using monochromatic Mo Kα radiation (λ = 0.71076 Å). The structures were solved using direct methods and refinements were performed with the SHELXTL software.50 Upon identification of the heavy-atom positions, the structure was first refined using isotropic displacement parameters, followed with anisotropic parameters. The proton positions were assigned through the observed electron densities, and consequently refined isotropically.
+From Soup: 6 Copper sulfate pentahydrate was prepared by dissolving anhydrous copper sulfate (Sigma-Aldrich, ≥99.99%) in deionized water and allowing the blue solution to evaporate under ambient conditions. After approximately one week, large blue crystals formed and single-crystal XRD measurements were taken to confirm them as being CuSO 4 ·5H 2 O. Low-temperature (90 K) single-crystal XRD measurements were done on a Bruker KAPPA APEX DUO diffractometer containing an APEX II CCD system using monochromatic Mo Kα radiation ( λ = 0.71076 Å). The structures were solved using direct methods and refinements were performed with the SHELXTL software. 50 Upon identification of the heavy-atom positions, the structure was first refined using isotropic displacement parameters, followed with anisotropic parameters. The proton positions were assigned through the observed electron densities, and consequently refined isotropically.
+ ###### 
+From cou.: 7 A development version of the CRYSTAL14 software package was used to perform the solid-state DFT calculations. The same computational methodology previously developed for metal sulfate hydrates was adopted here,51,52 which makes use of the Becke-3–Lee–Yang–Parr (B3LYP)53 density functional and the atom-centered 6-31G(d)/6-31G(2d,2p) basis set54 for copper/non-metals. Geometry optimization was initiated with atomic coordinates taken from the experimental crystallographic data. The entire solid-state structure, including atomic positions and lattice parameters, was allowed to relax with the only constraint being the space group symmetry of the solid. Solid-state COOP and COHP plots were calculated using CRYSTAL14. A finer k-point grid of 868 points was used for the COOP and COHP calculations (112 for optimizations). The energy convergence criteria were set to ΔE < 10−8 and 10−10 hartree for the optimization and one-electron calculations, respectively. Gas-phase COOP diagrams were created using Gaussian0955 and the GaussSum56 software packages.
+From Soup: 7 A development version of the CRYSTAL14 software package was used to perform the solid-state DFT calculations. The same computational methodology previously developed for metal sulfate hydrates was adopted here, 51,52 which makes use of the Becke-3–Lee–Yang–Parr (B3LYP) 53 density functional and the atom-centered 6-31G(d)/6-31G(2d,2p) basis set 54 for copper/non-metals. Geometry optimization was initiated with atomic coordinates taken from the experimental crystallographic data. The entire solid-state structure, including atomic positions and lattice parameters, was allowed to relax with the only constraint being the space group symmetry of the solid. Solid-state COOP and COHP plots were calculated using CRYSTAL14. A finer k -point grid of 868 points was used for the COOP and COHP calculations (112 for optimizations). The energy convergence criteria were set to Δ E < 10 −8 and 10 −10 hartree for the optimization and one-electron calculations, respectively. Gas-phase COOP diagrams were created using Gaussian09 55 and the GaussSum 56 software packages.
+ ###### 
+From cou.: 8 The calculation of COOP and COHP diagrams in CRYSTAL14 was implemented for this study as an extension of the one-electron properties already included in this software.57 Using localized basis sets is a common technique for gas and solvent phase calculations, but to replicate the band structure present in real solids, CRYSTAL14 uses symmetry and Bloch transformations to create periodic conditions. The overall schemes for these calculations are provided in various different sources, and a brief overview is provided here for completeness.17,49,58,59
+From Soup: 8 The calculation of COOP and COHP diagrams in CRYSTAL14 was implemented for this study as an extension of the one-electron properties already included in this software. 57 Using localized basis sets is a common technique for gas and solvent phase calculations, but to replicate the band structure present in real solids, CRYSTAL14 uses symmetry and Bloch transformations to create periodic conditions. The overall schemes for these calculations are provided in various different sources, and a brief overview is provided here for completeness. 17,49,58,59
+ ###### 
+From cou.: 9 The initial step in any calculation involving CRYSTAL14 is the building of the crystalline wavefunctions. First, the local atom-centered orbitals (φμ(r), with the angular part omitted for simplicity) are defined by the linear combination of Gaussian-type basis functions (G(αi, r)),
+From Soup: 9 The initial step in any calculation involving CRYSTAL14 is the building of the crystalline wavefunctions. First, the local atom-centered orbitals ( φ μ ( r ), with the angular part omitted for simplicity) are defined by the linear combination of Gaussian-type basis functions ( G ( α i , r )),
+ ###### 
+From cou.: 10 r
+From Soup: 10 r
+ ###### 
+From cou.: 11 d
+From Soup: 11 d
+ ###### 
+From cou.: 12 i
+From Soup: 12 i
+ ###### 
+From cou.: 13 α
+From Soup: 13 α
+ ###### 
+From cou.: 14 i
+From Soup: 14 i
+ ###### 
+From cou.: 15 d
+From Soup: 15 d
+ ###### 
+From cou.: 16 i
+From Soup: 16 i
+ ###### 
+From cou.: 17 α
+From Soup: 17 α
+ ###### 
+From cou.: 18 i
+From Soup: 18 i
+ ###### 
+From cou.: 19 Φ
+From Soup: 19 Φ
+ ###### 
+From cou.: 20 μ
+From Soup: 20 μ
+ ###### 
+From cou.: 21 r
+From Soup: 21 r
+ ###### 
+From cou.: 22 k
+From Soup: 22 k
+ ###### 
+From cou.: 23 ik·
+From Soup: 23 ik ·
+ ###### 
+From cou.: 24 k
+From Soup: 24 k
+ ###### 
+From cou.: 25 g
+From Soup: 25 g
+ ###### 
+From cou.: 26 F
+From Soup: 26 F
+ ###### 
+From cou.: 27 k
+From Soup: 27 k
+ ###### 
+From cou.: 28 A
+From Soup: 28 A
+ ###### 
+From cou.: 29 k
+From Soup: 29 k
+ ###### 
+From cou.: 30 S
+From Soup: 30 S
+ ###### 
+From cou.: 31 k
+From Soup: 31 k
+ ###### 
+From cou.: 32 E
+From Soup: 32 E
+ ###### 
+From cou.: 33 k
+From Soup: 33 k
+ ###### 
+From cou.: 34 a
+From Soup: 34 a
+ ###### 
+From cou.: 35 μ
+From Soup: 35 μ , j
+ ###### 
+From cou.: 36 j
+From Soup: 36 Ψ
+ ###### 
+From cou.: 37 Ψ
+From Soup: 37 j
+ ###### 
+From cou.: 38 j
+From Soup: 38 r
+ ###### 
+From cou.: 39 r
+From Soup: 39 k
+ ###### 
+From cou.: 40 k
+From Soup: 40 j
+ ###### 
+From cou.: 41 j
+From Soup: 41 The crystalline orbitals (bands) are therefore evaluated at each k -point in reciprocal space, with the total k -point grid defined by the user at the onset of the calculation. The band structure for a particular crystal is then simply evaluated through interpolation of the eigenvalues of each band at different k -points. From this, the orbital ( ρ μ ), atomic ( ρ A ), and total DOS ( ρ tot ) can be evaluated using the following relations:
+ ###### 
+From cou.: 42 The crystalline orbitals (bands) are therefore evaluated at each k-point in reciprocal space, with the total k-point grid defined by the user at the onset of the calculation. The band structure for a particular crystal is then simply evaluated through interpolation of the eigenvalues of each band at different k-points. From this, the orbital (ρμ), atomic (ρA), and total DOS (ρtot) can be evaluated using the following relations:
+From Soup: 42 V
+ ###### 
+From cou.: 43 V
+From Soup: 43 B
+ ###### 
+From cou.: 44 ε
+From Soup: 44 ε
+ ###### 
+From cou.: 45 S
+From Soup: 45 S
+ ###### 
+From cou.: 46 μ
+From Soup: 46 μ , μ
+ ###### 
+From cou.: 47 μ
+From Soup: 47 i.e.
+ ###### 
+From cou.: 48 i.e.
+From Soup: 48 Here, instead of projecting a single orbital onto all of the orbitals (as in the DOS equation), the orbitals of interest are only projected onto a subset of the crystalline orbitals belonging to groups A and B (diagonal elements are not considered), representing the chosen two fragments. In the COOP analysis, the density of states between the two fragments is weighted by the overlap matrix, partitioning the electronic states into bonding and antibonding regions. The COHP equation is similar, but instead of electron states, the band structure is what is being partitioned, providing information regarding the bond energy (rather than bond order, as in the COOP case).
+ ###### 
+From cou.: 49 Here, instead of projecting a single orbital onto all of the orbitals (as in the DOS equation), the orbitals of interest are only projected onto a subset of the crystalline orbitals belonging to groups A and B (diagonal elements are not considered), representing the chosen two fragments. In the COOP analysis, the density of states between the two fragments is weighted by the overlap matrix, partitioning the electronic states into bonding and antibonding regions. The COHP equation is similar, but instead of electron states, the band structure is what is being partitioned, providing information regarding the bond energy (rather than bond order, as in the COOP case).
+From Soup: 49 The structure of CuSO 4 ·5H 2 O was redetermined at 90 K using single-crystal XRD ( R = 0.042), and the geometry described here is in agreement with previously reported structures. 26–29 The CuSO 4 ·5H 2 O crystals form in the triclinic P space group, and have lattice dimensions of: a = 6.106 Å, b = 10.656 Å, c = 5.969 Å, α = 77.332°, β = 82.433°, γ = 72.523°, and V = 360.548 Å 3 . Four CuSO 4 ·5H 2 O formula units make up the unit cell ( Z = 4) ( Fig. 1 ), with two formula unit halves in the asymmetric unit [Cu(H 2 O) 2 SO 4 Cu(H 2 O) 2 (H 2 O)]. Both symmetrically unique copper cations are in a distorted octahedral coordination environment. Each copper cation is coordinated by four equatorial water molecules (two symmetrically unique water molecules on each), and are bridged by sulfate anions bonded at the axial positions, forming infinite polymeric chains. The d 9 coppers display the characteristic Jahn–Teller distorted geometry, with the copper–sulfate axial bond elongated with respect to the four equatorial copper–water bonds. 60 The fifth co-crystallized water molecule forms two hydrogen bonds with the bridging oxygen atoms of the adjacent chains, and does not directly interact with the metal cations. The solid-state geometry optimization accurately represented the aforementioned structural features, with average errors in the bond lengths and unit cell parameters of 0.69% and 0.45%, respectively.
+ ###### 
+From cou.: 50 The structure of CuSO4·5H2O was redetermined at 90 K using single-crystal XRD (R = 0.042), and the geometry described here is in agreement with previously reported structures.26–29 The CuSO4·5H2O crystals form in the triclinic P space group, and have lattice dimensions of: a = 6.106 Å, b = 10.656 Å, c = 5.969 Å, α = 77.332°, β = 82.433°, γ = 72.523°, and V = 360.548 Å3. Four CuSO4·5H2O formula units make up the unit cell (Z = 4) (Fig. 1), with two formula unit halves in the asymmetric unit [Cu(H2O)2SO4Cu(H2O)2(H2O)]. Both symmetrically unique copper cations are in a distorted octahedral coordination environment. Each copper cation is coordinated by four equatorial water molecules (two symmetrically unique water molecules on each), and are bridged by sulfate anions bonded at the axial positions, forming infinite polymeric chains. The d9 coppers display the characteristic Jahn–Teller distorted geometry, with the copper–sulfate axial bond elongated with respect to the four equatorial copper–water bonds.60 The fifth co-crystallized water molecule forms two hydrogen bonds with the bridging oxygen atoms of the adjacent chains, and does not directly interact with the metal cations. The solid-state geometry optimization accurately represented the aforementioned structural features, with average errors in the bond lengths and unit cell parameters of 0.69% and 0.45%, respectively.
+From Soup: 50 The water molecules coordinated to the two symmetrically unique copper cations (copper a and copper b , Fig. 1 and 2 ) exist in two very different orientations. In the case of copper a , the orientation of the coordinated water molecules results in the water hydrogens being nearly in the plane of the copper a –water bond (water planar ). In contrast, the waters are tilted on copper b , resulting in a bent geometry (water bent ). The copper–water bond lengths are also significantly different between the two symmetry unique metals, with an average experimental copper–water bond length of 1.942 Å and 1.965 Å for the copper a –water planar and copper b –water bent bonds, respectively. Both coordination types have water molecules maintaining two hydrogen bonds, with water planar hydrogen-bonded to the non-coordinated sulfate oxygen atoms and water bent hydrogen-bonded to the co-crystallized water and the coordinated sulfate oxygen atom. It is important to note that each copper cation has two symmetrically unique water molecules (four in total), and the tilting angle is consistent between the respective pairs.
+ ###### 
+From cou.: 51 The water molecules coordinated to the two symmetrically unique copper cations (coppera and copperb, Fig. 1 and 2) exist in two very different orientations. In the case of coppera, the orientation of the coordinated water molecules results in the water hydrogens being nearly in the plane of the coppera–water bond (waterplanar). In contrast, the waters are tilted on copperb, resulting in a bent geometry (waterbent). The copper–water bond lengths are also significantly different between the two symmetry unique metals, with an average experimental copper–water bond length of 1.942 Å and 1.965 Å for the coppera–waterplanar and copperb–waterbent bonds, respectively. Both coordination types have water molecules maintaining two hydrogen bonds, with waterplanar hydrogen-bonded to the non-coordinated sulfate oxygen atoms and waterbent hydrogen-bonded to the co-crystallized water and the coordinated sulfate oxygen atom. It is important to note that each copper cation has two symmetrically unique water molecules (four in total), and the tilting angle is consistent between the respective pairs.
+From Soup: 51 The existence of two types of copper–water geometries in the CuSO 4 ·5H 2 O crystal is a phenomenon whose origins can be broadly explained by the solid-state packing arrangement that promotes different hydrogen bonding interactions for the different waters. However, the electronic interactions between the copper and coordinated waters must play a central role in governing the absolute orientations of the molecules in the structure. In fact, a gas-phase geometry optimization of an isolated CuSO 4 ·5H 2 O results in a totally planar arrangement of the coordinated water molecules (in agreement with some previous gas and solution-phase studies 7,14,16,30 ), demonstrating that the crystalline environment causes the observed tilting of the waters. Any structural deviations from the isolated-molecule calculation can be viewed as a strain, which results in a weakened copper–water bent bond, but this strain penalty must be offset by favorable cohesive interactions of the bulk solid for crystallization to occur.
+ ###### 
+From cou.: 52 The existence of two types of copper–water geometries in the CuSO4·5H2O crystal is a phenomenon whose origins can be broadly explained by the solid-state packing arrangement that promotes different hydrogen bonding interactions for the different waters. However, the electronic interactions between the copper and coordinated waters must play a central role in governing the absolute orientations of the molecules in the structure. In fact, a gas-phase geometry optimization of an isolated CuSO4·5H2O results in a totally planar arrangement of the coordinated water molecules (in agreement with some previous gas and solution-phase studies7,14,16,30), demonstrating that the crystalline environment causes the observed tilting of the waters. Any structural deviations from the isolated-molecule calculation can be viewed as a strain, which results in a weakened copper–waterbent bond, but this strain penalty must be offset by favorable cohesive interactions of the bulk solid for crystallization to occur.
+From Soup: 52 The projected density of states for the copper–water interactions ( Fig. 3 ) revealed that the copper a –water planar fragment contains a higher degree of occupied electronic states (increased electron density), compared to the corresponding copper b –water bent pair, as determined by integration of the DOS (yielding the total states over the occupied energy range) ( Table 1 ). While the DOS is acceptable for an overall picture of the electronic contribution of the atoms of interest to the overall crystalline bonds, it does not provide any fragment specific information regarding the type of interaction each occupied orbital is involved in exclusively within the chosen fragment. Greater detail into the nature of the copper–water chemical bonds is available by calculation of COOP and COHP diagrams. These analyses can be used to see the effect that changing coordination schemes have on the character of individual bonds and yield a complete description of the specific electronic interactions between the CuSO 4 ·5H 2 O components.
+ ###### 
+From cou.: 53 The projected density of states for the copper–water interactions (Fig. 3) revealed that the coppera–waterplanar fragment contains a higher degree of occupied electronic states (increased electron density), compared to the corresponding copperb–waterbent pair, as determined by integration of the DOS (yielding the total states over the occupied energy range) (Table 1). While the DOS is acceptable for an overall picture of the electronic contribution of the atoms of interest to the overall crystalline bonds, it does not provide any fragment specific information regarding the type of interaction each occupied orbital is involved in exclusively within the chosen fragment. Greater detail into the nature of the copper–water chemical bonds is available by calculation of COOP and COHP diagrams. These analyses can be used to see the effect that changing coordination schemes have on the character of individual bonds and yield a complete description of the specific electronic interactions between the CuSO4·5H2O components.
+From Soup: 53 To explore the role of crystalline environment on the CuSO 4 ·5H 2 O structure, COOP diagrams were produced both in the gas phase (formula unit extracted from the optimized solid) and in the solid state using Gaussian09/GaussSum and CRYSTAL14, respectively, and are shown in Fig. 4 . In the case of the copper a –water planar interaction, the solid-state and gas-phase COOP diagrams are in close agreement, especially in predicting the Fermi level of that particular bond. However in the case of the copper b –water bent interaction, the two calculation methods differ noticeably, predominately in the prediction of the Fermi level and orbital energies. This result is not surprising when the solid-state copper–water coordination environments are taken into account, where the contrasting copper b –water bent COOP calculations can be linked to water tilt angle. The fully relaxed gas-phase optimization of CuSO 4 ·5H 2 O results in a planar orientation of the coordinated water–copper bond, implying limited strain exists in the packed copper a –water planar arrangement, and ultimately meaning the gas-phase and solid-state COOP calculations should be in reasonable agreement. In the case of copper b , the packing strain, which is presumably caused by the propensity of the structure to form hydrogen bonds, cannot be represented by a simple gas-phase calculation. Therefore the gas-phase model fails to accurately predict the electronic configuration of this purely solid-state geometry, leading to an inaccurate prediction of the Fermi level and slightly shifted orbital energies (compared to the solid-state calculated band energies).
+ ###### 
+From cou.: 54 To explore the role of crystalline environment on the CuSO4·5H2O structure, COOP diagrams were produced both in the gas phase (formula unit extracted from the optimized solid) and in the solid state using Gaussian09/GaussSum and CRYSTAL14, respectively, and are shown in Fig. 4. In the case of the coppera–waterplanar interaction, the solid-state and gas-phase COOP diagrams are in close agreement, especially in predicting the Fermi level of that particular bond. However in the case of the copperb–waterbent interaction, the two calculation methods differ noticeably, predominately in the prediction of the Fermi level and orbital energies. This result is not surprising when the solid-state copper–water coordination environments are taken into account, where the contrasting copperb–waterbent COOP calculations can be linked to water tilt angle. The fully relaxed gas-phase optimization of CuSO4·5H2O results in a planar orientation of the coordinated water–copper bond, implying limited strain exists in the packed coppera–waterplanar arrangement, and ultimately meaning the gas-phase and solid-state COOP calculations should be in reasonable agreement. In the case of copperb, the packing strain, which is presumably caused by the propensity of the structure to form hydrogen bonds, cannot be represented by a simple gas-phase calculation. Therefore the gas-phase model fails to accurately predict the electronic configuration of this purely solid-state geometry, leading to an inaccurate prediction of the Fermi level and slightly shifted orbital energies (compared to the solid-state calculated band energies).
+From Soup: 54 By integrating the positive and negative regions of the COOP plot, representing total bonding and antibonding populations, detail regarding the electronic arrangement of the two copper–water fragments can be obtained ( Table 1 ). The total integrated COOP curve is an effective measure of bond order, and it is shown that the value obtained for the copper a –water planar bond is higher than that of copper b –water bent . This phenomenon has been previously noted for other transition metal complexes, which showed that planar arrangements of water molecules around the metal cations promotes a stronger overlap. 7,61 The overlap is decreased upon tilting of the water molecules, leading to a lower bond order. This effect is manifested in the copper–water bond lengths, where the copper a –water planar bond is shorter than the corresponding copper b –water bent bond.
+ ###### 
+From cou.: 55 By integrating the positive and negative regions of the COOP plot, representing total bonding and antibonding populations, detail regarding the electronic arrangement of the two copper–water fragments can be obtained (Table 1). The total integrated COOP curve is an effective measure of bond order, and it is shown that the value obtained for the coppera–waterplanar bond is higher than that of copperb–waterbent. This phenomenon has been previously noted for other transition metal complexes, which showed that planar arrangements of water molecules around the metal cations promotes a stronger overlap.7,61 The overlap is decreased upon tilting of the water molecules, leading to a lower bond order. This effect is manifested in the copper–water bond lengths, where the coppera–waterplanar bond is shorter than the corresponding copperb–waterbent bond.
+From Soup: 55 Integration of the COHP diagram is a measure of bond strength (in units of energy), because this method partitions the band energies rather than the electrons (COOP). The COHP plots ( Fig. 5 ) are very similar to the COOP plots, and the same trend is observed when integrating the COOP diagram as when integrating the COHP plot. The calculated copper–water bond strengths ( Table 1 ) are in good agreement with previously determined metal–water coordinated bond energies. 62 To confirm that the copper–water interaction strength varies due to intermolecular forces, COHP analyses were performed on the respective water molecules against the entire unit cell, excluding the copper cations. The integrated values were 229.76 and 252.49 kJ mol −1 for water planar and water bent , respectively, showing that water bent is stabilized by external interactions (beyond the metal coordination) to a higher degree than water planar . This, coupled with the hydrogen-bonding pattern, highlights the complex equilibrium that is established between electronic configuration, geometry, and external forces, and that the ultimate structure is dictated by the balance between all of these simultaneous factors.
+ ###### 
+From cou.: 56 Integration of the COHP diagram is a measure of bond strength (in units of energy), because this method partitions the band energies rather than the electrons (COOP). The COHP plots (Fig. 5) are very similar to the COOP plots, and the same trend is observed when integrating the COOP diagram as when integrating the COHP plot. The calculated copper–water bond strengths (Table 1) are in good agreement with previously determined metal–water coordinated bond energies.62 To confirm that the copper–water interaction strength varies due to intermolecular forces, COHP analyses were performed on the respective water molecules against the entire unit cell, excluding the copper cations. The integrated values were 229.76 and 252.49 kJ mol−1 for waterplanar and waterbent, respectively, showing that waterbent is stabilized by external interactions (beyond the metal coordination) to a higher degree than waterplanar. This, coupled with the hydrogen-bonding pattern, highlights the complex equilibrium that is established between electronic configuration, geometry, and external forces, and that the ultimate structure is dictated by the balance between all of these simultaneous factors.
+From Soup: 56 The differing orientations of the coordinated water molecules have been shown to have an effect on the strength and nature of the chemical bond between the copper cation and each water molecule. The origin of these differences is attributed to packing induced strain, which causes water bent to sacrifice metal–ligand bonding energy in favor of other forces. In order to determine how large a role the solid-state packing has on the copper–water bonds, structural optimizations were performed where the unit cell volume was kept at fixed but increased values. The lattice parameters and atomic coordinates were allowed to fully relax, with the only constraint being preservation of the specified volume. The results shown in Fig. 6 reveal that the copper b –water bent tilt angle is linearly dependent on unit cell volume, with the geometry approaching the gas-phase/solvent structure as the unit cell expands. Additionally, the water internal bond angle (H–O–H) increases with increasing unit cell volume as well, (108.15° to 109.25°) following the same trend as the tilt angle. This is indicative of an enhanced covalent bond between the copper and oxygen, which allows the H–O–H angle to open due to decreased electron density on the oxygen atom. In fact, both copper a –water planar and copper b –water bent exhibit a trend towards moving to perfectly planar tilt arrangements, as well as expansion of both water H–O–H bond angles with increasing unit cell volume, confirming that each copper coordination environment is sensitive to the crystalline packing strain.
+ ###### 
+From cou.: 57 The differing orientations of the coordinated water molecules have been shown to have an effect on the strength and nature of the chemical bond between the copper cation and each water molecule. The origin of these differences is attributed to packing induced strain, which causes waterbent to sacrifice metal–ligand bonding energy in favor of other forces. In order to determine how large a role the solid-state packing has on the copper–water bonds, structural optimizations were performed where the unit cell volume was kept at fixed but increased values. The lattice parameters and atomic coordinates were allowed to fully relax, with the only constraint being preservation of the specified volume. The results shown in Fig. 6 reveal that the copperb–waterbent tilt angle is linearly dependent on unit cell volume, with the geometry approaching the gas-phase/solvent structure as the unit cell expands. Additionally, the water internal bond angle (H–O–H) increases with increasing unit cell volume as well, (108.15° to 109.25°) following the same trend as the tilt angle. This is indicative of an enhanced covalent bond between the copper and oxygen, which allows the H–O–H angle to open due to decreased electron density on the oxygen atom. In fact, both coppera–waterplanar and copperb–waterbent exhibit a trend towards moving to perfectly planar tilt arrangements, as well as expansion of both water H–O–H bond angles with increasing unit cell volume, confirming that each copper coordination environment is sensitive to the crystalline packing strain.
+From Soup: 57 A detailed investigation was performed on the geometry and electronic structure of CuSO 4 ·5H 2 O crystals, using solid-state DFT and experimental XRD measurements. While the traditional computational method of calculating a DOS plot provides useful insight into the overall characteristics of a solid, the slight differences between the DOS of two similar fragments within the solid often proves to be difficult to interpret. Implementation of COOP and COHP analyses into a developmental version of the CRYSTAL14 software package facilitated evaluation of particular interactions within the bulk. The enhanced specificity of these approaches yielded precise information concerning how molecular orbital occupations and overlaps influence the observed structural arrangements of atoms in the solid state. The COOP and COHP plots have the same basic shape (in terms of absolute values) as the DOS plot, however partitioning of data into bonding and antibonding regions enables the interactions to be described based on the specific local electronic environment. Integration of the COOP and COHP plots highlight that deviations from the copper–water gas-phase geometry results from decreased bond order and bond strength in the crystal, due to lessened orbital overlap between the two components.
+ ###### 
+From cou.: 58 A detailed investigation was performed on the geometry and electronic structure of CuSO4·5H2O crystals, using solid-state DFT and experimental XRD measurements. While the traditional computational method of calculating a DOS plot provides useful insight into the overall characteristics of a solid, the slight differences between the DOS of two similar fragments within the solid often proves to be difficult to interpret. Implementation of COOP and COHP analyses into a developmental version of the CRYSTAL14 software package facilitated evaluation of particular interactions within the bulk. The enhanced specificity of these approaches yielded precise information concerning how molecular orbital occupations and overlaps influence the observed structural arrangements of atoms in the solid state. The COOP and COHP plots have the same basic shape (in terms of absolute values) as the DOS plot, however partitioning of data into bonding and antibonding regions enables the interactions to be described based on the specific local electronic environment. Integration of the COOP and COHP plots highlight that deviations from the copper–water gas-phase geometry results from decreased bond order and bond strength in the crystal, due to lessened orbital overlap between the two components.
+From Soup: 58 Furthermore, orientations of the water bent molecules were found to be greatly influenced by the unit cell volume, showing that packing strain is the driving force in the observed structural trends. These packing interactions, largely characterized by the formation of hydrogen bonds between the water molecules, are analogous to the intermolecular forces acting upon aqueous hexaaqua-copper cations by the bulk solvent in aqueous solutions. The results are therefore applicable to any condensed phase system involving aquated metal ions, where the equilibrium between internal and external factors dictates the final coordination arrangements.
+ ###### 
+From cou.: 59 Furthermore, orientations of the waterbent molecules were found to be greatly influenced by the unit cell volume, showing that packing strain is the driving force in the observed structural trends. These packing interactions, largely characterized by the formation of hydrogen bonds between the water molecules, are analogous to the intermolecular forces acting upon aqueous hexaaqua-copper cations by the bulk solvent in aqueous solutions. The results are therefore applicable to any condensed phase system involving aquated metal ions, where the equilibrium between internal and external factors dictates the final coordination arrangements.
+From Soup: 59 This research was funded through a grant from the National Science Foundation (CHE-1301068). The authors thank Syracuse University for its continued support.
+ ###### 
+From cou.: 60 This research was funded through a grant from the National Science Foundation (CHE-1301068). The authors thank Syracuse University for its continued support.
+From Soup: 60 R. B. Lauffer, Chem. Rev. , 1987, 87 , 901–927 CrossRef CAS .
+ ###### 
+From cou.: 61 R. B. Lauffer, Chem. Rev., 1987, 87, 901–927 CrossRef CAS .
+From Soup: 61 C. Andreini, I. Bertini, G. Cavallaro, G. L. Holliday and J. M. Thornton, JBIC, J. Biol. Inorg. Chem. , 2008, 13 , 1205–1218 CrossRef CAS PubMed .
+ ###### 
+From cou.: 62 C. Andreini, I. Bertini, G. Cavallaro, G. L. Holliday and J. M. Thornton, JBIC, J. Biol. Inorg. Chem., 2008, 13, 1205–1218 CrossRef CAS PubMed .
+From Soup: 62 A. O. Yazaydιn, A. I. Benin, S. A. Faheem, P. Jakubczak, J. J. Low, R. R. Willis and R. Q. Snurr, Chem. Mater. , 2009, 21 , 1425–1430 CrossRef .
+ ###### 
+From cou.: 63 A. O. Yazaydιn, A. I. Benin, S. A. Faheem, P. Jakubczak, J. J. Low, R. R. Willis and R. Q. Snurr, Chem. Mater., 2009, 21, 1425–1430 CrossRef .
+From Soup: 63 K. L. Haas and K. J. Franz, Chem. Rev. , 2009, 109 , 4921–4960 CrossRef CAS PubMed .
+ ###### 
+From cou.: 64 K. L. Haas and K. J. Franz, Chem. Rev., 2009, 109, 4921–4960 CrossRef CAS PubMed .
+From Soup: 64 M. Nara, H. Torii and M. Tasumi, J. Phys. Chem. , 1996, 100 , 19812–19817 CrossRef CAS .
+ ###### 
+From cou.: 65 M. Nara, H. Torii and M. Tasumi, J. Phys. Chem., 1996, 100, 19812–19817 CrossRef CAS .
+From Soup: 65 H. Ogasawara, B. Brena, D. Nordlund, M. Nyberg, A. Pelmenschikov, L. G. M. Pettersson and A. Nilsson, Phys. Rev. Lett. , 2002, 89 , 276102 CrossRef CAS PubMed .
+ ###### 
+From cou.: 66 H. Ogasawara, B. Brena, D. Nordlund, M. Nyberg, A. Pelmenschikov, L. G. M. Pettersson and A. Nilsson, Phys. Rev. Lett., 2002, 89, 276102 CrossRef CAS PubMed .
+From Soup: 66 V. S. Bryantsev, M. S. Diallo, A. C. T. van Duin and W. A. Goddard III, J. Phys. Chem. A , 2008, 112 , 9104–9112 CrossRef CAS PubMed .
+ ###### 
+From cou.: 67 V. S. Bryantsev, M. S. Diallo, A. C. T. van Duin and W. A. Goddard III, J. Phys. Chem. A, 2008, 112, 9104–9112 CrossRef CAS PubMed .
+From Soup: 67 J. Reedijk, Platinum Met. Rev. , 2008, 52 , 2–11 CrossRef CAS .
+ ###### 
+From cou.: 68 J. Reedijk, Platinum Met. Rev., 2008, 52, 2–11 CrossRef CAS .
+From Soup: 68 A. C. van Duin, V. S. Bryantsev, M. S. Diallo, W. A. Goddard, O. Rahaman, D. J. Doren, D. Raymand and K. Hermansson, J. Phys. Chem. A , 2010, 114 , 9507–9514 CrossRef CAS PubMed .
+ ###### 
+From cou.: 69 A. C. van Duin, V. S. Bryantsev, M. S. Diallo, W. A. Goddard, O. Rahaman, D. J. Doren, D. Raymand and K. Hermansson, J. Phys. Chem. A, 2010, 114, 9507–9514 CrossRef CAS PubMed .
+From Soup: 69 V. E. Jackson, A. R. Felmy and D. A. Dixon, J. Phys. Chem. A , 2015, 119 , 2926–2939 CrossRef CAS PubMed .
+ ###### 
+From cou.: 70 V. E. Jackson, A. R. Felmy and D. A. Dixon, J. Phys. Chem. A, 2015, 119, 2926–2939 CrossRef CAS PubMed .
+From Soup: 70 R. H. Crabtree, New J. Chem. , 2011, 35 , 18–23 RSC .
+ ###### 
+From cou.: 71 R. H. Crabtree, New J. Chem., 2011, 35, 18–23 RSC .
+From Soup: 71 V. Seredyuk and V. Vargalyuk, Russ. J. Electrochem. , 2008, 44 , 1105–1112 CrossRef CAS .
+ ###### 
+From cou.: 72 V. Seredyuk and V. Vargalyuk, Russ. J. Electrochem., 2008, 44, 1105–1112 CrossRef CAS .
+From Soup: 72 X. Sala, S. Maji, R. Bofill, J. García-Antón, L. S. Escriche and A. Llobet, Acc. Chem. Res. , 2013, 47 , 504–516 CrossRef PubMed .
+ ###### 
+From cou.: 73 X. Sala, S. Maji, R. Bofill, J. García-Antón, L. S. Escriche and A. Llobet, Acc. Chem. Res., 2013, 47, 504–516 CrossRef PubMed .
+From Soup: 73 X. Liu, X. Lu, E. Jan Meijer and R. Wang, Phys. Chem. Chem. Phys. , 2010, 12 , 10801–10804 RSC .
+ ###### 
+From cou.: 74 X. Liu, X. Lu, E. Jan Meijer and R. Wang, Phys. Chem. Chem. Phys., 2010, 12, 10801–10804 RSC .
+From Soup: 74 P. Frank, M. Benfatto, M. Qayyam, B. Hedman and K. O. Hodgson, J. Chem. Phys. , 2015, 142 , 084310 CrossRef PubMed .
+ ###### 
+From cou.: 75 P. Frank, M. Benfatto, M. Qayyam, B. Hedman and K. O. Hodgson, J. Chem. Phys., 2015, 142, 084310 CrossRef PubMed .
+From Soup: 75 F.-F. Xia, H.-B. Yi and D. Zeng, J. Phys. Chem. A , 2010, 114 , 8406–8416 CrossRef CAS PubMed .
+ ###### 
+From cou.: 76 F.-F. Xia, H.-B. Yi and D. Zeng, J. Phys. Chem. A, 2010, 114, 8406–8416 CrossRef CAS PubMed .
+From Soup: 76 R. Dronskowski and P. E. Bloechl, J. Phys. Chem. , 1993, 97 , 8617–8624 CrossRef CAS .
+ ###### 
+From cou.: 77 R. Dronskowski and P. E. Bloechl, J. Phys. Chem., 1993, 97, 8617–8624 CrossRef CAS .
+From Soup: 77 R. Dovesi, R. Orlando, B. Civalleri, C. Roetti, V. R. Saunders and C. M. Zicovich-Wilson, Z. Kristallogr. , 2005, 220 , 571–573 CAS .
+ ###### 
+From cou.: 78 R. Dovesi, R. Orlando, B. Civalleri, C. Roetti, V. R. Saunders and C. M. Zicovich-Wilson, Z. Kristallogr., 2005, 220, 571–573 CAS .
+From Soup: 78 J. Cornil, J. P. Calbert and J.-L. Brédas, J. Am. Chem. Soc. , 2001, 123 , 1250–1251 CrossRef CAS PubMed .
+ ###### 
+From cou.: 79 J. Cornil, J. P. Calbert and J.-L. Brédas, J. Am. Chem. Soc., 2001, 123, 1250–1251 CrossRef CAS PubMed .
+From Soup: 79 J. Zaanen, G. Sawatzky and J. Allen, Phys. Rev. Lett. , 1985, 55 , 418 CrossRef CAS PubMed .
+ ###### 
+From cou.: 80 J. Zaanen, G. Sawatzky and J. Allen, Phys. Rev. Lett., 1985, 55, 418 CrossRef CAS PubMed .
+From Soup: 80 M. Mérawa, M. Llunell, R. Orlando, M. Gelize-Duvignau and R. Dovesi, Chem. Phys. Lett. , 2003, 368 , 7–11 CrossRef .
+ ###### 
+From cou.: 81 M. Mérawa, M. Llunell, R. Orlando, M. Gelize-Duvignau and R. Dovesi, Chem. Phys. Lett., 2003, 368, 7–11 CrossRef .
+From Soup: 81 R. W. G. Wyckoff and R. W. Wyckoff, Crystal structures , Interscience, New York, 1960 Search PubMed .
+ ###### 
+From cou.: 82 R. W. G. Wyckoff and R. W. Wyckoff, Crystal structures, Interscience, New York, 1960 Search PubMed .
+From Soup: 82 G. J. Piermarini, A. D. Mighell, C. E. Weir and S. Block, Science , 1969, 165 , 1250–1255 CAS .
+ ###### 
+From cou.: 83 G. J. Piermarini, A. D. Mighell, C. E. Weir and S. Block, Science, 1969, 165, 1250–1255 CAS .
+From Soup: 83 S. P. Delaney, E. M. Witko, T. M. Smith and T. M. Korter, J. Phys. Chem. A , 2012, 116 , 8051–8057 CrossRef CAS PubMed .
+ ###### 
+From cou.: 84 S. P. Delaney, E. M. Witko, T. M. Smith and T. M. Korter, J. Phys. Chem. A, 2012, 116, 8051–8057 CrossRef CAS PubMed .
+From Soup: 84 A. Nangia, Acc. Chem. Res. , 2008, 41 , 595–604 CrossRef CAS PubMed .
+ ###### 
+From cou.: 85 A. Nangia, Acc. Chem. Res., 2008, 41, 595–604 CrossRef CAS PubMed .
+From Soup: 85 G. E. Bacon and D. H. Titterton, Z. Kristallogr. , 1975, 141 , 330–341 CrossRef CAS .
+ ###### 
+From cou.: 86 G. E. Bacon and D. H. Titterton, Z. Kristallogr., 1975, 141, 330–341 CrossRef CAS .
+From Soup: 86 C. Beevers and H. Lipson, Proc. R. Soc. London, Ser. A , 1934, 570–582 CrossRef CAS .
+ ###### 
+From cou.: 87 C. Beevers and H. Lipson, Proc. R. Soc. London, Ser. A, 1934, 570–582 CrossRef CAS .
+From Soup: 87 G. Soda and T. Chiba, J. Chem. Phys. , 1969, 50 , 439–455 CrossRef CAS .
+ ###### 
+From cou.: 88 G. Soda and T. Chiba, J. Chem. Phys., 1969, 50, 439–455 CrossRef CAS .
+From Soup: 88 W. Baur and J. Rolin, Acta Crystallogr., Sect. B: Struct. Crystallogr. Cryst. Chem. , 1972, 28 , 1448–1455 CrossRef CAS .
+ ###### 
+From cou.: 89 W. Baur and J. Rolin, Acta Crystallogr., Sect. B: Struct. Crystallogr. Cryst. Chem., 1972, 28, 1448–1455 CrossRef CAS .
+From Soup: 89 M. Breza, S. Biskupič and J. Kožíšek, THEOCHEM , 1997, 397 , 121–128 CrossRef CAS .
+ ###### 
+From cou.: 90 M. Breza, S. Biskupič and J. Kožíšek, THEOCHEM, 1997, 397, 121–128 CrossRef CAS .
+From Soup: 90 Y. Joly, D. Cabaret, H. Renevier and C. R. Natoli, Phys. Rev. Lett. , 1999, 82 , 2398 CrossRef CAS .
+ ###### 
+From cou.: 91 Y. Joly, D. Cabaret, H. Renevier and C. R. Natoli, Phys. Rev. Lett., 1999, 82, 2398 CrossRef CAS .
+From Soup: 91 R. F. Stewart, J. Chem. Phys. , 1973, 58 , 1668–1676 CrossRef CAS .
+ ###### 
+From cou.: 92 R. F. Stewart, J. Chem. Phys., 1973, 58, 1668–1676 CrossRef CAS .
+From Soup: 92 Y. Zhang, Y.-W. Tan, H. L. Stormer and P. Kim, Nature , 2005, 438 , 201–204 CrossRef CAS PubMed .
+ ###### 
+From cou.: 93 Y. Zhang, Y.-W. Tan, H. L. Stormer and P. Kim, Nature, 2005, 438, 201–204 CrossRef CAS PubMed .
+From Soup: 93 A. J. Blodgett Jr and W. E. Spicer, Phys. Rev. , 1966, 146 , 390 CrossRef .
+ ###### 
+From cou.: 94 A. J. Blodgett Jr and W. E. Spicer, Phys. Rev., 1966, 146, 390 CrossRef .
+From Soup: 94 N. Koga and K. Morokuma, Chem. Rev. , 1991, 91 , 823–842 CrossRef CAS .
+ ###### 
+From cou.: 95 N. Koga and K. Morokuma, Chem. Rev., 1991, 91, 823–842 CrossRef CAS .
+From Soup: 95 J. Suntivich, K. J. May, H. A. Gasteiger, J. B. Goodenough and Y. Shao-Horn, Science , 2011, 334 , 1383–1385 CrossRef CAS PubMed .
+ ###### 
+From cou.: 96 J. Suntivich, K. J. May, H. A. Gasteiger, J. B. Goodenough and Y. Shao-Horn, Science, 2011, 334, 1383–1385 CrossRef CAS PubMed .
+From Soup: 96 V. G. Tsirelson and R. P. Ozerov, Electron Density and Bonding in Crystals: Principles, Theory and X-ray Diffraction Experiments in Solid State Physics and Chemistry , Taylor & Francis, 1996 Search PubMed .
+ ###### 
+From cou.: 97 V. G. Tsirelson and R. P. Ozerov, Electron Density and Bonding in Crystals: Principles, Theory and X-ray Diffraction Experiments in Solid State Physics and Chemistry, Taylor & Francis, 1996 Search PubMed .
+From Soup: 97 B. Kallies and R. Meier, Inorg. Chem. , 2001, 40 , 3101–3112 CrossRef CAS PubMed .
+ ###### 
+From cou.: 98 B. Kallies and R. Meier, Inorg. Chem., 2001, 40, 3101–3112 CrossRef CAS PubMed .
+From Soup: 98 H. Suzuki, Electronic absorption spectra and geometry of organic molecules: An application of molecular orbital theory , Elsevier, 2012 Search PubMed .
+ ###### 
+From cou.: 99 H. Suzuki, Electronic absorption spectra and geometry of organic molecules: An application of molecular orbital theory, Elsevier, 2012 Search PubMed .
+From Soup: 99 S. Maintz, V. L. Deringer, A. L. Tchougréeff and R. Dronskowski, J. Comput. Chem. , 2013, 34 , 2557–2567 CrossRef CAS PubMed .
+ ###### 
+From cou.: 100 S. Maintz, V. L. Deringer, A. L. Tchougréeff and R. Dronskowski, J. Comput. Chem., 2013, 34, 2557–2567 CrossRef CAS PubMed .
+From Soup: 100 H. J. Kulik, M. Cococcioni, D. A. Scherlis and N. Marzari, Phys. Rev. Lett. , 2006, 97 , 103001 CrossRef PubMed .
+ ###### 
+From cou.: 101 H. J. Kulik, M. Cococcioni, D. A. Scherlis and N. Marzari, Phys. Rev. Lett., 2006, 97, 103001 CrossRef PubMed .
+From Soup: 101 R. Dovesi, R. Orlando, A. Erba, C. M. Zicovich-Wilson, B. Civalleri, S. Casassa, L. Maschio, M. Ferrabone, M. De La Pierre, P. D'Arco, Y. Noël, M. Causà, M. Rérat and B. Kirtman, Int. J. Quantum Chem. , 2014, 114 , 1287–1317 CrossRef CAS .
+ ###### 
+From cou.: 102 R. Dovesi, R. Orlando, A. Erba, C. M. Zicovich-Wilson, B. Civalleri, S. Casassa, L. Maschio, M. Ferrabone, M. De La Pierre, P. D'Arco, Y. Noël, M. Causà, M. Rérat and B. Kirtman, Int. J. Quantum Chem., 2014, 114, 1287–1317 CrossRef CAS .
+From Soup: 102 V. R. Saunders, C. Freyria-Fava, R. Dovesi, L. Salasco and C. Roetti, Mol. Phys. , 1992, 77 , 629–665 CrossRef CAS .
+ ###### 
+From cou.: 103 V. R. Saunders, C. Freyria-Fava, R. Dovesi, L. Salasco and C. Roetti, Mol. Phys., 1992, 77, 629–665 CrossRef CAS .
+From Soup: 103 F. G. de Abajo and M. Kociak, Phys. Rev. Lett. , 2008, 100 , 106804 CrossRef .
+ ###### 
+From cou.: 104 F. G. de Abajo and M. Kociak, Phys. Rev. Lett., 2008, 100, 106804 CrossRef .
+From Soup: 104 J. Lang, Y. Baer and P. Cox, J. Phys. F: Met. Phys. , 1981, 11 , 121 CrossRef CAS .
+ ###### 
+From cou.: 105 J. Lang, Y. Baer and P. Cox, J. Phys. F: Met. Phys., 1981, 11, 121 CrossRef CAS .
+From Soup: 105 K. Schwarz, J. Phys. C: Solid State Phys. , 1975, 8 , 809 CrossRef CAS .
+ ###### 
+From cou.: 106 K. Schwarz, J. Phys. C: Solid State Phys., 1975, 8, 809 CrossRef CAS .
+From Soup: 106 M. Nolan, S. Grigoleit, D. C. Sayle, S. C. Parker and G. W. Watson, Surf. Sci. , 2005, 576 , 217–229 CrossRef CAS .
+ ###### 
+From cou.: 107 M. Nolan, S. Grigoleit, D. C. Sayle, S. C. Parker and G. W. Watson, Surf. Sci., 2005, 576, 217–229 CrossRef CAS .
+From Soup: 107 T. Hughbanks and R. Hoffmann, J. Am. Chem. Soc. , 1983, 105 , 3528–3537 CrossRef CAS .
+ ###### 
+From cou.: 108 T. Hughbanks and R. Hoffmann, J. Am. Chem. Soc., 1983, 105, 3528–3537 CrossRef CAS .
+From Soup: 108 V. L. Deringer, A. L. Tchougréeff and R. Dronskowski, J. Phys. Chem. A , 2011, 115 , 5461–5466 CrossRef CAS PubMed .
+ ###### 
+From cou.: 109 V. L. Deringer, A. L. Tchougréeff and R. Dronskowski, J. Phys. Chem. A, 2011, 115, 5461–5466 CrossRef CAS PubMed .
+From Soup: 109 G. Sheldrick, Acta Crystallogr., Sect. A: Found. Crystallogr. , 2008, 64 , 112–122 CrossRef CAS PubMed .
+ ###### 
+From cou.: 110 G. Sheldrick, Acta Crystallogr., Sect. A: Found. Crystallogr., 2008, 64, 112–122 CrossRef CAS PubMed .
+From Soup: 110 M. T. Ruggiero, T. Bardon, M. Strlič, P. F. Taday and T. M. Korter, J. Phys. Chem. A , 2014, 118 , 10101–10108 CrossRef CAS PubMed .
+ ###### 
+From cou.: 111 M. T. Ruggiero, T. Bardon, M. Strlič, P. F. Taday and T. M. Korter, J. Phys. Chem. A, 2014, 118, 10101–10108 CrossRef CAS PubMed .
+From Soup: 111 M. T. Ruggiero, T. Bardon, M. Strlic, P. F. Taday and T. M. Korter, Phys. Chem. Chem. Phys. , 2015, 17 , 9326–9334 RSC .
+ ###### 
+From cou.: 112 M. T. Ruggiero, T. Bardon, M. Strlic, P. F. Taday and T. M. Korter, Phys. Chem. Chem. Phys., 2015, 17, 9326–9334 RSC .
+From Soup: 112 A. D. Becke, J. Chem. Phys. , 1993, 98 , 5648–5652 CrossRef CAS .
+ ###### 
+From cou.: 113 A. D. Becke, J. Chem. Phys., 1993, 98, 5648–5652 CrossRef CAS .
+From Soup: 113 R. Krishnan, J. S. Binkley, R. Seeger and J. A. Pople, J. Chem. Phys. , 1980, 72 , 650–654 CrossRef CAS .
+ ###### 
+From cou.: 114 R. Krishnan, J. S. Binkley, R. Seeger and J. A. Pople, J. Chem. Phys., 1980, 72, 650–654 CrossRef CAS .
+From Soup: 114 M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, B. Mennucci, G. A. Petersson, H. Nakatsuji, M. Caricato, X. Li, H. P. Hratchian, A. F. Izmaylov, J. Bloino, G. Zheng, J. L. Sonnenberg, M. Hada, M. Ehara, K. Toyota, R. Fukuda, J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, T. Vreven, J. A. Montgomery, J. E. Peralta, F. Ogliaro, M. Bearpark, J. J. Heyd, E. Brothers, K. N. Kudin, V. N. Staroverov, R. Kobayashi, J. Normand, K. Raghavachari, A. Rendell, J. C. Burant, S. S. Iyengar, J. Tomasi, M. Cossi, N. Rega, J. M. Millam, M. Klene, J. E. Knox, J. B. Cross, V. Bakken, C. Adamo, J. Jaramillo, R. Gomperts, R. E. Stratmann, O. Yazyev, A. J. Austin, R. Cammi, C. Pomelli, J. W. Ochterski, R. L. Martin, K. Morokuma, V. G. Zakrzewski, G. A. Voth, P. Salvador, J. J. Dannenberg, S. Dapprich, A. D. Daniels, Ö Farkas, J. B. Foresman, J. V. Ortiz, J. Cioslowski and D. J. Fox, Wallingford, CT, 2009 .
+ ###### 
+From cou.: 115 M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, B. Mennucci, G. A. Petersson, H. Nakatsuji, M. Caricato, X. Li, H. P. Hratchian, A. F. Izmaylov, J. Bloino, G. Zheng, J. L. Sonnenberg, M. Hada, M. Ehara, K. Toyota, R. Fukuda, J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, T. Vreven, J. A. Montgomery, J. E. Peralta, F. Ogliaro, M. Bearpark, J. J. Heyd, E. Brothers, K. N. Kudin, V. N. Staroverov, R. Kobayashi, J. Normand, K. Raghavachari, A. Rendell, J. C. Burant, S. S. Iyengar, J. Tomasi, M. Cossi, N. Rega, J. M. Millam, M. Klene, J. E. Knox, J. B. Cross, V. Bakken, C. Adamo, J. Jaramillo, R. Gomperts, R. E. Stratmann, O. Yazyev, A. J. Austin, R. Cammi, C. Pomelli, J. W. Ochterski, R. L. Martin, K. Morokuma, V. G. Zakrzewski, G. A. Voth, P. Salvador, J. J. Dannenberg, S. Dapprich, A. D. Daniels, Ö Farkas, J. B. Foresman, J. V. Ortiz, J. Cioslowski and D. J. Fox, Wallingford, CT, 2009 .
+From Soup: 115 N. M. O'Boyle, A. L. Tenderholt and K. M. Langner, J. Comput. Chem. , 2008, 29 , 839–845 CrossRef PubMed .
+ ###### 
+From cou.: 116 N. M. O'Boyle, A. L. Tenderholt and K. M. Langner, J. Comput. Chem., 2008, 29, 839–845 CrossRef PubMed .
+From Soup: 116 S. Casassa, A. Erba, J. Baima and R. Orlando, J. Comput. Chem. , 2015, 36 , 1940–1946 CAS .
+ ###### 
+From cou.: 117 S. Casassa, A. Erba, J. Baima and R. Orlando, J. Comput. Chem., 2015, 36, 1940–1946 CAS .
+From Soup: 117 G. Alexei, A. Rajeev and E. Olle, J. Phys.: Condens. Matter , 2003, 15 , 7751 CrossRef .
+ ###### 
+From cou.: 118 G. Alexei, A. Rajeev and E. Olle, J. Phys.: Condens. Matter, 2003, 15, 7751 CrossRef .
+From Soup: 118 C. Pisani, Quantum-Mechanical Ab-initio Calculation of the Properties of Crystalline Materials , Springer Berlin, Heidelberg, 1996 Search PubMed .
+ ###### 
+From cou.: 119 C. Pisani, Quantum-Mechanical Ab-initio Calculation of the Properties of Crystalline Materials, Springer Berlin, Heidelberg, 1996 Search PubMed .
+From Soup: 119 I. B. Bersuker, Chem. Rev. , 2001, 101 , 1067–1114 CrossRef CAS PubMed .
+ ###### 
+From cou.: 120 I. B. Bersuker, Chem. Rev., 2001, 101, 1067–1114 CrossRef CAS PubMed .
+From Soup: 120 S. I. Gorelsky, L. Basumallick, J. Vura-Weis, R. Sarangi, K. O. Hodgson, B. Hedman, K. Fujisawa and E. I. Solomon, Inorg. Chem. , 2005, 44 , 4947–4960 CrossRef CAS PubMed .
+ ###### 
+From cou.: 121 S. I. Gorelsky, L. Basumallick, J. Vura-Weis, R. Sarangi, K. O. Hodgson, B. Hedman, K. Fujisawa and E. I. Solomon, Inorg. Chem., 2005, 44, 4947–4960 CrossRef CAS PubMed .
+From Soup: 121 J. K. Labanowski and J. W. Andzelm, Density functional methods in chemistry , Springer Science & Business Media, 2012 Search PubMed .
+ ###### 
+From cou.: 122 J. K. Labanowski and J. W. Andzelm, Density functional methods in chemistry, Springer Science & Business Media, 2012 Search PubMed .

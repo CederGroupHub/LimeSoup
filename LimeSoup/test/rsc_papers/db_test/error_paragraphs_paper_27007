@@ -1,0 +1,475 @@
+From cou.: 0 Journal
+From Soup: 0 J. Mater. Chem. C
+ ###### 
+From cou.: 1 The influence of the alkyl side-chains on the electronic structures, molecular packing and charge transport for five naphthalene diimide (NDI) derivatives, four [1]benzoselenopheno[3,2-b][1]benzoselenophene (BSBS) derivatives and three [1]benzothieno[3,2-b]benzothiophene (BTBT) derivatives is systematically investigated by density functional theory calculations coupled with a tunneling enabled hopping model. The results show that the introduction of long alkyl chains does not affect the energy levels of frontier molecular orbitals and reorganization energies, but can modify the molecular packing in organic semiconductors. It is found that for the π–π stacking systems such as NDI derivatives and BSBS-C10/C14, the charge mobility decreases with alkyl chain length, which is due to the displaced stacking along the short axis of the molecular plane, while for the herringbone stacking systems such as BTBT derivatives and BSBS-C8/C12, the charge mobility increases with alkyl chain length, due to enhanced π⋯π interaction along the stacking direction and the displaced stacking along the short axis of the molecular plane, respectively.
+From Soup: 1 The influence of the alkyl side-chains on the electronic structures, molecular packing and charge transport for five naphthalene diimide (NDI) derivatives, four [1]benzoselenopheno[3,2- b ][1]benzoselenophene (BSBS) derivatives and three [1]benzothieno[3,2- b ]benzothiophene (BTBT) derivatives is systematically investigated by density functional theory calculations coupled with a tunneling enabled hopping model. The results show that the introduction of long alkyl chains does not affect the energy levels of frontier molecular orbitals and reorganization energies, but can modify the molecular packing in organic semiconductors. It is found that for the π–π stacking systems such as NDI derivatives and BSBS-C10 / C14 , the charge mobility decreases with alkyl chain length, which is due to the displaced stacking along the short axis of the molecular plane, while for the herringbone stacking systems such as BTBT derivatives and BSBS-C8 / C12 , the charge mobility increases with alkyl chain length, due to enhanced π⋯π interaction along the stacking direction and the displaced stacking along the short axis of the molecular plane, respectively.
+ ###### 
+From cou.: 2 Organic semiconductors have received great attention for application in field-effect transistors,1,2 light-emitting diodes,3–5 and photovoltaics.6–8 Particularly, solution processing is one of the most attractive features of organic semiconductors due to the advantages such as low cost and large-area device fabrication.9 In order to design ideal air-stable organic transport materials, much effort has been devoted to modifying the conjugated backbones.10–13 Side chains attached to the conjugated cores, such as alkyl, oligo(ethylene glycol), and fluoroalkyl, are usually introduced to ensure solubility for device fabrication. Generally speaking, side chains are considered as insulating materials, and do not directly contribute to charge transport in organic devices. However, there has been increasing attention to side chain engineering due to the substantial impact of side chains on charge mobility, by affecting either the inter-molecular packing or the thin film morphology in the solid state.14–16
+From Soup: 2 Organic semiconductors have received great attention for application in field-effect transistors, 1,2 light-emitting diodes, 3–5 and photovoltaics. 6–8 Particularly, solution processing is one of the most attractive features of organic semiconductors due to the advantages such as low cost and large-area device fabrication. 9 In order to design ideal air-stable organic transport materials, much effort has been devoted to modifying the conjugated backbones. 10–13 Side chains attached to the conjugated cores, such as alkyl, oligo(ethylene glycol), and fluoroalkyl, are usually introduced to ensure solubility for device fabrication. Generally speaking, side chains are considered as insulating materials, and do not directly contribute to charge transport in organic devices. However, there has been increasing attention to side chain engineering due to the substantial impact of side chains on charge mobility, by affecting either the inter-molecular packing or the thin film morphology in the solid state. 14–16
+ ###### 
+From cou.: 3 Alkyl chains are the most commonly employed side chains in conjugated molecules.11 In fact, from the studies based on the same conjugated backbones, it can be found that even a subtle change of the alkyl chains may result in substantial influence on charge transport properties.16 Chain lengths,17–21 branching positions,17,18,22–26 odd–even effects,27,28 and chirality29 of alkyl chains can all affect the charge carrier mobility.16 Firstly, the alkyl chains with an appropriate length have been shown to increase the charge mobility significantly for a number of conjugated small molecule17 and polymer semiconductors.18–21 The increase of the charge carrier mobility has been accounted for by the improved surface morphology for copolymers containing dithiophene units and dithienyl-diketopyrrolopyrrole (DPP) with branched alkyl chains of 2-octyldodecyl (2-C8C12) or 2-decyltetradecyl (2-C10C14).18 It was also attributed to the shortened π–π distances in polymers containing (E)-2-(2-(thiophen-2-yl)vinyl)thiophene units and dithienyl-(DPP) with branched alkyl chains of 2-C8C12 or 2-C10C14.19 Improved crystalline ordering for polymers containing thienothiophene and dithienyl-(DPP) units carrying branched alkyl chains of 2-hexyldecyl (2-C6C10) or 2-C8C12 has also been argued.20 Nevertheless, by increasing the alkyl chain length from 2-C6C10 to 2-C8C12, the decrease of the charge carrier mobility of the devices formed by the thiophene–diketopyrrolopyrrole based quinoidal small molecules was caused by the poor crystalline ordering.17 Secondly, it was found that the branching position of the alkyl chains has noticeable influence on the charge transport for both small molecule17,25,26 and polymer18,22–24 semiconductors. Previous studies showed that gradually moving the branching position away from the backbone could gradually decrease π–π stacking distances and lead to an increase of the charge carrier mobility.17,18,22–24 The devices based on thiophene–diketopyrrolopyrrole with an alkyl chain branched at the third carbon position displayed the most best performance.17 For the DPP polymers, the best performance devices were obtained by using the branched alkyl chains of 4-decylcetyl (4-C10C16)18 and 5-decylheptadecyl (5-C10C17),22 respectively. The devices exhibiting high mobilities were formed by benzodifurandione-based poly(p-phenylene vinylene) and the isoindigo-based conjugated polymers with branched alkyl chains of 4-octadecyldocosyl (4-C18C22)23 and 4-decyltetradecyl (4-C10C14),24 respectively. However, the movement of the branching alkyl chain position away from the backbone does not always improve the film quality.17,23 Thirdly, the odd–even effect of alkyl chains exerts its influence on crystal packing and charge transport. Akkerman et al.27 reported the odd–even effect of the alkyl-substituted diphenylbithiophene (P2TP) systems. The results showed that despite the pronounced odd–even effect in the tilt angle with increasing alkyl chain length for the film structure, no clear odd–even effect of dependence of alkyl chain length on mobility was observed in FET measurements, which is likely due to the contribution of several layers to the charge transport and other limiting factors for the charge transport. Back et al.28 investigated a series of diketopyrrolopyrrole-selenophene vinylene selenophene (DPP-SVS) polymers, ranging from 25-DPP-SVS to 32-DPP-SVS with branched alkyl groups containing linear spacer groups from C2 to C9. Spacer groups with even numbers of carbon atoms exhibited shorter lattice spacing than did spacer groups with odd numbers of carbon atoms, resulting in one order of magnitude higher charge mobility. Finally, to investigate the stereoisomerism effect of alkyl chains, Liu et al. separated and identified three stereoisomers of DPP(TBFu)2, i.e., the mesomer, RR-isomers and SS-isomers.29 The RR- and SS-isomers have similar crystal structures, thin-film morphologies, and FET properties. The mesomer has the best FET performance due to its shorter π–π stacking, which is about 4 times higher than that of the RR- and SS-isomers.
+From Soup: 3 Alkyl chains are the most commonly employed side chains in conjugated molecules. 11 In fact, from the studies based on the same conjugated backbones, it can be found that even a subtle change of the alkyl chains may result in substantial influence on charge transport properties. 16 Chain lengths, 17–21 branching positions, 17,18,22–26 odd–even effects, 27,28 and chirality 29 of alkyl chains can all affect the charge carrier mobility. 16 Firstly, the alkyl chains with an appropriate length have been shown to increase the charge mobility significantly for a number of conjugated small molecule 17 and polymer semiconductors. 18–21 The increase of the charge carrier mobility has been accounted for by the improved surface morphology for copolymers containing dithiophene units and dithienyl-diketopyrrolopyrrole (DPP) with branched alkyl chains of 2-octyldodecyl (2-C8C12) or 2-decyltetradecyl (2-C10C14). 18 It was also attributed to the shortened π–π distances in polymers containing ( E )-2-(2-(thiophen-2-yl)vinyl)thiophene units and dithienyl-(DPP) with branched alkyl chains of 2-C8C12 or 2-C10C14. 19 Improved crystalline ordering for polymers containing thienothiophene and dithienyl-(DPP) units carrying branched alkyl chains of 2-hexyldecyl (2-C6C10) or 2-C8C12 has also been argued. 20 Nevertheless, by increasing the alkyl chain length from 2-C6C10 to 2-C8C12, the decrease of the charge carrier mobility of the devices formed by the thiophene–diketopyrrolopyrrole based quinoidal small molecules was caused by the poor crystalline ordering. 17 Secondly, it was found that the branching position of the alkyl chains has noticeable influence on the charge transport for both small molecule 17,25,26 and polymer 18,22–24 semiconductors. Previous studies showed that gradually moving the branching position away from the backbone could gradually decrease π–π stacking distances and lead to an increase of the charge carrier mobility. 17,18,22–24 The devices based on thiophene–diketopyrrolopyrrole with an alkyl chain branched at the third carbon position displayed the most best performance. 17 For the DPP polymers, the best performance devices were obtained by using the branched alkyl chains of 4-decylcetyl (4-C10C16) 18 and 5-decylheptadecyl (5-C10C17), 22 respectively. The devices exhibiting high mobilities were formed by benzodifurandione-based poly( p -phenylene vinylene) and the isoindigo-based conjugated polymers with branched alkyl chains of 4-octadecyldocosyl (4-C18C22) 23 and 4-decyltetradecyl (4-C10C14), 24 respectively. However, the movement of the branching alkyl chain position away from the backbone does not always improve the film quality. 17,23 Thirdly, the odd–even effect of alkyl chains exerts its influence on crystal packing and charge transport. Akkerman et al. 27 reported the odd–even effect of the alkyl-substituted diphenylbithiophene (P2TP) systems. The results showed that despite the pronounced odd–even effect in the tilt angle with increasing alkyl chain length for the film structure, no clear odd–even effect of dependence of alkyl chain length on mobility was observed in FET measurements, which is likely due to the contribution of several layers to the charge transport and other limiting factors for the charge transport. Back et al. 28 investigated a series of diketopyrrolopyrrole-selenophene vinylene selenophene (DPP-SVS) polymers, ranging from 25-DPP-SVS to 32-DPP-SVS with branched alkyl groups containing linear spacer groups from C2 to C9. Spacer groups with even numbers of carbon atoms exhibited shorter lattice spacing than did spacer groups with odd numbers of carbon atoms, resulting in one order of magnitude higher charge mobility. Finally, to investigate the stereoisomerism effect of alkyl chains, Liu et al. separated and identified three stereoisomers of DPP(TBFu) 2 , i.e. , the mesomer, RR -isomers and SS -isomers. 29 The RR - and SS -isomers have similar crystal structures, thin-film morphologies, and FET properties. The mesomer has the best FET performance due to its shorter π–π stacking, which is about 4 times higher than that of the RR - and SS -isomers.
+ ###### 
+From cou.: 4 Alkyl side-chains attached to the conjugated backbone may introduce two competing effects: the steric hindrance and the intermolecular dispersive attraction. Firstly, the steric hindrance of the alkyl chains with the backbone could be minimized by moving the branching point away from the backbone; thus small molecules or polymers present gradually decreasing π–π stacking distances, resulting in increasing mobility.22,24 Nevertheless, a closer π–π stacking distance does not always correlate with higher mobility.23 Secondly, the chain–chain interactions ascribed to attractive dispersion forces systematically increase with increasing alkyl chain length and are the main source of the increase in the total cohesive energy;30 thus polymers present decreased π–π stacking distances, resulting in increasing mobility.19 As a result, choosing an appropriate alkyl chain as a substituent is becoming an important strategy to design high performance organic semiconductors. To date, there have been very few theoretical studies on the influence of the alkyl chain length on the charge transport properties of small-molecule organic semiconductors, which have shown that the transfer integrals with longer alkyl chains (n ≥ 5) have isotropic values and those with shorter alkyl chains become highly anisotropic.30
+From Soup: 4 Alkyl side-chains attached to the conjugated backbone may introduce two competing effects: the steric hindrance and the intermolecular dispersive attraction. Firstly, the steric hindrance of the alkyl chains with the backbone could be minimized by moving the branching point away from the backbone; thus small molecules or polymers present gradually decreasing π–π stacking distances, resulting in increasing mobility. 22,24 Nevertheless, a closer π–π stacking distance does not always correlate with higher mobility. 23 Secondly, the chain–chain interactions ascribed to attractive dispersion forces systematically increase with increasing alkyl chain length and are the main source of the increase in the total cohesive energy; 30 thus polymers present decreased π–π stacking distances, resulting in increasing mobility. 19 As a result, choosing an appropriate alkyl chain as a substituent is becoming an important strategy to design high performance organic semiconductors. To date, there have been very few theoretical studies on the influence of the alkyl chain length on the charge transport properties of small-molecule organic semiconductors, which have shown that the transfer integrals with longer alkyl chains ( n ≥ 5) have isotropic values and those with shorter alkyl chains become highly anisotropic. 30
+ ###### 
+From cou.: 5 In this work, we are interested in the influence of alkyl chain length on the charge mobility of small-molecule organic semiconductors. Naphthalene diimides are a class of extensively investigated electron transport organic semiconductors.11 In general, these materials exhibit good conducting properties. Their geometries and electronic properties can be obtained through variation of the substituents on the imide nitrogen atoms or in the naphthalene core. It was found that naphthalene diimides with alkyl chain substituents on the imide nitrogen atoms exhibited different magnitudes of electron mobility.31,32 On the other hand, [1]benzothieno[3,2-b]benzothiophene (BTBT) derivatives11,33–37 and [1]benzoselenopheno[3,2-b][1]benzoselenophene (BSBS) derivatives11,33,38 have been widely employed as hole transport materials in organic field-effect transistors. When the alkyl chains have been introduced into the BTBT molecule, i.e. BTBT-C8, BTBT-C10, and BTBT-C12, the order of the overall field-effect mobility is BTBT-C12 > BTBT-C10 > BTBT-C8 in BTBT-based devices.36 However, the charge carrier mobility of BTBT-C8 can reach as high as 31.3 cm2 V−1 s−1 based on its single crystal films.34 The theoretical study by a mixed molecular dynamics and quantum-chemical methodology showed that the effect of dynamic disorder on charge transport can be neglected.39 The dihedral angle dependence of transfer integrals in BTBT exhibited a pattern much different from the conventional organic semiconductors and showed that a considerable magnitude of transfer integral was expected in the large dihedral angle region.40 For the BSBS derivatives, the introduction of alkyl chains of different lengths can induce charge carrier mobility of different magnitudes.38 These phenomena are consistent with what we all know, the performance of organic semiconductor based devices depends on the length of alkyl chains attached to their main backbone. Therefore, we systematically study the charge transport properties of NDI, BSBS, and BTBT molecules with different lengths of alkyl chains.
+From Soup: 5 In this work, we are interested in the influence of alkyl chain length on the charge mobility of small-molecule organic semiconductors. Naphthalene diimides are a class of extensively investigated electron transport organic semiconductors. 11 In general, these materials exhibit good conducting properties. Their geometries and electronic properties can be obtained through variation of the substituents on the imide nitrogen atoms or in the naphthalene core. It was found that naphthalene diimides with alkyl chain substituents on the imide nitrogen atoms exhibited different magnitudes of electron mobility. 31,32 On the other hand, [1]benzothieno[3,2- b ]benzothiophene (BTBT) derivatives 11,33–37 and [1]benzoselenopheno[3,2- b ][1]benzoselenophene (BSBS) derivatives 11,33,38 have been widely employed as hole transport materials in organic field-effect transistors. When the alkyl chains have been introduced into the BTBT molecule, i.e. BTBT-C8, BTBT-C10, and BTBT-C12, the order of the overall field-effect mobility is BTBT-C12 > BTBT-C10 > BTBT-C8 in BTBT-based devices. 36 However, the charge carrier mobility of BTBT-C8 can reach as high as 31.3 cm 2 V −1 s −1 based on its single crystal films. 34 The theoretical study by a mixed molecular dynamics and quantum-chemical methodology showed that the effect of dynamic disorder on charge transport can be neglected. 39 The dihedral angle dependence of transfer integrals in BTBT exhibited a pattern much different from the conventional organic semiconductors and showed that a considerable magnitude of transfer integral was expected in the large dihedral angle region. 40 For the BSBS derivatives, the introduction of alkyl chains of different lengths can induce charge carrier mobility of different magnitudes. 38 These phenomena are consistent with what we all know, the performance of organic semiconductor based devices depends on the length of alkyl chains attached to their main backbone. Therefore, we systematically study the charge transport properties of NDI, BSBS, and BTBT molecules with different lengths of alkyl chains.
+ ###### 
+From cou.: 6 Since the charge transfer process often coupled intramolecular high frequency vibration in organic semiconductors, we employed the tunneling enabled hopping model to describe the charge transport, which has been shown to give a reasonable description.41–43 In this model, each hopping event is viewed as a non-adiabatic electron transfer reaction, i.e., the charge transfer (for electron) between two adjacent molecules follows the reaction M + M− → M− + M, where M is the molecule undergoing the electron transfer. The quantum mechanical charge transfer rate, under the perturbation theory and the displaced harmonic oscillator approximation, can be deduced from the Fermi Golden RuleHere, Vfi is the transfer integral between the final and initial states. For the self-exchange reaction, ωfi = ΔG°/ℏ goes to zero, where ΔG° is the Gibbs free energy difference between the final state and the initial state. Sj = λj/ℏωj is the Huang–Rhys factor of the j-th normal mode, which is a measure of the electron–phonon coupling strength. ωj and λj are the vibrational frequency and reorganization energy of the vibrational mode j, respectively. j = 1/(eℏωj/kBT − 1) is the phonon occupation number of the j-th normal mode. It should be noted that the convergence of the numerical integration of eqn (1) can be achieved by choosing the vibrational mode with the largest Huang–Rhys factor with short time approximation.
+From Soup: 6 Since the charge transfer process often coupled intramolecular high frequency vibration in organic semiconductors, we employed the tunneling enabled hopping model to describe the charge transport, which has been shown to give a reasonable description. 41–43 In this model, each hopping event is viewed as a non-adiabatic electron transfer reaction, i.e. , the charge transfer (for electron) between two adjacent molecules follows the reaction M + M − → M − + M, where M is the molecule undergoing the electron transfer. The quantum mechanical charge transfer rate, under the perturbation theory and the displaced harmonic oscillator approximation, can be deduced from the Fermi Golden Rule Here, V fi is the transfer integral between the final and initial states. For the self-exchange reaction, ω fi = Δ G °/ℏ goes to zero, where Δ G ° is the Gibbs free energy difference between the final state and the initial state. S j = λ j /ℏ ω j is the Huang–Rhys factor of the j -th normal mode, which is a measure of the electron–phonon coupling strength. ω j and λ j are the vibrational frequency and reorganization energy of the vibrational mode j , respectively. j = 1/(e ℏ ω j / k B T − 1) is the phonon occupation number of the j -th normal mode. It should be noted that the convergence of the numerical integration of eqn (1) can be achieved by choosing the vibrational mode with the largest Huang–Rhys factor with short time approximation.
+ ###### 
+From cou.: 7 From eqn (1), it can be seen that the electron transfer integral Vfi, vibrational frequency ωj, and the Huang–Rhys factor Sj are three important parameters to determine the charge transfer rate. The transfer integrals for the nearest-neighbor dimers along the transport pathways in bulk crystals are calculated using the site energy correction method,44–46 which reads
+From Soup: 7 From eqn (1) , it can be seen that the electron transfer integral V fi , vibrational frequency ω j , and the Huang–Rhys factor S j are three important parameters to determine the charge transfer rate. The transfer integrals for the nearest-neighbor dimers along the transport pathways in bulk crystals are calculated using the site energy correction method, 44–46 which reads
+ ###### 
+From cou.: 8 V
+From Soup: 8 V
+ ###### 
+From cou.: 9 0
+From Soup: 9 0
+ ###### 
+From cou.: 10 mn
+From Soup: 10 mn
+ ###### 
+From cou.: 11 Φ
+From Soup: 11 Φ
+ ###### 
+From cou.: 12 m
+From Soup: 12 m
+ ###### 
+From cou.: 13 H
+From Soup: 13 H
+ ###### 
+From cou.: 14 Φ
+From Soup: 14 Φ
+ ###### 
+From cou.: 15 n
+From Soup: 15 n
+ ###### 
+From cou.: 16 e
+From Soup: 16 e
+ ###### 
+From cou.: 17 m
+From Soup: 17 m ( n )
+ ###### 
+From cou.: 18 n
+From Soup: 18 Φ
+ ###### 
+From cou.: 19 Φ
+From Soup: 19 m ( n )
+ ###### 
+From cou.: 20 m
+From Soup: 20 H
+ ###### 
+From cou.: 21 n
+From Soup: 21 Φ
+ ###### 
+From cou.: 22 H
+From Soup: 22 m ( n )
+ ###### 
+From cou.: 23 Φ
+From Soup: 23 S
+ ###### 
+From cou.: 24 m
+From Soup: 24 mn
+ ###### 
+From cou.: 25 n
+From Soup: 25 Φ
+ ###### 
+From cou.: 26 S
+From Soup: 26 m
+ ###### 
+From cou.: 27 mn
+From Soup: 27 S
+ ###### 
+From cou.: 28 Φ
+From Soup: 28 Φ
+ ###### 
+From cou.: 29 m
+From Soup: 29 n
+ ###### 
+From cou.: 30 S
+From Soup: 30 Φ
+ ###### 
+From cou.: 31 Φ
+From Soup: 31 m ( n )
+ ###### 
+From cou.: 32 n
+From Soup: 32 m
+ ###### 
+From cou.: 33 Φ
+From Soup: 33 n
+ ###### 
+From cou.: 34 m
+From Soup: 34 H
+ ###### 
+From cou.: 35 n
+From Soup: 35 S
+ ###### 
+From cou.: 36 m
+From Soup: 36 39,47
+ ###### 
+From cou.: 37 n
+From Soup: 37 48
+ ###### 
+From cou.: 38 H
+From Soup: 38 S
+ ###### 
+From cou.: 39 S
+From Soup: 39 j
+ ###### 
+From cou.: 40 39,47
+From Soup: 40 λ
+ ###### 
+From cou.: 41 48
+From Soup: 41 j
+ ###### 
+From cou.: 42 S
+From Soup: 42 49
+ ###### 
+From cou.: 43 j
+From Soup: 43 λ
+ ###### 
+From cou.: 44 λ
+From Soup: 44 int
+ ###### 
+From cou.: 45 j
+From Soup: 45 λ
+ ###### 
+From cou.: 46 49
+From Soup: 46 ext
+ ###### 
+From cou.: 47 λ
+From Soup: 47 vice versa
+ ###### 
+From cou.: 48 λ
+From Soup: 48 50
+ ###### 
+From cou.: 49 vice versa
+From Soup: 49 51
+ ###### 
+From cou.: 50 50
+From Soup: 50 49
+ ###### 
+From cou.: 51 51
+From Soup: 51 Q
+ ###### 
+From cou.: 52 49
+From Soup: 52 i
+ ###### 
+From cou.: 53 Q
+From Soup: 53 i
+ ###### 
+From cou.: 54 i
+From Soup: 54 Within the hopping model, the charge mobility can be expressed by the Einstein relation:
+ ###### 
+From cou.: 55 i
+From Soup: 55 D
+ ###### 
+From cou.: 56 Within the hopping model, the charge mobility can be expressed by the Einstein relation:
+From Soup: 56 k
+ ###### 
+From cou.: 57 D
+From Soup: 57 mn
+ ###### 
+From cou.: 58 k
+From Soup: 58 m
+ ###### 
+From cou.: 59 mn
+From Soup: 59 n
+ ###### 
+From cou.: 60 m
+From Soup: 60 n
+ ###### 
+From cou.: 61 n
+From Soup: 61 m
+ ###### 
+From cou.: 62 n
+From Soup: 62 α
+ ###### 
+From cou.: 63 m
+From Soup: 63 In addition, to better understand the nature of noncovalent interaction between alkyl chains, the total interaction energies and magnitudes of the noncovalent interaction between two molecules are calculated by symmetry-adapted perturbation theory (SAPT), 52 which is a basis set superposition error free energy partition method. SAPT provides decomposition of the interaction energy into physically meaningful components, i.e. , the electrostatic, dispersion, induction and exchange. In SAPT, the Hamiltonian of a dimer is partitioned into contributions from each monomer and the interaction as
+ ###### 
+From cou.: 64 α
+From Soup: 64 F
+ ###### 
+From cou.: 65 In addition, to better understand the nature of noncovalent interaction between alkyl chains, the total interaction energies and magnitudes of the noncovalent interaction between two molecules are calculated by symmetry-adapted perturbation theory (SAPT),52 which is a basis set superposition error free energy partition method. SAPT provides decomposition of the interaction energy into physically meaningful components, i.e., the electrostatic, dispersion, induction and exchange. In SAPT, the Hamiltonian of a dimer is partitioned into contributions from each monomer and the interaction as
+From Soup: 65 W
+ ###### 
+From cou.: 66 F
+From Soup: 66 V
+ ###### 
+From cou.: 67 W
+From Soup: 67 F
+ ###### 
+From cou.: 68 V
+From Soup: 68 V
+ ###### 
+From cou.: 69 F
+From Soup: 69 W
+ ###### 
+From cou.: 70 V
+From Soup: 70 E
+ ###### 
+From cou.: 71 W
+From Soup: 71 (vw)
+ ###### 
+From cou.: 72 E
+From Soup: 72 V
+ ###### 
+From cou.: 73 (vw)
+From Soup: 73 W
+ ###### 
+From cou.: 74 V
+From Soup: 74 53
+ ###### 
+From cou.: 75 W
+From Soup: 75 54,55
+ ###### 
+From cou.: 76 53
+From Soup: 76 i.e.
+ ###### 
+From cou.: 77 54,55
+From Soup: 77 All the compounds investigated here are illustrated in Fig. 1 . The crystal structures are taken from the Cambridge Structure Database. All the molecular geometries have been optimized at the B3LYP/6-31G(d) level of theory starting from the crystal structure. The energy levels and distributions of the frontier molecular orbitals of the compounds have been obtained at the same level of theory. As presented in Fig. 2 , taking the compounds with the shortest and longest alkyl chains as examples, respectively, we find that both HOMO and LUMO are spread over the whole rigid π-conjugated skeletons. Especially, for the naphthalene diimide, the substitution position of the alkyl chains locates at the nodes and there is no density distribution on the substitution groups. On the other hand, for the BTBT derivatives and BSBS derivatives, the alkyl chain substituents make only very little contribution to the HOMO and LUMO. Thus, alkyl chains with different lengths cannot affect the energy level of frontier molecular orbitals of the systems. This can be seen from the values of HOMO and LUMO orbitals as presented in Table 1 .
+ ###### 
+From cou.: 78 i.e.
+From Soup: 78 Adiabatic electron affinity (AEA) is the energy difference between a neutral species and its anionic species. And adiabatic ionization potential (AIP) is the energy difference between cationic and neutral species. From previous studies, the adiabatic electron affinities of air-stable n-channel materials are in the range of 2.41 eV to 3.14 eV and the adiabatic ionization potentials of air-stable p-channel materials are in the range of 5.905 eV to 7.02 eV. 56 The adiabatic electron affinities (AEA) and ionization potentials (AIP) of the alkyl chain derivatives are shown in Table 1 . AEA values of NDI derivatives fit well for the air-stable n-channel materials. Moreover, the AIP values of BTBT derivatives and BSBS derivatives are within the range of AIP values for air-stable p-channel materials. The alkyl chain length has little effect on the values of AEA and AIP.
+ ###### 
+From cou.: 79 All the compounds investigated here are illustrated in Fig. 1. The crystal structures are taken from the Cambridge Structure Database. All the molecular geometries have been optimized at the B3LYP/6-31G(d) level of theory starting from the crystal structure. The energy levels and distributions of the frontier molecular orbitals of the compounds have been obtained at the same level of theory. As presented in Fig. 2, taking the compounds with the shortest and longest alkyl chains as examples, respectively, we find that both HOMO and LUMO are spread over the whole rigid π-conjugated skeletons. Especially, for the naphthalene diimide, the substitution position of the alkyl chains locates at the nodes and there is no density distribution on the substitution groups. On the other hand, for the BTBT derivatives and BSBS derivatives, the alkyl chain substituents make only very little contribution to the HOMO and LUMO. Thus, alkyl chains with different lengths cannot affect the energy level of frontier molecular orbitals of the systems. This can be seen from the values of HOMO and LUMO orbitals as presented in Table 1.
+From Soup: 79 The reorganization energy is an essential molecular parameter. The calculated values of all compounds are shown in Table 1 . NDI derivatives are very close to each other, and the same can be found for BTBT and BSBS derivatives. That is to say, the reorganization energies barely change with the increasing length of alkyl chains, as the alkyl chain makes few contributions to the frontier orbitals of the whole molecules.
+ ###### 
+From cou.: 80 Adiabatic electron affinity (AEA) is the energy difference between a neutral species and its anionic species. And adiabatic ionization potential (AIP) is the energy difference between cationic and neutral species. From previous studies, the adiabatic electron affinities of air-stable n-channel materials are in the range of 2.41 eV to 3.14 eV and the adiabatic ionization potentials of air-stable p-channel materials are in the range of 5.905 eV to 7.02 eV.56 The adiabatic electron affinities (AEA) and ionization potentials (AIP) of the alkyl chain derivatives are shown in Table 1. AEA values of NDI derivatives fit well for the air-stable n-channel materials. Moreover, the AIP values of BTBT derivatives and BSBS derivatives are within the range of AIP values for air-stable p-channel materials. The alkyl chain length has little effect on the values of AEA and AIP.
+From Soup: 80 The reorganization energy can be decomposed into all the vibration mode relaxations, as shown in Fig. 3 for NDI-C14 , BTBT-C12 , and BSBS-C14 . For NDI-C14 , the distribution profiles in both neutral states and anion states are similar, with one bunch of modes in the low frequency region (around 500 cm −1 ) and the other in the high frequency region (around 1500 cm −1 ). The contribution from the high frequency region, which mainly arises from the C C in-plane stretching motion in the conjugated core, is much larger than that from the low frequency modes. A similar distribution of the mode-decomposed contribution to the reorganization energy can be seen in BTBT-C12 and BSBS-C14 . Previous studies showed that the high-frequency vibration should be treated fully quantum mechanically. 43 Therefore, the nuclear quantum effect needs to be taken into account when calculating the charge transfer rate.
+ ###### 
+From cou.: 81 The reorganization energy is an essential molecular parameter. The calculated values of all compounds are shown in Table 1. NDI derivatives are very close to each other, and the same can be found for BTBT and BSBS derivatives. That is to say, the reorganization energies barely change with the increasing length of alkyl chains, as the alkyl chain makes few contributions to the frontier orbitals of the whole molecules.
+From Soup: 81 The charge transport properties of organic semiconductors are highly sensitive to the relative orientations and packing characters of the organic molecules. According to the crystal structure of the systems and the calculated transfer integrals, we divide the studied systems into two categories: π–π stacking and herringbone stacking, as shown in Fig. 4 and 7 . For comparison, the π-conjugated backbone with no alkyl chain substituents ( i.e. NDI-C0 , BTBT-C0 , BSBS-C0 ) has also been considered. Obviously, NDI-C0 also adopts the π–π stacking and BTBT-C0 and BSBS-C0 adopt the herringbone stacking, while the structures of these π-conjugated backbones with no alkyl chain are changed markedly compared with those of systems with alkyl chains. Thus the main concern of this paper is to focus on the properties of the latter. More details of the properties of π-conjugated backbones with no alkyl chains are provided in the ESI. †
+ ###### 
+From cou.: 82 The reorganization energy can be decomposed into all the vibration mode relaxations, as shown in Fig. 3 for NDI-C14, BTBT-C12, and BSBS-C14. For NDI-C14, the distribution profiles in both neutral states and anion states are similar, with one bunch of modes in the low frequency region (around 500 cm−1) and the other in the high frequency region (around 1500 cm−1). The contribution from the high frequency region, which mainly arises from the CC in-plane stretching motion in the conjugated core, is much larger than that from the low frequency modes. A similar distribution of the mode-decomposed contribution to the reorganization energy can be seen in BTBT-C12 and BSBS-C14. Previous studies showed that the high-frequency vibration should be treated fully quantum mechanically.43 Therefore, the nuclear quantum effect needs to be taken into account when calculating the charge transfer rate.
+From Soup: 82 3.3.1 π–π stacking.
+ ###### 
+From cou.: 83 The charge transport properties of organic semiconductors are highly sensitive to the relative orientations and packing characters of the organic molecules. According to the crystal structure of the systems and the calculated transfer integrals, we divide the studied systems into two categories: π–π stacking and herringbone stacking, as shown in Fig. 4 and 7. For comparison, the π-conjugated backbone with no alkyl chain substituents (i.e.NDI-C0, BTBT-C0, BSBS-C0) has also been considered. Obviously, NDI-C0 also adopts the π–π stacking and BTBT-C0 and BSBS-C0 adopt the herringbone stacking, while the structures of these π-conjugated backbones with no alkyl chain are changed markedly compared with those of systems with alkyl chains. Thus the main concern of this paper is to focus on the properties of the latter. More details of the properties of π-conjugated backbones with no alkyl chains are provided in the ESI.†
+From Soup: 83 As presented in Fig. 4 , five NDI derivatives and two BSBS derivatives adopt the π–π stacking layered configuration. The lateral displacements of the stacking pairs along the short-axis and the long-axis as well as the vertical distances depend on the length of alkyl side-chains. It is noted that the transfer integrals along P1 and P2 pathways are much larger than for the other pathways, as presented in Fig. 4 and Table 2 .
+ ###### 
+From cou.: 84 3.3.1 π–π stacking.
+From Soup: 84 On the other hand, as listed in Table 2 the transfer integrals along a similar pathway exhibit large variations with the length of alkyl chains for either NDI or BSBS derivatives, although the crystal stacking configuration is similar as illustrated in Fig. 4 . In order to investigate the influence of the alkyl chain length on the molecular packing, we only consider the dimers possessing the maximal transfer integral ( P1 and P2 ) for NDI derivatives and BSBS derivatives. The calculated transfer integrals and the corresponding intermolecular distances, including the centroid distances of the selected dimers, the perpendicular distance between the NDI or BSBS core planes, and the displacements along the molecular short and long axis as defined in Fig. 5 , are provided in Table 3 . Obviously, the absolute values of transfer integrals of the NDI derivatives decrease with the increasing length of alkyl chains. The same behavior has also been found for the BSBS derivatives. We first look at the NDI derivatives. The transfer integrals are determined directly by three independent structural parameters, i.e. , interplane distances ( d P ) and the displacements along the long ( d L ) and the short ( d S ) molecular axis. The centroid distances are determined by these three parameters. As we already know, the transfer integral reduces monotonically with the increase of the interplane distance between the dimers. 57,58 However, we see that with an increase of the alkyl chain length, the variation of the interplane distance is so small that its influence on the transfer integrals can be neglected. Therefore, the reduction of the transfer integral from NDI-C4 to NDI-C14 is ascribed to the variation of displacements along the short and long axis. Similarly, for BSBS derivatives, only the displacement along the short axis from BSBS-C10 to BSBS-C14 reduces significantly. Thus, the reduction of transfer integrals with the increasing length of alkyl chains can be attributed to the variation of displacement along the short molecular axis.
+ ###### 
+From cou.: 85 As presented in Fig. 4, five NDI derivatives and two BSBS derivatives adopt the π–π stacking layered configuration. The lateral displacements of the stacking pairs along the short-axis and the long-axis as well as the vertical distances depend on the length of alkyl side-chains. It is noted that the transfer integrals along P1 and P2 pathways are much larger than for the other pathways, as presented in Fig. 4 and Table 2.
+From Soup: 85 To show how the intermolecular packing influences the transfer integral, a simple model of NDI and BSBS (R H as illustrated in Fig. 1 ) is employed to discuss the evolution of the transfer integrals as a function of long molecular axis ( d L ) and short molecular axis displacements ( d S ) by sliding one molecule over the other in a cofacial configuration. This evolution method has also been applied to similar systems. 40,59–62 As seen above, the substituents at the imide position make no contribution to the HOMO and LUMO of all NDI compounds, and the alkyl chain substituents for BSBS derivatives make a minor contribution to the HOMO and LUMO. Therefore, we can employ the simplified models to investigate the relationship between intermolecular packing and transfer integrals. Fig. 6 gives a more intuitive description of the sensitivity of the transfer integral to intermolecular orientation for NDI ( Fig. 6a and b ) and BSBS ( Fig. 6c and d ). According to Fig. 6a , the absolute values of electron transfer integrals are oscillating with increasing displacements along both the long molecular axis and the short molecular axis and the oscillations are more obvious when along the short axis, which are consistent with the previous study. 58,63 Moreover, the location of P1 dimers of NDI derivatives listed in Table 3 is labelled in the two-dimensional contour plot (shown in Fig. 6b ). Obviously, the relative magnitudes of electron transfer integrals of these simple models are consistent with those of dimers with alkyl chains. As illustrated in Fig. 6c , the oscillating values of the hole transfer integral along the short and long axis depend on the HOMO feature of BSBS, and the relative magnitudes of the hole transfer integral of BSBS-C10 and BSBS-C14 can be found in the two-dimensional contour plot (shown in Fig. 6d ).
+ ###### 
+From cou.: 86 On the other hand, as listed in Table 2 the transfer integrals along a similar pathway exhibit large variations with the length of alkyl chains for either NDI or BSBS derivatives, although the crystal stacking configuration is similar as illustrated in Fig. 4. In order to investigate the influence of the alkyl chain length on the molecular packing, we only consider the dimers possessing the maximal transfer integral (P1 and P2) for NDI derivatives and BSBS derivatives. The calculated transfer integrals and the corresponding intermolecular distances, including the centroid distances of the selected dimers, the perpendicular distance between the NDI or BSBS core planes, and the displacements along the molecular short and long axis as defined in Fig. 5, are provided in Table 3. Obviously, the absolute values of transfer integrals of the NDI derivatives decrease with the increasing length of alkyl chains. The same behavior has also been found for the BSBS derivatives. We first look at the NDI derivatives. The transfer integrals are determined directly by three independent structural parameters, i.e., interplane distances (dP) and the displacements along the long (dL) and the short (dS) molecular axis. The centroid distances are determined by these three parameters. As we already know, the transfer integral reduces monotonically with the increase of the interplane distance between the dimers.57,58 However, we see that with an increase of the alkyl chain length, the variation of the interplane distance is so small that its influence on the transfer integrals can be neglected. Therefore, the reduction of the transfer integral from NDI-C4 to NDI-C14 is ascribed to the variation of displacements along the short and long axis. Similarly, for BSBS derivatives, only the displacement along the short axis from BSBS-C10 to BSBS-C14 reduces significantly. Thus, the reduction of transfer integrals with the increasing length of alkyl chains can be attributed to the variation of displacement along the short molecular axis.
+From Soup: 86 To further understand how alkyl chains affect the intermolecular interactions and the packing in NDI derivatives, the total interaction energies and magnitudes of the noncovalent interaction between two molecules are determined by SAPT. Using the crystal packing configuration, the dimers with the largest transfer integral ( P1 pathway, as presented in Fig. 4 ) are extracted. In order to reduce the calculation time, we consider simplified models of the molecules (named as sNDI-C n , n = 4, 5, 6, 12, 14), i.e. , the alkyl chain on one side of the backbone is replaced by a hydrogen atom. The packing of sNDI-C n dimers is consistent with that along P1 . The SAPT(0) total energies and energy decompositions are presented in Table 4 . Comparisons of the four components of the total energies show that the attractive dispersion energy should play a predominant role in stabilizing the dimer. The dispersion energy alone is able to provide net stabilization in each dimer as the exchange energy is smaller than the dispersion energy in absolute values. On the other hand, from the SAPT(0) interaction energies, we find that the dimers are increasingly stabilized with increasing alkyl chain length. Only the dispersion energies of sNDI-C n dimers increase with the alkyl chain length, which results from the interactions between alkyl chains. The previous study has suggested that, the stabilizing interaction between methane dimers mainly arises from the dispersion energy. 64 Therefore, with the increasing length of alkyl chains, a considerable influence of the packing of NDI derivatives arises from an increase in stabilizing dispersion interactions between alkyl chains.
+ ###### 
+From cou.: 87 To show how the intermolecular packing influences the transfer integral, a simple model of NDI and BSBS (RH as illustrated in Fig. 1) is employed to discuss the evolution of the transfer integrals as a function of long molecular axis (dL) and short molecular axis displacements (dS) by sliding one molecule over the other in a cofacial configuration. This evolution method has also been applied to similar systems.40,59–62 As seen above, the substituents at the imide position make no contribution to the HOMO and LUMO of all NDI compounds, and the alkyl chain substituents for BSBS derivatives make a minor contribution to the HOMO and LUMO. Therefore, we can employ the simplified models to investigate the relationship between intermolecular packing and transfer integrals. Fig. 6 gives a more intuitive description of the sensitivity of the transfer integral to intermolecular orientation for NDI (Fig. 6a and b) and BSBS (Fig. 6c and d). According to Fig. 6a, the absolute values of electron transfer integrals are oscillating with increasing displacements along both the long molecular axis and the short molecular axis and the oscillations are more obvious when along the short axis, which are consistent with the previous study.58,63 Moreover, the location of P1 dimers of NDI derivatives listed in Table 3 is labelled in the two-dimensional contour plot (shown in Fig. 6b). Obviously, the relative magnitudes of electron transfer integrals of these simple models are consistent with those of dimers with alkyl chains. As illustrated in Fig. 6c, the oscillating values of the hole transfer integral along the short and long axis depend on the HOMO feature of BSBS, and the relative magnitudes of the hole transfer integral of BSBS-C10 and BSBS-C14 can be found in the two-dimensional contour plot (shown in Fig. 6d).
+From Soup: 87 3.3.2 Herringbone stacking.
+ ###### 
+From cou.: 88 To further understand how alkyl chains affect the intermolecular interactions and the packing in NDI derivatives, the total interaction energies and magnitudes of the noncovalent interaction between two molecules are determined by SAPT. Using the crystal packing configuration, the dimers with the largest transfer integral (P1 pathway, as presented in Fig. 4) are extracted. In order to reduce the calculation time, we consider simplified models of the molecules (named as sNDI-Cn, n = 4, 5, 6, 12, 14), i.e., the alkyl chain on one side of the backbone is replaced by a hydrogen atom. The packing of sNDI-Cn dimers is consistent with that along P1. The SAPT(0) total energies and energy decompositions are presented in Table 4. Comparisons of the four components of the total energies show that the attractive dispersion energy should play a predominant role in stabilizing the dimer. The dispersion energy alone is able to provide net stabilization in each dimer as the exchange energy is smaller than the dispersion energy in absolute values. On the other hand, from the SAPT(0) interaction energies, we find that the dimers are increasingly stabilized with increasing alkyl chain length. Only the dispersion energies of sNDI-Cn dimers increase with the alkyl chain length, which results from the interactions between alkyl chains. The previous study has suggested that, the stabilizing interaction between methane dimers mainly arises from the dispersion energy.64 Therefore, with the increasing length of alkyl chains, a considerable influence of the packing of NDI derivatives arises from an increase in stabilizing dispersion interactions between alkyl chains.
+From Soup: 88 Three BTBT derivatives and two BSBS derivatives adopt the herringbone stacking configuration and display two-dimensional transport behavior presented in Fig. 7 . From Table 5 , the transfer integrals along π stacking P1 and P2 are much larger than for the other pathways. The results of BTBT-C12 are in accordance with the previous study. 40 As the alkyl chain length increases, the absolute values of transfer integrals along all pathways increase. This is not seen in π–π stacking systems as discussed above. In order to understand the difference, the intermolecular distances and angles between dimers, including the centroid to centroid distances, the perpendicular distance between two BTBT or BSBS core planes, and the displacements along the short and long molecular axis, are listed in Table 5 . The short and long molecular axes of BTBT are consistent with those of BSBS defined in Fig. 5 . For BTBT derivatives, when the length of alkyl chains increases, the centroid distances and the angle between the rigid π-conjugated skeletons of the dimer along herringbone stacking pathways ( P3–P6 ) decrease, contributing to the increased absolute values of transfer integrals.
+ ###### 
+From cou.: 89 3.3.2 Herringbone stacking.
+From Soup: 89 On the other hand, the absolute values of transfer integrals along the herringbone stacking pathways are from 7 meV to 32 meV for the three systems. And BTBT-C12 is located at 55° in the mapping of the transfer integral. 40 Obviously, the other two systems also can be found in the range of 0 meV to 50 meV. The decrease of the perpendicular distances between the two BTBT core planes results in the increased absolute values of transfer integrals along P1 and P2 . On the other hand, for BSBS derivatives, the decrease of centroid distances and the increase of angles between the rigid π-conjugated skeletons of the dimer along herringbone stacking pathways ( P3–P6 ) from BSBS-C8 to BSBS-C12 contribute to the increased absolute values of transfer integrals. The obvious increase of the displacements along the short molecular axis, as shown in Table 5 , may cause the increased absolute values of transfer integrals along P1 and P2 , which can also be found in the two-dimensional contour plot ( Fig. 6 ).
+ ###### 
+From cou.: 90 Three BTBT derivatives and two BSBS derivatives adopt the herringbone stacking configuration and display two-dimensional transport behavior presented in Fig. 7. From Table 5, the transfer integrals along π stacking P1 and P2 are much larger than for the other pathways. The results of BTBT-C12 are in accordance with the previous study.40 As the alkyl chain length increases, the absolute values of transfer integrals along all pathways increase. This is not seen in π–π stacking systems as discussed above. In order to understand the difference, the intermolecular distances and angles between dimers, including the centroid to centroid distances, the perpendicular distance between two BTBT or BSBS core planes, and the displacements along the short and long molecular axis, are listed in Table 5. The short and long molecular axes of BTBT are consistent with those of BSBS defined in Fig. 5. For BTBT derivatives, when the length of alkyl chains increases, the centroid distances and the angle between the rigid π-conjugated skeletons of the dimer along herringbone stacking pathways (P3–P6) decrease, contributing to the increased absolute values of transfer integrals.
+From Soup: 90 Based on the above calculation of parameters, the hopping rates along each pathway are estimated using the quantum charge transfer rate with short time approximation. Then, the kinetic Monte Carlo approach is adopted to simulate the two-dimensional average electron mobility of NDI derivatives and the two-dimensional average hole mobility of BSBS and BTBT derivatives for the molecular crystals. The calculated results are illustrated in Fig. 8 . For comparison, the mobilities from experimental data 31,32,34,36,38 are also illustrated in Fig. 8 . The calculated results correlate well in trend with the experiment results for the different kinds of derivatives except BTBT-C8 , although the absolute mobilities of the systems are different between the calculated results and the experimental results. As presented in Fig. 8 , for the π–π stacking systems (NDI derivatives and BSBS derivatives including BSBS-C10 and BSBS-C14 ), the electron mobilities of NDI derivatives and the hole mobilities of BSBS derivatives decrease as the length of alkyl chains increases. On the other hand, the hole mobilities for the herringbone stacking systems (BTBT derivatives and BSBS derivatives including BSBS-C8 and BSBS-C12 ) increase as the length of alkyl chains increases.
+ ###### 
+From cou.: 91 On the other hand, the absolute values of transfer integrals along the herringbone stacking pathways are from 7 meV to 32 meV for the three systems. And BTBT-C12 is located at 55° in the mapping of the transfer integral.40 Obviously, the other two systems also can be found in the range of 0 meV to 50 meV. The decrease of the perpendicular distances between the two BTBT core planes results in the increased absolute values of transfer integrals along P1 and P2. On the other hand, for BSBS derivatives, the decrease of centroid distances and the increase of angles between the rigid π-conjugated skeletons of the dimer along herringbone stacking pathways (P3–P6) from BSBS-C8 to BSBS-C12 contribute to the increased absolute values of transfer integrals. The obvious increase of the displacements along the short molecular axis, as shown in Table 5, may cause the increased absolute values of transfer integrals along P1 and P2, which can also be found in the two-dimensional contour plot (Fig. 6).
+From Soup: 91 In this work, we have investigated the charge carrier transport properties of two kinds of systems, i.e. , π–π stacking systems (NDI derivatives, BSBS-C10 and BSBS-C14 ) and herringbone stacking systems (BTBT derivatives, BSBS-C8 and BSBS-C12 ), using the tunneling enabled hopping model coupled with quantum chemistry calculations. We found that the energy levels of frontier molecular orbitals and reorganization energies have negligible changes with respect to the alkyl chain length. Instead, the stabilizing dispersion interactions between alkyl side-chains can change the molecular packing. We find that (i) for the π–π stacking systems (NDI derivatives, BSBS-C10 and BSBS-C14 ), the displacements along the short molecular axis decrease with alkyl chain length, and the displacements along the long axis adjust correspondingly to form a stable packing arrangement. As a result, the transfer integral in absolute values and the electron mobilities of NDI derivatives and the hole mobilities of BSBS derivatives decrease. (ii) However, for the herringbone stacking systems (BTBT derivatives, BSBS-C8 and BSBS-C12 ), the centroid distances between the dimers along the herringbone pathways decrease with increasing alkyl chain length. For BTBT systems, in addition to the decreased angles between BTBT cores along the herringbone pathways, the perpendicular distances between the dimers along the π–π stacking pathways also decrease. On the other hand for BSBS derivatives, the increased angles between BSBS cores along the herringbone pathways coupled with the increased displacements along the short molecular axis along the π–π stacking pathways result in an increase of transfer integrals in absolute values. Correspondingly, the hole mobilities of BTBT and BSBS derivatives increase. We believe these findings are helpful for molecular design for synthesizing materials with high carrier mobility.
+ ###### 
+From cou.: 92 Based on the above calculation of parameters, the hopping rates along each pathway are estimated using the quantum charge transfer rate with short time approximation. Then, the kinetic Monte Carlo approach is adopted to simulate the two-dimensional average electron mobility of NDI derivatives and the two-dimensional average hole mobility of BSBS and BTBT derivatives for the molecular crystals. The calculated results are illustrated in Fig. 8. For comparison, the mobilities from experimental data31,32,34,36,38 are also illustrated in Fig. 8. The calculated results correlate well in trend with the experiment results for the different kinds of derivatives except BTBT-C8, although the absolute mobilities of the systems are different between the calculated results and the experimental results. As presented in Fig. 8, for the π–π stacking systems (NDI derivatives and BSBS derivatives including BSBS-C10 and BSBS-C14), the electron mobilities of NDI derivatives and the hole mobilities of BSBS derivatives decrease as the length of alkyl chains increases. On the other hand, the hole mobilities for the herringbone stacking systems (BTBT derivatives and BSBS derivatives including BSBS-C8 and BSBS-C12) increase as the length of alkyl chains increases.
+From Soup: 92 This work was supported by the National Natural Science Foundation of China (Grant no. 21290190, 91333202 and 21303213) and the Ministry of Science and Technology of China (Grant no. 2013CB933503). Computational resources were provided by the Tsinghua Supercomputing Center.
+ ###### 
+From cou.: 93 In this work, we have investigated the charge carrier transport properties of two kinds of systems, i.e., π–π stacking systems (NDI derivatives, BSBS-C10 and BSBS-C14) and herringbone stacking systems (BTBT derivatives, BSBS-C8 and BSBS-C12), using the tunneling enabled hopping model coupled with quantum chemistry calculations. We found that the energy levels of frontier molecular orbitals and reorganization energies have negligible changes with respect to the alkyl chain length. Instead, the stabilizing dispersion interactions between alkyl side-chains can change the molecular packing. We find that (i) for the π–π stacking systems (NDI derivatives, BSBS-C10 and BSBS-C14), the displacements along the short molecular axis decrease with alkyl chain length, and the displacements along the long axis adjust correspondingly to form a stable packing arrangement. As a result, the transfer integral in absolute values and the electron mobilities of NDI derivatives and the hole mobilities of BSBS derivatives decrease. (ii) However, for the herringbone stacking systems (BTBT derivatives, BSBS-C8 and BSBS-C12), the centroid distances between the dimers along the herringbone pathways decrease with increasing alkyl chain length. For BTBT systems, in addition to the decreased angles between BTBT cores along the herringbone pathways, the perpendicular distances between the dimers along the π–π stacking pathways also decrease. On the other hand for BSBS derivatives, the increased angles between BSBS cores along the herringbone pathways coupled with the increased displacements along the short molecular axis along the π–π stacking pathways result in an increase of transfer integrals in absolute values. Correspondingly, the hole mobilities of BTBT and BSBS derivatives increase. We believe these findings are helpful for molecular design for synthesizing materials with high carrier mobility.
+From Soup: 93 A. R. Murphy and J. M. J. Fréchet, Chem. Rev. , 2007, 107 , 1066–1096 CrossRef CAS PubMed .
+ ###### 
+From cou.: 94 This work was supported by the National Natural Science Foundation of China (Grant no. 21290190, 91333202 and 21303213) and the Ministry of Science and Technology of China (Grant no. 2013CB933503). Computational resources were provided by the Tsinghua Supercomputing Center.
+From Soup: 94 H. E. Katz, Chem. Mater. , 2004, 16 , 4748–4756 CrossRef CAS .
+ ###### 
+From cou.: 95 A. R. Murphy and J. M. J. Fréchet, Chem. Rev., 2007, 107, 1066–1096 CrossRef CAS PubMed .
+From Soup: 95 J. Kovac, L. Peternai and O. Lengyel, Thin Solid Films , 2003, 433 , 22–26 CrossRef CAS .
+ ###### 
+From cou.: 96 H. E. Katz, Chem. Mater., 2004, 16, 4748–4756 CrossRef CAS .
+From Soup: 96 P. K. H. Ho, J.-S. Kim, J. H. Burroughes, H. Becker, S. F. Y. Li, T. M. Brown, F. Cacialli and R. H. Friend, Nature , 2000, 404 , 481–484 CrossRef CAS PubMed .
+ ###### 
+From cou.: 97 J. Kovac, L. Peternai and O. Lengyel, Thin Solid Films, 2003, 433, 22–26 CrossRef CAS .
+From Soup: 97 J. H. Burroughes, D. D. C. Bradley, A. R. Brown, R. N. Marks, K. Mackay, R. H. Friend, P. L. Burns and A. B. Holmes, Nature , 1990, 347 , 539–541 CrossRef CAS .
+ ###### 
+From cou.: 98 P. K. H. Ho, J.-S. Kim, J. H. Burroughes, H. Becker, S. F. Y. Li, T. M. Brown, F. Cacialli and R. H. Friend, Nature, 2000, 404, 481–484 CrossRef CAS PubMed .
+From Soup: 98 K. M. Coakley and M. D. McGehee, Chem. Mater. , 2004, 16 , 4533–4542 CrossRef CAS .
+ ###### 
+From cou.: 99 J. H. Burroughes, D. D. C. Bradley, A. R. Brown, R. N. Marks, K. Mackay, R. H. Friend, P. L. Burns and A. B. Holmes, Nature, 1990, 347, 539–541 CrossRef CAS .
+From Soup: 99 F. Padinger, R. s. Rittberger and N. s. Sariciftci, Adv. Funct. Mater. , 2003, 13 , 85–88 CrossRef CAS .
+ ###### 
+From cou.: 100 K. M. Coakley and M. D. McGehee, Chem. Mater., 2004, 16, 4533–4542 CrossRef CAS .
+From Soup: 100 C. J. Brabec, N. S. Sariciftci and J. C. Hummelen, Adv. Funct. Mater. , 2001, 11 , 15–26 CrossRef CAS .
+ ###### 
+From cou.: 101 F. Padinger, R. s. Rittberger and N. s. Sariciftci, Adv. Funct. Mater., 2003, 13, 85–88 CrossRef CAS .
+From Soup: 101 P. F. Moonen, I. Yakimets and J. Huskens, Adv. Mater. , 2012, 24 , 5526–5541 CrossRef CAS PubMed .
+ ###### 
+From cou.: 102 C. J. Brabec, N. S. Sariciftci and J. C. Hummelen, Adv. Funct. Mater., 2001, 11, 15–26 CrossRef CAS .
+From Soup: 102 J. Mei, Y. Diao, A. L. Appleton, L. Fang and Z. Bao, J. Am. Chem. Soc. , 2013, 135 , 6724–6746 CrossRef CAS PubMed .
+ ###### 
+From cou.: 103 P. F. Moonen, I. Yakimets and J. Huskens, Adv. Mater., 2012, 24, 5526–5541 CrossRef CAS PubMed .
+From Soup: 103 C. Wang, H. Dong, W. Hu, Y. Liu and D. Zhu, Chem. Rev. , 2012, 112 , 2208–2267 CrossRef CAS PubMed .
+ ###### 
+From cou.: 104 J. Mei, Y. Diao, A. L. Appleton, L. Fang and Z. Bao, J. Am. Chem. Soc., 2013, 135, 6724–6746 CrossRef CAS PubMed .
+From Soup: 104 K. Takimiya, S. Shinamura, I. Osaka and E. Miyazaki, Adv. Mater. , 2011, 23 , 4347–4370 CrossRef CAS PubMed .
+ ###### 
+From cou.: 105 C. Wang, H. Dong, W. Hu, Y. Liu and D. Zhu, Chem. Rev., 2012, 112, 2208–2267 CrossRef CAS PubMed .
+From Soup: 105 P. M. Beaujuge and J. M. J. Fréchet, J. Am. Chem. Soc. , 2011, 133 , 20009–20029 CrossRef CAS PubMed .
+ ###### 
+From cou.: 106 K. Takimiya, S. Shinamura, I. Osaka and E. Miyazaki, Adv. Mater., 2011, 23, 4347–4370 CrossRef CAS PubMed .
+From Soup: 106 J. E. Anthony, Chem. Rev. , 2006, 106 , 5028–5048 CrossRef CAS PubMed .
+ ###### 
+From cou.: 107 P. M. Beaujuge and J. M. J. Fréchet, J. Am. Chem. Soc., 2011, 133, 20009–20029 CrossRef CAS PubMed .
+From Soup: 107 J. Mei and Z. Bao, Chem. Mater. , 2014, 26 , 604–615 CrossRef CAS .
+ ###### 
+From cou.: 108 J. E. Anthony, Chem. Rev., 2006, 106, 5028–5048 CrossRef CAS PubMed .
+From Soup: 108 T. Lei, J.-Y. Wang and J. Pei, Chem. Mater. , 2014, 26 , 594–603 CrossRef CAS .
+ ###### 
+From cou.: 109 J. Mei and Z. Bao, Chem. Mater., 2014, 26, 604–615 CrossRef CAS .
+From Soup: 109 C. Wang, Y. Qin, Y. Sun, Y.-S. Guan, W. Xu and D. Zhu, ACS Appl. Mater. Interfaces , 2015, 7 , 15978–15987 CAS .
+ ###### 
+From cou.: 110 T. Lei, J.-Y. Wang and J. Pei, Chem. Mater., 2014, 26, 594–603 CrossRef CAS .
+From Soup: 110 S. Chen, B. Sun, W. Hong, H. Aziz, Y. Meng and Y. Li, J. Mater. Chem. C , 2014, 2 , 2183–2190 RSC .
+ ###### 
+From cou.: 111 C. Wang, Y. Qin, Y. Sun, Y.-S. Guan, W. Xu and D. Zhu, ACS Appl. Mater. Interfaces, 2015, 7, 15978–15987 CAS .
+From Soup: 111 H. Chen, Y. Guo, G. Yu, Y. Zhao, J. Zhang, D. Gao, H. Liu and Y. Liu, Adv. Mater. , 2012, 24 , 4618–4622 CrossRef CAS PubMed .
+ ###### 
+From cou.: 112 S. Chen, B. Sun, W. Hong, H. Aziz, Y. Meng and Y. Li, J. Mater. Chem. C, 2014, 2, 2183–2190 RSC .
+From Soup: 112 J. S. Lee, S. K. Son, S. Song, H. Kim, D. R. Lee, K. Kim, M. J. Ko, D. H. Choi, B. Kim and J. H. Cho, Chem. Mater. , 2012, 24 , 1316–1323 CrossRef CAS .
+ ###### 
+From cou.: 113 H. Chen, Y. Guo, G. Yu, Y. Zhao, J. Zhang, D. Gao, H. Liu and Y. Liu, Adv. Mater., 2012, 24, 4618–4622 CrossRef CAS PubMed .
+From Soup: 113 I. McCulloch, M. Heeney, C. Bailey, K. Genevicius, I. MacDonald, M. Shkunov, D. Sparrowe, S. Tierney, R. Wagner, W. Zhang, M. L. Chabinyc, R. J. Kline, M. D. McGehee and M. F. Toney, Nat. Mater. , 2006, 5 , 328–333 CrossRef CAS PubMed .
+ ###### 
+From cou.: 114 J. S. Lee, S. K. Son, S. Song, H. Kim, D. R. Lee, K. Kim, M. J. Ko, D. H. Choi, B. Kim and J. H. Cho, Chem. Mater., 2012, 24, 1316–1323 CrossRef CAS .
+From Soup: 114 B. Fu, J. Baltazar, A. R. Sankar, P.-H. Chu, S. Zhang, D. M. Collard and E. Reichmanis, Adv. Funct. Mater. , 2014, 24 , 3734–3744 CrossRef CAS .
+ ###### 
+From cou.: 115 I. McCulloch, M. Heeney, C. Bailey, K. Genevicius, I. MacDonald, M. Shkunov, D. Sparrowe, S. Tierney, R. Wagner, W. Zhang, M. L. Chabinyc, R. J. Kline, M. D. McGehee and M. F. Toney, Nat. Mater., 2006, 5, 328–333 CrossRef CAS PubMed .
+From Soup: 115 J.-H. Dou, Y.-Q. Zheng, T. Lei, S.-D. Zhang, Z. Wang, W.-B. Zhang, J.-Y. Wang and J. Pei, Adv. Funct. Mater. , 2014, 24 , 6270–6278 CrossRef CAS .
+ ###### 
+From cou.: 116 B. Fu, J. Baltazar, A. R. Sankar, P.-H. Chu, S. Zhang, D. M. Collard and E. Reichmanis, Adv. Funct. Mater., 2014, 24, 3734–3744 CrossRef CAS .
+From Soup: 116 T. Lei, J.-H. Dou and J. Pei, Adv. Mater. , 2012, 24 , 6457–6461 CrossRef CAS PubMed .
+ ###### 
+From cou.: 117 J.-H. Dou, Y.-Q. Zheng, T. Lei, S.-D. Zhang, Z. Wang, W.-B. Zhang, J.-Y. Wang and J. Pei, Adv. Funct. Mater., 2014, 24, 6270–6278 CrossRef CAS .
+From Soup: 117 J. Li, X. Qiao, Y. Xiong, H. Li and D. Zhu, Chem. Mater. , 2014, 26 , 5782–5788 CrossRef CAS .
+ ###### 
+From cou.: 118 T. Lei, J.-H. Dou and J. Pei, Adv. Mater., 2012, 24, 6457–6461 CrossRef CAS PubMed .
+From Soup: 118 F. Zhang, Y. Hu, T. Schuettfort, C. Di, X. Gao, C. R. McNeill, L. Thomsen, S. C. B. Mannsfeld, W. Yuan, H. Sirringhaus and D. Zhu, J. Am. Chem. Soc. , 2013, 135 , 2338–2349 CrossRef CAS PubMed .
+ ###### 
+From cou.: 119 J. Li, X. Qiao, Y. Xiong, H. Li and D. Zhu, Chem. Mater., 2014, 26, 5782–5788 CrossRef CAS .
+From Soup: 119 H. B. Akkerman, S. C. B. Mannsfeld, A. P. Kaushik, E. Verploegen, L. Burnier, A. P. Zoombelt, J. D. Saathoff, S. Hong, S. Atahan-Evrenk, X. Liu, A. Aspuru-Guzik, M. F. Toney, P. Clancy and Z. Bao, J. Am. Chem. Soc. , 2013, 135 , 11006–11014 CrossRef CAS PubMed .
+ ###### 
+From cou.: 120 F. Zhang, Y. Hu, T. Schuettfort, C. Di, X. Gao, C. R. McNeill, L. Thomsen, S. C. B. Mannsfeld, W. Yuan, H. Sirringhaus and D. Zhu, J. Am. Chem. Soc., 2013, 135, 2338–2349 CrossRef CAS PubMed .
+From Soup: 120 J. Y. Back, H. Yu, I. Song, I. Kang, H. Ahn, T. J. Shin, S.-K. Kwon, J. H. Oh and Y.-H. Kim, Chem. Mater. , 2015, 27 , 1732–1739 CrossRef CAS .
+ ###### 
+From cou.: 121 H. B. Akkerman, S. C. B. Mannsfeld, A. P. Kaushik, E. Verploegen, L. Burnier, A. P. Zoombelt, J. D. Saathoff, S. Hong, S. Atahan-Evrenk, X. Liu, A. Aspuru-Guzik, M. F. Toney, P. Clancy and Z. Bao, J. Am. Chem. Soc., 2013, 135, 11006–11014 CrossRef CAS PubMed .
+From Soup: 121 J. Liu, Y. Zhang, H. Phan, A. Sharenko, P. Moonsin, B. Walker, V. Promarak and T.-Q. Nguyen, Adv. Mater. , 2013, 25 , 3645–3650 CrossRef CAS PubMed .
+ ###### 
+From cou.: 122 J. Y. Back, H. Yu, I. Song, I. Kang, H. Ahn, T. J. Shin, S.-K. Kwon, J. H. Oh and Y.-H. Kim, Chem. Mater., 2015, 27, 1732–1739 CrossRef CAS .
+From Soup: 122 S. Inoue, H. Minemawari, J. Tsutsumi, M. Chikamatsu, T. Yamada, S. Horiuchi, M. Tanaka, R. Kumai, M. Yoneya and T. Hasegawa, Chem. Mater. , 2015, 27 , 3809–3812 CrossRef CAS .
+ ###### 
+From cou.: 123 J. Liu, Y. Zhang, H. Phan, A. Sharenko, P. Moonsin, B. Walker, V. Promarak and T.-Q. Nguyen, Adv. Mater., 2013, 25, 3645–3650 CrossRef CAS PubMed .
+From Soup: 123 D. Shukla, S. F. Nelson, D. C. Freeman, M. Rajeswaran, W. G. Ahearn, D. M. Meyer and J. T. Carey, Chem. Mater. , 2008, 20 , 7486–7491 CrossRef CAS .
+ ###### 
+From cou.: 124 S. Inoue, H. Minemawari, J. Tsutsumi, M. Chikamatsu, T. Yamada, S. Horiuchi, M. Tanaka, R. Kumai, M. Yoneya and T. Hasegawa, Chem. Mater., 2015, 27, 3809–3812 CrossRef CAS .
+From Soup: 124 H. E. Katz, J. Johnson, A. J. Lovinger and W. Li, J. Am. Chem. Soc. , 2000, 122 , 7787–7792 CrossRef CAS .
+ ###### 
+From cou.: 125 D. Shukla, S. F. Nelson, D. C. Freeman, M. Rajeswaran, W. G. Ahearn, D. M. Meyer and J. T. Carey, Chem. Mater., 2008, 20, 7486–7491 CrossRef CAS .
+From Soup: 125 W. Jiang, Y. Li and Z. Wang, Chem. Soc. Rev. , 2013, 42 , 6113–6127 RSC .
+ ###### 
+From cou.: 126 H. E. Katz, J. Johnson, A. J. Lovinger and W. Li, J. Am. Chem. Soc., 2000, 122, 7787–7792 CrossRef CAS .
+From Soup: 126 H. Minemawari, T. Yamada, H. Matsui, J. Tsutsumi, S. Haas, R. Chiba, R. Kumai and T. Hasegawa, Nature , 2011, 475 , 364–367 CrossRef CAS PubMed .
+ ###### 
+From cou.: 127 W. Jiang, Y. Li and Z. Wang, Chem. Soc. Rev., 2013, 42, 6113–6127 RSC .
+From Soup: 127 C. Liu, T. Minari, X. Lu, A. Kumatani, K. Takimiya and K. Tsukagoshi, Adv. Mater. , 2011, 23 , 523–526 CrossRef CAS PubMed .
+ ###### 
+From cou.: 128 H. Minemawari, T. Yamada, H. Matsui, J. Tsutsumi, S. Haas, R. Chiba, R. Kumai and T. Hasegawa, Nature, 2011, 475, 364–367 CrossRef CAS PubMed .
+From Soup: 128 T. Izawa, E. Miyazaki and K. Takimiya, Adv. Mater. , 2008, 20 , 3388–3392 CrossRef CAS .
+ ###### 
+From cou.: 129 C. Liu, T. Minari, X. Lu, A. Kumatani, K. Takimiya and K. Tsukagoshi, Adv. Mater., 2011, 23, 523–526 CrossRef CAS PubMed .
+From Soup: 129 H. Ebata, T. Izawa, E. Miyazaki, K. Takimiya, M. Ikeda, H. Kuwabara and T. Yui, J. Am. Chem. Soc. , 2007, 129 , 15732–15733 CrossRef CAS PubMed .
+ ###### 
+From cou.: 130 T. Izawa, E. Miyazaki and K. Takimiya, Adv. Mater., 2008, 20, 3388–3392 CrossRef CAS .
+From Soup: 130 T. Izawa, E. Miyazaki and K. Takimiya, Chem. Mater. , 2009, 21 , 903–912 CrossRef CAS .
+ ###### 
+From cou.: 131 H. Ebata, T. Izawa, E. Miyazaki, K. Takimiya, M. Ikeda, H. Kuwabara and T. Yui, J. Am. Chem. Soc., 2007, 129, 15732–15733 CrossRef CAS PubMed .
+From Soup: 131 G. Nan and Z. Li, J. Mater. Chem. C , 2014, 2 , 1447–1456 RSC .
+ ###### 
+From cou.: 132 T. Izawa, E. Miyazaki and K. Takimiya, Chem. Mater., 2009, 21, 903–912 CrossRef CAS .
+From Soup: 132 H. Kojima and T. Mori, Bull. Chem. Soc. Jpn. , 2011, 84 , 1049–1056 CrossRef CAS .
+ ###### 
+From cou.: 133 G. Nan and Z. Li, J. Mater. Chem. C, 2014, 2, 1447–1456 RSC .
+From Soup: 133 G. Nan, X. Yang, L. Wang, Z. Shuai and Y. Zhao, Phys. Rev. B: Condens. Matter Mater. Phys. , 2009, 79 , 115203 CrossRef .
+ ###### 
+From cou.: 134 H. Kojima and T. Mori, Bull. Chem. Soc. Jpn., 2011, 84, 1049–1056 CrossRef CAS .
+From Soup: 134 L. Wang, Q. Li, Z. Shuai, L. Chen and Q. Shi, Phys. Chem. Chem. Phys. , 2010, 12 , 3309–3314 RSC .
+ ###### 
+From cou.: 135 G. Nan, X. Yang, L. Wang, Z. Shuai and Y. Zhao, Phys. Rev. B: Condens. Matter Mater. Phys., 2009, 79, 115203 CrossRef .
+From Soup: 135 H. Geng, Q. Peng, L. Wang, H. Li, Y. Liao, Z. Ma and Z. Shuai, Adv. Mater. , 2012, 24 , 3568–3572 CrossRef CAS PubMed .
+ ###### 
+From cou.: 136 L. Wang, Q. Li, Z. Shuai, L. Chen and Q. Shi, Phys. Chem. Chem. Phys., 2010, 12, 3309–3314 RSC .
+From Soup: 136 X. Yang, Q. Li and Z. Shuai, Nanotechnology , 2007, 18 , 424029 CrossRef PubMed .
+ ###### 
+From cou.: 137 H. Geng, Q. Peng, L. Wang, H. Li, Y. Liao, Z. Ma and Z. Shuai, Adv. Mater., 2012, 24, 3568–3572 CrossRef CAS PubMed .
+From Soup: 137 E. F. Valeev, V. Coropceanu, D. A. da Silva Filho, S. Salman and J.-L. Brédas, J. Am. Chem. Soc. , 2006, 128 , 9882–9886 CrossRef CAS PubMed .
+ ###### 
+From cou.: 138 X. Yang, Q. Li and Z. Shuai, Nanotechnology, 2007, 18, 424029 CrossRef PubMed .
+From Soup: 138 G. Nan, L. Wang, X. Yang, Z. Shuai and Y. Zhao, J. Chem. Phys. , 2009, 130 , 024704 CrossRef PubMed .
+ ###### 
+From cou.: 139 E. F. Valeev, V. Coropceanu, D. A. da Silva Filho, S. Salman and J.-L. Brédas, J. Am. Chem. Soc., 2006, 128, 9882–9886 CrossRef CAS PubMed .
+From Soup: 139 L. Lin, H. Geng, Z. Shuai and Y. Luo, Org. Electron. , 2012, 13 , 2763–2772 CrossRef CAS .
+ ###### 
+From cou.: 140 G. Nan, L. Wang, X. Yang, Z. Shuai and Y. Zhao, J. Chem. Phys., 2009, 130, 024704 CrossRef PubMed .
+From Soup: 140 M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, B. Mennucci, G. A. Petersson, H. Nakatsuji, M. Caricato, X. Li, H. P. Hratchian, A. F. Izmaylov, J. Bloino, G. Zheng, J. L. Sonnenberg, M. Hada, M. Ehara, K. Toyota, R. Fukuda, J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, T. Vreven, J. A. Montgomery, Jr., J. E. Peralta, F. Ogliaro, M. Bearpark, J. J. Heyd, E. Brothers, K. N. Kudin, V. N. Staroverov, R. Kobayashi, J. Normand, K. Raghavachari, A. Rendell, J. C. Burant, S. S. Iyengar, J. Tomasi, M. Cossi, N. Rega, J. M. Millam, M. Klene, J. E. Knox, J. B. Cross, V. Bakken, C. Adamo, J. Jaramillo, R. Gomperts, R. E. Stratmann, O. Yazyev, A. J. Austin, R. Cammi, C. Pomelli, J. W. Ochterski, R. L. Martin, K. Morokuma, V. G. Zakrzewski, G. A. Voth, P. Salvador, J. J. Dannenberg, S. Dapprich, A. D. Daniels, O. Farkas, J. B. Foresman, J. V. Ortiz, J. Cioslowski and D. J. Fox, Gaussian 09 , Gaussian, Inc., Wallingford, CT, 2009 Search PubMed .
+ ###### 
+From cou.: 141 L. Lin, H. Geng, Z. Shuai and Y. Luo, Org. Electron., 2012, 13, 2763–2772 CrossRef CAS .
+From Soup: 141 J. R. Reimers, J. Chem. Phys. , 2001, 115 , 9103–9109 CrossRef CAS .
+ ###### 
+From cou.: 142 M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, B. Mennucci, G. A. Petersson, H. Nakatsuji, M. Caricato, X. Li, H. P. Hratchian, A. F. Izmaylov, J. Bloino, G. Zheng, J. L. Sonnenberg, M. Hada, M. Ehara, K. Toyota, R. Fukuda, J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, T. Vreven, J. A. Montgomery, Jr., J. E. Peralta, F. Ogliaro, M. Bearpark, J. J. Heyd, E. Brothers, K. N. Kudin, V. N. Staroverov, R. Kobayashi, J. Normand, K. Raghavachari, A. Rendell, J. C. Burant, S. S. Iyengar, J. Tomasi, M. Cossi, N. Rega, J. M. Millam, M. Klene, J. E. Knox, J. B. Cross, V. Bakken, C. Adamo, J. Jaramillo, R. Gomperts, R. E. Stratmann, O. Yazyev, A. J. Austin, R. Cammi, C. Pomelli, J. W. Ochterski, R. L. Martin, K. Morokuma, V. G. Zakrzewski, G. A. Voth, P. Salvador, J. J. Dannenberg, S. Dapprich, A. D. Daniels, O. Farkas, J. B. Foresman, J. V. Ortiz, J. Cioslowski and D. J. Fox, Gaussian 09, Gaussian, Inc., Wallingford, CT, 2009 Search PubMed .
+From Soup: 142 J. E. Norton and J.-L. Brédas, J. Am. Chem. Soc. , 2008, 130 , 12377–12384 CrossRef CAS PubMed .
+ ###### 
+From cou.: 143 J. R. Reimers, J. Chem. Phys., 2001, 115, 9103–9109 CrossRef CAS .
+From Soup: 143 J.-L. Brédas, D. Beljonne, V. Coropceanu and J. Cornil, Chem. Rev. , 2004, 104 , 4971–5004 CrossRef PubMed .
+ ###### 
+From cou.: 144 J. E. Norton and J.-L. Brédas, J. Am. Chem. Soc., 2008, 130, 12377–12384 CrossRef CAS PubMed .
+From Soup: 144 B. Jeziorski, R. Moszynski and K. Szalewicz, Chem. Rev. , 1994, 7 , 1887–1930 CrossRef .
+ ###### 
+From cou.: 145 J.-L. Brédas, D. Beljonne, V. Coropceanu and J. Cornil, Chem. Rev., 2004, 104, 4971–5004 CrossRef PubMed .
+From Soup: 145 J. M. Turney, A. C. Simmonett, R. M. Parrish, E. G. Hohenstein, F. A. Evangelista, J. T. Fermann, B. J. Mintz, L. A. Burns, J. J. Wilke, M. L. Abrams, N. J. Russ, M. L. Leininger, C. L. Janssen, E. T. Seidl, W. D. Allen, H. F. Schaefer, R. A. King, E. F. Valeev, C. D. Sherrill and T. D. Crawford, Wiley Interdiscip. Rev.: Comput. Mol. Sci. , 2012, 2 , 556–565 CrossRef CAS .
+ ###### 
+From cou.: 146 B. Jeziorski, R. Moszynski and K. Szalewicz, Chem. Rev., 1994, 7, 1887–1930 CrossRef .
+From Soup: 146 E. G. Hohenstein and C. D. Sherrill, J. Chem. Phys. , 2010, 132 , 184111 CrossRef .
+ ###### 
+From cou.: 147 J. M. Turney, A. C. Simmonett, R. M. Parrish, E. G. Hohenstein, F. A. Evangelista, J. T. Fermann, B. J. Mintz, L. A. Burns, J. J. Wilke, M. L. Abrams, N. J. Russ, M. L. Leininger, C. L. Janssen, E. T. Seidl, W. D. Allen, H. F. Schaefer, R. A. King, E. F. Valeev, C. D. Sherrill and T. D. Crawford, Wiley Interdiscip. Rev.: Comput. Mol. Sci., 2012, 2, 556–565 CrossRef CAS .
+From Soup: 147 E. G. Hohenstein, R. M. Parrish, C. D. Sherrill, J. M. Turney and H. F. S. Iii, J. Chem. Phys. , 2011, 135 , 174107 CrossRef PubMed .
+ ###### 
+From cou.: 148 E. G. Hohenstein and C. D. Sherrill, J. Chem. Phys., 2010, 132, 184111 CrossRef .
+From Soup: 148 C.-C. Liu, S.-W. Mao and M.-Y. Kuo, J. Phys. Chem. C , 2010, 114 , 22316–22321 CAS .
+ ###### 
+From cou.: 149 E. G. Hohenstein, R. M. Parrish, C. D. Sherrill, J. M. Turney and H. F. S. Iii, J. Chem. Phys., 2011, 135, 174107 CrossRef PubMed .
+From Soup: 149 V. Coropceanu, J. Cornil, D. A. da Silva Filho, Y. Olivier, R. Silbey and J.-L. Brédas, Chem. Rev. , 2007, 107 , 926–952 CrossRef CAS PubMed .
+ ###### 
+From cou.: 150 C.-C. Liu, S.-W. Mao and M.-Y. Kuo, J. Phys. Chem. C, 2010, 114, 22316–22321 CAS .
+From Soup: 150 Y. Geng, S.-X. Wu, H.-B. Li, X.-D. Tang, Y. Wu, Z.-M. Su and Y. Liao, J. Mater. Chem. , 2011, 21 , 15558 RSC .
+ ###### 
+From cou.: 151 V. Coropceanu, J. Cornil, D. A. da Silva Filho, Y. Olivier, R. Silbey and J.-L. Brédas, Chem. Rev., 2007, 107, 926–952 CrossRef CAS PubMed .
+From Soup: 151 H.-M. Zhao, J. Pfister, V. Settels, M. Renz, M. Kaupp, V. C. Dehm, F. Würthner, R. F. Fink and B. Engels, J. Am. Chem. Soc. , 2009, 131 , 15660–15668 CrossRef CAS PubMed .
+ ###### 
+From cou.: 152 Y. Geng, S.-X. Wu, H.-B. Li, X.-D. Tang, Y. Wu, Z.-M. Su and Y. Liao, J. Mater. Chem., 2011, 21, 15558 RSC .
+From Soup: 152 R. F. Fink, J. Seibt, V. Engel, M. Renz, M. Kaupp, S. Lochbrunner, H.-M. Zhao, J. Pfister, F. Würthner and B. Engels, J. Am. Chem. Soc. , 2008, 130 , 12858–12859 CrossRef CAS PubMed .
+ ###### 
+From cou.: 153 H.-M. Zhao, J. Pfister, V. Settels, M. Renz, M. Kaupp, V. C. Dehm, F. Würthner, R. F. Fink and B. Engels, J. Am. Chem. Soc., 2009, 131, 15660–15668 CrossRef CAS PubMed .
+From Soup: 153 E. Di Donato, R. P. Fornari, S. Di Motta, Y. Li, Z. Wang and F. Negri, J. Phys. Chem. B , 2010, 114 , 5327–5334 CrossRef CAS PubMed .
+ ###### 
+From cou.: 154 R. F. Fink, J. Seibt, V. Engel, M. Renz, M. Kaupp, S. Lochbrunner, H.-M. Zhao, J. Pfister, F. Würthner and B. Engels, J. Am. Chem. Soc., 2008, 130, 12858–12859 CrossRef CAS PubMed .
+From Soup: 154 J. Idé, R. Méreau, L. Ducasse, F. Castet, Y. Olivier, N. Martinelli, J. Cornil and D. Beljonne, J. Phys. Chem. B , 2011, 115 , 5593–5603 CrossRef PubMed .
+ ###### 
+From cou.: 155 E. Di Donato, R. P. Fornari, S. Di Motta, Y. Li, Z. Wang and F. Negri, J. Phys. Chem. B, 2010, 114, 5327–5334 CrossRef CAS PubMed .
+From Soup: 155 T. Kakinuma, H. Kojima, M. Ashizawa, H. Matsumoto and T. Mori, J. Mater. Chem. C , 2013, 1 , 5395–5401 RSC .
+ ###### 
+From cou.: 156 J. Idé, R. Méreau, L. Ducasse, F. Castet, Y. Olivier, N. Martinelli, J. Cornil and D. Beljonne, J. Phys. Chem. B, 2011, 115, 5593–5603 CrossRef PubMed .
+From Soup: 156 V. Duarte Alaniz, T. Rocha-Rinza and G. Cuevas, J. Comput. Chem. , 2015, 36 , 361–375 CrossRef CAS PubMed .
+ ###### 
+From cou.: 157 T. Kakinuma, H. Kojima, M. Ashizawa, H. Matsumoto and T. Mori, J. Mater. Chem. C, 2013, 1, 5395–5401 RSC .
+From Soup: 157 Here, = 〈 | | 〉, = 〈 | | 〉 and = 〈 | | 〉, where is the lowest unoccupied molecular orbital (for electron transport) or the highest occupied molecular orbital (for hole transport) of the isolated molecule or in the dimer. and are the dimer Hamiltonian and the overlap matrices, respectively. The positive values of the transfer integrals indicate the bonding interaction between the isolated molecules in the dimer (frontier orbital coupled with the same phase), and negative values of the transfer integrals indicate an antibonding interaction (frontier orbital coupled with the inversed phase) of the corresponding frontier orbital. The sign of transfer integrals only indicates the combination type of the frontier orbital. All the calculations of transfer integrals are performed using density functional theory with the PW91PW91 functional in combination with the 6-31G* basis set. This approach has been found to give reasonable results. The vibrational frequencies of the normal modes for the neutral and anion states (or cation states) associated with the electron (hole) transfer process are calculated using the Gaussian 09 program with the B3LYP functional and the 6-31G* basis set. The Huang–Rhys factor and the reorganization energy of every normal mode can be calculated using the DUSHIN program. Generally speaking, reorganization energy has both internal and external contributions. The former reflects the geometric relaxation of individual molecules upon going from the neutral to the charged state and . And the latter reflects the electronic polarization of the surrounding molecules, which is usually neglected. The internal reorganization energy is dominant and can be evaluated either from the adiabatic potential-energy surfaces or from the normal-mode analysis. The latter approach can provide the partition of the internal reorganization energy into the contributions from each vibrational mode: Here, Δ represents the displacement along the normal mode between the equilibrium geometries of the neutral and charged molecules. The diffusion coefficient is calculated by the kinetic Monte Carlo simulation approach. We take one molecule arbitrarily as the initial charge center. The charge is only allowed to hop to the nearest neighbor molecules. The hopping probability is evaluated as , where is the hopping rate from site to , and ′ represents all nearest molecules. The residence time of the carrier at site is . At each step, a random number is uniformly generated between 0 and 1. If , the hopping distance is taken to be the intermolecular centroid distance. The charge then goes to the neighbor in the -th direction as the nearest position of the charge. By repeating the simulation process, thousands of simulations should be performed to get a linear relationship between the mean-square displacement and the simulation time to get the diffusion coefficient. Finally, the mobility can be obtained from the Einstein relation. Here, the Hamiltonian is written as a sum of the usual monomer Fock operator , the Møller–Plesset fluctuation operator of the monomers , and the perturbation operator of the interaction between the two monomers . is treated as the zeroth-order Hamiltonian and the interaction energy is evaluated through a perturbative expansion of and . The first-order correction represents the classical electrostatic interaction and its corresponding exchange correction. The second-order polarization correction is divided into induction and dispersion components. The simplest truncation of SAPT is denoted as SAPT(0) which computes terms to the second order with respect to inter-monomer electron correlation and neglects intramonomer electron correlation. The energy can be written as In this notation, defines the order in and ; the subscript resp indicates that orbital relaxation effects are included. The Psi4 code is employed for these calculations, with the SAPT(0) used in conjunction with the truncated version of the aug-cc-pVDZ ( jun-cc-pVDZ) basis set. The two-electron integrals for SAPT(0) are computed with the density fitting (DF) approximation.
+ ###### 
+From cou.: 158 V. Duarte Alaniz, T. Rocha-Rinza and G. Cuevas, J. Comput. Chem., 2015, 36, 361–375 CrossRef CAS PubMed .

@@ -1,0 +1,21 @@
+from test: 0 Microwave-enhanced radiochemistry
+from soup: 0 Microwave-enhanced radiochemistry
+ ###### 
+from test: 1 Abstract
+from soup: 1 Abstract
+ ###### 
+from test: 2 1 Introduction
+from soup: 2 1 Introduction
+ ###### 
+from test: 3 2 Microwaves and microwave activation
+from soup: 3 2 Microwaves and microwave activation
+ ###### 
+from test: 4 3 Microwave-enhanced labeling procedures
+from soup: 4 lost_content
+ ###### 
+from test: 5 3.1 Background
+from test: 6 3.2 Tritium
+from test: 7 3.3 Carbon-11
+from test: 8 3.4 Fluorine-18
+from test: 9 4 Acknowledgements
+from test: 10 5 References

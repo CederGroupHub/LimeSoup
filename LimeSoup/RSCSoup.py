@@ -10,11 +10,11 @@ from LimeSoup.parser.parser_paper import ParserPaper
 
 __author__ = 'Ziqin (Shaun) Rong, Tiago Botari'
 __maintainer__ = 'Tiago Botari'
-__email__ = 'tiagobotari08@gmail.com'
+__email__ = 'tiagobotari@gmail.com'
 
 
 class RSCRemoveTrash(RuleIngredient):
-
+    # TODO: error in two papers: 10.1039/B802997K - 10.1039/B717130G, some heading inside a span tag:
     @staticmethod
     def _parse(html_str):
         # Tags to be removed from the HTML paper ECS
@@ -22,7 +22,6 @@ class RSCRemoveTrash(RuleIngredient):
             {'name': 'p', 'class': 'header_text'},  # Authors
             {'name': 'div', 'id': 'art-admin'},  # Data rec./accept.
             {'name': 'div', 'class': 'image_table'},  # Figures
-            {'name': 'a', 'class': 'simple'},  # Logo
             {'name': 'div', 'id': 'crossmark-content'},  # Another Logo
             {'name': 'code'},  # Codes inside the HTML
             {'name': 'div', 'class': 'table_caption'},  # Remove table caption
@@ -72,10 +71,13 @@ class RSCReplaceDivTag(RuleIngredient):
     @staticmethod
     def _parse(html_str):
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
+
         rules = [{'name': 'div'}]
         parser.strip_tags(rules)
+
         rules = [{'name': 'span', 'id': parser.compile('^sect[0-9]+$')}]  # some span are heading
         _ = parser.strip_tags(rules)
+
         return parser.raw_html
 
 
@@ -87,7 +89,12 @@ class RSCDealSubscript(RuleIngredient):
         TODO: Deal with the subscripts tags <small> <sub>
         """
 
-        return html_str
+        parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
+
+        rules = [{'name': 'sub'}]
+        parser.operation_tag_remove_space(rules)
+
+        return parser.raw_html
 
 
 class RSCCollect(RuleIngredient):
@@ -113,6 +120,7 @@ class RSCCollect(RuleIngredient):
             parser.deal_with_sections()
             data += parser.data_sections
         obj = {
+            'DOI': '',
             'Title': parser.title,
             'Keywords': parser.keywords,
             'Journal': journal_name,

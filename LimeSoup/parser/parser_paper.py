@@ -14,7 +14,6 @@ __maintainer__ = "Tiago Botari"
 __email__ = "tiagobotari@gmail.com"
 __date__ = "Feb 18 2018"
 
-
 import itertools
 import warnings
 import re
@@ -220,8 +219,8 @@ class ParserPaper:
             number_of_paragraphs_soup_sec += len(list(
                 it.find_all('p', recursive=False)
             ))
-        print(' number paragraphs inside div class section and sub: ',
-              number_of_paragraphs_soup_sec)
+        # print(' number paragraphs inside div class section and sub: ',
+        #      number_of_paragraphs_soup_sec)
 
     def number_of_paragraphs_children(self):
         if not self.debugging:
@@ -231,7 +230,7 @@ class ParserPaper:
             self.soup_orig.children)[0].find_all('p', recursive=True)
                                                  )
                                             )
-        print(' Number of Paragraphs externo : ', number_of_paragraphs_children)
+        # print(' Number of Paragraphs externo : ', number_of_paragraphs_children)
 
     def create_tag_from_selection(self, rule, name_new_tag, name_section='Abstract'):
         """
@@ -284,6 +283,14 @@ class ParserPaper:
             if tag_next_sibling is None: break
             if 'section_h' in tag_next_sibling.name:
                 break
+
+    def operation_tag_remove_space(self, rules):
+        for rule in rules:
+            tags = self.soup.find_all(**rule)
+            for tag in tags:
+                if tag is not None:
+                    if tag.name is not None:
+                        tag.string = tag.get_text().strip()
 
     def create_tag_sections(self, rule=None):
         """

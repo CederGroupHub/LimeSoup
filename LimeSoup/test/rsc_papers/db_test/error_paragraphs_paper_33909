@@ -1,0 +1,522 @@
+From cou.: 0 Journal
+From Soup: 0 Faraday Discuss.
+ ###### 
+From cou.: 1 We investigate femtosecond photoassociation of thermally hot atoms in the gas phase and its coherent control. In the photoassociation process, formation of a chemical bond is facilitated by light in a free-to-bound optical transition. Here, we study free-to-bound photoassociation of a diatomic molecule induced by femtosecond pulses exciting a pair of scattering atoms interacting via the van-der-Waals-type electronic ground state potential into bound levels of an electronically excited state. The thermal gas of reactants is at temperatures in the range of hundreds of degrees. Despite this incoherent initial state, rotational and vibrational coherences are observed in the probing of the created Mg2 molecules.
+From Soup: 1 We investigate femtosecond photoassociation of thermally hot atoms in the gas phase and its coherent control. In the photoassociation process, formation of a chemical bond is facilitated by light in a free-to-bound optical transition. Here, we study free-to-bound photoassociation of a diatomic molecule induced by femtosecond pulses exciting a pair of scattering atoms interacting via the van-der-Waals-type electronic ground state potential into bound levels of an electronically excited state. The thermal gas of reactants is at temperatures in the range of hundreds of degrees. Despite this incoherent initial state, rotational and vibrational coherences are observed in the probing of the created Mg 2 molecules.
+ ###### 
+From cou.: 2 Coherent control was initiated as a scheme to steer a chemical reaction to its desired outcome.1 In a nutshell, the quantum interference is employed to constructively enhance the selected product and destructively suppress the other possible channels.2 A prerequisite for such control is coherent dynamics from the initial state to the final product.3,4 The control is obtained by an external field which can alter the dynamics, typically by temporarily altering the generator—the Hamiltonian. For the standard situation describing single-photon transition, it readswhere Ĥ0 is the bare molecular Hamiltonian, the electric dipole moment operator, and ε(t) the time-dependent external electric field. In a two-photon setting employing adiabatic elimination of all the off-resonant single-photon transitions, a Hamiltonian with a structure similar to that of eqn (1) is obtained except for the molecule-light coupling where the external field enters quadratically.5
+From Soup: 2 Coherent control was initiated as a scheme to steer a chemical reaction to its desired outcome. 1 In a nutshell, the quantum interference is employed to constructively enhance the selected product and destructively suppress the other possible channels. 2 A prerequisite for such control is coherent dynamics from the initial state to the final product. 3,4 The control is obtained by an external field which can alter the dynamics, typically by temporarily altering the generator—the Hamiltonian. For the standard situation describing single- photon transition, it reads where Ĥ 0 is the bare molecular Hamiltonian, the electric dipole moment operator, and ε( t ) the time-dependent external electric field. In a two- photon setting employing adiabatic elimination of all the off-resonant single- photon transitions, a Hamiltonian with a structure similar to that of eqn (1) is obtained except for the molecule-light coupling where the external field enters quadratically. 5
+ ###### 
+From cou.: 3 Coherent control of chemical reactions has been achieved experimentally.6,7 Almost exclusively, all demonstrations were unimolecular reactions such as photodissociation or photoisomerization. Coherent control of binary reactions with photoassociation as one prominent example has proven to be a much harder task.8,9 The difficulty originates from the initial state of the reaction. In a unimolecular reaction the final fragments are initially entangled. As a result a coherent pathway connects the initial state to the final outcome. To control binary chemical reactions a prerequisite is to entangle the initial state.10 In ultracold conditions, initial entanglement is present due to threshold effects such that only a few partial waves of the colliding pair can lead to association.11,12 In thermal conditions, many partial waves participate and the colliding pair becomes unentangled.
+From Soup: 3 Coherent control of chemical reactions has been achieved experimentally. 6,7 Almost exclusively, all demonstrations were unimolecular reactions such as photodissociation or photoisomerization. Coherent control of binary reactions with photoassociation as one prominent example has proven to be a much harder task. 8,9 The difficulty originates from the initial state of the reaction. In a unimolecular reaction the final fragments are initially entangled. As a result a coherent pathway connects the initial state to the final outcome. To control binary chemical reactions a prerequisite is to entangle the initial state. 10 In ultracold conditions, initial entanglement is present due to threshold effects such that only a few partial waves of the colliding pair can lead to association. 11,12 In thermal conditions, many partial waves participate and the colliding pair becomes unentangled.
+ ###### 
+From cou.: 4 Is coherent control of a binary reaction in a thermal state possible? The answer depends on the ability to filter out an entangled sub-ensemble of binary states. In the present study we demonstrate that a binary sub-ensemble with high purity is filtered out from a thermal ensemble of hot atoms. Moreover molecular coherence is generated. This is the prerequisite for coherent control of binary reactions.
+From Soup: 4 Is coherent control of a binary reaction in a thermal state possible? The answer depends on the ability to filter out an entangled sub-ensemble of binary states. In the present study we demonstrate that a binary sub-ensemble with high purity is filtered out from a thermal ensemble of hot atoms. Moreover molecular coherence is generated. This is the prerequisite for coherent control of binary reactions.
+ ###### 
+From cou.: 5 The experiment is based on two-photon photoassociation of hot magnesium atoms to form a bound molecule. Magnesium in its electronic ground state is a closed shell atom. Therefore only a weak van der Waals attractive well can be found in the ground electronic potential of Mg2 (X1Σ+g). Upon promoting an electron to the π orbital, a strong chemical bound is formed in the (1)1Πg state with a binding energy of ∼1.8 eV or, equivalently, ∼14500 cm−1. This transition is induced by a femtosecond pulse of 70 fs transform-limited duration with a central wavelength of 840 nm. The energy difference corresponds to a two-photon transition. Two photon transition selection rules differ from the common one-photon photoassociation. As a result hidden potentials become accessible. Photoassociation of ultracold atoms takes place at comparatively long inter-atomic distances13 where the two-photon transition matrix elements between the electronic ground state and the (1)1Πg excited state vanish. Different from the ultracold regime, photoassociation of hot atoms occurs close to the repulsive wall of the ground state potential due to thermal population of high partial waves. The initial conditions for the experiment are a hot vapor of Mg atoms (T ∼ 1000 K) in Ar buffer gas. The hot conditions imply a broad distribution of linear and angular momentum of the randomly colliding Mg atoms. A major task of the excitation pulse is to preselect a sub-ensemble with increased purity and coherence.
+From Soup: 5 The experiment is based on two- photon photoassociation of hot magnesium atoms to form a bound molecule. Magnesium in its electronic ground state is a closed shell atom. Therefore only a weak van der Waals attractive well can be found in the ground electronic potential of Mg 2 (X 1 Σ + g ). Upon promoting an electron to the π orbital, a strong chemical bound is formed in the (1) 1 Π g state with a binding energy of ∼1.8 eV or, equivalently, ∼14500 cm −1 . This transition is induced by a femtosecond pulse of 70 fs transform-limited duration with a central wavelength of 840 nm. The energy difference corresponds to a two- photon transition. Two photon transition selection rules differ from the common one- photon photoassociation. As a result hidden potentials become accessible. Photoassociation of ultracold atoms takes place at comparatively long inter-atomic distances 13 where the two- photon transition matrix elements between the electronic ground state and the (1) 1 Π g excited state vanish. Different from the ultracold regime, photoassociation of hot atoms occurs close to the repulsive wall of the ground state potential due to thermal population of high partial waves. The initial conditions for the experiment are a hot vapor of Mg atoms ( T ∼ 1000 K) in Ar buffer gas. The hot conditions imply a broad distribution of linear and angular momentum of the randomly colliding Mg atoms. A major task of the excitation pulse is to preselect a sub-ensemble with increased purity and coherence.
+ ###### 
+From cou.: 6 A time-delayed femtosecond probe pulse interrogates the excited dimer via a one-photon excitation to a higher excited electronic state ((1)1Πu). This state has a strong one-photon transition back to the ground state. The corresponding experimental observable is the intensity of the resulting UV fluorescence (∼290 nm) measured as a function of the pump–probe time delay. An oscillating time-dependent signal is a manifestation of coherent dynamics in the (1)1Πg state. The present experiment is the first two-photon photoassociation experiment where the creation of molecular coherence out of an incoherent atomic ensemble is demonstrated. It is also the first hot femtosecond photoassociation experiment where the observed coherence is of both vibrational and rotational nature.
+From Soup: 6 A time-delayed femtosecond probe pulse interrogates the excited dimer via a one- photon excitation to a higher excited electronic state ((1) 1 Π u ). This state has a strong one- photon transition back to the ground state. The corresponding experimental observable is the intensity of the resulting UV fluorescence (∼290 nm) measured as a function of the pump–probe time delay. An oscillating time-dependent signal is a manifestation of coherent dynamics in the (1) 1 Π g state. The present experiment is the first two- photon photoassociation experiment where the creation of molecular coherence out of an incoherent atomic ensemble is demonstrated. It is also the first hot femtosecond photoassociation experiment where the observed coherence is of both vibrational and rotational nature.
+ ###### 
+From cou.: 7 The sequence of events that constitute the experiment is described in Fig. 1. A two-photon broadband transition promotes a pair of Mg atoms to an electronically excited state ((1)1Πg), forming Mg2 molecules. After a time delay, a probe photon is absorbed transferring the molecules to a higher excited state ((1)1Πu). Emission from the (1)1Πu state back to the ground state is detected. This signal as a function of the time delay between pump and probe pulse, yielding a pump–probe signal trace, is the main observable in the present study.
+From Soup: 7 The sequence of events that constitute the experiment is described in Fig. 1 . A two- photon broadband transition promotes a pair of Mg atoms to an electronically excited state ((1) 1 Π g ), forming Mg 2 molecules. After a time delay, a probe photon is absorbed transferring the molecules to a higher excited state ((1) 1 Π u ). Emission from the (1) 1 Π u state back to the ground state is detected. This signal as a function of the time delay between pump and probe pulse, yielding a pump–probe signal trace, is the main observable in the present study.
+ ###### 
+From cou.: 8 The experiments are conducted in a static cell with Ar buffer gas heated to 1000 K, at which the pressure of the Mg vapor is around 5 Torr. The 840 nm 70 fs linearly-polarized pump and probe femtosecond pulses irradiate the sample at 1 kHz repetition rate in a collinear configuration. The measured signal results from the UV fluorescence at ∼290 nm that is emitted (with a lifetime of a few ns) toward the direction of the beam entrance and collected there at a small angle from the beam axis using a proper optical setup. The final pump–probe trace results from an average over several scans, which averages out most of the interferometric signature existing in a single trace due to the collinear beam configuration.
+From Soup: 8 The experiments are conducted in a static cell with Ar buffer gas heated to 1000 K, at which the pressure of the Mg vapor is around 5 Torr. The 840 nm 70 fs linearly-polarized pump and probe femtosecond pulses irradiate the sample at 1 kHz repetition rate in a collinear configuration. The measured signal results from the UV fluorescence at ∼290 nm that is emitted (with a lifetime of a few ns) toward the direction of the beam entrance and collected there at a small angle from the beam axis using a proper optical setup. The final pump–probe trace results from an average over several scans, which averages out most of the interferometric signature existing in a single trace due to the collinear beam configuration.
+ ###### 
+From cou.: 9 The thermal initial state is composed of Mg atoms at a temperature of 1000 K. Magnesium atoms in the ground state have a closed electronic shell. As a result, the X1Σ+g ground state potential has no chemical bond. The attraction on this surface is due to a shallow van der Walls well of a depth of approximately 400 cm−1. At the high temperature of the experiment, scattering states up to ∼1000 cm−1 above threshold are thermally populated. For a Franck–Condon window at an interatomic distance of ∼7 bohr, corresponding to a two-photon excitation at 840 nm, angular momentum of up to J = 100 can contribute to the process. The centrifugal barrier at this angular momentum eliminates completely the small potential well of the ground surface (cf. inset in Fig. 1). For high values of angular momentum, existence of molecules before photoassociation can therefore be excluded. This is another difference compared to photoassociation of ultracold atoms where a few molecules are already produced by the trapping lasers.14,15 Some exemplary bound states and scattering states of the ground potential surface are shown in the inset of Fig. 1.
+From Soup: 9 The thermal initial state is composed of Mg atoms at a temperature of 1000 K. Magnesium atoms in the ground state have a closed electronic shell. As a result, the X 1 Σ + g ground state potential has no chemical bond. The attraction on this surface is due to a shallow van der Walls well of a depth of approximately 400 cm −1 . At the high temperature of the experiment, scattering states up to ∼1000 cm −1 above threshold are thermally populated. For a Franck–Condon window at an interatomic distance of ∼7 bohr, corresponding to a two- photon excitation at 840 nm, angular momentum of up to J = 100 can contribute to the process. The centrifugal barrier at this angular momentum eliminates completely the small potential well of the ground surface ( cf. inset in Fig. 1 ). For high values of angular momentum, existence of molecules before photoassociation can therefore be excluded. This is another difference compared to photoassociation of ultracold atoms where a few molecules are already produced by the trapping lasers. 14,15 Some exemplary bound states and scattering states of the ground potential surface are shown in the inset of Fig. 1 .
+ ###### 
+From cou.: 10 Theoretically the initial state is modeled by a thermal density operator composed of bound and scattering states.11 We eliminate the center of mass motion and consider the density operator of the relative motion of a pair of atoms,
+From Soup: 10 Theoretically the initial state is modeled by a thermal density operator composed of bound and scattering states. 11 We eliminate the center of mass motion and consider the density operator of the relative motion of a pair of atoms,
+ ###### 
+From cou.: 11 Z
+From Soup: 11 Z
+ ###### 
+From cou.: 12 k
+From Soup: 12 k
+ ###### 
+From cou.: 13 T
+From Soup: 13 B
+ ###### 
+From cou.: 14 V
+From Soup: 14 T
+ ###### 
+From cou.: 15 R
+From Soup: 15 V
+ ###### 
+From cou.: 16 z
+From Soup: 16 g
+ ###### 
+From cou.: 17 J
+From Soup: 17 R
+ ###### 
+From cou.: 18 J
+From Soup: 18 z
+ ###### 
+From cou.: 19 16
+From Soup: 19 J
+ ###### 
+From cou.: 20 The first step in simulating the dynamics is to generate the potential energy surfaces described in Fig. 1. In addition, two-photon transition matrix elements and dynamical Stark shifts are required. State-of-the-art ab initio techniques have been applied to compute the potential energy curves of the magnesium dimer in the Born–Oppenheimer approximation. In all calculations the aug-cc-pVQZ basis set of quadruple zeta quality as the atomic basis for Mg was used. This basis set was augmented by the set of bond functions consisting of [3s3p2d2f1g1h] functions placed in the middle of Mg2 dimer bond.
+From Soup: 20 J
+ ###### 
+From cou.: 21 The ground X1Σ+g state potential was computed with the coupled cluster method restricted to single, double, and noniterative triple excitations, CCSD(T). For the excited (1)1Πg and (1)1Πu states we used the linear response theory (equation of motion approach) within the coupled-cluster singles and doubles framework, LRCCSD. The potential energy curve of the excited (2)1Πu state in the region of the minimum of the potential was also obtained with the LRCCSD method, whereas at larger internuclear distances this potential energy curve was represented by the multipole expansion with electrostatic and dispersion terms Cn/Rn up to and including n = 10. The calculated potentials are shown in Fig. 1. More details on the ab initio calculations and spectroscopic characteristics of various electronic states of Mg2 will be reported elsewhere.17
+From Soup: 21 16
+ ###### 
+From cou.: 22 The electric transition dipole moments between states i and f, μj = 〈Ψi|j|Ψf〉, where the electric dipole operator, j = rj is given by the jth component of the position vector and Ψi/f are the wave functions for the initial and final states. These terms were computed as the first residue of the LRCCSD linear response function for X1Σ+g, (1)1Πg, and (1)1Πu states, whereas for transitions to (2)1Πu state MRCI method was applied. Nonadiabatic radial and angular coupling matrix elements, as well as the spin–orbit coupling matrix elements have been evaluated with the MRCI method. The adiabatic (1)1Πu and (2)1Πu states are strongly coupled by the nuclear momentum operator R = i∇R/μ, where μ is the reduced mass of Mg2. We include this non-adiabatic coupling in the model by switching to the diabatic representation.
+From Soup: 22 The first step in simulating the dynamics is to generate the potential energy surfaces described in Fig. 1 . In addition, two- photon transition matrix elements and dynamical Stark shifts are required. State-of-the-art ab initio techniques have been applied to compute the potential energy curves of the magnesium dimer in the Born–Oppenheimer approximation. In all calculations the aug-cc-pVQZ basis set of quadruple zeta quality as the atomic basis for Mg was used. This basis set was augmented by the set of bond functions consisting of [3 s 3 p 2 d 2 f 1 g 1 h ] functions placed in the middle of Mg 2 dimer bond.
+ ###### 
+From cou.: 23 We adiabatically eliminate intermediate states that are accessed by single-photon transitions and calculate an effective two-photon coupling,
+From Soup: 23 The ground X 1 Σ + g state potential was computed with the coupled cluster method restricted to single, double, and noniterative triple excitations, CCSD(T). For the excited (1) 1 Π g and (1) 1 Π u states we used the linear response theory (equation of motion approach) within the coupled-cluster singles and doubles framework, LRCCSD. The potential energy curve of the excited (2) 1 Π u state in the region of the minimum of the potential was also obtained with the LRCCSD method, whereas at larger internuclear distances this potential energy curve was represented by the multipole expansion with electrostatic and dispersion terms C n / R n up to and including n = 10. The calculated potentials are shown in Fig. 1 . More details on the ab initio calculations and spectroscopic characteristics of various electronic states of Mg 2 will be reported elsewhere. 17
+ ###### 
+From cou.: 24 S
+From Soup: 24 The electric transition dipole moments between states i and f , μ j = 〈Ψ i | j |Ψ f 〉, where the electric dipole operator, j = r j is given by the j th component of the position vector and Ψ i / f are the wave functions for the initial and final states. These terms were computed as the first residue of the LRCCSD linear response function for X 1 Σ + g , (1) 1 Π g , and (1) 1 Π u states, whereas for transitions to (2) 1 Π u state MRCI method was applied. Nonadiabatic radial and angular coupling matrix elements, as well as the spin–orbit coupling matrix elements have been evaluated with the MRCI method. The adiabatic (1) 1 Π u and (2) 1 Π u states are strongly coupled by the nuclear momentum operator R = i ∇ R / μ , where μ is the reduced mass of Mg 2 . We include this non-adiabatic coupling in the model by switching to the diabatic representation.
+ ###### 
+From cou.: 25 t
+From Soup: 25 We adiabatically eliminate intermediate states that are accessed by single- photon transitions and calculate an effective two- photon coupling,
+ ###### 
+From cou.: 26 E
+From Soup: 26 S
+ ###### 
+From cou.: 27 i
+From Soup: 27 t
+ ###### 
+From cou.: 28 ω
+From Soup: 28 E
+ ###### 
+From cou.: 29 L
+From Soup: 29 i
+ ###### 
+From cou.: 30 photon
+From Soup: 30 ω
+ ###### 
+From cou.: 31 f
+From Soup: 31 L
+ ###### 
+From cou.: 32 ω
+From Soup: 32 photon
+ ###### 
+From cou.: 33 nk
+From Soup: 33 f
+ ###### 
+From cou.: 34 ω
+From Soup: 34 ω
+ ###### 
+From cou.: 35 n
+From Soup: 35 nk
+ ###### 
+From cou.: 36 ω
+From Soup: 36 ω
+ ###### 
+From cou.: 37 k
+From Soup: 37 n
+ ###### 
+From cou.: 38 n
+From Soup: 38 ω
+ ###### 
+From cou.: 39 k
+From Soup: 39 k
+ ###### 
+From cou.: 40 In practice, it can be obtained as a residue of the cubic response function.18 For transitions between the X1Σ+g and (1)1Πg states, Mijf←0(ωL, R) was computed as a residue of the coupled cluster cubic response function with electric dipole operators and wave functions within the CCSD framework.19,20
+From Soup: 40 n
+ ###### 
+From cou.: 41 Strong field conditions require to include dynamical Stark shifts. The Stark shift of electronic state k can be expressed through the elements of the dynamic electric dipole polarizability tensor,
+From Soup: 41 k
+ ###### 
+From cou.: 42 The tensor elements of the polarizability of the ground 1Σ+g state were obtained as a coupled cluster linear response function with electric dipole operators and wave functions within CCSD framework.21
+From Soup: 42 In practice, it can be obtained as a residue of the cubic response function. 18 For transitions between the X 1 Σ + g and (1) 1 Π g states, M ij f ←0 ( ω L , R ) was computed as a residue of the coupled cluster cubic response function with electric dipole operators and wave functions within the CCSD framework. 19,20
+ ###### 
+From cou.: 43 Dynamic polarizabilities of the exited states were computed as double residues of the coupled cluster cubic response function with electric dipole operators and wave functions within CCSD framework.22,23
+From Soup: 43 Strong field conditions require to include dynamical Stark shifts. The Stark shift of electronic state k can be expressed through the elements of the dynamic electric dipole polarizability tensor,
+ ###### 
+From cou.: 44 The photoassociation step is carried out by a two-photon transition from the X1Σ+g electronic ground state to the (1)1Πg excited state. The photoassociation is induced by a femtosecond pulse of 70 fs transform-limited duration, 840 nm central wavelength, and a transform-limited peak intensity of approximately 5 × 1012 W cm−2.
+From Soup: 44 The tensor elements of the polarizability of the ground 1 Σ + g state were obtained as a coupled cluster linear response function with electric dipole operators and wave functions within CCSD framework. 21
+ ###### 
+From cou.: 45 The transition takes place in a small Franck–Condon window at RL ∼ 7 bohr. This two-photon excitation is impulsive on the timescale of vibrational and rotational periods on the excited (1)1Πg surface (∼175 fs and ∼0.5–1 ps, respectively). As a result, coherent transient dynamics is generated on this potential. Indirect experimental evidence for populating the (1)1Πg state comes from emission lines terminating on the excited triplet 3P atomic Mg state. The origin of these triplet atoms is most probably a nonadiabatic spin–orbit induced transfer from the singlet (1)1Πg state to the triplet (1)3Πg close to the inner turning point and to the (1)3Σg. We calculated the lifetime on the surface to be ∼11 ps. The population on this state will dissociate into 3P atoms (cf.Fig. 1).
+From Soup: 45 Dynamic polarizabilities of the exited states were computed as double residues of the coupled cluster cubic response function with electric dipole operators and wave functions within CCSD framework. 22,23
+ ###### 
+From cou.: 46 The excitation dynamics was simulated by solving the time-dependent Schrödinger equation,
+From Soup: 46 The photoassociation step is carried out by a two- photon transition from the X 1 Σ + g electronic ground state to the (1) 1 Π g excited state. The photoassociation is induced by a femtosecond pulse of 70 fs transform-limited duration, 840 nm central wavelength, and a transform-limited peak intensity of approximately 5 × 10 12 W cm −2 .
+ ###### 
+From cou.: 47 Ĥ
+From Soup: 47 The transition takes place in a small Franck–Condon window at R L ∼ 7 bohr. This two- photon excitation is impulsive on the timescale of vibrational and rotational periods on the excited (1) 1 Π g surface (∼175 fs and ∼0.5–1 ps, respectively). As a result, coherent transient dynamics is generated on this potential. Indirect experimental evidence for populating the (1) 1 Π g state comes from emission lines terminating on the excited triplet 3 P atomic Mg state. The origin of these triplet atoms is most probably a nonadiabatic spin–orbit induced transfer from the singlet (1) 1 Π g state to the triplet (1) 3 Π g close to the inner turning point and to the (1) 3 Σ g . We calculated the lifetime on the surface to be ∼11 ps. The population on this state will dissociate into 3 P atoms ( cf. Fig. 1 ).
+ ###### 
+From cou.: 48 i
+From Soup: 48 The excitation dynamics was simulated by solving the time-dependent Schrödinger equation,
+ ###### 
+From cou.: 49 Ĥ
+From Soup: 49 Ĥ
+ ###### 
+From cou.: 50 g
+From Soup: 50 i
+ ###### 
+From cou.: 51 e
+From Soup: 51 Ĥ
+ ###### 
+From cou.: 52 g
+From Soup: 52 g ( e )
+ ###### 
+From cou.: 53 e
+From Soup: 53 g ( e )
+ ###### 
+From cou.: 54 V
+From Soup: 54 V
+ ###### 
+From cou.: 55 g
+From Soup: 55 g ( e )
+ ###### 
+From cou.: 56 e
+From Soup: 56 R
+ ###### 
+From cou.: 57 R
+From Soup: 57 S
+ ###### 
+From cou.: 58 S
+From Soup: 58 g ( e )
+ ###### 
+From cou.: 59 g
+From Soup: 59 t
+ ###### 
+From cou.: 60 e
+From Soup: 60 R
+ ###### 
+From cou.: 61 t
+From Soup: 61 g ( e )
+ ###### 
+From cou.: 62 R
+From Soup: 62 V
+ ###### 
+From cou.: 63 g
+From Soup: 63 g ( e )
+ ###### 
+From cou.: 64 e
+From Soup: 64 R
+ ###### 
+From cou.: 65 V
+From Soup: 65 S
+ ###### 
+From cou.: 66 g
+From Soup: 66 g ( e )
+ ###### 
+From cou.: 67 e
+From Soup: 67 t
+ ###### 
+From cou.: 68 R
+From Soup: 68 R
+ ###### 
+From cou.: 69 S
+From Soup: 69 g
+ ###### 
+From cou.: 70 g
+From Soup: 70 X
+ ###### 
+From cou.: 71 e
+From Soup: 71 1
+ ###### 
+From cou.: 72 t
+From Soup: 72 +
+ ###### 
+From cou.: 73 R
+From Soup: 73 g
+ ###### 
+From cou.: 74 g
+From Soup: 74 e
+ ###### 
+From cou.: 75 X
+From Soup: 75 1
+ ###### 
+From cou.: 76 1
+From Soup: 76 g
+ ###### 
+From cou.: 77 +
+From Soup: 77 im
+ ###### 
+From cou.: 78 g
+From Soup: 78 im
+ ###### 
+From cou.: 79 e
+From Soup: 79 3
+ ###### 
+From cou.: 80 1
+From Soup: 80 g
+ ###### 
+From cou.: 81 g
+From Soup: 81 3
+ ###### 
+From cou.: 82 im
+From Soup: 82 g
+ ###### 
+From cou.: 83 im
+From Soup: 83 Ĥ
+ ###### 
+From cou.: 84 3
+From Soup: 84 im 1( im 2)
+ ###### 
+From cou.: 85 g
+From Soup: 85 im 1( im 2)
+ ###### 
+From cou.: 86 3
+From Soup: 86 V
+ ###### 
+From cou.: 87 g
+From Soup: 87 im 1( im 2)
+ ###### 
+From cou.: 88 Ĥ
+From Soup: 88 R
+ ###### 
+From cou.: 89 im
+From Soup: 89 V
+ ###### 
+From cou.: 90 im
+From Soup: 90 SO
+ ###### 
+From cou.: 91 im
+From Soup: 91 SO
+ ###### 
+From cou.: 92 im
+From Soup: 92 SO
+ ###### 
+From cou.: 93 V
+From Soup: 93 3
+ ###### 
+From cou.: 94 im
+From Soup: 94 )
+ ###### 
+From cou.: 95 im
+From Soup: 95 photon
+ ###### 
+From cou.: 96 R
+From Soup: 96 R
+ ###### 
+From cou.: 97 V
+From Soup: 97 cf.
+ ###### 
+From cou.: 98 SO
+From Soup: 98 eqn (4)
+ ###### 
+From cou.: 99 SO
+From Soup: 99 t
+ ###### 
+From cou.: 100 SO
+From Soup: 100 photon
+ ###### 
+From cou.: 101 photon
+From Soup: 101 The Hamiltonian is represented on a grid of length R min = 3.0 bohr to R max = 40.0 bohr, with 1024 grid points. The photoassociation is studied numerically by solving the time-dependent Schrödinger equation for the effective Hamiltonian in eqn (9) with a Chebychev propagator. 24,25 We simulate the dynamics with a pulse duration of 100 fs full-width at half-maximum of (FWHM, with respect to the field) for the transform-limited pulse and a central wavelength of 840 nm. Intensity values were calculated in the range of 10 10 W cm −2 to 10 13 W cm −2 , cf. Fig. 2 . This pulse corresponds to the experimental 70 fs pulse (where the FWHM is taken with respect to the intensity profile).
+ ###### 
+From cou.: 102 R
+From Soup: 102 We can estimate the purity of the sub-ensemble in the electronically excited state by constructing the corresponding density operator,
+ ###### 
+From cou.: 103 cf.
+From Soup: 103 e
+ ###### 
+From cou.: 104 t
+From Soup: 104 1
+ ###### 
+From cou.: 105 photon
+From Soup: 105 g
+ ###### 
+From cou.: 106 The Hamiltonian is represented on a grid of length Rmin = 3.0 bohr to Rmax = 40.0 bohr, with 1024 grid points. The photoassociation is studied numerically by solving the time-dependent Schrödinger equation for the effective Hamiltonian in eqn (9) with a Chebychev propagator.24,25 We simulate the dynamics with a pulse duration of 100 fs full-width at half-maximum of (FWHM, with respect to the field) for the transform-limited pulse and a central wavelength of 840 nm. Intensity values were calculated in the range of 1010 W cm−2 to 1013 W cm−2, cf.Fig. 2. This pulse corresponds to the experimental 70 fs pulse (where the FWHM is taken with respect to the intensity profile).
+From Soup: 106 The coherence measure C e in the excited state allows one to characterize the dynamical contribution to the purity. 26 It is obtained by substracting from e the diagonal elements in the energy representation, squaring and taking the trace. Details of the computational details will be described elsewhere. 16
+ ###### 
+From cou.: 107 We can estimate the purity of the sub-ensemble in the electronically excited state by constructing the corresponding density operator,
+From Soup: 107 The main experimental observable is an emission signal at ∼290 nm that is emitted following the (2⊕1) absorption of 840 nm photons , i.e. , two- photon absorption followed by a time-delayed one- photon absorption. This emission is measured as a function of the time delay between the two- photon and single- photon transitions. The transient signal is associated with the dynamics in the (1) 1 Π g excited state. The Fourier transform of this signal should unravel the vibrational and rotational periods on this potential.
+ ###### 
+From cou.: 108 1
+From Soup: 108 We simulate the experimental signal assuming that the population on the 1 Π u states is proportional to the emission signal. The pulse parameters remain the same as those of the two- photon pulse. The simulation involves a total of five potential energy surfaces. The initial state for the probe step is (1) 1 Π g (denoted as ‘ g ’), the target states, (1) 1 Π u and (2) 1 Π u , are denoted by ‘ e 1’ and ‘ e 2’, respectively. The intermediate states (1) 3 Σ + g (denoted as im 1) and (1) 3 Π g (denoted as im 2) are coupled to the ‘initial’ state (1) 1 Π g state by spin–orbit coupling. As discussed in Sec. 2.3, the two 1 Π u states exhibit a strong non-adiabatic coupling around the region R = 8.1 bohr. Hence, an adiabatic-to-diabatic transformation is performed over these two states and the corresponding diabatic potentials and the diabatic couplings are employed in the simulations.
+ ###### 
+From cou.: 109 g
+From Soup: 109 The Hamiltonian for the probe-pulse simulations is given by
+ ###### 
+From cou.: 110 The coherence measure Ce in the excited state allows one to characterize the dynamical contribution to the purity.26 It is obtained by substracting from e the diagonal elements in the energy representation, squaring and taking the trace. Details of the computational details will be described elsewhere.16
+From Soup: 110 μ
+ ###### 
+From cou.: 111 The main experimental observable is an emission signal at ∼290 nm that is emitted following the (2⊕1) absorption of 840 nm photons, i.e., two-photon absorption followed by a time-delayed one-photon absorption. This emission is measured as a function of the time delay between the two-photon and single-photon transitions. The transient signal is associated with the dynamics in the (1)1Πg excited state. The Fourier transform of this signal should unravel the vibrational and rotational periods on this potential.
+From Soup: 111 d
+ ###### 
+From cou.: 112 We simulate the experimental signal assuming that the population on the 1Πu states is proportional to the emission signal. The pulse parameters remain the same as those of the two-photon pulse. The simulation involves a total of five potential energy surfaces. The initial state for the probe step is (1)1Πg (denoted as ‘g’), the target states, (1)1Πu and (2)1Πu, are denoted by ‘e1’ and ‘e2’, respectively. The intermediate states (1)3Σ+g (denoted as im1) and (1)3Πg (denoted as im2) are coupled to the ‘initial’ state (1)1Πg state by spin–orbit coupling. As discussed in Sec. 2.3, the two 1Πu states exhibit a strong non-adiabatic coupling around the region R = 8.1 bohr. Hence, an adiabatic-to-diabatic transformation is performed over these two states and the corresponding diabatic potentials and the diabatic couplings are employed in the simulations.
+From Soup: 112 1,2
+ ###### 
+From cou.: 113 The Hamiltonian for the probe-pulse simulations is given by
+From Soup: 113 1
+ ###### 
+From cou.: 114 μ
+From Soup: 114 u
+ ###### 
+From cou.: 115 d
+From Soup: 115 1
+ ###### 
+From cou.: 116 1,2
+From Soup: 116 g
+ ###### 
+From cou.: 117 1
+From Soup: 117 t
+ ###### 
+From cou.: 118 u
+From Soup: 118 V
+ ###### 
+From cou.: 119 1
+From Soup: 119 12
+ ###### 
+From cou.: 120 g
+From Soup: 120 d
+ ###### 
+From cou.: 121 t
+From Soup: 121 1
+ ###### 
+From cou.: 122 V
+From Soup: 122 u
+ ###### 
+From cou.: 123 d
+From Soup: 123 1
+ ###### 
+From cou.: 124 1
+From Soup: 124 u
+ ###### 
+From cou.: 125 u
+From Soup: 125 i.e.
+ ###### 
+From cou.: 126 1
+From Soup: 126 J
+ ###### 
+From cou.: 127 u
+From Soup: 127 The experimental pump–probe trace for the observed fluorescence and its Fourier transform spectra are shown in Fig. 4 for two pulse bandwidth cases: 70 fs and 100 fs transform-limited pulse duration. Even though the theoretical calculations have been conducted with 70 fs pulse, the 100 fs case is shown here for completion. Both pump–probe traces exhibits time dependence long after the pump (photo-associating) pulse is over, hence they reveal molecular rovibrational coherence of the photoassociated Mg 2 molecules. The Fourier spectra of the pump–probe traces show broad peaks at 5.8 THz and 1.2 THz. The former fits a probed vibrational dynamics in the (1) 1 Π g state with vibrational levels around ν ∼ 30–50, while the latter fits a probed rotational dynamics in the (1) 1 Π g state with rotations around J ∼ 40–100. As seen, the vibrational coherence is attenuated for the 100 fs pulse as compared to the 70 fs pulse.
+ ###### 
+From cou.: 128 i.e.
+From Soup: 128 In the theoretical description, it is the autocorrelation function, cf. Fig. 3 , that reflects the dynamics in the (1) 1 Π g excited state after the pump pulse. We compare the autocorrelation functions obtained with a single realization of a random-phase thermal wavefunction and an average over 17 realizations of random-phase thermal wavefunctions. An oscillatory behavior indicating coherent vibrational dynamics is evident. This coherent dynamics survives the angular momentum averaging as can be seen in Fig. 3(a) (blue line). These results are an indication that coherent dynamics is distilled from an initial thermal ensemble. The probing of this coherent vibrational dynamics into the Π u states (see above) produces a corresponding oscillatory pump–probe trace that its Fourier spectrum is shown in Fig. 4(b) (purple line) together with the experimental results. It shows a prominent peak at a frequency of 7.2 THz. As described above, the theoretical calculations account here only for the vibrational dynamics on the (1) 1 Π g state. As seen in Fig. 4(b) , the calculated vibrational Fourier peak is located at the same region of the experimental values, however it is much narrower. We attribute the difference between the experimental and theoretical results to the large uncertainty with regard to the calculated Π u states due to their corresponding strong non-adiabatic coupling (see above).
+ ###### 
+From cou.: 129 J
+From Soup: 129 The experimental and theoretical evidence for coherent dynamics distilled out of the initial thermal state means that coherent control should be possible. The most obvious target is to enhance the production of photoassociated Mg 2 molecules. Other targets could be control of the emission signal. 27 Experimentally, such a target could also be optimized by random feedback techniques. 28 In the present context we demonstrate phase-only control as could be achieved by a pulse shaper. We also show intensity effects.
+ ###### 
+From cou.: 130 The experimental pump–probe trace for the observed fluorescence and its Fourier transform spectra are shown in Fig. 4 for two pulse bandwidth cases: 70 fs and 100 fs transform-limited pulse duration. Even though the theoretical calculations have been conducted with 70 fs pulse, the 100 fs case is shown here for completion. Both pump–probe traces exhibits time dependence long after the pump (photo-associating) pulse is over, hence they reveal molecular rovibrational coherence of the photoassociated Mg2 molecules. The Fourier spectra of the pump–probe traces show broad peaks at 5.8 THz and 1.2 THz. The former fits a probed vibrational dynamics in the (1)1Πg state with vibrational levels around ν ∼ 30–50, while the latter fits a probed rotational dynamics in the (1)1Πg state with rotations around J ∼ 40–100. As seen, the vibrational coherence is attenuated for the 100 fs pulse as compared to the 70 fs pulse.
+From Soup: 130 The most simple phase control is a linear chirp, i.e. , a time-dependent frequency change. Experimentally it can be obtained by adding a dispersive element to the pulse generator. More elaborate phase control is obtained in the frequency domain by a pulse shaper. In strong fields positive chirp enhances population transfer. 29,30 This is because the dynamics on the excited state does not interfere with the population transfer. In a two- photon transition the chirp effect adds up. We simulate the effect by employing the following pulse form in the time domain cf. eqn (4) : and the phase becomes cf. eqn (9) : where χ II is the two- photon chirp rate in the frequency domain and σ t is the transform limited pulse width. Eqn (13) reflects the fact that the chirped pulse is stretched in time with respect to the transform-limited pulse with peak intensity attenuated to keep the pulse fluence constant. The transform limited intensity is obtained by , where c is the speed of light and ε 0 is the free space permittivity.
+ ###### 
+From cou.: 131 In the theoretical description, it is the autocorrelation function, cf.Fig. 3, that reflects the dynamics in the (1)1Πg excited state after the pump pulse. We compare the autocorrelation functions obtained with a single realization of a random-phase thermal wavefunction and an average over 17 realizations of random-phase thermal wavefunctions. An oscillatory behavior indicating coherent vibrational dynamics is evident. This coherent dynamics survives the angular momentum averaging as can be seen in Fig. 3(a) (blue line). These results are an indication that coherent dynamics is distilled from an initial thermal ensemble. The probing of this coherent vibrational dynamics into the Πu states (see above) produces a corresponding oscillatory pump–probe trace that its Fourier spectrum is shown in Fig. 4(b) (purple line) together with the experimental results. It shows a prominent peak at a frequency of 7.2 THz. As described above, the theoretical calculations account here only for the vibrational dynamics on the (1)1Πg state. As seen in Fig. 4(b), the calculated vibrational Fourier peak is located at the same region of the experimental values, however it is much narrower. We attribute the difference between the experimental and theoretical results to the large uncertainty with regard to the calculated Πu states due to their corresponding strong non-adiabatic coupling (see above).
+From Soup: 131 Fig. 5 shows the influence of a positively and negatively chirped pulse relative to the transform-limited pulse. In all cases the chirp enhances the population transfer with more than an order of magnitude enhancement for χ II = ±8 × 10 −3 ps 2 . For large chirp rates the positive and negative chirps lead to different enhancements, which is consistent with the theoretical predictions. 30 We expect the chirp enhancement to survive thermal averaging.
+ ###### 
+From cou.: 132 The experimental and theoretical evidence for coherent dynamics distilled out of the initial thermal state means that coherent control should be possible. The most obvious target is to enhance the production of photoassociated Mg2 molecules. Other targets could be control of the emission signal.27 Experimentally, such a target could also be optimized by random feedback techniques.28 In the present context we demonstrate phase-only control as could be achieved by a pulse shaper. We also show intensity effects.
+From Soup: 132 The two- photon population transfer to the excited (1) 1 Π g state is shown as a function of the initial angular momentum J for different intensities in Fig. 2 . As the intensity increases, the peak of the distribution shifts to larger J values. For the intensity value used in the experiment, ∼10 12 W cm −2 , the peak has its maximum at J = 55. This represents a compromise between a favorable Franck–Condon window and increasing phase space with J . Other minor peaks could be associated with rotational resonances.
+ ###### 
+From cou.: 133 The most simple phase control is a linear chirp, i.e., a time-dependent frequency change. Experimentally it can be obtained by adding a dispersive element to the pulse generator. More elaborate phase control is obtained in the frequency domain by a pulse shaper. In strong fields positive chirp enhances population transfer.29,30 This is because the dynamics on the excited state does not interfere with the population transfer. In a two-photon transition the chirp effect adds up. We simulate the effect by employing the following pulse form in the time domain cf.eqn (4):and the phase becomes cf.eqn (9):where χII is the two-photon chirp rate in the frequency domain and σt is the transform limited pulse width. Eqn (13) reflects the fact that the chirped pulse is stretched in time with respect to the transform-limited pulse with peak intensity attenuated to keep the pulse fluence constant. The transform limited intensity is obtained by , where c is the speed of light and ε0 is the free space permittivity.
+From Soup: 133 We have investigated femtosecond photoassociation of thermally hot atoms in the gas phase and its coherent control. In the photoassociation process, formation of a chemical bond is facilitated by light in a free-to-bound optical transition. We have demonstrated photoassociation of hot atoms experimentally by measuring fluorescence resulting from the absorption of (2⊕1) photons . The Fourier transform of the experimental signal reveals molecular coherence of both vibrational and rotational nature in the intermediate electronically excited state that is accessed by the two- photon photoassociating transition. Our simulations also show molecular coherence of the photoassociated molecules. The theoretical model is based on a state-of-the-art treatment of the electronic structure of Mg 2 including ab initio two- photon couplings and dynamic Stark shifts and a novel quantum molecular dynamics approach to modeling a thermal ensemble subject to coherent excitation.
+ ###### 
+From cou.: 134 Fig. 5 shows the influence of a positively and negatively chirped pulse relative to the transform-limited pulse. In all cases the chirp enhances the population transfer with more than an order of magnitude enhancement for χII = ±8 × 10−3ps2. For large chirp rates the positive and negative chirps lead to different enhancements, which is consistent with the theoretical predictions.30 We expect the chirp enhancement to survive thermal averaging.
+From Soup: 134 The significance of coherently controlling femtosecond photoassociation is twofold. On one hand, it addresses the fundamental problem of coherently controlling a system having an initial state that is an incoherent thermal mixture of different scattering states. In thermal equilibrium the scattering states correspond to eigenstates of the ground state Hamiltonian. On the other hand, success of femtosecond control of free-to-bound photoassociation is an example of coherent control of a photo-induced bimolecular chemical reaction. Chemical reaction control is a long-standing goal from the early days of the field of coherent control as a possible means for inducing new chemical reactions. Despite its importance, femtosecond control of the photoassociation of ‘hot’ thermal atoms has previously been investigated experimentally by only a single pioneering study more than a decade ago, 8,31–37 demonstrating only the basic feasibility of spectroscopy of hot atom-atom photoassociation with subsequent rotational coherence using unshaped femtosecond pulses.
+ ###### 
+From cou.: 135 The two-photon population transfer to the excited (1)1Πg state is shown as a function of the initial angular momentum J for different intensities in Fig. 2. As the intensity increases, the peak of the distribution shifts to larger J values. For the intensity value used in the experiment, ∼1012 W cm−2, the peak has its maximum at J = 55. This represents a compromise between a favorable Franck–Condon window and increasing phase space with J. Other minor peaks could be associated with rotational resonances.
+From Soup: 135 Financial support from the Deutsche Forschungsgemeinschaft through the Emmy Noether programme and SFB 450 is gratefully acknowledged. This research was supported by The Israel Science Foundation (Grant No. 1450/10) and by The James Franck Program in Laser Matter Interaction. RM and MT would like to thank the Polish Ministry of Science and Higher Education for the financial support through the project N N204 215539. MT was supported by the project operated within the Foundation for Polish Science MPD Programme co-financed by the EU European Regional Development Fund.
+ ###### 
+From cou.: 136 We have investigated femtosecond photoassociation of thermally hot atoms in the gas phase and its coherent control. In the photoassociation process, formation of a chemical bond is facilitated by light in a free-to-bound optical transition. We have demonstrated photoassociation of hot atoms experimentally by measuring fluorescence resulting from the absorption of (2⊕1) photons. The Fourier transform of the experimental signal reveals molecular coherence of both vibrational and rotational nature in the intermediate electronically excited state that is accessed by the two-photon photoassociating transition. Our simulations also show molecular coherence of the photoassociated molecules. The theoretical model is based on a state-of-the-art treatment of the electronic structure of Mg2 including ab initio two-photon couplings and dynamic Stark shifts and a novel quantum molecular dynamics approach to modeling a thermal ensemble subject to coherent excitation.
+From Soup: 136 D. J. Tannor and S. A. Rice, J. Chem. Phys. , 1985, 83 , 5013 CrossRef CAS .
+ ###### 
+From cou.: 137 The significance of coherently controlling femtosecond photoassociation is twofold. On one hand, it addresses the fundamental problem of coherently controlling a system having an initial state that is an incoherent thermal mixture of different scattering states. In thermal equilibrium the scattering states correspond to eigenstates of the ground state Hamiltonian. On the other hand, success of femtosecond control of free-to-bound photoassociation is an example of coherent control of a photo-induced bimolecular chemical reaction. Chemical reaction control is a long-standing goal from the early days of the field of coherent control as a possible means for inducing new chemical reactions. Despite its importance, femtosecond control of the photoassociation of ‘hot’ thermal atoms has previously been investigated experimentally by only a single pioneering study more than a decade ago,8,31–37 demonstrating only the basic feasibility of spectroscopy of hot atom-atom photoassociation with subsequent rotational coherence using unshaped femtosecond pulses.
+From Soup: 137 S. A. Rice, Science , 1992, 258 (5081), 412 CAS .
+ ###### 
+From cou.: 138 Financial support from the Deutsche Forschungsgemeinschaft through the Emmy Noether programme and SFB 450 is gratefully acknowledged. This research was supported by The Israel Science Foundation (Grant No. 1450/10) and by The James Franck Program in Laser Matter Interaction. RM and MT would like to thank the Polish Ministry of Science and Higher Education for the financial support through the project N N204 215539. MT was supported by the project operated within the Foundation for Polish Science MPD Programme co-financed by the EU European Regional Development Fund.
+From Soup: 138 S. A. Rice and M. Zhao, Optical control of molecular dynamics , John Wiley & Sons, 2000. Search PubMed .
+ ###### 
+From cou.: 139 D. J. Tannor and S. A. Rice, J. Chem. Phys., 1985, 83, 5013 CrossRef CAS .
+From Soup: 139 P. Brumer and M. Shapiro, Principles and Applications of the Quantum Control of Molecular Processes ,Wiley Interscience, 2003 Search PubMed .
+ ###### 
+From cou.: 140 S. A. Rice, Science, 1992, 258(5081), 412 CAS .
+From Soup: 140 C. P. Koch, M. Ndong and R. Kosloff, Faraday Discuss. , 2009, 142 , 389 RSC .
+ ###### 
+From cou.: 141 S. A. Rice and M. Zhao, Optical control of molecular dynamics, John Wiley & Sons, 2000. Search PubMed .
+From Soup: 141 T. Brixner and G. Gerber, ChemPhysChem , 2003, 4 (5), 418 CrossRef CAS .
+ ###### 
+From cou.: 142 P. Brumer and M. Shapiro,Principles and Applications of the Quantum Control of Molecular Processes,Wiley Interscience, 2003 Search PubMed .
+From Soup: 142 O. Kühn and L. Wöste, editors, Analysis and control of ultrafast photoinduced reactions ,Springer, Berlin, 2007 Search PubMed .
+ ###### 
+From cou.: 143 C. P. Koch, M. Ndong and R. Kosloff, Faraday Discuss., 2009, 142, 389 RSC .
+From Soup: 143 U. Marvet and M. Dantus, Chem. Phys. Lett. , 1995, 245 (4-5), 393 CrossRef CAS .
+ ###### 
+From cou.: 144 T. Brixner and G. Gerber, ChemPhysChem, 2003, 4(5), 418 CrossRef CAS .
+From Soup: 144 W. Salzmann, T. Mullins, J. Eng, M. Albert, R. Wester, M. Weidemüller, A. Merli, S. M. Weber, F. Sauer, M. Plewicki, F. Weise, L. Wöste and A. Lindinger, Phys. Rev. Lett. , 2008, 100 , 233003 CrossRef CAS .
+ ###### 
+From cou.: 145 O. Kühn and L. Wöste, editors, Analysis and control of ultrafast photoinduced reactions,Springer, Berlin, 2007 Search PubMed .
+From Soup: 145 V. Zeman, M. Shapiro and P. Brumer, Phys. Rev. Lett. , 2004, 92 , 133204 CrossRef .
+ ###### 
+From cou.: 146 U. Marvet and M. Dantus, Chem. Phys. Lett., 1995, 245(4-5), 393 CrossRef CAS .
+From Soup: 146 C. P. Koch, R. Kosloff, E. Luc-Koenig, F. Masnou-Seeuws and A. Crubellier, J. Phys. B: At., Mol. Opt. Phys. , 2006, 39 , S1017 CrossRef CAS .
+ ###### 
+From cou.: 147 W. Salzmann, T. Mullins, J. Eng, M. Albert, R. Wester, M. Weidemüller, A. Merli, S. M. Weber, F. Sauer, M. Plewicki, F. Weise, L. Wöste and A. Lindinger, Phys. Rev. Lett., 2008, 100, 233003 CrossRef CAS .
+From Soup: 147 C. P. Koch and R. Kosloff, Phys. Rev. Lett. , 2009, 103 , 260401 CrossRef .
+ ###### 
+From cou.: 148 V. Zeman, M. Shapiro and P. Brumer, Phys. Rev. Lett., 2004, 92, 133204 CrossRef .
+From Soup: 148 C. P. Koch, R. Kosloff and F. Masnou-Seeuws, Phys. Rev. A , 2006, 73 , 043409 CrossRef .
+ ###### 
+From cou.: 149 C. P. Koch, R. Kosloff, E. Luc-Koenig, F. Masnou-Seeuws and A. Crubellier, J. Phys. B: At., Mol. Opt. Phys., 2006, 39, S1017 CrossRef CAS .
+From Soup: 149 W. Salzmann, U. Poschinger, R. Wester, M. Weidemüller, A. Merli, S. M. Weber, F. Sauer, M. Plewicki, F. Weise, A. Mirabal Esparza, L. Wöste and A. Lindinger, Phys. Rev. A , 2006, 73 , 023414 CrossRef .
+ ###### 
+From cou.: 150 C. P. Koch and R. Kosloff, Phys. Rev. Lett., 2009, 103, 260401 CrossRef .
+From Soup: 150 B. L. Brown, A. J. Dicks and I. A. Walmsley, Phys. Rev. Lett. , 2006, 96 , 173002 CrossRef .
+ ###### 
+From cou.: 151 C. P. Koch, R. Kosloff and F. Masnou-Seeuws, Phys. Rev. A, 2006, 73, 043409 CrossRef .
+From Soup: 151 S. Amaran, R. Kosloff, M. Tomza, R. Moszyński, L. Rybak, Z. Amitay, and C. P. Koch, in preparation .
+ ###### 
+From cou.: 152 W. Salzmann, U. Poschinger, R. Wester, M. Weidemüller, A. Merli, S. M. Weber, F. Sauer, M. Plewicki, F. Weise, A. Mirabal Esparza, L. Wöste and A. Lindinger, Phys. Rev. A, 2006, 73, 023414 CrossRef .
+From Soup: 152 W. Skomorowski et al. , in preparation .
+ ###### 
+From cou.: 153 B. L. Brown, A. J. Dicks and I. A. Walmsley, Phys. Rev. Lett., 2006, 96, 173002 CrossRef .
+From Soup: 153 J. Olsen and P. Jørgensen, J. Chem. Phys. , 1985, 82 , 3235 CrossRef CAS .
+ ###### 
+From cou.: 154 S. Amaran, R. Kosloff, M. Tomza, R. Moszyński, L. Rybak, Z. Amitay, and C. P. Koch, in preparation.
+From Soup: 154 C. Hättig, O. Christiansen and P. Jørgensen, J. Chem. Phys. , 1998, 108 , 8331 CrossRef .
+ ###### 
+From cou.: 155 W. Skomorowski et al., in preparation.
+From Soup: 155 C. Hättig, O. Christiansen and P. Jørgensen, J. Chem. Phys. , 1998, 108 , 8355 CrossRef .
+ ###### 
+From cou.: 156 J. Olsen and P. Jørgensen, J. Chem. Phys., 1985, 82, 3235 CrossRef CAS .
+From Soup: 156 O. Christiansen, A. Halkier, H. Koch, P. Jørgensen and T. Helgaker, J. Chem. Phys. , 1998, 108 , 2801 CrossRef .
+ ###### 
+From cou.: 157 C. Hättig, O. Christiansen and P. Jørgensen, J. Chem. Phys., 1998, 108, 8331 CrossRef .
+From Soup: 157 C. Hättig, O. Christiansen, S. Coriani and P. Jørgensen, J. Chem. Phys. , 1998, 109 , 9237 CrossRef .
+ ###### 
+From cou.: 158 C. Hättig, O. Christiansen and P. Jørgensen, J. Chem. Phys., 1998, 108, 8355 CrossRef .
+From Soup: 158 C. Hättig, O. Christiansen and J. Gauss, J. Chem. Phys. , 1998, 109 , 4745 CrossRef .
+ ###### 
+From cou.: 159 O. Christiansen, A. Halkier, H. Koch, P. Jørgensen and T. Helgaker, J. Chem. Phys., 1998, 108, 2801 CrossRef .
+From Soup: 159 R. Kosloff, Annu. Rev. Phys. Chem. , 1994, 45 , 145 CrossRef CAS .
+ ###### 
+From cou.: 160 C. Hättig, O. Christiansen, S. Coriani and P. Jørgensen, J. Chem. Phys., 1998, 109, 9237 CrossRef .
+From Soup: 160 R. Kosloff, Time Dependent Methods in Molecular Dynamics, J. Phys. Chem. , 1988, 92 , 2087–2100 CrossRef CAS .
+ ###### 
+From cou.: 161 C. Hättig, O. Christiansen and J. Gauss, J. Chem. Phys., 1998, 109, 4745 CrossRef .
+From Soup: 161 U. Banin, R. Kosloff and S. Ruhman, Chem. Phys. , 1994, 183 , 289 CrossRef CAS .
+ ###### 
+From cou.: 162 R. Kosloff, Annu. Rev. Phys. Chem., 1994, 45, 145 CrossRef CAS .
+From Soup: 162 L. Rybak, L. Chuntonov, A. Gandman, N. Shakour and Z. Amitay, Opt. Express , 2008, 16 , 21738 CrossRef CAS .
+ ###### 
+From cou.: 163 R. Kosloff, Time Dependent Methods in Molecular Dynamics, J. Phys. Chem., 1988, 92, 2087–2100 CrossRef CAS .
+From Soup: 163 R. S. Judson and H. Rabitz, Phys. Rev. Lett. , 1992, 68 (10), 1500 CrossRef CAS .
+ ###### 
+From cou.: 164 U. Banin, R. Kosloff and S. Ruhman, Chem. Phys., 1994, 183, 289 CrossRef CAS .
+From Soup: 164 S. Ruhman and R. Kosloff, J. Opt. Soc. Am. B , 1990, 7 , 1748 CrossRef CAS .
+ ###### 
+From cou.: 165 L. Rybak, L. Chuntonov, A. Gandman, N. Shakour and Z. Amitay, Opt. Express, 2008, 16, 21738 CrossRef CAS .
+From Soup: 165 J. Vala and R. Kosloff, Opt. Express , 2001, 8 , 238 CrossRef CAS .
+ ###### 
+From cou.: 166 R. S. Judson and H. Rabitz, Phys. Rev. Lett., 1992, 68(10), 1500 CrossRef CAS .
+From Soup: 166 P. Backhaus and B. Schmidt, Chem. Phys. Lett. , 1997, 217 , 131 CAS .
+ ###### 
+From cou.: 167 S. Ruhman and R. Kosloff, J. Opt. Soc. Am. B, 1990, 7, 1748 CrossRef CAS .
+From Soup: 167 P. Gross and M. Dantus, J. Chem. Phys. , 1997, 106 , 8013 CrossRef CAS .
+ ###### 
+From cou.: 168 J. Vala and R. Kosloff, Opt. Express, 2001, 8, 238 CrossRef CAS .
+From Soup: 168 U. Marvet, Q. Zhang and M. Dantus, J. Phys. Chem. A , 1998, 102 , 4111 CrossRef CAS .
+ ###### 
+From cou.: 169 P. Backhaus and B. Schmidt, Chem. Phys. Lett., 1997, 217, 131 CAS .
+From Soup: 169 P. Backhaus, B. Schmidt and M. Dantus, Chem. Phys. Lett. , 1999, 306 (1-2), 18 CrossRef CAS .
+ ###### 
+From cou.: 170 P. Gross and M. Dantus, J. Chem. Phys., 1997, 106, 8013 CrossRef CAS .
+From Soup: 170 R. de Vivie-Riedle, K. Sundermann and M. Motzkus, Faraday Discuss. , 1999, 113 , 303 RSC .
+ ###### 
+From cou.: 171 U. Marvet, Q. Zhang and M. Dantus, J. Phys. Chem. A, 1998, 102, 4111 CrossRef CAS .
+From Soup: 171 P. Marquetand and V. Engel, J. Chem. Phys. , 2007, 127 , 084115 CrossRef .
+ ###### 
+From cou.: 172 P. Backhaus, B. Schmidt and M. Dantus, Chem. Phys. Lett., 1999, 306(1-2), 18 CrossRef CAS .
+From Soup: 172 E. F. de Lima, TS Ho and H. Rabitz, Phys. Rev. A , 2008, 78 , 063417 CrossRef .
+ ###### 
+From cou.: 173 R. de Vivie-Riedle, K. Sundermann and M. Motzkus, Faraday Discuss., 1999, 113, 303 RSC .
+From cou.: 174 P. Marquetand and V. Engel, J. Chem. Phys., 2007, 127, 084115 CrossRef .
+From cou.: 175 E. F. de Lima, TS Ho and H. Rabitz, Phys. Rev. A, 2008, 78, 063417 CrossRef .

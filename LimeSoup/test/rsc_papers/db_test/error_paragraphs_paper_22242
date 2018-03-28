@@ -1,0 +1,775 @@
+From cou.: 0 Journal
+From Soup: 0 Soft Matter
+ ###### 
+From cou.: 1 Thermoplastic elastomer gels (TPEGs) are physically associating gels composed of ABA triblock copolymers that are highly swollen with a B selective solvent. A unique feature of TPEGs, when compared to typical chemically crosslinked gels, is that the properties are dictated by a combination of nano-scale block copolymer morphology and chain level structure. In this paper, we use dissipative particle dynamics (DPD) simulations to examine TPEGs composed of a binary mixture of AB and ABA block copolymers in a B-compatible solvent. The diblock and triblock differ in the block length, where the A and B block of the diblock chains are larger than those of the triblock. The DPD simulations illustrated numerous morphologies of these AB/ABA gels characterized by formation of pure and mixed micelles of various compositions, structures, and sizes. In addition, the ABA/AB copolymer ratio and processing conditions impacted the structural and mechanical properties of these blends. The simulation results were utilized to establish factors that affect an intermicellar distance and bridging chain fraction. The DPD-based morphology predictions were compared with experimental data based on atomic force microscopy (AFM) with good agreement.
+From Soup: 1 Thermoplastic elastomer gels (TPEGs) are physically associating gels composed of ABA triblock copolymers that are highly swollen with a B selective solvent . A unique feature of TPEGs, when compared to typical chemically crosslinked gels, is that the properties are dictated by a combination of nano-scale block copolymer morphology and chain level structure. In this paper, we use dissipative particle dynamics (DPD) simulations to examine TPEGs composed of a binary mixture of AB and ABA block copolymers in a B-compatible solvent . The diblock and triblock differ in the block length, where the A and B block of the diblock chains are larger than those of the triblock. The DPD simulations illustrated numerous morphologies of these AB/ABA gels characterized by formation of pure and mixed micelles of various compositions, structures, and sizes. In addition, the ABA/AB copolymer ratio and processing conditions impacted the structural and mechanical properties of these blends. The simulation results were utilized to establish factors that affect an intermicellar distance and bridging chain fraction. The DPD-based morphology predictions were compared with experimental data based on atomic force microscopy ( AFM ) with good agreement.
+ ###### 
+From cou.: 2 A polymer gel is a chemically or physically crosslinked polymer that is highly swollen with solvent. Mechanically, the solvent creates a “soft solid” that is easily deformable, yet still recovers from the deformation due to the elastic nature of the crosslinks in the polymer.1Polymer gels offer potential in a wide array of applications because the gel properties can be tuned by varying the polymer chemistry,2solvent type and processing conditions,3–5solvent loading,6 and architecture of the polymer or solvent chains.7 In addition, small molecule additives and fillers can be incorporated into the gel formulation to further enhance the properties.8 Substantial research has focused on hydrogels for various applications such as biomedical technology9–11 and sensors.12,13
+From Soup: 2 A polymer gel is a chemically or physically crosslinked polymer that is highly swollen with solvent . Mechanically, the solvent creates a “soft solid” that is easily deformable, yet still recovers from the deformation due to the elastic nature of the crosslinks in the polymer . 1 Polymer gels offer potential in a wide array of applications because the gel properties can be tuned by varying the polymer chemistry, 2 solvent type and processing conditions, 3–5 solvent loading, 6 and architecture of the polymer or solvent chains. 7 In addition, small molecule additives and fillers can be incorporated into the gel formulation to further enhance the properties. 8 Substantial research has focused on hydrogels for various applications such as biomedical technology 9–11 and sensors. 12,13
+ ###### 
+From cou.: 3 Many gel studies, including most of those described above, are focused on a homogeneous formulation of polymer and solvent. However, more recently, micro-to-nano-scale structure is being engineered into the gel materials to enhance performance. Examples include: double-network hydrogels composed of two interpenetrating networks, where the toughness enhancements are postulated to be due to nano-scale gel morphology;14 hydrogels with hydrophobic pendant groups, where dynamic physical associations of the hydrophobic species can enhance the gel toughness,15,16 and porous gels formulated from bicontinuous microemulsions.17
+From Soup: 3 Many gel studies, including most of those described above, are focused on a homogeneous formulation of polymer and solvent . However, more recently, micro-to-nano-scale structure is being engineered into the gel materials to enhance performance. Examples include: double-network hydrogels composed of two interpenetrating networks, where the toughness enhancements are postulated to be due to nano-scale gel morphology; 14 hydrogels with hydrophobic pendant groups, where dynamic physical associations of the hydrophobic species can enhance the gel toughness, 15,16 and porous gels formulated from bicontinuous microemulsions. 17
+ ###### 
+From cou.: 4 Another avenue for introducing nano-scaled structure into the gel is by exploiting block copolymers such as thermoplastic elastomers. Thermoplastic elastomer gels are composed of ABA triblock copolymers with a B selective solvent. Association of the glassy A end blocks form physical crosslinks that are bridged by rubbery B midblock. At sufficiently high concentration of B-selective solvent, AB and ABA block copolymers self-assemble into micelles and while AB block copolymers develop unconnected micelles surrounded by dangling soluble blocks, ABA block copolymers form a physically crosslinked gel. In addition to bridging chains between separate micelles, a fraction of ABA copolymer adopts a loop configuration where both A endblocks of a single chain are associated with the same micelle. Polymer gels based on blends of synthetic triblock copolymers in midblock-selective solvent typically exhibit thermal and environmental stability and possess controllable morphological and mechanical properties.18
+From Soup: 4 Another avenue for introducing nano-scaled structure into the gel is by exploiting block copolymers such as thermoplastic elastomers. Thermoplastic elastomer gels are composed of ABA triblock copolymers with a B selective solvent . Association of the glassy A end blocks form physical crosslinks that are bridged by rubbery B midblock. At sufficiently high concentration of B-selective solvent , AB and ABA block copolymers self-assemble into micelles and while AB block copolymers develop unconnected micelles surrounded by dangling soluble blocks, ABA block copolymers form a physically crosslinked gel. In addition to bridging chains between separate micelles, a fraction of ABA copolymer adopts a loop configuration where both A endblocks of a single chain are associated with the same micelle. Polymer gels based on blends of synthetic triblock copolymers in midblock-selective solvent typically exhibit thermal and environmental stability and possess controllable morphological and mechanical properties. 18
+ ###### 
+From cou.: 5 One approach to control and modify the properties of TPEGs is to use a binary mixture of self-assembling block copolymers differing in architecture or block lengths. As a result of microphase separation in these systems, “pure” or “mixed” micelles containing one component of the binary mixture or both components, respectively, are developed. Theoretical and experimental investigations have demonstrated that if the solvent insoluble blocks of block copolymers are identical, the difference in size of the solvent soluble blocks always leads to the formation of the mixed micelles.19–22 In addition, the soluble block length has a weak effect on micellar structure.23 In contrast, morphology of block copolymer binary mixtures with identical solvent soluble blocks, but differing in insoluble blocks length, is more complex and not fully understood.
+From Soup: 5 One approach to control and modify the properties of TPEGs is to use a binary mixture of self-assembling block copolymers differing in architecture or block lengths. As a result of microphase separation in these systems, “pure” or “mixed” micelles containing one component of the binary mixture or both components, respectively, are developed. Theoretical and experimental investigations have demonstrated that if the solvent insoluble blocks of block copolymers are identical, the difference in size of the solvent soluble blocks always leads to the formation of the mixed micelles. 19–22 In addition, the soluble block length has a weak effect on micellar structure. 23 In contrast, morphology of block copolymer binary mixtures with identical solvent soluble blocks, but differing in insoluble blocks length, is more complex and not fully understood.
+ ###### 
+From cou.: 6 The comicellization of the binary mixture of block copolymers with different lengths of the insoluble blocks has been studied both theoretically23–25 and experimentally.26–32 A schematic of A′B and A′′B block copolymers aggregation in B-selective solvent is shown in Fig. 1 where A′ and A′′ are chemically identical and differ in length (NA′ < NA′′).
+From Soup: 6 The comicellization of the binary mixture of block copolymers with different lengths of the insoluble blocks has been studied both theoretically 23–25 and experimentally. 26–32 A schematic of A′B and A′′B block copolymers aggregation in B-selective solvent is shown in Fig. 1 where A′ and A′′ are chemically identical and differ in length (N A′ < N A′′ ).
+ ###### 
+From cou.: 7 A solution containing only one type of the copolymer generates micelles with a size Rm that corresponds to a length of insoluble blocks as Rm ≈ N3/5Aa, where a is a typical monomer size of the insoluble block,33 see Fig. 1(a).
+From Soup: 7 A solution containing only one type of the copolymer generates micelles with a size R m that corresponds to a length of insoluble blocks as R m ≈ N 3/5 A a , where a is a typical monomer size of the insoluble block, 33 see Fig. 1(a) .
+ ###### 
+From cou.: 8 The binary mixtures of A′B and A′′B block copolymers in the B-selective solvent form micelles of different sizes and compositions. The morphology of those micelles depends on total copolymer concentration, A′B/A′′B ratio, relative A′/A′′ block lengths and processing conditions. A schematic of a theoretical phase diagram of six morphological regimes is shown in Fig. 1(b).23–25 A similar phase diagram is valid for triblock and corresponding multiblock copolymers in a strong segregation regime.23,24
+From Soup: 8 The binary mixtures of A′B and A′′B block copolymers in the B-selective solvent form micelles of different sizes and compositions. The morphology of those micelles depends on total copolymer concentration, A′B/A′′B ratio, relative A′/A′′ block lengths and processing conditions. A schematic of a theoretical phase diagram of six morphological regimes is shown in Fig. 1(b) . 23–25 A similar phase diagram is valid for triblock and corresponding multiblock copolymers in a strong segregation regime. 23,24
+ ###### 
+From cou.: 9 Regime 1 contains no micellar structure and corresponds to a very low copolymer concentration, CA′B ≪ C0A′B and CA′′B ≪ C0A′′B or high temperature, T > T0A′B, T0A′′B, where C0 and T0 are critical micelle concentration and critical micelle temperature, respectively. Those conditions prevent aggregation of both copolymers. An increase in CA′′B or decrease in T results in Regime 2, where A′′B micelles are formed while A′B copolymer exhibits no structure. The conditions of Regime 2 include CA′B ≪ C0A′B and CA′′B > C0A′′B or T0A′B ≪ T < T0A′′B and do not allow for aggregation of A′B copolymer. Upon increasing CA′B or decreasing T, Regime 3 develops where mixed micelles are formed composed of some A′B chains incorporated into the A′′B micelles with the rest of A′B chains remaining unaggregated. The conditions of Regime 3 are defined as CA′B < C0A′B, CA′′B > C0A′′B, or T0A′B < T < T0A′′B. When CA′B > C0A′B and CA′′B > C0A′′B or T < T0A′B, T0A′′Bblock copolymers self-assemble into micelles with morphology corresponding to one of Regimes 4, 5, or 6, depending on the difference between NA′ and NA′′ and concentration of total copolymer in the solution, Cp as presented at Fig. 1(b). When the difference between NA′ and NA′′ is small, Regime 5 forms, composed of mixed A′B and A′′B copolymer micelles where the fraction of A′′B copolymer in a micelle (ϕmA′′B) is approximately equal to the fraction of A′′B copolymer relative to Cp (fA′′B). If the difference between NA′ and NA′′ is large and Cp is low, Regime 4 results, where a combination of pure A′B micelles is formed in concert with mixed micelles with a larger content of the A′′B. The coexistence of mixed and pure micelles in solution leads to a bimodal distribution of micelle sizes, where A′B + A′′B mixed micelles are larger than pure A′B ones. If A′′ block is very long and NA′ ≪ NA′′, Regime 6 forms with three types of coexisting micelles, including small and large pure micelles made of A′B and A′′B chains, respectively, and small mixed micelles mainly composed of A′B chains.
+From Soup: 9 Regime 1 contains no micellar structure and corresponds to a very low copolymer concentration, C A ′ B ≪ C 0 A ′ B and C A ′′ B ≪ C 0 A ′′ B or high temperature, T > T 0 A ′ B , T 0 A ′′ B , where C 0 and T 0 are critical micelle concentration and critical micelle temperature, respectively. Those conditions prevent aggregation of both copolymers . An increase in C A ′′ B or decrease in T results in Regime 2, where A′′B micelles are formed while A′B copolymer exhibits no structure. The conditions of Regime 2 include C A ′ B ≪ C 0 A ′ B and C A ′′ B > C 0 A ′′ B or T 0 A ′ B ≪ T < T 0 A ′′ B and do not allow for aggregation of A′B copolymer . Upon increasing C A ′ B or decreasing T , Regime 3 develops where mixed micelles are formed composed of some A′B chains incorporated into the A′′B micelles with the rest of A′B chains remaining unaggregated. The conditions of Regime 3 are defined as C A ′ B < C 0 A ′ B , C A ′′ B > C 0 A ′′ B , or T 0 A ′ B < T < T 0 A ′′ B . When C A ′ B > C 0 A ′ B and C A ′′ B > C 0 A ′′ B or T < T 0 A ′ B , T 0 A ′′ B block copolymers self-assemble into micelles with morphology corresponding to one of Regimes 4, 5, or 6, depending on the difference between N A ′ and N A ′′ and concentration of total copolymer in the solution, C p as presented at Fig. 1(b) . When the difference between N A ′ and N A ′′ is small, Regime 5 forms, composed of mixed A′B and A′′B copolymer micelles where the fraction of A′′B copolymer in a micelle ( ϕ m A ′′ B ) is approximately equal to the fraction of A′′B copolymer relative to C p ( f A ′′ B ). If the difference between N A′ and N A′′ is large and C p is low, Regime 4 results, where a combination of pure A′B micelles is formed in concert with mixed micelles with a larger content of the A′′B. The coexistence of mixed and pure micelles in solution leads to a bimodal distribution of micelle sizes, where A′B + A′′B mixed micelles are larger than pure A′B ones. If A′′ block is very long and N A′ ≪ N A′′ , Regime 6 forms with three types of coexisting micelles, including small and large pure micelles made of A′B and A′′B chains, respectively, and small mixed micelles mainly composed of A′B chains.
+ ###### 
+From cou.: 10 While most of the previously discussed research is computational, some experimental verification is available. For the temperature conditions T0A′B < T < T0A′′B Honda et al.26,27 observed the formation of mixed micelles and presence of the free A′B chains which is analogous to Regime 3. As temperature was gradually decreased below T0A′′B, an increasingly larger fraction of A′B chains formed into the mixed micelles, while the fraction of the A′B chains remained in the small pure micelles, similar to Regime 4. Interestingly the rate of temperature change had impact on morphology, specifically if the temperature of micellization is reached in a single-step jump, the same copolymer systems aggregated into the mixed micelles only, which had compositions equal to the concentration of the corresponding solution (Regime 5). Koñák and Helmstedt28 observed mixed micelles in the temperature regime where only A′′B copolymers form micelles while shorter chains (A′B) alone do not associate and thus this morphology belongs to Regime 3. Decreasing a relative content of the long chains, the authors approached Regimes 2 and 1, where the mixed micelles were partially dissolved. The formation of mixed micelles related to Regime 5 was also observed by several other studies.21,29–32
+From Soup: 10 While most of the previously discussed research is computational, some experimental verification is available. For the temperature conditions T 0 A ′ B < T < T 0 A ′′ B Honda et al. 26,27 observed the formation of mixed micelles and presence of the free A′B chains which is analogous to Regime 3. As temperature was gradually decreased below T 0 A ′′ B , an increasingly larger fraction of A′B chains formed into the mixed micelles, while the fraction of the A′B chains remained in the small pure micelles, similar to Regime 4. Interestingly the rate of temperature change had impact on morphology, specifically if the temperature of micellization is reached in a single-step jump, the same copolymer systems aggregated into the mixed micelles only, which had compositions equal to the concentration of the corresponding solution (Regime 5). Koñák and Helmstedt 28 observed mixed micelles in the temperature regime where only A′′B copolymers form micelles while shorter chains (A′B) alone do not associate and thus this morphology belongs to Regime 3. Decreasing a relative content of the long chains, the authors approached Regimes 2 and 1, where the mixed micelles were partially dissolved. The formation of mixed micelles related to Regime 5 was also observed by several other studies. 21,29–32
+ ###### 
+From cou.: 11 Despite the impact of these theoretical and experimental efforts, research is still required provide additional insight. In particular, the previous theoretical studies have assumed absence of any interactions between micelles and cannot accurately describe the concentrated and semi-dilute solutions of polymer. We present here a particle-based simulation approach that allows us to explore the structural properties of polymer gels such as micelle sizes and the identification of midblock bridges/loop defects that are crucial for predicting mechanical properties of the gel system.34 The self-consistent field theory methods can also accurately provide the morphology of polymer gels35 but generally they are not used to study dynamics of polymer systems. Atomistic simulations of polymer gels are not ideal because of the long self-assembly time and large sizes of micelles in the polymer gel. Mesoscale methods, such as dissipative particle dynamics (DPD), operate at time and length scales much larger than those of traditional atomistic simulations while providing the ability to probe structural and dynamical phenomena that are inaccessible to continuum modeling.
+From Soup: 11 Despite the impact of these theoretical and experimental efforts, research is still required provide additional insight. In particular, the previous theoretical studies have assumed absence of any interactions between micelles and cannot accurately describe the concentrated and semi-dilute solutions of polymer . We present here a particle-based simulation approach that allows us to explore the structural properties of polymer gels such as micelle sizes and the identification of midblock bridges/loop defects that are crucial for predicting mechanical properties of the gel system. 34 The self-consistent field theory methods can also accurately provide the morphology of polymer gels 35 but generally they are not used to study dynamics of polymer systems. Atomistic simulations of polymer gels are not ideal because of the long self-assembly time and large sizes of micelles in the polymer gel. Mesoscale methods, such as dissipative particle dynamics (DPD), operate at time and length scales much larger than those of traditional atomistic simulations while providing the ability to probe structural and dynamical phenomena that are inaccessible to continuum modeling.
+ ###### 
+From cou.: 12 In this paper, we present the DPD simulation of a binary mixture of ABA/AB block copolymers in B selective solvent, where the A blocks have different sizes. The focus is to investigate conditions that control a formation of the mixed and pure micelles in these polymer gels. Computational results are compared with the experimental characterization of micelle size based on atomic force microscopy (AFM).
+From Soup: 12 In this paper, we present the DPD simulation of a binary mixture of ABA/AB block copolymers in B selective solvent , where the A blocks have different sizes. The focus is to investigate conditions that control a formation of the mixed and pure micelles in these polymer gels. Computational results are compared with the experimental characterization of micelle size based on atomic force microscopy ( AFM ).
+ ###### 
+From cou.: 13 In this study, we have exploited the DPD approach, which is a mesoscale technique for the complex fluids and allows us to simulate correct hydrodynamic behavior. This method has been exploited for a wide variety of polymer systems, perhaps most notably in the field of block copolymers.36–42 For a more detailed description of the DPD method, see the original papers by Hoogerbrugge and Koelman43,44 and Español and Warren.45
+From Soup: 13 In this study, we have exploited the DPD approach, which is a mesoscale technique for the complex fluids and allows us to simulate correct hydrodynamic behavior. This method has been exploited for a wide variety of polymer systems, perhaps most notably in the field of block copolymers . 36–42 For a more detailed description of the DPD method, see the original papers by Hoogerbrugge and Koelman 43,44 and Español and Warren. 45
+ ###### 
+From cou.: 14 A DPD system is composed of coarse-grained soft particles, each representing clusters of molecules rather than individual atoms, moving according to Newton's equations of motion continuously in space and discreetly in time. In a DPD simulation of polymers, the chain is modeled as a collection of point DPD particles that are defined by mass, mi, position, ri, and velocity, vi, and interact with each other via a pairwise, two-body, short-ranged force, F, that is written as the sum of a conservative force, FC, dissipative force, FD, and random force, FR, as follows:
+From Soup: 14 A DPD system is composed of coarse-grained soft particles, each representing clusters of molecules rather than individual atoms, moving according to Newton's equations of motion continuously in space and discreetly in time. In a DPD simulation of polymers , the chain is modeled as a collection of point DPD particles that are defined by mass, m i , position, r i , and velocity, v i , and interact with each other via a pairwise, two-body, short-ranged force, F , that is written as the sum of a conservative force, F C , dissipative force, F D , and random force, F R , as follows:
+ ###### 
+From cou.: 15 In our study, FC includes a soft repulsion force, FCr, acting between two particles and a finite extensible nonlinear elastic (FENE) force, FFENE, acting between adjacent particles in a polymer chain. The DPD polymer chains defined in this manner are flexible since no additional constraints, such as bond bending or bond torsion, are included. FCr and FFENE are given by
+From Soup: 15 In our study, F C includes a soft repulsion force, F Cr , acting between two particles and a finite extensible nonlinear elastic (FENE) force, F FENE , acting between adjacent particles in a polymer chain. The DPD polymer chains defined in this manner are flexible since no additional constraints, such as bond bending or bond torsion, are included. F Cr and F FENE are given by
+ ###### 
+From cou.: 16 In eqn (2) and 3, aij is the maximum repulsion between particle i and particle j, rij = |ri − rj| is the separation vector eij = (ri − rj)/rij is the unit vector from the jth particle to the ith particle, rc is the cutoff radius, H is the spring constant, l represents the maximum extension length of a polymer bond, and r is the vector that connects pairs of adjacent particles in a polymer chain. The remaining two forces, FD and FR provide the thermostat in the DPD method. The dissipative force slows down the particles by decreasing kinetic energy from them. This effect is balanced by the random force due to thermal fluctuations. FD and FR are given by
+From Soup: 16 In eqn (2) and 3 , a ij is the maximum repulsion between particle i and particle j , r ij = | r i − r j | is the separation vector e ij = ( r i − r j )/ r ij is the unit vector from the jth particle to the ith particle, r c is the cutoff radius, H is the spring constant, l represents the maximum extension length of a polymer bond, and r is the vector that connects pairs of adjacent particles in a polymer chain. The remaining two forces, F D and F R provide the thermostat in the DPD method. The dissipative force slows down the particles by decreasing kinetic energy from them. This effect is balanced by the random force due to thermal fluctuations. F D and F R are given by
+ ###### 
+From cou.: 17 ω
+From Soup: 17 ω
+ ###### 
+From cou.: 18 D
+From Soup: 18 D
+ ###### 
+From cou.: 19 r
+From Soup: 19 r
+ ###### 
+From cou.: 20 ω
+From Soup: 20 ω
+ ###### 
+From cou.: 21 R
+From Soup: 21 R
+ ###### 
+From cou.: 22 r
+From Soup: 22 r
+ ###### 
+From cou.: 23 γ
+From Soup: 23 γ
+ ###### 
+From cou.: 24 σ
+From Soup: 24 σ
+ ###### 
+From cou.: 25 ξ
+From Soup: 25 ξ
+ ###### 
+From cou.: 26 ij
+From Soup: 26 ij
+ ###### 
+From cou.: 27 v
+From Soup: 27 v
+ ###### 
+From cou.: 28 ij
+From Soup: 28 ij
+ ###### 
+From cou.: 29 v
+From Soup: 29 v
+ ###### 
+From cou.: 30 i
+From Soup: 30 i
+ ###### 
+From cou.: 31 v
+From Soup: 31 v
+ ###### 
+From cou.: 32 j
+From Soup: 32 j
+ ###### 
+From cou.: 33 i
+From Soup: 33 i
+ ###### 
+From cou.: 34 j
+From Soup: 34 j
+ ###### 
+From cou.: 35 Español and Warren showed that the system samples the canonical ensemble and obeys the fluctuation-dissipation theorem (in the limit of Δt → 0) if the following relations hold:45
+From Soup: 35 Español and Warren showed that the system samples the canonical ensemble and obeys the fluctuation-dissipation theorem (in the limit of Δ t → 0) if the following relations hold: 45
+ ###### 
+From cou.: 36 T
+From Soup: 36 T
+ ###### 
+From cou.: 37 k
+From Soup: 37 k
+ ###### 
+From cou.: 38 B
+From Soup: 38 B
+ ###### 
+From cou.: 39 ω
+From Soup: 39 ω
+ ###### 
+From cou.: 40 R
+From Soup: 40 R
+ ###### 
+From cou.: 41 r
+From Soup: 41 r
+ ###### 
+From cou.: 42 46
+From Soup: 42 46
+ ###### 
+From cou.: 43 Construction of a coarse-grained system, which is composed of the bead-spring model of the polymer chains and solvent particles, has been described in our previous paper.34 The three-dimensional system consists of a total of Nt DPD particles of block copolymers connected via a FENE force and solvent in a cubic domain with periodic boundaries in all directions. The system has m chains of AB diblock copolymers and n chains of ABA triblock copolymers immersed in a B-selective solvent whose particles are of type “S.” MA and MB are numbers of DPD particles of types “A” and “B” of diblock copolymer, while NA and NB are numbers of particles of A and B blocks of triblock copolymer, respectively.
+From Soup: 43 Construction of a coarse-grained system, which is composed of the bead-spring model of the polymer chains and solvent particles, has been described in our previous paper. 34 The three-dimensional system consists of a total of N t DPD particles of block copolymers connected via a FENE force and solvent in a cubic domain with periodic boundaries in all directions. The system has m chains of AB diblock copolymers and n chains of ABA triblock copolymers immersed in a B-selective solvent whose particles are of type “S.” M A and M B are numbers of DPD particles of types “A” and “B” of diblock copolymer , while N A and N B are numbers of particles of A and B blocks of triblock copolymer , respectively.
+ ###### 
+From cou.: 44 Simulations were performed for mixtures of (poly) styrene-block-(poly) ethylene propylene (SEP) and (poly) styrene-block-(poly) ethylene butylene-block-(poly) styrene (SEBS) in mineral oil. These materials were used due to potential as tissue simulants. The experimental system is described in the following section.
+From Soup: 44 Simulations were performed for mixtures of (poly) styrene- block -(poly) ethylene propylene (SEP) and (poly) styrene- block -(poly) ethylene butylene- block -(poly) styrene (SEBS) in mineral oil. These materials were used due to potential as tissue simulants. The experimental system is described in the following section.
+ ###### 
+From cou.: 45 To ensure the flexibility of the polymer on the mesoscopic scale, the size of the DPD particle in the simulated chain corresponds to 50 monomers of polystyrene (denoted PS). Dynamics measurements have shown that the bead-spring model accurately describes polystyrene if it has a single bead-spring unit, b equal to 5.0 nm, which corresponds to ∼50 monomers of styrene.47,48 Assuming that polyethylene propylene (PEP) and polyethylene butylene (PEB) have similar properties and each DPD particle represents roughly the same volume, we have mapped the block copolymer mixture to the simulation model of AB and ABA bead-spring chains with MA = 13, MB = 22, NA = 3, and NB = 14.
+From Soup: 45 To ensure the flexibility of the polymer on the mesoscopic scale, the size of the DPD particle in the simulated chain corresponds to 50 monomers of polystyrene (denoted PS ). Dynamics measurements have shown that the bead-spring model accurately describes polystyrene if it has a single bead-spring unit, b equal to 5.0 nm, which corresponds to ∼50 monomers of styrene . 47,48 Assuming that polyethylene propylene (PEP) and polyethylene butylene (PEB) have similar properties and each DPD particle represents roughly the same volume, we have mapped the block copolymer mixture to the simulation model of AB and ABA bead-spring chains with M A = 13, M B = 22, N A = 3, and N B = 14.
+ ###### 
+From cou.: 46 DPD-reduced units are adopted for the convenient expression of parameters and are taken as length in rc, energy in kBT/rc, mass in particle mass m and time in . We choose standard values in DPD units of m = kBT = 1, time step Δt = 0.01, cut-off radius rc = 1, and overall particle density ρDPD = 3. H and l in eqn (3) for the block copolymers are 1 and 3, respectively, which gives the length of a single bead-spring unit equal to one Kuhn's segment, .49 The total number of DPD particles is Nt = 240,000. The masses of DPD particles are the same for all components.
+From Soup: 46 DPD-reduced units are adopted for the convenient expression of parameters and are taken as length in r c , energy in k B T / r c , mass in particle mass m and time in . We choose standard values in DPD units of m = k B T = 1, time step Δ t = 0.01, cut-off radius r c = 1, and overall particle density ρ DPD = 3. H and l in eqn (3) for the block copolymers are 1 and 3, respectively, which gives the length of a single bead-spring unit equal to one Kuhn's segment, . 49 The total number of DPD particles is N t = 240,000. The masses of DPD particles are the same for all components.
+ ###### 
+From cou.: 47 As described earlier, theoretical considerations for diblock mixture remain valid for triblock copolymers.23,24 Our system composed of AB/ABA blend with NA < MA is analogous to the A′′B/A′B blend with NA′ < NA′′, where AB and ABA represent A′′B and A′B, respectively (Fig. 1).
+From Soup: 47 As described earlier, theoretical considerations for diblock mixture remain valid for triblock copolymers . 23,24 Our system composed of AB/ABA blend with N A < M A is analogous to the A′′B/A′B blend with N A′ < N A′′ , where AB and ABA represent A′′B and A′B, respectively ( Fig. 1 ).
+ ###### 
+From cou.: 48 We have chosen the repulsive parameter for like particles, aii, for all types of particles to be equal to 50 as it was used in our previous study.34 This value is different from aii that is determined by Groot and Rabone, who matched the dimensionless compressibility for a real system, k−1, and the DPD50 fluid according to linear scaling with the level of coarse-graining, Nm. Instead, we have been following an approach in which aii parameters do not depend on the level of coarse-graining for the study of static properties of the system.51 The repulsive parameters for unlike particles aij are determined according to a linear relationship with the Flory–Huggins parameter:36,50
+From Soup: 48 We have chosen the repulsive parameter for like particles, a ii , for all types of particles to be equal to 50 as it was used in our previous study. 34 This value is different from a ii that is determined by Groot and Rabone, who matched the dimensionless compressibility for a real system, k −1 , and the DPD 50 fluid according to linear scaling with the level of coarse-graining, N m . Instead, we have been following an approach in which a ii parameters do not depend on the level of coarse-graining for the study of static properties of the system. 51 The repulsive parameters for unlike particles a ij are determined according to a linear relationship with the Flory–Huggins parameter: 36,50
+ ###### 
+From cou.: 49 χ
+From Soup: 49 χ
+ ###### 
+From cou.: 50 ij
+From Soup: 50 ij
+ ###### 
+From cou.: 51 polymers
+From Soup: 51 polymers
+ ###### 
+From cou.: 52 χN
+From Soup: 52 χN
+ ###### 
+From cou.: 53 const
+From Soup: 53 const
+ ###### 
+From cou.: 54 N
+From Soup: 54 N
+ ###### 
+From cou.: 55 χN
+From Soup: 55 χN
+ ###### 
+From cou.: 56 et al.
+From Soup: 56 et al.
+ ###### 
+From cou.: 57 52
+From Soup: 57 52
+ ###### 
+From cou.: 58 et al.
+From Soup: 58 et al.
+ ###### 
+From cou.: 59 53
+From Soup: 59 53
+ ###### 
+From cou.: 60 T
+From Soup: 60 T
+ ###### 
+From cou.: 61 M
+From Soup: 61 M
+ ###### 
+From cou.: 62 w
+From Soup: 62 w , PS
+ ###### 
+From cou.: 63 PS
+From Soup: 63 M
+ ###### 
+From cou.: 64 M
+From Soup: 64 w , PEB
+ ###### 
+From cou.: 65 w
+From Soup: 65 PS
+ ###### 
+From cou.: 66 PEB
+From Soup: 66 V
+ ###### 
+From cou.: 67 PS
+From Soup: 67 PS
+ ###### 
+From cou.: 68 V
+From Soup: 68 V
+ ###### 
+From cou.: 69 PS
+From Soup: 69 PEB
+ ###### 
+From cou.: 70 V
+From Soup: 70 PS
+ ###### 
+From cou.: 71 PEB
+From Soup: 71 54
+ ###### 
+From cou.: 72 PS
+From Soup: 72 V
+ ###### 
+From cou.: 73 54
+From Soup: 73 PS
+ ###### 
+From cou.: 74 V
+From Soup: 74 3
+ ###### 
+From cou.: 75 PS
+From Soup: 75 V
+ ###### 
+From cou.: 76 3
+From Soup: 76 PEB
+ ###### 
+From cou.: 77 V
+From Soup: 77 3
+ ###### 
+From cou.: 78 PEB
+From Soup: 78 M
+ ###### 
+From cou.: 79 3
+From Soup: 79 w , PS
+ ###### 
+From cou.: 80 M
+From Soup: 80 −1
+ ###### 
+From cou.: 81 w
+From Soup: 81 M
+ ###### 
+From cou.: 82 PS
+From Soup: 82 w , PEB
+ ###### 
+From cou.: 83 −1
+From Soup: 83 −1
+ ###### 
+From cou.: 84 M
+From Soup: 84 χN
+ ###### 
+From cou.: 85 w
+From Soup: 85 N
+ ###### 
+From cou.: 86 PEB
+From Soup: 86 ABA
+ ###### 
+From cou.: 87 −1
+From Soup: 87 N
+ ###### 
+From cou.: 88 χN
+From Soup: 88 A
+ ###### 
+From cou.: 89 N
+From Soup: 89 N
+ ###### 
+From cou.: 90 ABA
+From Soup: 90 B
+ ###### 
+From cou.: 91 N
+From Soup: 91 a
+ ###### 
+From cou.: 92 A
+From Soup: 92 AB
+ ###### 
+From cou.: 93 N
+From Soup: 93 a
+ ###### 
+From cou.: 94 B
+From Soup: 94 ij
+ ###### 
+From cou.: 95 a
+From Soup: 95 a
+ ###### 
+From cou.: 96 AB
+From Soup: 96 ii
+ ###### 
+From cou.: 97 a
+From Soup: 97 copolymer
+ ###### 
+From cou.: 98 ij
+From Soup: 98 solvent
+ ###### 
+From cou.: 99 a
+From Soup: 99 a
+ ###### 
+From cou.: 100 ii
+From Soup: 100 AS
+ ###### 
+From cou.: 101 copolymer
+From Soup: 101 a
+ ###### 
+From cou.: 102 solvent
+From Soup: 102 BS
+ ###### 
+From cou.: 103 a
+From Soup: 103 solvent
+ ###### 
+From cou.: 104 AS
+From Soup: 104 i.e.
+ ###### 
+From cou.: 105 a
+From Soup: 105 solvent
+ ###### 
+From cou.: 106 BS
+From Soup: 106 34
+ ###### 
+From cou.: 107 solvent
+From Soup: 107 We compared our simulations for two different processing regimes, which are fast and slow cooling to room temperature. Fast cooling has been modeling as one-step quench to room temperature. For this purpose, we have employed the values of a ij described earlier. To model slow cooling, we have employed two-step quench running our simulations in two steps. The excess repulsion values in the first step are chosen to be Δ a AS = 5 and Δ a AB = 15. Parameter Δ a AS is chosen to model a temperature lower than T 0 AB and higher than T 0 ABA . Since Δ a is related to temperature-dependant χ ( T ) ( eqn (9) ), we have taken Δ a AS that corresponds to the value of χ AB cr < χ < χ ABA cr , where χ AB cr and χ ABA cr are critical values of the Flory–Huggins interaction parameter for the diblock and triblock copolymer with solvent , respectively. The critical values of the Flory–Huggins parameter of the polymer - solvent pair, χ cr , are evaluated from
+ ###### 
+From cou.: 108 i.e.
+From Soup: 108 M
+ ###### 
+From cou.: 109 solvent
+From Soup: 109 A
+ ###### 
+From cou.: 110 34
+From Soup: 110 N
+ ###### 
+From cou.: 111 We compared our simulations for two different processing regimes, which are fast and slow cooling to room temperature. Fast cooling has been modeling as one-step quench to room temperature. For this purpose, we have employed the values of aij described earlier. To model slow cooling, we have employed two-step quench running our simulations in two steps. The excess repulsion values in the first step are chosen to be ΔaAS = 5 and ΔaAB = 15. Parameter ΔaAS is chosen to model a temperature lower than T0AB and higher than T0ABA. Since Δa is related to temperature-dependant χ(T) (eqn (9)), we have taken ΔaAS that corresponds to the value of χABcr < χ < χABAcr, where χABcr and χABAcr are critical values of the Flory–Huggins interaction parameter for the diblock and triblock copolymer with solvent, respectively. The critical values of the Flory–Huggins parameter of the polymer-solvent pair, χcr, are evaluated from
+From Soup: 111 A
+ ###### 
+From cou.: 112 M
+From Soup: 112 triblock copolymer
+ ###### 
+From cou.: 113 A
+From Soup: 113 55
+ ###### 
+From cou.: 114 N
+From Soup: 114 Δ a AB is evaluated from eqn (9) and 10 at the mixing temperature (150 °C) as it has been used in the experiment. The repulsion parameters for the second step of our two-step quench simulations are the same as the parameters used for the one-step quench, because the simulated system is finally cooled to room temperature. After Venturoli et al. 56 we have assumed that a ii are not temperature-dependent.
+ ###### 
+From cou.: 115 A
+From Soup: 115 The repulsive force parameters used in this study for both types of simulation are summarized in Table 1 .
+ ###### 
+From cou.: 116 triblock copolymer
+From Soup: 116 To probe the effect of the relative concentration of the mixing ratio of block copolymers , we considered a range of values for a relative content of diblock in the total polymers , f d of 0, 0.1, 0.2, 0.25, 0.5, 0.8, 0.9, and 1.0. According to our nomenclature, these simulated samples are called 0–100, 10–90, 20–80, 25–75, 50–50, 80–20, 90–10, and 100–0. The total volume fraction of polymers is 0.2, thus the simulated sample of 20–80, for example, corresponds to 0.04, 0.16, and 0.80 volume fractions of AB, ABA and S system, respectively. The block copolymers are expected to adopt micellar morphology at room temperature for this concentration.
+ ###### 
+From cou.: 117 55
+From Soup: 117 To verify our choice of Δ a AS = 5 for slow cooling, we have also performed two sets of 10 parallel simulations with a different choice of Δ a AS such as Δ a AS = 2 and Δ a AS = 10 in the first step, keeping all other parameters unchanged. Both test sets have been done for the 50–50 sample. The equilibrated systems of both sets demonstrate morphology similar to the morphology obtained from the fast cooling simulation, while gels obtained from the simulation with Δ a AS = 5 show evident structural difference.
+ ###### 
+From cou.: 118 ΔaAB is evaluated from eqn (9) and 10 at the mixing temperature (150 °C) as it has been used in the experiment. The repulsion parameters for the second step of our two-step quench simulations are the same as the parameters used for the one-step quench, because the simulated system is finally cooled to room temperature. After Venturoli et al.56 we have assumed that aii are not temperature-dependent.
+From Soup: 118 Equilibrium configurations were generated by randomly placing polymer chains and solvent particles into the simulation box, slowly adjusting the periodic box size to the desired pressure and finally performing a constant temperature simulation for 1000 steps. For the one-step quench, an equilibrium state was determined by repeating this procedure 50 times until the system pressure was stable within 1%. For the two-step quench, we have repeated the procedure 25 times with the first set of simulation parameters and 50 times with the second set of parameters. Ten parallel simulations were run for each set of initial conditions to minimize statistical uncertainty.
+ ###### 
+From cou.: 119 The repulsive force parameters used in this study for both types of simulation are summarized in Table 1.
+From Soup: 119 We examined the detailed microstructure of the simulation system to determine the conformation of each B block and composition, structure and size of formed micelles using the micelle identifying scheme described elsewhere. 34
+ ###### 
+From cou.: 120 To probe the effect of the relative concentration of the mixing ratio of block copolymers, we considered a range of values for a relative content of diblock in the total polymers, fd of 0, 0.1, 0.2, 0.25, 0.5, 0.8, 0.9, and 1.0. According to our nomenclature, these simulated samples are called 0–100, 10–90, 20–80, 25–75, 50–50, 80–20, 90–10, and 100–0. The total volume fraction of polymers is 0.2, thus the simulated sample of 20–80, for example, corresponds to 0.04, 0.16, and 0.80 volume fractions of AB, ABA and S system, respectively. The block copolymers are expected to adopt micellar morphology at room temperature for this concentration.
+From Soup: 120 To identify the morphology of our systems, we have analyzed the micelle sizes. The size of a micelle is calculated as d c = 2 R g , where R g is the radius of gyration of the micelle. R g is defined as
+ ###### 
+From cou.: 121 To verify our choice of ΔaAS = 5 for slow cooling, we have also performed two sets of 10 parallel simulations with a different choice of ΔaAS such as ΔaAS = 2 and ΔaAS = 10 in the first step, keeping all other parameters unchanged. Both test sets have been done for the 50–50 sample. The equilibrated systems of both sets demonstrate morphology similar to the morphology obtained from the fast cooling simulation, while gels obtained from the simulation with ΔaAS = 5 show evident structural difference.
+From Soup: 121 N
+ ###### 
+From cou.: 122 Equilibrium configurations were generated by randomly placing polymer chains and solvent particles into the simulation box, slowly adjusting the periodic box size to the desired pressure and finally performing a constant temperature simulation for 1000 steps. For the one-step quench, an equilibrium state was determined by repeating this procedure 50 times until the system pressure was stable within 1%. For the two-step quench, we have repeated the procedure 25 times with the first set of simulation parameters and 50 times with the second set of parameters. Ten parallel simulations were run for each set of initial conditions to minimize statistical uncertainty.
+From Soup: 122 m
+ ###### 
+From cou.: 123 We examined the detailed microstructure of the simulation system to determine the conformation of each B block and composition, structure and size of formed micelles using the micelle identifying scheme described elsewhere.34
+From Soup: 123 r
+ ###### 
+From cou.: 124 To identify the morphology of our systems, we have analyzed the micelle sizes. The size of a micelle is calculated as dc = 2Rg, where Rg is the radius of gyration of the micelle. Rg is defined as
+From Soup: 124 i
+ ###### 
+From cou.: 125 N
+From Soup: 125 r
+ ###### 
+From cou.: 126 m
+From Soup: 126 m
+ ###### 
+From cou.: 127 r
+From Soup: 127 R
+ ###### 
+From cou.: 128 i
+From Soup: 128 c
+ ###### 
+From cou.: 129 r
+From Soup: 129 R
+ ###### 
+From cou.: 130 m
+From Soup: 130 c
+ ###### 
+From cou.: 131 R
+From Soup: 131 50
+ ###### 
+From cou.: 132 c
+From Soup: 132 V
+ ###### 
+From cou.: 133 R
+From Soup: 133 t
+ ###### 
+From cou.: 134 c
+From Soup: 134 ν
+ ###### 
+From cou.: 135 50
+From Soup: 135 A
+ ###### 
+From cou.: 136 V
+From Soup: 136 N
+ ###### 
+From cou.: 137 t
+From Soup: 137 Av
+ ###### 
+From cou.: 138 ν
+From Soup: 138 R
+ ###### 
+From cou.: 139 A
+From Soup: 139 c
+ ###### 
+From cou.: 140 N
+From Soup: 140 Gel materials used in this study were prepared using a diblock copolymer , a triblock copolymer , and mineral oil with the following specifications: Polymers were manufactured by Kraton. The diblock (G1701 H) is (poly) styrene- block -(poly) ethylene propylene with ∼37 wt% styrene content ( M w = 180,377 g mol −1 , polydispersity = 1.03, density = 0.92 g/cc). The triblock (G1652) is (poly) styrene- block -(poly) ethylene butylene- block -(poly) styrene with ∼30 wt% styrene content, split evenly between endblocks ( M w = 102,325 g mol −1 , polydispersity = 1.04, density = 0.91 g/cc). Polymer molecular weights and polydispersities were measured by GPC (Waters) with respect to polystyrene standards. The mineral oil used is “white, light (paraffin oil, liquid petrolatum)” from Mallinkrodt (density = 0.856 g/cc).
+ ###### 
+From cou.: 141 Av
+From Soup: 141 All samples used in this study consisted of 80 vol% mineral oil. The remaining 20 vol% is composed of G1652 and G1701 in the given volume percentages, and with the “diblock:triblock:” nomenclature. Five samples were prepared, which include 0–100, 10–90, 20–80, 25–75, and 50–50: those correspond to the fractional content of diblock in total polymers , f d of 0, 0.1, 0.2, 0.25 and 0.5. These were made by mixing the components, placing them in an oven at 150 °C with periodic stirring, and then poured into a pre-warmed pan to create ∼4 mm thick films. Materials remained at 150 °C for a total of 2–3 h and were then removed to room temperature to cool.
+ ###### 
+From cou.: 142 R
+From Soup: 142 AFM was performed using a Dimension V (Veeco Instruments) atomic-force microscope with a Nanoscope V controller. The AFM measurements were performed in air. The gel was prepared by slicing the sample and therefore our AFM measurement provided images on sub-surface features of gels. Tapping-mode etched silicon-cantilever probes (TESP), which have nominal mode-1 resonant frequencies and spring constants of ∼300 kHz and 20–80 N m −1 , respectively, were used. Images (2 × 2 μm 2 ) were captured in height, amplitude (error signal), and phase channels. Amplitude images were used for micelle size and distribution measurements because edge enhancement effects provide good lateral resolution.
+ ###### 
+From cou.: 143 c
+From Soup: 143 Image analysis was performed using a combination of Nanoscope software (version 7.30R1Sr2) and Image J. Typically, the power spectrum analysis of raw amplitude images yielded peaks that provided micelle center-to-center distances. To measure the micelle size, Image J features, including thresholding, watershed (to eliminate apparent “agglomerates”), median, maximum, and despeckle filtering were applied to amplitude images in order to enhance the particle shapes for counting and measuring. Area measurements of the micelles were then performed and tabulated. The corresponding normalized micelle size histograms are shown in Fig. 2 .
+ ###### 
+From cou.: 144 Gel materials used in this study were prepared using a diblock copolymer, a triblock copolymer, and mineral oil with the following specifications: Polymers were manufactured by Kraton. The diblock (G1701 H) is (poly) styrene-block-(poly) ethylene propylene with ∼37 wt% styrene content (Mw = 180,377 g mol−1, polydispersity = 1.03, density = 0.92 g/cc). The triblock (G1652) is (poly) styrene-block-(poly) ethylene butylene-block-(poly) styrene with ∼30 wt% styrene content, split evenly between endblocks (Mw = 102,325 g mol−1, polydispersity = 1.04, density = 0.91 g/cc). Polymer molecular weights and polydispersities were measured by GPC (Waters) with respect to polystyrene standards. The mineral oil used is “white, light (paraffin oil, liquid petrolatum)” from Mallinkrodt (density = 0.856 g/cc).
+From Soup: 144 All samples exhibit the micellar morphology as evidenced by AFM images ( Fig. 3 ).
+ ###### 
+From cou.: 145 All samples used in this study consisted of 80 vol% mineral oil. The remaining 20 vol% is composed of G1652 and G1701 in the given volume percentages, and with the “diblock:triblock:” nomenclature. Five samples were prepared, which include 0–100, 10–90, 20–80, 25–75, and 50–50: those correspond to the fractional content of diblock in total polymers, fd of 0, 0.1, 0.2, 0.25 and 0.5. These were made by mixing the components, placing them in an oven at 150 °C with periodic stirring, and then poured into a pre-warmed pan to create ∼4 mm thick films. Materials remained at 150 °C for a total of 2–3 h and were then removed to room temperature to cool.
+From Soup: 145 Bright features (apparent “bumps”) in these images typically correspond to styrene -rich micelle domains. The presence of small and large micelles is clearly visible for all binary mixtures of the copolymers . A power spectrum analysis of amplitude images has been performed to determine micelle center-to-center distances by using the Fast Fourier Transform (FFT) thus significantly reducing analysis time. All samples containing a binary blend of diblock and triblock display a bimodal character with broad micelle size distribution. This bimodal micelle size distribution is prominent for the 25–75 and 50–50 samples. These power spectra were curve-fitted with two Gaussian peaks for each composition. The dual Gaussian peaks physically stand for two intermicellar distances (peak positions), which correspond to two micellar populations, differing in size and represent a relative fraction of the large and small micelles (normalized area fraction of the peaks). Fig. 4(a) shows D , the intermicellar distance as a function of diblock percentage for both small “standard micelle distance” and the larger “mixed micelle distance.”
+ ###### 
+From cou.: 146 AFM was performed using a Dimension V (Veeco Instruments) atomic-force microscope with a Nanoscope V controller. The AFM measurements were performed in air. The gel was prepared by slicing the sample and therefore our AFM measurement provided images on sub-surface features of gels. Tapping-mode etched silicon-cantilever probes (TESP), which have nominal mode-1 resonant frequencies and spring constants of ∼300 kHz and 20–80 N m−1, respectively, were used. Images (2 × 2 μm2) were captured in height, amplitude (error signal), and phase channels. Amplitude images were used for micelle size and distribution measurements because edge enhancement effects provide good lateral resolution.
+From Soup: 146 This data shows that the addition of diblock produces the second, larger micelle spacing and, at low-diblock percentages, apparently increases the standard micelle distance slightly, followed by a decrease again when the diblock composition is greater than 20%. Fig. 4(a) contains our simulation predictions for D , which we will discuss in section 3.3. Fig. 4(b) shows the normalized area fraction of both the smaller standard micelle distance and the larger mixed micelle distance, as calculated from the relative areas of the dual Gaussian peaks. These data show clearly that the larger mixed micellar distance fraction increases at the expense of the standard micelle distance fraction.
+ ###### 
+From cou.: 147 Image analysis was performed using a combination of Nanoscope software (version 7.30R1Sr2) and Image J. Typically, the power spectrum analysis of raw amplitude images yielded peaks that provided micelle center-to-center distances. To measure the micelle size, Image J features, including thresholding, watershed (to eliminate apparent “agglomerates”), median, maximum, and despeckle filtering were applied to amplitude images in order to enhance the particle shapes for counting and measuring. Area measurements of the micelles were then performed and tabulated. The corresponding normalized micelle size histograms are shown in Fig. 2.
+From Soup: 147 Tip-shape effects may become a factor for distance measurements on the order of the nominal tip radius (7 nm). In addition, thresholding of AFM images may result in variable micelle sizes. Thus, while care was taken to make an accurate analysis of each image separately, it is estimated that the error may be as large as the nominal tip radius (±7 nm). However, relative sizes such as large- vs. -small micelle diameters are likely to be more reliable measurements.
+ ###### 
+From cou.: 148 All samples exhibit the micellar morphology as evidenced by AFM images (Fig. 3).
+From Soup: 148 All simulation runs resulted in microphase separation, which led to formation of micelles composed of the insoluble A blocks. Midblocks of ABA chains can form either bridge or loop conformations. In bridges, the A endblocks are attached to the different micelles and the midblock “bridges” these micelles, while, in loop, the two A endblocks are contained in the same micelle. B blocks of AB chains form dangling tails. We have observed several morphological regimes of our blends, depending on composition and processing conditions. These results are summarized in Fig. 5 , which will be discussed in more detail in the following sections.
+ ###### 
+From cou.: 149 Bright features (apparent “bumps”) in these images typically correspond to styrene-rich micelle domains. The presence of small and large micelles is clearly visible for all binary mixtures of the copolymers. A power spectrum analysis of amplitude images has been performed to determine micelle center-to-center distances by using the Fast Fourier Transform (FFT) thus significantly reducing analysis time. All samples containing a binary blend of diblock and triblock display a bimodal character with broad micelle size distribution. This bimodal micelle size distribution is prominent for the 25–75 and 50–50 samples. These power spectra were curve-fitted with two Gaussian peaks for each composition. The dual Gaussian peaks physically stand for two intermicellar distances (peak positions), which correspond to two micellar populations, differing in size and represent a relative fraction of the large and small micelles (normalized area fraction of the peaks). Fig. 4(a) shows D, the intermicellar distance as a function of diblock percentage for both small “standard micelle distance” and the larger “mixed micelle distance.”
+From Soup: 149 First, we investigated the morphology of pure micelles formed in triblock (0–100 sample) and diblock (100–0 sample) solutions. The normalized histogram of micelle sizes is presented in Fig. 6 .
+ ###### 
+From cou.: 150 This data shows that the addition of diblock produces the second, larger micelle spacing and, at low-diblock percentages, apparently increases the standard micelle distance slightly, followed by a decrease again when the diblock composition is greater than 20%. Fig. 4(a) contains our simulation predictions for D, which we will discuss in section 3.3. Fig. 4(b) shows the normalized area fraction of both the smaller standard micelle distance and the larger mixed micelle distance, as calculated from the relative areas of the dual Gaussian peaks. These data show clearly that the larger mixed micellar distance fraction increases at the expense of the standard micelle distance fraction.
+From Soup: 150 Micelle size distribution of ABA gels is narrow and has a peak position of ∼10 nm. Micelles of AB copolymer display a much broader size distribution in a range of about 5 to 30 nm.
+ ###### 
+From cou.: 151 Tip-shape effects may become a factor for distance measurements on the order of the nominal tip radius (7 nm). In addition, thresholding of AFM images may result in variable micelle sizes. Thus, while care was taken to make an accurate analysis of each image separately, it is estimated that the error may be as large as the nominal tip radius (±7 nm). However, relative sizes such as large-vs.-small micelle diameters are likely to be more reliable measurements.
+From Soup: 151 The results from Fig. 2 and 6 for the experimental and computational micelle size distributions of ABA gel (0–100), respectively, illustrate that the position of size distribution peak is decreased ∼6 nm with the computation compared to the experimental results. ABA micelles are slightly smaller in size as compared to experimental values. This difference is within the estimated experimental error that may be as large as the nominal tip radius (±7 nm). In addition, tip radius effects in AFM tend to cause slightly larger estimations of feature size. Thus, excellent qualitative agreement between simulation and experiment was observed. We have also evaluated a number of copolymer chains per one micelle or an aggregation number, n c e , and found them to be 44 and 128 for ABA and AB micelles, respectively. These values are in reasonable agreement with theoretical estimations of n c e based on n c e ≈ N 4/5 A which predict 54 and 176 33 for ABA and AB micelles, respectively.
+ ###### 
+From cou.: 152 All simulation runs resulted in microphase separation, which led to formation of micelles composed of the insoluble A blocks. Midblocks of ABA chains can form either bridge or loop conformations. In bridges, the A endblocks are attached to the different micelles and the midblock “bridges” these micelles, while, in loop, the two A endblocks are contained in the same micelle. B blocks of AB chains form dangling tails. We have observed several morphological regimes of our blends, depending on composition and processing conditions. These results are summarized in Fig. 5, which will be discussed in more detail in the following sections.
+From Soup: 152 The broad distribution of AB micelles can be explained by micellar evolution toward the equilibrium state and has been observed experimentally by Esselink et al. 57 These authors demonstrated a morphology evolution process where, first, small micelles are developed from free chains. Second, further evolution toward equilibrium proceeds via merging of initially formed small micelles. This micellar fusion process leads to a broad size distribution of micelles for AB copolymer . 57 In contrast the ABA copolymer in our study has the associating endblock, which is significantly shorter, promoting more uniform size distribution.
+ ###### 
+From cou.: 153 First, we investigated the morphology of pure micelles formed in triblock (0–100 sample) and diblock (100–0 sample) solutions. The normalized histogram of micelle sizes is presented in Fig. 6.
+From Soup: 153 The results of micelle size distribution from one-step (fast cool) and two-step (slow cool) simulation protocols (see section 2.2) are presented in Fig. 7 , as a function of the ABA/AB composition.
+ ###### 
+From cou.: 154 Micelle size distribution of ABA gels is narrow and has a peak position of ∼10 nm. Micelles of AB copolymer display a much broader size distribution in a range of about 5 to 30 nm.
+From Soup: 154 The micelle size for the low concentration of the diblock are similar for both protocols with the 0–100, 10–90, 20–80, and 25–75 showing similar peak maxima. The micelle size distribution is narrow for the low diblock content gels and slightly larger for the one step (fast cool) simulation. In contrast, the 50–50, 80–20, and 90–10 samples display very different morphological behavior. In particular, micelles formed with the fast cooling rate for the 50–50, 80–20, and 90–10 exhibit a substantially broader distribution of sizes when compared to formulations with smaller diblock content. In addition, the micelles from the 50–50 and 80–20 compositions exhibit distinct bimodal distributions of sizes as a result of the two-step quench (slow cool) ( Fig. 7(b) ), clearly indicating coexistence of the small and large micelles.
+ ###### 
+From cou.: 155 The results from Fig. 2 and 6 for the experimental and computational micelle size distributions of ABA gel (0–100), respectively, illustrate that the position of size distribution peak is decreased ∼6 nm with the computation compared to the experimental results. ABA micelles are slightly smaller in size as compared to experimental values. This difference is within the estimated experimental error that may be as large as the nominal tip radius (±7 nm). In addition, tip radius effects in AFM tend to cause slightly larger estimations of feature size. Thus, excellent qualitative agreement between simulation and experiment was observed. We have also evaluated a number of copolymer chains per one micelle or an aggregation number, nce, and found them to be 44 and 128 for ABA and AB micelles, respectively. These values are in reasonable agreement with theoretical estimations of nce based on nce ≈ N4/5A which predict 54 and 17633 for ABA and AB micelles, respectively.
+From Soup: 155 To examine composition of the micelles, we have evaluated a normalized histogram of a volume fraction of diblock in a micelle, ϕ m d , and results are presented in Fig. 8 .
+ ###### 
+From cou.: 156 The broad distribution of AB micelles can be explained by micellar evolution toward the equilibrium state and has been observed experimentally by Esselink et al.57 These authors demonstrated a morphology evolution process where, first, small micelles are developed from free chains. Second, further evolution toward equilibrium proceeds via merging of initially formed small micelles. This micellar fusion process leads to a broad size distribution of micelles for AB copolymer.57 In contrast the ABA copolymer in our study has the associating endblock, which is significantly shorter, promoting more uniform size distribution.
+From Soup: 156 For the remaining discussion, we adapt the naming convention. Mixed micelles with a higher content of shorter or longer insoluble blocks are designated as mixed micelles of type 1 and type 2, respectively. In other words, micelles of type 1 are composed mainly of triblock and type 2 are composed mainly from diblock. Regardless of the content of the AB copolymer , the structures of mixed micelles of all simulated systems show overall similar features. Long, insoluble blocks of AB chains occupy the center of the mixed micelles to avoid unfavorable interactions with the solvent and particles of type B.
+ ###### 
+From cou.: 157 The results of micelle size distribution from one-step (fast cool) and two-step (slow cool) simulation protocols (see section 2.2) are presented in Fig. 7, as a function of the ABA/AB composition.
+From Soup: 157 This histogram shows that gels produced as a result of fast cool (one-step quench) exhibit three different regimes ( Fig. 8(a) ). The first regime is observed for the 10–90, 20–80, and 25–75 samples. These gels exhibit a two-peak distribution of the micellar compositions. The first peak is associated with micelles, composed from the triblock (0% probability of ϕ m d ). The second peak is related to the mixed micelles with a low concentration of the diblock (type 1), where the volume fraction of the diblock in a micelle is close to the volume fraction of the diblock in copolymers : ϕ m d ≈ f d . Interestingly, the difference in the size of the pure and mixed micelles is not very large for these samples. Therefore, the micelles cannot be distinguished as two separate peaks in the size histogram ( Fig. 7(a) ). This regime is similar to regime 4 ( Fig. 1 ) but our results differ in mixed micelle compositions. Mixed composition micelles in Fig. 8 mainly consist of shorter insoluble blocks of ABA analogous to A′ (type 1): on the contrary, mixed micelles studied by Borovinskii and Khokhlov 23 are primarily composed of longer insoluble blocks, A′′ (type 2). We have designated this morphology in Fig. 7(a) and 8(a) for compositions 10–90, 20–80, and 25–75 as Regime 4a, as shown in Fig. 5 .
+ ###### 
+From cou.: 158 The micelle size for the low concentration of the diblock are similar for both protocols with the 0–100, 10–90, 20–80, and 25–75 showing similar peak maxima. The micelle size distribution is narrow for the low diblock content gels and slightly larger for the one step (fast cool) simulation. In contrast, the 50–50, 80–20, and 90–10 samples display very different morphological behavior. In particular, micelles formed with the fast cooling rate for the 50–50, 80–20, and 90–10 exhibit a substantially broader distribution of sizes when compared to formulations with smaller diblock content. In addition, the micelles from the 50–50 and 80–20 compositions exhibit distinct bimodal distributions of sizes as a result of the two-step quench (slow cool) (Fig. 7(b)), clearly indicating coexistence of the small and large micelles.
+From Soup: 158 The second regime takes place for the 50–50 and 80–20 samples ( Fig. 8(a) ). For these compositions, all micelles correspond to mixed micelles with ϕ m d ≈ f d . Micelles of these samples have a broad size distribution ( Fig. 7(a) ). This morphology can be described by Regime 5 in Fig. 1 and 5 . Finally, the 90–10 sample shows a prominent peak in the composition histogram that corresponds to mixed micelles with high concentration of the diblock. This histogram also shows possibility of an emergence of a small peak consistent with pure micelles, which are composed of the triblock. This morphology is evolving toward Regime 3 ( Fig. 1 , 5 ).
+ ###### 
+From cou.: 159 To examine composition of the micelles, we have evaluated a normalized histogram of a volume fraction of diblock in a micelle, ϕmd, and results are presented in Fig. 8.
+From Soup: 159 In the two-step quench ( Fig. 8(b) ), our results indicate that AB/ABA gels exhibit numerous regimes. The 10–90, 20–80, and 25–75 samples have morphology analogous to the morphology of the corresponding samples of the one-step quench, and therefore they belong to Regime 4a. Long tails indicate the beginning formation of the micelles of type 2 ( Fig. 8(b) : 10–90, 20–80, and 25–75 samples).
+ ###### 
+From cou.: 160 For the remaining discussion, we adapt the naming convention. Mixed micelles with a higher content of shorter or longer insoluble blocks are designated as mixed micelles of type 1 and type 2, respectively. In other words, micelles of type 1 are composed mainly of triblock and type 2 are composed mainly from diblock. Regardless of the content of the AB copolymer, the structures of mixed micelles of all simulated systems show overall similar features. Long, insoluble blocks of AB chains occupy the center of the mixed micelles to avoid unfavorable interactions with the solvent and particles of type B.
+From Soup: 160 The 90–10 sample with two-step quench (slow cool) has morphology close to one of the corresponding samples produced by the one-step quench, but the slow-cooled sample has more pure micelles. These micelles are related to a small peak in the size histogram of the 90–10 sample ( Fig. 7(b) ). When the relative content of the diblock, f d , is decreased (the 80–20 sample), the composition histogram shows that two populations of micelles are present: mixed micelles consisting mainly of the diblock (type 2) and pure micelles composed of the triblocks ( Fig. 8(b) ). This morphology is represented schematically in Fig. 5 as regime 4b, and it is analogous to regime 4 in Fig. 1 . These gels exhibit a two-peak distribution, as shown in the size histogram ( Fig. 7(b) ). The further decrease in f d leads to three distinct peaks in the composition histogram ( Fig. 8(b) , 50–50 sample). These peaks correspond to pure micelles of the triblock copolymer and mixed micelles of both type 1 (high-triblock content) and type 2 (high diblock content). This sample also displays a two-peak distribution of the size histogram. The mixed micelles of type 2 are large micelles, and both pure micelles and mixed micelles of type 1 belong to the small micelles ( Fig. 7(b) ). This morphology is similar to the regime 6 ( Fig. 1 ), but large micelles in our simulations have a low content of short insoluble blocks; however, large micelles described by Esselink et al. 25 do not include short chains at all.
+ ###### 
+From cou.: 161 This histogram shows that gels produced as a result of fast cool (one-step quench) exhibit three different regimes (Fig. 8(a)). The first regime is observed for the 10–90, 20–80, and 25–75 samples. These gels exhibit a two-peak distribution of the micellar compositions. The first peak is associated with micelles, composed from the triblock (0% probability of ϕmd). The second peak is related to the mixed micelles with a low concentration of the diblock (type 1), where the volume fraction of the diblock in a micelle is close to the volume fraction of the diblock in copolymers: ϕmd ≈ fd. Interestingly, the difference in the size of the pure and mixed micelles is not very large for these samples. Therefore, the micelles cannot be distinguished as two separate peaks in the size histogram (Fig. 7(a)). This regime is similar to regime 4 (Fig. 1) but our results differ in mixed micelle compositions. Mixed composition micelles in Fig. 8 mainly consist of shorter insoluble blocks of ABA analogous to A′ (type 1): on the contrary, mixed micelles studied by Borovinskii and Khokhlov23 are primarily composed of longer insoluble blocks, A′′ (type 2). We have designated this morphology in Fig. 7(a) and 8(a) for compositions 10–90, 20–80, and 25–75 as Regime 4a, as shown in Fig. 5.
+From Soup: 161 Thus, we have found that the microstructure of gels depends on the diblock/triblock ratio and processing conditions. We have summarized our findings in the schematic picture, which is shown in Fig. 5 . Our results are somehow different from the other theoretical studies. 23–25 This disagreement could be related to the difference of investigated systems. The other authors studied significantly diluted systems where micelles do not interact, whereas we have considered a system where chains can exchange among the micelles during the equilibration.
+ ###### 
+From cou.: 162 The second regime takes place for the 50–50 and 80–20 samples (Fig. 8(a)). For these compositions, all micelles correspond to mixed micelles with ϕmd ≈ fd. Micelles of these samples have a broad size distribution (Fig. 7(a)). This morphology can be described by Regime 5 in Fig. 1 and 5. Finally, the 90–10 sample shows a prominent peak in the composition histogram that corresponds to mixed micelles with high concentration of the diblock. This histogram also shows possibility of an emergence of a small peak consistent with pure micelles, which are composed of the triblock. This morphology is evolving toward Regime 3 (Fig. 1, 5).
+From Soup: 162 Examples illustrating the dependence of micelle size on the concentration of diblock in a micelle, ϕ m d , and their composition for one- and two-step quench simulations are shown in Fig. 9 .
+ ###### 
+From cou.: 163 In the two-step quench (Fig. 8(b)), our results indicate that AB/ABA gels exhibit numerous regimes. The 10–90, 20–80, and 25–75 samples have morphology analogous to the morphology of the corresponding samples of the one-step quench, and therefore they belong to Regime 4a. Long tails indicate the beginning formation of the micelles of type 2 (Fig. 8(b): 10–90, 20–80, and 25–75 samples).
+From Soup: 163 In general, a micelle size increases with the increasing concentration of diblock in a micelle. However, micelles composed of pure triblock and mixed micelles of type 1 ( ϕ m d < 0.3) exhibited small size changes with increasing diblock content, while the increasing size was more evident when ϕ m d > 0.3.
+ ###### 
+From cou.: 164 The 90–10 sample with two-step quench (slow cool) has morphology close to one of the corresponding samples produced by the one-step quench, but the slow-cooled sample has more pure micelles. These micelles are related to a small peak in the size histogram of the 90–10 sample (Fig. 7(b)). When the relative content of the diblock, fd, is decreased (the 80–20 sample), the composition histogram shows that two populations of micelles are present: mixed micelles consisting mainly of the diblock (type 2) and pure micelles composed of the triblocks (Fig. 8(b)). This morphology is represented schematically in Fig. 5 as regime 4b, and it is analogous to regime 4 in Fig. 1. These gels exhibit a two-peak distribution, as shown in the size histogram (Fig. 7(b)). The further decrease in fd leads to three distinct peaks in the composition histogram (Fig. 8(b), 50–50 sample). These peaks correspond to pure micelles of the triblock copolymer and mixed micelles of both type 1 (high-triblock content) and type 2 (high diblock content). This sample also displays a two-peak distribution of the size histogram. The mixed micelles of type 2 are large micelles, and both pure micelles and mixed micelles of type 1 belong to the small micelles (Fig. 7(b)). This morphology is similar to the regime 6 (Fig. 1), but large micelles in our simulations have a low content of short insoluble blocks; however, large micelles described by Esselink et al.25 do not include short chains at all.
+From Soup: 164 The experimental solutions were slowly cooled to room temperature after heating to 150 °C, and therefore we anticipated the gel morphology to be similar to the morphology obtained from our two-step quench simulation. As qualitatively predicted with the simulations, the experimental gels exhibited the bimodal size distribution of micelles that becomes more pronounced with increasing diblock content ( Fig. 2 ). However, unlike computations, the experimental samples display a bimodal size distribution even at low diblock contents. The first peaks of the experimental distributions for the 10–90, 20–80, 25–75, and 50–50 samples are related to the most probable sizes of small micelles which are very close to the sizes predicted by simulation results, considering the ∼7 nm experimental error. However, large micelles in the experimental system are larger than micelles predicted by the simulation ( Fig. 2 and 7(b) ). In addition, the ratio of small to large micelles is different. This discrepancy between experimental results and computational predictions is caused by several factors including difference in aging time for the experimental and computational gels as well as accuracy of model and system-size effect. To obtain a better qualitative match between the simulation and the experiment, the number of long chains in the simulated system must be sufficiently high, which would result in extremely large number of DPD particles that cannot be simulated within a reasonable time frame. Fewer amounts of the small micelles observed in the experiment comparing with the simulation could be also caused by thresholding of AFM images that leads to a loss of some amount of the small micelles.
+ ###### 
+From cou.: 165 Thus, we have found that the microstructure of gels depends on the diblock/triblock ratio and processing conditions. We have summarized our findings in the schematic picture, which is shown in Fig. 5. Our results are somehow different from the other theoretical studies.23–25 This disagreement could be related to the difference of investigated systems. The other authors studied significantly diluted systems where micelles do not interact, whereas we have considered a system where chains can exchange among the micelles during the equilibration.
+From Soup: 165 Despite these discrepancies, the qualitative agreement of micelle size distribution between the simulations and experiment illustrates the potential predictive power of the DPD technique. For example, a comparison of a snapshot of the 50–50 gel ( Fig. 10 ) simulated by DPD is qualitatively similar to the experimental 50–50 gel AFM results ( Fig. 3 ) illustrating a mixture of both small and large micelles.
+ ###### 
+From cou.: 166 Examples illustrating the dependence of micelle size on the concentration of diblock in a micelle, ϕmd, and their composition for one- and two-step quench simulations are shown in Fig. 9.
+From Soup: 166 Our findings are in agreement with the experimental work of Honda and coworkers. 26,27 The formation of pure micelles from the short chains, which still remain in the solution after the first temperature quench, is much faster than comicellization with existing large micelles predominantly composed of the long chains. Honda and coworkers 26,27 demonstrated that the second process is more complex and includes partial decomposition of the large micelles. It is therefore reasonable that micelles that are formed at one-step quench are larger and have a broader size distribution than micelles formed as a result of two-step quench.
+ ###### 
+From cou.: 167 In general, a micelle size increases with the increasing concentration of diblock in a micelle. However, micelles composed of pure triblock and mixed micelles of type 1 (ϕmd < 0.3) exhibited small size changes with increasing diblock content, while the increasing size was more evident when ϕmd > 0.3.
+From Soup: 167 The different outcomes for the different annealing protocols used in simulation and experimental systems indicate that the resulting systems may be in kinetically frozen states. In the systems considered, the glass transition temperature of styrene block should be higher than 65 °C. 58 This could impose the condition where the further evolution of micelles is excluded. It has been shown that fission or fusion 59 of micelles could be fully frozen if interactions between the insoluble blocks are sufficiently strong. 60 The unimer exchange between micelles could be also frozen if solvent is very poor for insoluble blocks. 61 Based on these considerations, we can conclude that our results are meaningful for the time frame of the experiment.
+ ###### 
+From cou.: 168 The experimental solutions were slowly cooled to room temperature after heating to 150 °C, and therefore we anticipated the gel morphology to be similar to the morphology obtained from our two-step quench simulation. As qualitatively predicted with the simulations, the experimental gels exhibited the bimodal size distribution of micelles that becomes more pronounced with increasing diblock content (Fig. 2). However, unlike computations, the experimental samples display a bimodal size distribution even at low diblock contents. The first peaks of the experimental distributions for the 10–90, 20–80, 25–75, and 50–50 samples are related to the most probable sizes of small micelles which are very close to the sizes predicted by simulation results, considering the ∼7 nm experimental error. However, large micelles in the experimental system are larger than micelles predicted by the simulation (Fig. 2 and 7(b)). In addition, the ratio of small to large micelles is different. This discrepancy between experimental results and computational predictions is caused by several factors including difference in aging time for the experimental and computational gels as well as accuracy of model and system-size effect. To obtain a better qualitative match between the simulation and the experiment, the number of long chains in the simulated system must be sufficiently high, which would result in extremely large number of DPD particles that cannot be simulated within a reasonable time frame. Fewer amounts of the small micelles observed in the experiment comparing with the simulation could be also caused by thresholding of AFM images that leads to a loss of some amount of the small micelles.
+From Soup: 168 Experimentally, the structure of the micellar gels is typically studied using scattering techniques. The measured scattering intensities are directly related to the Fourier transform of the radial distribution function of the scattering density, g ( r ). This distribution function measures both intra- and inter-micellar correlations and is often used to characterize micelle ordering in computational studies. 46,62,63
+ ###### 
+From cou.: 169 Despite these discrepancies, the qualitative agreement of micelle size distribution between the simulations and experiment illustrates the potential predictive power of the DPD technique. For example, a comparison of a snapshot of the 50–50 gel (Fig. 10) simulated by DPD is qualitatively similar to the experimental 50–50 gel AFM results (Fig. 3) illustrating a mixture of both small and large micelles.
+From Soup: 169 Fig. 11 shows the radial distribution function, g ( r ), of type “A” particles averaged from 10 parallel simulation runs.
+ ###### 
+From cou.: 170 Our findings are in agreement with the experimental work of Honda and coworkers.26,27 The formation of pure micelles from the short chains, which still remain in the solution after the first temperature quench, is much faster than comicellization with existing large micelles predominantly composed of the long chains. Honda and coworkers26,27 demonstrated that the second process is more complex and includes partial decomposition of the large micelles. It is therefore reasonable that micelles that are formed at one-step quench are larger and have a broader size distribution than micelles formed as a result of two-step quench.
+From Soup: 170 The behavior of g ( r ) shows the ordering of end-block particles into micellar arrangement. The first peak corresponds to the DPD inter-particle distance within a single micelle, whereas the second peak corresponds to the average distance between micelle, D . Emergence of the third peak for 0–100 (ABA/B gel) at r = 2 D ( Fig. 11(b) and (d) ) shows some long-range ordering of the micelles; however, due to the limited size of the unit cell of about 130 nm, we cannot consider g ( r ) at distances exceeding 65 nm. Fig. 11(b) and (d) show that the average distance between micelles increases with increasing content of the diblock chains. The intermicellar distance increase appears to be larger for the one-step quench ( Fig. 11(a) ) than in the case of the two-step quench ( Fig. 11(c) ). In both cases, this effect is due to the formation of fewer micelles that are larger in size.
+ ###### 
+From cou.: 171 The different outcomes for the different annealing protocols used in simulation and experimental systems indicate that the resulting systems may be in kinetically frozen states. In the systems considered, the glass transition temperature of styrene block should be higher than 65 °C.58 This could impose the condition where the further evolution of micelles is excluded. It has been shown that fission or fusion59 of micelles could be fully frozen if interactions between the insoluble blocks are sufficiently strong.60 The unimer exchange between micelles could be also frozen if solvent is very poor for insoluble blocks.61 Based on these considerations, we can conclude that our results are meaningful for the time frame of the experiment.
+From Soup: 171 The inter-micellar distance of triblock copolymer gel (0–100 sample) can also be estimated assuming a block copolymer gel model is represented through a random distribution of hard spheres. The average micelle distance, D is given as
+ ###### 
+From cou.: 172 Experimentally, the structure of the micellar gels is typically studied using scattering techniques. The measured scattering intensities are directly related to the Fourier transform of the radial distribution function of the scattering density, g(r). This distribution function measures both intra- and inter-micellar correlations and is often used to characterize micelle ordering in computational studies.46,62,63
+From Soup: 172 R
+ ###### 
+From cou.: 173 Fig. 11 shows the radial distribution function, g(r), of type “A” particles averaged from 10 parallel simulation runs.
+From Soup: 173 φ
+ ###### 
+From cou.: 174 The behavior of g(r) shows the ordering of end-block particles into micellar arrangement. The first peak corresponds to the DPD inter-particle distance within a single micelle, whereas the second peak corresponds to the average distance between micelle, D. Emergence of the third peak for 0–100 (ABA/B gel) at r = 2D (Fig. 11(b) and (d)) shows some long-range ordering of the micelles; however, due to the limited size of the unit cell of about 130 nm, we cannot consider g(r) at distances exceeding 65 nm. Fig. 11(b) and (d) show that the average distance between micelles increases with increasing content of the diblock chains. The intermicellar distance increase appears to be larger for the one-step quench (Fig. 11(a)) than in the case of the two-step quench (Fig. 11(c)). In both cases, this effect is due to the formation of fewer micelles that are larger in size.
+From Soup: 174 m
+ ###### 
+From cou.: 175 The inter-micellar distance of triblock copolymer gel (0–100 sample) can also be estimated assuming a block copolymer gel model is represented through a random distribution of hard spheres. The average micelle distance, D is given as
+From Soup: 175 64
+ ###### 
+From cou.: 176 R
+From Soup: 176 D
+ ###### 
+From cou.: 177 φ
+From Soup: 177 Eqn (15)
+ ###### 
+From cou.: 178 m
+From Soup: 178 D
+ ###### 
+From cou.: 179 64
+From Soup: 179 eqn (15)
+ ###### 
+From cou.: 180 D
+From Soup: 180 g
+ ###### 
+From cou.: 181 D
+From Soup: 181 r
+ ###### 
+From cou.: 182 g
+From Soup: 182 Fig. 11
+ ###### 
+From cou.: 183 r
+From Soup: 183 We have compared center-to-center distances between micelles from experimental power spectrum analysis ( Fig. 4(a) ) with those predicted by two-step quench ( Fig. 11(b) ). The experimental and simulation results show good agreements for micelles with larger relative fractions, which are represented by larger normalized area fractions of the Gaussian peak of the power spectrum ( Fig. 4(b) ). A comparison of the experiment and the simulation show that our computational approach accurately predicts D for the majority of micelles.
+ ###### 
+From cou.: 184 We have compared center-to-center distances between micelles from experimental power spectrum analysis (Fig. 4(a)) with those predicted by two-step quench (Fig. 11(b)). The experimental and simulation results show good agreements for micelles with larger relative fractions, which are represented by larger normalized area fractions of the Gaussian peak of the power spectrum (Fig. 4(b)). A comparison of the experiment and the simulation show that our computational approach accurately predicts D for the majority of micelles.
+From Soup: 184 We have evaluated the bridge fraction, ϕ b , which is an important quantity for triblock copolymer gels. ϕ b controls the mechanical properties of unentangled gels: 34,65 where G is the elastic shear modulus, r 2 E is the mean square end-to-end distance of a bridge, r 2 0 is the mean square end-to-end distance of the unconstrained midblock, M w is the molar mass of the triblock copolymer , T is the temperature, R is the universal gas constant, and C t is a mass/volume concentration of the triblock. The mechanical properties of high molecular weight polymer gels would have also a major contribution from entanglement effects.
+ ###### 
+From cou.: 185 We have evaluated the bridge fraction, ϕb, which is an important quantity for triblock copolymer gels. ϕb controls the mechanical properties of unentangled gels:34,65where G is the elastic shear modulus, r2E is the mean square end-to-end distance of a bridge, r20 is the mean square end-to-end distance of the unconstrained midblock, Mw is the molar mass of the triblock copolymer, T is the temperature, R is the universal gas constant, and Ct is a mass/volume concentration of the triblock. The mechanical properties of high molecular weight polymer gels would have also a major contribution from entanglement effects.
+From Soup: 185 Since only midblocks of triblock copolymers are able to connect micelles, all physical cross-links or bridges are formed exclusively by B blocks of the ABA block copolymer . Some fraction of B blocks of the triblock adopts a loop conformation, produced as a result of the close association of the endblocks. The bridge fraction, , is defined as the ratio of triblock chains in bridge conformations, n b , to the total number of ABA chains, n . ϕ b depends on several factors such as copolymer concentration, the degree of block incompatibility, and the relative size of the blocks. The methodology of evaluation of ϕ b was described elsewhere. 34 The computed ϕ b values are presented in Fig. 12 .
+ ###### 
+From cou.: 186 Since only midblocks of triblock copolymers are able to connect micelles, all physical cross-links or bridges are formed exclusively by B blocks of the ABA block copolymer. Some fraction of B blocks of the triblock adopts a loop conformation, produced as a result of the close association of the endblocks. The bridge fraction, , is defined as the ratio of triblock chains in bridge conformations, nb, to the total number of ABA chains, n. ϕb depends on several factors such as copolymer concentration, the degree of block incompatibility, and the relative size of the blocks. The methodology of evaluation of ϕb was described elsewhere.34 The computed ϕb values are presented in Fig. 12.
+From Soup: 186 The ϕ b are similar for the gels obtained from the one- and two-step quench, and the bridge fraction generally decreases with an increase of the diblock content, f d . The value of ϕ b is determined by competition two factors, which are a volume-exclusion effect and an intermicellar distance. It has been suggested that the addition of chemically identical diblock copolymer to triblock copolymer solution in the midblock selective solvent leads to an increase of fraction of bridged midblock by a molecular volume exclusion effect, even though diblock copolymer is unable to form a network. 66 Since midblocks of triblock are slightly extended in a corona of the mixed micelles because of the presence of long tails of diblock copolymers , the midblocks form loops less likely. Thus, ϕ b is expected to increase with increasing f d . On the other hand, an increase in diblock concentration with N A < M A causes the intermicellar distance, D , to rise because of the formation of larger micelles (see Fig. 11 ). An increase of D leads to a higher entropic penalty of stretching the bridging midblock, 34 and ϕ b is expected to decrease with the increase of f d . From our results, one can conclude that the increase in D dominates over volume exclusion, and the overall value of ϕ b decreases with increasing f d .
+ ###### 
+From cou.: 187 The ϕb are similar for the gels obtained from the one- and two-step quench, and the bridge fraction generally decreases with an increase of the diblock content, fd. The value of ϕb is determined by competition two factors, which are a volume-exclusion effect and an intermicellar distance. It has been suggested that the addition of chemically identical diblock copolymer to triblock copolymer solution in the midblock selective solvent leads to an increase of fraction of bridged midblock by a molecular volume exclusion effect, even though diblock copolymer is unable to form a network.66 Since midblocks of triblock are slightly extended in a corona of the mixed micelles because of the presence of long tails of diblock copolymers, the midblocks form loops less likely. Thus, ϕb is expected to increase with increasing fd. On the other hand, an increase in diblock concentration with NA < MA causes the intermicellar distance, D, to rise because of the formation of larger micelles (see Fig. 11). An increase of D leads to a higher entropic penalty of stretching the bridging midblock,34 and ϕb is expected to decrease with the increase of fd. From our results, one can conclude that the increase in D dominates over volume exclusion, and the overall value of ϕb decreases with increasing fd.
+From Soup: 187 Because we are able to modify the block length and concentration of AB chains, we can control ϕ b and the related elastic modulus of block copolymer blends.
+ ###### 
+From cou.: 188 Because we are able to modify the block length and concentration of AB chains, we can control ϕb and the related elastic modulus of block copolymer blends.
+From Soup: 188 We have presented a computational investigation of the morphology of a binary mixture of block copolymers differing in length of the insoluble blocks in a selective solvent by means of dissipative particle dynamics. Our coarse-grained system is composed of the bead-spring model of a binary mixture of AB/ABA block copolymers differing in length from the insoluble blocks in B-selective solvent , where A block of the diblock is longer. Results of our computations were compared with our experimental findings based on AFM and other experimental and theoretical studies, and demonstrated a good agreement. We have observed that, while micelle size distribution of ABA gels is relatively narrow, micelles of AB copolymer display much broader size distribution in a range of about 5–30 nm. We have observed numerous morphologies of AB/ABA blends, which are characterized by the formation of pure and mixed micelles of different compositions, structures, and sizes. Longer insoluble blocks of AB chains mainly occupy a center of the micelles, and shorter A blocks of ABA are located at the periphery. We have demonstrated that bridge fraction and the corresponding mechanical properties of the gels can be controlled by adding a diblock copolymer .
+ ###### 
+From cou.: 189 We have presented a computational investigation of the morphology of a binary mixture of block copolymers differing in length of the insoluble blocks in a selective solvent by means of dissipative particle dynamics. Our coarse-grained system is composed of the bead-spring model of a binary mixture of AB/ABA block copolymers differing in length from the insoluble blocks in B-selective solvent, where A block of the diblock is longer. Results of our computations were compared with our experimental findings based on AFM and other experimental and theoretical studies, and demonstrated a good agreement. We have observed that, while micelle size distribution of ABA gels is relatively narrow, micelles of AB copolymer display much broader size distribution in a range of about 5–30 nm. We have observed numerous morphologies of AB/ABA blends, which are characterized by the formation of pure and mixed micelles of different compositions, structures, and sizes. Longer insoluble blocks of AB chains mainly occupy a center of the micelles, and shorter A blocks of ABA are located at the periphery. We have demonstrated that bridge fraction and the corresponding mechanical properties of the gels can be controlled by adding a diblock copolymer.
+From Soup: 189 Finally, we have found specific conditions, such as of copolymer ratio and processing setting, that modify the structural and mechanical properties of block copolymer blends. Our results are similar to the other theoretical studies, but our simulations predict an additional morphological complexity.
+ ###### 
+From cou.: 190 Finally, we have found specific conditions, such as of copolymer ratio and processing setting, that modify the structural and mechanical properties of block copolymer blends. Our results are similar to the other theoretical studies, but our simulations predict an additional morphological complexity.
+From Soup: 190 In addition, this work supports the use of DPD methods to study the morphology of the complex mixture of block copolymers in various processing conditions. The knowledge derived from this simulation will help control the structural and mechanical properties of block copolymer gels designed for specific applications.
+ ###### 
+From cou.: 191 In addition, this work supports the use of DPD methods to study the morphology of the complex mixture of block copolymers in various processing conditions. The knowledge derived from this simulation will help control the structural and mechanical properties of block copolymer gels designed for specific applications.
+From Soup: 191 This research was supported in part by an appointment to the Postgraduate Research Participation Program at the U.S. Army Research Laboratory (ARL) administered by the Oak Ridge Institute of Science and Education through an interagency agreement between the U.S. Department of Energy and ARL. Prof. V. Ganesan and Dr V. Pryamitsyn are thanked for providing the DPD code.
+ ###### 
+From cou.: 192 This research was supported in part by an appointment to the Postgraduate Research Participation Program at the U.S. Army Research Laboratory (ARL) administered by the Oak Ridge Institute of Science and Education through an interagency agreement between the U.S. Department of Energy and ARL. Prof. V. Ganesan and Dr V. Pryamitsyn are thanked for providing the DPD code.
+From Soup: 192 Responsive Gels: Volume Phase Transitions, Advances in Polymer Science , ed. K. Dušek, Springer, Berlin, 1993 Search PubMed .
+ ###### 
+From cou.: 193 Responsive Gels: Volume Phase Transitions, Advances in Polymer Science, ed. K. Dušek, Springer, Berlin, 1993 Search PubMed .
+From Soup: 193 C. S. Kim and S. M. Oh, Electrochim. Acta , 2001, 46 , 1323 CrossRef CAS .
+ ###### 
+From cou.: 194 C. S. Kim and S. M. Oh, Electrochim. Acta, 2001, 46, 1323 CrossRef CAS .
+From Soup: 194 P. D. Hong, J. H. Chen and H. L. Wu, J. Appl. Polym. Sci. , 1998, 69 , 2477 CrossRef CAS .
+ ###### 
+From cou.: 195 P. D. Hong, J. H. Chen and H. L. Wu, J. Appl. Polym. Sci., 1998, 69, 2477 CrossRef CAS .
+From Soup: 195 R. A. Mrozek, P. J. Cole, S. M. Cole, J. L. Schroeder, D. A. Schneider, R. C. Hedden and J. L. Lenhart, J. Mater. Res. , 2010, 25 , 1105 CrossRef CAS .
+ ###### 
+From cou.: 196 R. A. Mrozek, P. J. Cole, S. M. Cole, J. L. Schroeder, D. A. Schneider, R. C. Hedden and J. L. Lenhart, J. Mater. Res., 2010, 25, 1105 CrossRef CAS .
+From Soup: 196 J. L. Lenhart, P. J. Cole, B. Unal and R. C. Hedden, Appl. Phys. Lett. , 2007, 91 , 061929 CrossRef .
+ ###### 
+From cou.: 197 J. L. Lenhart, P. J. Cole, B. Unal and R. C. Hedden, Appl. Phys. Lett., 2007, 91, 061929 CrossRef .
+From Soup: 197 J. L. Lenhart and P. J. Cole, J. Adhes. , 2006, 82 , 945 CrossRef CAS .
+ ###### 
+From cou.: 198 J. L. Lenhart and P. J. Cole, J. Adhes., 2006, 82, 945 CrossRef CAS .
+From Soup: 198 R. A. Mrozek, P. J. Cole, K. J. Otim, K. R. Shull and J. L. Lenhart, Polymer , 2011 DOI: 10.1016/ j.polymer. 2011.05.021 .
+ ###### 
+From cou.: 199 R. A. Mrozek, P. J. Cole, K. J. Otim, K. R. Shull and J. L. Lenhart, Polymer, 2011 DOI:10.1016/ j.polymer. 2011.05.021 .
+From Soup: 199 K. Haraguchi, R. Farnsworth, A. Ohbayshi and T. Takehisa, Macromolecules , 2003, 36 , 5732 CrossRef CAS .
+ ###### 
+From cou.: 200 K. Haraguchi, R. Farnsworth, A. Ohbayshi and T. Takehisa, Macromolecules, 2003, 36, 5732 CrossRef CAS .
+From Soup: 200 I. C. Kwon, Y. H. Bae and S. W. Kim, Nature , 1991, 354 , 291 CrossRef CAS .
+ ###### 
+From cou.: 201 I. C. Kwon, Y. H. Bae and S. W. Kim, Nature, 1991, 354, 291 CrossRef CAS .
+From Soup: 201 S. Murdan, J. Controlled Release , 2003, 92 , 1 CrossRef CAS .
+ ###### 
+From cou.: 202 S. Murdan, J. Controlled Release, 2003, 92, 1 CrossRef CAS .
+From Soup: 202 N. A. Peppas, Y. Huang, M. Torres-Lugo, J. H. Ward and J. Zhang, Annu. Rev. Biomed. Eng. , 2000, 2 , 9 CrossRef CAS .
+ ###### 
+From cou.: 203 N. A. Peppas, Y. Huang, M. Torres-Lugo, J. H. Ward and J. Zhang, Annu. Rev. Biomed. Eng., 2000, 2, 9 CrossRef CAS .
+From Soup: 203 Z. Hu, Y. Chen, C. Wang, Y. Zheng and Y. Li, Nature , 1998, 393 , 149 CrossRef CAS .
+ ###### 
+From cou.: 204 Z. Hu, Y. Chen, C. Wang, Y. Zheng and Y. Li, Nature, 1998, 393, 149 CrossRef CAS .
+From Soup: 204 J. H. Holtz and S. A. Asher, Nature , 1997, 389 , 829 CrossRef CAS .
+ ###### 
+From cou.: 205 J. H. Holtz and S. A. Asher, Nature, 1997, 389, 829 CrossRef CAS .
+From Soup: 205 J. P. Gong, Soft Matter , 2010, 6 , 2583 RSC .
+ ###### 
+From cou.: 206 J. P. Gong, Soft Matter, 2010, 6, 2583 RSC .
+From Soup: 206 S. Abdurrahmanoglu, V. Can and O. Okay, Polymer , 2009, 50 , 5449 CrossRef CAS .
+ ###### 
+From cou.: 207 S. Abdurrahmanoglu, V. Can and O. Okay, Polymer, 2009, 50, 5449 CrossRef CAS .
+From Soup: 207 G. Miquelard-Garnier, D. Hourdet and C. Creton, Polymer , 2009, 50 , 481 CrossRef CAS .
+ ###### 
+From cou.: 208 G. Miquelard-Garnier, D. Hourdet and C. Creton, Polymer, 2009, 50, 481 CrossRef CAS .
+From Soup: 208 S. Kawano, D. Kobayashi, S. Taguchi and M. Kunitake, Macromolecules , 2010, 43 , 473 CrossRef CAS .
+ ###### 
+From cou.: 209 S. Kawano, D. Kobayashi, S. Taguchi and M. Kunitake, Macromolecules, 2010, 43, 473 CrossRef CAS .
+From Soup: 209 T. F. Juliano, A. M. Forster, P. L. Drzal, T. Weerasooriya, P. Moy and M. R. VanLandingham, J. Mater. Res. , 2006, 21 , 2084 CrossRef CAS .
+ ###### 
+From cou.: 210 T. F. Juliano, A. M. Forster, P. L. Drzal, T. Weerasooriya, P. Moy and M. R. VanLandingham, J. Mater. Res., 2006, 21, 2084 CrossRef CAS .
+From Soup: 210 P. Sens, C. M. Marques and J.-F. Joanny, Macromolecules , 1996, 29 , 4880 CrossRef CAS .
+ ###### 
+From cou.: 211 P. Sens, C. M. Marques and J.-F. Joanny, Macromolecules, 1996, 29, 4880 CrossRef CAS .
+From Soup: 211 D. F. K. Shim, C. Marques and M. E. Cates, Macromolecules , 1991, 24 , 5309 CrossRef CAS .
+ ###### 
+From cou.: 212 D. F. K. Shim, C. Marques and M. E. Cates, Macromolecules, 1991, 24, 5309 CrossRef CAS .
+From Soup: 212 N. Jain, K. Contractor and P. Bahadur, J. Surf. Sci. Technol. , 1997, 13 , 89 CAS .
+ ###### 
+From cou.: 213 N. Jain, K. Contractor and P. Bahadur, J. Surf. Sci. Technol., 1997, 13, 89 CAS .
+From Soup: 213 C. Chaibundit, N. M. P. S. Ricardo, F. de M. L. L. Costa, C. G. Yeates and C. Booth, Langmuir , 2007, 23 , 9229 CrossRef CAS .
+ ###### 
+From cou.: 214 C. Chaibundit, N. M. P. S. Ricardo, F. de M. L. L. Costa, C. G. Yeates and C. Booth, Langmuir, 2007, 23, 9229 CrossRef CAS .
+From Soup: 214 A. L. Borovinskii and A. R. Khokhlov, Macromolecules , 1998, 31 , 7636 CrossRef CAS .
+ ###### 
+From cou.: 215 A. L. Borovinskii and A. R. Khokhlov, Macromolecules, 1998, 31, 7636 CrossRef CAS .
+From Soup: 215 A. L. Borovinskii and A. R. Khokhlov, Macromolecules , 1998, 31 , 1180 CrossRef CAS .
+ ###### 
+From cou.: 216 A. L. Borovinskii and A. R. Khokhlov, Macromolecules, 1998, 31, 1180 CrossRef CAS .
+From Soup: 216 F. J. Esselink, E. E. Dormidontova and G. Hadziioannou, Macromolecules , 1998, 31 , 4873 CrossRef CAS .
+ ###### 
+From cou.: 217 F. J. Esselink, E. E. Dormidontova and G. Hadziioannou, Macromolecules, 1998, 31, 4873 CrossRef CAS .
+From Soup: 217 C. Honda, Y. Hasegawa, R. Hirunuma and T. Nose, Macromolecules , 1994, 27 , 7660 CrossRef CAS .
+ ###### 
+From cou.: 218 C. Honda, Y. Hasegawa, R. Hirunuma and T. Nose, Macromolecules, 1994, 27, 7660 CrossRef CAS .
+From Soup: 218 C. Honda, K. Yamamoto and T. Nose, Polymer , 1996, 37 , 1975 CrossRef CAS .
+ ###### 
+From cou.: 219 C. Honda, K. Yamamoto and T. Nose, Polymer, 1996, 37, 1975 CrossRef CAS .
+From Soup: 219 C. Koňák and M. Helmstedt, Macromolecules , 2001, 34 , 6131 CrossRef .
+ ###### 
+From cou.: 220 C. Koňák and M. Helmstedt, Macromolecules, 2001, 34, 6131 CrossRef .
+From Soup: 220 Z. Yang, Y.-W. Yang, Z.-K. Zhou, D. Attwood and C. Booth, J. Chem. Soc., Faraday Trans. , 1996, 92 , 257 RSC .
+ ###### 
+From cou.: 221 Z. Yang, Y.-W. Yang, Z.-K. Zhou, D. Attwood and C. Booth, J. Chem. Soc., Faraday Trans., 1996, 92, 257 RSC .
+From Soup: 221 D. Zhou, P. Alexandris and A. Khan, J. Colloid Interface Sci. , 1996, 183 , 339 CrossRef CAS .
+ ###### 
+From cou.: 222 D. Zhou, P. Alexandris and A. Khan, J. Colloid Interface Sci., 1996, 183, 339 CrossRef CAS .
+From Soup: 222 S. Gaisford, A. E. Beezer and J. C. Mitchell, Langmuir , 1997, 13 , 2606 CrossRef CAS .
+ ###### 
+From cou.: 223 S. Gaisford, A. E. Beezer and J. C. Mitchell, Langmuir, 1997, 13, 2606 CrossRef CAS .
+From Soup: 223 G. E. Newby, I. W. Hamley, S. M. King, C. M. Martin and N. J. Terrill, J. Colloid Interface Sci. , 2009, 329 , 54 CrossRef CAS .
+ ###### 
+From cou.: 224 G. E. Newby, I. W. Hamley, S. M. King, C. M. Martin and N. J. Terrill, J. Colloid Interface Sci., 2009, 329, 54 CrossRef CAS .
+From Soup: 224 A. Halperin, Macromolecules , 1987, 20 , 2943 CrossRef CAS .
+ ###### 
+From cou.: 225 A. Halperin, Macromolecules, 1987, 20, 2943 CrossRef CAS .
+From Soup: 225 Y. R. Sliozberg, J. W. Andzelm, J. K. Brennan, M. R. VanLandingham, V. Pryamitsyn and V. Ganesan, J. Polym. Sci., Part B: Polym. Phys. , 2010, 48 , 15 CrossRef CAS .
+ ###### 
+From cou.: 226 Y. R. Sliozberg, J. W. Andzelm, J. K. Brennan, M. R. VanLandingham, V. Pryamitsyn and V. Ganesan, J. Polym. Sci., Part B: Polym. Phys., 2010, 48, 15 CrossRef CAS .
+From Soup: 226 R. E. Bras and K. R. Shull, Macromolecules , 2009, 42 , 8513 CrossRef CAS .
+ ###### 
+From cou.: 227 R. E. Bras and K. R. Shull, Macromolecules, 2009, 42, 8513 CrossRef CAS .
+From Soup: 227 R. D. Groot and P. B. Warren, J. Chem. Phys. , 1997, 107 , 4423 CrossRef CAS .
+ ###### 
+From cou.: 228 R. D. Groot and P. B. Warren, J. Chem. Phys., 1997, 107, 4423 CrossRef CAS .
+From Soup: 228 R. D. Groot and T. J. Madden, J. Chem. Phys. , 1998, 108 , 8713 CrossRef CAS .
+ ###### 
+From cou.: 229 R. D. Groot and T. J. Madden, J. Chem. Phys., 1998, 108, 8713 CrossRef CAS .
+From Soup: 229 X. Cao, G. Xu, Y. Li and Z. Zhang, J. Phys. Chem. A , 2005, 109 , 10418 CrossRef CAS .
+ ###### 
+From cou.: 230 X. Cao, G. Xu, Y. Li and Z. Zhang, J. Phys. Chem. A, 2005, 109, 10418 CrossRef CAS .
+From Soup: 230 C. Soto-Figueroa, M. R. Rodríguez-Hidalgo and J. M. Martínez-Magadán, Polymer , 2005, 46 , 7485 CrossRef CAS .
+ ###### 
+From cou.: 231 C. Soto-Figueroa, M. R. Rodríguez-Hidalgo and J. M. Martínez-Magadán, Polymer, 2005, 46, 7485 CrossRef CAS .
+From Soup: 231 C. Soto-Figueroa, L. Vicente, J. M. Martínez-Magadán and M. R. Rodríguez-Hidalgo, Polymer , 2007, 48 , 3902 CrossRef CAS .
+ ###### 
+From cou.: 232 C. Soto-Figueroa, L. Vicente, J. M. Martínez-Magadán and M. R. Rodríguez-Hidalgo, Polymer, 2007, 48, 3902 CrossRef CAS .
+From Soup: 232 X. Li, J. Guo, Y. Liu and H. Liang, J. Chem. Phys. , 2009, 130 , 074908 CrossRef .
+ ###### 
+From cou.: 233 X. Li, J. Guo, Y. Liu and H. Liang, J. Chem. Phys., 2009, 130, 074908 CrossRef .
+From Soup: 233 P. Petrus, M. Lísal and J. K. Brennan, Langmuir , 2010, 26 , 14680 CrossRef CAS .
+ ###### 
+From cou.: 234 P. Petrus, M. Lísal and J. K. Brennan, Langmuir, 2010, 26, 14680 CrossRef CAS .
+From Soup: 234 P. J. Hoogerbrugge and J. M. V. A. Koelman, Europhys. Lett. , 1992, 19 , 155 CrossRef .
+ ###### 
+From cou.: 235 P. J. Hoogerbrugge and J. M. V. A. Koelman, Europhys. Lett., 1992, 19, 155 CrossRef .
+From Soup: 235 J. M. V. A. Koelman and P. J. Hoogerbrugge, Europhys. Lett. , 1993, 21 , 363 CrossRef CAS .
+ ###### 
+From cou.: 236 J. M. V. A. Koelman and P. J. Hoogerbrugge, Europhys. Lett., 1993, 21, 363 CrossRef CAS .
+From Soup: 236 P. Español and P. B. Warren, Europhys. Lett. , 1995, 30 , 191 CrossRef .
+ ###### 
+From cou.: 237 P. Español and P. B. Warren, Europhys. Lett., 1995, 30, 191 CrossRef .
+From Soup: 237 C. M. Wijmans, E. Eiser and D. Frenkel, J. Chem. Phys. , 2004, 120 , 5839 CrossRef CAS .
+ ###### 
+From cou.: 238 C. M. Wijmans, E. Eiser and D. Frenkel, J. Chem. Phys., 2004, 120, 5839 CrossRef CAS .
+From Soup: 238 S. Amelar, C. E. Eastman, R. L. Morris, M. A. Smeltzly, T. P. Lodge and E. D. Von Meerwall, Macromolecules , 1991, 24 , 3505 CrossRef CAS .
+ ###### 
+From cou.: 239 S. Amelar, C. E. Eastman, R. L. Morris, M. A. Smeltzly, T. P. Lodge and E. D. Von Meerwall, Macromolecules, 1991, 24, 3505 CrossRef CAS .
+From Soup: 239 Y. Ding and A. P. Sokolov, J. Polym. Sci., Part B: Polym. Phys. , 2004, 42 , 3505 CrossRef CAS .
+ ###### 
+From cou.: 240 Y. Ding and A. P. Sokolov, J. Polym. Sci., Part B: Polym. Phys., 2004, 42, 3505 CrossRef CAS .
+From Soup: 240 P. T. Underhill and P. S. Doyle, J. Non-Newtonian Fluid Mech. , 2004, 122 , 3 CrossRef CAS .
+ ###### 
+From cou.: 241 P. T. Underhill and P. S. Doyle, J. Non-Newtonian Fluid Mech., 2004, 122, 3 CrossRef CAS .
+From Soup: 241 R. D. Groot and K. L. Rabone, Biophys. J. , 2001, 81 , 725 CrossRef CAS .
+ ###### 
+From cou.: 242 R. D. Groot and K. L. Rabone, Biophys. J., 2001, 81, 725 CrossRef CAS .
+From Soup: 242 R. M. Füchslin, H. Fellermann, A. Eriksson and H.-J. Ziock, J. Chem. Phys. , 2009, 130 , 214102 CrossRef .
+ ###### 
+From cou.: 243 R. M. Füchslin, H. Fellermann, A. Eriksson and H.-J. Ziock, J. Chem. Phys., 2009, 130, 214102 CrossRef .
+From Soup: 243 Q. Zhang, O. K. C. Tsui, B. Du, F. Zhang, T. Tang and T. He, Macromolecules , 2000, 33 , 9561 CrossRef CAS .
+ ###### 
+From cou.: 244 Q. Zhang, O. K. C. Tsui, B. Du, F. Zhang, T. Tang and T. He, Macromolecules, 2000, 33, 9561 CrossRef CAS .
+From Soup: 244 Y. Liu, M. Li, R. Bansil and M. Steinhart, Macromolecules , 2007, 40 , 9482 CrossRef CAS .
+ ###### 
+From cou.: 245 Y. Liu, M. Li, R. Bansil and M. Steinhart, Macromolecules, 2007, 40, 9482 CrossRef CAS .
+From Soup: 245 Polymer Handbook , ed. J. Bandrup, E. H. Immergut and E. A. Grulke, Wiley-Interscience, New York, 4th edn, 1999 Search PubMed .
+ ###### 
+From cou.: 246 Polymer Handbook, ed. J. Bandrup, E. H. Immergut and E. A. Grulke, Wiley-Interscience, New York, 4th edn, 1999 Search PubMed .
+From Soup: 246 P. J. Flory, J. Chem. Phys. , 1942, 10 , 51 CrossRef CAS .
+ ###### 
+From cou.: 247 P. J. Flory, J. Chem. Phys., 1942, 10, 51 CrossRef CAS .
+From Soup: 247 M. Venturoli, B. Smit and M. M. Sperotto, Biophys. J. , 2005, 88 , 1778 CrossRef CAS .
+ ###### 
+From cou.: 248 M. Venturoli, B. Smit and M. M. Sperotto, Biophys. J., 2005, 88, 1778 CrossRef CAS .
+From Soup: 248 F. J. Esselink, E. E. Dormidontova and G. Hadziioannou, Macromolecules , 1998, 31 , 2925 CrossRef CAS .
+ ###### 
+From cou.: 249 F. J. Esselink, E. E. Dormidontova and G. Hadziioannou, Macromolecules, 1998, 31, 2925 CrossRef CAS .
+From Soup: 249 T. Dürrschmidt and H. Hoffmann, Colloid Polym. Sci. , 2001, 279 , 1005 Search PubMed .
+ ###### 
+From cou.: 250 T. Dürrschmidt and H. Hoffmann, Colloid Polym. Sci., 2001, 279, 1005 Search PubMed .
+From Soup: 250 Z. Li and E. E. Dormidontova, Macromolecules , 2010, 43 , 3521 CrossRef CAS .
+ ###### 
+From cou.: 251 Z. Li and E. E. Dormidontova, Macromolecules, 2010, 43, 3521 CrossRef CAS .
+From Soup: 251 A. Halperin and S. Alexander, Macromolecules , 1989, 22 , 2403 CrossRef CAS .
+ ###### 
+From cou.: 252 A. Halperin and S. Alexander, Macromolecules, 1989, 22, 2403 CrossRef CAS .
+From Soup: 252 Y.-Y. Won, H. D. Davis and F. S. Bates, Macromolecules , 2003, 36 , 953 CrossRef CAS .
+ ###### 
+From cou.: 253 Y.-Y. Won, H. D. Davis and F. S. Bates, Macromolecules, 2003, 36, 953 CrossRef CAS .
+From Soup: 253 D. Bedrov, G. Smith and J. F. Douglas, Polymer , 2004, 45 , 3961 CrossRef CAS .
+ ###### 
+From cou.: 254 D. Bedrov, G. Smith and J. F. Douglas, Polymer, 2004, 45, 3961 CrossRef CAS .
+From Soup: 254 L. Guo and E. Luijten, J. Polym. Sci., Part B: Polym. Phys. , 2005, 43 , 959 CrossRef CAS .
+ ###### 
+From cou.: 255 L. Guo and E. Luijten, J. Polym. Sci., Part B: Polym. Phys., 2005, 43, 959 CrossRef CAS .
+From Soup: 255 M. E. Seitz, W. R. Burghardt, K. T. Faber and K. R. Shull, Macromolecules , 2007, 40 , 1218 CrossRef CAS .
+ ###### 
+From cou.: 256 M. E. Seitz, W. R. Burghardt, K. T. Faber and K. R. Shull, Macromolecules, 2007, 40, 1218 CrossRef CAS .
+From Soup: 256 Viscoelastic Properties of Polymers , ed. J. D. Ferry, Wiley, New York, 3rd edn, 1980 Search PubMed .
+ ###### 
+From cou.: 257 Viscoelastic Properties of Polymers, ed. J. D. Ferry, Wiley, New York, 3rd edn, 1980 Search PubMed .
+From Soup: 257 R. J. Spontak, E. A. Wilder and S. D. Smith, Langmuir , 2001, 17 , 2294 CrossRef CAS .
+ ###### 
+From cou.: 258 R. J. Spontak, E. A. Wilder and S. D. Smith, Langmuir, 2001, 17, 2294 CrossRef CAS .

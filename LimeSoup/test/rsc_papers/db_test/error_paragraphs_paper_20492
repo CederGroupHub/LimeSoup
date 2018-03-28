@@ -1,0 +1,635 @@
+From cou.: 0 Journal
+From Soup: 0 Phys. Chem. Chem. Phys.
+ ###### 
+From cou.: 1 Molecular features contributing to the lower viscosity of phosphonium based ionic liquids (ILs) compared to ammonium based ILs are investigated by static quantum chemistry calculations and classical molecular dynamics simulations. The larger bond distance and the higher flexibility of bond angles and dihedral angles in the phosphonium compounds tend to reduce their viscosity compared to ammonium analogues, while the strongly localized charge at the central atom has the opposite effect. Fast translational ion dynamics is also found to be related to a short counter-ion association lifetime in the investigated compounds. Furthermore, a weak structuring between the center of charges also seems to increase mobility. Interestingly, the order of ion pair interaction energies in the gas phase is reversed compared to the order of counter-ion association lifetimes in the liquid, which highlights the important role of solvation in ILs. Overall, the higher flexibility of the bond and dihedral angles of the phosphonium compounds appears to be the most important factor in producing the lower viscosity of these ILs compared to their ammonium analogues.
+From Soup: 1 Molecular features contributing to the lower viscosity of phosphonium based ionic liquids (ILs) compared to ammonium based ILs are investigated by static quantum chemistry calculations and classical molecular dynamics simulations. The larger bond distance and the higher flexibility of bond angles and dihedral angles in the phosphonium compounds tend to reduce their viscosity compared to ammonium analogues, while the strongly localized charge at the central atom has the opposite effect. Fast translational ion dynamics is also found to be related to a short counter-ion association lifetime in the investigated compounds. Furthermore, a weak structuring between the center of charges also seems to increase mobility. Interestingly, the order of ion pair interaction energies in the gas phase is reversed compared to the order of counter-ion association lifetimes in the liquid, which highlights the important role of solvation in ILs. Overall, the higher flexibility of the bond and dihedral angles of the phosphonium compounds appears to be the most important factor in producing the lower viscosity of these ILs compared to their ammonium analogues.
+ ###### 
+From cou.: 2 Ionic liquids offer high-potential solutions to an amazingly broad range of applications. The large number of cations and anions which can be combined to form a low melting salt suggests the feasibility to design a required liquid for a wide range of tasks. The variety of possible ionic liquids even outnumbers traditional solvents in chemistry.1,2 The history of ionic liquids goes back nearly one hundred years. As early as 1914, Paul Walden reported the first systematic study of ionic liquids.3 However, their scope was barely recognized until the development of air and water stable imidazolium-based ionic liquids in 1992.4 Since then, the interest in these compounds has increased greatly, leading to many applications of these compounds in science and industry.1,2,5–14
+From Soup: 2 Ionic liquids offer high-potential solutions to an amazingly broad range of applications. The large number of cations and anions which can be combined to form a low melting salt suggests the feasibility to design a required liquid for a wide range of tasks. The variety of possible ionic liquids even outnumbers traditional solvents in chemistry. 1,2 The history of ionic liquids goes back nearly one hundred years. As early as 1914, Paul Walden reported the first systematic study of ionic liquids. 3 However, their scope was barely recognized until the development of air and water stable imidazolium-based ionic liquids in 1992. 4 Since then, the interest in these compounds has increased greatly, leading to many applications of these compounds in science and industry. 1,2,5–14
+ ###### 
+From cou.: 3 Computational methods have proven to be a powerful tool to investigate ionic liquids (ILs) at the molecular scale.15–22 Observed macroscopic properties can be assigned to functional parts of a molecule which facilitates a more task-related design of new compounds. One focus of computational investigations is the characterization of molecular features contributing to a low viscosity or a low melting point. A low melting point increases the usable temperature range of the liquid, while a high viscosity limits the usage of ILs as electrolytes. Asymmetrical ions are recognized as one molecular feature for a low melting point.2,6,23–30 Furthermore, ion size disparity and charge distribution are identified as important molecular properties influencing melting point and transport properties of ILs.6,29,31–33 Induction forces also tend to fluidize ILs.34–36 Recent studies have shown that dispersion forces play an unexpectedly important role.35–37 Additionally, functional parts of the molecule, such as hydrogen bonds23,36,38–43 or alkyl chain length,6,23,29 may contribute to a low melting point or low viscosity.
+From Soup: 3 Computational methods have proven to be a powerful tool to investigate ionic liquids (ILs) at the molecular scale. 15–22 Observed macroscopic properties can be assigned to functional parts of a molecule which facilitates a more task-related design of new compounds. One focus of computational investigations is the characterization of molecular features contributing to a low viscosity or a low melting point. A low melting point increases the usable temperature range of the liquid, while a high viscosity limits the usage of ILs as electrolytes. Asymmetrical ions are recognized as one molecular feature for a low melting point. 2,6,23–30 Furthermore, ion size disparity and charge distribution are identified as important molecular properties influencing melting point and transport properties of ILs. 6,29,31–33 Induction forces also tend to fluidize ILs. 34–36 Recent studies have shown that dispersion forces play an unexpectedly important role. 35–37 Additionally, functional parts of the molecule, such as hydrogen bonds 23,36,38–43 or alkyl chain length, 6,23,29 may contribute to a low melting point or low viscosity.
+ ###### 
+From cou.: 4 The ILs of Gabriel44 in 1888 and of Walden3 in 1914 were based on ammonium cations. Since then numerous ammonium based ILs have been reported.25,27,45–48 In recent years, phosphonium based ILs have become an intensely investigated subgroup of ILs.49–57 One superior property of phosphonium based ILs compared to ammonium analogues is their improved stability.53,58–60 Additionally, phosphonium based ionic liquids typically have a lower viscosity compared to their ammonium analogues,57,59–66 see Table 1 for selected examples. As a result of the lower viscosity, phosphonium based ILs typically have an enhanced conductivity compared to their ammonium analogues.53,59–61,63 However, the origins of these important differences are not well understood and the objective of our multi-group collaboration is to use computational techniques to shed some light on these origins.
+From Soup: 4 The ILs of Gabriel 44 in 1888 and of Walden 3 in 1914 were based on ammonium cations. Since then numerous ammonium based ILs have been reported. 25,27,45–48 In recent years, phosphonium based ILs have become an intensely investigated subgroup of ILs. 49–57 One superior property of phosphonium based ILs compared to ammonium analogues is their improved stability. 53,58–60 Additionally, phosphonium based ionic liquids typically have a lower viscosity compared to their ammonium analogues, 57,59–66 see Table 1 for selected examples. As a result of the lower viscosity, phosphonium based ILs typically have an enhanced conductivity compared to their ammonium analogues. 53,59–61,63 However, the origins of these important differences are not well understood and the objective of our multi-group collaboration is to use computational techniques to shed some light on these origins.
+ ###### 
+From cou.: 5 Thus, in the present study, we investigate three molecular features which may contribute to the lower viscosity of phosphonium compared to ammonium based ILs. These molecular features are: the size of the phosphorous atom, the charge distribution, and the flexibility of bond and dihedral angles. Static quantum chemistry approaches are employed to highlight differences between the molecular components of two analogues. Subsequently, classical molecular dynamics simulations of model systems were carried out in which a single molecular feature (e.g. the charge distribution) is altered to that of the analogous compound. The comparison of the simulations with the model system to the simulations with the original force field allowed us to study the influence of all investigated molecular features independent from each other.
+From Soup: 5 Thus, in the present study, we investigate three molecular features which may contribute to the lower viscosity of phosphonium compared to ammonium based ILs. These molecular features are: the size of the phosphorous atom, the charge distribution, and the flexibility of bond and dihedral angles. Static quantum chemistry approaches are employed to highlight differences between the molecular components of two analogues. Subsequently, classical molecular dynamics simulations of model systems were carried out in which a single molecular feature ( e.g. the charge distribution) is altered to that of the analogous compound. The comparison of the simulations with the model system to the simulations with the original force field allowed us to study the influence of all investigated molecular features independent from each other.
+ ###### 
+From cou.: 6 The programs provided by the ORCA67 suite were applied for structure optimization and potential energy surface scans for which the TPSS-D368–70 functional, in combination with the 6-31++G** basis set,71,72 was employed. Several studies have shown that Kohn–Sham density functional theory calculations, with an empirical dispersion correction, produce reliable results.73–78 Additionally, a recent study highlighted that TPSS-D3 in combination with the 6-31++G** basis set produces results which can be improved only marginally by post Hartree–Fock methods in combination with large basis sets and a counter poise correction.78 Single point calculations on the optimized structures were carried out with TURBOMOLE79 to calculate natural population analysis partial charges80 and shared electron number partial charges.81 For these calculations, the TPSS68 functional in combination with the 6-31++G** basis set71,72 was employed. The resolution of identity approximation was employed in all density functional theory based calculations.82–84 Additionally, the convergence criterion of the iteration cycle was increased to 10−8 Hartree in all calculations. The Hartree–Fock method in combination with the 6-31++G** basis set71,72 was used to obtain the wave function which was employed for the calculation of the partial charges with the restrained electrostatic potential method85 (RESP).
+From Soup: 6 The programs provided by the ORCA 67 suite were applied for structure optimization and potential energy surface scans for which the TPSS-D3 68–70 functional, in combination with the 6-31++G** basis set, 71,72 was employed. Several studies have shown that Kohn–Sham density functional theory calculations, with an empirical dispersion correction, produce reliable results. 73–78 Additionally, a recent study highlighted that TPSS-D3 in combination with the 6-31++G** basis set produces results which can be improved only marginally by post Hartree–Fock methods in combination with large basis sets and a counter poise correction. 78 Single point calculations on the optimized structures were carried out with T URBOMOLE 79 to calculate natural population analysis partial charges 80 and shared electron number partial charges. 81 For these calculations, the TPSS 68 functional in combination with the 6-31++G** basis set 71,72 was employed. The resolution of identity approximation was employed in all density functional theory based calculations. 82–84 Additionally, the convergence criterion of the iteration cycle was increased to 10 −8 Hartree in all calculations. The Hartree–Fock method in combination with the 6-31++G** basis set 71,72 was used to obtain the wave function which was employed for the calculation of the partial charges with the restrained electrostatic potential method 85 (RESP).
+ ###### 
+From cou.: 7 LAMMPS86 was employed for all classical molecular dynamics simulations. A recent study of Gabl, Schröder and Steinhauser has shown that a simulation box including 50 ion pairs is sufficient for a correct structure, but at least 500 ion pairs are needed to obtain correct dynamics of the investigated systems.87 Furthermore, consistent dynamical properties require a simulation time of 20–30 ns. Therefore, all simulated systems in our study consisted of a cubic box enclosing 512 ion pairs and the simulation run time was 25 ns. The time step was set to 1 fs in the production run and data points were collected for the analyzed trajectories every 5 ps. The box length of each NVT simulation was determined by NPT simulations of 2 ns run time. All simulations were initially equilibrated for 1 ns at 600 K followed by an equilibration run at 450 K for at least 5 ns. All box lengths are given in Table 3. The temperature was kept constant by a Nosé–Hoover chain thermostat88–90 in all simulations (T = 450 K, τ = 100 fs). A simulation temperature of 450 K was selected to obtain diffusion coefficients outside the subdiffuse regime which is indicated by a structural parameter β close to 1.0. β can be obtained by following relation:91where t is the time and 〈Δr(t)2〉 is the expectation value of the mean square displacement.
+From Soup: 7 L AMMPS 86 was employed for all classical molecular dynamics simulations. A recent study of Gabl, Schröder and Steinhauser has shown that a simulation box including 50 ion pairs is sufficient for a correct structure, but at least 500 ion pairs are needed to obtain correct dynamics of the investigated systems. 87 Furthermore, consistent dynamical properties require a simulation time of 20–30 ns. Therefore, all simulated systems in our study consisted of a cubic box enclosing 512 ion pairs and the simulation run time was 25 ns. The time step was set to 1 fs in the production run and data points were collected for the analyzed trajectories every 5 ps. The box length of each NVT simulation was determined by NPT simulations of 2 ns run time. All simulations were initially equilibrated for 1 ns at 600 K followed by an equilibration run at 450 K for at least 5 ns. All box lengths are given in Table 3 . The temperature was kept constant by a Nosé–Hoover chain thermostat 88–90 in all simulations ( T = 450 K, τ = 100 fs). A simulation temperature of 450 K was selected to obtain diffusion coefficients outside the subdiffuse regime which is indicated by a structural parameter β close to 1.0. β can be obtained by following relation: 91 where t is the time and 〈Δ r ( t ) 2 〉 is the expectation value of the mean square displacement.
+ ###### 
+From cou.: 8 All C–H bonds were constrained by the SHAKE algorithm92 during the simulations. Lennard-Jones and Coulombic interactions were computed up to a cutoff radius of 1200 pm. Coulombic interaction energies beyond the cutoff were computed via the particle–particle particle–mesh solver.93 All trajectories were analyzed with TRAVIS.94
+From Soup: 8 All C–H bonds were constrained by the SHAKE algorithm 92 during the simulations. Lennard-Jones and Coulombic interactions were computed up to a cutoff radius of 1200 pm. Coulombic interaction energies beyond the cutoff were computed via the particle–particle particle–mesh solver. 93 All trajectories were analyzed with TRAVIS. 94
+ ###### 
+From cou.: 9 All force field parameters of monooctyl-triethylammonium chloride ([N2228][Cl]) and of monooctyl-triethylphosphonium chloride ([P2228][Cl]) except dihedral potentials were taken from the OPLS-AA/AMBER all-atom force field developed for ionic liquids by Canongia Lopes et al.95–99 which has the following form:
+From Soup: 9 All force field parameters of monooctyl-triethylammonium chloride ([N 2228 ][Cl]) and of monooctyl-triethylphosphonium chloride ([P 2228 ][Cl]) except dihedral potentials were taken from the OPLS-AA/AMBER all-atom force field developed for ionic liquids by Canongia Lopes et al. 95–99 which has the following form:
+ ###### 
+From cou.: 10 k
+From Soup: 10 k
+ ###### 
+From cou.: 11 b
+From Soup: 11 b
+ ###### 
+From cou.: 12 k
+From Soup: 12 k
+ ###### 
+From cou.: 13 a
+From Soup: 13 a
+ ###### 
+From cou.: 14 K
+From Soup: 14 K
+ ###### 
+From cou.: 15 m
+From Soup: 15 m , d
+ ###### 
+From cou.: 16 d
+From Soup: 16 r
+ ###### 
+From cou.: 17 r
+From Soup: 17 b
+ ###### 
+From cou.: 18 b
+From Soup: 18 θ
+ ###### 
+From cou.: 19 θ
+From Soup: 19 a
+ ###### 
+From cou.: 20 a
+From Soup: 20 ϕ
+ ###### 
+From cou.: 21 ϕ
+From Soup: 21 d
+ ###### 
+From cou.: 22 d
+From Soup: 22 r
+ ###### 
+From cou.: 23 r
+From Soup: 23 0, b
+ ###### 
+From cou.: 24 b
+From Soup: 24 θ
+ ###### 
+From cou.: 25 θ
+From Soup: 25 0, a
+ ###### 
+From cou.: 26 a
+From Soup: 26 ε
+ ###### 
+From cou.: 27 ε
+From Soup: 27 ij
+ ###### 
+From cou.: 28 ij
+From Soup: 28 σ
+ ###### 
+From cou.: 29 σ
+From Soup: 29 ij
+ ###### 
+From cou.: 30 ij
+From Soup: 30 ε
+ ###### 
+From cou.: 31 ε
+From Soup: 31 ij
+ ###### 
+From cou.: 32 ij
+From Soup: 32 σ
+ ###### 
+From cou.: 33 σ
+From Soup: 33 ij
+ ###### 
+From cou.: 34 ij
+From Soup: 34 r
+ ###### 
+From cou.: 35 r
+From Soup: 35 ij
+ ###### 
+From cou.: 36 ij
+From Soup: 36 q
+ ###### 
+From cou.: 37 q
+From Soup: 37 i
+ ###### 
+From cou.: 38 i
+From Soup: 38 q
+ ###### 
+From cou.: 39 q
+From Soup: 39 j
+ ###### 
+From cou.: 40 j
+From Soup: 40 ε
+ ###### 
+From cou.: 41 ε
+From Soup: 41 0
+ ###### 
+From cou.: 42 96
+From Soup: 42 96
+ ###### 
+From cou.: 43 K
+From Soup: 43 K
+ ###### 
+From cou.: 44 m
+From Soup: 44 m , d
+ ###### 
+From cou.: 45 d
+From Soup: 45 96
+ ###### 
+From cou.: 46 96
+From Soup: 46 K
+ ###### 
+From cou.: 47 K
+From Soup: 47 m , d
+ ###### 
+From cou.: 48 m
+From Soup: 48 et al.
+ ###### 
+From cou.: 49 d
+From Soup: 49 1. A potential energy surface (PES ff,fit ) was calculated with the fitted parameters K m , d (initial parameter 0 kJ mol −1 ). This was done by simulated annealing from 600 K to 0 K of one isolated ion. The desired angle was constrained by addition of a steep harmonic term during the molecular dynamics simulations.
+ ###### 
+From cou.: 50 et al.
+From Soup: 50 2. Structures obtained by the force field calculations of step 1 were taken as an initial guess for TPSS-D3(RI)/6-31++G** structure optimization calculations in which the investigated dihedral angle was fixed. These calculations served to provide a reference potential energy surface (PES ref,fit ).
+ ###### 
+From cou.: 51 1. A potential energy surface (PESff,fit) was calculated with the fitted parameters Km,d (initial parameter 0 kJ mol−1). This was done by simulated annealing from 600 K to 0 K of one isolated ion. The desired angle was constrained by addition of a steep harmonic term during the molecular dynamics simulations.
+From Soup: 51 3. The difference between PES ff,fit and PES ref,fit (ΔPES) was calculated for each reference point. In total 19 data points (10° steps) were compared. If the maximum error of all data points was not improved during the last two iteration cycles, the iteration cycle stopped. Otherwise, ΔPES was employed to obtain refined force constants K m , d and the iteration cycle starts at 1 again.
+ ###### 
+From cou.: 52 2. Structures obtained by the force field calculations of step 1 were taken as an initial guess for TPSS-D3(RI)/6-31++G** structure optimization calculations in which the investigated dihedral angle was fixed. These calculations served to provide a reference potential energy surface (PESref,fit).
+From Soup: 52 We used TPSS-D3(RI)/6-31++G** instead of MP2 calculations as reference method because a recent study has shown that MP2 in combination with a cc-pVTZ basis set without a counter poise correction is less reliable than the TPSS-D3(RI)/6-31++G** ansatz for ionic liquids. 78 All determined force constants K m , d are listed in Table 2 . Additionally, a comparison of the finally obtained dihedral potential energy surface of the force field and the TPSS-D3(RI)/6-31++G** potential energy surface is given in the ESI. †
+ ###### 
+From cou.: 53 3. The difference between PESff,fit and PESref,fit (ΔPES) was calculated for each reference point. In total 19 data points (10° steps) were compared. If the maximum error of all data points was not improved during the last two iteration cycles, the iteration cycle stopped. Otherwise, ΔPES was employed to obtain refined force constants Km,d and the iteration cycle starts at 1 again.
+From Soup: 53 Simulations with the force field of monooctyl-triethylammonium chloride ([N 2228 ][Cl]) use the abbreviation N-org while simulations with the force field of monooctyl-triethylphosphonium chloride ([P 2228 ][Cl]) use the abbreviation P-org where the abbreviation “org” stands for original. We would like to highlight that our aim is only to obtain a suitable force field model for our studies which is as close as possible to the well established force field of Canongia Lopes and Pádua 95–99 and facilitates an easy generation of suited model systems. In the following, our force field will be used to set up model systems in which force field parameters related to central atom size ( N-size and P-size ), charge distribution ( N-ch and P-ch ), or bond angles and dihedral angles ( N-ang and P-ang ) are taken from the analogues compound.
+ ###### 
+From cou.: 54 We used TPSS-D3(RI)/6-31++G** instead of MP2 calculations as reference method because a recent study has shown that MP2 in combination with a cc-pVTZ basis set without a counter poise correction is less reliable than the TPSS-D3(RI)/6-31++G** ansatz for ionic liquids.78 All determined force constants Km,d are listed in Table 2. Additionally, a comparison of the finally obtained dihedral potential energy surface of the force field and the TPSS-D3(RI)/6-31++G** potential energy surface is given in the ESI.†
+From Soup: 54 The following three molecular features will be discussed which may contribute to the decreased viscosity of phosphonium based ILs, compared to their ammonium based analogues:
+ ###### 
+From cou.: 55 Simulations with the force field of monooctyl-triethylammonium chloride ([N2228][Cl]) use the abbreviation N-org while simulations with the force field of monooctyl-triethylphosphonium chloride ([P2228][Cl]) use the abbreviation P-org where the abbreviation “org” stands for original. We would like to highlight that our aim is only to obtain a suitable force field model for our studies which is as close as possible to the well established force field of Canongia Lopes and Pádua95–99 and facilitates an easy generation of suited model systems. In the following, our force field will be used to set up model systems in which force field parameters related to central atom size (N-size and P-size), charge distribution (N-ch and P-ch), or bond angles and dihedral angles (N-ang and P-ang) are taken from the analogues compound.
+From Soup: 55 1. size of the central atom
+ ###### 
+From cou.: 56 The following three molecular features will be discussed which may contribute to the decreased viscosity of phosphonium based ILs, compared to their ammonium based analogues:
+From Soup: 56 2. charge distribution
+ ###### 
+From cou.: 57 1. size of the central atom
+From Soup: 57 3. flexibility of bond angles and dihedral angles
+ ###### 
+From cou.: 58 2. charge distribution
+From Soup: 58 These molecular features will be investigated in different calculations as detailed below. Additionally, indications for a stronger charge transfer between cation and anion were observed for tetraalkylammonium based ILs compared to phosphonium analogues. 100 However, this was only observed for tetraalkyl compounds with short alkyl chains and basic anions. Several studies have already shown that charge transfer results in a faster ion dynamics. 101–106 Thus, charge transfer can be excluded as a cause for the lower viscosity of the phosphonium compounds, because the stronger charge transfer is observed in the ammonium compounds. Furthermore, differences in polarizability might affect dynamical properties. As shown by Voth et al. , polarizability can enhance dynamical properties of ILs. 34 Thus, the stronger polarizability of the phosphonium compound might slightly contribute to the lower viscosity of the phosphonium ILs.
+ ###### 
+From cou.: 59 3. flexibility of bond angles and dihedral angles
+From Soup: 59 Before the influence of different molecular features on the viscosity will be discussed, selected similarities and differences of monooctyl-triethylammonium chloride ([N 2228 ][Cl]; force field: N-org ) and of monooctyl-triethylphosphonium chloride ([P 2228 ][Cl]; force field: P-org ) will be discussed. Unfortunately, the calculation of the viscosity by the Green–Kubo relation is prone to numerical inaccuracies 107 which might result in errors comparable to discussed trends. Therefore, we only discuss influences on dynamical properties through a comparison of the diffusion coefficients, because these can be more reliably obtained from our simulations. As can be seen in Table 3 , the cation and anion of [P 2228 ][Cl] possess a significantly higher diffusion coefficient than the ions of [N 2228 ][Cl]. The viscosity η is related to the diffusion coefficient according to the Stokes–Einstein–equation: 108 where k B is the Boltzmann constant, T the temperature, and R H the Stokes radius. The Stokes–Einstein–equation assumes spherical particles and not paired ions. However, cation and anion move independently from each other and not as associated ion pairs in both compounds, see ESI. † Since R H of [N 2228 ] + and [P 2228 ] + should be similar and a similar trend can be observed for both ions, the significantly faster translational ion motion in [P 2228 ][Cl] reflects the lower viscosity of the phosphonium compared to ammonium compound, which is in agreement with experimental observations. 57,59–66
+ ###### 
+From cou.: 60 These molecular features will be investigated in different calculations as detailed below. Additionally, indications for a stronger charge transfer between cation and anion were observed for tetraalkylammonium based ILs compared to phosphonium analogues.100 However, this was only observed for tetraalkyl compounds with short alkyl chains and basic anions. Several studies have already shown that charge transfer results in a faster ion dynamics.101–106 Thus, charge transfer can be excluded as a cause for the lower viscosity of the phosphonium compounds, because the stronger charge transfer is observed in the ammonium compounds. Furthermore, differences in polarizability might affect dynamical properties. As shown by Voth et al., polarizability can enhance dynamical properties of ILs.34 Thus, the stronger polarizability of the phosphonium compound might slightly contribute to the lower viscosity of the phosphonium ILs.
+From Soup: 60 A comparison of the radial distribution function (RDF) of [N 2228 ][Cl] and [P 2228 ][Cl] can be seen in Fig. 1 . RDFs give the probability of finding an atom at a certain distance from another reference atom and, therefore, contain information about the average nearest neighbour distance and structuring within the liquid. As can be seen in Fig. 1 , the RDF between the terminal carbon atom of the octyl chain (CT8, identified in Fig. 2 ) on the two cations is similar for both compounds and the first maximum is at about 415 pm. This points to an aggregation of the non-polar octyl chains forming small nonpolar domains in the polar environment. This molecular feature, called nano-scale segregation or microheterogeneity, is very well known for imidazolium based ILs which possess at least a butyl chain as substituent. 109–111 In contrast to the structure of non-polar domains, the central atom influences strongly the structure of the polar domains. The N–Cl RDF of [N 2228 ][Cl] shows a higher peak at larger distance than the P–Cl RDF in [P 2228 ][Cl]. Significant disparity of anion–cation structure is nicely visible in the spatial distribution function (SDF) of the chloride atom around [N 2228 ] + /[P 2228 ] + , compare Fig. 3a and b . While the anion of [P 2228 ][Cl] resides preferably along the C1–P-vectors, the anion of [N 2228 ][Cl] is located at the edges of a tetrahedron, the corners of which lie along the C1–N-vectors. A significant dependence of the solvation structure on the central atom type was also observed by nuclear Overhauser effect (NOE) 2d NMR spectroscopy of two ammonium/phosphonium analogues with weakly coordinating anions. 112
+ ###### 
+From cou.: 61 Before the influence of different molecular features on the viscosity will be discussed, selected similarities and differences of monooctyl-triethylammonium chloride ([N2228][Cl]; force field: N-org) and of monooctyl-triethylphosphonium chloride ([P2228][Cl]; force field: P-org) will be discussed. Unfortunately, the calculation of the viscosity by the Green–Kubo relation is prone to numerical inaccuracies107 which might result in errors comparable to discussed trends. Therefore, we only discuss influences on dynamical properties through a comparison of the diffusion coefficients, because these can be more reliably obtained from our simulations. As can be seen in Table 3, the cation and anion of [P2228][Cl] possess a significantly higher diffusion coefficient than the ions of [N2228][Cl]. The viscosity η is related to the diffusion coefficient according to the Stokes–Einstein–equation:108where kB is the Boltzmann constant, T the temperature, and RH the Stokes radius. The Stokes–Einstein–equation assumes spherical particles and not paired ions. However, cation and anion move independently from each other and not as associated ion pairs in both compounds, see ESI.† Since RH of [N2228]+ and [P2228]+ should be similar and a similar trend can be observed for both ions, the significantly faster translational ion motion in [P2228][Cl] reflects the lower viscosity of the phosphonium compared to ammonium compound, which is in agreement with experimental observations.57,59–66
+From Soup: 61 Tetraalkylphosphonium ionic liquids with chloride as counter ion are known to show a large deviation from the ideal KCl line in the Walden plot. 113 Furthermore, a comparatively high degree of volatility is observed. Therefore, these compounds seem to be an intermediate between molecular and ionic liquids due to strong counter ion association. 113 We prefer to use the term ion association instead of ion pair for the liquid phase in the present case because more than one counter ion can be found in the first solvation shell of an ion. Therefore, one ion can be assigned to several counter ions, instead of to only one counter ion. Only the latter is intuitively labeled as a typical ion pair. Counter ion association is recognized as a molecular feature that significantly influences the viscosity of ionic liquids. 33,39,104,114,115 Weak ion association decreases viscosity. 33,114 However, this trend is reversed if directional, long living ion pairs are formed. 33 Our gas phase calculations (TPSS-D3(RI)/6-31++G**) of one ion pair revealed an interaction energy of [P 2228 ][Cl] which is 7.8 kJ mol −1 stronger than that of [N 2228 ][Cl]. It is decreased to 1.2 kJ mol −1 if thermodynamic corrections are considered. A stronger interaction of the phosphonium IL ion pairs was also reported for several analogues in a recent computational study. 116 The slightly stronger interaction energy of the phosphonium ion pair is also reflected by the developed force field; compare Δ E gas IP of P-org and N-org in Table 3 .
+ ###### 
+From cou.: 62 A comparison of the radial distribution function (RDF) of [N2228][Cl] and [P2228][Cl] can be seen in Fig. 1. RDFs give the probability of finding an atom at a certain distance from another reference atom and, therefore, contain information about the average nearest neighbour distance and structuring within the liquid. As can be seen in Fig. 1, the RDF between the terminal carbon atom of the octyl chain (CT8, identified in Fig. 2) on the two cations is similar for both compounds and the first maximum is at about 415 pm. This points to an aggregation of the non-polar octyl chains forming small nonpolar domains in the polar environment. This molecular feature, called nano-scale segregation or microheterogeneity, is very well known for imidazolium based ILs which possess at least a butyl chain as substituent.109–111 In contrast to the structure of non-polar domains, the central atom influences strongly the structure of the polar domains. The N–Cl RDF of [N2228][Cl] shows a higher peak at larger distance than the P–Cl RDF in [P2228][Cl]. Significant disparity of anion–cation structure is nicely visible in the spatial distribution function (SDF) of the chloride atom around [N2228]+/[P2228]+, compare Fig. 3a and b. While the anion of [P2228][Cl] resides preferably along the C1–P-vectors, the anion of [N2228][Cl] is located at the edges of a tetrahedron, the corners of which lie along the C1–N-vectors. A significant dependence of the solvation structure on the central atom type was also observed by nuclear Overhauser effect (NOE) 2d NMR spectroscopy of two ammonium/phosphonium analogues with weakly coordinating anions.112
+From Soup: 62 In contrast to the gas phase calculations, an experimental study found indications for a stronger interaction of cations and anions in the liquid phase of ammonium based ILs than of phosphonium based analogues. 64 However, the authors highlighted that only a few ionic liquids were investigated in their study. A decrease of the interionic vibrational frequency on heavy atom substitution was linked to a weaker ionic interaction in the phosphonium IL due to a larger ionic volume. The effect on the surface tension was found to be negligible. 64 Additionally, a NOE 2D NMR study of monooctyl-triethylammonium bis(trifluoromethylsulfonyl)imide and monooctyl-triethylphosphonium bis(trifluoromethylsulfonyl)imide show indications of a stronger cation–anion interaction in the ammonium compounds, because a stronger association of the anion fluorine atoms at the head of the ethyl groups was observed for the ammonium ILs. 112
+ ###### 
+From cou.: 63 Tetraalkylphosphonium ionic liquids with chloride as counter ion are known to show a large deviation from the ideal KCl line in the Walden plot.113 Furthermore, a comparatively high degree of volatility is observed. Therefore, these compounds seem to be an intermediate between molecular and ionic liquids due to strong counter ion association.113 We prefer to use the term ion association instead of ion pair for the liquid phase in the present case because more than one counter ion can be found in the first solvation shell of an ion. Therefore, one ion can be assigned to several counter ions, instead of to only one counter ion. Only the latter is intuitively labeled as a typical ion pair. Counter ion association is recognized as a molecular feature that significantly influences the viscosity of ionic liquids.33,39,104,114,115 Weak ion association decreases viscosity.33,114 However, this trend is reversed if directional, long living ion pairs are formed.33 Our gas phase calculations (TPSS-D3(RI)/6-31++G**) of one ion pair revealed an interaction energy of [P2228][Cl] which is 7.8 kJ mol−1 stronger than that of [N2228][Cl]. It is decreased to 1.2 kJ mol−1 if thermodynamic corrections are considered. A stronger interaction of the phosphonium IL ion pairs was also reported for several analogues in a recent computational study.116 The slightly stronger interaction energy of the phosphonium ion pair is also reflected by the developed force field; compare ΔEgasIP of P-org and N-org in Table 3.
+From Soup: 63 We therefore investigated the counter ion association lifetime in the liquid. We calculated the intermittent lifetime with TRAVIS 94 and have set the intermittent autocorrelation function to zero permanently if the cutoff criterion of counter ion association was not fulfilled for at least 1 ns. A distance cutoff criterion for counter ion association was selected to be 750 pm between N/P and Cl which is close to the first minimum in the N/P-Cl RDF of [N 2228 ][Cl]/[P 2228 ][Cl], see Fig. 1 . As can be seen in Table 3 , the counter ion association lifetime is about 9.5 ns longer for [N 2228 ][Cl] than [P 2228 ][Cl]. Therefore, we can infer that the slightly higher association energy of the phosphonium ion pair is more than compensated by the much lower energy barrier to dissociation. Thus, the strength of counter ion association in the gas phase is inverse to the counter ion association lifetime in the liquid, which highlights the important role of solvation in the dynamic properties of ILs.
+ ###### 
+From cou.: 64 In contrast to the gas phase calculations, an experimental study found indications for a stronger interaction of cations and anions in the liquid phase of ammonium based ILs than of phosphonium based analogues.64 However, the authors highlighted that only a few ionic liquids were investigated in their study. A decrease of the interionic vibrational frequency on heavy atom substitution was linked to a weaker ionic interaction in the phosphonium IL due to a larger ionic volume. The effect on the surface tension was found to be negligible.64 Additionally, a NOE 2D NMR study of monooctyl-triethylammonium bis(trifluoromethylsulfonyl)imide and monooctyl-triethylphosphonium bis(trifluoromethylsulfonyl)imide show indications of a stronger cation–anion interaction in the ammonium compounds, because a stronger association of the anion fluorine atoms at the head of the ethyl groups was observed for the ammonium ILs.112
+From Soup: 64 The larger atomic radius of phosphorus compared to nitrogen is known very well. 117 Nonetheless, the size disparity of nitrogen and phosphorus is very small compared to the total radius of the cation and, therefore, the change of the molecular size of the whole cation should be nearly negligible, especially for cations with long alkyl chains. However, changing the bond distance between the central atom and the attached carbon atoms affects the arrangement of charges in space as well. Thus, Coulomb forces between cation and anion differ depending on the N/P–C bond distance. Therefore, it is not possible to develop a model in which the influence of the central atom size can be studied independently from the charge distribution. Nonetheless, a model system with changed Lennard-Jones potentials and N/P–C1 bond distances allows for an identification of the role of the position of charges in space which also affects the cation–anion interaction. Therefore, we have set up simulations with two different model systems, N-size and P-size . N-size uses the Lennard-Jones potential of P instead of N and the force field parameters of the P–C1 bond instead of the N–C1 bond while P-size uses the Lennard-Jones potential of N and the force field parameters of the N–C1 bond. Please note, dispersion forces are considered by the Lennard-Jones potential in the employed force field.
+ ###### 
+From cou.: 65 We therefore investigated the counter ion association lifetime in the liquid. We calculated the intermittent lifetime with TRAVIS94 and have set the intermittent autocorrelation function to zero permanently if the cutoff criterion of counter ion association was not fulfilled for at least 1 ns. A distance cutoff criterion for counter ion association was selected to be 750 pm between N/P and Cl which is close to the first minimum in the N/P-Cl RDF of [N2228][Cl]/[P2228][Cl], see Fig. 1. As can be seen in Table 3, the counter ion association lifetime is about 9.5 ns longer for [N2228][Cl] than [P2228][Cl]. Therefore, we can infer that the slightly higher association energy of the phosphonium ion pair is more than compensated by the much lower energy barrier to dissociation. Thus, the strength of counter ion association in the gas phase is inverse to the counter ion association lifetime in the liquid, which highlights the important role of solvation in the dynamic properties of ILs.
+From Soup: 65 Diffusion coefficients were obtained with T RAVIS 94 by linear regression of the mean square displacement between 15.0 and 20.0 ns. The comparison of the calculated diffusion coefficient of the N-size / P-size models to the related N-org / P-org force field ( Table 3 ) shows that the force field models with the larger N/P–C1 distance, N-size and P-org , possess significantly higher ion diffusion coefficients than the models with the smaller N/P–C1 distance, N-org and P-size . Thus, the larger atomic radius of phosphorus decreases viscosity of the phosphonium compounds compared to the ammonium ILs due to the different arrangement of charges in space. Additionally, the lifetime of counter ion association τ IP is decreased by the larger atomic radius of the central atom. Changes in the liquid structure are visible in the N/P–Cl RDF, see Fig. 4 . The peak of the first solvation shell is increased and shifted slightly to larger distances for P-size while the peak of N-size is smaller and broader compared to N-org . The location of Cl along the edges of a tetrahedron spanned by each C1–N vector is reduced for N-size compared to N-org , see Fig. 3c , while the inverse behavior is observed for P-size , compare Fig. 3b and d .
+ ###### 
+From cou.: 66 The larger atomic radius of phosphorus compared to nitrogen is known very well.117 Nonetheless, the size disparity of nitrogen and phosphorus is very small compared to the total radius of the cation and, therefore, the change of the molecular size of the whole cation should be nearly negligible, especially for cations with long alkyl chains. However, changing the bond distance between the central atom and the attached carbon atoms affects the arrangement of charges in space as well. Thus, Coulomb forces between cation and anion differ depending on the N/P–C bond distance. Therefore, it is not possible to develop a model in which the influence of the central atom size can be studied independently from the charge distribution. Nonetheless, a model system with changed Lennard-Jones potentials and N/P–C1 bond distances allows for an identification of the role of the position of charges in space which also affects the cation–anion interaction. Therefore, we have set up simulations with two different model systems, N-size and P-size. N-size uses the Lennard-Jones potential of P instead of N and the force field parameters of the P–C1 bond instead of the N–C1 bond while P-size uses the Lennard-Jones potential of N and the force field parameters of the N–C1 bond. Please note, dispersion forces are considered by the Lennard-Jones potential in the employed force field.
+From Soup: 66 Charge distribution is recognized as one essential molecular feature of ionic liquids, influencing properties on the molecular as well as on the macroscopic scale. 34,101,103,118,119 Commonly, a delocalized charge is proposed to lower viscosity and melting point of ionic liquids. 1,23,31,120 However, it was suggested that a strongly localized, but well screened charge, should have a similar effect. 120 Nitrogen has a larger electronegativity than phosphorus. 117 Therefore, a smaller positive partial charge of nitrogen than of phosphorus can be expected in cations with four alkyl chains as substituents at the central atom.
+ ###### 
+From cou.: 67 Diffusion coefficients were obtained with TRAVIS94 by linear regression of the mean square displacement between 15.0 and 20.0 ns. The comparison of the calculated diffusion coefficient of the N-size/P-size models to the related N-org/P-org force field (Table 3) shows that the force field models with the larger N/P–C1 distance, N-size and P-org, possess significantly higher ion diffusion coefficients than the models with the smaller N/P–C1 distance, N-org and P-size. Thus, the larger atomic radius of phosphorus decreases viscosity of the phosphonium compounds compared to the ammonium ILs due to the different arrangement of charges in space. Additionally, the lifetime of counter ion association τIP is decreased by the larger atomic radius of the central atom. Changes in the liquid structure are visible in the N/P–Cl RDF, see Fig. 4. The peak of the first solvation shell is increased and shifted slightly to larger distances for P-size while the peak of N-size is smaller and broader compared to N-org. The location of Cl along the edges of a tetrahedron spanned by each C1–N vector is reduced for N-size compared to N-org, see Fig. 3c, while the inverse behavior is observed for P-size, compare Fig. 3b and d.
+From Soup: 67 As can be seen in Table 4 , all employed partial charge methods reveal a significant positive charge on phosphorus in tetramethylphosphonium while nitrogen has a smaller, or even negative charge. This is counterintuitive when a Lewis model of bonding is employed, because a positive charge is assigned to a 4 coordinated nitrogen, as found in this compound. 15 N-NMR measurements of nitrile functionalized pyridinium ILs indicate a larger positive charge on the nitrile nitrogen atom than on the pyridine nitrogen atom which is also counterintuitive. 121 Therefore, one should be very cautious in assigning partial charges based on Lewis structures. Evidence for a significant spread of positive charge in tetraalkylammonium compounds is given by NMR experiments. Tsunashima and coworkers observed a significantly larger chemical shift of the H atoms closest to nitrogen in tetraalkylammonium compounds ( δ = 3.05–3.29 ppm) compared to the H atoms closest to phosphorus in tetraalkylphosphonium compounds ( δ = 2.05–2.25 ppm). 61 Additionally, an X-ray photoelectron spectroscopy (XPS) study found a binding energy of the 1s electron at the carbon atom in the α position to nitrogen (C1) which is 0.6–0.8 eV larger than for the tetraalkylphosphonium analogues. 100 Therefore, tetraalkylphosphonium based ionic liquids possess a strongly localized charge at the phosphonium atom while the positive charge in tetraalkylammonium compounds is dispersed over the carbon and hydrogen atoms adjacent to the nitrogen. This can be seen by comparing the partial charges of the carbon atoms. The negative partial charge is reduced in the ammonium compound compared to the phosphonium in all employed partial charge methods. The net result is a larger positive charge on a methyl group of tetramethylammonium than on a methyl group of tetramethylphosphonium. A similar conclusion was drawn by Carvalho et al. based on quantum chemistry calculations. 66 As a result, the anion should experience stronger attractive Coulomb forces to the central atom of the phosphonium cations than to the central atom of the ammonium ILs. However, the repulsive Coulombic interactions between the anion and the carbon atoms attached to the central atom are also increased in the phosphonium ILs. Thus, the alkyl substituents at phosphorus may be screening the positive charge in the tetraalkylphosphonium compounds, which results, overall, in weaker attractive Coulombic interactions between cation and anion in the phosphonium ILs. Therefore, the lower viscosity of the tetraalkylphosphonium based ionic liquids might originate from strong intramolecular charge screening.
+ ###### 
+From cou.: 68 Charge distribution is recognized as one essential molecular feature of ionic liquids, influencing properties on the molecular as well as on the macroscopic scale.34,101,103,118,119 Commonly, a delocalized charge is proposed to lower viscosity and melting point of ionic liquids.1,23,31,120 However, it was suggested that a strongly localized, but well screened charge, should have a similar effect.120 Nitrogen has a larger electronegativity than phosphorus.117 Therefore, a smaller positive partial charge of nitrogen than of phosphorus can be expected in cations with four alkyl chains as substituents at the central atom.
+From Soup: 68 Support for this hypothesis can be found in recent work which compares the viscosity of nitrile functionalized pyrrolidinium ILs. 122 Interestingly, the highest viscosity can be found for the compound which possesses the shortest alkyl spacer between the nitrogen atom of pyrrolidinium group and the nitrile group. The electron withdrawing property of the nitrile group disturbs the intramolecular charge screening. As a result, a significant localization of the positive charge on the molecular surface can be observed, see Fig. 5 . The perturbation of the intramolecular charge screening decreases with increasing alkyl chain length. In correlation with this, the viscosity decreases with increasing alkyl chain length up to a butyl, which is sufficiently long to preserve the intramolecular charge screening. However, it cannot be excluded that the significant charge localization on the molecular surface is solely responsible for the high viscosity of 1-cyanomethyl-1-methylpyrrolidinium bis(trifluoromethylsulfonyl)imide.
+ ###### 
+From cou.: 69 As can be seen in Table 4, all employed partial charge methods reveal a significant positive charge on phosphorus in tetramethylphosphonium while nitrogen has a smaller, or even negative charge. This is counterintuitive when a Lewis model of bonding is employed, because a positive charge is assigned to a 4 coordinated nitrogen, as found in this compound. 15N-NMR measurements of nitrile functionalized pyridinium ILs indicate a larger positive charge on the nitrile nitrogen atom than on the pyridine nitrogen atom which is also counterintuitive.121 Therefore, one should be very cautious in assigning partial charges based on Lewis structures. Evidence for a significant spread of positive charge in tetraalkylammonium compounds is given by NMR experiments. Tsunashima and coworkers observed a significantly larger chemical shift of the H atoms closest to nitrogen in tetraalkylammonium compounds (δ = 3.05–3.29 ppm) compared to the H atoms closest to phosphorus in tetraalkylphosphonium compounds (δ = 2.05–2.25 ppm).61 Additionally, an X-ray photoelectron spectroscopy (XPS) study found a binding energy of the 1s electron at the carbon atom in the α position to nitrogen (C1) which is 0.6–0.8 eV larger than for the tetraalkylphosphonium analogues.100 Therefore, tetraalkylphosphonium based ionic liquids possess a strongly localized charge at the phosphonium atom while the positive charge in tetraalkylammonium compounds is dispersed over the carbon and hydrogen atoms adjacent to the nitrogen. This can be seen by comparing the partial charges of the carbon atoms. The negative partial charge is reduced in the ammonium compound compared to the phosphonium in all employed partial charge methods. The net result is a larger positive charge on a methyl group of tetramethylammonium than on a methyl group of tetramethylphosphonium. A similar conclusion was drawn by Carvalho et al. based on quantum chemistry calculations.66 As a result, the anion should experience stronger attractive Coulomb forces to the central atom of the phosphonium cations than to the central atom of the ammonium ILs. However, the repulsive Coulombic interactions between the anion and the carbon atoms attached to the central atom are also increased in the phosphonium ILs. Thus, the alkyl substituents at phosphorus may be screening the positive charge in the tetraalkylphosphonium compounds, which results, overall, in weaker attractive Coulombic interactions between cation and anion in the phosphonium ILs. Therefore, the lower viscosity of the tetraalkylphosphonium based ionic liquids might originate from strong intramolecular charge screening.
+From Soup: 69 We set up two force field models, N-ch and P-ch , to study the influence of charge distribution on dynamical properties. N-ch uses the partial charge of P in P-org (+0.68) for N and of C1 in P-org (−0.31) for C1. All other force field parameters are the same in N-ch and in N-org . P-ch was constructed similarly, i.e. the partial charge of the central atom (+0.12) and C1 (−0.17) are those from N-org while all other force field parameters are the same in P-ch and P-org .
+ ###### 
+From cou.: 70 Support for this hypothesis can be found in recent work which compares the viscosity of nitrile functionalized pyrrolidinium ILs.122 Interestingly, the highest viscosity can be found for the compound which possesses the shortest alkyl spacer between the nitrogen atom of pyrrolidinium group and the nitrile group. The electron withdrawing property of the nitrile group disturbs the intramolecular charge screening. As a result, a significant localization of the positive charge on the molecular surface can be observed, see Fig. 5. The perturbation of the intramolecular charge screening decreases with increasing alkyl chain length. In correlation with this, the viscosity decreases with increasing alkyl chain length up to a butyl, which is sufficiently long to preserve the intramolecular charge screening. However, it cannot be excluded that the significant charge localization on the molecular surface is solely responsible for the high viscosity of 1-cyanomethyl-1-methylpyrrolidinium bis(trifluoromethylsulfonyl)imide.
+From Soup: 70 At first, we compared the contribution of Coulomb forces to the interaction energy of a cation and an anion in the gas phase, see Δ E gas Coul in Table 3 . A significantly stronger attractive Coulombic interaction between the cation and anion is expected for the model systems with the charge distribution of the phosphonium compounds, N-ch and P-org , because the positive charge on the central atom is about 5 times larger than in the model systems with the ammonium charge distribution, N-org and P-ch . However, the differences of Δ E gas Coul between X-org and X-ch are rather small, below 5% of the total attractive Coulombic interaction. Thus, the larger negative charge on the α-carbon atoms in the phosphonium charge distribution models screens effectively the positive charge on the central atom, which acts to reduce the attractive Coulombic interactions between the cation and anion. Nonetheless, in the phosphonium charge distribution models, the charge screening is not strong enough to reduce the attractive cation anion interactions below those of the ammonium analogues.
+ ###### 
+From cou.: 71 We set up two force field models, N-ch and P-ch, to study the influence of charge distribution on dynamical properties. N-ch uses the partial charge of P in P-org (+0.68) for N and of C1 in P-org (−0.31) for C1. All other force field parameters are the same in N-ch and in N-org. P-ch was constructed similarly, i.e. the partial charge of the central atom (+0.12) and C1 (−0.17) are those from N-org while all other force field parameters are the same in P-ch and P-org.
+From Soup: 71 As can be seen in Table 3 , the models with the charge distribution of the ammonium IL, N-org and P-ch , possess the higher diffusion coefficient. Thus, intramolecular charge screening can be excluded as cause for the lower viscosity of the phosphonium based ILs. Similar to Section 3.2, the force field models with the slower translational dynamics possess a longer counter ion association life time and higher peak of the first solvation shell in the N/P–Cl RDF. The spatial distribution of the anion around the cation shows a stronger localization of the anion along the C1–N vector for N-ch compared to N-org , see Fig. 3a and e . In case of P-ch , only small areas close to the C1–P vector are visible in the anion SDF and, thus, the liquid structure does not show significant similarities with N-org or P-org .
+ ###### 
+From cou.: 72 At first, we compared the contribution of Coulomb forces to the interaction energy of a cation and an anion in the gas phase, see ΔEgasCoul in Table 3. A significantly stronger attractive Coulombic interaction between the cation and anion is expected for the model systems with the charge distribution of the phosphonium compounds, N-ch and P-org, because the positive charge on the central atom is about 5 times larger than in the model systems with the ammonium charge distribution, N-org and P-ch. However, the differences of ΔEgasCoul between X-org and X-ch are rather small, below 5% of the total attractive Coulombic interaction. Thus, the larger negative charge on the α-carbon atoms in the phosphonium charge distribution models screens effectively the positive charge on the central atom, which acts to reduce the attractive Coulombic interactions between the cation and anion. Nonetheless, in the phosphonium charge distribution models, the charge screening is not strong enough to reduce the attractive cation anion interactions below those of the ammonium analogues.
+From Soup: 72 Phosphorus has an extra electron shell compared to nitrogen. The additional available d-orbitals allow hybridization states which stabilise a sixfold coordination and bond angles smaller than 109.5°. Therefore, an enhanced flexibility of the bond angle enclosed by two substituents at the central atom ( α CXC ) can be expected for phosphonium cations. Indeed, this can be observed by static quantum chemistry calculations of one cation, see Fig. 6 . The shallower bond angle potential of phosphonium cations compared to ammonium cations might enhance a temporary downscaling of the ion diameter and, therefore, increase the mobility of the cation. Additionally, phosphonium cations possess more flexible dihedral potentials than the ammonium based analogues, see Fig. 7 . The increased flexibility of bond angles and dihedral angles of the phosphonium compounds might contribute to a smoother energy landscape of the liquid state which affects melting point, glass transition temperature, and viscosity according to the energy landscape paradigm. 123–126
+ ###### 
+From cou.: 73 As can be seen in Table 3, the models with the charge distribution of the ammonium IL, N-org and P-ch, possess the higher diffusion coefficient. Thus, intramolecular charge screening can be excluded as cause for the lower viscosity of the phosphonium based ILs. Similar to Section 3.2, the force field models with the slower translational dynamics possess a longer counter ion association life time and higher peak of the first solvation shell in the N/P–Cl RDF. The spatial distribution of the anion around the cation shows a stronger localization of the anion along the C1–N vector for N-ch compared to N-org, see Fig. 3a and e. In case of P-ch, only small areas close to the C1–P vector are visible in the anion SDF and, thus, the liquid structure does not show significant similarities with N-org or P-org.
+From Soup: 73 Again, two force field model systems were set up. In N-ang , only the force field parameters of bond and dihedral angles are replaced by the analogues of P-org . All other force field parameters are the same in N-ang and in N-org . P-ang uses the parameters from N-org for bond angles and dihedral angles. As can be seen in Table 3 , the force field simulations with the bond angle and dihedral angle force field constants of phosphonium, N-ang and P-org , possess the larger diffusion coefficients. Therefore, the higher flexibility of bond angles and dihedral angles decreases the viscosity of tetraalkylphosphonium ionic liquids compared to the tetraalkylammonium analogues. Similar to Section 3.2 and 3.3, the models with the faster translational dynamics have a shorter counter ion association. While N-ang shows significantly faster dynamical properties compared to N-org , the liquid structure of the charged centers is only slightly affected. Especially the SDFs of the anion are very similar for N-org / P-org and N-ang / P-ang , see Fig. 3 . The peak height of the N–Cl RDF of N-ang is slightly reduced compared to N-org while the opposite behavior is observed in the P–Cl RDF of P-ang , see Fig. 4c . Thus, all model systems with the smaller diffusion coefficient show a stronger structuring of the cations and anions relative to each other in the N/P–Cl RDF. Unfortunately, the SDFs of Cl shown in Fig. 3 do not show any correlation with the dynamic properties examined herein.
+ ###### 
+From cou.: 74 Phosphorus has an extra electron shell compared to nitrogen. The additional available d-orbitals allow hybridization states which stabilise a sixfold coordination and bond angles smaller than 109.5°. Therefore, an enhanced flexibility of the bond angle enclosed by two substituents at the central atom (αCXC) can be expected for phosphonium cations. Indeed, this can be observed by static quantum chemistry calculations of one cation, see Fig. 6. The shallower bond angle potential of phosphonium cations compared to ammonium cations might enhance a temporary downscaling of the ion diameter and, therefore, increase the mobility of the cation. Additionally, phosphonium cations possess more flexible dihedral potentials than the ammonium based analogues, see Fig. 7. The increased flexibility of bond angles and dihedral angles of the phosphonium compounds might contribute to a smoother energy landscape of the liquid state which affects melting point, glass transition temperature, and viscosity according to the energy landscape paradigm.123–126
+From Soup: 74 The important role of bond angle and dihedral angle flexibility for the lower viscosity of the phosphonium ILs can be seen by comparing two recently synthesized cyclic analogues. 127 The first analogue, butylmethylpyrrolidinium bis(trifluoromethylsulfonyl)imide ( Fig. 8a ) and butylmethylphospholanium bis(trifluoromethylsulfonyl)imide ( Fig. 8b ), possesses a five membered ring. Thus, the flexibility of two alkyl substituents at the central atom should be nearly the same due to the small ring structure. In this example, the ammonium compound possesses the lower viscosity than the phosphonium analogue. 127 Thus, the influence of the charge localization at phosphorus is stronger than the higher flexibility of the two remaining alkyl chain substituents. The alkyl chain ring is increased to a six-membered ring in the second analogue, butylmethylpiperidinium bis(trifluoromethylsulfonyl)imide ( Fig. 8c ) and butylmethylphosphinanium bis(trifluoromethylsulfonyl)imide ( Fig. 8d ), which enhances the flexibility of the alkyl chain ring. Thus, the higher flexibility of bond angles and dihedral angles in phosphonium based ILs should enhance the flexibility of the alkyl chain ring in the six-membered ring more strongly than in the five-membered ring which affects viscosity, as well. Indeed, the phosphonium compound possesses the lower viscosity than the ammonium compound in the second analogue 127 which highlights the important role of bond angle and dihedral angle flexibility for the lower viscosity in tetraalkylphosphonium ILs and also the interplay of the different molecular features.
+ ###### 
+From cou.: 75 Again, two force field model systems were set up. In N-ang, only the force field parameters of bond and dihedral angles are replaced by the analogues of P-org. All other force field parameters are the same in N-ang and in N-org. P-ang uses the parameters from N-org for bond angles and dihedral angles. As can be seen in Table 3, the force field simulations with the bond angle and dihedral angle force field constants of phosphonium, N-ang and P-org, possess the larger diffusion coefficients. Therefore, the higher flexibility of bond angles and dihedral angles decreases the viscosity of tetraalkylphosphonium ionic liquids compared to the tetraalkylammonium analogues. Similar to Section 3.2 and 3.3, the models with the faster translational dynamics have a shorter counter ion association. While N-ang shows significantly faster dynamical properties compared to N-org, the liquid structure of the charged centers is only slightly affected. Especially the SDFs of the anion are very similar for N-org/P-org and N-ang/P-ang, see Fig. 3. The peak height of the N–Cl RDF of N-ang is slightly reduced compared to N-org while the opposite behavior is observed in the P–Cl RDF of P-ang, see Fig. 4c. Thus, all model systems with the smaller diffusion coefficient show a stronger structuring of the cations and anions relative to each other in the N/P–Cl RDF. Unfortunately, the SDFs of Cl shown in Fig. 3 do not show any correlation with the dynamic properties examined herein.
+From Soup: 75 The lower viscosity of tetraalkylphosphonium based ILs compared to tetraalkylammonium based IL analogues has been investigated by static quantum chemistry calculations and classical force field simulations. Initially, one IL analogue, monooctyl-triethylammonium chloride ([N 2228 ][Cl]) and monooctyl-triethylphosphonium chloride ([P 2228 ][Cl]), were studied. The comparison of the force field simulations of [N 2228 ][Cl] and of [P 2228 ][Cl] revealed that the phosphonium based ILs form slightly stronger ion pairs in the gas phase than the ammonium analogues while, in contrast to this, the lifetime of the [N 2228 ][Cl] counter ion association is about 9.5 ns longer than [P 2228 ][Cl]. Investigation of the structure of both ILs show similar non-polar domains, but diverse structure of the polar domains. While the anion of [P 2228 ][Cl] resides preferably along the C1–P-vectors, the anion of [N 2228 ][Cl] is located at the edges of a tetrahedron with corners along the C1–N-vectors, see Fig. 3a and b .
+ ###### 
+From cou.: 76 The important role of bond angle and dihedral angle flexibility for the lower viscosity of the phosphonium ILs can be seen by comparing two recently synthesized cyclic analogues.127 The first analogue, butylmethylpyrrolidinium bis(trifluoromethylsulfonyl)imide (Fig. 8a) and butylmethylphospholanium bis(trifluoromethylsulfonyl)imide (Fig. 8b), possesses a five membered ring. Thus, the flexibility of two alkyl substituents at the central atom should be nearly the same due to the small ring structure. In this example, the ammonium compound possesses the lower viscosity than the phosphonium analogue.127 Thus, the influence of the charge localization at phosphorus is stronger than the higher flexibility of the two remaining alkyl chain substituents. The alkyl chain ring is increased to a six-membered ring in the second analogue, butylmethylpiperidinium bis(trifluoromethylsulfonyl)imide (Fig. 8c) and butylmethylphosphinanium bis(trifluoromethylsulfonyl)imide (Fig. 8d), which enhances the flexibility of the alkyl chain ring. Thus, the higher flexibility of bond angles and dihedral angles in phosphonium based ILs should enhance the flexibility of the alkyl chain ring in the six-membered ring more strongly than in the five-membered ring which affects viscosity, as well. Indeed, the phosphonium compound possesses the lower viscosity than the ammonium compound in the second analogue127 which highlights the important role of bond angle and dihedral angle flexibility for the lower viscosity in tetraalkylphosphonium ILs and also the interplay of the different molecular features.
+From Soup: 76 Subsequently, three molecular features which can be the cause of the lower viscosity of the phosphonium compounds were discussed in detail. The weaker charge transfer of the phosphonium based ILs with basic anions was excluded because several studies have shown that the viscosity is decreased with increasing charge transfer. 101–106 The influence of the central atom size, the charge localization, and the flexibility of bond/dihedral angles were studied by force field model systems in which parameters of investigated molecular features were always taken from the analogue, e.g. to investigate the charge distribution, the model P-ch employs the charge distribution of the [N 2228 ][Cl] force field. All other force field parameters were taken from the [P 2228 ][Cl] force field to which dynamical and structural properties were compared. In this way, two model systems for each investigated molecular feature were set up. In all cases, the dynamics of the two model systems show inverse dynamical behaviour compared to the unmodified force field of [N 2228 ][Cl] ( N-org )/[P 2228 ][Cl] ( P-org ), see Table 3 . Therefore, the following conclusions can be drawn:
+ ###### 
+From cou.: 77 The lower viscosity of tetraalkylphosphonium based ILs compared to tetraalkylammonium based IL analogues has been investigated by static quantum chemistry calculations and classical force field simulations. Initially, one IL analogue, monooctyl-triethylammonium chloride ([N2228][Cl]) and monooctyl-triethylphosphonium chloride ([P2228][Cl]), were studied. The comparison of the force field simulations of [N2228][Cl] and of [P2228][Cl] revealed that the phosphonium based ILs form slightly stronger ion pairs in the gas phase than the ammonium analogues while, in contrast to this, the lifetime of the [N2228][Cl] counter ion association is about 9.5 ns longer than [P2228][Cl]. Investigation of the structure of both ILs show similar non-polar domains, but diverse structure of the polar domains. While the anion of [P2228][Cl] resides preferably along the C1–P-vectors, the anion of [N2228][Cl] is located at the edges of a tetrahedron with corners along the C1–N-vectors, see Fig. 3a and b.
+From Soup: 77 1. The arrangement of charges due to the larger bond distance in the phosphonium compounds enhance dynamical properties.
+ ###### 
+From cou.: 78 Subsequently, three molecular features which can be the cause of the lower viscosity of the phosphonium compounds were discussed in detail. The weaker charge transfer of the phosphonium based ILs with basic anions was excluded because several studies have shown that the viscosity is decreased with increasing charge transfer.101–106 The influence of the central atom size, the charge localization, and the flexibility of bond/dihedral angles were studied by force field model systems in which parameters of investigated molecular features were always taken from the analogue, e.g. to investigate the charge distribution, the model P-ch employs the charge distribution of the [N2228][Cl] force field. All other force field parameters were taken from the [P2228][Cl] force field to which dynamical and structural properties were compared. In this way, two model systems for each investigated molecular feature were set up. In all cases, the dynamics of the two model systems show inverse dynamical behaviour compared to the unmodified force field of [N2228][Cl] (N-org)/[P2228][Cl] (P-org), see Table 3. Therefore, the following conclusions can be drawn:
+From Soup: 78 2. The stronger charge localization in the phosphonium compounds slows down dynamical properties.
+ ###### 
+From cou.: 79 1. The arrangement of charges due to the larger bond distance in the phosphonium compounds enhance dynamical properties.
+From Soup: 79 3. The higher flexibility of the bond angles and dihedral angles of the phosphonium compounds enhance dynamical properties. The important influence of this molecular feature for the low viscosity of phosphonium ILs can be seen in experimental results if the viscosity of cyclic analogues is compared.
+ ###### 
+From cou.: 80 2. The stronger charge localization in the phosphonium compounds slows down dynamical properties.
+From Soup: 80 In all cases, the model with the larger ion diffusion coefficient possesses a shorter counter ion association lifetime which highlights the important role of ion association for dynamical properties.
+ ###### 
+From cou.: 81 3. The higher flexibility of the bond angles and dihedral angles of the phosphonium compounds enhance dynamical properties. The important influence of this molecular feature for the low viscosity of phosphonium ILs can be seen in experimental results if the viscosity of cyclic analogues is compared.
+From Soup: 81 SZ thanks the European Social Fund (100122082) for financial support. DRM is grateful to the Australian Research Council for funding under the Australian Laureate Fellowship scheme.
+ ###### 
+From cou.: 82 In all cases, the model with the larger ion diffusion coefficient possesses a shorter counter ion association lifetime which highlights the important role of ion association for dynamical properties.
+From Soup: 82 P. Wasserscheid and W. Keim, Angew. Chem., Int. Ed. , 2000, 39 , 3772–3789 CrossRef CAS .
+ ###### 
+From cou.: 83 SZ thanks the European Social Fund (100122082) for financial support. DRM is grateful to the Australian Research Council for funding under the Australian Laureate Fellowship scheme.
+From Soup: 83 N. V. Plechkova and K. R. Seddon, Chem. Soc. Rev. , 2008, 37 , 123–150 RSC .
+ ###### 
+From cou.: 84 P. Wasserscheid and W. Keim, Angew. Chem., Int. Ed., 2000, 39, 3772–3789 CrossRef CAS .
+From Soup: 84 P. Walden, Bull. Acad. Imp. Sci. St. Petersburg , 1914, 405–422 CAS .
+ ###### 
+From cou.: 85 N. V. Plechkova and K. R. Seddon, Chem. Soc. Rev., 2008, 37, 123–150 RSC .
+From Soup: 85 J. S. Wilkes and M. J. Zaworotko, J. Chem. Soc., Chem. Commun. , 1992, 965–967 RSC .
+ ###### 
+From cou.: 86 P. Walden, Bull. Acad. Imp. Sci. St. Petersburg, 1914, 405–422 CAS .
+From Soup: 86 T. Welton, Chem. Rev. , 1999, 99 , 2071–2084 CrossRef CAS PubMed .
+ ###### 
+From cou.: 87 J. S. Wilkes and M. J. Zaworotko, J. Chem. Soc., Chem. Commun., 1992, 965–967 RSC .
+From Soup: 87 Ionic Liquids in Synthesis , ed. P. Wasserscheid and T. Welton, Wiley-VCH, Weinheim, 2003 Search PubMed .
+ ###### 
+From cou.: 88 T. Welton, Chem. Rev., 1999, 99, 2071–2084 CrossRef CAS PubMed .
+From Soup: 88 T. Welton, Coord. Chem. Rev. , 2004, 248 , 2459–2477 CrossRef CAS PubMed .
+ ###### 
+From cou.: 89 Ionic Liquids in Synthesis, ed. P. Wasserscheid and T. Welton, Wiley-VCH, Weinheim, 2003 Search PubMed .
+From Soup: 89 S. A. Forsyth, J. M. Pringle and D. R. MacFarlane, Aust. J. Chem. , 2004, 57 , 113–119 CrossRef CAS .
+ ###### 
+From cou.: 90 T. Welton, Coord. Chem. Rev., 2004, 248, 2459–2477 CrossRef CAS PubMed .
+From Soup: 90 K. Binnemans, Chem. Rev. , 2005, 105 , 4148–4204 CrossRef CAS PubMed .
+ ###### 
+From cou.: 91 S. A. Forsyth, J. M. Pringle and D. R. MacFarlane, Aust. J. Chem., 2004, 57, 113–119 CrossRef CAS .
+From Soup: 91 F. Endres and S. Z. E. Abedin, Phys. Chem. Chem. Phys. , 2006, 8 , 2101–2116 RSC .
+ ###### 
+From cou.: 92 K. Binnemans, Chem. Rev., 2005, 105, 4148–4204 CrossRef CAS PubMed .
+From Soup: 92 V. I. Pârvulescu and C. Hardacre, Chem. Rev. , 2007, 107 , 2615–2665 CrossRef PubMed .
+ ###### 
+From cou.: 93 F. Endres and S. Z. E. Abedin, Phys. Chem. Chem. Phys., 2006, 8, 2101–2116 RSC .
+From Soup: 93 K. Binnemans, Chem. Rev. , 2007, 107 , 2592–2614 CrossRef CAS PubMed .
+ ###### 
+From cou.: 94 V. I. Pârvulescu and C. Hardacre, Chem. Rev., 2007, 107, 2615–2665 CrossRef PubMed .
+From Soup: 94 M. Armand, F. Endres, D. R. MacFarlane, H. Ohno and B. Scrosati, Nat. Mater. , 2009, 8 , 621–629 CrossRef CAS PubMed .
+ ###### 
+From cou.: 95 K. Binnemans, Chem. Rev., 2007, 107, 2592–2614 CrossRef CAS PubMed .
+From Soup: 95 R. Giernoth, Angew. Chem., Int. Ed. , 2010, 49 , 2834–2839 CrossRef CAS PubMed .
+ ###### 
+From cou.: 96 M. Armand, F. Endres, D. R. MacFarlane, H. Ohno and B. Scrosati, Nat. Mater., 2009, 8, 621–629 CrossRef CAS PubMed .
+From Soup: 96 Y. Wang, W. Jiang, T. Yan and G. A. Voth, Acc. Chem. Res. , 2007, 40 , 1193–1199 CrossRef CAS PubMed .
+ ###### 
+From cou.: 97 R. Giernoth, Angew. Chem., Int. Ed., 2010, 49, 2834–2839 CrossRef CAS PubMed .
+From Soup: 97 A. A. H. Pádua, M. F. Costa Gomes and J. N. A. Canongia Lopes, Acc. Chem. Res. , 2007, 40 , 1087–1096 CrossRef PubMed .
+ ###### 
+From cou.: 98 Y. Wang, W. Jiang, T. Yan and G. A. Voth, Acc. Chem. Res., 2007, 40, 1193–1199 CrossRef CAS PubMed .
+From Soup: 98 R. M. Lynden-Bell, M. G. Del Pópolo, T. G. A. Youngs, J. Kohanoff, C. G. Hanke, J. B. Harper and C. C. Pinilla, Acc. Chem. Res. , 2007, 40 , 1138–1145 CrossRef CAS PubMed .
+ ###### 
+From cou.: 99 A. A. H. Pádua, M. F. Costa Gomes and J. N. A. Canongia Lopes, Acc. Chem. Res., 2007, 40, 1087–1096 CrossRef PubMed .
+From Soup: 99 B. L. Bhargava, S. Balasubramanian and M. L. Klein, Chem. Commun. , 2008, 3339–3351 RSC .
+ ###### 
+From cou.: 100 R. M. Lynden-Bell, M. G. Del Pópolo, T. G. A. Youngs, J. Kohanoff, C. G. Hanke, J. B. Harper and C. C. Pinilla, Acc. Chem. Res., 2007, 40, 1138–1145 CrossRef CAS PubMed .
+From Soup: 100 B. Kirchner, Top. Curr. Chem. , 2009, 290 , 213–262 CrossRef CAS .
+ ###### 
+From cou.: 101 B. L. Bhargava, S. Balasubramanian and M. L. Klein, Chem. Commun., 2008, 3339–3351 RSC .
+From Soup: 101 E. J. Maginn, J. Phys.: Condens. Matter , 2009, 21 , 373101 CrossRef CAS PubMed .
+ ###### 
+From cou.: 102 B. Kirchner, Top. Curr. Chem., 2009, 290, 213–262 CrossRef CAS .
+From Soup: 102 E. I. Izgorodina, Phys. Chem. Chem. Phys. , 2011, 13 , 4189–4207 RSC .
+ ###### 
+From cou.: 103 E. J. Maginn, J. Phys.: Condens. Matter, 2009, 21, 373101 CrossRef CAS PubMed .
+From Soup: 103 B. Kirchner, O. Hollóczki, J. N. Canongia Lopes and A. A. H. Pádua, WIREs Comput. Mol. Sci. , 2015, 5 , 202–214 CrossRef CAS PubMed .
+ ###### 
+From cou.: 104 E. I. Izgorodina, Phys. Chem. Chem. Phys., 2011, 13, 4189–4207 RSC .
+From Soup: 104 P. Bonhôte, A.-P. Dias, N. Papageorgiou, K. Kalyanasundaram and M. Grätzel, Inorg. Chem. , 1996, 35 , 1168–1178 CrossRef PubMed .
+ ###### 
+From cou.: 105 B. Kirchner, O. Hollóczki, J. N. Canongia Lopes and A. A. H. Pádua, WIREs Comput. Mol. Sci., 2015, 5, 202–214 CrossRef CAS PubMed .
+From Soup: 105 K. R. Seddon, J. Chem. Technol. Biotechnol. , 1997, 68 , 351–356 CrossRef CAS .
+ ###### 
+From cou.: 106 P. Bonhôte, A.-P. Dias, N. Papageorgiou, K. Kalyanasundaram and M. Grätzel, Inorg. Chem., 1996, 35, 1168–1178 CrossRef PubMed .
+From Soup: 106 J. Sun, M. Forsyth and D. R. MacFarlane, J. Phys. Chem. B , 1998, 102 , 8858–8864 CrossRef CAS .
+ ###### 
+From cou.: 107 K. R. Seddon, J. Chem. Technol. Biotechnol., 1997, 68, 351–356 CrossRef CAS .
+From Soup: 107 D. R. McFarlane, J. Sun, J. Golding, P. Meakin and M. Forsyth, Electrochim. Acta , 2000, 45 , 1271–1278 CrossRef CAS .
+ ###### 
+From cou.: 108 J. Sun, M. Forsyth and D. R. MacFarlane, J. Phys. Chem. B, 1998, 102, 8858–8864 CrossRef CAS .
+From Soup: 108 H. Matsumoto, H. Kageyama and Y. Miyazaki, Chem. Commun. , 2002, 1726–1727 RSC .
+ ###### 
+From cou.: 109 D. R. McFarlane, J. Sun, J. Golding, P. Meakin and M. Forsyth, Electrochim. Acta, 2000, 45, 1271–1278 CrossRef CAS .
+From Soup: 109 D. M. Eike, J. F. Brennecke and E. J. Maginn, Green Chem. , 2003, 5 , 323–328 RSC .
+ ###### 
+From cou.: 110 H. Matsumoto, H. Kageyama and Y. Miyazaki, Chem. Commun., 2002, 1726–1727 RSC .
+From Soup: 110 I. López-Martin, E. Burello, P. N. Davey, K. R. Seddon and G. Rothenberg, ChemPhysChem , 2007, 8 , 690–695 CrossRef .
+ ###### 
+From cou.: 111 D. M. Eike, J. F. Brennecke and E. J. Maginn, Green Chem., 2003, 5, 323–328 RSC .
+From Soup: 111 S. Fang, L. Yang, C. Wei, C. Peng, K. Tachibana and K. Kamijima, Electrochem. Commun. , 2007, 9 , 2696–2702 CrossRef CAS PubMed .
+ ###### 
+From cou.: 112 I. López-Martin, E. Burello, P. N. Davey, K. R. Seddon and G. Rothenberg, ChemPhysChem, 2007, 8, 690–695 CrossRef .
+From Soup: 112 E. I. Izgorodina, M. Forsyth and D. R. MacFarlane, Aust. J. Chem. , 2007, 60 , 15–20 CrossRef CAS .
+ ###### 
+From cou.: 113 S. Fang, L. Yang, C. Wei, C. Peng, K. Tachibana and K. Kamijima, Electrochem. Commun., 2007, 9, 2696–2702 CrossRef CAS PubMed .
+From Soup: 113 H. V. Spohr and G. N. Patey, J. Chem. Phys. , 2008, 129 , 064517 CrossRef CAS PubMed .
+ ###### 
+From cou.: 114 E. I. Izgorodina, M. Forsyth and D. R. MacFarlane, Aust. J. Chem., 2007, 60, 15–20 CrossRef CAS .
+From Soup: 114 H. V. Spohr and G. N. Patey, J. Chem. Phys. , 2009, 130 , 104506 CrossRef CAS PubMed .
+ ###### 
+From cou.: 115 H. V. Spohr and G. N. Patey, J. Chem. Phys., 2008, 129, 064517 CrossRef CAS PubMed .
+From Soup: 115 T. Yan, C. J. Burnham, M. G. Del Pópolo and G. A. Voth, J. Phys. Chem. B , 2004, 108 , 11877–11881 CrossRef CAS .
+ ###### 
+From cou.: 116 H. V. Spohr and G. N. Patey, J. Chem. Phys., 2009, 130, 104506 CrossRef CAS PubMed .
+From Soup: 116 S. Zahn, F. Uhlig, J. Thar, C. Spickermann and B. Kirchner, Angew. Chem., Int. Ed. , 2008, 47 , 3639–3641 CrossRef CAS PubMed .
+ ###### 
+From cou.: 117 T. Yan, C. J. Burnham, M. G. Del Pópolo and G. A. Voth, J. Phys. Chem. B, 2004, 108, 11877–11881 CrossRef CAS .
+From Soup: 117 S. Zahn, G. Bruns, J. Thar and B. Kirchner, Phys. Chem. Chem. Phys. , 2008, 10 , 6921–6924 RSC .
+ ###### 
+From cou.: 118 S. Zahn, F. Uhlig, J. Thar, C. Spickermann and B. Kirchner, Angew. Chem., Int. Ed., 2008, 47, 3639–3641 CrossRef CAS PubMed .
+From Soup: 118 U. L. Bernard, E. I. Izgorodina and D. R. MacFarlane, J. Phys. Chem. C , 2010, 114 , 20472–20478 CAS .
+ ###### 
+From cou.: 119 S. Zahn, G. Bruns, J. Thar and B. Kirchner, Phys. Chem. Chem. Phys., 2008, 10, 6921–6924 RSC .
+From Soup: 119 P. A. Hunt, J. Phys. Chem. B , 2007, 111 , 4844–4853 CrossRef CAS PubMed .
+ ###### 
+From cou.: 120 U. L. Bernard, E. I. Izgorodina and D. R. MacFarlane, J. Phys. Chem. C, 2010, 114, 20472–20478 CAS .
+From Soup: 120 K. Fumino, A. Wulf and R. Ludwig, Angew. Chem., Int. Ed. , 2008, 47 , 8731–8734 CrossRef CAS PubMed .
+ ###### 
+From cou.: 121 P. A. Hunt, J. Phys. Chem. B, 2007, 111, 4844–4853 CrossRef CAS PubMed .
+From Soup: 121 K. Noack, P. S. Schulz, N. Paape, J. Kiefer, P. Wasserscheid and A. Leipertz, Phys. Chem. Chem. Phys. , 2010, 12 , 14153–14161 RSC .
+ ###### 
+From cou.: 122 K. Fumino, A. Wulf and R. Ludwig, Angew. Chem., Int. Ed., 2008, 47, 8731–8734 CrossRef CAS PubMed .
+From Soup: 122 E. I. Izgorodina, R. Maganti, V. Armel, P. M. Dean, J. M. Pringle, K. R. Seddon and D. R. Macfarlane, J. Phys. Chem. B , 2011, 115 , 14688–14697 CrossRef CAS PubMed .
+ ###### 
+From cou.: 123 K. Noack, P. S. Schulz, N. Paape, J. Kiefer, P. Wasserscheid and A. Leipertz, Phys. Chem. Chem. Phys., 2010, 12, 14153–14161 RSC .
+From Soup: 123 Y. Zhang and E. J. Maginn, Phys. Chem. Chem. Phys. , 2012, 14 , 12157–12164 RSC .
+ ###### 
+From cou.: 124 E. I. Izgorodina, R. Maganti, V. Armel, P. M. Dean, J. M. Pringle, K. R. Seddon and D. R. Macfarlane, J. Phys. Chem. B, 2011, 115, 14688–14697 CrossRef CAS PubMed .
+From Soup: 124 P. A. Hunt, C. R. Ashworth and R. P. Matthews, Chem. Soc. Rev. , 2015, 44 , 1257–1288 RSC .
+ ###### 
+From cou.: 125 Y. Zhang and E. J. Maginn, Phys. Chem. Chem. Phys., 2012, 14, 12157–12164 RSC .
+From Soup: 125 S. Gabriel, Ber. Dtsch. Chem. Ges. , 1888, 21 , 566–575 CrossRef CAS PubMed .
+ ###### 
+From cou.: 126 P. A. Hunt, C. R. Ashworth and R. P. Matthews, Chem. Soc. Rev., 2015, 44, 1257–1288 RSC .
+From Soup: 126 S. D. Jones and G. E. Blomgren, J. Electrochem. Soc. , 1989, 136 , 424–427 CrossRef CAS PubMed .
+ ###### 
+From cou.: 127 S. Gabriel, Ber. Dtsch. Chem. Ges., 1888, 21, 566–575 CrossRef CAS PubMed .
+From Soup: 127 A. P. Abbott, G. Capper, D. L. Davies, H. L. Munro, R. K. Rasheed and V. Tambyrajah, Chem. Commun. , 2001, 2010–2011 RSC .
+ ###### 
+From cou.: 128 S. D. Jones and G. E. Blomgren, J. Electrochem. Soc., 1989, 136, 424–427 CrossRef CAS PubMed .
+From Soup: 128 J. Ropponen, M. Lahtinen, S. Busi, M. Nissinen, E. Kolehmainen and K. Rissanen, New J. Chem. , 2004, 28 , 1426–1430 CAS .
+ ###### 
+From cou.: 129 A. P. Abbott, G. Capper, D. L. Davies, H. L. Munro, R. K. Rasheed and V. Tambyrajah, Chem. Commun., 2001, 2010–2011 RSC .
+From Soup: 129 T. L. Greaves and C. J. Drummond, Chem. Rev. , 2008, 108 , 206–237 CrossRef CAS PubMed .
+ ###### 
+From cou.: 130 J. Ropponen, M. Lahtinen, S. Busi, M. Nissinen, E. Kolehmainen and K. Rissanen, New J. Chem., 2004, 28, 1426–1430 CAS .
+From Soup: 130 T. Ramnial, D. D. Ino and J. A. C. Clyburne, Chem. Commun. , 2005, 325–327 RSC .
+ ###### 
+From cou.: 131 T. L. Greaves and C. J. Drummond, Chem. Rev., 2008, 108, 206–237 CrossRef CAS PubMed .
+From Soup: 131 R. E. Del Sesto, C. Corley, A. Robertson and J. S. Wilkes, J. Organomet. Chem. , 2005, 690 , 2536–2542 CrossRef CAS PubMed .
+ ###### 
+From cou.: 132 T. Ramnial, D. D. Ino and J. A. C. Clyburne, Chem. Commun., 2005, 325–327 RSC .
+From Soup: 132 J. McNulty, J. J. Nair, S. Cheekoori, V. Larichev, A. Capretta and A. J. Robertson, Chem. – Eur. J. , 2006, 12 , 9314–9322 CrossRef CAS PubMed .
+ ###### 
+From cou.: 133 R. E. Del Sesto, C. Corley, A. Robertson and J. S. Wilkes, J. Organomet. Chem., 2005, 690, 2536–2542 CrossRef CAS PubMed .
+From Soup: 133 P. G. Rickert, M. R. Antonio, M. A. Firestone, K.-A. Kubatko, T. Szreder, J. F. Wishart and M. L. Dietz, J. Phys. Chem. B , 2007, 111 , 4685–4692 CrossRef CAS PubMed .
+ ###### 
+From cou.: 134 J. McNulty, J. J. Nair, S. Cheekoori, V. Larichev, A. Capretta and A. J. Robertson, Chem. – Eur. J., 2006, 12, 9314–9322 CrossRef CAS PubMed .
+From Soup: 134 K. Tsunashima, E. Niwa, S. Kodama, M. Sugiya and Y. Ono, J. Phys. Chem. B , 2009, 113 , 15870–15874 CrossRef CAS PubMed .
+ ###### 
+From cou.: 135 P. G. Rickert, M. R. Antonio, M. A. Firestone, K.-A. Kubatko, T. Szreder, J. F. Wishart and M. L. Dietz, J. Phys. Chem. B, 2007, 111, 4685–4692 CrossRef CAS PubMed .
+From Soup: 135 K. J. Fraser and D. R. MacFarlane, Aust. J. Chem. , 2009, 62 , 309–321 CrossRef CAS .
+ ###### 
+From cou.: 136 K. Tsunashima, E. Niwa, S. Kodama, M. Sugiya and Y. Ono, J. Phys. Chem. B, 2009, 113, 15870–15874 CrossRef CAS PubMed .
+From Soup: 136 K. Tsunashima, A. Kawabata, M. Matsumiya, S. Kodama, R. Enomoto, M. Sugiya and Y. Kunugi, Electrochem. Commun. , 2011, 13 , 178–181 CrossRef CAS PubMed .
+ ###### 
+From cou.: 137 K. J. Fraser and D. R. MacFarlane, Aust. J. Chem., 2009, 62, 309–321 CrossRef CAS .
+From Soup: 137 V. Armel, D. Velayutham, J. Sun, P. C. Howlett, M. Forsyth, D. R. MacFarlane and J. M. Pringle, J. Mater. Chem. , 2011, 21 , 7640–7650 RSC .
+ ###### 
+From cou.: 138 K. Tsunashima, A. Kawabata, M. Matsumiya, S. Kodama, R. Enomoto, M. Sugiya and Y. Kunugi, Electrochem. Commun., 2011, 13, 178–181 CrossRef CAS PubMed .
+From Soup: 138 U. A. Rana, R. Vijayaraghavan, M. Walther, J. Sun, A. A. J. Torriero, M. Forsyth and D. R. MacFarlane, Chem. Commun. , 2011, 47 , 11612–11614 RSC .
+ ###### 
+From cou.: 139 V. Armel, D. Velayutham, J. Sun, P. C. Howlett, M. Forsyth, D. R. MacFarlane and J. M. Pringle, J. Mater. Chem., 2011, 21, 7640–7650 RSC .
+From Soup: 139 J. Kagimoto, K. Fukumoto and H. Ohno, Chem. Commun. , 2006, 2254–2256 RSC .
+ ###### 
+From cou.: 140 U. A. Rana, R. Vijayaraghavan, M. Walther, J. Sun, A. A. J. Torriero, M. Forsyth and D. R. MacFarlane, Chem. Commun., 2011, 47, 11612–11614 RSC .
+From Soup: 140 J. A. Vega, J. Zhou and P. A. Kohl, J. Electrochem. Soc. , 2009, 156 , A253–A259 CrossRef CAS PubMed .
+ ###### 
+From cou.: 141 J. Kagimoto, K. Fukumoto and H. Ohno, Chem. Commun., 2006, 2254–2256 RSC .
+From Soup: 141 K. Tsunashima, S. Kodama, M. Sugiya and Y. Kunugi, Electrochim. Acta , 2010, 56 , 762–766 CrossRef CAS PubMed .
+ ###### 
+From cou.: 142 J. A. Vega, J. Zhou and P. A. Kohl, J. Electrochem. Soc., 2009, 156, A253–A259 CrossRef CAS PubMed .
+From Soup: 142 K. Tsunashima and M. Sugiya, Electrochem. Commun. , 2007, 9 , 2353–2358 CrossRef CAS PubMed .
+ ###### 
+From cou.: 143 K. Tsunashima, S. Kodama, M. Sugiya and Y. Kunugi, Electrochim. Acta, 2010, 56, 762–766 CrossRef CAS PubMed .
+From Soup: 143 K. Tsunashima and M. Sugiya, Electrochemistry , 2007, 75 , 734–736 CrossRef CAS PubMed .
+ ###### 
+From cou.: 144 K. Tsunashima and M. Sugiya, Electrochem. Commun., 2007, 9, 2353–2358 CrossRef CAS PubMed .
+From Soup: 144 S. Seki, K. Hayamizu, S. Tsuzuki, K. Fujii, Y. Umebayashi, T. Mitsugi, T. Kobayashi, Y. Ohno, Y. Kobayashi, Y. Mita, H. Miyashiro and S. Ishiguro, Phys. Chem. Chem. Phys. , 2009, 11 , 3509–3514 RSC .
+ ###### 
+From cou.: 145 K. Tsunashima and M. Sugiya, Electrochemistry, 2007, 75, 734–736 CrossRef CAS PubMed .
+From Soup: 145 H. Shirota, H. Fukazawa, T. Fujisawa and J. F. Wishart, J. Phys. Chem. B , 2010, 114 , 9400–9412 CrossRef CAS PubMed .
+ ###### 
+From cou.: 146 S. Seki, K. Hayamizu, S. Tsuzuki, K. Fujii, Y. Umebayashi, T. Mitsugi, T. Kobayashi, Y. Ohno, Y. Kobayashi, Y. Mita, H. Miyashiro and S. Ishiguro, Phys. Chem. Chem. Phys., 2009, 11, 3509–3514 RSC .
+From Soup: 146 K. Tsunashima, M. Fukushima and M. Matsumiya, Electrochemistry , 2012, 80 , 904–906 CrossRef CAS PubMed .
+ ###### 
+From cou.: 147 H. Shirota, H. Fukazawa, T. Fujisawa and J. F. Wishart, J. Phys. Chem. B, 2010, 114, 9400–9412 CrossRef CAS PubMed .
+From Soup: 147 P. J. Carvalho, S. P. M. Ventura, M. L. S. Batista, B. Schröder, F. Gonçalves, J. Esperança, F. Mutelet and J. A. P. Coutinho, J. Chem. Phys. , 2014, 140 , 064505 CrossRef PubMed .
+ ###### 
+From cou.: 148 K. Tsunashima, M. Fukushima and M. Matsumiya, Electrochemistry, 2012, 80, 904–906 CrossRef CAS PubMed .
+From Soup: 148 ORCA-An ab initio, DFT and semiempirical SCF-MO package .
+ ###### 
+From cou.: 149 P. J. Carvalho, S. P. M. Ventura, M. L. S. Batista, B. Schröder, F. Gonçalves, J. Esperança, F. Mutelet and J. A. P. Coutinho, J. Chem. Phys., 2014, 140, 064505 CrossRef PubMed .
+From Soup: 149 J. Tao, J. P. Perdew, V. N. Staroverov and G. E. Scuseria, Phys. Rev. Lett. , 2003, 91 , 146401 CrossRef .
+ ###### 
+From cou.: 150 ORCA-An ab initio, DFT and semiempirical SCF-MO package .
+From Soup: 150 S. Kossmann, B. Kirchner and F. Neese, Mol. Phys. , 2007, 105 , 2049–2071 CrossRef CAS PubMed .
+ ###### 
+From cou.: 151 J. Tao, J. P. Perdew, V. N. Staroverov and G. E. Scuseria, Phys. Rev. Lett., 2003, 91, 146401 CrossRef .
+From Soup: 151 S. Grimme, J. Antony, S. Ehrlich and H. Krieg, J. Chem. Phys. , 2010, 132 , 154104 CrossRef PubMed .
+ ###### 
+From cou.: 152 S. Kossmann, B. Kirchner and F. Neese, Mol. Phys., 2007, 105, 2049–2071 CrossRef CAS PubMed .
+From Soup: 152 W. J. Hehre, R. Ditchfield and J. A. Pople, J. Chem. Phys. , 1972, 56 , 2257–2261 CrossRef CAS PubMed .
+ ###### 
+From cou.: 153 S. Grimme, J. Antony, S. Ehrlich and H. Krieg, J. Chem. Phys., 2010, 132, 154104 CrossRef PubMed .
+From Soup: 153 M. M. Francl, W. J. Pietro, W. J. Hehre, J. S. Binkley, M. S. Gordon, D. J. DeFrees and J. A. Pople, J. Chem. Phys. , 1982, 77 , 3654–3665 CrossRef CAS PubMed .
+ ###### 
+From cou.: 154 W. J. Hehre, R. Ditchfield and J. A. Pople, J. Chem. Phys., 1972, 56, 2257–2261 CrossRef CAS PubMed .
+From Soup: 154 M. G. Del Pópolo, C. Pinilla and P. Ballone, J. Chem. Phys. , 2007, 126 , 144705 CrossRef PubMed .
+ ###### 
+From cou.: 155 M. M. Francl, W. J. Pietro, W. J. Hehre, J. S. Binkley, M. S. Gordon, D. J. DeFrees and J. A. Pople, J. Chem. Phys., 1982, 77, 3654–3665 CrossRef CAS PubMed .
+From Soup: 155 S. Zahn and B. Kirchner, J. Phys. Chem. A , 2008, 112 , 8430–8435 CrossRef CAS PubMed .
+ ###### 
+From cou.: 156 M. G. Del Pópolo, C. Pinilla and P. Ballone, J. Chem. Phys., 2007, 126, 144705 CrossRef PubMed .
+From Soup: 156 E. I. Izgorodina, U. L. Bernard and D. R. MacFarlane, J. Phys. Chem. A , 2009, 113 , 7064–7072 CrossRef CAS PubMed .
+ ###### 
+From cou.: 157 S. Zahn and B. Kirchner, J. Phys. Chem. A, 2008, 112, 8430–8435 CrossRef CAS PubMed .
+From Soup: 157 J. Kohanoff, C. Pinilla, T. G. A. Youngs, E. Artacho and J. M. Soler, J. Chem. Phys. , 2011, 135 , 154505 CrossRef PubMed .
+ ###### 
+From cou.: 158 E. I. Izgorodina, U. L. Bernard and D. R. MacFarlane, J. Phys. Chem. A, 2009, 113, 7064–7072 CrossRef CAS PubMed .
+From Soup: 158 S. Grimme, W. Hujo and B. Kirchner, Phys. Chem. Chem. Phys. , 2012, 14 , 4875–4883 RSC .
+ ###### 
+From cou.: 159 J. Kohanoff, C. Pinilla, T. G. A. Youngs, E. Artacho and J. M. Soler, J. Chem. Phys., 2011, 135, 154505 CrossRef PubMed .
+From Soup: 159 S. Zahn, D. R. MacFarlane and E. I. Izgorodina, Phys. Chem. Chem. Phys. , 2013, 15 , 13664–13675 RSC .
+ ###### 
+From cou.: 160 S. Grimme, W. Hujo and B. Kirchner, Phys. Chem. Chem. Phys., 2012, 14, 4875–4883 RSC .
+From Soup: 160 R. Ahlrichs, M. Bär, M. Häser, H. Horn and C. Kölmel, Chem. Phys. Lett. , 1989, 162 , 165–169 CrossRef CAS .
+ ###### 
+From cou.: 161 S. Zahn, D. R. MacFarlane and E. I. Izgorodina, Phys. Chem. Chem. Phys., 2013, 15, 13664–13675 RSC .
+From Soup: 161 A. E. Reed, R. B. Weinstock and F. Weinhold, J. Chem. Phys. , 1985, 83 , 735–746 CrossRef CAS PubMed .
+ ###### 
+From cou.: 162 R. Ahlrichs, M. Bär, M. Häser, H. Horn and C. Kölmel, Chem. Phys. Lett., 1989, 162, 165–169 CrossRef CAS .
+From Soup: 162 C. Ehrhardt and R. Ahlrichs, Theor. Chim. Acta , 1985, 68 , 231–245 CrossRef CAS .
+ ###### 
+From cou.: 163 A. E. Reed, R. B. Weinstock and F. Weinhold, J. Chem. Phys., 1985, 83, 735–746 CrossRef CAS PubMed .
+From Soup: 163 E. J. Baerends, D. E. Ellis and P. Ros, Chem. Phys. , 1973, 2 , 41–51 CrossRef CAS .
+ ###### 
+From cou.: 164 C. Ehrhardt and R. Ahlrichs, Theor. Chim. Acta, 1985, 68, 231–245 CrossRef CAS .
+From Soup: 164 B. I. Dunlap, J. W. D. Connolly and J. R. Sabin, J. Chem. Phys. , 1979, 71 , 3396–3402 CrossRef CAS PubMed .
+ ###### 
+From cou.: 165 E. J. Baerends, D. E. Ellis and P. Ros, Chem. Phys., 1973, 2, 41–51 CrossRef CAS .
+From Soup: 165 F. Weigend, Phys. Chem. Chem. Phys. , 2006, 8 , 1057–1065 RSC .
+ ###### 
+From cou.: 166 B. I. Dunlap, J. W. D. Connolly and J. R. Sabin, J. Chem. Phys., 1979, 71, 3396–3402 CrossRef CAS PubMed .
+From Soup: 166 C. I. Bayly, P. Cieplak, W. D. Cornell and P. A. Kollman, J. Phys. Chem. , 1993, 97 , 10269–10280 CrossRef CAS .
+ ###### 
+From cou.: 167 F. Weigend, Phys. Chem. Chem. Phys., 2006, 8, 1057–1065 RSC .
+From Soup: 167 S. Plimpton, J. Comp. Physiol. , 1995, 117 , 1–19 CAS .
+ ###### 
+From cou.: 168 C. I. Bayly, P. Cieplak, W. D. Cornell and P. A. Kollman, J. Phys. Chem., 1993, 97, 10269–10280 CrossRef CAS .
+From Soup: 168 S. Gabl, C. Schröder and O. Steinhauser, J. Chem. Phys. , 2012, 137 , 094501 CrossRef PubMed .
+ ###### 
+From cou.: 169 S. Plimpton, J. Comp. Physiol., 1995, 117, 1–19 CAS .
+From Soup: 169 S. Nosé, J. Chem. Phys. , 1984, 81 , 511–519 CrossRef PubMed .
+ ###### 
+From cou.: 170 S. Gabl, C. Schröder and O. Steinhauser, J. Chem. Phys., 2012, 137, 094501 CrossRef PubMed .
+From Soup: 170 W. G. Hoover, Phys. Rev. A: At., Mol., Opt. Phys. , 1985, 31 , 1695–1697 CrossRef .
+ ###### 
+From cou.: 171 S. Nosé, J. Chem. Phys., 1984, 81, 511–519 CrossRef PubMed .
+From Soup: 171 G. J. Martyna, M. L. Klein and M. Tuckerman, J. Chem. Phys. , 1992, 97 , 2635–2643 CrossRef PubMed .
+ ###### 
+From cou.: 172 W. G. Hoover, Phys. Rev. A: At., Mol., Opt. Phys., 1985, 31, 1695–1697 CrossRef .
+From Soup: 172 M. Del Pópolo and G. Voth, J. Phys. Chem. B , 2004, 108 , 1744–1752 CrossRef .
+ ###### 
+From cou.: 173 G. J. Martyna, M. L. Klein and M. Tuckerman, J. Chem. Phys., 1992, 97, 2635–2643 CrossRef PubMed .
+From Soup: 173 J.-P. Ryckaert, G. Ciccotti and H. J. C. Berendsen, J. Comput. Phys. , 1977, 23 , 327–341 CrossRef CAS .
+ ###### 
+From cou.: 174 M. Del Pópolo and G. Voth, J. Phys. Chem. B, 2004, 108, 1744–1752 CrossRef .
+From Soup: 174 R. W. Hockney and J. W. Eastwood, Computer Simulation Using Particles , McGraw-Hill, 1981 Search PubMed .
+ ###### 
+From cou.: 175 J.-P. Ryckaert, G. Ciccotti and H. J. C. Berendsen, J. Comput. Phys., 1977, 23, 327–341 CrossRef CAS .
+From Soup: 175 M. Brehm and B. Kirchner, J. Chem. Inf. Model. , 2011, 51 , 2007–2023 CrossRef CAS PubMed .
+ ###### 
+From cou.: 176 R. W. Hockney and J. W. Eastwood, Computer Simulation Using Particles, McGraw-Hill, 1981 Search PubMed .
+From Soup: 176 W. D. Cornell, P. Cieplak, C. I. Bayly, I. R. Gould, K. M. Merz, D. M. Ferguson, D. C. Spellmeyer, T. Fox, J. W. Caldwell and P. A. Kollman, J. Am. Chem. Soc. , 1995, 117 , 5179 CrossRef CAS .
+ ###### 
+From cou.: 177 M. Brehm and B. Kirchner, J. Chem. Inf. Model., 2011, 51, 2007–2023 CrossRef CAS PubMed .
+From Soup: 177 W. L. Jorgensen, D. S. Maxwell and J. Tirado-Rives, J. Am. Chem. Soc. , 1996, 118 , 11225–11236 CrossRef CAS .
+ ###### 
+From cou.: 178 W. D. Cornell, P. Cieplak, C. I. Bayly, I. R. Gould, K. M. Merz, D. M. Ferguson, D. C. Spellmeyer, T. Fox, J. W. Caldwell and P. A. Kollman, J. Am. Chem. Soc., 1995, 117, 5179 CrossRef CAS .
+From Soup: 178 J. N. Canongia Lopes, J. Deschamps and A. A. H. Pádua, J. Phys. Chem. B , 2004, 108 , 2038–2047 CrossRef .
+ ###### 
+From cou.: 179 W. L. Jorgensen, D. S. Maxwell and J. Tirado-Rives, J. Am. Chem. Soc., 1996, 118, 11225–11236 CrossRef CAS .
+From Soup: 179 J. N. Canongia Lopes, J. Deschamps and A. A. H. Pádua, J. Phys. Chem. B , 2004, 108 , 11250 CrossRef .
+ ###### 
+From cou.: 180 J. N. Canongia Lopes, J. Deschamps and A. A. H. Pádua, J. Phys. Chem. B, 2004, 108, 2038–2047 CrossRef .
+From Soup: 180 J. N. Canongia Lopes and A. A. H. Pádua, J. Phys. Chem. B , 2006, 110 , 19586–19592 CrossRef CAS PubMed .
+ ###### 
+From cou.: 181 J. N. Canongia Lopes, J. Deschamps and A. A. H. Pádua, J. Phys. Chem. B, 2004, 108, 11250 CrossRef .
+From Soup: 181 R. K. Blundell and P. Licence, Phys. Chem. Chem. Phys. , 2014, 16 , 15278–15288 RSC .
+ ###### 
+From cou.: 182 J. N. Canongia Lopes and A. A. H. Pádua, J. Phys. Chem. B, 2006, 110, 19586–19592 CrossRef CAS PubMed .
+From Soup: 182 B. L. Bhargava and S. Balasubramanian, J. Chem. Phys. , 2007, 127 , 114510 CrossRef CAS PubMed .
+ ###### 
+From cou.: 183 R. K. Blundell and P. Licence, Phys. Chem. Chem. Phys., 2014, 16, 15278–15288 RSC .
+From Soup: 183 W. Zhao, H. Eslami, W. L. Cavalcanti and F. Müller-Plathe, Z. Phys. Chem. , 2007, 221 , 1647–1662 CrossRef CAS .
+ ###### 
+From cou.: 184 B. L. Bhargava and S. Balasubramanian, J. Chem. Phys., 2007, 127, 114510 CrossRef CAS PubMed .
+From Soup: 184 T. G. A. Youngs and C. Hardacre, ChemPhysChem , 2008, 9 , 1548–1558 CrossRef CAS PubMed .
+ ###### 
+From cou.: 185 W. Zhao, H. Eslami, W. L. Cavalcanti and F. Müller-Plathe, Z. Phys. Chem., 2007, 221, 1647–1662 CrossRef CAS .
+From Soup: 185 M. Kohagen, M. Brehm, Y. Lingscheid, R. Giernoth, J. Sangoro, F. Kremer, S. Naumov, C. Iacob, J. Kärger, R. Valiullin and B. Kirchner, J. Phys. Chem. B , 2011, 115 , 15280–15288 CrossRef CAS PubMed .
+ ###### 
+From cou.: 186 T. G. A. Youngs and C. Hardacre, ChemPhysChem, 2008, 9, 1548–1558 CrossRef CAS PubMed .
+From Soup: 186 S. Zahn and B. Kirchner, Chem. Modell. , 2012, 9 , 1–24 CAS .
+ ###### 
+From cou.: 187 M. Kohagen, M. Brehm, Y. Lingscheid, R. Giernoth, J. Sangoro, F. Kremer, S. Naumov, C. Iacob, J. Kärger, R. Valiullin and B. Kirchner, J. Phys. Chem. B, 2011, 115, 15280–15288 CrossRef CAS PubMed .
+From Soup: 187 O. Hollóczki, F. Malberg, T. Welton and B. Kirchner, Phys. Chem. Chem. Phys. , 2014, 16 , 16880–16890 RSC .
+ ###### 
+From cou.: 188 S. Zahn and B. Kirchner, Chem. Modell., 2012, 9, 1–24 CAS .
+From Soup: 188 H. Liu and E. Maginn, J. Chem. Phys. , 2011, 135 , 124507 CrossRef PubMed .
+ ###### 
+From cou.: 189 O. Hollóczki, F. Malberg, T. Welton and B. Kirchner, Phys. Chem. Chem. Phys., 2014, 16, 16880–16890 RSC .
+From Soup: 189 A. Einstein, Ann. Phys. , 1905, 17 , 549–560 CrossRef CAS PubMed .
+ ###### 
+From cou.: 190 H. Liu and E. Maginn, J. Chem. Phys., 2011, 135, 124507 CrossRef PubMed .
+From Soup: 190 Y. Wang and G. A. Voth, J. Am. Chem. Soc. , 2005, 127 , 12192–12193 CrossRef CAS PubMed .
+ ###### 
+From cou.: 191 A. Einstein, Ann. Phys., 1905, 17, 549–560 CrossRef CAS PubMed .
+From Soup: 191 J. Canongia Lopes and A. Pádua, J. Phys. Chem. B , 2006, 110 , 3330–3335 CrossRef CAS PubMed .
+ ###### 
+From cou.: 192 Y. Wang and G. A. Voth, J. Am. Chem. Soc., 2005, 127, 12192–12193 CrossRef CAS PubMed .
+From Soup: 192 A. Triolo, O. Russina, H.-J. Bleif and E. Di Cola, J. Phys. Chem. B , 2007, 111 , 4641–4644 CrossRef CAS PubMed .
+ ###### 
+From cou.: 193 J. Canongia Lopes and A. Pádua, J. Phys. Chem. B, 2006, 110, 3330–3335 CrossRef CAS PubMed .
+From Soup: 193 H. Y. Lee, H. Shirota and E. W. Castner, J. Phys. Chem. Lett. , 2013, 4 , 1477–1483 CrossRef CAS .
+ ###### 
+From cou.: 194 A. Triolo, O. Russina, H.-J. Bleif and E. Di Cola, J. Phys. Chem. B, 2007, 111, 4641–4644 CrossRef CAS PubMed .
+From Soup: 194 K. J. Fraser, E. I. Izgorodina, M. Forsyth, J. L. Scott and D. R. MacFarlane, Chem. Commun. , 2007, 3817–3819 RSC .
+ ###### 
+From cou.: 195 H. Y. Lee, H. Shirota and E. W. Castner, J. Phys. Chem. Lett., 2013, 4, 1477–1483 CrossRef CAS .
+From Soup: 195 H. V. Spohr and G. N. Patey, J. Chem. Phys. , 2010, 132 , 154504 CrossRef PubMed .
+ ###### 
+From cou.: 196 K. J. Fraser, E. I. Izgorodina, M. Forsyth, J. L. Scott and D. R. MacFarlane, Chem. Commun., 2007, 3817–3819 RSC .
+From Soup: 196 A. Rupp, N. Roznyatovskaya, H. Scherer, W. Beichel, P. Klose, C. Sturm, A. Hoffmann, J. Tübke, T. Koslowski and I. Krossing, Chem. – Eur. J. , 2014, 20 , 9794–9804 CrossRef CAS PubMed .
+ ###### 
+From cou.: 197 H. V. Spohr and G. N. Patey, J. Chem. Phys., 2010, 132, 154504 CrossRef PubMed .
+From Soup: 197 R. Lü, J. Lin, Y. Lu and D. Liu, Chem. Phys. Lett. , 2014, 597 , 114–120 CrossRef PubMed .
+ ###### 
+From cou.: 198 A. Rupp, N. Roznyatovskaya, H. Scherer, W. Beichel, P. Klose, C. Sturm, A. Hoffmann, J. Tübke, T. Koslowski and I. Krossing, Chem. – Eur. J., 2014, 20, 9794–9804 CrossRef CAS PubMed .
+From Soup: 198 A. F. Holleman, E. Wiberg and N. Wiberg, Lehrbuch der Anorganischen Chemie , de Gruyter, 1995 Search PubMed .
+ ###### 
+From cou.: 199 R. Lü, J. Lin, Y. Lu and D. Liu, Chem. Phys. Lett., 2014, 597, 114–120 CrossRef PubMed .
+From Soup: 199 R. M. Lynden-Bell and T. G. A. Youngs, J. Phys.: Condens. Matter , 2009, 21 , 424120 CrossRef CAS PubMed .
+ ###### 
+From cou.: 200 A. F. Holleman, E. Wiberg and N. Wiberg, Lehrbuch der Anorganischen Chemie, de Gruyter, 1995 Search PubMed .
+From Soup: 200 M. Kohagen, M. Brehm, J. Thar, W. Zhao, F. Müller-Plathe and B. Kirchner, J. Phys. Chem. B , 2011, 115 , 693–702 CrossRef CAS PubMed .
+ ###### 
+From cou.: 201 R. M. Lynden-Bell and T. G. A. Youngs, J. Phys.: Condens. Matter, 2009, 21, 424120 CrossRef CAS PubMed .
+From Soup: 201 H. Stegemann, A. Rohde, A. Reiche, A. Schnittke and H. Füllbier, Electrochim. Acta , 1992, 37 , 379–383 CrossRef CAS .
+ ###### 
+From cou.: 202 M. Kohagen, M. Brehm, J. Thar, W. Zhao, F. Müller-Plathe and B. Kirchner, J. Phys. Chem. B, 2011, 115, 693–702 CrossRef CAS PubMed .
+From Soup: 202 K. C. Lethesh, K. Van Hecke, L. Van Meervelt, P. Nockemann, B. Kirchner, S. Zahn, T. N. Parac-Vogt, W. Dehaen and K. Binnemans, J. Phys. Chem. B , 2011, 115 , 8424–8438 CrossRef CAS PubMed .
+ ###### 
+From cou.: 203 H. Stegemann, A. Rohde, A. Reiche, A. Schnittke and H. Füllbier, Electrochim. Acta, 1992, 37, 379–383 CrossRef CAS .
+From Soup: 203 J. Leys, C. S. P. Tripathi, C. Glorieux, S. Zahn, B. Kirchner, S. Longuemart, K. C. Lethesh, P. Nockemann, W. Dehaen and K. Binnemans, Phys. Chem. Chem. Phys. , 2014, 16 , 10548–10557 RSC .
+ ###### 
+From cou.: 204 K. C. Lethesh, K. Van Hecke, L. Van Meervelt, P. Nockemann, B. Kirchner, S. Zahn, T. N. Parac-Vogt, W. Dehaen and K. Binnemans, J. Phys. Chem. B, 2011, 115, 8424–8438 CrossRef CAS PubMed .
+From Soup: 204 M. Goldstein, J. Chem. Phys. , 1969, 51 , 3728–3739 CrossRef CAS PubMed .
+ ###### 
+From cou.: 205 J. Leys, C. S. P. Tripathi, C. Glorieux, S. Zahn, B. Kirchner, S. Longuemart, K. C. Lethesh, P. Nockemann, W. Dehaen and K. Binnemans, Phys. Chem. Chem. Phys., 2014, 16, 10548–10557 RSC .
+From Soup: 205 A. Angell, Nature , 1998, 393 , 521–524 CrossRef CAS .
+ ###### 
+From cou.: 206 M. Goldstein, J. Chem. Phys., 1969, 51, 3728–3739 CrossRef CAS PubMed .
+From Soup: 206 S. Sastry, P. G. Debenedetti and F. H. Stillinger, Nature , 1998, 393 , 554–557 CrossRef CAS .
+ ###### 
+From cou.: 207 A. Angell, Nature, 1998, 393, 521–524 CrossRef CAS .
+From Soup: 207 P. G. Debenedetti and F. H. Stillinger, Nature , 2001, 410 , 259–267 CrossRef CAS PubMed .
+ ###### 
+From cou.: 208 S. Sastry, P. G. Debenedetti and F. H. Stillinger, Nature, 1998, 393, 554–557 CrossRef CAS .
+From Soup: 208 S. I. Lall-Ramnarine, J. A. Mukhlall, J. F. Wishart, R. R. Engel, A. R. Romeo, M. Gohdo, S. Ramati, M. Berman and S. N. Suarez, Beilstein J. Org. Chem. , 2014, 10 , 271–275 CrossRef PubMed .
+ ###### 
+From cou.: 209 P. G. Debenedetti and F. H. Stillinger, Nature, 2001, 410, 259–267 CrossRef CAS PubMed .
+From Soup: 209 H. Tokuda, K. Ishii, M. A. B. H. Susan, S. Tsuzuki, K. Hayamizu and M. Watanabe, J. Phys. Chem. B , 2006, 110 , 2833–2839 CrossRef CAS PubMed .
+ ###### 
+From cou.: 210 S. I. Lall-Ramnarine, J. A. Mukhlall, J. F. Wishart, R. R. Engel, A. R. Romeo, M. Gohdo, S. Ramati, M. Berman and S. N. Suarez, Beilstein J. Org. Chem., 2014, 10, 271–275 CrossRef PubMed .
+From Soup: 210 F. F. Bazito, Y. Kawano and R. M. Torresi, Electrochim. Acta , 2007, 52 , 6427–6437 CrossRef CAS PubMed .
+ ###### 
+From cou.: 211 H. Tokuda, K. Ishii, M. A. B. H. Susan, S. Tsuzuki, K. Hayamizu and M. Watanabe, J. Phys. Chem. B, 2006, 110, 2833–2839 CrossRef CAS PubMed .
+From cou.: 212 F. F. Bazito, Y. Kawano and R. M. Torresi, Electrochim. Acta, 2007, 52, 6427–6437 CrossRef CAS PubMed .

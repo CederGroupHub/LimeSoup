@@ -1,0 +1,294 @@
+From cou.: 0 Journal
+From Soup: 0 React. Chem. Eng.
+ ###### 
+From cou.: 1 The three-phase hydrogenation of 2-methyl-3-butyn-2-ol has been studied over a Pd/ZnO catalyst. A Langmuir–Hinshelwood mechanism was applied assuming noncompetitive adsorption between hydrogen and organic molecules on the catalyst active sites. All experimental runs used for the modeling have been obtained in the intrinsic kinetic regime in order to exclude any mass transfer limitation. An optimization procedure allowed the estimation of the kinetic and adsorption parameters governing the process. The results revealed that the proposed model accurately describes the behavior of the system in the typical operating ranges of industrial reactors. The performance of the catalyst in terms of selectivity to 2-methyl-3-buten-2-ol and initial activity is found to be higher compared with that of a commercial Lindlar catalyst under the same operating conditions. The mathematical model, successfully validated, is able to accurately predict the selectivity of the process.
+From Soup: 1 The three-phase hydrogenation of 2-methyl-3-butyn-2-ol has been studied over a Pd/ZnO catalyst. A Langmuir–Hinshelwood mechanism was applied assuming noncompetitive adsorption between hydrogen and organic molecules on the catalyst active sites. All experimental runs used for the modeling have been obtained in the intrinsic kinetic regime in order to exclude any mass transfer limitation. An optimization procedure allowed the estimation of the kinetic and adsorption parameters governing the process. The results revealed that the proposed model accurately describes the behavior of the system in the typical operating ranges of industrial reactors. The performance of the catalyst in terms of selectivity to 2-methyl-3-buten-2-ol and initial activity is found to be higher compared with that of a commercial Lindlar catalyst under the same operating conditions. The mathematical model, successfully validated, is able to accurately predict the selectivity of the process.
+ ###### 
+From cou.: 2 Catalytic hydrogenations of acetylenic alcohols to alkenols are carried out in industry to produce fine chemicals and intermediate products.1 One example is the hydrogenation of 2-methyl-3-butyn-2-ol (MBY) to 2-methyl-3-buten-2-ol (MBE), a key product in the manufacture of vitamins and aroma compounds.2,3
+From Soup: 2 Catalytic hydrogenations of acetylenic alcohols to alkenols are carried out in industry to produce fine chemicals and intermediate products. 1 One example is the hydrogenation of 2-methyl-3-butyn-2-ol (MBY) to 2-methyl-3-buten-2-ol (MBE), a key product in the manufacture of vitamins and aroma compounds. 2,3
+ ###### 
+From cou.: 3 The reaction pathway of MBY hydrogenation is presented in Scheme 1. The selectivity of this process to MBE is affected by the over-hydrogenation reaction to 2-methyl-2-butanol (MBA) and by the formation of dimeric C10 products.
+From Soup: 3 The reaction pathway of MBY hydrogenation is presented in Scheme 1 . The selectivity of this process to MBE is affected by the over-hydrogenation reaction to 2-methyl-2-butanol (MBA) and by the formation of dimeric C 10 products.
+ ###### 
+From cou.: 4 The industrial hydrogenation of MBY is conventionally conducted in slurry reactors with Lindlar catalyst, a 5 wt% Pd/CaCO3 powdered catalyst modified by lead.4
+From Soup: 4 The industrial hydrogenation of MBY is conventionally conducted in slurry reactors with Lindlar catalyst, a 5 wt% Pd/CaCO 3 powdered catalyst modified by lead. 4
+ ###### 
+From cou.: 5 High selectivities to MBE are required due to the difficulties in separation of the mixture MBE/MBA.2 A typical approach to enhance the selectivity of the reaction to MBE is the addition of nitrogen-based modifiers (e.g. quinoline, pyridine, ammonia).5 These electron donor compounds inhibit alkene surface interactions due to their preferential adsorption on the surface of the catalyst.6 However, this incorporation requires further process steps, such as separation, resulting in additional costs.
+From Soup: 5 High selectivities to MBE are required due to the difficulties in separation of the mixture MBE/MBA. 2 A typical approach to enhance the selectivity of the reaction to MBE is the addition of nitrogen-based modifiers ( e.g. quinoline, pyridine, ammonia). 5 These electron donor compounds inhibit alkene surface interactions due to their preferential adsorption on the surface of the catalyst. 6 However, this incorporation requires further process steps, such as separation, resulting in additional costs.
+ ###### 
+From cou.: 6 Alternative approaches have mostly been directed on catalyst modifications. Bimetallic catalysts, for example, are known to improve olefin selectivity during alkyne hydrogenations.7,8
+From Soup: 6 Alternative approaches have mostly been directed on catalyst modifications. Bimetallic catalysts, for example, are known to improve olefin selectivity during alkyne hydrogenations. 7,8
+ ###### 
+From cou.: 7 Zinc, in particular, is known to act as a promoter in the palladium-based catalyst because of its ability to form an intermetallic Pd–Zn phase affecting the adsorption strength of alkynes and alkenes.5,9
+From Soup: 7 Zinc, in particular, is known to act as a promoter in the palladium-based catalyst because of its ability to form an intermetallic Pd–Zn phase affecting the adsorption strength of alkynes and alkenes. 5,9
+ ###### 
+From cou.: 8 The performance of Pd-based catalysts during alkynes hydrogenations is also strongly influenced by the nature of the support. ZnO in particular is often considered a good alternative to CaCO3 with respect to reaction selectivity.10 High selectivities towards the alkene have been reported for monometallic Pd-based catalysts over ZnO.5,9,11 The electron donating effect of Zn results in an higher electron density of Pd. The selectivity of the process is enhanced due to a decreased alkene adsorption.12 This makes these catalysts a valuable alternative to the lead-containing Lindlar catalyst, well suited for industrial applications.
+From Soup: 8 The performance of Pd-based catalysts during alkynes hydrogenations is also strongly influenced by the nature of the support. ZnO in particular is often considered a good alternative to CaCO 3 with respect to reaction selectivity. 10 High selectivities towards the alkene have been reported for monometallic Pd-based catalysts over ZnO. 5,9,11 The electron donating effect of Zn results in an higher electron density of Pd. The selectivity of the process is enhanced due to a decreased alkene adsorption. 12 This makes these catalysts a valuable alternative to the lead-containing Lindlar catalyst, well suited for industrial applications.
+ ###### 
+From cou.: 9 Semagina et al. studied the reaction kinetics of the water-assisted MBY hydrogenation over a Pd/ZnO catalyst coated on sintered metal fibers.5 In that work, the reaction kinetics were modeled at 308 K and 0.5 MPa, assuming a typical Langmuir–Hinshelwood kinetic mechanism with competitive adsorption of hydrogen and organic species on the catalyst surface. A similar mechanism was presented by Crespo-Quesada et al. to describe the solvent-free hydrogenation of MBY over a Pd/ZnO structured catalyst at 348 K and 0.8 MPa.9
+From Soup: 9 Semagina et al. studied the reaction kinetics of the water-assisted MBY hydrogenation over a Pd/ZnO catalyst coated on sintered metal fibers. 5 In that work, the reaction kinetics were modeled at 308 K and 0.5 MPa, assuming a typical Langmuir–Hinshelwood kinetic mechanism with competitive adsorption of hydrogen and organic species on the catalyst surface. A similar mechanism was presented by Crespo-Quesada et al. to describe the solvent-free hydrogenation of MBY over a Pd/ZnO structured catalyst at 348 K and 0.8 MPa. 9
+ ###### 
+From cou.: 10 Protasova et al. tested ZnO nanowires coated with Pd nanoparticles in the hydrogenation of MBY at 323 K and 0.5 MPa. High MBE selectivities of 95% were observed at 99% of conversion and the results were modeled assuming a typical Eley–Rideal kinetic mechanism.11
+From Soup: 10 Protasova et al. tested ZnO nanowires coated with Pd nanoparticles in the hydrogenation of MBY at 323 K and 0.5 MPa. High MBE selectivities of 95% were observed at 99% of conversion and the results were modeled assuming a typical Eley–Rideal kinetic mechanism. 11
+ ###### 
+From cou.: 11 No attempt were made in these previous studies to describe the behavior of the system under a wide range of operating conditions.
+From Soup: 11 No attempt were made in these previous studies to describe the behavior of the system under a wide range of operating conditions.
+ ###### 
+From cou.: 12 In a previous experimental study Vernuccio et al. presented a kinetic investigation of the selective hydrogenation of MBY over a commercial Lindlar catalyst based on the noncompetitive adsorption between hydrogen and organics species on the catalyst surface.13 In the aforementioned study a general kinetic model is proposed to predict the evolution of the system under varying experimental conditions. The present work aims to extend this model to simulate MBY hydrogenation reaction over a Pd/ZnO powdered catalyst under varying temperatures (313–353 K), pressures (0.3–1.0 MPa) and catalyst loadings (0.25–0.75 wt%). All the reactions involved in the network are completely characterized from a kinetic point of view with the estimation of all the kinetic and adsorption parameters (pre-exponential factors, activation energies and enthalpies of adsorption). The performance of this catalyst in terms of selectivity are compared with the ones achievable with a commercial Lindlar catalyst under the same operating conditions and the same palladium loading.
+From Soup: 12 In a previous experimental study Vernuccio et al. presented a kinetic investigation of the selective hydrogenation of MBY over a commercial Lindlar catalyst based on the noncompetitive adsorption between hydrogen and organics species on the catalyst surface. 13 In the aforementioned study a general kinetic model is proposed to predict the evolution of the system under varying experimental conditions. The present work aims to extend this model to simulate MBY hydrogenation reaction over a Pd/ZnO powdered catalyst under varying temperatures (313–353 K), pressures (0.3–1.0 MPa) and catalyst loadings (0.25–0.75 wt%). All the reactions involved in the network are completely characterized from a kinetic point of view with the estimation of all the kinetic and adsorption parameters (pre-exponential factors, activation energies and enthalpies of adsorption). The performance of this catalyst in terms of selectivity are compared with the ones achievable with a commercial Lindlar catalyst under the same operating conditions and the same palladium loading.
+ ###### 
+From cou.: 13 2-Methyl-3-butyn-2-ol (purum, >98%) was supplied by DSM Nutritional Products. 2-Methyl-3-buten-2-ol (purum, ≥98%) and 2-methyl-2-butanol (purum, ≥99%) were purchased from Sigma-Aldrich. The physical properties of MBY, measured by DSM Nutritional Products at Kaiseraugust/Switzerland are listed in the ESI.† A Pb-modified Lindlar catalyst (5 wt% Pd/CaCO3), purchased from Sigma-Aldrich was used for comparison. Pure hydrogen (99.995%) and nitrogen (99.995%), for inertization purposes, were obtained from Pangas. All the reagents were used as received.
+From Soup: 13 2-Methyl-3-butyn-2-ol (purum, >98%) was supplied by DSM Nutritional Products. 2-Methyl-3-buten-2-ol (purum, ≥98%) and 2-methyl-2-butanol (purum, ≥99%) were purchased from Sigma-Aldrich. The physical properties of MBY, measured by DSM Nutritional Products at Kaiseraugust/Switzerland are listed in the ESI. † A Pb-modified Lindlar catalyst (5 wt% Pd/CaCO 3 ), purchased from Sigma-Aldrich was used for comparison. Pure hydrogen (99.995%) and nitrogen (99.995%), for inertization purposes, were obtained from Pangas. All the reagents were used as received.
+ ###### 
+From cou.: 14 EOS MaragingSteel MS1 metal powder (20.0 g) was heated in an oven under air at 723 K for 3 h. The resulting metal powder was initially coated with an Al2O3/ZnO base layer. Separately a solution of Pd nanoparticles was prepared and deposited on the metal powder containing the Al2O3/ZnO layer.
+From Soup: 14 EOS MaragingSteel MS1 metal powder (20.0 g) was heated in an oven under air at 723 K for 3 h. The resulting metal powder was initially coated with an Al 2 O 3 /ZnO base layer. Separately a solution of Pd nanoparticles was prepared and deposited on the metal powder containing the Al 2 O 3 /ZnO layer.
+ ###### 
+From cou.: 15 A solution of Al(NO3)3·9H2O (200.0 g) in water (700 mL) was heated to 368 K and ZnO powder (43.4 g) was added slowly. The mixture was stirred until completely dissolved. After cooling to room temperature, the solution was filtered. The oxidized metal powder (20.0 g) was added to 50 mL of the Al/Zn solution and the mixture was stirred at room temperature for 15 min, filtered through a 0.45 μm membrane filter and dried under vacuum at 313 K for a minimum of 2 h. This process was repeated two additional times.
+From Soup: 15 A solution of Al(NO 3 ) 3 ·9H 2 O (200.0 g) in water (700 mL) was heated to 368 K and ZnO powder (43.4 g) was added slowly. The mixture was stirred until completely dissolved. After cooling to room temperature, the solution was filtered. The oxidized metal powder (20.0 g) was added to 50 mL of the Al/Zn solution and the mixture was stirred at room temperature for 15 min, filtered through a 0.45 μm membrane filter and dried under vacuum at 313 K for a minimum of 2 h. This process was repeated two additional times.
+ ###### 
+From cou.: 16 Sodium molybdate dihydrate (162 mg) and anhydrous palladium(II)chloride (108 mg) were added in 30 mL of deionized water. The solution was evaporated slowly under stirring until a solid residue was formed. Afterwards, 30 mL of deionized water were added to the solid residue under stirring. This evaporation-dissolving cycle was repeated two times in order to completely dissolve palladium salt. Finally, 50 mL of hot water was added to the solid residue. The deep brown solution was cooled down to room temperature, filtered and water added to adjust the volume to 60 mL. Hydrogen gas was slowly bubbled through the solution at room temperature for 60 min.
+From Soup: 16 Sodium molybdate dihydrate (162 mg) and anhydrous palladium( II )chloride (108 mg) were added in 30 mL of deionized water. The solution was evaporated slowly under stirring until a solid residue was formed. Afterwards, 30 mL of deionized water were added to the solid residue under stirring. This evaporation-dissolving cycle was repeated two times in order to completely dissolve palladium salt. Finally, 50 mL of hot water was added to the solid residue. The deep brown solution was cooled down to room temperature, filtered and water added to adjust the volume to 60 mL. Hydrogen gas was slowly bubbled through the solution at room temperature for 60 min.
+ ###### 
+From cou.: 17 The obtained solution of Pd(0) was added to a suspension of the metal powder – Al2O3/ZnO in water (60 mL). The mixture was stirred for 30 min and then filtered. The catalyst was dried under vacuum at 313 K overnight. The catalyst was thermally activated in a tube furnace at 573 K for 4 h (temperature ramp 10 K min−1) under H2 – Ar flow (1:9; total flow rate: 450 mL min−1).
+From Soup: 17 The obtained solution of Pd(0) was added to a suspension of the metal powder – Al 2 O 3 /ZnO in water (60 mL). The mixture was stirred for 30 min and then filtered. The catalyst was dried under vacuum at 313 K overnight. The catalyst was thermally activated in a tube furnace at 573 K for 4 h (temperature ramp 10 K min −1 ) under H 2 – Ar flow (1 : 9; total flow rate: 450 mL min −1 ).
+ ###### 
+From cou.: 18 The microstructure of the catalyst was observed by FIB/SEM (Zeiss NVision 40) equipped with EDX apparatus. Samples were opened at the region of interest through milling with gallium-ions at 30 kV/6 nA perpendicular to the sample surface. The cross section was polished at 30 kV/1.5 nA and imaged by detection of secondary electrons (SE) using an in-lens detector. EDX measurements were performed at 9 kV.
+From Soup: 18 The microstructure of the catalyst was observed by FIB/SEM (Zeiss NVision 40) equipped with EDX apparatus. Samples were opened at the region of interest through milling with gallium-ions at 30 kV/6 nA perpendicular to the sample surface. The cross section was polished at 30 kV/1.5 nA and imaged by detection of secondary electrons (SE) using an in-lens detector. EDX measurements were performed at 9 kV.
+ ###### 
+From cou.: 19 The morphology of the supported Pd-nanoparticles was studied by HAADF-STEM conducted on an aberration-corrected dedicated STEM microscope HD-2700CS (Hitachi). The microscope was operated at an acceleration potential of 200 kV.
+From Soup: 19 The morphology of the supported Pd-nanoparticles was studied by HAADF-STEM conducted on an aberration-corrected dedicated STEM microscope HD-2700CS (Hitachi). The microscope was operated at an acceleration potential of 200 kV.
+ ###### 
+From cou.: 20 Temperature programmed oxidation/reduction (TPO/TPR) were performed in a Micrometrics AutoChem 2920 II instrument using 5 vol% of O2/H2 in Ar. The data were collected at a ramp of 8 K min−1.
+From Soup: 20 Temperature programmed oxidation/reduction (TPO/TPR) were performed in a Micrometrics AutoChem 2920 II instrument using 5 vol% of O 2 /H 2 in Ar. The data were collected at a ramp of 8 K min −1 .
+ ###### 
+From cou.: 21 In the typical experiment for the kinetic modeling, 200.0 g of MBY were charged with the desired quantity of catalyst in a 400 mL semi-batch reactor (Premex Reactor AG, Lengnau, Switzerland). Isothermal conditions were kept by an electrical heating jacket and a cooling system using cold water. The reactor was equipped with a system of four equidistant baffles (width = 12 mm, thickness = 2.5 mm) and a four-blades gas-entrainment stirrer (width = 12 mm, diameter = 38 mm).
+From Soup: 21 In the typical experiment for the kinetic modeling, 200.0 g of MBY were charged with the desired quantity of catalyst in a 400 mL semi-batch reactor (Premex Reactor AG, Lengnau, Switzerland). Isothermal conditions were kept by an electrical heating jacket and a cooling system using cold water. The reactor was equipped with a system of four equidistant baffles (width = 12 mm, thickness = 2.5 mm) and a four-blades gas-entrainment stirrer (width = 12 mm, diameter = 38 mm).
+ ###### 
+From cou.: 22 Pure hydrogen was supplied only after stabilization of the temperature at the required value under nitrogen atmosphere. The pressure in the reactor was maintained constant during the course of the experiments by supplying hydrogen from an external reservoir. The reaction mixture was stirred at 20 Hz.
+From Soup: 22 Pure hydrogen was supplied only after stabilization of the temperature at the required value under nitrogen atmosphere. The pressure in the reactor was maintained constant during the course of the experiments by supplying hydrogen from an external reservoir. The reaction mixture was stirred at 20 Hz.
+ ###### 
+From cou.: 23 Liquid samples were periodically withdrawn from the reactor and analyzed by gas-chromatography (Bruker GC-450 with flame ionization detector). The analysis was conducted by means of a VF-Wax ms column (25 m × 0.25 mm, coating thickness = 0.25 μm) operated at the following conditions: FID temperature, 493 K; injector temperature, 523 K; oven temperature, 353 K to 473 K with a temperature program of 20 K min−1.
+From Soup: 23 Liquid samples were periodically withdrawn from the reactor and analyzed by gas-chromatography (Bruker GC-450 with flame ionization detector). The analysis was conducted by means of a VF-Wax ms column (25 m × 0.25 mm, coating thickness = 0.25 μm) operated at the following conditions: FID temperature, 493 K; injector temperature, 523 K; oven temperature, 353 K to 473 K with a temperature program of 20 K min −1 .
+ ###### 
+From cou.: 24 Some of the physical characteristics of the Pd/ZnO catalyst are listed in Table 1.
+From Soup: 24 Some of the physical characteristics of the Pd/ZnO catalyst are listed in Table 1 .
+ ###### 
+From cou.: 25 Analysis of the catalyst surface using BET techniques gives a surface of ∼1.5 m2 g−1, in addition to a total specific pore volume of ∼2 × 10−3 cm3 g−1 and a mean pore diameter of 6.0 nm. The extremely low pore volume is beneficial in order to avoid internal diffusion limitations. TPO and TPR heating ramps of the catalyst are depicted in the ESI.†
+From Soup: 25 Analysis of the catalyst surface using BET techniques gives a surface of ∼1.5 m 2 g −1 , in addition to a total specific pore volume of ∼2 × 10 −3 cm 3 g −1 and a mean pore diameter of 6.0 nm. The extremely low pore volume is beneficial in order to avoid internal diffusion limitations. TPO and TPR heating ramps of the catalyst are depicted in the ESI. †
+ ###### 
+From cou.: 26 SEM microphotographs of a catalyst particle cross section with two different magnifications are showed in Fig. 1.
+From Soup: 26 SEM microphotographs of a catalyst particle cross section with two different magnifications are showed in Fig. 1 .
+ ###### 
+From cou.: 27 The metal particle appears to be fully coated with an homogenous base layer. The coating layer (about 700 nm thick) remains intact after Pd deposition and thermal activation. EDX analysis reveals that Pd is dispersed only on the external surface of the catalyst while Al and Zn are present in the base layer (see ESI†).
+From Soup: 27 The metal particle appears to be fully coated with an homogenous base layer. The coating layer (about 700 nm thick) remains intact after Pd deposition and thermal activation. EDX analysis reveals that Pd is dispersed only on the external surface of the catalyst while Al and Zn are present in the base layer (see ESI † ).
+ ###### 
+From cou.: 28 The surface of the catalyst appears to be decorated by large metal clusters (sizes 100–200 nm) containing Pd according to EDX measurement.
+From Soup: 28 The surface of the catalyst appears to be decorated by large metal clusters (sizes 100–200 nm) containing Pd according to EDX measurement.
+ ###### 
+From cou.: 29 HAADF-STEM images provided in Fig. 2 reveal that the supported Pd-nanoparticles exhibit different diameters up to ca. 10 nm. Nevertheless they are often agglomerated in certain regions. EDX analysis of two different areas of Fig. 2(a) are provided in the ESI.†
+From Soup: 29 HAADF-STEM images provided in Fig. 2 reveal that the supported Pd-nanoparticles exhibit different diameters up to ca. 10 nm. Nevertheless they are often agglomerated in certain regions. EDX analysis of two different areas of Fig. 2(a) are provided in the ESI. †
+ ###### 
+From cou.: 30 For the purpose of kinetic study of the hydrogenation of MBY, it is necessary to characterize quantitatively the gas–liquid (G–L) and liquid–solid (L–S) mass transport resistances. The following criteria, proposed by Ramachandran and Chaudari14 were used:where r0 is the observed initial reaction rate of MBY hydrogenation.
+From Soup: 30 For the purpose of kinetic study of the hydrogenation of MBY, it is necessary to characterize quantitatively the gas–liquid (G–L) and liquid–solid (L–S) mass transport resistances. The following criteria, proposed by Ramachandran and Chaudari 14 were used: where r 0 is the observed initial reaction rate of MBY hydrogenation.
+ ###### 
+From cou.: 31 The gas absorption method15 allowed the experimental estimation of the G–L mass transfer coefficient in the absence of the catalyst.
+From Soup: 31 The gas absorption method 15 allowed the experimental estimation of the G–L mass transfer coefficient in the absence of the catalyst.
+ ###### 
+From cou.: 32 The theoretical calculation of the L–S mass transfer coefficient kSaS is extensively described in a previous work.11 The catalyst particles were approximated as spherical, according to the particle size distribution by weight basis (see Table 1).
+From Soup: 32 The theoretical calculation of the L–S mass transfer coefficient k S a S is extensively described in a previous work. 11 The catalyst particles were approximated as spherical, according to the particle size distribution by weight basis (see Table 1 ).
+ ###### 
+From cou.: 33 The parameters α1 and α2 calculated for the 14 experimental runs are listed in the ESI.† The reported values indicate the absence of any external mass-transfer resistance.
+From Soup: 33 The parameters α 1 and α 2 calculated for the 14 experimental runs are listed in the ESI. † The reported values indicate the absence of any external mass-transfer resistance.
+ ###### 
+From cou.: 34 The absence of microporosity, confirmed by BET analysis, justifies the lack of internal liquid–solid diffusion limitations.
+From Soup: 34 The absence of microporosity, confirmed by BET analysis, justifies the lack of internal liquid–solid diffusion limitations.
+ ###### 
+From cou.: 35 The initial reaction rate was found to vary linearly with the catalyst loading in the investigated range of temperature as depicted in Fig. 3. This trend was considered an additional verification that the reaction is under kinetic control.
+From Soup: 35 The initial reaction rate was found to vary linearly with the catalyst loading in the investigated range of temperature as depicted in Fig. 3 . This trend was considered an additional verification that the reaction is under kinetic control.
+ ###### 
+From cou.: 36 The solubility of hydrogen in MBY was calculated from the following relationship:13
+From Soup: 36 The solubility of hydrogen in MBY was calculated from the following relationship: 13
+ ###### 
+From cou.: 37 During a previous study Vernuccio et al.13 developed a general kinetic model to describe the hydrogenation of MBY over a commercial Pd-based catalyst. In that work a Langmuir–Hinshelwood model with noncompetitive adsorption of hydrogen and organics on the catalyst surface and dissociative adsorption of hydrogen was assumed. Similar hypothesis have been previously validated to develop the kinetic expressions of the reaction rates of the hydrogenation of 1-butyne16 and n-butenes.17
+From Soup: 37 During a previous study Vernuccio et al. 13 developed a general kinetic model to describe the hydrogenation of MBY over a commercial Pd-based catalyst. In that work a Langmuir–Hinshelwood model with noncompetitive adsorption of hydrogen and organics on the catalyst surface and dissociative adsorption of hydrogen was assumed. Similar hypothesis have been previously validated to develop the kinetic expressions of the reaction rates of the hydrogenation of 1-butyne 16 and n -butenes. 17
+ ###### 
+From cou.: 38 From that revision, the kinetic mechanism depicted in Table 2 was proposed to describe the hydrogenation of MBY. Similar reaction steps were assumed for the over hydrogenation to MBA (r2) and the formation of dimers (r3). The hypothesis of noncompetitive adsorption results in the presence of different active sites for hydrogen (○) and organics (●) adsorption.
+From Soup: 38 From that revision, the kinetic mechanism depicted in Table 2 was proposed to describe the hydrogenation of MBY. Similar reaction steps were assumed for the over hydrogenation to MBA ( r 2 ) and the formation of dimers ( r 3 ). The hypothesis of noncompetitive adsorption results in the presence of different active sites for hydrogen (○) and organics (●) adsorption.
+ ###### 
+From cou.: 39 All adsorption/desorption steps were assumed to be reversible while the last hydrogen addition was considered the rate determining step.
+From Soup: 39 All adsorption/desorption steps were assumed to be reversible while the last hydrogen addition was considered the rate determining step.
+ ###### 
+From cou.: 40 The application of the aforementioned mechanism leads to the following simplified kinetic expressions under the assumption of weak adsorption of hydrogen and alkane:
+From Soup: 40 The application of the aforementioned mechanism leads to the following simplified kinetic expressions under the assumption of weak adsorption of hydrogen and alkane:
+ ###### 
+From cou.: 41 k
+From Soup: 41 k
+ ###### 
+From cou.: 42 The hydrogen concentration in the liquid bulk CH was considered equal to the hydrogen solubility calculated with eqn (3).
+From Soup: 42 i
+ ###### 
+From cou.: 43 The variation of the concentrations of the species involved in the system can be expressed in the kinetic regime by the following set of ordinary differential equations:
+From Soup: 43 The hydrogen concentration in the liquid bulk C H was considered equal to the hydrogen solubility calculated with eqn (3) .
+ ###### 
+From cou.: 44 The temperature dependence of the kinetic constants ki and of the equilibrium adsorption constants Ki was assumed to obey an Arrhenius-type equation, according to the relations:
+From Soup: 44 The variation of the concentrations of the species involved in the system can be expressed in the kinetic regime by the following set of ordinary differential equations:
+ ###### 
+From cou.: 45 Conversion of MBY and selectivity of the reaction to MBE were defined as:
+From Soup: 45 The temperature dependence of the kinetic constants k i and of the equilibrium adsorption constants K i was assumed to obey an Arrhenius-type equation, according to the relations:
+ ###### 
+From cou.: 46 During this study, 14 runs on MBY hydrogenation have been carried out in a variety of experimental conditions listed in Table 3. The first 12 of these runs have been used to estimate the parameters governing the process (pre-exponential factors, activation energies and enthalpies of adsorption) while the 2 remaining have been employed for a validation of the model.
+From Soup: 46 Conversion of MBY and selectivity of the reaction to MBE were defined as:
+ ###### 
+From cou.: 47 For each experiment, approximately 10 concentration data points at different reaction times were recorded. The system of differential and algebraic equations representing the proposed mathematical model (eqn (3)–(12)) has been numerically solved according to proper initial conditions. A numerical optimization procedure was implemented to minimize an objective function expressed as:
+From Soup: 47 During this study, 14 runs on MBY hydrogenation have been carried out in a variety of experimental conditions listed in Table 3 . The first 12 of these runs have been used to estimate the parameters governing the process (pre-exponential factors, activation energies and enthalpies of adsorption) while the 2 remaining have been employed for a validation of the model.
+ ###### 
+From cou.: 48 y
+From Soup: 48 For each experiment, approximately 10 concentration data points at different reaction times were recorded. The system of differential and algebraic equations representing the proposed mathematical model ( eqn (3)–(12) ) has been numerically solved according to proper initial conditions. A numerical optimization procedure was implemented to minimize an objective function expressed as:
+ ###### 
+From cou.: 49 i
+From Soup: 49 y
+ ###### 
+From cou.: 50 j
+From Soup: 50 i , j , k
+ ###### 
+From cou.: 51 k
+From Soup: 51 c
+ ###### 
+From cou.: 52 c
+From Soup: 52 i , j , k
+ ###### 
+From cou.: 53 i
+From Soup: 53 m
+ ###### 
+From cou.: 54 j
+From Soup: 54 n
+ ###### 
+From cou.: 55 k
+From Soup: 55 q
+ ###### 
+From cou.: 56 m
+From Soup: 56 Some examples of calculated and experimental concentrations for single experiments are shown in Fig. 4 and 5 (overall percentage standard deviations 4.7% and 6.2% respectively).
+ ###### 
+From cou.: 57 n
+From Soup: 57 The total percentage standard deviation for all the performed experiments are listed in Table 3 . In all cases these overall deviations are comparable with those related to the single components.
+ ###### 
+From cou.: 58 q
+From Soup: 58 Fig. 6 and 7 show the comparison of simulated results with the experimental concentrations of MBY and MBE for different temperatures and pressures. The model appears to be consistent with the experimental results in the investigated range of operating conditions.
+ ###### 
+From cou.: 59 Some examples of calculated and experimental concentrations for single experiments are shown in Fig. 4 and 5 (overall percentage standard deviations 4.7% and 6.2% respectively).
+From Soup: 59 Table 4 presents the best-estimated values of the kinetic and adsorption parameters with their 95% confidence intervals, resulting from the optimization procedure.
+ ###### 
+From cou.: 60 The total percentage standard deviation for all the performed experiments are listed in Table 3. In all cases these overall deviations are comparable with those related to the single components.
+From Soup: 60 The values of the pre-exponential factors k 0i and K 0i previously estimated for the Lindlar catalyst 13 were used as initial data for the optimization procedure. The best-estimated pre-exponential factors do not differ significantly from the initial data with the only exception of k 03 . This discrepancy is related to the much lower concentration of dimers detected in the reaction system with respect to the hydrogenation conducted over the Lindlar catalyst. However, the estimation of this constant is less reliable compared to the others since the associated error is greater than 10%.
+ ###### 
+From cou.: 61 Fig. 6 and 7 show the comparison of simulated results with the experimental concentrations of MBY and MBE for different temperatures and pressures. The model appears to be consistent with the experimental results in the investigated range of operating conditions.
+From Soup: 61 The activation energy of MBY hydrogenation E 1 is found to be in good agreement with the value of 25.2 ± 1.6 kJ mol −1 reported by Crespo-Quesada et al. for a structured Pd/ZnO catalyst. 9
+ ###### 
+From cou.: 62 Table 4 presents the best-estimated values of the kinetic and adsorption parameters with their 95% confidence intervals, resulting from the optimization procedure.
+From Soup: 62 The ratio between the kinetic coefficients of alkene and alkyne hydrogenation k 2 / k 1 results to be higher than 1 in the investigated range of temperatures. According to the thermodynamic of the alkynes the over-hydrogenation reaction is favored from a kinetic point of view. 18 The reason of the high selectivity of the process to MBE is attributed to the stronger adsorption of the alkyne compared to the alkene. However, the adsorption equilibrium constant of MBY is found to be 5.83 × 10 −4 m 3 mol −1 at 333 K, slightly lower than the ones previously published for Lindlar catalyst, resulting in a lower adsorption strength of the alkyne. On the other hand the ratio of the adsorption equilibrium constants of MBY and MBE K Y / K E ranges between 97 and 140 depending on the investigated temperature. This value is 40% higher than the corresponding ones previously calculated for the Lindlar catalyst. 13,19
+ ###### 
+From cou.: 63 The values of the pre-exponential factors k0i and K0i previously estimated for the Lindlar catalyst13 were used as initial data for the optimization procedure. The best-estimated pre-exponential factors do not differ significantly from the initial data with the only exception of k03. This discrepancy is related to the much lower concentration of dimers detected in the reaction system with respect to the hydrogenation conducted over the Lindlar catalyst. However, the estimation of this constant is less reliable compared to the others since the associated error is greater than 10%.
+From Soup: 63 In accordance with published data, the formation of a Pd–Zn alloy can change the adsorption strength of alkynes and alkenes affecting the selectivity of the hydrogenation. 7,20 The addition of Zn, in particular, is considered to be beneficial for the selectivity of the process towards the alkene. 7 It affects the electronic structure of Pd resulting in a decrease of the heat of adsorption of alkynes and alkenes. 8,21 As a result of the observed increase of the ratio K Y / K E , the selectivity of the process to MBE is significantly enhanced. This tendency is depicted in Fig. 8 and 9 where the selectivity of the process to MBE over the Pd/ZnO is compared with the one obtained with the Lindlar catalyst under the same experimental conditions and the same palladium loading. In both cases the Pd/ZnO exhibits an higher selectivity compared with the Lindlar catalyst at various conversions.
+ ###### 
+From cou.: 64 The activation energy of MBY hydrogenation E1 is found to be in good agreement with the value of 25.2 ± 1.6 kJ mol−1 reported by Crespo-Quesada et al. for a structured Pd/ZnO catalyst.9
+From Soup: 64 The continuous lines represent the theoretical selectivity calculated using the best-estimated values of the parameters. It is worthy to note that the model delivers good predictions of the system behavior even at high conversions of MBY. Therefore, it allows estimation of the experimental selectivity of the process with good accuracy.
+ ###### 
+From cou.: 65 The ratio between the kinetic coefficients of alkene and alkyne hydrogenation k2/k1 results to be higher than 1 in the investigated range of temperatures. According to the thermodynamic of the alkynes the over-hydrogenation reaction is favored from a kinetic point of view.18 The reason of the high selectivity of the process to MBE is attributed to the stronger adsorption of the alkyne compared to the alkene. However, the adsorption equilibrium constant of MBY is found to be 5.83 × 10−4 m3 mol−1 at 333 K, slightly lower than the ones previously published for Lindlar catalyst, resulting in a lower adsorption strength of the alkyne. On the other hand the ratio of the adsorption equilibrium constants of MBY and MBE KY/KE ranges between 97 and 140 depending on the investigated temperature. This value is 40% higher than the corresponding ones previously calculated for the Lindlar catalyst.13,19
+From Soup: 65 The reaction carried out at 333 K and 0.7 MPa using the commercial Lindlar catalyst showed a lower initial activity of 0.9 mol mol Pd −1 s −1 compared with the 3.0 mol mol Pd −1 s −1 of the Pd/ZnO catalyst. Similar trends were obtained during previous studies on the hydrogenation of MBY over Lindlar and Pd/ZnO catalysts. 5,9 The higher activity may be ascribed to the presence of the Pd–Zn alloy in the active phase of the catalyst suppressing the overhydrogenation of MBE to MBA.
+ ###### 
+From cou.: 66 In accordance with published data, the formation of a Pd–Zn alloy can change the adsorption strength of alkynes and alkenes affecting the selectivity of the hydrogenation.7,20 The addition of Zn, in particular, is considered to be beneficial for the selectivity of the process towards the alkene.7 It affects the electronic structure of Pd resulting in a decrease of the heat of adsorption of alkynes and alkenes.8,21 As a result of the observed increase of the ratio KY/KE, the selectivity of the process to MBE is significantly enhanced. This tendency is depicted in Fig. 8 and 9 where the selectivity of the process to MBE over the Pd/ZnO is compared with the one obtained with the Lindlar catalyst under the same experimental conditions and the same palladium loading. In both cases the Pd/ZnO exhibits an higher selectivity compared with the Lindlar catalyst at various conversions.
+From Soup: 66 The last two experiments listed in Table 3 (not employed during the parametric optimization) were used to validate the proposed model. During this phase, the best-estimated values of the parameters have only been used to predict the concentration profiles of the species involved in the system without any further adjustment. A comparison between experimental and simulated data, achieved during this validation procedure, is shown in Fig. 10 .
+ ###### 
+From cou.: 67 The continuous lines represent the theoretical selectivity calculated using the best-estimated values of the parameters. It is worthy to note that the model delivers good predictions of the system behavior even at high conversions of MBY. Therefore, it allows estimation of the experimental selectivity of the process with good accuracy.
+From Soup: 67 The good agreement between experimental data and kinetic curves, supported by the overall standard deviations in line with those of the other experiments, confirms the reliability of the model.
+ ###### 
+From cou.: 68 The reaction carried out at 333 K and 0.7 MPa using the commercial Lindlar catalyst showed a lower initial activity of 0.9 mol molPd−1 s−1 compared with the 3.0 mol molPd−1 s−1 of the Pd/ZnO catalyst. Similar trends were obtained during previous studies on the hydrogenation of MBY over Lindlar and Pd/ZnO catalysts.5,9 The higher activity may be ascribed to the presence of the Pd–Zn alloy in the active phase of the catalyst suppressing the overhydrogenation of MBE to MBA.
+From Soup: 68 Stability of the catalyst was evaluated performing hydrogenation experiments over 6 consecutive reaction cycles. Between each run the catalyst was filtered, washed with isopropanol and dried. MBY initial reaction rate and selectivity to MBE for 6 consecutive runs conducted at 353 K and 0.7 MPa are presented in Fig. 11 .
+ ###### 
+From cou.: 69 The last two experiments listed in Table 3 (not employed during the parametric optimization) were used to validate the proposed model. During this phase, the best-estimated values of the parameters have only been used to predict the concentration profiles of the species involved in the system without any further adjustment. A comparison between experimental and simulated data, achieved during this validation procedure, is shown in Fig. 10.
+From Soup: 69 Both initial reaction rate and selectivity result constant over about 35 hours of reaction. The high stability of the catalyst can be attributed to the strong interaction between Pd nanoparticles and ZnO leading to the formation of Pd–Zn alloy. 9,22
+ ###### 
+From cou.: 70 The good agreement between experimental data and kinetic curves, supported by the overall standard deviations in line with those of the other experiments, confirms the reliability of the model.
+From Soup: 70 A Pd/ZnO catalyst has been developed and tested in the hydrogenation of MBY under solvent free conditions. External mass transfer limitations have been studied in order to ensure the kinetic regime of the experimental runs. The intrinsic kinetics of the reaction were assumed to obey a Langmuir–Hinshelwood mechanism with noncompetitive adsorption between hydrogen and organics. The kinetic and the adsorption coefficients governing the process were estimated with relative confidence intervals.
+ ###### 
+From cou.: 71 Stability of the catalyst was evaluated performing hydrogenation experiments over 6 consecutive reaction cycles. Between each run the catalyst was filtered, washed with isopropanol and dried. MBY initial reaction rate and selectivity to MBE for 6 consecutive runs conducted at 353 K and 0.7 MPa are presented in Fig. 11.
+From Soup: 71 The proposed kinetic model reliably estimates the concentration profiles of the species involved in the system in the investigated ranges of operating conditions (313–353 K, 0.3–1.0 MPa) and for varying catalyst loadings (0.25–0.75 wt%). The goodness of the optimization is confirmed by the overall standard deviation lower than 7.0% obtained for each experimental run. The model also allows the selectivity of the process to MBE to be estimated with high accuracy.
+ ###### 
+From cou.: 72 Both initial reaction rate and selectivity result constant over about 35 hours of reaction. The high stability of the catalyst can be attributed to the strong interaction between Pd nanoparticles and ZnO leading to the formation of Pd–Zn alloy.9,22
+From Soup: 72 The validation of the model was conducted using the best-estimated values of the kinetic parameters, without additional adjustments, to simulate the concentration profiles of the species involved in the system.
+ ###### 
+From cou.: 73 A Pd/ZnO catalyst has been developed and tested in the hydrogenation of MBY under solvent free conditions. External mass transfer limitations have been studied in order to ensure the kinetic regime of the experimental runs. The intrinsic kinetics of the reaction were assumed to obey a Langmuir–Hinshelwood mechanism with noncompetitive adsorption between hydrogen and organics. The kinetic and the adsorption coefficients governing the process were estimated with relative confidence intervals.
+From Soup: 73 The high selectivity of the process to MBE is found to be related to the thermodynamics of the alkyne hydrogenation. Zn acts as a promoter in a Pd-based catalyst resulting in a lower adsorption strength of alkynes and alkenes. As result, the Pd/ZnO catalyst exhibits higher selectivity and higher initial activity compared to the lead-containing Pd catalysts. For this reason, it can be considered as a valuable alternative for the industrial hydrogenation of MBY with respect to the classic Lindlar catalyst.
+ ###### 
+From cou.: 74 The proposed kinetic model reliably estimates the concentration profiles of the species involved in the system in the investigated ranges of operating conditions (313–353 K, 0.3–1.0 MPa) and for varying catalyst loadings (0.25–0.75 wt%). The goodness of the optimization is confirmed by the overall standard deviation lower than 7.0% obtained for each experimental run. The model also allows the selectivity of the process to MBE to be estimated with high accuracy.
+From Soup: 74 The Scientific Center for Optical and Electron Microscopy of ETH Zurich and in particular Anne Greet Bittermann and Frank Krumeich are gratefully acknowledge for providing SEM/STEM facility access and for supporting the analysis. The authors acknowledge financial support from the Swiss Commission for Technology and Innovation (CTI) through grant Nr. 16706.1 PFIW-IW. The authors thank Robert Büchel for help with BET analysis and temperature programmed studies and Georges Siddiqui for valuable discussion concerning STEM analysis.
+ ###### 
+From cou.: 75 The validation of the model was conducted using the best-estimated values of the kinetic parameters, without additional adjustments, to simulate the concentration profiles of the species involved in the system.
+From Soup: 75 F. Roessler, Chimia , 2003, 57 , 791–798 CrossRef CAS .
+ ###### 
+From cou.: 76 The high selectivity of the process to MBE is found to be related to the thermodynamics of the alkyne hydrogenation. Zn acts as a promoter in a Pd-based catalyst resulting in a lower adsorption strength of alkynes and alkenes. As result, the Pd/ZnO catalyst exhibits higher selectivity and higher initial activity compared to the lead-containing Pd catalysts. For this reason, it can be considered as a valuable alternative for the industrial hydrogenation of MBY with respect to the classic Lindlar catalyst.
+From Soup: 76 W. Bonrath, J. Medlock, J. Schütz, B. Wüstenberg and T. Netscher, in Hydrogenation , ed. I. Karamé, Intech Open, Rijeka, Croatia, 2012 Search PubMed .
+ ###### 
+From cou.: 77 The Scientific Center for Optical and Electron Microscopy of ETH Zurich and in particular Anne Greet Bittermann and Frank Krumeich are gratefully acknowledge for providing SEM/STEM facility access and for supporting the analysis. The authors acknowledge financial support from the Swiss Commission for Technology and Innovation (CTI) through grant Nr. 16706.1 PFIW-IW. The authors thank Robert Büchel for help with BET analysis and temperature programmed studies and Georges Siddiqui for valuable discussion concerning STEM analysis.
+From Soup: 77 3-buten-2-ol, 2-methyl-, CAS No. 115-18-4, in Chemicals Screening Information Data Set (SIDS) for High Volume Chemicals , UNEP Publications, Ispra, Italy, 1995 Search PubMed .
+ ###### 
+From cou.: 78 F. Roessler, Chimia, 2003, 57, 791–798 CrossRef CAS .
+From Soup: 78 H. Lindlar, Helv. Chim. Acta , 1952, 35 , 446 CrossRef CAS .
+ ###### 
+From cou.: 79 W. Bonrath, J. Medlock, J. Schütz, B. Wüstenberg and T. Netscher, in Hydrogenation, ed. I. Karamé, Intech Open, Rijeka, Croatia, 2012 Search PubMed .
+From Soup: 79 N. Semagina, M. Grasemann, N. Xanthopoulos, A. Renken and L. Kiwi-Minsker, J. Catal. , 2007, 251 , 213–222 CrossRef CAS .
+ ###### 
+From cou.: 80 3-buten-2-ol, 2-methyl-, CAS No. 115-18-4, in Chemicals Screening Information Data Set (SIDS) for High Volume Chemicals, UNEP Publications, Ispra, Italy, 1995 Search PubMed .
+From Soup: 80 M. Garcia-Mota, J. Gomez-Diaz, G. Novell-Leruth, C. Vargas-Fuentes, L. Bellarosa, B. Bridier, J. Perez-Ramirez and N. Lopez, Theor. Chem. Acc. , 2011, 128 , 663–673 CrossRef CAS .
+ ###### 
+From cou.: 81 H. Lindlar, Helv. Chim. Acta, 1952, 35, 446 CrossRef CAS .
+From Soup: 81 A. Yarulin, I. Yuranov, F. Cardenas-Lizana, P. Abdulkin and L. Kiwi-Minsker, J. Phys. Chem. C , 2013, 117 , 13424–13434 CAS .
+ ###### 
+From cou.: 82 N. Semagina, M. Grasemann, N. Xanthopoulos, A. Renken and L. Kiwi-Minsker, J. Catal., 2007, 251, 213–222 CrossRef CAS .
+From Soup: 82 I. S. Mashkovsky, G. N. Baeva, A. Y. Stakheev, M. N. Vargaftik, N. Y. Kozitsyna and I. I. Moiseev, Mendeleev Commun. , 2014, 24 , 355–357 CrossRef CAS .
+ ###### 
+From cou.: 83 M. Garcia-Mota, J. Gomez-Diaz, G. Novell-Leruth, C. Vargas-Fuentes, L. Bellarosa, B. Bridier, J. Perez-Ramirez and N. Lopez, Theor. Chem. Acc., 2011, 128, 663–673 CrossRef CAS .
+From Soup: 83 M. Crespo-Quesada, M. Grasemann, N. Semagina, A. Renken and L. Kiwi-Minsker, Catal. Today , 2009, 147 , 247–254 CrossRef CAS .
+ ###### 
+From cou.: 84 A. Yarulin, I. Yuranov, F. Cardenas-Lizana, P. Abdulkin and L. Kiwi-Minsker, J. Phys. Chem. C, 2013, 117, 13424–13434 CAS .
+From Soup: 84 T. O. Omarkulov, Z. Mukataev, S. V. Goncharova and D. V. Sokol'skii, Russ. J. Phys. Chem. , 1987, 59 , 137 Search PubMed .
+ ###### 
+From cou.: 85 I. S. Mashkovsky, G. N. Baeva, A. Y. Stakheev, M. N. Vargaftik, N. Y. Kozitsyna and I. I. Moiseev, Mendeleev Commun., 2014, 24, 355–357 CrossRef CAS .
+From Soup: 85 L. N. Protasova, E. V. Rebrov, K. L. Choy, S. Y. Pung, V. Engels, M. Cabaj, A. E. H. Wheatley and J. C. Schouten, Catal. Sci. Technol. , 2011, 1 , 768–777 Search PubMed .
+ ###### 
+From cou.: 86 M. Crespo-Quesada, M. Grasemann, N. Semagina, A. Renken and L. Kiwi-Minsker, Catal. Today, 2009, 147, 247–254 CrossRef CAS .
+From Soup: 86 E. V. Ramos-Fernandez, A. F. P. Ferreira, A. Sepulveda-Escribano, F. Kapteijn and F. Rodriguez-Reinoso, J. Catal. , 2008, 258 , 52 CrossRef CAS .
+ ###### 
+From cou.: 87 T. O. Omarkulov, Z. Mukataev, S. V. Goncharova and D. V. Sokol'skii, Russ. J. Phys. Chem., 1987, 59, 137 Search PubMed .
+From Soup: 87 S. Vernuccio, P. Rudolf von Rohr and J. Medlock, Ind. Eng. Chem. Res. , 2015, 54 , 11543–11551 CrossRef CAS .
+ ###### 
+From cou.: 88 L. N. Protasova, E. V. Rebrov, K. L. Choy, S. Y. Pung, V. Engels, M. Cabaj, A. E. H. Wheatley and J. C. Schouten, Catal. Sci. Technol., 2011, 1, 768–777 Search PubMed .
+From Soup: 88 P. A. Ramachandran and R. V. Chaudari, in Three phase catalytic reactors , Gordon and Breach Science Publishers, New York, 1983 Search PubMed .
+ ###### 
+From cou.: 89 E. V. Ramos-Fernandez, A. F. P. Ferreira, A. Sepulveda-Escribano, F. Kapteijn and F. Rodriguez-Reinoso, J. Catal., 2008, 258, 52 CrossRef CAS .
+From Soup: 89 E. Dietrich, C. Mathieu, H. Delmas and J. Jenk, Chem. Eng. Sci. , 1992, 47 , 3597–3604 CrossRef CAS .
+ ###### 
+From cou.: 90 S. Vernuccio, P. Rudolf von Rohr and J. Medlock, Ind. Eng. Chem. Res., 2015, 54, 11543–11551 CrossRef CAS .
+From Soup: 90 J. A. Alves, S. P. Bressa, O. M. Martinez and G. F. Barreto, Chem. Eng. J. , 2007, 125 , 131–138 CrossRef CAS .
+ ###### 
+From cou.: 91 P. A. Ramachandran and R. V. Chaudari, in Three phase catalytic reactors, Gordon and Breach Science Publishers, New York, 1983 Search PubMed .
+From Soup: 91 S. P. Bressa, O. M. Martinez and G. F. Barreto, Ind. Eng. Chem. Res. , 2003, 42 , 2081–2092 CrossRef CAS .
+ ###### 
+From cou.: 92 E. Dietrich, C. Mathieu, H. Delmas and J. Jenk, Chem. Eng. Sci., 1992, 47, 3597–3604 CrossRef CAS .
+From Soup: 92 A. Molnar, A. Sarkany and M. Varga, J. Mol. Catal. A: Chem. , 2001, 173 , 185–221 CrossRef CAS .
+ ###### 
+From cou.: 93 J. A. Alves, S. P. Bressa, O. M. Martinez and G. F. Barreto, Chem. Eng. J., 2007, 125, 131–138 CrossRef CAS .
+From Soup: 93 A. Bruehwiler, N. Semagina, M. Grassmann, A. Renken, L. Kiwi-Minsker, A. Saaler, H. Lehmann, W. Bonrath and F. Roessler, Ind. Eng. Chem. Res. , 2008, 47 , 6862–6869 CrossRef CAS .
+ ###### 
+From cou.: 94 S. P. Bressa, O. M. Martinez and G. F. Barreto, Ind. Eng. Chem. Res., 2003, 42, 2081–2092 CrossRef CAS .
+From Soup: 94 A. Sarkany, Z. Zsoldos, B. Furlong, J. W. Hightower and L. Guczi, J. Catal. , 1993, 141 , 566–582 CrossRef CAS .
+ ###### 
+From cou.: 95 A. Molnar, A. Sarkany and M. Varga, J. Mol. Catal. A: Chem., 2001, 173, 185–221 CrossRef CAS .
+From Soup: 95 F. Studt, F. Abild-Pedersen, Th. Bligaard, R. Z. Sørensen, C. H. Christensen and J. K. Nørskov, Science , 2008, 320 , 1320 CrossRef CAS PubMed .
+ ###### 
+From cou.: 96 A. Bruehwiler, N. Semagina, M. Grassmann, A. Renken, L. Kiwi-Minsker, A. Saaler, H. Lehmann, W. Bonrath and F. Roessler, Ind. Eng. Chem. Res., 2008, 47, 6862–6869 CrossRef CAS .
+From Soup: 96 A. Yarulin, I. Yuranov, F. Cardenas-Lizana, D. T. L. Alexander and L. Kiwi-Minsker, Appl. Catal., A , 2014, 478 , 186–193 CrossRef CAS .
+ ###### 
+From cou.: 97 A. Sarkany, Z. Zsoldos, B. Furlong, J. W. Hightower and L. Guczi, J. Catal., 1993, 141, 566–582 CrossRef CAS .
+From cou.: 98 F. Studt, F. Abild-Pedersen, Th. Bligaard, R. Z. Sørensen, C. H. Christensen and J. K. Nørskov, Science, 2008, 320, 1320 CrossRef CAS PubMed .
+From cou.: 99 A. Yarulin, I. Yuranov, F. Cardenas-Lizana, D. T. L. Alexander and L. Kiwi-Minsker, Appl. Catal., A, 2014, 478, 186–193 CrossRef CAS .

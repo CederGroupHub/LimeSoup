@@ -18,7 +18,23 @@ __email__ = 'tiagobotari@gmail.com'
 
 
 if __name__ == '__main__':
-
+    query_mdb = {
+        "$and": [
+            {"Publisher": "RSC"},
+            {
+                "$or": [
+                    {"Lock": {"$exists": False}},
+                    {"Lock": False}
+                ]
+            },
+            {
+                "$or": [
+                        {"Parser": {"$exists": False}},
+                        {"Parser": False}
+                        ]
+            }
+        ]
+    }
     client = pm.MongoClient('localhost', 27017)
     db = client['SynPro']
     coll_paper_raw_html = db["Paper_Raw_HTML"]
@@ -26,26 +42,47 @@ if __name__ == '__main__':
 
     data_list = list(coll_paper_raw_html.find({"Publisher": "RSC"}).limit(5000))
     fd = open('problems.txt', 'w')
-    for i_paper in range(171,  5000, 1):
-        data = data_list[i_paper]
+
+    # for i_paper in range(5000):
+    # data = data_list[i_paper]
+    i_paper = 0
+    while True:
+        data = list(coll_paper_raw_html.find(query_mdb).limit(1))
+        if len(data) == 0:
+            break
+        i_paper += 1
+        data = data[0]
+        data['Lock'] = True
         id_paper = data["_id"]
-        doi_value =  data["DOI"]
+        coll_paper_raw_html.update_one(
+            {"_id": id_paper},
+            {
+                "$set": {
+                    "Lock": True,
+                    "Parser": False
+                }
+            }
+        )
+
+        doi_i_paper = data["DOI"]
+
         print("Dealing with paper number: {}".format(i_paper))
-        print("DOI: ", doi_value)
+        print("DOI: ", doi_i_paper)
         print("Publisher: ", data["Publisher"])
+
         # Provide input interface to the html str, associated with the paper DOI index
         html_str = data["Paper_Raw_HTML"]
         data_complete = RSCSoup.parse(html_str)
-        data = data_complete['obj']
-        plane_data = tl.n_paragraphs_sections(data)
+        data_new = data_complete['obj']
+        data_new['DOI'] = doi_i_paper
+        plane_data = tl.n_paragraphs_sections(data_new)
         parser_tb = parser.ParserPaper(html_str, parser_type='html.parser', debugging=True)
-        parser_tb.save_soup_to_file('original.html')
+        # parser_tb.save_soup_to_file('original.html')
 
         list_remove = [
             {'name': 'p', 'class': 'header_text'},  # Authors
             {'name': 'div', 'id': 'art-admin'},  # Data rec./accept.
             {'name': 'div', 'class': 'image_table'},  # Figures
-            {'name': 'a', 'class': 'simple'},  # Logo
             {'name': 'div', 'id': 'crossmark-content'},  # Another Logo
             {'name': 'code'},  # Codes inside the HTML
             {'name': 'div', 'class': 'table_caption'},
@@ -69,11 +106,11 @@ if __name__ == '__main__':
         # len(parser_tb.paragraphs)
 
         paragraphs_tb = ['Journal'] + parser_tb.span
-        parser_tb.save_soup_to_file('clean_paper_tb.html')
+        # parser_tb.save_soup_to_file('clean_paper_tb_{}.html'.format(i_paper))
 
         if len(paragraphs_tb) > len(plane_data['paragraphs']):
-            data['problem'] = True
-            data['problem_p'] = True
+            data_new['problem'] = True
+            data_new['problem_p'] = True
             print('Paragraphs error:')
             print(len(paragraphs_tb),  ' from soup: ', len(plane_data['paragraphs']))
             fd.write('problem paragraphs paper i: {}\n'.format(i_paper))
@@ -91,8 +128,8 @@ if __name__ == '__main__':
                         continue
 
         if len(parser_tb.headings) > len(plane_data['headings']):
-            data['problem'] = True
-            data['problem_h'] = True
+            data_new['problem'] = True
+            data_new['problem_h'] = True
             print('Heading error:')
             print(len(parser_tb.headings), ' from soup: ', len(plane_data['headings']))
             fd.write('problem headings paper i: {}\n'.format(i_paper))
@@ -104,15 +141,21 @@ if __name__ == '__main__':
                         fd1.write(" ###### \n")
                     except:
                         continue
-
         # saving data to the database
-        data['DOI'] = doi_value
-        data['i'] = i_paper
-        new_data_id = coll_parser_papers.insert_one(data).inserted_id
-        print('Salvou os dados!!!')
+        new_data_id = coll_parser_papers.insert_one(data_new).inserted_id
+        coll_paper_raw_html.update_one(
+            {"_id": id_paper},
+            {
+                "$set": {
+                    "Lock": False,
+                    "Parser": True
+                }
+            }
+        )
+        print('Salved os data!!!')
             #except:
             #    print('error!!!')
-        print('----->', len(paragraphs_tb), len(plane_data['paragraphs']))
+        #print('----->', len(paragraphs_tb), len(plane_data['paragraphs']))
 
 #        if 'problem' in data.keys():
 #            input('continue...')

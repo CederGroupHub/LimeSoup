@@ -1,0 +1,476 @@
+From cou.: 0 Journal
+From Soup: 0 Soft Matter
+ ###### 
+From cou.: 1 Conformational transitions are ubiquitous in biomolecular systems, have significant functional roles and are subject to evolutionary pressures. Here we provide a first theoretical framework for topological transition, i.e. conformational transitions that are associated with changes in molecular topology. For folded linear biomolecules, arrangement of intramolecular contacts is identified as a key topological property, termed as circuit topology. Distance measures are proposed as reaction coordinates to represent progress along a pathway from initial topology to final topology. Certain topological classes are shown to be more accessible from a random topology. We study dynamic stability and pathway degeneracy associated with a topological reaction and found that off-pathways might seriously hamper evolution to desired topologies. Finally we present an algorithm for estimating the number of intermediate topologies visited during a topological reaction. The results of this study are relevant to, among others, structural studies of RNA and proteins, analysis of topologically associated domains in chromosomes, and molecular evolution.
+From Soup: 1 Conformational transitions are ubiquitous in biomolecular systems, have significant functional roles and are subject to evolutionary pressures. Here we provide a first theoretical framework for topological transition, i.e. conformational transitions that are associated with changes in molecular topology. For folded linear biomolecules, arrangement of intramolecular contacts is identified as a key topological property, termed as circuit topology. Distance measures are proposed as reaction coordinates to represent progress along a pathway from initial topology to final topology. Certain topological classes are shown to be more accessible from a random topology. We study dynamic stability and pathway degeneracy associated with a topological reaction and found that off-pathways might seriously hamper evolution to desired topologies. Finally we present an algorithm for estimating the number of intermediate topologies visited during a topological reaction. The results of this study are relevant to, among others, structural studies of RNA and proteins, analysis of topologically associated domains in chromosomes, and molecular evolution.
+ ###### 
+From cou.: 2 Arrangement of the contacts in a folded linear polymer chain is a topological property of the chain. This arrangement, called circuit topology, has been rigorously defined for linear chains with intra-chain contacts and its use in studying the equivalence of folded molecular chains has been proposed.1,2 Molecules can vary in size and sequence and yet have identical circuit topology. The topology framework allows for classification of chains into topological equivalence classes. This approach is applicable to biomolecular chains ranging from proteins, to RNA to complete chromosomes, all of which are folded linear chains held together by intra-chain contacts.1
+From Soup: 2 Arrangement of the contacts in a folded linear polymer chain is a topological property of the chain. This arrangement, called circuit topology, has been rigorously defined for linear chains with intra-chain contacts and its use in studying the equivalence of folded molecular chains has been proposed. 1,2 Molecules can vary in size and sequence and yet have identical circuit topology. The topology framework allows for classification of chains into topological equivalence classes. This approach is applicable to biomolecular chains ranging from proteins, to RNA to complete chromosomes, all of which are folded linear chains held together by intra-chain contacts. 1
+ ###### 
+From cou.: 3 For two chains that do not fall within the same topological class, we lack a distance measure to quantify their differences. Distance measures are crucial for building molecular phylogeny based on topology and for describing topological dynamics of chains. An appropriate metric structure allows for the construction of an evolutionary landscape,3 probing of processes such as epistasis,4 and modeling formation and dynamics of topologically associated domains in chromosomes.5,6 It can also serve as a reaction coordinate for conformational reactions such as folding.7 Development of metric structures on a space of circuit topologies may have far reaching implications beyond polymer science. Similar linearly structured objects appear in areas other than biomolecular sciences.8–10 These structures, though very different in nature, may share generic structural and dynamical properties.
+From Soup: 3 For two chains that do not fall within the same topological class, we lack a distance measure to quantify their differences. Distance measures are crucial for building molecular phylogeny based on topology and for describing topological dynamics of chains. An appropriate metric structure allows for the construction of an evolutionary landscape, 3 probing of processes such as epistasis, 4 and modeling formation and dynamics of topologically associated domains in chromosomes. 5,6 It can also serve as a reaction coordinate for conformational reactions such as folding. 7 Development of metric structures on a space of circuit topologies may have far reaching implications beyond polymer science. Similar linearly structured objects appear in areas other than biomolecular sciences. 8–10 These structures, though very different in nature, may share generic structural and dynamical properties.
+ ###### 
+From cou.: 4 For a simple model of a folded polymer chain, we define distance measures based on a set of reasonable local changes in the space of contact configurations, and use a minimum assignment algorithm to estimate one of the proposed distances. Because a topological treatment is agnostic to length, the model can be simplified by setting the length of every chain segment to any desired value, e.g. unity. The chain can then be readily represented by a graph in which the nodes correspond to the contact sites and the links represent intra-molecular interactions. The simple chain model allows us to disentangle topology from other structural features of molecules.
+From Soup: 4 For a simple model of a folded polymer chain, we define distance measures based on a set of reasonable local changes in the space of contact configurations, and use a minimum assignment algorithm to estimate one of the proposed distances. Because a topological treatment is agnostic to length, the model can be simplified by setting the length of every chain segment to any desired value, e.g. unity. The chain can then be readily represented by a graph in which the nodes correspond to the contact sites and the links represent intra-molecular interactions. The simple chain model allows us to disentangle topology from other structural features of molecules.
+ ###### 
+From cou.: 5 Despite the simplicity of our model, it is still a challenge to investigate topological dynamics of the chain and to identify conformational reaction pathways. Sampling from the exponentially large space of the possible pathways could be very time consuming for disordered and frustrated energy functionals of pathways, let alone the global constraint of connectivity in a pathway. An efficient way of sampling from such energy landscapes in sparsely (weakly) interacting systems is provided by the cavity method of statistical physics,11,12 relying on the Bethe approximation. The recursive and local nature of these equations are exploited in approximate message-passing algorithms that have proven useful in the study of random constraint satisfaction and optimization problems.13,14 In particular, the cavity method could be very helpful when we have to deal with global or nonlocal constraints,15–19e.g. the connectivity constraint in the minimum-weight Steiner tree problem,15 and in the study of stochastic optimization problems,20 where computing the energy function is already hard. In all of these examples, it would be computationally expensive (if not impossible) to study large-scale problem instances with the standard optimization algorithms based on the Monte Carlo sampling.
+From Soup: 5 Despite the simplicity of our model, it is still a challenge to investigate topological dynamics of the chain and to identify conformational reaction pathways. Sampling from the exponentially large space of the possible pathways could be very time consuming for disordered and frustrated energy functionals of pathways, let alone the global constraint of connectivity in a pathway. An efficient way of sampling from such energy landscapes in sparsely (weakly) interacting systems is provided by the cavity method of statistical physics, 11,12 relying on the Bethe approximation. The recursive and local nature of these equations are exploited in approximate message-passing algorithms that have proven useful in the study of random constraint satisfaction and optimization problems. 13,14 In particular, the cavity method could be very helpful when we have to deal with global or nonlocal constraints, 15–19 e.g. the connectivity constraint in the minimum-weight Steiner tree problem, 15 and in the study of stochastic optimization problems, 20 where computing the energy function is already hard. In all of these examples, it would be computationally expensive (if not impossible) to study large-scale problem instances with the standard optimization algorithms based on the Monte Carlo sampling.
+ ###### 
+From cou.: 6 In this article, we map the entire space of contact configurations and study how two molecular configurations interconvert by the rearrangement of contacts. For this aim, we construct connectivity graphs of link configurations related by the above local changes used in the distance measures. Then, we employ an exhaustive search algorithm (for small systems) to study optimal evolution with respect to an appropriate energy functional of pathways in the configuration space. We also present an approximate message-passing algorithm for the optimal evolution problem in larger systems. To address the connectivity constraint of the evolution, we have to define some intermediate auxiliary variables, making the problem amenable to local message-passing algorithms. This allows us to find reasonable approximate solutions for the optimal paths connecting two boundary configurations.
+From Soup: 6 In this article, we map the entire space of contact configurations and study how two molecular configurations interconvert by the rearrangement of contacts. For this aim, we construct connectivity graphs of link configurations related by the above local changes used in the distance measures. Then, we employ an exhaustive search algorithm (for small systems) to study optimal evolution with respect to an appropriate energy functional of pathways in the configuration space. We also present an approximate message-passing algorithm for the optimal evolution problem in larger systems. To address the connectivity constraint of the evolution, we have to define some intermediate auxiliary variables, making the problem amenable to local message-passing algorithms. This allows us to find reasonable approximate solutions for the optimal paths connecting two boundary configurations.
+ ###### 
+From cou.: 7 Our graph representation of a chain with M contacts includes M links with endpoints el = (il, jl) labeled by l = 1, …, M, where il, jl ∈ {1,…,2M} (Fig. 1). Here, a link configuration is defined by L = {(il, jl)|l = 1,…,M}, where each endpoint takes part in one and only one contact. Note that il ≠ jl and links are not directed (il, jl) ≡ (jl, il). Any two links are in one of the three states: parallel (p), series (s), or cross (x) with respect to the backbone chain. The chain is directed from left to right {1, 2, …, 2M − 1, 2M}. We are interested in topologically different link configurations represented by an M × M matrix Al,l′ ∈ {p, s, x}. For simplicity, here we do not care if such a configuration has a physical three dimensional realization.
+From Soup: 7 Our graph representation of a chain with M contacts includes M links with endpoints e l = ( i l , j l ) labeled by l = 1, …, M , where i l , j l ∈ {1,…,2 M } ( Fig. 1 ). Here, a link configuration is defined by L = {( i l , j l )| l = 1,…, M }, where each endpoint takes part in one and only one contact. Note that i l ≠ j l and links are not directed ( i l , j l ) ≡ ( j l , i l ). Any two links are in one of the three states: parallel (p), series (s), or cross (x) with respect to the backbone chain. The chain is directed from left to right {1, 2, …, 2 M − 1, 2 M }. We are interested in topologically different link configurations represented by an M × M matrix A l , l ′ ∈ {p, s, x}. For simplicity, here we do not care if such a configuration has a physical three dimensional realization.
+ ###### 
+From cou.: 8 A link configuration can also be represented by a perfect matching of the 2M endpoints i = 1,…,2M. Here, the configuration is identified by a set of connectivity variables C ≡ {cij = 0, 1|i < j} showing the absence or presence of connections between the endpoints. Each perfect matching defines a class of topologically equivalent link configurations related by a permutation of the link labels. The number of such perfect matchings is (2M − 1)!! ≡ (2M − 1) × (2M − 3) ⋯ × 1, and for each one there are M! ways of labeling the links. In other words, there are M! matrices A representing the set of topologically equivalent link configurations. Given a link configuration, one can easily construct the unique matrix A; the endpoints el = (il, jl) and el′ = (il′, jl′) are enough to identify the element Al,l′ (el, el′) ∈ {p, s, x}.
+From Soup: 8 A link configuration can also be represented by a perfect matching of the 2 M endpoints i = 1,…,2 M . Here, the configuration is identified by a set of connectivity variables C ≡ { c ij = 0, 1| i < j } showing the absence or presence of connections between the endpoints. Each perfect matching defines a class of topologically equivalent link configurations related by a permutation of the link labels. The number of such perfect matchings is (2 M − 1)!! ≡ (2 M − 1) × (2 M − 3) ⋯ × 1, and for each one there are M ! ways of labeling the links. In other words, there are M ! matrices A representing the set of topologically equivalent link configurations. Given a link configuration, one can easily construct the unique matrix A; the endpoints e l = ( i l , j l ) and e l ′ = ( i l ′ , j l ′ ) are enough to identify the element A l , l ′ ( e l , e l ′ ) ∈ {p, s, x}.
+ ###### 
+From cou.: 9 A link configuration of M links has N = M(M − 1)/2 pairs of links that can be partitioned into three disjoint subsets of size Np, Ns, Nx depending on their relative state p, s, x. The links can have an arbitrary labeling, but a convenient one that we will use later is the one in which the links are labeled from left to right according to the order of their first endpoints. At some point we will consider structured or modular link configurations with groups of links organized in well separated communities or components. We will consider simple modules of m links with all the link pairs of type q = p, s, x, represented by qm. For example, q1m1q2m2 shows a configuration with two modules of types q1, q2 and number of links m1, m2, respectively. Fig. 1 displays the main definitions and notations we use in this paper.
+From Soup: 9 A link configuration of M links has N = M ( M − 1)/2 pairs of links that can be partitioned into three disjoint subsets of size N p , N s , N x depending on their relative state p, s, x. The links can have an arbitrary labeling, but a convenient one that we will use later is the one in which the links are labeled from left to right according to the order of their first endpoints. At some point we will consider structured or modular link configurations with groups of links organized in well separated communities or components. We will consider simple modules of m links with all the link pairs of type q = p, s, x, represented by qm . For example, q 1 m 1 q 2 m 2 shows a configuration with two modules of types q 1 , q 2 and number of links m 1 , m 2 , respectively. Fig. 1 displays the main definitions and notations we use in this paper.
+ ###### 
+From cou.: 10 Given a link configuration, one can change the link arrangement in different ways to obtain a nearby configuration. In this study, we will use the following local changes to construct a connectivity graph of configurations and to define appropriate distance measures in the space of contact configurations.
+From Soup: 10 Given a link configuration, one can change the link arrangement in different ways to obtain a nearby configuration. In this study, we will use the following local changes to construct a connectivity graph of configurations and to define appropriate distance measures in the space of contact configurations.
+ ###### 
+From cou.: 11 (I) Consider two links l and l′ with endpoints el = (il, jl) and el′ = (il′, jl′), respectively. From this we construct the other two topologically distinct configurations: el = (il, il′), el′ = (jl, jl′) and el = (il, jl′), el′ = (jl, il′), obtained by an interchange of the endpoints. We call this a local change of type I (LC-I). This changes not only Al,l′ but may also change other matrix elements Al,l′′ and Al′′,l′. As a result, the numbers Np,s,x may considerably change by a LC-I.
+From Soup: 11 (I) Consider two links l and l ′ with endpoints e l = ( i l , j l ) and e l ′ = ( i l ′ , j l ′ ), respectively. From this we construct the other two topologically distinct configurations: e l = ( i l , i l ′ ), e l ′ = ( j l , j l ′ ) and e l = ( i l , j l ′ ), e l ′ = ( j l , i l ′ ), obtained by an interchange of the endpoints. We call this a local change of type I (LC-I). This changes not only A l , l ′ but may also change other matrix elements A l , l ′′ and A l ′′, l ′ . As a result, the numbers N p,s,x may considerably change by a LC-I.
+ ###### 
+From cou.: 12 (II) Consider two neighboring endpoints (k, k + 1) on the chain belonging to two different links, say el = (il, jl = k) and el′ = (il′ = k + 1, jl′). Then we change the order of the neighboring endpoints to obtain (il, jl = k + 1) and (il′ = k, jl′), see Fig. 1. We call this a local change of type II (LC-II). This only changes the matrix element Al,l′. Here, the numbers Np,s,x change smoothly (at most by one).
+From Soup: 12 (II) Consider two neighboring endpoints ( k , k + 1) on the chain belonging to two different links, say e l = ( i l , j l = k ) and e l ′ = ( i l ′ = k + 1, j l ′ ). Then we change the order of the neighboring endpoints to obtain ( i l , j l = k + 1) and ( i l ′ = k , j l ′ ), see Fig. 1 . We call this a local change of type II (LC-II). This only changes the matrix element A l , l ′ . Here, the numbers N p,s,x change smoothly (at most by one).
+ ###### 
+From cou.: 13 Starting from a link configuration we can obtain all the other ones from permutations of the endpoints i = 1, 2, …, 2M and the link labels l = 1, 2, …, M; there are 2MM! permutations of the endpoints and the link labels that lead to a topologically equivalent configuration. In fact, starting from an arrangement of the endpoints we can reach to any other one by a sequence of elementary transpositions swapping two adjacent endpoints. Thus, the space of link configurations is connected under the LC-II updates. Fig. 2 shows a small connectivity graph of link configurations related by the LC-II. We see that there is no odd loop in this graph; we always need an even number of local changes of type II to return to a given link configuration.
+From Soup: 13 Starting from a link configuration we can obtain all the other ones from permutations of the endpoints i = 1, 2, …, 2 M and the link labels l = 1, 2, …, M ; there are 2 M M ! permutations of the endpoints and the link labels that lead to a topologically equivalent configuration. In fact, starting from an arrangement of the endpoints we can reach to any other one by a sequence of elementary transpositions swapping two adjacent endpoints. Thus, the space of link configurations is connected under the LC-II updates. Fig. 2 shows a small connectivity graph of link configurations related by the LC-II. We see that there is no odd loop in this graph; we always need an even number of local changes of type II to return to a given link configuration.
+ ###### 
+From cou.: 14 Note that the number of links M is fixed in the above local changes. But we may consider the case in which one link can be removed from or added to the system. We say two link configurations (with different number of links) are connected by a local change of type M± if the larger configuration (with larger number of links) can be obtained by adding one link to the other configuration. The process in which one link is removed from the system (LC-M−), and is replaced with another link connecting two new endpoints (LC-M+), defines another local change (LC-M*) in the subspace of fixed M. Note that each endpoint belongs to one and only one link. When we add (remove) a contact we also add (remove) the two associated endpoints. Moreover, we could also allow for different local changes to happen; for example, two link configurations can be related by either LC-II or LC-M±. Fig. 2 shows such an extended connectivity graph of link configurations with M ≤ 4 links.
+From Soup: 14 Note that the number of links M is fixed in the above local changes. But we may consider the case in which one link can be removed from or added to the system. We say two link configurations (with different number of links) are connected by a local change of type M ± if the larger configuration (with larger number of links) can be obtained by adding one link to the other configuration. The process in which one link is removed from the system (LC- M − ), and is replaced with another link connecting two new endpoints (LC- M + ), defines another local change (LC- M *) in the subspace of fixed M . Note that each endpoint belongs to one and only one link. When we add (remove) a contact we also add (remove) the two associated endpoints. Moreover, we could also allow for different local changes to happen; for example, two link configurations can be related by either LC-II or LC- M ± . Fig. 2 shows such an extended connectivity graph of link configurations with M ≤ 4 links.
+ ###### 
+From cou.: 15 Based on the above local changes we define the following distance measures:
+From Soup: 15 Based on the above local changes we define the following distance measures:
+ ###### 
+From cou.: 16 (DI) Given the connectivity patterns C1, C2 of the endpoints in two link configurations, we can easily compute the Hamming distance of the two configurations. Here δc,c′ = 1 if c = c′, otherwise δc,c′ = 0. A local change of type I increases this distance by one, but it could result to considerable changes in other macroscopic properties of the chain. For instance, the number of links in the shortest path connecting the two ends of the chain (end-to-end distance) is very sensitive to a LC-I. In other words, there are very close link configurations (according to this measure) with very different end-to-end distances. The situation is of course better for the average shortest distance (the minimum number of links needed to go from one endpoint to another one).
+From Soup: 16 (DI) Given the connectivity patterns C 1 , C 2 of the endpoints in two link configurations, we can easily compute the Hamming distance of the two configurations. Here δ c , c ′ = 1 if c = c ′, otherwise δ c , c ′ = 0. A local change of type I increases this distance by one, but it could result to considerable changes in other macroscopic properties of the chain. For instance, the number of links in the shortest path connecting the two ends of the chain (end-to-end distance) is very sensitive to a LC-I. In other words, there are very close link configurations (according to this measure) with very different end-to-end distances. The situation is of course better for the average shortest distance (the minimum number of links needed to go from one endpoint to another one).
+ ###### 
+From cou.: 17 (DII) The local changes of type II suggest another distance measure DII(L1, L2) as the minimum number of LC-IIs we need to go from configuration L1 to L2. Both the end-to-end and the average shortest path distances are more correlated with this measure than the previous one. Notice that there is no odd loop in ; any two link configurations connected by a path of even length can not be connected by another path of odd length. Therefore, all the paths connecting the same boundary configurations have even (odd) lengths. The number of link configurations at distance t from a reference configuration shows how the other configurations are distributed around the configuration. Fig. 3 shows the entropy obtained by an exhaustive enumeration algorithm for M = 6 links. It is observed that structured configurations like x3x3 (with two x3 modules) are closer to the other configurations than the all-s (s6) and the all-p (p6) configurations. As the figure shows, the difference becomes clearer in the extended connectivity graph, where two link configurations are directly connected if they are related by LC-II or LC-M±.
+From Soup: 17 (DII) The local changes of type II suggest another distance measure D II ( L 1 , L 2 ) as the minimum number of LC-IIs we need to go from configuration L 1 to L 2 . Both the end-to-end and the average shortest path distances are more correlated with this measure than the previous one. Notice that there is no odd loop in ; any two link configurations connected by a path of even length can not be connected by another path of odd length. Therefore, all the paths connecting the same boundary configurations have even (odd) lengths. The number of link configurations at distance t from a reference configuration shows how the other configurations are distributed around the configuration. Fig. 3 shows the entropy obtained by an exhaustive enumeration algorithm for M = 6 links. It is observed that structured configurations like x3x3 (with two x3 modules) are closer to the other configurations than the all-s (s6) and the all-p (p6) configurations. As the figure shows, the difference becomes clearer in the extended connectivity graph, where two link configurations are directly connected if they are related by LC-II or LC- M ± .
+ ###### 
+From cou.: 18 The Hamming distance of two link configurations represented by matrices (A1, A2) is simply for a given assignment k(l) of the link labels in the two matrices. Here, to ease the notation, we used k, k′ for k(l), k(l′). When the links are indistinguishable and the contact labels are irrelevant, we define the distance measure If two matrix configurations A1,A2 are related by a LC-II then DIII(A1,A2) = 1. We stress that in contrast to the other two measures, here the link and contact labels are not important; DIII(A1,A2) = 0 for any two link configurations that have the same number of modules with similar internal structures irrespective of their ordering.
+From Soup: 18 The Hamming distance of two link configurations represented by matrices ( A 1 , A 2 ) is simply for a given assignment k ( l ) of the link labels in the two matrices. Here, to ease the notation, we used k , k ′ for k ( l ), k ( l ′). When the links are indistinguishable and the contact labels are irrelevant, we define the distance measure If two matrix configurations A 1 , A 2 are related by a LC-II then D III ( A 1 , A 2 ) = 1. We stress that in contrast to the other two measures, here the link and contact labels are not important; D III ( A 1 ,A 2 ) = 0 for any two link configurations that have the same number of modules with similar internal structures irrespective of their ordering.
+ ###### 
+From cou.: 19 Finding the above minimum distance is a minimum assignment problem: we are to find a one-to-one assignment l → k of the link labels in the two configurations minimizing the Hamming distance D(A1,A2). Here, we briefly describe an approximate algorithm to find such an assignment. More details are given in Section A of the ESI.†
+From Soup: 19 Finding the above minimum distance is a minimum assignment problem: we are to find a one-to-one assignment l → k of the link labels in the two configurations minimizing the Hamming distance D ( A 1 , A 2 ). Here, we briefly describe an approximate algorithm to find such an assignment. More details are given in Section A of the ESI. †
+ ###### 
+From cou.: 20 We consider the probability measure μ(k) ∝ e−βD(A1,A2) of assignment k, where D(A1,A2) plays the role of an energy function, and β is an inverse temperature controlling the typical Hamming distances. Then, we use Bethe approximation to compute the local probability marginals μl(k) of assigning l → k. In the Bethe approximation, the local marginals are written in terms of the cavity probability marginals μl′→l(k′) of assigning l′ → k′ in the absence of link l. For a moment, suppose the interaction (dependency) graph of the variables, defined by the energy function, is a tree. Then, the cavity marginal μl′→l(k′) can be written in terms of the other cavity marginals received from the neighboring variable nodes except l. The recursive equations governing these cavity marginals are called the belief propagation (BP) equations.12,24 For arbitrary interaction graphs, the BP equations can still be used to find good estimations for the local probability marginals. The quality of this approximation then depends on the structure and strength of the interactions. In our model, the approximated BP equations for the cavity marginals are given by
+From Soup: 20 We consider the probability measure μ ( k ) ∝ e − βD ( A 1 , A 2 ) of assignment k , where D ( A 1 , A 2 ) plays the role of an energy function, and β is an inverse temperature controlling the typical Hamming distances. Then, we use Bethe approximation to compute the local probability marginals μ l ( k ) of assigning l → k . In the Bethe approximation, the local marginals are written in terms of the cavity probability marginals μ l ′→ l ( k ′) of assigning l ′ → k ′ in the absence of link l . For a moment, suppose the interaction (dependency) graph of the variables, defined by the energy function, is a tree. Then, the cavity marginal μ l ′→ l ( k ′) can be written in terms of the other cavity marginals received from the neighboring variable nodes except l . The recursive equations governing these cavity marginals are called the belief propagation (BP) equations. 12,24 For arbitrary interaction graphs, the BP equations can still be used to find good estimations for the local probability marginals. The quality of this approximation then depends on the structure and strength of the interactions. In our model, the approximated BP equations for the cavity marginals are given by
+ ###### 
+From cou.: 21 μ
+From Soup: 21 μ
+ ###### 
+From cou.: 22 l
+From Soup: 22 l
+ ###### 
+From cou.: 23 k
+From Soup: 23 k
+ ###### 
+From cou.: 24 μ
+From Soup: 24 μ
+ ###### 
+From cou.: 25 l
+From Soup: 25 l ′→ l
+ ###### 
+From cou.: 26 l
+From Soup: 26 k
+ ###### 
+From cou.: 27 k
+From Soup: 27 β
+ ###### 
+From cou.: 28 β
+From Soup: 28 †
+ ###### 
+From cou.: 29 We used the above algorithm to find an approximate assignment minimizing the Hamming distance of two randomly generated link configurations. For M = 10, 20, 30, 40 links we find the following estimations of the minimum distances 2DIII/(M(M − 1)) = 0.371 ± 0.008, 0.316 ± 0.006, 0.294 ± 0.007, 0.289 ± 0.006, respectively.
+From Soup: 29 We used the above algorithm to find an approximate assignment minimizing the Hamming distance of two randomly generated link configurations. For M = 10, 20, 30, 40 links we find the following estimations of the minimum distances 2 D III /( M ( M − 1)) = 0.371 ± 0.008, 0.316 ± 0.006, 0.294 ± 0.007, 0.289 ± 0.006, respectively.
+ ###### 
+From cou.: 30 Consider an evolution path of length T starting from link configuration L0, ending up at configuration LT, and connecting neighboring link configurations. Define for two neighboring link configurations related by a local change, otherwise . The aim is to find an optimal evolution minimizing an energy functional of the path, , depending on the intermediate link configurations. To this end, we need to sample the space of possible pathways with the following dynamical partition function: Each path has the statistical weight depending on the path energy and the inverse temperature parameter β. At the end, we will need to take the limit β → ∞ to focus on the optimal pathways.
+From Soup: 30 Consider an evolution path of length T starting from link configuration L 0 , ending up at configuration L T , and connecting neighboring link configurations. Define for two neighboring link configurations related by a local change, otherwise . The aim is to find an optimal evolution minimizing an energy functional of the path, , depending on the intermediate link configurations. To this end, we need to sample the space of possible pathways with the following dynamical partition function: Each path has the statistical weight depending on the path energy and the inverse temperature parameter β . At the end, we will need to take the limit β → ∞ to focus on the optimal pathways.
+ ###### 
+From cou.: 31 We assume that the energy functional can be written as , where E(t) depends on the link configuration at time step t, and E(t − 1,t) is a function of the transformation from step t − 1 to t. More specifically, we will take E(t) = −Np(t), and for q = p, s, x. Here Nq→q′ is the number of contact pairs changed from q to q′. Simple folding models show that contact configurations with larger Np exhibit smaller folding times.2 That is why we choose an energy functional that decreases with the number of parallel contact pairs.
+From Soup: 31 We assume that the energy functional can be written as , where E ( t ) depends on the link configuration at time step t , and E ( t − 1, t ) is a function of the transformation from step t − 1 to t . More specifically, we will take E ( t ) = − N p ( t ), and for q = p, s, x. Here N q → q ′ is the number of contact pairs changed from q to q ′. Simple folding models show that contact configurations with larger N p exhibit smaller folding times. 2 That is why we choose an energy functional that decreases with the number of parallel contact pairs.
+ ###### 
+From cou.: 32 The following study can also be done with more general energy functions, for instance, . Here M(r; t) is the number of links of length r ≡ |jl − il| at time step t, and Nq(d;t) is the number of contact pairs of type q = p, s, x having distance d ≡ |il − ir|. We observed that such energy functions could be useful in the study of complex link configurations in the presence of structural modules and sectors.25
+From Soup: 32 The following study can also be done with more general energy functions, for instance, . Here M ( r ; t ) is the number of links of length r ≡ | j l − i l | at time step t , and N q ( d ; t ) is the number of contact pairs of type q = p, s, x having distance d ≡ | i l − i r |. We observed that such energy functions could be useful in the study of complex link configurations in the presence of structural modules and sectors. 25
+ ###### 
+From cou.: 33 For now, we consider simple paths with no loops, that is each configuration in the path is visited only once. Fig. 4 displays the optimal evolutions (obtained by an exhaustive search algorithm) connecting the x6 and p3x3 configurations by the local changes of type II, for a small number of links (M = 6). Besides, we report the degeneracy g (number of optimal paths) and the energy gap Δ between the optimal and the next optimal paths. These quantities provide a measure for stability of the optimal path. As the figure shows, for M = 6 links and T = 12, the optimal path from x6 → p3x3 maximizing has degeneracy g = 1008 and energy gap Δ = 31. Increasing the evolution time to T = 14, results in (g = 2688, Δ = 1). In addition, we observe that the optimal paths maximizing the number of transitions have a very large degeneracy compared to those that maximize the total number of parallel contact pairs. In Section D of the ESI,† we give other examples of evolution with the other local changes, connecting also link configurations with different number of links.
+From Soup: 33 For now, we consider simple paths with no loops, that is each configuration in the path is visited only once. Fig. 4 displays the optimal evolutions (obtained by an exhaustive search algorithm) connecting the x6 and p3x3 configurations by the local changes of type II, for a small number of links ( M = 6). Besides, we report the degeneracy g (number of optimal paths) and the energy gap Δ between the optimal and the next optimal paths. These quantities provide a measure for stability of the optimal path. As the figure shows, for M = 6 links and T = 12, the optimal path from x6 → p3x3 maximizing has degeneracy g = 1008 and energy gap Δ = 31. Increasing the evolution time to T = 14, results in ( g = 2688, Δ = 1). In addition, we observe that the optimal paths maximizing the number of transitions have a very large degeneracy compared to those that maximize the total number of parallel contact pairs. In Section D of the ESI, † we give other examples of evolution with the other local changes, connecting also link configurations with different number of links.
+ ###### 
+From cou.: 34 Next, we study some statistical properties of the optimal paths in the connectivity graph of link configurations with M ≤ 5 links. To this end, we take the adjacency graphs obtained by different choices of the local changes, and compare the number of optimal shortest paths maximizing , with a given path length T, degeneracy g, and energy gap Δ. Table 1 gives the average value 〈o〉 and standard deviation of these quantities, in addition to values for the correlation coefficients r(o,o′) = (〈oo′〉 − 〈o〉〈o′〉)/(σoσo′). Longer optimal paths are expected to have larger degeneracies and smaller gaps; that would result in positive and negative values for the correlation coefficients r(T, g) and r(T, Δ), respectively. As the table shows, this does note always happen, for example, for local changes of type II + M*. We also observe that the local changes of type II behave differently from the other local changes, with very strong fluctuations in g and Δ, along with very small correlation coefficients. In Fig. 5, we also display the probability distribution of g and Δ for the optimal shortest paths in the connectivity graphs and . Here, one may prefer LC-(I + M±) to LC-(II + M±), as the optimal paths have in average smaller degeneracy and larger energy gap in the former than the latter case.
+From Soup: 34 Next, we study some statistical properties of the optimal paths in the connectivity graph of link configurations with M ≤ 5 links. To this end, we take the adjacency graphs obtained by different choices of the local changes, and compare the number of optimal shortest paths maximizing , with a given path length T , degeneracy g , and energy gap Δ . Table 1 gives the average value 〈 o 〉 and standard deviation of these quantities, in addition to values for the correlation coefficients r ( o , o ′) = (〈 oo ′〉 − 〈 o 〉〈 o ′〉)/( σ o σ o ′ ). Longer optimal paths are expected to have larger degeneracies and smaller gaps; that would result in positive and negative values for the correlation coefficients r ( T , g ) and r ( T , Δ ), respectively. As the table shows, this does note always happen, for example, for local changes of type II + M *. We also observe that the local changes of type II behave differently from the other local changes, with very strong fluctuations in g and Δ , along with very small correlation coefficients. In Fig. 5 , we also display the probability distribution of g and Δ for the optimal shortest paths in the connectivity graphs and . Here, one may prefer LC-(I + M ± ) to LC-(II + M ± ), as the optimal paths have in average smaller degeneracy and larger energy gap in the former than the latter case.
+ ###### 
+From cou.: 35 Consider two link configurations L0, LT connected by a sequence of local changes, that is LT = uT…u1L0. There could be different orderings of the LCs connecting the same boundary configurations. The question is how these different orderings affect a macroscopic behavior (phenotype) of the chain, for example a monotonically increasing (fitness) function of the Np,s,x. For simplicity, here we focus on the case of two local changes u, v of type II. We say the local change u commutes with v in the context of L if vuL = uvL. In Table S1 of the ESI,† we summarize the possible effects of two commutative local changes on a contact configuration. As the table shows, the changes in numbers Np,s,x in the two paths connecting L to L′ = vuL = uvL are correlated depending on how that quantity changes from L to L′. In particular, when Nq increases (or decreases) the corresponding changes in the two paths can not have different signs.
+From Soup: 35 Consider two link configurations L 0 , L T connected by a sequence of local changes, that is L T = u T … u 1 L 0 . There could be different orderings of the LCs connecting the same boundary configurations. The question is how these different orderings affect a macroscopic behavior (phenotype) of the chain, for example a monotonically increasing (fitness) function of the N p,s,x . For simplicity, here we focus on the case of two local changes u , v of type II. We say the local change u commutes with v in the context of L if vuL = uvL . In Table S1 of the ESI, † we summarize the possible effects of two commutative local changes on a contact configuration. As the table shows, the changes in numbers N p,s,x in the two paths connecting L to L ′ = vuL = uvL are correlated depending on how that quantity changes from L to L ′. In particular, when N q increases (or decreases) the corresponding changes in the two paths can not have different signs.
+ ###### 
+From cou.: 36 The optimal paths we obtained so far were simple with no loops (also called off-pathways). The off-pathways (if allowed) can localize the dynamics in a small region of the configuration space wasting the evolution time. To escape from these traps, one may increase the path length T or somehow disturb the system in the hope of finding another path dominating the off-pathways, but probably another set of off-pathways would appear. See Table S2 in the ESI,† for some examples of evolution in the presence of off-pathways.
+From Soup: 36 The optimal paths we obtained so far were simple with no loops (also called off-pathways). The off-pathways (if allowed) can localize the dynamics in a small region of the configuration space wasting the evolution time. To escape from these traps, one may increase the path length T or somehow disturb the system in the hope of finding another path dominating the off-pathways, but probably another set of off-pathways would appear. See Table S2 in the ESI, † for some examples of evolution in the presence of off-pathways.
+ ###### 
+From cou.: 37 For larger number of links, one has to think of other approximate algorithms. To be specific, in the following we consider only evolutions with the local changes of type II. We will need to introduce some auxiliary variables to represent the global constraint of path connectivity in terms of local constraints amenable to local message-passing algorithms. Then, we will apply Bethe approximation to obtain an efficient way of dealing with the above minimum evolution problem.
+From Soup: 37 For larger number of links, one has to think of other approximate algorithms. To be specific, in the following we consider only evolutions with the local changes of type II. We will need to introduce some auxiliary variables to represent the global constraint of path connectivity in terms of local constraints amenable to local message-passing algorithms. Then, we will apply Bethe approximation to obtain an efficient way of dealing with the above minimum evolution problem.
+ ###### 
+From cou.: 38 Let us label the links from left to right according to the order of their first endpoints. To shorten the evolution time, we allow for more than one LC-II in each step of the evolution and represent the transformation from Lt−1 to Lt by a matching of the links u(t); links l and l′ are involved in a local change of type II if ull′(t) = 1, otherwise ull′(t) = 0. Moreover, ull′(t) could be 1 only if links l and l′ have neighboring endpoints on the chain. The matching property of u(t) means that if ull′(t) = 1 then ull′′(t) = ul′l′′(t) = 0 for all l′′ ≠ l, l′. This property ensures that order of the local changes in one step is not important, therefore, we can uniquely determine el(t), el′(t) from ek(t − 1), ek′(t − 1) in case ull′(t) = 1. If necessary, we also interchange the labels (k,k′) → (l = k′, l′ = k) to ensure that in each step of the evolution the links are ordered according to their first endpoints.
+From Soup: 38 Let us label the links from left to right according to the order of their first endpoints. To shorten the evolution time, we allow for more than one LC-II in each step of the evolution and represent the transformation from L t −1 to L t by a matching of the links u ( t ); links l and l ′ are involved in a local change of type II if u ll ′ ( t ) = 1, otherwise u ll ′ ( t ) = 0. Moreover, u ll ′ ( t ) could be 1 only if links l and l ′ have neighboring endpoints on the chain. The matching property of u (t) means that if u ll ′ ( t ) = 1 then u ll ′′ ( t ) = u l ′ l ′′ ( t ) = 0 for all l ′′ ≠ l , l ′. This property ensures that order of the local changes in one step is not important, therefore, we can uniquely determine e l ( t ), e l ′ ( t ) from e k ( t − 1), e k ′ ( t − 1) in case u ll ′ ( t ) = 1. If necessary, we also interchange the labels ( k , k ′) → ( l = k ′, l ′ = k ) to ensure that in each step of the evolution the links are ordered according to their first endpoints.
+ ###### 
+From cou.: 39 The statistical properties of the problem can be obtained from the following dynamical partition function
+From Soup: 39 The statistical properties of the problem can be obtained from the following dynamical partition function
+ ###### 
+From cou.: 40 u
+From Soup: 40 0
+ ###### 
+From cou.: 41 u
+From Soup: 41 u
+ ###### 
+From cou.: 42 u
+From Soup: 42 u
+ ###### 
+From cou.: 43 T
+From Soup: 43 u
+ ###### 
+From cou.: 44 t
+From Soup: 44 T
+ ###### 
+From cou.: 45 L
+From Soup: 45 t
+ ###### 
+From cou.: 46 t
+From Soup: 46 L
+ ###### 
+From cou.: 47 L
+From Soup: 47 t
+ ###### 
+From cou.: 48 u
+From Soup: 48 L
+ ###### 
+From cou.: 49 u
+From Soup: 49 u
+ ###### 
+From cou.: 50 u
+From Soup: 50 u
+ ###### 
+From cou.: 51 t
+From Soup: 51 u
+ ###### 
+From cou.: 52 L
+From Soup: 52 t
+ ###### 
+From cou.: 53 δ
+From Soup: 53 L
+ ###### 
+From cou.: 54 L
+From Soup: 54 0
+ ###### 
+From cou.: 55 L
+From Soup: 55 δ
+ ###### 
+From cou.: 56 T
+From Soup: 56 L
+ ###### 
+From cou.: 57 L
+From Soup: 57 L
+ ###### 
+From cou.: 58 L
+From Soup: 58 T
+ ###### 
+From cou.: 59 T
+From Soup: 59 L
+ ###### 
+From cou.: 60 The above problem can be solved by a dynamic programming algorithm working with the cavity marginals μt→t+1(Lt) and μt→t−1(Lt). These are the probability of having configuration Lt in the absence of the energy terms and constraints in the other segment of the pathway; i.e. (t, T] for the forward message μt→t+1, and [0, t) for the backward message μt→t−1. More precisely,
+From Soup: 60 L
+ ###### 
+From cou.: 61 μ
+From Soup: 61 T
+ ###### 
+From cou.: 62 t
+From Soup: 62 The above problem can be solved by a dynamic programming algorithm working with the cavity marginals μ t → t +1 ( L t ) and μ t → t −1 ( L t ). These are the probability of having configuration L t in the absence of the energy terms and constraints in the other segment of the pathway; i.e. ( t , T ] for the forward message μ t → t +1 , and [0, t ) for the backward message μ t → t −1 . More precisely,
+ ###### 
+From cou.: 63 t
+From Soup: 63 μ
+ ###### 
+From cou.: 64 L
+From Soup: 64 t → t −1
+ ###### 
+From cou.: 65 t
+From Soup: 65 L
+ ###### 
+From cou.: 66 Note that working with an exact representation for the cavity marginals is computationally very expensive for large problem sizes. Thus, we have to resort to reasonable approximations working with an efficient and succinct representation of the cavity messages; see ref. 21–23 for examples in the quantum and dynamic cavity methods. Here we explain the main approximations used in this study. The reader can find more details in Section C of the ESI.†
+From Soup: 66 t
+ ###### 
+From cou.: 67 We represent a link configuration L by the set of endpoints el = (il, jl) and approximate the cavity marginals by a Bethe distribution,21 for instance,
+From Soup: 67 Note that working with an exact representation for the cavity marginals is computationally very expensive for large problem sizes. Thus, we have to resort to reasonable approximations working with an efficient and succinct representation of the cavity messages; see ref. 21–23 for examples in the quantum and dynamic cavity methods. Here we explain the main approximations used in this study. The reader can find more details in Section C of the ESI. †
+ ###### 
+From cou.: 68 μ
+From Soup: 68 We represent a link configuration L by the set of endpoints e l = ( i l , j l ) and approximate the cavity marginals by a Bethe distribution, 21 for instance,
+ ###### 
+From cou.: 69 l
+From Soup: 69 μ
+ ###### 
+From cou.: 70 t
+From Soup: 70 l
+ ###### 
+From cou.: 71 t
+From Soup: 71 t −1→ t
+ ###### 
+From cou.: 72 e
+From Soup: 72 e
+ ###### 
+From cou.: 73 l
+From Soup: 73 l
+ ###### 
+From cou.: 74 μ
+From Soup: 74 μ
+ ###### 
+From cou.: 75 ll′
+From Soup: 75 ll ′
+ ###### 
+From cou.: 76 t
+From Soup: 76 t −1→ t
+ ###### 
+From cou.: 77 t
+From Soup: 77 e
+ ###### 
+From cou.: 78 e
+From Soup: 78 l
+ ###### 
+From cou.: 79 l
+From Soup: 79 e
+ ###### 
+From cou.: 80 e
+From Soup: 80 l ′
+ ###### 
+From cou.: 81 l
+From Soup: 81 μ
+ ###### 
+From cou.: 82 μ
+From Soup: 82 t −1→ t
+ ###### 
+From cou.: 83 t
+From Soup: 83 L
+ ###### 
+From cou.: 84 t
+From Soup: 84 eqn (5)
+ ###### 
+From cou.: 85 L
+From Soup: 85 μ
+ ###### 
+From cou.: 86 μ
+From Soup: 86 ll ′
+ ###### 
+From cou.: 87 ll′
+From Soup: 87 t → t +1
+ ###### 
+From cou.: 88 t
+From Soup: 88 e
+ ###### 
+From cou.: 89 t
+From Soup: 89 l
+ ###### 
+From cou.: 90 e
+From Soup: 90 e
+ ###### 
+From cou.: 91 l
+From Soup: 91 l ′
+ ###### 
+From cou.: 92 e
+From Soup: 92 δl
+ ###### 
+From cou.: 93 l
+From Soup: 93 l
+ ###### 
+From cou.: 94 δl
+From Soup: 94 e
+ ###### 
+From cou.: 95 l
+From Soup: 95 l
+ ###### 
+From cou.: 96 e
+From Soup: 96 t
+ ###### 
+From cou.: 97 l
+From Soup: 97 δl
+ ###### 
+From cou.: 98 t
+From Soup: 98 e
+ ###### 
+From cou.: 99 δl
+From Soup: 99 k
+ ###### 
+From cou.: 100 e
+From Soup: 100 t
+ ###### 
+From cou.: 101 k
+From Soup: 101 l
+ ###### 
+From cou.: 102 t
+From Soup: 102 Given the cavity marginals μ ll ′ t → t +1 ( e l , e l ′ ), we obtain the local marginals μ ll ′ t ( e l , e l ′ ) from μ t ( L t ) ∝ e βE ( t ) μ t → t +1 ( L t ) μ t → t −1 ( L t ). This allow us to find an estimation of the number of possible link configurations at time step t , as explained in the ESI. † Fig. 6 displays the information obtained in this way for different inverse temperatures β with M = 10 links. Finally, to concentrate on the minimum evolutions, we take the limit β → ∞ of the above equations to obtain the so called minsum equations, 24 see Section C of the ESI. † These minsum equations are used in a reinforcement (smoothed decimation) algorithm 26 to find an approximate optimal path for given boundary conditions and time steps T .
+ ###### 
+From cou.: 103 l
+From Soup: 103 By the above approximate algorithm, we can explore the configuration space of larger number of links with larger evolution times. The time complexity of the algorithm grows like TM 6 , and it takes still a few hours of CPU time to find an approximate minimum path of length T = 10 for M = 10. There are a few points here to mention about the algorithm. In each step we are approximating the cavity marginals μ t → t ±1 ( L ) by a Bethe distribution that would degrade the algorithm performance as the evolution time T increases. But, we are working with coarse-grained time steps allowing for O ( M ) local changes of type II in each step. This is good because the average shortest distance between two randomly selected link configurations would grow as M ln M if the connectivity graph is close to a random graph of ≈e M ln M nodes. It means that we do not need to work with very large number of coarse-grained time steps. This of course is obtained in the expense of optimizing a coarse-grained dynamics instead of the more detailed one.
+ ###### 
+From cou.: 104 Given the cavity marginals μll′t→t+1(el, el′), we obtain the local marginals μll′t(el, el′) from μt(Lt) ∝ eβE(t)μt→t+1(Lt)μt→t−1(Lt). This allow us to find an estimation of the number of possible link configurations at time step t, as explained in the ESI.†Fig. 6 displays the information obtained in this way for different inverse temperatures β with M = 10 links. Finally, to concentrate on the minimum evolutions, we take the limit β → ∞ of the above equations to obtain the so called minsum equations,24 see Section C of the ESI.† These minsum equations are used in a reinforcement (smoothed decimation) algorithm26 to find an approximate optimal path for given boundary conditions and time steps T.
+From Soup: 104 As an example, we consider the evolution of M = 6 links from the all-x configuration x6 to a modular configuration of two components p3x3. The shortest path has length T = 12 with . For an optimal path of length T = 16 maximizing , we obtain by the exact algorithm. On the other hand, using the approximate algorithm, we obtain a path of 7 coarse-grained steps, shown in Fig. 7 , which can be decomposed into T = 19 local changes of type II with . In the same figure, we show a path from x6 to x3x3. Here the shortest path takes T = 9 steps and . For T = 13 we find by the exact algorithm whereas the approximate algorithm gives in 7 coarse-grained steps consisting of 15 local changes of type II. Note that, however, these are not fair comparisons as the two algorithms are not optimizing exactly the same dynamics. In Section D of the ESI, † we display more instances of evolutions obtained by the approximate algorithm for a larger system with M = 10 links and T = 9.
+ ###### 
+From cou.: 105 By the above approximate algorithm, we can explore the configuration space of larger number of links with larger evolution times. The time complexity of the algorithm grows like TM6, and it takes still a few hours of CPU time to find an approximate minimum path of length T = 10 for M = 10. There are a few points here to mention about the algorithm. In each step we are approximating the cavity marginals μt→t±1(L) by a Bethe distribution that would degrade the algorithm performance as the evolution time T increases. But, we are working with coarse-grained time steps allowing for O(M) local changes of type II in each step. This is good because the average shortest distance between two randomly selected link configurations would grow as MlnM if the connectivity graph is close to a random graph of ≈eMlnM nodes. It means that we do not need to work with very large number of coarse-grained time steps. This of course is obtained in the expense of optimizing a coarse-grained dynamics instead of the more detailed one.
+From Soup: 105 Conformational transitions are ubiquitous in biomolecular systems, have significant functional role and are subject to evolutionary pressures. These transitions change properties of molecules including topology, surface properties and mechanical flexibility, and subsequently affect their affinity for interacting partners as well as functions. Despite existence of experimental data regarding the long-lived stable states of biomolecules, little or no experimental data are often available on the intermediate states along the conformational transition pathway associated with a function or evolution of a function. Theoretical and computational efforts are providing fundamental insights into this process. Here we provided a first theoretical framework for topological transition, i.e. conformational transitions that are associated with changes in molecular topology.
+ ###### 
+From cou.: 106 As an example, we consider the evolution of M = 6 links from the all-x configuration x6 to a modular configuration of two components p3x3. The shortest path has length T = 12 with . For an optimal path of length T = 16 maximizing , we obtain by the exact algorithm. On the other hand, using the approximate algorithm, we obtain a path of 7 coarse-grained steps, shown in Fig. 7, which can be decomposed into T = 19 local changes of type II with . In the same figure, we show a path from x6 to x3x3. Here the shortest path takes T = 9 steps and . For T = 13 we find by the exact algorithm whereas the approximate algorithm gives in 7 coarse-grained steps consisting of 15 local changes of type II. Note that, however, these are not fair comparisons as the two algorithms are not optimizing exactly the same dynamics. In Section D of the ESI,† we display more instances of evolutions obtained by the approximate algorithm for a larger system with M = 10 links and T = 9.
+From Soup: 106 We defined distance measures on the space of circuit topologies and then used the distance measures to study how topologies evolve under the most basic protocols. Topology of a chain can change in two ways, by changing the number of contacts or by rearranging the contacts. 2 Here we studied correlated disruption of two neighboring contacts and subsequent reformation of contacts via exchanging neighboring contact sites. This protocol is for example applicable to rearrangements due to co-variation of monomers that are close in primary sequence. It also assumes that two neighboring contacts have a higher chance of exchanging their partners due to physical proximity (closeness in sequence commonly leads to proximity in 3D). We also studied the dynamics under a protocol in which two random contacts are disrupted and the free contact sites form a new contact pair. In addition, we considered the dynamics with variable number of links, where a contact configuration can also change by creation or annihilation of a single contact. We defined connectivity graphs and distance measures based on these local changes in the space of contact configurations, and studied their statistical properties.
+ ###### 
+From cou.: 107 Conformational transitions are ubiquitous in biomolecular systems, have significant functional role and are subject to evolutionary pressures. These transitions change properties of molecules including topology, surface properties and mechanical flexibility, and subsequently affect their affinity for interacting partners as well as functions. Despite existence of experimental data regarding the long-lived stable states of biomolecules, little or no experimental data are often available on the intermediate states along the conformational transition pathway associated with a function or evolution of a function. Theoretical and computational efforts are providing fundamental insights into this process. Here we provided a first theoretical framework for topological transition, i.e. conformational transitions that are associated with changes in molecular topology.
+From Soup: 107 Our analysis revealed properties of the topological space and their implications for topological dynamics. Using the exact algorithm for small number of links, we find: (1) The connectivity graph of link configurations that are related by the local changes of type II and M ± shows that configurations are more concentrated around the modular configurations. (2) The optimal shortest paths minimizing the energy functional behave very differently in the connectivity graphs obtained by the LC-II; we observed very large fluctuations in the degeneracy g and energy gap Δ , accompanied by nearly no correlation between these quantities and the path length. As another example, the optimal shortest paths in exhibit in average smaller degeneracy and larger gap than the optimal shortest paths in .
+ ###### 
+From cou.: 108 We defined distance measures on the space of circuit topologies and then used the distance measures to study how topologies evolve under the most basic protocols. Topology of a chain can change in two ways, by changing the number of contacts or by rearranging the contacts.2 Here we studied correlated disruption of two neighboring contacts and subsequent reformation of contacts via exchanging neighboring contact sites. This protocol is for example applicable to rearrangements due to co-variation of monomers that are close in primary sequence. It also assumes that two neighboring contacts have a higher chance of exchanging their partners due to physical proximity (closeness in sequence commonly leads to proximity in 3D). We also studied the dynamics under a protocol in which two random contacts are disrupted and the free contact sites form a new contact pair. In addition, we considered the dynamics with variable number of links, where a contact configuration can also change by creation or annihilation of a single contact. We defined connectivity graphs and distance measures based on these local changes in the space of contact configurations, and studied their statistical properties.
+From Soup: 108 For larger number of links, we devised an approximate algorithm to estimate the number of intermediate link configurations connecting two boundary configurations in a path of length T . A zero-temperature limit of the algorithm allows us to find an approximate optimal path minimizing an additive energy functional of the evolution. The challenge here is the study of larger problem sizes by more accurate and efficient approximations, to investigate large deviations (rare events) in the energy landscape of the evolution.
+ ###### 
+From cou.: 109 Our analysis revealed properties of the topological space and their implications for topological dynamics. Using the exact algorithm for small number of links, we find: (1) The connectivity graph of link configurations that are related by the local changes of type II and M± shows that configurations are more concentrated around the modular configurations. (2) The optimal shortest paths minimizing the energy functional behave very differently in the connectivity graphs obtained by the LC-II; we observed very large fluctuations in the degeneracy g and energy gap Δ, accompanied by nearly no correlation between these quantities and the path length. As another example, the optimal shortest paths in exhibit in average smaller degeneracy and larger gap than the optimal shortest paths in .
+From Soup: 109 The simplicity of our model allowed us to illustrate the notion of topological dynamics without the need to consider the complexity of a real system. Despite being a critical determinant of polymer dynamics, 2,27 topology is often not the only factor governing molecular functions and dynamics. Many other factors such as chemical nature of the monomers, geometric constraints, solvent properties as well as interacting molecules play critical roles. Further experimental, bioinformatic and theoretical studies are needed to test the relevance, applicability and predictability of the proposed distance measures and modes of dynamics in real world applications.
+ ###### 
+From cou.: 110 For larger number of links, we devised an approximate algorithm to estimate the number of intermediate link configurations connecting two boundary configurations in a path of length T. A zero-temperature limit of the algorithm allows us to find an approximate optimal path minimizing an additive energy functional of the evolution. The challenge here is the study of larger problem sizes by more accurate and efficient approximations, to investigate large deviations (rare events) in the energy landscape of the evolution.
+From Soup: 110 In this article, we explored how topology imposes constraints on chain dynamics and shapes the conformational search towards a desired state. The topology framework can be used for a host of applications in structural biology, evolutionary biology and materials sciences, among others. We conclude by suggesting possible directions for future research.
+ ###### 
+From cou.: 111 The simplicity of our model allowed us to illustrate the notion of topological dynamics without the need to consider the complexity of a real system. Despite being a critical determinant of polymer dynamics,2,27 topology is often not the only factor governing molecular functions and dynamics. Many other factors such as chemical nature of the monomers, geometric constraints, solvent properties as well as interacting molecules play critical roles. Further experimental, bioinformatic and theoretical studies are needed to test the relevance, applicability and predictability of the proposed distance measures and modes of dynamics in real world applications.
+From Soup: 111 The topology framework is expected to find applications in analysis of genome architecture and dynamics. In particular, our approach can be readily applied to study the topologically associated domains (TADs) in chromosomes. 5,28–30 Here, DNA acts as a polymer chain and binding proteins act as contacts bringing distinct sites on DNA together. Despite complexity of genomic architecture and nuclear environment, loci that are distant are often able to come to close proximity to form physical contacts 35 that subsequently lead to biochemical interactions and signalings. 36 Contacts between genomic loci may break and re-establish into a new arrangement. The arrangement of these contacts and the frequencies of contact formation between sites on the same or different chromosomes can be measured using Chromosome Conformation Capture (C3) technology and its more recent variants such as Hi-C techniques. 31–34 Various quantities analyzed in this article could assume a different meaning when put in this context: gap between, and degeneracy of, states would be related to the stability and frequency of 3D conformations. These could then directly inform biological experiments. 29,37 Dynamical changes between topological states could be interpreted as reactions catalyzed by histone modifications in the case of inter-phase chromosomes.
+ ###### 
+From cou.: 112 In this article, we explored how topology imposes constraints on chain dynamics and shapes the conformational search towards a desired state. The topology framework can be used for a host of applications in structural biology, evolutionary biology and materials sciences, among others. We conclude by suggesting possible directions for future research.
+From Soup: 112 Our approach can also be used to study dynamics and evolution of proteins. As such one has to first extract circuit topology from coordinate files, as described in ref. 1 One can then infer energy functions that serve to describe the statistical weight of contact configurations in a dynamical process. In ref. 25 we used local topological data to reconstruct such an energy function. There, we observed that appropriate forms of two-contact interactions are enough to describe simple structural orders like modules and sectors.
+ ###### 
+From cou.: 113 The topology framework is expected to find applications in analysis of genome architecture and dynamics. In particular, our approach can be readily applied to study the topologically associated domains (TADs) in chromosomes.5,28–30 Here, DNA acts as a polymer chain and binding proteins act as contacts bringing distinct sites on DNA together. Despite complexity of genomic architecture and nuclear environment, loci that are distant are often able to come to close proximity to form physical contacts35 that subsequently lead to biochemical interactions and signalings.36 Contacts between genomic loci may break and re-establish into a new arrangement. The arrangement of these contacts and the frequencies of contact formation between sites on the same or different chromosomes can be measured using Chromosome Conformation Capture (C3) technology and its more recent variants such as Hi-C techniques.31–34 Various quantities analyzed in this article could assume a different meaning when put in this context: gap between, and degeneracy of, states would be related to the stability and frequency of 3D conformations. These could then directly inform biological experiments.29,37 Dynamical changes between topological states could be interpreted as reactions catalyzed by histone modifications in the case of inter-phase chromosomes.
+From Soup: 113 Characterizing the nature of large deviations of stochastic quantities ( e.g. work) in a nonequilibrium process ( e.g. stretching a polymer in contact with a thermal bath) is essential to our understanding of biophysical systems and in general the principles of nonequilibrium systems. 38–42 Here one needs powerful and efficient sampling algorithms to capture the statistical properties of the rare events. The cavity method and algorithms we utilized in this work proved useful in the study of equilibrium glassy systems, and we expect to be helpful also in biophysical applications.
+ ###### 
+From cou.: 114 Our approach can also be used to study dynamics and evolution of proteins. As such one has to first extract circuit topology from coordinate files, as described in ref. 1 One can then infer energy functions that serve to describe the statistical weight of contact configurations in a dynamical process. In ref. 25 we used local topological data to reconstruct such an energy function. There, we observed that appropriate forms of two-contact interactions are enough to describe simple structural orders like modules and sectors.
+From Soup: 114 Finally, we envision application of our approach to areas other than polymer physics. In particular, our study may be applicable to problems involving optimal evolution of dynamical (stochastic) systems. Linearly ordered objects with inter-object interactions are ubiquitous in nature and in applications ranging from economics and operations research to biology. Understanding the linear order and the arrangements of inter-object interactions are crucial for understanding the functions and dynamics of these systems. The former issue, known as linear ordering problem or job shop scheduling, has been intensely studied over the last few decades. The latter, however, remained less understood. Here, we studied polymer chains as a prototype of linear chain of objects with intra-chain interactions in its topological space. We hope that our results will further stimulate research along these lines.
+ ###### 
+From cou.: 115 Characterizing the nature of large deviations of stochastic quantities (e.g. work) in a nonequilibrium process (e.g. stretching a polymer in contact with a thermal bath) is essential to our understanding of biophysical systems and in general the principles of nonequilibrium systems.38–42 Here one needs powerful and efficient sampling algorithms to capture the statistical properties of the rare events. The cavity method and algorithms we utilized in this work proved useful in the study of equilibrium glassy systems, and we expect to be helpful also in biophysical applications.
+From Soup: 115 We would like to thank R. Zecchina and anonymous referees for careful reading of the manuscript and their helpful comments.
+ ###### 
+From cou.: 116 Finally, we envision application of our approach to areas other than polymer physics. In particular, our study may be applicable to problems involving optimal evolution of dynamical (stochastic) systems. Linearly ordered objects with inter-object interactions are ubiquitous in nature and in applications ranging from economics and operations research to biology. Understanding the linear order and the arrangements of inter-object interactions are crucial for understanding the functions and dynamics of these systems. The former issue, known as linear ordering problem or job shop scheduling, has been intensely studied over the last few decades. The latter, however, remained less understood. Here, we studied polymer chains as a prototype of linear chain of objects with intra-chain interactions in its topological space. We hope that our results will further stimulate research along these lines.
+From Soup: 116 A. Mashaghi, R. J. van Wijk and S. J. Tans, Structure , 2014, 22 (9), 1227–1237 CrossRef CAS PubMed .
+ ###### 
+From cou.: 117 We would like to thank R. Zecchina and anonymous referees for careful reading of the manuscript and their helpful comments.
+From Soup: 117 A. Mugler, S. J. Tans and A. Mashaghi, Phys. Chem. Chem. Phys. , 2014, 16 (41), 22537–22544 RSC .
+ ###### 
+From cou.: 118 A. Mashaghi, R. J. van Wijk and S. J. Tans, Structure, 2014, 22(9), 1227–1237 CrossRef CAS PubMed .
+From Soup: 118 E. Bornberg-Bauer and H. S. Chan, Proc. Natl. Acad. Sci. U. S. A. , 1999, 96 (19), 10689–10694 CrossRef CAS .
+ ###### 
+From cou.: 119 A. Mugler, S. J. Tans and A. Mashaghi, Phys. Chem. Chem. Phys., 2014, 16(41), 22537–22544 RSC .
+From Soup: 119 M. S. Breen, C. Kemena, P. K. Vlasov, C. Notredame and F. A. Kondrashov, Nature , 2012, 490 , 535–538 CrossRef CAS PubMed .
+ ###### 
+From cou.: 120 E. Bornberg-Bauer and H. S. Chan, Proc. Natl. Acad. Sci. U. S. A., 1999, 96(19), 10689–10694 CrossRef CAS .
+From Soup: 120 B. Zhang and P. G. Wolynes, Proc. Natl. Acad. Sci. U. S. A. , 2015, 112 (19), 6062–6067 CrossRef CAS PubMed .
+ ###### 
+From cou.: 121 M. S. Breen, C. Kemena, P. K. Vlasov, C. Notredame and F. A. Kondrashov, Nature, 2012, 490, 535–538 CrossRef CAS PubMed .
+From Soup: 121 E. P. Nora, B. R. Lajoie, E. G. Schulz, L. Giorgetti, I. Okamoto, N. Servant, T. Piolot, N. L. van Berkum, J. Meisig, J. Sedat, J. Gribnau, E. Barillot, N. Blüthgen, J. Dekker and E. Heard, Nature , 2012, 485 , 381–385 CrossRef CAS PubMed .
+ ###### 
+From cou.: 122 B. Zhang and P. G. Wolynes, Proc. Natl. Acad. Sci. U. S. A., 2015, 112(19), 6062–6067 CrossRef CAS PubMed .
+From Soup: 122 S. S. Cho, Y. Levy and P. G. Wolynes, Proc. Natl. Acad. Sci. U. S. A. , 2006, 103 (3), 586–591 CrossRef CAS PubMed .
+ ###### 
+From cou.: 123 E. P. Nora, B. R. Lajoie, E. G. Schulz, L. Giorgetti, I. Okamoto, N. Servant, T. Piolot, N. L. van Berkum, J. Meisig, J. Sedat, J. Gribnau, E. Barillot, N. Blüthgen, J. Dekker and E. Heard, Nature, 2012, 485, 381–385 CrossRef CAS PubMed .
+From Soup: 123 H. Fisher and G. L. Thompson, in Industrial Scheduling , ed. J. F. Muth and G. L. Thompson, Prentice-Hall, Englewood, 1963 Search PubMed .
+ ###### 
+From cou.: 124 S. S. Cho, Y. Levy and P. G. Wolynes, Proc. Natl. Acad. Sci. U. S. A., 2006, 103(3), 586–591 CrossRef CAS PubMed .
+From Soup: 124 S. Diehl, E. Rico, M. A. Baranov and P. Zoller, Nat. Phys. , 2011, 7 , 971–977 CrossRef CAS PubMed .
+ ###### 
+From cou.: 125 H. Fisher and G. L. Thompson, in Industrial Scheduling, ed. J. F. Muth and G. L. Thompson, Prentice-Hall, Englewood, 1963 Search PubMed .
+From Soup: 125 A. Ramezanpour, Phys. Rev. E: Stat., Nonlinear, Soft Matter Phys. , 2013, 87 , 060103(R) CrossRef .
+ ###### 
+From cou.: 126 S. Diehl, E. Rico, M. A. Baranov and P. Zoller, Nat. Phys., 2011, 7, 971–977 CrossRef CAS PubMed .
+From Soup: 126 M. Mézard and G. Parisi, Eur. Phys. J. B , 2001, 20 , 217 CrossRef .
+ ###### 
+From cou.: 127 A. Ramezanpour, Phys. Rev. E: Stat., Nonlinear, Soft Matter Phys., 2013, 87, 060103(R) CrossRef .
+From Soup: 127 M. Mézard and A. Montanari, Information, Physics, and Computation , Oxford University Press, Oxford, 2009 Search PubMed .
+ ###### 
+From cou.: 128 M. Mézard and G. Parisi, Eur. Phys. J. B, 2001, 20, 217 CrossRef .
+From Soup: 128 M. Mézard and R. Zecchina, Phys. Rev. E: Stat., Nonlinear, Soft Matter Phys. , 2002, 66 , 056126 CrossRef .
+ ###### 
+From cou.: 129 M. Mézard and A. Montanari, Information, Physics, and Computation, Oxford University Press, Oxford, 2009 Search PubMed .
+From Soup: 129 M. Mézard, G. Parisi and R. Zecchina, Science , 2002, 297 , 812 CrossRef PubMed .
+ ###### 
+From cou.: 130 M. Mézard and R. Zecchina, Phys. Rev. E: Stat., Nonlinear, Soft Matter Phys., 2002, 66, 056126 CrossRef .
+From Soup: 130 M. Bayati, C. Borgs, A. Braunstein, J. Chayes, A. Ramezanpour and R. Zecchina, Phys. Rev. Lett. , 2008, 101 , 37208 CrossRef CAS .
+ ###### 
+From cou.: 131 M. Mézard, G. Parisi and R. Zecchina, Science, 2002, 297, 812 CrossRef PubMed .
+From Soup: 131 A. Ramezanpour, J. Realpe-Gomez and R. Zecchina, Eur. Phys. J. B , 2011, 81 , 327 CrossRef CAS .
+ ###### 
+From cou.: 132 M. Bayati, C. Borgs, A. Braunstein, J. Chayes, A. Ramezanpour and R. Zecchina, Phys. Rev. Lett., 2008, 101, 37208 CrossRef CAS .
+From Soup: 132 F. Altarelli, A. Braunstein, L. Dall'Asta and R. Zecchina, J. Stat. Mech.: Theory Exp. , 2013, P09011 Search PubMed .
+ ###### 
+From cou.: 133 A. Ramezanpour, J. Realpe-Gomez and R. Zecchina, Eur. Phys. J. B, 2011, 81, 327 CrossRef CAS .
+From Soup: 133 C. H. Yeung and D. Saad, Phys. Rev. Lett. , 2012, 108 , 208701 CrossRef .
+ ###### 
+From cou.: 134 F. Altarelli, A. Braunstein, L. Dall'Asta and R. Zecchina, J. Stat. Mech.: Theory Exp., 2013, P09011 Search PubMed .
+From Soup: 134 C. H. Yeung, D. Saad and K. Y. M. Wong, Proc. Natl. Acad. Sci. U. S. A. , 2013, 110 (34), 13717 CrossRef CAS PubMed .
+ ###### 
+From cou.: 135 C. H. Yeung and D. Saad, Phys. Rev. Lett., 2012, 108, 208701 CrossRef .
+From Soup: 135 F. Altarelli, A. Braunstein, A. Ramezanpour and R. Zecchina, Phys. Rev. Lett. , 2011, 106 , 190601 CrossRef CAS .
+ ###### 
+From cou.: 136 C. H. Yeung, D. Saad and K. Y. M. Wong, Proc. Natl. Acad. Sci. U. S. A., 2013, 110(34), 13717 CrossRef CAS PubMed .
+From Soup: 136 C. Laumann, A. Scardicchio and S. L. Sondhi, Phys. Rev. B: Condens. Matter Mater. Phys. , 2008, 78 , 134424 CrossRef .
+ ###### 
+From cou.: 137 F. Altarelli, A. Braunstein, A. Ramezanpour and R. Zecchina, Phys. Rev. Lett., 2011, 106, 190601 CrossRef CAS .
+From Soup: 137 E. Aurell and H. Mahmoudi, J. Stat. Mech.: Theory Exp. , 2011, P04014 Search PubMed .
+ ###### 
+From cou.: 138 C. Laumann, A. Scardicchio and S. L. Sondhi, Phys. Rev. B: Condens. Matter Mater. Phys., 2008, 78, 134424 CrossRef .
+From Soup: 138 A. Y. Lokhov, M. Mezard, H. Ohta and L. Zdeborova, Phys. Rev. E: Stat., Nonlinear, Soft Matter Phys. , 2014, 90 , 012801 CrossRef .
+ ###### 
+From cou.: 139 E. Aurell and H. Mahmoudi, J. Stat. Mech.: Theory Exp., 2011, P04014 Search PubMed .
+From Soup: 139 F. R. Kschischang, B. J. Frey and H.-A. Loeliger, IEEE Trans. Inf. Theory , 2001, 47 , 498 CrossRef .
+ ###### 
+From cou.: 140 A. Y. Lokhov, M. Mezard, H. Ohta and L. Zdeborova, Phys. Rev. E: Stat., Nonlinear, Soft Matter Phys., 2014, 90, 012801 CrossRef .
+From Soup: 140 A. Mashaghi and A. Ramezanpour, RSC Adv. , 2015, 5 (34), 51682–51689 RSC .
+ ###### 
+From cou.: 141 F. R. Kschischang, B. J. Frey and H.-A. Loeliger, IEEE Trans. Inf. Theory, 2001, 47, 498 CrossRef .
+From Soup: 141 A. Braunstein and R. Zecchina, Phys. Rev. Lett. , 2006, 96 , 30201 CrossRef .
+ ###### 
+From cou.: 142 A. Mashaghi and A. Ramezanpour, RSC Adv., 2015, 5(34), 51682–51689 RSC .
+From Soup: 142 J. Qin and S. T. Milner, Macromolecules , 2014, 47 (17), 6077–6085 CrossRef CAS .
+ ###### 
+From cou.: 143 A. Braunstein and R. Zecchina, Phys. Rev. Lett., 2006, 96, 30201 CrossRef .
+From Soup: 143 J. R. Dixon, S. Selvaraj, F. Yue, A. Kim, Y. Li, Y. Shen, M. Hu, J. S. Liu and B. Ren, Nature , 2012, 4485 (7398), 376–380 CrossRef PubMed .
+ ###### 
+From cou.: 144 J. Qin and S. T. Milner, Macromolecules, 2014, 47(17), 6077–6085 CrossRef CAS .
+From Soup: 144 D. Jost, P. Carrivain, G. Cavalli and C. Vaillant, Nucleic Acids Res. , 2014, 42 (15), 9553–9561 CrossRef CAS PubMed .
+ ###### 
+From cou.: 145 J. R. Dixon, S. Selvaraj, F. Yue, A. Kim, Y. Li, Y. Shen, M. Hu, J. S. Liu and B. Ren, Nature, 2012, 4485(7398), 376–380 CrossRef PubMed .
+From Soup: 145 B. D. Pope, T. Ryba, V. Dileep, F. Yue, W. Wu, O. Denas, D. L. Vera, Y. Wang, R. S. Hansen, T. K. Canfield, R. E. Thurman, Y. Cheng, G. Gülsoy, J. H. Dennis, M. P. Snyder, J. A. Stamatoyannopoulos, J. Taylor, R. C. Hardison, T. Kahveci, B. Ren and D. M. Gilbert, Nature , 2014, 515 , 402–405 CrossRef CAS PubMed .
+ ###### 
+From cou.: 146 D. Jost, P. Carrivain, G. Cavalli and C. Vaillant, Nucleic Acids Res., 2014, 42(15), 9553–9561 CrossRef CAS PubMed .
+From Soup: 146 J. Dekker, K. Rippe, M. Dekker and N. Kleckner, Science , 2002, 295 (5558), 1306–1311 CrossRef CAS PubMed .
+ ###### 
+From cou.: 147 B. D. Pope, T. Ryba, V. Dileep, F. Yue, W. Wu, O. Denas, D. L. Vera, Y. Wang, R. S. Hansen, T. K. Canfield, R. E. Thurman, Y. Cheng, G. Gülsoy, J. H. Dennis, M. P. Snyder, J. A. Stamatoyannopoulos, J. Taylor, R. C. Hardison, T. Kahveci, B. Ren and D. M. Gilbert, Nature, 2014, 515, 402–405 CrossRef CAS PubMed .
+From Soup: 147 N. L. Van Berkum, E. Lieberman-Aiden, L. Williams, M. Imakaev, A. Gnirke, L. A. Mirny, J. Dekker and E. S. Lander, JoVE , 2010, 39 , 1869 Search PubMed .
+ ###### 
+From cou.: 148 J. Dekker, K. Rippe, M. Dekker and N. Kleckner, Science, 2002, 295(5558), 1306–1311 CrossRef CAS PubMed .
+From Soup: 148 J. Dostie, T. A. Richmond, R. A. Arnaout, R. R. Selzer, W. L. Lee, T. A. Honan, E. D. Rubio, A. Krumm, J. Lamb, C. Nusbaum, R. D. Green and J. Dekker, Genome Res. , 2006, 16 (10), 1299–1309 CrossRef CAS PubMed .
+ ###### 
+From cou.: 149 N. L. Van Berkum, E. Lieberman-Aiden, L. Williams, M. Imakaev, A. Gnirke, L. A. Mirny, J. Dekker and E. S. Lander, JoVE, 2010, 39, 1869 Search PubMed .
+From Soup: 149 Z. Zhao, G. Tavoosidana, M. Sjölinder, A. Göndör, P. Mariano, S. Wang, C. Kanduri, M. Lezcano, K. S. Sandhu, U. Singh, V. Pant, V. Tiwari, S. Kurukuti and R. Ohlsson, Nat. Genet. , 2006, 38 , 1341–1347 CrossRef CAS PubMed .
+ ###### 
+From cou.: 150 J. Dostie, T. A. Richmond, R. A. Arnaout, R. R. Selzer, W. L. Lee, T. A. Honan, E. D. Rubio, A. Krumm, J. Lamb, C. Nusbaum, R. D. Green and J. Dekker, Genome Res., 2006, 16(10), 1299–1309 CrossRef CAS PubMed .
+From Soup: 150 M. Di Stefano, A. Rosa, V. Belcastro, D. di Bernardo and C. Micheletti, PLoS Comput. Biol. , 2013, 9 (3), e1003019 CAS .
+ ###### 
+From cou.: 151 Z. Zhao, G. Tavoosidana, M. Sjölinder, A. Göndör, P. Mariano, S. Wang, C. Kanduri, M. Lezcano, K. S. Sandhu, U. Singh, V. Pant, V. Tiwari, S. Kurukuti and R. Ohlsson, Nat. Genet., 2006, 38, 1341–1347 CrossRef CAS PubMed .
+From Soup: 151 O. Pulkkinen and R. Metzler, Phys. Rev. Lett. , 2013, 110 (19), 198101 CrossRef .
+ ###### 
+From cou.: 152 M. Di Stefano, A. Rosa, V. Belcastro, D. di Bernardo and C. Micheletti, PLoS Comput. Biol., 2013, 9(3), e1003019 CAS .
+From Soup: 152 A. Amitai and D. Holcman, Phys. Rev. Lett. , 2013, 110 , 248105 CrossRef CAS .
+ ###### 
+From cou.: 153 O. Pulkkinen and R. Metzler, Phys. Rev. Lett., 2013, 110(19), 198101 CrossRef .
+From Soup: 153 R. F. Fox, Proc. Natl. Acad. Sci. U. S. A. , 2003, 100 (22), 12537–12538 CrossRef CAS PubMed .
+ ###### 
+From cou.: 154 A. Amitai and D. Holcman, Phys. Rev. Lett., 2013, 110, 248105 CrossRef CAS .
+From Soup: 154 J. M. Carr, S. A. Trygubenko and D. J. Wales, J. Chem. Phys. , 2005, 122 , 234903 CrossRef PubMed .
+ ###### 
+From cou.: 155 R. F. Fox, Proc. Natl. Acad. Sci. U. S. A., 2003, 100(22), 12537–12538 CrossRef CAS PubMed .
+From Soup: 155 R. J. Allen, D. Frenkel and P. R. ten Wolde, J. Chem. Phys. , 2006, 124 , 024102 CrossRef PubMed .
+ ###### 
+From cou.: 156 J. M. Carr, S. A. Trygubenko and D. J. Wales, J. Chem. Phys., 2005, 122, 234903 CrossRef PubMed .
+From Soup: 156 T. Mora, A. M. Walczak and F. Zamponi, Phys. Rev. E: Stat., Nonlinear, Soft Matter Phys. , 2012, 85 , 036710 CrossRef .
+ ###### 
+From cou.: 157 R. J. Allen, D. Frenkel and P. R. ten Wolde, J. Chem. Phys., 2006, 124, 024102 CrossRef PubMed .
+From Soup: 157 G. E. Crooks and D. Chandler, Phys. Rev. E: Stat., Nonlinear, Soft Matter Phys. , 2001, 64 , 026109 CrossRef CAS .
+ ###### 
+From cou.: 158 T. Mora, A. M. Walczak and F. Zamponi, Phys. Rev. E: Stat., Nonlinear, Soft Matter Phys., 2012, 85, 036710 CrossRef .
+From cou.: 159 G. E. Crooks and D. Chandler, Phys. Rev. E: Stat., Nonlinear, Soft Matter Phys., 2001, 64, 026109 CrossRef CAS .

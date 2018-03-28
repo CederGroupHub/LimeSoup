@@ -1,0 +1,26 @@
+from test: 0 Syntheses and crystal structure of [Li4Zn(μ 3,η2-ddbfo)2(μ,η2-ddbfo)3Cl(CH3CN)2]·2CH3CN, [Na4(μ,η2-ddbfo)4(CH3CN)4] and [Zn2(μ,η1-ddbfo)2Cl2(py)2] aggregates†
+from soup: 0 Syntheses and crystal structure of [Li 4 Zn(μ 3 ,η 2 -ddbfo) 2 (μ,η 2 -ddbfo) 3 Cl(CH 3 CN) 2 ]·2CH 3 CN, [Na 4 (μ,η 2 -ddbfo) 4 (CH 3 CN) 4 ] and [Zn 2 (μ,η 1 -ddbfo) 2 Cl 2 (py) 2 ] aggregates †
+ ###### 
+from test: 1 Abstract
+from soup: 1 Abstract
+ ###### 
+from test: 2 Experimental
+from soup: 2 Introduction(guess)
+ ###### 
+from test: 3 Methods and materials
+from soup: 3 Experimental
+ ###### 
+from test: 4 Syntheses
+from soup: 4 Methods and materials
+ ###### 
+from test: 5 Crystallographic structure determination
+from soup: 5 Syntheses
+ ###### 
+from test: 6 Results and discussion
+from soup: 6 Crystallographic structure determination
+ ###### 
+from test: 7 Conclusions
+from soup: 7 Results and discussion
+ ###### 
+from test: 8 Acknowledgements
+from test: 9 References

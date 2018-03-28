@@ -1,0 +1,217 @@
+From cou.: 0 Journal
+From Soup: 0 J. Anal. At. Spectrom.
+ ###### 
+From cou.: 1 A solventless, multi-element, steady-state optimization system is presented. The device uses three parallel conduits that contain solid NbF5 and SnBr4 as well as a low wattage tungsten filament loaded with Pb to deliver dry vapors to an ICP. These are used to create a steady-state signal containing the following ions that can be used for tuning: 28Si+, 79Br+, 120Sn+, 184W+, and 208Pb+. In comparison to using a nebulizer for optimization, the dry plasma optimization produced an average enhancement of 4.5(±0.4)-fold for 26 elements when using electrothermal vaporization sample introduction.
+From Soup: 1 A solventless, multi-element, steady-state optimization system is presented. The device uses three parallel conduits that contain solid NbF 5 and SnBr 4 as well as a low wattage tungsten filament loaded with Pb to deliver dry vapors to an ICP. These are used to create a steady-state signal containing the following ions that can be used for tuning: 28 Si + , 79 Br + , 120 Sn + , 184 W + , and 208 Pb + . In comparison to using a nebulizer for optimization, the dry plasma optimization produced an average enhancement of 4.5(±0.4)-fold for 26 elements when using electrothermal vaporization sample introduction.
+ ###### 
+From cou.: 2 A steady-state signal facilitates the tuning of an ICP-MS and, as a consequence, a nebulizer is usually employed. It also is relatively easy to use and routinely available with most ICP-MS systems. However, it has been shown that water in the central channel does have a large impact on how the plasma behaves.1 Consequently, for those techniques where a dry plasma is employed in analysis, e.g., electrothermal vaporization (ETV), laser ablation (LA), etc., “tuning” with a nebulizer and a water saturated vapor in the central channel is less than optimum. Laser ablation produces a nearly steady-state signal that can be used for tuning, but ETV yields a low duty cycle, transient signal that can make its use in plasma and spectrometer tuning extremely tedious.
+From Soup: 2 A steady-state signal facilitates the tuning of an ICP-MS and, as a consequence, a nebulizer is usually employed. It also is relatively easy to use and routinely available with most ICP-MS systems. However, it has been shown that water in the central channel does have a large impact on how the plasma behaves. 1 Consequently, for those techniques where a dry plasma is employed in analysis, e.g. , electrothermal vaporization (ETV), laser ablation (LA), etc. , “tuning” with a nebulizer and a water saturated vapor in the central channel is less than optimum. Laser ablation produces a nearly steady-state signal that can be used for tuning, but ETV yields a low duty cycle, transient signal that can make its use in plasma and spectrometer tuning extremely tedious.
+ ###### 
+From cou.: 3 Most optimization techniques, including recommendations by the manufacturer, generally utilize a single mass or very small mass range, making detection of mass biased sensitivities difficult to optimize. Introducing a dry sample that is steady-state for the purposes of plasma tuning has been explored, albeit still tuning on a single element: Fe introduced as a metal carbonyl;1 Ar2 from the plasma gas;2 Mo and Re from the resistive heating of wire filaments;4 Mn from a Nafion® membrane desolvated aerosol,3 and heated bulk Ag.5 While these were useful, a wider range of masses and physical characteristics (e.g., ionization potential, volatility) should permit better selection of optimized settings.
+From Soup: 3 Most optimization techniques, including recommendations by the manufacturer, generally utilize a single mass or very small mass range, making detection of mass biased sensitivities difficult to optimize. Introducing a dry sample that is steady-state for the purposes of plasma tuning has been explored, albeit still tuning on a single element: Fe introduced as a metal carbonyl ; 1 Ar 2 from the plasma gas; 2 Mo and Re from the resistive heating of wire filaments; 4 Mn from a Nafion® membrane desolvated aerosol, 3 and heated bulk Ag. 5 While these were useful, a wider range of masses and physical characteristics ( e.g. , ionization potential, volatility) should permit better selection of optimized settings.
+ ###### 
+From cou.: 4 This paper explores a steady-state, dry sample introduction system employing several elements representing a range of masses and ionization potentials. This broader tuning base will be particularly useful where the dry sample introduction source is transient in character and not easily amenable to “tuning” the plasma and optics. Our particular interest is in optimization for ETV introduction. A comparison of ETV-ICP-MS performance using dry plasma optimization and wet plasma (e.g., nebulizer introduction) will also be investigated.
+From Soup: 4 This paper explores a steady-state, dry sample introduction system employing several elements representing a range of masses and ionization potentials. This broader tuning base will be particularly useful where the dry sample introduction source is transient in character and not easily amenable to “tuning” the plasma and optics. Our particular interest is in optimization for ETV introduction. A comparison of ETV-ICP-MS performance using dry plasma optimization and wet plasma ( e.g. , nebulizer introduction) will also be investigated.
+ ###### 
+From cou.: 5 All chemicals were of reagent grade or higher purity: NbF5 (98%, Aldrich), SnBr4 (99%, Aldrich), silica gel desiccant (Reagent ACS 10-18 mesh, Fisher Scientific). Industrial purity Ar was used for the plasma and carrier gases (Praxair Inc, Austin, TX). A 10 ppb 30 element multi-metal solution containing Li, Be, Na, Mg, Al, K, Ca, V, Cr, Mn, Fe, Ni, Co, Cu, Zn, Ga, Ge, As, Se, Rb, Sr, Ag, Cd, In, Cs, Ba, Tl, Pb, Bi, and U was made from dilution of 10 ppm standard (PlasmaCAL, SCP Science) with 1% HNO3 diluted from 99.999% pure HNO3 (Aldrich, Milwaukee, WI). A 100 ppb tuning solution of Br, Si, W, Pb and Sn was made from dilution of 1000 ppm standards (SCP Science) and dissolution of a stock solution of KBr (Mallinckrodt). The tungsten filament was from an FLW 24 V, 300 W (Philips, Japan) projector light bulb with the quartz envelope removed.
+From Soup: 5 All chemicals were of reagent grade or higher purity: NbF 5 (98%, Aldrich), SnBr 4 (99%, Aldrich), silica gel desiccant (Reagent ACS 10-18 mesh, Fisher Scientific). Industrial purity Ar was used for the plasma and carrier gases (Praxair Inc, Austin, TX). A 10 ppb 30 element multi-metal solution containing Li, Be, Na, Mg, Al, K, Ca, V, Cr, Mn, Fe, Ni, Co, Cu, Zn, Ga, Ge, As, Se, Rb, Sr, Ag, Cd, In, Cs, Ba, Tl, Pb, Bi, and U was made from dilution of 10 ppm standard (PlasmaCAL, SCP Science) with 1% HNO 3 diluted from 99.999% pure HNO 3 (Aldrich, Milwaukee, WI). A 100 ppb tuning solution of Br, Si, W, Pb and Sn was made from dilution of 1000 ppm standards (SCP Science) and dissolution of a stock solution of KBr (Mallinckrodt). The tungsten filament was from an FLW 24 V, 300 W (Philips, Japan) projector light bulb with the quartz envelope removed.
+ ###### 
+From cou.: 6 All analyses were performed on an Optimass 8000 (GBC Scientific Equipment Pty. Ltd., Australia) ICP-MS system, which is an orthogonally accelerated time-of-flight (oa-TOF) mass spectrometer coupled with an ICP torch. Samples were introduced by a modified Varian GTA-95, which was described previously.6 The samples consisted of 10 μL aliquots of 10 ppb multi-metal solution, performed in quadruplicate.
+From Soup: 6 All analyses were performed on an Optimass 8000 (GBC Scientific Equipment Pty. Ltd., Australia) ICP-MS system, which is an orthogonally accelerated time-of-flight (oa-TOF) mass spectrometer coupled with an ICP torch. Samples were introduced by a modified Varian GTA-95, which was described previously. 6 The samples consisted of 10 μL aliquots of 10 ppb multi-metal solution, performed in quadruplicate.
+ ###### 
+From cou.: 7 For the instrument used in this study and possibly in other systems, an applied power of 1.2 kW without a water load causes a secondary discharge to form beyond the sampling cone, i.e., in the last skimmer region of the ion optics for this particular system. While the exact nature of the discharge is still not understood,7–9 a substantial current flows from the skimmer cone to ground (0.1–0.5 mA). The discharge also causes a marked decrease in the signal intensity and can lead to erosion of the second skimmer cone.10 It was found that a reduction of the applied power from 1.2 kW to 0.7 kW minimizes or eliminates the discharge while maximizing the sensitivity for dry plasma conditions.9,10 In brief, this need for reduced power operation with dry sample introduction further supports the requirement for optimization in the absence of solvent.
+From Soup: 7 For the instrument used in this study and possibly in other systems, an applied power of 1.2 kW without a water load causes a secondary discharge to form beyond the sampling cone, i.e. , in the last skimmer region of the ion optics for this particular system. While the exact nature of the discharge is still not understood, 7–9 a substantial current flows from the skimmer cone to ground (0.1–0.5 mA). The discharge also causes a marked decrease in the signal intensity and can lead to erosion of the second skimmer cone. 10 It was found that a reduction of the applied power from 1.2 kW to 0.7 kW minimizes or eliminates the discharge while maximizing the sensitivity for dry plasma conditions. 9,10 In brief, this need for reduced power operation with dry sample introduction further supports the requirement for optimization in the absence of solvent .
+ ###### 
+From cou.: 8 Optimization of a multi-dimensional system can be performed in a myriad of ways ranging from Simplex optimization to Monte Carlo annealing. However, many approaches, such as the two noted, would require all 21 parameters, as seen on Table 1, of the instrument to be entered manually, intensities measured and then a new set of 21 parameters entered and repeated until an optimized parameter set is found. This is a very time consuming method and does not utilize the already available software that permits certain parameters to be manually scanned with continuous signal recording. To minimize the time required for the optimization, a simple algorithm was developed that uses the existing software to provide results as quickly as the data are collected.
+From Soup: 8 Optimization of a multi-dimensional system can be performed in a myriad of ways ranging from Simplex optimization to Monte Carlo annealing . However, many approaches, such as the two noted, would require all 21 parameters, as seen on Table 1 , of the instrument to be entered manually, intensities measured and then a new set of 21 parameters entered and repeated until an optimized parameter set is found. This is a very time consuming method and does not utilize the already available software that permits certain parameters to be manually scanned with continuous signal recording. To minimize the time required for the optimization, a simple algorithm was developed that uses the existing software to provide results as quickly as the data are collected.
+ ###### 
+From cou.: 9 If multiple masses are to be used then a response algorithm, R, is needed to account for preferences such as element-dependent sensitivity, weighting for one region of the spectrum versus another, or any other objectives that the analyst may wish to emphasize. In our case, the instrument was reasonably tuned so no unique weighting was given to a particular mass region and the following algorithm was employed:
+From Soup: 9 If multiple masses are to be used then a response algorithm, R , is needed to account for preferences such as element-dependent sensitivity, weighting for one region of the spectrum versus another, or any other objectives that the analyst may wish to emphasize. In our case, the instrument was reasonably tuned so no unique weighting was given to a particular mass region and the following algorithm was employed:
+ ###### 
+From cou.: 10 I
+From Soup: 10 I
+ ###### 
+From cou.: 11 m
+From Soup: 11 m / z
+ ###### 
+From cou.: 12 z
+From Soup: 12 m
+ ###### 
+From cou.: 13 m
+From Soup: 13 z
+ ###### 
+From cou.: 14 z
+From Soup: 14 W
+ ###### 
+From cou.: 15 W
+From Soup: 15 m / z
+ ###### 
+From cou.: 16 m
+From Soup: 16 I
+ ###### 
+From cou.: 17 z
+From Soup: 17 o
+ ###### 
+From cou.: 18 I
+From Soup: 18 m / z
+ ###### 
+From cou.: 19 o
+From Soup: 19 −1
+ ###### 
+From cou.: 20 m
+From Soup: 20 I
+ ###### 
+From cou.: 21 z
+From Soup: 21 o
+ ###### 
+From cou.: 22 −1
+From Soup: 22 m / z
+ ###### 
+From cou.: 23 I
+From Soup: 23 I
+ ###### 
+From cou.: 24 o
+From Soup: 24 o
+ ###### 
+From cou.: 25 m
+From Soup: 25 m / z
+ ###### 
+From cou.: 26 z
+From Soup: 26 m
+ ###### 
+From cou.: 27 I
+From Soup: 27 z
+ ###### 
+From cou.: 28 o
+From Soup: 28 m
+ ###### 
+From cou.: 29 m
+From Soup: 29 z
+ ###### 
+From cou.: 30 z
+From Soup: 30 R
+ ###### 
+From cou.: 31 m
+From Soup: 31 It should be stressed that the response algorithm used for optimization can be structured to reflect the analyst’s tuning objectives. For example, if one wished to optimize the sensitivity of the heavy elements, all masses could be used but W m / z for heavier masses could be made disproportionately large. Thus, small changes in the intensity of the larger m / z calibrants would show a favorable change in R even when accompanied by an intensity loss for the low mass ions.
+ ###### 
+From cou.: 32 z
+From Soup: 32 The voltage of the electron multiplier ( i.e. , gain) was optimized initially to minimize mass bias 11 and was only checked at the outset of the optimization procedure. The nebulizer gas flow was then optimized, and this value used during the dry plasma optimization.
+ ###### 
+From cou.: 33 m
+From Soup: 33 The remaining parameters were optimized, one at a time, starting with gas flows and torch position, then starting with the optics closest to the torch and moving back toward the analyzer. This order addressed factors affecting sensitivity first and peak shape last. This process was performed three times sequentially for dry and wet optimization techniques to compensate for interdependencies of the various parameters. The results of the optimizations are summarized on Table 1 .
+ ###### 
+From cou.: 34 z
+From Soup: 34 In order to compare the optimized wet and dry plasma optimizations, an enhancement factor, ε , was calculated for a number of test elements using ETV-ICP-MS once optimization was complete.
+ ###### 
+From cou.: 35 R
+From Soup: 35 ε
+ ###### 
+From cou.: 36 It should be stressed that the response algorithm used for optimization can be structured to reflect the analyst’s tuning objectives. For example, if one wished to optimize the sensitivity of the heavy elements, all masses could be used but Wm/z for heavier masses could be made disproportionately large. Thus, small changes in the intensity of the larger m/z calibrants would show a favorable change in R even when accompanied by an intensity loss for the low mass ions.
+From Soup: 36 The ideal material for the dry calibrator has many attributes that must be considered: solid, easily obtained, low toxicity and compatible with the ICP-MS system. Although vapor pressures for most solids are not in the literature, these pressures can be easily determined from thermodynamic data. 12,13 To find useful materials, the required vapor pressure was estimated from signals obtained from a typical ETV experiment. Assuming that 1 ng of sample yielding a signal approximately 1 s in duration and a gas flow rate of 1.2 L min −1 (20 mL s −1 ), the ideal gas equation yields a local partial pressure of ca. 10 −3 Pa.
+ ###### 
+From cou.: 37 The voltage of the electron multiplier (i.e., gain) was optimized initially to minimize mass bias11 and was only checked at the outset of the optimization procedure. The nebulizer gas flow was then optimized, and this value used during the dry plasma optimization.
+From Soup: 37 Many metal halides and a few metal oxides can produce reasonable vapor pressures at ambient temperatures, and a list of possibilities was generated and their vapor pressures determined. From a list of ca. 100 candidates, NbF 5 , TiBr 4 and SnBr 4 were isolated and then experimentally evaluated by placing a small amount of the salt into a stainless steel column between plugs of glass wool.
+ ###### 
+From cou.: 38 The remaining parameters were optimized, one at a time, starting with gas flows and torch position, then starting with the optics closest to the torch and moving back toward the analyzer. This order addressed factors affecting sensitivity first and peak shape last. This process was performed three times sequentially for dry and wet optimization techniques to compensate for interdependencies of the various parameters. The results of the optimizations are summarized on Table 1.
+From Soup: 38 NbF 5 produced no measurable signal for Nb + , and detectable signals from 19 F + , SiF + and Si + were seen in the mass spectrum. TiBr 4 yielded no detectable Ti + signal although Br + was quite pronounced. This may be the result of hydrolysis of TiBr 4 by trace water in the system and the subsequent formation of low volatility TiO 2 and release of HBr. SnBr 4 produced large signals for all the isotopes of both Sn + and Br + .
+ ###### 
+From cou.: 39 In order to compare the optimized wet and dry plasma optimizations, an enhancement factor, ε, was calculated for a number of test elements using ETV-ICP-MS once optimization was complete.
+From Soup: 39 Thus, elemental ions with m / z in the areas of 19 (F + ), 79 (Br + ) and 118 (Sn + ) were available. To obtain a high mass ion, low temperature heating of Pb placed on a filament from a 300 W projection bulb was employed. The filament was first electroplated with copper to aid in the wetting of the filament by Pb. A shard of lead ( ca. 4 mg) was placed on the filament and heated under N 2 until the Pb melted onto the filament. In operation, the current to the filament was adjusted to give a reasonable 208 Pb + signal, ca. 6 W. Interestingly, W + was also observed, probably as a result of volatile WO 2 forming in trace amounts on the filament surface. In the end, the final ions and their respective first ionization potentials (in eV) include: F + (17.42), Si + (8.15), SiF + , Br + (11.84), Sn + (7.34) and Pb + (7.42).
+ ###### 
+From cou.: 40 ε
+From Soup: 40 A schematic of the dry calibrator is illustrated in Fig. 1 . The halide salts were loaded into separate columns, and gas flow through each column were controlled via needle valves. The Pb signal required a balance between flow rates and filament current to achieve the desired signal. A metered bypass line (second line from the bottom in Fig. 1 ) permitted adjustment of the total central channel flow to a predetermined value once the flows for the individual elements were adjusted.
+ ###### 
+From cou.: 41 The ideal material for the dry calibrator has many attributes that must be considered: solid, easily obtained, low toxicity and compatible with the ICP-MS system. Although vapor pressures for most solids are not in the literature, these pressures can be easily determined from thermodynamic data.12,13 To find useful materials, the required vapor pressure was estimated from signals obtained from a typical ETV experiment. Assuming that 1 ng of sample yielding a signal approximately 1 s in duration and a gas flow rate of 1.2 L min−1 (20 mL s−1), the ideal gas equation yields a local partial pressure of ca. 10−3 Pa.
+From Soup: 41 The requirements of instrument optimization and the deviations from wet and dry plasmas will be strongly dependent on torch design, load coil geometry, applied rf frequency and applied power. For the particular instrument used in this study and using the response function noted earlier, Table 1 summarizes the optimized settings using both nebulizer introduction and the dry calibrator. The first eight parameters and torch position most strongly affect the signal intensity. The remaining factors are considered to be peak shaping settings. 14 The mass resolution of the instrument is large (1000–2000) and fine tuning this parameter beyond the original settings was not considered in the optimization procedure.
+ ###### 
+From cou.: 42 Many metal halides and a few metal oxides can produce reasonable vapor pressures at ambient temperatures, and a list of possibilities was generated and their vapor pressures determined. From a list of ca. 100 candidates, NbF5, TiBr4 and SnBr4 were isolated and then experimentally evaluated by placing a small amount of the salt into a stainless steel column between plugs of glass wool.
+From Soup: 42 The optimization was performed using the following algorithm:
+ ###### 
+From cou.: 43 NbF5 produced no measurable signal for Nb+, and detectable signals from 19F+, SiF+ and Si+ were seen in the mass spectrum. TiBr4 yielded no detectable Ti+ signal although Br+ was quite pronounced. This may be the result of hydrolysis of TiBr4 by trace water in the system and the subsequent formation of low volatility TiO2 and release of HBr. SnBr4 produced large signals for all the isotopes of both Sn+ and Br+.
+From Soup: 43 15,16
+ ###### 
+From cou.: 44 Thus, elemental ions with m/z in the areas of 19 (F+), 79 (Br+) and 118 (Sn+) were available. To obtain a high mass ion, low temperature heating of Pb placed on a filament from a 300 W projection bulb was employed. The filament was first electroplated with copper to aid in the wetting of the filament by Pb. A shard of lead (ca. 4 mg) was placed on the filament and heated under N2 until the Pb melted onto the filament. In operation, the current to the filament was adjusted to give a reasonable 208Pb+ signal, ca. 6 W. Interestingly, W+ was also observed, probably as a result of volatile WO2 forming in trace amounts on the filament surface. In the end, the final ions and their respective first ionization potentials (in eV) include: F+ (17.42), Si+ (8.15), SiF+, Br+ (11.84), Sn+ (7.34) and Pb+ (7.42).
+From Soup: 44 Table 2
+ ###### 
+From cou.: 45 A schematic of the dry calibrator is illustrated in Fig. 1. The halide salts were loaded into separate columns, and gas flow through each column were controlled via needle valves. The Pb signal required a balance between flow rates and filament current to achieve the desired signal. A metered bypass line (second line from the bottom in Fig. 1) permitted adjustment of the total central channel flow to a predetermined value once the flows for the individual elements were adjusted.
+From Soup: 45 79
+ ###### 
+From cou.: 46 The requirements of instrument optimization and the deviations from wet and dry plasmas will be strongly dependent on torch design, load coil geometry, applied rf frequency and applied power. For the particular instrument used in this study and using the response function noted earlier, Table 1 summarizes the optimized settings using both nebulizer introduction and the dry calibrator. The first eight parameters and torch position most strongly affect the signal intensity. The remaining factors are considered to be peak shaping settings.14 The mass resolution of the instrument is large (1000–2000) and fine tuning this parameter beyond the original settings was not considered in the optimization procedure.
+From Soup: 46 +
+ ###### 
+From cou.: 47 The optimization was performed using the following algorithm:
+From Soup: 47 Z
+ ###### 
+From cou.: 48 15,16
+From Soup: 48 +
+ ###### 
+From cou.: 49 79
+From Soup: 49 e.g.
+ ###### 
+From cou.: 50 +
+From Soup: 50 Other species were available ( i.e. 19 F + and 47 SiF + ) but were not used since three masses were already present in the low range. The 19 F + and 47 SiF + both behaved similarly to 28 Si + in respect to changes in lens potentials. When the skimmer and extraction were adjusted, 19 F + had a similar behavior to 79 Br + ( e.g. increasing or decreasing at an exaggerated rate) including the Z lens behavior.
+ ###### 
+From cou.: 51 Z
+From Soup: 51 A summary of the enhancements for several analytes using eqn (2) is shown in Fig. 2 . The average enhancement for all of the elements shown in the figure is 4.5 ± 0.4; and in no instance was a loss in intensity observed as a result of using the dry calibrator to optimize the analytical conditions of the plasma or analyzer system. The Sn and W were included in the suite of elements in Fig. 2 to demonstrate that the tuning masses were not enhanced to a greater extent than other masses.
+ ###### 
+From cou.: 52 +
+From Soup: 52 Si suffers from a significant 28 N 2 background signal because of entrained atmospheric gasses and the HNO 3 matrix as well as 28 CO. The other isotopes of Si are much less abundant and also suffer from polyatomic interferences, e.g. , 29 CO and 30 NO. However, the dry optimized parameter set was able to produce a Si + signal that was greater than the background while the Si + signal with the wet plasma was indistinguishable from the background. This prevented calculations of an enhancement factor for Si. Br was also monitored with the ETV firing but failed to produce a significant signal using either parameter set. This was probably caused by the volatilization of HBr and loss during the 300 °C heating step before data collection had begun. The nearly element independent enhancement indicates that the dry optimization served to better sample the plasma and focus the resulting ion stream in the ion optics region. This may be a result of the physical changes in the plasma ( e.g. plasma pulling back into the torch) at lower applied powers and no solvent load. By sampling the plasma more efficiently, all of the ions signals were enhanced without bias toward specific properties such as mass or ionization potential.
+ ###### 
+From cou.: 53 e.g.
+From Soup: 53 While the calibrator discussed in this paper used an array of materials to achieve a range of masses to monitor, a simpler device could also be constructed. For example, a simple device with two parallel lines of 1/4″ Tygon® tubing with simple valves could be constructed. SnBr 4 could be placed between plugs of glass wool in one line and the other line used as a bypass line to adjust the total gas flow to the ICP.
+ ###### 
+From cou.: 54 Other species were available (i.e.19F+ and 47SiF+) but were not used since three masses were already present in the low range. The 19F+ and 47SiF+ both behaved similarly to 28Si+ in respect to changes in lens potentials. When the skimmer and extraction were adjusted, 19F+ had a similar behavior to 79Br+ (e.g. increasing or decreasing at an exaggerated rate) including the Z lens behavior.
+From Soup: 54 The authors would like to acknowledge the support of National Science Foundation (CHE-0315336)) and the useful suggestions provided by Dr Gulay Ertas.
+ ###### 
+From cou.: 55 A summary of the enhancements for several analytes using eqn (2) is shown in Fig. 2. The average enhancement for all of the elements shown in the figure is 4.5 ± 0.4; and in no instance was a loss in intensity observed as a result of using the dry calibrator to optimize the analytical conditions of the plasma or analyzer system. The Sn and W were included in the suite of elements in Fig. 2 to demonstrate that the tuning masses were not enhanced to a greater extent than other masses.
+From Soup: 55 N. Jakubowski, I. Feldmann and D. Stuewer, J. Anal. At. Spectrom. , 1993, 8 , 967–77 Search PubMed .
+ ###### 
+From cou.: 56 Si suffers from a significant 28N2 background signal because of entrained atmospheric gasses and the HNO3 matrix as well as 28CO. The other isotopes of Si are much less abundant and also suffer from polyatomic interferences, e.g., 29CO and 30NO. However, the dry optimized parameter set was able to produce a Si+ signal that was greater than the background while the Si+ signal with the wet plasma was indistinguishable from the background. This prevented calculations of an enhancement factor for Si. Br was also monitored with the ETV firing but failed to produce a significant signal using either parameter set. This was probably caused by the volatilization of HBr and loss during the 300 °C heating step before data collection had begun. The nearly element independent enhancement indicates that the dry optimization served to better sample the plasma and focus the resulting ion stream in the ion optics region. This may be a result of the physical changes in the plasma (e.g. plasma pulling back into the torch) at lower applied powers and no solvent load. By sampling the plasma more efficiently, all of the ions signals were enhanced without bias toward specific properties such as mass or ionization potential.
+From Soup: 56 D. J. Gray, S. Wang and R. Brown, Appl. Spectrosc. , 1994, 48 , 1316–20 CAS .
+ ###### 
+From cou.: 57 While the calibrator discussed in this paper used an array of materials to achieve a range of masses to monitor, a simpler device could also be constructed. For example, a simple device with two parallel lines of 1/4″ Tygon® tubing with simple valves could be constructed. SnBr4 could be placed between plugs of glass wool in one line and the other line used as a bypass line to adjust the total gas flow to the ICP.
+From Soup: 57 J. Yang, T. S. Conver, J. A. Koropchak and D. A. Leighty, Spectrochim. Acta, Part B , 1996, 51B , 1491–1503 CrossRef CAS .
+ ###### 
+From cou.: 58 The authors would like to acknowledge the support of National Science Foundation (CHE-0315336)) and the useful suggestions provided by Dr Gulay Ertas.
+From Soup: 58 W. Doherty, P. M. Outridge and D. C. Gregoire, J. Anal. At. Spectrom. , 1996, 11 , 1123–1126 RSC .
+ ###### 
+From cou.: 59 N. Jakubowski, I. Feldmann and D. Stuewer, J. Anal. At. Spectrom., 1993, 8, 967–77 Search PubMed .
+From Soup: 59 D. L. Langer, doctoral dissertation, University of Texas—Austin, 2000.
+ ###### 
+From cou.: 60 D. J. Gray, S. Wang and R. Brown, Appl. Spectrosc., 1994, 48, 1316–20 CAS .
+From Soup: 60 D. Langer and J. A. Holcombe, Anal. Chem. , 1999, 71 , 582–588 CrossRef CAS .
+ ###### 
+From cou.: 61 J. Yang, T. S. Conver, J. A. Koropchak and D. A. Leighty, Spectrochim. Acta, Part B, 1996, 51B, 1491–1503 CrossRef CAS .
+From Soup: 61 K. Sakata, N. Yamada and N. Sugiyama, Spectrochim. Acta, Part B , 2001, 56B , 1249–1261 CrossRef .
+ ###### 
+From cou.: 62 W. Doherty, P. M. Outridge and D. C. Gregoire, J. Anal. At. Spectrom., 1996, 11, 1123–1126 RSC .
+From Soup: 62 H. Niu and R. S. Houk, Spectrochim. Acta, Part B , 1996, 51B , 779–815 CrossRef CAS .
+ ###### 
+From cou.: 63 D. L. Langer, doctoral dissertation, University of Texas—Austin, 2000.
+From Soup: 63 W. J. Balsanek, doctoral dissertation, University of Texas—Austin, 2005.
+ ###### 
+From cou.: 64 D. Langer and J. A. Holcombe, Anal. Chem., 1999, 71, 582–588 CrossRef CAS .
+From Soup: 64 B. Kozlov, A. Saint and A. Skroce, J. Anal. At. Spectrom. , 2003, 18 , 1069–1075 RSC .
+ ###### 
+From cou.: 65 K. Sakata, N. Yamada and N. Sugiyama, Spectrochim. Acta, Part B, 2001, 56B, 1249–1261 CrossRef .
+From Soup: 65 X. Tian, H. Emteborg, M. Barbaste and F. C. Adams, J. Anal. At. Spectrom. , 2000, 15 , 829–835 RSC .
+ ###### 
+From cou.: 66 H. Niu and R. S. Houk, Spectrochim. Acta, Part B, 1996, 51B, 779–815 CrossRef CAS .
+From Soup: 66 CRC Handbook of Chemistry and Physics, Internet Version 2005 , ed. R. D. Lide, CRC Press, Boca Raton, FL, 2005 Search PubMed .
+ ###### 
+From cou.: 67 W. J. Balsanek, doctoral dissertation, University of Texas—Austin, 2005.
+From Soup: 67 M. W. Chase Jr., J. L. Curnutt, J. R. Downey Jr., R. A. McDonald, A. N. Syverud and E. A. Valenzuela, J. Phys. Chem. Ref. Data , 1982, 11 , 695–940 .
+ ###### 
+From cou.: 68 B. Kozlov, A. Saint and A. Skroce, J. Anal. At. Spectrom., 2003, 18, 1069–1075 RSC .
+From Soup: 68 R. E. Sturgeon, J. W. H. Lam and A. Saint, J. Anal. At. Spectrom. , 2000, 15 , 607–616 RSC .
+ ###### 
+From cou.: 69 X. Tian, H. Emteborg, M. Barbaste and F. C. Adams, J. Anal. At. Spectrom., 2000, 15, 829–835 RSC .
+From Soup: 69 H. Emteborg, X. Tian, M. Ostermann, M. Berglund and F. C. Adams, J. Anal. At. Spectrom. , 2000, 15 , 239–246 RSC .
+ ###### 
+From cou.: 70 CRC Handbook of Chemistry and Physics, Internet Version 2005, ed. R. D. Lide, CRC Press, Boca Raton, FL, 2005 Search PubMed .
+From Soup: 70 D. P. Myers, P. P. Mahoney, G. Li and G. M. Hieftje, J. Am. Soc. Mass Spectrom. , 1995, 6 , 920–7 CrossRef CAS .
+ ###### 
+From cou.: 71 M. W. Chase Jr., J. L. Curnutt, J. R. Downey Jr., R. A. McDonald, A. N. Syverud and E. A. Valenzuela, J. Phys. Chem. Ref. Data, 1982, 11, 695–940 .
+From cou.: 72 R. E. Sturgeon, J. W. H. Lam and A. Saint, J. Anal. At. Spectrom., 2000, 15, 607–616 RSC .
+From cou.: 73 H. Emteborg, X. Tian, M. Ostermann, M. Berglund and F. C. Adams, J. Anal. At. Spectrom., 2000, 15, 239–246 RSC .
+From cou.: 74 D. P. Myers, P. P. Mahoney, G. Li and G. M. Hieftje, J. Am. Soc. Mass Spectrom., 1995, 6, 920–7 CrossRef CAS .

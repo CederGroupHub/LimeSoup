@@ -130,8 +130,8 @@ class ParserSections(object):
             name=name_section,
             type_section=self.content.parent.name
         )
-        ParserSections.list_heading.append(name_section)
-        ParserSections.number_heading += 1
+        # ParserSections.list_heading.append(name_section)
+        # ParserSections.number_heading += 1
         self.content.extract()
 
     @staticmethod
@@ -149,7 +149,7 @@ class ParserSections(object):
         # create a parent aux-tag
         self._wrap_bs(self.content, self.soup.new_tag('aux-tag'))
         parse_intern = ParserSections(self.content.parent, self.parameters, parser_type=self.parser_type)
-        self.content_section['content'].append(parse_intern.data)
+        self.content_section['content'].append(parse_intern.data[0])
         del parse_intern
         self.content.extract()
 

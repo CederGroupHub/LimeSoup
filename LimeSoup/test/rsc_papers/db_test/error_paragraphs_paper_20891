@@ -1,0 +1,448 @@
+From cou.: 0 Journal
+From Soup: 0 Phys. Chem. Chem. Phys.
+ ###### 
+From cou.: 1 Modern pulsed X-ray sources permit time-dependent measurements of dynamical changes in atoms and molecules via non-resonant scattering. The planning, analysis, and interpretation of such experiments, however, require a firm and elaborated theoretical framework. This paper provides a detailed description of time-resolved X-ray scattering by non-stationary electronic wave packets in atomic systems. A consistent application of the Waller–Hartree approximation is discussed and different contributions to the total differential scattering signal are identified and interpreted. Moreover, it is demonstrated how the scattering signal of wave packets in the hydrogen atom can be expressed analytically. This permits simulations without numerical integration and establishes a benchmark for both efficiency and accuracy. Based on that, scattering patterns of an exemplary wave packet in the hydrogen atom are computed for different points in time. In doing so, distinct features of time-resolved X-ray scattering by non-stationary electronic wave packets are illustrated and accentuated in greater detail than it has been done before.
+From Soup: 1 Modern pulsed X-ray sources permit time-dependent measurements of dynamical changes in atoms and molecules via non-resonant scattering. The planning, analysis, and interpretation of such experiments, however, require a firm and elaborated theoretical framework. This paper provides a detailed description of time-resolved X-ray scattering by non-stationary electronic wave packets in atomic systems. A consistent application of the Waller–Hartree approximation is discussed and different contributions to the total differential scattering signal are identified and interpreted. Moreover, it is demonstrated how the scattering signal of wave packets in the hydrogen atom can be expressed analytically. This permits simulations without numerical integration and establishes a benchmark for both efficiency and accuracy. Based on that, scattering patterns of an exemplary wave packet in the hydrogen atom are computed for different points in time. In doing so, distinct features of time-resolved X-ray scattering by non-stationary electronic wave packets are illustrated and accentuated in greater detail than it has been done before.
+ ###### 
+From cou.: 2 Recent advances in the generation of coherent, intense, and ultrashort X-ray pulses provide novel and promising opportunities for imaging rapid dynamics in atoms and molecules via non-resonant time-resolved scattering. Current X-ray Free-Electron Laser facilities permit measurements with temporal resolutions of the order of tenths of femtoseconds1–4 and allow tracking nuclear motions and structural changes in chemical reactions in real time.5–12 The durations of these pulses may be further decreased to attoseconds in the future.13–17 It can thus be assumed that temporal changes in the X-ray scattering signal due to even faster electronic motions will be detectable.
+From Soup: 2 Recent advances in the generation of coherent, intense, and ultrashort X-ray pulses provide novel and promising opportunities for imaging rapid dynamics in atoms and molecules via non-resonant time-resolved scattering. Current X-ray Free-Electron Laser facilities permit measurements with temporal resolutions of the order of tenths of femtoseconds 1–4 and allow tracking nuclear motions and structural changes in chemical reactions in real time. 5–12 The durations of these pulses may be further decreased to attoseconds in the future. 13–17 It can thus be assumed that temporal changes in the X-ray scattering signal due to even faster electronic motions will be detectable.
+ ###### 
+From cou.: 3 The interpretation of such changes, however, is significantly complicated by the quantum mechanical nature of the motion of bound electrons, the non-classical character of the light–matter interaction, and the lack of intensification of coherent scattering as in Bragg diffraction by crystalline matter. It has already been pointed out that the scattering signal of non-stationary electronic wave packets in atoms and molecules does not reveal their instantaneous electron densities.18 The semi-classical approach successfully applied in static X-ray scattering, i.e. the assignment of the signal to the Fourier transform of those densities, was proven to be inadequate. Instead, the scattering event has to be described by quantum electrodynamics, taking into account that photons are quantized excitations of electromagnetic field modes.19
+From Soup: 3 The interpretation of such changes, however, is significantly complicated by the quantum mechanical nature of the motion of bound electrons, the non-classical character of the light–matter interaction, and the lack of intensification of coherent scattering as in Bragg diffraction by crystalline matter. It has already been pointed out that the scattering signal of non-stationary electronic wave packets in atoms and molecules does not reveal their instantaneous electron densities. 18 The semi-classical approach successfully applied in static X-ray scattering, i.e. the assignment of the signal to the Fourier transform of those densities, was proven to be inadequate. Instead, the scattering event has to be described by quantum electrodynamics, taking into account that photons are quantized excitations of electromagnetic field modes. 19
+ ###### 
+From cou.: 4 In order to exploit the potential of X-ray scattering experiments with femto- or attosecond resolution, a firm and elaborate theoretical framework for their planning, analysis, and interpretation is necessary. This has been pioneered in the nineties20–22 and was addressed in several recent publications.18,23–30 Nevertheless, some aspects of the theory remain opaque. Though the equations provided in the references are compact and generally applicable, the immediate insights they provide are relatively limited. A deeper understanding of the characteristics of time-resolved X-ray scattering requires a more detailed and more specific analysis.
+From Soup: 4 In order to exploit the potential of X-ray scattering experiments with femto- or attosecond resolution, a firm and elaborate theoretical framework for their planning, analysis, and interpretation is necessary. This has been pioneered in the nineties 20–22 and was addressed in several recent publications. 18,23–30 Nevertheless, some aspects of the theory remain opaque. Though the equations provided in the references are compact and generally applicable, the immediate insights they provide are relatively limited. A deeper understanding of the characteristics of time-resolved X-ray scattering requires a more detailed and more specific analysis.
+ ###### 
+From cou.: 5 In Section 2 of this paper, the scattering signal of non-stationary electronic wave packets in atoms is rigorously described. Static and time-dependent contributions are identified and related to their constituting scattering matrix elements. In Section 3, a physical interpretation of these elements is provided. Section 4 summarizes the derivation of an approach to express and evaluate the scattering signal by any wave packet in the hydrogen atom analytically. Finally, the distinctive features of time-resolved X-ray scattering by non-stationary electronic wave packets are illustrated by means of an example in Section 5.
+From Soup: 5 In Section 2 of this paper, the scattering signal of non-stationary electronic wave packets in atoms is rigorously described. Static and time-dependent contributions are identified and related to their constituting scattering matrix elements. In Section 3, a physical interpretation of these elements is provided. Section 4 summarizes the derivation of an approach to express and evaluate the scattering signal by any wave packet in the hydrogen atom analytically. Finally, the distinctive features of time-resolved X-ray scattering by non-stationary electronic wave packets are illustrated by means of an example in Section 5.
+ ###### 
+From cou.: 6 In time-resolved X-ray scattering experiments, a pulse of electromagnetic radiation prepares a non-stationary wave function |Ψ(t)〉 by excitation of a material system initially in its ground state. Subsequently, a second pulse of X-rays is scattered. The time lag between these two pulses is referred to as the pump–probe delay. The evolution of |Ψ(t)〉 describes the dynamics of the system that is to be probed at different pump–probe delays. In the following, the wave function is assumed to be a non-stationary electronic wave packet:
+From Soup: 6 In time-resolved X-ray scattering experiments, a pulse of electromagnetic radiation prepares a non-stationary wave function | Ψ ( t )〉 by excitation of a material system initially in its ground state. Subsequently, a second pulse of X-rays is scattered. The time lag between these two pulses is referred to as the pump–probe delay. The evolution of | Ψ ( t )〉 describes the dynamics of the system that is to be probed at different pump–probe delays. In the following, the wave function is assumed to be a non-stationary electronic wave packet:
+ ###### 
+From cou.: 7 The basis vectors |ψi〉 are eigenstates of the field-free Hamiltonian of the material system with energy Ei, the multipliers ci are expansion coefficients, ι denotes the imaginary unit, and ℏ is the reduced Planck's constant.
+From Soup: 7 The basis vectors | ψ i 〉 are eigenstates of the field-free Hamiltonian of the material system with energy E i , the multipliers c i are expansion coefficients, ι denotes the imaginary unit, and ℏ is the reduced Planck's constant.
+ ###### 
+From cou.: 8 The interaction of hard X-ray photons and |Ψ(t)〉 can be described by the use of first-order perturbation theory and a quantized electromagnetic X-ray field.18,24–26 For eqn (1), the time-resolved differential scattering signal per solid angle, dS/dΩ, is given as:25
+From Soup: 8 The interaction of hard X-ray photons and | Ψ ( t )〉 can be described by the use of first-order perturbation theory and a quantized electromagnetic X-ray field. 18,24–26 For eqn (1) , the time-resolved differential scattering signal per solid angle, d S /d Ω , is given as: 25
+ ###### 
+From cou.: 9 Eqn (2) involves the differential Thomson cross-section dσt/dΩ, a directional measure of elastic scattering of electromagnetic radiation by free electrons. It contains the intensity time profile I(t) as well as the power spectral density F(ωs + ωfij) of the X-ray probe pulse. Moreover, ω0 and ωs are the angular frequencies of the incident and scattered photons, whereas ωij = (Ei − Ej)/ℏ and ωfij = (Ef − [Ei + Ej]/2)/ℏ refer to differences in energies of their corresponding electronic states. Finally, the expression contains scattering matrix elements:
+From Soup: 9 Eqn (2) involves the differential Thomson cross-section d σ t /d Ω , a directional measure of elastic scattering of electromagnetic radiation by free electrons. It contains the intensity time profile I ( t ) as well as the power spectral density F ( ω s + ω fij ) of the X-ray probe pulse. Moreover, ω 0 and ω s are the angular frequencies of the incident and scattered photons, whereas ω ij = ( E i − E j )/ℏ and ω fij = ( E f − [ E i + E j ]/2)/ℏ refer to differences in energies of their corresponding electronic states. Finally, the expression contains scattering matrix elements:
+ ###### 
+From cou.: 10 Here, the scattering operator connects the two eigenstates |ψi〉 and |ψf〉. The scattering vector q = k0 − ks in the exponent of the operator refers to the vector difference of the wave vectors of the incident and the scattered photons, respectively. The sum runs over all electrons of the system and rn is the spatial coordinate of the electron with index n. These coordinates are the variables of integration in eqn (3).
+From Soup: 10 Here, the scattering operator connects the two eigenstates | ψ i 〉 and | ψ f 〉. The scattering vector q = k 0 − k s in the exponent of the operator refers to the vector difference of the wave vectors of the incident and the scattered photons, respectively. The sum runs over all electrons of the system and r n is the spatial coordinate of the electron with index n . These coordinates are the variables of integration in eqn (3) .
+ ###### 
+From cou.: 11 Due to the ωs-dependence of the q-vector, the two scattering matrix elements in eqn (2) are involved in the integral over the frequency. If ωs ≈ ω0, however, q and thus LfiLfj* become independent of ωs. This assumption was first used by Waller and Hartree31 and is sometimes termed as the “elastic approximation”. Despite its name, it does not imply that the scattering becomes purely elastic. It is only assumed that the transfer of energy between the photon and the material system is small compared to the mean photon energy of the probe pulse and that its effect on q is negligible. This is well justified as long as the transition energies of the material system are orders of magnitude lower than the mean energies of the incident photons. Since the relevant electronic eigenstates of atoms and molecules are typically separated by not more than a few electron volts, this condition is usually satisfied in time-resolved X-ray scattering with photon energies of several keV. Hence, eqn (2) becomes:
+From Soup: 11 Due to the ω s -dependence of the q -vector, the two scattering matrix elements in eqn (2) are involved in the integral over the frequency. If ω s ≈ ω 0 , however, q and thus L fi L fj * become independent of ω s . This assumption was first used by Waller and Hartree 31 and is sometimes termed as the “elastic approximation”. Despite its name, it does not imply that the scattering becomes purely elastic. It is only assumed that the transfer of energy between the photon and the material system is small compared to the mean photon energy of the probe pulse and that its effect on q is negligible. This is well justified as long as the transition energies of the material system are orders of magnitude lower than the mean energies of the incident photons. Since the relevant electronic eigenstates of atoms and molecules are typically separated by not more than a few electron volts, this condition is usually satisfied in time-resolved X-ray scattering with photon energies of several keV. Hence, eqn (2) becomes:
+ ###### 
+From cou.: 12 The tilde on top of labels the scattering matrix elements to be independent of ωs. The remaining integral over ωs is written as the function Wfij(Δω):
+From Soup: 12 The tilde on top of labels the scattering matrix elements to be independent of ω s . The remaining integral over ω s is written as the function W fij (Δ ω ):
+ ###### 
+From cou.: 13 The lower and upper limits of the integral are defined by a detection window of ±Δω around the mean angular frequency ω0. It is important to note that Δω has to be small in comparison with ω0 in order to be consistent with the approximation introduced above. In a previous derivation,25 it was assumed that the integral runs from zero to infinity, meaning that all photons are detected regardless of their energies. This resulted in an expression for time-dependent incoherent scattering published already in 1998,22 but violates, strictly speaking, the condition under which eqn (4) is justified. Consequently, the information contained in scattering by single electrons is lost, as discussed in the ESI.† It is therefore necessary to restrict the range of detection to scattered photons with frequencies in the vicinity of ω0.
+From Soup: 13 The lower and upper limits of the integral are defined by a detection window of ±Δ ω around the mean angular frequency ω 0 . It is important to note that Δ ω has to be small in comparison with ω 0 in order to be consistent with the approximation introduced above. In a previous derivation, 25 it was assumed that the integral runs from zero to infinity, meaning that all photons are detected regardless of their energies. This resulted in an expression for time-dependent incoherent scattering published already in 1998, 22 but violates, strictly speaking, the condition under which eqn (4) is justified. Consequently, the information contained in scattering by single electrons is lost, as discussed in the ESI. † It is therefore necessary to restrict the range of detection to scattered photons with frequencies in the vicinity of ω 0 .
+ ###### 
+From cou.: 14 The function Wfij(Δω) imposes a weight on the terms of the sum over f in eqn (4). It accounts for the number of incident X-ray photons with frequencies that can be shifted by ωfij to frequencies ωs within the detection range of ±Δω around ω0. The shift ωfij corresponds to an inelastic energy transfer between the photon and the wave packet. Since the value of Wfij(Δω) decreases with an increase in ωfij, the function effectively introduces an upper limit into the sum over f.
+From Soup: 14 The function W fij (Δ ω ) imposes a weight on the terms of the sum over f in eqn (4) . It accounts for the number of incident X-ray photons with frequencies that can be shifted by ω fij to frequencies ω s within the detection range of ±Δ ω around ω 0 . The shift ω fij corresponds to an inelastic energy transfer between the photon and the wave packet. Since the value of W fij (Δ ω ) decreases with an increase in ω fij , the function effectively introduces an upper limit into the sum over f .
+ ###### 
+From cou.: 15 Eqn (4) is similar to the expression used in the seminal contribution by Dixit et al.18 There are, however, some differences: first, eqn (4) is not based on the assumption that the dynamics of the wave packet is frozen during the scattering process. The convolution with I(t) is explicitly taken into account. Second, the limits of integration in eqn (5) have been introduced as a direct consequence of the approximation ωs ≈ ω0. Third, eqn (4) is written in terms of scattering matrix elements and not as one compact expectation value of density operators. This permits further simplifications and facilitates the identification, physical interpretation, and evaluation of separable contributions.
+From Soup: 15 Eqn (4) is similar to the expression used in the seminal contribution by Dixit et al. 18 There are, however, some differences: first, eqn (4) is not based on the assumption that the dynamics of the wave packet is frozen during the scattering process. The convolution with I ( t ) is explicitly taken into account. Second, the limits of integration in eqn (5) have been introduced as a direct consequence of the approximation ω s ≈ ω 0 . Third, eqn (4) is written in terms of scattering matrix elements and not as one compact expectation value of density operators. This permits further simplifications and facilitates the identification, physical interpretation, and evaluation of separable contributions.
+ ###### 
+From cou.: 16 To begin with, eqn (4) contains terms diagonal and off-diagonal in i and j that can be partitioned:
+From Soup: 16 To begin with, eqn (4) contains terms diagonal and off-diagonal in i and j that can be partitioned:
+ ###### 
+From cou.: 17 The sum of the diagonal elements Di in eqn (6) defines the static average of the differential scattering signal, whereas the sum of the integrated, off-diagonal elements Zij describes its time-dependent modulation. The elements are given as:
+From Soup: 17 The sum of the diagonal elements D i in eqn (6) defines the static average of the differential scattering signal, whereas the sum of the integrated, off-diagonal elements Z ij describes its time-dependent modulation. The elements are given as:
+ ###### 
+From cou.: 18 Due to the real part in eqn (8), Zij(t) is invariant under interchange of its sub- and superscript. Hence, the N × N sized matrix of all elements is symmetric. This permits the reduction of the double sum in eqn (6) to j > i and results in the factor of 2. Since Di contains no time variable, only Zij(t) is convoluted with the intensity time profile I(t) and Di is simply multiplied by the total integrated intensity . According to Euler's formula, eqn (8) can be written in terms of real-valued trigonometric functions:
+From Soup: 18 Due to the real part in eqn (8) , Z ij ( t ) is invariant under interchange of its sub- and superscript. Hence, the N × N sized matrix of all elements is symmetric. This permits the reduction of the double sum in eqn (6) to j > i and results in the factor of 2. Since D i contains no time variable, only Z ij ( t ) is convoluted with the intensity time profile I ( t ) and D i is simply multiplied by the total integrated intensity . According to Euler's formula, eqn (8) can be written in terms of real-valued trigonometric functions:
+ ###### 
+From cou.: 19 The element Oij in eqn (9) is a product of two different scattering matrix elements, their expansion coefficients, and their weights from eqn (5):
+From Soup: 19 The element O ij in eqn (9) is a product of two different scattering matrix elements, their expansion coefficients, and their weights from eqn (5) :
+ ###### 
+From cou.: 20 In the following, the intensity time profile I(t) will be described by a normalized Gaussian function:
+From Soup: 20 In the following, the intensity time profile I ( t ) will be described by a normalized Gaussian function:
+ ###### 
+From cou.: 21 The pulse given in eqn (11) is centered at the pump–probe delay τ and has a duration defined as the full width at half maximum (FWHM) of . With eqn (9) and (11), the integral over time in eqn (6) can be solved analytically:
+From Soup: 21 The pulse given in eqn (11) is centered at the pump–probe delay τ and has a duration defined as the full width at half maximum (FWHM) of . With eqn (9) and (11) , the integral over time in eqn (6) can be solved analytically:
+ ###### 
+From cou.: 22 The two trigonometric functions cos(ωijτ) and sin(ωijτ) in eqn (12) determine the magnitude by which the real and imaginary parts of the element Oij contribute to the scattering signal at a given pump–probe delay τ. The exponential factor exp(−(ωijσ)2/2) accounts for the effect of the finite duration of the probe pulse. It is always smaller than one and decreases rapidly with an increasing ratio of the pulse duration to the period of the oscillation, dp/Tij, where Tij = 2π/ωij. Hence, the exponential factor determines to what extent the time-dependent modulation of the scattering signal can be temporally resolved.
+From Soup: 22 The two trigonometric functions cos( ω ij τ ) and sin( ω ij τ ) in eqn (12) determine the magnitude by which the real and imaginary parts of the element O ij contribute to the scattering signal at a given pump–probe delay τ . The exponential factor exp(−( ω ij σ ) 2 /2) accounts for the effect of the finite duration of the probe pulse. It is always smaller than one and decreases rapidly with an increasing ratio of the pulse duration to the period of the oscillation, d p / T ij , where T ij = 2π/ ω ij . Hence, the exponential factor determines to what extent the time-dependent modulation of the scattering signal can be temporally resolved.
+ ###### 
+From cou.: 23 Assuming coherence of the probe pulse, the power spectral density F(ωs + ωfij) has the following Gaussian shape with the same σ as defined for I(t):
+From Soup: 23 Assuming coherence of the probe pulse, the power spectral density F ( ω s + ω fij ) has the following Gaussian shape with the same σ as defined for I ( t ):
+ ###### 
+From cou.: 24 With eqn (13), the weights in eqn (5) are:
+From Soup: 24 With eqn (13) , the weights in eqn (5) are:
+ ###### 
+From cou.: 25 Eqn (14) contains two error functions. For a given Δω, Wfij takes maximum values when f is equal to i or j and converges to a minimum when f → ∞.
+From Soup: 25 Eqn (14) contains two error functions. For a given Δ ω , W fij takes maximum values when f is equal to i or j and converges to a minimum when f → ∞.
+ ###### 
+From cou.: 26 Note that in the framework of eqn (11) and (13), a shorter pulse duration implies a larger frequency bandwidth, since σ defines the widths of both I(t) and F(ωs + ωfij). Consequently, a decrease in the pulse duration results in a reduction of the number of photons with angular frequencies inside of ω0 ± Δω and thereby leads to a decrease in the intensity of the detected scattering signal. It is important to emphasize that each term of Di and Oij in eqn (7) and (10), is affected differently by this decrease in intensity: Every contribution to the scattering signal corresponds to a particular transfer of energy ωfij. If the contribution is elastic, the angular frequency ωfij is zero and eqn (14) simplifies to . This function vanishes as σ → 0 and approaches unity as σ → ∞. If at least two of the indices in eqn (14) are different, however, Wfij becomes zero for both σ → 0 and σ → ∞ and displays an optimum in between. The value of σ where this optimum occurs depends on both ωfij and Δω.
+From Soup: 26 Note that in the framework of eqn (11) and (13) , a shorter pulse duration implies a larger frequency bandwidth, since σ defines the widths of both I ( t ) and F ( ω s + ω fij ). Consequently, a decrease in the pulse duration results in a reduction of the number of photons with angular frequencies inside of ω 0 ± Δ ω and thereby leads to a decrease in the intensity of the detected scattering signal. It is important to emphasize that each term of D i and O ij in eqn (7) and (10) , is affected differently by this decrease in intensity: Every contribution to the scattering signal corresponds to a particular transfer of energy ω fij . If the contribution is elastic, the angular frequency ω fij is zero and eqn (14) simplifies to . This function vanishes as σ → 0 and approaches unity as σ → ∞. If at least two of the indices in eqn (14) are different, however, W fij becomes zero for both σ → 0 and σ → ∞ and displays an optimum in between. The value of σ where this optimum occurs depends on both ω fij and Δ ω .
+ ###### 
+From cou.: 27 Physically, this can be understood as follows: If the frequency bandwidth of the incident probe pulse is smaller than ω0 ± Δω, almost all elastically scattered photons are detected. If the bandwidth is increased, less photons fall into the range of detection and the signal becomes weaker. For inelastically scattered photons the situation is different. Only photons with angular frequencies that fall into ω0 ± Δω after a shift by ωfij are detected. If both Δω and the frequency bandwidth are small in comparison to ωfij, most photons are scattered to energies outside of the range of detection and the signal is weak.
+From Soup: 27 Physically, this can be understood as follows: If the frequency bandwidth of the incident probe pulse is smaller than ω 0 ± Δ ω , almost all elastically scattered photons are detected. If the bandwidth is increased, less photons fall into the range of detection and the signal becomes weaker. For inelastically scattered photons the situation is different. Only photons with angular frequencies that fall into ω 0 ± Δ ω after a shift by ω fij are detected. If both Δ ω and the frequency bandwidth are small in comparison to ω fij , most photons are scattered to energies outside of the range of detection and the signal is weak.
+ ###### 
+From cou.: 28 A loss of time-dependent modulation of the scattering signal at very short probe pulse durations was reported by Dixit et al.18 In the present context, such a loss is ascribed to the coherence of the probe pulse and a finite width of the detection window: For a given Δω, the weights Wfij in eqn (7) and (10) define a frequency bandwidth (or pulse duration) that permits the detection of the largest proportion of photons that carry time-dependent information. This explanation deviates from the previously published one that related the loss of contrast to the time-scale of the electronic motion18 and will be further illustrated in Section 5.
+From Soup: 28 A loss of time-dependent modulation of the scattering signal at very short probe pulse durations was reported by Dixit et al. 18 In the present context, such a loss is ascribed to the coherence of the probe pulse and a finite width of the detection window: For a given Δ ω , the weights W fij in eqn (7) and (10) define a frequency bandwidth (or pulse duration) that permits the detection of the largest proportion of photons that carry time-dependent information. This explanation deviates from the previously published one that related the loss of contrast to the time-scale of the electronic motion 18 and will be further illustrated in Section 5.
+ ###### 
+From cou.: 29 In coherent X-ray diffractometry of stationary systems, the scattering signal can be described by absolute squares of Fourier transforms of the one-electron density. It has therefore been suggested to relate the time-dependent scattering of non-stationary wave packets to absolute squares of Fourier transforms of the time-dependent one-electron density.29 However, such an approach essentially leads to wrong results, as has been revealed by Dixit et al.18 In order to understand the fundamental difference of the more involved description given in the previous section, it is illustrative to re-express eqn (7) and (10) in terms of expectation values of the one-electron density operator ρfi(r) and their Fourier transforms from r- into q-space:
+From Soup: 29 In coherent X-ray diffractometry of stationary systems, the scattering signal can be described by absolute squares of Fourier transforms of the one-electron density. It has therefore been suggested to relate the time-dependent scattering of non-stationary wave packets to absolute squares of Fourier transforms of the time-dependent one-electron density. 29 However, such an approach essentially leads to wrong results, as has been revealed by Dixit et al. 18 In order to understand the fundamental difference of the more involved description given in the previous section, it is illustrative to re-express eqn (7) and (10) in terms of expectation values of the one-electron density operator ρ fi ( r ) and their Fourier transforms from r - into q -space:
+ ###### 
+From cou.: 30 As shown in the ESI,†eqn (15) and (16) can be used to obtain the following alternative expressions for Di and Oij:
+From Soup: 30 As shown in the ESI, † eqn (15) and (16) can be used to obtain the following alternative expressions for D i and O ij :
+ ###### 
+From cou.: 31 The zero in subscript of q0 in eqn (17) and (18) labels the scattering vector to be independent of ωs.
+From Soup: 31 The zero in subscript of q 0 in eqn (17) and (18) labels the scattering vector to be independent of ω s .
+ ###### 
+From cou.: 32 Eqn (17) shows that the element Di is a weighted sum of absolute squares of Fourier transformed expectation values of the one-electron density operator ρfi(r) associated with the state |ψi〉. The diagonal term with f = i describes coherent elastic scattering on the one-electron density. The off-diagonal terms with f ≠ i allow for inelastic energy transfer from the incident X-ray photon to the material system or vice versa by electronic Raman transitions. If the expectation values of the one-electron density operator ρfi are real—a condition that will be fulfilled when the eigenstates are chosen to be real—the pattern of Di has to be centrosymmetric in q-space, i.e. the inversion center has to be an element of its corresponding point group. This requirement is a consequence of the occurrence of the absolute squares of the Fourier transforms in eqn (17) and known as Friedel's law.32
+From Soup: 32 Eqn (17) shows that the element D i is a weighted sum of absolute squares of Fourier transformed expectation values of the one-electron density operator ρ fi ( r ) associated with the state | ψ i 〉. The diagonal term with f = i describes coherent elastic scattering on the one-electron density. The off-diagonal terms with f ≠ i allow for inelastic energy transfer from the incident X-ray photon to the material system or vice versa by electronic Raman transitions. If the expectation values of the one-electron density operator ρ fi are real—a condition that will be fulfilled when the eigenstates are chosen to be real—the pattern of D i has to be centrosymmetric in q -space, i.e. the inversion center has to be an element of its corresponding point group. This requirement is a consequence of the occurrence of the absolute squares of the Fourier transforms in eqn (17) and known as Friedel's law. 32
+ ###### 
+From cou.: 33 In contrast, the element Oij in eqn (18) involved in the time-dependent part of the scattering signal is not related to the absolute square of a single Fourier transform and may therefore give rise to a non-centrosymmetric pattern. It is a weighted sum of products of two different, Fourier transformed expectation values of the one-electron density operator and describes scattering by two eigenstates that are superposed in the wave packet. Thus, the element Oij reveals non-local correlations of the X-ray photon and the evolving material system in the scattering process. Together with the off-diagonal contributions to Di, it accounts for the quantum mechanical nature of the light-matter interaction.18
+From Soup: 33 In contrast, the element O ij in eqn (18) involved in the time-dependent part of the scattering signal is not related to the absolute square of a single Fourier transform and may therefore give rise to a non-centrosymmetric pattern. It is a weighted sum of products of two different, Fourier transformed expectation values of the one-electron density operator and describes scattering by two eigenstates that are superposed in the wave packet. Thus, the element O ij reveals non-local correlations of the X-ray photon and the evolving material system in the scattering process. Together with the off-diagonal contributions to D i , it accounts for the quantum mechanical nature of the light-matter interaction. 18
+ ###### 
+From cou.: 34 In the following, the general considerations of the last section will be applied to electronic wave packets of superposed eigenstates in the hydrogen atom. The matrix elements in Di and Oij can, in principle, be evaluated directly in a basis of real-valued atomic orbitals. It is possible to expand the scattering operator in terms of spherical Bessel functions and spherical harmonics18,24 and to evaluate the angular integrals analytically by use of Clebsch–Gordon coefficients.33 For the remaining radial integrals, however, no analytic solution is known. Hence, it is necessary to evaluate them numerically—a task that is computationally demanding even for the hydrogen atom.18 As will be demonstrated in this section, one can overcome this obstacle and obtain completely analytic solutions, if the original wave packet is transformed into an eigenstate basis of the field-free Hamiltonian in parabolic coordinates:34,35
+From Soup: 34 In the following, the general considerations of the last section will be applied to electronic wave packets of superposed eigenstates in the hydrogen atom. The matrix elements in D i and O ij can, in principle, be evaluated directly in a basis of real-valued atomic orbitals. It is possible to expand the scattering operator in terms of spherical Bessel functions and spherical harmonics 18,24 and to evaluate the angular integrals analytically by use of Clebsch–Gordon coefficients. 33 For the remaining radial integrals, however, no analytic solution is known. Hence, it is necessary to evaluate them numerically—a task that is computationally demanding even for the hydrogen atom. 18 As will be demonstrated in this section, one can overcome this obstacle and obtain completely analytic solutions, if the original wave packet is transformed into an eigenstate basis of the field-free Hamiltonian in parabolic coordinates: 34,35
+ ###### 
+From cou.: 35 Eqn (19) includes two associated Laguerre polynomials Lmni(x) that depend on one of the two parabolic coordinates, ξ and η, each.36φ is the azimuthal angle. n and m are the principal and magnetic quantum numbers of the eigenstate. Moreover, n1 and n2 are parabolic quantum numbers. They obey the relation n = n1 + n2 + m + 1. Nn,n1,n2 is a normalisation factor:
+From Soup: 35 Eqn (19) includes two associated Laguerre polynomials L m n i ( x ) that depend on one of the two parabolic coordinates, ξ and η , each. 36 φ is the azimuthal angle. n and m are the principal and magnetic quantum numbers of the eigenstate. Moreover, n 1 and n 2 are parabolic quantum numbers. They obey the relation n = n 1 + n 2 + m + 1. N n , n 1 , n 2 is a normalisation factor:
+ ###### 
+From cou.: 36 Note that the expressions given in ref. 34 and 35 deviate from eqn (19) and (20) due to a different definition of the associated Laguerre polynomials.
+From Soup: 36 Note that the expressions given in ref. 34 and 35 deviate from eqn (19) and (20) due to a different definition of the associated Laguerre polynomials.
+ ###### 
+From cou.: 37 The scattering matrix elements in eqn (7) and (10) have the general form 〈ψf||ψi〉. With parabolic eigenstates of the hydrogen atom, the corresponding integrals can be evaluated analytically if the scattering vector q is aligned with the z-axis, meaning q = qez. The full three-dimensional scattering can be obtained thereafter by rotation of the z-axis around the material system, as will be described later. Hence, the scattering operator that refers to the electron in the hydrogen atom becomes:
+From Soup: 37 The scattering matrix elements in eqn (7) and (10) have the general form 〈 ψ f | | ψ i 〉. With parabolic eigenstates of the hydrogen atom, the corresponding integrals can be evaluated analytically if the scattering vector q is aligned with the z -axis, meaning q = q e z . The full three-dimensional scattering can be obtained thereafter by rotation of the z -axis around the material system, as will be described later. Hence, the scattering operator that refers to the electron in the hydrogen atom becomes:
+ ###### 
+From cou.: 38 With eqn (19) and (21), the scattering matrix element 〈ψf|z|ψi〉 is given as:
+From Soup: 38 With eqn (19) and (21) , the scattering matrix element 〈 ψ f | z | ψ i 〉 is given as:
+ ###### 
+From cou.: 39 The factor κ in the second line of eqn (22) denotes the inverse of the harmonic mean of the principal quantum numbers of the two states, κ = (nf + ni)/(2ninf). The last integral over φ does not contain the parabolic coordinates ξ and η. Hence, it can be evaluated independently of the first two integrals. It corresponds to the integral representation of the Kronecker delta δij multiplied by a factor of 2π:
+From Soup: 39 The factor κ in the second line of eqn (22) denotes the inverse of the harmonic mean of the principal quantum numbers of the two states, κ = ( n f + n i )/(2 n i n f ). The last integral over φ does not contain the parabolic coordinates ξ and η . Hence, it can be evaluated independently of the first two integrals. It corresponds to the integral representation of the Kronecker delta δ ij multiplied by a factor of 2π:
+ ###### 
+From cou.: 40 The sum (ξ + η) in the second line in eqn (22) prohibits the separation of the two remaining integrals over ξ and η. However, the sum can be substituted by the negative partial derivative with respect to κ,34 since:
+From Soup: 40 The sum ( ξ + η ) in the second line in eqn (22) prohibits the separation of the two remaining integrals over ξ and η . However, the sum can be substituted by the negative partial derivative with respect to κ , 34 since:
+ ###### 
+From cou.: 41 With eqn (23) and (24), eqn (22) becomes:
+From Soup: 41 With eqn (23) and (24) , eqn (22) becomes:
+ ###### 
+From cou.: 42 The two remaining integrals in eqn (25) are fully separable and can be evaluated independently. Each of these integrals contains a power of the variable of integration, an exponential function, and two associated Laguerre polynomials. A solution for this kind of integral is known from literature:37
+From Soup: 42 The two remaining integrals in eqn (25) are fully separable and can be evaluated independently. Each of these integrals contains a power of the variable of integration, an exponential function, and two associated Laguerre polynomials. A solution for this kind of integral is known from literature: 37
+ ###### 
+From cou.: 43 The functions on the right-hand side of eqn (26) are the Gamma function Γ(n) and the Gaussian hypergeometric function 2F1(a,b;c;z). After application of eqn (26) to the two integrals in eqn (25), the partial derivative with respect to κ can be taken. κ occurs in eqn (26) in the second fraction and in the fourth argument of the hypergeometric function. Hence, the derivative of the hypergeometric function with respect to its fourth argument38 is involved:
+From Soup: 43 The functions on the right-hand side of eqn (26) are the Gamma function Γ ( n ) and the Gaussian hypergeometric function 2 F 1 ( a , b ; c ; z ). After application of eqn (26) to the two integrals in eqn (25) , the partial derivative with respect to κ can be taken. κ occurs in eqn (26) in the second fraction and in the fourth argument of the hypergeometric function. Hence, the derivative of the hypergeometric function with respect to its fourth argument 38 is involved:
+ ###### 
+From cou.: 44 All other derivatives can be obtained by use of ordinary differentiation rules. Rearrangement of terms and simplification leads to the final expression in eqn (28), where denotes a product of two hypergeometric functions as defined by eqn (29). The indices α and β are either zero or one.
+From Soup: 44 All other derivatives can be obtained by use of ordinary differentiation rules. Rearrangement of terms and simplification leads to the final expression in eqn (28) , where denotes a product of two hypergeometric functions as defined by eqn (29) . The indices α and β are either zero or one.
+ ###### 
+From cou.: 45 Eqn (28) and (29) are a generalisation of the formula that has been published by Schnaidt in 1934.34 Whereas the latter is limited to a |1s〉 ground state, the equations reported here permit the evaluation of any scattering matrix element 〈ψf|z|ψi〉 of the hydrogen atom in the parabolic eigenstate basis.
+From Soup: 45 Eqn (28) and (29) are a generalisation of the formula that has been published by Schnaidt in 1934. 34 Whereas the latter is limited to a | 1s 〉 ground state, the equations reported here permit the evaluation of any scattering matrix element 〈 ψ f | z | ψ i 〉 of the hydrogen atom in the parabolic eigenstate basis.
+ ###### 
+From cou.: 46 If a wave packet |Ψ(t)〉 is defined in terms of real-valued atomic orbitals, a change to the parabolic basis is necessary. Hence, the original basis vectors are expanded in parabolic eigenstates:
+From Soup: 46 If a wave packet | Ψ ( t )〉 is defined in terms of real-valued atomic orbitals, a change to the parabolic basis is necessary. Hence, the original basis vectors are expanded in parabolic eigenstates:
+ ###### 
+From cou.: 47 The indices n, l, and m on the left-hand sides of eqn (30) and (31) refer to the principal, azimuthal, and magnetic quantum numbers of the atomic orbitals. These orbitals are linear combinations of spherical eigenstates with positive and negative m. Hence, for each value of |m| ≠ 0 two orbitals exist. In order to distinguish between them, the index μ is introduced. It can either be + or −, corresponding to the operation by which the two spherical eigenstates are combined. The degeneracy in |m| is also reflected by the fact that eqn (31) contains the parabolic vectors |ψn,n1,n2〉 as well as their complex conjugates. The multipliers an1 and bn1 are expansion coefficients. The parabolic quantum number n2 is unequivocally defined by n2 = n − n1 − |m| − 1. Expansions for all atomic orbitals with n ∈ {1, 2, 3, 4} are given in the ESI.†
+From Soup: 47 The indices n , l , and m on the left-hand sides of eqn (30) and (31) refer to the principal, azimuthal, and magnetic quantum numbers of the atomic orbitals. These orbitals are linear combinations of spherical eigenstates with positive and negative m . Hence, for each value of | m | ≠ 0 two orbitals exist. In order to distinguish between them, the index μ is introduced. It can either be + or −, corresponding to the operation by which the two spherical eigenstates are combined. The degeneracy in | m | is also reflected by the fact that eqn (31) contains the parabolic vectors | ψ n , n 1 , n 2 〉 as well as their complex conjugates. The multipliers a n 1 and b n 1 are expansion coefficients. The parabolic quantum number n 2 is unequivocally defined by n 2 = n − n 1 − | m | − 1. Expansions for all atomic orbitals with n ∈ {1, 2, 3, 4} are given in the ESI. †
+ ###### 
+From cou.: 48 According to the definition of the operator z in eqn (21), the applicability of eqn (28) and (29) is hitherto limited to the condition that the q-vector is aligned with the z-axis. In order to evaluate the full three-dimensional scattering matrix element 〈ψf||ψi〉, the description has to be extended to any orientation of the q-vector. Such an extension is obtainable by use of the rotation matrices y(θ) and z(ϕ).39 Their successive action upon a state |ψ〉 leads to a rotation of the vector around the y- and z-axes of the coordinate system by angles θ and ϕ:
+From Soup: 48 According to the definition of the operator z in eqn (21) , the applicability of eqn (28) and (29) is hitherto limited to the condition that the q -vector is aligned with the z -axis. In order to evaluate the full three-dimensional scattering matrix element 〈 ψ f | | ψ i 〉, the description has to be extended to any orientation of the q -vector. Such an extension is obtainable by use of the rotation matrices y ( θ ) and z ( ϕ ). 39 Their successive action upon a state | ψ 〉 leads to a rotation of the vector around the y - and z -axes of the coordinate system by angles θ and ϕ :
+ ###### 
+From cou.: 49 Eqn (32) equally describes a rotation of the coordinate system around the fixed state. This is illustrated in Fig. 1. Since the q-vector is aligned with the z-axis, such a rotation alters its orientation with respect to the material system and thus the rotated states |ψR(θ,ϕ)〉 permit an evaluation of the full scattering matrix element with any orientation of the q-vector:
+From Soup: 49 Eqn (32) equally describes a rotation of the coordinate system around the fixed state. This is illustrated in Fig. 1 . Since the q -vector is aligned with the z -axis, such a rotation alters its orientation with respect to the material system and thus the rotated states | ψ R ( θ , ϕ )〉 permit an evaluation of the full scattering matrix element with any orientation of the q -vector:
+ ###### 
+From cou.: 50 If the original state |ψ〉 is an atomic orbital, the rotated vector |ψR(θ,ϕ)〉 can be expressed as an angle-dependent linear combination of orbitals that share the same n and l. This can be ascribed to the fact that the magnetic quantum number m defines the orientation of the angular momentum.
+From Soup: 50 If the original state | ψ 〉 is an atomic orbital, the rotated vector | ψ R ( θ , ϕ )〉 can be expressed as an angle-dependent linear combination of orbitals that share the same n and l . This can be ascribed to the fact that the magnetic quantum number m defines the orientation of the angular momentum.
+ ###### 
+From cou.: 51 The angle-dependent expansion coefficients r0(θ,ϕ) and rmR,μR(θ,ϕ) in eqn (34) can be determined by use of y(θ) and z(ϕ). For that the atomic orbital |ψn,l,|m|,μ〉 is written in Cartesian coordinates. The rotation matrices transform these coordinates into a weighted sum of products with αi ∈ {x, y, z}. These products are substituted with their corresponding linear combinations of atomic orbitals. A rearrangement of terms finally yields the coefficients. A more detailed description as well as expansions for rotations of all |d〉 and |f〉 orbitals are given in the ESI.†
+From Soup: 51 The angle-dependent expansion coefficients r 0 ( θ , ϕ ) and r m R , μ R ( θ , ϕ ) in eqn (34) can be determined by use of y ( θ ) and z ( ϕ ). For that the atomic orbital | ψ n , l ,| m |, μ 〉 is written in Cartesian coordinates. The rotation matrices transform these coordinates into a weighted sum of products with α i ∈ { x , y , z }. These products are substituted with their corresponding linear combinations of atomic orbitals. A rearrangement of terms finally yields the coefficients. A more detailed description as well as expansions for rotations of all | d 〉 and | f 〉 orbitals are given in the ESI. †
+ ###### 
+From cou.: 52 The atomic orbitals in both terms on the right-hand side of eqn (34) can, in turn, be expanded in the parabolic eigenstate basis, as it was previously shown in eqn (30) and (31). The angles θ and ϕ refer to the orientation of the q-vector and are not affected by the integration over the real space coordinates ξ, η, and φ in eqn (22). Hence, a full three-dimensional scattering matrix element defined in a real-valued atomic orbital basis can be expanded in terms of the one-dimensional elements given in eqn (28) and (29):
+From Soup: 52 The atomic orbitals in both terms on the right-hand side of eqn (34) can, in turn, be expanded in the parabolic eigenstate basis, as it was previously shown in eqn (30) and (31) . The angles θ and ϕ refer to the orientation of the q -vector and are not affected by the integration over the real space coordinates ξ , η , and φ in eqn (22) . Hence, a full three-dimensional scattering matrix element defined in a real-valued atomic orbital basis can be expanded in terms of the one-dimensional elements given in eqn (28) and (29) :
+ ###### 
+From cou.: 53 m
+From Soup: 53 eqn (23)
+ ###### 
+From cou.: 54 f
+From Soup: 54 m
+ ###### 
+From cou.: 55 R
+From Soup: 55 f ,
+ ###### 
+From cou.: 56 m
+From Soup: 56 R
+ ###### 
+From cou.: 57 i
+From Soup: 57 m
+ ###### 
+From cou.: 58 R
+From Soup: 58 i ,
+ ###### 
+From cou.: 59 m
+From Soup: 59 R
+ ###### 
+From cou.: 60 R
+From Soup: 60 m
+ ###### 
+From cou.: 61 l
+From Soup: 61 R
+ ###### 
+From cou.: 62 f
+From Soup: 62 l
+ ###### 
+From cou.: 63 l
+From Soup: 63 f
+ ###### 
+From cou.: 64 i
+From Soup: 64 l
+ ###### 
+From cou.: 65 n
+From Soup: 65 i
+ ###### 
+From cou.: 66 f
+From Soup: 66 n
+ ###### 
+From cou.: 67 n
+From Soup: 67 f 1
+ ###### 
+From cou.: 68 i
+From Soup: 68 n
+ ###### 
+From cou.: 69 n
+From Soup: 69 i 1
+ ###### 
+From cou.: 70 f
+From Soup: 70 n
+ ###### 
+From cou.: 71 m
+From Soup: 71 f
+ ###### 
+From cou.: 72 R
+From Soup: 72 m
+ ###### 
+From cou.: 73 n
+From Soup: 73 R
+ ###### 
+From cou.: 74 i
+From Soup: 74 n
+ ###### 
+From cou.: 75 m
+From Soup: 75 i
+ ###### 
+From cou.: 76 R
+From Soup: 76 m
+ ###### 
+From cou.: 77 t
+From Soup: 77 R
+ ###### 
+From cou.: 78 m
+From Soup: 78 t
+ ###### 
+From cou.: 79 R
+From Soup: 79 m R , n f 1 , n i 1
+ ###### 
+From cou.: 80 n
+From Soup: 80 θ
+ ###### 
+From cou.: 81 f
+From Soup: 81 ϕ
+ ###### 
+From cou.: 82 n
+From Soup: 82 eqn (30), (31), and (34)
+ ###### 
+From cou.: 83 i
+From Soup: 83 ψ
+ ###### 
+From cou.: 84 θ
+From Soup: 84 n , n 1 , n 2
+ ###### 
+From cou.: 85 ϕ
+From Soup: 85 Eqn (36) and (37) can be deduced from eqn (19) and (22) : a parabolic eigenstate is complex only in the exponential e ιmφ . Taking the conjugates of both, the bra and the ket, leads to a change of sign of the exponent in eqn (23) . This change does not alter the result of the integration. If, in contrast, only one vector is complex conjugate, the difference m i − m f in eqn (23) is transformed into the sum m i + m f . Since m i and m f are positive integers, the integral has to vanish.
+ ###### 
+From cou.: 86 ψ
+From Soup: 86 In the following, the results of Sections 2 and 4 are applied to an electronic wave packet of superposed and equally weighted | 3d z 2 〉 and | 4f z 3 〉 orbitals of the hydrogen atom. Time-resolved X-ray scattering patterns of this wave packet have already been calculated numerically by Dixit et al. 18 The compact density operator formalism the authors have used to demonstrate the difference between the quantized and the semi-classical descriptions of the scattering, however, makes a more detailed analysis of the nature of the patterns difficult. Here, the elements D i and O ij are evaluated separately, allowing not only a more efficient computation but also a more illustrative discussion of the time-dependence of the scattering signal.
+ ###### 
+From cou.: 87 n
+From Soup: 87 By use of atomic units and eqn (1) , the non-stationary electronic wave packet is defined as:
+ ###### 
+From cou.: 88 n
+From Soup: 88 The energies in eqn (38) are E 3 = −1/18 a.u. ≈ −1.51 eV and E 4 = −1/32 a.u. ≈ −0.85 eV. With eqn (6) and (12) , the scattering signal of this wave packet is described by:
+ ###### 
+From cou.: 89 n
+From Soup: 89 The indices 3 and 4 in eqn (39) and in the following refer to the | 3d z 2 〉 and | 4f z 3 〉 orbitals, respectively. The angular frequency of the wave packets is ω = 7/288 a.u. ≈ 1.0 fs −1 .
+ ###### 
+From cou.: 90 Eqn (36) and (37) can be deduced from eqn (19) and (22): a parabolic eigenstate is complex only in the exponential eιmφ. Taking the conjugates of both, the bra and the ket, leads to a change of sign of the exponent in eqn (23). This change does not alter the result of the integration. If, in contrast, only one vector is complex conjugate, the difference mi − mf in eqn (23) is transformed into the sum mi + mf. Since mi and mf are positive integers, the integral has to vanish.
+From Soup: 90 According to eqn (7) and (10) , the elements in eqn (39) are given as:
+ ###### 
+From cou.: 91 In the following, the results of Sections 2 and 4 are applied to an electronic wave packet of superposed and equally weighted |3dz2〉 and |4fz3〉 orbitals of the hydrogen atom. Time-resolved X-ray scattering patterns of this wave packet have already been calculated numerically by Dixit et al.18 The compact density operator formalism the authors have used to demonstrate the difference between the quantized and the semi-classical descriptions of the scattering, however, makes a more detailed analysis of the nature of the patterns difficult. Here, the elements Di and Oij are evaluated separately, allowing not only a more efficient computation but also a more illustrative discussion of the time-dependence of the scattering signal.
+From Soup: 91 The off-diagonal element in eqn (42) contains the same matrix elements as eqn (40) and (41) . These matrix elements have to be evaluated once and then all three elements, D 3 , D 4 , and O 3,4 , can be formed as their corresponding products. Following the previous section, exact solutions to the matrix elements are obtainable by expansion in the parabolic eigenstate basis. Note that only the states involved in the wave packet, but not the vectors | ψ f 〉 have to be rotated by eqn (32) and (34) . The sum over f includes all states degenerate in m once and is therefore unaffected by rotation. Further details of the evaluation are given in the ESI. †
+ ###### 
+From cou.: 92 By use of atomic units and eqn (1), the non-stationary electronic wave packet is defined as:
+From Soup: 92 Here, the sum over f in eqn (40)–(42) has been truncated at the principal quantum number n f = 50. The values of D 3 , D 4 , and 2 Im[ O 3,4 ] at the converged q -space coordinates of the maximum of Im[ O 3,4 ] at different values of truncation n f are shown in Fig. 2 . Following Dixit et al. , 18 it is assumed that the incident X-ray probe pulse propagates along the y -axis and has a mean photon energy of 〈 E 0 〉 = 4 keV and a time duration (FWHM) of d p = 1 fs. All scattered photons within the range of ±Δ ω = 0.25 eV around 〈 E 0 〉 are detected. It becomes apparent that in all three cases electronic states with principal quantum numbers above n f ≈ 20 contribute only negligibly to the total value. Physically, every matrix element that involves a vector | ψ f 〉 with n f ∉ {3,4} corresponds to an electronic Raman transition induced by inelastic scattering of a photon. Thus, the convergence of the values in Fig. 2 can be related to the fact that transitions to electronic states in the proximity of those already occupied in the wave packet are the most probable to contribute to the detected scattering signal. The convergence in Fig. 2 also illustrates that it is not generally sufficient to approximate the elements D i by their elastic contributions. At the considered q -space coordinate, inelastic scattering accounts for more than 44% of D 3 and 64% of D 4 . This becomes even more dramatic at larger values of q , where inelastic scattering is usually stronger than elastic.
+ ###### 
+From cou.: 93 The energies in eqn (38) are E3 = −1/18 a.u. ≈ −1.51 eV and E4 = −1/32 a.u. ≈ −0.85 eV. With eqn (6) and (12), the scattering signal of this wave packet is described by:
+From Soup: 93 Further evaluation of O 3,4 reveals that its real part vanishes. Eqn (39) therefore reduces to:
+ ###### 
+From cou.: 94 The indices 3 and 4 in eqn (39) and in the following refer to the |3dz2〉 and |4fz3〉 orbitals, respectively. The angular frequency of the wave packets is ω = 7/288 a.u. ≈ 1.0 fs−1.
+From Soup: 94 According to eqn (43) , the differential scattering signal experiences a sinusoidal modulation with pump–probe delay τ over a period of T = 576π/7 a.u. ≈ 6.253 fs. The global magnitude of this modulation is limited by the probe pulse duration , whereas its spatial pattern is described solely by the imaginary part of O 3,4 .
+ ###### 
+From cou.: 95 According to eqn (7) and (10), the elements in eqn (39) are given as:
+From Soup: 95 A contour plot of 2Im[ O 3,4 ] is shown in Fig. 3 . The scattering pattern lies in the q x – q z plane and photons scattered at angles of at most 60° are detected. With the approximation ω s ≈ ω 0 , the norm of the q -vector takes maximum values of q max ≈ 2.03 Å −1 . The pattern in Fig. 3 displays a dihedral D 1 rosette group symmetry that involves a single reflection through the q z -axis. Its values are positive at q z > 0 (or ϕ q < 180°), but negative when q z < 0 (or ϕ q > 180°). As a consequence, the imaginary part of O 3,4 causes the differential scattering signal to oscillate along the q z -axis and breaks any higher symmetry that D 3 and D 4 may have. The pattern is not centrosymmetric and cannot be related to absolute squares of Fourier transformed, real-valued functions, as it has been discussed in Section 3.
+ ###### 
+From cou.: 96 The off-diagonal element in eqn (42) contains the same matrix elements as eqn (40) and (41). These matrix elements have to be evaluated once and then all three elements, D3, D4, and O3,4, can be formed as their corresponding products. Following the previous section, exact solutions to the matrix elements are obtainable by expansion in the parabolic eigenstate basis. Note that only the states involved in the wave packet, but not the vectors |ψf〉 have to be rotated by eqn (32) and (34). The sum over f includes all states degenerate in m once and is therefore unaffected by rotation. Further details of the evaluation are given in the ESI.†
+From Soup: 96 After evaluation of the remaining elements, D 3 + D 4 , the full scattering signal of the wave packet is obtained. In Fig. 4 , scattering patterns computed for five different pump–probe delays τ are shown: at zero, one-fourth, one-half, three-fourth, and one times the period of the oscillation T . They match the patterns published by Dixit et al. 18 With , the exponential in eqn (43) constrains the magnitude by which the element O 3,4 can contribute to at most 91%. Since the time-dependent term in eqn (43) involves a sine function, scattering patterns at zero, one-half, and one times T are described exclusively by the time-independent average D 3 + D 4 . They display a centrosymmetric D 2 rosette group symmetry that contains a two-fold rotation and reflections through both the q x - and the q z -axis. The patterns can correspond to the static average one would measure without any time-resolution. The higher D 2 symmetry of the patterns is broken to D 1 , as soon as the contributions of O 3,4 are non-zero. In between zero and one-fourth times T , the scattering signal is shifted into the upper semi circle of the pattern to azimuthal angles of ϕ q < 180°. At one-fourth of T , most of the intensity is observed at q z > 0. After this, the signal moves downwards in direction of the lower semi circle of the pattern to azimuthal angles of ϕ q > 180°, until the intensity at q z < 0 reaches its maximum at three-fourth of T . Finally, the signal is shifted upwards again, closing the cycle at T .
+ ###### 
+From cou.: 97 Here, the sum over f in eqn (40)–(42) has been truncated at the principal quantum number nf = 50. The values of D3, D4, and 2 Im[O3,4] at the converged q-space coordinates of the maximum of Im[O3,4] at different values of truncation nf are shown in Fig. 2. Following Dixit et al.,18 it is assumed that the incident X-ray probe pulse propagates along the y-axis and has a mean photon energy of 〈E0〉 = 4 keV and a time duration (FWHM) of dp = 1 fs. All scattered photons within the range of ±Δω = 0.25 eV around 〈E0〉 are detected. It becomes apparent that in all three cases electronic states with principal quantum numbers above nf ≈ 20 contribute only negligibly to the total value. Physically, every matrix element that involves a vector |ψf〉 with nf ∉ {3,4} corresponds to an electronic Raman transition induced by inelastic scattering of a photon. Thus, the convergence of the values in Fig. 2 can be related to the fact that transitions to electronic states in the proximity of those already occupied in the wave packet are the most probable to contribute to the detected scattering signal. The convergence in Fig. 2 also illustrates that it is not generally sufficient to approximate the elements Di by their elastic contributions. At the considered q-space coordinate, inelastic scattering accounts for more than 44% of D3 and 64% of D4. This becomes even more dramatic at larger values of q, where inelastic scattering is usually stronger than elastic.
+From Soup: 97 Hence, the scattering patterns in Fig. 4 show temporal variations that have already been deduced from Fig. 3 alone. This illustrates that the elements O ij are of prime importance for the simulation and understanding of the time-resolved differential X-ray scattering signal of non-stationary electronic wave packets.
+ ###### 
+From cou.: 98 Further evaluation of O3,4 reveals that its real part vanishes. Eqn (39) therefore reduces to:
+From Soup: 98 Finally, the effect of the pulse duration d p and the range of detected frequencies Δ ω upon the scattering signal will be illustrated. Fig. 5A shows the total scattering signal at different pump–probe delays τ for one point in q -space and three probe pulse durations d p . The intensity of the signal decreases with d p . As discussed in Section 2, less photons are detected at shorter pulse durations. In Fig. 5B , only the modulation, i.e. the total signal from Fig. 5A minus its time-independent average, is shown. The modulation has a larger amplitude for a pulse duration of 1.0 fs than for 0.1 fs and 4.0 fs. Hence, the amplitude of the modulation has to display an optimum at a pulse duration in the vicinity of 1.0 fs, as also observed previously. 18
+ ###### 
+From cou.: 99 According to eqn (43), the differential scattering signal experiences a sinusoidal modulation with pump–probe delay τ over a period of T = 576π/7 a.u. ≈ 6.253 fs. The global magnitude of this modulation is limited by the probe pulse duration , whereas its spatial pattern is described solely by the imaginary part of O3,4.
+From Soup: 99 This becomes even more apparent in Fig. 6A : the time-independent average D 3 + D 4 approaches zero as d p → 0 and a finite limit as d p → ∞. The amplitude of the time-dependent modulation 2 exp(−( ω ij σ ) 2 /2)Im[ O 3,4 ] becomes zero in both cases and has an optimum in between at d p ≈ 1.63 fs. The amplitude of the relative modulation, defined as the ratio of the absolute amplitude and the average, is displayed in Fig. 6A as well. It approaches a finite value as d p → 0 and zero as d p → ∞. Moreover, it displays an optimum at d p ≈ 1.31 fs. The ratio of detected photons that carry time-dependent information to those that do not is the largest here. This confirms the previously observed, somewhat counterintuitive behaviour that time-dependent scattering signal loses contrast (amplitude of the modulation) at very short probe pulse durations. 18 It can be seen, however, that the scattering signal does not become completely time-independent as d p → 0. Even though the amplitude of the absolute modulation vanishes and the signal may eventually become too weak to be detected, the proportion by which the modulation contributes to the total signal approaches a constant.
+ ###### 
+From cou.: 100 A contour plot of 2Im[O3,4] is shown in Fig. 3. The scattering pattern lies in the qx–qz plane and photons scattered at angles of at most 60° are detected. With the approximation ωs ≈ ω0, the norm of the q-vector takes maximum values of qmax ≈ 2.03 Å−1. The pattern in Fig. 3 displays a dihedral D1 rosette group symmetry that involves a single reflection through the qz-axis. Its values are positive at qz > 0 (or ϕq < 180°), but negative when qz < 0 (or ϕq > 180°). As a consequence, the imaginary part of O3,4 causes the differential scattering signal to oscillate along the qz-axis and breaks any higher symmetry that D3 and D4 may have. The pattern is not centrosymmetric and cannot be related to absolute squares of Fourier transformed, real-valued functions, as it has been discussed in Section 3.
+From Soup: 100 Following the general discussion of Section 2, the existence of the optimum in the amplitude of the modulation can be ascribed to the weights W fij (Δ ω ). The loss of scattering signal and contrast at very short pulse durations is a direct consequence of the limited range of detection Δ ω . As shown in Fig. S3 of the ESI, † not only the modulation but also the inelastic part of the static average displays an optimum. This is expected from the investigation in Section 2. Furthermore, the position of the optimum depends on the value of Δ ω . Fig. 6B reveals that the optimum of the amplitude is shifted towards shorter pulse durations when Δ ω is increased and more photons can be detected.
+ ###### 
+From cou.: 101 After evaluation of the remaining elements, D3 + D4, the full scattering signal of the wave packet is obtained. In Fig. 4, scattering patterns computed for five different pump–probe delays τ are shown: at zero, one-fourth, one-half, three-fourth, and one times the period of the oscillation T. They match the patterns published by Dixit et al.18 With , the exponential in eqn (43) constrains the magnitude by which the element O3,4 can contribute to at most 91%. Since the time-dependent term in eqn (43) involves a sine function, scattering patterns at zero, one-half, and one times T are described exclusively by the time-independent average D3 + D4. They display a centrosymmetric D2 rosette group symmetry that contains a two-fold rotation and reflections through both the qx- and the qz-axis. The patterns can correspond to the static average one would measure without any time-resolution. The higher D2 symmetry of the patterns is broken to D1, as soon as the contributions of O3,4 are non-zero. In between zero and one-fourth times T, the scattering signal is shifted into the upper semi circle of the pattern to azimuthal angles of ϕq < 180°. At one-fourth of T, most of the intensity is observed at qz > 0. After this, the signal moves downwards in direction of the lower semi circle of the pattern to azimuthal angles of ϕq > 180°, until the intensity at qz < 0 reaches its maximum at three-fourth of T. Finally, the signal is shifted upwards again, closing the cycle at T.
+From Soup: 101 The time-resolved X-ray scattering signal of non-stationary electronic wave packets in atomic systems is described in detail and different contributions are identified as the elements D i and O ij . They refer to the static and non-stationary scattering contributions, respectively. Whereas the former corresponds to absolute squares of Fourier transformed expectation values of the one-electron density operator, the latter represents spatial correlations of the X-ray photon and different states of the material system. The time-dependent part of the scattering signal solely comprises these correlations. For a probe pulse with a Gaussian intensity time profile, it is shown that neither the pump–probe delay nor the properties of the pulse enter the matrix elements directly. They are arguments of a function that multiplicatively weights the contribution of O ij . This enables cost-efficient simulations for different points in time under various experimental conditions.
+ ###### 
+From cou.: 102 Hence, the scattering patterns in Fig. 4 show temporal variations that have already been deduced from Fig. 3 alone. This illustrates that the elements Oij are of prime importance for the simulation and understanding of the time-resolved differential X-ray scattering signal of non-stationary electronic wave packets.
+From Soup: 102 Moreover, it is demonstrated how to express the X-ray scattering signal of non-stationary electronic wave packets in the hydrogen atom analytically. By rotation of the wave packet in the parabolic eigenstate basis, the scattering matrix elements can be evaluated exactly without numerical integration. This approach is, in principle, also applicable to atomic systems with single non-stationary Rydberg electrons that are decoupled from the remaining stationary core electrons, as a numerical investigation of scattering by the helium atom 27 suggests. Distinctive features of time-resolved X-ray scattering by non-stationary electronic wave packets are illustrated by reference to the wave packet that has been introduced by Dixit et al. 18 It is shown that the elements O ij are characteristic of time-resolved scattering and determine the symmetry the patterns display. Finally, it has been demonstrated that the loss of contrast of the time-dependent scattering signal at very short probe pulse durations is merely a consequence of the energy resolution of the detector.
+ ###### 
+From cou.: 103 Finally, the effect of the pulse duration dp and the range of detected frequencies Δω upon the scattering signal will be illustrated. Fig. 5A shows the total scattering signal at different pump–probe delays τ for one point in q-space and three probe pulse durations dp. The intensity of the signal decreases with dp. As discussed in Section 2, less photons are detected at shorter pulse durations. In Fig. 5B, only the modulation, i.e. the total signal from Fig. 5A minus its time-independent average, is shown. The modulation has a larger amplitude for a pulse duration of 1.0 fs than for 0.1 fs and 4.0 fs. Hence, the amplitude of the modulation has to display an optimum at a pulse duration in the vicinity of 1.0 fs, as also observed previously.18
+From Soup: 103 A further extension of the analysis presented here could involve a detailed investigation of time-resolved X-ray scattering by diatomic molecules in non-stationary nuclear and electronic states. This may eventually support prospective X-ray scattering experiments that address the electronic time-scale in chemistry. 40–42
+ ###### 
+From cou.: 104 This becomes even more apparent in Fig. 6A: the time-independent average D3 + D4 approaches zero as dp → 0 and a finite limit as dp → ∞. The amplitude of the time-dependent modulation 2exp(−(ωijσ)2/2)Im[O3,4] becomes zero in both cases and has an optimum in between at dp ≈ 1.63 fs. The amplitude of the relative modulation, defined as the ratio of the absolute amplitude and the average, is displayed in Fig. 6A as well. It approaches a finite value as dp → 0 and zero as dp → ∞. Moreover, it displays an optimum at dp ≈ 1.31 fs. The ratio of detected photons that carry time-dependent information to those that do not is the largest here. This confirms the previously observed, somewhat counterintuitive behaviour that time-dependent scattering signal loses contrast (amplitude of the modulation) at very short probe pulse durations.18 It can be seen, however, that the scattering signal does not become completely time-independent as dp → 0. Even though the amplitude of the absolute modulation vanishes and the signal may eventually become too weak to be detected, the proportion by which the modulation contributes to the total signal approaches a constant.
+From Soup: 104 Mats Simmermacher thanks Dietrich Krebs for prolific discussions that, among other things, have led to the usage of the parabolic eigenstate basis.
+ ###### 
+From cou.: 105 Following the general discussion of Section 2, the existence of the optimum in the amplitude of the modulation can be ascribed to the weights Wfij(Δω). The loss of scattering signal and contrast at very short pulse durations is a direct consequence of the limited range of detection Δω. As shown in Fig. S3 of the ESI,† not only the modulation but also the inelastic part of the static average displays an optimum. This is expected from the investigation in Section 2. Furthermore, the position of the optimum depends on the value of Δω. Fig. 6B reveals that the optimum of the amplitude is shifted towards shorter pulse durations when Δω is increased and more photons can be detected.
+From Soup: 105 P. Emma, et al. , Nat. Photonics , 2010, 4 , 641–647 CrossRef CAS .
+ ###### 
+From cou.: 106 The time-resolved X-ray scattering signal of non-stationary electronic wave packets in atomic systems is described in detail and different contributions are identified as the elements Di and Oij. They refer to the static and non-stationary scattering contributions, respectively. Whereas the former corresponds to absolute squares of Fourier transformed expectation values of the one-electron density operator, the latter represents spatial correlations of the X-ray photon and different states of the material system. The time-dependent part of the scattering signal solely comprises these correlations. For a probe pulse with a Gaussian intensity time profile, it is shown that neither the pump–probe delay nor the properties of the pulse enter the matrix elements directly. They are arguments of a function that multiplicatively weights the contribution of Oij. This enables cost-efficient simulations for different points in time under various experimental conditions.
+From Soup: 106 T. Ishikawa, et al. , Nat. Photonics , 2012, 6 , 540–544 CrossRef CAS .
+ ###### 
+From cou.: 107 Moreover, it is demonstrated how to express the X-ray scattering signal of non-stationary electronic wave packets in the hydrogen atom analytically. By rotation of the wave packet in the parabolic eigenstate basis, the scattering matrix elements can be evaluated exactly without numerical integration. This approach is, in principle, also applicable to atomic systems with single non-stationary Rydberg electrons that are decoupled from the remaining stationary core electrons, as a numerical investigation of scattering by the helium atom27 suggests. Distinctive features of time-resolved X-ray scattering by non-stationary electronic wave packets are illustrated by reference to the wave packet that has been introduced by Dixit et al.18 It is shown that the elements Oij are characteristic of time-resolved scattering and determine the symmetry the patterns display. Finally, it has been demonstrated that the loss of contrast of the time-dependent scattering signal at very short probe pulse durations is merely a consequence of the energy resolution of the detector.
+From Soup: 107 European XFEL, http://www.xfel.eu, accessed on: May 18, 2017.
+ ###### 
+From cou.: 108 A further extension of the analysis presented here could involve a detailed investigation of time-resolved X-ray scattering by diatomic molecules in non-stationary nuclear and electronic states. This may eventually support prospective X-ray scattering experiments that address the electronic time-scale in chemistry.40–42
+From Soup: 108 SwissFEL, http://www.psi.ch/swissfel, accessed on: May 18, 2017.
+ ###### 
+From cou.: 109 Mats Simmermacher thanks Dietrich Krebs for prolific discussions that, among other things, have led to the usage of the parabolic eigenstate basis.
+From Soup: 109 D. Arnlund, et al. , Nat. Methods , 2014, 11 , 923–926 CrossRef CAS PubMed .
+ ###### 
+From cou.: 110 P. Emma, et al. , Nat. Photonics, 2010, 4, 641–647 CrossRef CAS .
+From Soup: 110 K. H. Kim, et al. , Nature , 2015, 518 , 385–389 CrossRef CAS PubMed .
+ ###### 
+From cou.: 111 T. Ishikawa, et al. , Nat. Photonics, 2012, 6, 540–544 CrossRef CAS .
+From Soup: 111 M. Levantino, G. Schirò, H. T. Lemke, C. Grazia, J. M. Glownia, Z. Diling, M. Chollet, H. Ihee, A. Cupane and M. Cammarata, Nat. Commun. , 2015, 6 , 6772 CrossRef CAS PubMed .
+ ###### 
+From cou.: 112 European XFEL, http://www.xfel.eu, accessed on: May 18, 2017.
+From Soup: 112 J. G. Kim, T. W. Kim, J. Kim and H. Ihee, Acc. Chem. Res. , 2015, 48 , 2200–2208 CrossRef CAS PubMed .
+ ###### 
+From cou.: 113 SwissFEL, http://www.psi.ch/swissfel, accessed on: May 18, 2017.
+From Soup: 113 M. Minitti, et al. , Phys. Rev. Lett. , 2015, 114 , 255501 CrossRef CAS PubMed .
+ ###### 
+From cou.: 114 D. Arnlund, et al. , Nat. Methods, 2014, 11, 923–926 CrossRef CAS PubMed .
+From Soup: 114 J. M. Budarz, M. P. Minitti, D. V. Cofer-Shabica, B. Stankus, A. Kirrander, J. B. Hastings and P. M. Weber, J. Phys. B: At., Mol. Opt. Phys. , 2016, 49 , 034001 CrossRef .
+ ###### 
+From cou.: 115 K. H. Kim, et al. , Nature, 2015, 518, 385–389 CrossRef CAS PubMed .
+From Soup: 115 K. Haldrup, et al. , J. Phys. Chem. B , 2016, 120 , 1158–1168 CrossRef CAS PubMed .
+ ###### 
+From cou.: 116 M. Levantino, G. Schirò, H. T. Lemke, C. Grazia, J. M. Glownia, Z. Diling, M. Chollet, H. Ihee, A. Cupane and M. Cammarata, Nat. Commun., 2015, 6, 6772 CrossRef CAS PubMed .
+From Soup: 116 E. Biasin, et al. , Phys. Rev. Lett. , 2016, 117 , 013002 CrossRef PubMed .
+ ###### 
+From cou.: 117 J. G. Kim, T. W. Kim, J. Kim and H. Ihee, Acc. Chem. Res., 2015, 48, 2200–2208 CrossRef CAS PubMed .
+From Soup: 117 A. A. Zholents and W. M. Fawley, Phys. Rev. Lett. , 2004, 92 , 224801 CrossRef PubMed .
+ ###### 
+From cou.: 118 M. Minitti, et al. , Phys. Rev. Lett., 2015, 114, 255501 CrossRef CAS PubMed .
+From Soup: 118 E. L. Saldin, E. A. Schneidmiller and M. V. Yurkov, Phys. Rev. Accel. Beams , 2006, 9 , 050702 CrossRef .
+ ###### 
+From cou.: 119 J. M. Budarz, M. P. Minitti, D. V. Cofer-Shabica, B. Stankus, A. Kirrander, J. B. Hastings and P. M. Weber, J. Phys. B: At., Mol. Opt. Phys., 2016, 49, 034001 CrossRef .
+From Soup: 119 T. Tanaka, Phys. Rev. Lett. , 2013, 110 , 084801 CrossRef PubMed .
+ ###### 
+From cou.: 120 K. Haldrup, et al. , J. Phys. Chem. B, 2016, 120, 1158–1168 CrossRef CAS PubMed .
+From Soup: 120 D. J. Dunning, B. W. J. McNeil and N. R. Thompson, Phys. Rev. Lett. , 2013, 110 , 104801 CrossRef CAS PubMed .
+ ###### 
+From cou.: 121 E. Biasin, et al. , Phys. Rev. Lett., 2016, 117, 013002 CrossRef PubMed .
+From Soup: 121 E. Prat and S. Reiche, Phys. Rev. Lett. , 2015, 114 , 244801 CrossRef PubMed .
+ ###### 
+From cou.: 122 A. A. Zholents and W. M. Fawley, Phys. Rev. Lett., 2004, 92, 224801 CrossRef PubMed .
+From Soup: 122 G. Dixit, O. Vendrell and R. Santra, Proc. Natl. Acad. Sci. U. S. A. , 2012, 109 , 11636–11640 CrossRef CAS PubMed .
+ ###### 
+From cou.: 123 E. L. Saldin, E. A. Schneidmiller and M. V. Yurkov, Phys. Rev. Accel. Beams, 2006, 9, 050702 CrossRef .
+From Soup: 123 P. A. M. Dirac, Proc. R. Soc. London, Ser. A , 1927, 114 , 243–265 CrossRef CAS .
+ ###### 
+From cou.: 124 T. Tanaka, Phys. Rev. Lett., 2013, 110, 084801 CrossRef PubMed .
+From Soup: 124 M. Ben-Nun, T. J. Martínez, P. M. Weber and K. R. Wilson, Chem. Phys. Lett. , 1996, 262 , 405–414 CrossRef CAS .
+ ###### 
+From cou.: 125 D. J. Dunning, B. W. J. McNeil and N. R. Thompson, Phys. Rev. Lett., 2013, 110, 104801 CrossRef CAS PubMed .
+From Soup: 125 M. Ben-Nun, J. Cao and K. R. Wilson, J. Phys. Chem. A , 1997, 101 , 8743–8761 CrossRef CAS .
+ ###### 
+From cou.: 126 E. Prat and S. Reiche, Phys. Rev. Lett., 2015, 114, 244801 CrossRef PubMed .
+From Soup: 126 J. Cao and K. R. Wilson, J. Phys. Chem. A , 1998, 102 , 9523–9530 CrossRef CAS .
+ ###### 
+From cou.: 127 G. Dixit, O. Vendrell and R. Santra, Proc. Natl. Acad. Sci. U. S. A., 2012, 109, 11636–11640 CrossRef CAS PubMed .
+From Soup: 127 S. Bratos, F. Mirloup, R. Vuilleumier and M. Wulff, J. Chem. Phys. , 2002, 116 , 10615–10625 CrossRef CAS .
+ ###### 
+From cou.: 128 P. A. M. Dirac, Proc. R. Soc. London, Ser. A, 1927, 114, 243–265 CrossRef CAS .
+From Soup: 128 N. E. Henriksen and K. B. Møller, J. Phys. Chem. B , 2008, 112 , 558–567 CrossRef CAS PubMed .
+ ###### 
+From cou.: 129 M. Ben-Nun, T. J. Martínez, P. M. Weber and K. R. Wilson, Chem. Phys. Lett., 1996, 262, 405–414 CrossRef CAS .
+From Soup: 129 U. Lorenz, K. B. Møller and N. E. Henriksen, Phys. Rev. A: At., Mol., Opt. Phys. , 2010, 81 , 023422 CrossRef .
+ ###### 
+From cou.: 130 M. Ben-Nun, J. Cao and K. R. Wilson, J. Phys. Chem. A, 1997, 101, 8743–8761 CrossRef CAS .
+From Soup: 130 K. B. Møller and N. E. Henriksen, Struct. Bonding , 2012, 142 , 185–212 CrossRef .
+ ###### 
+From cou.: 131 J. Cao and K. R. Wilson, J. Phys. Chem. A, 1998, 102, 9523–9530 CrossRef CAS .
+From Soup: 131 G. Dixit and R. Santra, J. Chem. Phys. , 2013, 138 , 134311 CrossRef PubMed .
+ ###### 
+From cou.: 132 S. Bratos, F. Mirloup, R. Vuilleumier and M. Wulff, J. Chem. Phys., 2002, 116, 10615–10625 CrossRef CAS .
+From Soup: 132 G. Dixit, J. M. Slowik and R. Santra, Phys. Rev. A: At., Mol., Opt. Phys. , 2014, 89 , 043409 CrossRef .
+ ###### 
+From cou.: 133 N. E. Henriksen and K. B. Møller, J. Phys. Chem. B, 2008, 112, 558–567 CrossRef CAS PubMed .
+From Soup: 133 H. Suominen and A. Kirrander, Phys. Rev. Lett. , 2014, 112 , 043002 CrossRef PubMed .
+ ###### 
+From cou.: 134 U. Lorenz, K. B. Møller and N. E. Henriksen, Phys. Rev. A: At., Mol., Opt. Phys., 2010, 81, 023422 CrossRef .
+From Soup: 134 A. Kirrander, K. Saita and D. V. Shalashilin, J. Chem. Theory Comput. , 2016, 12 , 957–967 CrossRef CAS PubMed .
+ ###### 
+From cou.: 135 K. B. Møller and N. E. Henriksen, Struct. Bonding, 2012, 142, 185–212 CrossRef .
+From Soup: 135 I. Waller and D. R. Hartree, Proc. R. Soc. London, Ser. A , 1929, 124 , 119–142 CrossRef CAS .
+ ###### 
+From cou.: 136 G. Dixit and R. Santra, J. Chem. Phys., 2013, 138, 134311 CrossRef PubMed .
+From Soup: 136 G. Friedel, C. R. Hebd. Seances Acad. Sci. , 1913, 157 , 1533–1536 Search PubMed .
+ ###### 
+From cou.: 137 G. Dixit, J. M. Slowik and R. Santra, Phys. Rev. A: At., Mol., Opt. Phys., 2014, 89, 043409 CrossRef .
+From Soup: 137 D. A. Varshalovich, A. N. Moskalev and V. K. Khersonskii, Quantum Theory of Angular Momentum , World Scientific, 1988, p. 148 Search PubMed .
+ ###### 
+From cou.: 138 H. Suominen and A. Kirrander, Phys. Rev. Lett., 2014, 112, 043002 CrossRef PubMed .
+From Soup: 138 F. Schnaidt, Ann. Phys. , 1934, 413 , 89–112 CrossRef .
+ ###### 
+From cou.: 139 A. Kirrander, K. Saita and D. V. Shalashilin, J. Chem. Theory Comput., 2016, 12, 957–967 CrossRef CAS PubMed .
+From Soup: 139 H. A. Bethe and E. E. Salpeter, Quantum Mechanics of One- and Two-Electron Atoms , Springer, 1957, p. 29 Search PubMed .
+ ###### 
+From cou.: 140 I. Waller and D. R. Hartree, Proc. R. Soc. London, Ser. A, 1929, 124, 119–142 CrossRef CAS .
+From Soup: 140 M. Abramowitz and I. A. Stegun, Handbook of Mathematical Functions , Dover Publications, 1964, p. 778 Search PubMed .
+ ###### 
+From cou.: 141 G. Friedel, C. R. Hebd. Seances Acad. Sci., 1913, 157, 1533–1536 Search PubMed .
+From Soup: 141 A. Erdélyi, W. Magnus, F. Oberhettinger and F. G. Tricomi, Tables of Integral Transforms , McGraw-Hill, 1954, vol. I,p. 175 Search PubMed .
+ ###### 
+From cou.: 142 D. A. Varshalovich, A. N. Moskalev and V. K. Khersonskii, Quantum Theory of Angular Momentum, World Scientific, 1988, p. 148 Search PubMed .
+From Soup: 142 W. Magnus and F. Oberhettinger, Formeln und Sätze für die Speziellen Funktionen der Mathematischen Physik , Springer, 1948, p. 11 Search PubMed .
+ ###### 
+From cou.: 143 F. Schnaidt, Ann. Phys., 1934, 413, 89–112 CrossRef .
+From Soup: 143 G. B. Arfken and H. J. Weber, Mathematical Methods for Physicists , Academic Press, 2005, p. 203 Search PubMed .
+ ###### 
+From cou.: 144 H. A. Bethe and E. E. Salpeter, Quantum Mechanics of One- and Two-Electron Atoms, Springer, 1957, p. 29 Search PubMed .
+From Soup: 144 M. Grønager and N. E. Henriksen, Chem. Phys. Lett. , 1997, 278 , 166–174 CrossRef .
+ ###### 
+From cou.: 145 M. Abramowitz and I. A. Stegun, Handbook of Mathematical Functions, Dover Publications, 1964, p. 778 Search PubMed .
+From Soup: 145 L. S. Cederbaum and J. Zobeley, Chem. Phys. Lett. , 1999, 307 , 205–210 CrossRef CAS .
+ ###### 
+From cou.: 146 A. Erdélyi, W. Magnus, F. Oberhettinger and F. G. Tricomi, Tables of Integral Transforms, McGraw-Hill, 1954, vol. I,p. 175 Search PubMed .
+From Soup: 146 F. Remacle and R. D. Levine, Proc. Natl. Acad. Sci. U. S. A. , 2006, 103 , 6793–6798 CrossRef CAS PubMed .
+ ###### 
+From cou.: 147 W. Magnus and F. Oberhettinger, Formeln und Sätze für die Speziellen Funktionen der Mathematischen Physik, Springer, 1948, p. 11 Search PubMed .
+From Soup: 147 where where the Kronecker delta in led to a reduction of the two sums over and to a single one over . Its lower and upper limits are zero and min( , ). The sums over and run from zero to − − 1 and − − 1, respectively. The expansion coefficients ( , ) can be derived from the coefficients in . No complex conjugate vector |( )*〉 enters the matrix elements explicitly, since for parabolic eigenstates:
+ ###### 
+From cou.: 148 G. B. Arfken and H. J. Weber, Mathematical Methods for Physicists, Academic Press, 2005, p. 203 Search PubMed .
+From cou.: 149 M. Grønager and N. E. Henriksen, Chem. Phys. Lett., 1997, 278, 166–174 CrossRef .
+From cou.: 150 L. S. Cederbaum and J. Zobeley, Chem. Phys. Lett., 1999, 307, 205–210 CrossRef CAS .
+From cou.: 151 F. Remacle and R. D. Levine, Proc. Natl. Acad. Sci. U. S. A., 2006, 103, 6793–6798 CrossRef CAS PubMed .

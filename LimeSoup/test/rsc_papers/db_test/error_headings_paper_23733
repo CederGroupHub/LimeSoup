@@ -1,0 +1,55 @@
+from test: 0 A PARAFAC algorithm using penalty diagonalization error (PDE) for three-way data array resolution
+from soup: 0 A PARAFAC algorithm using penalty diagonalization error (PDE) for three-way data array resolution
+ ###### 
+from test: 1 Abstract
+from soup: 1 Abstract
+ ###### 
+from test: 2 Introduction
+from soup: 2 Introduction
+ ###### 
+from test: 3 Model and algorithm
+from soup: 3 Model and algorithm
+ ###### 
+from test: 4 Nomenclature
+from soup: 4 Nomenclature
+ ###### 
+from test: 5 The model
+from soup: 5 The model
+ ###### 
+from test: 6 The algorithm
+from soup: 6 The algorithm
+ ###### 
+from test: 7 Experimental
+from soup: 7 Experimental
+ ###### 
+from test: 8 Simulated HPLC-DAD data
+from soup: 8 Simulated HPLC-DAD data
+ ###### 
+from test: 9 Real excitation–emission fluorescence data
+from soup: 9 Real excitation–emission fluorescence data
+ ###### 
+from test: 10 Results and discussion
+from soup: 10 Results and discussion
+ ###### 
+from test: 11 Choice of the value of λ
+from soup: 11 Choice of the value of λ
+ ###### 
+from test: 12 The implementation of the PDE
+from soup: 12 The implementation of the PDE
+ ###### 
+from test: 13 Simulated HPLC-DAD data
+from soup: 13 Simulated HPLC-DAD data
+ ###### 
+from test: 14 Real excitation–emission fluorescence data of naphthalene and 1- and 2-naphthol
+from soup: 14 Real excitation–emission fluorescence data of naphthalene and 1- and 2-naphthol
+ ###### 
+from test: 15 Further improvement of the speed of the PDE algorithm
+from soup: 15 Conclusions
+ ###### 
+from test: 16 Conclusions
+from soup: 16 Acknowledgement
+ ###### 
+from test: 17 Acknowledgement
+from soup: 17 References
+ ###### 
+from test: 18 References

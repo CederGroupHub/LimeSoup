@@ -1,0 +1,492 @@
+From cou.: 0 Journal
+From Soup: 0 Phys. Chem. Chem. Phys.
+ ###### 
+From cou.: 1 The identification of quantum system Hamiltonians through the use of experimental data remains an important research goal. Seeking a Hamiltonian that is consistent with experimental measurements constitutes an excursion over a Hamiltonian inversion landscape, which is the quality of reproducing the data as a function of the Hamiltonian parameters. Recent theoretical work showed that with sufficient experimental data there should be local convexity about the true Hamiltonian on the landscape. The present paper builds on this result and performs simulations to test whether such convexity is observed. A gradient-based Hamiltonian search algorithm is incorporated into an inversion routine as a means to explore the local inversion landscape. The simulations consider idealized noise-free as well as noise-ridden experimental data. The results suggest that a sizable convex domain exists about the true Hamiltonian, even with a modest amount of experimental data and in the presence of a reasonable level of noise.
+From Soup: 1 The identification of quantum system Hamiltonians through the use of experimental data remains an important research goal. Seeking a Hamiltonian that is consistent with experimental measurements constitutes an excursion over a Hamiltonian inversion landscape, which is the quality of reproducing the data as a function of the Hamiltonian parameters. Recent theoretical work showed that with sufficient experimental data there should be local convexity about the true Hamiltonian on the landscape. The present paper builds on this result and performs simulations to test whether such convexity is observed. A gradient-based Hamiltonian search algorithm is incorporated into an inversion routine as a means to explore the local inversion landscape. The simulations consider idealized noise-free as well as noise-ridden experimental data. The results suggest that a sizable convex domain exists about the true Hamiltonian, even with a modest amount of experimental data and in the presence of a reasonable level of noise.
+ ###### 
+From cou.: 2 Understanding and predicting the dynamics of a quantum system requires quantitative knowledge of the associated Hamiltonian. A large number of Hamiltonian inversion procedures have been developed utilizing experimental data, including the Rydberg–Klein–Rees method,1–5 functional sensitivity analysis,6,7 tomography procedures,8–11 Bayesian analysis,12 compressed sensing,13 and the use of measurement time traces.14 An optimal Hamiltonian identification procedure was also proposed based on quantum control experiments performed in a closed-loop fashion.15,16 In the latter approach, electromagnetic fields were tailored to shrink the distribution of Hamiltonians capable of reproducing the data within its error bounds. The searches for the optimal fields as well as the family of acceptable Hamiltonians were performed using genetic algorithms.17,18 Research is still needed to understand the fundamental aspects of quantum mechanical data inversion and the nature of efficient algorithms that can guide the experiments and perform the inversion in real time as the data is being generated.
+From Soup: 2 Understanding and predicting the dynamics of a quantum system requires quantitative knowledge of the associated Hamiltonian. A large number of Hamiltonian inversion procedures have been developed utilizing experimental data, including the Rydberg–Klein–Rees method, 1–5 functional sensitivity analysis, 6,7 tomography procedures, 8–11 Bayesian analysis, 12 compressed sensing, 13 and the use of measurement time traces. 14 An optimal Hamiltonian identification procedure was also proposed based on quantum control experiments performed in a closed-loop fashion. 15,16 In the latter approach, electromagnetic fields were tailored to shrink the distribution of Hamiltonians capable of reproducing the data within its error bounds. The searches for the optimal fields as well as the family of acceptable Hamiltonians were performed using genetic algorithms. 17,18 Research is still needed to understand the fundamental aspects of quantum mechanical data inversion and the nature of efficient algorithms that can guide the experiments and perform the inversion in real time as the data is being generated.
+ ###### 
+From cou.: 3 The search for Hamiltonians that successfully reproduce experimental data can be viewed as an excursion along an associated inversion landscape, which maps the Hamiltonian parameters to a data-dependent inversion cost function. As background, landscapes have been extensively studied in the context of quantum control by considering the observable as a function of the control variables. The topology of these quantum control landscapes is of prime interest, and under certain assumptions, these landscapes have been found to be devoid of suboptimal extrema, or traps, thereby permitting unfettered discovery of optimal controls.19,20 Thus, quantum control landscapes are convex with an associated (level) set of optimal solutions,21 which is ideal for the purpose of finding at least one optimal control. Such favorable landscape topology has been numerically confirmed through the use of gradient-based search algorithms21–24 and in the laboratory.25,26
+From Soup: 3 The search for Hamiltonians that successfully reproduce experimental data can be viewed as an excursion along an associated inversion landscape, which maps the Hamiltonian parameters to a data-dependent inversion cost function. As background, landscapes have been extensively studied in the context of quantum control by considering the observable as a function of the control variables. The topology of these quantum control landscapes is of prime interest, and under certain assumptions, these landscapes have been found to be devoid of suboptimal extrema, or traps, thereby permitting unfettered discovery of optimal controls. 19,20 Thus, quantum control landscapes are convex with an associated (level) set of optimal solutions, 21 which is ideal for the purpose of finding at least one optimal control. Such favorable landscape topology has been numerically confirmed through the use of gradient-based search algorithms 21–24 and in the laboratory. 25,26
+ ###### 
+From cou.: 4 For the goal of data inversion, the highly nonlinear relationship between the Hamiltonian features and system observables makes it difficult to predict whether multiple Hamiltonians may exist that reproduce the experimental data within an acceptable tolerance level. However, theoretical work has shown that in the absence of noise and with access to a sufficient amount of experimental data, there should be local inversion landscape convexity about the true Hamiltonian.27,28 Importantly, when this circumstance occurs then the convexity is accompanied by a unique Hamiltonian, unlike the optimal control situation mentioned above where multiple solutions generally exist. For data inversion, this result implies that when starting with a trial Hamiltonian that lies within a suitable neighborhood of the true Hamiltonian, then it should be possible to use a local search algorithm to identify the true Hamiltonian. With this theoretical finding in mind, the present paper employs simulations to investigate the inversion landscape. Specifically, we seek to explore the boundary of the aforementioned local convexity through the use of a myopic Hamiltonian search algorithm that utilizes only a modest amount of quantum control experimental data.
+From Soup: 4 For the goal of data inversion, the highly nonlinear relationship between the Hamiltonian features and system observables makes it difficult to predict whether multiple Hamiltonians may exist that reproduce the experimental data within an acceptable tolerance level. However, theoretical work has shown that in the absence of noise and with access to a sufficient amount of experimental data, there should be local inversion landscape convexity about the true Hamiltonian. 27,28 Importantly, when this circumstance occurs then the convexity is accompanied by a unique Hamiltonian, unlike the optimal control situation mentioned above where multiple solutions generally exist. For data inversion, this result implies that when starting with a trial Hamiltonian that lies within a suitable neighborhood of the true Hamiltonian, then it should be possible to use a local search algorithm to identify the true Hamiltonian. With this theoretical finding in mind, the present paper employs simulations to investigate the inversion landscape. Specifically, we seek to explore the boundary of the aforementioned local convexity through the use of a myopic Hamiltonian search algorithm that utilizes only a modest amount of quantum control experimental data.
+ ###### 
+From cou.: 5 Fig. 1 provides a schematic overview of the Hamiltonian identification procedure utilized in this work. In the experimental component (A), a set of K control fields εk(t), k = 1,…,K are generated. Field noise, denoted ηεk, may enter each experiment; here εk(t) + ηεk is meant to accommodate any form of noise (e.g., additive or multiplicative). The fields εk(t), k = 1,…,K separately interact with the system through the Hamiltonian H and produce a corresponding set of observables, denoted Ok(T), for measurement at terminal time T. Uncertainly in the kth measurement is accounted for by the noise ηOk. In the inversion component (B), a trial Hamiltonian is chosen. The input fields from (A) are used to compute Õk(T) based on , corresponding to the same type of measurement from (A). The inversion cost function J is defined,
+From Soup: 5 Fig. 1 provides a schematic overview of the Hamiltonian identification procedure utilized in this work. In the experimental component (A), a set of K control fields ε k ( t ), k = 1,…, K are generated. Field noise, denoted η ε k , may enter each experiment; here ε k ( t ) + η ε k is meant to accommodate any form of noise ( e.g. , additive or multiplicative). The fields ε k ( t ), k = 1,…, K separately interact with the system through the Hamiltonian H and produce a corresponding set of observables, denoted O k ( T ), for measurement at terminal time T . Uncertainly in the k th measurement is accounted for by the noise η O k . In the inversion component (B), a trial Hamiltonian is chosen. The input fields from (A) are used to compute Õ k ( T ) based on , corresponding to the same type of measurement from (A). The inversion cost function J is defined,
+ ###### 
+From cou.: 6 29
+From Soup: 6 29
+ ###### 
+From cou.: 7 The paper is organized as follows. Section 2 lays out the physical model and develops the search algorithm used to identify elements of a system's Hamiltonian. Section 3 presents numerical simulations that illustrate the procedure described by Fig. 1. There are many issues to consider in reaching a fully implementable inversion algorithm. The key issue explored here is an assessment of a practical level of convexity with a modest amount of data. Idealized noise-free as well as noise-ridden experimental data sets are considered. These simulations aim to test whether minimization of the inversion cost function J leads to either level sets of multiple Hamiltonian solutions or convexity about the true Hamiltonian within a local neighborhood. Section 4 provides concluding remarks and discusses future directions for study.
+From Soup: 7 The paper is organized as follows. Section 2 lays out the physical model and develops the search algorithm used to identify elements of a system's Hamiltonian. Section 3 presents numerical simulations that illustrate the procedure described by Fig. 1 . There are many issues to consider in reaching a fully implementable inversion algorithm. The key issue explored here is an assessment of a practical level of convexity with a modest amount of data. Idealized noise-free as well as noise-ridden experimental data sets are considered. These simulations aim to test whether minimization of the inversion cost function J leads to either level sets of multiple Hamiltonian solutions or convexity about the true Hamiltonian within a local neighborhood. Section 4 provides concluding remarks and discusses future directions for study.
+ ###### 
+From cou.: 8 The Hamiltonians H(t) considered in this work are of finite dimension N and assume the dipole approximation,
+From Soup: 8 The Hamiltonians H ( t ) considered in this work are of finite dimension N and assume the dipole approximation,
+ ###### 
+From cou.: 9 In eqn (2), H0 is a diagonal field-free Hamiltonian matrix, μ is the transition dipole matrix, and ε(t) is the time-dependent applied field. The matrix structure of the Hamiltonian could arise from various discretization procedures; here the perspective considers N eigenstates of H0 as forming a basis. The observable used for the simulated experiments performed in Fig. 1A is the state-to-state transition probability Pi→f,
+From Soup: 9 In eqn (2) , H 0 is a diagonal field-free Hamiltonian matrix, μ is the transition dipole matrix, and ε ( t ) is the time-dependent applied field. The matrix structure of the Hamiltonian could arise from various discretization procedures; here the perspective considers N eigenstates of H 0 as forming a basis. The observable used for the simulated experiments performed in Fig. 1A is the state-to-state transition probability P i → f ,
+ ###### 
+From cou.: 10 t
+From Soup: 10 t
+ ###### 
+From cou.: 11 T
+From Soup: 11 T
+ ###### 
+From cou.: 12 U
+From Soup: 12 U
+ ###### 
+From cou.: 13 t
+From Soup: 13 t
+ ###### 
+From cou.: 14 t
+From Soup: 14 t
+ ###### 
+From cou.: 15 T
+From Soup: 15 T
+ ###### 
+From cou.: 16 ε
+From Soup: 16 Fig. 1A
+ ###### 
+From cou.: 17 t
+From Soup: 17 ε
+ ###### 
+From cou.: 18 P
+From Soup: 18 t
+ ###### 
+From cou.: 19 i
+From Soup: 19 P
+ ###### 
+From cou.: 20 f
+From Soup: 20 i → f
+ ###### 
+From cou.: 21 U
+From Soup: 21 U
+ ###### 
+From cou.: 22 T
+From Soup: 22 T
+ ###### 
+From cou.: 23 P
+From Soup: 23 P
+ ###### 
+From cou.: 24 i
+From Soup: 24 i → f
+ ###### 
+From cou.: 25 f
+From Soup: 25 H
+ ###### 
+From cou.: 26 H
+From Soup: 26 0
+ ###### 
+From cou.: 27 μ
+From Soup: 27 μ
+ ###### 
+From cou.: 28 P
+From Soup: 28 P
+ ###### 
+From cou.: 29 i
+From Soup: 29 i → f
+ ###### 
+From cou.: 30 f
+From Soup: 30 Background for the inversion algorithm is provided by a previous study considering optimization of P i → f with the D-MORPH algorithm 22 using Hamiltonian structural controls, expressed in terms of the elements of H 0 and μ . In the latter work, an arbitrary fixed field ε ( t ) was introduced and the associated Hamiltonian structure landscape was found to be free of suboptimal traps under particular assumptions. Many Hamiltonian structures could maximize the state-to-state transition probability. In the context of the present paper, this previous work can be viewed as an inversion with just one observation, K = 1; the landscape is convex, but with a multitude of Hamiltonians producing the same single ‘data point’ P i → f ≈ 1.0. This paper explores whether even a modest increase of K and an associated set of controls ε k ( t ) and observations P k i → f can produce a unique Hamiltonian. In an inversion procedure, both H 0 and μ may be sought for identification. The present study assumes prior sufficiently accurate knowledge of H 0 ( e.g. , from an appropriate form of spectroscopy) and searches for the transition dipole matrix μ . The transition dipole matrices are assumed to be real symmetric with diagonal elements set to zero. For clarity of presentation, the D-MORPH algorithm written below addresses dipole matrix elements. Parallel equations that address H 0 elements can be readily derived, 22 and a D-MORPH search may be performed to concurrently identify H 0 and μ .
+ ###### 
+From cou.: 31 Background for the inversion algorithm is provided by a previous study considering optimization of Pi→f with the D-MORPH algorithm22 using Hamiltonian structural controls, expressed in terms of the elements of H0 and μ. In the latter work, an arbitrary fixed field ε(t) was introduced and the associated Hamiltonian structure landscape was found to be free of suboptimal traps under particular assumptions. Many Hamiltonian structures could maximize the state-to-state transition probability. In the context of the present paper, this previous work can be viewed as an inversion with just one observation, K = 1; the landscape is convex, but with a multitude of Hamiltonians producing the same single ‘data point’ Pi→f ≈ 1.0. This paper explores whether even a modest increase of K and an associated set of controls εk(t) and observations Pki→f can produce a unique Hamiltonian. In an inversion procedure, both H0 and μ may be sought for identification. The present study assumes prior sufficiently accurate knowledge of H0 (e.g., from an appropriate form of spectroscopy) and searches for the transition dipole matrix μ. The transition dipole matrices are assumed to be real symmetric with diagonal elements set to zero. For clarity of presentation, the D-MORPH algorithm written below addresses dipole matrix elements. Parallel equations that address H0 elements can be readily derived,22 and a D-MORPH search may be performed to concurrently identify H0 and μ.
+From Soup: 31 The D-MORPH search seeks to minimize the inversion cost function
+ ###### 
+From cou.: 32 The D-MORPH search seeks to minimize the inversion cost function
+From Soup: 32 P
+ ###### 
+From cou.: 33 P
+From Soup: 33 k
+ ###### 
+From cou.: 34 k
+From Soup: 34 i → f
+ ###### 
+From cou.: 35 i
+From Soup: 35 k
+ ###### 
+From cou.: 36 f
+From Soup: 36 K
+ ###### 
+From cou.: 37 k
+From Soup: 37 k
+ ###### 
+From cou.: 38 K
+From Soup: 38 i → f
+ ###### 
+From cou.: 39 k
+From Soup: 39 P
+ ###### 
+From cou.: 40 i
+From Soup: 40 k
+ ###### 
+From cou.: 41 f
+From Soup: 41 i → f
+ ###### 
+From cou.: 42 P
+From Soup: 42 η
+ ###### 
+From cou.: 43 k
+From Soup: 43 P
+ ###### 
+From cou.: 44 i
+From Soup: 44 k
+ ###### 
+From cou.: 45 f
+From Soup: 45 i → f
+ ###### 
+From cou.: 46 η
+From Soup: 46 η
+ ###### 
+From cou.: 47 P
+From Soup: 47 J
+ ###### 
+From cou.: 48 k
+From Soup: 48 k
+ ###### 
+From cou.: 49 i
+From Soup: 49 i → f
+ ###### 
+From cou.: 50 f
+From Soup: 50 k
+ ###### 
+From cou.: 51 η
+From Soup: 51 i → f
+ ###### 
+From cou.: 52 J
+From Soup: 52 s
+ ###### 
+From cou.: 53 k
+From Soup: 53 s
+ ###### 
+From cou.: 54 i
+From Soup: 54 J
+ ###### 
+From cou.: 55 f
+From Soup: 55 cf.
+ ###### 
+From cou.: 56 k
+From Soup: 56 eqn (5)
+ ###### 
+From cou.: 57 i
+From Soup: 57 s
+ ###### 
+From cou.: 58 f
+From Soup: 58 k
+ ###### 
+From cou.: 59 s
+From Soup: 59 i → f
+ ###### 
+From cou.: 60 s
+From Soup: 60 mn
+ ###### 
+From cou.: 61 J
+From Soup: 61 30
+ ###### 
+From cou.: 62 cf.
+From Soup: 62 q
+ ###### 
+From cou.: 63 s
+From Soup: 63 i
+ ###### 
+From cou.: 64 k
+From Soup: 64 U
+ ###### 
+From cou.: 65 i
+From Soup: 65 †
+ ###### 
+From cou.: 66 f
+From Soup: 66 T
+ ###### 
+From cou.: 67 mn
+From Soup: 67 f
+ ###### 
+From cou.: 68 30
+From Soup: 68 f
+ ###### 
+From cou.: 69 q
+From Soup: 69 U
+ ###### 
+From cou.: 70 i
+From Soup: 70 T
+ ###### 
+From cou.: 71 U
+From Soup: 71 mn
+ ###### 
+From cou.: 72 †
+From Soup: 72 m
+ ###### 
+From cou.: 73 T
+From Soup: 73 n
+ ###### 
+From cou.: 74 f
+From Soup: 74 n
+ ###### 
+From cou.: 75 f
+From Soup: 75 m
+ ###### 
+From cou.: 76 U
+From Soup: 76 Eqn (7) and (8)
+ ###### 
+From cou.: 77 T
+From Soup: 77 J
+ ###### 
+From cou.: 78 mn
+From Soup: 78 J
+ ###### 
+From cou.: 79 m
+From Soup: 79 J
+ ###### 
+From cou.: 80 n
+From Soup: 80 H
+ ###### 
+From cou.: 81 n
+From Soup: 81 27
+ ###### 
+From cou.: 82 m
+From Soup: 82 H
+ ###### 
+From cou.: 83 J
+From Soup: 83 K
+ ###### 
+From cou.: 84 J
+From Soup: 84 global
+ ###### 
+From cou.: 85 J
+From Soup: 85 P
+ ###### 
+From cou.: 86 H
+From Soup: 86 i → f
+ ###### 
+From cou.: 87 27
+From Soup: 87 22
+ ###### 
+From cou.: 88 H
+From Soup: 88 K
+ ###### 
+From cou.: 89 K
+From Soup: 89 local
+ ###### 
+From cou.: 90 global
+From Soup: 90 J
+ ###### 
+From cou.: 91 P
+From Soup: 91 The simulations presented below are meant to be an initial foray into understanding the Hamiltonian inversion landscape. The prior work 27 considered the problem of identifying a nondegenerate quantum system's real symmetric transition dipole matrix, where H 0 is known and the diagonal elements of the dipole matrix are also known to be zero. The analytical results showed local inversion landscape convexity about the true Hamiltonian when (1) no noise was present, (2) a sufficiently large number of experimental measurements were utilized, (3) the trial Hamiltonians lie within some neighborhood around the true Hamiltonian, and (4) the time duration of the applied electromagnetic field, T , was arbitrarily large. These issues are selectively addressed below. The simulations also aim to illustrate the ability of a simple gradient search algorithm (D-MORPH) to correctly identify a quantum system's Hamiltonian when a modest number of experiments with reasonable levels of noise-ridden data are incorporated into an inversion procedure.
+ ###### 
+From cou.: 92 i
+From Soup: 92 Any practical inversion procedure must rely only on the estimated variance of the identified Hamiltonian to assess the quality of the inversion, which is reported in the simulations here. As a check of the capability of the algorithm, the quality of the identification is also assessed in the simulations by comparing the inversion results to the true Hamiltonian (in this work, μ matrix elements). All cases where J ∼ 0 resulted in a small variance around the true Hamiltonian. Additionally, the present simulations utilize finite-dimensional systems and further assume knowledge of the system's size (for example, only four-level Hamiltonians are considered when aiming to identify a four-dimensional system). Future studies will need to assess whether searching through a space of unknown dimension will significantly impact the inversion procedure.
+ ###### 
+From cou.: 93 f
+From Soup: 93 In this work, the state-to-state transition probability measurements are simulated using a set of applied fields. The fields have the form
+ ###### 
+From cou.: 94 22
+From Soup: 94 L
+ ###### 
+From cou.: 95 K
+From Soup: 95 a
+ ###### 
+From cou.: 96 local
+From Soup: 96 l
+ ###### 
+From cou.: 97 J
+From Soup: 97 ω
+ ###### 
+From cou.: 98 The simulations presented below are meant to be an initial foray into understanding the Hamiltonian inversion landscape. The prior work27 considered the problem of identifying a nondegenerate quantum system's real symmetric transition dipole matrix, where H0 is known and the diagonal elements of the dipole matrix are also known to be zero. The analytical results showed local inversion landscape convexity about the true Hamiltonian when (1) no noise was present, (2) a sufficiently large number of experimental measurements were utilized, (3) the trial Hamiltonians lie within some neighborhood around the true Hamiltonian, and (4) the time duration of the applied electromagnetic field, T, was arbitrarily large. These issues are selectively addressed below. The simulations also aim to illustrate the ability of a simple gradient search algorithm (D-MORPH) to correctly identify a quantum system's Hamiltonian when a modest number of experiments with reasonable levels of noise-ridden data are incorporated into an inversion procedure.
+From Soup: 98 l
+ ###### 
+From cou.: 99 Any practical inversion procedure must rely only on the estimated variance of the identified Hamiltonian to assess the quality of the inversion, which is reported in the simulations here. As a check of the capability of the algorithm, the quality of the identification is also assessed in the simulations by comparing the inversion results to the true Hamiltonian (in this work, μ matrix elements). All cases where J ∼ 0 resulted in a small variance around the true Hamiltonian. Additionally, the present simulations utilize finite-dimensional systems and further assume knowledge of the system's size (for example, only four-level Hamiltonians are considered when aiming to identify a four-dimensional system). Future studies will need to assess whether searching through a space of unknown dimension will significantly impact the inversion procedure.
+From Soup: 99 ϕ
+ ###### 
+From cou.: 100 In this work, the state-to-state transition probability measurements are simulated using a set of applied fields. The fields have the form
+From Soup: 100 l
+ ###### 
+From cou.: 101 L
+From Soup: 101 T
+ ###### 
+From cou.: 102 a
+From Soup: 102 ω
+ ###### 
+From cou.: 103 l
+From Soup: 103 l
+ ###### 
+From cou.: 104 ω
+From Soup: 104 H
+ ###### 
+From cou.: 105 l
+From Soup: 105 0
+ ###### 
+From cou.: 106 ϕ
+From Soup: 106 31–33
+ ###### 
+From cou.: 107 l
+From Soup: 107 The goal of the following noise-free simulations is to test whether a gradient-based search algorithm can identify a Hamiltonian that reproduces the measurements and explore whether the myopic search yields a unique solution. The first set of simulations aim to identify a quantum system of dimension N = 4, where the diagonal elements of H 0 are listed in ref. 34 and the true transition dipole matrix is randomly chosen as
+ ###### 
+From cou.: 108 T
+From Soup: 108 During the dipole search, the diagonal elements were assumed to be zero, yielding 6 unknown Hamiltonian parameters. The number of P k i → f ≡ P k 1→4 measurements, k = 1,…, K , was taken to be three times the number of unknown parameters (here, K = 3 × 6 = 18). This entailed using 18 noise-free fields of the form in eqn (10) , with L = 6 arising from the 6 unique energy transitions from H 0 . The 18 fields were characterized by distinct sets of phases and amplitudes randomly chosen from the domains [0,2π] and [0,1], respectively; the fields produced a range of P 1→4 values. Upon performing multiple inversion tests starting with different trial dipoles , a consistent dipole should lie at the intersection of these distinct landscape excursions. With just 18 measurements we will assess the practical degree to which the inversion gives a good quality unique solution. For each inversion, a random trial transition dipole was used as a starting point on the inversion landscape. The inversion landscape was traversed by morphing over the transition dipole matrix elements in an effort to reach J ∼ 0 following the D-MORPH procedure described in Section 2.
+ ###### 
+From cou.: 109 ω
+From Soup: 109 The first set of 40 inversions was performed with trial dipole matrix elements randomly (uniformly) chosen to be within a 10–15% window about the true values in eqn (11) . Knowledge of the dipole elements to at least this level of precision could be obtained, for example, via observed spectral intensities combined with electronic structure calculations. In each of the 40 inversions, the same set of 18 fields ε k ( t ) and P k 1→4 , k = 1,…,18 values were used. The D-MORPH search over dipole elements was driven towards a target J value of 10 −8 , and all 40 optimizations achieved this value. To characterize the quality of convergence to the true dipole, the distance metric M μ was determined,
+ ###### 
+From cou.: 110 l
+From Soup: 110 The 40 inversion simulations produced a small range of M μ values, varying from 0.0011 to 0.0015. Excellent convergence quality was observed, and no simulations from within the starting window resulted in J → 0 producing an incorrectly identified dipole matrix within this level of precision. The second set of inversion simulations involved using trial dipoles lying within a 25–50% window about the true solution. Virtually identical results were obtained over 40 simulations using the same 18 data points and fields as in the previous set of inversions. All optimizations reached the target J ∼ 10 −8 and M μ ranged from 0.0011 to 0.0016. Simulations were also run where the initial dipole domain was expanded to comprise a 50–75% window about the true solution. Of these 40 inversion simulations performed with K = 18, a total of 13 yielded J values greater than 0.009 and none of these latter cases identified the true dipole. The remaining 27 runs produced J ∼ 10 −8 and showed excellent convergence to the true dipole. These overall results support the notion of local landscape convexity within a neighborhood about the true solution, 27 especially notable here with just 18 data points and fields.
+ ###### 
+From cou.: 111 H
+From Soup: 111 While excellent results were observed using a system of dimension N = 4, it is important to consider the effect of system size on inversion quality. A system of dimension N = 8 was considered, with 28 dipole elements for identification. The known values of H 0 are listed in ref. 35 . A total of K = 3 × 28 = 84 simulated experimental P k 1→8 , k = 1,…,84 measurements were utilized for a single inversion. The trial matrix elements were randomly chosen to be 10–15% away from the true values. The D-MORPH optimization procedure was able to achieve J ∼ 10 −8 , and Fig. 2 plots the true values of μ as squares and the identified values as circles. Excellent dipole identification is observed, despite the large number of dipole matrix elements.
+ ###### 
+From cou.: 112 31–33
+From Soup: 112 The next set of simulations include noise in both ε ( t ) and P i → f . The values of ã l and l were randomly chosen from the domains [0,1] and [0,2π], respectively. These values may be thought of as the best estimate of their true values in the laboratory, and they are used in the computational inversion with each trial dipole. To account for an experimentally reasonable degree of field uncertainty, random noise η a l and η ϕ l of 1–2% is incorporated in the fields, via a l and ϕ l , for generating the simulated experimental data:
+ ###### 
+From cou.: 113 The goal of the following noise-free simulations is to test whether a gradient-based search algorithm can identify a Hamiltonian that reproduces the measurements and explore whether the myopic search yields a unique solution. The first set of simulations aim to identify a quantum system of dimension N = 4, where the diagonal elements of H0 are listed in ref. 34 and the true transition dipole matrix is randomly chosen as
+From Soup: 113 and
+ ###### 
+From cou.: 114 During the dipole search, the diagonal elements were assumed to be zero, yielding 6 unknown Hamiltonian parameters. The number of Pki→f ≡ Pk1→4 measurements, k = 1,…,K, was taken to be three times the number of unknown parameters (here, K = 3 × 6 = 18). This entailed using 18 noise-free fields of the form in eqn (10), with L = 6 arising from the 6 unique energy transitions from H0. The 18 fields were characterized by distinct sets of phases and amplitudes randomly chosen from the domains [0,2π] and [0,1], respectively; the fields produced a range of P1→4 values. Upon performing multiple inversion tests starting with different trial dipoles , a consistent dipole should lie at the intersection of these distinct landscape excursions. With just 18 measurements we will assess the practical degree to which the inversion gives a good quality unique solution. For each inversion, a random trial transition dipole was used as a starting point on the inversion landscape. The inversion landscape was traversed by morphing over the transition dipole matrix elements in an effort to reach J ∼ 0 following the D-MORPH procedure described in Section 2.
+From Soup: 114 This procedure is utilized for each of the fields k = 1,…, K . Noise is also added to each P i → f = P 1→4 simulated measurement through
+ ###### 
+From cou.: 115 The first set of 40 inversions was performed with trial dipole matrix elements randomly (uniformly) chosen to be within a 10–15% window about the true values in eqn (11). Knowledge of the dipole elements to at least this level of precision could be obtained, for example, via observed spectral intensities combined with electronic structure calculations. In each of the 40 inversions, the same set of 18 fields εk(t) and Pk1→4, k = 1,…,18 values were used. The D-MORPH search over dipole elements was driven towards a target J value of 10−8, and all 40 optimizations achieved this value. To characterize the quality of convergence to the true dipole, the distance metric Mμ was determined,
+From Soup: 115 η
+ ###### 
+From cou.: 116 The 40 inversion simulations produced a small range of Mμ values, varying from 0.0011 to 0.0015. Excellent convergence quality was observed, and no simulations from within the starting window resulted in J → 0 producing an incorrectly identified dipole matrix within this level of precision. The second set of inversion simulations involved using trial dipoles lying within a 25–50% window about the true solution. Virtually identical results were obtained over 40 simulations using the same 18 data points and fields as in the previous set of inversions. All optimizations reached the target J ∼ 10−8 and Mμ ranged from 0.0011 to 0.0016. Simulations were also run where the initial dipole domain was expanded to comprise a 50–75% window about the true solution. Of these 40 inversion simulations performed with K = 18, a total of 13 yielded J values greater than 0.009 and none of these latter cases identified the true dipole. The remaining 27 runs produced J ∼ 10−8 and showed excellent convergence to the true dipole. These overall results support the notion of local landscape convexity within a neighborhood about the true solution,27 especially notable here with just 18 data points and fields.
+From Soup: 116 P 1→4
+ ###### 
+From cou.: 117 While excellent results were observed using a system of dimension N = 4, it is important to consider the effect of system size on inversion quality. A system of dimension N = 8 was considered, with 28 dipole elements for identification. The known values of H0 are listed in ref. 35. A total of K = 3 × 28 = 84 simulated experimental Pk1→8, k = 1,…,84 measurements were utilized for a single inversion. The trial matrix elements were randomly chosen to be 10–15% away from the true values. The D-MORPH optimization procedure was able to achieve J ∼ 10−8, and Fig. 2 plots the true values of μ as squares and the identified values as circles. Excellent dipole identification is observed, despite the large number of dipole matrix elements.
+From Soup: 117 k
+ ###### 
+From cou.: 118 The next set of simulations include noise in both ε(t) and Pi→f. The values of ãl and l were randomly chosen from the domains [0,1] and [0,2π], respectively. These values may be thought of as the best estimate of their true values in the laboratory, and they are used in the computational inversion with each trial dipole. To account for an experimentally reasonable degree of field uncertainty, random noise ηal and ηϕl of 1–2% is incorporated in the fields, via al and ϕl, for generating the simulated experimental data:
+From Soup: 118 1→4
+ ###### 
+From cou.: 119 and
+From Soup: 119 Fig. 3A shows the final value for J versus the distance M μ of the identified transition dipole matrix from μ in eqn (11) for 40 inversion simulations. Each inversion used the K = 18 simulated experiments from Section 3.1. The elements of the 40 trial dipole matrices were randomly chosen to be 10–15% away from the true system. The D-MORPH optimization procedure was employed until J ( s + 1) − J ( s ) ∼ 10 −10 , with the target J ∼ 10 −8 ; here the parameter s labels the steps in the D-MORPH procedure. The final J values over the 40 inversions ranged from 2.0 × 10 −4 to 9.2 × 10 −4 , and M μ was in the range 0.069–0.24. Fig. 3B shows the distribution of identified dipole matrix elements as circles with the true values displayed as squares, where the index (1–6) on the abscissa respectively corresponds to μ (1,2), μ (1,3), μ (1,4), μ (2,3), μ (2,4), μ (3,4). The mean values for each identified dipole element, denoted ( i , j ), are (1,2) = 1.46, (1,3) = 1.23, (1,4) = 0.97, (2,3) = 1.71, (2,4) = 0.53, (3,4) = 1.43 with standard deviations of 0.040, 0.048, 0.026, 0.065, 0.040, 0.041, respectively. There is surprisingly good convergence given the noise incorporated into both the experimental fields and measurements. Importantly, as with the noise-free simulations, no systems approached J ∼ 0 with a significantly erroneous dipole, indicating that the proposed local convexity 27 holds even when noise is incorporated into experimental fields and measurements.
+ ###### 
+From cou.: 120 This procedure is utilized for each of the fields k = 1,…,K. Noise is also added to each Pi→f = P1→4 simulated measurement through
+From Soup: 120 Fig. 4 shows results from 40 inversions with the same degree of noise as above, but with the initial trial matrix domain greatly expanded, from 10–15% to now 50–75% away from eqn (11) . These simulations again incorporated the input amplitudes and phases from the K = 18 experiments used previously, with noise added to both the fields and P 1→4 values to simulate experimental conditions. Fig. 4A shows the inversion cost function J versus M μ and Fig. 4B presents the distribution of identified matrix element values (following the dipole element index from Fig. 3 ). In Fig. 4A , two distinct regions can be identified: 24 of the 40 runs comprise a set of simulations where J was ≤0.0011, while the remaining 16 yielded larger values of J up to 0.027. Using all 40 runs, the mean extracted dipole element values are (1,2) = 1.34, (1,3) = 1.19, (1,4) = 1.22, (2,3) = 1.73, (2,4) = 0.58, (3,4) = 1.60. The associated standard deviations are 0.54, 0.65, 0.55, 0.72, 0.63, and 0.74, which are all an order of magnitude larger than those from Fig. 3B . Fig. 4C enlarges the results from the 24 aforementioned simulations achieving J ≤ 0.0011 from Fig. 4A , and Fig. 4D shows the corresponding matrix element distribution. The mean values of the extracted dipole elements from Fig. 4D are (1,2) = 1.46, (1,3) = 1.26, (1,4) = 0.97, (2,3) = 1.74, (2,4) = 0.54, (3,4) = 1.45 with standard deviations shrinking to 0.035, 0.054, 0.032, 0.050, 0.040, and 0.053. The results from Fig. 4C and D suggest that good convergence can be obtained even when trial matrices are chosen from a wider domain, provided that those achieving a sufficiently small J value are utilized. In this regard, the results in Fig. 4C and D are much like those in Fig. 3A and B , respectively, as well as for the standard deviations of the identified dipole elements.
+ ###### 
+From cou.: 121 η
+From Soup: 121 Fig. 5 shows results from 40 inversions with trial dipole matrices taken from a domain of 50–75% away from eqn (11) . The noise levels of η a l , η ϕ l , and η P 1→4 were increased to 2–5%. Similar to Fig. 4A , two regions can be seen in Fig. 5A , which plots J versus M μ : one region with J > 0.005 and one with J < 0.005. A total of 27 out of the 40 simulations comprise this latter set. The distribution of identified matrix elements from all 40 simulations is shown in Fig. 5B . The mean extracted dipole elements over all 40 runs are (1,2) = 1.23, (1,3) = 1.12, (1,4) = 1.06, (2,3) = 1.82, (2,4) = 0.72, (3,4) = 1.58 with standard deviations of 0.56, 0.41, 0.35, 0.76, 0.42 and 0.46, respectively. Fig. 5C shows J versus M μ for the 27 out of 40 runs with J < 0.005, and Fig. 5D shows the corresponding distribution of identified matrix elements. The mean extracted dipoles from this subset are (1,2) = 1.46, (1,3) = 1.28, (1,4) = 0.97, (2,3) = 1.68, (2,4) = 0.55, (3,4) = 1.49 with standard deviations reduced to 0.10, 0.14, 0.58, 0.14, 0.097, and 0.14, respectively. The convergence improves with this subset of simulations but is inferior to that observed in Fig. 4D where less noise is present.
+ ###### 
+From cou.: 122 P
+From Soup: 122 To explore the impact of increasing the amount of data used for inversion, Fig. 6 shows results from 40 simulations where (a) trial dipole matrices were taken from a domain 50–75% away from eqn (11) , (b) the incorporated noise was on the order of 2–5%, and (c) K = 30 experimental measurements were used compared to the 18 utilized in the previous sets of simulations. Conditions (a) and (b) are the same as the illustrations in Fig. 5 . Fig. 6A displays J versus M μ , and again two regions are observed: one region with J > 0.0021 and one with J < 0.0021. The latter set comprised 26 out of the 40 runs. Fig. 6B shows the distribution of identified matrix elements for all 40 runs; the mean extracted dipole values are (1,2) = 1.42, (1,3) = 1.32, (1,4) = 0.99, (2,3) = 2.00, (2,4) = 0.51, (3,4) = 1.57 with standard deviations are 0.44, 0.72, 0.25, 0.67, 0.17, and 0.54, respectively. Fig. 6C zooms in on Fig. 6A to consider the 26 cases where J < 0.0021, and Fig. 6D displays the associated matrix element values. The mean extracted dipole values are (1,2) = 1.47, (1,3) = 1.23, (1,4) = 0.96, (2,3) = 1.76, (2,4) = 0.54, (3,4) = 1.42 and the distribution is much smaller compared to 6B, with standard deviations decreasing to 0.11, 0.044, 0.077, 0.11, 0.049, and 0.068, respectively. Overall the convergence to μ ( cf. , eqn (11) ) is improved using more experiments compared to Fig. 5 , though importantly K = 30 still constitutes a very modest amount of data to consider for inversion.
+ ###### 
+From cou.: 123 k
+From Soup: 123 This work explored the Hamiltonian inversion landscape using simulated experiments, where the state-to-state transition probability at a single time was measured after the system interacted with a randomly chosen, resonant applied field. Two classes of inversion simulations were considered. First, noise-free inversions were performed where both the fields and the measured transition probabilities were assumed to be precisely known. The results of these simulations indicated that convergence to a landscape minimum corresponds to identifying the true Hamiltonian ( i.e. , a level set of multiple solutions was not observed), reflecting the proposed local convexity. 27 The second class of simulations incorporated noise into both the field and measurements. The results show that good identification can be achieved with a relatively small amount of noisy data. It was observed that as the neighborhood is expanded from which the initial (trial) dipoles are chosen, some trials residing outside the evident domain of convexity are unable to converge to the true Hamiltonian. However, the subset of runs that did reach small J values all corresponded to good quality extracted dipole matrix elements. This feature is very important in practice as the convex domain will not be known a priori , and focusing on those runs of good convergence provides a means to deal with this situation. The convergence towards the true Hamiltonian is likely aided by the high sensitivity of the quantum dynamics data. It is interesting to note that quantum control landscapes also display convexity, but with non-unique control solutions existing due to an infinite null space about the optimal objective value. 21 Such a multitude of solutions to choose from is ideal for the purpose of achieving optimal quantum control. The convexity on the inversion landscape, however, lends itself to a single solution ( i.e. , the true Hamiltonian) lying at the intersection of dynamic events reflected in the set of data.
+ ###### 
+From cou.: 124 Fig. 3A shows the final value for J versus the distance Mμ of the identified transition dipole matrix from μ in eqn (11) for 40 inversion simulations. Each inversion used the K = 18 simulated experiments from Section 3.1. The elements of the 40 trial dipole matrices were randomly chosen to be 10–15% away from the true system. The D-MORPH optimization procedure was employed until J(s + 1) − J(s) ∼ 10−10, with the target J ∼ 10−8; here the parameter s labels the steps in the D-MORPH procedure. The final J values over the 40 inversions ranged from 2.0 × 10−4 to 9.2 × 10−4, and Mμ was in the range 0.069–0.24. Fig. 3B shows the distribution of identified dipole matrix elements as circles with the true values displayed as squares, where the index (1–6) on the abscissa respectively corresponds to μ(1,2), μ(1,3), μ(1,4), μ(2,3), μ(2,4), μ(3,4). The mean values for each identified dipole element, denoted (i,j), are (1,2) = 1.46, (1,3) = 1.23, (1,4) = 0.97, (2,3) = 1.71, (2,4) = 0.53, (3,4) = 1.43 with standard deviations of 0.040, 0.048, 0.026, 0.065, 0.040, 0.041, respectively. There is surprisingly good convergence given the noise incorporated into both the experimental fields and measurements. Importantly, as with the noise-free simulations, no systems approached J ∼ 0 with a significantly erroneous dipole, indicating that the proposed local convexity27 holds even when noise is incorporated into experimental fields and measurements.
+From Soup: 124 A practical algorithmic bottleneck to the performance of experimental inversion in sync with laboratory timescales is the computational component. In this regard, the results here suggest that ‘open-loop’ inversion can be feasible with a local search algorithm, including in the case where field and data noise is present. This work did not make any attempt to optimize the experiments, 15,16 as there is substantial computational cost in implementing such a closed-loop inversion optimization procedure; however, future work may consider such a setup using a local Hamiltonian search algorithm. The systems considered in this work were of low finite dimension. Simulations also should be performed which consider substantially larger systems to understand the relationship between the number of unknown Hamiltonian parameters and the number of experiments needed to assure convergence. The proposed algorithm ultimately needs to be refined in a laboratory setting where real noise is involved and a host of experimental issues can come into play.
+ ###### 
+From cou.: 125 Fig. 4 shows results from 40 inversions with the same degree of noise as above, but with the initial trial matrix domain greatly expanded, from 10–15% to now 50–75% away from eqn (11). These simulations again incorporated the input amplitudes and phases from the K = 18 experiments used previously, with noise added to both the fields and P1→4 values to simulate experimental conditions. Fig. 4A shows the inversion cost function J versus Mμ and Fig. 4B presents the distribution of identified matrix element values (following the dipole element index from Fig. 3). In Fig. 4A, two distinct regions can be identified: 24 of the 40 runs comprise a set of simulations where J was ≤0.0011, while the remaining 16 yielded larger values of J up to 0.027. Using all 40 runs, the mean extracted dipole element values are (1,2) = 1.34, (1,3) = 1.19, (1,4) = 1.22, (2,3) = 1.73, (2,4) = 0.58, (3,4) = 1.60. The associated standard deviations are 0.54, 0.65, 0.55, 0.72, 0.63, and 0.74, which are all an order of magnitude larger than those from Fig. 3B. Fig. 4C enlarges the results from the 24 aforementioned simulations achieving J ≤ 0.0011 from Fig. 4A, and Fig. 4D shows the corresponding matrix element distribution. The mean values of the extracted dipole elements from Fig. 4D are (1,2) = 1.46, (1,3) = 1.26, (1,4) = 0.97, (2,3) = 1.74, (2,4) = 0.54, (3,4) = 1.45 with standard deviations shrinking to 0.035, 0.054, 0.032, 0.050, 0.040, and 0.053. The results from Fig. 4C and D suggest that good convergence can be obtained even when trial matrices are chosen from a wider domain, provided that those achieving a sufficiently small J value are utilized. In this regard, the results in Fig. 4C and D are much like those in Fig. 3A and B, respectively, as well as for the standard deviations of the identified dipole elements.
+From Soup: 125 A.D. gratefully acknowledges support from the Program in Plasma Science and Technology at Princeton University. The authors also acknowledge support from the NSF (CHE-1058644), ARO-MURI (W911NF-11-1-2068) and ARO (W911NF-13-1-0237).
+ ###### 
+From cou.: 126 Fig. 5 shows results from 40 inversions with trial dipole matrices taken from a domain of 50–75% away from eqn (11). The noise levels of ηal, ηϕl, and ηP1→4 were increased to 2–5%. Similar to Fig. 4A, two regions can be seen in Fig. 5A, which plots J versus Mμ: one region with J > 0.005 and one with J < 0.005. A total of 27 out of the 40 simulations comprise this latter set. The distribution of identified matrix elements from all 40 simulations is shown in Fig. 5B. The mean extracted dipole elements over all 40 runs are (1,2) = 1.23, (1,3) = 1.12, (1,4) = 1.06, (2,3) = 1.82, (2,4) = 0.72, (3,4) = 1.58 with standard deviations of 0.56, 0.41, 0.35, 0.76, 0.42 and 0.46, respectively. Fig. 5C shows J versus Mμ for the 27 out of 40 runs with J < 0.005, and Fig. 5D shows the corresponding distribution of identified matrix elements. The mean extracted dipoles from this subset are (1,2) = 1.46, (1,3) = 1.28, (1,4) = 0.97, (2,3) = 1.68, (2,4) = 0.55, (3,4) = 1.49 with standard deviations reduced to 0.10, 0.14, 0.58, 0.14, 0.097, and 0.14, respectively. The convergence improves with this subset of simulations but is inferior to that observed in Fig. 4D where less noise is present.
+From Soup: 126 R. Rydberg, Z. Phys. , 1932, 73 , 376 CrossRef CAS .
+ ###### 
+From cou.: 127 To explore the impact of increasing the amount of data used for inversion, Fig. 6 shows results from 40 simulations where (a) trial dipole matrices were taken from a domain 50–75% away from eqn (11), (b) the incorporated noise was on the order of 2–5%, and (c) K = 30 experimental measurements were used compared to the 18 utilized in the previous sets of simulations. Conditions (a) and (b) are the same as the illustrations in Fig. 5. Fig. 6A displays J versus Mμ, and again two regions are observed: one region with J > 0.0021 and one with J < 0.0021. The latter set comprised 26 out of the 40 runs. Fig. 6B shows the distribution of identified matrix elements for all 40 runs; the mean extracted dipole values are (1,2) = 1.42, (1,3) = 1.32, (1,4) = 0.99, (2,3) = 2.00, (2,4) = 0.51, (3,4) = 1.57 with standard deviations are 0.44, 0.72, 0.25, 0.67, 0.17, and 0.54, respectively. Fig. 6C zooms in on Fig. 6A to consider the 26 cases where J < 0.0021, and Fig. 6D displays the associated matrix element values. The mean extracted dipole values are (1,2) = 1.47, (1,3) = 1.23, (1,4) = 0.96, (2,3) = 1.76, (2,4) = 0.54, (3,4) = 1.42 and the distribution is much smaller compared to 6B, with standard deviations decreasing to 0.11, 0.044, 0.077, 0.11, 0.049, and 0.068, respectively. Overall the convergence to μ (cf., eqn (11)) is improved using more experiments compared to Fig. 5, though importantly K = 30 still constitutes a very modest amount of data to consider for inversion.
+From Soup: 127 O. Klein, Z. Phys. , 1932, 76 , 226 CrossRef CAS .
+ ###### 
+From cou.: 128 This work explored the Hamiltonian inversion landscape using simulated experiments, where the state-to-state transition probability at a single time was measured after the system interacted with a randomly chosen, resonant applied field. Two classes of inversion simulations were considered. First, noise-free inversions were performed where both the fields and the measured transition probabilities were assumed to be precisely known. The results of these simulations indicated that convergence to a landscape minimum corresponds to identifying the true Hamiltonian (i.e., a level set of multiple solutions was not observed), reflecting the proposed local convexity.27 The second class of simulations incorporated noise into both the field and measurements. The results show that good identification can be achieved with a relatively small amount of noisy data. It was observed that as the neighborhood is expanded from which the initial (trial) dipoles are chosen, some trials residing outside the evident domain of convexity are unable to converge to the true Hamiltonian. However, the subset of runs that did reach small J values all corresponded to good quality extracted dipole matrix elements. This feature is very important in practice as the convex domain will not be known a priori, and focusing on those runs of good convergence provides a means to deal with this situation. The convergence towards the true Hamiltonian is likely aided by the high sensitivity of the quantum dynamics data. It is interesting to note that quantum control landscapes also display convexity, but with non-unique control solutions existing due to an infinite null space about the optimal objective value.21 Such a multitude of solutions to choose from is ideal for the purpose of achieving optimal quantum control. The convexity on the inversion landscape, however, lends itself to a single solution (i.e., the true Hamiltonian) lying at the intersection of dynamic events reflected in the set of data.
+From Soup: 128 A. Rees, Proc. Phys. Soc., London , 1947, 59 , 998 CrossRef CAS .
+ ###### 
+From cou.: 129 A practical algorithmic bottleneck to the performance of experimental inversion in sync with laboratory timescales is the computational component. In this regard, the results here suggest that ‘open-loop’ inversion can be feasible with a local search algorithm, including in the case where field and data noise is present. This work did not make any attempt to optimize the experiments,15,16 as there is substantial computational cost in implementing such a closed-loop inversion optimization procedure; however, future work may consider such a setup using a local Hamiltonian search algorithm. The systems considered in this work were of low finite dimension. Simulations also should be performed which consider substantially larger systems to understand the relationship between the number of unknown Hamiltonian parameters and the number of experiments needed to assure convergence. The proposed algorithm ultimately needs to be refined in a laboratory setting where real noise is involved and a host of experimental issues can come into play.
+From Soup: 129 R. Gerber, R. Roth and M. Ratner, Mol. Phys. , 1981, 44 , 1335 CrossRef CAS .
+ ###### 
+From cou.: 130 A.D. gratefully acknowledges support from the Program in Plasma Science and Technology at Princeton University. The authors also acknowledge support from the NSF (CHE-1058644), ARO-MURI (W911NF-11-1-2068) and ARO (W911NF-13-1-0237).
+From Soup: 130 R. Roth, M. Ratner and R. Gerber, Phys. Rev. Lett. , 1984, 52 , 1288 CrossRef CAS .
+ ###### 
+From cou.: 131 R. Rydberg, Z. Phys., 1932, 73, 376 CrossRef CAS .
+From Soup: 131 T.-S. Ho and H. Rabitz, J. Chem. Phys. , 1989, 90 , 1519 CrossRef CAS PubMed .
+ ###### 
+From cou.: 132 O. Klein, Z. Phys., 1932, 76, 226 CrossRef CAS .
+From Soup: 132 T.-S. Ho and H. Rabitz, J. Phys. Chem. , 1993, 97 , 13449 Search PubMed .
+ ###### 
+From cou.: 133 A. Rees, Proc. Phys. Soc., London, 1947, 59, 998 CrossRef CAS .
+From Soup: 133 C. D. Franco, M. Paternostro and M. Kim, Phys. Rev. Lett. , 2009, 102 , 187203 CrossRef .
+ ###### 
+From cou.: 134 R. Gerber, R. Roth and M. Ratner, Mol. Phys., 1981, 44, 1335 CrossRef CAS .
+From Soup: 134 D. Burgarth and K. Maruyama, New J. Phys. , 2009, 11 , 103019 CrossRef .
+ ###### 
+From cou.: 135 R. Roth, M. Ratner and R. Gerber, Phys. Rev. Lett., 1984, 52, 1288 CrossRef CAS .
+From Soup: 135 D. Burgarth, K. Maruyama and F. Nori, Phys. Rev. A: At., Mol., Opt. Phys. , 2009, 79 , 020305 CrossRef .
+ ###### 
+From cou.: 136 T.-S. Ho and H. Rabitz, J. Chem. Phys., 1989, 90, 1519 CrossRef CAS PubMed .
+From Soup: 136 K. Maruyama, D. Burgarth, A. Ishizaki, T. Takui and K. B. Whaley, Quantum Inf. Comput. , 2012, 12 , 0763 Search PubMed .
+ ###### 
+From cou.: 137 T.-S. Ho and H. Rabitz, J. Phys. Chem., 1993, 97, 13449 Search PubMed .
+From Soup: 137 S. Schirmer and D. Oi, Laser Phys. , 2010, 20 , 1203 CrossRef .
+ ###### 
+From cou.: 138 C. D. Franco, M. Paternostro and M. Kim, Phys. Rev. Lett., 2009, 102, 187203 CrossRef .
+From Soup: 138 A. Shabani, M. Mohseni, S. Lloyd, R. Kosut and H. Rabitz, Phys. Rev. A: At., Mol., Opt. Phys. , 2011, 84 , 012107 CrossRef .
+ ###### 
+From cou.: 139 D. Burgarth and K. Maruyama, New J. Phys., 2009, 11, 103019 CrossRef .
+From Soup: 139 J. Zhang and M. Sarovar, 2014, arXiv:1401.5780.
+ ###### 
+From cou.: 140 D. Burgarth, K. Maruyama and F. Nori, Phys. Rev. A: At., Mol., Opt. Phys., 2009, 79, 020305 CrossRef .
+From Soup: 140 J. Geremia and H. Rabitz, J. Chem. Phys. , 2003, 118 , 5369 CrossRef CAS PubMed .
+ ###### 
+From cou.: 141 K. Maruyama, D. Burgarth, A. Ishizaki, T. Takui and K. B. Whaley, Quantum Inf. Comput., 2012, 12, 0763 Search PubMed .
+From Soup: 141 J. Geremia and H. Rabitz, Phys. Rev. A: At., Mol., Opt. Phys. , 2004, 70 , 023804 CrossRef .
+ ###### 
+From cou.: 142 S. Schirmer and D. Oi, Laser Phys., 2010, 20, 1203 CrossRef .
+From Soup: 142 D. Goldberg, Genetic Algorithms in Search, Optimization, and Machine Learning , Addison-Wesley, 1989 Search PubMed .
+ ###### 
+From cou.: 143 A. Shabani, M. Mohseni, S. Lloyd, R. Kosut and H. Rabitz, Phys. Rev. A: At., Mol., Opt. Phys., 2011, 84, 012107 CrossRef .
+From Soup: 143 S. Forrest, Proceedings of the Fifth International Conference on Genetic Algorithms, Morgan Kaufmann, 1993.
+ ###### 
+From cou.: 144 J. Zhang and M. Sarovar, 2014, arXiv:1401.5780.
+From Soup: 144 H. Rabitz, M. Hsieh and C. Rosenthal, Science , 2004, 303 , 1998 CrossRef CAS PubMed .
+ ###### 
+From cou.: 145 J. Geremia and H. Rabitz, J. Chem. Phys., 2003, 118, 5369 CrossRef CAS PubMed .
+From Soup: 145 T.-S. Ho and H. Rabitz, J. Photochem. Photobiol., A , 2006, 180 , 226 CrossRef CAS PubMed .
+ ###### 
+From cou.: 146 J. Geremia and H. Rabitz, Phys. Rev. A: At., Mol., Opt. Phys., 2004, 70, 023804 CrossRef .
+From Soup: 146 V. Beltrani, J. Dominy, T.-S. Ho and H. Rabitz, J. Chem. Phys. , 2011, 134 , 194106 CrossRef PubMed .
+ ###### 
+From cou.: 147 D. Goldberg, Genetic Algorithms in Search, Optimization, and Machine Learning, Addison-Wesley, 1989 Search PubMed .
+From Soup: 147 A. Donovan, V. Beltrani and H. Rabitz, Phys. Chem. Chem. Phys. , 2011, 13 , 7348 RSC .
+ ###### 
+From cou.: 148 S. Forrest, Proceedings of the Fifth International Conference on Genetic Algorithms, Morgan Kaufmann, 1993.
+From Soup: 148 K. Moore and H. Rabitz, Phys. Rev. A: At., Mol., Opt. Phys. , 2011, 84 , 012109 CrossRef .
+ ###### 
+From cou.: 149 H. Rabitz, M. Hsieh and C. Rosenthal, Science, 2004, 303, 1998 CrossRef CAS PubMed .
+From Soup: 149 K. Moore and H. Rabitz, J. Chem. Phys. , 2012, 137 , 134113 Search PubMed .
+ ###### 
+From cou.: 150 T.-S. Ho and H. Rabitz, J. Photochem. Photobiol., A, 2006, 180, 226 CrossRef CAS PubMed .
+From Soup: 150 J. Roslund and H. Rabitz, Phys. Rev. A: At., Mol., Opt. Phys. , 2009, 79 , 053417 CrossRef .
+ ###### 
+From cou.: 151 V. Beltrani, J. Dominy, T.-S. Ho and H. Rabitz, J. Chem. Phys., 2011, 134, 194106 CrossRef PubMed .
+From Soup: 151 Q. Sun, I. Pelczer, G. Riviello, R.-B. Wu and H. Rabitz, Phys. Rev. A: At., Mol., Opt. Phys. , 2014, 89 , 033413 CrossRef .
+ ###### 
+From cou.: 152 A. Donovan, V. Beltrani and H. Rabitz, Phys. Chem. Chem. Phys., 2011, 13, 7348 RSC .
+From Soup: 152 Z. Leghtas, G. Turinici, H. Rabitz and P. Rouchon, IEEE Trans. Autom. Control , 2012, 57 , 2679 CrossRef .
+ ###### 
+From cou.: 153 K. Moore and H. Rabitz, Phys. Rev. A: At., Mol., Opt. Phys., 2011, 84, 012109 CrossRef .
+From Soup: 153 C. L. Bris, M. Mirrahimi, H. Rabitz and G. Turinici, ESAIM: COCV , 2007, 13 , 378 CrossRef .
+ ###### 
+From cou.: 154 K. Moore and H. Rabitz, J. Chem. Phys., 2012, 137, 134113 Search PubMed .
+From Soup: 154 A. Rothman, T.-S. Ho and H. Rabitz, Phys. Rev. A: At., Mol., Opt. Phys. , 2005, 72 , 023416 CrossRef .
+ ###### 
+From cou.: 155 J. Roslund and H. Rabitz, Phys. Rev. A: At., Mol., Opt. Phys., 2009, 79, 053417 CrossRef .
+From Soup: 155 V. Beltrani, J. Dominy, T.-S. Ho and H. Rabitz, J. Chem. Phys. , 2007, 126 , 094105 CrossRef PubMed .
+ ###### 
+From cou.: 156 Q. Sun, I. Pelczer, G. Riviello, R.-B. Wu and H. Rabitz, Phys. Rev. A: At., Mol., Opt. Phys., 2014, 89, 033413 CrossRef .
+From Soup: 156 D. Meshulach and Y. Silberberg, Nature , 1998, 396 , 239 CrossRef CAS PubMed .
+ ###### 
+From cou.: 157 Z. Leghtas, G. Turinici, H. Rabitz and P. Rouchon, IEEE Trans. Autom. Control, 2012, 57, 2679 CrossRef .
+From Soup: 157 T. Brixner, N. Damrauer, P. Niklaus and G. Gerber, Nature , 2001, 414 , 57 CrossRef CAS PubMed .
+ ###### 
+From cou.: 158 C. L. Bris, M. Mirrahimi, H. Rabitz and G. Turinici, ESAIM: COCV, 2007, 13, 378 CrossRef .
+From Soup: 158 J. Herek, W. Wohleben, R. Cogdell, D. Zeidler and M. Motzkus, Nature , 2002, 417 , 533 CrossRef CAS PubMed .
+ ###### 
+From cou.: 159 A. Rothman, T.-S. Ho and H. Rabitz, Phys. Rev. A: At., Mol., Opt. Phys., 2005, 72, 023416 CrossRef .
+From Soup: 159 H 0 (1,1) = 1.5074, H 0 (2,2) = 9.9261, H 0 (3,3) = 12.9429, H 0 (4,4) = 14.0673.
+ ###### 
+From cou.: 160 V. Beltrani, J. Dominy, T.-S. Ho and H. Rabitz, J. Chem. Phys., 2007, 126, 094105 CrossRef PubMed .
+From Soup: 160 H 0 (1,1) = 2.1486, H 0 (2,2) = 5.1589, H 0 (3,3) = 6.0121, H 0 (4,4) = 6.0313, H 0 (5,5) = 6.0542, H 0 (6,6) = 8.7463, H 0 (7,7) = 9.9811, H 0 (8,8) = 12.9747.
+ ###### 
+From cou.: 161 D. Meshulach and Y. Silberberg, Nature, 1998, 396, 239 CrossRef CAS PubMed .
+From Soup: 161 whose minimization to an acceptable degree implies identification of a Hamiltonian from the data in (A). In the present work, the search for the Hamiltonian is performed using a gradient-based algorithm that is a variation of the D-MORPH technique. Importantly, as D-MORPH is a myopic search algorithm, it can provide insight into local inversion landscape features in a way that a genetic or stochastic algorithm could not. In particular, the breadth of the neighborhood around the true Hamiltonian that permits local convexity can be systematically explored.
+ ###### 
+From cou.: 162 T. Brixner, N. Damrauer, P. Niklaus and G. Gerber, Nature, 2001, 414, 57 CrossRef CAS PubMed .
+From Soup: 162 with amplitudes, frequencies, and phases ( , , , respectively). All units are treated as dimensionless. In the simulations, = 10 and the frequencies are chosen to be resonant with the system's transitions between the known energy levels of . The field parameters are the sets of amplitudes and phases, which are often utilized in quantum control experiments. In each D-MORPH search, an initial trial transition dipole matrix must be chosen. The details on how the field parameters and the trial dipole matrices were chosen is discussed in each case below. Each of the simulations below addresses particular aspects of the inversion procedure including the degree of local convexity about the true solution, the impact of various noise levels and the utility of increasing the amount of data. A clear pattern of the algorithm's effectiveness will be evident from the collective results.
+ ###### 
+From cou.: 163 J. Herek, W. Wohleben, R. Cogdell, D. Zeidler and M. Motzkus, Nature, 2002, 417, 533 CrossRef CAS PubMed .
+From cou.: 164 H 0(1,1) = 1.5074, H0(2,2) = 9.9261, H0(3,3) = 12.9429, H0(4,4) = 14.0673.
+From cou.: 165 H 0(1,1) = 2.1486, H0(2,2) = 5.1589, H0(3,3) = 6.0121, H0(4,4) = 6.0313, H0(5,5) = 6.0542, H0(6,6) = 8.7463, H0(7,7) = 9.9811, H0(8,8) = 12.9747.

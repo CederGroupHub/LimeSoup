@@ -1,0 +1,465 @@
+From cou.: 0 Journal
+From Soup: 0 Phys. Chem. Chem. Phys.
+ ###### 
+From cou.: 1 The chemical bond is an important local concept to understand chemical compounds and processes. Unfortunately, like most local concepts, the chemical bond and the bond order do not correspond to any physical observable and thus cannot be determined as an expectation value of a quantum chemical operator. We recently demonstrated [Boguslawski et al., J. Chem. Theory Comput., 2013, 9, 2959–2973] that one- and two-orbital-based entanglement measures can be applied to interpret electronic wave functions in terms of orbital correlation. Orbital entanglement emerged as a powerful tool to provide a qualitative understanding of bond-forming and bond-breaking processes, and allowed for an estimation of bond orders of simple diatomic molecules beyond the classical bonding models. In this article we demonstrate that the orbital entanglement analysis can be extended to polyatomic molecules to understand chemical bonding.
+From Soup: 1 The chemical bond is an important local concept to understand chemical compounds and processes. Unfortunately, like most local concepts, the chemical bond and the bond order do not correspond to any physical observable and thus cannot be determined as an expectation value of a quantum chemical operator. We recently demonstrated [Boguslawski et al. , J. Chem. Theory Comput. , 2013, 9 , 2959–2973] that one- and two-orbital-based entanglement measures can be applied to interpret electronic wave functions in terms of orbital correlation. Orbital entanglement emerged as a powerful tool to provide a qualitative understanding of bond-forming and bond-breaking processes, and allowed for an estimation of bond orders of simple diatomic molecules beyond the classical bonding models. In this article we demonstrate that the orbital entanglement analysis can be extended to polyatomic molecules to understand chemical bonding.
+ ###### 
+From cou.: 2 Albeit computational chemistry has reached a remarkable level in the quantitative description of atoms and molecules,1–4 these achievements came along with a fading qualitative understanding. To remedy the receding interpretation of complex total electronic wave functions, quantum chemistry introduced various analysis tools based on local properties, that is properties of atoms or functional groups of atoms in a molecule, like, for instance, bond orders, atomic charges in molecules and local spins.5–22 Such local concepts allow us to interpret electronic structures in terms of intuitive building blocks and favor a qualitative understanding of chemical processes. Similar approaches such as hardness, softness, electronegativity and related properties emerged within conceptual density functional theory.23
+From Soup: 2 Albeit computational chemistry has reached a remarkable level in the quantitative description of atoms and molecules, 1–4 these achievements came along with a fading qualitative understanding. To remedy the receding interpretation of complex total electronic wave functions, quantum chemistry introduced various analysis tools based on local properties, that is properties of atoms or functional groups of atoms in a molecule, like, for instance, bond orders, atomic charges in molecules and local spins. 5–22 Such local concepts allow us to interpret electronic structures in terms of intuitive building blocks and favor a qualitative understanding of chemical processes. Similar approaches such as hardness, softness, electronegativity and related properties emerged within conceptual density functional theory. 23
+ ###### 
+From cou.: 3 The bond order24–32 is an important and popular local concept to understand chemical bonding. It constitutes a quantitative measure for the formal number of (covalent and ionic) bonds formed between two neighboring atoms. The bond order can elucidate the stability and the strength of a chemical bond and can be thus considered as a guide to chemical synthesis. Unfortunately, the chemical bond or the bond order cannot be unambiguously assigned to any quantum chemical observable. As a consequence, various bond order concepts have been introduced in quantum chemistry for both one-determinant27,28,33,34 and correlated wave functions.35,36
+From Soup: 3 The bond order 24–32 is an important and popular local concept to understand chemical bonding. It constitutes a quantitative measure for the formal number of (covalent and ionic) bonds formed between two neighboring atoms. The bond order can elucidate the stability and the strength of a chemical bond and can be thus considered as a guide to chemical synthesis. Unfortunately, the chemical bond or the bond order cannot be unambiguously assigned to any quantum chemical observable. As a consequence, various bond order concepts have been introduced in quantum chemistry for both one-determinant 27,28,33,34 and correlated wave functions. 35,36
+ ###### 
+From cou.: 4 Conceptually different bond-order measures have been developed for one-determinant wave functions that are based on a simple electron counting scheme37–40 and thus provide an intuitive and convenient picture of the chemical bond. An extension of the electron-counting scheme to correlated wave functions was presented by Roos et al.40 who introduced an effective bond order between two atomic centers that is based on the natural occupation numbers of molecular orbitals and thus determined from a one-particle density matrix. As the natural occupation numbers may have non-integer values, the resulting effective bond orders will be non-integers, as well. The true bond order is defined as the lowest integer larger than or equal to the total effective bond order value.
+From Soup: 4 Conceptually different bond-order measures have been developed for one-determinant wave functions that are based on a simple electron counting scheme 37–40 and thus provide an intuitive and convenient picture of the chemical bond. An extension of the electron-counting scheme to correlated wave functions was presented by Roos et al. 40 who introduced an effective bond order between two atomic centers that is based on the natural occupation numbers of molecular orbitals and thus determined from a one-particle density matrix. As the natural occupation numbers may have non-integer values, the resulting effective bond orders will be non-integers, as well. The true bond order is defined as the lowest integer larger than or equal to the total effective bond order value.
+ ###### 
+From cou.: 5 Alternatively, the nature of the chemical bond can be investigated using concepts from quantum information theory.41–47 Following the observation that one- and two-orbital-based entanglement measures provide quantitative means for an assessment and classification of electron correlation effects among molecular orbitals,46,48 an entanglement analysis of bond-formation and dissociation processes of diatomic molecules47 was presented by some of us. Our entanglement study indicated that concepts from quantum information theory could be used to achieve deeper insights into electronic structures and molecular processes. Furthermore, entanglement measures based on many-particle reduced density matrices offer a conceptual understanding of bond-forming and bond-breaking processes. The entanglement analysis comprises two entropic measures which quantify the quantum information exchange between molecular orbitals and molecular orbital pairs:45,47 (i) the single-orbital entropy that is determined from the eigenvalues wα,i of the one-orbital reduced density matrix of a given orbital i,
+From Soup: 5 Alternatively, the nature of the chemical bond can be investigated using concepts from quantum information theory. 41–47 Following the observation that one- and two-orbital-based entanglement measures provide quantitative means for an assessment and classification of electron correlation effects among molecular orbitals, 46,48 an entanglement analysis of bond-formation and dissociation processes of diatomic molecules 47 was presented by some of us. Our entanglement study indicated that concepts from quantum information theory could be used to achieve deeper insights into electronic structures and molecular processes. Furthermore, entanglement measures based on many-particle reduced density matrices offer a conceptual understanding of bond-forming and bond-breaking processes. The entanglement analysis comprises two entropic measures which quantify the quantum information exchange between molecular orbitals and molecular orbital pairs: 45,47 (i) the single-orbital entropy that is determined from the eigenvalues w α , i of the one-orbital reduced density matrix of a given orbital i ,
+ ###### 
+From cou.: 6 α
+From Soup: 6 α
+ ###### 
+From cou.: 7 i
+From Soup: 7 i
+ ###### 
+From cou.: 8 j
+From Soup: 8 j
+ ###### 
+From cou.: 9 k
+From Soup: 9 k
+ ###### 
+From cou.: 10 k
+From Soup: 10 k
+ ###### 
+From cou.: 11 δ
+From Soup: 11 δ
+ ###### 
+From cou.: 12 ij
+From Soup: 12 ij
+ ###### 
+From cou.: 13 49
+From Soup: 13 49
+ ###### 
+From cou.: 14 s
+From Soup: 14 s
+ ###### 
+From cou.: 15 i
+From Soup: 15 i , j
+ ###### 
+From cou.: 16 j
+From Soup: 16 w
+ ###### 
+From cou.: 17 w
+From Soup: 17 α , i , j
+ ###### 
+From cou.: 18 α
+From Soup: 18 ρ
+ ###### 
+From cou.: 19 i
+From Soup: 19 i , j
+ ###### 
+From cou.: 20 j
+From Soup: 20 i
+ ###### 
+From cou.: 21 ρ
+From Soup: 21 j
+ ###### 
+From cou.: 22 i
+From Soup: 22 47
+ ###### 
+From cou.: 23 j
+From Soup: 23 So far, the entanglement analysis has been applied to the dissociation process of simple diatomic molecules, while its application to larger molecular systems has not been investigated, yet. In this work, we will study the performance of orbital-based entanglement measures in resolving bond-breaking processes and in dissecting electronic structures in terms of entangled molecular orbital building blocks for a number of diatomic and polyatomic molecules. Our set of prototypical molecules covers singly, doubly and triply bonded carbon–carbon, carbon–phosphorus and silicon–silicon centers.
+ ###### 
+From cou.: 24 i
+From Soup: 24 All molecular structures were optimized using the Amsterdam Density Functional program package 50–52 employing the BP86 53,54 exchange–correlation functional and the Triple- ζ Polarization basis set. 55 The bond lengths of the two dissociating centers ( cf. Table 1 for equilibrium bond lengths) were systematically varied while the structure of the fragments connected to these centers was relaxed (constrained geometry optimization). The optimized structures of all polyatomic molecules can be found in Tables S1–S6 of the ESI. †
+ ###### 
+From cou.: 25 j
+From Soup: 25 All Complete Active Space Self-Consistent Field 56–58 (CASSCF) calculations have been performed using the Molpro 2010.1 program package. 59 As active space, the full valence shell was taken for all molecular systems ( i.e. H: 1s; C: 2s, 2p x , 2p y and 2p z ; Si, P: 3s, 3p x , 3p y and 3p z ). For the C 2 , C 2 H 2 , C 2 H 4 and Si 2 H 4 molecules, D 2h point group symmetry was imposed, while for HCP and [CP] − C 2v point group symmetry was used. For C 2 H 6 and Si 2 H 2 , C 2h point group symmetry was set. All CASSCF active space sizes are summarized in Table 1 .
+ ###### 
+From cou.: 26 47
+From Soup: 26 For all molecules but C 2 , Dunning's cc-pVTZ basis set was used with the following contractions H: (5s,2p,1d) → [3s,2p,1d]; C, N: (10s,5p,2d,1f) → [4s,3p,2d,1f]; 60 Si, P: (15s,9p,2d,1f) → [5s,4p,2d,1f]. 61 In the case of C 2 , the large aug-cc-pVTZ basis set (C: (11s,6p,3d,2f) → [5s,4p,3d,2f] 60 ) was chosen.
+ ###### 
+From cou.: 27 So far, the entanglement analysis has been applied to the dissociation process of simple diatomic molecules, while its application to larger molecular systems has not been investigated, yet. In this work, we will study the performance of orbital-based entanglement measures in resolving bond-breaking processes and in dissecting electronic structures in terms of entangled molecular orbital building blocks for a number of diatomic and polyatomic molecules. Our set of prototypical molecules covers singly, doubly and triply bonded carbon–carbon, carbon–phosphorus and silicon–silicon centers.
+From Soup: 27 All DMRG calculations were performed using the Budapest DMRG program. 62 As orbital basis, the natural orbitals obtained from the CASSCF calculations as described in the previous section were used. The active spaces were extended by including additional virtual Fock-type orbitals for each molecule as summarized in Table 1 ; 4a g , 2b 3u , 2b 2u , 1b 1g , 4b 1u , 2b 2g , 2b 3g and 1a u for C 2 and C 2 H 2 , 3a g , 2b 3u , 2b 2u , 1b 1g , 3b 1u , 2b 2g , 2b 3g and 1a u for Si 2 H 4 , 3a g , 4b 3u , 2b 2u , 2b 1g , 2b 1u , 1b 2g , 1b 3g and 1a u for C 2 H 4 , 8a 1 , 4b 1 , 4b 2 and 2a 2 for CP and HCP (one a 1 orbital less was added to HCP), 5a g , 3a u , 5b u and 3b g for Si 2 H 2 , and finally, 5a g , 2a u , 5b u and 2b g for C 2 H 6 . We refer the reader to Table 2 for the correspondence of irreducible representations of Abelian subgroups chosen in the calculations of linear molecules and the full point group symmetry ( D ∞h and C ∞v ).
+ ###### 
+From cou.: 28 All molecular structures were optimized using the Amsterdam Density Functional program package50–52 employing the BP8653,54 exchange–correlation functional and the Triple-ζ Polarization basis set.55 The bond lengths of the two dissociating centers (cf.Table 1 for equilibrium bond lengths) were systematically varied while the structure of the fragments connected to these centers was relaxed (constrained geometry optimization). The optimized structures of all polyatomic molecules can be found in Tables S1–S6 of the ESI.†
+From Soup: 28 To enhance DMRG convergence, the orbital ordering was optimized 45 and the number of renormalized active-system states was chosen dynamically according to a predefined threshold value for the quantum information loss 63 employing the dynamic block state selection approach. 64,65 As an initial guess, the dynamically extended active-space (DEAS) procedure was applied. 63 In the DMRG calculations, the minimum and maximum number of renormalized active-system states was set to 512 and 1024, respectively, while the quantum information loss χ was set to 10 −5 in all calculations. For the C 2 molecule it was necessary to increase the maximal number of renormalized active system states to 2048. The notation DMRG( x , y )[ m max , m min , χ ] indicates that x electrons are correlated in y orbitals, while the minimal and maximal number of active-system states was set to m min and m max , respectively. The minimal number of active-system states during the DEAS initialization procedure was set equal to m max in all calculations.
+ ###### 
+From cou.: 29 All Complete Active Space Self-Consistent Field56–58 (CASSCF) calculations have been performed using the Molpro 2010.1 program package.59 As active space, the full valence shell was taken for all molecular systems (i.e. H: 1s; C: 2s, 2px, 2py and 2pz; Si, P: 3s, 3px, 3py and 3pz). For the C2, C2H2, C2H4 and Si2H4 molecules, D2h point group symmetry was imposed, while for HCP and [CP]−C2v point group symmetry was used. For C2H6 and Si2H2, C2h point group symmetry was set. All CASSCF active space sizes are summarized in Table 1.
+From Soup: 29 The convergence behavior of all DMRG calculations with respect to the DMRG parameter set is discussed in the ESI. †
+ ###### 
+From cou.: 30 For all molecules but C2, Dunning's cc-pVTZ basis set was used with the following contractions H: (5s,2p,1d) → [3s,2p,1d]; C, N: (10s,5p,2d,1f) → [4s,3p,2d,1f];60 Si, P: (15s,9p,2d,1f) → [5s,4p,2d,1f].61 In the case of C2, the large aug-cc-pVTZ basis set (C: (11s,6p,3d,2f) → [5s,4p,3d,2f]60) was chosen.
+From Soup: 30 All entanglement measures, i.e. , the single-orbital entropy ( eqn (1) ) and the mutual information ( eqn (2) ), have been determined from converged DMRG wave functions for all molecules investigated.
+ ###### 
+From cou.: 31 All DMRG calculations were performed using the Budapest DMRG program.62 As orbital basis, the natural orbitals obtained from the CASSCF calculations as described in the previous section were used. The active spaces were extended by including additional virtual Fock-type orbitals for each molecule as summarized in Table 1; 4ag, 2b3u, 2b2u, 1b1g, 4b1u, 2b2g, 2b3g and 1au for C2 and C2H2, 3ag, 2b3u, 2b2u, 1b1g, 3b1u, 2b2g, 2b3g and 1au for Si2H4, 3ag, 4b3u, 2b2u, 2b1g, 2b1u, 1b2g, 1b3g and 1au for C2H4, 8a1, 4b1, 4b2 and 2a2 for CP and HCP (one a1 orbital less was added to HCP), 5ag, 3au, 5bu and 3bg for Si2H2, and finally, 5ag, 2au, 5bu and 2bg for C2H6. We refer the reader to Table 2 for the correspondence of irreducible representations of Abelian subgroups chosen in the calculations of linear molecules and the full point group symmetry (D∞h and C∞v).
+From Soup: 31 To illustrate the entanglement measures of eqn (1) and (2) , we use a diagrammatic representation of the mutual information and single-orbital entropies as discussed in ref. 46 and 47 . Specifically, in the mutual information diagram, all orbitals are arranged on a circle and sorted clockwise according to their CASSCF occupation numbers and irreducible representation, respectively. The virtual Fock-type orbitals are sorted with respect to their energy eigenvalue. Each line in the I i , j diagram corresponds to the order of magnitude of I i , j values between orbital pair { i , j } (calculated from eqn (2) ), while the magnitude of the mutual information I i , j between each orbital pair { i , j } is color-coded; strongly entangled orbitals are connected via blue lines ( I i , j ≈ 10 −1 ), moderately entangled orbitals are linked by red lines ( I i , j ≈ 10 −2 ), while weakly entangled orbital pairs are indicated by green lines ( I i , j ≈ 10 −3 ).
+ ###### 
+From cou.: 32 To enhance DMRG convergence, the orbital ordering was optimized45 and the number of renormalized active-system states was chosen dynamically according to a predefined threshold value for the quantum information loss63 employing the dynamic block state selection approach.64,65 As an initial guess, the dynamically extended active-space (DEAS) procedure was applied.63 In the DMRG calculations, the minimum and maximum number of renormalized active-system states was set to 512 and 1024, respectively, while the quantum information loss χ was set to 10−5 in all calculations. For the C2 molecule it was necessary to increase the maximal number of renormalized active system states to 2048. The notation DMRG(x,y)[mmax,mmin,χ] indicates that x electrons are correlated in y orbitals, while the minimal and maximal number of active-system states was set to mmin and mmax, respectively. The minimal number of active-system states during the DEAS initialization procedure was set equal to mmax in all calculations.
+From Soup: 32 The single-orbital entropies, eqn (1) , and mutual information, eqn (2) , corresponding to molecular orbitals associated with a chemical bond, i.e. , the bonding and antibonding orbital pairs, are large ( s (1) i > 0.4 and I i , j ≈ 10 −1 ) when bonds are stretched, while the remaining (active space) orbitals are only moderately (0.1 < s (1) i < 0.4 and I i , j ≈ 10 −2 ) or weakly entangled ( s (1) i < 0.1 and I i , j ≈ 10 −3 ). 47 Thus, in the dissociation limit, each bonding and antibonding orbital pair that is important to describe chemical bonding between two centers becomes strongly entangled and renders the dominant contributions in the I i , j and s (1) i diagrams. This observation provides a qualitative picture of the bond multiplicity between two centers. An entanglement-based (or entropic) bond order can be determined from the total number of steep changes in the s (1) i -diagram observed in the dissociation limit after dividing by two to account for the bonding and antibonding combinations of molecular orbitals.
+ ###### 
+From cou.: 33 The convergence behavior of all DMRG calculations with respect to the DMRG parameter set is discussed in the ESI.†
+From Soup: 33 The increase in quantum entanglement observed when bonded atomic or molecular fragments are pulled apart can be mapped onto the concept of electron correlation: if bonds are stretched, the molecular system is said to have a strong multireference character where strong (static and nondynamic) electron correlation effects become dominant. In particular, molecular orbitals that are important for a correct description of nondynamic electron correlation are strongly entangled (large single-orbital entropies and mutual information). 46,47
+ ###### 
+From cou.: 34 All entanglement measures, i.e., the single-orbital entropy (eqn (1)) and the mutual information (eqn (2)), have been determined from converged DMRG wave functions for all molecules investigated.
+From Soup: 34 Furthermore, the rate of growth in s (1) i depends on the type (or entanglement strength) of a specific bond as the one- and two-orbital entanglement measures are derived from the electronic wave function. 47 For instance, s (1) i of orbitals involved in weak π-bonds increase faster than those corresponding to strong σ-bonds. A chemical bond is considered to be broken when s (1) i reaches its maximum value of ln 4 ≈ 1.386. Hence, a quantum entanglement analysis allows us to qualitatively resolve bond-breaking processes of individual σ-, π-, etc. , bonds in multi-bonded centers. 47
+ ###### 
+From cou.: 35 To illustrate the entanglement measures of eqn (1) and (2), we use a diagrammatic representation of the mutual information and single-orbital entropies as discussed in ref. 46 and 47. Specifically, in the mutual information diagram, all orbitals are arranged on a circle and sorted clockwise according to their CASSCF occupation numbers and irreducible representation, respectively. The virtual Fock-type orbitals are sorted with respect to their energy eigenvalue. Each line in the Ii,j diagram corresponds to the order of magnitude of Ii,j values between orbital pair {i,j} (calculated from eqn (2)), while the magnitude of the mutual information Ii,j between each orbital pair {i,j} is color-coded; strongly entangled orbitals are connected via blue lines (Ii,j ≈ 10−1), moderately entangled orbitals are linked by red lines (Ii,j ≈ 10−2), while weakly entangled orbital pairs are indicated by green lines (Ii,j ≈ 10−3).
+From Soup: 35 It is important to stress that our orbital-based entanglement measures ( I i , j and s (1) i ) remain unaffected by the choice of the size of the active space under the condition that the active space is balanced and provides an appropriate description of strong electron correlation effects. For all systems investigated in this work, full-valence (CASSCF) or extended full-valence (DMRG) active spaces allow for a correct description of static and nondynamic electron correlation and result in similar entropic bond orders. 47
+ ###### 
+From cou.: 36 The single-orbital entropies, eqn (1), and mutual information, eqn (2), corresponding to molecular orbitals associated with a chemical bond, i.e., the bonding and antibonding orbital pairs, are large (s(1)i > 0.4 and Ii,j ≈ 10−1) when bonds are stretched, while the remaining (active space) orbitals are only moderately (0.1 < s(1)i < 0.4 and Ii,j ≈ 10−2) or weakly entangled (s(1)i < 0.1 and Ii,j ≈ 10−3).47 Thus, in the dissociation limit, each bonding and antibonding orbital pair that is important to describe chemical bonding between two centers becomes strongly entangled and renders the dominant contributions in the Ii,j and s(1)i diagrams. This observation provides a qualitative picture of the bond multiplicity between two centers. An entanglement-based (or entropic) bond order can be determined from the total number of steep changes in the s(1)i-diagram observed in the dissociation limit after dividing by two to account for the bonding and antibonding combinations of molecular orbitals.
+From Soup: 36 4.1.1 Assessing the accuracy of entanglement-based bond orders for polyatomic molecules.
+ ###### 
+From cou.: 37 The increase in quantum entanglement observed when bonded atomic or molecular fragments are pulled apart can be mapped onto the concept of electron correlation: if bonds are stretched, the molecular system is said to have a strong multireference character where strong (static and nondynamic) electron correlation effects become dominant. In particular, molecular orbitals that are important for a correct description of nondynamic electron correlation are strongly entangled (large single-orbital entropies and mutual information).46,47
+From Soup: 37 The carbon–carbon bond is a fairly strong covalent bond, which gives rise to an enormous variety of organic molecules. The strength of this bond largely depends on its multiplicity; the higher the multiplicity the stronger the carbon–carbon bond. It is well-known and generally accepted that the carbon–carbon bond is weakest in alkanes, stronger in alkenes, and strongest in alkynes, where singly-, doubly- and triply- bonded centers are formed, respectively. 67 In this study, we choose the three lightest carbon-containing representatives of the hydrocarbon series ethane (C 2 H 6 ), ethene (C 2 H 4 ), and acetylene (C 2 H 2 ). These molecules represent a prototypical test set to study the bond multiplicities in polyatomic molecules by means of quantum entanglement. 47
+ ###### 
+From cou.: 38 Furthermore, the rate of growth in s(1)i depends on the type (or entanglement strength) of a specific bond as the one- and two-orbital entanglement measures are derived from the electronic wave function.47 For instance, s(1)i of orbitals involved in weak π-bonds increase faster than those corresponding to strong σ-bonds. A chemical bond is considered to be broken when s(1)i reaches its maximum value of ln4 ≈ 1.386. Hence, a quantum entanglement analysis allows us to qualitatively resolve bond-breaking processes of individual σ-, π-, etc., bonds in multi-bonded centers.47
+From Soup: 38 Fig. 1 shows the mutual information and single-orbital entropies obtained from DMRG(14,28) calculations for the C 2 H 6 molecule at two different carbon–carbon distances: 1.0 r e and 2.0 r e (additional entanglement diagrams for 0.8 r e and 1.5 r e can be found in the ESI † ). At the inter-nuclear distance of 1.0 r e , all orbitals are moderately and weakly entangled and it remains rather difficult to identify the bonding and antibonding combinations of molecular orbitals corresponding to the single-bond of interest. When the H 3 C fragments are stretched from their equilibrium geometry, a gradual increase in mutual information and single-orbital entropies can be observed for the bonding and antibonding p σ -orbitals ( cf. ESI † for a complete picture). The single-orbital entropy for the bonding-antibonding orbital pair (#3 and #17) reaches the value of about 0.7 in the vicinity of dissociation as shown in Fig. 1 . We should note that jumps in the mutual information can be indeed observed that occur around I ij ≈ 10 −1 (strongly entangled orbitals) and I ij ≈ 10 −2 (moderately entangled orbitals). Fig. 2 shows the decay of the 20 largest contributions to I ij for all investigated molecules and inter-atomic distances. Our entanglement analysis correctly predicts a bond order of 1 between the two carbon centers of C 2 H 6 ( cf. Fig. 1 ).
+ ###### 
+From cou.: 39 It is important to stress that our orbital-based entanglement measures (Ii,j and s(1)i) remain unaffected by the choice of the size of the active space under the condition that the active space is balanced and provides an appropriate description of strong electron correlation effects. For all systems investigated in this work, full-valence (CASSCF) or extended full-valence (DMRG) active spaces allow for a correct description of static and nondynamic electron correlation and result in similar entropic bond orders.47
+From Soup: 39 The quantum entanglement study of the C 2 H 4 molecule determined from DMRG(12,28) wave functions is illustrated in Fig. 3 (and Fig. S2 of the ESI † ). We obtain a similar entanglement profile as for C 2 H 6 , though the bonding and antibonding p π -orbitals are now more strongly entangled around the equilibrium structure than the bonding and antibonding p σ -orbitals. Pulling the CH 2 fragments apart weakens first the π-bond followed by the (stronger) σ-bond (see Fig. 2 of the ESI † for a complete picture). The entanglement-based bond order of carbon–carbon in the C 2 H 4 molecule is equal to 2.
+ ###### 
+From cou.: 40 4.1.1 Assessing the accuracy of entanglement-based bond orders for polyatomic molecules.
+From Soup: 40 The carbon–carbon bond in C 2 H 2 is dissected in Fig. 4 . Similar to C 2 H 4 , four orbitals (#8, #11, #22 and #25) have slightly higher values for the single-orbital entropy than all remaining orbitals ( s (1) i = 0.2 vs. s (1) i = 0.1) around the equilibrium distance. These are the doubly degenerate C 2p π - and C 2p π* -orbitals. Stretching the CH fragments increases, as expected, first the orbital entanglement of the C 2p π /2p π* -orbitals, followed by the bonding and antibonding combination of the C 2p z atomic orbitals. The entanglement diagram at 2.0 r e in the bottom panel of Fig. 4 correctly predicts a triple bond between the two carbon centers in the C 2 H 2 molecule.
+ ###### 
+From cou.: 41 The carbon–carbon bond is a fairly strong covalent bond, which gives rise to an enormous variety of organic molecules. The strength of this bond largely depends on its multiplicity; the higher the multiplicity the stronger the carbon–carbon bond. It is well-known and generally accepted that the carbon–carbon bond is weakest in alkanes, stronger in alkenes, and strongest in alkynes, where singly-, doubly- and triply- bonded centers are formed, respectively.67 In this study, we choose the three lightest carbon-containing representatives of the hydrocarbon series ethane (C2H6), ethene (C2H4), and acetylene (C2H2). These molecules represent a prototypical test set to study the bond multiplicities in polyatomic molecules by means of quantum entanglement.47
+From Soup: 41 In summary, our entanglement-based approach for determining bond orders, originally introduced for diatomic molecules, is transferable to polyatomic molecules and correctly predicts single, double and triple bond orders between the carbon–carbon centers in ethane, ethene and acetylene, respectively.
+ ###### 
+From cou.: 42 Fig. 1 shows the mutual information and single-orbital entropies obtained from DMRG(14,28) calculations for the C2H6 molecule at two different carbon–carbon distances: 1.0re and 2.0re (additional entanglement diagrams for 0.8re and 1.5re can be found in the ESI†). At the inter-nuclear distance of 1.0re, all orbitals are moderately and weakly entangled and it remains rather difficult to identify the bonding and antibonding combinations of molecular orbitals corresponding to the single-bond of interest. When the H3C fragments are stretched from their equilibrium geometry, a gradual increase in mutual information and single-orbital entropies can be observed for the bonding and antibonding pσ-orbitals (cf. ESI† for a complete picture). The single-orbital entropy for the bonding-antibonding orbital pair (#3 and #17) reaches the value of about 0.7 in the vicinity of dissociation as shown in Fig. 1. We should note that jumps in the mutual information can be indeed observed that occur around Iij ≈ 10−1 (strongly entangled orbitals) and Iij ≈ 10−2 (moderately entangled orbitals). Fig. 2 shows the decay of the 20 largest contributions to Iij for all investigated molecules and inter-atomic distances. Our entanglement analysis correctly predicts a bond order of 1 between the two carbon centers of C2H6 (cf.Fig. 1).
+From Soup: 42 4.1.2 Notorious case of bonding in C 2 .
+ ###### 
+From cou.: 43 The quantum entanglement study of the C2H4 molecule determined from DMRG(12,28) wave functions is illustrated in Fig. 3 (and Fig. S2 of the ESI†). We obtain a similar entanglement profile as for C2H6, though the bonding and antibonding pπ-orbitals are now more strongly entangled around the equilibrium structure than the bonding and antibonding pσ-orbitals. Pulling the CH2 fragments apart weakens first the π-bond followed by the (stronger) σ-bond (see Fig. 2 of the ESI† for a complete picture). The entanglement-based bond order of carbon–carbon in the C2H4 molecule is equal to 2.
+From Soup: 43 The formal bond order of C 2 remains a challenge for present-day chemistry. While multireference configuration interaction calculations on the carbon dimer suggested a bond order of 2 ( cf. ref. 68 ), a bond order of 4 has been anticipated, as well. 69–72 However, the presence of a quadruple bond in C 2 has been discarded in the most recent Generalized Valence-Bond (GVB) study presented in ref. 73 . Taking into account the fact that an accurate quantum chemical description of the C 2 molecule requires a multireference method, 32,68,73–81 a DMRG study combined with a quantum entanglement analysis can provide a complementary entropic perspective on the nature of bonding in C 2 .
+ ###### 
+From cou.: 44 The carbon–carbon bond in C2H2 is dissected in Fig. 4. Similar to C2H4, four orbitals (#8, #11, #22 and #25) have slightly higher values for the single-orbital entropy than all remaining orbitals (s(1)i = 0.2 vs. s(1)i = 0.1) around the equilibrium distance. These are the doubly degenerate C 2pπ- and C 2pπ*-orbitals. Stretching the CH fragments increases, as expected, first the orbital entanglement of the C 2pπ/2pπ*-orbitals, followed by the bonding and antibonding combination of the C 2pz atomic orbitals. The entanglement diagram at 2.0re in the bottom panel of Fig. 4 correctly predicts a triple bond between the two carbon centers in the C2H2 molecule.
+From Soup: 44 As summarized in Fig. 5 , the C 2 molecule contains strongly entangled orbitals (#2 and #14) already around the equilibrium distance (compare Fig. 5 and Fig. 1, 3 and 4 ). These strongly correlated orbitals correspond to the 2p σ and 2p σ* molecular orbitals. When the two carbon atoms are pulled apart, the single-orbital entropies associated with the 2p σ /2p σ* -orbital pair (#2 and #14) gradually decrease from 0.8 at 0.8 r e to less than 0.2 at 2.0 r e . Simultaneously, the entanglement of the degenerate 2p π and 2p π* molecular orbital pairs increases from 0.3 at 0.8 r e to 1.2 at 2.0 r e .
+ ###### 
+From cou.: 45 In summary, our entanglement-based approach for determining bond orders, originally introduced for diatomic molecules, is transferable to polyatomic molecules and correctly predicts single, double and triple bond orders between the carbon–carbon centers in ethane, ethene and acetylene, respectively.
+From Soup: 45 We should note that, based on our observations, a true π-bond is associated with strongly entangled p π /p π* -orbital pairs, which comprise larger s (1) i -values than those obtained for σ/σ*-orbital pairs. A separation of the carbon–carbon centers to 2.0 r e gives rise to the traditional π-double bond (dominant contributions to s (1) i ) similar to that found in acetylene, while the 2p σ /2p σ* -orbital pairs do not participate in the chemical bonding (vanishing s (1) i ). Around the bond-breaking region of 1.5 r e , we observe a gradual transition of the singly-bonded C 2 molecule, over two triply-bonded centers to a purely doubly-bonded system.
+ ###### 
+From cou.: 46 4.1.2 Notorious case of bonding in C2.
+From Soup: 46 Our observations underline the complex nature of the chemical bond in the C 2 molecule, which clearly deviates from the classical bonding prototype of single, double and triple bond. Finally, it is important to note that our entanglement analysis is in agreement with the most recent GVB study; 73 elucidating that the C 2 molecule around the equilibrium distance is well-described “as having a traditional covalent σ-bond”. However, our entanglement analysis cannot resolve the antiferromagnetically coupled electrons in the remaining π-orbitals, 32,73 due to the delocalized natural orbital basis used in this study, where all states equally contribute to s (1) i (see Fig. S7 of the ESI, † where the contribution of each component of the single-orbital entropy is presented).
+ ###### 
+From cou.: 47 The formal bond order of C2 remains a challenge for present-day chemistry. While multireference configuration interaction calculations on the carbon dimer suggested a bond order of 2 (cf.ref. 68), a bond order of 4 has been anticipated, as well.69–72 However, the presence of a quadruple bond in C2 has been discarded in the most recent Generalized Valence-Bond (GVB) study presented in ref. 73. Taking into account the fact that an accurate quantum chemical description of the C2 molecule requires a multireference method,32,68,73–81 a DMRG study combined with a quantum entanglement analysis can provide a complementary entropic perspective on the nature of bonding in C2.
+From Soup: 47 Si 2 H 2 and Si 2 H 4 are heavier homologues of ethene and acetylene. They exhibit a peculiar nature of the chemical bond that is notably different from those between the carbon centers in C 2 H 2 and C 2 H 4 , respectively. 82 The complexity of the chemical bond in these systems originates (a) from their “trans-bent” geometries 83–85 (by contrast, C 2 H 4 is planar and C 2 H 2 is linear in their equilibrium structures), (b) from the energetical preference for low-spin states located at the Si centers upon Si–Si bond dissociation, 86–89 and (c) differences in the spatial distribution of s- and p-orbitals. 5
+ ###### 
+From cou.: 48 As summarized in Fig. 5, the C2 molecule contains strongly entangled orbitals (#2 and #14) already around the equilibrium distance (compare Fig. 5 and Fig. 1, 3 and 4). These strongly correlated orbitals correspond to the 2pσ and 2pσ* molecular orbitals. When the two carbon atoms are pulled apart, the single-orbital entropies associated with the 2pσ/2pσ*-orbital pair (#2 and #14) gradually decrease from 0.8 at 0.8re to less than 0.2 at 2.0re. Simultaneously, the entanglement of the degenerate 2pπ and 2pπ* molecular orbital pairs increases from 0.3 at 0.8re to 1.2 at 2.0re.
+From Soup: 48 For simplicity, we imposed a planar geometry on the Si 2 H 4 molecule. Fig. 6 illustrates the performance of the entanglement-based bond analysis for Si 2 H 4 obtained from DMRG(12,28) calculations. The entanglement diagrams are similar to those of C 2 H 4 indicating doubly-bonded Si–Si centers. The double bond in the Si 2 H 4 compound in its planar structure was also approved in recent theoretical studies. 90–94
+ ###### 
+From cou.: 49 We should note that, based on our observations, a true π-bond is associated with strongly entangled pπ/pπ*-orbital pairs, which comprise larger s(1)i-values than those obtained for σ/σ*-orbital pairs. A separation of the carbon–carbon centers to 2.0re gives rise to the traditional π-double bond (dominant contributions to s(1)i) similar to that found in acetylene, while the 2pσ/2pσ*-orbital pairs do not participate in the chemical bonding (vanishing s(1)i). Around the bond-breaking region of 1.5re, we observe a gradual transition of the singly-bonded C2 molecule, over two triply-bonded centers to a purely doubly-bonded system.
+From Soup: 49 Fig. 7 depicts the entanglement profiles for breaking the Si–Si centers in the Si 2 H 2 molecule, obtained form DMRG(10,28) calculations, where we imposed the “trans-bent” geometry close to the equilibrium. At 0.8 r e and 1.0 r e , four orbitals are moderately entangled (#3, #10, #15, #23) that correspond to the 3p n - and 3p n* -orbitals (#3 and #10, lone-pair type bonds 87 ) and to the 3p π - and 3p π* -orbitals (#16 and #23), respectively. Stretching the Si–Si centers leads to structural changes from “trans-bent” to “trans-perpendicular” geometries (see Table S6 of the ESI † for more details). Upon dissociation, the single-orbital entropy of orbitals involved in π-type bonding increases fastest and reaches a maximum value of 0.85 at 1.5 r e . At larger inter-atomic Si–Si distances, s (1) i slightly decreases to 0.8, while the single-orbital entropies of the lone-pair orbital pairs decline to about 0.3 around 2.0 r e . This peculiar behavior is caused by structural changes and the reorientation of the Si–H fragments with respect to each other upon dissociation. The quantum-entanglement diagrams extracted at 2.0 r e point to a single π-type bonding in the Si 2 H 2 molecule, supported by one weakly entangled bond attributed to the interaction between both Si lone-pairs. We should note, however, that this lone-pair ‘bond’ 87 comprises the most strongly entangled orbitals around the equilibrium structure.
+ ###### 
+From cou.: 50 Our observations underline the complex nature of the chemical bond in the C2 molecule, which clearly deviates from the classical bonding prototype of single, double and triple bond. Finally, it is important to note that our entanglement analysis is in agreement with the most recent GVB study;73 elucidating that the C2 molecule around the equilibrium distance is well-described “as having a traditional covalent σ-bond”. However, our entanglement analysis cannot resolve the antiferromagnetically coupled electrons in the remaining π-orbitals,32,73 due to the delocalized natural orbital basis used in this study, where all states equally contribute to s(1)i (see Fig. S7 of the ESI,† where the contribution of each component of the single-orbital entropy is presented).
+From Soup: 50 The entanglement-based bond analysis agrees well with other theoretical findings that the Si 2 H 2 molecule has a double bond in its “trans-bent” geometry and a single bond in its “trans-perpendicular” structure. 87,89,95 Our study also supports the hypothesis that the Si–Si bond in Si 2 H 2 is a combination of one π- and one “donor–acceptor” lone-pair-bond. 87,89
+ ###### 
+From cou.: 51 Si2H2 and Si2H4 are heavier homologues of ethene and acetylene. They exhibit a peculiar nature of the chemical bond that is notably different from those between the carbon centers in C2H2 and C2H4, respectively.82 The complexity of the chemical bond in these systems originates (a) from their “trans-bent” geometries83–85 (by contrast, C2H4 is planar and C2H2 is linear in their equilibrium structures), (b) from the energetical preference for low-spin states located at the Si centers upon Si–Si bond dissociation,86–89 and (c) differences in the spatial distribution of s- and p-orbitals.5
+From Soup: 51 The discovery of phosphoalkynes by Gier 96 in 1961 paved the way for a new type of chemistry. The more diffuse nature of the phosphorus valence orbitals gives rise to a variety of interesting bonding properties with lighter first-row elements. Notably, the ground state of the phosphorus atom is a quadruplet, allowing the formation of a formal triple bond with the carbon atom.
+ ###### 
+From cou.: 52 For simplicity, we imposed a planar geometry on the Si2H4 molecule. Fig. 6 illustrates the performance of the entanglement-based bond analysis for Si2H4 obtained from DMRG(12,28) calculations. The entanglement diagrams are similar to those of C2H4 indicating doubly-bonded Si–Si centers. The double bond in the Si2H4 compound in its planar structure was also approved in recent theoretical studies.90–94
+From Soup: 52 This hypothesis can be elucidated by studying the quantum entanglement of carbon–phosphorus bonding in the CP and [HCP − ] prototypical molecules. An entanglement-bond analysis based on DMRG(10,26) calculations is presented in Fig. 8 and 9 for the CP and [HCP − ] moieties, respectively. At a distance of 1.0 r e in both molecules, the π/π*-orbitals (#14, #13, #19, and #30) are moderately entangled while all other orbitals are only weakly entangled. Upon dissociation the single-orbital entropies associated with the degenerate π/π*-orbital pairs, corresponding to the bonding and antibonding combinations of C 2p π - and P 3p π -orbitals, increase faster than those of the σ/σ*-orbital pairs, (#3 and #4), which correspond to the bonding and antibonding combinations of C 2p σ - and P 3p σ -orbitals. In both molecules, the maximum of s (1) i for π-orbitals is reached at 2.0 r e and equals approximately 1.3. The additional presence of highly entangled σ-orbitals at this distance clearly indicates a triple bond between carbon and phosphorus in the CP and [HCP − ] molecules. The entanglement nature of this bond is quite similar to what we observed for the triply bonded carbon–carbon centers in the C 2 H 2 molecule ( cf. Fig. 4 ) as well as to the triply bonded dinitrogen molecule discussed in ref. 47 . We should emphasize that all triply bonded centers studied possess similar decays of the mutual information as illustrated in Fig. 2 . Finally, it is worth mentioning that our findings are in line with previously reported density functional theory studies of carbon–phosphorus bonding in the [CP] − and HCP molecules. 97
+ ###### 
+From cou.: 53 Fig. 7 depicts the entanglement profiles for breaking the Si–Si centers in the Si2H2 molecule, obtained form DMRG(10,28) calculations, where we imposed the “trans-bent” geometry close to the equilibrium. At 0.8re and 1.0re, four orbitals are moderately entangled (#3, #10, #15, #23) that correspond to the 3pn- and 3pn*-orbitals (#3 and #10, lone-pair type bonds87) and to the 3pπ- and 3pπ*-orbitals (#16 and #23), respectively. Stretching the Si–Si centers leads to structural changes from “trans-bent” to “trans-perpendicular” geometries (see Table S6 of the ESI† for more details). Upon dissociation, the single-orbital entropy of orbitals involved in π-type bonding increases fastest and reaches a maximum value of 0.85 at 1.5re. At larger inter-atomic Si–Si distances, s(1)i slightly decreases to 0.8, while the single-orbital entropies of the lone-pair orbital pairs decline to about 0.3 around 2.0re. This peculiar behavior is caused by structural changes and the reorientation of the Si–H fragments with respect to each other upon dissociation. The quantum-entanglement diagrams extracted at 2.0re point to a single π-type bonding in the Si2H2 molecule, supported by one weakly entangled bond attributed to the interaction between both Si lone-pairs. We should note, however, that this lone-pair ‘bond’87 comprises the most strongly entangled orbitals around the equilibrium structure.
+From Soup: 53 We presented an entanglement-based bond order analysis of carbon–carbon, silicon–silicon and carbon–phosphorus centers. Our approach embraces the mutual information and single-orbital entropy and correctly reproduces bond multiplicities in simple polyatomic molecules like ethane, ethene and acetylene, and confirms the triple bonding between the carbon–phosphorus centers in the [CP] − and HCP molecules. The behavior of phosphorus in these prototypical phosphoalkynes closely resembles the bonding situation in the N 2 and C 2 H 2 molecules.
+ ###### 
+From cou.: 54 The entanglement-based bond analysis agrees well with other theoretical findings that the Si2H2 molecule has a double bond in its “trans-bent” geometry and a single bond in its “trans-perpendicular” structure.87,89,95 Our study also supports the hypothesis that the Si–Si bond in Si2H2 is a combination of one π- and one “donor–acceptor” lone-pair-bond.87,89
+From Soup: 54 Furthermore, our analysis confirms that the nature of the chemical bond in the C 2 molecule is far more complicated than for their higher substituted analogs like C 2 H 6 , C 2 H 4 , and C 2 H 2 . Stretching the C–C bond in C 2 does not yield a gradually increasing entanglement pattern, which is an indication of the complexity of chemical bonding in the carbon dimer. We also observed such an exceptional behavior of chemical bonding between the Si–Si centers in the Si 2 H 2 molecule, which can be explained by structural rearrangements of the SiH fragments upon dissociation.
+ ###### 
+From cou.: 55 The discovery of phosphoalkynes by Gier96 in 1961 paved the way for a new type of chemistry. The more diffuse nature of the phosphorus valence orbitals gives rise to a variety of interesting bonding properties with lighter first-row elements. Notably, the ground state of the phosphorus atom is a quadruplet, allowing the formation of a formal triple bond with the carbon atom.
+From Soup: 55 The authors gratefully acknowledge financial support from the Swiss National Science Foundation SNSF (project 200020-144458/1), and from the Hungarian Research Fund (OTKA) under Grant No. K100908 and NN110360. P.T. gratefully acknowledges financial support from the Natural Sciences and Engineering Research Council of Canada. K.B. acknowledges the financial support from the Swiss National Science Foundation (P2EZP2 148650). Ö.L. acknowledges support from the Alexander von Humboldt foundation and from ETH Zürich during his tenure as a visiting professor.
+ ###### 
+From cou.: 56 This hypothesis can be elucidated by studying the quantum entanglement of carbon–phosphorus bonding in the CP and [HCP−] prototypical molecules. An entanglement-bond analysis based on DMRG(10,26) calculations is presented in Fig. 8 and 9 for the CP and [HCP−] moieties, respectively. At a distance of 1.0re in both molecules, the π/π*-orbitals (#14, #13, #19, and #30) are moderately entangled while all other orbitals are only weakly entangled. Upon dissociation the single-orbital entropies associated with the degenerate π/π*-orbital pairs, corresponding to the bonding and antibonding combinations of C 2pπ- and P 3pπ-orbitals, increase faster than those of the σ/σ*-orbital pairs, (#3 and #4), which correspond to the bonding and antibonding combinations of C 2pσ- and P 3pσ-orbitals. In both molecules, the maximum of s(1)i for π-orbitals is reached at 2.0re and equals approximately 1.3. The additional presence of highly entangled σ-orbitals at this distance clearly indicates a triple bond between carbon and phosphorus in the CP and [HCP−] molecules. The entanglement nature of this bond is quite similar to what we observed for the triply bonded carbon–carbon centers in the C2H2 molecule (cf.Fig. 4) as well as to the triply bonded dinitrogen molecule discussed in ref. 47. We should emphasize that all triply bonded centers studied possess similar decays of the mutual information as illustrated in Fig. 2. Finally, it is worth mentioning that our findings are in line with previously reported density functional theory studies of carbon–phosphorus bonding in the [CP]− and HCP molecules.97
+From Soup: 56 R. Bartlett, Comparison of Ab Initio Quantum Chemistry with Experiment for Small Molecules , Springer, 1984 Search PubMed .
+ ###### 
+From cou.: 57 We presented an entanglement-based bond order analysis of carbon–carbon, silicon–silicon and carbon–phosphorus centers. Our approach embraces the mutual information and single-orbital entropy and correctly reproduces bond multiplicities in simple polyatomic molecules like ethane, ethene and acetylene, and confirms the triple bonding between the carbon–phosphorus centers in the [CP]− and HCP molecules. The behavior of phosphorus in these prototypical phosphoalkynes closely resembles the bonding situation in the N2 and C2H2 molecules.
+From Soup: 57 T. Helgaker, P. Jørgensen and J. Olsen, Molecular Electronic-Structure Theory , Wiley, 2000 Search PubMed .
+ ###### 
+From cou.: 58 Furthermore, our analysis confirms that the nature of the chemical bond in the C2 molecule is far more complicated than for their higher substituted analogs like C2H6, C2H4, and C2H2. Stretching the C–C bond in C2 does not yield a gradually increasing entanglement pattern, which is an indication of the complexity of chemical bonding in the carbon dimer. We also observed such an exceptional behavior of chemical bonding between the Si–Si centers in the Si2H2 molecule, which can be explained by structural rearrangements of the SiH fragments upon dissociation.
+From Soup: 58 R. J. Bartlett and M. Musiał, Rev. Mod. Phys. , 2007, 79 , 291–350 CrossRef CAS .
+ ###### 
+From cou.: 59 The authors gratefully acknowledge financial support from the Swiss National Science Foundation SNSF (project 200020-144458/1), and from the Hungarian Research Fund (OTKA) under Grant No. K100908 and NN110360. P.T. gratefully acknowledges financial support from the Natural Sciences and Engineering Research Council of Canada. K.B. acknowledges the financial support from the Swiss National Science Foundation (P2EZP2 148650). Ö.L. acknowledges support from the Alexander von Humboldt foundation and from ETH Zürich during his tenure as a visiting professor.
+From Soup: 59 A. J. Cohen, P. Mori-Sánchez and W. Yang, Chem. Rev. , 2012, 112 , 289 CrossRef CAS PubMed .
+ ###### 
+From cou.: 60 R. Bartlett, Comparison of Ab Initio Quantum Chemistry with Experiment for Small Molecules, Springer, 1984 Search PubMed .
+From Soup: 60 W. Kutzelnigg, Angew. Chem., Int. Ed. Engl. , 1984, 23 , 272–295 CrossRef .
+ ###### 
+From cou.: 61 T. Helgaker, P. Jørgensen and J. Olsen, Molecular Electronic-Structure Theory, Wiley, 2000 Search PubMed .
+From Soup: 61 A. E. Clark and E. R. Davidson, J. Chem. Phys. , 2001, 115 , 7382–7392 CrossRef CAS .
+ ###### 
+From cou.: 62 R. J. Bartlett and M. Musiał, Rev. Mod. Phys., 2007, 79, 291–350 CrossRef CAS .
+From Soup: 62 E. R. Davidson and A. E. Clark, Mol. Phys. , 2001, 100 , 373–383 CrossRef .
+ ###### 
+From cou.: 63 A. J. Cohen, P. Mori-Sánchez and W. Yang, Chem. Rev., 2012, 112, 289 CrossRef CAS PubMed .
+From Soup: 63 A. E. Clark and E. R. Davidson, J. Phys. Chem. A , 2002, 106 , 6890–6896 CrossRef CAS .
+ ###### 
+From cou.: 64 W. Kutzelnigg, Angew. Chem., Int. Ed. Engl., 1984, 23, 272–295 CrossRef .
+From Soup: 64 C. Herrmann, M. Reiher and B. A. Hess, J. Chem. Phys. , 2005, 122 , 34102 CrossRef PubMed .
+ ###### 
+From cou.: 65 A. E. Clark and E. R. Davidson, J. Chem. Phys., 2001, 115, 7382–7392 CrossRef CAS .
+From Soup: 65 C. Herrmann, L. Yu and M. Reiher, J. Comput. Chem. , 2006, 27 , 1223–1239 CrossRef CAS PubMed .
+ ###### 
+From cou.: 66 E. R. Davidson and A. E. Clark, Mol. Phys., 2001, 100, 373–383 CrossRef .
+From Soup: 66 I. Mayer, Chem. Phys. Lett. , 2007, 440 , 357–359 CrossRef CAS .
+ ###### 
+From cou.: 67 A. E. Clark and E. R. Davidson, J. Phys. Chem. A, 2002, 106, 6890–6896 CrossRef CAS .
+From Soup: 67 E. R. Davidson and A. E. Clark, Phys. Chem. Chem. Phys. , 2007, 9 , 1881–1894 RSC .
+ ###### 
+From cou.: 68 C. Herrmann, M. Reiher and B. A. Hess, J. Chem. Phys., 2005, 122, 34102 CrossRef PubMed .
+From Soup: 68 M. Reiher, Faraday Discuss. , 2007, 135 , 97–124 RSC .
+ ###### 
+From cou.: 69 C. Herrmann, L. Yu and M. Reiher, J. Comput. Chem., 2006, 27, 1223–1239 CrossRef CAS PubMed .
+From Soup: 69 M. Podewitz, C. Herrmann, A. Malassa, M. Westerhausen and M. Reiher, Chem. Phys. Lett. , 2008, 451 , 301–308 CrossRef CAS .
+ ###### 
+From cou.: 70 I. Mayer, Chem. Phys. Lett., 2007, 440, 357–359 CrossRef CAS .
+From Soup: 70 D. R. Alcoba, L. Lain, A. Torre and R. C. Bochicchio, Chem. Phys. Lett. , 2009, 470 , 136–139 CrossRef CAS .
+ ###### 
+From cou.: 71 E. R. Davidson and A. E. Clark, Phys. Chem. Chem. Phys., 2007, 9, 1881–1894 RSC .
+From Soup: 71 I. Mayer, Chem. Phys. Lett. , 2009, 478 , 323–326 CrossRef CAS .
+ ###### 
+From cou.: 72 M. Reiher, Faraday Discuss., 2007, 135, 97–124 RSC .
+From Soup: 72 M. Podewitz and M. Reiher, Adv. Inorg. Chem. , 2010, 62 , 177–230 CrossRef CAS .
+ ###### 
+From cou.: 73 M. Podewitz, C. Herrmann, A. Malassa, M. Westerhausen and M. Reiher, Chem. Phys. Lett., 2008, 451, 301–308 CrossRef CAS .
+From Soup: 73 A. Torre, D. R. Alcoba, L. Lain and R. C. Bochicchio, J. Phys. Chem. A , 2010, 114 , 2344–2349 CrossRef CAS PubMed .
+ ###### 
+From cou.: 74 D. R. Alcoba, L. Lain, A. Torre and R. C. Bochicchio, Chem. Phys. Lett., 2009, 470, 136–139 CrossRef CAS .
+From Soup: 74 I. Mayer and E. Matito, Phys. Chem. Chem. Phys. , 2010, 12 , 11308–11314 RSC .
+ ###### 
+From cou.: 75 I. Mayer, Chem. Phys. Lett., 2009, 478, 323–326 CrossRef CAS .
+From Soup: 75 D. R. Alcoba, A. Torre, L. Lain and R. C. Bochicchio, J. Chem. Theory Comput. , 2011, 7 , 3560–3566 CrossRef CAS .
+ ###### 
+From cou.: 76 M. Podewitz and M. Reiher, Adv. Inorg. Chem., 2010, 62, 177–230 CrossRef CAS .
+From Soup: 76 D. R. Alcoba, A. Torre, L. Lain and R. C. Bochicchio, Chem. Phys. Lett. , 2011, 504 , 236–240 CrossRef CAS .
+ ###### 
+From cou.: 77 A. Torre, D. R. Alcoba, L. Lain and R. C. Bochicchio, J. Phys. Chem. A, 2010, 114, 2344–2349 CrossRef CAS PubMed .
+From Soup: 77 E. Ramos-Cordoba, E. Matito, I. Mayer and P. Salvador, J. Chem. Theory Comput. , 2012, 8 , 1270–1279 CrossRef CAS .
+ ###### 
+From cou.: 78 I. Mayer and E. Matito, Phys. Chem. Chem. Phys., 2010, 12, 11308–11314 RSC .
+From Soup: 78 P. Geerlings, F. De Proft and W. Langenaeker, Chem. Rev. , 2003, 103 , 1793–1873 CrossRef CAS PubMed .
+ ###### 
+From cou.: 79 D. R. Alcoba, A. Torre, L. Lain and R. C. Bochicchio, J. Chem. Theory Comput., 2011, 7, 3560–3566 CrossRef CAS .
+From Soup: 79 K. B. Wiberg, Tetrahedron , 1968, 24 , 1083–1096 CrossRef CAS .
+ ###### 
+From cou.: 80 D. R. Alcoba, A. Torre, L. Lain and R. C. Bochicchio, Chem. Phys. Lett., 2011, 504, 236–240 CrossRef CAS .
+From Soup: 80 D. R. Armstrong, P. G. Perkins and J. J. P. Stewart, J. Chem. Soc., Dalton Trans. , 1973, 838–840 RSC .
+ ###### 
+From cou.: 81 E. Ramos-Cordoba, E. Matito, I. Mayer and P. Salvador, J. Chem. Theory Comput., 2012, 8, 1270–1279 CrossRef CAS .
+From Soup: 81 M. A. Natiello and J. A. Medrano, Chem. Phys. Lett. , 1984, 105 , 180–182 CrossRef CAS .
+ ###### 
+From cou.: 82 P. Geerlings, F. De Proft and W. Langenaeker, Chem. Rev., 2003, 103, 1793–1873 CrossRef CAS PubMed .
+From Soup: 82 I. Mayer, Theor. Chim. Acta , 1985, 67 , 315–322 CrossRef CAS .
+ ###### 
+From cou.: 83 K. B. Wiberg, Tetrahedron, 1968, 24, 1083–1096 CrossRef CAS .
+From Soup: 83 I. Mayer, Int. J. Quantum Chem. , 1986, 29 , 73–84 CrossRef CAS .
+ ###### 
+From cou.: 84 D. R. Armstrong, P. G. Perkins and J. J. P. Stewart, J. Chem. Soc., Dalton Trans., 1973, 838–840 RSC .
+From Soup: 84 R. C. Bochicchio, J. Mol. Struct. , 1991, 228 , 209–225 CrossRef .
+ ###### 
+From cou.: 85 M. A. Natiello and J. A. Medrano, Chem. Phys. Lett., 1984, 105, 180–182 CrossRef CAS .
+From Soup: 85 D. R. Alcoba, R. C. Bochicchio, L. Lain and A. Torre, Chem. Phys. Lett. , 2007, 442 , 157–163 CrossRef CAS .
+ ###### 
+From cou.: 86 I. Mayer, Theor. Chim. Acta, 1985, 67, 315–322 CrossRef CAS .
+From Soup: 86 I. Mayer, J. Comput. Chem. , 2007, 28 , 204–221 CrossRef CAS PubMed .
+ ###### 
+From cou.: 87 I. Mayer, Int. J. Quantum Chem., 1986, 29, 73–84 CrossRef CAS .
+From Soup: 87 E. Ramos-Cordoba, P. Salvador and M. Reiher, Chem. – Eur. J. , 2013, 19 , 15267–15275 CrossRef CAS PubMed .
+ ###### 
+From cou.: 88 R. C. Bochicchio, J. Mol. Struct., 1991, 228, 209–225 CrossRef .
+From Soup: 88 I. Mayer, Chem. Phys. Lett. , 1983, 97 , 270–274 CrossRef CAS .
+ ###### 
+From cou.: 89 D. R. Alcoba, R. C. Bochicchio, L. Lain and A. Torre, Chem. Phys. Lett., 2007, 442, 157–163 CrossRef CAS .
+From Soup: 89 I. Mayer, Int. J. Quantum Chem. , 1986, XXIX , 477–483 CrossRef .
+ ###### 
+From cou.: 90 I. Mayer, J. Comput. Chem., 2007, 28, 204–221 CrossRef CAS PubMed .
+From Soup: 90 D. R. Alcoba, R. C. Bochicchio, L. Lain and A. Torre, Phys. Chem. Chem. Phys. , 2008, 10 , 5144–5146 RSC .
+ ###### 
+From cou.: 91 E. Ramos-Cordoba, P. Salvador and M. Reiher, Chem. – Eur. J., 2013, 19, 15267–15275 CrossRef CAS PubMed .
+From Soup: 91 R. M. Lobayan, D. R. Alcoba, R. C. Bochicchio, A. Torre and L. Lain, J. Phys. Chem. A , 2010, 114 , 1200–1206 CrossRef CAS PubMed .
+ ###### 
+From cou.: 92 I. Mayer, Chem. Phys. Lett., 1983, 97, 270–274 CrossRef CAS .
+From Soup: 92 G. Herzberg, Z. Phys. , 1929, 57 , 601–630 CrossRef CAS .
+ ###### 
+From cou.: 93 I. Mayer, Int. J. Quantum Chem., 1986, XXIX, 477–483 CrossRef .
+From Soup: 93 M. B. Hall, Polyhedron , 1987, 6 , 679–684 CrossRef CAS .
+ ###### 
+From cou.: 94 D. R. Alcoba, R. C. Bochicchio, L. Lain and A. Torre, Phys. Chem. Chem. Phys., 2008, 10, 5144–5146 RSC .
+From Soup: 94 M. Brynda, L. Gagliardi, P.-O. Widmark, P. P. Power and B. O. Roos, Angew. Chem., Int. Ed. , 2006, 45 , 3804–3807 CrossRef CAS PubMed .
+ ###### 
+From cou.: 95 R. M. Lobayan, D. R. Alcoba, R. C. Bochicchio, A. Torre and L. Lain, J. Phys. Chem. A, 2010, 114, 1200–1206 CrossRef CAS PubMed .
+From Soup: 95 B. O. Roos, A. C. Borin and L. Gagliardi, Angew. Chem., Int. Ed. , 2007, 46 , 1469–1472 CrossRef CAS PubMed .
+ ###### 
+From cou.: 96 G. Herzberg, Z. Phys., 1929, 57, 601–630 CrossRef CAS .
+From Soup: 96 R. F. Nalewajski, J. Phys. Chem. A , 2000, 104 , 11940–11951 CrossRef CAS .
+ ###### 
+From cou.: 97 M. B. Hall, Polyhedron, 1987, 6, 679–684 CrossRef CAS .
+From Soup: 97 R. F. Nalewajski, Mol. Phys. , 2004, 102 , 531–546 CrossRef CAS .
+ ###### 
+From cou.: 98 M. Brynda, L. Gagliardi, P.-O. Widmark, P. P. Power and B. O. Roos, Angew. Chem., Int. Ed., 2006, 45, 3804–3807 CrossRef CAS PubMed .
+From Soup: 98 R. F. Nalewajski, J. Math. Chem. , 2009, 47 , 692–708 CrossRef .
+ ###### 
+From cou.: 99 B. O. Roos, A. C. Borin and L. Gagliardi, Angew. Chem., Int. Ed., 2007, 46, 1469–1472 CrossRef CAS PubMed .
+From Soup: 99 R. F. Nalewajski and P. Gurdek, Struct. Chem. , 2012, 1383–1398 CrossRef CAS .
+ ###### 
+From cou.: 100 R. F. Nalewajski, J. Phys. Chem. A, 2000, 104, 11940–11951 CrossRef CAS .
+From Soup: 100 G. Barcza, O. Legeza, K. H. Marti and M. Reiher, Phys. Rev. A: At., Mol., Opt. Phys. , 2011, 83 , 12508 CrossRef .
+ ###### 
+From cou.: 101 R. F. Nalewajski, Mol. Phys., 2004, 102, 531–546 CrossRef CAS .
+From Soup: 101 K. Boguslawski, P. Tecmer, O. Legeza and M. Reiher, J. Phys. Chem. Lett. , 2012, 3 , 3129–3135 CrossRef CAS PubMed .
+ ###### 
+From cou.: 102 R. F. Nalewajski, J. Math. Chem., 2009, 47, 692–708 CrossRef .
+From Soup: 102 K. Boguslawski, P. Tecmer, G. Barcza, Ö. Legeza and M. Reiher, J. Chem. Theory Comput. , 2013, 9 , 2959–2973 CrossRef CAS .
+ ###### 
+From cou.: 103 R. F. Nalewajski and P. Gurdek, Struct. Chem., 2012, 1383–1398 CrossRef CAS .
+From Soup: 103 P. Tecmer, K. Boguslawski, O. Legeza and M. Reiher, Phys. Chem. Chem. Phys. , 2014, 16 , 719–727 RSC .
+ ###### 
+From cou.: 104 G. Barcza, O. Legeza, K. H. Marti and M. Reiher, Phys. Rev. A: At., Mol., Opt. Phys., 2011, 83, 12508 CrossRef .
+From Soup: 104 J. Rissler, R. M. Noack and S. R. White, Chem. Phys. , 2006, 323 , 519–531 CrossRef CAS .
+ ###### 
+From cou.: 105 K. Boguslawski, P. Tecmer, O. Legeza and M. Reiher, J. Phys. Chem. Lett., 2012, 3, 3129–3135 CrossRef CAS PubMed .
+From Soup: 105 ADF2012.01, SCM, Theoretical Chemistry, Vrije Universiteit, Amsterdam, The Netherlands, http://www.scm.com.
+ ###### 
+From cou.: 106 K. Boguslawski, P. Tecmer, G. Barcza, Ö. Legeza and M. Reiher, J. Chem. Theory Comput., 2013, 9, 2959–2973 CrossRef CAS .
+From Soup: 106 G. te Velde, F. M. Bickelhaupt, S. J. A. van Gisbergen, C. F. Guerra, E. J. Baerends, J. G. Snijders and T. Ziegler, J. Comput. Chem. , 2001, 22 , 931–967 CrossRef CAS .
+ ###### 
+From cou.: 107 P. Tecmer, K. Boguslawski, O. Legeza and M. Reiher, Phys. Chem. Chem. Phys., 2014, 16, 719–727 RSC .
+From Soup: 107 C. F. Guerra, J. G. Snijders, G. te Velde and E. J. Baerends, Theor. Chem. Acc. , 1998, 99 , 391 CAS .
+ ###### 
+From cou.: 108 J. Rissler, R. M. Noack and S. R. White, Chem. Phys., 2006, 323, 519–531 CrossRef CAS .
+From Soup: 108 J. P. Perdew, Phys. Rev. B: Condens. Matter Mater. Phys. , 1986, 33 , 8822–8824 CrossRef .
+ ###### 
+From cou.: 109 ADF2012.01, SCM, Theoretical Chemistry, Vrije Universiteit, Amsterdam, The Netherlands, http://www.scm.com.
+From Soup: 109 A. Becke, Phys. Rev. A: At., Mol., Opt. Phys. , 1988, 38 , 3098–3100 CrossRef CAS .
+ ###### 
+From cou.: 110 G. te Velde, F. M. Bickelhaupt, S. J. A. van Gisbergen, C. F. Guerra, E. J. Baerends, J. G. Snijders and T. Ziegler, J. Comput. Chem., 2001, 22, 931–967 CrossRef CAS .
+From Soup: 110 E. van Lenthe and E. J. Baerends, J. Comput. Chem. , 2003, 24 , 1142 CrossRef CAS PubMed .
+ ###### 
+From cou.: 111 C. F. Guerra, J. G. Snijders, G. te Velde and E. J. Baerends, Theor. Chem. Acc., 1998, 99, 391 CAS .
+From Soup: 111 B. Roos and P. R. Taylor, Chem. Phys. , 1980, 48 , 157–173 CrossRef CAS .
+ ###### 
+From cou.: 112 J. P. Perdew, Phys. Rev. B: Condens. Matter Mater. Phys., 1986, 33, 8822–8824 CrossRef .
+From Soup: 112 H.-J. Werner and P. J. Knowles, J. Chem. Phys. , 1985, 82 , 5053–5063 CrossRef CAS .
+ ###### 
+From cou.: 113 A. Becke, Phys. Rev. A: At., Mol., Opt. Phys., 1988, 38, 3098–3100 CrossRef CAS .
+From Soup: 113 P. J. Knowles and H.-J. Werner, Chem. Phys. Lett. , 1985, 115 , 259–267 CrossRef CAS .
+ ###### 
+From cou.: 114 E. van Lenthe and E. J. Baerends, J. Comput. Chem., 2003, 24, 1142 CrossRef CAS PubMed .
+From Soup: 114 H.-J. Werner, P. J. Knowles, R. Lindh, F. R. Manby, M. Schütz, P. Celani, T. Korona, A. Mitrushenkov, G. Rauhut and T. B. Adler, et al. , MOLPRO, Version 2010.1, a Package of Ab initio Programs, Cardiff University , Cardiff, United Kingdom, and University of Stuttgart: Stuttgart, Germany Search PubMed .
+ ###### 
+From cou.: 115 B. Roos and P. R. Taylor, Chem. Phys., 1980, 48, 157–173 CrossRef CAS .
+From Soup: 115 T. H. Dunning, J. Chem. Phys. , 1989, 90 , 1007 CrossRef CAS .
+ ###### 
+From cou.: 116 H.-J. Werner and P. J. Knowles, J. Chem. Phys., 1985, 82, 5053–5063 CrossRef CAS .
+From Soup: 116 D. E. Woon and T. H. Dunning, J. Chem. Phys. , 1993, 98 , 1358–1372 CrossRef CAS .
+ ###### 
+From cou.: 117 P. J. Knowles and H.-J. Werner, Chem. Phys. Lett., 1985, 115, 259–267 CrossRef CAS .
+From Soup: 117 O. Legeza, QC-DMRG-Budapest, A Program for Quantum Chemical DMRG Calculations , Copyright 2000–2013, HAS RISSPO Budapest Search PubMed .
+ ###### 
+From cou.: 118 H.-J. Werner, P. J. Knowles, R. Lindh, F. R. Manby, M. Schütz, P. Celani, T. Korona, A. Mitrushenkov, G. Rauhut and T. B. Adler, et al., MOLPRO, Version 2010.1, a Package of Ab initio Programs, Cardiff University, Cardiff, United Kingdom, and University of Stuttgart: Stuttgart, Germany Search PubMed .
+From Soup: 118 O. Legeza and J. Sólyom, Phys. Rev. B: Condens. Matter Mater. Phys. , 2003, 68 , 195116 CrossRef .
+ ###### 
+From cou.: 119 T. H. Dunning, J. Chem. Phys., 1989, 90, 1007 CrossRef CAS .
+From Soup: 119 O. Legeza and J. Sólyom, Phys. Rev. B: Condens. Matter Mater. Phys. , 2004, 70 , 205118 CrossRef .
+ ###### 
+From cou.: 120 D. E. Woon and T. H. Dunning, J. Chem. Phys., 1993, 98, 1358–1372 CrossRef CAS .
+From Soup: 120 O. Legeza, J. Röder and B. A. Hess, Phys. Rev. B: Condens. Matter Mater. Phys. , 2003, 67 , 125114 CrossRef .
+ ###### 
+From cou.: 121 O. Legeza, QC-DMRG-Budapest, A Program for Quantum Chemical DMRG Calculations, Copyright 2000–2013, HAS RISSPO Budapest Search PubMed .
+From Soup: 121 S. L. Altmann and P. Herzig, Point-Group Theory Tables , Oxford, 1994 Search PubMed .
+ ###### 
+From cou.: 122 O. Legeza and J. Sólyom, Phys. Rev. B: Condens. Matter Mater. Phys., 2003, 68, 195116 CrossRef .
+From Soup: 122 J. March, Advanced Organic Chemistry: Reactions, Mechanisms, and Structure , Wiley, 1992 Search PubMed .
+ ###### 
+From cou.: 123 O. Legeza and J. Sólyom, Phys. Rev. B: Condens. Matter Mater. Phys., 2004, 70, 205118 CrossRef .
+From Soup: 123 M. L. Abrams and C. D. Sherrill, J. Chem. Phys. , 2004, 121 , 9211 CrossRef CAS PubMed .
+ ###### 
+From cou.: 124 O. Legeza, J. Röder and B. A. Hess, Phys. Rev. B: Condens. Matter Mater. Phys., 2003, 67, 125114 CrossRef .
+From Soup: 124 S. Shaik, D. Danovich, W. Wu, P. Su, H. S. Rzepa and P. C. Hiberty, Nat. Chem. , 2012, 4 , 195–200 CrossRef CAS PubMed .
+ ###### 
+From cou.: 125 S. L. Altmann and P. Herzig, Point-Group Theory Tables, Oxford, 1994 Search PubMed .
+From Soup: 125 D. Danovich, S. Shaik, H. S. Rzepa and R. Hoffmann, Angew. Chem., Int. Ed. , 2013, 52 , 5926–5928 CrossRef CAS PubMed .
+ ###### 
+From cou.: 126 J. March, Advanced Organic Chemistry: Reactions, Mechanisms, and Structure, Wiley, 1992 Search PubMed .
+From Soup: 126 G. Frenking and M. Hermann, Angew. Chem., Int. Ed. , 2013, 52 , 2–6 CrossRef PubMed .
+ ###### 
+From cou.: 127 M. L. Abrams and C. D. Sherrill, J. Chem. Phys., 2004, 121, 9211 CrossRef CAS PubMed .
+From Soup: 127 J. M. Matxain, F. Ruipérez, I. Infante, X. Lopez, J. M. Ugalde, G. Merino and M. Piris, J. Chem. Phys. , 2013, 138 , 151102 CrossRef PubMed .
+ ###### 
+From cou.: 128 S. Shaik, D. Danovich, W. Wu, P. Su, H. S. Rzepa and P. C. Hiberty, Nat. Chem., 2012, 4, 195–200 CrossRef CAS PubMed .
+From Soup: 128 L. T. Xu and T. H. Dunning, J. Chem. Theory Comput. , 2014, 10 , 195–201 CrossRef CAS .
+ ###### 
+From cou.: 129 D. Danovich, S. Shaik, H. S. Rzepa and R. Hoffmann, Angew. Chem., Int. Ed., 2013, 52, 5926–5928 CrossRef CAS PubMed .
+From Soup: 129 C. W. Bauschlicher and S. R. Langhoff, J. Chem. Phys. , 1987, 87 , 2919 CrossRef CAS .
+ ###### 
+From cou.: 130 G. Frenking and M. Hermann, Angew. Chem., Int. Ed., 2013, 52, 2–6 CrossRef PubMed .
+From Soup: 130 M. L. Abrams and C. D. Sherrill, J. Chem. Phys. , 2004, 121 , 9211 CrossRef CAS PubMed .
+ ###### 
+From cou.: 131 J. M. Matxain, F. Ruipérez, I. Infante, X. Lopez, J. M. Ugalde, G. Merino and M. Piris, J. Chem. Phys., 2013, 138, 151102 CrossRef PubMed .
+From Soup: 131 C. D. Sherrill and P. Piecuch, J. Chem. Phys. , 2005, 122 , 124104 CrossRef PubMed .
+ ###### 
+From cou.: 132 L. T. Xu and T. H. Dunning, J. Chem. Theory Comput., 2014, 10, 195–201 CrossRef CAS .
+From Soup: 132 F. A. Evangelista, J. Chem. Phys. , 2011, 134 , 224102 CrossRef PubMed .
+ ###### 
+From cou.: 133 C. W. Bauschlicher and S. R. Langhoff, J. Chem. Phys., 1987, 87, 2919 CrossRef CAS .
+From Soup: 133 J. S. Deheng Shi, X. Zhang and Z. Zhu, Mol. Phys. , 2011, 109 , 1453–1465 CrossRef .
+ ###### 
+From cou.: 134 M. L. Abrams and C. D. Sherrill, J. Chem. Phys., 2004, 121, 9211 CrossRef CAS PubMed .
+From Soup: 134 S. Wouters, W. Poelmans, P. W. Ayers and D. V. Neck, Comput. Phys. Commun. , 2014 DOI: 10.1016/j.cpc.2014.01.019 .
+ ###### 
+From cou.: 135 C. D. Sherrill and P. Piecuch, J. Chem. Phys., 2005, 122, 124104 CrossRef PubMed .
+From Soup: 135 L. B. Roskop, L. Kong, E. F. Valeev, M. S. Gordon and T. L. Windus, J. Chem. Theory Comput. , 2014, 10 , 90–101 CrossRef CAS .
+ ###### 
+From cou.: 136 F. A. Evangelista, J. Chem. Phys., 2011, 134, 224102 CrossRef PubMed .
+From Soup: 136 J. S. Boschen, D. Theis, K. Ruedenberg and T. L. Windus, Theor. Chem. Acc. , 2014, 133 , 1425 CrossRef .
+ ###### 
+From cou.: 137 J. S. Deheng Shi, X. Zhang and Z. Zhu, Mol. Phys., 2011, 109, 1453–1465 CrossRef .
+From Soup: 137 L. Andrews and X. Wang, J. Phys. Chem. A , 2002, 106 , 7696–7702 CrossRef CAS .
+ ###### 
+From cou.: 138 S. Wouters, W. Poelmans, P. W. Ayers and D. V. Neck, Comput. Phys. Commun., 2014 DOI:10.1016/j.cpc.2014.01.019 .
+From Soup: 138 G. Trinquier and J.-P. Malrieu, J. Am. Chem. Soc. , 1987, 109 , 5303–5315 CrossRef CAS .
+ ###### 
+From cou.: 139 L. B. Roskop, L. Kong, E. F. Valeev, M. S. Gordon and T. L. Windus, J. Chem. Theory Comput., 2014, 10, 90–101 CrossRef CAS .
+From Soup: 139 J.-P. Malrieu and G. Trinquier, J. Am. Chem. Soc. , 1989, 111 , 5916–5921 CrossRef CAS .
+ ###### 
+From cou.: 140 J. S. Boschen, D. Theis, K. Ruedenberg and T. L. Windus, Theor. Chem. Acc., 2014, 133, 1425 CrossRef .
+From Soup: 140 G. Trinquier, J. Am. Chem. Soc. , 1990, 112 , 2130–2131 CrossRef CAS .
+ ###### 
+From cou.: 141 L. Andrews and X. Wang, J. Phys. Chem. A, 2002, 106, 7696–7702 CrossRef CAS .
+From Soup: 141 M. Bogey, H. Bolvin, C. Demuynck and J. L. Destombes, Phys. Rev. Lett. , 1991, 66 , 413–416 CrossRef CAS PubMed .
+ ###### 
+From cou.: 142 G. Trinquier and J.-P. Malrieu, J. Am. Chem. Soc., 1987, 109, 5303–5315 CrossRef CAS .
+From Soup: 142 M. Lein, A. Krapp and G. Frenking, J. Am. Chem. Soc. , 2005, 127 , 6290–6299 CrossRef CAS PubMed .
+ ###### 
+From cou.: 143 J.-P. Malrieu and G. Trinquier, J. Am. Chem. Soc., 1989, 111, 5916–5921 CrossRef CAS .
+From Soup: 143 D. B. Chesnut, Heteroat. Chem. , 2002, 13 , 53–64 CrossRef CAS .
+ ###### 
+From cou.: 144 G. Trinquier, J. Am. Chem. Soc., 1990, 112, 2130–2131 CrossRef CAS .
+From Soup: 144 A. J. Adamczyk and L. J. Broadbelt, J. Phys. Chem. A , 2011, 115 , 2409–2422 CrossRef CAS PubMed .
+ ###### 
+From cou.: 145 M. Bogey, H. Bolvin, C. Demuynck and J. L. Destombes, Phys. Rev. Lett., 1991, 66, 413–416 CrossRef CAS PubMed .
+From Soup: 145 L. C. Snyder and Z. R. Wasserman, J. Comput. Chem. , 1979, 6 , 5222–5225 Search PubMed .
+ ###### 
+From cou.: 146 M. Lein, A. Krapp and G. Frenking, J. Am. Chem. Soc., 2005, 127, 6290–6299 CrossRef CAS PubMed .
+From Soup: 146 R. A. Poirier and J. D. Goddard, Chem. Phys. Lett. , 1981, 80 , 37–41 CrossRef CAS .
+ ###### 
+From cou.: 147 D. B. Chesnut, Heteroat. Chem., 2002, 13, 53–64 CrossRef CAS .
+From Soup: 147 H. Lischka and H.-J. Köhler, Chem. Phys. Lett. , 1982, 85 , 467–471 CrossRef CAS .
+ ###### 
+From cou.: 148 A. J. Adamczyk and L. J. Broadbelt, J. Phys. Chem. A, 2011, 115, 2409–2422 CrossRef CAS PubMed .
+From Soup: 148 A. F. Sax, J. Comput. Chem. , 1985, 6 , 469–477 CrossRef CAS .
+ ###### 
+From cou.: 149 L. C. Snyder and Z. R. Wasserman, J. Comput. Chem., 1979, 6, 5222–5225 Search PubMed .
+From Soup: 149 K. Krogh-Jespersen, J. Am. Chem. Soc. , 1985, 107 , 537–543 CrossRef CAS .
+ ###### 
+From cou.: 150 R. A. Poirier and J. D. Goddard, Chem. Phys. Lett., 1981, 80, 37–41 CrossRef CAS .
+From Soup: 150 G. Frenking and R. Tonner, Science , 2007, 318 , 746 CrossRef CAS PubMed .
+ ###### 
+From cou.: 151 H. Lischka and H.-J. Köhler, Chem. Phys. Lett., 1982, 85, 467–471 CrossRef CAS .
+From Soup: 151 T. E. Gier, J. Am. Chem. Soc. , 1961, 83 , 1769–1770 CrossRef CAS .
+ ###### 
+From cou.: 152 A. F. Sax, J. Comput. Chem., 1985, 6, 469–477 CrossRef CAS .
+From Soup: 152 M. F. Lucas, M. C. Michelini, N. Russo and E. Sicilia, J. Chem. Theory Comput. , 2008, 4 , 397–403 CrossRef CAS .
+ ###### 
+From cou.: 153 K. Krogh-Jespersen, J. Am. Chem. Soc., 1985, 107, 537–543 CrossRef CAS .
+From Soup: 153 where runs over all local states of one molecular orbital (there are 4 in the case of spatial orbitals), and (ii) the mutual information that measures the correlation of two orbitals embedded in the environment of all other active space orbitals, where , = 1… is the orbital index of all active space orbitals and is the Kronecker delta. In the above equation, (2) is the two-orbital entropy and is determined from the eigenvalues of the two-orbital reduced density matrix of orbital pair { , },
+ ###### 
+From cou.: 154 G. Frenking and R. Tonner, Science, 2007, 318, 746 CrossRef CAS PubMed .
+From cou.: 155 T. E. Gier, J. Am. Chem. Soc., 1961, 83, 1769–1770 CrossRef CAS .
+From cou.: 156 M. F. Lucas, M. C. Michelini, N. Russo and E. Sicilia, J. Chem. Theory Comput., 2008, 4, 397–403 CrossRef CAS .

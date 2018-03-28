@@ -60,6 +60,7 @@ class ECSCollectTitleKeywords(RuleIngredient):
         ])
         obj['Title'] = parser.title
         obj['Keywords'] = parser.keywords
+        obj['DOI'] = ''
         return {'obj': obj, 'html_txt': parser.raw_html}
 
 

@@ -1,0 +1,451 @@
+From cou.: 0 Journal
+From Soup: 0 Phys. Chem. Chem. Phys.
+ ###### 
+From cou.: 1 Recently we introduced the von Neumann representation as a joint time–frequency description for femtosecond laser pulses. Here we show that the von Neumann basis can be implemented into an evolutionary algorithm for adaptive optimization in coherent control. We perform simulations that demonstrate the efficiency compared to other parametrizations in the frequency domain. We also illustrate pulse-shape simplification by basis-function reduction. Essential structures using the von Neumann basis are retained without losing control performance significantly. In an optical demonstration experiment we show the practicality by producing double pulses with a given time separation. Adaptive control in time–frequency space will be especially valuable for quantum systems requiring specific transition frequencies at definite times.
+From Soup: 1 Recently we introduced the von Neumann representation as a joint time–frequency description for femtosecond laser pulses. Here we show that the von Neumann basis can be implemented into an evolutionary algorithm for adaptive optimization in coherent control. We perform simulations that demonstrate the efficiency compared to other parametrizations in the frequency domain. We also illustrate pulse-shape simplification by basis-function reduction . Essential structures using the von Neumann basis are retained without losing control performance significantly. In an optical demonstration experiment we show the practicality by producing double pulses with a given time separation. Adaptive control in time–frequency space will be especially valuable for quantum systems requiring specific transition frequencies at definite times.
+ ###### 
+From cou.: 2 Quantum control is a method to control molecular dynamics by transferring interferences of light to a quantum system.1–5 The first approaches were proposed and realized in the 1980s and early 1990s.6–12 In the following years those schemes have been applied to increasingly complex quantum systems. For many molecules potential energy surfaces are unknown and it is hard to identify and realize specific control scenarios. For these cases, adaptive pulse shaping techniques, first proposed by Judson and Rabitz,13 offer a powerful tool for experimentalists. Especially, evolutionary search algorithms in combination with computer-controlled femtosecond pulse-shapers have led to considerable progress in the field of coherent control.14–17
+From Soup: 2 Quantum control is a method to control molecular dynamics by transferring interferences of light to a quantum system. 1–5 The first approaches were proposed and realized in the 1980s and early 1990s. 6–12 In the following years those schemes have been applied to increasingly complex quantum systems. For many molecules potential energy surfaces are unknown and it is hard to identify and realize specific control scenarios. For these cases, adaptive pulse shaping techniques, first proposed by Judson and Rabitz, 13 offer a powerful tool for experimentalists. Especially, evolutionary search algorithms in combination with computer-controlled femtosecond pulse-shapers have led to considerable progress in the field of coherent control. 14–17
+ ###### 
+From cou.: 3 A major challenge in this heuristic approach is the interpretation of control mechanisms, due to the complexity of the optimal electric field found by the search algorithm. It would be desirable to differentiate between essential and extraneous pulse structures. Distinguishing those structures that have no influence on the experimental goal would greatly simplify the process of characterizing the quantum dynamics and the involved control mechanisms.18
+From Soup: 3 A major challenge in this heuristic approach is the interpretation of control mechanisms, due to the complexity of the optimal electric field found by the search algorithm. It would be desirable to differentiate between essential and extraneous pulse structures. Distinguishing those structures that have no influence on the experimental goal would greatly simplify the process of characterizing the quantum dynamics and the involved control mechanisms. 18
+ ###### 
+From cou.: 4 One possibility for reducing the complexity of shaped laser pulses is to parametrize the electric fields with a limited number of degrees of freedom. The best suited basis would be one that captures the essential mechanisms for a wide range of different control scenarios. In practice, the parametrizations that are most widely used are those that can be implemented easily in experiments. Examples of such parameter sets are polynomial spectral phase functions,14,19–23 or sinusoidal phase patterns,16,24–27 that reduce the dimensionality of the search space.28,29 An alternative way to reduce extraneous pulse features is to introduce a cost function.28,30–32 Also statistical evaluation techniques such as principle component analysis can help to identify the fundamental parameters of the search space.33,34 One can also employ search strategies other than evolutionary algorithms that might arrive at more meaningful structures of the control field.35,36
+From Soup: 4 One possibility for reducing the complexity of shaped laser pulses is to parametrize the electric fields with a limited number of degrees of freedom. The best suited basis would be one that captures the essential mechanisms for a wide range of different control scenarios. In practice, the parametrizations that are most widely used are those that can be implemented easily in experiments. Examples of such parameter sets are polynomial spectral phase functions, 14,19–23 or sinusoidal phase patterns, 16,24–27 that reduce the dimensionality of the search space. 28,29 An alternative way to reduce extraneous pulse features is to introduce a cost function. 28,30–32 Also statistical evaluation techniques such as principle component analysis can help to identify the fundamental parameters of the search space. 33,34 One can also employ search strategies other than evolutionary algorithms that might arrive at more meaningful structures of the control field. 35,36
+ ###### 
+From cou.: 5 In any quantum control implementation, one has to decide on a basis for the control parameters. Since femtosecond pulse shaping is often carried out with spatial light modulators in frequency space, the control knobs are often chosen in that domain. Alternatively, time-domain descriptions can be employed.37,38 However, in terms of intuitive mechanistic understanding of molecular dynamics evolution, it seems useful to employ a joint time–frequency parametrization. Such a basis naturally describes Franck–Condon transitions occurring at certain times with specific frequencies. Another helpful feature is that if one control knob is turned, this affects the electric field within a tightly confined area of phase-space only. On the other hand, manipulating a single frequency component in e.g. a pulse-shaper spectral pixel basis has consequences for the whole temporal structure. Such nonlocality makes interpretation much more difficult.
+From Soup: 5 In any quantum control implementation, one has to decide on a basis for the control parameters. Since femtosecond pulse shaping is often carried out with spatial light modulators in frequency space, the control knobs are often chosen in that domain. Alternatively, time-domain descriptions can be employed. 37,38 However, in terms of intuitive mechanistic understanding of molecular dynamics evolution, it seems useful to employ a joint time–frequency parametrization. Such a basis naturally describes Franck–Condon transitions occurring at certain times with specific frequencies. Another helpful feature is that if one control knob is turned, this affects the electric field within a tightly confined area of phase-space only. On the other hand, manipulating a single frequency component in e.g. a pulse-shaper spectral pixel basis has consequences for the whole temporal structure. Such nonlocality makes interpretation much more difficult.
+ ###### 
+From cou.: 6 Previously we have introduced the von Neumann representation as a description for shaped femtosecond laser pulses and suggested applications for quantum control.39–41 In the von Neumann basis the electric field is expanded in terms of complex-valued Gaussians, positioned on an evenly spaced grid in time–frequency phase-space. We have demonstrated the use of the von Neumann basis in an open-loop quantum control experiment to generate a multidimensional molecular control landscape.42 Here we show how the von Neumann basis can be implemented into an evolutionary algorithm, such that adaptive optimization takes place directly in time–frequency phase-space.
+From Soup: 6 Previously we have introduced the von Neumann representation as a description for shaped femtosecond laser pulses and suggested applications for quantum control. 39–41 In the von Neumann basis the electric field is expanded in terms of complex-valued Gaussians, positioned on an evenly spaced grid in time–frequency phase-space. We have demonstrated the use of the von Neumann basis in an open-loop quantum control experiment to generate a multidimensional molecular control landscape. 42 Here we show how the von Neumann basis can be implemented into an evolutionary algorithm, such that adaptive optimization takes place directly in time–frequency phase-space.
+ ###### 
+From cou.: 7 This paper is organized as follows: in Section 2 the von Neumann formalism is reviewed briefly and methods for encoding the basis into an evolutionary algorithm are introduced. Simulations are presented in Section 3 comparing the proposed basis to other common parametrizations. We also illustrate the possibility to “distill” the most relevant information from complex laser pulses. In Section 4 we show the capabilities of the von Neumann basis for adaptive control in a demonstration experiment and conclude in Section 5.
+From Soup: 7 This paper is organized as follows: in Section 2 the von Neumann formalism is reviewed briefly and methods for encoding the basis into an evolutionary algorithm are introduced. Simulations are presented in Section 3 comparing the proposed basis to other common parametrizations. We also illustrate the possibility to “distill” the most relevant information from complex laser pulses. In Section 4 we show the capabilities of the von Neumann basis for adaptive control in a demonstration experiment and conclude in Section 5.
+ ###### 
+From cou.: 8 The von Neumann formalism for shaped femtosecond laser pulses has been described in detail elsewhere.39–42 In the following we give a short review of its basic properties.
+From Soup: 8 The von Neumann formalism for shaped femtosecond laser pulses has been described in detail elsewhere. 39–42 In the following we give a short review of its basic properties.
+ ###### 
+From cou.: 9 We start with the electric field in the frequency domain, ε(ω), defined by its spectral amplitude, |ε(ω)|, and its spectral phase, φ(ω), as
+From Soup: 9 We start with the electric field in the frequency domain, ε ( ω ), defined by its spectral amplitude, | ε ( ω )|, and its spectral phase, φ ( ω ), as
+ ###### 
+From cou.: 10 This provides a full description of the electric field distribution. The von Neumann representation employs a basis set of complex-valued Gaussian functions
+From Soup: 10 This provides a full description of the electric field distribution. The von Neumann representation employs a basis set of complex-valued Gaussian functions
+ ###### 
+From cou.: 11 ω
+From Soup: 11 ω
+ ###### 
+From cou.: 12 n
+From Soup: 12 n
+ ###### 
+From cou.: 13 t
+From Soup: 13 t
+ ###### 
+From cou.: 14 m
+From Soup: 14 m
+ ###### 
+From cou.: 15 Ω
+From Soup: 15 Ω
+ ###### 
+From cou.: 16 T
+From Soup: 16 T
+ ###### 
+From cou.: 17 α
+From Soup: 17 α
+ ###### 
+From cou.: 18 α
+From Soup: 18 α
+ ###### 
+From cou.: 19 T
+From Soup: 19 T
+ ###### 
+From cou.: 20 Ω
+From Soup: 20 Ω
+ ###### 
+From cou.: 21 43
+From Soup: 21 43
+ ###### 
+From cou.: 22 44
+From Soup: 22 44
+ ###### 
+From cou.: 23 Using the von Neumann basis functions, the electric field can be expanded via
+From Soup: 23 Using the von Neumann basis functions, the electric field can be expanded via
+ ###### 
+From cou.: 24 Q
+From Soup: 24 Q
+ ###### 
+From cou.: 25 ω
+From Soup: 25 ω n , t m
+ ###### 
+From cou.: 26 n
+From Soup: 26 Q
+ ###### 
+From cou.: 27 t
+From Soup: 27 ω
+ ###### 
+From cou.: 28 m
+From Soup: 28 n , t
+ ###### 
+From cou.: 29 Q
+From Soup: 29 m
+ ###### 
+From cou.: 30 ω
+From Soup: 30 In any experiment only a finite phase-space area is accessible, defined by frequency range Ω and temporal window T . Also, the electric field is sampled at a finite number of points N . We have shown 39–41 that the number of sampling points in time–frequency space matches the number of required sampling points in the frequency domain, thus preserving information content and allowing direct forward–backward transformations.
+ ###### 
+From cou.: 31 n
+From Soup: 31 In the following we consider a pulse-shaper with 128 pixels for amplitude and phase shaping. The nearest square number is 121, and hence we use an 11 × 11 von Neumann plane to achieve a time–frequency grid with the equivalent resolution in time and frequency. Thus only N = 121 instead of 128 discrete data points in the frequency domain are used.
+ ###### 
+From cou.: 32 t
+From Soup: 32 We use an evolutionary search algorithm with arrays of gene values between 0 and 1 for encoding single pulse shapes (“individuals”). Fig. 1 illustrates how the von Neumann basis can be encoded into gene values. In this particular example [ Fig. 1(a) ], three von Neumann coefficients account for the signal, each with different amplitudes and phases. One possible encoding method would be to map the von Neumann intensity and phase value at each grid point into gene values [ Fig. 1(b) ]. This would result in 2 N gene values coinciding with the number of samples used in the frequency domain due to conservation of information. This approach is feasible but does not lead to a reduced number of parameters.
+ ###### 
+From cou.: 33 m
+From Soup: 33 In a different method [ Fig. 1(c) ] only those grid points which contain signal intensity are considered. Each of those grid points is described by four gene values that encode their phase-space position in time and frequency, their von Neumann intensity, and their von Neumann phase. As the von Neumann time–frequency plane contains a discrete grid of phase-space positions, the interval in time (frequency) is subdivided into equally sized domains. Every ( ω , t )-position on the discrete von Neumann lattice is then assigned a gene value in time and frequency corresponding to the domain in which it sits. For example, if the von Neumann grid size is 4 × 4 gene values describing the position in time with values between 0 and 0.25 belong to the earliest temporal position. The same applies for the position in frequency. For intensity and phase there is no such discretization. Gene value 0 corresponds to intensity 0 and phase −π, whereas gene value 1 corresponds to intensity 1 and phase +π, respectively. If n von Neumann basis functions account for the whole signal intensity, 4 n gene values are needed. Consequently, the number of required gene values in this method is lower than that in the first method if n < N /2 (in our case if n < 61). Hence, if only a few basis functions are required, the number of parameters necessary to describe a shaped pulse can be significantly reduced. In this manner one can limit the evolutionary search to pulse shapes of prescribed complexity. The available subspace corresponds to an intuitively meaningful parametrization as every basis function corresponds to a transform-limited Gaussian-shaped subpulse at a fixed phase-space coordinate. For this reason, we will focus on this second encoding method in the following.
+ ###### 
+From cou.: 34 In any experiment only a finite phase-space area is accessible, defined by frequency range Ω and temporal window T. Also, the electric field is sampled at a finite number of points N. We have shown39–41 that the number of sampling points in time–frequency space matches the number of required sampling points in the frequency domain, thus preserving information content and allowing direct forward–backward transformations.
+From Soup: 34 The choice of parametrization used to encode the electric field can have a profound influence on the outcome of a quantum control experiment. Here we compare the performance of various established parameter sets with the von Neumann basis.
+ ###### 
+From cou.: 35 In the following we consider a pulse-shaper with 128 pixels for amplitude and phase shaping. The nearest square number is 121, and hence we use an 11 × 11 von Neumann plane to achieve a time–frequency grid with the equivalent resolution in time and frequency. Thus only N = 121 instead of 128 discrete data points in the frequency domain are used.
+From Soup: 35 The procedure is the following: we define as a target for the optimization the pulse sequence shown in Fig. 2(a) in its Husimi representation. The Husimi representation H ( t , ω ) 45 is connected to the Wigner representation W ( t , ω ) 46,47
+ ###### 
+From cou.: 36 We use an evolutionary search algorithm with arrays of gene values between 0 and 1 for encoding single pulse shapes (“individuals”). Fig. 1 illustrates how the von Neumann basis can be encoded into gene values. In this particular example [Fig. 1(a)], three von Neumann coefficients account for the signal, each with different amplitudes and phases. One possible encoding method would be to map the von Neumann intensity and phase value at each grid point into gene values [Fig. 1(b)]. This would result in 2Ngene values coinciding with the number of samples used in the frequency domain due to conservation of information. This approach is feasible but does not lead to a reduced number of parameters.
+From Soup: 36 via
+ ###### 
+From cou.: 37 In a different method [Fig. 1(c)] only those grid points which contain signal intensity are considered. Each of those grid points is described by four gene values that encode their phase-space position in time and frequency, their von Neumann intensity, and their von Neumann phase. As the von Neumann time–frequency plane contains a discrete grid of phase-space positions, the interval in time (frequency) is subdivided into equally sized domains. Every (ω,t)-position on the discrete von Neumann lattice is then assigned a gene value in time and frequency corresponding to the domain in which it sits. For example, if the von Neumann grid size is 4 × 4 gene values describing the position in time with values between 0 and 0.25 belong to the earliest temporal position. The same applies for the position in frequency. For intensity and phase there is no such discretization. Gene value 0 corresponds to intensity 0 and phase −π, whereas gene value 1 corresponds to intensity 1 and phase +π, respectively. If n von Neumann basis functions account for the whole signal intensity, 4ngene values are needed. Consequently, the number of required gene values in this method is lower than that in the first method if n < N/2 (in our case if n < 61). Hence, if only a few basis functions are required, the number of parameters necessary to describe a shaped pulse can be significantly reduced. In this manner one can limit the evolutionary search to pulse shapes of prescribed complexity. The available subspace corresponds to an intuitively meaningful parametrization as every basis function corresponds to a transform-limited Gaussian-shaped subpulse at a fixed phase-space coordinate. For this reason, we will focus on this second encoding method in the following.
+From Soup: 37 σ
+ ###### 
+From cou.: 38 The choice of parametrization used to encode the electric field can have a profound influence on the outcome of a quantum control experiment. Here we compare the performance of various established parameter sets with the von Neumann basis.
+From Soup: 38 ω
+ ###### 
+From cou.: 39 The procedure is the following: we define as a target for the optimization the pulse sequence shown in Fig. 2(a) in its Husimi representation. The Husimi representation H(t,ω)45 is connected to the Wigner representation W(t,ω)46,47
+From Soup: 39 σ
+ ###### 
+From cou.: 40 via
+From Soup: 40 t
+ ###### 
+From cou.: 41 σ
+From Soup: 41 H
+ ###### 
+From cou.: 42 ω
+From Soup: 42 t
+ ###### 
+From cou.: 43 σ
+From Soup: 43 ω
+ ###### 
+From cou.: 44 t
+From Soup: 44 photon
+ ###### 
+From cou.: 45 H
+From Soup: 45 σ
+ ###### 
+From cou.: 46 t
+From Soup: 46 ω
+ ###### 
+From cou.: 47 ω
+From Soup: 47 ω
+ ###### 
+From cou.: 48 photon
+From Soup: 48 σ
+ ###### 
+From cou.: 49 σ
+From Soup: 49 t
+ ###### 
+From cou.: 50 ω
+From Soup: 50 t
+ ###### 
+From cou.: 51 ω
+From Soup: 51 45
+ ###### 
+From cou.: 52 σ
+From Soup: 52 eqn (2)
+ ###### 
+From cou.: 53 t
+From Soup: 53 ω
+ ###### 
+From cou.: 54 t
+From Soup: 54 t
+ ###### 
+From cou.: 55 45
+From Soup: 55 eqn (5)
+ ###### 
+From cou.: 56 ω
+From Soup: 56 In this work, we investigate the implementation of the von Neumann representation for those cases in which the optimum (desired) pulse shape is not known a priori . Yet, for the purpose of simulation we somehow have to define a “target” in this demonstration although in a later implementation such as in optimal quantum control the target pulse shape would of course not be known a priori .
+ ###### 
+From cou.: 57 t
+From Soup: 57 The sample pulse is chosen to be “well-balanced” in terms of the time and frequency coordinates. It is a double pulse: the first subpulse is located at ( ω 1 ≈ 2.30 rad fs −1 , t 1 ≈ 0 fs) and up-chirped due to a second-order spectral phase . The second subpulse is centered around ( ω 2 ≈ 2.38 rad fs −1 , t 2 ≈ 900 fs) with a third-order spectral phase resulting in post-pulses dying away at larger times. Both pulses have Gaussian spectral distributions.
+ ###### 
+From cou.: 58 In this work, we investigate the implementation of the von Neumann representation for those cases in which the optimum (desired) pulse shape is not known a priori. Yet, for the purpose of simulation we somehow have to define a “target” in this demonstration although in a later implementation such as in optimal quantum control the target pulse shape would of course not be known a priori.
+From Soup: 58 The goal of the adaptive optimization is to approximate as closely as possible this target pulse using a given type of parametrization. Each individual laser pulse tested by the evolutionary algorithm is evaluated according to its fitness, as defined by the negative mean square deviation from the target pulse calculated in the Husimi representation. Large deviations from the optimal pulse shape therefore lead to large negative fitness values whereas perfect agreement would result in zero fitness. Negative values are required in order to achieve increasing optimization curves. Alternatively, positive values could be employed along with a minimization objective. We compare five different parametrizations: von Neumann basis, frequency-domain Fourier representation, Taylor-expansion of spectral phase, piecewise linear spectral phase, and sinusoidal phase. The latter four are among the most commonly used parametrizations in quantum control experiments.
+ ###### 
+From cou.: 59 The sample pulse is chosen to be “well-balanced” in terms of the time and frequency coordinates. It is a double pulse: the first subpulse is located at (ω1 ≈ 2.30 rad fs−1, t1 ≈ 0 fs) and up-chirped due to a second-order spectral phase . The second subpulse is centered around (ω2 ≈ 2.38 rad fs−1, t2 ≈ 900 fs) with a third-order spectral phase resulting in post-pulses dying away at larger times. Both pulses have Gaussian spectral distributions.
+From Soup: 59 As the von Neumann basis is a joint time–frequency parametrization we decided to choose a fitness function that accounts for the temporal as well as the spectral field features. Of course other fitness functions would be possible that also contain the spectral or temporal field properties as for example the squared difference of the temporal or spectral field intensities. Nevertheless, those cases do not provide a unique description of the required fields. There may be control scenarios in which mostly the spectral field amplitude and not the temporal field is crucial for reaching the control target (or vice versa ). These cases are of course not considered here as in our case the exact temporal and spectral evolution of the field is included in the fitness function.
+ ###### 
+From cou.: 60 The goal of the adaptive optimization is to approximate as closely as possible this target pulse using a given type of parametrization. Each individual laser pulse tested by the evolutionary algorithm is evaluated according to its fitness, as defined by the negative mean square deviation from the target pulse calculated in the Husimi representation. Large deviations from the optimal pulse shape therefore lead to large negative fitness values whereas perfect agreement would result in zero fitness. Negative values are required in order to achieve increasing optimization curves. Alternatively, positive values could be employed along with a minimization objective. We compare five different parametrizations: von Neumann basis, frequency-domain Fourier representation, Taylor-expansion of spectral phase, piecewise linear spectral phase, and sinusoidal phase. The latter four are among the most commonly used parametrizations in quantum control experiments.
+From Soup: 60 Our search algorithm works as follows. The first generation, consisting of 40 individuals with random gene values, is tested by the algorithm and evaluated by the fitness function. The fittest 10% of each generation are cloned and reproduced without any changes for the next generation (“elitism”). The remaining individuals are formed by two mechanisms, mutation and cross-over. The ratio of the two mechanisms is varied randomly, while the fraction of elitism stays fixed. For mutation, random gene values are chosen. The probability for a gene value to be selected for mutation is varied randomly between 0 and 50% from generation to generation. The selected gene values are modified according to a Gaussian probability function, whose standard deviation is varied between 0 and 0.5 from generation to generation. For cross-over, the best individuals are chosen and gene-subsets of random length are replaced by corresponding gene-subsets of one of the remaining individuals that has been chosen randomly.
+ ###### 
+From cou.: 61 As the von Neumann basis is a joint time–frequency parametrization we decided to choose a fitness function that accounts for the temporal as well as the spectral field features. Of course other fitness functions would be possible that also contain the spectral or temporal field properties as for example the squared difference of the temporal or spectral field intensities. Nevertheless, those cases do not provide a unique description of the required fields. There may be control scenarios in which mostly the spectral field amplitude and not the temporal field is crucial for reaching the control target (or vice versa). These cases are of course not considered here as in our case the exact temporal and spectral evolution of the field is included in the fitness function.
+From Soup: 61 The simulated pulse-shaper consists of two layers of liquid-crystal displays (LCD), each with 128 pixels covering a wavelength region from λ = 770.8 nm to λ = 828.4 nm. The pixelation of the mask, pixel gaps, and the limited spectral resolution due to the Gaussian beam propagation within the pulse-shaper setup 48 are not accounted for in our simulations. We wanted to focus on fundamental properties of the parametrizations without influences from pulse-shaping artifacts. A real pulse-shaper will be employed in Section 4.
+ ###### 
+From cou.: 62 Our search algorithm works as follows. The first generation, consisting of 40 individuals with random gene values, is tested by the algorithm and evaluated by the fitness function. The fittest 10% of each generation are cloned and reproduced without any changes for the next generation (“elitism”). The remaining individuals are formed by two mechanisms, mutation and cross-over. The ratio of the two mechanisms is varied randomly, while the fraction of elitism stays fixed. For mutation, random gene values are chosen. The probability for a gene value to be selected for mutation is varied randomly between 0 and 50% from generation to generation. The selected gene values are modified according to a Gaussian probability function, whose standard deviation is varied between 0 and 0.5 from generation to generation. For cross-over, the best individuals are chosen and gene-subsets of random length are replaced by corresponding gene-subsets of one of the remaining individuals that has been chosen randomly.
+From Soup: 62 The first parametrization is the von Neumann representation. The accessible time and frequency intervals of the von Neumann plane are T = 4.474 ps and Ω = 0.1545 rad fs −1 on a 11 × 11 ( N = 121) von Neumann grid. Transformation of the defined pulses into the frequency domain is carried out via eqn (3) . Here we use 24 genes for the von Neumann basis, which means that 6 von Neumann basis functions are used.
+ ###### 
+From cou.: 63 The simulated pulse-shaper consists of two layers of liquid-crystal displays (LCD), each with 128 pixels covering a wavelength region from λ = 770.8 nm to λ = 828.4 nm. The pixelation of the mask, pixel gaps, and the limited spectral resolution due to the Gaussian beam propagation within the pulse-shaper setup48 are not accounted for in our simulations. We wanted to focus on fundamental properties of the parametrizations without influences from pulse-shaping artifacts. A real pulse-shaper will be employed in Section 4.
+From Soup: 63 The second parametrization is the frequency-domain Fourier representation and corresponds to the simple and often used “LCD pixel basis”, i.e. the difference in dispersion Δ Φ between adjacent pixels of the LCD masks of the pulse-shaper is directly encoded into gene values. 49,50 Here we use 24 genes, which means that the phase function for each of the two layers is given at 12 equally distributed sampling points starting at the first LCD pixel and ending at the last one. The phase values of all interjacent pixels are then determined by a spline interpolation. From those phase functions the spectral intensity and phase in the amplitude-and-phase modulation mode is calculated.
+ ###### 
+From cou.: 64 The first parametrization is the von Neumann representation. The accessible time and frequency intervals of the von Neumann plane are T = 4.474 ps and Ω = 0.1545 rad fs−1 on a 11 × 11 (N = 121) von Neumann grid. Transformation of the defined pulses into the frequency domain is carried out viaeqn (3). Here we use 24 genes for the von Neumann basis, which means that 6 von Neumann basis functions are used.
+From Soup: 64 In the Taylor-expansion basis the spectral phase of the electric field is determined by Taylor coefficients , j = 0,1,2,..., each representing one gene value. 14,24 In this case, no amplitude modulation is considered. The center frequency of the laser is fixed at ω c = 2.355 rad fs −1 .
+ ###### 
+From cou.: 65 The second parametrization is the frequency-domain Fourier representation and corresponds to the simple and often used “LCD pixel basis”, i.e. the difference in dispersion ΔΦ between adjacent pixels of the LCD masks of the pulse-shaper is directly encoded into gene values.49,50 Here we use 24 genes, which means that the phase function for each of the two layers is given at 12 equally distributed sampling points starting at the first LCD pixel and ending at the last one. The phase values of all interjacent pixels are then determined by a spline interpolation. From those phase functions the spectral intensity and phase in the amplitude-and-phase modulation mode is calculated.
+From Soup: 65 In the piecewise linear spectral phase basis a sequence of linear phase sections is applied for which the corresponding parts of the spectrum are moved to different points in time Δ T by the corresponding linear phases: 51–53
+ ###### 
+From cou.: 66 In the Taylor-expansion basis the spectral phase of the electric field is determined by Taylor coefficients , j = 0,1,2,..., each representing one gene value.14,24 In this case, no amplitude modulation is considered. The center frequency of the laser is fixed at ωc = 2.355 rad fs−1.
+From Soup: 66 If N gene values are employed we use ( N − 1)/2 values to determine the spectral position of the split points ω break and the remaining ( N + 1)/2 genes to describe the gradients Δ T of the linear phases. Hence N has to be an odd number.
+ ###### 
+From cou.: 67 In the piecewise linear spectral phase basis a sequence of linear phase sections is applied for which the corresponding parts of the spectrum are moved to different points in time ΔT by the corresponding linear phases:51–53
+From Soup: 67 The last of the tested parametrizations is a sinusoidal phase pattern. Here the spectral phase is given by a superposition of sinusoidal phase functions with different amplitudes, frequencies and phases:
+ ###### 
+From cou.: 68 If Ngene values are employed we use (N − 1)/2 values to determine the spectral position of the split points ωbreak and the remaining (N + 1)/2 genes to describe the gradients ΔT of the linear phases. Hence N has to be an odd number.
+From Soup: 68 a
+ ###### 
+From cou.: 69 The last of the tested parametrizations is a sinusoidal phase pattern. Here the spectral phase is given by a superposition of sinusoidal phase functions with different amplitudes, frequencies and phases:
+From Soup: 69 n
+ ###### 
+From cou.: 70 a
+From Soup: 70 b
+ ###### 
+From cou.: 71 n
+From Soup: 71 n
+ ###### 
+From cou.: 72 b
+From Soup: 72 c
+ ###### 
+From cou.: 73 n
+From Soup: 73 n
+ ###### 
+From cou.: 74 c
+From Soup: 74 The parameter ranges of the optimizations ( Table 1 ) are chosen to reflect the parameter ranges accessible by the pulse-shaper.
+ ###### 
+From cou.: 75 n
+From Soup: 75 The algorithm is run three times for each of the five basis sets. The piecewise linear phase basis employs 23 gene values, all other parameterizations use 24 genes to encode the pulse shapes. For each basis, the best individuals of the final generation are plotted in Fig. 2(b)–(f) in their normalized Husimi representation. Fig. 2(g) shows the evolution of the fitness of the best 10% of the individuals for each generation. For all basis sets the fitness of the unshaped pulse (yellow) is easily exceeded, and the von Neumann basis gains the highest fitness due to its ability to adapt to the time–frequency multipulse structure (red). The frequency pixel basis (black), the Taylor phase expansion (green), and the piecewise linear phase basis (cyan) perform somewhat less well. The poorest performance is found for sinusoidal phases (blue).
+ ###### 
+From cou.: 76 The parameter ranges of the optimizations (Table 1) are chosen to reflect the parameter ranges accessible by the pulse-shaper.
+From Soup: 76 In all optimizations the temporal and spectral positions of the main features, i.e. the two subpulses, are found correctly. However, the limitations that arise from pure phase shaping are evident, especially when considering the Taylor series [ Fig. 2(d) ], the piecewise linear phase basis [ Fig. 2(e) ], and the sinusoidal phase basis [ Fig. 2(f) ], which makes it hard to compare them to the von Neumann and to the LCD pixel basis. Nevertheless, the Taylor expansion as well as the sinusoidal phase basis reproduce correctly the shape ( i.e. chirp) of the first subpulse.
+ ###### 
+From cou.: 77 The algorithm is run three times for each of the five basis sets. The piecewise linear phase basis employs 23 gene values, all other parameterizations use 24 genes to encode the pulse shapes. For each basis, the best individuals of the final generation are plotted in Fig. 2(b)–(f) in their normalized Husimi representation. Fig. 2(g) shows the evolution of the fitness of the best 10% of the individuals for each generation. For all basis sets the fitness of the unshaped pulse (yellow) is easily exceeded, and the von Neumann basis gains the highest fitness due to its ability to adapt to the time–frequency multipulse structure (red). The frequency pixel basis (black), the Taylor phase expansion (green), and the piecewise linear phase basis (cyan) perform somewhat less well. The poorest performance is found for sinusoidal phases (blue).
+From Soup: 77 The LCD pixel basis [ Fig. 2(c) ] suffers from the small number of genes used (24) and thus has difficulties in reproducing the desired pulse shape. The two localized subpulses are positioned correctly but without the desired structure (chirp, substructure). In principle, if the number of genes is increased, the algorithm will be able to approach the target better and better, and in the limit that all 2 N degrees of freedom are used as parameters, there is no limitation in the principle limit on the form of the pulse shape that can be generated. This is of course one of the reasons why this basis was so successful in many coherent control experiments. However, the purpose of the present work is to investigate how simplified pulse shapes can be generated that can be interpreted more easily. Hence we have selected the same number of gene values in the LCD pixel basis as in the von Neumann optimization.
+ ###### 
+From cou.: 78 In all optimizations the temporal and spectral positions of the main features, i.e. the two subpulses, are found correctly. However, the limitations that arise from pure phase shaping are evident, especially when considering the Taylor series [Fig. 2(d)], the piecewise linear phase basis [Fig. 2(e)], and the sinusoidal phase basis [Fig. 2(f)], which makes it hard to compare them to the von Neumann and to the LCD pixel basis. Nevertheless, the Taylor expansion as well as the sinusoidal phase basis reproduce correctly the shape (i.e. chirp) of the first subpulse.
+From Soup: 78 In the example investigated the von Neumann basis performs very well compared to the other parametrizations. Six von Neumann basis functions, corresponding to the 24 defined gene values, are used for the optimization. The search algorithm places the basis functions around the appropriate spectral and temporal positions with intensity and phase so as to best approximate the structure of the subpulses. In the example shown, involving just a small number of genes, the fitness curve converges after just 20–40 generations, which makes the procedure easily applicable in a real experiment. It is remarkable that such a small number of genes in the von Neumann basis suffices to reach such a high fitness. If higher fitness is desired, more basis functions can be added during the optimization at the expense of simplicity.
+ ###### 
+From cou.: 79 The LCD pixel basis [Fig. 2(c)] suffers from the small number of genes used (24) and thus has difficulties in reproducing the desired pulse shape. The two localized subpulses are positioned correctly but without the desired structure (chirp, substructure). In principle, if the number of genes is increased, the algorithm will be able to approach the target better and better, and in the limit that all 2N degrees of freedom are used as parameters, there is no limitation in the principle limit on the form of the pulse shape that can be generated. This is of course one of the reasons why this basis was so successful in many coherent control experiments. However, the purpose of the present work is to investigate how simplified pulse shapes can be generated that can be interpreted more easily. Hence we have selected the same number of gene values in the LCD pixel basis as in the von Neumann optimization.
+From Soup: 79 The results of Fig. 2 pertain to one particular test pulse shape only. Clearly, the performance of different basis sets will vary with the target pulse shape investigated, hence one cannot conclude that the von Neumann basis will always work better. For this reason we generated three more target pulse shapes on which all basis sets were tested. Again for each parametrization three optimization runs were carried out. Fig. 3 summarizes the results for all considered target pulse shapes including the pulse shape that was treated in detail in Fig. 2 (target pulse 1). The respective target Husimi distributions are shown in the upper part of Fig. 3 . The diagrams in the lower part of the figure show the achieved fitness values for the best individual after 150 generations. The error bar indicates the standard deviation resulting from the three independent runs. Target pulse shapes 2 and 3 consist of a three- and four-subpulse sequence, respectively. Target pulse shape 4 is a single nonlinearly downchirped pulse (d 2 φ /d ω 2 | ω = ω c = −1.5 × 10 4 fs 2 , d 3 φ /d ω 3 | ω = ω c = −8 × 10 4 fs 3 , d 4 φ /d ω 4 | ω = ω c =−9 × 10 6 fs 4 ). All values are normalized to the fitness of the unshaped pulse.
+ ###### 
+From cou.: 80 In the example investigated the von Neumann basis performs very well compared to the other parametrizations. Six von Neumann basis functions, corresponding to the 24 defined gene values, are used for the optimization. The search algorithm places the basis functions around the appropriate spectral and temporal positions with intensity and phase so as to best approximate the structure of the subpulses. In the example shown, involving just a small number of genes, the fitness curve converges after just 20–40 generations, which makes the procedure easily applicable in a real experiment. It is remarkable that such a small number of genes in the von Neumann basis suffices to reach such a high fitness. If higher fitness is desired, more basis functions can be added during the optimization at the expense of simplicity.
+From Soup: 80 The fitness charts illustrate that the von Neumann basis handles all four test pulse sequences considerably above average. This indicates that the von Neumann basis represents a good compromise between flexibility and performance.
+ ###### 
+From cou.: 81 The results of Fig. 2 pertain to one particular test pulse shape only. Clearly, the performance of different basis sets will vary with the target pulse shape investigated, hence one cannot conclude that the von Neumann basis will always work better. For this reason we generated three more target pulse shapes on which all basis sets were tested. Again for each parametrization three optimization runs were carried out. Fig. 3 summarizes the results for all considered target pulse shapes including the pulse shape that was treated in detail in Fig. 2 (target pulse 1). The respective target Husimi distributions are shown in the upper part of Fig. 3. The diagrams in the lower part of the figure show the achieved fitness values for the best individual after 150 generations. The error bar indicates the standard deviation resulting from the three independent runs. Target pulse shapes 2 and 3 consist of a three- and four-subpulse sequence, respectively. Target pulse shape 4 is a single nonlinearly downchirped pulse (d2φ/dω2|ω=ωc = −1.5 × 104 fs2, d3φ/dω3|ω=ωc = −8 × 104 fs3, d4φ/dω4|ω=ωc =−9 × 106 fs4). All values are normalized to the fitness of the unshaped pulse.
+From Soup: 81 The present work demonstrates that direct phase-space optimization is indeed feasible and that it can provide accelerated convergence, higher yields and reduced complexity for certain classes of applications. It is expected that the method will be advantageous for systems that require interactions at specific times with particular frequency. One example is the access of Franck–Condon transitions during molecular wave-packet propagation. Under such circumstances the von Neumann basis is well suited, and one can choose an effective order of interaction by selecting the corresponding number of allowed basis functions. The sample pulse of Fig. 2 may be considered a prototype for such cases.
+ ###### 
+From cou.: 82 The fitness charts illustrate that the von Neumann basis handles all four test pulse sequences considerably above average. This indicates that the von Neumann basis represents a good compromise between flexibility and performance.
+From Soup: 82 After this direct implementation of adaptive phase-space control, we now describe another way in which the von Neumann representation can simplify laser pulse shapes in coherent control. We assume that an optimal pulse has already been found by some means, and we want to deduce the essential control features. This is a situation often encountered in learning control experiments, in that an optimal waveform leads to the desired goal, but one cannot differentiate between essential and extraneous features in the complex pulse. Thus the underlying control mechanisms remain hidden. Our approach is to filter out the unnecessary components by simply discarding all basis functions in the von Neumann plane having minor intensity. In practice, this is done by setting to zero all those basis functions with amplitudes below a certain threshold. By repeating this procedure every for possible threshold the shaped laser pulse can be “distilled” down to its most relevant time–frequency information content.
+ ###### 
+From cou.: 83 The present work demonstrates that direct phase-space optimization is indeed feasible and that it can provide accelerated convergence, higher yields and reduced complexity for certain classes of applications. It is expected that the method will be advantageous for systems that require interactions at specific times with particular frequency. One example is the access of Franck–Condon transitions during molecular wave-packet propagation. Under such circumstances the von Neumann basis is well suited, and one can choose an effective order of interaction by selecting the corresponding number of allowed basis functions. The sample pulse of Fig. 2 may be considered a prototype for such cases.
+From Soup: 83 We demonstrate this distillation on the example pulse of Fig. 2(a) . For this purpose, the target (optimal) field is transformed into the von Neumann basis, and the fitness is calculated for threshold values that retain anywhere from one to N = 121 basis functions. The results are shown in Fig. 4 (blue squares) as a function of the number of basis functions retained. The inset of Fig. 4 illustrates the correlation between the von Neumann intensity threshold and the number of basis functions. Note that this function depends on the pulse shape and is not a general attribute of the von Neumann parametrization.
+ ###### 
+From cou.: 84 After this direct implementation of adaptive phase-space control, we now describe another way in which the von Neumann representation can simplify laser pulse shapes in coherent control. We assume that an optimal pulse has already been found by some means, and we want to deduce the essential control features. This is a situation often encountered in learning control experiments, in that an optimal waveform leads to the desired goal, but one cannot differentiate between essential and extraneous features in the complex pulse. Thus the underlying control mechanisms remain hidden. Our approach is to filter out the unnecessary components by simply discarding all basis functions in the von Neumann plane having minor intensity. In practice, this is done by setting to zero all those basis functions with amplitudes below a certain threshold. By repeating this procedure every for possible threshold the shaped laser pulse can be “distilled” down to its most relevant time–frequency information content.
+From Soup: 84 The most prominent feature in Fig. 4 is the steep increase of the fitness with increasing numbers of basis functions retained. Interestingly, the curve already starts saturating at 20 basis functions; for more basis functions the deviation from the target is small. The two axes in this plot can be regarded as complementary variables. The horizontal axis corresponds to information content and the vertical axis to control performance. Without information, no control is achieved (bottom left corner), with complete information, perfect control can be realized (top right corner). The curve connecting these two end points will extend further toward the top left corner the better the parametrization is matched to the control problem. For a perfect parametrization, one basis function (“control knob”), albeit complicated, would already suffice for perfect control and thus the fitness-basis curve would reach the upper left corner. Thus the minimum distance of the curve from the upper left corner is a measure for how well adapted a given basis set is to achieve control with few parameters. On the other hand, for any given parametrization, the point of closest distance to the upper left corner provides in some sense the best compromise between complexity of the control field and performance. This closest distance is found by considering the red-dashed circle segment in Fig. 4 which reaches the distillation curve tangentially at about 20 von Neumann basis functions (vertical dashed line). However, the “optimal” number of basis functions will of course vary, depending on the scenario under investigation. One therefore cannot conclude that the number of basis functions that gives the best compromise between complexity and performance will always be 20.
+ ###### 
+From cou.: 85 We demonstrate this distillation on the example pulse of Fig. 2(a). For this purpose, the target (optimal) field is transformed into the von Neumann basis, and the fitness is calculated for threshold values that retain anywhere from one to N = 121 basis functions. The results are shown in Fig. 4 (blue squares) as a function of the number of basis functions retained. The inset of Fig. 4 illustrates the correlation between the von Neumann intensity threshold and the number of basis functions. Note that this function depends on the pulse shape and is not a general attribute of the von Neumann parametrization.
+From Soup: 85 In most cases, there exist several ways to calculate the fitness function in order to achieve the same optimization goal. Hence the shape of the distillation curve will certainly depend on the way the fitness function is calculated and consequently the “optimal” number of basis functions will also vary. The minimum distance is just one possible qualitative criterion that may be useful, depending on the intention of the experimenter.
+ ###### 
+From cou.: 86 The most prominent feature in Fig. 4 is the steep increase of the fitness with increasing numbers of basis functions retained. Interestingly, the curve already starts saturating at 20 basis functions; for more basis functions the deviation from the target is small. The two axes in this plot can be regarded as complementary variables. The horizontal axis corresponds to information content and the vertical axis to control performance. Without information, no control is achieved (bottom left corner), with complete information, perfect control can be realized (top right corner). The curve connecting these two end points will extend further toward the top left corner the better the parametrization is matched to the control problem. For a perfect parametrization, one basis function (“control knob”), albeit complicated, would already suffice for perfect control and thus the fitness-basis curve would reach the upper left corner. Thus the minimum distance of the curve from the upper left corner is a measure for how well adapted a given basis set is to achieve control with few parameters. On the other hand, for any given parametrization, the point of closest distance to the upper left corner provides in some sense the best compromise between complexity of the control field and performance. This closest distance is found by considering the red-dashed circle segment in Fig. 4 which reaches the distillation curve tangentially at about 20 von Neumann basis functions (vertical dashed line). However, the “optimal” number of basis functions will of course vary, depending on the scenario under investigation. One therefore cannot conclude that the number of basis functions that gives the best compromise between complexity and performance will always be 20.
+From Soup: 86 For comparison, we also run the evolutionary algorithm with a preset number of basis functions. The highest achieved fitness is plotted as a function of the number of basis functions shown in Fig. 4 as green circles. The green curve always exceeds the blue line (“distilled” von Neumann pulse) in its fitness values. This is not surprising since the search algorithm should always find a waveform at least as good as the one where as a first approximation the low-intensity parts of the optimal pulse have simply been cut off. Setting both curves into relation to the unshaped laser pulse (normalized to −1) we infer that the distillation procedure is not too approximate.
+ ###### 
+From cou.: 87 In most cases, there exist several ways to calculate the fitness function in order to achieve the same optimization goal. Hence the shape of the distillation curve will certainly depend on the way the fitness function is calculated and consequently the “optimal” number of basis functions will also vary. The minimum distance is just one possible qualitative criterion that may be useful, depending on the intention of the experimenter.
+From Soup: 87 Therefore we conclude that for this example one can reduce the complexity of the waveform with the prescribed distillation process (blue curve) without sacrificing too much control performance (green curve). In this way the laser pulse can be reduced to its essential parts allowing for a better interpretation of the underlying mechanism.
+ ###### 
+From cou.: 88 For comparison, we also run the evolutionary algorithm with a preset number of basis functions. The highest achieved fitness is plotted as a function of the number of basis functions shown in Fig. 4 as green circles. The green curve always exceeds the blue line (“distilled” von Neumann pulse) in its fitness values. This is not surprising since the search algorithm should always find a waveform at least as good as the one where as a first approximation the low-intensity parts of the optimal pulse have simply been cut off. Setting both curves into relation to the unshaped laser pulse (normalized to −1) we infer that the distillation procedure is not too approximate.
+From Soup: 88 We now implement adaptive phase-space control in an experiment, the essence of which is illustrated in Fig. 5 . This simple setup has been chosen because it is easy to analyze and therefore is perfectly suited as a first demonstration. We use a home-built Ti:Sapphire oscillator (50 fs, 800 nm, 3 nJ, 80 MHz) whose output is modulated in an LCD-based (CRI SLM-256-NIR) pulse-shaper in the amplitude-and-phase modulation mode. After the pulse-shaper the beam is split, one of the arms is delayed by a fixed time τ , and both beams are focused non-collinearly into a 100 μm BBO crystal. The sum-frequency signal at 400 nm propagating on the optical axis is detected. This signal serves as fitness for the evolutionary algorithm and is equivalent to a maximization of the intensity autocorrelation at a fixed time delay τ . A double pulse with a time separation equal to the delay time τ should yield the highest fitness, because then the second subpulse of one beam overlaps with the first subpulse of the delayed beam resulting in a high second-harmonic yield.
+ ###### 
+From cou.: 89 Therefore we conclude that for this example one can reduce the complexity of the waveform with the prescribed distillation process (blue curve) without sacrificing too much control performance (green curve). In this way the laser pulse can be reduced to its essential parts allowing for a better interpretation of the underlying mechanism.
+From Soup: 89 To test the applicability of the von Neumann basis the time delay between the two arms is set to a value of τ = 1000 fs. This is a particularly hard case to realize since the von Neumann pixels are spaced in time by 400 fs and therefore no integer pixel spacing will give 1000 fs. Of course other time delays are possible and were also tested (data not shown).
+ ###### 
+From cou.: 90 We now implement adaptive phase-space control in an experiment, the essence of which is illustrated in Fig. 5. This simple setup has been chosen because it is easy to analyze and therefore is perfectly suited as a first demonstration. We use a home-built Ti:Sapphire oscillator (50 fs, 800 nm, 3 nJ, 80 MHz) whose output is modulated in an LCD-based (CRI SLM-256-NIR) pulse-shaper in the amplitude-and-phase modulation mode. After the pulse-shaper the beam is split, one of the arms is delayed by a fixed time τ, and both beams are focused non-collinearly into a 100 μm BBO crystal. The sum-frequency signal at 400 nm propagating on the optical axis is detected. This signal serves as fitness for the evolutionary algorithm and is equivalent to a maximization of the intensity autocorrelation at a fixed time delay τ. A double pulse with a time separation equal to the delay time τ should yield the highest fitness, because then the second subpulse of one beam overlaps with the first subpulse of the delayed beam resulting in a high second-harmonic yield.
+From Soup: 90 Here we use 32 genes to encode the laser pulse, corresponding to eight von Neumann basis functions. Experimental results are shown in Fig. 6 . The fitness of the best 10% individuals [ Fig. 6(a) , green squares] found by the algorithm for each generation clearly exceeds the fitness of the unshaped pulse (blue circles). The optimal pulse (fittest individual of the last generation) is displayed in Fig. 6(b) in terms of von Neumann intensity and phase. All intensity of the eight basis functions is contained in two temporal columns. This makes sense because of the expected double pulse structure. The distribution along the frequency axis follows the laser spectrum, i.e. small von Neumann intensity values (yellow color) are found at the edges ( ω = 2.312 rad fs −1 and ω =2.405 rad fs −1 ) whereas high intensity is found in the center, e.g. brown color for ω = 2.359 rad fs −1 and the sum of two yellow squares at ω = 2.343 rad fs −1 . The temporal separation between the columns is 1200 fs such that without the influence of the von Neumann phase the optimal time delay would not be reached. However, in addition to the amplitude change the von Neumann phase also changes along the frequency axis for both subpulses. This is visible in the color change representing the respective phase values. Since linear spectral phase corresponds to temporal delay, this leads to a separation of 1050 fs close to the optimum value of 1000 fs. This effect of the von Neumann phase becomes apparent when analyzing the temporal electric field calculated from the optimized von Neumann representation [ Fig. 6(c) ]. If all von Neumann phases are set to zero (dashed line) the subpulse separation is about 1200 fs. However, the algorithm succeeded in shifting the subpulse separation towards the desired time separation of τ = 1000 fs (solid line) by applying the correct von Neumann phases. This also becomes apparent in the recorded SHG-FROG trace (“second-harmonic generation–frequency-resolved optical gating”) 54 of the optimal pulse and the corresponding autocorrelation [ Fig. 6(d) ]. The optimal time delay in the shaped pulse separation should yield the value of the set time delay of τ = 1000 fs (black dashed line). While the experimental result (green dashed line) does not correspond perfectly due to the limited number of basis functions used, it illustrates the principle that the relatively coarse von Neumann grid places no limitation on temporal or spectral accuracy.
+ ###### 
+From cou.: 91 To test the applicability of the von Neumann basis the time delay between the two arms is set to a value of τ = 1000 fs. This is a particularly hard case to realize since the von Neumann pixels are spaced in time by 400 fs and therefore no integer pixel spacing will give 1000 fs. Of course other time delays are possible and were also tested (data not shown).
+From Soup: 91 In this work, we have employed the von Neumann time–frequency representation for ultrashort shaped laser pulses as a basis in an evolutionary algorithm. The choice of the right basis set is crucial for any evolutionary algorithm to find the global optimum with a minimum of gene values with a small number of iterations. We carried out simulations with the goal of finding a pulse shape as similar as possible to a given target using the von Neumann time–frequency parametrization as well as different parametrizations purely in the frequency domain. The von Neumann basis produced the best results in the example studied.
+ ###### 
+From cou.: 92 Here we use 32 genes to encode the laser pulse, corresponding to eight von Neumann basis functions. Experimental results are shown in Fig. 6. The fitness of the best 10% individuals [Fig. 6(a), green squares] found by the algorithm for each generation clearly exceeds the fitness of the unshaped pulse (blue circles). The optimal pulse (fittest individual of the last generation) is displayed in Fig. 6(b) in terms of von Neumann intensity and phase. All intensity of the eight basis functions is contained in two temporal columns. This makes sense because of the expected double pulse structure. The distribution along the frequency axis follows the laser spectrum, i.e. small von Neumann intensity values (yellow color) are found at the edges (ω = 2.312 rad fs−1 and ω=2.405 rad fs−1) whereas high intensity is found in the center, e.g. brown color for ω = 2.359 rad fs−1 and the sum of two yellow squares at ω = 2.343 rad fs−1. The temporal separation between the columns is 1200 fs such that without the influence of the von Neumann phase the optimal time delay would not be reached. However, in addition to the amplitude change the von Neumann phase also changes along the frequency axis for both subpulses. This is visible in the color change representing the respective phase values. Since linear spectral phase corresponds to temporal delay, this leads to a separation of 1050 fs close to the optimum value of 1000 fs. This effect of the von Neumann phase becomes apparent when analyzing the temporal electric field calculated from the optimized von Neumann representation [Fig. 6(c)]. If all von Neumann phases are set to zero (dashed line) the subpulse separation is about 1200 fs. However, the algorithm succeeded in shifting the subpulse separation towards the desired time separation of τ = 1000 fs (solid line) by applying the correct von Neumann phases. This also becomes apparent in the recorded SHG-FROG trace (“second-harmonic generation–frequency-resolved optical gating”)54 of the optimal pulse and the corresponding autocorrelation [Fig. 6(d)]. The optimal time delay in the shaped pulse separation should yield the value of the set time delay of τ = 1000 fs (black dashed line). While the experimental result (green dashed line) does not correspond perfectly due to the limited number of basis functions used, it illustrates the principle that the relatively coarse von Neumann grid places no limitation on temporal or spectral accuracy.
+From Soup: 92 As a second application we demonstrated the ability to “distill” the essential features of a given pulse shape in the von Neumann representation. For this purpose we measured the fitness function for laser pulses parametrized in the von Neumann representation with different numbers of basis functions and compared it to that of the optimal waveform. Using the von Neumann representation a few basis functions already yield a fairly high fitness value. For future applications, this distillation procedure could be a useful way to reduce the complexity of a pulse shape, revealing possible control mechanisms.
+ ###### 
+From cou.: 93 In this work, we have employed the von Neumann time–frequency representation for ultrashort shaped laser pulses as a basis in an evolutionary algorithm. The choice of the right basis set is crucial for any evolutionary algorithm to find the global optimum with a minimum of gene values with a small number of iterations. We carried out simulations with the goal of finding a pulse shape as similar as possible to a given target using the von Neumann time–frequency parametrization as well as different parametrizations purely in the frequency domain. The von Neumann basis produced the best results in the example studied.
+From Soup: 93 Experimentally, we showed adaptive control with the von Neumann representation by means of an all-optical setup. In a Mach–Zehnder interferometer setup the sum frequency yield of the crossed beams was optimized for a fixed detuning of the interferometer's zero position. As expected, this resulted in a double pulse with a pulse separation approximately equal to that of the time delay between the arms of the interferometer. The von Neumann basis in closed-loop quantum control experiments could be useful for a broad range of problems. Optimization takes place in the joint time–frequency phase-space which is a natural basis to describe, e.g. molecular wave-packet propagation and Franck–Condon transitions. The complexity of the optimal pulse can be prescribed at the outset by choosing an appropriate number of basis functions, or it can be chosen at the end by a “distillation” process. Together with the recently reported measurement of multidimensional fitness landscapes using the von Neumann basis, 42 the adaptive control and distillation methods presented here offer new prospects for uncovering mechanistic interpretations of control laser pulse shapes. These methods are expected to play a useful role in many future studies of quantum dynamics and control.
+ ###### 
+From cou.: 94 As a second application we demonstrated the ability to “distill” the essential features of a given pulse shape in the von Neumann representation. For this purpose we measured the fitness function for laser pulses parametrized in the von Neumann representation with different numbers of basis functions and compared it to that of the optimal waveform. Using the von Neumann representation a few basis functions already yield a fairly high fitness value. For future applications, this distillation procedure could be a useful way to reduce the complexity of a pulse shape, revealing possible control mechanisms.
+From Soup: 94 We thank Susanne Fechner for valuable discussions, the DFG for funding within the Research Focus Program “Ultrafast Nano-Optics” (SPP 1391), the Minerva Foundation, and the EMALI network of the EU.
+ ###### 
+From cou.: 95 Experimentally, we showed adaptive control with the von Neumann representation by means of an all-optical setup. In a Mach–Zehnder interferometer setup the sum frequency yield of the crossed beams was optimized for a fixed detuning of the interferometer's zero position. As expected, this resulted in a double pulse with a pulse separation approximately equal to that of the time delay between the arms of the interferometer. The von Neumann basis in closed-loop quantum control experiments could be useful for a broad range of problems. Optimization takes place in the joint time–frequency phase-space which is a natural basis to describe, e.g. molecular wave-packet propagation and Franck–Condon transitions. The complexity of the optimal pulse can be prescribed at the outset by choosing an appropriate number of basis functions, or it can be chosen at the end by a “distillation” process. Together with the recently reported measurement of multidimensional fitness landscapes using the von Neumann basis,42 the adaptive control and distillation methods presented here offer new prospects for uncovering mechanistic interpretations of control laser pulse shapes. These methods are expected to play a useful role in many future studies of quantum dynamics and control.
+From Soup: 95 S. A. Rice and M. Zhao, Optical Control of Molecular Dynamics , Wiley-Interscience, New York, 2000 Search PubMed .
+ ###### 
+From cou.: 96 We thank Susanne Fechner for valuable discussions, the DFG for funding within the Research Focus Program “Ultrafast Nano-Optics” (SPP 1391), the Minerva Foundation, and the EMALI network of the EU.
+From Soup: 96 T. Brixner and G. Gerber, ChemPhysChem , 2003, 4 , 418–438 CrossRef CAS .
+ ###### 
+From cou.: 97 S. A. Rice and M. Zhao, Optical Control of Molecular Dynamics, Wiley-Interscience, New York, 2000 Search PubMed .
+From Soup: 97 P. W. Brumer and M. Shapiro, Principles of the Quantum Control of Molecular Processes , Wiley-Interscience, New York, 2003 Search PubMed .
+ ###### 
+From cou.: 98 T. Brixner and G. Gerber, ChemPhysChem, 2003, 4, 418–438 CrossRef CAS .
+From Soup: 98 P. Nuernberger, G. Vogt, T. Brixner and G. Gerber, Phys. Chem. Chem. Phys. , 2007, 9 , 2470–2497 RSC .
+ ###### 
+From cou.: 99 P. W. Brumer and M. Shapiro, Principles of the Quantum Control of Molecular Processes, Wiley-Interscience, New York, 2003 Search PubMed .
+From Soup: 99 D. Tannor, Introduction to Quantum Mechanics: A Time-Dependent Perspective , University Science Books, Sausalito, 2007 Search PubMed .
+ ###### 
+From cou.: 100 P. Nuernberger, G. Vogt, T. Brixner and G. Gerber, Phys. Chem. Chem. Phys., 2007, 9, 2470–2497 RSC .
+From Soup: 100 P. Brumer and M. Shapiro, Chem. Phys. Lett. , 1986, 126 , 541–546 CrossRef CAS .
+ ###### 
+From cou.: 101 D. Tannor, Introduction to Quantum Mechanics: A Time-Dependent Perspective, University Science Books, Sausalito, 2007 Search PubMed .
+From Soup: 101 C. Chen, Y. Yin and D. S. Elliott, Phys. Rev. Lett. , 1990, 64 , 507–510 CrossRef CAS .
+ ###### 
+From cou.: 102 P. Brumer and M. Shapiro, Chem. Phys. Lett., 1986, 126, 541–546 CrossRef CAS .
+From Soup: 102 U. Gaubatz, P. Rudecki, M. Becker, S. Schiemann, M. Külz and K. Bergmann, Chem. Phys. Lett. , 1988, 149 , 463–468 CrossRef CAS .
+ ###### 
+From cou.: 103 C. Chen, Y. Yin and D. S. Elliott, Phys. Rev. Lett., 1990, 64, 507–510 CrossRef CAS .
+From Soup: 103 K. Bergmann, H. Theuer and B. W. Shore, Rev. Mod. Phys. , 1998, 70 , 1003–1025 CrossRef CAS .
+ ###### 
+From cou.: 104 U. Gaubatz, P. Rudecki, M. Becker, S. Schiemann, M. Külz and K. Bergmann, Chem. Phys. Lett., 1988, 149, 463–468 CrossRef CAS .
+From Soup: 104 D. J. Tannor and S. A. Rice, J. Chem. Phys. , 1985, 83 , 5013–5018 CrossRef CAS .
+ ###### 
+From cou.: 105 K. Bergmann, H. Theuer and B. W. Shore, Rev. Mod. Phys., 1998, 70, 1003–1025 CrossRef CAS .
+From Soup: 105 T. Baumert, M. Grosser, R. Thalweiser and G. Gerber, Phys. Rev. Lett. , 1991, 67 , 3753–3756 CrossRef CAS .
+ ###### 
+From cou.: 106 D. J. Tannor and S. A. Rice, J. Chem. Phys., 1985, 83, 5013–5018 CrossRef CAS .
+From Soup: 106 E. D. Potter, J. L. Herek, S. Pedersen, Q. Liu and A. H. Zewail, Nature , 1992, 355 , 66–68 CrossRef CAS .
+ ###### 
+From cou.: 107 T. Baumert, M. Grosser, R. Thalweiser and G. Gerber, Phys. Rev. Lett., 1991, 67, 3753–3756 CrossRef CAS .
+From Soup: 107 R. S. Judson and H. Rabitz, Phys. Rev. Lett. , 1992, 68 , 1500–1503 CrossRef CAS .
+ ###### 
+From cou.: 108 E. D. Potter, J. L. Herek, S. Pedersen, Q. Liu and A. H. Zewail, Nature, 1992, 355, 66–68 CrossRef CAS .
+From Soup: 108 C. J. Bardeen, V. V. Yakovlev, K. R. Wilson, S. D. Carpenter, P. M. Weber and W. S. Warren, Chem. Phys. Lett. , 1997, 280 , 151–158 CrossRef CAS .
+ ###### 
+From cou.: 109 R. S. Judson and H. Rabitz, Phys. Rev. Lett., 1992, 68, 1500–1503 CrossRef CAS .
+From Soup: 109 A. Assion, T. Baumert, M. Bergt, T. Brixner, B. Kiefer, V. Seyfried, M. Strehle and G. Gerber, Science , 1998, 282 , 919–922 CrossRef CAS .
+ ###### 
+From cou.: 110 C. J. Bardeen, V. V. Yakovlev, K. R. Wilson, S. D. Carpenter, P. M. Weber and W. S. Warren, Chem. Phys. Lett., 1997, 280, 151–158 CrossRef CAS .
+From Soup: 110 D. Meshulach and Y. Silberberg, Nature , 1998, 396 , 239–242 CrossRef CAS .
+ ###### 
+From cou.: 111 A. Assion, T. Baumert, M. Bergt, T. Brixner, B. Kiefer, V. Seyfried, M. Strehle and G. Gerber, Science, 1998, 282, 919–922 CrossRef CAS .
+From Soup: 111 T. C. Weinacht, J. Ahn and P. H. Bucksbaum, Nature , 1999, 397 , 233–235 CrossRef CAS .
+ ###### 
+From cou.: 112 D. Meshulach and Y. Silberberg, Nature, 1998, 396, 239–242 CrossRef CAS .
+From Soup: 112 C. Daniel, J. Full, L. Gonzalez, C. Lupulescu, J. Manz, A. Merli, Š. Vajda and L. Wöste, Science , 2003, 299 , 536–539 CrossRef CAS .
+ ###### 
+From cou.: 113 T. C. Weinacht, J. Ahn and P. H. Bucksbaum, Nature, 1999, 397, 233–235 CrossRef CAS .
+From Soup: 113 C. J. Bardeen, Q. Wang and C. V. Shank, Phys. Rev. Lett. , 1995, 75 , 3410–3413 CrossRef CAS .
+ ###### 
+From cou.: 114 C. Daniel, J. Full, L. Gonzalez, C. Lupulescu, J. Manz, A. Merli, Š. Vajda and L. Wöste, Science, 2003, 299, 536–539 CrossRef CAS .
+From Soup: 114 B. Kohler, V. V. Yakovlev, J. Che, J. L. Krause, M. Messina, K. R. Wilson, N. Schwentner, R. M. Whitnell and Y. Yan, Phys. Rev. Lett. , 1995, 74 , 3360–3363 CrossRef CAS .
+ ###### 
+From cou.: 115 C. J. Bardeen, Q. Wang and C. V. Shank, Phys. Rev. Lett., 1995, 75, 3410–3413 CrossRef CAS .
+From Soup: 115 J. Cao, C. J. Bardeen and K. R. Wilson, Phys. Rev. Lett. , 1998, 80 , 1406–1409 CrossRef CAS .
+ ###### 
+From cou.: 116 B. Kohler, V. V. Yakovlev, J. Che, J. L. Krause, M. Messina, K. R. Wilson, N. Schwentner, R. M. Whitnell and Y. Yan, Phys. Rev. Lett., 1995, 74, 3360–3363 CrossRef CAS .
+From Soup: 116 C. Bardeen, V. Yakovlev, J. Squier and K. Wilson, J. Am. Chem. Soc. , 1998, 120 , 13023–13027 CrossRef CAS .
+ ###### 
+From cou.: 117 J. Cao, C. J. Bardeen and K. R. Wilson, Phys. Rev. Lett., 1998, 80, 1406–1409 CrossRef CAS .
+From Soup: 117 A. Bartelt, A. Lindinger, C. Lupulescu, S. Vajda and L. Wöste, Phys. Chem. Chem. Phys. , 2003, 5 , 3610–3615 RSC .
+ ###### 
+From cou.: 118 C. Bardeen, V. Yakovlev, J. Squier and K. Wilson, J. Am. Chem. Soc., 1998, 120, 13023–13027 CrossRef CAS .
+From Soup: 118 T. Hornung, R. Meier, D. Zeidler, K. Kompa, D. Proch and M. Motzkus, Appl. Phys. B: Lasers Opt. , 2000, 71 , 277–284 CAS .
+ ###### 
+From cou.: 119 A. Bartelt, A. Lindinger, C. Lupulescu, S. Vajda and L. Wöste, Phys. Chem. Chem. Phys., 2003, 5, 3610–3615 RSC .
+From Soup: 119 J. L. Herek, W. Wohlleben, R. J. Cogdell, D. Zeidler and M. Motzkus, Nature , 2002, 417 , 533–535 CrossRef CAS .
+ ###### 
+From cou.: 120 T. Hornung, R. Meier, D. Zeidler, K. Kompa, D. Proch and M. Motzkus, Appl. Phys. B: Lasers Opt., 2000, 71, 277–284 CAS .
+From Soup: 120 A. F. Bartelt, T. Feurer and L. Wöste, Chem. Phys. , 2005, 318 , 207–216 CrossRef CAS .
+ ###### 
+From cou.: 121 J. L. Herek, W. Wohlleben, R. J. Cogdell, D. Zeidler and M. Motzkus, Nature, 2002, 417, 533–535 CrossRef CAS .
+From Soup: 121 M. Wollenhaupt, A. Präkelt, C. Sarpe-Tudoran, D. Liese, T. Bayer and T. Baumert, Phys. Rev. A: At., Mol., Opt. Phys. , 2006, 73 , 063409 CrossRef .
+ ###### 
+From cou.: 122 A. F. Bartelt, T. Feurer and L. Wöste, Chem. Phys., 2005, 318, 207–216 CrossRef CAS .
+From Soup: 122 F. Langhojer, D. Cardoza, M. Baertschy and T. C. Weinacht, J. Chem. Phys. , 2005, 122 , 014102 CrossRef .
+ ###### 
+From cou.: 123 M. Wollenhaupt, A. Präkelt, C. Sarpe-Tudoran, D. Liese, T. Bayer and T. Baumert, Phys. Rev. A: At., Mol., Opt. Phys., 2006, 73, 063409 CrossRef .
+From Soup: 123 D. Cardoza, C. Trallero-Herrero, F. Langhojer, H. Rabitz and T. Weinacht, J. Chem. Phys. , 2005, 122 , 124306 CrossRef .
+ ###### 
+From cou.: 124 F. Langhojer, D. Cardoza, M. Baertschy and T. C. Weinacht, J. Chem. Phys., 2005, 122, 014102 CrossRef .
+From Soup: 124 J. M. Geremia, W. Zhu and H. Rabitz, J. Chem. Phys. , 2000, 113 , 10841 CrossRef CAS .
+ ###### 
+From cou.: 125 D. Cardoza, C. Trallero-Herrero, F. Langhojer, H. Rabitz and T. Weinacht, J. Chem. Phys., 2005, 122, 124306 CrossRef .
+From Soup: 125 T. C. Weinacht, R. Bartels, S. Backus, P. H. Bucksbaum, B. Pearson, J. M. Geremia, H. Rabitz, H. C. Kapteyn and M. M. Murnane, Chem. Phys. Lett. , 2001, 344 , 333–338 CrossRef CAS .
+ ###### 
+From cou.: 126 J. M. Geremia, W. Zhu and H. Rabitz, J. Chem. Phys., 2000, 113, 10841 CrossRef CAS .
+From Soup: 126 A. Lindinger, S. M. Weber, C. Lupulescu, F. Vetter, M. Plewicki, A. Merli, L. Wöste, A. F. Bartelt and H. Rabitz, Phys. Rev. A: At., Mol., Opt. Phys. , 2005, 71 , 013419 CrossRef .
+ ###### 
+From cou.: 127 T. C. Weinacht, R. Bartels, S. Backus, P. H. Bucksbaum, B. Pearson, J. M. Geremia, H. Rabitz, H. C. Kapteyn and M. M. Murnane, Chem. Phys. Lett., 2001, 344, 333–338 CrossRef CAS .
+From Soup: 127 J. L. White, B. J. Pearson and P. H. Bucksbaum, J. Phys. B: At., Mol. Opt. Phys. , 2004, 37 , L399–L405 CrossRef CAS .
+ ###### 
+From cou.: 128 A. Lindinger, S. M. Weber, C. Lupulescu, F. Vetter, M. Plewicki, A. Merli, L. Wöste, A. F. Bartelt and H. Rabitz, Phys. Rev. A: At., Mol., Opt. Phys., 2005, 71, 013419 CrossRef .
+From Soup: 128 M. A. Montgomery, R. R. Meglen and N. H. Damrauer, J. Phys. Chem. A , 2006, 110 , 6391–6394 CrossRef CAS .
+ ###### 
+From cou.: 129 J. L. White, B. J. Pearson and P. H. Bucksbaum, J. Phys. B: At., Mol. Opt. Phys., 2004, 37, L399–L405 CrossRef CAS .
+From Soup: 129 C. Gollub and R. de Vivie-Riedle, Phys. Rev. A: At., Mol., Opt. Phys. , 2009, 79 , 021401 CrossRef .
+ ###### 
+From cou.: 130 M. A. Montgomery, R. R. Meglen and N. H. Damrauer, J. Phys. Chem. A, 2006, 110, 6391–6394 CrossRef CAS .
+From Soup: 130 C. Gollub and R. de Vivie-Riedle, New J. Phys. , 2009, 11 , 013019 CrossRef .
+ ###### 
+From cou.: 131 C. Gollub and R. de Vivie-Riedle, Phys. Rev. A: At., Mol., Opt. Phys., 2009, 79, 021401 CrossRef .
+From Soup: 131 T. Hornung, R. Meier and M. Motzkus, Chem. Phys. Lett. , 2000, 326 , 445–453 CrossRef CAS .
+ ###### 
+From cou.: 132 C. Gollub and R. de Vivie-Riedle, New J. Phys., 2009, 11, 013019 CrossRef .
+From Soup: 132 S. M. Weber, A. Lindinger, F. Vetter, M. Plewicki, A. Merli and L. Wöste, Eur. Phys. J. D , 2005, 33 , 39–42 CrossRef CAS .
+ ###### 
+From cou.: 133 T. Hornung, R. Meier and M. Motzkus, Chem. Phys. Lett., 2000, 326, 445–453 CrossRef CAS .
+From Soup: 133 S. Fechner, F. Dimler, T. Brixner, G. Gerber and D. J. Tannor, Opt. Express , 2007, 15 , 15387–15401 CrossRef .
+ ###### 
+From cou.: 134 S. M. Weber, A. Lindinger, F. Vetter, M. Plewicki, A. Merli and L. Wöste, Eur. Phys. J. D, 2005, 33, 39–42 CrossRef CAS .
+From Soup: 134 A. Rodenberg, S. Fechner, F. Dimler, D. J. Tannor and T. Brixner, Appl. Phys. B: Lasers Opt. , 2008, 93 , 763–772 CrossRef CAS .
+ ###### 
+From cou.: 135 S. Fechner, F. Dimler, T. Brixner, G. Gerber and D. J. Tannor, Opt. Express, 2007, 15, 15387–15401 CrossRef .
+From Soup: 135 F. Dimler, S. Fechner, A. Rodenberg, T. Brixner and D. J. Tannor, New J. Phys. , 2009, 11 , 105052 CrossRef .
+ ###### 
+From cou.: 136 A. Rodenberg, S. Fechner, F. Dimler, D. J. Tannor and T. Brixner, Appl. Phys. B: Lasers Opt., 2008, 93, 763–772 CrossRef CAS .
+From Soup: 136 S. Ruetzel, C. Stolzenberger, S. Fechner, F. Dimler, T. Brixner and D. J. Tannor, J. Chem. Phys. , 2010, 133 , 164510 CrossRef .
+ ###### 
+From cou.: 137 F. Dimler, S. Fechner, A. Rodenberg, T. Brixner and D. J. Tannor, New J. Phys., 2009, 11, 105052 CrossRef .
+From Soup: 137 A. M. Perelomov, Theor. Math. Phys. , 1971, 6 , 156–164 CrossRef .
+ ###### 
+From cou.: 138 S. Ruetzel, C. Stolzenberger, S. Fechner, F. Dimler, T. Brixner and D. J. Tannor, J. Chem. Phys., 2010, 133, 164510 CrossRef .
+From Soup: 138 J. v. Neumann, Math. Ann. , 1931, 104 , 570–578 CrossRef .
+ ###### 
+From cou.: 139 A. M. Perelomov, Theor. Math. Phys., 1971, 6, 156–164 CrossRef .
+From Soup: 139 K. Husimi, Proc. Phys.–Math. Soc. Jpn. , 1940, 22 , 264–314 Search PubMed .
+ ###### 
+From cou.: 140 J. v. Neumann, Math. Ann., 1931, 104, 570–578 CrossRef .
+From Soup: 140 E. P. Wigner, Phys. Rev. , 1932, 40 , 749–759 CrossRef CAS .
+ ###### 
+From cou.: 141 K. Husimi, Proc. Phys.–Math. Soc. Jpn., 1940, 22, 264–314 Search PubMed .
+From Soup: 141 J. Paye, IEEE J. Quantum Electron. , 1992, 28 , 2262–2273 CrossRef .
+ ###### 
+From cou.: 142 E. P. Wigner, Phys. Rev., 1932, 40, 749–759 CrossRef CAS .
+From Soup: 142 J. Vaughan, T. Feurer, K. Stone and K. Nelson, Opt. Express , 2006, 14 , 1314–1328 CrossRef .
+ ###### 
+From cou.: 143 J. Paye, IEEE J. Quantum Electron., 1992, 28, 2262–2273 CrossRef .
+From Soup: 143 D. Yelin, D. Meshulach and Y. Silberberg, Opt. Lett. , 1997, 22 , 1793–1795 Search PubMed .
+ ###### 
+From cou.: 144 J. Vaughan, T. Feurer, K. Stone and K. Nelson, Opt. Express, 2006, 14, 1314–1328 CrossRef .
+From Soup: 144 T. Baumert, T. Brixner, V. Seyfried, M. Strehle and G. Gerber, Appl. Phys. B: Lasers Opt. , 1997, 65 , 779–782 CrossRef .
+ ###### 
+From cou.: 145 D. Yelin, D. Meshulach and Y. Silberberg, Opt. Lett., 1997, 22, 1793–1795 Search PubMed .
+From Soup: 145 M. Renard, R. Chaux, B. Lavorel and O. Faucher, Opt. Express , 2004, 12 , 473–482 CrossRef .
+ ###### 
+From cou.: 146 T. Baumert, T. Brixner, V. Seyfried, M. Strehle and G. Gerber, Appl. Phys. B: Lasers Opt., 1997, 65, 779–782 CrossRef .
+From Soup: 146 G. Vogt, P. Nuernberger, R. Selle, F. Dimler, T. Brixner and G. Gerber, Phys. Rev. A: At., Mol., Opt. Phys. , 2006, 74 , 033413 CrossRef .
+ ###### 
+From cou.: 147 M. Renard, R. Chaux, B. Lavorel and O. Faucher, Opt. Express, 2004, 12, 473–482 CrossRef .
+From Soup: 147 M. Wollenhaupt, M. Krug, J. Köhler, T. Bayer, C. Sarpe-Tudoran and T. Baumert, Appl. Phys. B: Lasers Opt. , 2009, 95 , 245–259 CrossRef CAS .
+ ###### 
+From cou.: 148 G. Vogt, P. Nuernberger, R. Selle, F. Dimler, T. Brixner and G. Gerber, Phys. Rev. A: At., Mol., Opt. Phys., 2006, 74, 033413 CrossRef .
+From Soup: 148 R. Trebino, K. W. DeLong, D. N. Fittinghoff, J. N. Sweetser, M. A. Krumbügel, B. A. Richman and D. J. Kane, Rev. Sci. Instrum. , 1997, 68 , 3277–3295 CrossRef CAS .
+ ###### 
+From cou.: 149 M. Wollenhaupt, M. Krug, J. Köhler, T. Bayer, C. Sarpe-Tudoran and T. Baumert, Appl. Phys. B: Lasers Opt., 2009, 95, 245–259 CrossRef CAS .
+From Soup: 149 given here in the frequency domain. These basis functions are centered at discrete time–frequency grid points ( , ), completely covering the accessible frequency and time intervals and , respectively. If the number of grid points in time and frequency is chosen to be the same, the parameter , defining the width of the complex Gaussian basis functions, is given by = /(2 ). If the volume per phase-space cell equals 2π, the set of basis functions is complete but not overcomplete. This discrete phase-space partitioning is called the von Neumann lattice, introduced in early quantum mechanics. The expansion coefficients are calculated by projecting the electric field onto the basis functions, where the inverse of the overlap matrix accounts for the nonorthogonality of the basis functions. Each expansion coefficient represents the magnitude and phase of a Gaussian-shaped transform-limited laser pulse at a fixed time–frequency position. We call the squared absolute value of the coefficients the von Neumann intensity, and the argument the von Neumann phase.
+ ###### 
+From cou.: 150 R. Trebino, K. W. DeLong, D. N. Fittinghoff, J. N. Sweetser, M. A. Krumbügel, B. A. Richman and D. J. Kane, Rev. Sci. Instrum., 1997, 68, 3277–3295 CrossRef CAS .

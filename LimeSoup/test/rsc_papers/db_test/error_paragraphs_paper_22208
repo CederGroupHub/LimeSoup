@@ -1,0 +1,540 @@
+From cou.: 0 Journal
+From Soup: 0 Soft Matter
+ ###### 
+From cou.: 1 The cytotoxicity of nanoparticles (NPs) and their potential applications in drug delivery and intracellular imaging have been extensively investigated, and a thorough molecular understanding of how cellular membrane responds to the introduction of NPs is essential for biomaterial design. In this work, N-varied dissipative particle dynamics (DPD) simulation is applied to investigate how a membrane responds to adsorption of ligand-coated NP. Depending on the membrane surface tension, ligand area density and NP size, four kinds of membrane responses are observed: membrane rupture, NP adhesion, NP penetration, and receptor-mediated endocytosis. While endocytosis provides an effective pathway for cellular uptake of NPs, the NP penetration and NP-induced membrane rupture are related to cytotoxicity. These results support the recent experimental reports that NPs have a Janus face for their biomedical applications: serving as carriers for the transmembrane transport of drug and causing cytotoxicity.
+From Soup: 1 The cytotoxicity of nanoparticles (NPs) and their potential applications in drug delivery and intracellular imaging have been extensively investigated, and a thorough molecular understanding of how cellular membrane responds to the introduction of NPs is essential for biomaterial design. In this work, N-varied dissipative particle dynamics (DPD) simulation is applied to investigate how a membrane responds to adsorption of ligand -coated NP. Depending on the membrane surface tension, ligand area density and NP size, four kinds of membrane responses are observed: membrane rupture, NP adhesion, NP penetration, and receptor-mediated endocytosis. While endocytosis provides an effective pathway for cellular uptake of NPs, the NP penetration and NP-induced membrane rupture are related to cytotoxicity. These results support the recent experimental reports that NPs have a Janus face for their biomedical applications: serving as carriers for the transmembrane transport of drug and causing cytotoxicity.
+ ###### 
+From cou.: 2 The receptor-mediated endocytosis is widely used for the specific uptake of certain substances required by cells, and plays a well-recognized role in the downregulation of transmembrane signal transduction. In addition, receptor-mediated transmembrane transport, as one of the most important processes with which viruses and nanoparticles (NPs) enter a cell, has been well recognized as new avenues for the smart biomaterial designation. For example, bio-nanotechnology has recently opened new avenues for disease therapy,1–5 in which NPs are commonly used as carriers to deliver genes and drugs into cells for therapeutic procedures.6 In this kind of target drug delivery system, the surface of NPs is usually functionalized with ligands,7–12 and the specification of receptor-ligand interaction enables the delivery of chemotherapy agents directly to targeted cells, which reduces side effects and leads to better patient compliance.
+From Soup: 2 The receptor-mediated endocytosis is widely used for the specific uptake of certain substances required by cells, and plays a well-recognized role in the downregulation of transmembrane signal transduction. In addition, receptor-mediated transmembrane transport, as one of the most important processes with which viruses and nanoparticles (NPs) enter a cell, has been well recognized as new avenues for the smart biomaterial designation. For example, bio-nanotechnology has recently opened new avenues for disease therapy, 1–5 in which NPs are commonly used as carriers to deliver genes and drugs into cells for therapeutic procedures. 6 In this kind of target drug delivery system, the surface of NPs is usually functionalized with ligands , 7–12 and the specification of receptor- ligand interaction enables the delivery of chemotherapy agents directly to targeted cells, which reduces side effects and leads to better patient compliance.
+ ###### 
+From cou.: 3 Various theoretical models and simulation techniques have been used to elucidate the mechanism of endocytosis, based on energetic and kinetic considerations.10,11,13–17 Theoretically, Lipowsky et al.18 first proposed the concept of threshold particle size for NP endocytosis, below which the NPs could not be encapsulated by a flexible membrane. Using a kinetic model for the receptor-mediated endocytosis of NPs, Gao et al.10 confirmed the existence of threshold particle size. They also indicated that slightly larger than the threshold radius, an optimal radius exists associated with the shortest time for particle endocytosis. Zhang et al.11 demonstrated in a thermodynamic model that the cellular uptake of ligand-coated NPs is strongly size-dependent. They found that the cellular uptake is affected by the membrane tension and surface concentration of NPs. Besides, by using a solvent-free model, Reynwar et al.19 investigated the aggregation and vesiculation of membrane proteins by curvature-mediated interactions, They found that curvature-inducing model proteins on lipid bilayer membranes can experience attractive interactions, and the attractive interactions drive protein cluster formation and subsequent transformation into vesicles.
+From Soup: 3 Various theoretical models and simulation techniques have been used to elucidate the mechanism of endocytosis, based on energetic and kinetic considerations. 10,11,13–17 Theoretically, Lipowsky et al. 18 first proposed the concept of threshold particle size for NP endocytosis, below which the NPs could not be encapsulated by a flexible membrane. Using a kinetic model for the receptor-mediated endocytosis of NPs, Gao et al. 10 confirmed the existence of threshold particle size. They also indicated that slightly larger than the threshold radius, an optimal radius exists associated with the shortest time for particle endocytosis. Zhang et al. 11 demonstrated in a thermodynamic model that the cellular uptake of ligand -coated NPs is strongly size-dependent. They found that the cellular uptake is affected by the membrane tension and surface concentration of NPs. Besides, by using a solvent -free model, Reynwar et al. 19 investigated the aggregation and vesiculation of membrane proteins by curvature-mediated interactions, They found that curvature-inducing model proteins on lipid bilayer membranes can experience attractive interactions, and the attractive interactions drive protein cluster formation and subsequent transformation into vesicles.
+ ###### 
+From cou.: 4 However, the novel properties of NPs could induce adverse biological effects, with the potential to create cytotoxicity.20–24,28 Therefore, it is suggested that NPs as a class of materials always have a Janus face.28 Understanding how NPs cause damage to lipid bilayer is critical for their bioapplications, which partly leads to the emerging field of nanotoxicology.
+From Soup: 4 However, the novel properties of NPs could induce adverse biological effects, with the potential to create cytotoxicity. 20–24,28 Therefore, it is suggested that NPs as a class of materials always have a Janus face. 28 Understanding how NPs cause damage to lipid bilayer is critical for their bioapplications, which partly leads to the emerging field of nanotoxicology.
+ ###### 
+From cou.: 5 Although endocytosis has been recognized for a long time to play an important role in various cellular tasks, little is known about the dynamics of the translocation process in molecular details. Moreover, the principles controlling the balance between the effective transmembrane transport of NPs and their cytotoxicity is one of the key challenges for drug delivery, cell transfection, and gene therapy agents.
+From Soup: 5 Although endocytosis has been recognized for a long time to play an important role in various cellular tasks, little is known about the dynamics of the translocation process in molecular details. Moreover, the principles controlling the balance between the effective transmembrane transport of NPs and their cytotoxicity is one of the key challenges for drug delivery, cell transfection, and gene therapy agents.
+ ###### 
+From cou.: 6 In this article, the receptor-mediated membrane responses to the addition of a ligand-coated NP were first described in molecular details with a computer simulation technique called N-varied dissipative particle dynamics (DPD).25,26 From our extensive simulations, four kinds of cellular membrane responses were recognized, and they are membrane rupture, NP adhesion, NP penetration, and receptor-mediated endocytosis, respectively. We demonstrated that the membrane responds differently to the NP adsorption, depending on NP size, area density of ligands coating on the NP, and membrane tension. The findings presented here provide a mechanistic elucidation for the observed cellular uptake and the cytotoxicity of NPs in experiments,7,9,27–29 and also suggest a guideline for controlling membrane responses to ligand-coated NPs by manipulating the size and surface properties of NPs to achieve specific goals in therapeutic applications.1,4,8,30
+From Soup: 6 In this article, the receptor-mediated membrane responses to the addition of a ligand -coated NP were first described in molecular details with a computer simulation technique called N-varied dissipative particle dynamics (DPD). 25,26 From our extensive simulations, four kinds of cellular membrane responses were recognized, and they are membrane rupture, NP adhesion, NP penetration, and receptor-mediated endocytosis, respectively. We demonstrated that the membrane responds differently to the NP adsorption, depending on NP size, area density of ligands coating on the NP, and membrane tension. The findings presented here provide a mechanistic elucidation for the observed cellular uptake and the cytotoxicity of NPs in experiments, 7,9,27–29 and also suggest a guideline for controlling membrane responses to ligand -coated NPs by manipulating the size and surface properties of NPs to achieve specific goals in therapeutic applications. 1,4,8,30
+ ###### 
+From cou.: 7 Fig. 1 illustrates coarse grained models for different components in our simulations. To represent dimyristoylphosphatidylcholine (DMPC), a model lipid molecule31 is built by connecting a headgroup with three hydrophilic beads (H) to two hydrophobic tails of equal length, each having five hydrophobic beads (T) (Fig. 1A). The model slightly differs from the DMPC lipid model proposed by Grafmüller et al.34,35 However, lipid molecules in this model were also found to form stable bilayers and show typical phase behavior of lipid bilayers.32,33 The transmembrane receptor embedded in lipid bilayer membranes is modeled by linking seven amphipathic chains into a cylindrical bundle. Each amphipathic chain is composed of six hydrophobic beads (RT), each end connecting three hydrophilic beads (RH) (Fig. 1B). The seven amphipathic chains are linked to their neighbors by a spring-like interaction, thus forming a relatively rigid body without evident internal flexibility. The spherical solid nanoparticle (NP), which is composed of solid beads (P) with a number density of 3, is constrained to move as a rigid body (Fig. 1C). Solvent molecules (denoted as W) and other beads are not allowed to enter the interior of the nanoparticle. The ligands (L) coating on the surface of NPs are modeled as short cylindrical rods (Fig. 1C).
+From Soup: 7 Fig. 1 illustrates coarse grained models for different components in our simulations. To represent dimyristoylphosphatidylcholine (DMPC), a model lipid molecule 31 is built by connecting a headgroup with three hydrophilic beads ( H ) to two hydrophobic tails of equal length, each having five hydrophobic beads ( T ) ( Fig. 1A ). The model slightly differs from the DMPC lipid model proposed by Grafmüller et al. 34,35 However, lipid molecules in this model were also found to form stable bilayers and show typical phase behavior of lipid bilayers. 32,33 The transmembrane receptor embedded in lipid bilayer membranes is modeled by linking seven amphipathic chains into a cylindrical bundle. Each amphipathic chain is composed of six hydrophobic beads ( R T ), each end connecting three hydrophilic beads ( R H ) ( Fig. 1B ). The seven amphipathic chains are linked to their neighbors by a spring-like interaction, thus forming a relatively rigid body without evident internal flexibility. The spherical solid nanoparticle (NP), which is composed of solid beads ( P ) with a number density of 3, is constrained to move as a rigid body ( Fig. 1C ). Solvent molecules (denoted as W ) and other beads are not allowed to enter the interior of the nanoparticle . The ligands ( L ) coating on the surface of NPs are modeled as short cylindrical rods ( Fig. 1C ).
+ ###### 
+From cou.: 8 The dissipative particle dynamics (DPD) method was first introduced to simulate the hydrodynamic behavior of complex fluids,36–38 and proved to be especially useful in studying the mesoscale behaviors of lipid bilayer membranes.39–42 The elementary units of DPD simulations are soft beads whose dynamics are governed by Newton's equation of motion, in a similar way as molecular dynamics method. The inter-bead force exerted on beads is composed of conservative, dissipative, and random forces. The conservative force between beads i and j, which is soft repulsive, is determined by
+From Soup: 8 The dissipative particle dynamics (DPD) method was first introduced to simulate the hydrodynamic behavior of complex fluids, 36–38 and proved to be especially useful in studying the mesoscale behaviors of lipid bilayer membranes. 39–42 The elementary units of DPD simulations are soft beads whose dynamics are governed by Newton's equation of motion, in a similar way as molecular dynamics method. The inter-bead force exerted on beads is composed of conservative, dissipative, and random forces. The conservative force between beads i and j , which is soft repulsive, is determined by
+ ###### 
+From cou.: 9 a
+From Soup: 9 a
+ ###### 
+From cou.: 10 ij
+From Soup: 10 ij
+ ###### 
+From cou.: 11 ij
+From Soup: 11 ij
+ ###### 
+From cou.: 12 j
+From Soup: 12 j
+ ###### 
+From cou.: 13 i
+From Soup: 13 i
+ ###### 
+From cou.: 14 i
+From Soup: 14 i
+ ###### 
+From cou.: 15 j
+From Soup: 15 j
+ ###### 
+From cou.: 16 i
+From Soup: 16 i
+ ###### 
+From cou.: 17 j
+From Soup: 17 j
+ ###### 
+From cou.: 18 r
+From Soup: 18 r
+ ###### 
+From cou.: 19 ij
+From Soup: 19 ij
+ ###### 
+From cou.: 20 ij
+From Soup: 20 ij
+ ###### 
+From cou.: 21 ij
+From Soup: 21 ij
+ ###### 
+From cou.: 22 ij
+From Soup: 22 ij
+ ###### 
+From cou.: 23 ij
+From Soup: 23 ij
+ ###### 
+From cou.: 24 r
+From Soup: 24 r
+ ###### 
+From cou.: 25 c
+From Soup: 25 c
+ ###### 
+From cou.: 26 a
+From Soup: 26 a
+ ###### 
+From cou.: 27 WW
+From Soup: 27 WW
+ ###### 
+From cou.: 28 a
+From Soup: 28 a
+ ###### 
+From cou.: 29 HH
+From Soup: 29 HH
+ ###### 
+From cou.: 30 a
+From Soup: 30 a
+ ###### 
+From cou.: 31 TT
+From Soup: 31 TT
+ ###### 
+From cou.: 32 a
+From Soup: 32 a
+ ###### 
+From cou.: 33 TW
+From Soup: 33 TW
+ ###### 
+From cou.: 34 a
+From Soup: 34 a
+ ###### 
+From cou.: 35 R
+From Soup: 35 R T W
+ ###### 
+From cou.: 36 T
+From Soup: 36 a
+ ###### 
+From cou.: 37 W
+From Soup: 37 HT
+ ###### 
+From cou.: 38 a
+From Soup: 38 a
+ ###### 
+From cou.: 39 HT
+From Soup: 39 R H T
+ ###### 
+From cou.: 40 a
+From Soup: 40 a
+ ###### 
+From cou.: 41 R
+From Soup: 41 R T H
+ ###### 
+From cou.: 42 H
+From Soup: 42 a
+ ###### 
+From cou.: 43 T
+From Soup: 43 R H R T
+ ###### 
+From cou.: 44 a
+From Soup: 44 a
+ ###### 
+From cou.: 45 R
+From Soup: 45 HW
+ ###### 
+From cou.: 46 T
+From Soup: 46 a
+ ###### 
+From cou.: 47 H
+From Soup: 47 R H W
+ ###### 
+From cou.: 48 a
+From Soup: 48 a
+ ###### 
+From cou.: 49 R
+From Soup: 49 R T T
+ ###### 
+From cou.: 50 H
+From Soup: 50 Note that real receptor- ligand interactions are anisotropic in nature and that this anisotropy will affect the binding geometry. However, to reduce the unreasonable computational cost, in this work we employed a coarse-grained model and the anisotropy of the receptor- ligand interaction is ignored. Specifically, in order to avoid the aggregation of the transmembrane receptors, the interaction parameters were set to a R H R H = a R T R T = 50. To describe the strong binding interaction between ligands and mobile receptors, the receptor- ligand interaction was set to ε LR H = 0.0. Furthermore, the nanoparticle and the ligands are thought to be hydrophobic, and thus their interaction with solvent were set to a PW = a LW = 80. Although some atomistic details were sacrificed during this coarse-graining procedure, the essential features of the system are reproduced by the simulation model and the parameter set.
+ ###### 
+From cou.: 51 R
+From Soup: 51 In the model of lipids and proteins , the interaction between neighboring beads along the same molecule is described by a harmonic spring force,
+ ###### 
+From cou.: 52 T
+From Soup: 52 K
+ ###### 
+From cou.: 53 a
+From Soup: 53 S
+ ###### 
+From cou.: 54 HW
+From Soup: 54 k
+ ###### 
+From cou.: 55 a
+From Soup: 55 B
+ ###### 
+From cou.: 56 R
+From Soup: 56 T
+ ###### 
+From cou.: 57 H
+From Soup: 57 r
+ ###### 
+From cou.: 58 W
+From Soup: 58 eq
+ ###### 
+From cou.: 59 a
+From Soup: 59 r
+ ###### 
+From cou.: 60 R
+From Soup: 60 c
+ ###### 
+From cou.: 61 T
+From Soup: 61 ϕ
+ ###### 
+From cou.: 62 T
+From Soup: 62 0
+ ###### 
+From cou.: 63 Note that real receptor-ligand interactions are anisotropic in nature and that this anisotropy will affect the binding geometry. However, to reduce the unreasonable computational cost, in this work we employed a coarse-grained model and the anisotropy of the receptor-ligand interaction is ignored. Specifically, in order to avoid the aggregation of the transmembrane receptors, the interaction parameters were set to aRHRH = aRTRT = 50. To describe the strong binding interaction between ligands and mobile receptors, the receptor-ligand interaction was set to εLRH = 0.0. Furthermore, the nanoparticle and the ligands are thought to be hydrophobic, and thus their interaction with solvent were set to aPW = aLW = 80. Although some atomistic details were sacrificed during this coarse-graining procedure, the essential features of the system are reproduced by the simulation model and the parameter set.
+From Soup: 63 K
+ ###### 
+From cou.: 64 In the model of lipids and proteins, the interaction between neighboring beads along the same molecule is described by a harmonic spring force,
+From Soup: 64 ϕ
+ ###### 
+From cou.: 65 K
+From Soup: 65 lipid
+ ###### 
+From cou.: 66 S
+From Soup: 66 K
+ ###### 
+From cou.: 67 k
+From Soup: 67 ϕ
+ ###### 
+From cou.: 68 T
+From Soup: 68 proteins
+ ###### 
+From cou.: 69 r
+From Soup: 69 proteins
+ ###### 
+From cou.: 70 eq
+From Soup: 70 As usual, we have chosen the interaction cutoff r c , the bead mass m , and the thermostat temperature k B T to unity. To convert r c to its actual physical size according to the coarse-grained level, we used the formula proposed by Groot and Rabone, 43 r c = 3.107( ρN m ) 1/3 [Å]. In the formula, N m is the number of water molecules represented by a DPD bead and ρ is the density, i.e. , the number of DPD beads per cube of volume r c 3 . Here N m was set to 3, ρ was set to 3.0 and a water molecule has approximately a volume of 30 cubic Angstroms. Accordingly, we obtain that r c is 6.46 Angstroms. Hence, the size of the simulation box of 60 × 60 × 50 corresponds to 38.8nm × 38.8nm × 32.3nm. Similarly, we can express the NP size in real units.
+ ###### 
+From cou.: 71 r
+From Soup: 71 In this work, we used N-varied DPD method, a particular variant of DPD method in which the targeted membrane tension is maintained by monitoring the lipid number per area (LNPA) in a boundary region. 25,26 The reason for choosing this method is two-fold. Firstly, this method offers sufficient excess area to release the tension induced by a large membrane deformation, as in real cellular membrane with a large area-to-volume ratio. Secondly, the pre-set membrane tension can implicitly include the effects of cytoskeletal force associated with actin polymerization . It is well known that the actin polymerization in vivo is tightly related to most internalization processes. 17
+ ###### 
+From cou.: 72 ϕ
+From Soup: 72 In our simulations, the boundary region of the membrane, which surrounds the central square region (35.57 nm × 35.57 nm) of the membrane, has a width of 3.23 nm. The boundary region plays a role as a reservoir of lipids , and the value of LNPA in the region (denoted as ρ BR LNPA ) is kept constant by addition/deletion moves. In an addition move, new lipid molecules are added to the boundary region if its local lipid density is less than the given value of ρ BR LNPA . Conversely, if the average surface density of lipids in the boundary region exceeds the targeted value, a few lipid molecules should be randomly deleted from the boundary region to keep the targeted ρ BR LNPA . At the same time, a corresponding number of water beads are randomly added or deleted to keep the whole density of the simulation box constant. In practice, we performed one addition/deletion move every 1000 time steps in order to leave enough time to propagate the membrane tension to the whole membrane. 25 Since the membrane tension is directly related to ρ BR LNPA , we specified the value of LNPA hereafter.
+ ###### 
+From cou.: 73 K
+From Soup: 73 Besides, in order to control the average ρ BR LNPA and hence the surface tension accurately, we have to ensure that the boundary region of the membrane is flat. Therefore, the bilayer in the boundary region is directly pulled to the initial xy -plane before each move of lipid addition/deletion. This perturbation would inevitably suppress the thermally excited fluctuations in the boundary region. In this work, however, the effect of the perturbation was negligible because the membrane response is mainly determined by the receptor- ligand contacts, which take place far from the boundary region.
+ ###### 
+From cou.: 74 ϕ
+From Soup: 74 Our simulation results indicate that different initial configurations of receptor- ligand contacts can induce distinct membrane responses, even under the same thermodynamic conditions. A more detailed inspection of the results shows that there exist two different receptor- ligand binding modes: correct binding ( Fig. 1D ) and incorrect binding ( Fig. 1E ) modes. For the correct binding mode, all the ligands on the bottom of NPs successfully bind with adjacent receptors in the membrane patch. Because many binding pathways are available, the minimum energy configuration in correct binding mode may not be realized, and thus, the incorrect binding mode with misformed receptor- ligand contacts occurs. For the incorrect binding mode, one or more naked ligands on the bottom of NPs are inserted into the bilayer directly, without binding with receptors ( Fig. 1E ). Since different binding modes perturb the membrane in different manners, they induce distinct membrane responses.
+ ###### 
+From cou.: 75 lipid
+From Soup: 75 The incorrect binding mode in fact corresponds to dynamic frustrations for a complex receptor- ligand contact process. The complexity of receptor-ligand complex structures, the non-equilibrium nature of the contact process and the multiple contact pathways inevitably lead to a variety of thermodynamic and kinetic traps. It is those traps that frustrate receptor- ligand interaction and cause incorrect receptor- ligand binding mode. For example, receptor- ligand contacts may be dynamically frustrated by the rapid process for the membrane response to the NP adsorption, and as a result the incorrect binding mode occurs. This dynamics frustration resembles the kinetic traps observed in the misbonded subunits during the assembly of capsids. 44,45
+ ###### 
+From cou.: 76 K
+From Soup: 76 The occurrence of different binding modes seems to depend on ligand and receptor densities, and furthermore, is complicated by the stochastic nature of the contact process. To simplify the question, the two binding modes are separately discussed in this work. Namely, for correct binding states, the NP in the initial configuration was carefully placed on the surface of the membrane so that all the bottom ligands are contacted with proximate receptors. Contrarily, one or more bottom ligands can be initially set to be naked for incorrect binding states.
+ ###### 
+From cou.: 77 ϕ
+From Soup: 77 We explored the membrane responses to adsorption of NPs, on which eighteen ligands are uniformly anchored. Our simulations show that there exist four kinds of membrane responses, including membrane rupture, NP penetration, NP adhesion, and endocytosis. We also observed that, both NP endocytosis and NP adhesion are more likely to happen in correct binding states. Contrarily, membrane rupture and NP penetration tend to be observed in incorrect binding states. Hence, we will elucidate below the mechanisms of endocytosis and NP adhesion in correct binding states, while those for membrane rupture and NP penetration will be analyzed in incorrect binding states. Note that in order to simplify the question, only a single NP is contained in the simulation box, and the situation of multiple NPs will be discussed in the future work.
+ ###### 
+From cou.: 78 proteins
+From Soup: 78 Here we should point out that the particle size we chose is much smaller than the optimal size (25 nm) for the NP endocytosis in previous studies. 5,6 This is because the membrane responses, especially endocytosis of 25 nm NP require a much larger size of lipid bilayer, for which the relevant length and time scales almost exceed our computation capabilities. As a result, only small NPs were investigated in this work. However, the underlying mechanism for membrane responses to adsorption of ligand -coated NPs remains unchanged. In addition, our simulation results on membrane responses, as shown below, are found to be qualitatively in agreement with the previous experimental and theoretical studies.
+ ###### 
+From cou.: 79 proteins
+From Soup: 79 A. Receptor-mediated endocytosis .
+ ###### 
+From cou.: 80 As usual, we have chosen the interaction cutoff rc, the bead mass m, and the thermostat temperature kBT to unity. To convert rc to its actual physical size according to the coarse-grained level, we used the formula proposed by Groot and Rabone,43rc = 3.107(ρNm)1/3[Å]. In the formula, Nm is the number of water molecules represented by a DPD bead and ρ is the density, i.e., the number of DPD beads per cube of volume rc3. Here Nm was set to 3, ρ was set to 3.0 and a water molecule has approximately a volume of 30 cubic Angstroms. Accordingly, we obtain that rc is 6.46 Angstroms. Hence, the size of the simulation box of 60 × 60 × 50 corresponds to 38.8nm × 38.8nm × 32.3nm. Similarly, we can express the NP size in real units.
+From Soup: 80 A typical process of receptor-mediated endocytosis is given in Fig. 2A (also see ESI Movie S1 † ). When a ligand -coated NP was placed close to the lipid membrane with a negative surface tension ( ρ BR LNPA = 1.7), adjacent receptors quickly diffused to contact with the anchored ligands , forming strong receptor- ligand bindings. As a result, the membrane patch close to the NP was locally deformed ( Fig. 2A ), and a local membrane curvature proximately equal to that of NP was created ( Fig. 2A ). As free receptors successively diffused to form strong bindings with the naked ligands on the NP, the NP was gradually wrapped by the membrane and moved downward consequently (see ESI Movie S1 † ). Finally, the NP was entirely encapsulated by the membrane, and a small membrane neck, which seems to be stable in our simulations, appeared to connect the spherical bud with the membrane ( Fig. 2A ). Note that in real cellular process, the fission of the neck could be accelerated by an external force, e.g. actin polymerization or Sar1. 49–51,59
+ ###### 
+From cou.: 81 In this work, we used N-varied DPD method, a particular variant of DPD method in which the targeted membrane tension is maintained by monitoring the lipid number per area (LNPA) in a boundary region.25,26 The reason for choosing this method is two-fold. Firstly, this method offers sufficient excess area to release the tension induced by a large membrane deformation, as in real cellular membrane with a large area-to-volume ratio. Secondly, the pre-set membrane tension can implicitly include the effects of cytoskeletal force associated with actin polymerization. It is well known that the actin polymerizationin vivo is tightly related to most internalization processes.17
+From Soup: 81 Note that the transitions from an incorrect binding state to a correct binding state are often observed in the endocytosis process. For example, free receptors may diffuse towards and contact with the unpaired ligands at the bottom of the NP as the process proceeds. Therefore, an incorrect binding state converts to a correct binding state. We believe that the self-adjustment of receptor- ligand binding would accelerate the wrapping process.
+ ###### 
+From cou.: 82 In our simulations, the boundary region of the membrane, which surrounds the central square region (35.57 nm × 35.57 nm) of the membrane, has a width of 3.23 nm. The boundary region plays a role as a reservoir of lipids, and the value of LNPA in the region (denoted as ρBRLNPA) is kept constant by addition/deletion moves. In an addition move, new lipid molecules are added to the boundary region if its local lipid density is less than the given value of ρBRLNPA. Conversely, if the average surface density of lipids in the boundary region exceeds the targeted value, a few lipid molecules should be randomly deleted from the boundary region to keep the targeted ρBRLNPA. At the same time, a corresponding number of water beads are randomly added or deleted to keep the whole density of the simulation box constant. In practice, we performed one addition/deletion move every 1000 time steps in order to leave enough time to propagate the membrane tension to the whole membrane.25 Since the membrane tension is directly related to ρBRLNPA, we specified the value of LNPA hereafter.
+From Soup: 82 In this work, the extent of wrapping is defined as the percentage of surface beads of the NP contacting with the membrane. Therefore, 1.0 represents complete wrapping. To characterize the wrapping process, time evolution of the wrapping extent and that of the position of the NP are shown in Fig. 3 . The time evolution of NP positions ( Fig. 3B ) indicates that the NP kept moving downward until the endocytosis process completed at ∼2.7 μs. Moreover, Fig. 3 shows that, for the 4.0 nm NP coated with 18 ligands , the wrapping process is proximately continuous due to its higher ligand density.
+ ###### 
+From cou.: 83 Besides, in order to control the average ρBRLNPA and hence the surface tension accurately, we have to ensure that the boundary region of the membrane is flat. Therefore, the bilayer in the boundary region is directly pulled to the initial xy-plane before each move of lipid addition/deletion. This perturbation would inevitably suppress the thermally excited fluctuations in the boundary region. In this work, however, the effect of the perturbation was negligible because the membrane response is mainly determined by the receptor-ligand contacts, which take place far from the boundary region.
+From Soup: 83 However, as the diameter of the NP increases from 4.0 nm to 6.0 nm but with the same number of ligands , a discontinuous wrapping process takes place. For the large NPs with a lower ligand density, Fig. 3A shows a number of discontinuous jumps in the wrapping process. The appearance of the jumps in this case is ascribed to the intermittent occurrence of receptor- ligand contacts. This is because, after one or several receptor- ligand contact taking place, the wrapping process has to be suspended until another receptor- ligand binding event occurs. This observation demonstrates the crucial effects of ligand density on the dynamics of endocytosis.
+ ###### 
+From cou.: 84 Our simulation results indicate that different initial configurations of receptor-ligand contacts can induce distinct membrane responses, even under the same thermodynamic conditions. A more detailed inspection of the results shows that there exist two different receptor-ligand binding modes: correct binding (Fig. 1D) and incorrect binding (Fig. 1E) modes. For the correct binding mode, all the ligands on the bottom of NPs successfully bind with adjacent receptors in the membrane patch. Because many binding pathways are available, the minimum energy configuration in correct binding mode may not be realized, and thus, the incorrect binding mode with misformed receptor-ligand contacts occurs. For the incorrect binding mode, one or more naked ligands on the bottom of NPs are inserted into the bilayer directly, without binding with receptors (Fig. 1E). Since different binding modes perturb the membrane in different manners, they induce distinct membrane responses.
+From Soup: 84 In addition, we found that a high negative membrane tension is required to generate the large membrane curvature 25 and hence induces endocytosis. Thermodynamically, the wrapping is controlled by the balance of receptor- ligand binding energy and membrane bending energy. While the receptor- ligand binding energy mainly depends on the receptor- ligand attractive strength and the ligand density, the membrane bending energy is dominated by the membrane surface tension and the membrane bending stiffness. During a wrapping process, the released free energy due to the receptor- ligand binding drives the local wrapping of the membrane around the NP at the cost of elastic bending energy of the membrane. 11,15 Therefore, the membrane wrapping proceeds only when the free energy gain due to receptor- ligand interaction exceeds the cost of the membrane bending. This is the reason that both the ligand density and membrane tension significantly affect the dynamics of receptor-mediated endocytosis.
+ ###### 
+From cou.: 85 The incorrect binding mode in fact corresponds to dynamic frustrations for a complex receptor-ligand contact process. The complexity of receptor-ligand complex structures, the non-equilibrium nature of the contact process and the multiple contact pathways inevitably lead to a variety of thermodynamic and kinetic traps. It is those traps that frustrate receptor-ligand interaction and cause incorrect receptor-ligand binding mode. For example, receptor-ligand contacts may be dynamically frustrated by the rapid process for the membrane response to the NP adsorption, and as a result the incorrect binding mode occurs. This dynamics frustration resembles the kinetic traps observed in the misbonded subunits during the assembly of capsids.44,45
+From Soup: 85 B. Adhesion of ligand -coated NP on lipid membranes.
+ ###### 
+From cou.: 86 The occurrence of different binding modes seems to depend on ligand and receptor densities, and furthermore, is complicated by the stochastic nature of the contact process. To simplify the question, the two binding modes are separately discussed in this work. Namely, for correct binding states, the NP in the initial configuration was carefully placed on the surface of the membrane so that all the bottom ligands are contacted with proximate receptors. Contrarily, one or more bottom ligands can be initially set to be naked for incorrect binding states.
+From Soup: 86 In some applications, like photodynamic therapy in cancer treatment, 3 NPs are not designed to internalize into target cells, but required an external contact with the cellular membrane instead. Our simulations indicate that at the membrane tension close to zero ( ρ BR LNPA = 1.5), a similar membrane response to NP adsorption , namely, NP adhesion onto the membrane, takes place. For instance, a large NP of 6.0 nm coated with 18 ligands were found to keep adhering on the membrane surface during a whole process (see typical snapshots in Fig. 2B ). In this case, the membrane wrapping remains at a low level, indicating that no endocytosis occurs ( Fig. 4A ). Consistently, the distance between NP and membrane ( Fig. 4B ) vibrates around 4.5 nm, which is proximately equal to D p /2.0 + D m /2.0, with D p the diameter of NP (6.0 nm) and D m the thickness of the membrane. This again means that there is no significant deformation of the membrane in the case of NP adhesion, different from endocytosis. Note that the adhesion process takes place in a time scale of several nanoseconds, much shorter than the time of several microseconds required for endocytosis. Once the NP adheres on the membrane, its mobility will be strongly restrained because bottom ligands bind strongly with the receptors in the membrane. 52
+ ###### 
+From cou.: 87 We explored the membrane responses to adsorption of NPs, on which eighteen ligands are uniformly anchored. Our simulations show that there exist four kinds of membrane responses, including membrane rupture, NP penetration, NP adhesion, and endocytosis. We also observed that, both NP endocytosis and NP adhesion are more likely to happen in correct binding states. Contrarily, membrane rupture and NP penetration tend to be observed in incorrect binding states. Hence, we will elucidate below the mechanisms of endocytosis and NP adhesion in correct binding states, while those for membrane rupture and NP penetration will be analyzed in incorrect binding states. Note that in order to simplify the question, only a single NP is contained in the simulation box, and the situation of multiple NPs will be discussed in the future work.
+From Soup: 87 The adhesion of NP on the membrane surface is energetically controlled because of the high energy cost of membrane bending at a moderate membrane tension. However, the high energy barrier for membrane bending can be overcome by increasing both the density of ligands and that of receptors, causing a receptor-mediated endocytosis.
+ ###### 
+From cou.: 88 Here we should point out that the particle size we chose is much smaller than the optimal size (25 nm) for the NP endocytosis in previous studies.5,6 This is because the membrane responses, especially endocytosis of 25 nm NP require a much larger size of lipid bilayer, for which the relevant length and time scales almost exceed our computation capabilities. As a result, only small NPs were investigated in this work. However, the underlying mechanism for membrane responses to adsorption of ligand-coated NPs remains unchanged. In addition, our simulation results on membrane responses, as shown below, are found to be qualitatively in agreement with the previous experimental and theoretical studies.
+From Soup: 88 C. NP penetration in lipid membranes.
+ ###### 
+From cou.: 89 A. Receptor-mediated endocytosis .
+From Soup: 89 Previous studies have shown that some cationic NPs and macromolecules penetrate the cellular membrane by generating transient holes, which results in cytotoxicity. 28 In contrast, Ayush Verma et al. 9 have proved that, by regulating the spatial arrangement of monolayer coated on the NP, the monolayer-protected NP can penetrate into the plasma membrane and prevent membrane disruption. In this work, another potential mechanism for the cytotoxicity was observed from our simulations: the ligand -coated NP can be embedded in a cellular membrane, leading to the formation of a stable pore on the membrane.
+ ###### 
+From cou.: 90 A typical process of receptor-mediated endocytosis is given in Fig. 2A (also see ESI Movie S1†). When a ligand-coated NP was placed close to the lipid membrane with a negative surface tension (ρBRLNPA = 1.7), adjacent receptors quickly diffused to contact with the anchored ligands, forming strong receptor-ligand bindings. As a result, the membrane patch close to the NP was locally deformed (Fig. 2A), and a local membrane curvature proximately equal to that of NP was created (Fig. 2A). As free receptors successively diffused to form strong bindings with the naked ligands on the NP, the NP was gradually wrapped by the membrane and moved downward consequently (see ESI Movie S1†). Finally, the NP was entirely encapsulated by the membrane, and a small membrane neck, which seems to be stable in our simulations, appeared to connect the spherical bud with the membrane (Fig. 2A). Note that in real cellular process, the fission of the neck could be accelerated by an external force, e.g.actin polymerization or Sar1.49–51,59
+From Soup: 90 Our simulations show that as a ligand -coated NP moved close to the membrane, mobile receptors adjacent to the NP diffused to form strong bindings with the marginal ligands while leaving the bottom ligands naked ( Fig. 2C ). Then the NP, together with bottom naked ligands , was dragged into the membrane ( Fig. 2C ). Time evolution of NP position along the z direction ( Fig. 4B ) also proves that the NP locates inside the membrane. As a result, a stable hydrophilic pore was generated as the NP penetrated into the membrane ( Fig. 2C ). Furthermore, the embedded NP gives rise to a significant fluctuation of the membrane-NP contacts ( Fig. 4A ), which indicates the strong fluctuation of the formed pore.
+ ###### 
+From cou.: 91 Note that the transitions from an incorrect binding state to a correct binding state are often observed in the endocytosis process. For example, free receptors may diffuse towards and contact with the unpaired ligands at the bottom of the NP as the process proceeds. Therefore, an incorrect binding state converts to a correct binding state. We believe that the self-adjustment of receptor-ligand binding would accelerate the wrapping process.
+From Soup: 91 In general, the NP penetration observed in our simulations, on the one side, provides a new possible mechanism for ligand coated NPs to enter the target cell. On the other side, the formation of the stable membrane pore due to NP penetration would result in NP cytotoxicity.
+ ###### 
+From cou.: 92 In this work, the extent of wrapping is defined as the percentage of surface beads of the NP contacting with the membrane. Therefore, 1.0 represents complete wrapping. To characterize the wrapping process, time evolution of the wrapping extent and that of the position of the NP are shown in Fig. 3. The time evolution of NP positions (Fig. 3B) indicates that the NP kept moving downward until the endocytosis process completed at ∼2.7 μs. Moreover, Fig. 3 shows that, for the 4.0 nm NP coated with 18 ligands, the wrapping process is proximately continuous due to its higher ligand density.
+From Soup: 92 D. Membrane rupture enhanced by NP adsorption .
+ ###### 
+From cou.: 93 However, as the diameter of the NP increases from 4.0 nm to 6.0 nm but with the same number of ligands, a discontinuous wrapping process takes place. For the large NPs with a lower ligand density, Fig. 3A shows a number of discontinuous jumps in the wrapping process. The appearance of the jumps in this case is ascribed to the intermittent occurrence of receptor-ligand contacts. This is because, after one or several receptor-ligand contact taking place, the wrapping process has to be suspended until another receptor-ligand binding event occurs. This observation demonstrates the crucial effects of ligand density on the dynamics of endocytosis.
+From Soup: 93 Wang and Frenkel 53 demonstrated that a stretching lateral pressure would induce the nucleation of pore on the membrane. Our simulation results indicated that, besides the positive membrane tension, NP adsorption provides another driving force for the membrane rupture. The cellular membrane disruption induced by NP adsorption inevitably results in cytotoxicity. 28
+ ###### 
+From cou.: 94 In addition, we found that a high negative membrane tension is required to generate the large membrane curvature25 and hence induces endocytosis. Thermodynamically, the wrapping is controlled by the balance of receptor-ligand binding energy and membrane bending energy. While the receptor-ligand binding energy mainly depends on the receptor-ligand attractive strength and the ligand density, the membrane bending energy is dominated by the membrane surface tension and the membrane bending stiffness. During a wrapping process, the released free energy due to the receptor-ligand binding drives the local wrapping of the membrane around the NP at the cost of elastic bending energy of the membrane.11,15 Therefore, the membrane wrapping proceeds only when the free energy gain due to receptor-ligand interaction exceeds the cost of the membrane bending. This is the reason that both the ligand density and membrane tension significantly affect the dynamics of receptor-mediated endocytosis.
+From Soup: 94 As shown in Fig. 2D and ESI Movie S2 † , at highly positive membrane tensions, the addition of a ligand -coated NP to a bilayer membrane may induce the membrane disruption. When the ligand -coated NP moved close to the membrane, the adjacent receptors would diffuse to contact with the closest ligands . The strong receptor- ligand interaction would drag the NP to the membrane, and in the case of incorrect binding, the unpaired ligands at the bottom of the NP were forced to insert into the membrane, which nucleates the membrane pores. The initially hydrophobic pores would gradually expand and convert to hydrophilic pores, which then induce the membrane disruption ( Fig. 2D ).
+ ###### 
+From cou.: 95 B. Adhesion of ligand-coated NP on lipid membranes.
+From Soup: 95 It should be noted that the pore expansion is the result of competition between stretching lateral pressure and receptor- ligand binding force. During a rupture process, lipids redistribute themselves and thereby minimize hydrophobic exposure of both the receptors and lipid tails to the aqueous environment. 54,55 Fig. 2D (see also ESI Movie S2 † ) shows that there are two kinds of pores nucleated by the NP insertion of ligands : large and small pores, each having different kinetics. Larger pores would expand gradually to release the membrane tension. At the same time, smaller pores may spontaneously shrink and finally disappear.
+ ###### 
+From cou.: 96 In some applications, like photodynamic therapy in cancer treatment,3 NPs are not designed to internalize into target cells, but required an external contact with the cellular membrane instead. Our simulations indicate that at the membrane tension close to zero (ρBRLNPA = 1.5), a similar membrane response to NP adsorption, namely, NP adhesion onto the membrane, takes place. For instance, a large NP of 6.0 nm coated with 18 ligands were found to keep adhering on the membrane surface during a whole process (see typical snapshots in Fig. 2B). In this case, the membrane wrapping remains at a low level, indicating that no endocytosis occurs (Fig. 4A). Consistently, the distance between NP and membrane (Fig. 4B) vibrates around 4.5 nm, which is proximately equal to Dp/2.0 + Dm/2.0, with Dp the diameter of NP (6.0 nm) and Dm the thickness of the membrane. This again means that there is no significant deformation of the membrane in the case of NP adhesion, different from endocytosis. Note that the adhesion process takes place in a time scale of several nanoseconds, much shorter than the time of several microseconds required for endocytosis. Once the NP adheres on the membrane, its mobility will be strongly restrained because bottom ligands bind strongly with the receptors in the membrane.52
+From Soup: 96 To validate that a ligand -coated NP enhances membrane rupture, the evolution of membrane tension for the case with NP adsorption and that free of NP adsorption are compared in Fig. 5A . For the case free of NP adsorption , no rupture event was observed at the end of the 3 μs simulation run. In contrast, an abrupt decline of the membrane tension occurs for the membrane with adsorption of ligand -coated NP ( Fig. 5A ). Hence, it is the NP adsorption that provides the driving force for the membrane rupture.
+ ###### 
+From cou.: 97 The adhesion of NP on the membrane surface is energetically controlled because of the high energy cost of membrane bending at a moderate membrane tension. However, the high energy barrier for membrane bending can be overcome by increasing both the density of ligands and that of receptors, causing a receptor-mediated endocytosis.
+From Soup: 97 The effects of ligand -coated NP on the membrane rupture can also be derived from the surface tension- ρ BR LNPA curves ( Fig. 5B ), which give the values of membrane tension at the end of simulations as a function of ρ BR LNPA . For the system free of NP, Fig. 5B shows that the surface tension first increases linearly with the decrease of ρ BR LNPA , and then decreases sharply as the membrane ruptures. 25 In comparison with the membrane without NP adsorption , introduction of NP clearly shifts the critical membrane tension for membrane rupture to a lower value ( Fig. 5B ). This observation clearly indicated that the adsorption of NP enhances the membrane rupture.
+ ###### 
+From cou.: 98 C. NP penetration in lipid membranes.
+From Soup: 98 We also investigated how the NP size and ligand density affect the membrane rupture. On the one hand, our simulation results ( Fig. 5B ) indicate that, for the NPs with different sizes but same ligand area density (N L /A = 0.16), the membrane is more easily damaged by a ligand -coated NP with a smaller size. 21 This is because, in comparison to smaller NPs, a larger NP creates a smaller local membrane curvature, and perturbs the membrane more weakly. On the other hand, for NPs of same size but with different ligand densities, a higher ligand density can induce the membrane rupture more easily ( Fig. 5B ). This is because, for a NP with higher ligand density, more naked ligands on the bottom of the NP tend to be inserted into the bilayer directly, which thus facilitates the membrane rupture.
+ ###### 
+From cou.: 99 Previous studies have shown that some cationic NPs and macromolecules penetrate the cellular membrane by generating transient holes, which results in cytotoxicity.28 In contrast, Ayush Verma et al.9 have proved that, by regulating the spatial arrangement of monolayer coated on the NP, the monolayer-protected NP can penetrate into the plasma membrane and prevent membrane disruption. In this work, another potential mechanism for the cytotoxicity was observed from our simulations: the ligand-coated NP can be embedded in a cellular membrane, leading to the formation of a stable pore on the membrane.
+From Soup: 99 The recognition of different membrane responses to NP adsorption raises a question: how is the membrane response affected by the membrane tension and NP properties? To answer this question, we have investigated systematically the effects of membrane tension, NP size, and ligand density.
+ ###### 
+From cou.: 100 Our simulations show that as a ligand-coated NP moved close to the membrane, mobile receptors adjacent to the NP diffused to form strong bindings with the marginal ligands while leaving the bottom ligands naked (Fig. 2C). Then the NP, together with bottom naked ligands, was dragged into the membrane (Fig. 2C). Time evolution of NP position along the z direction (Fig. 4B) also proves that the NP locates inside the membrane. As a result, a stable hydrophilic pore was generated as the NP penetrated into the membrane (Fig. 2C). Furthermore, the embedded NP gives rise to a significant fluctuation of the membrane-NP contacts (Fig. 4A), which indicates the strong fluctuation of the formed pore.
+From Soup: 100 A. Effects of membrane tension.
+ ###### 
+From cou.: 101 In general, the NP penetration observed in our simulations, on the one side, provides a new possible mechanism for ligand coated NPs to enter the target cell. On the other side, the formation of the stable membrane pore due to NP penetration would result in NP cytotoxicity.
+From Soup: 101 First, we determined the membrane responses as a function of NP size and membrane tension, and summarized the results in a morphology diagram ( Fig. 6 ). From the figure, the effects of membrane tension on the membrane response can be obtained.
+ ###### 
+From cou.: 102 D. Membrane rupture enhanced by NP adsorption.
+From Soup: 102 As is shown in Fig. 6A , receptor-mediated endocytosis in the correct binding situation is usually observed at high negative surface tensions. 10,11,20 The process occurs because the free energy gain due to receptor- ligand interaction exceeds the cost of the membrane bending. On the contrary, if the membrane tension is sufficiently positive, the membrane tension and the perturbation from NP adsorption cooperatively induce the rupture of cellular membrane (see Fig. 6A ), which is obviously associated with NP cytotoxicity. For the membrane tension between the two extreme cases, NP adhesion or NP penetration occurs, depending on the NP size ( Fig. 6A ).
+ ###### 
+From cou.: 103 Wang and Frenkel53 demonstrated that a stretching lateral pressure would induce the nucleation of pore on the membrane. Our simulation results indicated that, besides the positive membrane tension, NP adsorption provides another driving force for the membrane rupture. The cellular membrane disruption induced by NP adsorption inevitably results in cytotoxicity.28
+From Soup: 103 The membrane response to NP adsorption in the incorrect binding situation is also mainly determined by the surface tension ( Fig. 6B ), showing a similar tendency as in the correct binding mode ( Fig. 6A ). However, the difference of membrane responses is also observed from Fig. 6A and B . Especially, the region for the membrane rupture is significantly larger for the case of incorrect binding mode. When the surface tension is low positive, the pore expansion and hence the membrane rupture are inhibited by the strong receptor- ligand binding. As a result, the NP penetration process appears in this case. However, when the membrane tension is low negative, the dense lipid arrangement in membrane inhibits the insertion of the NP, and consequently, the NP tends to adhere on the membrane ( Fig. 6B ).
+ ###### 
+From cou.: 104 As shown in Fig. 2D and ESI Movie S2†, at highly positive membrane tensions, the addition of a ligand-coated NP to a bilayer membrane may induce the membrane disruption. When the ligand-coated NP moved close to the membrane, the adjacent receptors would diffuse to contact with the closest ligands. The strong receptor-ligand interaction would drag the NP to the membrane, and in the case of incorrect binding, the unpaired ligands at the bottom of the NP were forced to insert into the membrane, which nucleates the membrane pores. The initially hydrophobic pores would gradually expand and convert to hydrophilic pores, which then induce the membrane disruption (Fig. 2D).
+From Soup: 104 B. Effects of NP size.
+ ###### 
+From cou.: 105 It should be noted that the pore expansion is the result of competition between stretching lateral pressure and receptor-ligand binding force. During a rupture process, lipids redistribute themselves and thereby minimize hydrophobic exposure of both the receptors and lipid tails to the aqueous environment.54,55Fig. 2D (see also ESI Movie S2†) shows that there are two kinds of pores nucleated by the NP insertion of ligands: large and small pores, each having different kinetics. Larger pores would expand gradually to release the membrane tension. At the same time, smaller pores may spontaneously shrink and finally disappear.
+From Soup: 105 Fig. 6 shows that the NP size plays an important role in determining the membrane response, in agreement with previous studies. 10,11,46–48 Since the total number of ligands coating on the NP surface remains unchanged, as is preset in Fig. 6 , a smaller NP size corresponds to a higher ligand density. For a smaller NP, the stronger receptor- ligand binding energy promotes the endocytosis of the NP at negative membrane tensions. Similarly, at positive membrane tensions a smaller NP size is more likely to penetrate or even disrupt the membrane. On the contrary, larger NP tends to adhere on the membrane surface during the process ( Fig. 6 ).
+ ###### 
+From cou.: 106 To validate that a ligand-coated NP enhances membrane rupture, the evolution of membrane tension for the case with NP adsorption and that free of NP adsorption are compared in Fig. 5A. For the case free of NP adsorption, no rupture event was observed at the end of the 3 μs simulation run. In contrast, an abrupt decline of the membrane tension occurs for the membrane with adsorption of ligand-coated NP (Fig. 5A). Hence, it is the NP adsorption that provides the driving force for the membrane rupture.
+From Soup: 106 However, if area density of ligands coating on the NP surface is kept fixed, the situation would be different. In this case, it is the increase of NP size, rather than the decrease of NP size, promotes the endocytosis of the NP. This is because, as the NP size increases, the free energy gain due to receptor- ligand interaction increases and the cost of the membrane bending decreases. Both effects facilitate the NP endocytosis. This is the reason that the optimal size for the NP endocytosis in previous studies is much larger than the size we studied.
+ ###### 
+From cou.: 107 The effects of ligand-coated NP on the membrane rupture can also be derived from the surface tension- ρBRLNPA curves (Fig. 5B), which give the values of membrane tension at the end of simulations as a function of ρBRLNPA. For the system free of NP, Fig. 5B shows that the surface tension first increases linearly with the decrease of ρBRLNPA, and then decreases sharply as the membrane ruptures.25 In comparison with the membrane without NP adsorption, introduction of NP clearly shifts the critical membrane tension for membrane rupture to a lower value (Fig. 5B). This observation clearly indicated that the adsorption of NP enhances the membrane rupture.
+From Soup: 107 C. Effects of ligand density.
+ ###### 
+From cou.: 108 We also investigated how the NP size and ligand density affect the membrane rupture. On the one hand, our simulation results (Fig. 5B) indicate that, for the NPs with different sizes but same ligand area density (NL/A = 0.16), the membrane is more easily damaged by a ligand-coated NP with a smaller size.21 This is because, in comparison to smaller NPs, a larger NP creates a smaller local membrane curvature, and perturbs the membrane more weakly. On the other hand, for NPs of same size but with different ligand densities, a higher ligand density can induce the membrane rupture more easily (Fig. 5B). This is because, for a NP with higher ligand density, more naked ligands on the bottom of the NP tend to be inserted into the bilayer directly, which thus facilitates the membrane rupture.
+From Soup: 108 Dynamically, the membrane responses, especially for receptor-mediated endocytosis, 10,13 are limited by the rate at which mobile receptors diffuse to contact with the ligands . Therefore, both the density and distribution of ligands are crucial for a process of membrane response. 9 Previous studies proved that increasing the ligand density simultaneously promotes both their cellular uptake and cytotoxic effect. 11,24,28,56,57
+ ###### 
+From cou.: 109 The recognition of different membrane responses to NP adsorption raises a question: how is the membrane response affected by the membrane tension and NP properties? To answer this question, we have investigated systematically the effects of membrane tension, NP size, and ligand density.
+From Soup: 109 In order to investigate the effect of ligand density to both endocytosis and membrane rupture, we uniformly coated a 6.0 nm NP with 18 and 40 ligands , respectively ( Fig. 7A ). In general, the increase of the ligand density directly induces more receptor- ligand contacts, and consequently tends to bend the membrane more efficiently. At high negative membrane tensions, the increase of ligand density would accelerate the encapsulation process ( Fig. 7A ). In addition, as the ligand density increases, the discontinuity of the wrapping dynamics gradually disappears.
+ ###### 
+From cou.: 110 A. Effects of membrane tension.
+From Soup: 110 To understand the relationship between the surface property of NPs and membrane disruption, 8,9,20,24,27,28,58 we also studied the effects of ligand density on the membrane rupture at high positive surface tensions ( Fig. 5B ). Due to the limitation of receptor density, the increase of ligand density not only facilitates the receptor- ligand combination but also leaves more naked ligands inserting into the membrane, which in turn promotes the membrane disruption. Therefore, at a high positive membrane tension, the NP inducing membrane rupture can be effectively enhanced by increasing the ligand density coating on the NP ( Fig. 5B ).
+ ###### 
+From cou.: 111 First, we determined the membrane responses as a function of NP size and membrane tension, and summarized the results in a morphology diagram (Fig. 6). From the figure, the effects of membrane tension on the membrane response can be obtained.
+From Soup: 111 Furthermore, the phase diagram for the NPs with a higher ligand density (40 ligands ) is given in Fig. 7B , as a comparison with those with a smaller ligand density (18 ligands , see Fig. 6 ). On the whole, both the region for NP endocytosis and that for membrane rupture increase with ligand density. This observation confirms our conclusion on the effects of ligand density and demonstrates the Janus face of using NPs as drug carriers. 28
+ ###### 
+From cou.: 112 As is shown in Fig. 6A, receptor-mediated endocytosis in the correct binding situation is usually observed at high negative surface tensions.10,11,20 The process occurs because the free energy gain due to receptor-ligand interaction exceeds the cost of the membrane bending. On the contrary, if the membrane tension is sufficiently positive, the membrane tension and the perturbation from NP adsorption cooperatively induce the rupture of cellular membrane (see Fig. 6A), which is obviously associated with NP cytotoxicity. For the membrane tension between the two extreme cases, NP adhesion or NP penetration occurs, depending on the NP size (Fig. 6A).
+From Soup: 112 Note that no NP adhesion on the membrane is observed for the case with the higher ligand density ( Fig. 7 ). On the one hand, this is because the membrane adhesion may converts to NP penetration or membrane rupture as the number of naked ligands inserting into the membrane increases. On the other hand, when the membrane surface tension is negative, the flat membrane may be more effectively deformed by increasing number of receptor- ligand contacts, which converts NP adhesion to endocytosis.
+ ###### 
+From cou.: 113 The membrane response to NP adsorption in the incorrect binding situation is also mainly determined by the surface tension (Fig. 6B), showing a similar tendency as in the correct binding mode (Fig. 6A). However, the difference of membrane responses is also observed from Fig. 6A and B. Especially, the region for the membrane rupture is significantly larger for the case of incorrect binding mode. When the surface tension is low positive, the pore expansion and hence the membrane rupture are inhibited by the strong receptor-ligand binding. As a result, the NP penetration process appears in this case. However, when the membrane tension is low negative, the dense lipid arrangement in membrane inhibits the insertion of the NP, and consequently, the NP tends to adhere on the membrane (Fig. 6B).
+From Soup: 113 In conclusion, the present study addressed the question of how the cellular membrane responds to the addition of ligand -coated NPs. Our simulations showed that there exist four kinds of membrane responses, including receptor-mediated endocytosis, NP adhesion on the membrane, NP penetration, and membrane rupture stimulated by the ligand -coated NP. Receptor-mediated endocytosis and NP adhesion are tightly related to drug delivery or intracellular imaging, while the NP penetration and membrane rupture correspond to the cytotoxicity. Simulation results indicate that NP size, ligand density on the NP surface, and membrane surface tension are all crucial in the membrane responding processes.
+ ###### 
+From cou.: 114 B. Effects of NP size.
+From Soup: 114 The study reveals the dynamic pathways for certain substances and viruses entering into cells, as well as potential mechanisms for cytotoxicity. The phase diagrams presented here have the potential to provide both qualitative and quantitative guidelines for the designing of novel drug delivery biomaterials. In other words, the study highlights how the size of NPs and their surface properties can be modified to yield the required therapeutic efficiency while minimizing their cytotoxicity.
+ ###### 
+From cou.: 115 Fig. 6 shows that the NP size plays an important role in determining the membrane response, in agreement with previous studies.10,11,46–48 Since the total number of ligands coating on the NP surface remains unchanged, as is preset in Fig. 6, a smaller NP size corresponds to a higher ligand density. For a smaller NP, the stronger receptor-ligand binding energy promotes the endocytosis of the NP at negative membrane tensions. Similarly, at positive membrane tensions a smaller NP size is more likely to penetrate or even disrupt the membrane. On the contrary, larger NP tends to adhere on the membrane surface during the process (Fig. 6).
+From Soup: 115 The authors thank “Chemical Grid Project” of BUCT for the generous allocations of computer time and excellent technical assistance. This work was financially supported by National Natural Science Foundation of China (No. 20736005 and No. 20876004).
+ ###### 
+From cou.: 116 However, if area density of ligands coating on the NP surface is kept fixed, the situation would be different. In this case, it is the increase of NP size, rather than the decrease of NP size, promotes the endocytosis of the NP. This is because, as the NP size increases, the free energy gain due to receptor-ligand interaction increases and the cost of the membrane bending decreases. Both effects facilitate the NP endocytosis. This is the reason that the optimal size for the NP endocytosis in previous studies is much larger than the size we studied.
+From Soup: 116 S. Mitragotri and J. Lahann, Nat. Mater. , 2009, 8 , 15–23 CrossRef CAS .
+ ###### 
+From cou.: 117 C. Effects of ligand density.
+From Soup: 117 A. E. Nel, L. Mädler, D. Velegol, T. Xia, E. M. V. Hoek, P. Somasundaran, F. Klaessig, V. Castranova and M. Thompson, Nat. Mater. , 2009, 8 , 543–557 CrossRef CAS .
+ ###### 
+From cou.: 118 Dynamically, the membrane responses, especially for receptor-mediated endocytosis,10,13 are limited by the rate at which mobile receptors diffuse to contact with the ligands. Therefore, both the density and distribution of ligands are crucial for a process of membrane response.9 Previous studies proved that increasing the ligand density simultaneously promotes both their cellular uptake and cytotoxic effect.11,24,28,56,57
+From Soup: 118 D. Bechet, P. Couleaud, C. Frochot, M. Viriot, F. Guillemin and M. Barberi-Heyob, Cell , 2008, 26 , 612–621 CAS .
+ ###### 
+From cou.: 119 In order to investigate the effect of ligand density to both endocytosis and membrane rupture, we uniformly coated a 6.0 nm NP with 18 and 40 ligands, respectively (Fig. 7A). In general, the increase of the ligand density directly induces more receptor-ligand contacts, and consequently tends to bend the membrane more efficiently. At high negative membrane tensions, the increase of ligand density would accelerate the encapsulation process (Fig. 7A). In addition, as the ligand density increases, the discontinuity of the wrapping dynamics gradually disappears.
+From Soup: 119 C. F. Lopez, S. O. Nielsen, P. B. Moore and M. L. Klein, Proc. Natl. Acad. Sci. U. S. A. , 2004, 101 , 4431–4434 CrossRef CAS .
+ ###### 
+From cou.: 120 To understand the relationship between the surface property of NPs and membrane disruption,8,9,20,24,27,28,58 we also studied the effects of ligand density on the membrane rupture at high positive surface tensions (Fig. 5B). Due to the limitation of receptor density, the increase of ligand density not only facilitates the receptor-ligand combination but also leaves more naked ligands inserting into the membrane, which in turn promotes the membrane disruption. Therefore, at a high positive membrane tension, the NP inducing membrane rupture can be effectively enhanced by increasing the ligand density coating on the NP (Fig. 5B).
+From Soup: 120 K. Yang and Y. Ma, Nat. Nanotechnol. , 2010, 5 , 579–583 CrossRef CAS .
+ ###### 
+From cou.: 121 Furthermore, the phase diagram for the NPs with a higher ligand density (40 ligands) is given in Fig. 7B, as a comparison with those with a smaller ligand density (18 ligands, see Fig. 6). On the whole, both the region for NP endocytosis and that for membrane rupture increase with ligand density. This observation confirms our conclusion on the effects of ligand density and demonstrates the Janus face of using NPs as drug carriers.28
+From Soup: 121 G. A. Hughes, Nanomedicine. , 2005, 1 , 22–30 CAS .
+ ###### 
+From cou.: 122 Note that no NP adhesion on the membrane is observed for the case with the higher ligand density (Fig. 7). On the one hand, this is because the membrane adhesion may converts to NP penetration or membrane rupture as the number of naked ligands inserting into the membrane increases. On the other hand, when the membrane surface tension is negative, the flat membrane may be more effectively deformed by increasing number of receptor-ligand contacts, which converts NP adhesion to endocytosis.
+From Soup: 122 B. D. Chithrani and W. C. W. Chan, Nano Lett. , 2007, 7 , 1542–1550 CrossRef CAS .
+ ###### 
+From cou.: 123 In conclusion, the present study addressed the question of how the cellular membrane responds to the addition of ligand-coated NPs. Our simulations showed that there exist four kinds of membrane responses, including receptor-mediated endocytosis, NP adhesion on the membrane, NP penetration, and membrane rupture stimulated by the ligand-coated NP. Receptor-mediated endocytosis and NP adhesion are tightly related to drug delivery or intracellular imaging, while the NP penetration and membrane rupture correspond to the cytotoxicity. Simulation results indicate that NP size, ligand density on the NP surface, and membrane surface tension are all crucial in the membrane responding processes.
+From Soup: 123 A. Verma and F. Stellacci, Small , 2010, 6 , 12–21 CrossRef CAS .
+ ###### 
+From cou.: 124 The study reveals the dynamic pathways for certain substances and viruses entering into cells, as well as potential mechanisms for cytotoxicity. The phase diagrams presented here have the potential to provide both qualitative and quantitative guidelines for the designing of novel drug delivery biomaterials. In other words, the study highlights how the size of NPs and their surface properties can be modified to yield the required therapeutic efficiency while minimizing their cytotoxicity.
+From Soup: 124 A. Verma, O. Uzun, Y. Hu, Y. Hu, H. Han, N. Watson, S. Chen, D. J. Irvine and F. Stellacci, Nat. Mater. , 2008, 7 , 588–595 CrossRef CAS .
+ ###### 
+From cou.: 125 The authors thank “Chemical Grid Project” of BUCT for the generous allocations of computer time and excellent technical assistance. This work was financially supported by National Natural Science Foundation of China (No. 20736005 and No. 20876004).
+From Soup: 125 H. Gao, W. Shi and L. B. Freund, Proc. Natl. Acad. Sci. U. S. A. , 2005, 102 , 9469–9474 CrossRef CAS .
+ ###### 
+From cou.: 126 S. Mitragotri and J. Lahann, Nat. Mater., 2009, 8, 15–23 CrossRef CAS .
+From Soup: 126 S. Zhang, J. Li, G. Lykotrafitis, G. Bao and S. Suresh, Adv. Mater. , 2009, 21 , 419–424 CrossRef CAS .
+ ###### 
+From cou.: 127 A. E. Nel, L. Mädler, D. Velegol, T. Xia, E. M. V. Hoek, P. Somasundaran, F. Klaessig, V. Castranova and M. Thompson, Nat. Mater., 2009, 8, 543–557 CrossRef CAS .
+From Soup: 127 C. J. Murphy, A. M. Gole, J. W. Stone, P. N. Sisco, A. M. Alkilany, E. C. Goldsmith and S. C. Baxter, Acc. Chem. Res. , 2008, 41 , 1721–1730 CrossRef CAS .
+ ###### 
+From cou.: 128 D. Bechet, P. Couleaud, C. Frochot, M. Viriot, F. Guillemin and M. Barberi-Heyob, Cell, 2008, 26, 612–621 CAS .
+From Soup: 128 D. M. Lerner, J. M. Deutsch and G. F. Oster, Biophys. J. , 1993, 65 , 73–79 CrossRef CAS .
+ ###### 
+From cou.: 129 C. F. Lopez, S. O. Nielsen, P. B. Moore and M. L. Klein, Proc. Natl. Acad. Sci. U. S. A., 2004, 101, 4431–4434 CrossRef CAS .
+From Soup: 129 M. Deserno and W. M. Gelbart, J. Phys. Chem. B , 2002, 106 , 5543–5552 CrossRef CAS .
+ ###### 
+From cou.: 130 K. Yang and Y. Ma, Nat. Nanotechnol., 2010, 5, 579–583 CrossRef CAS .
+From Soup: 130 K. A. Smith, D. Jasnow and A. C. Balazs, J. Chem. Phys. , 2007, 127 , 084703 CrossRef .
+ ###### 
+From cou.: 131 G. A. Hughes, Nanomedicine., 2005, 1, 22–30 CAS .
+From Soup: 131 P. Decuzzi and M. Ferrari, Biomaterials , 2007, 28 , 2915–2922 CrossRef CAS .
+ ###### 
+From cou.: 132 B. D. Chithrani and W. C. W. Chan, Nano Lett., 2007, 7, 1542–1550 CrossRef CAS .
+From Soup: 132 H. Chen, R. Langer and D. A. Edwards, J. Colloid Interface Sci. , 1997, 190 , 118–133 CrossRef CAS .
+ ###### 
+From cou.: 133 A. Verma and F. Stellacci, Small, 2010, 6, 12–21 CrossRef CAS .
+From Soup: 133 R. Lipowsky and H.-G. Döbereiner, Europhys. Lett. , 1998, 43 , 219–225 CrossRef CAS .
+ ###### 
+From cou.: 134 A. Verma, O. Uzun, Y. Hu, Y. Hu, H. Han, N. Watson, S. Chen, D. J. Irvine and F. Stellacci, Nat. Mater., 2008, 7, 588–595 CrossRef CAS .
+From Soup: 134 B. J. Reynwar, G. Illya, V. A. Harmandaris, M. M. Müller, K. Kremer and M. Deserno, Nature , 2007, 447 , 461–464 CrossRef CAS .
+ ###### 
+From cou.: 135 H. Gao, W. Shi and L. B. Freund, Proc. Natl. Acad. Sci. U. S. A., 2005, 102, 9469–9474 CrossRef CAS .
+From Soup: 135 D. Q. McNerny, P. R. Leroueil and J. R. Baker, Nanomedicine and Nanobiotechnology , 2010, 2 , 249–259 CrossRef CAS .
+ ###### 
+From cou.: 136 S. Zhang, J. Li, G. Lykotrafitis, G. Bao and S. Suresh, Adv. Mater., 2009, 21, 419–424 CrossRef CAS .
+From Soup: 136 L. Yan and X. Yu, ACS Nano , 2009, 3 , 2171–2176 CrossRef CAS .
+ ###### 
+From cou.: 137 C. J. Murphy, A. M. Gole, J. W. Stone, P. N. Sisco, A. M. Alkilany, E. C. Goldsmith and S. C. Baxter, Acc. Chem. Res., 2008, 41, 1721–1730 CrossRef CAS .
+From Soup: 137 Y. Roiter, M. Ornatska, A. R. Rammohan, J. Balakrishnan, D. R. Heine and S. Minko, Nano Lett. , 2008, 8 , 941–944 CrossRef CAS .
+ ###### 
+From cou.: 138 D. M. Lerner, J. M. Deutsch and G. F. Oster, Biophys. J., 1993, 65, 73–79 CrossRef CAS .
+From Soup: 138 T. Xia, M. Kovochich, J. Brant, M. Hotze, J. Sempf, T. Oberley, C. Sioutas, J. I. Yeh, M. R. Wiesner and A. E. Nel, Nano Lett. , 2006, 6 , 1794–1807 CrossRef CAS .
+ ###### 
+From cou.: 139 M. Deserno and W. M. Gelbart, J. Phys. Chem. B, 2002, 106, 5543–5552 CrossRef CAS .
+From Soup: 139 J. Lin, H. Zhang, Z. Chen and Y. Zheng, ACS Nano , 2010, 4 , 5421–5429 CrossRef CAS .
+ ###### 
+From cou.: 140 K. A. Smith, D. Jasnow and A. C. Balazs, J. Chem. Phys., 2007, 127, 084703 CrossRef .
+From Soup: 140 T. Yue, S. Li, X. Zhang and W. Wang, Soft Matter , 2010, 6 , 6109–6118 RSC .
+ ###### 
+From cou.: 141 P. Decuzzi and M. Ferrari, Biomaterials, 2007, 28, 2915–2922 CrossRef CAS .
+From Soup: 141 B. Hong, F. Qiu, H. Zhang and Y. Yang, J. Phys. Chem. B , 2006, 111 , 5837–5849 CrossRef .
+ ###### 
+From cou.: 142 H. Chen, R. Langer and D. A. Edwards, J. Colloid Interface Sci., 1997, 190, 118–133 CrossRef CAS .
+From Soup: 142 V. V. Ginzburg and S. Balijepalli, Nano Lett. , 2007, 7 , 3716–3722 CrossRef CAS .
+ ###### 
+From cou.: 143 R. Lipowsky and H.-G. Döbereiner, Europhys. Lett., 1998, 43, 219–225 CrossRef CAS .
+From Soup: 143 P. R. Leroueil, S. Hong, A. Mecke, J. R. BakerJR, B. G. Orr and M. M. B. Holl, Acc. Chem. Res. , 2007, 40 , 335–342 CrossRef CAS .
+ ###### 
+From cou.: 144 B. J. Reynwar, G. Illya, V. A. Harmandaris, M. M. Müller, K. Kremer and M. Deserno, Nature, 2007, 447, 461–464 CrossRef CAS .
+From Soup: 144 C. Peetla and V. Labhasetwar, Langmuir , 2009, 25 , 2369–2377 CrossRef CAS .
+ ###### 
+From cou.: 145 D. Q. McNerny, P. R. Leroueil and J. R. Baker, Nanomedicine and Nanobiotechnology, 2010, 2, 249–259 CrossRef CAS .
+From Soup: 145 S. E. A. Gratton, P. A. Ropp, P. D. Pohlhaus, J. C. Luft, V. J. Madden, M. E. Napier and J. M. DeSimone, Proc. Natl. Acad. Sci. U. S. A. , 2008, 105 , 11613–11618 CrossRef CAS .
+ ###### 
+From cou.: 146 L. Yan and X. Yu, ACS Nano, 2009, 3, 2171–2176 CrossRef CAS .
+From Soup: 146 F. J. Meyer, M. Venturoli and B. Smit, Biophys. J. , 2008, 95 , 1851–1865 CrossRef .
+ ###### 
+From cou.: 147 Y. Roiter, M. Ornatska, A. R. Rammohan, J. Balakrishnan, D. R. Heine and S. Minko, Nano Lett., 2008, 8, 941–944 CrossRef CAS .
+From Soup: 147 M. Venturoli, M. M. Sperotto, M. Kranenburg and B. Smit, Phys. Rep. , 2006, 437 , 1–57 CrossRef CAS .
+ ###### 
+From cou.: 148 T. Xia, M. Kovochich, J. Brant, M. Hotze, J. Sempf, T. Oberley, C. Sioutas, J. I. Yeh, M. R. Wiesner and A. E. Nel, Nano Lett., 2006, 6, 1794–1807 CrossRef CAS .
+From Soup: 148 M. Kranenburg and B. Smit, J. Phys. Chem. B , 2005, 109 , 6553–6563 CrossRef CAS .
+ ###### 
+From cou.: 149 J. Lin, H. Zhang, Z. Chen and Y. Zheng, ACS Nano, 2010, 4, 5421–5429 CrossRef CAS .
+From Soup: 149 A. Grafmüller, J. Shillcock and R. Lipowsky, Phys. Rev. Lett. , 2007, 98 , 218101 CrossRef .
+ ###### 
+From cou.: 150 T. Yue, S. Li, X. Zhang and W. Wang, Soft Matter, 2010, 6, 6109–6118 RSC .
+From Soup: 150 A. Grafmüller, J. Shillcock and R. Lipowsky, Biophys. J. , 2009, 96 , 2658–2675 CrossRef .
+ ###### 
+From cou.: 151 B. Hong, F. Qiu, H. Zhang and Y. Yang, J. Phys. Chem. B, 2006, 111, 5837–5849 CrossRef .
+From Soup: 151 P. Español and P. Warren, Europhys. Lett. , 1995, 30 , 191–196 CrossRef .
+ ###### 
+From cou.: 152 V. V. Ginzburg and S. Balijepalli, Nano Lett., 2007, 7, 3716–3722 CrossRef CAS .
+From Soup: 152 R. D. Groot and P. B. Warren, J. Chem. Phys. , 1997, 107 , 4423–4435 CrossRef CAS .
+ ###### 
+From cou.: 153 P. R. Leroueil, S. Hong, A. Mecke, J. R. BakerJR, B. G. Orr and M. M. B. Holl, Acc. Chem. Res., 2007, 40, 335–342 CrossRef CAS .
+From Soup: 153 P. J. Hoogerbrugge and J. M. V. A. Koelman, Europhys. Lett. , 1992, 19 , 155–160 CrossRef .
+ ###### 
+From cou.: 154 C. Peetla and V. Labhasetwar, Langmuir, 2009, 25, 2369–2377 CrossRef CAS .
+From Soup: 154 J. C. Shillcock and R. Lipowsky, Nat. Mater. , 2005, 4 , 225–228 CrossRef CAS .
+ ###### 
+From cou.: 155 S. E. A. Gratton, P. A. Ropp, P. D. Pohlhaus, J. C. Luft, V. J. Madden, M. E. Napier and J. M. DeSimone, Proc. Natl. Acad. Sci. U. S. A., 2008, 105, 11613–11618 CrossRef CAS .
+From Soup: 155 M. Venturoli, B. Smit and M. M. Sperotto, Biophys. J. , 2005, 88 , 1778–1798 CrossRef CAS .
+ ###### 
+From cou.: 156 F. J. Meyer, M. Venturoli and B. Smit, Biophys. J., 2008, 95, 1851–1865 CrossRef .
+From Soup: 156 S. Li, X. Zhang and W. Wang, Biophys. J. , 2010, 98 , 2554–2563 CrossRef CAS .
+ ###### 
+From cou.: 157 M. Venturoli, M. M. Sperotto, M. Kranenburg and B. Smit, Phys. Rep., 2006, 437, 1–57 CrossRef CAS .
+From Soup: 157 S. Li, X. Zhang and W. Wang, J. Phys. Chem. B , 2009, 113 , 14431–14438 CrossRef CAS .
+ ###### 
+From cou.: 158 M. Kranenburg and B. Smit, J. Phys. Chem. B, 2005, 109, 6553–6563 CrossRef CAS .
+From Soup: 158 R. D. Groot and K. L. Rabone, Biophys. J. , 2001, 81 , 725–736 CrossRef CAS .
+ ###### 
+From cou.: 159 A. Grafmüller, J. Shillcock and R. Lipowsky, Phys. Rev. Lett., 2007, 98, 218101 CrossRef .
+From Soup: 159 A. Zlotnick, R. Aldrich, J. M. Johnson, P. Ceres and M. J. Young, Virology , 2000, 477 , 450–456 CrossRef .
+ ###### 
+From cou.: 160 A. Grafmüller, J. Shillcock and R. Lipowsky, Biophys. J., 2009, 96, 2658–2675 CrossRef .
+From Soup: 160 M. F. Hagan and D. Chandler, Biophys. J. , 2006, 91 , 42–54 CrossRef CAS .
+ ###### 
+From cou.: 161 P. Español and P. Warren, Europhys. Lett., 1995, 30, 191–196 CrossRef .
+From Soup: 161 M. P. Desai, V. Labhasetwar, E. Walter, R. J. Levy and G. L. Amidon, Pharm. Res. , 1997, 14 , 1568–1573 CrossRef CAS .
+ ###### 
+From cou.: 162 R. D. Groot and P. B. Warren, J. Chem. Phys., 1997, 107, 4423–4435 CrossRef CAS .
+From Soup: 162 S. Prabha, W. Zhou, J. Panyam and V. Labhasetwar, Int. J. Pharm. , 2002, 244 , 105–115 CrossRef CAS .
+ ###### 
+From cou.: 163 P. J. Hoogerbrugge and J. M. V. A. Koelman, Europhys. Lett., 1992, 19, 155–160 CrossRef .
+From Soup: 163 W. Jiang, B. Y. S. Kim, J. T. Rutka and W. C. W. Chan, Nat. Nanotechnol. , 2008, 3 , 145–150 CrossRef CAS .
+ ###### 
+From cou.: 164 J. C. Shillcock and R. Lipowsky, Nat. Mater., 2005, 4, 225–228 CrossRef CAS .
+From Soup: 164 M. Kaksonen, C. P. Toret and D. G. Drubin, Nat. Rev. Mol. Cell Biol. , 2006, 7 , 404–414 CrossRef CAS .
+ ###### 
+From cou.: 165 M. Venturoli, B. Smit and M. M. Sperotto, Biophys. J., 2005, 88, 1778–1798 CrossRef CAS .
+From Soup: 165 R. L. Jeng and M. D. Welch, Curr. Biol. , 2001, 11 , R691–R694 CrossRef CAS .
+ ###### 
+From cou.: 166 S. Li, X. Zhang and W. Wang, Biophys. J., 2010, 98, 2554–2563 CrossRef CAS .
+From Soup: 166 B. J. Galletta and J. A. Cooper, Curr. Opin. Cell Biol. , 2009, 21 , 20–27 CrossRef CAS .
+ ###### 
+From cou.: 167 S. Li, X. Zhang and W. Wang, J. Phys. Chem. B, 2009, 113, 14431–14438 CrossRef CAS .
+From Soup: 167 H. Ba, J. Rodríguez-Fernández, F. D. Stefani and J. Feldmann, Nano Lett. , 2010, 10 , 3006–3012 CrossRef CAS .
+ ###### 
+From cou.: 168 R. D. Groot and K. L. Rabone, Biophys. J., 2001, 81, 725–736 CrossRef CAS .
+From Soup: 168 Z. Wang and D. Frenkel, J. Chem. Phys. , 2005, 123 , 154701 CrossRef .
+ ###### 
+From cou.: 169 A. Zlotnick, R. Aldrich, J. M. Johnson, P. Ceres and M. J. Young, Virology, 2000, 477, 450–456 CrossRef .
+From Soup: 169 E. J. Wallace and M. S. P. Sansom, Nano Lett. , 2008, 8 , 2751–2756 CrossRef CAS .
+ ###### 
+From cou.: 170 M. F. Hagan and D. Chandler, Biophys. J., 2006, 91, 42–54 CrossRef CAS .
+From Soup: 170 J. Wong-Ekkabut, S. Baoukina, W. Triampo, I. Tang, D. P. Tieleman and L. Monticelli, Nat. Nanotechnol. , 2008, 3 , 363–368 CrossRef CAS .
+ ###### 
+From cou.: 171 M. P. Desai, V. Labhasetwar, E. Walter, R. J. Levy and G. L. Amidon, Pharm. Res., 1997, 14, 1568–1573 CrossRef CAS .
+From Soup: 171 E. C. Cho, J. Xie, P. A. Wurm and Y. Xia, Nano Lett. , 2009, 9 , 1080–1084 CrossRef CAS .
+ ###### 
+From cou.: 172 S. Prabha, W. Zhou, J. Panyam and V. Labhasetwar, Int. J. Pharm., 2002, 244, 105–115 CrossRef CAS .
+From Soup: 172 B. D. Chithrani, J. Stewart, C. Allen and D. A. Jaffray, Nanomedicine. , 2009, 5 , 118–127 CAS .
+ ###### 
+From cou.: 173 W. Jiang, B. Y. S. Kim, J. T. Rutka and W. C. W. Chan, Nat. Nanotechnol., 2008, 3, 145–150 CrossRef CAS .
+From Soup: 173 A. Alexeev, W. E. Uspal and A. C. Balazs, ACS Nano , 2008, 2 , 1117–1122 CrossRef CAS .
+ ###### 
+From cou.: 174 M. Kaksonen, C. P. Toret and D. G. Drubin, Nat. Rev. Mol. Cell Biol., 2006, 7, 404–414 CrossRef CAS .
+From Soup: 174 B. Antonny, Curr. Opin. Cell Biol. , 2006, 18 , 386–394 CrossRef CAS .
+ ###### 
+From cou.: 175 R. L. Jeng and M. D. Welch, Curr. Biol., 2001, 11, R691–R694 CrossRef CAS .
+From Soup: 175 H. Noguchi and G. Gompper, Phys. Rev. E , 2006, 73 , 021903 CrossRef .
+ ###### 
+From cou.: 176 B. J. Galletta and J. A. Cooper, Curr. Opin. Cell Biol., 2009, 21, 20–27 CrossRef CAS .
+From Soup: 176 where is the maximum repulsive strength, r = r − r (r and r are the positions of beads and ), = |r |, = r /|r |, and is the interaction range. In this system, the interaction parameters between beads of the same type were set to = = 25 and = 15, and those between the different types of beads were = = 80, = = = = 50, = = 25 and = 10. where the spring constant was set to 128 and the equilibrium bond length was set to 0.7 . The force constraining the variation of bond angle is given by where was set to π and is the bond bending force constant. For molecules was set to 10.0, while for it was set to 100.0 to make the rigid.
+ ###### 
+From cou.: 177 H. Ba, J. Rodríguez-Fernández, F. D. Stefani and J. Feldmann, Nano Lett., 2010, 10, 3006–3012 CrossRef CAS .
+From cou.: 178 Z. Wang and D. Frenkel, J. Chem. Phys., 2005, 123, 154701 CrossRef .
+From cou.: 179 E. J. Wallace and M. S. P. Sansom, Nano Lett., 2008, 8, 2751–2756 CrossRef CAS .
+From cou.: 180 J. Wong-Ekkabut, S. Baoukina, W. Triampo, I. Tang, D. P. Tieleman and L. Monticelli, Nat. Nanotechnol., 2008, 3, 363–368 CrossRef CAS .
+From cou.: 181 E. C. Cho, J. Xie, P. A. Wurm and Y. Xia, Nano Lett., 2009, 9, 1080–1084 CrossRef CAS .
+From cou.: 182 B. D. Chithrani, J. Stewart, C. Allen and D. A. Jaffray, Nanomedicine., 2009, 5, 118–127 CAS .
+From cou.: 183 A. Alexeev, W. E. Uspal and A. C. Balazs, ACS Nano, 2008, 2, 1117–1122 CrossRef CAS .
+From cou.: 184 B. Antonny, Curr. Opin. Cell Biol., 2006, 18, 386–394 CrossRef CAS .
+From cou.: 185 H. Noguchi and G. Gompper, Phys. Rev. E, 2006, 73, 021903 CrossRef .

@@ -1,0 +1,604 @@
+From cou.: 0 Journal
+From Soup: 0 Soft Matter
+ ###### 
+From cou.: 1 We explore the effects of line tension on the shape of two component elastic shells. Segregation between components with different elastic properties combined with the subtleties related to the spherical topology leads to a rich variety of shapes. They range from irregular polyhedra at weak segregation to Janus-like morphologies with spherical and buckled regions coexisting on the same shell for large values of the line tension. We use Monte Carlo simulations to map a detailed phase diagram as a function of the relative fraction of the two components, the ratio of their bending rigidities, and the strength of the line tension.
+From Soup: 1 We explore the effects of line tension on the shape of two component elastic shells. Segregation between components with different elastic properties combined with the subtleties related to the spherical topology leads to a rich variety of shapes. They range from irregular polyhedra at weak segregation to Janus-like morphologies with spherical and buckled regions coexisting on the same shell for large values of the line tension. We use Monte Carlo simulations to map a detailed phase diagram as a function of the relative fraction of the two components, the ratio of their bending rigidities, and the strength of the line tension.
+ ###### 
+From cou.: 2 Nature has developed ingenious ways to exploit shape for function, the cell being one of the best examples. Cell shape as well as the shapes of virtually all organelles are to a large extent determined by the membranes that surround them. Virtually all biological membranes are bilayers of lipid molecules with a large number of associated and embedded proteins.1Lipid molecules are held together by a non-covalent hydrophobic attraction between the nonpolar hydrocarbon chains. The bilayer is approximately 5 nm thick, but may span tens of nanometres to a few microns laterally, suggesting that it can be described as a thin sheet at length scales large compared to its thickness. Despite the high morphological complexity of biological membranes, a surprising amount of insight about their shape can be deduced from simple elastic models with only a handful of parameters. In a seminal work, Helfrich introduced2 a Hamiltonian that models the bending degrees of freedom as a quadratic function of the membrane curvatures. In this simplified mesoscopic description of a highly complex atomistic system, the membrane shape is taken to depend only on a few parameters such as the spontaneous curvature and the bending rigidity. The Helfrich model is particularly suitable for fluid membranes where lipid molecules are able to freely diffuse within the bilayer, thus resulting in a system that cannot sustain shear but shows resistance to bending.
+From Soup: 2 Nature has developed ingenious ways to exploit shape for function, the cell being one of the best examples. Cell shape as well as the shapes of virtually all organelles are to a large extent determined by the membranes that surround them. Virtually all biological membranes are bilayers of lipid molecules with a large number of associated and embedded proteins . 1 Lipid molecules are held together by a non-covalent hydrophobic attraction between the nonpolar hydrocarbon chains. The bilayer is approximately 5 nm thick, but may span tens of nanometres to a few microns laterally, suggesting that it can be described as a thin sheet at length scales large compared to its thickness. Despite the high morphological complexity of biological membranes, a surprising amount of insight about their shape can be deduced from simple elastic models with only a handful of parameters. In a seminal work, Helfrich introduced 2 a Hamiltonian that models the bending degrees of freedom as a quadratic function of the membrane curvatures. In this simplified mesoscopic description of a highly complex atomistic system, the membrane shape is taken to depend only on a few parameters such as the spontaneous curvature and the bending rigidity. The Helfrich model is particularly suitable for fluid membranes where lipid molecules are able to freely diffuse within the bilayer, thus resulting in a system that cannot sustain shear but shows resistance to bending.
+ ###### 
+From cou.: 3 Another class of such quasi-two-dimensional systems are tethered membranes, i.e., membranes with suppressed lateral diffusion of lipid molecules. Such systems arise in nature, such as the widely studied cytoskeleton of the red blood cells,3,4 or can be artificially synthesized by cross-polymerizing the hydrophobic tails of lipid molecules,5,6 or directing the coassembly of cationic and anionic amphiphiles.7,8 We note that the effects of electrostatic interactions on the vesicle shape are particularly subtle and can lead to faceting9 or even a collapse of the shells.10 A tethered membrane can sustain shear, which is characteristic of a solid phase. Consequently, in addition to bending modes, any description of tethered membranes also requires consideration of the in-plane phonon degrees of freedom. The phonon degrees of freedom couple to the Gaussian curvature and drastically increase the bending rigidity. This leads to a suppression of the crumpled phase at low temperatures.11 If the tethered membrane is bent into a spherical vesicle, the topology requires defects to be present,12i.e., there must be isolated sites with coordination higher or lower than the common six-fold coordination of the close-packed two-dimensional lattice. The exact number of the defects is related to the integral of the Gaussian curvature,13, where Nz is the number of sites with coordination z, dS is the area element, G() is the local Gaussian curvature at position , and the integral is calculated over the vesicle surface S. For a sphere of radius R, the Gaussian curvature does not depend on the position and is equal to 1/R2 at all locations on the surface. It is trivial to show that the integral on the right-hand side is equal to 4π for such a system, and therefore the total number of defects satisfies . Since the formation of topological defects is energetically costly, lowest energy configuration would be expected to have only five-fold and seven-fold coordinated defects. If we restrict the system by allowing only those two types of defects, then the total number of defects on a sphere satisfies the equation N5 − N7 = 12. It is reasonable to expect that the lowest energy configuration will have the minimal number of defects, suggesting that N5 = 12 and N7 = 0. We note that an instability toward the formation of grain boundaries can lead to lines of five- and seven-fold defect pairs termed “scars”, which can further reduce the elastic energy.14,15 However, here we assume that there is no such instability and throughout this paper consider only systems with 12 five-fold defects. To make a distinction between liquid and solid systems we will refer to tethered membrane vesicles as shells.
+From Soup: 3 Another class of such quasi-two-dimensional systems are tethered membranes, i.e. , membranes with suppressed lateral diffusion of lipid molecules. Such systems arise in nature, such as the widely studied cytoskeleton of the red blood cells, 3,4 or can be artificially synthesized by cross-polymerizing the hydrophobic tails of lipid molecules, 5,6 or directing the coassembly of cationic and anionic amphiphiles . 7,8 We note that the effects of electrostatic interactions on the vesicle shape are particularly subtle and can lead to faceting 9 or even a collapse of the shells. 10 A tethered membrane can sustain shear, which is characteristic of a solid phase. Consequently, in addition to bending modes, any description of tethered membranes also requires consideration of the in-plane phonon degrees of freedom. The phonon degrees of freedom couple to the Gaussian curvature and drastically increase the bending rigidity. This leads to a suppression of the crumpled phase at low temperatures. 11 If the tethered membrane is bent into a spherical vesicle, the topology requires defects to be present, 12 i.e. , there must be isolated sites with coordination higher or lower than the common six-fold coordination of the close-packed two-dimensional lattice. The exact number of the defects is related to the integral of the Gaussian curvature, 13 , where N z is the number of sites with coordination z , dS is the area element, G ( ) is the local Gaussian curvature at position , and the integral is calculated over the vesicle surface S . For a sphere of radius R , the Gaussian curvature does not depend on the position and is equal to 1/ R 2 at all locations on the surface. It is trivial to show that the integral on the right-hand side is equal to 4π for such a system, and therefore the total number of defects satisfies . Since the formation of topological defects is energetically costly, lowest energy configuration would be expected to have only five-fold and seven-fold coordinated defects. If we restrict the system by allowing only those two types of defects, then the total number of defects on a sphere satisfies the equation N 5 − N 7 = 12. It is reasonable to expect that the lowest energy configuration will have the minimal number of defects, suggesting that N 5 = 12 and N 7 = 0. We note that an instability toward the formation of grain boundaries can lead to lines of five- and seven-fold defect pairs termed “scars”, which can further reduce the elastic energy. 14,15 However, here we assume that there is no such instability and throughout this paper consider only systems with 12 five-fold defects. To make a distinction between liquid and solid systems we will refer to tethered membrane vesicles as shells .
+ ###### 
+From cou.: 4 The presence of the defects introduces a sizable strain into an elastic material. For a planar disk with a five-fold disclination in its center the elastic energy scales as the square of the disk radius R, E ≈ s2YR2/32π,16 where in analogy to electrostatics, s = 2π/6 is called the topological charge of the disclination and Y is the two-dimensional Young's modulus. If out-of-plane deformations are allowed, the disk buckles into a cone with the apex at the disclination core reducing the energy to E ≈ (π/3)κ log(R/Rb) + s2YRb2/32π,16 where Rb is the critical buckling radius and κ is the bending rigidity. From this expression for the conical deformation it is clear that the stretching energy now is a constant with respect to R, i.e., Es = s2YRb2/32π, at the expense of increasing the bending energy, which grows much slower with R, Eb ∝ log(R/Rb). For small R, it is energetically favorable to stretch and the disclination disk stays flat. As the radius increases, bending becomes less costly and the disk buckles into a cone. The transition occurs at ,16 where γc = 154 is a critical Föppl-von Kármán (FvK) number. The FvK number is defined as γ = YR2/κ and is a convenient dimensionless quantity (κ has units of energy and Y has units of energy per area) that determines the relative importance of stretching versus bending. For a thin elastic sheet with a two-dimensional Poisson's ratio ν it can be shown17 that , where h is the sheet thickness. As expected from the classical theory of elasticity,18 large thin elastic sheets are much easier to bend than stretch, consistent with large FvK numbers: γ → ∞ for h → 0.
+From Soup: 4 The presence of the defects introduces a sizable strain into an elastic material. For a planar disk with a five-fold disclination in its center the elastic energy scales as the square of the disk radius R , E ≈ s 2 YR 2 /32π, 16 where in analogy to electrostatics, s = 2π/6 is called the topological charge of the disclination and Y is the two-dimensional Young's modulus. If out-of-plane deformations are allowed, the disk buckles into a cone with the apex at the disclination core reducing the energy to E ≈ (π/3) κ log( R / R b ) + s 2 YR b 2 /32π, 16 where R b is the critical buckling radius and κ is the bending rigidity. From this expression for the conical deformation it is clear that the stretching energy now is a constant with respect to R , i.e. , E s = s 2 YR b 2 /32π, at the expense of increasing the bending energy, which grows much slower with R , E b ∝ log( R / R b ). For small R , it is energetically favorable to stretch and the disclination disk stays flat. As the radius increases, bending becomes less costly and the disk buckles into a cone. The transition occurs at , 16 where γ c = 154 is a critical Föppl-von Kármán (FvK) number. The FvK number is defined as γ = YR 2 / κ and is a convenient dimensionless quantity ( κ has units of energy and Y has units of energy per area) that determines the relative importance of stretching versus bending. For a thin elastic sheet with a two-dimensional Poisson's ratio ν it can be shown 17 that , where h is the sheet thickness. As expected from the classical theory of elasticity, 18 large thin elastic sheets are much easier to bend than stretch, consistent with large FvK numbers: γ → ∞ for h → 0.
+ ###### 
+From cou.: 5 Much like charges, same-sign disclination defects repel each other and tend to maximize their separation. On a sphere the most optimal configuration is an icosahedron with 12 disclinations located at its vertices. The positive Gaussian curvature partially screens the strain produced by the 12 five-fold disclinations and the elastic energy scales as E ≈ 0.604(s2YR2/4π).14 Analogous to the flat case, the shell can reduce its energy by buckling as the radius is increased. All 12 disclinations simultaneously act as seeds for conical deformation and the shell morphs from a sphere into an icosahedron.19,20 We note that the strong nonlinear nature of this buckling effect leads to very interesting scaling properties of the ridge deformations that form as a result.21,22
+From Soup: 5 Much like charges, same-sign disclination defects repel each other and tend to maximize their separation. On a sphere the most optimal configuration is an icosahedron with 12 disclinations located at its vertices. The positive Gaussian curvature partially screens the strain produced by the 12 five-fold disclinations and the elastic energy scales as E ≈ 0.604( s 2 YR 2 /4π). 14 Analogous to the flat case, the shell can reduce its energy by buckling as the radius is increased. All 12 disclinations simultaneously act as seeds for conical deformation and the shell morphs from a sphere into an icosahedron. 19,20 We note that the strong nonlinear nature of this buckling effect leads to very interesting scaling properties of the ridge deformations that form as a result. 21,22
+ ###### 
+From cou.: 6 In summary, the presence of disclination defects on a shell is required by its spherical topology. The defects repel each other and adopt a configuration with icosahedral symmetry. For a sufficiently large shell radius, the residual elastic energy is reduced if all defects simultaneously buckle and the shell takes an icosahedral shape. Therefore, the symmetry of the buckled shell is directly dictated by the symmetry of the distribution of the topological defects. This is in essence the reason that small viruses tend to be spherical, while large viruses are icosahedral.19
+From Soup: 6 In summary, the presence of disclination defects on a shell is required by its spherical topology. The defects repel each other and adopt a configuration with icosahedral symmetry. For a sufficiently large shell radius, the residual elastic energy is reduced if all defects simultaneously buckle and the shell takes an icosahedral shape. Therefore, the symmetry of the buckled shell is directly dictated by the symmetry of the distribution of the topological defects. This is in essence the reason that small viruses tend to be spherical, while large viruses are icosahedral. 19
+ ###### 
+From cou.: 7 So far this discussion has implicitly assumed that the shell is homogeneous, i.e., its elastic properties do not change with position. If this constraint is lifted and one introduces a soft, easily bent component, the shell can release some of the residual elastic energy by bending where that soft component resides. This removes the necessity for buckling seeded at disclinations and allows the formation of shapes with symmetries other than icosahedral. We have recently shown23 that even without an imposed mixing penalty between the soft and hard components (i.e., a line tension), the components segregate and form a wide variety of optimal shapes very different from the commonly observed icosahedron. The gallery of shapes is particularly rich with an assortment of regular and irregular polyhedral shapes if the two components are chosen such that the FvK number of one component is above the critical γc while for the other component it is below. Here we extend our recent model and focus on the effects of the line tension on the shell shape. We note that recent studies24,25 proposed a compelling description of the shapes observed by optical microscopy of giant multicomponent liquid vesicles.26,27
+From Soup: 7 So far this discussion has implicitly assumed that the shell is homogeneous, i.e. , its elastic properties do not change with position. If this constraint is lifted and one introduces a soft, easily bent component, the shell can release some of the residual elastic energy by bending where that soft component resides. This removes the necessity for buckling seeded at disclinations and allows the formation of shapes with symmetries other than icosahedral. We have recently shown 23 that even without an imposed mixing penalty between the soft and hard components ( i.e. , a line tension), the components segregate and form a wide variety of optimal shapes very different from the commonly observed icosahedron. The gallery of shapes is particularly rich with an assortment of regular and irregular polyhedral shapes if the two components are chosen such that the FvK number of one component is above the critical γ c while for the other component it is below. Here we extend our recent model and focus on the effects of the line tension on the shell shape. We note that recent studies 24,25 proposed a compelling description of the shapes observed by optical microscopy of giant multicomponent liquid vesicles. 26,27
+ ###### 
+From cou.: 8 The paper is organized as follows. In Section 2 we briefly review the discrete elastic model for multicomponent shells and discuss details of the Monte Carlo simulations. In Section 3 we show galleries of shapes for different relative component fractions, ratios of the two bending rigidities, and line tension. We map a detailed phase diagram over a wide range of parameter values and discuss various relationships between elastic energy and line tension. Finally, in Section 4 we summarize the results and briefly discuss a number of open questions.
+From Soup: 8 The paper is organized as follows. In Section 2 we briefly review the discrete elastic model for multicomponent shells and discuss details of the Monte Carlo simulations. In Section 3 we show galleries of shapes for different relative component fractions, ratios of the two bending rigidities, and line tension. We map a detailed phase diagram over a wide range of parameter values and discuss various relationships between elastic energy and line tension. Finally, in Section 4 we summarize the results and briefly discuss a number of open questions.
+ ###### 
+From cou.: 9 We briefly review the continuum elastic theory for shells modified to include multiple elastic components and a line tension. The total energy is given as a sum of bending, stretching and line tension contributions, i.e., E = Eb + Es + Elt. The bending energy as introduced by Helfrich2 is given bywhere () is a position dependent bending rigidity, G() is a position-dependent Gaussian rigidity, is the mean curvature and is the Gaussian curvature with R1 and R2 being the principal radii of curvature, dS is the area element and H0 is the spontaneous curvature, which we set to zero for simplicity. The integral is calculated over the area of the entire surface. Note that = (s1, s2) is a three-dimensional position vector of a point on the surface parametrized in terms of the internal surface coordinates s1 and s2. The area element , with g being the determinant of the 2 × 2 metric tensor .28 We focus on a two component system with a binary distribution of bending and Gaussian rigidities, i.e., () = hard or () = soft and G() = Ghard or G() = Gsoft. In this case eqn (1) simplifies towhere the domains of integration Ds (Dh) correspond to regions occupied by the soft (hard) component. We note that the boundary between the two components is assumed to be smooth, but sufficiently narrow so as to not be distinguishable within the resolution of the discrete model discussed below. If the Gaussian rigidity G is position independent (i.e., Gsoft = Ghard ≡ G), then for closed surfaces with fixed topology (such that holes are not allowed to form) the Gauss-Bonnet theorem ensures that the integral is a constant, and thus the Gaussian curvature terms in eqn (2) do not influence the shape and can be dropped. However, for a multicomponent shell this is typically not the case, and G is different for each component. Thus, the expression for the bending energy depends on the (non-constant) integral of the Gaussian curvature. In Subsection 2.2 we discuss such a dependence for our model with two components.
+From Soup: 9 We briefly review the continuum elastic theory for shells modified to include multiple elastic components and a line tension. The total energy is given as a sum of bending, stretching and line tension contributions, i.e. , E = E b + E s + E lt . The bending energy as introduced by Helfrich 2 is given by where ( ) is a position dependent bending rigidity, G ( ) is a position-dependent Gaussian rigidity, is the mean curvature and is the Gaussian curvature with R 1 and R 2 being the principal radii of curvature, dS is the area element and H 0 is the spontaneous curvature, which we set to zero for simplicity. The integral is calculated over the area of the entire surface. Note that = ( s 1 , s 2 ) is a three-dimensional position vector of a point on the surface parametrized in terms of the internal surface coordinates s 1 and s 2 . The area element , with g being the determinant of the 2 × 2 metric tensor . 28 We focus on a two component system with a binary distribution of bending and Gaussian rigidities, i.e. , ( ) = hard or ( ) = soft and G ( ) = G hard or G ( ) = G soft . In this case eqn (1) simplifies to where the domains of integration D s ( D h ) correspond to regions occupied by the soft (hard) component. We note that the boundary between the two components is assumed to be smooth, but sufficiently narrow so as to not be distinguishable within the resolution of the discrete model discussed below. If the Gaussian rigidity G is position independent ( i.e. , G soft = G hard ≡ G ), then for closed surfaces with fixed topology (such that holes are not allowed to form) the Gauss-Bonnet theorem ensures that the integral is a constant, and thus the Gaussian curvature terms in eqn (2) do not influence the shape and can be dropped. However, for a multicomponent shell this is typically not the case, and G is different for each component. Thus, the expression for the bending energy depends on the (non-constant) integral of the Gaussian curvature. In Subsection 2.2 we discuss such a dependence for our model with two components.
+ ###### 
+From cou.: 10 The stretching energy is modeled using the linear theory of elasticity.18 It is a quadratic function of the strain tensor û with components , where () is the displacement vector which maps a point (s1, s2) to (s1, s2) + (s1, s2), i,j = s1, s2 and we have omitted terms quadratic in ui in the definition of uij. To the quadratic order, the general form of the stretching energy is
+From Soup: 10 The stretching energy is modeled using the linear theory of elasticity. 18 It is a quadratic function of the strain tensor û with components , where ( ) is the displacement vector which maps a point ( s 1 , s 2 ) to ( s 1 , s 2 ) + ( s 1 , s 2 ), i , j = s 1 , s 2 and we have omitted terms quadratic in u i in the definition of u ij . To the quadratic order, the general form of the stretching energy is
+ ###### 
+From cou.: 11 K
+From Soup: 11 K
+ ###### 
+From cou.: 12 ijkl
+From Soup: 12 ijkl
+ ###### 
+From cou.: 13 18
+From Soup: 13 18
+ ###### 
+From cou.: 14 μ
+From Soup: 14 μ
+ ###### 
+From cou.: 15 λ
+From Soup: 15 λ
+ ###### 
+From cou.: 16 û
+From Soup: 16 û
+ ###### 
+From cou.: 17 In addition to the bending and stretching energies we include a term that penalizes mixing between the components,
+From Soup: 17 In addition to the bending and stretching energies we include a term that penalizes mixing between the components,
+ ###### 
+From cou.: 18 ∂S
+From Soup: 18 ∂S
+ ###### 
+From cou.: 19 The optimal shell shape is obtained by minimizing the elastic energy functional. The Euler-Lagrange equations for this variational problem are a set of nonlinear partial differential equations,29 which cannot be solved analytically even for homogenous systems with simple geometries.18 Instead, we use a discrete model introduced by Seung and Nelson16 and find optimal shell shapes numerically by simulated annealing Monte Carlo simulations. The shell is represented as a triangular lattice constructed by a prescription introduced by Caspar and Klug to characterize spherical viruses.30 Such a lattice is specified by a pair of numbers, (p, q), which determines the total number of lattice sites N = 10T + 2, with the T-number defined by T = p2 + q2 + pq. As previously discussed, spherical topology requires at least 12 lattice sites to have the coordination number z = 5; all other lattice sites are six-coordinated. Those 12 pentavalent sites are located on the vertices of an inscribed icosahedron, consistent with the expected minimal energy configuration of 12 dislocations on a sphere.14 To get from one defect to another, one makes p steps along a row of nearest neighbors, turns 120°, and moves an additional q steps. It is worth noting that (p, 0) and (p, p) structures are nonchiral, while all lattices with p ≠ q are chiral. However, this fact does not seem to affect any of our results.
+From Soup: 19 The optimal shell shape is obtained by minimizing the elastic energy functional. The Euler-Lagrange equations for this variational problem are a set of nonlinear partial differential equations, 29 which cannot be solved analytically even for homogenous systems with simple geometries. 18 Instead, we use a discrete model introduced by Seung and Nelson 16 and find optimal shell shapes numerically by simulated annealing Monte Carlo simulations. The shell is represented as a triangular lattice constructed by a prescription introduced by Caspar and Klug to characterize spherical viruses. 30 Such a lattice is specified by a pair of numbers, ( p , q ), which determines the total number of lattice sites N = 10 T + 2, with the T -number defined by T = p 2 + q 2 + pq . As previously discussed, spherical topology requires at least 12 lattice sites to have the coordination number z = 5; all other lattice sites are six-coordinated. Those 12 pentavalent sites are located on the vertices of an inscribed icosahedron, consistent with the expected minimal energy configuration of 12 dislocations on a sphere. 14 To get from one defect to another, one makes p steps along a row of nearest neighbors, turns 120°, and moves an additional q steps. It is worth noting that ( p , 0) and ( p , p ) structures are nonchiral, while all lattices with p ≠ q are chiral. However, this fact does not seem to affect any of our results.
+ ###### 
+From cou.: 20 The elastic components in our two-component system are assigned to the lattice sites, which thus can be either hard or soft. We point out that similar models can be defined for components placed on lattice bonds23 or triangles.25
+From Soup: 20 The elastic components in our two-component system are assigned to the lattice sites, which thus can be either hard or soft . We point out that similar models can be defined for components placed on lattice bonds 23 or triangles. 25
+ ###### 
+From cou.: 21 Following ref. 16 we write the bending energy of the discrete lattice
+From Soup: 21 Following ref. 16 we write the bending energy of the discrete lattice
+ ###### 
+From cou.: 22 t
+From Soup: 22 t
+ ###### 
+From cou.: 23 i
+From Soup: 23 i
+ ###### 
+From cou.: 24 t
+From Soup: 24 t
+ ###### 
+From cou.: 25 j
+From Soup: 25 j
+ ###### 
+From cou.: 26 κ
+From Soup: 26 κ
+ ###### 
+From cou.: 27 ij
+From Soup: 27 ij
+ ###### 
+From cou.: 28 i
+From Soup: 28 i
+ ###### 
+From cou.: 29 j
+From Soup: 29 j
+ ###### 
+From cou.: 30 t
+From Soup: 30 t
+ ###### 
+From cou.: 31 i
+From Soup: 31 i
+ ###### 
+From cou.: 32 t
+From Soup: 32 t
+ ###### 
+From cou.: 33 j
+From Soup: 33 j
+ ###### 
+From cou.: 34 t
+From Soup: 34 t i
+ ###### 
+From cou.: 35 i
+From Soup: 35 t
+ ###### 
+From cou.: 36 t
+From Soup: 36 i
+ ###### 
+From cou.: 37 i
+From Soup: 37 ϕ
+ ###### 
+From cou.: 38 ϕ
+From Soup: 38 t i t j
+ ###### 
+From cou.: 39 t
+From Soup: 39 κ
+ ###### 
+From cou.: 40 i
+From Soup: 40 hard , hard
+ ###### 
+From cou.: 41 t
+From Soup: 41 κ
+ ###### 
+From cou.: 42 j
+From Soup: 42 hard
+ ###### 
+From cou.: 43 κ
+From Soup: 43 κ
+ ###### 
+From cou.: 44 hard
+From Soup: 44 soft , soft
+ ###### 
+From cou.: 45 hard
+From Soup: 45 κ
+ ###### 
+From cou.: 46 κ
+From Soup: 46 soft
+ ###### 
+From cou.: 47 hard
+From Soup: 47 κ
+ ###### 
+From cou.: 48 κ
+From Soup: 48 κ
+ ###### 
+From cou.: 49 soft
+From Soup: 49 hard
+ ###### 
+From cou.: 50 soft
+From Soup: 50 i
+ ###### 
+From cou.: 51 κ
+From Soup: 51 i
+ ###### 
+From cou.: 52 soft
+From Soup: 52 ε
+ ###### 
+From cou.: 53 κ
+From Soup: 53 ij
+ ###### 
+From cou.: 54 κ
+From Soup: 54 i
+ ###### 
+From cou.: 55 hard
+From Soup: 55 j
+ ###### 
+From cou.: 56 i
+From Soup: 56 a
+ ###### 
+From cou.: 57 i
+From Soup: 57 i
+ ###### 
+From cou.: 58 ε
+From Soup: 58 j
+ ###### 
+From cou.: 59 ij
+From Soup: 59 a
+ ###### 
+From cou.: 60 i
+From Soup: 60 ε
+ ###### 
+From cou.: 61 j
+From Soup: 61 ij
+ ###### 
+From cou.: 62 a
+From Soup: 62 ε
+ ###### 
+From cou.: 63 i
+From Soup: 63 ij
+ ###### 
+From cou.: 64 j
+From Soup: 64 −1
+ ###### 
+From cou.: 65 a
+From Soup: 65 ε
+ ###### 
+From cou.: 66 ε
+From Soup: 66 i
+ ###### 
+From cou.: 67 ij
+From Soup: 67 −1
+ ###### 
+From cou.: 68 ε
+From Soup: 68 ε
+ ###### 
+From cou.: 69 ij
+From Soup: 69 j
+ ###### 
+From cou.: 70 −1
+From Soup: 70 −1
+ ###### 
+From cou.: 71 ε
+From Soup: 71 κ
+ ###### 
+From cou.: 72 i
+From Soup: 72 ε
+ ###### 
+From cou.: 73 −1
+From Soup: 73 Y
+ ###### 
+From cou.: 74 ε
+From Soup: 74 eqn (6)
+ ###### 
+From cou.: 75 j
+From Soup: 75 (7)
+ ###### 
+From cou.: 76 −1
+From Soup: 76 31
+ ###### 
+From cou.: 77 κ
+From Soup: 77 16,32
+ ###### 
+From cou.: 78 ε
+From Soup: 78 κ
+ ###### 
+From cou.: 79 Y
+From Soup: 79 ε
+ ###### 
+From cou.: 80 31
+From Soup: 80 Y
+ ###### 
+From cou.: 81 16,32
+From Soup: 81 11,16,19,23,31,32
+ ###### 
+From cou.: 82 κ
+From Soup: 82 eqn (6)
+ ###### 
+From cou.: 83 ε
+From Soup: 83 G
+ ###### 
+From cou.: 84 Y
+From Soup: 84 κ
+ ###### 
+From cou.: 85 11,16,19,23,31,32
+From Soup: 85 9,10,23
+ ###### 
+From cou.: 86 G
+From Soup: 86 r
+ ###### 
+From cou.: 87 κ
+From Soup: 87 cκ
+ ###### 
+From cou.: 88 9,10,23
+From Soup: 88 r
+ ###### 
+From cou.: 89 r
+From Soup: 89 c
+ ###### 
+From cou.: 90 cκ
+From Soup: 90 eqn (6)
+ ###### 
+From cou.: 91 r
+From Soup: 91 D
+ ###### 
+From cou.: 92 c
+From Soup: 92 s
+ ###### 
+From cou.: 93 D
+From Soup: 93 D
+ ###### 
+From cou.: 94 s
+From Soup: 94 h
+ ###### 
+From cou.: 95 D
+From Soup: 95 k
+ ###### 
+From cou.: 96 h
+From Soup: 96 g
+ ###### 
+From cou.: 97 k
+From Soup: 97 ∂D
+ ###### 
+From cou.: 98 g
+From Soup: 98 D
+ ###### 
+From cou.: 99 ∂D
+From Soup: 99 χ
+ ###### 
+From cou.: 100 D
+From Soup: 100 eqn (8)
+ ###### 
+From cou.: 101 χ
+From Soup: 101 χ
+ ###### 
+From cou.: 102 χ
+From Soup: 102 D 1
+ ###### 
+From cou.: 103 D
+From Soup: 103 χ
+ ###### 
+From cou.: 104 χ
+From Soup: 104 D 2
+ ###### 
+From cou.: 105 D
+From Soup: 105 ∂D
+ ###### 
+From cou.: 106 ∂D
+From Soup: 106 s
+ ###### 
+From cou.: 107 s
+From Soup: 107 ∂D
+ ###### 
+From cou.: 108 ∂D
+From Soup: 108 h
+ ###### 
+From cou.: 109 h
+From Soup: 109 κ
+ ###### 
+From cou.: 110 κ
+From Soup: 110 hard
+ ###### 
+From cou.: 111 hard
+From Soup: 111 κ
+ ###### 
+From cou.: 112 κ
+From Soup: 112 soft
+ ###### 
+From cou.: 113 soft
+From Soup: 113 χ
+ ###### 
+From cou.: 114 χ
+From Soup: 114 D s
+ ###### 
+From cou.: 115 D
+From Soup: 115 χ
+ ###### 
+From cou.: 116 s
+From Soup: 116 D s
+ ###### 
+From cou.: 117 χ
+From Soup: 117 χ
+ ###### 
+From cou.: 118 D
+From Soup: 118 h
+ ###### 
+From cou.: 119 s
+From Soup: 119 h
+ ###### 
+From cou.: 120 χ
+From Soup: 120 h
+ ###### 
+From cou.: 121 h
+From Soup: 121 Eqn (5)
+ ###### 
+From cou.: 122 h
+From Soup: 122 α
+ ###### 
+From cou.: 123 h
+From Soup: 123 i , j
+ ###### 
+From cou.: 124 α
+From Soup: 124 hard
+ ###### 
+From cou.: 125 i
+From Soup: 125 soft
+ ###### 
+From cou.: 126 j
+From Soup: 126 i
+ ###### 
+From cou.: 127 hard
+From Soup: 127 j
+ ###### 
+From cou.: 128 soft
+From Soup: 128 eqn (5)
+ ###### 
+From cou.: 129 i
+From Soup: 129 i.e.
+ ###### 
+From cou.: 130 j
+From Soup: 130 33
+ ###### 
+From cou.: 131 i.e.
+From Soup: 131 In addition, we impose a constraint on the total volume of the shell with a harmonic energy, 34
+ ###### 
+From cou.: 132 33
+From Soup: 132 V
+ ###### 
+From cou.: 133 In addition, we impose a constraint on the total volume of the shell with a harmonic energy,34
+From Soup: 133 0
+ ###### 
+From cou.: 134 V
+From Soup: 134 λ
+ ###### 
+From cou.: 135 λ
+From Soup: 135 κ
+ ###### 
+From cou.: 136 κ
+From Soup: 136 hard
+ ###### 
+From cou.: 137 hard
+From Soup: 137 Our goal is to simultaneously optimize the shell shape as well as the positions and sizes of the component domains. Numerical minimization techniques are very powerful in finding optimal shapes of shells and are widely used to optimize homogenous systems. However, it is impossible to adapt such schemes to simultaneously find the optimal distribution of components. Thus, one would need to specify a guess for the initial positions of the two components and then optimize the shape only, which is difficult and impractical. Instead, we use the simulated annealing Monte Carlo method. Initially, the sites are assigned to have either type hard or soft at random to satisfy a desired component fraction f , defined as the number of the soft component sites divided by the total number of lattice sites. Then a series of simulated annealing Monte Carlo steps are performed to simultaneously optimize the shell shape and the domain size and distribution. A Monte Carlo move consists of two sequential steps: (i) A random displacement of a vertex is attempted, followed by (ii) an attempt of swapping types of a randomly chosen pair of lattice sites. In both steps, moves are accepted according to the Metropolis algorithm. The system is heated up to a high temperature and cooled down until an energy minimum is reached. Note that this is not the actual physical temperature, but a parameter that controls the level of stochasticity in the minimization procedure; it is referred to as the “temperature” for historic reasons. We compared exponential and linear cooling protocols and found that the linear cooling generally produced shapes with lower energies. With a Monte Carlo sweep defined as N attempted moves (where N is the number of lattice sites), each simulation consisted of five cooling and reheating cycles over a total of 10 6 Monte Carlo sweeps (2 × 10 5 sweeps per cooling cycle). For each run the lowest-energy configuration was recorded. A typical run took approximately 6 h on a single core of a quad-core Intel Xeon processor at 2.26 GHz.
+ ###### 
+From cou.: 138 Our goal is to simultaneously optimize the shell shape as well as the positions and sizes of the component domains. Numerical minimization techniques are very powerful in finding optimal shapes of shells and are widely used to optimize homogenous systems. However, it is impossible to adapt such schemes to simultaneously find the optimal distribution of components. Thus, one would need to specify a guess for the initial positions of the two components and then optimize the shape only, which is difficult and impractical. Instead, we use the simulated annealing Monte Carlo method. Initially, the sites are assigned to have either type hard or soft at random to satisfy a desired component fraction f, defined as the number of the soft component sites divided by the total number of lattice sites. Then a series of simulated annealing Monte Carlo steps are performed to simultaneously optimize the shell shape and the domain size and distribution. A Monte Carlo move consists of two sequential steps: (i) A random displacement of a vertex is attempted, followed by (ii) an attempt of swapping types of a randomly chosen pair of lattice sites. In both steps, moves are accepted according to the Metropolis algorithm. The system is heated up to a high temperature and cooled down until an energy minimum is reached. Note that this is not the actual physical temperature, but a parameter that controls the level of stochasticity in the minimization procedure; it is referred to as the “temperature” for historic reasons. We compared exponential and linear cooling protocols and found that the linear cooling generally produced shapes with lower energies. With a Monte Carlo sweep defined as N attempted moves (where N is the number of lattice sites), each simulation consisted of five cooling and reheating cycles over a total of 106 Monte Carlo sweeps (2 × 105 sweeps per cooling cycle). For each run the lowest-energy configuration was recorded. A typical run took approximately 6 h on a single core of a quad-core Intel Xeon processor at 2.26 GHz.
+From Soup: 138 All simulations were performed using a ( p , q ) = (12, 3) lattice with N = 1892 sites and an initial radius R ≈ 11.5 a . Unlike in ref. 9 where it was necessary to construct a projection that produced a uniform distribution of sites on a sphere, this is not the case here as all initial distortions quickly relax due to elastic forces. Therefore, it is sufficient to use a simple gnomonic projection when projecting the constructed lattice sites onto a sphere.
+ ###### 
+From cou.: 139 All simulations were performed using a (p, q) = (12, 3) lattice with N = 1892 sites and an initial radius R ≈ 11.5a. Unlike in ref. 9 where it was necessary to construct a projection that produced a uniform distribution of sites on a sphere, this is not the case here as all initial distortions quickly relax due to elastic forces. Therefore, it is sufficient to use a simple gnomonic projection when projecting the constructed lattice sites onto a sphere.
+From Soup: 139 We explore the shell shapes as a function of the fraction of the soft component f , ranging from 0.05 to 0.95; the relative strength of the bending rigidities κ soft / κ hard , ranging from 0.01 to 1.0; and the dimensionless line tension Γ/ κ hard between 2 × 10 −5 and 0.1. The bending rigidity of the hard component is kept fixed and chosen such that its FvK number is well below the buckling transition. The value of the bending rigidity of the soft component is varied across the transition. For simplicity, the spring constants of both components are kept constant and equal, ε hard = ε soft = 0.1 κ hard / a 2 .
+ ###### 
+From cou.: 140 We explore the shell shapes as a function of the fraction of the soft component f, ranging from 0.05 to 0.95; the relative strength of the bending rigidities κsoft/κhard, ranging from 0.01 to 1.0; and the dimensionless line tension Γ/κhard between 2 × 10−5 and 0.1. The bending rigidity of the hard component is kept fixed and chosen such that its FvK number is well below the buckling transition. The value of the bending rigidity of the soft component is varied across the transition. For simplicity, the spring constants of both components are kept constant and equal, εhard = εsoft = 0.1 κhard/a2.
+From Soup: 140 In Fig. 1 we show the phase diagram as a function of the relative bending rigidity κ soft / κ hard and the dimensionless line tension Γ/ κ hard for five different soft component fractions f . We observe four distinct shape and domain patterns. Snapshots of typical shell shapes are shown in Fig. 2(a)–(c) .
+ ###### 
+From cou.: 141 In Fig. 1 we show the phase diagram as a function of the relative bending rigidity κsoft/κhard and the dimensionless line tension Γ/κhard for five different soft component fractions f. We observe four distinct shape and domain patterns. Snapshots of typical shell shapes are shown in Fig. 2(a)–(c).
+From Soup: 141 For large line tension, or a relative bending rigidity close to one, we observe a full segregation. Two distinct domains are formed whose sizes depend on the fraction f . In this regime, the line tension dominates over the shell elasticity. The overall shell shape is determined by both components adjusting their shapes to accommodate the existence of two separate domains. For low f , the majority of the shell contains the hard component which prefers to be spherical. The soft component forms a cap that can either be smooth if its bending rigidity is large or can buckle at the disclination defects if its FvK number is above the buckling transition, which occurs below κ soft / κ hard ≲ 0.08. As the fraction f is increased, the soft domain grows and at f ≈ 0.4−0.6 we observe shells with unusual Janus-like shapes, with one side being a smooth curved spherical surface and the other being buckled. The level of roughness on the buckled side can be controlled by tuning the shell size or the relative bending rigidity. As the soft component fraction is increased above f ≳ 0.7 the hard component becomes the minority and forms a relatively flat, facet-like domain.
+ ###### 
+From cou.: 142 For large line tension, or a relative bending rigidity close to one, we observe a full segregation. Two distinct domains are formed whose sizes depend on the fraction f. In this regime, the line tension dominates over the shell elasticity. The overall shell shape is determined by both components adjusting their shapes to accommodate the existence of two separate domains. For low f, the majority of the shell contains the hard component which prefers to be spherical. The soft component forms a cap that can either be smooth if its bending rigidity is large or can buckle at the disclination defects if its FvK number is above the buckling transition, which occurs below κsoft/κhard ≲ 0.08. As the fraction f is increased, the soft domain grows and at f ≈ 0.4−0.6 we observe shells with unusual Janus-like shapes, with one side being a smooth curved spherical surface and the other being buckled. The level of roughness on the buckled side can be controlled by tuning the shell size or the relative bending rigidity. As the soft component fraction is increased above f ≳ 0.7 the hard component becomes the minority and forms a relatively flat, facet-like domain.
+From Soup: 142 At lower line tensions, where the elastic energy becomes comparable to the energy penalty for component mixing , a very rich set of shapes arise. Particularly interesting are shapes for soft component fractions f ≈ 0.1−0.5 at relative bending rigidity κ soft / κ hard ≲ 0.2 and low to moderate line tension (star symbols in Fig. 1 ). In this parameter region, we observe a large assortment of polyhedral shapes. The hard component forms well-defined domains that are nearly flat. These flat facets are separated by regions of the soft component that is highly bent. The total number of facets as well as the width and the curvature of the soft regions is sensitive to the actual values of the parameters. For very low f , the soft component forms thin lines on the spherical surface, with slight bulges occurring along those lines. As the fraction of the soft component is increased, facets start to form when f > 0.1 because then the soft component can tessellate the shell surface. At low values of f there are only a few rather large hard component facets while the soft component occupies very thin (one lattice site wide) edges. Even at very low relative bending rigidities κ soft / κ hard the hard faces are slightly bent, as required by the fixed volume and the limited amount of stretching allowed, i.e. , a fully flat facet would lead to a considerable amount of stretching to accommodate the increase of the total surface area required to encompass the given volume. If the line tension is kept fixed and the amount of the soft component is increased, at first one observes a proliferation of the number of facets. The soft component edges are still very thin, but there is more of them, separating a larger number of small hard component facets. This is to be expected, since a large number of small facets can easily reduce the curvature without too much stretching. In addition, the dihedral angles between neighboring facets on a polyhedron with a large number of small facets are smaller than the dihedral angles on polyhedra with a few large facets, further reducing the bending energy at the soft edges. The proliferation of the number of hard component facets eventually stops as the amount of contact between the two components reaches a value where the line tension becomes important. At that point the width of the soft component edges starts to grow. The onset of the edge coarsening depends on the actual value of the line tension. Thus, for low line tension and soft component fraction, the shell will be a polyhedron with hard component facets and sharp bends on very thin soft component edges. As Γ/ κ hard and f are increased, the soft component edges coarsen and lead to much smoother bends between the polyhedron facets.
+ ###### 
+From cou.: 143 At lower line tensions, where the elastic energy becomes comparable to the energy penalty for component mixing, a very rich set of shapes arise. Particularly interesting are shapes for soft component fractions f ≈ 0.1−0.5 at relative bending rigidity κsoft/κhard ≲ 0.2 and low to moderate line tension (star symbols in Fig. 1). In this parameter region, we observe a large assortment of polyhedral shapes. The hard component forms well-defined domains that are nearly flat. These flat facets are separated by regions of the soft component that is highly bent. The total number of facets as well as the width and the curvature of the soft regions is sensitive to the actual values of the parameters. For very low f, the soft component forms thin lines on the spherical surface, with slight bulges occurring along those lines. As the fraction of the soft component is increased, facets start to form when f > 0.1 because then the soft component can tessellate the shell surface. At low values of f there are only a few rather large hard component facets while the soft component occupies very thin (one lattice site wide) edges. Even at very low relative bending rigidities κsoft/κhard the hard faces are slightly bent, as required by the fixed volume and the limited amount of stretching allowed, i.e., a fully flat facet would lead to a considerable amount of stretching to accommodate the increase of the total surface area required to encompass the given volume. If the line tension is kept fixed and the amount of the soft component is increased, at first one observes a proliferation of the number of facets. The soft component edges are still very thin, but there is more of them, separating a larger number of small hard component facets. This is to be expected, since a large number of small facets can easily reduce the curvature without too much stretching. In addition, the dihedral angles between neighboring facets on a polyhedron with a large number of small facets are smaller than the dihedral angles on polyhedra with a few large facets, further reducing the bending energy at the soft edges. The proliferation of the number of hard component facets eventually stops as the amount of contact between the two components reaches a value where the line tension becomes important. At that point the width of the soft component edges starts to grow. The onset of the edge coarsening depends on the actual value of the line tension. Thus, for low line tension and soft component fraction, the shell will be a polyhedron with hard component facets and sharp bends on very thin soft component edges. As Γ/κhard and f are increased, the soft component edges coarsen and lead to much smoother bends between the polyhedron facets.
+From Soup: 143 It is important to note that the polyhedral shapes are irregular and very different from the icosahedral shape of the soft shell with 12 disclination defects. In our simulations, the connectivity of the shell lattice does not change and thus the polyhedral shapes still contain exactly 12 defects. However, it appears that the shape of the polyhedral shell is essentially not influenced by the presence of these defects, suggesting a qualitatively different buckling mechanism compared to the one discussed in ref. 16, 19 . Instead at the defects the buckling occurs at the soft component, lifting the requirement for the 12-fold icosahedral symmetry, but allowing for shells that are faceted, i.e. , irregular polyhedra.
+ ###### 
+From cou.: 144 It is important to note that the polyhedral shapes are irregular and very different from the icosahedral shape of the soft shell with 12 disclination defects. In our simulations, the connectivity of the shell lattice does not change and thus the polyhedral shapes still contain exactly 12 defects. However, it appears that the shape of the polyhedral shell is essentially not influenced by the presence of these defects, suggesting a qualitatively different buckling mechanism compared to the one discussed in ref. 16, 19. Instead at the defects the buckling occurs at the soft component, lifting the requirement for the 12-fold icosahedral symmetry, but allowing for shells that are faceted, i.e., irregular polyhedra.
+From Soup: 144 While the line tension and the soft-component fraction control the size of the domains, the relative bending rigidity κ soft / κ hard controls the amount of bending allowed at the soft component. For very low κ soft / κ hard values, it is energetically inexpensive to bend the soft component and the shell has a very pronounced polyhedral shape with very sharp edges and nearly flat facets. As κ soft is increased, the softness of the edges reduces and it becomes harder to bend them. Consequently, the shell gradually recovers the spherical shape. This transition is not sharp but rather very smooth. At κ soft / κ hard ≳ 0.2 the shell is essentially spherical. In this region (triangle symbols in Fig. 1 ), the size and shape of the domains is determined by the line tension. For very low Γ/ κ hard there is a large number of small domains. As the line tension is increased, the domains coarsen until the full segregation is reached.
+ ###### 
+From cou.: 145 While the line tension and the soft-component fraction control the size of the domains, the relative bending rigidity κsoft/κhard controls the amount of bending allowed at the soft component. For very low κsoft/κhard values, it is energetically inexpensive to bend the soft component and the shell has a very pronounced polyhedral shape with very sharp edges and nearly flat facets. As κsoft is increased, the softness of the edges reduces and it becomes harder to bend them. Consequently, the shell gradually recovers the spherical shape. This transition is not sharp but rather very smooth. At κsoft/κhard ≳ 0.2 the shell is essentially spherical. In this region (triangle symbols in Fig. 1), the size and shape of the domains is determined by the line tension. For very low Γ/κhard there is a large number of small domains. As the line tension is increased, the domains coarsen until the full segregation is reached.
+From Soup: 145 We note that the faceting into polyhedra requires the hard component to be the majority component. If the soft component is the majority component, facets will not form since that would require edges to contain the hard component. Bending at the hard-component edges would require a prohibitive amount of elastic energy. Instead, the hard component forms small platelets that are locally flat and embedded into the otherwise curved surrounding region occupied by the soft component. That is why we do not observe any polyhedral shapes for f ≳ 0.7 (two right-most panels in Fig. 1 ).
+ ###### 
+From cou.: 146 We note that the faceting into polyhedra requires the hard component to be the majority component. If the soft component is the majority component, facets will not form since that would require edges to contain the hard component. Bending at the hard-component edges would require a prohibitive amount of elastic energy. Instead, the hard component forms small platelets that are locally flat and embedded into the otherwise curved surrounding region occupied by the soft component. That is why we do not observe any polyhedral shapes for f ≳ 0.7 (two right-most panels in Fig. 1).
+From Soup: 146 Finally, for large concentrations of the soft component and very low relative bending rigidity, κ soft / κ hard ≲ 0.02, the hard component is so scarce that it forms small platelets on an essentially soft icosahedral shell. The origin of this icosahedral shape comes solely from the buckling of the disclinations as discussed in ref. 19 and is very different for the component-driven buckling discussed above. This narrow region is indicated with solid circles in Fig. 1 .
+ ###### 
+From cou.: 147 Finally, for large concentrations of the soft component and very low relative bending rigidity, κsoft/κhard ≲ 0.02, the hard component is so scarce that it forms small platelets on an essentially soft icosahedral shell. The origin of this icosahedral shape comes solely from the buckling of the disclinations as discussed in ref. 19 and is very different for the component-driven buckling discussed above. This narrow region is indicated with solid circles in Fig. 1.
+From Soup: 147 In Fig. 3 we take a cut parallel to the Γ/ κ hard − f plane and plot the phase diagram for a fixed relative bending rigidity, κ soft / κ hard = 0.03, for which the soft component is well above the buckling transition. Accompanying snapshots of the optimal shell shapes are shown in Fig. 4 . As expected, for a large line tension one observes full segregation and the shell is partly spherical and partly buckled at the disclination defects. For low to moderate line tension and soft component fraction f ≲ 0.7, we observe polyhedral shapes. The only exception is the region of very low fractions, f ≈ 0.05, where there is not enough soft component to surround a full facet and instead the soft component forms scar-like lines on the surface of the sphere. For a soft component fraction f ≳ 0.7, the polyhedra are not observed. The soft component is the majority component and it prefers to stay bent with hard component facets dispersed within it.
+ ###### 
+From cou.: 148 In Fig. 3 we take a cut parallel to the Γ/κhard − f plane and plot the phase diagram for a fixed relative bending rigidity, κsoft/κhard = 0.03, for which the soft component is well above the buckling transition. Accompanying snapshots of the optimal shell shapes are shown in Fig. 4. As expected, for a large line tension one observes full segregation and the shell is partly spherical and partly buckled at the disclination defects. For low to moderate line tension and soft component fraction f ≲ 0.7, we observe polyhedral shapes. The only exception is the region of very low fractions, f ≈ 0.05, where there is not enough soft component to surround a full facet and instead the soft component forms scar-like lines on the surface of the sphere. For a soft component fraction f ≳ 0.7, the polyhedra are not observed. The soft component is the majority component and it prefers to stay bent with hard component facets dispersed within it.
+From Soup: 148 While the transition from a polyhedron to a sphere as κ soft / κ hard increases is smooth, we expect an abrupt jump between a polyhedral shape and a fully segregated structure as a function of Γ/ κ hard . This is because the number of hard component faces has to be an integer, and one cannot continuously transition from four facets (the minimum for a polyhedron) to the single hard component domain observed in the fully segregated regime.
+ ###### 
+From cou.: 149 While the transition from a polyhedron to a sphere as κsoft/κhard increases is smooth, we expect an abrupt jump between a polyhedral shape and a fully segregated structure as a function of Γ/κhard. This is because the number of hard component faces has to be an integer, and one cannot continuously transition from four facets (the minimum for a polyhedron) to the single hard component domain observed in the fully segregated regime.
+From Soup: 149 In order to gain some insight into the interplay between elasticity and line tension, in Fig. 5 we plot the average relative size of a hard component domain as a function of the line tension Γ/ κ hard for a shell with the relative bending rigidity of κ soft / κ hard = 0.03. The average relative domain size is defined as the average number of lattice sites in the domain divided by the total number of hard component sites. Thus, a fully-segregated configuration has a relative domain size equal to one. For low line tension, the domains are small and their size only slightly increases with Γ/ κ hard . Once a critical value of Γ/ κ hard ≈ 0.08 is reached we observe a rapid coarsening of the domains and the components fully segregate. The onset of the domain coarsening appears to be insensitive to the fraction of the soft component, with the transition being somewhat smoother for a predominantly soft shell ( f = 0.9). In the inset of Fig. 5 we show the changes of the bending, stretching and line tension energies per lattice site as a function of the line tension for a shell with f = 0.5. Note that the changes in stretching and bending energies are always negative since we use the elastic energy of the initial spherical configuration with a random distribution of the components as our reference point, which is higher than the energy of the relaxed shell. This does not pose a problem as we always use the same reference configuration.
+ ###### 
+From cou.: 150 In order to gain some insight into the interplay between elasticity and line tension, in Fig. 5 we plot the average relative size of a hard component domain as a function of the line tension Γ/κhard for a shell with the relative bending rigidity of κsoft/κhard = 0.03. The average relative domain size is defined as the average number of lattice sites in the domain divided by the total number of hard component sites. Thus, a fully-segregated configuration has a relative domain size equal to one. For low line tension, the domains are small and their size only slightly increases with Γ/κhard. Once a critical value of Γ/κhard ≈ 0.08 is reached we observe a rapid coarsening of the domains and the components fully segregate. The onset of the domain coarsening appears to be insensitive to the fraction of the soft component, with the transition being somewhat smoother for a predominantly soft shell (f = 0.9). In the inset of Fig. 5 we show the changes of the bending, stretching and line tension energies per lattice site as a function of the line tension for a shell with f = 0.5. Note that the changes in stretching and bending energies are always negative since we use the elastic energy of the initial spherical configuration with a random distribution of the components as our reference point, which is higher than the energy of the relaxed shell. This does not pose a problem as we always use the same reference configuration.
+From Soup: 150 First, we note that the stretching energy does not considerably change, with only a slight increase at the segregation transition. On the other hand, line tension and bending energy are major players in the transition. Initially, for low values of the line tension, the bending energy remains essentially constant, while the line tension energy increases. In this regime, the shell shape is fully determined by elasticity and the line tension energy even increases compared to the random initial configuration. At the transition point the line tension energy rapidly drops at the expense of a sizable jump in the bending energy. The components completely segregate and form two separate domains. Elasticity no longer dominates the total energy and the shell shape is determined by line tension. The flip of the sign of the line tension energy change from Γ/ κ hard ≈ 0.1 results for our particular choice of the random initial configuration.
+ ###### 
+From cou.: 151 First, we note that the stretching energy does not considerably change, with only a slight increase at the segregation transition. On the other hand, line tension and bending energy are major players in the transition. Initially, for low values of the line tension, the bending energy remains essentially constant, while the line tension energy increases. In this regime, the shell shape is fully determined by elasticity and the line tension energy even increases compared to the random initial configuration. At the transition point the line tension energy rapidly drops at the expense of a sizable jump in the bending energy. The components completely segregate and form two separate domains. Elasticity no longer dominates the total energy and the shell shape is determined by line tension. The flip of the sign of the line tension energy change from Γ/κhard ≈ 0.1 results for our particular choice of the random initial configuration.
+From Soup: 151 We point out that despite its powerful ability to concomitantly optimize the shape and the domain distribution, the simulated annealing Monte Carlo minimization has drawbacks. Under a few general assumptions, it can be proven 37 that with a suitable cooling protocol over an infinite time the method will locate the global minimum. However, within practically feasible simulation times one often finds only a local minimum, especially if the energy barriers between the minima are large or a few local minima have similar energies. In our problem this is clearly the case for very low values of the line tension. For a shell with f = 0.5 and κ soft / κ hard = 1 it is trivial to show that the minimum energy configuration for arbitrary small line tension consists of two identical hemispheres, each fully occupied by a single component. Our simulations clearly do not find this configuration for very small line tension (see, e.g. , left bottom snapshot in Fig. 2(b) ). We attribute this to a very small difference in the line tension energies between different component configurations. As Γ/ κ hard is increased, we recover expected solutions (see, bottom row in Fig. 2(b) left to right).
+ ###### 
+From cou.: 152 We point out that despite its powerful ability to concomitantly optimize the shape and the domain distribution, the simulated annealing Monte Carlo minimization has drawbacks. Under a few general assumptions, it can be proven37 that with a suitable cooling protocol over an infinite time the method will locate the global minimum. However, within practically feasible simulation times one often finds only a local minimum, especially if the energy barriers between the minima are large or a few local minima have similar energies. In our problem this is clearly the case for very low values of the line tension. For a shell with f = 0.5 and κsoft/κhard = 1 it is trivial to show that the minimum energy configuration for arbitrary small line tension consists of two identical hemispheres, each fully occupied by a single component. Our simulations clearly do not find this configuration for very small line tension (see, e.g., left bottom snapshot in Fig. 2(b)). We attribute this to a very small difference in the line tension energies between different component configurations. As Γ/κhard is increased, we recover expected solutions (see, bottom row in Fig. 2(b) left to right).
+From Soup: 152 Despite its limitations, we believe that the simulated annealing accurately finds at least typical shell shapes if not truly optimal shapes, especially in regions far from the transition lines. In the vicinity of a transition, one would have to be more careful in determining the actual optimal shape. However, we do not have enough resolution in the parameter values to accurately pinpoint the exact positions of these transitions.
+ ###### 
+From cou.: 153 Despite its limitations, we believe that the simulated annealing accurately finds at least typical shell shapes if not truly optimal shapes, especially in regions far from the transition lines. In the vicinity of a transition, one would have to be more careful in determining the actual optimal shape. However, we do not have enough resolution in the parameter values to accurately pinpoint the exact positions of these transitions.
+From Soup: 153 We have used simulated annealing Monte Carlo simulations to determine optimal shapes and domain distributions of a two-component elastic shell over a wide range of inter-component line tensions, relative concentrations of the components, as well as relative bending rigidities. We found a rich gallery of shapes, including a number of polyhedral structures at moderate values of the line tension and the bending rigidity ratio. For large values of the line tension, we observed a complete segregation of the components into shells with two distinct sides, one predominantly spherical and the other buckled.
+ ###### 
+From cou.: 154 We have used simulated annealing Monte Carlo simulations to determine optimal shapes and domain distributions of a two-component elastic shell over a wide range of inter-component line tensions, relative concentrations of the components, as well as relative bending rigidities. We found a rich gallery of shapes, including a number of polyhedral structures at moderate values of the line tension and the bending rigidity ratio. For large values of the line tension, we observed a complete segregation of the components into shells with two distinct sides, one predominantly spherical and the other buckled.
+From Soup: 154 We argue that the observed faceting is driven by a mechanism very different from the one responsible for the buckling of a sphere into an icosahedron at the 12 disclination defects. 19 For moderate values of the line tension the minority soft component forms lines which act as edges of a polyhedron. The hard component segregates into facets that are flattened and the majority of the curvature is concentrated at the soft edges.
+ ###### 
+From cou.: 155 We argue that the observed faceting is driven by a mechanism very different from the one responsible for the buckling of a sphere into an icosahedron at the 12 disclination defects.19 For moderate values of the line tension the minority soft component forms lines which act as edges of a polyhedron. The hard component segregates into facets that are flattened and the majority of the curvature is concentrated at the soft edges.
+From Soup: 155 Interesting shapes are observed for very weak line tension, in particular for values significantly smaller than the line tension used in a recent study of the multicomponent liquid vesicles. 25 We believe this is due to the fact that even without the line tension, two elastic components on a shell naturally try to segregate, as we have recently reported. 23 Thus, even a very weak line tension is sufficient to drive the components to fully segregate.
+ ###### 
+From cou.: 156 Interesting shapes are observed for very weak line tension, in particular for values significantly smaller than the line tension used in a recent study of the multicomponent liquid vesicles.25 We believe this is due to the fact that even without the line tension, two elastic components on a shell naturally try to segregate, as we have recently reported.23 Thus, even a very weak line tension is sufficient to drive the components to fully segregate.
+From Soup: 156 Our analysis shows that it is in principle possible to combine two materials with different elastic properties to construct a wide variety of shell shapes with potential applications in medical imaging, drug delivery, or composite material design. In addition, results of this study provide a plausible explanation for the shapes of cell organelles such as carboxysomes 38 or shapes obtained via coassembly of cationic and anionic amphiphiles . 7,8 This study complements and considerably extends our recent analysis 23 of shapes of the two-component shells in the absence of line tension.
+ ###### 
+From cou.: 157 Our analysis shows that it is in principle possible to combine two materials with different elastic properties to construct a wide variety of shell shapes with potential applications in medical imaging, drug delivery, or composite material design. In addition, results of this study provide a plausible explanation for the shapes of cell organelles such as carboxysomes38 or shapes obtained viacoassembly of cationic and anionic amphiphiles.7,8 This study complements and considerably extends our recent analysis23 of shapes of the two-component shells in the absence of line tension.
+From Soup: 157 Our model assumes the presence of the 12 disclination defects originating from the construction of a crystal lattice on a sphere. However, our results suggest that the faceting into polyhedral shapes is not directly related to the defects, even thou their presence introduces strain to the shell. It would be interesting to investigate the extent to which the defect-induced strain influences the faceting. In addition, it would be useful to develop a simple analytical model that would provide some scaling arguments for the edge length and width as a function of the line tension and bending rigidity. Steps in this direction were recently made, 39,40 albeit for single component polyhedral shells, where a model based on the bending of ridges and vertices was used to compare elastic energies of various regular and irregular polyhedra.
+ ###### 
+From cou.: 158 Our model assumes the presence of the 12 disclination defects originating from the construction of a crystal lattice on a sphere. However, our results suggest that the faceting into polyhedral shapes is not directly related to the defects, even thou their presence introduces strain to the shell. It would be interesting to investigate the extent to which the defect-induced strain influences the faceting. In addition, it would be useful to develop a simple analytical model that would provide some scaling arguments for the edge length and width as a function of the line tension and bending rigidity. Steps in this direction were recently made,39,40 albeit for single component polyhedral shells, where a model based on the bending of ridges and vertices was used to compare elastic energies of various regular and irregular polyhedra.
+From Soup: 158 Finally, we note that our analysis focuses only on the thermodynamic aspects of the problem, i.e. , we determine optimal shell shapes without addressing the important problem of the kinetics of their formation. For example, in multicomponent liquid bilayers the segregation of different lipid species occurs through a lateral diffusion of lipid molecules. In the case of tethered multicomponent shells, diffusion is suppressed and the components either organize themselves during the vesicle assembly or elastic heterogeneities are introduced externally by adsorption 41 or by changing local charge conditions in the case of ionic amphiphiles . 8 Although very interesting, a full treatment of the kinetics of the formation of structures reported in this study would require knowledge of the specific details of a relevant experimental system and necessitate a more sophisticated analysis than used here.
+ ###### 
+From cou.: 159 Finally, we note that our analysis focuses only on the thermodynamic aspects of the problem, i.e., we determine optimal shell shapes without addressing the important problem of the kinetics of their formation. For example, in multicomponent liquid bilayers the segregation of different lipid species occurs through a lateral diffusion of lipid molecules. In the case of tethered multicomponent shells, diffusion is suppressed and the components either organize themselves during the vesicle assembly or elastic heterogeneities are introduced externally by adsorption41 or by changing local charge conditions in the case of ionic amphiphiles.8 Although very interesting, a full treatment of the kinetics of the formation of structures reported in this study would require knowledge of the specific details of a relevant experimental system and necessitate a more sophisticated analysis than used here.
+From Soup: 159 We would like to thank Vikram Jadhao for stimulating discussions and Chloe Funkhouser for a critical reading of the manuscript. All numerical simulations were performed at the Northwestern High Performance Computing Cluster - Quest. This works was supported by the US Department of Energy Award DEFG02-08ER46539 and the US Air Force Office of Research Award FA9550-10-1-0167.
+ ###### 
+From cou.: 160 We would like to thank Vikram Jadhao for stimulating discussions and Chloe Funkhouser for a critical reading of the manuscript. All numerical simulations were performed at the Northwestern High Performance Computing Cluster - Quest. This works was supported by the US Department of Energy Award DEFG02-08ER46539 and the US Air Force Office of Research Award FA9550-10-1-0167.
+From Soup: 160 B. Alberts, A. Johnson, J. Lewis, M. Raff, K. Roberts and P. Walter, Molecular Biology of the Cell , Garland Science, New York, 2002 Search PubMed .
+ ###### 
+From cou.: 161 B. Alberts, A. Johnson, J. Lewis, M. Raff, K. Roberts and P. Walter, Molecular Biology of the Cell, Garland Science, New York, 2002 Search PubMed .
+From Soup: 161 W. Helfrich, Zeitschrift Fur Naturforschung C-a Journal Of Biosciences , 1973, C28 , 693–703 Search PubMed .
+ ###### 
+From cou.: 162 W. Helfrich, Zeitschrift Fur Naturforschung C-a Journal Of Biosciences, 1973, C28, 693–703 Search PubMed .
+From Soup: 162 A. Elgsaeter, B. Stokke, A. Mikkelsen and D. Branton, Science , 1986, 234 , 1217–1223 CAS .
+ ###### 
+From cou.: 163 A. Elgsaeter, B. Stokke, A. Mikkelsen and D. Branton, Science, 1986, 234, 1217–1223 CAS .
+From Soup: 163 C. Schmidt, K. Svoboda, N. Lei, I. Petsche, L. Berman, C. Safinya and G. Grest, Science , 1993, 259 , 952–955 CAS .
+ ###### 
+From cou.: 164 C. Schmidt, K. Svoboda, N. Lei, I. Petsche, L. Berman, C. Safinya and G. Grest, Science, 1993, 259, 952–955 CAS .
+From Soup: 164 J. Fendler and P. Tundo, Acc. Chem. Res. , 1984, 17 , 3–8 CrossRef CAS .
+ ###### 
+From cou.: 165 J. Fendler and P. Tundo, Acc. Chem. Res., 1984, 17, 3–8 CrossRef CAS .
+From Soup: 165 M. A. Greenfield, L. C. Palmer, G. Vernizzi, M. Olvera de la Cruz and S. I. Stupp, J. Am. Chem. Soc. , 2009, 131 , 12030–12031 CrossRef CAS .
+ ###### 
+From cou.: 166 M. A. Greenfield, L. C. Palmer, G. Vernizzi, M. Olvera de la Cruz and S. I. Stupp, J. Am. Chem. Soc., 2009, 131, 12030–12031 CrossRef CAS .
+From Soup: 166 M. Dubois, B. Deme, T. Gulik-Krzywicki, J.-C. Dedieu, C. Vautrin, S. Desert, E. Perez and T. Zemb, Nature , 2001, 411 , 672–675 CrossRef CAS .
+ ###### 
+From cou.: 167 M. Dubois, B. Deme, T. Gulik-Krzywicki, J.-C. Dedieu, C. Vautrin, S. Desert, E. Perez and T. Zemb, Nature, 2001, 411, 672–675 CrossRef CAS .
+From Soup: 167 L. C. Palmer, C. Leung, R. Sknepnek, G. Vernizzi, M. A. Greenfield, S. I. Stupp, M. J. Bedzyk and M. Olvera de la Cruz, in preparation.
+ ###### 
+From cou.: 168 L. C. Palmer, C. Leung, R. Sknepnek, G. Vernizzi, M. A. Greenfield, S. I. Stupp, M. J. Bedzyk and M. Olvera de la Cruz, in preparation.
+From Soup: 168 G. Vernizzi and M. Olvera de la Cruz, Proc. Natl. Acad. Sci. U. S. A. , 2007, 104 , 18382–18386 CrossRef CAS .
+ ###### 
+From cou.: 169 G. Vernizzi and M. Olvera de la Cruz, Proc. Natl. Acad. Sci. U. S. A., 2007, 104, 18382–18386 CrossRef CAS .
+From Soup: 169 R. Sknepnek, G. Vernizzi and M. Olvera de la Cruz, Phys. Rev. Lett. , 2011, 106 , 215504 CrossRef .
+ ###### 
+From cou.: 170 R. Sknepnek, G. Vernizzi and M. Olvera de la Cruz, Phys. Rev. Lett., 2011, 106, 215504 CrossRef .
+From Soup: 170 D. R. Nelson and L. Peliti, J. Phys. , 1987, 48 , 1085–1092 CAS .
+ ###### 
+From cou.: 171 D. R. Nelson and L. Peliti, J. Phys., 1987, 48, 1085–1092 CAS .
+From Soup: 171 T. Frankel, The Geometry of Physics , Cambridge University Press, 2nd edn, 2004 Search PubMed .
+ ###### 
+From cou.: 172 T. Frankel, The Geometry of Physics, Cambridge University Press, 2nd edn, 2004 Search PubMed .
+From Soup: 172 S. Sachdev and D. R. Nelson, J. Phys. C: Solid State Phys. , 1984, 17 , 5473–5489 CrossRef .
+ ###### 
+From cou.: 173 S. Sachdev and D. R. Nelson, J. Phys. C: Solid State Phys., 1984, 17, 5473–5489 CrossRef .
+From Soup: 173 M. Bowick, D. Nelson and A. Travesset, Phys. Rev. B: Condens. Matter , 2000, 62 , 8738 CrossRef CAS .
+ ###### 
+From cou.: 174 M. Bowick, D. Nelson and A. Travesset, Phys. Rev. B: Condens. Matter, 2000, 62, 8738 CrossRef CAS .
+From Soup: 174 A. Bausch, M. Bowick, A. Cacciuto, A. Dinsmore, M. Hsu, D. Nelson, M. Nikolaides, A. Travesset and D. Weitz, Science , 2003, 299 , 1716–1718 CrossRef CAS .
+ ###### 
+From cou.: 175 A. Bausch, M. Bowick, A. Cacciuto, A. Dinsmore, M. Hsu, D. Nelson, M. Nikolaides, A. Travesset and D. Weitz, Science, 2003, 299, 1716–1718 CrossRef CAS .
+From Soup: 175 H. S. Seung and D. R. Nelson, Phys. Rev. A: At., Mol., Opt. Phys. , 1988, 38 , 1005–1018 CrossRef .
+ ###### 
+From cou.: 176 H. S. Seung and D. R. Nelson, Phys. Rev. A: At., Mol., Opt. Phys., 1988, 38, 1005–1018 CrossRef .
+From Soup: 176 C. Quilliet, C. Zoldesi, C. Riera, A. van Blaaderen and A. Imhof, Eur. Phys. J. E , 2008, 27 , 13–20 CrossRef CAS .
+ ###### 
+From cou.: 177 C. Quilliet, C. Zoldesi, C. Riera, A. van Blaaderen and A. Imhof, Eur. Phys. J. E, 2008, 27, 13–20 CrossRef CAS .
+From Soup: 177 L. Landau and E. Lifshitz, Theory of Elasticity , Butterworth-Heinemann, London, 3rd edn, 1995 Search PubMed .
+ ###### 
+From cou.: 178 L. Landau and E. Lifshitz, Theory of Elasticity, Butterworth-Heinemann, London, 3rd edn, 1995 Search PubMed .
+From Soup: 178 J. Lidmar, L. Mirny and D. R. Nelson, Phys. Rev. E: Stat. Phys., Plasmas, Fluids, Relat. Interdiscip. Top. , 2003, 68 , 051910 CrossRef .
+ ###### 
+From cou.: 179 J. Lidmar, L. Mirny and D. R. Nelson, Phys. Rev. E: Stat. Phys., Plasmas, Fluids, Relat. Interdiscip. Top., 2003, 68, 051910 CrossRef .
+From Soup: 179 A. Siber and R. Podgornik, Phys. Rev. E: Stat., Nonlinear, Soft Matter Phys. , 2009, 79 , 011919 CrossRef .
+ ###### 
+From cou.: 180 A. Siber and R. Podgornik, Phys. Rev. E: Stat., Nonlinear, Soft Matter Phys., 2009, 79, 011919 CrossRef .
+From Soup: 180 A. E. Lobkovsky, Phys. Rev. E: Stat. Phys., Plasmas, Fluids, Relat. Interdiscip. Top. , 1996, 53 , 3750–3759 CrossRef CAS .
+ ###### 
+From cou.: 181 A. E. Lobkovsky, Phys. Rev. E: Stat. Phys., Plasmas, Fluids, Relat. Interdiscip. Top., 1996, 53, 3750–3759 CrossRef CAS .
+From Soup: 181 T. A. Witten, Rev. Mod. Phys. , 2007, 79 , 643–675 CrossRef .
+ ###### 
+From cou.: 182 T. A. Witten, Rev. Mod. Phys., 2007, 79, 643–675 CrossRef .
+From Soup: 182 G. Vernizzi, R. Sknepnek and M. Olvera de la Cruz, Proc. Natl. Acad. Sci. U. S. A. , 2011, 108 , 4292–4296 CrossRef CAS .
+ ###### 
+From cou.: 183 G. Vernizzi, R. Sknepnek and M. Olvera de la Cruz, Proc. Natl. Acad. Sci. U. S. A., 2011, 108, 4292–4296 CrossRef CAS .
+From Soup: 183 E. Gutlederer, T. Gruhn and R. Lipowsky, Soft Matter , 2009, 5 , 3303–3311 RSC .
+ ###### 
+From cou.: 184 E. Gutlederer, T. Gruhn and R. Lipowsky, Soft Matter, 2009, 5, 3303–3311 RSC .
+From Soup: 184 J. Hu, T. Weikl and R. Lipowsky, Soft Matter , 2011, 7 , 6092–6102 RSC .
+ ###### 
+From cou.: 185 J. Hu, T. Weikl and R. Lipowsky, Soft Matter, 2011, 7, 6092–6102 RSC .
+From Soup: 185 T. Baumgart, S. T. Hess and W. W. Webb, Nature , 2003, 425 , 821–824 CrossRef CAS .
+ ###### 
+From cou.: 186 T. Baumgart, S. T. Hess and W. W. Webb, Nature, 2003, 425, 821–824 CrossRef CAS .
+From Soup: 186 K. Bacia, P. Schwille and T. Kurzchalia, Proc. Natl. Acad. Sci. U. S. A. , 2005, 102 , 3272–3277 CrossRef CAS .
+ ###### 
+From cou.: 187 K. Bacia, P. Schwille and T. Kurzchalia, Proc. Natl. Acad. Sci. U. S. A., 2005, 102, 3272–3277 CrossRef CAS .
+From Soup: 187 R. D. Kamien, Rev. Mod. Phys. , 2002, 74 , 953–971 CrossRef .
+ ###### 
+From cou.: 188 R. D. Kamien, Rev. Mod. Phys., 2002, 74, 953–971 CrossRef .
+From Soup: 188 B. Audoly and Y. Pomeau, Elasticity and Geometry - From Hair Curls to the Non-linear Response of Shells , Oxford University Press, Oxford, UK, 2010 Search PubMed .
+ ###### 
+From cou.: 189 B. Audoly and Y. Pomeau, Elasticity and Geometry - From Hair Curls to the Non-linear Response of Shells, Oxford University Press, Oxford, UK, 2010 Search PubMed .
+From Soup: 189 D. L. D. Caspar and A. Klug, Cold Spring Harbor Symposia on Quantitative Biology , 1962, 27 , 1–24 CAS .
+ ###### 
+From cou.: 190 D. L. D. Caspar and A. Klug, Cold Spring Harbor Symposia on Quantitative Biology, 1962, 27, 1–24 CAS .
+From Soup: 190 B. Schmidt and F. Fraternali, J. Mech. Phys. Solids , 2011 Search PubMed , in press.
+ ###### 
+From cou.: 191 B. Schmidt and F. Fraternali, J. Mech. Phys. Solids, 2011 Search PubMed , in press.
+From Soup: 191 G. Gompper and D. Kroll, J. Phys. I , 1996, 6 , 1305 CrossRef .
+ ###### 
+From cou.: 192 G. Gompper and D. Kroll, J. Phys. I, 1996, 6, 1305 CrossRef .
+From Soup: 192 T. Kohyama, D. Kroll and G. Gompper, Phys. Rev. E: Stat., Nonlinear, Soft Matter Phys. , 2003, 68 , 061905 CrossRef CAS .
+ ###### 
+From cou.: 193 T. Kohyama, D. Kroll and G. Gompper, Phys. Rev. E: Stat., Nonlinear, Soft Matter Phys., 2003, 68, 061905 CrossRef CAS .
+From Soup: 193 A. Siber, Phys. Rev. E: Stat., Nonlinear, Soft Matter Phys. , 2006, 73 , 061915 CrossRef .
+ ###### 
+From cou.: 194 A. Siber, Phys. Rev. E: Stat., Nonlinear, Soft Matter Phys., 2006, 73, 061915 CrossRef .
+From Soup: 194 W. Humphrey, A. Dalke and K. Schulten, J. Mol. Graphics , 1996, 14 , 33–38 CrossRef CAS .
+ ###### 
+From cou.: 195 W. Humphrey, A. Dalke and K. Schulten, J. Mol. Graphics, 1996, 14, 33–38 CrossRef CAS .
+From Soup: 195 J. Stone, M.Sc. thesis, Computer Science Department, University of Missouri-Rolla, 1998 .
+ ###### 
+From cou.: 196 J. Stone, M.Sc. thesis, Computer Science Department, University of Missouri-Rolla, 1998 .
+From Soup: 196 B. Hajek, Math. Oper. Res. , 1988, 2 , 311–329 CrossRef .
+ ###### 
+From cou.: 197 B. Hajek, Math. Oper. Res., 1988, 2, 311–329 CrossRef .
+From Soup: 197 C. V. Iancu, D. M. Morris, Z. Dou, S. Heinhorst, G. C. Cannon and G. J. Jensen, J. Mol. Biol. , 2010, 396 , 105–117 CrossRef CAS .
+ ###### 
+From cou.: 198 C. V. Iancu, D. M. Morris, Z. Dou, S. Heinhorst, G. C. Cannon and G. J. Jensen, J. Mol. Biol., 2010, 396, 105–117 CrossRef CAS .
+From Soup: 198 C. A. Haselwandter and R. Phillips, Phys. Rev. Lett. , 2010, 105 , 228101 CrossRef .
+ ###### 
+From cou.: 199 C. A. Haselwandter and R. Phillips, Phys. Rev. Lett., 2010, 105, 228101 CrossRef .
+From Soup: 199 C. A. Haselwandter and R. Phillips, Phys. Rev. E: Stat., Nonlinear, Soft Matter Phys. , 2011, 83 , 061901 CrossRef .
+ ###### 
+From cou.: 200 C. A. Haselwandter and R. Phillips, Phys. Rev. E: Stat., Nonlinear, Soft Matter Phys., 2011, 83, 061901 CrossRef .
+From Soup: 200 A. Saric and A. Cacciuto, Soft Matter , 2011, 7 , 1874–1878 RSC .
+ ###### 
+From cou.: 201 A. Saric and A. Cacciuto, Soft Matter, 2011, 7, 1874–1878 RSC .

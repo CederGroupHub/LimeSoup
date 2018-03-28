@@ -1,0 +1,311 @@
+From cou.: 0 Journal
+From Soup: 0 Phys. Chem. Chem. Phys.
+ ###### 
+From cou.: 1 In wavelet based electronic structure calculations, introducing a new, finer resolution level is usually an expensive task, this is why often a two-level approximation is used with very fine starting resolution level. This process results in large matrices to calculate with and a large number of coefficients to be stored. In our previous work we have developed an adaptively refined solution scheme that determines the indices, where the refined basis functions are to be included, and later a method for predicting the next, finer resolution coefficients in a very economic way. In the present contribution, we would like to determine whether the method can be applied for predicting not only the first, but also the other, higher resolution level coefficients. Also the energy expectation values of the predicted wave functions are studied, as well as the scaling behaviour of the coefficients in the fine resolution limit.
+From Soup: 1 In wavelet based electronic structure calculations, introducing a new, finer resolution level is usually an expensive task, this is why often a two-level approximation is used with very fine starting resolution level. This process results in large matrices to calculate with and a large number of coefficients to be stored. In our previous work we have developed an adaptively refined solution scheme that determines the indices, where the refined basis functions are to be included, and later a method for predicting the next, finer resolution coefficients in a very economic way. In the present contribution, we would like to determine whether the method can be applied for predicting not only the first, but also the other, higher resolution level coefficients. Also the energy expectation values of the predicted wave functions are studied, as well as the scaling behaviour of the coefficients in the fine resolution limit.
+ ###### 
+From cou.: 2 In data analysis, wavelets1 have a large share within the methods both in scientific and industrial research and applications. The theory of using wavelet basis functions offers two possible, different interpretations. The analytical aspect reduces the decomposition of a function, image or signal to more and more simple (more and more rough) building blocks as the analysis proceeds. On the other hand, the synthetic point of view starts from a rough resolution level of a function, and by adding refinements, it arrives at a sufficiently precise representation of the function that is studied.
+From Soup: 2 In data analysis, wavelets 1 have a large share within the methods both in scientific and industrial research and applications. The theory of using wavelet basis functions offers two possible, different interpretations. The analytical aspect reduces the decomposition of a function, image or signal to more and more simple (more and more rough) building blocks as the analysis proceeds. On the other hand, the synthetic point of view starts from a rough resolution level of a function, and by adding refinements, it arrives at a sufficiently precise representation of the function that is studied.
+ ###### 
+From cou.: 3 The most widespread use of wavelets is still in the image compression techniques,2,3 which mainly involve analyzers. Wavelets can build a basis for differential equation discretisation4 and solving,5–7 and the solvers have been developed and tested in various fields of science from diffusion to electromagnetic waves.8–11 In electronic structure calculations, wavelet basis has been present since the early nineties,12–15 and in the previous decade both a wavelet based13,14,16 and a multiwavelet based17–19 solver have been developed with chemical accuracy and massively parallel computational possibilities. These solvers mostly use two resolution levels, but adaptively refining solution schemes are also given for simpler systems.20–22
+From Soup: 3 The most widespread use of wavelets is still in the image compression techniques, 2,3 which mainly involve analyzers. Wavelets can build a basis for differential equation discretisation 4 and solving, 5–7 and the solvers have been developed and tested in various fields of science from diffusion to electromagnetic waves. 8–11 In electronic structure calculations, wavelet basis has been present since the early nineties, 12–15 and in the previous decade both a wavelet based 13,14,16 and a multiwavelet based 17–19 solver have been developed with chemical accuracy and massively parallel computational possibilities. These solvers mostly use two resolution levels, but adaptively refining solution schemes are also given for simpler systems. 20–22
+ ###### 
+From cou.: 4 As the wavelet basis set behaves as a set of building blocks that can be chosen uniformly, independently of the system itself, we have studied the coefficients of the electron–electron cusp in the two-electron density matrix,23 so that the electron–electron cusp could be added to a rougher resolution level solution as a last refinement step. In the following, a similar idea is presented, a prediction of the next level coefficients is suggested,24 moreover, the asymptotic behavior of the components of the predicted wavelet coefficients, the possibility of using the computationally cheap prediction for further refinements, and the predicted energy levels are studied based on the suggestions from ref. 25
+From Soup: 4 As the wavelet basis set behaves as a set of building blocks that can be chosen uniformly, independently of the system itself, we have studied the coefficients of the electron–electron cusp in the two-electron density matrix, 23 so that the electron–electron cusp could be added to a rougher resolution level solution as a last refinement step. In the following, a similar idea is presented, a prediction of the next level coefficients is suggested, 24 moreover, the asymptotic behavior of the components of the predicted wavelet coefficients, the possibility of using the computationally cheap prediction for further refinements, and the predicted energy levels are studied based on the suggestions from ref. 25
+ ###### 
+From cou.: 5 In order to introduce the notations we use in the article for the wavelets, we shortly summarize the idea behind wavelet analysis. In the discrete wavelet analysis, the Hilbert space of the problem to be solved is divided into resolution levels which are embedded in each other. The basis functions of each resolution level consist of shifted versions of one function on a regular grid, and the grid distance halves at each consecutive resolution level. Let us use the notation for the mth resolution level scaling functionwhere s(x) is the “mother scaling function” and k is the shift index. As the refinement levels are embedded into one another, any function that can be exactly expanded at resolution level m can also be exactly expanded at any finer resolution level m + n. In particular, the mother scaling function belonging to the resolution level m = 0 can be expanded by the scaling functions of level m = 1, i.e., there exists a refinement equation between the neighboring resolution level scaling functions,with . Wavelets are the basis functions of the detail space, which completes a rough resolution subspace to the next refined subspace of the Hilbert space. They are also shifted and shrunken versions of one common “mother wavelet” w(x), The mother wavelet, as it is an element of subspace m = 1, can also be expanded by scaling functions,with gi = (−1)ih1−i.
+From Soup: 5 In order to introduce the notations we use in the article for the wavelets, we shortly summarize the idea behind wavelet analysis. In the discrete wavelet analysis, the Hilbert space of the problem to be solved is divided into resolution levels which are embedded in each other. The basis functions of each resolution level consist of shifted versions of one function on a regular grid, and the grid distance halves at each consecutive resolution level. Let us use the notation for the m th resolution level scaling function where s ( x ) is the “mother scaling function” and k is the shift index. As the refinement levels are embedded into one another, any function that can be exactly expanded at resolution level m can also be exactly expanded at any finer resolution level m + n . In particular, the mother scaling function belonging to the resolution level m = 0 can be expanded by the scaling functions of level m = 1, i.e. , there exists a refinement equation between the neighboring resolution level scaling functions, with . Wavelets are the basis functions of the detail space, which completes a rough resolution subspace to the next refined subspace of the Hilbert space. They are also shifted and shrunken versions of one common “mother wavelet” w ( x ), The mother wavelet, as it is an element of subspace m = 1, can also be expanded by scaling functions, with g i = (−1) i h 1− i .
+ ###### 
+From cou.: 6 In order to simplify later usage of the basis functions, a general basis function with a composite index τ will be introduced.
+From Soup: 6 In order to simplify later usage of the basis functions, a general basis function with a composite index τ will be introduced.
+ ###### 
+From cou.: 7 A wave function can be expanded at a given resolution level M > 0 either as a linear combination of the scaling functions of the resolution levelor starting from a basic resolution level m = 0 In both of the above cases, Ωm denotes the set of non-zero expansion coefficients at resolution level m. For M = 0, only the scaling function terms remain, i.e., Using expansion (7) or (8), the Schrödinger equationcan be approximated at any resolution level M, resulting inwith the matrix elements Here, the notations of (5) were used with χ's being either the 0th resolution level scaling functions or wavelets of any resolution level m = 0, 1,…, M − 1.
+From Soup: 7 A wave function can be expanded at a given resolution level M > 0 either as a linear combination of the scaling functions of the resolution level or starting from a basic resolution level m = 0 In both of the above cases, Ω m denotes the set of non-zero expansion coefficients at resolution level m . For M = 0, only the scaling function terms remain, i.e. , Using expansion (7) or (8) , the Schrödinger equation can be approximated at any resolution level M , resulting in with the matrix elements Here, the notations of (5) were used with χ 's being either the 0th resolution level scaling functions or wavelets of any resolution level m = 0, 1,…, M − 1.
+ ###### 
+From cou.: 8 As we have mentioned previously, the point to use wavelets in solving differential equations is that most of the higher resolution level wavelet coefficients are close to zero, thus they can be omitted from the calculations. In ref. 24, we suggested a method for predicting which of the next refinement level coefficients are necessary to include in the refined calculation if the precision of the Mth resolution level is not sufficient, and telling whether the Mth resolution level is sufficiently precise by predicting the magnitude of the next resolution level wavelet coefficients. The method is shortly summarized in the following.
+From Soup: 8 As we have mentioned previously, the point to use wavelets in solving differential equations is that most of the higher resolution level wavelet coefficients are close to zero, thus they can be omitted from the calculations. In ref. 24, we suggested a method for predicting which of the next refinement level coefficients are necessary to include in the refined calculation if the precision of the M th resolution level is not sufficient, and telling whether the M th resolution level is sufficiently precise by predicting the magnitude of the next resolution level wavelet coefficients. The method is shortly summarized in the following.
+ ###### 
+From cou.: 9 Let us suppose that we have solved the Mth resolution level problem (10) and having determined both Ψ[M] and E[M] and the domains of the non-zero coefficients Ωm at each resolution level 0 ≤ m < M. As an approximation of the magnitude of the next level coefficients dM,k, we can optimize the energy by adding just one wavelet from the subspace M to the wave function. The new wave function
+From Soup: 9 Let us suppose that we have solved the M th resolution level problem (10) and having determined both Ψ [ M ] and E [ M ] and the domains of the non-zero coefficients Ω m at each resolution level 0 ≤ m < M . As an approximation of the magnitude of the next level coefficients d M , k , we can optimize the energy by adding just one wavelet from the subspace M to the wave function. The new wave function
+ ###### 
+From cou.: 10 α
+From Soup: 10 α
+ ###### 
+From cou.: 11 k
+From Soup: 11 k
+ ###### 
+From cou.: 12 d
+From Soup: 12 d
+ ###### 
+From cou.: 13 M
+From Soup: 13 M , k
+ ###### 
+From cou.: 14 k
+From Soup: 14 ref. 24
+ ###### 
+From cou.: 15 w
+From Soup: 15 w
+ ###### 
+From cou.: 16 M
+From Soup: 16 M , k
+ ###### 
+From cou.: 17 k
+From Soup: 17 Ĥ
+ ###### 
+From cou.: 18 Ĥ
+From Soup: 18 Ψ
+ ###### 
+From cou.: 19 Ψ
+From Soup: 19 [ M ]
+ ###### 
+From cou.: 20 [M]
+From Soup: 20 In the infinitely fine resolution limit, the values E [ M ] = 〈 Ψ [ M ] | Ĥ | Ψ [ M ] 〉, R M , k = 〈 w M , k | Ĥ | Ψ [ M ] 〉 and W M , k = 〈 w M , k | Ĥ | w M , k 〉 comprising the approximation α k and their scaling properties with the resolution level M can be calculated.
+ ###### 
+From cou.: 21 In the infinitely fine resolution limit, the values E[M] = 〈Ψ[M]|Ĥ|Ψ[M]〉, RM,k = 〈wM,k|Ĥ|Ψ[M]〉 and WM,k = 〈wM,k|Ĥ|wM,k〉 comprising the approximation αk and their scaling properties with the resolution level M can be calculated.
+From Soup: 21 The scaling properties of W M , k can be studied easily – it consists of the kinetic energy and the potential energy terms in one-electron systems. The generalization for multiple electrons can also be carried out. The scaling behaviour of the kinetic energy term
+ ###### 
+From cou.: 22 The scaling properties of WM,k can be studied easily – it consists of the kinetic energy and the potential energy terms in one-electron systems. The generalization for multiple electrons can also be carried out. The scaling behaviour of the kinetic energy term
+From Soup: 22 M
+ ###### 
+From cou.: 23 M
+From Soup: 23 y
+ ###### 
+From cou.: 24 y
+From Soup: 24 M
+ ###### 
+From cou.: 25 M
+From Soup: 25 x
+ ###### 
+From cou.: 26 x
+From Soup: 26 k
+ ###### 
+From cou.: 27 k
+From Soup: 27 (18)
+ ###### 
+From cou.: 28 y
+From Soup: 28 y
+ ###### 
+From cou.: 29 M
+From Soup: 29 M
+ ###### 
+From cou.: 30 x
+From Soup: 30 x
+ ###### 
+From cou.: 31 k
+From Soup: 31 k
+ ###### 
+From cou.: 32 M
+From Soup: 32 M
+ ###### 
+From cou.: 33 In order to test the applicability of the wave function prediction method, we have chosen two well-known one-dimensional models. The first model is the Harmonic oscillator with a well-behaved, smooth, quadratic potential for testing the behaviour of the method in those spatial domains, where in realistic cases the potential function is smooth. In molecular systems, such regions can be found between the nuclei in the bonding domains, as well as at the asymptotic tails. However, in realistic atomic systems, the external potential exhibits Coulombic singularities, resulting in a more detailed fine resolution level structure of the wave function at the singularities. In order to simulate this behaviour we have chosen a one-dimensional potential with derivative singularities and smooth parts as well. Correspondingly, the second model system was chosen as the well-known box potential with two (very high) sharp edges and a flat well in between. For these potentials, the calculation of the matrix elements can be reduced to solutions of very small sized (Ns × Ns) eigenvalue equations, according to ref. 11, 24 and 26.
+From Soup: 33 In order to test the applicability of the wave function prediction method, we have chosen two well-known one-dimensional models. The first model is the Harmonic oscillator with a well-behaved, smooth, quadratic potential for testing the behaviour of the method in those spatial domains, where in realistic cases the potential function is smooth. In molecular systems, such regions can be found between the nuclei in the bonding domains, as well as at the asymptotic tails. However, in realistic atomic systems, the external potential exhibits Coulombic singularities, resulting in a more detailed fine resolution level structure of the wave function at the singularities. In order to simulate this behaviour we have chosen a one-dimensional potential with derivative singularities and smooth parts as well. Correspondingly, the second model system was chosen as the well-known box potential with two (very high) sharp edges and a flat well in between. For these potentials, the calculation of the matrix elements can be reduced to solutions of very small sized ( N s × N s ) eigenvalue equations, according to ref. 11, 24 and 26 .
+ ###### 
+From cou.: 34 The values of WM,k (local energy contribution) can be seen in Fig. 1. In the first subplot we have applied a one dimensional harmonic oscillator model with ω = 1, in the second subplot is an electron in a box with 8 a.u. width, and wall height V0 = 104 a.u. The dominance of the kinetic energy term in the higher resolution levels is clearly visible on the plots.
+From Soup: 34 The values of W M , k (local energy contribution) can be seen in Fig. 1 . In the first subplot we have applied a one dimensional harmonic oscillator model with ω = 1, in the second subplot is an electron in a box with 8 a.u. width, and wall height V 0 = 10 4 a.u. The dominance of the kinetic energy term in the higher resolution levels is clearly visible on the plots.
+ ###### 
+From cou.: 35 Similar calculations can be carried out for determining the behavior of the values RM,k. If M is large enough, the value of Ĥ|Ψ[M]〉 in RM,k approximates E|Ψ[∞]〉 very well, as well as the energy E[M] approximates its infinitely fine resolution level limit, the exact energy E. Using these values, the limiting behavior of RM,k can be calculated as
+From Soup: 35 Similar calculations can be carried out for determining the behavior of the values R M , k . If M is large enough, the value of Ĥ | Ψ [ M ] 〉 in R M , k approximates E | Ψ [∞] 〉 very well, as well as the energy E [ M ] approximates its infinitely fine resolution level limit, the exact energy E . Using these values, the limiting behavior of R M , k can be calculated as
+ ###### 
+From cou.: 36 R
+From Soup: 36 R
+ ###### 
+From cou.: 37 M
+From Soup: 37 M , k
+ ###### 
+From cou.: 38 k
+From Soup: 38 Fig. 2
+ ###### 
+From cou.: 39 R
+From Soup: 39 R
+ ###### 
+From cou.: 40 M
+From Soup: 40 M , k
+ ###### 
+From cou.: 41 k
+From Soup: 41 R
+ ###### 
+From cou.: 42 R
+From Soup: 42 M , k
+ ###### 
+From cou.: 43 M
+From Soup: 43 M
+ ###### 
+From cou.: 44 k
+From Soup: 44 (24)
+ ###### 
+From cou.: 45 M
+From Soup: 45 21,22
+ ###### 
+From cou.: 46 21,22
+From Soup: 46 R
+ ###### 
+From cou.: 47 R
+From Soup: 47 M , k
+ ###### 
+From cou.: 48 M
+From Soup: 48 R
+ ###### 
+From cou.: 49 k
+From Soup: 49 M , k
+ ###### 
+From cou.: 50 R
+From Soup: 50 α
+ ###### 
+From cou.: 51 M
+From Soup: 51 k
+ ###### 
+From cou.: 52 k
+From Soup: 52 The scaling properties of λ can be easily derived from (21) and (24) ,
+ ###### 
+From cou.: 53 α
+From Soup: 53 λ
+ ###### 
+From cou.: 54 k
+From Soup: 54 i.e.
+ ###### 
+From cou.: 55 The scaling properties of λ can be easily derived from (21) and (24),
+From Soup: 55 R
+ ###### 
+From cou.: 56 λ
+From Soup: 56 M , k
+ ###### 
+From cou.: 57 i.e.
+From Soup: 57 M
+ ###### 
+From cou.: 58 R
+From Soup: 58 α
+ ###### 
+From cou.: 59 M
+From Soup: 59 k
+ ###### 
+From cou.: 60 k
+From Soup: 60 M
+ ###### 
+From cou.: 61 M
+From Soup: 61 M
+ ###### 
+From cou.: 62 α
+From Soup: 62 α
+ ###### 
+From cou.: 63 k
+From Soup: 63 k
+ ###### 
+From cou.: 64 M
+From Soup: 64 2
+ ###### 
+From cou.: 65 M
+From Soup: 65 M
+ ###### 
+From cou.: 66 α
+From Soup: 66 −6 M
+ ###### 
+From cou.: 67 k
+From Soup: 67 M
+ ###### 
+From cou.: 68 2
+From Soup: 68 Due to the improved precision of the wave functions, the energy expectation values can also be more precise. The exact energies of the i th excited states of the previously studied potentials (harmonic oscillator and the electron in a box) can be compared to the eigenenergies E [ M ] of the Hamiltonian expanded up to the M th resolution level and to the expectation values E M pred calculated using the M th level predicted wave functions, where the predictions are deduced from the ( M − 1) level approximation. The energy level corrections resulting from the predicted wave functions are given in Table 1 for the harmonic oscillator and in Table 2 for the box potential. The calculations were carried out on one-dimensional models using Daubechies wavelets of support length 8 and 6, respectively. It can be seen that the predicted energy mostly overcompensates the error of the energy arising from the solution of the previous resolution level eigenvalue equation in the case of the harmonic oscillator, whereas in the case of the box potential it gives very good results and always stays between the energy it is predicting from and the energy it is predicting for.
+ ###### 
+From cou.: 69 M
+From Soup: 69 Fig. 3 shows the energy difference as a function of the norm-square difference of the solutions of the eigenvalue equations at various resolution levels and the predictions arising from these solutions for the next resolution levels. The expected linear function with slope 1 almost fits the curves. In Fig. 4 , the errors of energies E [ M ] and E M +1 pred are plotted against resolution levels M = 2,…,6, which shows a clear improvement of the predicted energies compared to the eigenvalues of the previous resolution levels. If the energy differences versus the wave function norm differences are plotted on a logarithmic scale, we count on decreasing the energy errors approximately linearly as a function of the norm-square differences, i.e. , a power law behavior is expected.
+ ###### 
+From cou.: 70 −6M
+From Soup: 70 We have demonstrated, 24 that a computationally economic calculation can predict the wave functions' next resolution level coefficients, but using these coefficients as a basis of another refinement could result in an even more economic calculation scheme. Let us suppose that we have an eigenvector of the M th resolution level problem Ψ [ M ] , and the predicted wavelet coefficients α k for the next resolution level, i.e. , we have a predicted wave function, Similarly to the first prediction, a secondary predicted wave function can be introduced by using one wavelet of the next resolution level, and a new energy expression can be derived Applying the variation principle, the resulting coefficients, similarly to (15) , are Here, the shorthand notation covers a bit more complicated meaning As it can be seen from the previous two sections, the energy level E M +1 pred differs not too much from the previous energy E [ M ] , moreover, after a given, but not too large resolution level, the complete term E M +1 pred is negligible compared to the other component of the denominator in μ . Using the same model systems as previously, in Fig. 5 and 6 we have plotted the exact M th resolution level expansion coefficients d exact M , k , the eigenvectors of the M th level Hamiltonian d eig M , k , the first predicted coefficients α k , arising from the ( M − 1) level solution, and the secondary predicted coefficient β k , which is derived from the ( M − 2) level eigenvector solution, and from its prediction to the M − 1 level, i.e. , from Ψ M −1 pred . Note that the coefficients of level m < M also differ for various “solutions” of level M , however, they are not plotted due to only slightly visible differences.
+ ###### 
+From cou.: 71 M
+From Soup: 71 The figure shows that the secondary predicted coefficients have a slight oscillation around a rather good prediction for the exact values of the coefficients. This oscillatory behaviour can be reduced by averaging of the neighbouring coefficients (see the thin red line on the figures), however, at the derivative singularities the averaging worsens the results, thus this aspect needs further investigation. Also, the energy expectation values using these doubly predicted wave functions are not expected to give reasonably good results – the second prediction is to be used for an approximation of the error in the calculations with the first prediction. Further predictions seem to have worse results.
+ ###### 
+From cou.: 72 Due to the improved precision of the wave functions, the energy expectation values can also be more precise. The exact energies of the ith excited states of the previously studied potentials (harmonic oscillator and the electron in a box) can be compared to the eigenenergies E[M] of the Hamiltonian expanded up to the Mth resolution level and to the expectation values EMpred calculated using the Mth level predicted wave functions, where the predictions are deduced from the (M − 1) level approximation. The energy level corrections resulting from the predicted wave functions are given in Table 1 for the harmonic oscillator and in Table 2 for the box potential. The calculations were carried out on one-dimensional models using Daubechies wavelets of support length 8 and 6, respectively. It can be seen that the predicted energy mostly overcompensates the error of the energy arising from the solution of the previous resolution level eigenvalue equation in the case of the harmonic oscillator, whereas in the case of the box potential it gives very good results and always stays between the energy it is predicting from and the energy it is predicting for.
+From Soup: 72 We have presented a prediction method for the magnitude of the next resolution level coefficients of a wavelet based electronic structure calculation, if an eigenvalue calculation of the discretised Hamiltonian at resolution level M is already carried out. We have given the scaling behaviour of the predicted coefficients, which was 2 −6 M , and the total omitted weight, if the calculation is stopped at resolution level M .
+ ###### 
+From cou.: 73 Fig. 3 shows the energy difference as a function of the norm-square difference of the solutions of the eigenvalue equations at various resolution levels and the predictions arising from these solutions for the next resolution levels. The expected linear function with slope 1 almost fits the curves. In Fig. 4, the errors of energies E[M] and EM+1pred are plotted against resolution levels M = 2,…,6, which shows a clear improvement of the predicted energies compared to the eigenvalues of the previous resolution levels. If the energy differences versus the wave function norm differences are plotted on a logarithmic scale, we count on decreasing the energy errors approximately linearly as a function of the norm-square differences, i.e., a power law behavior is expected.
+From Soup: 73 We have demonstrated that the energy expectation values for the predicted wave functions give better results than the original energies, however, an overcompensation of the errors often occurs.
+ ###### 
+From cou.: 74 We have demonstrated,24 that a computationally economic calculation can predict the wave functions' next resolution level coefficients, but using these coefficients as a basis of another refinement could result in an even more economic calculation scheme. Let us suppose that we have an eigenvector of the Mth resolution level problem Ψ[M], and the predicted wavelet coefficients αk for the next resolution level, i.e., we have a predicted wave function, Similarly to the first prediction, a secondary predicted wave function can be introduced by using one wavelet of the next resolution level,and a new energy expression can be derived Applying the variation principle, the resulting coefficients, similarly to (15), are Here, the shorthand notation covers a bit more complicated meaning As it can be seen from the previous two sections, the energy level EM+1pred differs not too much from the previous energy E[M], moreover, after a given, but not too large resolution level, the complete term EM+1pred is negligible compared to the other component of the denominator in μ. Using the same model systems as previously, in Fig. 5 and 6 we have plotted the exact Mth resolution level expansion coefficients dexactM,k, the eigenvectors of the Mth level Hamiltonian deigM,k, the first predicted coefficients αk, arising from the (M − 1) level solution, and the secondary predicted coefficient βk, which is derived from the (M − 2) level eigenvector solution, and from its prediction to the M − 1 level, i.e., from ΨM−1pred. Note that the coefficients of level m < M also differ for various “solutions” of level M, however, they are not plotted due to only slightly visible differences.
+From Soup: 74 We have also studied the secondary predicted coefficients that give on average a fair approximation of the real wavelet expansion coefficients, even though an oscillation around the ideal value and a slight overestimation can also be experienced in our model systems.
+ ###### 
+From cou.: 75 The figure shows that the secondary predicted coefficients have a slight oscillation around a rather good prediction for the exact values of the coefficients. This oscillatory behaviour can be reduced by averaging of the neighbouring coefficients (see the thin red line on the figures), however, at the derivative singularities the averaging worsens the results, thus this aspect needs further investigation. Also, the energy expectation values using these doubly predicted wave functions are not expected to give reasonably good results – the second prediction is to be used for an approximation of the error in the calculations with the first prediction. Further predictions seem to have worse results.
+From Soup: 75 I. Daubechies, Ten Lectures on Wavelets , CBMS-NSF regional conference series in applied mathematics 61, SIAM, Philadelphia, 1992.
+ ###### 
+From cou.: 76 We have presented a prediction method for the magnitude of the next resolution level coefficients of a wavelet based electronic structure calculation, if an eigenvalue calculation of the discretised Hamiltonian at resolution level M is already carried out. We have given the scaling behaviour of the predicted coefficients, which was 2−6M, and the total omitted weight, if the calculation is stopped at resolution level M.
+From Soup: 76 Ch. Christopoulos, A. Skodras and T. Ebrahimi, IEEE Trans. Broadcast Telev. Receivers , 2000, 46 , 1103–1127 Search PubMed .
+ ###### 
+From cou.: 77 We have demonstrated that the energy expectation values for the predicted wave functions give better results than the original energies, however, an overcompensation of the errors often occurs.
+From Soup: 77 A. Kiely and M. Klimesh, IPN Progress Report 42-155, November 15, 2003. http://ipnpr.jpl.nasa.gov/tmo/progress report/42-155/155J.pdf.
+ ###### 
+From cou.: 78 We have also studied the secondary predicted coefficients that give on average a fair approximation of the real wavelet expansion coefficients, even though an oscillation around the ideal value and a slight overestimation can also be experienced in our model systems.
+From Soup: 78 B. G. Galerkin, Vestn. Inzh. Tekh. , 1915, 1 , 897 Search PubMed .
+ ###### 
+From cou.: 79 I. Daubechies, Ten Lectures on Wavelets, CBMS-NSF regional conference series in applied mathematics 61, SIAM, Philadelphia, 1992.
+From Soup: 79 K. Urban, Wavelet Methods for Elliptic Partial Differential Equations , Oxford University Press, Oxford, 2009 Search PubMed .
+ ###### 
+From cou.: 80 Ch. Christopoulos, A. Skodras and T. Ebrahimi, IEEE Trans. Broadcast Telev. Receivers, 2000, 46, 1103–1127 Search PubMed .
+From Soup: 80 W. Dahmen, Acta Numerica , 1997, 6 , 55 CrossRef .
+ ###### 
+From cou.: 81 A. Kiely and M. Klimesh, IPN Progress Report 42-155, November 15, 2003. http://ipnpr.jpl.nasa.gov/tmo/progress report/42-155/155J.pdf.
+From Soup: 81 W. Dahmen, J. Comput. Appl. Math. , 2001, 128 , 123 CrossRef .
+ ###### 
+From cou.: 82 B. G. Galerkin, Vestn. Inzh. Tekh., 1915, 1, 897 Search PubMed .
+From Soup: 82 H. Nasif, R. Omori, A. Suzuki, M. Naguib and M. Nagy, J. Nucl. Sci. Technol. , 2001, 38 , 161–173, DOI: 10.1080/18811248.2001.9715018 .
+ ###### 
+From cou.: 83 K. Urban, Wavelet Methods for Elliptic Partial Differential Equations, Oxford University Press, Oxford, 2009 Search PubMed .
+From Soup: 83 Sh. Yang, G. Ni, S. L. Ho, J. M. Machado, M. A. Rahman and H. C. Wong, IEEE Trans. Magn. , 2000, 36 , 644 CrossRef .
+ ###### 
+From cou.: 84 W. Dahmen, Acta Numerica, 1997, 6, 55 CrossRef .
+From Soup: 84 Y. Rickard, Appl. Numer. Math. , 2008, 58 , 472 CrossRef PubMed .
+ ###### 
+From cou.: 85 W. Dahmen, J. Comput. Appl. Math., 2001, 128, 123 CrossRef .
+From Soup: 85 Sz. Nagy, Acta Technica Jaurinensis , 2015, 8 , 47–62 CrossRef .
+ ###### 
+From cou.: 86 H. Nasif, R. Omori, A. Suzuki, M. Naguib and M. Nagy, J. Nucl. Sci. Technol., 2001, 38, 161–173, DOI:10.1080/18811248.2001.9715018 .
+From Soup: 86 K. Cho, T. A. Arias, J. D. Joannopoulos and P. K. Lam, Phys. Rev. Lett. , 1992, 71 , 1808–1811 CrossRef .
+ ###### 
+From cou.: 87 Sh. Yang, G. Ni, S. L. Ho, J. M. Machado, M. A. Rahman and H. C. Wong, IEEE Trans. Magn., 2000, 36, 644 CrossRef .
+From Soup: 87 S. Goedecker and O. Ivanov, Solid State Commun. , 1998, 105 , 665–669 CrossRef CAS .
+ ###### 
+From cou.: 88 Y. Rickard, Appl. Numer. Math., 2008, 58, 472 CrossRef PubMed .
+From Soup: 88 S. Goedecker, Rev. Mod. Phys. , 1999, 71 , 1085 CrossRef CAS .
+ ###### 
+From cou.: 89 Sz. Nagy, Acta Technica Jaurinensis, 2015, 8, 47–62 CrossRef .
+From Soup: 89 R. J. Harrison, G. I. Fann, T. Yanai, Zh. Gan and G. Beylkin, J. Chem. Phys. , 2004, 121 , 11587 CrossRef CAS PubMed .
+ ###### 
+From cou.: 90 K. Cho, T. A. Arias, J. D. Joannopoulos and P. K. Lam, Phys. Rev. Lett., 1992, 71, 1808–1811 CrossRef .
+From Soup: 90 L. Genovese, A. Neelov, S. Goedecker, T. Deutsch, S. A. Ghasemi, A. Willand, D. Caliste, O. Zilberberg, M. Rayson, A. Bergman and R. Schneider, J. Chem. Phys. , 2008, 129 , 014109 CrossRef PubMed .
+ ###### 
+From cou.: 91 S. Goedecker and O. Ivanov, Solid State Commun., 1998, 105, 665–669 CrossRef CAS .
+From Soup: 91 S. R. Jensen, J. Jusélius, A. Durdek, T. Flå, P. Wind and L. Frediani, Int. J. Model. Simul. Sci. Comput. , 2014, 05 , 1441003 CrossRef .
+ ###### 
+From cou.: 92 S. Goedecker, Rev. Mod. Phys., 1999, 71, 1085 CrossRef CAS .
+From Soup: 92 A. P. R. Durdek, S. R. Jensen, J. Juselius, P. Wind, T. Flå and L. Frediani, Appl. Numer. Math. , 2014, 92 , 40–53 CrossRef PubMed .
+ ###### 
+From cou.: 93 R. J. Harrison, G. I. Fann, T. Yanai, Zh. Gan and G. Beylkin, J. Chem. Phys., 2004, 121, 11587 CrossRef CAS PubMed .
+From Soup: 93 L. Frediani, E. Fossgaard, T. Flå and K. Ruud, Molecular Physics , 2013, 111 , 1143–1160 CrossRef CAS PubMed .
+ ###### 
+From cou.: 94 L. Genovese, A. Neelov, S. Goedecker, T. Deutsch, S. A. Ghasemi, A. Willand, D. Caliste, O. Zilberberg, M. Rayson, A. Bergman and R. Schneider, J. Chem. Phys., 2008, 129, 014109 CrossRef PubMed .
+From Soup: 94 H.-J. Flad, W. Hackbusch, H. Luo and D. Kolb, in Analysis, Modeling and Simulation of Multiscale Problems , ed. Alexander Mielke, Springer, Berlin-Heidelberg, 2006, pp. 299–330, ISBN: 978-3-540-35656-1 Search PubMed .
+ ###### 
+From cou.: 95 S. R. Jensen, J. Jusélius, A. Durdek, T. Flå, P. Wind and L. Frediani, Int. J. Model. Simul. Sci. Comput., 2014, 05, 1441003 CrossRef .
+From Soup: 95 J. Pipek and Sz. Nagy, J. Chem. Phys. , 2006, 125 , 174107 CrossRef PubMed .
+ ###### 
+From cou.: 96 A. P. R. Durdek, S. R. Jensen, J. Juselius, P. Wind, T. Flå and L. Frediani, Appl. Numer. Math., 2014, 92, 40–53 CrossRef PubMed .
+From Soup: 96 Sz. Nagy and J. Pipek, Theor. Chem. Acc. , 2010, 125 , 471–479 CrossRef CAS .
+ ###### 
+From cou.: 97 L. Frediani, E. Fossgaard, T. Flå and K. Ruud, Molecular Physics, 2013, 111, 1143–1160 CrossRef CAS PubMed .
+From Soup: 97 J. Pipek and Sz. Nagy, Phys. Rev. A: At., Mol., Opt. Phys. , 2001, 64 , 052506 CrossRef .
+ ###### 
+From cou.: 98 H.-J. Flad, W. Hackbusch, H. Luo and D. Kolb, in Analysis, Modeling and Simulation of Multiscale Problems, ed. Alexander Mielke, Springer, Berlin-Heidelberg, 2006, pp. 299–330, ISBN: 978-3-540-35656-1 Search PubMed .
+From Soup: 98 J. Pipek and Sz. Nagy, J. Comput. Chem. , 2013, 34 , 460–465 CrossRef CAS PubMed .
+ ###### 
+From cou.: 99 J. Pipek and Sz. Nagy, J. Chem. Phys., 2006, 125, 174107 CrossRef PubMed .
+From Soup: 99 T. Deutsch, et al. , NMQC–Numerical Methods in Quantum Chemistry , Tromso–Kirkenes, Norway, 2015, pp. 11–15 Search PubMed .
+ ###### 
+From cou.: 100 Sz. Nagy and J. Pipek, Theor. Chem. Acc., 2010, 125, 471–479 CrossRef CAS .
+From Soup: 100 W. Dahmen and C. A. Micchelli, SIAM J. Numer. Anal. , 1993, 30 , 507 CrossRef .
+ ###### 
+From cou.: 101 J. Pipek and Sz. Nagy, Phys. Rev. A: At., Mol., Opt. Phys., 2001, 64, 052506 CrossRef .
+From Soup: 101 results in a new energy Using the Ritz variation principle for the ground state results in The solution is where the shorthand notation was introduced. This value of predicts the real value of the wavelet coefficients not only for the ground states, but also for the excited states as it was proven in . It can also be seen that the values of alpha are approximately if 〈 | | 〉 is near zero.
+ ###### 
+From cou.: 102 J. Pipek and Sz. Nagy, J. Comput. Chem., 2013, 34, 460–465 CrossRef CAS PubMed .
+From Soup: 102 with the resolution level can be calculated by using the definition and applying the variable transformation = 2 − , which results in In the case of the potential energy term, the substitution and changing of the integration variable to = 2 − result in if is large. A Taylor series expansion of the wave function around 0 results in Note that the first moment of the wavelet, , appears in the expression, as well as in the exact energy and the derivative of the exact wave function at 0. The values of can be seen in . The excited states as well as other basis sets result in very similar tendencies in . The value of oscillates a lot, but the overall scaling, especially for larger s, meets the description in . As we have found previously, the indices where is large are the positions where a further refinement might be necessary, moreover, for most of the indices, behaves very similarly to . For large values of , , when ≈ 0, the predicted coefficients are approximately , and the number of these th level coefficients is 2 times the interval length, thus the total weight 2 of the th resolution level is less than 2 . If all the resolution levels above are omitted from the calculations, the total weight that is lost is less than
+ ###### 
+From cou.: 103 T. Deutsch, et al., NMQC–Numerical Methods in Quantum Chemistry, Tromso–Kirkenes, Norway, 2015, pp. 11–15 Search PubMed .
+From cou.: 104 W. Dahmen and C. A. Micchelli, SIAM J. Numer. Anal., 1993, 30, 507 CrossRef .

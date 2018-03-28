@@ -1,0 +1,695 @@
+From cou.: 0 Journal
+From Soup: 0 Phys. Chem. Chem. Phys.
+ ###### 
+From cou.: 1 The steady-state voltammetry for a one electron reduction, A + e− ⇌ B, is studied at a microdisc electrode in the absence of excess supporting electrolyte. For the first time, the full voltammetric waveshape is numerically simulated. Using a combination of theory and experiment, the voltammetry is investigated as a function of two variables: the concentration of the supporting electrolyte and the electrochemical rate constant. The ‘hemispherical approximation’ (in which a microdisc is assumed to be a hemisphere of the radius) is shown to be valid under weakly supported conditions, for a range of electrochemical rate constants . The simulations were used, in conjunction with the Debye–Hückel theory, to rationalise the experimental steady-state voltammetry of two aqueous redox couples: hexaammineruthenium ([Ru(NH3)6]3+/[Ru(NH3)6]2+) and hexachloroiridate ([IrCl6]2−/[IrCl6]3−) (each with varying levels of KCl supporting electrolyte). This investigation provides evidence for ion pairing between [IrCl6]2−/[IrCl6]3− and K+ from the supporting electrolyte. No observable ion pairing occurs between [Ru(NH3)6]3+/[Ru(NH3)6]2+ and Cl−.
+From Soup: 1 The steady-state voltammetry for a one electron reduction , A + e − ⇌ B, is studied at a microdisc electrode in the absence of excess supporting electrolyte. For the first time, the full voltammetric waveshape is numerically simulated. Using a combination of theory and experiment, the voltammetry is investigated as a function of two variables: the concentration of the supporting electrolyte and the electrochemical rate constant. The ‘hemispherical approximation’ (in which a microdisc is assumed to be a hemisphere of the radius) is shown to be valid under weakly supported conditions, for a range of electrochemical rate constants . The simulations were used, in conjunction with the Debye–Hückel theory, to rationalise the experimental steady-state voltammetry of two aqueous redox couples: hexaammineruthenium ([Ru(NH 3 ) 6 ] 3+ /[Ru(NH 3 ) 6 ] 2+ ) and hexachloroiridate ([IrCl 6 ] 2− /[IrCl 6 ] 3− ) (each with varying levels of KCl supporting electrolyte). This investigation provides evidence for ion pairing between [IrCl 6 ] 2− /[IrCl 6 ] 3− and K + from the supporting electrolyte. No observable ion pairing occurs between [Ru(NH 3 ) 6 ] 3+ /[Ru(NH 3 ) 6 ] 2+ and Cl − .
+ ###### 
+From cou.: 2 Over the past 25 years, two types of experiments have enhanced the applicability and appeal of analytical electrochemistry: voltammetry at microdisc electrodes and voltammetry in the absence of excess supporting electrolyte. The microdisc electrode1–5 has allowed cyclic voltammograms to be obtained with a high current density, a low capacitance and a low ohmic drop. In addition, microdiscs can be fabricated cheaply4 and can easily be reused.6 These unique properties have contributed to several pioneering papers, perhaps most notably to the ultra-fast scan work of Amatore et al.7–9 Voltammetry conducted in the absence of excess supporting electrolyte allows both diffusional and migrational modes to contribute to the overall mass transport properties of the system.10–16 The added complexity can be used, for example, to investigate mechanistic pathways invisible to conventional, ‘diffusion-only’, techniques.17,18
+From Soup: 2 Over the past 25 years, two types of experiments have enhanced the applicability and appeal of analytical electrochemistry: voltammetry at microdisc electrodes and voltammetry in the absence of excess supporting electrolyte. The microdisc electrode 1–5 has allowed cyclic voltammograms to be obtained with a high current density, a low capacitance and a low ohmic drop. In addition, microdiscs can be fabricated cheaply 4 and can easily be reused. 6 These unique properties have contributed to several pioneering papers, perhaps most notably to the ultra-fast scan work of Amatore et al. 7–9 Voltammetry conducted in the absence of excess supporting electrolyte allows both diffusional and migrational modes to contribute to the overall mass transport properties of the system. 10–16 The added complexity can be used, for example, to investigate mechanistic pathways invisible to conventional, ‘diffusion-only’, techniques. 17,18
+ ###### 
+From cou.: 3 Despite both techniques providing useful scientific insight, the use of both simultaneously has been limited by a need for accurate theoretical methods.19–21 In general, chemical systems are most thoroughly investigated by means of a combination of theoretical and experimental techniques. Most theoretical research into diffusional–migrational mass transport is based on a hemispherical electrode. Compared to the two dimensional microdisc, the one dimensional hemisphere is a much easier problem to solve: both analytically and numerically.22 Consequently, the use of hemispherical electrodes in experimental work is also popular.17,23,24 However, such studies are restricted because hemispheres are only easily fabricated using mercury: the electrode must be made and characterised before every experiment in order to maintain a clean surface; mercury is toxic; mercury reacts with many common ions, most notably halides and sulphides; mercury often limits the potential window of the experiment in the oxidative direction; finally, the surface tension of mercury, and its potential dependence, limits the range of radii over which the electrode is truly hemispherical. In order to strike a compromise between theoretical and experimental work, many workers rely on the so-called ‘hemispherical approximation’: the voltammetry obtained at a microdisc, of radius re, is presumed to be identical to that obtained at a hemisphere, of radius . That is to say, equivalence between a disc and a hemisphere occurs when their superficial diameters are equal.25 This approximation provides a useful way in which to quantitatively relate straight-forward experiments, involving microdiscs, to simple theory, based on hemispheres. The relationship is known to be exact for electrochemically reversible reactions, of the type A + e− ⇌ B, at a steady-state where surface concentrations are fixed by the Nernst equation.25–27 Although useful in certain circumstances (i.e. voltammetry at small electrodes and at low scan rates),28,29 this simple approximation cannot necessarily be assumed in general.26 The only work to date was published in the early 1990s, when Verbrugge and Baker et al. simulated potential step chronoamperometry at microdisc electrodes (including both the transient and the steady state regions) in the absence of excess supporting electrolyte using the ADI method19,20 where the steps were to potentials corresponding to transport control leading to limiting currents indicative of the electrode potential. Steady-state voltammetry measuring current as a function of the applied potential has never been simulated at a microdisc electrode, possibly owing to the high computational cost.30
+From Soup: 3 Despite both techniques providing useful scientific insight, the use of both simultaneously has been limited by a need for accurate theoretical methods. 19–21 In general, chemical systems are most thoroughly investigated by means of a combination of theoretical and experimental techniques. Most theoretical research into diffusional–migrational mass transport is based on a hemispherical electrode. Compared to the two dimensional microdisc, the one dimensional hemisphere is a much easier problem to solve: both analytically and numerically. 22 Consequently, the use of hemispherical electrodes in experimental work is also popular. 17,23,24 However, such studies are restricted because hemispheres are only easily fabricated using mercury: the electrode must be made and characterised before every experiment in order to maintain a clean surface; mercury is toxic; mercury reacts with many common ions, most notably halides and sulphides; mercury often limits the potential window of the experiment in the oxidative direction; finally, the surface tension of mercury, and its potential dependence, limits the range of radii over which the electrode is truly hemispherical. In order to strike a compromise between theoretical and experimental work, many workers rely on the so-called ‘hemispherical approximation’: the voltammetry obtained at a microdisc, of radius r e , is presumed to be identical to that obtained at a hemisphere, of radius . That is to say, equivalence between a disc and a hemisphere occurs when their superficial diameters are equal. 25 This approximation provides a useful way in which to quantitatively relate straight-forward experiments, involving microdiscs, to simple theory, based on hemispheres. The relationship is known to be exact for electrochemically reversible reactions, of the type A + e − ⇌ B, at a steady-state where surface concentrations are fixed by the Nernst equation. 25–27 Although useful in certain circumstances ( i.e. voltammetry at small electrodes and at low scan rates), 28,29 this simple approximation cannot necessarily be assumed in general. 26 The only work to date was published in the early 1990s, when Verbrugge and Baker et al. simulated potential step chronoamperometry at microdisc electrodes (including both the transient and the steady state regions) in the absence of excess supporting electrolyte using the ADI method 19,20 where the steps were to potentials corresponding to transport control leading to limiting currents indicative of the electrode potential. Steady-state voltammetry measuring current as a function of the applied potential has never been simulated at a microdisc electrode, possibly owing to the high computational cost. 30
+ ###### 
+From cou.: 4 In this paper, the steady-state voltammetric waveshapes, for the one electron reductions, A + e− ⇌ B, are studied at a microdisc electrode in the absence of excess supporting electrolyte. For the first time, this voltammetric experiment is numerically simulated for a microdisc electrode. The voltammetry is investigated as a function of two variables: the concentration of the supporting electrolyte and the electrochemical rate constant. The ‘hemispherical approximation’ is shown to be valid under weakly supported conditions for a defined, limited, range of electrochemical rate constants. For the first time, microdisc simulations were used, in conjunction with the Debye–Hückel theory, to rationalise the experimental steady-state voltammetry of two aqueous redox couples as a function of the applied potential without the use of the hemispherical approximation. The couples were hexaammineruthenium ([Ru(NH3)6]3+/[Ru(NH3)6]2+) and hexachloroiridate ([IrCl6]2−/[IrCl6]3−) (each with KCl supporting electrolyte):
+From Soup: 4 In this paper, the steady-state voltammetric waveshapes, for the one electron reductions, A + e − ⇌ B, are studied at a microdisc electrode in the absence of excess supporting electrolyte. For the first time, this voltammetric experiment is numerically simulated for a microdisc electrode. The voltammetry is investigated as a function of two variables: the concentration of the supporting electrolyte and the electrochemical rate constant. The ‘hemispherical approximation’ is shown to be valid under weakly supported conditions for a defined, limited, range of electrochemical rate constants. For the first time, microdisc simulations were used, in conjunction with the Debye–Hückel theory, to rationalise the experimental steady-state voltammetry of two aqueous redox couples as a function of the applied potential without the use of the hemispherical approximation. The couples were hexaammineruthenium ([Ru(NH 3 ) 6 ] 3+ /[Ru(NH 3 ) 6 ] 2+ ) and hexachloroiridate ([IrCl 6 ] 2− /[IrCl 6 ] 3− ) (each with KCl supporting electrolyte):
+ ###### 
+From cou.: 5 This investigation provides evidence for ion pairing between [IrCl6]2−/[IrCl6]3− and K+ from the supporting electrolyte. No ion pairing is observed between [Ru(NH3)6]3+/[Ru(NH3)6]2+ and Cl−.
+From Soup: 5 This investigation provides evidence for ion pairing between [IrCl 6 ] 2− /[IrCl 6 ] 3− and K + from the supporting electrolyte. No ion pairing is observed between [Ru(NH 3 ) 6 ] 3+ /[Ru(NH 3 ) 6 ] 2+ and Cl − .
+ ###### 
+From cou.: 6 The following reaction is studied:where species A is accompanied by a monovalent counter ion, X−. The reaction occurs in the presence of a variable concentration of inert 1:1 supporting electrolyte, M+X−. It is assumed that no ion pairing occurs. All symbols are defined in Table 1.
+From Soup: 6 The following reaction is studied: where species A is accompanied by a monovalent counter ion, X − . The reaction occurs in the presence of a variable concentration of inert 1 : 1 supporting electrolyte, M + X − . It is assumed that no ion pairing occurs. All symbols are defined in Table 1 .
+ ###### 
+From cou.: 7 In real space (rhemi):
+From Soup: 7 In real space ( r hemi ):
+ ###### 
+From cou.: 8 The steady-state transport equations for bulk solution are:
+From Soup: 8 The steady-state transport equations for bulk solution are:
+ ###### 
+From cou.: 9 The electroneutrality equation is:
+From Soup: 9 The electroneutrality equation is:
+ ###### 
+From cou.: 10 In this paper, the electroneutrality equation is used instead of the, more general, Poisson equation. Since these are solved under steady-state conditions, this simplification is justified and can be used without loss of accuracy or computational efficiency.31 The boundary conditions for steady-state voltammetry on the electrode surface (rhemi = re) are:
+From Soup: 10 In this paper, the electroneutrality equation is used instead of the, more general, Poisson equation. Since these are solved under steady-state conditions, this simplification is justified and can be used without loss of accuracy or computational efficiency. 31 The boundary conditions for steady-state voltammetry on the electrode surface ( r hemi = r e ) are:
+ ###### 
+From cou.: 11 E
+From Soup: 11 E
+ ###### 
+From cou.: 12 E
+From Soup: 12 E
+ ###### 
+From cou.: 13 ϕ
+From Soup: 13 f,A/B
+ ###### 
+From cou.: 14 ϕ
+From Soup: 14 ϕ
+ ###### 
+From cou.: 15 ϕ
+From Soup: 15 ϕ
+ ###### 
+From cou.: 16 The problem is solved using the standard fully implicit finite difference procedure.10 The mathematical procedure is fully explained in Section 5.3.
+From Soup: 16 ϕ
+ ###### 
+From cou.: 17 The remaining boundary conditions are:
+From Soup: 17 The problem is solved using the standard fully implicit finite difference procedure. 10 The mathematical procedure is fully explained in Section 5.3.
+ ###### 
+From cou.: 18 The current is:
+From Soup: 18 The remaining boundary conditions are:
+ ###### 
+From cou.: 19 The problem is solved using the following coordinate transform:
+From Soup: 19 The current is:
+ ###### 
+From cou.: 20 The problem is then conveniently confined to finite space 0 < η < 1.
+From Soup: 20 The problem is solved using the following coordinate transform:
+ ###### 
+From cou.: 21 In real space (rdisc, zdisc):
+From Soup: 21 The problem is then conveniently confined to finite space 0 < η < 1.
+ ###### 
+From cou.: 22 The transport equations, for bulk solution, are:
+From Soup: 22 In real space ( r disc , z disc ):
+ ###### 
+From cou.: 23 The electroneutrality equation is:
+From Soup: 23 The transport equations, for bulk solution, are:
+ ###### 
+From cou.: 24 The boundary conditions on the electrode surface (rdisc ≤ re, z = 0) are:
+From Soup: 24 The electroneutrality equation is:
+ ###### 
+From cou.: 25 The remaining boundary conditions are:
+From Soup: 25 The boundary conditions on the electrode surface ( r disc ≤ r e , z = 0) are:
+ ###### 
+From cou.: 26 The current is:
+From Soup: 26 The remaining boundary conditions are:
+ ###### 
+From cou.: 27 The problem is solved using these coordinate transforms:
+From Soup: 27 The current is:
+ ###### 
+From cou.: 28 The functional forms of ah(ξ), ae(η), bh(ξ) and be(η) corresponding to the three most commonly used coordinate transforms are given in Table 3. In each case, the transform converts the real, rectilinear space, shown in Fig. 1(a), to square, conformal space, shown in Fig. 1(b). The mesh arrangement corresponding to each conformal map is shown in Fig. 2. In each case, there are 11 points in the ζ and η directions. The conformal maps efficiently arrange the points of the spacial mesh around the singularity located at the electrode edge. Consequently, simulations conducted in conformal space (ξ, η) are considerably more efficient than those in real (r, z).
+From Soup: 28 The problem is solved using these coordinate transforms:
+ ###### 
+From cou.: 29 It is possible to transform both the microdisc and the hemisphere problems into any conformal space of the form shown in Fig. 1(b).32,33 For both geometries, the transport equations, for bulk solution, are:
+From Soup: 29 The functional forms of a h ( ξ ), a e ( η ), b h ( ξ ) and b e ( η ) corresponding to the three most commonly used coordinate transforms are given in Table 3 . In each case, the transform converts the real, rectilinear space, shown in Fig. 1(a) , to square, conformal space, shown in Fig. 1(b) . The mesh arrangement corresponding to each conformal map is shown in Fig. 2 . In each case, there are 11 points in the ζ and η directions. The conformal maps efficiently arrange the points of the spacial mesh around the singularity located at the electrode edge. Consequently, simulations conducted in conformal space ( ξ , η ) are considerably more efficient than those in real ( r , z ).
+ ###### 
+From cou.: 30 The boundary conditions on the electrode surface (ξ, η = 0) are:
+From Soup: 30 It is possible to transform both the microdisc and the hemisphere problems into any conformal space of the form shown in Fig. 1(b) . 32,33 For both geometries, the transport equations, for bulk solution, are:
+ ###### 
+From cou.: 31 The remaining boundary conditions are:
+From Soup: 31 The boundary conditions on the electrode surface ( ξ , η = 0) are:
+ ###### 
+From cou.: 32 η
+From Soup: 32 The remaining boundary conditions are:
+ ###### 
+From cou.: 33 ξ
+From Soup: 33 η
+ ###### 
+From cou.: 34 The current is:
+From Soup: 34 ξ
+ ###### 
+From cou.: 35 σ
+From Soup: 35 The current is:
+ ###### 
+From cou.: 36 η
+From Soup: 36 σ
+ ###### 
+From cou.: 37 ξ
+From Soup: 37 η
+ ###### 
+From cou.: 38 27
+From Soup: 38 ξ
+ ###### 
+From cou.: 39 D
+From Soup: 39 27
+ ###### 
+From cou.: 40 D
+From Soup: 40 D
+ ###### 
+From cou.: 41 27
+From Soup: 41 A
+ ###### 
+From cou.: 42 The problems laid out in the previous sections were transformed into a conventional set of dimensionless variables, defined in Table 2. Both discs and hemispheres were solved using the fully implicit finite difference method across an irregular grid of spatial points. The resulting collection of coupled, non-linear, simultaneous equations were discretised using the Crank–Nicholson method and solved using the iterative Newton–Raphson method.34 All simulations were programmed in C++ and run on a desktop computer (Intel Core2 Quad, 2.4 GHz, 2 GB of RAM). The simulations were converged to within <0.5% of the analytical steady-state current corresponding to an infinitely large overpotential.5 In the hemispherical simulation space, spacings at η = 0, Δbottom, and η = 1, Δtop, were specified and the remaining spacings varied linearly between these limits. That is:
+From Soup: 42 D
+ ###### 
+From cou.: 43 In the microdisc simulation space, the grid spacings in the η and ξ directions followed the same functional form as for the hemisphere above. Three conformal maps in Table 319,20,35,36 are considered and compared in the Results and discussion section.
+From Soup: 43 B
+ ###### 
+From cou.: 44 It is known that problems of this type, solved in this way, require a dense spatial grid and must exclude the case ZA = the number of transferred electrons.30,31
+From Soup: 44 27
+ ###### 
+From cou.: 45 Fig. 5 shows concentration and potential profiles for a full potential step (E ≫ Ef). There is seen to be negligible flux in the ξ direction. This confirms the conformal nature of the spacial grid used.
+From Soup: 45 The problems laid out in the previous sections were transformed into a conventional set of dimensionless variables, defined in Table 2 . Both discs and hemispheres were solved using the fully implicit finite difference method across an irregular grid of spatial points. The resulting collection of coupled, non-linear, simultaneous equations were discretised using the Crank–Nicholson method and solved using the iterative Newton–Raphson method. 34 All simulations were programmed in C++ and run on a desktop computer (Intel Core2 Quad, 2.4 GHz, 2 GB of RAM). The simulations were converged to within <0.5% of the analytical steady-state current corresponding to an infinitely large overpotential. 5 In the hemispherical simulation space, spacings at η = 0, Δ bottom , and η = 1, Δ top , were specified and the remaining spacings varied linearly between these limits. That is:
+ ###### 
+From cou.: 46 Potassium chloride (KCl, Sigma-Aldrich, 99.0–100.5%), hexaammineruthenium(III) chloride ([Ru(NH3)6]Cl3, Aldrich, 98%), potassium hexachloroiridate(IV) (K2IrCl6, Aldrich, 99.99%), acetonitrile (MeCN, Fischer Scientific, dried and distilled, 99%), ferrocene (Fe(C5H5)2, Aldrich, 98%) and tetra-n-butylammonium perchlorate (TBAP, Fluka, Puriss electrochemical grade, 99%) were all used as received without further purification.
+From Soup: 46 In the microdisc simulation space, the grid spacings in the η and ξ directions followed the same functional form as for the hemisphere above. Three conformal maps in Table 3 19,20,35,36 are considered and compared in the Results and discussion section.
+ ###### 
+From cou.: 47 A computer-controlled μ-Autolab potentiostat Type II (Eco-Chemie, Netherlands) was employed to undertake the experiments. A three-electrode set-up was employed, with a home made platinum microelectrode as the working electrode,4 a platinum mesh as the counter electrode and a Saturated Calomel Electrode (SCE, Radiometer, Denmark) as the reference electrode. Before each experiment, the working electrode was polished by using 1.0, 0.3 and 0.05 μm alumina–water slurry on soft lapping pads (Buehler, Illinois) and subsequently sonicated in deionised water.
+From Soup: 47 It is known that problems of this type, solved in this way, require a dense spatial grid and must exclude the case Z A = the number of transferred electrons. 30,31
+ ###### 
+From cou.: 48 The calibration of the size of the working electrodes was performed electrochemically from the steady-state limiting current of the reduction of a 2.0 mM solution of ferrocene in acetonitrile containing 0.1 M TBAP, adopting a value of the diffusion coefficient of ferrocene in MeCN of D = 2.43 × 10−5 cm2 s−1 at 298 K.37
+From Soup: 48 Fig. 5 shows concentration and potential profiles for a full potential step ( E ≫ E f ). There is seen to be negligible flux in the ξ direction. This confirms the conformal nature of the spacial grid used.
+ ###### 
+From cou.: 49 For the cyclic voltammetry and chronoamperometry experiments, 2.0 mM [Ru(NH3)6]Cl3 or K2IrCl6 solutions in ultrapure water with a resistivity of >18.2 MΩ cm−1 (20 °C) were prepared, at different concentrations of the supporting electrolyte, KCl. Solutions were outgassed with N2 before experiments and a positive pressure of N2 was maintained throughout.
+From Soup: 49 Potassium chloride (KCl, Sigma-Aldrich, 99.0–100.5%), hexaammineruthenium( III ) chloride ([Ru(NH 3 ) 6 ]Cl 3 , Aldrich, 98%), potassium hexachloroiridate( IV ) (K 2 IrCl 6 , Aldrich, 99.99%), acetonitrile (MeCN, Fischer Scientific, dried and distilled, 99%), ferrocene (Fe(C 5 H 5 ) 2 , Aldrich, 98%) and tetra- n -butylammonium perchlorate (TBAP, Fluka, Puriss electrochemical grade, 99%) were all used as received without further purification .
+ ###### 
+From cou.: 50 All measurements were carried out at 25 °C by thermal control of the electrochemical cell through the use of an air heater-controller system fabricated in-house.
+From Soup: 50 A computer-controlled μ-Autolab potentiostat Type II (Eco-Chemie, Netherlands) was employed to undertake the experiments. A three- electrode set-up was employed, with a home made platinum microelectrode as the working electrode, 4 a platinum mesh as the counter electrode and a Saturated Calomel Electrode ( SCE , Radiometer, Denmark) as the reference electrode. Before each experiment, the working electrode was polished by using 1.0, 0.3 and 0.05 μm alumina – water slurry on soft lapping pads (Buehler, Illinois) and subsequently sonicated in deionised water .
+ ###### 
+From cou.: 51 Fig. 3 shows convergence plots for three conformal maps: Verbrugge–Baker, Amatore–Fossett and Oleinick–Amatore–Svir. The simulations were run for the system with the lowest rate of convergence: the irreversible, self-supported, redox couple A2+ + e− ⇌ B+. This is expected because electroactive ions of low charge, in the absence of electrolytic support, will maximise the contribution of the migrational component to the overall mass transport of the system. The migrational part is known to exhibit slow convergence characteristics.30 In addition, irreversible electrode kinetics lead to a non-uniform concentration distribution over the electrode surface (see Fig. 4). This necessitates the use of a high density of spacial mesh points in the ξ direction. In each case, Δηtop = 0.05 and Δξbottom = 0.05. The simulations were unchanged when these parameters were decreased by an order of magnitude: indicating that convergence is limited by Δηbottom and Δξtop. This region corresponds to the edge of the electrode. This is known to be the location of a spatial node38,39 and a high mesh density is required. The simulations were compared relative to Δηbottom = 10−5 and Δξtop = 10−4, i.e. an order of magnitude smaller than the values plotted on the convergence plots. Fig. 3 shows the rate of convergence for a complete range of applied potentials, θ, when Δηbottom and Δξtop are varied. This is necessary because the conditions for convergence at the top of the wave, where electrode kinetics are reversible, are likely to be less stringent than those at the region close to the half wave potential. The rate of convergence is shown to be very similar in each case and, as expected, is slowest close to the half wave potential. Similar rates of convergence are expected because, as shown in Fig. 2 the distribution of spacial points are very similar. For the remainder of the paper, the Verbrugge–Baker transform is used in order to be consistent with previous work.19,20
+From Soup: 51 The calibration of the size of the working electrodes was performed electrochemically from the steady-state limiting current of the reduction of a 2.0 mM solution of ferrocene in acetonitrile containing 0.1 M TBAP, adopting a value of the diffusion coefficient of ferrocene in MeCN of D = 2.43 × 10 −5 cm 2 s −1 at 298 K. 37
+ ###### 
+From cou.: 52 The concentration profiles are most easily studied in conformal space. This is because the greatest changes in concentration and in potential occur close to the electrode surface. The x axis is completely occupied by the electrode in the conformal space but is only partially occupied in real space. However, Fig. 6–9 are included in real space to enable comparisons to be made with the following discussions in conformal space.
+From Soup: 52 For the cyclic voltammetry and chronoamperometry experiments, 2.0 mM [Ru(NH 3 ) 6 ]Cl 3 or K 2 IrCl 6 solutions in ultrapure water with a resistivity of >18.2 MΩ cm −1 (20 °C) were prepared, at different concentrations of the supporting electrolyte, KCl. Solutions were outgassed with N 2 before experiments and a positive pressure of N 2 was maintained throughout.
+ ###### 
+From cou.: 53 Fig. 4 shows the potential (a) and concentration (b) profiles for the irreversible redox couple A2+ + e− ⇌ B+ at self-support. The loss in potential driving force is negligible (θ = −0.15 corresponds to E ≈ −3.85 × 10−3 V at 298 K), as expected for voltammetry at a steady-state. The concentration varies over the electrode surface. This can be explained with respect to the Butler–Volmer equation in the transformed space:
+From Soup: 53 All measurements were carried out at 25 °C by thermal control of the electrochemical cell through the use of an air heater-controller system fabricated in-house.
+ ###### 
+From cou.: 54 Consequently, the effective rate constant over the electrode surface is:
+From Soup: 54 Fig. 3 shows convergence plots for three conformal maps: Verbrugge–Baker, Amatore–Fossett and Oleinick–Amatore–Svir. The simulations were run for the system with the lowest rate of convergence: the irreversible, self-supported, redox couple A 2+ + e − ⇌ B + . This is expected because electroactive ions of low charge, in the absence of electrolytic support, will maximise the contribution of the migrational component to the overall mass transport of the system. The migrational part is known to exhibit slow convergence characteristics. 30 In addition, irreversible electrode kinetics lead to a non-uniform concentration distribution over the electrode surface (see Fig. 4 ). This necessitates the use of a high density of spacial mesh points in the ξ direction. In each case, Δ η top = 0.05 and Δ ξ bottom = 0.05. The simulations were unchanged when these parameters were decreased by an order of magnitude: indicating that convergence is limited by Δ η bottom and Δ ξ top . This region corresponds to the edge of the electrode. This is known to be the location of a spatial node 38,39 and a high mesh density is required. The simulations were compared relative to Δ η bottom = 10 −5 and Δ ξ top = 10 −4 , i.e. an order of magnitude smaller than the values plotted on the convergence plots. Fig. 3 shows the rate of convergence for a complete range of applied potentials, θ , when Δ η bottom and Δ ξ top are varied. This is necessary because the conditions for convergence at the top of the wave, where electrode kinetics are reversible, are likely to be less stringent than those at the region close to the half wave potential. The rate of convergence is shown to be very similar in each case and, as expected, is slowest close to the half wave potential. Similar rates of convergence are expected because, as shown in Fig. 2 the distribution of spacial points are very similar. For the remainder of the paper, the Verbrugge–Baker transform is used in order to be consistent with previous work. 19,20
+ ###### 
+From cou.: 55 K
+From Soup: 55 The concentration profiles are most easily studied in conformal space. This is because the greatest changes in concentration and in potential occur close to the electrode surface. The x axis is completely occupied by the electrode in the conformal space but is only partially occupied in real space. However, Fig. 6–9 are included in real space to enable comparisons to be made with the following discussions in conformal space.
+ ###### 
+From cou.: 56 0
+From Soup: 56 Fig. 4 shows the potential (a) and concentration (b) profiles for the irreversible redox couple A 2+ + e − ⇌ B + at self-support. The loss in potential driving force is negligible ( θ = −0.15 corresponds to E ≈ −3.85 × 10 −3 V at 298 K), as expected for voltammetry at a steady-state. The concentration varies over the electrode surface. This can be explained with respect to the Butler–Volmer equation in the transformed space:
+ ###### 
+From cou.: 57 ξ
+From Soup: 57 Consequently, the effective rate constant over the electrode surface is:
+ ###### 
+From cou.: 58 Fig. 5 shows the corresponding potential (a) and concentration (b) profiles at the top of the voltammetric wave. This corresponds to reversible electrode kinetics. Consequently, the Nernst equation is obeyed over the electrode surface and the flux is uniform. Again, the loss in the potential driving force is negligible (θ = −0.288 corresponds to E ≈ −7.39 × 10−3 V at 298 K), as expected for voltammetry at a steady-state.
+From Soup: 58 K
+ ###### 
+From cou.: 59 Fig. 10(a) shows the cyclic voltammogram at a microdisc for the redox couple A2+ + e− ⇌ B+ under self-support as a function of the electrochemical rate constant, K0. The following equivalence relation is used:
+From Soup: 59 0
+ ###### 
+From cou.: 60 As explained in the Theory section, this relation becomes increasingly unreliable as the electrochemical rate constant, K0, decreases.25,27Fig. 10(b) shows the percentage error between the simulation for a microdisc and for a hemisphere using the hemispherical approximation. The maximum error is shown to be 3.81%: close to the error range of most experiments. The hemispherical approximation is therefore quantitatively useful when K0 < 10−3. Since this analysis is conducted for an extreme case, this is also valid for higher support ratios and different charges in the one electron A/B redox couple.
+From Soup: 60 effective
+ ###### 
+From cou.: 61 Fig. 11 shows the chronoamperometry at a microdisc at full support for the [Ru(NH3)6]3+/[Ru(NH3)6]2+ system. In order to extract the diffusion coefficient from this transient, the line was fitted using the nonlinear curve fitting function in the software package Origin 7.0 (Microcal Software Inc.) according to the following equation proposed by Shoup and Szabo:40
+From Soup: 61 ξ
+ ###### 
+From cou.: 62 The value of the diffusion coefficient for [Ru(NH3)6]3+ is 8.7 × 10−10 m2 s−1, in good agreement with the literature value.41–45
+From Soup: 62 Fig. 4(b)
+ ###### 
+From cou.: 63 Fig. 12 shows experimental cyclic voltammetry for the [Ru(NH3)6]3+/[Ru(NH3)6]2+ system. The value of the diffusion coefficient for [Ru(NH3)6]2+ is obtained by fitting the voltammetric current at a steady-state using the numerical simulation.24 The value of the diffusion coefficient for [Ru(NH3)6]2+ is 8.6 × 10−10 m2 s−1, in good agreement with the literature value.41 The steady-state value becomes smaller with increasing support ratio. In this reduction reaction, negative charge is generated at the electrode surface. Positive ions must therefore migrate towards the surface in order to maintain overall electroneutrality. Since [Ru(NH3)6]3+ is positively charged, any factor that decreases the contribution of this species to the maintenance of electroneutrality (e.g. increasing the support ratio) will decrease the value of the limiting current. The variation in limiting current can be simulated as shown in Fig. 13 and 14. However, since the loss in potential driving force is negligible, the numerical simulations do not account for the observed variation in Ef as a function of the support ratio. The trend in Ef, instead, must be explained using the extended Debye–Hückel theory:46–48
+From Soup: 63 Fig. 5 shows the corresponding potential (a) and concentration (b) profiles at the top of the voltammetric wave. This corresponds to reversible electrode kinetics. Consequently, the Nernst equation is obeyed over the electrode surface and the flux is uniform. Again, the loss in the potential driving force is negligible ( θ = −0.288 corresponds to E ≈ −7.39 × 10 −3 V at 298 K), as expected for voltammetry at a steady-state.
+ ###### 
+From cou.: 64 From the simulations, it was found that Δϕ ≈ 0 V
+From Soup: 64 Fig. 10(a) shows the cyclic voltammogram at a microdisc for the redox couple A 2+ + e − ⇌ B + under self-support as a function of the electrochemical rate constant, K 0 . The following equivalence relation is used:
+ ###### 
+From cou.: 65 I
+From Soup: 65 As explained in the Theory section, this relation becomes increasingly unreliable as the electrochemical rate constant, K 0 , decreases. 25,27 Fig. 10(b ) shows the percentage error between the simulation for a microdisc and for a hemisphere using the hemispherical approximation. The maximum error is shown to be 3.81%: close to the error range of most experiments. The hemispherical approximation is therefore quantitatively useful when K 0 < 10 −3 . Since this analysis is conducted for an extreme case, this is also valid for higher support ratios and different charges in the one electron A/B redox couple.
+ ###### 
+From cou.: 66 a
+From Soup: 66 Fig. 11 shows the chronoamperometry at a microdisc at full support for the [Ru(NH 3 ) 6 ] 3+ /[Ru(NH 3 ) 6 ] 2+ system. In order to extract the diffusion coefficient from this transient, the line was fitted using the nonlinear curve fitting function in the software package Origin 7.0 (Microcal Software Inc.) according to the following equation proposed by Shoup and Szabo: 40
+ ###### 
+From cou.: 67 −10
+From Soup: 67 The value of the diffusion coefficient for [Ru(NH 3 ) 6 ] 3+ is 8.7 × 10 −10 m 2 s −1 , in good agreement with the literature value. 41–45
+ ###### 
+From cou.: 68 49
+From Soup: 68 Fig. 12 shows experimental cyclic voltammetry for the [Ru(NH 3 ) 6 ] 3+ /[Ru(NH 3 ) 6 ] 2+ system. The value of the diffusion coefficient for [Ru(NH 3 ) 6 ] 2+ is obtained by fitting the voltammetric current at a steady-state using the numerical simulation. 24 The value of the diffusion coefficient for [Ru(NH 3 ) 6 ] 2+ is 8.6 × 10 −10 m 2 s −1 , in good agreement with the literature value. 41 The steady-state value becomes smaller with increasing support ratio. In this reduction reaction, negative charge is generated at the electrode surface. Positive ions must therefore migrate towards the surface in order to maintain overall electroneutrality. Since [Ru(NH 3 ) 6 ] 3+ is positively charged, any factor that decreases the contribution of this species to the maintenance of electroneutrality ( e.g. increasing the support ratio) will decrease the value of the limiting current. The variation in limiting current can be simulated as shown in Fig. 13 and 14 . However, since the loss in potential driving force is negligible, the numerical simulations do not account for the observed variation in E f as a function of the support ratio. The trend in E f , instead, must be explained using the extended Debye–Hückel theory: 46–48
+ ###### 
+From cou.: 69 Fig. 16 shows the chronoamperometry at a microdisc, at full support, for the [IrCl6]2−/[IrCl6]3− system. The value of the diffusion coefficients for [IrCl6]2− and [IrCl6]3−, obtained using the procedures described above are 7.5 × 10−10 m2 s−1 and 7.2 × 10−10 m2 s−1, respectively, in good agreement with the literature values.45,50
+From Soup: 69 From the simulations, it was found that Δ ϕ ≈ 0 V
+ ###### 
+From cou.: 70 Fig. 17 shows experimental cyclic voltammetry for the [IrCl6]2−/[IrCl6]3− system. The steady-state current becomes larger as the support ratio increases. In this reduction reaction, negative charge is generated at the electrode surface. Negative ions therefore migrate away from the surface in order to maintain electroneutrality. Since [IrCl6]2− is negatively charged, any factor that decreases the contribution of this species to the maintenance of electroneutrality (e.g. increasing the support ratio) will increase the value of limiting current. The variation in limiting current can be simulated as shown in Fig. 18 and 19. However, as above, the value of Ef must be explained using the Debye–Hückel theory. The ionic radius is of 4 × 10−10 m.51 Poor concordance between theory and experiment is illustrated in Fig. 20. The experimental ionic strength appears too high to match the theory. This effect is likely to be caused by ion pairing, as suggested in the literature.51
+From Soup: 70 I
+ ###### 
+From cou.: 71 Steady-state cyclic voltammetry at low support can be efficiently simulated for both reversible and irreversible electrode kinetics. It is shown, by numerical and analytical means, that the hemispherical approximation is reliable over a range of support ratios and electrochemical rate constants.
+From Soup: 71 a
+ ###### 
+From cou.: 72 The simulations and the Debye–Hückel theory are used to analyze cyclic voltammetry obtained for two aqueous redox couples: hexaammineruthenium [Ru(NH3)6]3+/[Ru(NH3)6]2+ and hexachloroiridate [IrCl6]2−/[IrCl6]3−. The data indicate the occurrence of ion pairing in the latter but not in the former.
+From Soup: 72 −10
+ ###### 
+From cou.: 73 The nonlinear system of equations described in Sections 1.1 and 1.2 are solved using the matrix form of the Newton–Raphson method. The iterative formula iswhere the vector, x, contains all the unknown variables. The elements of this vector are labeled x0, x1,…, xn. The vector, F, contains the system of equations to be solved. The elements of this vector are labeled f0(x), f1(x),…, fn(x). The vector, u, contains the absolute errors in the elements of vector x. The matrix, J, is given by
+From Soup: 73 49
+ ###### 
+From cou.: 74 The system of equations is solved by first guessing the x vector. The iteration formula is preformed and the x vector guess is improved using the result, u. This iteration procedure is repeated until the termination criterion, |ui| < ε, is met for all i where ε is a suitably small number.
+From Soup: 74 Fig. 15
+ ###### 
+From cou.: 75 The dimensional equations described in Section 1.2 are converted into dimensionless form using the definitions listed in Table 2. The spatial coordinates are discretised as described in Section 1.4. The corresponding vectors x and F(x) are given aswhere nξ and nη correspond to the highest indices of the ξ and η spatial grids respectively. The equations fA,j,i(x), fB,j,i(x), fθ,j,i(x), fM,j,i(x), fX,j,i(x), are the discretized mass transport equations. For example, fM,j,i(x) corresponds to the discretised form of the following equationand the equation fθ,j,i(x) corresponds to the discretised form of the following equation
+From Soup: 75 Fig. 16 shows the chronoamperometry at a microdisc, at full support, for the [IrCl 6 ] 2− /[IrCl 6 ] 3− system. The value of the diffusion coefficients for [IrCl 6 ] 2− and [IrCl 6 ] 3− , obtained using the procedures described above are 7.5 × 10 −10 m 2 s −1 and 7.2 × 10 −10 m 2 s −1 , respectively, in good agreement with the literature values. 45,50
+ ###### 
+From cou.: 76 The following discretisations are used
+From Soup: 76 Fig. 17 shows experimental cyclic voltammetry for the [IrCl 6 ] 2− /[IrCl 6 ] 3− system. The steady-state current becomes larger as the support ratio increases. In this reduction reaction, negative charge is generated at the electrode surface. Negative ions therefore migrate away from the surface in order to maintain electroneutrality. Since [IrCl 6 ] 2− is negatively charged, any factor that decreases the contribution of this species to the maintenance of electroneutrality ( e.g. increasing the support ratio) will increase the value of limiting current. The variation in limiting current can be simulated as shown in Fig. 18 and 19 . However, as above, the value of E f must be explained using the Debye–Hückel theory. The ionic radius is of 4 × 10 −10 m. 51 Poor concordance between theory and experiment is illustrated in Fig. 20 . The experimental ionic strength appears too high to match the theory. This effect is likely to be caused by ion pairing, as suggested in the literature. 51
+ ###### 
+From cou.: 77 f
+From Soup: 77 Steady-state cyclic voltammetry at low support can be efficiently simulated for both reversible and irreversible electrode kinetics. It is shown, by numerical and analytical means, that the hemispherical approximation is reliable over a range of support ratios and electrochemical rate constants.
+ ###### 
+From cou.: 78 j
+From Soup: 78 The simulations and the Debye–Hückel theory are used to analyze cyclic voltammetry obtained for two aqueous redox couples: hexaammineruthenium [Ru(NH 3 ) 6 ] 3+ /[Ru(NH 3 ) 6 ] 2+ and hexachloroiridate [IrCl 6 ] 2− /[IrCl 6 ] 3− . The data indicate the occurrence of ion pairing in the latter but not in the former.
+ ###### 
+From cou.: 79 x
+From Soup: 79 The nonlinear system of equations described in Sections 1.1 and 1.2 are solved using the matrix form of the Newton–Raphson method. The iterative formula is where the vector, x , contains all the unknown variables. The elements of this vector are labeled x 0 , x 1 ,…, x n . The vector, F , contains the system of equations to be solved. The elements of this vector are labeled f 0 ( x ), f 1 ( x ),…, f n ( x ). The vector, u , contains the absolute errors in the elements of vector x . The matrix , J , is given by
+ ###### 
+From cou.: 80 f
+From Soup: 80 The system of equations is solved by first guessing the x vector. The iteration formula is preformed and the x vector guess is improved using the result, u . This iteration procedure is repeated until the termination criterion, | u i | < ε , is met for all i where ε is a suitably small number.
+ ###### 
+From cou.: 81 j
+From Soup: 81 The dimensional equations described in Section 1.2 are converted into dimensionless form using the definitions listed in Table 2 . The spatial coordinates are discretised as described in Section 1.4. The corresponding vectors x and F ( x ) are given as where n ξ and n η correspond to the highest indices of the ξ and η spatial grids respectively. The equations f A, j , i ( x ), f B, j , i ( x ), f θ , j , i ( x ), f M, j , i ( x ), f X, j , i ( x ), are the discretized mass transport equations. For example, f M, j , i ( x ) corresponds to the discretised form of the following equation and the equation f θ , j , i ( x ) corresponds to the discretised form of the following equation
+ ###### 
+From cou.: 82 x
+From Soup: 82 The following discretisations are used
+ ###### 
+From cou.: 83 f
+From Soup: 83 f
+ ###### 
+From cou.: 84 θ
+From Soup: 84 A, j ,0
+ ###### 
+From cou.: 85 j
+From Soup: 85 x
+ ###### 
+From cou.: 86 x
+From Soup: 86 f
+ ###### 
+From cou.: 87 f
+From Soup: 87 B, j ,0
+ ###### 
+From cou.: 88 j
+From Soup: 88 x
+ ###### 
+From cou.: 89 x
+From Soup: 89 f
+ ###### 
+From cou.: 90 f
+From Soup: 90 θ , j ,0
+ ###### 
+From cou.: 91 j
+From Soup: 91 x
+ ###### 
+From cou.: 92 x
+From Soup: 92 f
+ ###### 
+From cou.: 93 η
+From Soup: 93 M, j ,0
+ ###### 
+From cou.: 94 f
+From Soup: 94 x
+ ###### 
+From cou.: 95 j
+From Soup: 95 f
+ ###### 
+From cou.: 96 n
+From Soup: 96 X, j ,0
+ ###### 
+From cou.: 97 η
+From Soup: 97 x
+ ###### 
+From cou.: 98 x
+From Soup: 98 η
+ ###### 
+From cou.: 99 f
+From Soup: 99 f
+ ###### 
+From cou.: 100 j
+From Soup: 100 A, j , n η
+ ###### 
+From cou.: 101 n
+From Soup: 101 x
+ ###### 
+From cou.: 102 η
+From Soup: 102 f
+ ###### 
+From cou.: 103 x
+From Soup: 103 B, j , n η
+ ###### 
+From cou.: 104 f
+From Soup: 104 x
+ ###### 
+From cou.: 105 θ
+From Soup: 105 f
+ ###### 
+From cou.: 106 j
+From Soup: 106 θ , j , n η
+ ###### 
+From cou.: 107 n
+From Soup: 107 x
+ ###### 
+From cou.: 108 η
+From Soup: 108 f
+ ###### 
+From cou.: 109 x
+From Soup: 109 M, j , n η
+ ###### 
+From cou.: 110 f
+From Soup: 110 x
+ ###### 
+From cou.: 111 j
+From Soup: 111 f
+ ###### 
+From cou.: 112 n
+From Soup: 112 X, j , n η
+ ###### 
+From cou.: 113 η
+From Soup: 113 x
+ ###### 
+From cou.: 114 x
+From Soup: 114 η
+ ###### 
+From cou.: 115 f
+From Soup: 115 f
+ ###### 
+From cou.: 116 j
+From Soup: 116 A,0, i
+ ###### 
+From cou.: 117 n
+From Soup: 117 x
+ ###### 
+From cou.: 118 η
+From Soup: 118 f
+ ###### 
+From cou.: 119 x
+From Soup: 119 B,0, i
+ ###### 
+From cou.: 120 η
+From Soup: 120 x
+ ###### 
+From cou.: 121 f
+From Soup: 121 f
+ ###### 
+From cou.: 122 i
+From Soup: 122 θ ,0, i
+ ###### 
+From cou.: 123 x
+From Soup: 123 x
+ ###### 
+From cou.: 124 f
+From Soup: 124 f
+ ###### 
+From cou.: 125 i
+From Soup: 125 M,0, i
+ ###### 
+From cou.: 126 x
+From Soup: 126 x
+ ###### 
+From cou.: 127 f
+From Soup: 127 f
+ ###### 
+From cou.: 128 θ
+From Soup: 128 X,0, i
+ ###### 
+From cou.: 129 i
+From Soup: 129 x
+ ###### 
+From cou.: 130 x
+From Soup: 130 ξ
+ ###### 
+From cou.: 131 f
+From Soup: 131 f
+ ###### 
+From cou.: 132 i
+From Soup: 132 A, n ξ , i
+ ###### 
+From cou.: 133 x
+From Soup: 133 x
+ ###### 
+From cou.: 134 f
+From Soup: 134 f
+ ###### 
+From cou.: 135 i
+From Soup: 135 B, n ξ , i
+ ###### 
+From cou.: 136 x
+From Soup: 136 x
+ ###### 
+From cou.: 137 ξ
+From Soup: 137 f
+ ###### 
+From cou.: 138 f
+From Soup: 138 θ , n ξ , i
+ ###### 
+From cou.: 139 n
+From Soup: 139 x
+ ###### 
+From cou.: 140 ξ
+From Soup: 140 f
+ ###### 
+From cou.: 141 i
+From Soup: 141 M, n ξ , i
+ ###### 
+From cou.: 142 x
+From Soup: 142 x
+ ###### 
+From cou.: 143 f
+From Soup: 143 f
+ ###### 
+From cou.: 144 n
+From Soup: 144 X, n ξ , i
+ ###### 
+From cou.: 145 ξ
+From Soup: 145 x
+ ###### 
+From cou.: 146 i
+From Soup: 146 ξ
+ ###### 
+From cou.: 147 x
+From Soup: 147 matrix
+ ###### 
+From cou.: 148 f
+From Soup: 148 J
+ ###### 
+From cou.: 149 θ
+From Soup: 149 F
+ ###### 
+From cou.: 150 n
+From Soup: 150 x
+ ###### 
+From cou.: 151 ξ
+From Soup: 151 The dimensional equations described in Section 1.1 are converted into dimensionless form using the definitions listed in Table 2 . The spatial coordinates are discretised as described in Section 1.4. The corresponding vectors x and F ( x ) are given as where n η corresponds to the highest index of the η spatial grid. The equations f A, i ( x ), f B, i ( x ), f θ , i ( x ), f M, i ( x ), f X, i ( x ) are the discretized mass transport equations. For example, f M, i ( x ) corresponds to the discretised form of the following equation and the equation f θ, i ( x ) corresponds to the discretised form of the following equation
+ ###### 
+From cou.: 152 i
+From Soup: 152 The following discretisations are identical to those in the previous section.
+ ###### 
+From cou.: 153 x
+From Soup: 153 The equations f A,0 ( x ), f B,0 ( x ), f θ ,0 ( x ), f M,0 ( x ), f X,0 ( x ) correspond to the discretised form of the boundary conditions at η = 0 given in Section 1.1, for example
+ ###### 
+From cou.: 154 f
+From Soup: 154 f
+ ###### 
+From cou.: 155 n
+From Soup: 155 A, n η
+ ###### 
+From cou.: 156 ξ
+From Soup: 156 x
+ ###### 
+From cou.: 157 i
+From Soup: 157 f
+ ###### 
+From cou.: 158 x
+From Soup: 158 B, n η
+ ###### 
+From cou.: 159 f
+From Soup: 159 x
+ ###### 
+From cou.: 160 n
+From Soup: 160 f
+ ###### 
+From cou.: 161 ξ
+From Soup: 161 θ , n η
+ ###### 
+From cou.: 162 i
+From Soup: 162 x
+ ###### 
+From cou.: 163 x
+From Soup: 163 f
+ ###### 
+From cou.: 164 ξ
+From Soup: 164 M, n η
+ ###### 
+From cou.: 165 matrix
+From Soup: 165 x
+ ###### 
+From cou.: 166 J
+From Soup: 166 f
+ ###### 
+From cou.: 167 F
+From Soup: 167 X, n η
+ ###### 
+From cou.: 168 x
+From Soup: 168 x
+ ###### 
+From cou.: 169 The dimensional equations described in Section 1.1 are converted into dimensionless form using the definitions listed in Table 2. The spatial coordinates are discretised as described in Section 1.4. The corresponding vectors x and F(x) are given aswhere nη corresponds to the highest index of the η spatial grid. The equations fA,i(x), fB,i(x), fθ,i(x), fM,i(x), fX,i(x) are the discretized mass transport equations. For example, fM,i(x) corresponds to the discretised form of the following equationand the equation fθ,i(x) corresponds to the discretised form of the following equation
+From Soup: 169 η
+ ###### 
+From cou.: 170 The following discretisations are identical to those in the previous section.
+From Soup: 170 The matrix J is found by differentiating equations F ( x ) as described in Section 5.1. The matrix equation is solved using a generalised version of the Thomas algorithm.
+ ###### 
+From cou.: 171 The equations fA,0(x), fB,0(x), fθ,0(x), fM,0(x), fX,0(x) correspond to the discretised form of the boundary conditions at η = 0 given in Section 1.1, for example
+From Soup: 171 We thank the EPSRC (Reference: EP/H002413/1) (RGC and SRB), St John's College (SRB), and Fundación SENECA (EL) for funding.
+ ###### 
+From cou.: 172 f
+From Soup: 172 A. M. Bond, Analyst , 1994, 119 , 1R–21R RSC .
+ ###### 
+From cou.: 173 n
+From Soup: 173 A. J. Bard and L. R. Faulkner, Electrochemical Methods, Fundamentals and Applications , 2nd edn, John Wiley & Sons Inc., Hoboken, NJ, 2001 Search PubMed .
+ ###### 
+From cou.: 174 η
+From Soup: 174 R. G. Compton and C. E. Banks, Understanding Voltammetry , 2nd edn, World Scientific, 2011 Search PubMed .
+ ###### 
+From cou.: 175 x
+From Soup: 175 J. Heinze, Angew. Chem., Int. Ed. Engl. , 1993, 32 , 1268–1288 CrossRef .
+ ###### 
+From cou.: 176 f
+From Soup: 176 J. C. Myland and K. B. Oldham, J. Electroanal. Chem. , 1993, 347 , 49–91 CrossRef CAS .
+ ###### 
+From cou.: 177 n
+From Soup: 177 R. Wightman and D. Wipf, in Electroanalytical Chemistry , ed. A. J. Bard, 1st edn, Marcel Dekker, New York, 1988, vol. 15, p. 267 Search PubMed .
+ ###### 
+From cou.: 178 η
+From Soup: 178 C. Amatore, E. Maisonhaute and G. Simonneau, Electrochem. Commun. , 2000, 2 , 81–84 CrossRef CAS .
+ ###### 
+From cou.: 179 x
+From Soup: 179 C. Amatore, G. Farsang, E. Maisonhaute and P. Simon, J. Electroanal. Chem. , 1999, 462 , 55–62 CrossRef CAS .
+ ###### 
+From cou.: 180 f
+From Soup: 180 C. Amatore, E. Maisonhaute and G. Simonneau, J. Electroanal. Chem. , 2000, 486 , 141–155 CrossRef CAS .
+ ###### 
+From cou.: 181 θ
+From Soup: 181 I. Streeter and R. G. Compton, J. Phys. Chem. C , 2008, 112 , 13716–13728 CAS .
+ ###### 
+From cou.: 182 n
+From Soup: 182 A. Bond, M. Fleischmann and J. Robinson, J. Electroanal. Chem. , 1984, 172 , 11–25 CrossRef CAS .
+ ###### 
+From cou.: 183 η
+From Soup: 183 M. J. Palys, Z. Stojek, M. Bos and W. E. van der Linden, J. Electroanal. Chem. , 1995, 383 , 105–117 CrossRef .
+ ###### 
+From cou.: 184 x
+From Soup: 184 K. B. Oldham, J. Electroanal. Chem. , 1988, 250 , 1–21 CrossRef CAS .
+ ###### 
+From cou.: 185 f
+From Soup: 185 M. Ciszkowska and Z. Stojek, J. Electroanal. Chem. , 1999, 466 , 129–143 CrossRef CAS .
+ ###### 
+From cou.: 186 n
+From Soup: 186 C. Amatore, M. R. Deakin and R. Wightman, J. Electroanal. Chem. , 1987, 225 , 49–63 CrossRef CAS .
+ ###### 
+From cou.: 187 η
+From Soup: 187 J. C. Myland, K. B. Oldham and G. Zhu, Anal. Chem. , 1988, 60 , 1610–1621 CrossRef CAS .
+ ###### 
+From cou.: 188 x
+From Soup: 188 S. R. Belding, J. G. Limon-Petersen, E. J. F. Dickinson and R. G. Compton, Angew. Chem., Int. Ed. , 2010, 49 , 9242–9245 CrossRef CAS .
+ ###### 
+From cou.: 189 f
+From Soup: 189 E. O. Barnes, Y. Wang, S. R. Belding and R. G. Compton, ChemPhysChem , 2012, 13 , 92–95 CrossRef CAS .
+ ###### 
+From cou.: 190 n
+From Soup: 190 D. R. Baker, M. W. Verbrugge and J. Newman, J. Electroanal. Chem. , 1991, 314 , 23–44 CrossRef CAS .
+ ###### 
+From cou.: 191 η
+From Soup: 191 M. W. Verbrugge and D. R. Baker, J. Phys. Chem. , 1992, 96 , 4572–4580 CrossRef CAS .
+ ###### 
+From cou.: 192 x
+From Soup: 192 A. M. Bond, K. B. Oldham and C. G. Zoski, J. Electroanal. Chem. , 1988, 245 , 71–104 CrossRef CAS .
+ ###### 
+From cou.: 193 η
+From Soup: 193 K. B. Oldham, J. Electroanal. Chem. , 1992, 337 , 91–126 CrossRef CAS .
+ ###### 
+From cou.: 194 The matrix J is found by differentiating equations F(x) as described in Section 5.1. The matrix equation is solved using a generalised version of the Thomas algorithm.
+From Soup: 194 J. G. Limon-Petersen, I. Streeter, N. V. Rees and R. G. Compton, J. Phys. Chem. C , 2009, 113 , 333–337 CAS .
+ ###### 
+From cou.: 195 We thank the EPSRC (Reference: EP/H002413/1) (RGC and SRB), St John's College (SRB), and Fundación SENECA (EL) for funding.
+From Soup: 195 M. J. Palys and Z. Stojek, J. Electroanal. Chem. , 2002, 534 , 65–73 CrossRef CAS .
+ ###### 
+From cou.: 196 A. M. Bond, Analyst, 1994, 119, 1R–21R RSC .
+From Soup: 196 K. B. Oldham and C. G. Zoski, J. Electroanal. Chem. , 1988, 256 , 11–19 CrossRef CAS .
+ ###### 
+From cou.: 197 A. J. Bard and L. R. Faulkner, Electrochemical Methods, Fundamentals and Applications, 2nd edn, John Wiley & Sons Inc., Hoboken, NJ, 2001 Search PubMed .
+From Soup: 197 J. A. Alden, F. Hutchinson and R. G. Compton, J. Phys. Chem. B , 1997, 101 , 949–958 CrossRef CAS .
+ ###### 
+From cou.: 198 R. G. Compton and C. E. Banks, Understanding Voltammetry, 2nd edn, World Scientific, 2011 Search PubMed .
+From Soup: 198 C. Amatore and B. Fosset, Anal. Chem. , 1996, 68 , 4377–4388 CrossRef CAS .
+ ###### 
+From cou.: 199 J. Heinze, Angew. Chem., Int. Ed. Engl., 1993, 32, 1268–1288 CrossRef .
+From Soup: 199 S. R. Belding, N. V. Rees, L. Aldous, C. Hardacre and R. G. Compton, J. Phys. Chem. C , 2008, 112 , 1650–1657 CAS .
+ ###### 
+From cou.: 200 J. C. Myland and K. B. Oldham, J. Electroanal. Chem., 1993, 347, 49–91 CrossRef CAS .
+From Soup: 200 R. T. Robertson and B. D. Pendley, J. Electroanal. Chem. , 1994, 374 , 173–177 CrossRef CAS .
+ ###### 
+From cou.: 201 R. Wightman and D. Wipf, in Electroanalytical Chemistry, ed. A. J. Bard, 1st edn, Marcel Dekker, New York, 1988, vol. 15, p. 267 Search PubMed .
+From Soup: 201 O. V. Klymenko, C. Amatore and I. Svir, Anal. Chem. , 2007, 79 , 6341–6347 CrossRef CAS .
+ ###### 
+From cou.: 202 C. Amatore, E. Maisonhaute and G. Simonneau, Electrochem. Commun., 2000, 2, 81–84 CrossRef CAS .
+From Soup: 202 E. J. Dickinson, J. G. Limon-Petersen and R. G. Compton, J. Solid State Electrochem. , 2011, 15 , 1335–1345 CrossRef CAS .
+ ###### 
+From cou.: 203 C. Amatore, G. Farsang, E. Maisonhaute and P. Simon, J. Electroanal. Chem., 1999, 462, 55–62 CrossRef CAS .
+From Soup: 203 C. A. Amatore, B. Fosset, M. R. Deakin and R. M. Wightman, J. Electroanal. Chem. , 1987, 225 , 33–48 CrossRef CAS .
+ ###### 
+From cou.: 204 C. Amatore, E. Maisonhaute and G. Simonneau, J. Electroanal. Chem., 2000, 486, 141–155 CrossRef CAS .
+From Soup: 204 C. Amatore, M. R. Deakin and M. Wightman, J. Electroanal. Chem. , 1986, 206 , 23–36 CrossRef CAS .
+ ###### 
+From cou.: 205 I. Streeter and R. G. Compton, J. Phys. Chem. C, 2008, 112, 13716–13728 CAS .
+From Soup: 205 W. H. Press, S. A. Teukolsky, W. T. Vetterling and B. P. Flannery, Numerical Recipes: The Art of Scientific Computing , eds. Cambridge University Press, 2007 Search PubMed .
+ ###### 
+From cou.: 206 A. Bond, M. Fleischmann and J. Robinson, J. Electroanal. Chem., 1984, 172, 11–25 CrossRef CAS .
+From Soup: 206 A. Oleinick, C. Amatore and I. Svir, Electrochem. Commun. , 2004, 6 , 588–594 CrossRef CAS .
+ ###### 
+From cou.: 207 M. J. Palys, Z. Stojek, M. Bos and W. E. van der Linden, J. Electroanal. Chem., 1995, 383, 105–117 CrossRef .
+From Soup: 207 C. Amatore and B. Fosset, J. Electroanal. Chem. , 1992, 328 , 21–32 CrossRef CAS .
+ ###### 
+From cou.: 208 K. B. Oldham, J. Electroanal. Chem., 1988, 250, 1–21 CrossRef CAS .
+From Soup: 208 Y. Wang, E. I. Rogers and R. G. Compton, J. Electroanal. Chem. , 2010, 648 , 15–19 CrossRef CAS .
+ ###### 
+From cou.: 209 M. Ciszkowska and Z. Stojek, J. Electroanal. Chem., 1999, 466, 129–143 CrossRef CAS .
+From Soup: 209 D. J. Gavaghan, J. Electroanal. Chem. , 1997, 420 , 147–158 CrossRef CAS .
+ ###### 
+From cou.: 210 C. Amatore, M. R. Deakin and R. Wightman, J. Electroanal. Chem., 1987, 225, 49–63 CrossRef CAS .
+From Soup: 210 D. J. Gavaghan, J. Electroanal. Chem. , 1998, 456 , 25–35 CrossRef CAS .
+ ###### 
+From cou.: 211 J. C. Myland, K. B. Oldham and G. Zhu, Anal. Chem., 1988, 60, 1610–1621 CrossRef CAS .
+From Soup: 211 D. Shoup and A. Szabo, J. Electroanal. Chem. , 1982, 140 , 237–245 CrossRef CAS .
+ ###### 
+From cou.: 212 S. R. Belding, J. G. Limon-Petersen, E. J. F. Dickinson and R. G. Compton, Angew. Chem., Int. Ed., 2010, 49, 9242–9245 CrossRef CAS .
+From Soup: 212 Y. Wang, J. G. Limon-Petersen and R. G. Compton, J. Electroanal. Chem. , 2011, 652 , 13–17 CrossRef CAS .
+ ###### 
+From cou.: 213 E. O. Barnes, Y. Wang, S. R. Belding and R. G. Compton, ChemPhysChem, 2012, 13, 92–95 CrossRef CAS .
+From Soup: 213 T. L. Ferreira, T. R. L. C. Paixão, E. M. Richter, O. A. El Seoud and M. Bertotti, J. Phys. Chem. B , 2007, 111 , 12478–12484 CrossRef CAS .
+ ###### 
+From cou.: 214 D. R. Baker, M. W. Verbrugge and J. Newman, J. Electroanal. Chem., 1991, 314, 23–44 CrossRef CAS .
+From Soup: 214 E. Laborda, E. I. Rogers, F. Martinez-Ortiz, J. G. Limon-Petersen, N. V. Rees, A. Molina and R. G. Compton, J. Electroanal. Chem. , 2009, 634 , 1–10 CrossRef CAS .
+ ###### 
+From cou.: 215 M. W. Verbrugge and D. R. Baker, J. Phys. Chem., 1992, 96, 4572–4580 CrossRef CAS .
+From Soup: 215 S. Licht, V. Cammarata and M. S. Wrighton, J. Phys. Chem. , 1990, 94 , 6133–6140 CrossRef CAS .
+ ###### 
+From cou.: 216 A. M. Bond, K. B. Oldham and C. G. Zoski, J. Electroanal. Chem., 1988, 245, 71–104 CrossRef CAS .
+From Soup: 216 C. Beriet and D. J. Pletcher, J. Electroanal. Chem. , 1994, 375 , 213–218 CrossRef CAS .
+ ###### 
+From cou.: 217 K. B. Oldham, J. Electroanal. Chem., 1992, 337, 91–126 CrossRef CAS .
+From Soup: 217 R. G. Compton and G. H. W. Sanders, in: Electrode Potentials , ed. R. G. Compton, OUP, 1996 Search PubMed .
+ ###### 
+From cou.: 218 J. G. Limon-Petersen, I. Streeter, N. V. Rees and R. G. Compton, J. Phys. Chem. C, 2009, 113, 333–337 CAS .
+From Soup: 218 P. H. Rieger, Electrochemistry , Chapman & Hall, 1994 Search PubMed .
+ ###### 
+From cou.: 219 M. J. Palys and Z. Stojek, J. Electroanal. Chem., 2002, 534, 65–73 CrossRef CAS .
+From Soup: 219 P. Debye and E. Hückel, Phys. Z. , 1923, 24 , 185–206 CAS .
+ ###### 
+From cou.: 220 K. B. Oldham and C. G. Zoski, J. Electroanal. Chem., 1988, 256, 11–19 CrossRef CAS .
+From Soup: 220 G. M. Brown and N. Sutin, J. Am. Chem. Soc. , 1979, 101 , 883–892 CrossRef CAS .
+ ###### 
+From cou.: 221 J. A. Alden, F. Hutchinson and R. G. Compton, J. Phys. Chem. B, 1997, 101, 949–958 CrossRef CAS .
+From Soup: 221 J. V. Macpherson, C. E. Jones and P. R. Unwin, J. Phys. Chem. B , 1998, 102 , 9891–9897 CrossRef CAS .
+ ###### 
+From cou.: 222 C. Amatore and B. Fosset, Anal. Chem., 1996, 68, 4377–4388 CrossRef CAS .
+From Soup: 222 J. J. Watkins and H. S. White, Langmuir , 2004, 20 , 5474–5483 CrossRef CAS .
+ ###### 
+From cou.: 223 S. R. Belding, N. V. Rees, L. Aldous, C. Hardacre and R. G. Compton, J. Phys. Chem. C, 2008, 112, 1650–1657 CAS .
+From Soup: 223 therefore, increases with decreasing . Greater depletion of species A is therefore expected at the centre of the electrode, as shown in . where is the ionic strength, = 3.3 × 10 m is the radius of the electroactive ions (assumed equal). Excellent concordance between theory and experiment is shown in .
+ ###### 
+From cou.: 224 R. T. Robertson and B. D. Pendley, J. Electroanal. Chem., 1994, 374, 173–177 CrossRef CAS .
+From cou.: 225 O. V. Klymenko, C. Amatore and I. Svir, Anal. Chem., 2007, 79, 6341–6347 CrossRef CAS .
+From cou.: 226 E. J. Dickinson, J. G. Limon-Petersen and R. G. Compton, J. Solid State Electrochem., 2011, 15, 1335–1345 CrossRef CAS .
+From cou.: 227 C. A. Amatore, B. Fosset, M. R. Deakin and R. M. Wightman, J. Electroanal. Chem., 1987, 225, 33–48 CrossRef CAS .
+From cou.: 228 C. Amatore, M. R. Deakin and M. Wightman, J. Electroanal. Chem., 1986, 206, 23–36 CrossRef CAS .
+From cou.: 229 W. H. Press, S. A. Teukolsky, W. T. Vetterling and B. P. Flannery, Numerical Recipes: The Art of Scientific Computing, eds. Cambridge University Press, 2007 Search PubMed .
+From cou.: 230 A. Oleinick, C. Amatore and I. Svir, Electrochem. Commun., 2004, 6, 588–594 CrossRef CAS .
+From cou.: 231 C. Amatore and B. Fosset, J. Electroanal. Chem., 1992, 328, 21–32 CrossRef CAS .
+From cou.: 232 Y. Wang, E. I. Rogers and R. G. Compton, J. Electroanal. Chem., 2010, 648, 15–19 CrossRef CAS .
+From cou.: 233 D. J. Gavaghan, J. Electroanal. Chem., 1997, 420, 147–158 CrossRef CAS .
+From cou.: 234 D. J. Gavaghan, J. Electroanal. Chem., 1998, 456, 25–35 CrossRef CAS .
+From cou.: 235 D. Shoup and A. Szabo, J. Electroanal. Chem., 1982, 140, 237–245 CrossRef CAS .
+From cou.: 236 Y. Wang, J. G. Limon-Petersen and R. G. Compton, J. Electroanal. Chem., 2011, 652, 13–17 CrossRef CAS .
+From cou.: 237 T. L. Ferreira, T. R. L. C. Paixão, E. M. Richter, O. A. El Seoud and M. Bertotti, J. Phys. Chem. B, 2007, 111, 12478–12484 CrossRef CAS .
+From cou.: 238 E. Laborda, E. I. Rogers, F. Martinez-Ortiz, J. G. Limon-Petersen, N. V. Rees, A. Molina and R. G. Compton, J. Electroanal. Chem., 2009, 634, 1–10 CrossRef CAS .
+From cou.: 239 S. Licht, V. Cammarata and M. S. Wrighton, J. Phys. Chem., 1990, 94, 6133–6140 CrossRef CAS .
+From cou.: 240 C. Beriet and D. J. Pletcher, J. Electroanal. Chem., 1994, 375, 213–218 CrossRef CAS .
+From cou.: 241 R. G. Compton and G. H. W. Sanders, in: Electrode Potentials, ed. R. G. Compton, OUP, 1996 Search PubMed .
+From cou.: 242 P. H. Rieger, Electrochemistry, Chapman & Hall, 1994 Search PubMed .
+From cou.: 243 P. Debye and E. Hückel, Phys. Z., 1923, 24, 185–206 CAS .
+From cou.: 244 G. M. Brown and N. Sutin, J. Am. Chem. Soc., 1979, 101, 883–892 CrossRef CAS .
+From cou.: 245 J. V. Macpherson, C. E. Jones and P. R. Unwin, J. Phys. Chem. B, 1998, 102, 9891–9897 CrossRef CAS .
+From cou.: 246 J. J. Watkins and H. S. White, Langmuir, 2004, 20, 5474–5483 CrossRef CAS .

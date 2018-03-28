@@ -1,0 +1,1067 @@
+From cou.: 0 Journal
+From Soup: 0 Integr. Biol.
+ ###### 
+From cou.: 1 Efforts in evolutionary developmental biology have shed light on how organs are developed and why evolution has selected some structures instead of others. These advances in the understanding of organogenesis along with the most recent techniques of organotypic cultures, tissue bioprinting and synthetic biology provide the tools to hack the physical and genetic constraints in organ development, thus opening new avenues for research in the form of completely designed or merely altered settings. Here we propose a unifying framework that connects the concept of morphospace (i.e. the space of possible structures) with synthetic biology and tissue engineering. We aim for a synthesis that incorporates our understanding of both evolutionary and architectural constraints and can be used as a guide for exploring alternative design principles to build artificial organs and organoids. We present a three-dimensional morphospace incorporating three key features associated to organ and organoid complexity. The axes of this space include the degree of complexity introduced by developmental mechanisms required to build the structure, its potential to store and react to information and the underlying physical state. We suggest that a large fraction of this space is empty, and that the void might offer clues for alternative ways of designing and even inventing new organs.
+From Soup: 1 Efforts in evolutionary developmental biology have shed light on how organs are developed and why evolution has selected some structures instead of others. These advances in the understanding of organogenesis along with the most recent techniques of organotypic cultures, tissue bioprinting and synthetic biology provide the tools to hack the physical and genetic constraints in organ development, thus opening new avenues for research in the form of completely designed or merely altered settings. Here we propose a unifying framework that connects the concept of morphospace ( i.e. the space of possible structures) with synthetic biology and tissue engineering. We aim for a synthesis that incorporates our understanding of both evolutionary and architectural constraints and can be used as a guide for exploring alternative design principles to build artificial organs and organoids. We present a three-dimensional morphospace incorporating three key features associated to organ and organoid complexity. The axes of this space include the degree of complexity introduced by developmental mechanisms required to build the structure, its potential to store and react to information and the underlying physical state. We suggest that a large fraction of this space is empty, and that the void might offer clues for alternative ways of designing and even inventing new organs.
+ ###### 
+From cou.: 2 The twenty-first century has witnessed the advent of synthetic biology, a new spin on biological engineering tasked with developing strategies for the purposeful modification of biological components in order to obtain novel and useful functions or behaviours in living organisms. This discipline has been enabled by several technological innovations that help synthetic biologists systematically alter biological information, by reorganising genes and coding and regulatory sequences, guided by the extensive knowledge gathered by cellular and molecular biologists.
+From Soup: 2 The twenty-first century has witnessed the advent of synthetic biology, a new spin on biological engineering tasked with developing strategies for the purposeful modification of biological components in order to obtain novel and useful functions or behaviours in living organisms. This discipline has been enabled by several technological innovations that help synthetic biologists systematically alter biological information, by reorganising genes and coding and regulatory sequences, guided by the extensive knowledge gathered by cellular and molecular biologists.
+ ###### 
+From cou.: 3 Synthetic biology has been inspired by traditional engineering principles such as predictability, modularity and scalability. When these properties are available to the engineer, a bottom-up approach to the design and building of machines (living or otherwise) can be pursued. This means, as with other long-established engineering disciplines like electronics, that a collection of parts with well-defined functionality and behaviour can be used to construct more complicated machines by means of appropriately connecting and combining these components. This view has been repeatedly articulated as an implicit design approach to biological systems within the synthetic biology community: artificial constructs can be obtained from collections of lower-level components in such a way that their performance and behaviour are essentially modular and predictable.1
+From Soup: 3 Synthetic biology has been inspired by traditional engineering principles such as predictability, modularity and scalability. When these properties are available to the engineer, a bottom-up approach to the design and building of machines (living or otherwise) can be pursued. This means, as with other long-established engineering disciplines like electronics, that a collection of parts with well-defined functionality and behaviour can be used to construct more complicated machines by means of appropriately connecting and combining these components. This view has been repeatedly articulated as an implicit design approach to biological systems within the synthetic biology community: artificial constructs can be obtained from collections of lower-level components in such a way that their performance and behaviour are essentially modular and predictable. 1
+ ###### 
+From cou.: 4 Such expected predictability needs to be confronted with the existence of the so-called emergent properties.3–11 These properties relate to higher-order phenomena that result from the interactions among components belonging to the low-level scale3 that cannot be reduced to the properties of the lower-scale elements. Examples of emergent phenomena include cellular and molecular assemblies,12 morphogenesis,13,14 collective behavior in social animals,15–17 cancer cell patterns,18 microbial population growth19 or neural networks and brains.20,21 In a nutshell, neither the construction of a nest nor the cognitive complexity of a neural network can be reduced to the dynamics of single ants or neurones, yet they are brought about by the countless interactions among the lower-level entities.
+From Soup: 4 Such expected predictability needs to be confronted with the existence of the so-called emergent properties. 3–11 These properties relate to higher-order phenomena that result from the interactions among components belonging to the low-level scale 3 that cannot be reduced to the properties of the lower-scale elements. Examples of emergent phenomena include cellular and molecular assemblies, 12 morphogenesis, 13,14 collective behavior in social animals, 15–17 cancer cell patterns, 18 microbial population growth 19 or neural networks and brains. 20,21 In a nutshell, neither the construction of a nest nor the cognitive complexity of a neural network can be reduced to the dynamics of single ants or neurones, yet they are brought about by the countless interactions among the lower-level entities.
+ ###### 
+From cou.: 5 At the level of tissues and organs, self-organisation processes provide multiple illustrations of how higher-order patterns emerge.22–24 Similarly, many of the outcomes of development escape explanations confined to the gene or gene network levels. Morphogenetic mechanisms rely on tightly regulated chains of events and a dynamical change of boundaries resulting from the growth, deformation and chemical modification of tissues. This feedback between agents and their environment, also known as stigmergy,25,26 is a crucial feature of many collective phenomena. The presence of emergence does not limit our understanding of nature, but clearly defines a limit to what can be predicted from a detailed understanding of the component parts. In fact, the physics of phase transitions shows that most examples of collective dynamics can be accurately explained by means of models that largely ignore these details. Instead, interactions and boundary conditions play the leading role.5,7
+From Soup: 5 At the level of tissues and organs, self-organisation processes provide multiple illustrations of how higher-order patterns emerge. 22–24 Similarly, many of the outcomes of development escape explanations confined to the gene or gene network levels. Morphogenetic mechanisms rely on tightly regulated chains of events and a dynamical change of boundaries resulting from the growth, deformation and chemical modification of tissues. This feedback between agents and their environment, also known as stigmergy, 25,26 is a crucial feature of many collective phenomena. The presence of emergence does not limit our understanding of nature, but clearly defines a limit to what can be predicted from a detailed understanding of the component parts. In fact, the physics of phase transitions shows that most examples of collective dynamics can be accurately explained by means of models that largely ignore these details. Instead, interactions and boundary conditions play the leading role. 5,7
+ ###### 
+From cou.: 6 Nonetheless, despite the common acceptance of the interrelation between environmental constraints, cellular self-organisation and gene regulation,27 some controversy persists today. Most research has been traditionally focused on a reductionist program dealing almost exclusively with genes, treating the organism as a mere epiphenomenon28 (Fig. 1a). Models of pattern formation based on positional information would illustrate this idea: a given signal gradient provides a cue to differentiation that is easily interpreted by cells. A more complete view was provided by the late Pere Alberch (Fig. 1b), linking gene regulation and transcription to tissue geometry. Once again, gene expression can only be seen as a necessary condition for morphogenetic dynamics, but it is far from sufficient. Even simple models of interaction between pattern formation and tissue/organ geometry reveal complex interactions that are not reducible to linear mappings.29–32
+From Soup: 6 Nonetheless, despite the common acceptance of the interrelation between environmental constraints, cellular self-organisation and gene regulation, 27 some controversy persists today. Most research has been traditionally focused on a reductionist program dealing almost exclusively with genes, treating the organism as a mere epiphenomenon 28 ( Fig. 1a ). Models of pattern formation based on positional information would illustrate this idea: a given signal gradient provides a cue to differentiation that is easily interpreted by cells. A more complete view was provided by the late Pere Alberch ( Fig. 1b ), linking gene regulation and transcription to tissue geometry. Once again, gene expression can only be seen as a necessary condition for morphogenetic dynamics, but it is far from sufficient. Even simple models of interaction between pattern formation and tissue/organ geometry reveal complex interactions that are not reducible to linear mappings. 29–32
+ ###### 
+From cou.: 7 The lack of a simple genotype–phenotype mapping is a consequence of two key components. One is the information associated to cell interactions, geometry and boundary conditions in embryogenesis. The second is the widespread use of tinkering made by evolution,33 which defines in fact a crucial difference between evolution and engineering. Whereas the human inventor can create novel structures out of new designs or materials, evolution does not. Sometimes, tinkering leads to optimality, and natural designs fit the expectation of the engineer. This is the case of most branching patterns that can be found within large living systems (Fig. 1c). In this case, the system displays a self-similar organisation of nested trees that can be fully understood as a problem of embedding the tree structure in a given finite space. But in most developmental processes (Fig. 1d) tinkering leads to tangled networks of interactions.34–36
+From Soup: 7 The lack of a simple genotype–phenotype mapping is a consequence of two key components. One is the information associated to cell interactions, geometry and boundary conditions in embryogenesis. The second is the widespread use of tinkering made by evolution, 33 which defines in fact a crucial difference between evolution and engineering. Whereas the human inventor can create novel structures out of new designs or materials, evolution does not. Sometimes, tinkering leads to optimality, and natural designs fit the expectation of the engineer. This is the case of most branching patterns that can be found within large living systems ( Fig. 1c ). In this case, the system displays a self-similar organisation of nested trees that can be fully understood as a problem of embedding the tree structure in a given finite space. But in most developmental processes ( Fig. 1d ) tinkering leads to tangled networks of interactions. 34–36
+ ###### 
+From cou.: 8 How is this connected with the potential to create synthetic organs? Engineers aim to construct functional objects given a repertoire of available components and design rules, often inspired by the scalability of electronic designs. What are the limits of our potential for engineering living tissues? Are there multiple solutions to design organs to solve a given problem? A tentative answer might come from the widespread presence of convergent evolution:37 the same solutions to given problems are found independently. This is illustrated by the camera eye, which has evolved multiple times in different lineages to essentially the same design. This includes the broadest range of groups (Fig. 2a and b) from marine snails, squids or some types of jellyfish to the vertebrate eye and even the ocelloids of some single-celled dinoflagellates38,39 (Fig. 2c). The widespread emergence of this structure might result from a combination of optimal design (there is one solution that humans also discovered while inventing cameras) and self-organisation processes associated to the morphogenesis of eyes. Yoshiki Sasai's classic experiments40–42 on the formation of primordial eyes from embryonic stem cells (Fig. 2) illustrate this. Here structural motifs are generated from the interactions between genetic and cellular-level mechanisms. Embodiment, self-organisation and system-level constraints play a leading role. This gives an important message to engineers aiming at creating new organs: both self-organisation and emergence are likely to be inevitable (but perhaps helpful) components of future bioengineering procedures.
+From Soup: 8 How is this connected with the potential to create synthetic organs? Engineers aim to construct functional objects given a repertoire of available components and design rules, often inspired by the scalability of electronic designs. What are the limits of our potential for engineering living tissues? Are there multiple solutions to design organs to solve a given problem? A tentative answer might come from the widespread presence of convergent evolution: 37 the same solutions to given problems are found independently. This is illustrated by the camera eye, which has evolved multiple times in different lineages to essentially the same design. This includes the broadest range of groups ( Fig. 2a and b ) from marine snails, squids or some types of jellyfish to the vertebrate eye and even the ocelloids of some single-celled dinoflagellates 38,39 ( Fig. 2c ). The widespread emergence of this structure might result from a combination of optimal design (there is one solution that humans also discovered while inventing cameras) and self-organisation processes associated to the morphogenesis of eyes. Yoshiki Sasai's classic experiments 40–42 on the formation of primordial eyes from embryonic stem cells ( Fig. 2 ) illustrate this. Here structural motifs are generated from the interactions between genetic and cellular-level mechanisms. Embodiment, self-organisation and system-level constraints play a leading role. This gives an important message to engineers aiming at creating new organs: both self-organisation and emergence are likely to be inevitable (but perhaps helpful) components of future bioengineering procedures.
+ ###### 
+From cou.: 9 Here we aim to present a new picture of the design space of organs and organoids. Our goal is to provide a balanced view of the space of possible structures that include both natural and some artificial systems. This is known as the morphospace.45–49 The morphospace has been extensively used within evolutionary biology as a way of describing the spectrum of physically possible forms available to a given group of organisms. But the approach can be made general and applied to networks.50–53 Two main lessons can be extracted from the analysis of these spaces. One is that the occupied regions indicate accessible solutions for evolved systems as well as potential trade-offs that constrain the structural designs achievable. The second is that the presence of empty spaces can indicate (a) impossible designs or evolutionarily improbable designs or (b) designs that might not be accessible under some conditions but can be achieved through engineering approaches. Any of these possibilities is relevant when dealing with design principles for synthetic biology. Empty spaces might indicate that strong constraints forbid us from achieving solutions in that domain. However, they might be simply unlikely to be generated by evolution, but accessible to our engineering skills. If that is the case, we can obtain valuable lessons and guidance concerning our potential for engineering biological systems following orthogonal schemes. Moreover, if synthetic biology can be understood as a way to interrogate nature,54 the morphospace can also be a powerful guideline to ask ourselves about the logic of biological organisation and its limits.
+From Soup: 9 Here we aim to present a new picture of the design space of organs and organoids. Our goal is to provide a balanced view of the space of possible structures that include both natural and some artificial systems. This is known as the morphospace. 45–49 The morphospace has been extensively used within evolutionary biology as a way of describing the spectrum of physically possible forms available to a given group of organisms. But the approach can be made general and applied to networks. 50–53 Two main lessons can be extracted from the analysis of these spaces. One is that the occupied regions indicate accessible solutions for evolved systems as well as potential trade-offs that constrain the structural designs achievable. The second is that the presence of empty spaces can indicate (a) impossible designs or evolutionarily improbable designs or (b) designs that might not be accessible under some conditions but can be achieved through engineering approaches. Any of these possibilities is relevant when dealing with design principles for synthetic biology. Empty spaces might indicate that strong constraints forbid us from achieving solutions in that domain. However, they might be simply unlikely to be generated by evolution, but accessible to our engineering skills. If that is the case, we can obtain valuable lessons and guidance concerning our potential for engineering biological systems following orthogonal schemes. Moreover, if synthetic biology can be understood as a way to interrogate nature, 54 the morphospace can also be a powerful guideline to ask ourselves about the logic of biological organisation and its limits.
+ ###### 
+From cou.: 10 The morphospace that we want to build must include both natural organs and artificial, designed systems. In order to define the right axes for our organ space, we will first review the different ways in which engineers and synthetic biologists have been able to tame cells and their environments, thus potentially expanding the space of possible designs. This will provide us a general picture of the different approaches aimed to change both functional and structural patterns in living tissues and organs, but also of the twilight zone that separates a standard definition of organ from what can be obtained by artificial means.
+From Soup: 10 The morphospace that we want to build must include both natural organs and artificial, designed systems. In order to define the right axes for our organ space, we will first review the different ways in which engineers and synthetic biologists have been able to tame cells and their environments, thus potentially expanding the space of possible designs. This will provide us a general picture of the different approaches aimed to change both functional and structural patterns in living tissues and organs, but also of the twilight zone that separates a standard definition of organ from what can be obtained by artificial means.
+ ###### 
+From cou.: 11 To developmental biologists, an organ is a collection of tissues joined in a structural unit to perform a specific function, with the tissue being an ensemble of similar cells with a common origin that carry out a function.55 However, the boundaries of what defines an organ are blurred once we enter the artificial domain, where organs can be constructed from cells of different origin and might harbour differently altered genotypes for instance. An organ then could be redefined as a set of agents able to implement a common function, but also able to communicate and be coordinated in order to build temporal and spatial order. In this context, microbial biofilms living in our teeth or gut could be seen as an organ, but also bioprinted tissues, chip encapsulated organs, as well as tumours or organoids, since they are functionally coherent structures. Moreover, artificial organs can incorporate non-biological materials and communicate with electronic components, thus pushing the boundaries of the possible (Fig. 3). Those readers already familiar with these techniques can go straight to Section 3.
+From Soup: 11 To developmental biologists, an organ is a collection of tissues joined in a structural unit to perform a specific function, with the tissue being an ensemble of similar cells with a common origin that carry out a function. 55 However, the boundaries of what defines an organ are blurred once we enter the artificial domain, where organs can be constructed from cells of different origin and might harbour differently altered genotypes for instance. An organ then could be redefined as a set of agents able to implement a common function, but also able to communicate and be coordinated in order to build temporal and spatial order. In this context, microbial biofilms living in our teeth or gut could be seen as an organ, but also bioprinted tissues, chip encapsulated organs, as well as tumours or organoids, since they are functionally coherent structures. Moreover, artificial organs can incorporate non-biological materials and communicate with electronic components, thus pushing the boundaries of the possible ( Fig. 3 ). Those readers already familiar with these techniques can go straight to Section 3.
+ ###### 
+From cou.: 12 Let us start with different ways to manipulate cellular properties by engineering gene regulatory networks affecting developmental pathways56 like cell–cell signalling,57–62 epigenetic modification63–66 or signal transduction and interpretation.67–69 Progress here has been particularly significant, showcasing the construction of prosthetic gene networks that can serve as computation or interpretation devices for developmental signals, from switches or oscillators to complex computational devices.68,70–79
+From Soup: 12 Let us start with different ways to manipulate cellular properties by engineering gene regulatory networks affecting developmental pathways 56 like cell–cell signalling, 57–62 epigenetic modification 63–66 or signal transduction and interpretation. 67–69 Progress here has been particularly significant, showcasing the construction of prosthetic gene networks that can serve as computation or interpretation devices for developmental signals, from switches or oscillators to complex computational devices. 68,70–79
+ ###### 
+From cou.: 13 Genome editing tools allow high specificity, low interference genomic modifications.80,81 The engineering of programmable DNA nucleases, like zinc-finger nucleases (ZFN), TALENs or CRISPR-Cas9, allows the introduction of double strand breaks at specific sites of the DNA. ZFN and TALENs are chimeric proteins which consist of DNA binding domains (ZFs or TALEs) and a nuclease,82–84 while the CRISPR-Cas9 platform85 consists of a small RNA sequence, namely ‘guide RNA’ (CRISPR), able to recognise the DNA sequences of interest and Cas9, which can display nuclease activity, among others.86 Nonetheless, there are still challenges that need to be confronted to have a widespread use of these techniques in mammalian cells.87–90 An alternative is the use of artificial chromosome structures able to incorporate whole synthetic gene networks.91
+From Soup: 13 Genome editing tools allow high specificity, low interference genomic modifications. 80,81 The engineering of programmable DNA nucleases, like zinc-finger nucleases (ZFN), TALENs or CRISPR-Cas9, allows the introduction of double strand breaks at specific sites of the DNA. ZFN and TALENs are chimeric proteins which consist of DNA binding domains (ZFs or TALEs) and a nuclease, 82–84 while the CRISPR-Cas9 platform 85 consists of a small RNA sequence, namely ‘guide RNA’ (CRISPR), able to recognise the DNA sequences of interest and Cas9, which can display nuclease activity, among others. 86 Nonetheless, there are still challenges that need to be confronted to have a widespread use of these techniques in mammalian cells. 87–90 An alternative is the use of artificial chromosome structures able to incorporate whole synthetic gene networks. 91
+ ###### 
+From cou.: 14 The control of epigenetic processes allows one to write new developmental programs (Fig. 4a).65,66 Contributions range from the use of optogenetics64 to the direct efficient targeted demethylation through TALEs fused to a catalytic domain.92 TALEs fused to histone demethylase63 and CRISPR-Cas9 fused to a repressor93 have been used for the inactivation of enhancer chromatin down-regulating proximal genes. Importantly, RNA-mediated epigenetic regulation94 provides another path to alter gene expression.
+From Soup: 14 The control of epigenetic processes allows one to write new developmental programs ( Fig. 4a ). 65,66 Contributions range from the use of optogenetics 64 to the direct efficient targeted demethylation through TALEs fused to a catalytic domain. 92 TALEs fused to histone demethylase 63 and CRISPR-Cas9 fused to a repressor 93 have been used for the inactivation of enhancer chromatin down-regulating proximal genes. Importantly, RNA-mediated epigenetic regulation 94 provides another path to alter gene expression.
+ ###### 
+From cou.: 15 Synthetic biology allows one to alter transcriptional regulation by activating or repressing gene transcription through transcription factors (TF) appropriately bound to DNA binding domains, the zinc-fingers, TALEs and CRISPR-Cas9 being the ones currently used. Several projects, such as the building of a library of orthogonal synthetic TF using artificial ZF,95 a library of TALE repressors that bind newly designed hybrid promoters69 or the coupling of a catalytically inactive dCas9 to a transcriptional repressor domain able to robustly silence expression of multiple genes, among others,86,96–98 show the great potential to alter regulatory networks. Moreover, optogenetic methods enable a dynamical control of this process.99
+From Soup: 15 Synthetic biology allows one to alter transcriptional regulation by activating or repressing gene transcription through transcription factors (TF) appropriately bound to DNA binding domains, the zinc-fingers, TALEs and CRISPR-Cas9 being the ones currently used. Several projects, such as the building of a library of orthogonal synthetic TF using artificial ZF, 95 a library of TALE repressors that bind newly designed hybrid promoters 69 or the coupling of a catalytically inactive dCas9 to a transcriptional repressor domain able to robustly silence expression of multiple genes, among others, 86,96–98 show the great potential to alter regulatory networks. Moreover, optogenetic methods enable a dynamical control of this process. 99
+ ###### 
+From cou.: 16 Control of gene expression can be also engineered at the post-transcriptional level. Non-coding RNAs (ncRNAs) have a relevant role in this process, as RNA modules are engineered to respond to several types of molecular inputs, such as small molecules, metabolites or proteins (i.e. aptamers). Ligand-responsive riboregulators enable post-transcriptional gene expression with an external control,100,101 while ribozymes and riboswitches have also shown direct implications for gene expression,102 becoming targets of synthetic modification at an ever-increasing rate. Programmable sensing-actuation devices have also been designed.67 Importantly, the engineering of RNA molecules is not limited to post-transcriptional regulators, as they display sensing, regulatory, information processing and scaffolding activities with great potential to reprogram cellular behaviour at other levels.103
+From Soup: 16 Control of gene expression can be also engineered at the post-transcriptional level. Non-coding RNAs (ncRNAs) have a relevant role in this process, as RNA modules are engineered to respond to several types of molecular inputs, such as small molecules, metabolites or proteins ( i.e. aptamers). Ligand-responsive riboregulators enable post-transcriptional gene expression with an external control, 100,101 while ribozymes and riboswitches have also shown direct implications for gene expression, 102 becoming targets of synthetic modification at an ever-increasing rate. Programmable sensing-actuation devices have also been designed. 67 Importantly, the engineering of RNA molecules is not limited to post-transcriptional regulators, as they display sensing, regulatory, information processing and scaffolding activities with great potential to reprogram cellular behaviour at other levels. 103
+ ###### 
+From cou.: 17 Signalling networks can be rewired to change cellular responses to either endogenous67 or externally applied stimuli.68 This requires unraveling protein–protein interactions (PPI) with engineering prospects,104 or taking into consideration the problem of crosstalk to design and create orthogonal (non-crossreacting) protein–protein interfaces.105,106 Extracellular signals being transduced to the nucleus through a receptor's intracellular domain107 allow for a controlled behaviour at a nuclear level in a ligand-dependent fashion.108 Furthermore, directed molecular evolution can be a powerful tool to receptor design.109 On the other hand, engineered systems controlling protein splicing110–112 as well as optogenetic tools113 are being developed due to the regulatory opportunities they offer.
+From Soup: 17 Signalling networks can be rewired to change cellular responses to either endogenous 67 or externally applied stimuli. 68 This requires unraveling protein–protein interactions (PPI) with engineering prospects, 104 or taking into consideration the problem of crosstalk to design and create orthogonal (non-crossreacting) protein–protein interfaces. 105,106 Extracellular signals being transduced to the nucleus through a receptor's intracellular domain 107 allow for a controlled behaviour at a nuclear level in a ligand-dependent fashion. 108 Furthermore, directed molecular evolution can be a powerful tool to receptor design. 109 On the other hand, engineered systems controlling protein splicing 110–112 as well as optogenetic tools 113 are being developed due to the regulatory opportunities they offer.
+ ###### 
+From cou.: 18 The final fate of a cell in a tissue is influenced by environmental interactions, which also participate in the self-organisation of tissues and organs. Most efforts within tissue-engineering have been focused on reproducing as reliably as possible the cellular microenvironment.116 Since the environment can be engineered in ways that are forbidden to real development, it provides a crucial element to expand our morphospace. A clear example involves the dimensionality of the environment. Cells cultured in a 3D microenvironment exhibit a gene expression profile, cell morphology and migration activity more similar to physiological conditions than cells of 2D cultures. The scaffolds or hydrogels used in such cultures are polymers that mimic the native extracellular matrix (ECM).117–120 Several studies have tackled this issue, achieving promising results.121–125 Appropriate scaffold designs can improve diverse conditions affecting cell viability, stem cell differentiation and cell migration.126–129
+From Soup: 18 The final fate of a cell in a tissue is influenced by environmental interactions, which also participate in the self-organisation of tissues and organs. Most efforts within tissue-engineering have been focused on reproducing as reliably as possible the cellular microenvironment. 116 Since the environment can be engineered in ways that are forbidden to real development, it provides a crucial element to expand our morphospace. A clear example involves the dimensionality of the environment. Cells cultured in a 3D microenvironment exhibit a gene expression profile, cell morphology and migration activity more similar to physiological conditions than cells of 2D cultures. The scaffolds or hydrogels used in such cultures are polymers that mimic the native extracellular matrix (ECM). 117–120 Several studies have tackled this issue, achieving promising results. 121–125 Appropriate scaffold designs can improve diverse conditions affecting cell viability, stem cell differentiation and cell migration. 126–129
+ ###### 
+From cou.: 19 Using the correct mix of progenitor, ES or iPS cell cultures in the appropriate 3D context and biochemical conditions, a 3D structure similar to physiological tissues emerges, with self-organisation playing a critical role in this process. The resulting so-called organoids resemble real organs and can even display some of their characteristic functions. Several organoids resemble organs originating from the ectoderm, such as optic cups,40 storable stratified neural retina,42 polarised cortical tissue,130 cerebral cortex131 and inner ear.132 On the other hand, we find organoids recreating digestive system organs, such as the human liver,133 intestinal tissue134 and crypt villus structures,135 gastric tissue136 and pancreas,137 aimed at modelling human disease. Embryonic kidney structures have also been developed.138 Although the potential of building organoids represents a major advance, some of them lack key cell types and others do not progress beyond an early developmental or embryonic stage in culture,133,138 although some can progress in development after in vivo implantation.139,140
+From Soup: 19 Using the correct mix of progenitor, ES or iPS cell cultures in the appropriate 3D context and biochemical conditions, a 3D structure similar to physiological tissues emerges, with self-organisation playing a critical role in this process. The resulting so-called organoids resemble real organs and can even display some of their characteristic functions. Several organoids resemble organs originating from the ectoderm, such as optic cups, 40 storable stratified neural retina, 42 polarised cortical tissue, 130 cerebral cortex 131 and inner ear. 132 On the other hand, we find organoids recreating digestive system organs, such as the human liver, 133 intestinal tissue 134 and crypt villus structures, 135 gastric tissue 136 and pancreas, 137 aimed at modelling human disease. Embryonic kidney structures have also been developed. 138 Although the potential of building organoids represents a major advance, some of them lack key cell types and others do not progress beyond an early developmental or embryonic stage in culture, 133,138 although some can progress in development after in vivo implantation. 139,140
+ ###### 
+From cou.: 20 A very important advance has been provided by microfluidic devices and micropatterning148 to control the microenvironment, creating stable molecular gradients and flows149,150 and allowing cell compartmentalisation.151,152 They provide a repertoire of possible environments way beyond the natural counterparts.153–155 A major outcome of microfluidics is provided by the so-called organs-on-a-chip.156–158 The cells cultured inside the chip are monitored by the digital components that control the inflow of nutrients, gases or chemical signals, overcoming the limitations of the conventional 3D culture.159 They allow reproducing the biology of organs and the analysis of their responses under highly controlled conditions.160–162
+From Soup: 20 A very important advance has been provided by microfluidic devices and micropatterning 148 to control the microenvironment, creating stable molecular gradients and flows 149,150 and allowing cell compartmentalisation. 151,152 They provide a repertoire of possible environments way beyond the natural counterparts. 153–155 A major outcome of microfluidics is provided by the so-called organs-on-a-chip. 156–158 The cells cultured inside the chip are monitored by the digital components that control the inflow of nutrients, gases or chemical signals, overcoming the limitations of the conventional 3D culture. 159 They allow reproducing the biology of organs and the analysis of their responses under highly controlled conditions. 160–162
+ ###### 
+From cou.: 21 A final approach to engineering organs while preserving some key structural constraints is to keep their original extracellular matrix. These decellularised organs provide a cell-free scaffold,163 guiding cells into the desired organ structure. Several attempts have already been pursued in trying to rebuild a heart,164 a liver165 or a lung.166,167 An important issue here are the limits imposed by reconstructing these large structures outside from the whole organism context. Additionally, it is possible to use bioprinting to produce tissues and organoids.114,168 Bioprinters relying on the inkjet technology, with ejected drops that can contain either individual cells or clusters of them, still lack the capacity to ensure appropriate cell density and survival169,170 and rely on cellular self-assembly properties.171–173 Alternative bioprinters use mechanical extruders to deliver multicellular aggregates of specific composition on a support following the desired topology.174 In this approach, the cells inside the aggregates are in a 3D environment that allows cells to self-reassemble forming small organoids that will then fuse to one another175,176 (see Fig. 4b). Endothelial cells, when co-cultured in an appropriate 3D environment, organise themselves into tubular forms in-between and throughout structures.177 It is essential to simultaneously build a vascular network178 and great efforts have been pursued in this direction.172,173,179–181 For example, the most modern bioprinters allow for direct extrusion of angiogenic tubular networks at the same time as the tissue.182–184
+From Soup: 21 A final approach to engineering organs while preserving some key structural constraints is to keep their original extracellular matrix. These decellularised organs provide a cell-free scaffold, 163 guiding cells into the desired organ structure. Several attempts have already been pursued in trying to rebuild a heart, 164 a liver 165 or a lung. 166,167 An important issue here are the limits imposed by reconstructing these large structures outside from the whole organism context. Additionally, it is possible to use bioprinting to produce tissues and organoids. 114,168 Bioprinters relying on the inkjet technology, with ejected drops that can contain either individual cells or clusters of them, still lack the capacity to ensure appropriate cell density and survival 169,170 and rely on cellular self-assembly properties. 171–173 Alternative bioprinters use mechanical extruders to deliver multicellular aggregates of specific composition on a support following the desired topology. 174 In this approach, the cells inside the aggregates are in a 3D environment that allows cells to self-reassemble forming small organoids that will then fuse to one another 175,176 (see Fig. 4b ). Endothelial cells, when co-cultured in an appropriate 3D environment, organise themselves into tubular forms in-between and throughout structures. 177 It is essential to simultaneously build a vascular network 178 and great efforts have been pursued in this direction. 172,173,179–181 For example, the most modern bioprinters allow for direct extrusion of angiogenic tubular networks at the same time as the tissue. 182–184
+ ###### 
+From cou.: 22 The idea that synthetic biology should take advantage of the self-organising properties is supported by different approaches. The field of morphogenetic engineering,185 for example, explicitly considers the self-formation capabilities of biological systems and how they can be integrated with technological design. In similar lines, the work by Liu et al.186 showed that E. coli cells can be engineered to form periodic stripes, being one of the few examples of an engineered self-organised process in synthetic biology. Interestingly, there is a lack of similar examples involving engineered mammalian cell lines. On the other hand, self-organisation plays a decisive role in many of the approaches used in tissue engineering when trying to build organ and tissue-level structures. However, this is achieved without proper control on the cellular behaviour, as all the currently used techniques rely on the natural cellular developmental programs, resulting in a field still dominated mostly by a trial and error strategy.187
+From Soup: 22 The idea that synthetic biology should take advantage of the self-organising properties is supported by different approaches. The field of morphogenetic engineering, 185 for example, explicitly considers the self-formation capabilities of biological systems and how they can be integrated with technological design. In similar lines, the work by Liu et al. 186 showed that E. coli cells can be engineered to form periodic stripes, being one of the few examples of an engineered self-organised process in synthetic biology. Interestingly, there is a lack of similar examples involving engineered mammalian cell lines. On the other hand, self-organisation plays a decisive role in many of the approaches used in tissue engineering when trying to build organ and tissue-level structures. However, this is achieved without proper control on the cellular behaviour, as all the currently used techniques rely on the natural cellular developmental programs, resulting in a field still dominated mostly by a trial and error strategy. 187
+ ###### 
+From cou.: 23 This suggests that synthetic biology and tissue engineering need to be taken together58,188,189 when aiming to design organs and organoids. Jamie Davies et al.,190,191 who coined the term synthetic morphology, first proposed the application of synthetic biology to the problem of regenerating structures, which would have implications for regenerative medicine. This involves a systems engineering perspective that includes modelling and developing a modular library of synthetic morphogenetic driver genes to control different processes typically related with morphology, i.e. cell adhesion, locomotion or fusion, among others. Other related studies in the field of synthetic biology aim to control cell density,192 cell migration,193,194 cell adhesion195 and cellular communication,57,108 all key processes in the development of organ structures.
+From Soup: 23 This suggests that synthetic biology and tissue engineering need to be taken together 58,188,189 when aiming to design organs and organoids. Jamie Davies et al. , 190,191 who coined the term synthetic morphology, first proposed the application of synthetic biology to the problem of regenerating structures, which would have implications for regenerative medicine. This involves a systems engineering perspective that includes modelling and developing a modular library of synthetic morphogenetic driver genes to control different processes typically related with morphology, i.e. cell adhesion, locomotion or fusion, among others. Other related studies in the field of synthetic biology aim to control cell density, 192 cell migration, 193,194 cell adhesion 195 and cellular communication, 57,108 all key processes in the development of organ structures.
+ ###### 
+From cou.: 24 Some studies have already shown the potential of genetically modifying cells in a tissue engineering framework. Notably, several studies addressed the problem of proper engraftment of cells in composite tissue matrices.115,196–198 The proposed solution involves using a gene activated matrix (GAMs), which consists of a matrix with associated DNA vectors, which are slowly released and delivered into reparative cells (see Fig. 4c). By expressing the transgene, the infiltrating cells enhance migration and promote differentiation. The safety and efficiency of printing DNA vectors in GAMs for transfecting target cells surpasses the benefits of direct delivery of growth factors. Protein–protein interactions designed for synthetic switches in mammalian cells199 have been successfully used to control the release of drugs from hydrogels.200 For example, vascular endothelial growth factor (VEGF) loaded into the hydrogel can be released in a dose-dependent manner by oral administration of the trigger compound,201 opening new interesting avenues for research and therapy.
+From Soup: 24 Some studies have already shown the potential of genetically modifying cells in a tissue engineering framework. Notably, several studies addressed the problem of proper engraftment of cells in composite tissue matrices. 115,196–198 The proposed solution involves using a gene activated matrix (GAMs), which consists of a matrix with associated DNA vectors, which are slowly released and delivered into reparative cells (see Fig. 4c ). By expressing the transgene, the infiltrating cells enhance migration and promote differentiation. The safety and efficiency of printing DNA vectors in GAMs for transfecting target cells surpasses the benefits of direct delivery of growth factors. Protein–protein interactions designed for synthetic switches in mammalian cells 199 have been successfully used to control the release of drugs from hydrogels. 200 For example, vascular endothelial growth factor (VEGF) loaded into the hydrogel can be released in a dose-dependent manner by oral administration of the trigger compound, 201 opening new interesting avenues for research and therapy.
+ ###### 
+From cou.: 25 Most of our previous examples rely, in a way or another, on either reproducing or imitating natural organs or partial functionalities associated to them. However, we are here addressing the problem of the possible and the actual and the definition of a space of organs and organoids. And there is no reason to only build organs and tissues as they exist in nature. Novel organs that can still perform, but also expand, the functions of their natural counterparts can be envisioned. Such enhanced physiology could entail including completely new functions or even the capacity to diagnose and cure diseases. This perspective no longer remains in the domain of speculation.202 Similarly, the fusion of organic and electronic systems has also drawn a great deal of attention. The first steps towards cyborg organs have already been undertaken. A striking example is the bioprinted bionic ear integrating chondrocytes in alginate along with printed silver nanoparticles in the form of an inductive coil antenna.203 Bioprinting organs to provide electric power, which is inspired by the myogenic electric organ that fish use to produce electric fields to communicate, navigate or defend themselves,204 could be a reality in a near future. Such novel electric organs could be used in humans as batteries for pacemakers and cochlear implants or as a source of power for prosthetic devices.205 It is likely that the advances in genome editing will be the key to create these ‘human-fish’ cells.
+From Soup: 25 Most of our previous examples rely, in a way or another, on either reproducing or imitating natural organs or partial functionalities associated to them. However, we are here addressing the problem of the possible and the actual and the definition of a space of organs and organoids. And there is no reason to only build organs and tissues as they exist in nature. Novel organs that can still perform, but also expand, the functions of their natural counterparts can be envisioned. Such enhanced physiology could entail including completely new functions or even the capacity to diagnose and cure diseases. This perspective no longer remains in the domain of speculation. 202 Similarly, the fusion of organic and electronic systems has also drawn a great deal of attention. The first steps towards cyborg organs have already been undertaken. A striking example is the bioprinted bionic ear integrating chondrocytes in alginate along with printed silver nanoparticles in the form of an inductive coil antenna. 203 Bioprinting organs to provide electric power, which is inspired by the myogenic electric organ that fish use to produce electric fields to communicate, navigate or defend themselves, 204 could be a reality in a near future. Such novel electric organs could be used in humans as batteries for pacemakers and cochlear implants or as a source of power for prosthetic devices. 205 It is likely that the advances in genome editing will be the key to create these ‘human-fish’ cells.
+ ###### 
+From cou.: 26 What these examples clearly show is that a wealth of structures and potentially useful functions lie outside the paths taken by evolution. Freed from the constraints of developmental processes, new rules of engineering biological matter can be found. As a first step, we need to build a comprehensive theoretical framework based on the design space already explored by evolution.
+From Soup: 26 What these examples clearly show is that a wealth of structures and potentially useful functions lie outside the paths taken by evolution. Freed from the constraints of developmental processes, new rules of engineering biological matter can be found. As a first step, we need to build a comprehensive theoretical framework based on the design space already explored by evolution.
+ ###### 
+From cou.: 27 With the goal of guiding the exploration of new design spaces not found in natural development here we present a putative organ/organoid morphospace Ω (Fig. 5a) defined by three essential (ideally orthogonal) properties. An interesting example of a class of systems that is included in this space is provided by cell sorting (Fig. 5b–d). Starting from a mixture of cells (Fig. 5b) that can be part of a given organ or belong to completely different, even engineered, cell types, a final stable configuration (Fig. 5d) forms. This particular spatial assembly would be located close to the right, low corner of the front face of our space (see below). The axes of Ω should be taken as abstract dimensions that allow us to locate our candidate systems. Here we define three basic axes:
+From Soup: 27 With the goal of guiding the exploration of new design spaces not found in natural development here we present a putative organ/organoid morphospace Ω ( Fig. 5a ) defined by three essential (ideally orthogonal) properties. An interesting example of a class of systems that is included in this space is provided by cell sorting ( Fig. 5b–d ). Starting from a mixture of cells ( Fig. 5b ) that can be part of a given organ or belong to completely different, even engineered, cell types, a final stable configuration ( Fig. 5d ) forms. This particular spatial assembly would be located close to the right, low corner of the front face of our space (see below). The axes of Ω should be taken as abstract dimensions that allow us to locate our candidate systems. Here we define three basic axes:
+ ###### 
+From cou.: 28 (1) Developmental complexity, i.e. the degree of complexity introduced by developmental mechanisms required to build the structure.
+From Soup: 28 (1) Developmental complexity, i.e. the degree of complexity introduced by developmental mechanisms required to build the structure.
+ ###### 
+From cou.: 29 (2) Physical state, namely the level of cellular interaction and physical coherence of the structure under consideration.
+From Soup: 29 (2) Physical state, namely the level of cellular interaction and physical coherence of the structure under consideration.
+ ###### 
+From cou.: 30 (3) Cognitive complexity, described as the amount of information that a system is able to learn, store and process.
+From Soup: 30 (3) Cognitive complexity, described as the amount of information that a system is able to learn, store and process.
+ ###### 
+From cou.: 31 Following the standard approach of evolutionary morphospaces, the way (and how much of) this space of the possible is filled can reveal relevant features of the generative potential of these structures. It can also help to define the common features displayed by natural systems and explore the potential constraints placed on them. We should note that, in the morphospace proposed here, the location of objects in each axis is not quantified, although we will comment on this problem and potential approximations for each axis. However, it is worth mentioning that other studies involving these spaces often rely on statistically aggregated quantities, such as principal components. On the other hand, some well defined regularities can be established even when the morphospace is a purely qualitative one, as for example done in relation to cellular computation.206 More importantly, each of the examples discussed here can be easily ordered relative to each other within a given axis. Moreover, although the axes are not fully orthogonal (as it happens also with many other case studies), they contain clearly different qualitative features that justify their status as morphospace “dimensions”. Let us consider each one separately.
+From Soup: 31 Following the standard approach of evolutionary morphospaces, the way (and how much of) this space of the possible is filled can reveal relevant features of the generative potential of these structures. It can also help to define the common features displayed by natural systems and explore the potential constraints placed on them. We should note that, in the morphospace proposed here, the location of objects in each axis is not quantified, although we will comment on this problem and potential approximations for each axis. However, it is worth mentioning that other studies involving these spaces often rely on statistically aggregated quantities, such as principal components. On the other hand, some well defined regularities can be established even when the morphospace is a purely qualitative one, as for example done in relation to cellular computation. 206 More importantly, each of the examples discussed here can be easily ordered relative to each other within a given axis. Moreover, although the axes are not fully orthogonal (as it happens also with many other case studies), they contain clearly different qualitative features that justify their status as morphospace “dimensions”. Let us consider each one separately.
+ ###### 
+From cou.: 32 This axis provides a way of ordering our systems from simple mixtures of unrelated cells to fully developed organs. Intuitively, a bioreactor provides the bottom line of minimal complexity, while fully formed structures resulting from embryogenesis would be located at the other side of the spectrum. The presence or absence (and degree) of developmental processes implies the existence of different levels of dynamical organisation and feedback controls, including size and form.207 This property is sometimes maintained in the adult organism as exemplified by the human liver, which adapts its size in case one of the lobes becomes damaged or even in the event of transplant to a host of different body mass, recruiting either processes of growth or apoptosis accordingly.208 In our organ space (Fig. 5a) we can see that systems with low scores in this axis include printed organs and cell sorting-related cell assemblies. Both typically involve some amount of differential adhesion, which is a mechanism also used in most other solid systems inhabiting the right face of the space.
+From Soup: 32 This axis provides a way of ordering our systems from simple mixtures of unrelated cells to fully developed organs. Intuitively, a bioreactor provides the bottom line of minimal complexity, while fully formed structures resulting from embryogenesis would be located at the other side of the spectrum. The presence or absence (and degree) of developmental processes implies the existence of different levels of dynamical organisation and feedback controls, including size and form. 207 This property is sometimes maintained in the adult organism as exemplified by the human liver, which adapts its size in case one of the lobes becomes damaged or even in the event of transplant to a host of different body mass, recruiting either processes of growth or apoptosis accordingly. 208 In our organ space ( Fig. 5a ) we can see that systems with low scores in this axis include printed organs and cell sorting-related cell assemblies. Both typically involve some amount of differential adhesion, which is a mechanism also used in most other solid systems inhabiting the right face of the space.
+ ###### 
+From cou.: 33 Developmental complexity includes both the presence of a developmental program (that is completely or partially unfolded) and the resulting structural complexity at the steady state. Several complexity measures can be defined, and in biology they need to take into account cellular and functional diversity. Simpler measures of complexity have been used210–212 and good candidates should take into account both spatial and temporal complexity. The number of different transcriptome profiles (considering coding and non-coding RNAs)213 or, alternatively, the amount of configurations a gene regulatory network can adopt214 could be used for such a measure. If we only attend to morphological complexity, the number of cell types of a multicellular system could be the simpler candidate215–217 but more adequate measures should account for the presence of multiple scales and hierarchy.218 A simpler but more complete measure could be to take into consideration the spatial distribution that the different cells can adopt, measured as the mutual information between cell types in a positional lattice.219 Regarding cell lineages, they could also be used as a measure of developmental complexity.220–223 On the other hand, the use of Waddington's developmental epigenetic landscape224 could also provide ways of incorporating a quantitative measure combining both cell diversity and cell lineages (see Fig. 6a).
+From Soup: 33 Developmental complexity includes both the presence of a developmental program (that is completely or partially unfolded) and the resulting structural complexity at the steady state. Several complexity measures can be defined, and in biology they need to take into account cellular and functional diversity. Simpler measures of complexity have been used 210–212 and good candidates should take into account both spatial and temporal complexity. The number of different transcriptome profiles (considering coding and non-coding RNAs) 213 or, alternatively, the amount of configurations a gene regulatory network can adopt 214 could be used for such a measure. If we only attend to morphological complexity, the number of cell types of a multicellular system could be the simpler candidate 215–217 but more adequate measures should account for the presence of multiple scales and hierarchy. 218 A simpler but more complete measure could be to take into consideration the spatial distribution that the different cells can adopt, measured as the mutual information between cell types in a positional lattice. 219 Regarding cell lineages, they could also be used as a measure of developmental complexity. 220–223 On the other hand, the use of Waddington's developmental epigenetic landscape 224 could also provide ways of incorporating a quantitative measure combining both cell diversity and cell lineages (see Fig. 6a ).
+ ###### 
+From cou.: 34 The second axis introduces a well known concept from physics: states of matter, here reduced to two of them (solid and liquid). Matter can exist in multiple phases depending on external parameters like pressure or temperature. The main differences between these phases can be found in the mobility of the elementary particles and the mean distance between them. These are also related to how frequently and strongly the molecules conforming a material do interact among each other and, indirectly, how stable these pairwise interactions will be. In a biological setting (Fig. 6b) organs and tissues can also be characterised by different degrees of mobility in their constituent elements, with cells in the place of molecules. Biological assemblies of course differ from these physical systems, since they are far-from equilibrium structures, display cell turnover and heterogeneity and typically belong to a nested hierarchy of systems. On the one hand, typical solid organs like heart, lungs or kidneys display fairly static cell configurations and accordingly stable neighbourhoods of interacting cells. As we can see in our space, most relevant examples fall in the right wall of the cube. Blood on the other hand can be more readily mapped to a liquid phase. But despite the differences, several studies on the collective behaviour of multicellular assemblies clearly indicate that the physical analogies with states of matter are correct225–227 and in some cases it is even possible to properly define the phases of tissue spreading in aggregates with varying adhesion parameters.228 Because of the presence of universal behaviour, it is also possible to define rigorous measures associated to the phase state.
+From Soup: 34 The second axis introduces a well known concept from physics: states of matter, here reduced to two of them (solid and liquid). Matter can exist in multiple phases depending on external parameters like pressure or temperature. The main differences between these phases can be found in the mobility of the elementary particles and the mean distance between them. These are also related to how frequently and strongly the molecules conforming a material do interact among each other and, indirectly, how stable these pairwise interactions will be. In a biological setting ( Fig. 6b ) organs and tissues can also be characterised by different degrees of mobility in their constituent elements, with cells in the place of molecules. Biological assemblies of course differ from these physical systems, since they are far-from equilibrium structures, display cell turnover and heterogeneity and typically belong to a nested hierarchy of systems. On the one hand, typical solid organs like heart, lungs or kidneys display fairly static cell configurations and accordingly stable neighbourhoods of interacting cells. As we can see in our space, most relevant examples fall in the right wall of the cube. Blood on the other hand can be more readily mapped to a liquid phase. But despite the differences, several studies on the collective behaviour of multicellular assemblies clearly indicate that the physical analogies with states of matter are correct 225–227 and in some cases it is even possible to properly define the phases of tissue spreading in aggregates with varying adhesion parameters. 228 Because of the presence of universal behaviour, it is also possible to define rigorous measures associated to the phase state.
+ ###### 
+From cou.: 35 What can be found in the middle of these two potential extremes? On the one hand, although we have located the immune system (strictly speaking it is not an organ) as a member of the “liquid” wall, it provides a potential example for an intermediate liquid–solid scenario, since the immune cells are known to undergo a complex development that involves their circulation in blood but also a maturation process in specific tissue locations. In general, the vast majority of tissues and organs (Fig. 5a) belong to the “solid” boundary (the right wall of Ω) and this might be a consequence of the way development proceeds, instead of a truly strong constraint. We will discuss this particular point below.
+From Soup: 35 What can be found in the middle of these two potential extremes? On the one hand, although we have located the immune system (strictly speaking it is not an organ) as a member of the “liquid” wall, it provides a potential example for an intermediate liquid–solid scenario, since the immune cells are known to undergo a complex development that involves their circulation in blood but also a maturation process in specific tissue locations. In general, the vast majority of tissues and organs ( Fig. 5a ) belong to the “solid” boundary (the right wall of Ω ) and this might be a consequence of the way development proceeds, instead of a truly strong constraint. We will discuss this particular point below.
+ ###### 
+From cou.: 36 Our third dimension involves the information processing capabilities displayed by different organs and organoids. This axis is connected to the complexity exhibited by these systems as computational structures (Fig. 6c). Here the key idea is that organs and organoids should be also considered as cybernetic systems incorporating the three elements of any homeostatic structure: sensors, comparators and actuators.229,230 Sensing components provide the connection with the external world. This information (sometimes after a digital transformation through cooperative molecular mechanisms) is then internalised and used to evaluate the state of the system (the comparator plays this role). Finally, a response is generated by the actuators, often creating a feedback loop that restores previous states.
+From Soup: 36 Our third dimension involves the information processing capabilities displayed by different organs and organoids. This axis is connected to the complexity exhibited by these systems as computational structures ( Fig. 6c ). Here the key idea is that organs and organoids should be also considered as cybernetic systems incorporating the three elements of any homeostatic structure: sensors, comparators and actuators. 229,230 Sensing components provide the connection with the external world. This information (sometimes after a digital transformation through cooperative molecular mechanisms) is then internalised and used to evaluate the state of the system (the comparator plays this role). Finally, a response is generated by the actuators, often creating a feedback loop that restores previous states.
+ ###### 
+From cou.: 37 We use the term cognition as a general form of introducing different levels of information processing. Organs operate in a distributed fashion, since they consist of many components (ECM or cells) that interact locally to provide a global function. This computation is highly dynamic, as the components are continually being created, self-arranged and destroyed.231–233 For a lower cognition system, these self-sustaining cell cultures exhibit no particular class of behavioural response beyond cell maintenance. At the other end of the spectrum, the immune system or the brain is able to process information from multiple sources, using very rich loops involving multiple scales (upper right corner in Fig. 5a). For instance, the immune system detects and responds to either new or previously experienced threats, while at the same time it is a highly dynamical system (new lymphocytes are constantly being created and destroyed). On the other hand, the brain is able to process an astonishingly wide spectrum of sensory information. Plasticity is a striking feature of the brain,234 being able to create new connections and reinforce them.
+From Soup: 37 We use the term cognition as a general form of introducing different levels of information processing. Organs operate in a distributed fashion, since they consist of many components (ECM or cells) that interact locally to provide a global function. This computation is highly dynamic, as the components are continually being created, self-arranged and destroyed. 231–233 For a lower cognition system, these self-sustaining cell cultures exhibit no particular class of behavioural response beyond cell maintenance. At the other end of the spectrum, the immune system or the brain is able to process information from multiple sources, using very rich loops involving multiple scales (upper right corner in Fig. 5a ). For instance, the immune system detects and responds to either new or previously experienced threats, while at the same time it is a highly dynamical system (new lymphocytes are constantly being created and destroyed). On the other hand, the brain is able to process an astonishingly wide spectrum of sensory information. Plasticity is a striking feature of the brain, 234 being able to create new connections and reinforce them.
+ ###### 
+From cou.: 38 A simpler cybernetic system that displays some information processing capabilities is the pancreas (Fig. 6d). Its operating program includes determining the blood glucose concentration, evaluating the state in comparison with a target and hormonal secretion. The endocrine effects of insulin and glucagon on blood glucose levels close the feedback loop, keeping the glucose homeostasis.192,235 The liver is another example, which is responsible for several hundreds of functions being critical to keep the metabolic homoeostasis of the whole body and indeed is capable of regenerating itself.236,237
+From Soup: 38 A simpler cybernetic system that displays some information processing capabilities is the pancreas ( Fig. 6d ). Its operating program includes determining the blood glucose concentration, evaluating the state in comparison with a target and hormonal secretion. The endocrine effects of insulin and glucagon on blood glucose levels close the feedback loop, keeping the glucose homeostasis. 192,235 The liver is another example, which is responsible for several hundreds of functions being critical to keep the metabolic homoeostasis of the whole body and indeed is capable of regenerating itself. 236,237
+ ###### 
+From cou.: 39 It is not difficult to order known systems within this axis, but a general measure of cognitive complexity would be desirable. One possibility is to use transcriptomic high-throughput data, since it has been proved that the function of an organ can be re-predicted from the gene expression profiles.238 Alternatively, information theory measures can provide a way to categorise the organ by its gene expression diversity.239
+From Soup: 39 It is not difficult to order known systems within this axis, but a general measure of cognitive complexity would be desirable. One possibility is to use transcriptomic high-throughput data, since it has been proved that the function of an organ can be re-predicted from the gene expression profiles. 238 Alternatively, information theory measures can provide a way to categorise the organ by its gene expression diversity. 239
+ ###### 
+From cou.: 40 One of the most interesting features of Ω is the presence of a large void (Fig. 5a). Natural biological systems occupy the upper part of Ω, most on the right side associated to solid structures and resulting from embryogenesis. We have also included, close to this upper boundary, insect colonies, which are also known to display some traits closely related to developmental processes.240,241 This is an interesting example, given their combination of a “fluid” phase, associated to mobile, interacting agents, and a stable scaffold (the solid phase) given by the nest structure. Actually, the nests of army ant colonies are made of the living bodies of individuals, forming a large ball where ants attach to neighbours by holding onto each other's legs.242 In most ant colonies there is a constant interaction (particularly through its development) between both phases, which would include both a static, solid scaffold (the next structure) and a “fluid” phase constituted by the ants. This reminds us the ways bone structures are built and rebuilt by the interactions between the solid scaffold and the cells occupying it. These similarities could provide new perspectives within the context of synthetic biomaterials.243
+From Soup: 40 One of the most interesting features of Ω is the presence of a large void ( Fig. 5a ). Natural biological systems occupy the upper part of Ω , most on the right side associated to solid structures and resulting from embryogenesis. We have also included, close to this upper boundary, insect colonies, which are also known to display some traits closely related to developmental processes. 240,241 This is an interesting example, given their combination of a “fluid” phase, associated to mobile, interacting agents, and a stable scaffold (the solid phase) given by the nest structure. Actually, the nests of army ant colonies are made of the living bodies of individuals, forming a large ball where ants attach to neighbours by holding onto each other's legs. 242 In most ant colonies there is a constant interaction (particularly through its development) between both phases, which would include both a static, solid scaffold (the next structure) and a “fluid” phase constituted by the ants. This reminds us the ways bone structures are built and rebuilt by the interactions between the solid scaffold and the cells occupying it. These similarities could provide new perspectives within the context of synthetic biomaterials. 243
+ ###### 
+From cou.: 41 We also have included in our morphospace two additional examples that occupy a special place. These correspond to the microbiome and the slime moulds belonging to the genus Physarum. The first example is very relevant within our discussion, since it defines a complex multicellular assembly that cannot be considered either liquid or solid, and displays some level of cognitive complexity.244 Its developmental complexity is connected to an ecological assembly process where a network of mostly cooperative interactions maintains its species diversity and stability.245Physarum on the other hand is a very interesting case study that deviates from the rest in several ways. It is a unicellular structure that achieves a macroscopic spatial organisation and is capable of remarkable computational tasks.246 Despite its lack of multicellular complexity, it does experience a predictable developmental process and its enormous plasticity locates the system in a state that can be identified as “solid” but with an internal fluid structure. Since it is highly plastic and adaptive, it cannot be classified as solid or liquid, but it does experience a developmental process and has a small cognitive complexity.
+From Soup: 41 We also have included in our morphospace two additional examples that occupy a special place. These correspond to the microbiome and the slime moulds belonging to the genus Physarum . The first example is very relevant within our discussion, since it defines a complex multicellular assembly that cannot be considered either liquid or solid, and displays some level of cognitive complexity. 244 Its developmental complexity is connected to an ecological assembly process where a network of mostly cooperative interactions maintains its species diversity and stability. 245 Physarum on the other hand is a very interesting case study that deviates from the rest in several ways. It is a unicellular structure that achieves a macroscopic spatial organisation and is capable of remarkable computational tasks. 246 Despite its lack of multicellular complexity, it does experience a predictable developmental process and its enormous plasticity locates the system in a state that can be identified as “solid” but with an internal fluid structure. Since it is highly plastic and adaptive, it cannot be classified as solid or liquid, but it does experience a developmental process and has a small cognitive complexity.
+ ###### 
+From cou.: 42 The previous examples depart from the standard biological architectures. Does this suggest that organs cannot fill parts of this empty space? We can argue that organisms are final-state outcomes of development and that the unfolding of information through differentiation and proliferation events occurs in a spatial context defined by the changing embryonic boundaries. This process needs to be regulated and under several controls that guarantee, in particular, that organ size and integration occur in the right sequence. Through this process, we could say that the physical plasticity of developing organs varies through time, thus transiently occupying parts of the void within Ω. The clever solution to maintain the right order of events and a robust final outcome is to create modular structures (organs) that can develop separately from others within spatially localised domains while interact with the whole system in order to achieve a proper integration. It is thus likely that fluid or partially fluid organs are not expected to be common. But one way of engineering alternative organs might involve redesigning organ-specific functionalities into a fluid (liquid) system or perhaps creating hybrid systems combining both phases.
+From Soup: 42 The previous examples depart from the standard biological architectures. Does this suggest that organs cannot fill parts of this empty space? We can argue that organisms are final-state outcomes of development and that the unfolding of information through differentiation and proliferation events occurs in a spatial context defined by the changing embryonic boundaries. This process needs to be regulated and under several controls that guarantee, in particular, that organ size and integration occur in the right sequence. Through this process, we could say that the physical plasticity of developing organs varies through time, thus transiently occupying parts of the void within Ω . The clever solution to maintain the right order of events and a robust final outcome is to create modular structures (organs) that can develop separately from others within spatially localised domains while interact with the whole system in order to achieve a proper integration. It is thus likely that fluid or partially fluid organs are not expected to be common. But one way of engineering alternative organs might involve redesigning organ-specific functionalities into a fluid (liquid) system or perhaps creating hybrid systems combining both phases.
+ ###### 
+From cou.: 43 Different potential scenarios can be considered as tentative ways of moving away from the natural locations of the examples shown in Fig. 5a. As a first example, imagine that we want to engineer an endocrine gland aimed to deliver a natural or a synthetic hormone into the bloodstream. Is there a real need for a solid and thus spatially located gland? Why not “liquefy” the gland into single cells that can travel in the blood? In theory, this distributed gland would be able to perform the required function if the cells are able to properly sense the triggering signal (i.e. high glucose) and secrete in response the desired amount of hormone (i.e. insulin). To engineer those cells, we have to consider the level of the cognitive complexity of the design required to ensure the maintenance of the system's homeostasis, since the extent of oscillations within the healthy values depends on the strength of control of the (information) feedback and the dynamics of the response. Pursuing with the pancreas example, the blood glucose levels should remain within a well-defined range, and these limits should not be overstep either in fasting or after eating. If our engineered cells must only sense the high levels of glucose in the blood or they have to also take into account early warning from metabolic hormones, and if an active shooting system is required, further engineering might be required.
+From Soup: 43 Different potential scenarios can be considered as tentative ways of moving away from the natural locations of the examples shown in Fig. 5a . As a first example, imagine that we want to engineer an endocrine gland aimed to deliver a natural or a synthetic hormone into the bloodstream. Is there a real need for a solid and thus spatially located gland? Why not “liquefy” the gland into single cells that can travel in the blood? In theory, this distributed gland would be able to perform the required function if the cells are able to properly sense the triggering signal ( i.e. high glucose) and secrete in response the desired amount of hormone ( i.e. insulin). To engineer those cells, we have to consider the level of the cognitive complexity of the design required to ensure the maintenance of the system's homeostasis, since the extent of oscillations within the healthy values depends on the strength of control of the (information) feedback and the dynamics of the response. Pursuing with the pancreas example, the blood glucose levels should remain within a well-defined range, and these limits should not be overstep either in fasting or after eating. If our engineered cells must only sense the high levels of glucose in the blood or they have to also take into account early warning from metabolic hormones, and if an active shooting system is required, further engineering might be required.
+ ###### 
+From cou.: 44 A second example could be engineering micro-organs obtained from cell sorting processes leading to a multilayered system. We have already mentioned this kind of structure, which actually defines the lower level of complexity of organoids. These spheroids can then be engineered to perform artificial computations by designing a set of sensors and actuators that can be distributed between the internal and the external layer. These spheroids could easily incorporate decision-making circuits, thus moving towards the high cognitive complexity wall. Such increased cognition would make closer to organoids and can be achieved by using non-standard computational engineering, such as so-called distributed multicellular computation (DMC)247 where a given functionality is defined through a Boolean table. The different parts of the computation can be distributed over different cell types with no need for communication among different engineered cells. This allows one to easily and reliably build a class of organoid computations where we can exploit both DMC and spatial modularity248 to increase the computational capacity of these simple multicellular aggregates. This also helps to store information and thus create a micro-organ with memory potential.
+From Soup: 44 A second example could be engineering micro-organs obtained from cell sorting processes leading to a multilayered system. We have already mentioned this kind of structure, which actually defines the lower level of complexity of organoids. These spheroids can then be engineered to perform artificial computations by designing a set of sensors and actuators that can be distributed between the internal and the external layer. These spheroids could easily incorporate decision-making circuits, thus moving towards the high cognitive complexity wall. Such increased cognition would make closer to organoids and can be achieved by using non-standard computational engineering, such as so-called distributed multicellular computation (DMC) 247 where a given functionality is defined through a Boolean table. The different parts of the computation can be distributed over different cell types with no need for communication among different engineered cells. This allows one to easily and reliably build a class of organoid computations where we can exploit both DMC and spatial modularity 248 to increase the computational capacity of these simple multicellular aggregates. This also helps to store information and thus create a micro-organ with memory potential.
+ ###### 
+From cou.: 45 Finally, a third class of hybrid systems could exploit the microbiome, which has been shown to act as an interface between environmental signals and our body's responses. The microbiome defines a powerful layer of living complexity that has co-evolved with our bodies and that interacts closely with our cells.249 A plethora of candidate microorganisms can be used to engineer synthetic interactions with their host organs and thus obtain a novel system that once again gets located within the empty domain of Ω. Such hybrid system can include on the one hand a target organ and, on the other, the spatially less defined population of the chosen microorganisms. Since it is possible to engineer learning circuits250 with memory251 using synthetic biology designs, we could also achieve higher cognitive complexity levels. In this context, spheroids, organoids and organs could all be moved towards the end wall of the morphospace.
+From Soup: 45 Finally, a third class of hybrid systems could exploit the microbiome, which has been shown to act as an interface between environmental signals and our body's responses. The microbiome defines a powerful layer of living complexity that has co-evolved with our bodies and that interacts closely with our cells. 249 A plethora of candidate microorganisms can be used to engineer synthetic interactions with their host organs and thus obtain a novel system that once again gets located within the empty domain of Ω . Such hybrid system can include on the one hand a target organ and, on the other, the spatially less defined population of the chosen microorganisms. Since it is possible to engineer learning circuits 250 with memory 251 using synthetic biology designs, we could also achieve higher cognitive complexity levels. In this context, spheroids, organoids and organs could all be moved towards the end wall of the morphospace.
+ ###### 
+From cou.: 46 All these possibilities are open to serious inspection and are promising ways of finding potential, novel solutions to existing problems. But again we must remember that the lack of real systems occupying the void might also indicate intrinsic difficulties. Future work should allow one to find out whether developmental constraints are the cause of this empty space of designs (and thus we can exploit the many open possibilities it opens) or instead such designs are suboptimal or forbidden solutions. In this context, the use of mathematical and computational models offers alternative ways of searching for answers and explore tentative designs. If organs only visit this domain transiently during their development, this can also be due to the stabilising role played by spatially patterned interactions.252 In this context, it would be important to develop a theoretical understanding of our morphospace that includes other factors beyond the ones covered by our chosen axes. Just to mention an example, it has been shown that the spatial organisation of some tissues (such as the colonic crypts) can provide tumour suppressor properties.253 If designed organoids have to be designed for long-term interactions within their host organisms, this type of properties should be taken into account.
+From Soup: 46 All these possibilities are open to serious inspection and are promising ways of finding potential, novel solutions to existing problems. But again we must remember that the lack of real systems occupying the void might also indicate intrinsic difficulties. Future work should allow one to find out whether developmental constraints are the cause of this empty space of designs (and thus we can exploit the many open possibilities it opens) or instead such designs are suboptimal or forbidden solutions. In this context, the use of mathematical and computational models offers alternative ways of searching for answers and explore tentative designs. If organs only visit this domain transiently during their development, this can also be due to the stabilising role played by spatially patterned interactions. 252 In this context, it would be important to develop a theoretical understanding of our morphospace that includes other factors beyond the ones covered by our chosen axes. Just to mention an example, it has been shown that the spatial organisation of some tissues (such as the colonic crypts) can provide tumour suppressor properties. 253 If designed organoids have to be designed for long-term interactions within their host organisms, this type of properties should be taken into account.
+ ###### 
+From cou.: 47 Experimental exploration of developmental processes has been widely successful in identifying the key events and genes underlying the construction of form. However, the in vivo approach has been usually constrained by the impossibility of modifying several variables or genes at a time while keeping track of the consequences and generate organised knowledge. High-throughput experiments allow the modification of multiple variables but again one by one, using an essentially reductionistic approach that remains largely oblivious to the higher order interactions of genes and their epistatic relations. Fortunately, a complementary approach exists in the use of computer assisted research, particularly in the formulation of theoretical models that allow the systematic analysis of complex variables and landscapes. This approach naturally complements experiments by providing new predictions that can be validated in experimental setups. The power of simple models has been widely proved by models involving differential adhesion, a phenomenon that we have already discussed above. As early suggested by Steinberg, the spontaneous dynamics associated to cell sorting and the formation of spheroids and other types of organ-like structures can be described by an energy minimisation process.141,142 Given its importance and widespread use to model a wide range of developmental processes, it is worth briefly presenting it.
+From Soup: 47 Experimental exploration of developmental processes has been widely successful in identifying the key events and genes underlying the construction of form. However, the in vivo approach has been usually constrained by the impossibility of modifying several variables or genes at a time while keeping track of the consequences and generate organised knowledge. High-throughput experiments allow the modification of multiple variables but again one by one, using an essentially reductionistic approach that remains largely oblivious to the higher order interactions of genes and their epistatic relations. Fortunately, a complementary approach exists in the use of computer assisted research, particularly in the formulation of theoretical models that allow the systematic analysis of complex variables and landscapes. This approach naturally complements experiments by providing new predictions that can be validated in experimental setups. The power of simple models has been widely proved by models involving differential adhesion, a phenomenon that we have already discussed above. As early suggested by Steinberg, the spontaneous dynamics associated to cell sorting and the formation of spheroids and other types of organ-like structures can be described by an energy minimisation process. 141,142 Given its importance and widespread use to model a wide range of developmental processes, it is worth briefly presenting it.
+ ###### 
+From cou.: 48 The model is described by a finite population of cells that occupy given positions within a discrete lattice. Their state (what type of cell we have) is indicated by means of a discrete number σn. Cells can move to neighbouring sites, provided that this is consistent with a spontaneous, energy-minimisation process. Let us restrict here to a system with only two cell phenotypes namely yellow cells (σ1) and red cells (σ2), while σ0 represents empty space.
+From Soup: 48 The model is described by a finite population of cells that occupy given positions within a discrete lattice. Their state (what type of cell we have) is indicated by means of a discrete number σ n . Cells can move to neighbouring sites, provided that this is consistent with a spontaneous, energy-minimisation process. Let us restrict here to a system with only two cell phenotypes namely yellow cells ( σ 1 ) and red cells ( σ 2 ), while σ 0 represents empty space.
+ ###### 
+From cou.: 49 Different cells have different forms of interacting with others as well as with the external environment. The strength of interactions among different states can be defined by means of an adhesion matrix :
+From Soup: 49 Different cells have different forms of interacting with others as well as with the external environment. The strength of interactions among different states can be defined by means of an adhesion matrix :
+ ###### 
+From cou.: 50 a
+From Soup: 50 ( a , b )
+ ###### 
+From cou.: 51 b
+From Soup: 51 i.e.
+ ###### 
+From cou.: 52 i.e.
+From Soup: 52 ( a , b )
+ ###### 
+From cou.: 53 a
+From Soup: 53 ( b , a )
+ ###### 
+From cou.: 54 b
+From Soup: 54 ( σ 0 , σ 0 )
+ ###### 
+From cou.: 55 b
+From Soup: 55 The energy associated to this system is defined as a function that is determined at each lattice site μ , i.e.
+ ###### 
+From cou.: 56 a
+From Soup: 56 Γ
+ ###### 
+From cou.: 57 σ
+From Soup: 57 μ
+ ###### 
+From cou.: 58 σ
+From Soup: 58 μ
+ ###### 
+From cou.: 59 The energy associated to this system is defined as a function that is determined at each lattice site μ, i.e.
+From Soup: 59 η
+ ###### 
+From cou.: 60 Γ
+From Soup: 60 S
+ ###### 
+From cou.: 61 μ
+From Soup: 61 η
+ ###### 
+From cou.: 62 μ
+From Soup: 62 T
+ ###### 
+From cou.: 63 η
+From Soup: 63 Δ / T
+ ###### 
+From cou.: 64 S
+From Soup: 64 Fig. 7
+ ###### 
+From cou.: 65 η
+From Soup: 65 Steinberg's model and other related efforts towards understanding and predicting the formation of simple organoids support the idea that simple models not incorporating the low-level molecular interactions can help to gain insight. Moreover, the model can be expanded in multiple directions, by incorporating (in particular) the three levels of complexity associated to the three axes of our morphospace. By increasing the temperature, for example, we can shift from a well-organised (solid) spheroid to a disordered (liquid) mixture. By incorporating additional components involving phenotypic transitions, a much richer spectrum of structures can be obtained. Finally, as we discussed in the previous section, simple and complex computational synthetic circuits can be added in order to introduce learning or adaptation to increase cognitive complexity. Some of the models discussed below rely precisely on adding other components to the original model. Here we present a few examples of theoretical avenues that can be followed to explore and predict potential outcomes of designed or evolved organs. They have been selected according to their relevance with the three axes previously described, outlining several theoretical approaches that can be useful in the exploration of new possibilities.
+ ###### 
+From cou.: 66 T
+From Soup: 66 Several attempts to understand developmental mechanisms from a theoretical perspective have been made throughout the past few decades, including remarkable studies on optimality of hierarchical tissue architecture, 253 the origin of developmental robustness 258 and limb development. 259 Regarding the study of the segmentation process, several studies have tackled the question of how segments arise in a highly coordinated fashion both spatially and temporally. 260–263 The basic mechanism underlying their formation is the clock-and-wavefront model proposed by Cooke and Zeeman: 264 sub-cellular (gene regulation), cellular (synchronisation and self-organization) and tissular (signaling and gradient formation) scales are involved, 265 exemplifying the difficulty of modelling developmental processes.
+ ###### 
+From cou.: 67 Δ/T
+From Soup: 67 Theoretical tools can be used to model existing processes of development; however they can also be aimed at the exploration of the landscape of possibilities, following an approach similar to the one proposed here. In this vein, Hogeweg et al. 255 analysed the interplay between developmental mechanisms in virtual embryos. The subjacent hypothesis is that there is a natural drive for organisms to become more internally diverse. The results show that, despite no explicit search for particular spatial arrangements or specific developmental programs, morphogenetic behaviours appear as a side effect of selecting for cell heterogeneity, with the remarkable establishment of engulfment, budding and intercalation among others. A wide variety of ‘life-like’ forms similar to those observed in development were reported ( Fig. 8a ) offering new insights into the discussion of the role of complexity in development. This strategy has also been put forward in other studies, 266 obtaining interesting results that connect the evolution of complex patterns of gene expression and developmental toolkits: once a threshold of genetic complexity is achieved, the number of accessible patterns explodes.
+ ###### 
+From cou.: 68 Steinberg's model and other related efforts towards understanding and predicting the formation of simple organoids support the idea that simple models not incorporating the low-level molecular interactions can help to gain insight. Moreover, the model can be expanded in multiple directions, by incorporating (in particular) the three levels of complexity associated to the three axes of our morphospace. By increasing the temperature, for example, we can shift from a well-organised (solid) spheroid to a disordered (liquid) mixture. By incorporating additional components involving phenotypic transitions, a much richer spectrum of structures can be obtained. Finally, as we discussed in the previous section, simple and complex computational synthetic circuits can be added in order to introduce learning or adaptation to increase cognitive complexity. Some of the models discussed below rely precisely on adding other components to the original model. Here we present a few examples of theoretical avenues that can be followed to explore and predict potential outcomes of designed or evolved organs. They have been selected according to their relevance with the three axes previously described, outlining several theoretical approaches that can be useful in the exploration of new possibilities.
+From Soup: 68 Regarding the interplay between physical properties and developmental processes, several examples can be found (from growth rates to cellular shapes) where the regulated recruitment of physical forces acts as a morphogenetic driver. 145 Albeit generally controlled by the expression of one or multiple genes, they introduce relevant epigenetic interactions beyond the gene level, key to the establishment of functional structures. In particular, one of the most well documented examples, also related to our proposed liquid–solid dichotomy, is the epithelial–mesenchymal transition (hereafter EMT) 256,267 ( Fig. 8b ). EMT is a reversible transdifferentiation process by which cells in the primitive streak, the endocardial cushion and the heart valves among others switch back and forth between more mobile and more adhesive phenotypes. This prompts the reorganisation of cell distribution, linked to an appropriate functionality in the mentioned structures, 256 but also related to tumour progression and invasion. 268 Models of metastasis exploring the cell fate landscape have shown that cancer cells can make use of mixed phenotypes with epithelial and mesenchymal properties, 269 a feature that was previously observed in experimental systems. 270
+ ###### 
+From cou.: 69 Several attempts to understand developmental mechanisms from a theoretical perspective have been made throughout the past few decades, including remarkable studies on optimality of hierarchical tissue architecture,253 the origin of developmental robustness258 and limb development.259 Regarding the study of the segmentation process, several studies have tackled the question of how segments arise in a highly coordinated fashion both spatially and temporally.260–263 The basic mechanism underlying their formation is the clock-and-wavefront model proposed by Cooke and Zeeman:264 sub-cellular (gene regulation), cellular (synchronisation and self-organization) and tissular (signaling and gradient formation) scales are involved,265 exemplifying the difficulty of modelling developmental processes.
+From Soup: 69 Another interesting theoretical model involving alterations in the physical state of cells is the one from Marie and Hogeweg, where they modelled the mechanisms behind the formation of a fruiting body in Dictyostelium discoideum . It is well known from Dictyostelium biology that, in the face of starvation, the solitary amoebas aggregate and form a collective structure composed of multiple cell types with the purpose of creating resistance forms (spores) and disseminating them. When trying to model this process, the authors introduced in different cell types a specific function (either stalk or spore forming) and a differential adhesion pattern between them. This simple mechanism was shown to be of utmost importance in maintaining the general spatial relations between structures of the fruiting body when appropriately regulated. Moreover, the physical properties of the virtual cells and their environment were also modulated by an extracellular matrix, enabling the self-organisation and self-correcting behaviour of the fruiting body formation.
+ ###### 
+From cou.: 70 Theoretical tools can be used to model existing processes of development; however they can also be aimed at the exploration of the landscape of possibilities, following an approach similar to the one proposed here. In this vein, Hogeweg et al.255 analysed the interplay between developmental mechanisms in virtual embryos. The subjacent hypothesis is that there is a natural drive for organisms to become more internally diverse. The results show that, despite no explicit search for particular spatial arrangements or specific developmental programs, morphogenetic behaviours appear as a side effect of selecting for cell heterogeneity, with the remarkable establishment of engulfment, budding and intercalation among others. A wide variety of ‘life-like’ forms similar to those observed in development were reported (Fig. 8a) offering new insights into the discussion of the role of complexity in development. This strategy has also been put forward in other studies,266 obtaining interesting results that connect the evolution of complex patterns of gene expression and developmental toolkits: once a threshold of genetic complexity is achieved, the number of accessible patterns explodes.
+From Soup: 70 We have already mentioned potential examples of re-engineering organs or organoids in order to increase their computational/cognitive complexity. A computational approach to these systems could provide very useful insights into what to expect in terms of the robustness and novelty of the designed changes. In this context, we have recently suggested to explore the landscape of collective intelligence using computational models of engineered synthetic microbial systems. 271 There we suggest that some universal principles of detecting and sensing signals found in microbial communities (such as the quorum sensing circuitry) are very close to the switching systems found in intelligent swarms. Let us consider here a different scenario, that illustrates the implications in a given technological framework of mimicking the features of a biological system with high cognitive complexity.
+ ###### 
+From cou.: 71 Regarding the interplay between physical properties and developmental processes, several examples can be found (from growth rates to cellular shapes) where the regulated recruitment of physical forces acts as a morphogenetic driver.145 Albeit generally controlled by the expression of one or multiple genes, they introduce relevant epigenetic interactions beyond the gene level, key to the establishment of functional structures. In particular, one of the most well documented examples, also related to our proposed liquid–solid dichotomy, is the epithelial–mesenchymal transition (hereafter EMT)256,267 (Fig. 8b). EMT is a reversible transdifferentiation process by which cells in the primitive streak, the endocardial cushion and the heart valves among others switch back and forth between more mobile and more adhesive phenotypes. This prompts the reorganisation of cell distribution, linked to an appropriate functionality in the mentioned structures,256 but also related to tumour progression and invasion.268 Models of metastasis exploring the cell fate landscape have shown that cancer cells can make use of mixed phenotypes with epithelial and mesenchymal properties,269 a feature that was previously observed in experimental systems.270
+From Soup: 71 Hofmeyr and Forrest described the architecture of an artificial immune system (AIS) able to solve the network intrusion detection problem in broadcast local-area networks (LANs), 257 of practical significance in network security. Natural immune systems are diverse, distributed, dynamic, self-protecting and adaptable, and these properties were taken as basic design principles to build a robust artificial distributed adaptive system. Broadly speaking, the AIS consists of a protected computer system ( self ) and infectious agents ( non-self ), which are both represented by dynamically changing sets of bit strings. These are continuously processed by detector programs that incorporate properties from different cells of the immune system. During the lifecycle of a detector ( Fig. 8c ) a negative selection process takes place, filtering some immature detectors in order to avoid autoimmune reactivity . Once a detector has survived the negative selection process it can become activated by means of presentation of non-self bit strings and human co-stimulation. This way, a memory of interaction is created and the threshold for further non-self detection is lowered. This constitutes a compelling example of how to implement a useful, cognitively complex process that is inspired by a natural system. Moreover, it lays the groundwork for further inquiry into artificial distributed information-processing.
+ ###### 
+From cou.: 72 Another interesting theoretical model involving alterations in the physical state of cells is the one from Marie and Hogeweg, where they modelled the mechanisms behind the formation of a fruiting body in Dictyostelium discoideum. It is well known from Dictyostelium biology that, in the face of starvation, the solitary amoebas aggregate and form a collective structure composed of multiple cell types with the purpose of creating resistance forms (spores) and disseminating them. When trying to model this process, the authors introduced in different cell types a specific function (either stalk or spore forming) and a differential adhesion pattern between them. This simple mechanism was shown to be of utmost importance in maintaining the general spatial relations between structures of the fruiting body when appropriately regulated. Moreover, the physical properties of the virtual cells and their environment were also modulated by an extracellular matrix, enabling the self-organisation and self-correcting behaviour of the fruiting body formation.
+From Soup: 72 A central theme in our paper is the presence of constraints that can be unavoidable while dealing with living tissues and organs, where structural constraints might sometimes play a role that cannot be reduced to gene regulatory paths. This does not mean that we are necessarily limited in engineering complex cellular structures, and the existing literature on synthetic biological designs is a success story. What we try to highlight here, however, is the need for considering the potential constraints associated to the system and organ-level of organisation. As we discussed above, evolution very often displays a surprising level of convergence, thus indicating that the same solutions are generated independently through different paths. Many examples of this process, taking place in different species often separated in both space and time, can be provided. These include among others light-producing organs in squids, 272 electric organs in teleost fish, 273 neural circuits underlying communication and speech 274 and even technological networks. 275,276 Convergence is an indication of a limited repertoire of design rules and, more importantly, the existence of limitations to what can be achieved using a bottom-up, standard engineering perspective. That includes both evolved and designed systems. The presence of constraints often implies a top-down causality that might be difficult (or even impossible) to modify. Bottom-up designs will succeed provided that they are capable of exploiting modular properties of the organ/organoid, thus avoiding unexpected or undesirable effects.
+ ###### 
+From cou.: 73 We have already mentioned potential examples of re-engineering organs or organoids in order to increase their computational/cognitive complexity. A computational approach to these systems could provide very useful insights into what to expect in terms of the robustness and novelty of the designed changes. In this context, we have recently suggested to explore the landscape of collective intelligence using computational models of engineered synthetic microbial systems.271 There we suggest that some universal principles of detecting and sensing signals found in microbial communities (such as the quorum sensing circuitry) are very close to the switching systems found in intelligent swarms. Let us consider here a different scenario, that illustrates the implications in a given technological framework of mimicking the features of a biological system with high cognitive complexity.
+From Soup: 73 In this article we have reviewed some of the most recent advances in the fields of synthetic biology and tissue engineering, with the intent of exploring how far we could go in designing new non-standard organs. With that purpose, we address the idea that self-organising principles, a keystone component in tissue engineering, should be viewed as an advantage (instead of an obstacle) by synthetic biologists. These self-organisation principles are consistently used to obtain organ-like structures or organoids, 24 exploiting the natural tendency of cells to differentiate and spatially arrange themselves in an orderly manner. These designed forms could potentially open the door to new functionalities, but also offer invaluable information regarding the evolutionary potential that current structures bear (in the same way that Alberch's monsters do). Guidance to explore the generative landscape of organ design can be found in our proposed morphospace ( Fig. 5 ), where we show that some regions remain underpopulated. These might be reached with current synthetic biology techniques, which really allow one to build novel designed morphologies. 190,191,277,278
+ ###### 
+From cou.: 74 Hofmeyr and Forrest described the architecture of an artificial immune system (AIS) able to solve the network intrusion detection problem in broadcast local-area networks (LANs),257 of practical significance in network security. Natural immune systems are diverse, distributed, dynamic, self-protecting and adaptable, and these properties were taken as basic design principles to build a robust artificial distributed adaptive system. Broadly speaking, the AIS consists of a protected computer system (self) and infectious agents (non-self), which are both represented by dynamically changing sets of bit strings. These are continuously processed by detector programs that incorporate properties from different cells of the immune system. During the lifecycle of a detector (Fig. 8c) a negative selection process takes place, filtering some immature detectors in order to avoid autoimmune reactivity. Once a detector has survived the negative selection process it can become activated by means of presentation of non-self bit strings and human co-stimulation. This way, a memory of interaction is created and the threshold for further non-self detection is lowered. This constitutes a compelling example of how to implement a useful, cognitively complex process that is inspired by a natural system. Moreover, it lays the groundwork for further inquiry into artificial distributed information-processing.
+From Soup: 74 The morphospace of organs and organoids presented here provides a unifying picture of the known universe of possible structures. In this simplified universe of possibilities, we have a populated area inhabited by known organs and some designed organoids. The limit cases are also obvious, but a large space of design is essentially (as far as we know) empty. These empty spaces in the maps of biological complexity require an explanation. What is the rationale for their presence? Their absence indicate either impossibility or simply that evolution within an embryogenesis context is unable to fill this space. But engineering deals with the exploration of what can be designed no matter whether evolution would allow that to happen. Understanding the nature of this void is also a way of interrogating nature about its generative potential, and might shed light on novel ways of designing organs beyond the natural counterparts.
+ ###### 
+From cou.: 75 A central theme in our paper is the presence of constraints that can be unavoidable while dealing with living tissues and organs, where structural constraints might sometimes play a role that cannot be reduced to gene regulatory paths. This does not mean that we are necessarily limited in engineering complex cellular structures, and the existing literature on synthetic biological designs is a success story. What we try to highlight here, however, is the need for considering the potential constraints associated to the system and organ-level of organisation. As we discussed above, evolution very often displays a surprising level of convergence, thus indicating that the same solutions are generated independently through different paths. Many examples of this process, taking place in different species often separated in both space and time, can be provided. These include among others light-producing organs in squids,272 electric organs in teleost fish,273 neural circuits underlying communication and speech274 and even technological networks.275,276 Convergence is an indication of a limited repertoire of design rules and, more importantly, the existence of limitations to what can be achieved using a bottom-up, standard engineering perspective. That includes both evolved and designed systems. The presence of constraints often implies a top-down causality that might be difficult (or even impossible) to modify. Bottom-up designs will succeed provided that they are capable of exploiting modular properties of the organ/organoid, thus avoiding unexpected or undesirable effects.
+From Soup: 75 We thank the members of the Complex Systems Lab for useful discussions. This work has been supported by the European Research Council Advanced grant (ERC Advanced Grant Number 294294 from the EU seventh framework program (SYNCOM)), by the Botín Foundation by Banco Santander through its Santander Universities Global Division, a MINECO grant FIS2015-67616-P, by the Universities and Research Secretariat of the Ministry of Business and Knowledge of the Generalitat de Catalunya and the European Social Fund, and by the Santa Fe Institute.
+ ###### 
+From cou.: 76 In this article we have reviewed some of the most recent advances in the fields of synthetic biology and tissue engineering, with the intent of exploring how far we could go in designing new non-standard organs. With that purpose, we address the idea that self-organising principles, a keystone component in tissue engineering, should be viewed as an advantage (instead of an obstacle) by synthetic biologists. These self-organisation principles are consistently used to obtain organ-like structures or organoids,24 exploiting the natural tendency of cells to differentiate and spatially arrange themselves in an orderly manner. These designed forms could potentially open the door to new functionalities, but also offer invaluable information regarding the evolutionary potential that current structures bear (in the same way that Alberch's monsters do). Guidance to explore the generative landscape of organ design can be found in our proposed morphospace (Fig. 5), where we show that some regions remain underpopulated. These might be reached with current synthetic biology techniques, which really allow one to build novel designed morphologies.190,191,277,278
+From Soup: 76 M. Agapakis and P. Silver, Mol. BioSyst. , 2009, 5 , 704–713 RSC .
+ ###### 
+From cou.: 77 The morphospace of organs and organoids presented here provides a unifying picture of the known universe of possible structures. In this simplified universe of possibilities, we have a populated area inhabited by known organs and some designed organoids. The limit cases are also obvious, but a large space of design is essentially (as far as we know) empty. These empty spaces in the maps of biological complexity require an explanation. What is the rationale for their presence? Their absence indicate either impossibility or simply that evolution within an embryogenesis context is unable to fill this space. But engineering deals with the exploration of what can be designed no matter whether evolution would allow that to happen. Understanding the nature of this void is also a way of interrogating nature about its generative potential, and might shed light on novel ways of designing organs beyond the natural counterparts.
+From Soup: 77 P. Alberch, Geobios , 1989, 22 , 21–57 CrossRef .
+ ###### 
+From cou.: 78 We thank the members of the Complex Systems Lab for useful discussions. This work has been supported by the European Research Council Advanced grant (ERC Advanced Grant Number 294294 from the EU seventh framework program (SYNCOM)), by the Botín Foundation by Banco Santander through its Santander Universities Global Division, a MINECO grant FIS2015-67616-P, by the Universities and Research Secretariat of the Ministry of Business and Knowledge of the Generalitat de Catalunya and the European Social Fund, and by the Santa Fe Institute.
+From Soup: 78 P. Anderson, Science , 1972, 177 , 393–396 CAS .
+ ###### 
+From cou.: 79 M. Agapakis and P. Silver, Mol. BioSyst., 2009, 5, 704–713 RSC .
+From Soup: 79 R. Gallagher, T. Appenzeller and D. Normile, et al. , Science , 1999, 284 , 79 CrossRef CAS .
+ ###### 
+From cou.: 80 P. Alberch, Geobios, 1989, 22, 21–57 CrossRef .
+From Soup: 80 N. Goldenfeld and L. P. Kadanoff, Science , 1999, 284 , 87–89 CrossRef PubMed .
+ ###### 
+From cou.: 81 P. Anderson, Science, 1972, 177, 393–396 CAS .
+From Soup: 81 R. Solé and B. Goodwin, Signs of life: how complexity pervades biology , Basic Books, New York, 1st edn, 2000 Search PubMed .
+ ###### 
+From cou.: 82 R. Gallagher, T. Appenzeller and D. Normile, et al. , Science, 1999, 284, 79 CrossRef CAS .
+From Soup: 82 N. Goldenfeld and C. Woese, 2010, arXiv preprint arXiv:1011.4125.
+ ###### 
+From cou.: 83 N. Goldenfeld and L. P. Kadanoff, Science, 1999, 284, 87–89 CrossRef PubMed .
+From Soup: 83 T. Mora and W. Bialek, J. Stat. Phys. , 2011, 144 , 268–302 CrossRef .
+ ###### 
+From cou.: 84 R. Solé and B. Goodwin, Signs of life: how complexity pervades biology, Basic Books, New York, 1st edn, 2000 Search PubMed .
+From Soup: 84 G. Tkačik, O. Marre, T. Mora, D. Amodei, M. J. Berry II and W. Bialek, J. Stat. Mech.: Theory Exp. , 2013, 2013 , P03011 Search PubMed .
+ ###### 
+From cou.: 85 N. Goldenfeld and C. Woese, 2010, arXiv preprint arXiv:1011.4125.
+From Soup: 85 Y. Bar-Yam, Dynamics of complex systems , Addison-Wesley Reading, MA, 1997, vol. 213 Search PubMed .
+ ###### 
+From cou.: 86 T. Mora and W. Bialek, J. Stat. Phys., 2011, 144, 268–302 CrossRef .
+From Soup: 86 M. Mitchell, Complexity: A guided tour , Oxford University Press, 2009 Search PubMed .
+ ###### 
+From cou.: 87 G. Tkačik, O. Marre, T. Mora, D. Amodei, M. J. Berry II and W. Bialek, J. Stat. Mech.: Theory Exp., 2013, 2013, P03011 Search PubMed .
+From Soup: 87 P. Walde, H. Umakoshi, P. Stano and F. Mavelli, Chem. Commun. , 2014, 50 , 10177–10197 RSC .
+ ###### 
+From cou.: 88 Y. Bar-Yam, Dynamics of complex systems, Addison-Wesley Reading, MA, 1997, vol. 213 Search PubMed .
+From Soup: 88 P. Kollmannsberger, C. Bidan, J. Dunlop and P. Fratzl, Soft Matter , 2011, 7 , 9549–9560 RSC .
+ ###### 
+From cou.: 89 M. Mitchell, Complexity: A guided tour, Oxford University Press, 2009 Search PubMed .
+From Soup: 89 E. Méhes and T. Vicsek, Integr. Biol. , 2014, 6 , 831–854 RSC .
+ ###### 
+From cou.: 90 P. Walde, H. Umakoshi, P. Stano and F. Mavelli, Chem. Commun., 2014, 50, 10177–10197 RSC .
+From Soup: 90 C. Detrain and J.-L. Deneubourg, Phys. Life Rev. , 2006, 3 , 162–187 CrossRef .
+ ###### 
+From cou.: 91 P. Kollmannsberger, C. Bidan, J. Dunlop and P. Fratzl, Soft Matter, 2011, 7, 9549–9560 RSC .
+From Soup: 91 I. Couzin, Nature , 2007, 445 , 715 CrossRef CAS PubMed .
+ ###### 
+From cou.: 92 E. Méhes and T. Vicsek, Integr. Biol., 2014, 6, 831–854 RSC .
+From Soup: 92 I. D. Couzin, Trends Cognit. Sci. , 2009, 13 , 36–43 CrossRef PubMed .
+ ###### 
+From cou.: 93 C. Detrain and J.-L. Deneubourg, Phys. Life Rev., 2006, 3, 162–187 CrossRef .
+From Soup: 93 T. S. Deisboeck and I. D. Couzin, BioEssays , 2009, 31 , 190–197 CrossRef PubMed .
+ ###### 
+From cou.: 94 I. Couzin, Nature, 2007, 445, 715 CrossRef CAS PubMed .
+From Soup: 94 E. Ben-Jacob, Philos. Trans. R. Soc., A , 2003, 361 , 1283–1312 CrossRef PubMed .
+ ###### 
+From cou.: 95 I. D. Couzin, Trends Cognit. Sci., 2009, 13, 36–43 CrossRef PubMed .
+From Soup: 95 J. J. Hopfield, Proc. Natl. Acad. Sci. U. S. A. , 1982, 79 , 2554–2558 CrossRef CAS .
+ ###### 
+From cou.: 96 T. S. Deisboeck and I. D. Couzin, BioEssays, 2009, 31, 190–197 CrossRef PubMed .
+From Soup: 96 D. R. Chialvo, Nat. Phys. , 2010, 6 , 744–750 CrossRef CAS .
+ ###### 
+From cou.: 97 E. Ben-Jacob, Philos. Trans. R. Soc., A, 2003, 361, 1283–1312 CrossRef PubMed .
+From Soup: 97 E. Ingber, D. W. Mow, D. Butler, L. Niklason, J. Huard, J. Mao, I. Yannas, D. Kaplan and G. Vunjak-Novakovic, Tissue Eng. , 2006, 12 , 3265–3283 CrossRef PubMed .
+ ###### 
+From cou.: 98 J. J. Hopfield, Proc. Natl. Acad. Sci. U. S. A., 1982, 79, 2554–2558 CrossRef CAS .
+From Soup: 98 E. R. Shamir and A. J. Ewald, Nat. Rev. Mol. Cell Biol. , 2014, 14 , 647–664 CrossRef PubMed .
+ ###### 
+From cou.: 99 D. R. Chialvo, Nat. Phys., 2010, 6, 744–750 CrossRef CAS .
+From Soup: 99 C. Willyard, Nature , 2015, 523 , 520–522 CrossRef CAS PubMed .
+ ###### 
+From cou.: 100 E. Ingber, D. W. Mow, D. Butler, L. Niklason, J. Huard, J. Mao, I. Yannas, D. Kaplan and G. Vunjak-Novakovic, Tissue Eng., 2006, 12, 3265–3283 CrossRef PubMed .
+From Soup: 100 R. Beckers, O. Holland and J.-L. Deneubourg, Artificial life IV , 1994, p. 189 Search PubMed .
+ ###### 
+From cou.: 101 E. R. Shamir and A. J. Ewald, Nat. Rev. Mol. Cell Biol., 2014, 14, 647–664 CrossRef PubMed .
+From Soup: 101 M. Dorigo and T. Stützle, Ant Colony Optimization , MIT press, 2004 Search PubMed .
+ ###### 
+From cou.: 102 C. Willyard, Nature, 2015, 523, 520–522 CrossRef CAS PubMed .
+From Soup: 102 S. F. Gilbert and S. Sarkar, Dev. Dyn. , 2000, 219 , 1–9 CrossRef CAS PubMed .
+ ###### 
+From cou.: 103 R. Beckers, O. Holland and J.-L. Deneubourg, Artificial life IV, 1994, p. 189 Search PubMed .
+From Soup: 103 B. C. Goodwin, How the leopard changed its spots: The evolution of complexity , Princeton University Press, 1994 Search PubMed .
+ ###### 
+From cou.: 104 M. Dorigo and T. Stützle, Ant Colony Optimization, MIT press, 2004 Search PubMed .
+From Soup: 104 B. Goodwin and L. Trainor, J. Theor. Biol. , 1985, 117 , 79–106 CrossRef CAS .
+ ###### 
+From cou.: 105 S. F. Gilbert and S. Sarkar, Dev. Dyn., 2000, 219, 1–9 CrossRef CAS PubMed .
+From Soup: 105 F. W. Cummings, J. Theor. Biol. , 1996, 178 , 229–238 CrossRef CAS PubMed .
+ ###### 
+From cou.: 106 B. C. Goodwin, How the leopard changed its spots: The evolution of complexity, Princeton University Press, 1994 Search PubMed .
+From Soup: 106 F. W. Cummings, J. Theor. Biol. , 2000, 207 , 107–116 CrossRef CAS PubMed .
+ ###### 
+From cou.: 107 B. Goodwin and L. Trainor, J. Theor. Biol., 1985, 117, 79–106 CrossRef CAS .
+From Soup: 107 J. Jaeger, D. Irons and N. Monk, Development , 2008, 135 , 3175–3183 CrossRef CAS PubMed .
+ ###### 
+From cou.: 108 F. W. Cummings, J. Theor. Biol., 1996, 178, 229–238 CrossRef CAS PubMed .
+From Soup: 108 F. Jacob, Science , 1977, 196 , 1161–1166 CAS .
+ ###### 
+From cou.: 109 F. W. Cummings, J. Theor. Biol., 2000, 207, 107–116 CrossRef CAS PubMed .
+From Soup: 109 R. V. Solé, R. Ferrer-Cancho, J. M. Montoya and S. Valverde, Complexity , 2002, 8 , 20–33 CrossRef .
+ ###### 
+From cou.: 110 J. Jaeger, D. Irons and N. Monk, Development, 2008, 135, 3175–3183 CrossRef CAS PubMed .
+From Soup: 110 R. V. Solé and S. Valverde, Trends Ecol. Evol. , 2006, 21 , 419–422 CrossRef PubMed .
+ ###### 
+From cou.: 111 F. Jacob, Science, 1977, 196, 1161–1166 CAS .
+From Soup: 111 C. Rodriguez-Caso, M. A. Medina and R. V. Solé, FEBS J. , 2005, 272 , 6423–6434 CrossRef CAS PubMed .
+ ###### 
+From cou.: 112 R. V. Solé, R. Ferrer-Cancho, J. M. Montoya and S. Valverde, Complexity, 2002, 8, 20–33 CrossRef .
+From Soup: 112 S. C. Morris, Life's solution: inevitable humans in a lonely universe , Cambridge University Press, 2003 Search PubMed .
+ ###### 
+From cou.: 113 R. V. Solé and S. Valverde, Trends Ecol. Evol., 2006, 21, 419–422 CrossRef PubMed .
+From Soup: 113 S. Hayakawa, Y. Takaku, J. S. Hwang, T. Horiguchi, H. Suga, W. Gehring, K. Ikeo and T. Gojobori, PLoS One , 2015, 10 , e0118415 Search PubMed .
+ ###### 
+From cou.: 114 C. Rodriguez-Caso, M. A. Medina and R. V. Solé, FEBS J., 2005, 272, 6423–6434 CrossRef CAS PubMed .
+From Soup: 114 G. S. Gavelis, S. Hayakawa, R. A. White III, T. Gojobori, C. A. Suttle, P. J. Keeling and B. S. Leander, Nature , 2015, 204–208, DOI: 10.1038/nature1459 .
+ ###### 
+From cou.: 115 S. C. Morris, Life's solution: inevitable humans in a lonely universe, Cambridge University Press, 2003 Search PubMed .
+From Soup: 115 M. Eiraku, N. Takata, H. Ishibashi, M. Kawada, E. Sakakura, S. Okuda, K. Sekiguchi, T. Adachi and Y. Sasai, Nature , 2011, 472 , 51–56 CrossRef CAS PubMed .
+ ###### 
+From cou.: 116 S. Hayakawa, Y. Takaku, J. S. Hwang, T. Horiguchi, H. Suga, W. Gehring, K. Ikeo and T. Gojobori, PLoS One, 2015, 10, e0118415 Search PubMed .
+From Soup: 116 M. Eiraku, T. Adachi and Y. Sasai, BioEssays , 2012, 34 , 17–25 CrossRef CAS PubMed .
+ ###### 
+From cou.: 117 G. S. Gavelis, S. Hayakawa, R. A. White III, T. Gojobori, C. A. Suttle, P. J. Keeling and B. S. Leander, Nature, 2015, 204–208, DOI:10.1038/nature1459 .
+From Soup: 117 T. Nakano, S. Ando, N. Takata, M. Kawada, K. Muguruma, K. Sekiguchi, K. Saito, S. Yonemura, M. Eiraku and Y. Sasai, Cell Stem Cell , 2012, 10 , 771–785 CrossRef CAS PubMed .
+ ###### 
+From cou.: 118 M. Eiraku, N. Takata, H. Ishibashi, M. Kawada, E. Sakakura, S. Okuda, K. Sekiguchi, T. Adachi and Y. Sasai, Nature, 2011, 472, 51–56 CrossRef CAS PubMed .
+From Soup: 118 T. R. Gregory, Evolution: Education and Outreach , 2008, 1 , 358–389 CrossRef .
+ ###### 
+From cou.: 119 M. Eiraku, T. Adachi and Y. Sasai, BioEssays, 2012, 34, 17–25 CrossRef CAS PubMed .
+From Soup: 119 Y. Sasai, Sci. Am. , 2012, 307 , 44–49 CrossRef PubMed .
+ ###### 
+From cou.: 120 T. Nakano, S. Ando, N. Takata, M. Kawada, K. Muguruma, K. Sekiguchi, K. Saito, S. Yonemura, M. Eiraku and Y. Sasai, Cell Stem Cell, 2012, 10, 771–785 CrossRef CAS PubMed .
+From Soup: 120 D. M. Raup and A. Michelson, Science , 1965, 147 , 1294–1295 CAS .
+ ###### 
+From cou.: 121 T. R. Gregory, Evolution: Education and Outreach, 2008, 1, 358–389 CrossRef .
+From Soup: 121 D. M. Raup, J. Paleontol. , 1966, 1178–1190 Search PubMed .
+ ###### 
+From cou.: 122 Y. Sasai, Sci. Am., 2012, 307, 44–49 CrossRef PubMed .
+From Soup: 122 G. R. McGhee, Theoretical morphology: the concept and its applications , Columbia University Press, 1999 Search PubMed .
+ ###### 
+From cou.: 123 D. M. Raup and A. Michelson, Science, 1965, 147, 1294–1295 CAS .
+From Soup: 123 G. R. McGhee, The geometry of evolution: adaptive landscapes and theoretical morphospaces , Cambridge University Press, 2006 Search PubMed .
+ ###### 
+From cou.: 124 D. M. Raup, J. Paleontol., 1966, 1178–1190 Search PubMed .
+From Soup: 124 O. Shoval, H. Sheftel, G. Shinar, Y. Hart, O. Ramote, A. Mayo, E. Dekel, K. Kavanagh and U. Alon, Science , 2012, 336 , 1157–1160 CrossRef CAS PubMed .
+ ###### 
+From cou.: 125 G. R. McGhee, Theoretical morphology: the concept and its applications, Columbia University Press, 1999 Search PubMed .
+From Soup: 125 B. Corominas-Murtra, J. Goñi, R. V. Solé and C. Rodrguez-Caso, Proc. Natl. Acad. Sci. U. S. A. , 2013, 110 , 13316–13321 CrossRef CAS PubMed .
+ ###### 
+From cou.: 126 G. R. McGhee, The geometry of evolution: adaptive landscapes and theoretical morphospaces, Cambridge University Press, 2006 Search PubMed .
+From Soup: 126 B. Esteve-Altava and D. Rasskin-Gutman, C. R. Palevol , 2014, 13 , 41–50 CrossRef .
+ ###### 
+From cou.: 127 O. Shoval, H. Sheftel, G. Shinar, Y. Hart, O. Ramote, A. Mayo, E. Dekel, K. Kavanagh and U. Alon, Science, 2012, 336, 1157–1160 CrossRef CAS PubMed .
+From Soup: 127 A. Avena-Koenigsberger, J. Goñi, R. Solé and O. Sporns, J. R. Soc., Interface , 2015, 12 , 20140881 CrossRef PubMed .
+ ###### 
+From cou.: 128 B. Corominas-Murtra, J. Goñi, R. V. Solé and C. Rodrguez-Caso, Proc. Natl. Acad. Sci. U. S. A., 2013, 110, 13316–13321 CrossRef CAS PubMed .
+From Soup: 128 R. V. Solé and S. Valverde, Complex networks , Springer, 2004, pp. 189–207 Search PubMed .
+ ###### 
+From cou.: 129 B. Esteve-Altava and D. Rasskin-Gutman, C. R. Palevol, 2014, 13, 41–50 CrossRef .
+From Soup: 129 C. J. Bashor, A. A. Horwitz, S. G. Peisajovich and W. A. Lim, Annu. Rev. Biophys. , 2010, 39 , 515 CrossRef CAS PubMed .
+ ###### 
+From cou.: 130 A. Avena-Koenigsberger, J. Goñi, R. Solé and O. Sporns, J. R. Soc., Interface, 2015, 12, 20140881 CrossRef PubMed .
+From Soup: 130 E. P. Widmaier, Vander's Human Physiology: The Mechanisms of Body Function. , McGraw-Hill Higher Education, New York, 13th edn, 2014 Search PubMed .
+ ###### 
+From cou.: 131 R. V. Solé and S. Valverde, Complex networks, Springer, 2004, pp. 189–207 Search PubMed .
+From Soup: 131 X. Ouyang and J. Chen, Chem. Biol. , 2010, 17 , 590–606 CrossRef CAS PubMed .
+ ###### 
+From cou.: 132 C. J. Bashor, A. A. Horwitz, S. G. Peisajovich and W. A. Lim, Annu. Rev. Biophys., 2010, 39, 515 CrossRef CAS PubMed .
+From Soup: 132 W. Bacchus, D. Aubel and M. Fussenegger, Mol. Syst. Biol. , 2013, 9 , 691 CrossRef CAS PubMed .
+ ###### 
+From cou.: 133 E. P. Widmaier, Vander's Human Physiology: The Mechanisms of Body Function., McGraw-Hill Higher Education, New York, 13th edn, 2014 Search PubMed .
+From Soup: 133 F. Lienert, J. Lohmuller, A. Garg and P. Silver, Nat. Rev. Mol. Cell Biol. , 2014, 15 , 95–107 CrossRef CAS PubMed .
+ ###### 
+From cou.: 134 X. Ouyang and J. Chen, Chem. Biol., 2010, 17, 590–606 CrossRef CAS PubMed .
+From Soup: 134 Z. Kis, S. Pereira, T. Homma, M. Pedigri and R. Krams, Interface , 2015, 12 , 20141000 Search PubMed .
+ ###### 
+From cou.: 135 W. Bacchus, D. Aubel and M. Fussenegger, Mol. Syst. Biol., 2013, 9, 691 CrossRef CAS PubMed .
+From Soup: 135 M. Wieland and M. Fussenegger, Annu. Rev. Chem. Biomol. Eng. , 2012, 3 , 209–234 CrossRef CAS PubMed .
+ ###### 
+From cou.: 136 F. Lienert, J. Lohmuller, A. Garg and P. Silver, Nat. Rev. Mol. Cell Biol., 2014, 15, 95–107 CrossRef CAS PubMed .
+From Soup: 136 Y. Wang, K. Wei and C. Smolke, Annu. Rev. Chem. Biomol. Eng. , 2013, 4 , 69–192 CrossRef CAS PubMed .
+ ###### 
+From cou.: 137 Z. Kis, S. Pereira, T. Homma, M. Pedigri and R. Krams, Interface, 2015, 12, 20141000 Search PubMed .
+From Soup: 137 A. Keefe, S. Pai and A. Ellington, Nat. Rev. Drug Discovery , 2010, 9 , 537–550 CrossRef CAS PubMed .
+ ###### 
+From cou.: 138 M. Wieland and M. Fussenegger, Annu. Rev. Chem. Biomol. Eng., 2012, 3, 209–234 CrossRef CAS PubMed .
+From Soup: 138 E. Mendenhall, K. Williamson, D. Reyon, J. Zou, O. Ram, J. Joung and B. Bernstein, Nat. Biotechnol. , 2013, 31 , 1133–1136 CrossRef CAS PubMed .
+ ###### 
+From cou.: 139 Y. Wang, K. Wei and C. Smolke, Annu. Rev. Chem. Biomol. Eng., 2013, 4, 69–192 CrossRef CAS PubMed .
+From Soup: 139 S. Konermann, M. Brigham, A. Trevino, P. Hsu, M. Heidenreich, L. Cong, R. Platt, D. Scott, G. Church and F. Zhang, Nature , 2013, 22 , 472–476 Search PubMed .
+ ###### 
+From cou.: 140 A. Keefe, S. Pai and A. Ellington, Nat. Rev. Drug Discovery, 2010, 9, 537–550 CrossRef CAS PubMed .
+From Soup: 140 A. Keung, J. Joung, A. Khalil and J. Collins, Nat. Rev. Genet. , 2015, 16 , 159–171 CrossRef CAS PubMed .
+ ###### 
+From cou.: 141 E. Mendenhall, K. Williamson, D. Reyon, J. Zou, O. Ram, J. Joung and B. Bernstein, Nat. Biotechnol., 2013, 31, 1133–1136 CrossRef CAS PubMed .
+From Soup: 141 M. L. de Groote, P. J. Verschure and M. G. Rots, Nucleic Acids Res. , 2012, 40 , 10596–10613 CrossRef CAS PubMed .
+ ###### 
+From cou.: 142 S. Konermann, M. Brigham, A. Trevino, P. Hsu, M. Heidenreich, L. Cong, R. Platt, D. Scott, G. Church and F. Zhang, Nature, 2013, 22, 472–476 Search PubMed .
+From Soup: 142 S. Culler, K. Hoff and C. Smolke, Science , 2010, 330 , 1251–1255 CrossRef CAS PubMed .
+ ###### 
+From cou.: 143 A. Keung, J. Joung, A. Khalil and J. Collins, Nat. Rev. Genet., 2015, 16, 159–171 CrossRef CAS PubMed .
+From Soup: 143 S. Auslander, D. Auslander, M. Muller, M. Wieland and M. Fussenegger, Nature , 2012, 487 , 123–127 Search PubMed .
+ ###### 
+From cou.: 144 M. L. de Groote, P. J. Verschure and M. G. Rots, Nucleic Acids Res., 2012, 40, 10596–10613 CrossRef CAS PubMed .
+From Soup: 144 Y. Li, Y. Jiang, H. Chen, W. Liao, Z. Li, R. Weiss and Z. Xie, Nat. Chem. Biol. , 2015, 11 , 207–213 CrossRef CAS PubMed .
+ ###### 
+From cou.: 145 S. Culler, K. Hoff and C. Smolke, Science, 2010, 330, 1251–1255 CrossRef CAS PubMed .
+From Soup: 145 B. Kramer, A. Viretta, M. Daoud-El-Baba, D. Aubel, W. Weber and M. Fussenegger, Nat. Biotechnol. , 2004, 22 , 867–870 CrossRef CAS PubMed .
+ ###### 
+From cou.: 146 S. Auslander, D. Auslander, M. Muller, M. Wieland and M. Fussenegger, Nature, 2012, 487, 123–127 Search PubMed .
+From Soup: 146 D. Greber, M. El-Baba and M. Fussenegger, Nucleic Acids Res. , 2008, 36 , e101 CrossRef PubMed .
+ ###### 
+From cou.: 147 Y. Li, Y. Jiang, H. Chen, W. Liao, Z. Li, R. Weiss and Z. Xie, Nat. Chem. Biol., 2015, 11, 207–213 CrossRef CAS PubMed .
+From Soup: 147 D. Greber and M. Fussenegger, Nucleic Acids Res. , 2010, 38 , e174 CrossRef PubMed .
+ ###### 
+From cou.: 148 B. Kramer, A. Viretta, M. Daoud-El-Baba, D. Aubel, W. Weber and M. Fussenegger, Nat. Biotechnol., 2004, 22, 867–870 CrossRef CAS PubMed .
+From Soup: 148 M. Tigges, T. Marquez-Lago, J. Stelling and M. Fussenegger, Nature , 2009, 457 , 309–312 CrossRef CAS PubMed .
+ ###### 
+From cou.: 149 D. Greber, M. El-Baba and M. Fussenegger, Nucleic Acids Res., 2008, 36, e101 CrossRef PubMed .
+From Soup: 149 W. Weber, J. Stelling, M. Rimann, B. Keller, M. Daoud-El Baba, C. Weber, D. Aubel and M. Fussenegger, Proc. Natl. Acad. Sci. U. S. A. , 2007, 104 , 2643–2648 CrossRef CAS PubMed .
+ ###### 
+From cou.: 150 D. Greber and M. Fussenegger, Nucleic Acids Res., 2010, 38, e174 CrossRef PubMed .
+From Soup: 150 D. Burrill, M. Inniss, P. Boyle and P. Silver, Genes Dev. , 2012, 26 , 1486–1497 CrossRef CAS PubMed .
+ ###### 
+From cou.: 151 M. Tigges, T. Marquez-Lago, J. Stelling and M. Fussenegger, Nature, 2009, 457, 309–312 CrossRef CAS PubMed .
+From Soup: 151 S. Regot, J. Macia, N. Conde, K. Furukawa, J. Kjellén, T. Peeters, S. Hohmann, E. Nadal, F. Posas and R. Solé, Nature , 2011, 469 , 207–211 CrossRef CAS PubMed .
+ ###### 
+From cou.: 152 W. Weber, J. Stelling, M. Rimann, B. Keller, M. Daoud-El Baba, C. Weber, D. Aubel and M. Fussenegger, Proc. Natl. Acad. Sci. U. S. A., 2007, 104, 2643–2648 CrossRef CAS PubMed .
+From Soup: 152 Y. Benenson, Nanotechnology , 2011, 6 , 465–467 CAS .
+ ###### 
+From cou.: 153 D. Burrill, M. Inniss, P. Boyle and P. Silver, Genes Dev., 2012, 26, 1486–1497 CrossRef CAS PubMed .
+From Soup: 153 R. Daniel, J. Rubens, R. Sarpeshkar and L. TK, Nature , 2013, 497 , 619–623 CrossRef CAS PubMed .
+ ###### 
+From cou.: 154 S. Regot, J. Macia, N. Conde, K. Furukawa, J. Kjellén, T. Peeters, S. Hohmann, E. Nadal, F. Posas and R. Solé, Nature, 2011, 469, 207–211 CrossRef CAS PubMed .
+From Soup: 154 M. Win and C. Smolke, Science , 2008, 322 , 456–460 CrossRef CAS PubMed .
+ ###### 
+From cou.: 155 Y. Benenson, Nanotechnology, 2011, 6, 465–467 CAS .
+From Soup: 155 P. D. Hsu, D. A. Scott, J. A. Weinstein, F. A. Ran, S. Konermann, V. Agarwala, Y. Li, E. J. Fine, X. Wu and O. Shalem, et al. , Nat. Biotechnol. , 2013, 31 , 827–832 CrossRef CAS PubMed .
+ ###### 
+From cou.: 156 R. Daniel, J. Rubens, R. Sarpeshkar and L. TK, Nature, 2013, 497, 619–623 CrossRef CAS PubMed .
+From Soup: 156 V. Pattanayak, S. Lin, J. P. Guilinger, E. Ma, J. A. Doudna and D. R. Liu, Nat. Biotechnol. , 2013, 31 , 839–843 CrossRef CAS PubMed .
+ ###### 
+From cou.: 157 M. Win and C. Smolke, Science, 2008, 322, 456–460 CrossRef CAS PubMed .
+From Soup: 157 M. Bibikova, K. Beumer, J. Trautman and D. Carroll, Science , 2003, 300 , 764 CrossRef CAS PubMed .
+ ###### 
+From cou.: 158 P. D. Hsu, D. A. Scott, J. A. Weinstein, F. A. Ran, S. Konermann, V. Agarwala, Y. Li, E. J. Fine, X. Wu and O. Shalem, et al. , Nat. Biotechnol., 2013, 31, 827–832 CrossRef CAS PubMed .
+From Soup: 158 M. Porteus and D. Baltimore, Science , 2003, 300 , 763 CrossRef PubMed .
+ ###### 
+From cou.: 159 V. Pattanayak, S. Lin, J. P. Guilinger, E. Ma, J. A. Doudna and D. R. Liu, Nat. Biotechnol., 2013, 31, 839–843 CrossRef CAS PubMed .
+From Soup: 159 M. Christian, T. Cermak, E. L. Doyle, C. Schmidt, F. Zhang, A. Hummel, A. J. Bogdanove and D. F. Voytas, Genetics , 2010, 186 , 757–761 CrossRef CAS PubMed .
+ ###### 
+From cou.: 160 M. Bibikova, K. Beumer, J. Trautman and D. Carroll, Science, 2003, 300, 764 CrossRef CAS PubMed .
+From Soup: 160 J. Doudna and E. Charpentier, Science , 2014, 346 , 1258096 CrossRef PubMed .
+ ###### 
+From cou.: 161 M. Porteus and D. Baltimore, Science, 2003, 300, 763 CrossRef PubMed .
+From Soup: 161 P. Mali, K. M. Esvelt and G. M. Church, Nat. Methods , 2013, 10 , 957–963 CrossRef CAS PubMed .
+ ###### 
+From cou.: 162 M. Christian, T. Cermak, E. L. Doyle, C. Schmidt, F. Zhang, A. Hummel, A. J. Bogdanove and D. F. Voytas, Genetics, 2010, 186, 757–761 CrossRef CAS PubMed .
+From Soup: 162 Y. Fu, J. Foden, C. Khayter, M. Maeder, D. Reyon, J. Joung and J. Sander, Nat. Biotechnol. , 2013, 31 , 822–826 CrossRef CAS PubMed .
+ ###### 
+From cou.: 163 J. Doudna and E. Charpentier, Science, 2014, 346, 1258096 CrossRef PubMed .
+From Soup: 163 J. P. Guilinger, V. Pattanayak, D. Reyon, S. Q. Tsai, J. D. Sander, J. K. Joung and D. R. Liu, Nat. Methods , 2014, 11 , 429 CrossRef CAS PubMed .
+ ###### 
+From cou.: 164 P. Mali, K. M. Esvelt and G. M. Church, Nat. Methods, 2013, 10, 957–963 CrossRef CAS PubMed .
+From Soup: 164 R. Gabriel, A. Lombardo, A. Arens, J. C. Miller, P. Genovese, C. Kaeppel, A. Nowrouzi, C. C. Bartholomae, J. Wang and G. Friedman, et al. , Nat. Biotechnol. , 2011, 29 , 816–823 CrossRef CAS PubMed .
+ ###### 
+From cou.: 165 Y. Fu, J. Foden, C. Khayter, M. Maeder, D. Reyon, J. Joung and J. Sander, Nat. Biotechnol., 2013, 31, 822–826 CrossRef CAS PubMed .
+From Soup: 165 C. Kuscu, S. Arslan, R. Singh, J. Thorpe and M. Adli, Nat. Biotechnol. , 2014, 32 , 677–683 CrossRef CAS PubMed .
+ ###### 
+From cou.: 166 J. P. Guilinger, V. Pattanayak, D. Reyon, S. Q. Tsai, J. D. Sander, J. K. Joung and D. R. Liu, Nat. Methods, 2014, 11, 429 CrossRef CAS PubMed .
+From Soup: 166 N. Kouprina, W. Earnshaw, H. Masumoto and V. Larionov, Cell. Mol. Life Sci. , 2013, 70 , 1135–1148 CrossRef CAS PubMed .
+ ###### 
+From cou.: 167 R. Gabriel, A. Lombardo, A. Arens, J. C. Miller, P. Genovese, C. Kaeppel, A. Nowrouzi, C. C. Bartholomae, J. Wang and G. Friedman, et al. , Nat. Biotechnol., 2011, 29, 816–823 CrossRef CAS PubMed .
+From Soup: 167 M. Maeder, J. Angstman, M. Richardson, S. Linder, V. Cascio, S. Tsai, Q. Ho, J. Sander, D. Reyon, B. Bernstein, J. Costello, M. Wilkinson and J. Joung, Nat. Biotechnol. , 2013, 31 , 1137–1142 CrossRef CAS PubMed .
+ ###### 
+From cou.: 168 C. Kuscu, S. Arslan, R. Singh, J. Thorpe and M. Adli, Nat. Biotechnol., 2014, 32, 677–683 CrossRef CAS PubMed .
+From Soup: 168 P. Thakore, A. D'Ippolito, L. Song, A. Safi, N. Shivakumar, A. Kabadi, T. Reddy, G. Crawford and C. Gersbach, Nat. Methods , 2015, 12 , 1143–1149 CrossRef CAS PubMed .
+ ###### 
+From cou.: 169 N. Kouprina, W. Earnshaw, H. Masumoto and V. Larionov, Cell. Mol. Life Sci., 2013, 70, 1135–1148 CrossRef CAS PubMed .
+From Soup: 169 D. Holoch and D. Moazed, Nat. Rev. Genet. , 2015, 16 , 71–84 CrossRef CAS PubMed .
+ ###### 
+From cou.: 170 M. Maeder, J. Angstman, M. Richardson, S. Linder, V. Cascio, S. Tsai, Q. Ho, J. Sander, D. Reyon, B. Bernstein, J. Costello, M. Wilkinson and J. Joung, Nat. Biotechnol., 2013, 31, 1137–1142 CrossRef CAS PubMed .
+From Soup: 170 A. Khalil, T. Lu, C. Bashor, C. Ramirez, N. Pyenson, J. Joung and J. Collins, Cell , 2012, 150 , 647–658 CrossRef CAS PubMed .
+ ###### 
+From cou.: 171 P. Thakore, A. D'Ippolito, L. Song, A. Safi, N. Shivakumar, A. Kabadi, T. Reddy, G. Crawford and C. Gersbach, Nat. Methods, 2015, 12, 1143–1149 CrossRef CAS PubMed .
+From Soup: 171 M. L. Maeder, S. J. Linder, D. Reyon, J. F. Angstman, Y. Fu, J. D. Sander and J. K. Joung, Nat. Methods , 2013, 10 , 243–245 CrossRef CAS PubMed .
+ ###### 
+From cou.: 172 D. Holoch and D. Moazed, Nat. Rev. Genet., 2015, 16, 71–84 CrossRef CAS PubMed .
+From Soup: 172 F. Zhang, L. Cong, S. Lodato, S. Kosuri, G. M. Church and P. Arlotta, Nat. Biotechnol. , 2011, 29 , 149–153 CrossRef CAS PubMed .
+ ###### 
+From cou.: 173 A. Khalil, T. Lu, C. Bashor, C. Ramirez, N. Pyenson, J. Joung and J. Collins, Cell, 2012, 150, 647–658 CrossRef CAS PubMed .
+From Soup: 173 R. R. Beerli, B. Dreier and C. F. Barbas, Proc. Natl. Acad. Sci. U. S. A. , 2000, 97 , 1495–1500 CrossRef CAS PubMed .
+ ###### 
+From cou.: 174 M. L. Maeder, S. J. Linder, D. Reyon, J. F. Angstman, Y. Fu, J. D. Sander and J. K. Joung, Nat. Methods, 2013, 10, 243–245 CrossRef CAS PubMed .
+From Soup: 174 E. J. Olson and J. J. Tabor, Nat. Chem. Biol. , 2014, 10 , 502–511 CrossRef CAS PubMed .
+ ###### 
+From cou.: 175 F. Zhang, L. Cong, S. Lodato, S. Kosuri, G. M. Church and P. Arlotta, Nat. Biotechnol., 2011, 29, 149–153 CrossRef CAS PubMed .
+From Soup: 175 F. J. Isaacs and J. J. Collins, Nat. Biotechnol. , 2005, 23 , 306–307 CrossRef CAS PubMed .
+ ###### 
+From cou.: 176 R. R. Beerli, B. Dreier and C. F. Barbas, Proc. Natl. Acad. Sci. U. S. A., 2000, 97, 1495–1500 CrossRef CAS PubMed .
+From Soup: 176 T. S. Bayer and C. D. Smolke, Nat. Biotechnol. , 2005, 23 , 337–343 CrossRef CAS PubMed .
+ ###### 
+From cou.: 177 E. J. Olson and J. J. Tabor, Nat. Chem. Biol., 2014, 10, 502–511 CrossRef CAS PubMed .
+From Soup: 177 A. Serganov and D. J. Patel, Nat. Rev. Genet. , 2007, 8 , 776–790 CrossRef CAS PubMed .
+ ###### 
+From cou.: 178 F. J. Isaacs and J. J. Collins, Nat. Biotechnol., 2005, 23, 306–307 CrossRef CAS PubMed .
+From Soup: 178 J. Liang, R. Bloom and C. Smolke, Mol. Cell , 2011, 43 , 915–926 CrossRef CAS PubMed .
+ ###### 
+From cou.: 179 T. S. Bayer and C. D. Smolke, Nat. Biotechnol., 2005, 23, 337–343 CrossRef CAS PubMed .
+From Soup: 179 A. Reinke, R. Grant and A. Keating, J. Am. Chem. Soc. , 2010, 132 , 6025–6031 CrossRef CAS PubMed .
+ ###### 
+From cou.: 180 A. Serganov and D. J. Patel, Nat. Rev. Genet., 2007, 8, 776–790 CrossRef CAS PubMed .
+From Soup: 180 G. Kapp, S. Liu, A. Stein, D. Wong, A. Reményi, B. Yeh, J. Fraser, J. Taunton, W. Lim and T. Kortemme, Proc. Natl. Acad. Sci. U. S. A. , 2012, 109 , 5277–5282 CrossRef CAS PubMed .
+ ###### 
+From cou.: 181 J. Liang, R. Bloom and C. Smolke, Mol. Cell, 2011, 43, 915–926 CrossRef CAS PubMed .
+From Soup: 181 W. Lim, Nat. Rev. Mol. Cell Biol. , 2010, 11 , 393–403 CrossRef CAS PubMed .
+ ###### 
+From cou.: 182 A. Reinke, R. Grant and A. Keating, J. Am. Chem. Soc., 2010, 132, 6025–6031 CrossRef CAS PubMed .
+From Soup: 182 G. Struhl and A. Adachi, Cell , 1998, 93 , 649–660 CrossRef CAS PubMed .
+ ###### 
+From cou.: 183 G. Kapp, S. Liu, A. Stein, D. Wong, A. Reményi, B. Yeh, J. Fraser, J. Taunton, W. Lim and T. Kortemme, Proc. Natl. Acad. Sci. U. S. A., 2012, 109, 5277–5282 CrossRef CAS PubMed .
+From Soup: 183 G. Barnea, W. Strapps, G. Herrada, Y. Berman, J. Ong, B. Kloss, R. Axel and K. Lee, Proc. Natl. Acad. Sci. U. S. A. , 2008, 105 , 64–69 CrossRef CAS PubMed .
+ ###### 
+From cou.: 184 W. Lim, Nat. Rev. Mol. Cell Biol., 2010, 11, 393–403 CrossRef CAS PubMed .
+From Soup: 184 S. Dong, S. Rogan and B. Roth, Nat. Protoc. , 2010, 5 , 561–573 CrossRef CAS PubMed .
+ ###### 
+From cou.: 185 G. Struhl and A. Adachi, Cell, 1998, 93, 649–660 CrossRef CAS PubMed .
+From Soup: 185 H. Mootz, E. Blum, A. Tyszkiewicz and T. Muir, J. Am. Chem. Soc. , 2003, 125 , 10561–10569 CrossRef CAS PubMed .
+ ###### 
+From cou.: 186 G. Barnea, W. Strapps, G. Herrada, Y. Berman, J. Ong, B. Kloss, R. Axel and K. Lee, Proc. Natl. Acad. Sci. U. S. A., 2008, 105, 64–69 CrossRef CAS PubMed .
+From Soup: 186 L. Berrade, Y. Kwon and J. Camarero, ChemBioChem , 2010, 11 , 1368–1372 CrossRef CAS PubMed .
+ ###### 
+From cou.: 187 S. Dong, S. Rogan and B. Roth, Nat. Protoc., 2010, 5, 561–573 CrossRef CAS PubMed .
+From Soup: 187 D. Selgrade, J. Lohmueller, F. Lienert and P. Silver, J. Am. Chem. Soc. , 2013, 135 , 7713–7719 CrossRef CAS PubMed .
+ ###### 
+From cou.: 188 H. Mootz, E. Blum, A. Tyszkiewicz and T. Muir, J. Am. Chem. Soc., 2003, 125, 10561–10569 CrossRef CAS PubMed .
+From Soup: 188 S. Wend, H. Wagner, K. Müller, M. Zurbriggen, W. Weber and G. Radziwill, ACS Synth. Biol. , 2014, 3 , 280–285 CrossRef CAS PubMed .
+ ###### 
+From cou.: 189 L. Berrade, Y. Kwon and J. Camarero, ChemBioChem, 2010, 11, 1368–1372 CrossRef CAS PubMed .
+From Soup: 189 V. Mironov, R. P. Visconti, V. Kasyanov, G. Forgacs, C. J. Drake and R. R. Markwald, Biomaterials , 2009, 30 , 2164–2174 CrossRef CAS PubMed .
+ ###### 
+From cou.: 190 D. Selgrade, J. Lohmueller, F. Lienert and P. Silver, J. Am. Chem. Soc., 2013, 135, 7713–7719 CrossRef CAS PubMed .
+From Soup: 190 C. Evans, Adv. Drug Delivery Rev. , 2012, 64 , 1331–1340 CrossRef CAS PubMed .
+ ###### 
+From cou.: 191 S. Wend, H. Wagner, K. Müller, M. Zurbriggen, W. Weber and G. Radziwill, ACS Synth. Biol., 2014, 3, 280–285 CrossRef CAS PubMed .
+From Soup: 191 A. Shamloo, N. Mohammadaliha and M. Mohseni, J. Biotechnol. , 2015, 212 , 71–89 CrossRef CAS PubMed .
+ ###### 
+From cou.: 192 V. Mironov, R. P. Visconti, V. Kasyanov, G. Forgacs, C. J. Drake and R. R. Markwald, Biomaterials, 2009, 30, 2164–2174 CrossRef CAS PubMed .
+From Soup: 192 A. C. Luca, S. Mersch, R. Deenen, S. Schmidt, I. Messner, K.-L. Schäfer, S. E. Baldus, W. Huckenbeck, R. P. Piekorz and W. T. Knoefel, et al. , PLoS One , 2013, 8 , e59689 CAS .
+ ###### 
+From cou.: 193 C. Evans, Adv. Drug Delivery Rev., 2012, 64, 1331–1340 CrossRef CAS PubMed .
+From Soup: 193 C. P. Soares, V. Midlej, M. E. W. de Oliveira, M. Benchimol, M. L. Costa and C. Mermelstein, PLoS One , 2012, 7 , e38147 Search PubMed .
+ ###### 
+From cou.: 194 A. Shamloo, N. Mohammadaliha and M. Mohseni, J. Biotechnol., 2015, 212, 71–89 CrossRef CAS PubMed .
+From Soup: 194 K. M. Hakkinen, J. S. Harunaga, A. D. Doyle and K. M. Yamada, Tissue Eng., Part A , 2010, 17 , 713–724 CrossRef PubMed .
+ ###### 
+From cou.: 195 A. C. Luca, S. Mersch, R. Deenen, S. Schmidt, I. Messner, K.-L. Schäfer, S. E. Baldus, W. Huckenbeck, R. P. Piekorz and W. T. Knoefel, et al. , PLoS One, 2013, 8, e59689 CAS .
+From Soup: 195 D.-H. Kim, P. P. Provenzano, C. L. Smith and A. Levchenko, J. Cell Biol. , 2012, 197 , 351–360 CrossRef CAS PubMed .
+ ###### 
+From cou.: 196 C. P. Soares, V. Midlej, M. E. W. de Oliveira, M. Benchimol, M. L. Costa and C. Mermelstein, PLoS One, 2012, 7, e38147 Search PubMed .
+From Soup: 196 J. Visser, F. P. Melchels, J. E. Jeon, E. M. van Bussel, L. S. Kimpton, H. M. Byrne, W. J. Dhert, P. D. Dalton, D. W. Hutmacher and J. Malda, Nat. Commun. , 2015, 6 , 6933 CrossRef CAS PubMed .
+ ###### 
+From cou.: 197 K. M. Hakkinen, J. S. Harunaga, A. D. Doyle and K. M. Yamada, Tissue Eng., Part A, 2010, 17, 713–724 CrossRef PubMed .
+From Soup: 197 H. G. Sundararaghavan, R. L. Saunders, D. A. Hammer and J. A. Burdick, Biotechnol. Bioeng. , 2013, 110 , 1249–1254 CrossRef CAS PubMed .
+ ###### 
+From cou.: 198 D.-H. Kim, P. P. Provenzano, C. L. Smith and A. Levchenko, J. Cell Biol., 2012, 197, 351–360 CrossRef CAS PubMed .
+From Soup: 198 L. Moroni, R. Schotel, D. Hamann, J. R. de Wijn and C. A. van Blitterswijk, Adv. Funct. Mater. , 2008, 18 , 53–60 CrossRef CAS .
+ ###### 
+From cou.: 199 J. Visser, F. P. Melchels, J. E. Jeon, E. M. van Bussel, L. S. Kimpton, H. M. Byrne, W. J. Dhert, P. D. Dalton, D. W. Hutmacher and J. Malda, Nat. Commun., 2015, 6, 6933 CrossRef CAS PubMed .
+From Soup: 199 G. Hochleitner, T. Jüngst, T. D. Brown, K. Hahn, C. Moseke, F. Jakob, P. D. Dalton and J. Groll, Biofabrication , 2015, 7 , 035002 CrossRef PubMed .
+ ###### 
+From cou.: 200 H. G. Sundararaghavan, R. L. Saunders, D. A. Hammer and J. A. Burdick, Biotechnol. Bioeng., 2013, 110, 1249–1254 CrossRef CAS PubMed .
+From Soup: 200 A. J. Engler, S. Sen, H. L. Sweeney and D. E. Discher, Cell , 2006, 126 , 677–689 CrossRef CAS PubMed .
+ ###### 
+From cou.: 201 L. Moroni, R. Schotel, D. Hamann, J. R. de Wijn and C. A. van Blitterswijk, Adv. Funct. Mater., 2008, 18, 53–60 CrossRef CAS .
+From Soup: 201 G. C. Ingavle, S. H. Gehrke and M. S. Detamore, Biomaterials , 2014, 35 , 3558–3570 CrossRef CAS PubMed .
+ ###### 
+From cou.: 202 G. Hochleitner, T. Jüngst, T. D. Brown, K. Hahn, C. Moseke, F. Jakob, P. D. Dalton and J. Groll, Biofabrication, 2015, 7, 035002 CrossRef PubMed .
+From Soup: 202 D.-H. Kim and D. Wirtz, FASEB J. , 2013, 27 , 1351–1361 CrossRef CAS PubMed .
+ ###### 
+From cou.: 203 A. J. Engler, S. Sen, H. L. Sweeney and D. E. Discher, Cell, 2006, 126, 677–689 CrossRef CAS PubMed .
+From Soup: 203 P. Rørth, Annu. Rev. Cell Dev. Biol. , 2009, 25 , 407–429 CrossRef PubMed .
+ ###### 
+From cou.: 204 G. C. Ingavle, S. H. Gehrke and M. S. Detamore, Biomaterials, 2014, 35, 3558–3570 CrossRef CAS PubMed .
+From Soup: 204 J. M. Halbleib and W. J. Nelson, Genes Dev. , 2006, 20 , 3199–3214 CrossRef CAS PubMed .
+ ###### 
+From cou.: 205 D.-H. Kim and D. Wirtz, FASEB J., 2013, 27, 1351–1361 CrossRef CAS PubMed .
+From Soup: 205 M. Eiraku, K. Watanabe, M. Matsuo-Takasaki, M. Kawada, S. Yonemura, M. Matsumura, T. Wataya, A. Nishiyama, K. Muguruma and Y. Sasai, Cell Stem Cell , 2008, 3 , 519–532 CrossRef CAS PubMed .
+ ###### 
+From cou.: 206 P. Rørth, Annu. Rev. Cell Dev. Biol., 2009, 25, 407–429 CrossRef PubMed .
+From Soup: 206 M. A. Lancaster, M. Renner, C.-A. Martin, D. Wenzel, L. S. Bicknell, M. E. Hurles, T. Homfray, J. M. Penninger, A. P. Jackson and J. A. Knoblich, Nature , 2013, 501 , 373–379 CrossRef CAS PubMed .
+ ###### 
+From cou.: 207 J. M. Halbleib and W. J. Nelson, Genes Dev., 2006, 20, 3199–3214 CrossRef CAS PubMed .
+From Soup: 207 K. R. Koehler and E. Hashino, Nat. Protoc. , 2014, 9 , 1229–1244 CrossRef CAS PubMed .
+ ###### 
+From cou.: 208 M. Eiraku, K. Watanabe, M. Matsuo-Takasaki, M. Kawada, S. Yonemura, M. Matsumura, T. Wataya, A. Nishiyama, K. Muguruma and Y. Sasai, Cell Stem Cell, 2008, 3, 519–532 CrossRef CAS PubMed .
+From Soup: 208 T. Takebe, K. Sekine, M. Enomura, H. Koike, M. Kimura, T. Ogaeri, R. Zhang, Y. Ueno, Y. Zheng, N. Koike, S. Aoyama, Y. Adachi and H. Taniguchi, Nature , 2013, 499 , 481–484 CrossRef CAS PubMed .
+ ###### 
+From cou.: 209 M. A. Lancaster, M. Renner, C.-A. Martin, D. Wenzel, L. S. Bicknell, M. E. Hurles, T. Homfray, J. M. Penninger, A. P. Jackson and J. A. Knoblich, Nature, 2013, 501, 373–379 CrossRef CAS PubMed .
+From Soup: 209 J. R. Spence, C. N. Mayhew, S. A. Rankin, M. F. Kuhar, J. E. Vallance, K. Tolle, E. E. Hoskins, V. V. Kalinichenko, S. I. Wells and A. M. Zorn, et al. , Nature , 2011, 470 , 105–109 CrossRef PubMed .
+ ###### 
+From cou.: 210 K. R. Koehler and E. Hashino, Nat. Protoc., 2014, 9, 1229–1244 CrossRef CAS PubMed .
+From Soup: 210 T. Sato, R. G. Vries, H. J. Snippert, M. van de Wetering, N. Barker, D. E. Stange, J. H. van Es, A. Abo, P. Kujala and P. J. Peters, et al. , Nature , 2009, 459 , 262–265 CrossRef CAS PubMed .
+ ###### 
+From cou.: 211 T. Takebe, K. Sekine, M. Enomura, H. Koike, M. Kimura, T. Ogaeri, R. Zhang, Y. Ueno, Y. Zheng, N. Koike, S. Aoyama, Y. Adachi and H. Taniguchi, Nature, 2013, 499, 481–484 CrossRef CAS PubMed .
+From Soup: 211 K. W. McCracken, E. M. Catá, C. M. Crawford, K. L. Sinagoga, M. Schumacher, B. E. Rockich, Y.-H. Tsai, C. N. Mayhew, J. R. Spence and Y. Zavros, et al. , Nature , 2014, 516 , 400–404 CrossRef CAS PubMed .
+ ###### 
+From cou.: 212 J. R. Spence, C. N. Mayhew, S. A. Rankin, M. F. Kuhar, J. E. Vallance, K. Tolle, E. E. Hoskins, V. V. Kalinichenko, S. I. Wells and A. M. Zorn, et al. , Nature, 2011, 470, 105–109 CrossRef PubMed .
+From Soup: 212 S. F. Boj, C.-I. Hwang, L. A. Baker, I. I. C. Chio, D. D. Engle, V. Corbo, M. Jager, M. Ponz-Sarvise, H. Tiriac and M. S. Spector, et al. , Cell , 2015, 160 , 324–338 CrossRef CAS PubMed .
+ ###### 
+From cou.: 213 T. Sato, R. G. Vries, H. J. Snippert, M. van de Wetering, N. Barker, D. E. Stange, J. H. van Es, A. Abo, P. Kujala and P. J. Peters, et al. , Nature, 2009, 459, 262–265 CrossRef CAS PubMed .
+From Soup: 213 M. Takasato, P. Er, M. Becroft, J. Vanslambrouck, E. Stanley, A. Elefanty and M. Little, Nat. Cell Biol. , 2014, 16 , 118–126 CrossRef CAS PubMed .
+ ###### 
+From cou.: 214 K. W. McCracken, E. M. Catá, C. M. Crawford, K. L. Sinagoga, M. Schumacher, B. E. Rockich, Y.-H. Tsai, C. N. Mayhew, J. R. Spence and Y. Zavros, et al. , Nature, 2014, 516, 400–404 CrossRef CAS PubMed .
+From Soup: 214 C. Xinaris, V. Benedetti, P. Rizzo, M. Abbate, D. Corna, N. Azzollini, S. Conti, M. Unbekandt, J. Davies, M. Morigi, A. Benigni and G. Remuzzi, J. Am. Soc. Nephrol. , 2012, 23 , 1857–1868 CrossRef PubMed .
+ ###### 
+From cou.: 215 S. F. Boj, C.-I. Hwang, L. A. Baker, I. I. C. Chio, D. D. Engle, V. Corbo, M. Jager, M. Ponz-Sarvise, H. Tiriac and M. S. Spector, et al. , Cell, 2015, 160, 324–338 CrossRef CAS PubMed .
+From Soup: 215 R. Takebe, T. Zhang, H. Koike, M. Kimura, E. Yoshizawa, M. Enomura, N. Koike, K. Sekine and H. Taniguchi, Nat. Protoc. , 2014, 9 , 396–409 CrossRef PubMed .
+ ###### 
+From cou.: 216 M. Takasato, P. Er, M. Becroft, J. Vanslambrouck, E. Stanley, A. Elefanty and M. Little, Nat. Cell Biol., 2014, 16, 118–126 CrossRef CAS PubMed .
+From Soup: 216 R. A. Foty and M. S. Steinberg, Dev. Biol. , 2005, 278 , 255–263 CrossRef CAS PubMed .
+ ###### 
+From cou.: 217 C. Xinaris, V. Benedetti, P. Rizzo, M. Abbate, D. Corna, N. Azzollini, S. Conti, M. Unbekandt, J. Davies, M. Morigi, A. Benigni and G. Remuzzi, J. Am. Soc. Nephrol., 2012, 23, 1857–1868 CrossRef PubMed .
+From Soup: 217 M. Steinberg, T. Poole, Cell behavior , 1982, vol. 583, p. 607 Search PubMed .
+ ###### 
+From cou.: 218 R. Takebe, T. Zhang, H. Koike, M. Kimura, E. Yoshizawa, M. Enomura, N. Koike, K. Sekine and H. Taniguchi, Nat. Protoc., 2014, 9, 396–409 CrossRef PubMed .
+From Soup: 218 D. Beysens, G. Forgacs and J. Glazier, Proc. Natl. Acad. Sci. U. S. A. , 2000, 97 , 9467–9471 CrossRef CAS .
+ ###### 
+From cou.: 219 R. A. Foty and M. S. Steinberg, Dev. Biol., 2005, 278, 255–263 CrossRef CAS PubMed .
+From Soup: 219 G. Forgacs and S. A. Newman, Biological physics of the developing embryo , Cambridge University Press, 2005 Search PubMed .
+ ###### 
+From cou.: 220 M. Steinberg, T. Poole, Cell behavior, 1982, vol. 583, p. 607 Search PubMed .
+From Soup: 220 S. A. Newman and R. Bhat, Phys. Biol. , 2008, 5 , 015008 CrossRef PubMed .
+ ###### 
+From cou.: 221 D. Beysens, G. Forgacs and J. Glazier, Proc. Natl. Acad. Sci. U. S. A., 2000, 97, 9467–9471 CrossRef CAS .
+From Soup: 221 J. C. Mombach, J. A. Glazier, R. C. Raphael and M. Zajac, Phys. Rev. Lett. , 1995, 75 , 2244 CrossRef CAS PubMed .
+ ###### 
+From cou.: 222 G. Forgacs and S. A. Newman, Biological physics of the developing embryo, Cambridge University Press, 2005 Search PubMed .
+From Soup: 222 S. A. Newman, Science , 2012, 338 , 217–219 CrossRef CAS PubMed .
+ ###### 
+From cou.: 223 S. A. Newman and R. Bhat, Phys. Biol., 2008, 5, 015008 CrossRef PubMed .
+From Soup: 223 B. Guillotin and F. Guillemot, Trends Biotechnol. , 2011, 29 , 183–190 CrossRef CAS PubMed .
+ ###### 
+From cou.: 224 J. C. Mombach, J. A. Glazier, R. C. Raphael and M. Zajac, Phys. Rev. Lett., 1995, 75, 2244 CrossRef CAS PubMed .
+From Soup: 224 E. D. Miller, K. Li, T. Kanade, L. E. Weiss, L. M. Walker and P. G. Campbell, Biomaterials , 2011, 32 , 2775–2785 CrossRef CAS PubMed .
+ ###### 
+From cou.: 225 S. A. Newman, Science, 2012, 338, 217–219 CrossRef CAS PubMed .
+From Soup: 225 E. D. Ker, B. Chu, J. A. Phillippi, B. Gharaibeh, J. Huard, L. E. Weiss and P. G. Campbell, Biomaterials , 2011, 32 , 3413–3422 CrossRef CAS PubMed .
+ ###### 
+From cou.: 226 B. Guillotin and F. Guillemot, Trends Biotechnol., 2011, 29, 183–190 CrossRef CAS PubMed .
+From Soup: 226 B. M. Brewer, M. Shi, J. F. Edd, D. J. Webb and D. Li, Biomed. Microdevices , 2014, 16 , 311–323 CrossRef CAS PubMed .
+ ###### 
+From cou.: 227 E. D. Miller, K. Li, T. Kanade, L. E. Weiss, L. M. Walker and P. G. Campbell, Biomaterials, 2011, 32, 2775–2785 CrossRef CAS PubMed .
+From Soup: 227 S. Hosmane, I. H. Yang, A. Ruffin, N. Thakor and A. Venkatesan, Lab Chip , 2010, 10 , 741–747 RSC .
+ ###### 
+From cou.: 228 E. D. Ker, B. Chu, J. A. Phillippi, B. Gharaibeh, J. Huard, L. E. Weiss and P. G. Campbell, Biomaterials, 2011, 32, 3413–3422 CrossRef CAS PubMed .
+From Soup: 228 E. M. Lucchetta, J. H. Lee, L. A. Fu, N. H. Patel and R. F. Ismagilov, Nature , 2005, 434 , 1134–1138 CrossRef CAS PubMed .
+ ###### 
+From cou.: 229 B. M. Brewer, M. Shi, J. F. Edd, D. J. Webb and D. Li, Biomed. Microdevices, 2014, 16, 311–323 CrossRef CAS PubMed .
+From Soup: 229 N. Tandon, C. Cannizzaro, P.-H. G. Chao, R. Maidhof, A. Marsano, H. T. H. Au, M. Radisic and G. Vunjak-Novakovic, Nat. Protoc. , 2009, 4 , 155–173 CrossRef CAS PubMed .
+ ###### 
+From cou.: 230 S. Hosmane, I. H. Yang, A. Ruffin, N. Thakor and A. Venkatesan, Lab Chip, 2010, 10, 741–747 RSC .
+From Soup: 230 R. Renault, N. Sukenik, S. Descroix, L. Malaquin, J.-L. Viovy, J.-M. Peyrin, S. Bottani, P. Monceau, E. Moses and M. Vignes, PLoS One , 2015, 10 , e0120680 Search PubMed .
+ ###### 
+From cou.: 231 E. M. Lucchetta, J. H. Lee, L. A. Fu, N. H. Patel and R. F. Ismagilov, Nature, 2005, 434, 1134–1138 CrossRef CAS PubMed .
+From Soup: 231 M. Baker, Nature , 2011, 471 , 661–665 CrossRef CAS PubMed .
+ ###### 
+From cou.: 232 N. Tandon, C. Cannizzaro, P.-H. G. Chao, R. Maidhof, A. Marsano, H. T. H. Au, M. Radisic and G. Vunjak-Novakovic, Nat. Protoc., 2009, 4, 155–173 CrossRef CAS PubMed .
+From Soup: 232 S. N. Bhatia and D. E. Ingber, Nat. Biotechnol. , 2014, 32 , 760–772 CrossRef CAS PubMed .
+ ###### 
+From cou.: 233 R. Renault, N. Sukenik, S. Descroix, L. Malaquin, J.-L. Viovy, J.-M. Peyrin, S. Bottani, P. Monceau, E. Moses and M. Vignes, PLoS One, 2015, 10, e0120680 Search PubMed .
+From Soup: 233 D. Huh, H. J. Kim, J. P. Fraser, D. E. Shea, M. Khan, A. Bahinski, G. A. Hamilton and D. E. Ingber, Nat. Protoc. , 2013, 8 , 2135–2157 CrossRef CAS PubMed .
+ ###### 
+From cou.: 234 M. Baker, Nature, 2011, 471, 661–665 CrossRef CAS PubMed .
+From Soup: 234 D. Huh, G. A. Hamilton and D. E. Ingber, Trends Cell Biol. , 2011, 21 , 745–754 CrossRef CAS PubMed .
+ ###### 
+From cou.: 235 S. N. Bhatia and D. E. Ingber, Nat. Biotechnol., 2014, 32, 760–772 CrossRef CAS PubMed .
+From Soup: 235 A. Grosberg, P. W. Alford, M. L. McCain and K. K. Parker, Lab Chip , 2011, 11 , 4165–4173 RSC .
+ ###### 
+From cou.: 236 D. Huh, H. J. Kim, J. P. Fraser, D. E. Shea, M. Khan, A. Bahinski, G. A. Hamilton and D. E. Ingber, Nat. Protoc., 2013, 8, 2135–2157 CrossRef CAS PubMed .
+From Soup: 236 D. Huh, B. D. Matthews, A. Mammoto, H. Y. Hsin and D. E. Ingber, Science , 2010, 328 , 1662–1668 CrossRef CAS PubMed .
+ ###### 
+From cou.: 237 D. Huh, G. A. Hamilton and D. E. Ingber, Trends Cell Biol., 2011, 21, 745–754 CrossRef CAS PubMed .
+From Soup: 237 C. Zhang, Z. Zhao, N. A. Abdul Rahim, D. van Noort and H. Yu, Lab Chip , 2009, 9 , 3185 RSC .
+ ###### 
+From cou.: 238 A. Grosberg, P. W. Alford, M. L. McCain and K. K. Parker, Lab Chip, 2011, 11, 4165–4173 RSC .
+From Soup: 238 S. F. Badylak, D. Taylor and K. Uygun, Annu. Rev. Biomed. Eng. , 2011, 13 , 27–53 CrossRef CAS PubMed .
+ ###### 
+From cou.: 239 D. Huh, B. D. Matthews, A. Mammoto, H. Y. Hsin and D. E. Ingber, Science, 2010, 328, 1662–1668 CrossRef CAS PubMed .
+From Soup: 239 H. C. Ott, T. S. Matthiesen, S.-K. Goh, L. D. Black, S. M. Kren, T. I. Netoff and D. A. Taylor, Nat. Med. , 2008, 14 , 213–221 CrossRef CAS PubMed .
+ ###### 
+From cou.: 240 C. Zhang, Z. Zhao, N. A. Abdul Rahim, D. van Noort and H. Yu, Lab Chip, 2009, 9, 3185 RSC .
+From Soup: 240 B. E. Uygun, A. Soto-Gutierrez, H. Yagi, M.-L. Izamis, M. A. Guzzardi, C. Shulman, J. Milwid, N. Kobayashi, A. Tilles and F. Berthiaume, et al. , Nat. Med. , 2010, 16 , 814–820 CrossRef CAS PubMed .
+ ###### 
+From cou.: 241 S. F. Badylak, D. Taylor and K. Uygun, Annu. Rev. Biomed. Eng., 2011, 13, 27–53 CrossRef CAS PubMed .
+From Soup: 241 T. H. Petersen, E. A. Calle, L. Zhao, E. J. Lee, L. Gui, M. B. Raredon, K. Gavrilov, T. Yi, Z. W. Zhuang and C. Breuer, et al. , Science , 2010, 329 , 538–541 CrossRef CAS PubMed .
+ ###### 
+From cou.: 242 H. C. Ott, T. S. Matthiesen, S.-K. Goh, L. D. Black, S. M. Kren, T. I. Netoff and D. A. Taylor, Nat. Med., 2008, 14, 213–221 CrossRef CAS PubMed .
+From Soup: 242 H. C. Ott, B. Clippinger, C. Conrad, C. Schuetz, I. Pomerantseva, L. Ikonomou, D. Kotton and J. P. Vacanti, Nat. Med. , 2010, 16 , 927–933 CrossRef CAS PubMed .
+ ###### 
+From cou.: 243 B. E. Uygun, A. Soto-Gutierrez, H. Yagi, M.-L. Izamis, M. A. Guzzardi, C. Shulman, J. Milwid, N. Kobayashi, A. Tilles and F. Berthiaume, et al. , Nat. Med., 2010, 16, 814–820 CrossRef CAS PubMed .
+From Soup: 243 I. T. Ozbolat, Trends Biotechnol. , 2015, 33 , 395–400 CrossRef CAS PubMed .
+ ###### 
+From cou.: 244 T. H. Petersen, E. A. Calle, L. Zhao, E. J. Lee, L. Gui, M. B. Raredon, K. Gavrilov, T. Yi, Z. W. Zhuang and C. Breuer, et al. , Science, 2010, 329, 538–541 CrossRef CAS PubMed .
+From Soup: 244 T. Xu, J. Jin, C. Gregory, J. J. Hickman and T. Boland, Biomaterials , 2005, 26 , 93–99 CrossRef CAS PubMed .
+ ###### 
+From cou.: 245 H. C. Ott, B. Clippinger, C. Conrad, C. Schuetz, I. Pomerantseva, L. Ikonomou, D. Kotton and J. P. Vacanti, Nat. Med., 2010, 16, 927–933 CrossRef CAS PubMed .
+From Soup: 245 Y. Nishiyama, M. Nakamura, C. Henmi, K. Yamaguchi, S. Mochizuki, H. Nakagawa and K. Takiura, J. Biomech. Eng. , 2009, 131 , 035001 CrossRef PubMed .
+ ###### 
+From cou.: 246 I. T. Ozbolat, Trends Biotechnol., 2015, 33, 395–400 CrossRef CAS PubMed .
+From Soup: 246 J. Yang, M. Yamato, T. Shimizu, H. Sekine, K. Ohashi, M. Kanzaki, T. Ohki, K. Nishida and T. Okano, Biomaterials , 2007, 28 , 5033–5043 CrossRef CAS PubMed .
+ ###### 
+From cou.: 247 T. Xu, J. Jin, C. Gregory, J. J. Hickman and T. Boland, Biomaterials, 2005, 26, 93–99 CrossRef CAS PubMed .
+From Soup: 247 C. Norotte, F. S. Marga, L. E. Niklason and G. Forgacs, Biomaterials , 2009, 30 , 5910–5917 CrossRef CAS PubMed .
+ ###### 
+From cou.: 248 Y. Nishiyama, M. Nakamura, C. Henmi, K. Yamaguchi, S. Mochizuki, H. Nakagawa and K. Takiura, J. Biomech. Eng., 2009, 131, 035001 CrossRef PubMed .
+From Soup: 248 K. Jakab, C. Norotte, F. Marga, K. Murphy, G. Vunjak-Novakovic and G. Forgacs, Biofabrication , 2010, 2 , 022001 CrossRef PubMed .
+ ###### 
+From cou.: 249 J. Yang, M. Yamato, T. Shimizu, H. Sekine, K. Ohashi, M. Kanzaki, T. Ohki, K. Nishida and T. Okano, Biomaterials, 2007, 28, 5033–5043 CrossRef CAS PubMed .
+From Soup: 249 C. M. Smith, A. L. Stone, R. L. Parkhill, R. L. Stewart, M. W. Simpkins, A. M. Kachurin, W. L. Warren and S. K. Williams, Tissue Eng. , 2004, 10 , 1566–1576 CrossRef CAS PubMed .
+ ###### 
+From cou.: 250 C. Norotte, F. S. Marga, L. E. Niklason and G. Forgacs, Biomaterials, 2009, 30, 5910–5917 CrossRef CAS PubMed .
+From Soup: 250 K. Jakab, B. Damon, A. Neagu, A. Kachurin and G. Forgacs, Biorheology , 2006, 43 , 509–516 Search PubMed .
+ ###### 
+From cou.: 251 K. Jakab, C. Norotte, F. Marga, K. Murphy, G. Vunjak-Novakovic and G. Forgacs, Biofabrication, 2010, 2, 022001 CrossRef PubMed .
+From Soup: 251 K. Jakab, C. Norotte, B. Damon, F. Marga, A. Neagu, C. L. Besch-Williford, A. Kachurin, K. H. Church, H. Park and V. Mironov, et al. , Tissue Eng., Part A , 2008, 14 , 413–421 CrossRef CAS PubMed .
+ ###### 
+From cou.: 252 C. M. Smith, A. L. Stone, R. L. Parkhill, R. L. Stewart, M. W. Simpkins, A. M. Kachurin, W. L. Warren and S. K. Williams, Tissue Eng., 2004, 10, 1566–1576 CrossRef CAS PubMed .
+From Soup: 252 A. F. Black, F. Berthod, N. L'heureux, L. Germain and F. A. Auger, FASEB J. , 1998, 12 , 1331–1340 CAS .
+ ###### 
+From cou.: 253 K. Jakab, B. Damon, A. Neagu, A. Kachurin and G. Forgacs, Biorheology, 2006, 43, 509–516 Search PubMed .
+From Soup: 253 H. C. Ko, B. K. Milthorpe and C. D. McFarland, Eur. Cells Mater. , 2007, 14 , 1–19 CAS .
+ ###### 
+From cou.: 254 K. Jakab, C. Norotte, B. Damon, F. Marga, A. Neagu, C. L. Besch-Williford, A. Kachurin, K. H. Church, H. Park and V. Mironov, et al. , Tissue Eng., Part A, 2008, 14, 413–421 CrossRef CAS PubMed .
+From Soup: 254 R. E. Unger, K. Peters, Q. Huang, A. Funk, D. Paul and C. Kirkpatrick, Biomaterials , 2005, 26 , 3461–3469 CrossRef CAS PubMed .
+ ###### 
+From cou.: 255 A. F. Black, F. Berthod, N. L'heureux, L. Germain and F. A. Auger, FASEB J., 1998, 12, 1331–1340 CAS .
+From Soup: 255 S. Levenberg, J. Rouwkema, M. Macdonald, E. S. Garfein, D. S. Kohane, D. C. Darland, R. Marini, C. A. van Blitterswijk, R. C. Mulligan and P. A. D'Amore, et al. , Nat. Biotechnol. , 2005, 23 , 879–884 CrossRef CAS PubMed .
+ ###### 
+From cou.: 256 H. C. Ko, B. K. Milthorpe and C. D. McFarland, Eur. Cells Mater., 2007, 14, 1–19 CAS .
+From Soup: 256 M. Radisic, H. Park, F. Chen, J. E. Salazar-Lazzaro, Y. Wang, R. Dennis, R. Langer, L. E. Freed and G. Vunjak-Novakovic, Tissue Eng. , 2006, 12 , 2077–2091 CrossRef CAS PubMed .
+ ###### 
+From cou.: 257 R. E. Unger, K. Peters, Q. Huang, A. Funk, D. Paul and C. Kirkpatrick, Biomaterials, 2005, 26, 3461–3469 CrossRef CAS PubMed .
+From Soup: 257 Y. Yu, Y. Zhang and I. T. Ozbolat, Trans. ASME, Ser. B , 2014, 136 , 061013 Search PubMed .
+ ###### 
+From cou.: 258 S. Levenberg, J. Rouwkema, M. Macdonald, E. S. Garfein, D. S. Kohane, D. C. Darland, R. Marini, C. A. van Blitterswijk, R. C. Mulligan and P. A. D'Amore, et al. , Nat. Biotechnol., 2005, 23, 879–884 CrossRef CAS PubMed .
+From Soup: 258 D. B. Kolesky, R. L. Truby, A. Gladman, T. A. Busbee, K. A. Homan and J. A. Lewis, Adv. Mater. , 2014, 26 , 2966 CrossRef .
+ ###### 
+From cou.: 259 M. Radisic, H. Park, F. Chen, J. E. Salazar-Lazzaro, Y. Wang, R. Dennis, R. Langer, L. E. Freed and G. Vunjak-Novakovic, Tissue Eng., 2006, 12, 2077–2091 CrossRef CAS PubMed .
+From Soup: 259 H.-W. Kang, S. J. Lee, I. K. Ko, C. Kengla, J. J. Yoo and A. Atala, Nat. Biotechnol. , 2016, 34 , 312–319 CrossRef CAS PubMed .
+ ###### 
+From cou.: 260 Y. Yu, Y. Zhang and I. T. Ozbolat, Trans. ASME, Ser. B, 2014, 136, 061013 Search PubMed .
+From Soup: 260 R. Doursat, H. Sayama and O. Michel, Nat. Comput. , 2013, 12 , 517–535 CrossRef .
+ ###### 
+From cou.: 261 D. B. Kolesky, R. L. Truby, A. Gladman, T. A. Busbee, K. A. Homan and J. A. Lewis, Adv. Mater., 2014, 26, 2966 CrossRef .
+From Soup: 261 J.-D. H. Chenli Liu, X. Fu, L. Liu, X. Ren, C. K. L. Chau, S. Li, L. Xiang, H. Zeng, G. Chen, L.-H. Tang, P. Lenz, X. Cui, W. Huang and T. Hwa, Science , 2011, 334 , 238–242 CrossRef PubMed .
+ ###### 
+From cou.: 262 H.-W. Kang, S. J. Lee, I. K. Ko, C. Kengla, J. J. Yoo and A. Atala, Nat. Biotechnol., 2016, 34, 312–319 CrossRef CAS PubMed .
+From Soup: 262 C. Willyard, Rise Of The Organoids , 2015 Search PubMed .
+ ###### 
+From cou.: 263 R. Doursat, H. Sayama and O. Michel, Nat. Comput., 2013, 12, 517–535 CrossRef .
+From Soup: 263 S. Sia, B. Gillette and G. Yang, Birth Defects Res., Part C , 2007, 81 , 354–361 CrossRef CAS PubMed .
+ ###### 
+From cou.: 264 J.-D. H. Chenli Liu, X. Fu, L. Liu, X. Ren, C. K. L. Chau, S. Li, L. Xiang, H. Zeng, G. Chen, L.-H. Tang, P. Lenz, X. Cui, W. Huang and T. Hwa, Science, 2011, 334, 238–242 CrossRef PubMed .
+From Soup: 264 D. Hutmacher, B. Holzapfel, E. De-Juan-Pardo, B. Pereira, S. Ellem, D. Loessner and G. Risbridger, Curr. Opin. Biotechnol. , 2015, 35 , 127–132 CrossRef CAS PubMed .
+ ###### 
+From cou.: 265 C. Willyard, Rise Of The Organoids, 2015 Search PubMed .
+From Soup: 265 E. Cachat and J. A. Davies, J. Bioeng. Biomed. Sci. , 2011, S2 , 003, DOI: 10.4172/2155-9538.S2-003 .
+ ###### 
+From cou.: 266 S. Sia, B. Gillette and G. Yang, Birth Defects Res., Part C, 2007, 81, 354–361 CrossRef CAS PubMed .
+From Soup: 266 E. Cachat, W. Liu, P. Hohenstein and J. A. Davies, J. Biol. Eng. , 2014, 8 , 1–11 CrossRef PubMed .
+ ###### 
+From cou.: 267 D. Hutmacher, B. Holzapfel, E. De-Juan-Pardo, B. Pereira, S. Ellem, D. Loessner and G. Risbridger, Curr. Opin. Biotechnol., 2015, 35, 127–132 CrossRef CAS PubMed .
+From Soup: 267 M. Miller, M. Hafner, E. Sontag, N. Davidsohn, S. Subramanian, P. E. Purnick, D. Lauffenburger and R. Weiss, PLoS Comput. Biol. , 2012, 8 , e1002579 CAS .
+ ###### 
+From cou.: 268 E. Cachat and J. A. Davies, J. Bioeng. Biomed. Sci., 2011, S2, 003, DOI:10.4172/2155-9538.S2-003 .
+From Soup: 268 A. H. Chau, J. M. Walter, J. Gerardin, C. Tang and W. A. Lim, Cell , 2012, 151 , 320–332 CrossRef CAS PubMed .
+ ###### 
+From cou.: 269 E. Cachat, W. Liu, P. Hohenstein and J. A. Davies, J. Biol. Eng., 2014, 8, 1–11 CrossRef PubMed .
+From Soup: 269 J. S. Park, B. Rhau, A. Hermann, K. A. McNally, C. Zhou, D. Gong, O. D. Weiner, B. R. Conklin, J. Onuffer and W. A. Lim, Proc. Natl. Acad. Sci. U. S. A. , 2014, 111 , 5896–5901 CrossRef CAS PubMed .
+ ###### 
+From cou.: 270 M. Miller, M. Hafner, E. Sontag, N. Davidsohn, S. Subramanian, P. E. Purnick, D. Lauffenburger and R. Weiss, PLoS Comput. Biol., 2012, 8, e1002579 CAS .
+From Soup: 270 C. Elfgang, R. Eckert, H. Lichtenberg-Fraté, A. Butterweck, O. Traub, R. A. Klein, D. F. Hülser and K. Willecke, J. Cell Biol. , 1995, 129 , 805–817 CrossRef CAS PubMed .
+ ###### 
+From cou.: 271 A. H. Chau, J. M. Walter, J. Gerardin, C. Tang and W. A. Lim, Cell, 2012, 151, 320–332 CrossRef CAS PubMed .
+From Soup: 271 J. Fang, Y.-Y. Zhu, E. Smiley, J. Bonadio, J. P. Rouleau, S. A. Goldstein, L. K. McCauley, B. L. Davidson and B. J. Roessler, Proc. Natl. Acad. Sci. U. S. A. , 1996, 93 , 5753–5758 CrossRef CAS .
+ ###### 
+From cou.: 272 J. S. Park, B. Rhau, A. Hermann, K. A. McNally, C. Zhou, D. Gong, O. D. Weiner, B. R. Conklin, J. Onuffer and W. A. Lim, Proc. Natl. Acad. Sci. U. S. A., 2014, 111, 5896–5901 CrossRef CAS PubMed .
+From Soup: 272 J. Bonadio, E. Smiley, P. Patil and S. Goldstein, Nat. Med. , 1999, 5 , 753–759 CrossRef CAS PubMed .
+ ###### 
+From cou.: 273 C. Elfgang, R. Eckert, H. Lichtenberg-Fraté, A. Butterweck, O. Traub, R. A. Klein, D. F. Hülser and K. Willecke, J. Cell Biol., 1995, 129, 805–817 CrossRef CAS PubMed .
+From Soup: 273 L. D. Shea, E. Smiley, J. Bonadio and D. J. Mooney, Nat. Biotechnol. , 1999, 17 , 551–554 CrossRef CAS PubMed .
+ ###### 
+From cou.: 274 J. Fang, Y.-Y. Zhu, E. Smiley, J. Bonadio, J. P. Rouleau, S. A. Goldstein, L. K. McCauley, B. L. Davidson and B. J. Roessler, Proc. Natl. Acad. Sci. U. S. A., 1996, 93, 5753–5758 CrossRef CAS .
+From Soup: 274 M. Karlsson, W. Weber and M. Fussenegger, Methods Enzymol. , 2011, 497 , 239–253 CAS .
+ ###### 
+From cou.: 275 J. Bonadio, E. Smiley, P. Patil and S. Goldstein, Nat. Med., 1999, 5, 753–759 CrossRef CAS PubMed .
+From Soup: 275 K. Jakobus, S. Wend and W. Weber, Chem. Soc. Rev. , 2012, 41 , 1000–1018 RSC .
+ ###### 
+From cou.: 276 L. D. Shea, E. Smiley, J. Bonadio and D. J. Mooney, Nat. Biotechnol., 1999, 17, 551–554 CrossRef CAS PubMed .
+From Soup: 276 M. Ehrbar, R. Schoenmakers, E. H. Christen, M. Fussenegger and W. Weber, Nat. Mater. , 2008, 7 , 800–804 CrossRef CAS PubMed .
+ ###### 
+From cou.: 277 M. Karlsson, W. Weber and M. Fussenegger, Methods Enzymol., 2011, 497, 239–253 CAS .
+From Soup: 277 Z. Xie, L. Wroblewska, L. Prochazka, R. Weiss and Y. Benenson, Science , 2011, 333 , 1307–1311 CrossRef CAS PubMed .
+ ###### 
+From cou.: 278 K. Jakobus, S. Wend and W. Weber, Chem. Soc. Rev., 2012, 41, 1000–1018 RSC .
+From Soup: 278 M. S. Mannoor, Z. Jiang, T. James, Y. L. Kong, K. A. Malatesta, W. O. Soboyejo, N. Verma, D. H. Gracias and M. C. McAlpine, Nano Lett. , 2013, 13 , 2634–2639 CrossRef CAS PubMed .
+ ###### 
+From cou.: 279 M. Ehrbar, R. Schoenmakers, E. H. Christen, M. Fussenegger and W. Weber, Nat. Mater., 2008, 7, 800–804 CrossRef CAS PubMed .
+From Soup: 279 J. R. Gallant, L. L. Traeger, J. D. Volkening, H. Moffett, P.-H. Chen, C. D. Novina, G. N. Phillips, R. Anand, G. B. Wells and M. Pinch, et al. , Science , 2014, 344 , 1522–1525 CrossRef CAS PubMed .
+ ###### 
+From cou.: 280 Z. Xie, L. Wroblewska, L. Prochazka, R. Weiss and Y. Benenson, Science, 2011, 333, 1307–1311 CrossRef CAS PubMed .
+From Soup: 280 B. Fritzsch, Science , 2014, 345 , 631–632 CrossRef CAS PubMed .
+ ###### 
+From cou.: 281 M. S. Mannoor, Z. Jiang, T. James, Y. L. Kong, K. A. Malatesta, W. O. Soboyejo, N. Verma, D. H. Gracias and M. C. McAlpine, Nano Lett., 2013, 13, 2634–2639 CrossRef CAS PubMed .
+From Soup: 281 M. Sipper, Computer , 1999, 32 , 18–26 CrossRef .
+ ###### 
+From cou.: 282 J. R. Gallant, L. L. Traeger, J. D. Volkening, H. Moffett, P.-H. Chen, C. D. Novina, G. N. Phillips, R. Anand, G. B. Wells and M. Pinch, et al. , Science, 2014, 344, 1522–1525 CrossRef CAS PubMed .
+From Soup: 282 A. I. Penzo-Méndez and B. Z. Stanger, Cold Spring Harbor Perspect. Biol. , 2015, 7 , a019240 CrossRef PubMed .
+ ###### 
+From cou.: 283 B. Fritzsch, Science, 2014, 345, 631–632 CrossRef CAS PubMed .
+From Soup: 283 N. Fausto, J. S. Campbell and K. J. Riehle, Hepatology , 2006, 43 , S45–S53 CrossRef CAS PubMed .
+ ###### 
+From cou.: 284 M. Sipper, Computer, 1999, 32, 18–26 CrossRef .
+From Soup: 284 H. Y. Gaisano, P. E. MacDonald and M. Vranic, Front. Physiol. , 2012, 3 , 1–12 Search PubMed .
+ ###### 
+From cou.: 285 A. I. Penzo-Méndez and B. Z. Stanger, Cold Spring Harbor Perspect. Biol., 2015, 7, a019240 CrossRef PubMed .
+From Soup: 285 A. Kolmogorov, IEEE Prob. Info. Trans. , 1965, 1 , 1–7 Search PubMed .
+ ###### 
+From cou.: 286 N. Fausto, J. S. Campbell and K. J. Riehle, Hepatology, 2006, 43, S45–S53 CrossRef CAS PubMed .
+From Soup: 286 H. Atlan and M. Koppel, Bull. Math. Biol. , 1990, 52 , 335–348 CrossRef CAS PubMed .
+ ###### 
+From cou.: 287 H. Y. Gaisano, P. E. MacDonald and M. Vranic, Front. Physiol., 2012, 3, 1–12 Search PubMed .
+From Soup: 287 G. Tononi, G. M. Edelman and O. Sporns, Trends Cognit. Sci. , 1998, 2 , 474–484 CrossRef CAS .
+ ###### 
+From cou.: 288 A. Kolmogorov, IEEE Prob. Info. Trans., 1965, 1, 1–7 Search PubMed .
+From Soup: 288 J. M. Claverie, Science , 2001, 291 , 1255–1257 CrossRef CAS PubMed .
+ ###### 
+From cou.: 289 H. Atlan and M. Koppel, Bull. Math. Biol., 1990, 52, 335–348 CrossRef CAS PubMed .
+From Soup: 289 E. Szathmáry, F. Jordán and C. Pál, Science , 2001, 292 , 1315–1316 CrossRef .
+ ###### 
+From cou.: 290 G. Tononi, G. M. Edelman and O. Sporns, Trends Cognit. Sci., 1998, 2, 474–484 CrossRef CAS .
+From Soup: 290 J. W. Valentine, A. G. Collins and C. P. Meyer, Paleobiology , 1994, 20 , 131–142 Search PubMed .
+ ###### 
+From cou.: 291 J. M. Claverie, Science, 2001, 291, 1255–1257 CrossRef CAS PubMed .
+From Soup: 291 T. Bonner, The Evolution of Complexity by means of natural selection , Pinceton University Press, New Jersey, 1st edn, 1988 Search PubMed .
+ ###### 
+From cou.: 292 E. Szathmáry, F. Jordán and C. Pál, Science, 2001, 292, 1315–1316 CrossRef .
+From Soup: 292 M. C. Mccarthy and B. J. Enquist, Evol. Ecol. Res. , 2005, 7 , 681–696 Search PubMed .
+ ###### 
+From cou.: 293 J. W. Valentine, A. G. Collins and C. P. Meyer, Paleobiology, 1994, 20, 131–142 Search PubMed .
+From Soup: 293 D. W. McShea, Evolution , 1996, 477–492 CrossRef .
+ ###### 
+From cou.: 294 T. Bonner, The Evolution of Complexity by means of natural selection, Pinceton University Press, New Jersey, 1st edn, 1988 Search PubMed .
+From Soup: 294 T. M. Cover, Elements of information theory , John Wiley and Sons, New Jersey, 1st edn, 2006 Search PubMed .
+ ###### 
+From cou.: 295 M. C. Mccarthy and B. J. Enquist, Evol. Ecol. Res., 2005, 7, 681–696 Search PubMed .
+From Soup: 295 R. Lohaus, N. L. Geard, J. Wiles and R. B. Azevedo, Proc. R. Soc. London, Ser. B , 2007, 274 , 1741–1751 CrossRef PubMed .
+ ###### 
+From cou.: 296 D. W. McShea, Evolution, 1996, 477–492 CrossRef .
+From Soup: 296 N. Geard, S. Bullock, R. Lohaus, R. B. Azevedo and J. Wiles, Complexity , 2011, 16 , 48–57 CrossRef .
+ ###### 
+From cou.: 297 T. M. Cover, Elements of information theory, John Wiley and Sons, New Jersey, 1st edn, 2006 Search PubMed .
+From Soup: 297 R. B. Azevedo, R. Lohaus, V. Braun, M. Gumbel, M. Umamaheshwar, P.-M. Agapow, W. Houthoofd, U. Platzer, G. Borgonie and H.-P. Meinzer, et al. , Nature , 2005, 433 , 152–156 CrossRef CAS PubMed .
+ ###### 
+From cou.: 298 R. Lohaus, N. L. Geard, J. Wiles and R. B. Azevedo, Proc. R. Soc. London, Ser. B, 2007, 274, 1741–1751 CrossRef PubMed .
+From Soup: 298 A. D. Lander, K. K. Gokoffski, F. Y. Wan, Q. Nie and A. L. Calof, PLoS Biol. , 2009, 7 , e1000015 Search PubMed .
+ ###### 
+From cou.: 299 N. Geard, S. Bullock, R. Lohaus, R. B. Azevedo and J. Wiles, Complexity, 2011, 16, 48–57 CrossRef .
+From Soup: 299 C. H. Waddington, The strategy of the genes , Routledge, 2014, vol. 20 Search PubMed .
+ ###### 
+From cou.: 300 R. B. Azevedo, R. Lohaus, V. Braun, M. Gumbel, M. Umamaheshwar, P.-M. Agapow, W. Houthoofd, U. Platzer, G. Borgonie and H.-P. Meinzer, et al. , Nature, 2005, 433, 152–156 CrossRef CAS PubMed .
+From Soup: 300 R. A. Foty, G. Forgacs, C. M. Pfleger and M. S. Steinberg, Phys. Rev. Lett. , 1994, 72 , 2298 CrossRef PubMed .
+ ###### 
+From cou.: 301 A. D. Lander, K. K. Gokoffski, F. Y. Wan, Q. Nie and A. L. Calof, PLoS Biol., 2009, 7, e1000015 Search PubMed .
+From Soup: 301 M. Marchetti, J. Joanny, S. Ramaswamy, T. Liverpool, J. Prost, M. Rao and R. A. Simha, Rev. Mod. Phys. , 2013, 85 , 1143 CrossRef CAS .
+ ###### 
+From cou.: 302 C. H. Waddington, The strategy of the genes, Routledge, 2014, vol. 20 Search PubMed .
+From Soup: 302 T. E. Angelini, E. Hannezo, X. Trepat, M. Marquez, J. J. Fredberg and D. A. Weitz, Proc. Natl. Acad. Sci. U. S. A. , 2011, 108 , 4714–4719 CrossRef CAS PubMed .
+ ###### 
+From cou.: 303 R. A. Foty, G. Forgacs, C. M. Pfleger and M. S. Steinberg, Phys. Rev. Lett., 1994, 72, 2298 CrossRef PubMed .
+From Soup: 303 D. Gonzalez-Rodriguez, K. Guevorkian, S. Douezan and F. Brochard-Wyart, Science , 2012, 338 , 910–917 CrossRef CAS PubMed .
+ ###### 
+From cou.: 304 M. Marchetti, J. Joanny, S. Ramaswamy, T. Liverpool, J. Prost, M. Rao and R. A. Simha, Rev. Mod. Phys., 2013, 85, 1143 CrossRef CAS .
+From Soup: 304 R. Wiener, Cybernetics: or control and communication in the animal and the machine , Hermann-Cie and Camb. Mass. (MIT Press), Paris, 1st edn, 1948 Search PubMed .
+ ###### 
+From cou.: 305 T. E. Angelini, E. Hannezo, X. Trepat, M. Marquez, J. J. Fredberg and D. A. Weitz, Proc. Natl. Acad. Sci. U. S. A., 2011, 108, 4714–4719 CrossRef CAS PubMed .
+From Soup: 305 W. R. Ashby, et al. , An introduction to cybernetics , Chapman & Hail Ltd, London, 1956 Search PubMed .
+ ###### 
+From cou.: 306 D. Gonzalez-Rodriguez, K. Guevorkian, S. Douezan and F. Brochard-Wyart, Science, 2012, 338, 910–917 CrossRef CAS PubMed .
+From Soup: 306 W. R. Ashby, Design for a Brain , Springer Science & Business Media, 1960 Search PubMed .
+ ###### 
+From cou.: 307 R. Wiener, Cybernetics: or control and communication in the animal and the machine, Hermann-Cie and Camb. Mass. (MIT Press), Paris, 1st edn, 1948 Search PubMed .
+From Soup: 307 J. Von Neumann, Automata studies , 1956, vol. 34, pp. 43–98 Search PubMed .
+ ###### 
+From cou.: 308 W. R. Ashby, et al., An introduction to cybernetics, Chapman & Hail Ltd, London, 1956 Search PubMed .
+From Soup: 308 S. Forrest and S. A. Hofmeyr, Santa Fe Institute Studies in the Sciences of Complexity-Proceedings , 2001, pp. 361–388 Search PubMed .
+ ###### 
+From cou.: 309 W. R. Ashby, Design for a Brain, Springer Science & Business Media, 1960 Search PubMed .
+From Soup: 309 A. Pascual-Leone, A. Amedi, F. Fregni and L. B. Merabet, Annu. Rev. Neurosci. , 2005, 28 , 377–401 CrossRef CAS PubMed .
+ ###### 
+From cou.: 310 J. Von Neumann, Automata studies, 1956, vol. 34, pp. 43–98 Search PubMed .
+From Soup: 310 D. Callejas, C. J. Mann, E. Ayuso, R. Lage, I. Grifoll, C. Roca, A. Andaluz, R. Ruiz-de Gopegui, J. Montané and S. Muńoz, et al. , Diabetes , 2013 DOI: 10.2337/db12-1113 .
+ ###### 
+From cou.: 311 S. Forrest and S. A. Hofmeyr, Santa Fe Institute Studies in the Sciences of Complexity-Proceedings, 2001, pp. 361–388 Search PubMed .
+From Soup: 311 G. Michalopoulos, Compr. Physiol. , 2013, 3 , 485–513 Search PubMed .
+ ###### 
+From cou.: 312 A. Pascual-Leone, A. Amedi, F. Fregni and L. B. Merabet, Annu. Rev. Neurosci., 2005, 28, 377–401 CrossRef CAS PubMed .
+From Soup: 312 R. Gebhardt and M. Matz-Soja, World J. Gastroenterol. , 2014, 20 , 8491–8504 CrossRef PubMed .
+ ###### 
+From cou.: 313 D. Callejas, C. J. Mann, E. Ayuso, R. Lage, I. Grifoll, C. Roca, A. Andaluz, R. Ruiz-de Gopegui, J. Montané and S. Muńoz, et al. , Diabetes, 2013 DOI:10.2337/db12-1113 .
+From Soup: 313 I. Chen, V. Rathi, D. DeAndrade and P. Jay, Physiol. Genomics , 2013, 45 , 69–78 CrossRef CAS PubMed .
+ ###### 
+From cou.: 314 G. Michalopoulos, Compr. Physiol., 2013, 3, 485–513 Search PubMed .
+From Soup: 314 O. Martínez and M. H. Reyes-Valdés, Proc. Natl. Acad. Sci. U. S. A. , 2008, 105 , 9709–9714 CrossRef PubMed .
+ ###### 
+From cou.: 315 R. Gebhardt and M. Matz-Soja, World J. Gastroenterol., 2014, 20, 8491–8504 CrossRef PubMed .
+From Soup: 315 G. Theraulaz, E. Bonabeau and J.-L. Deneubourg, Complexity , 1998, 3 , 15–25 CrossRef .
+ ###### 
+From cou.: 316 I. Chen, V. Rathi, D. DeAndrade and P. Jay, Physiol. Genomics, 2013, 45, 69–78 CrossRef CAS PubMed .
+From Soup: 316 T. S. Deisboeck and I. D. Couzin, BioEssays , 2009, 31 , 190–197 CrossRef PubMed .
+ ###### 
+From cou.: 317 O. Martínez and M. H. Reyes-Valdés, Proc. Natl. Acad. Sci. U. S. A., 2008, 105, 9709–9714 CrossRef PubMed .
+From Soup: 317 B. Hölldobler and E. O. Wilson, The ants , Harvard University Press, 1990 Search PubMed .
+ ###### 
+From cou.: 318 G. Theraulaz, E. Bonabeau and J.-L. Deneubourg, Complexity, 1998, 3, 15–25 CrossRef .
+From Soup: 318 M. Lutolf and J. Hubbell, Nat. Biotechnol. , 2005, 23 , 47–55 CrossRef CAS PubMed .
+ ###### 
+From cou.: 319 T. S. Deisboeck and I. D. Couzin, BioEssays, 2009, 31, 190–197 CrossRef PubMed .
+From Soup: 319 H. M. P. Consortium, et al. , Nature , 2012, 486 , 207–214 CrossRef PubMed .
+ ###### 
+From cou.: 320 B. Hölldobler and E. O. Wilson, The ants, Harvard University Press, 1990 Search PubMed .
+From Soup: 320 C. S. Smillie, M. B. Smith, J. Friedman, O. X. Cordero, L. A. David and E. J. Alm, Nature , 2011, 480 , 241–244 CrossRef CAS PubMed .
+ ###### 
+From cou.: 321 M. Lutolf and J. Hubbell, Nat. Biotechnol., 2005, 23, 47–55 CrossRef CAS PubMed .
+From Soup: 321 A. Adamatzky, Physarum machines: computers from slime mould , World Scientific, 2010, vol. 74 Search PubMed .
+ ###### 
+From cou.: 322 H. M. P. Consortium, et al. , Nature, 2012, 486, 207–214 CrossRef PubMed .
+From Soup: 322 J. Macia and R. Sole, PLoS One , 2014, 9 , e81248 Search PubMed .
+ ###### 
+From cou.: 323 C. S. Smillie, M. B. Smith, J. Friedman, O. X. Cordero, L. A. David and E. J. Alm, Nature, 2011, 480, 241–244 CrossRef CAS PubMed .
+From Soup: 323 J. Macia, R. Manzoni, N. Conde, A. Urrios, E. de Nadal, R. Solé and F. Posas, PLoS Comput. Biol. , 2016, 12 , e1004685 Search PubMed .
+ ###### 
+From cou.: 324 A. Adamatzky, Physarum machines: computers from slime mould, World Scientific, 2010, vol. 74 Search PubMed .
+From Soup: 324 H. M. P. Consortium, et al. , Nature , 2012, 486 , 207–214 CrossRef PubMed .
+ ###### 
+From cou.: 325 J. Macia and R. Sole, PLoS One, 2014, 9, e81248 Search PubMed .
+From Soup: 325 C. T. Fernando, A. M. Liekens, L. E. Bingle, C. Beck, T. Lenser, D. J. Stekel and J. E. Rowe, J. R. Soc., Interface , 2009, 6 , 463–469 CrossRef CAS PubMed .
+ ###### 
+From cou.: 326 J. Macia, R. Manzoni, N. Conde, A. Urrios, E. de Nadal, R. Solé and F. Posas, PLoS Comput. Biol., 2016, 12, e1004685 Search PubMed .
+From Soup: 326 J. W. Kotula, S. J. Kerns, L. A. Shaket, L. Siraj, J. J. Collins, J. C. Way and P. A. Silver, Proc. Natl. Acad. Sci. U. S. A. , 2014, 111 , 4838–4843 CrossRef CAS PubMed .
+ ###### 
+From cou.: 327 H. M. P. Consortium, et al. , Nature, 2012, 486, 207–214 CrossRef PubMed .
+From Soup: 327 R. V. Solé and J. Bascompte, Self-Organization in Complex Ecosystems (MPB-42) , Princeton University Press, 2006, vol. 42 Search PubMed .
+ ###### 
+From cou.: 328 C. T. Fernando, A. M. Liekens, L. E. Bingle, C. Beck, T. Lenser, D. J. Stekel and J. E. Rowe, J. R. Soc., Interface, 2009, 6, 463–469 CrossRef CAS PubMed .
+From Soup: 328 I. A. Rodriguez-Brenes, D. Wodarz and N. L. Komarova, J. R. Soc., Interface , 2013, 10 , 20130410 CrossRef PubMed .
+ ###### 
+From cou.: 329 J. W. Kotula, S. J. Kerns, L. A. Shaket, L. Siraj, J. J. Collins, J. C. Way and P. A. Silver, Proc. Natl. Acad. Sci. U. S. A., 2014, 111, 4838–4843 CrossRef CAS PubMed .
+From Soup: 329 Y. Sun and Q. Wang, Soft Matter , 2013, 9 , 2172–2186 RSC .
+ ###### 
+From cou.: 330 R. V. Solé and J. Bascompte, Self-Organization in Complex Ecosystems (MPB-42), Princeton University Press, 2006, vol. 42 Search PubMed .
+From Soup: 330 P. Hogeweg, J. Theor. Biol. , 2000, 203 , 317–333 CrossRef CAS PubMed .
+ ###### 
+From cou.: 331 I. A. Rodriguez-Brenes, D. Wodarz and N. L. Komarova, J. R. Soc., Interface, 2013, 10, 20130410 CrossRef PubMed .
+From Soup: 331 A. Neagu, V. Mironov, I. Kosztin, B. Barz, M. Neagu, R. A. Moreno-Rodriguez, R. R. Markwald and G. Forgacs, Biosystems , 2010, 100 , 23–30 CrossRef PubMed .
+ ###### 
+From cou.: 332 Y. Sun and Q. Wang, Soft Matter, 2013, 9, 2172–2186 RSC .
+From Soup: 332 S. Forrest and S. Hofmeyr, Proceedings of the Genetic and Evolutionary Computation Conference (GECCO) , Morgan-Kaufmann, San Francisco, CA, 1999, pp. 1289–1296 Search PubMed .
+ ###### 
+From cou.: 333 P. Hogeweg, J. Theor. Biol., 2000, 203, 317–333 CrossRef CAS PubMed .
+From Soup: 333 D. Basanta, M. Miodownik and B. Baum, PLoS Comput. Biol. , 2008, 4 , e1000030 Search PubMed .
+ ###### 
+From cou.: 334 A. Neagu, V. Mironov, I. Kosztin, B. Barz, M. Neagu, R. A. Moreno-Rodriguez, R. R. Markwald and G. Forgacs, Biosystems, 2010, 100, 23–30 CrossRef PubMed .
+From Soup: 334 S. Newman, S. Christley, T. Glimm, H. Hentschel, B. Kazmierczak, Y. Zhang, J. Zhu and M. Alber, Curr. Top. Dev. Biol. , 2008, 81 , 311–340 Search PubMed .
+ ###### 
+From cou.: 335 S. Forrest and S. Hofmeyr, Proceedings of the Genetic and Evolutionary Computation Conference (GECCO), Morgan-Kaufmann, San Francisco, CA, 1999, pp. 1289–1296 Search PubMed .
+From Soup: 335 S. Hester, J. Belmonte, J. Gens, S. Clendenon and J. Glazier, PLoS Comput. Biol. , 2011, 7 , e1002155 CAS .
+ ###### 
+From cou.: 336 D. Basanta, M. Miodownik and B. Baum, PLoS Comput. Biol., 2008, 4, e1000030 Search PubMed .
+From Soup: 336 A. Goldbeter and O. Pourquié, J. Theor. Biol. , 2008, 251 , 574–585 CrossRef PubMed .
+ ###### 
+From cou.: 337 S. Newman, S. Christley, T. Glimm, H. Hentschel, B. Kazmierczak, Y. Zhang, J. Zhu and M. Alber, Curr. Top. Dev. Biol., 2008, 81, 311–340 Search PubMed .
+From Soup: 337 J. Lewis, Curr. Biol. , 2003, 13 , 1398–1408 CrossRef CAS PubMed .
+ ###### 
+From cou.: 338 S. Hester, J. Belmonte, J. Gens, S. Clendenon and J. Glazier, PLoS Comput. Biol., 2011, 7, e1002155 CAS .
+From Soup: 338 J. Dubrulle, M. McGrew and O. Pourquié, Cell , 2001, 106 , 219–232 CrossRef CAS PubMed .
+ ###### 
+From cou.: 339 A. Goldbeter and O. Pourquié, J. Theor. Biol., 2008, 251, 574–585 CrossRef PubMed .
+From Soup: 339 J. Cooke and E. Zeeman, J. Theor. Biol. , 1976, 58 , 455–476 CrossRef CAS PubMed .
+ ###### 
+From cou.: 340 J. Lewis, Curr. Biol., 2003, 13, 1398–1408 CrossRef CAS PubMed .
+From Soup: 340 R. Baker, S. Schnella and P.-K. Mainia, Dev. Biol. , 2006, 293 , 116–126 CrossRef CAS PubMed .
+ ###### 
+From cou.: 341 J. Dubrulle, M. McGrew and O. Pourquié, Cell, 2001, 106, 219–232 CrossRef CAS PubMed .
+From Soup: 341 R. V. Solé, P. Fernández and S. A. Kauffman, Int. J. Dev. Biol. , 2003, 47 , 685–693 Search PubMed .
+ ###### 
+From cou.: 342 J. Cooke and E. Zeeman, J. Theor. Biol., 1976, 58, 455–476 CrossRef CAS PubMed .
+From Soup: 342 T. Abdulla, R. Imms, J.-L. Dillenseger, J.-M. Schleich and R. Summers, IRBM , 2011, 32 , 306–310 CrossRef .
+ ###### 
+From cou.: 343 R. Baker, S. Schnella and P.-K. Mainia, Dev. Biol., 2006, 293, 116–126 CrossRef CAS PubMed .
+From Soup: 343 K. Polyak and R. A. Weinberg, Nat. Rev. Cancer , 2009, 9 , 265–273 CrossRef CAS PubMed .
+ ###### 
+From cou.: 344 R. V. Solé, P. Fernández and S. A. Kauffman, Int. J. Dev. Biol., 2003, 47, 685–693 Search PubMed .
+From Soup: 344 M. K. Jolly, M. Boareto, B. Huang, D. Jia, M. Lu, E. Ben-Jacob, J. N. Onuchic and H. Levine, Front. Oncol. , 2015, 5 , 155 Search PubMed .
+ ###### 
+From cou.: 345 T. Abdulla, R. Imms, J.-L. Dillenseger, J.-M. Schleich and R. Summers, IRBM, 2011, 32, 306–310 CrossRef .
+From Soup: 345 N. Aceto, A. Bardia, D. T. Miyamoto, M. C. Donaldson, B. S. Wittner, J. A. Spencer, M. Yu, A. Pely, A. Engstrom and H. Zhu, et al. , Cell , 2014, 158 , 1110–1122 CrossRef CAS PubMed .
+ ###### 
+From cou.: 346 K. Polyak and R. A. Weinberg, Nat. Rev. Cancer, 2009, 9, 265–273 CrossRef CAS PubMed .
+From Soup: 346 R. Solé, D. R. Amor, S. Duran-Nebreda, N. Conde-Pueyo, M. Carbonell and R. Montañez, Biosystems , 2016 DOI: 10.1016/j.biosystems.2016.01.002 .
+ ###### 
+From cou.: 347 M. K. Jolly, M. Boareto, B. Huang, D. Jia, M. Lu, E. Ben-Jacob, J. N. Onuchic and H. Levine, Front. Oncol., 2015, 5, 155 Search PubMed .
+From Soup: 347 M. S. Pankey, V. N. Minin, G. C. Imholte, M. A. Suchard and T. H. Oakley, Proc. Natl. Acad. Sci. U. S. A. , 2014, 111 , E4736–E4742 CrossRef CAS PubMed .
+ ###### 
+From cou.: 348 N. Aceto, A. Bardia, D. T. Miyamoto, M. C. Donaldson, B. S. Wittner, J. A. Spencer, M. Yu, A. Pely, A. Engstrom and H. Zhu, et al. , Cell, 2014, 158, 1110–1122 CrossRef CAS PubMed .
+From Soup: 348 J. R. Gallant, L. L. Traeger, J. D. Volkening, H. Moffett, P.-H. Chen, C. D. Novina, G. N. Phillips, R. Anand, G. B. Wells and M. Pinch, et al. , Science , 2014, 344 , 1522–1525 CrossRef CAS PubMed .
+ ###### 
+From cou.: 349 R. Solé, D. R. Amor, S. Duran-Nebreda, N. Conde-Pueyo, M. Carbonell and R. Montañez, Biosystems, 2016 DOI:10.1016/j.biosystems.2016.01.002 .
+From Soup: 349 R. C. Berwick, A. D. Friederici, N. Chomsky and J. J. Bolhuis, Trends Cognit. Sci. , 2013, 17 , 89–98 CrossRef PubMed .
+ ###### 
+From cou.: 350 M. S. Pankey, V. N. Minin, G. C. Imholte, M. A. Suchard and T. H. Oakley, Proc. Natl. Acad. Sci. U. S. A., 2014, 111, E4736–E4742 CrossRef CAS PubMed .
+From Soup: 350 R. V. Solé, S. Valverde, M. R. Casals, S. A. Kauffman, D. Farmer and N. Eldredge, Complexity , 2013, 18 , 15–27 CrossRef .
+ ###### 
+From cou.: 351 J. R. Gallant, L. L. Traeger, J. D. Volkening, H. Moffett, P.-H. Chen, C. D. Novina, G. N. Phillips, R. Anand, G. B. Wells and M. Pinch, et al. , Science, 2014, 344, 1522–1525 CrossRef CAS PubMed .
+From Soup: 351 R. V. Solé, S. Valverde and C. Rodriguez-Caso, Evolution: Education and Outreach , 2011, 4 , 415–426 CrossRef .
+ ###### 
+From cou.: 352 R. C. Berwick, A. D. Friederici, N. Chomsky and J. J. Bolhuis, Trends Cognit. Sci., 2013, 17, 89–98 CrossRef PubMed .
+From Soup: 352 J. Davies, J. Anat. , 2008, 212 , 707–719 CrossRef CAS PubMed .
+ ###### 
+From cou.: 353 R. V. Solé, S. Valverde, M. R. Casals, S. A. Kauffman, D. Farmer and N. Eldredge, Complexity, 2013, 18, 15–27 CrossRef .
+From Soup: 353 M. A. Fischbach, J. A. Bluestone and W. A. Lim, Sci. Transl. Med. , 2013, 5 , 179ps7 Search PubMed .
+ ###### 
+From cou.: 354 R. V. Solé, S. Valverde and C. Rodriguez-Caso, Evolution: Education and Outreach, 2011, 4, 415–426 CrossRef .
+From Soup: 354 Each term in this matrix provides a measure of how likely is a given pair of contacts given the state of the two sites. For obvious reasons, the matrix is symmetric, = , and = 0. where is the set defined by the nearest neighbours of a cell in position each of which occupies a position , and has a defined state . If we try to swap one cell to one of its nearest locations, we first determine the new energy ′ using the same expression. The energy difference between the original and the new (potential) configuration is When the difference is negative, the cell is likely to swap to the chosen new position, whereas no such change should be expected if an increase in energy is at work. The probability associated to this is given by the so called Boltzmann rule: where the parameter is a noise factor tuning the degree of randomness associated to our model. It is easy to see that the Boltzmann factor e acts in such a way that if Δ = 0, the probability of swapping is 1/2. In we display three examples of the distinct spatial arrangements of cells obtained from this simple (but rather realistic) model. The relative weights of the matrix elements provide clues for what to expect in each case, and thus can be used as a guideline to predict some of the possible patterns that can result from a given engineering design associated to adhesion properties.
+ ###### 
+From cou.: 355 J. Davies, J. Anat., 2008, 212, 707–719 CrossRef CAS PubMed .
+From cou.: 356 M. A. Fischbach, J. A. Bluestone and W. A. Lim, Sci. Transl. Med., 2013, 5, 179ps7 Search PubMed .

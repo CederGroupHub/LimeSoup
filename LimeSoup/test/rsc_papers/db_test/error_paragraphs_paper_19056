@@ -1,0 +1,425 @@
+From cou.: 0 Journal
+From Soup: 0 Phys. Chem. Chem. Phys.
+ ###### 
+From cou.: 1 Quantum spin-dependent transport in a ferromagnetic(FM)/DNA/ferromagnetic(FM) device is theoretically investigated based on the lattice Green function method and the Landauer–Büttiker theory. The effect of a transverse electric field on magnetoresistance (MR) of the device is investigated. It is predicted that either the direction or strength of the transverse electric field can change the MR of the device. We suggest a possible application of modulating MR of the FM/DNA/FM device by a transverse electric field.
+From Soup: 1 Quantum spin-dependent transport in a ferromagnetic(FM)/DNA/ferromagnetic(FM) device is theoretically investigated based on the lattice Green function method and the Landauer–Büttiker theory. The effect of a transverse electric field on magnetoresistance (MR) of the device is investigated. It is predicted that either the direction or strength of the transverse electric field can change the MR of the device. We suggest a possible application of modulating MR of the FM/DNA/FM device by a transverse electric field.
+ ###### 
+From cou.: 2 Magnetic tunnel junction (MTJ) is extremely important for magnetic device application. Conventional MTJ sandwiches a thin nonmagnetic material between two ferromagnetic metals.1 The electric resistance of MTJ is sensitive to the relative magnetization of the ferromagnetic electrodes which results magnetoresistance. It is possible to change the resistance by controlling the magnetizations direction of the ferromagnetic electrodes through an external magnetic field.2 Organic materials have the advantage of weak spin–orbit and hyperfine interactions, which preserve spin-coherence over times and distances much longer than that in conventional metals or semiconductors. Such features make them suitable materials for spin injection and transport. Tsukagoshi et al.3 reported the injection of spin-polarized electrons from ferromagnetic electrodes into multi-walled carbon nanotubes. They observed a magnetoresistance in several nanotubes with a maximum resistance change of 9%. Xiong et al.4 designed the LSMO/Alq3/Co device and reported a magnetoresistance as high as 40%. Dediu et al.5 reported sexithienyl (T6) contacted by LSMO electrodes showing a strong magnetoresistance up to 30%. Petta et al.6 fabricated MTJ of octanethiol contacted by Ni and found a magnetoresistance up to 16%. Theoretically, for instance, Mehrez et al.7 used a tight binding model and investigated spin-coherent quantum transport in a single-wall carbon nanotube MTJ. Their calculation showed a magnetoresistance as large as 20% at low temperature. Waldron et al.8 studied quantum spin transport through a Ni-benzenedithiol (BDT)-Ni molecular MTJ. They took into account microscopic details based on the density functional theory and obtained magnetoresistance as large as 27%.
+From Soup: 2 Magnetic tunnel junction (MTJ) is extremely important for magnetic device application. Conventional MTJ sandwiches a thin nonmagnetic material between two ferromagnetic metals. 1 The electric resistance of MTJ is sensitive to the relative magnetization of the ferromagnetic electrodes which results magnetoresistance. It is possible to change the resistance by controlling the magnetizations direction of the ferromagnetic electrodes through an external magnetic field. 2 Organic materials have the advantage of weak spin–orbit and hyperfine interactions, which preserve spin-coherence over times and distances much longer than that in conventional metals or semiconductors. Such features make them suitable materials for spin injection and transport. Tsukagoshi et al. 3 reported the injection of spin-polarized electrons from ferromagnetic electrodes into multi-walled carbon nanotubes . They observed a magnetoresistance in several nanotubes with a maximum resistance change of 9%. Xiong et al. 4 designed the LSMO/Alq 3 /Co device and reported a magnetoresistance as high as 40%. Dediu et al. 5 reported sexithienyl ( T 6 ) contacted by LSMO electrodes showing a strong magnetoresistance up to 30%. Petta et al. 6 fabricated MTJ of octanethiol contacted by Ni and found a magnetoresistance up to 16%. Theoretically, for instance, Mehrez et al. 7 used a tight binding model and investigated spin-coherent quantum transport in a single-wall carbon nanotube MTJ. Their calculation showed a magnetoresistance as large as 20% at low temperature. Waldron et al. 8 studied quantum spin transport through a Ni-benzenedithiol (BDT)-Ni molecular MTJ. They took into account microscopic details based on the density functional theory and obtained magnetoresistance as large as 27%.
+ ###### 
+From cou.: 3 DNA is a promising candidate for molecular electronics because of its unique self-assembling and self-recognition properties which are essential for its performance as carrier of the genetic code. Its double stranded helix structure was discovered by Watson and Crick in 1953. As early as 1962, Eley and Spivey9 suggested that the interbase hybridization of πz orbitals perpendicular to the planes of the stacked base pairs in double-stranded DNA could lead to conducting behavior. Recently, many direct charge transport experiments have obtained the current–voltage characteristics of the device by contacting DNA molecules between two electrodes.10–17 Theoretically, Berlin et al.18–22 studied the charge transport mechanism in DNA. Grozema et al.23–25 used a tight binding approach to study the length and sequence dependence of the charge migration rate in DNA. The first principle density functional theory is also used to study DNA electronics.26–29 Although there exists some controversy about the conductivity of DNA, it is believed that DNA with artificially created periodic sequence, for example, such as the poly(A)-poly(T) or poly(G)-poly(C) DNA, can be a good candidate for a nanostructure device in suitable temperature, substrate and humidity environment.30
+From Soup: 3 DNA is a promising candidate for molecular electronics because of its unique self-assembling and self-recognition properties which are essential for its performance as carrier of the genetic code. Its double stranded helix structure was discovered by Watson and Crick in 1953. As early as 1962, Eley and Spivey 9 suggested that the interbase hybridization of π z orbitals perpendicular to the planes of the stacked base pairs in double-stranded DNA could lead to conducting behavior. Recently, many direct charge transport experiments have obtained the current–voltage characteristics of the device by contacting DNA molecules between two electrodes. 10–17 Theoretically, Berlin et al. 18–22 studied the charge transport mechanism in DNA. Grozema et al. 23–25 used a tight binding approach to study the length and sequence dependence of the charge migration rate in DNA. The first principle density functional theory is also used to study DNA electronics. 26–29 Although there exists some controversy about the conductivity of DNA, it is believed that DNA with artificially created periodic sequence, for example, such as the poly(A)-poly(T) or poly(G)-poly(C) DNA, can be a good candidate for a nanostructure device in suitable temperature, substrate and humidity environment. 30
+ ###### 
+From cou.: 4 DNA is also used to explore the quantum spin transport. Zwolak and Ventra31 first showed that a DNA spin valve can be realized. They studied the DNA molecule contacted with Ni and Fe electrodes. They showed that magnetoresistance values of as much as 26% for Ni and 16% for Fe electrodes can be observed. They suggested the larger magnetoresistance for the Ni electrodes than for Fe ones is due to the larger mismatch between spin-up and spin-down Fermi velocities of Ni with respect to Fe. Wang and Chakraborty further studied the spin flip effect on spin transport in a DNA molecule.32 They found an enhancement of magnetoresistance for a weak spin flip coupling while an oscillatory behavior for a strong spin flip coupling. Recently, another interesting phenomenon was reported based on a poly(G)-poly(C) DNA device. When a perpendicular electric field is applied on a DNA molecule, Malyshev33 predicted that the charge current through the molecule will be suppressed. The reason is that transverse electric field induces change of the electronic structure of a DNA molecule, which results in an adjustable conducting tunneling along the double stranded helix.
+From Soup: 4 DNA is also used to explore the quantum spin transport. Zwolak and Ventra 31 first showed that a DNA spin valve can be realized. They studied the DNA molecule contacted with Ni and Fe electrodes. They showed that magnetoresistance values of as much as 26% for Ni and 16% for Fe electrodes can be observed. They suggested the larger magnetoresistance for the Ni electrodes than for Fe ones is due to the larger mismatch between spin-up and spin-down Fermi velocities of Ni with respect to Fe. Wang and Chakraborty further studied the spin flip effect on spin transport in a DNA molecule. 32 They found an enhancement of magnetoresistance for a weak spin flip coupling while an oscillatory behavior for a strong spin flip coupling. Recently, another interesting phenomenon was reported based on a poly(G)-poly(C) DNA device. When a perpendicular electric field is applied on a DNA molecule, Malyshev 33 predicted that the charge current through the molecule will be suppressed. The reason is that transverse electric field induces change of the electronic structure of a DNA molecule, which results in an adjustable conducting tunneling along the double stranded helix.
+ ###### 
+From cou.: 5 In a DNA based molecular device, investigation of a transverse electric field or ferromagnetic electrodes broadens the underlying application of the device. In this paper we try to include a transverse electric field into the FM/DNA/FM device. The purpose is to get an enhanced or adjustable MR in a DNA device. Combining the work of Malyshev with that of Zwolak and Ventra, we study the MR of a FM/DNA/FM device with a transverse electric field by employing the lattice Green function and the Fisher-Lee relation. In section II the model and formula are presented. In section III the calculations are carried out and the discussion is given. Finally, in section IV a summary is made.
+From Soup: 5 In a DNA based molecular device, investigation of a transverse electric field or ferromagnetic electrodes broadens the underlying application of the device. In this paper we try to include a transverse electric field into the FM/DNA/FM device. The purpose is to get an enhanced or adjustable MR in a DNA device. Combining the work of Malyshev with that of Zwolak and Ventra, we study the MR of a FM/DNA/FM device with a transverse electric field by employing the lattice Green function and the Fisher-Lee relation. In section II the model and formula are presented. In section III the calculations are carried out and the discussion is given. Finally, in section IV a summary is made.
+ ###### 
+From cou.: 6 We consider a FM/DNA/FM device with the Hamiltonian,where Hmol describes the π-orbital of a poly(G)-poly(C) DNA molecule,34–36where c+G(C),i,σ(cG(C),i,σ) means the creation (annihilation) operator for an electron with spin σ at site i of base G(C), εG(C) is the on-site energy of a π-electron at base G(C) and tG(C) the hopping integral between the nearest-neighbor sites along each helix sub-chain. t⊥ is the hopping integral between the corresponding G and C bases of the sub-chains.
+From Soup: 6 We consider a FM/DNA/FM device with the Hamiltonian, where H mol describes the π-orbital of a poly(G)-poly(C) DNA molecule, 34–36 where c + G ( C ), i , σ ( c G ( C ), i , σ ) means the creation (annihilation) operator for an electron with spin σ at site i of base G(C), ε G ( C ) is the on-site energy of a π-electron at base G(C) and t G ( C ) the hopping integral between the nearest-neighbor sites along each helix sub-chain. t ⊥ is the hopping integral between the corresponding G and C bases of the sub-chains.
+ ###### 
+From cou.: 7 The Hamiltonian of each electrode is given by
+From Soup: 7 The Hamiltonian of each electrode is given by
+ ###### 
+From cou.: 8 ε
+From Soup: 8 ε
+ ###### 
+From cou.: 9 τ
+From Soup: 9 0
+ ###### 
+From cou.: 10 J
+From Soup: 10 τ
+ ###### 
+From cou.: 11 σ
+From Soup: 11 J
+ ###### 
+From cou.: 12 a
+From Soup: 12 σ
+ ###### 
+From cou.: 13 +
+From Soup: 13 a
+ ###### 
+From cou.: 14 i
+From Soup: 14 +
+ ###### 
+From cou.: 15 j
+From Soup: 15 i , j , σ
+ ###### 
+From cou.: 16 σ
+From Soup: 16 a
+ ###### 
+From cou.: 17 a
+From Soup: 17 i , j , σ
+ ###### 
+From cou.: 18 i
+From Soup: 18 i
+ ###### 
+From cou.: 19 j
+From Soup: 19 j
+ ###### 
+From cou.: 20 σ
+From Soup: 20 σ
+ ###### 
+From cou.: 21 i
+From Soup: 21 H coup describes the coupling between the DNA molecule and electrodes, which takes place only at the interfaces of FM /DNA.
+ ###### 
+From cou.: 22 j
+From Soup: 22 A transverse electric field is applied on the molecule tunneling, which will change the on-site energy through the following form for a B-type DNA. 33
+ ###### 
+From cou.: 23 σ
+From Soup: 23 e
+ ###### 
+From cou.: 24 H coup describes the coupling between the DNA molecule and electrodes, which takes place only at the interfaces of FM/DNA.
+From Soup: 24 r
+ ###### 
+From cou.: 25 A transverse electric field is applied on the molecule tunneling, which will change the on-site energy through the following form for a B-type DNA.33
+From Soup: 25 s
+ ###### 
+From cou.: 26 e
+From Soup: 26 s
+ ###### 
+From cou.: 27 r
+From Soup: 27 V
+ ###### 
+From cou.: 28 s
+From Soup: 28 T
+ ###### 
+From cou.: 29 s
+From Soup: 29 Er
+ ###### 
+From cou.: 30 V
+From Soup: 30 E
+ ###### 
+From cou.: 31 Er
+From Soup: 31 φ
+ ###### 
+From cou.: 32 E
+From Soup: 32 0
+ ###### 
+From cou.: 33 φ
+From Soup: 33 For a FM/DNA/FM device, with a given alignment of magnetization (parallel or antiparallel) of the two electrodes, the charge current through the device can be calculated according to the Landauer–Buttiker theory. 37
+ ###### 
+From cou.: 34 For a FM/DNA/FM device, with a given alignment of magnetization (parallel or antiparallel) of the two electrodes, the charge current through the device can be calculated according to the Landauer–Buttiker theory.37
+From Soup: 34 h
+ ###### 
+From cou.: 35 h
+From Soup: 35 T
+ ###### 
+From cou.: 36 T
+From Soup: 36 P ( AP )
+ ###### 
+From cou.: 37 P
+From Soup: 37 E
+ ###### 
+From cou.: 38 AP
+From Soup: 38 T
+ ###### 
+From cou.: 39 E
+From Soup: 39 P
+ ###### 
+From cou.: 40 T
+From Soup: 40 E
+ ###### 
+From cou.: 41 P
+From Soup: 41 T
+ ###### 
+From cou.: 42 E
+From Soup: 42 ↑↑
+ ###### 
+From cou.: 43 T
+From Soup: 43 E
+ ###### 
+From cou.: 44 E
+From Soup: 44 T
+ ###### 
+From cou.: 45 T
+From Soup: 45 ↓↓
+ ###### 
+From cou.: 46 E
+From Soup: 46 E
+ ###### 
+From cou.: 47 T
+From Soup: 47 T
+ ###### 
+From cou.: 48 AP
+From Soup: 48 AP
+ ###### 
+From cou.: 49 E
+From Soup: 49 E
+ ###### 
+From cou.: 50 T
+From Soup: 50 T
+ ###### 
+From cou.: 51 E
+From Soup: 51 ↑↓
+ ###### 
+From cou.: 52 T
+From Soup: 52 E
+ ###### 
+From cou.: 53 E
+From Soup: 53 T
+ ###### 
+From cou.: 54 s
+From Soup: 54 ↑↓
+ ###### 
+From cou.: 55 s
+From Soup: 55 E
+ ###### 
+From cou.: 56 T
+From Soup: 56 s
+ ###### 
+From cou.: 57 ss
+From Soup: 57 s
+ ###### 
+From cou.: 58 μ
+From Soup: 58 ↑,↓
+ ###### 
+From cou.: 59 l
+From Soup: 59 T
+ ###### 
+From cou.: 60 r
+From Soup: 60 ss ′
+ ###### 
+From cou.: 61 electrode
+From Soup: 61 μ
+ ###### 
+From cou.: 62 k
+From Soup: 62 l ( r )
+ ###### 
+From cou.: 63 B
+From Soup: 63 electrode
+ ###### 
+From cou.: 64 T
+From Soup: 64 k
+ ###### 
+From cou.: 65 T
+From Soup: 65 B
+ ###### 
+From cou.: 66 ss
+From Soup: 66 T
+ ###### 
+From cou.: 67 E
+From Soup: 67 T
+ ###### 
+From cou.: 68 37,38
+From Soup: 68 ss
+ ###### 
+From cou.: 69 s
+From Soup: 69 E
+ ###### 
+From cou.: 70 l
+From Soup: 70 37,38
+ ###### 
+From cou.: 71 r
+From Soup: 71 s
+ ###### 
+From cou.: 72 i
+From Soup: 72 l ( r )
+ ###### 
+From cou.: 73 R,s
+From Soup: 73 i
+ ###### 
+From cou.: 74 l
+From Soup: 74 R , s
+ ###### 
+From cou.: 75 r
+From Soup: 75 l ( r )
+ ###### 
+From cou.: 76 A,s
+From Soup: 76 A , s
+ ###### 
+From cou.: 77 l
+From Soup: 77 l ( r )
+ ###### 
+From cou.: 78 r
+From Soup: 78 R , s
+ ###### 
+From cou.: 79 R,s
+From Soup: 79 l ( r )
+ ###### 
+From cou.: 80 l
+From Soup: 80 A , s
+ ###### 
+From cou.: 81 r
+From Soup: 81 l ( r )
+ ###### 
+From cou.: 82 A,s
+From Soup: 82 G
+ ###### 
+From cou.: 83 l
+From Soup: 83 semi
+ ###### 
+From cou.: 84 r
+From Soup: 84 n
+ ###### 
+From cou.: 85 G
+From Soup: 85 n
+ ###### 
+From cou.: 86 semi
+From Soup: 86 I
+ ###### 
+From cou.: 87 n
+From Soup: 87 The parameters are set as follows in this paper. For a poly(G)-poly(C) DNA molecule, the lowest unoccupied molecular orbital (LUMO) is taken as on-site energies: 33 ε G = 1.14 eV and ε C = −1.06 eV. The hopping integral is set as 34 t G ( C ) = 0.3 eV and t ⊥ = 0.1 eV, which are within reasonable parameter intervals. 35 We choose a typical tight-binding parameter for the ferromagnetic electrodes: 39 τ = 1.5 eV and J = 1.5 eV. The Fermi level of the electrodes is supposed to be at the middle of the DNA band gap. Interfacial couplings are supposed to be spin independent and set to be 0.02 eV, which is consistent with other theoretical works to fit the experimental I – V curves. 11 A low temperature of T = 30 K is applied in this work.
+ ###### 
+From cou.: 88 n
+From Soup: 88 We firstly investigate a one-helix-period poly(G)-poly(C) DNA which consists of 11-base pairs. Fig. 1 shows the current–voltage characteristics of the device for parallel (P) and antiparallel (AP) alignment of the magnetization of electrodes. The magnetoresistance is defined as MR = ( I P − I AP )/ I P . The inset in Fig. 1 is the corresponding dependence of magnetoresistance on applied bias. MR of the device increases from 3.1% at 1.2 V to 25.3% at 4 V. The result is consistent with that of ref. 31 . It should be mentioned that in ref. 31 the magnetization of the electrodes is characterized by the different hopping integral for majority and minority electrons, while here we describe the magnetization of the electrodes with different on-site energies. 39,40 There should be no qualitative difference for the final conclusion.
+ ###### 
+From cou.: 89 I
+From Soup: 89 When a transverse electric field is applied, the potential along the DNA chain will be adjusted due to the spacial structure of a DNA double helix. This modulation changes the electronic structure of the DNA molecule and further influences its transport property. Ref. 33 has predicted that a transverse electric field will suppress the current through the device. The reason is that the transverse electric field potential tends to make the on-site energy of the poly(G)-poly(C) DNA molecule into a “disorder”. This “disorder” changes the wave-function of the electron and further influences conductivity. Our calculation reveals that the suppression on the current is also related to the direction of the transverse electric field, which is denoted by phase φ 0 , as shown in Fig. 3 . Since the modulation is harmonic due to the double helix structure of DNA molecule, we choose the phase φ 0 = 0 to correspond to the direction that the transverse electric field points to from base G to base C of the first base pair. The modulated potential along a one-helix-period ploy(G)-poly(C) DNA G and C chain is shown in Fig. 2 for phase φ 0 = 0 and φ 0 = π. At a fixed strength of the transverse electric field the amplitude of the “disorder” is unchanged, but different directions change the shape of the modulation in detail, which will make a difference of the conductance. For a simple metal/DNA/metal device, Fig. 3 shows the dependence of the current on φ 0 for different strengths of the transverse electric field. The straight solid line corresponds to the case when the transverse electric field is absent. When the transverse electric field is turned on, the current has fluctuating behavior with φ 0 . With a larger transverse electric field fluctuation becomes more notable.
+ ###### 
+From cou.: 90 The parameters are set as follows in this paper. For a poly(G)-poly(C) DNA molecule, the lowest unoccupied molecular orbital (LUMO) is taken as on-site energies:33εG = 1.14 eV and εC = −1.06 eV. The hopping integral is set as34tG(C) = 0.3 eV and t⊥ = 0.1 eV, which are within reasonable parameter intervals.35 We choose a typical tight-binding parameter for the ferromagnetic electrodes:39τ = 1.5 eV and J = 1.5 eV. The Fermi level of the electrodes is supposed to be at the middle of the DNA band gap. Interfacial couplings are supposed to be spin independent and set to be 0.02 eV, which is consistent with other theoretical works to fit the experimental I–V curves.11 A low temperature of T = 30 K is applied in this work.
+From Soup: 90 Then for a FM/DNA/FM device, we apply a transverse electric field and calculate MR of the device. The upper panel in Fig. 4 shows that the MR at V T = 0.4 V. The dashed line is a result of V T = 0 V, which gives a MR of 25.3% in the present parameters. The lower panel in Fig. 4 shows the corresponding dependence of the current on φ 0 corresponding to the P (solid line) and AP (dashed line) alignment of magnetization of the electrodes. It is found that the direction of the transverse electric field has a remarkable modulation to MR of the FM/DNA/FM device. MR can reach larger values at some special directions of the transverse electric field. To facilitate handling of the figures, we chose the reference point φ 0 = 0 as the symmetrical point of the DNA molecule, which corresponds to the direction that the transverse electric field points to from base G to base C of the first base pair. Departing from the symmetrical point, both the P and AP currents will be decreasing. At φ 0 = 0, we obtain the current I P = 9.93 nA, I AP = 8.57 nA, which gives . For a small departure, for example, φ 0 = 0.1π = 0.314, we obtain I P = 7.93 nA, I AP = 6.62 nA, which gives MR = 16.5%. The exact reason for the increasing of MR is complex as both I P and I AP will change with the direction of the field. A qualitative understanding may be that, with the change of the field direction, the conducting tunnels tend to move out of the conducting window in both P and AP configurations. We hope that more tunnels move into the conducting window in the P configuration and fewer tunnels do so in the AP one to get a higher MR. This case seems to appear with a suitable adjustment of the electric field direction. As shown in Fig. 3 , at φ 0 = π we obtain a MR of the device as high as 42.5%.
+ ###### 
+From cou.: 91 We firstly investigate a one-helix-period poly(G)-poly(C) DNA which consists of 11-base pairs. Fig. 1 shows the current–voltage characteristics of the device for parallel (P) and antiparallel (AP) alignment of the magnetization of electrodes. The magnetoresistance is defined as MR = (IP−IAP)/IP. The inset in Fig. 1 is the corresponding dependence of magnetoresistance on applied bias. MR of the device increases from 3.1% at 1.2 V to 25.3% at 4 V. The result is consistent with that of ref. 31. It should be mentioned that in ref. 31 the magnetization of the electrodes is characterized by the different hopping integral for majority and minority electrons, while here we describe the magnetization of the electrodes with different on-site energies.39,40 There should be no qualitative difference for the final conclusion.
+From Soup: 91 As the enhancement of MR is the largest at φ 0 = π in the present case, we calculate the dependence of MR on the strength of the transverse electric field by fixing φ 0 = π, The result is shown in Fig. 5(a) . The corresponding current with parallel (solid line) and antiparallel (dashed line) alignment of magnetization of electrodes is shown in Fig. 5(b) . Both P and AP currents decrease with the increase of the transverse electric field and approach zero when the strength of the field is larger than 2 V, which means that the current may be blocked by a strong transverse electric field. However, if we check the MR, it is found that it first increases with the transverse electric field. At about V T = 1.1 V the MR reaches a maximum value as high as 83%. A MR of 83% is indeed abnormal. We note that at this point the current I P = 4.04 nA, while I AP = 0.69 nA. The current in the AP configuration is much less than that in the P configuration, therefore a large MR is expected. By the way, some experimental works also reported a high MR in the MTJ structure. For example, in one of the recent experiments, 41 the MR of Co/MgO/Co MTJ structure reaches as high as 507% (which equals 83.5% in our definition). Some theoretical work 42 also predicted a high MR (over 90% in our definition) in a MTJ structure.
+ ###### 
+From cou.: 92 When a transverse electric field is applied, the potential along the DNA chain will be adjusted due to the spacial structure of a DNA double helix. This modulation changes the electronic structure of the DNA molecule and further influences its transport property. Ref. 33 has predicted that a transverse electric field will suppress the current through the device. The reason is that the transverse electric field potential tends to make the on-site energy of the poly(G)-poly(C) DNA molecule into a “disorder”. This “disorder” changes the wave-function of the electron and further influences conductivity. Our calculation reveals that the suppression on the current is also related to the direction of the transverse electric field, which is denoted by phase φ0, as shown in Fig. 3. Since the modulation is harmonic due to the double helix structure of DNA molecule, we choose the phase φ0 = 0 to correspond to the direction that the transverse electric field points to from base G to base C of the first base pair. The modulated potential along a one-helix-period ploy(G)-poly(C) DNA G and C chain is shown in Fig. 2 for phase φ0 = 0 and φ0 = π. At a fixed strength of the transverse electric field the amplitude of the “disorder” is unchanged, but different directions change the shape of the modulation in detail, which will make a difference of the conductance. For a simple metal/DNA/metal device, Fig. 3 shows the dependence of the current on φ0 for different strengths of the transverse electric field. The straight solid line corresponds to the case when the transverse electric field is absent. When the transverse electric field is turned on, the current has fluctuating behavior with φ0. With a larger transverse electric field fluctuation becomes more notable.
+From Soup: 92 It should be pointed out that the spin flip effect is not considered in our calculation. The spin flip can be the result of an electron–phonon interaction, a magnetic impurity in the backbone or an interface mismatch between the ferromagnetic electrode and DNA molecule. It is found that the spin flip effect plays the role of suppressing the MR of the MTJ. 43–45 However Wang and Chakraborty found an enhanced MR when the spin flip is weak for short DNA connected with Fe electrodes. 32
+ ###### 
+From cou.: 93 Then for a FM/DNA/FM device, we apply a transverse electric field and calculate MR of the device. The upper panel in Fig. 4 shows that the MR at VT = 0.4 V. The dashed line is a result of VT = 0 V, which gives a MR of 25.3% in the present parameters. The lower panel in Fig. 4 shows the corresponding dependence of the current on φ0 corresponding to the P (solid line) and AP (dashed line) alignment of magnetization of the electrodes. It is found that the direction of the transverse electric field has a remarkable modulation to MR of the FM/DNA/FM device. MR can reach larger values at some special directions of the transverse electric field. To facilitate handling of the figures, we chose the reference point φ0 = 0 as the symmetrical point of the DNA molecule, which corresponds to the direction that the transverse electric field points to from base G to base C of the first base pair. Departing from the symmetrical point, both the P and AP currents will be decreasing. At φ0 = 0, we obtain the current IP = 9.93 nA, IAP = 8.57 nA, which gives . For a small departure, for example, φ0 = 0.1π = 0.314, we obtain IP = 7.93 nA, IAP = 6.62 nA, which gives MR = 16.5%. The exact reason for the increasing of MR is complex as both IP and IAP will change with the direction of the field. A qualitative understanding may be that, with the change of the field direction, the conducting tunnels tend to move out of the conducting window in both P and AP configurations. We hope that more tunnels move into the conducting window in the P configuration and fewer tunnels do so in the AP one to get a higher MR. This case seems to appear with a suitable adjustment of the electric field direction. As shown in Fig. 3, at φ0 = π we obtain a MR of the device as high as 42.5%.
+From Soup: 93 We have performed a theoretical study of the quantum spin transport in a FM/DNA/FM device based on the lattice Green function method and the Landauer-Büttiker theory. We explore a possible usage of a transverse electric field for enhancing the magnetoresistance of the FM/DNA/FM device. It is found the direction and strength of the transverse electric field will induce a modulation in the MR. The MR of the device can be enhanced at some special direction and strength of the transverse electric field. This enhancement of MR is related to the electronic structure change induced by the transverse electric field, which is a peculiar characteristics of a DNA device.
+ ###### 
+From cou.: 94 As the enhancement of MR is the largest at φ0 = π in the present case, we calculate the dependence of MR on the strength of the transverse electric field by fixing φ0 = π, The result is shown in Fig. 5(a). The corresponding current with parallel (solid line) and antiparallel (dashed line) alignment of magnetization of electrodes is shown in Fig. 5(b). Both P and AP currents decrease with the increase of the transverse electric field and approach zero when the strength of the field is larger than 2 V, which means that the current may be blocked by a strong transverse electric field. However, if we check the MR, it is found that it first increases with the transverse electric field. At about VT = 1.1 V the MR reaches a maximum value as high as 83%. A MR of 83% is indeed abnormal. We note that at this point the current IP = 4.04 nA, while IAP = 0.69 nA. The current in the AP configuration is much less than that in the P configuration, therefore a large MR is expected. By the way, some experimental works also reported a high MR in the MTJ structure. For example, in one of the recent experiments,41 the MR of Co/MgO/Co MTJ structure reaches as high as 507% (which equals 83.5% in our definition). Some theoretical work42 also predicted a high MR (over 90% in our definition) in a MTJ structure.
+From Soup: 94 The authors would like to acknowledge financial support from the National Basic Research Program of China (Grant No. 2009CB929204 and No. 2010CB923402) and the National Natural Science Foundation of the People’s Republic of China (Grant No. 10874100).
+ ###### 
+From cou.: 95 It should be pointed out that the spin flip effect is not considered in our calculation. The spin flip can be the result of an electron–phonon interaction, a magnetic impurity in the backbone or an interface mismatch between the ferromagnetic electrode and DNA molecule. It is found that the spin flip effect plays the role of suppressing the MR of the MTJ.43–45 However Wang and Chakraborty found an enhanced MR when the spin flip is weak for short DNA connected with Fe electrodes.32
+From Soup: 95 J. S. Moodera, L. R. Kinder, T. M. Wang and R. Merservey, Phys. Rev. Lett. , 1995, 74 , 3273 CrossRef CAS .
+ ###### 
+From cou.: 96 We have performed a theoretical study of the quantum spin transport in a FM/DNA/FM device based on the lattice Green function method and the Landauer-Büttiker theory. We explore a possible usage of a transverse electric field for enhancing the magnetoresistance of the FM/DNA/FM device. It is found the direction and strength of the transverse electric field will induce a modulation in the MR. The MR of the device can be enhanced at some special direction and strength of the transverse electric field. This enhancement of MR is related to the electronic structure change induced by the transverse electric field, which is a peculiar characteristics of a DNA device.
+From Soup: 96 J. Nowak and J. Rauluszkiewicz, J. Magn. Magn. Mater. , 1992, 109 , 79 CrossRef CAS .
+ ###### 
+From cou.: 97 The authors would like to acknowledge financial support from the National Basic Research Program of China (Grant No. 2009CB929204 and No. 2010CB923402) and the National Natural Science Foundation of the People’s Republic of China (Grant No. 10874100).
+From Soup: 97 K. Tsukagoshi, B. W. Alphenaar and H. Ago, Nature , 1999, 401 , 572 CrossRef CAS .
+ ###### 
+From cou.: 98 J. S. Moodera, L. R. Kinder, T. M. Wang and R. Merservey, Phys. Rev. Lett., 1995, 74, 3273 CrossRef CAS .
+From Soup: 98 Z. H. Xiong, D. Wu, Z. V. Vardeny and J. Shi, Nature , 2004, 427 , 821 CrossRef CAS .
+ ###### 
+From cou.: 99 J. Nowak and J. Rauluszkiewicz, J. Magn. Magn. Mater., 1992, 109, 79 CrossRef CAS .
+From Soup: 99 V. Dediu, M. Murgia, F. C. Matacotta, C. Taliani and S. Barbanera, Solid State Commun. , 2002, 122 , 181 CrossRef CAS .
+ ###### 
+From cou.: 100 K. Tsukagoshi, B. W. Alphenaar and H. Ago, Nature, 1999, 401, 572 CrossRef CAS .
+From Soup: 100 J. R. Petta, S. K. Slater and D. C. Ralph, Phys. Rev. Lett. , 2004, 93 , 136601 CrossRef CAS .
+ ###### 
+From cou.: 101 Z. H. Xiong, D. Wu, Z. V. Vardeny and J. Shi, Nature, 2004, 427, 821 CrossRef CAS .
+From Soup: 101 H. Mehrez, Jeremy Taylor, Hong Guo, Jian Wang and Christopher Roland, Phys. Rev. Lett. , 2000, 84 , 2682 CrossRef CAS .
+ ###### 
+From cou.: 102 V. Dediu, M. Murgia, F. C. Matacotta, C. Taliani and S. Barbanera, Solid State Commun., 2002, 122, 181 CrossRef CAS .
+From Soup: 102 Derek Waldron, Paul Haney, Brian Larade, Allan MacDonald and Hong Guo, Phys. Rev. Lett. , 2006, 96 , 166804 CrossRef .
+ ###### 
+From cou.: 103 J. R. Petta, S. K. Slater and D. C. Ralph, Phys. Rev. Lett., 2004, 93, 136601 CrossRef CAS .
+From Soup: 103 D. D. Eley and D. I. Spivey, Trans. Faraday Soc. , 1962, 58 , 411 RSC .
+ ###### 
+From cou.: 104 H. Mehrez, Jeremy Taylor, Hong Guo, Jian Wang and Christopher Roland, Phys. Rev. Lett., 2000, 84, 2682 CrossRef CAS .
+From Soup: 104 H. Fink and C. Schönenberger, Nature , 1999, 398 , 407 CrossRef CAS .
+ ###### 
+From cou.: 105 Derek Waldron, Paul Haney, Brian Larade, Allan MacDonald and Hong Guo, Phys. Rev. Lett., 2006, 96, 166804 CrossRef .
+From Soup: 105 D. Porath, A. Bezryadin, S. de Vries and C. Dekker, Nature , 2000, 403 , 635 CrossRef CAS .
+ ###### 
+From cou.: 106 D. D. Eley and D. I. Spivey, Trans. Faraday Soc., 1962, 58, 411 RSC .
+From Soup: 106 H. Watanabe, C. Manabe, T. Shigematsu, K. Shimotani and M. Shimizu, Appl. Phys. Lett. , 2001, 79 , 2462 CrossRef CAS .
+ ###### 
+From cou.: 107 H. Fink and C. Schönenberger, Nature, 1999, 398, 407 CrossRef CAS .
+From Soup: 107 L. Cai, H. Tabata and T. Kawai, Appl. Phys. Lett. , 2000, 77 , 3105 CrossRef CAS .
+ ###### 
+From cou.: 108 D. Porath, A. Bezryadin, S. de Vries and C. Dekker, Nature, 2000, 403, 635 CrossRef CAS .
+From Soup: 108 H. Lee, H. Tanaka, Y. Otsuka, K. Yoo, J. Lee and T. Kawai, Appl. Phys. Lett. , 2002, 80 , 1670 CrossRef CAS .
+ ###### 
+From cou.: 109 H. Watanabe, C. Manabe, T. Shigematsu, K. Shimotani and M. Shimizu, Appl. Phys. Lett., 2001, 79, 2462 CrossRef CAS .
+From Soup: 109 J. S. Hwang, K. J. Kong, D. Ahn, G. S. Lee, D. J. Ahn and S. W. Hwang, Appl. Phys. Lett. , 2002, 81 , 1134 CrossRef CAS .
+ ###### 
+From cou.: 110 L. Cai, H. Tabata and T. Kawai, Appl. Phys. Lett., 2000, 77, 3105 CrossRef CAS .
+From Soup: 110 A. Y. Kasumov, M. Kociak, S. Guéron, B. Reulet, V. T. Volkov, D. V. Klinov and H. Bouchiat, Science , 2001, 291 , 280 CrossRef CAS .
+ ###### 
+From cou.: 111 H. Lee, H. Tanaka, Y. Otsuka, K. Yoo, J. Lee and T. Kawai, Appl. Phys. Lett., 2002, 80, 1670 CrossRef CAS .
+From Soup: 111 B. Xu, Peiming Zhang, Xiulan Li and Nongjian Tao, Nano Lett. , 2004, 4 , 1105 CrossRef CAS .
+ ###### 
+From cou.: 112 J. S. Hwang, K. J. Kong, D. Ahn, G. S. Lee, D. J. Ahn and S. W. Hwang, Appl. Phys. Lett., 2002, 81, 1134 CrossRef CAS .
+From Soup: 112 Y. A. Berlin, A. L. Burin and M. Ratner, Chem. Phys. , 2002, 275 , 61 CrossRef CAS .
+ ###### 
+From cou.: 113 A. Y. Kasumov, M. Kociak, S. Guéron, B. Reulet, V. T. Volkov, D. V. Klinov and H. Bouchiat, Science, 2001, 291, 280 CrossRef CAS .
+From Soup: 113 Y. A. Berlin, A. L. Burin and M. A. Ratner, Superlattices Microstruct. , 2000, 28 , 241 CrossRef CAS .
+ ###### 
+From cou.: 114 B. Xu, Peiming Zhang, Xiulan Li and Nongjian Tao, Nano Lett., 2004, 4, 1105 CrossRef CAS .
+From Soup: 114 Y. A. Berlin, A. L. Burin and M. A. Ratner, J. Phys. Chem. A , 2000, 104 , 443 CrossRef CAS .
+ ###### 
+From cou.: 115 Y. A. Berlin, A. L. Burin and M. Ratner, Chem. Phys., 2002, 275, 61 CrossRef CAS .
+From Soup: 115 R. G. Endres, D. L. Cox, R. R. P. Singh and S. K. Pati, Phys. Rev. Lett. , 2002, 88 , 166601 CrossRef CAS .
+ ###### 
+From cou.: 116 Y. A. Berlin, A. L. Burin and M. A. Ratner, Superlattices Microstruct., 2000, 28, 241 CrossRef CAS .
+From Soup: 116 K. Senthilkumar, F. C. Grozema, C. F. Guerra, F. M. Bickelhaupt, F. D. Lewis, Y. A. Berlin, M. A. Ratner and Laurens D. A. Siebbeles, J. Am. Chem. Soc. , 2005, 127 , 14894 CrossRef CAS .
+ ###### 
+From cou.: 117 Y. A. Berlin, A. L. Burin and M. A. Ratner, J. Phys. Chem. A, 2000, 104, 443 CrossRef CAS .
+From Soup: 117 F. C. Grozema, S. Tonzani, Y. A. Berlin, G. C. Schatz, Laurens D. A. Siebbeles and M. A. Ratner, J. Am. Chem. Soc. , 2008, 130 , 5157 CrossRef CAS .
+ ###### 
+From cou.: 118 R. G. Endres, D. L. Cox, R. R. P. Singh and S. K. Pati, Phys. Rev. Lett., 2002, 88, 166601 CrossRef CAS .
+From Soup: 118 F. C. Grozema, Y. A. Berlin and Laurens D. A. Siebbeles, J. Am. Chem. Soc. , 2000, 122 , 10903 CrossRef CAS .
+ ###### 
+From cou.: 119 K. Senthilkumar, F. C. Grozema, C. F. Guerra, F. M. Bickelhaupt, F. D. Lewis, Y. A. Berlin, M. A. Ratner and Laurens D. A. Siebbeles, J. Am. Chem. Soc., 2005, 127, 14894 CrossRef CAS .
+From Soup: 119 F. C. Grozema, Y. A. Berlin and Laurens D. A. Siebbeles, Int. J. Quantum Chem. , 1999, 75 , 1009 CrossRef CAS .
+ ###### 
+From cou.: 120 F. C. Grozema, S. Tonzani, Y. A. Berlin, G. C. Schatz, Laurens D. A. Siebbeles and M. A. Ratner, J. Am. Chem. Soc., 2008, 130, 5157 CrossRef CAS .
+From Soup: 120 S. S. Mallajosyula, J. C. Lin, D. L. Cox, S. K. Pati and R. R. P. Singh, Phys. Rev. Lett. , 2008, 101 , 176805 CrossRef .
+ ###### 
+From cou.: 121 F. C. Grozema, Y. A. Berlin and Laurens D. A. Siebbeles, J. Am. Chem. Soc., 2000, 122, 10903 CrossRef CAS .
+From Soup: 121 S. S. Mallajosyula and S. K. Pati, Phys. Rev. Lett. , 2007, 98 , 136601 CrossRef .
+ ###### 
+From cou.: 122 F. C. Grozema, Y. A. Berlin and Laurens D. A. Siebbeles, Int. J. Quantum Chem., 1999, 75, 1009 CrossRef CAS .
+From Soup: 122 S. S. Mallajosyula and S. K. Pati, J. Phys. Chem. B , 2007, 111 , 11614 CrossRef CAS .
+ ###### 
+From cou.: 123 S. S. Mallajosyula, J. C. Lin, D. L. Cox, S. K. Pati and R. R. P. Singh, Phys. Rev. Lett., 2008, 101, 176805 CrossRef .
+From Soup: 123 S. S. Mallajosyula and S. K. Pati, Angew. Chem., Int. Ed. , 2009, 48 , 4977 CrossRef CAS .
+ ###### 
+From cou.: 124 S. S. Mallajosyula and S. K. Pati, Phys. Rev. Lett., 2007, 98, 136601 CrossRef .
+From Soup: 124 Yu Zhu, Chao-Cheng Kaun and Hong Guo, Phys. Rev. B: Condens. Matter Mater. Phys. , 2004, 69 , 245112 CrossRef .
+ ###### 
+From cou.: 125 S. S. Mallajosyula and S. K. Pati, J. Phys. Chem. B, 2007, 111, 11614 CrossRef CAS .
+From Soup: 125 M. Zwolak and M. Di Ventra, Appl. Phys. Lett. , 2002, 81 , 925 CrossRef CAS .
+ ###### 
+From cou.: 126 S. S. Mallajosyula and S. K. Pati, Angew. Chem., Int. Ed., 2009, 48, 4977 CrossRef CAS .
+From Soup: 126 X. F. Wang and Tapash Chakraborty, Phys. Rev. B: Condens. Matter Mater. Phys. , 2006, 74 , 193103 CrossRef .
+ ###### 
+From cou.: 127 Yu Zhu, Chao-Cheng Kaun and Hong Guo, Phys. Rev. B: Condens. Matter Mater. Phys., 2004, 69, 245112 CrossRef .
+From Soup: 127 A. V. Malyshev, Phys. Rev. Lett. , 2007, 98 , 096801 CrossRef CAS .
+ ###### 
+From cou.: 128 M. Zwolak and M. Di Ventra, Appl. Phys. Lett., 2002, 81, 925 CrossRef CAS .
+From Soup: 128 R. Gutiérrez, S. Mohapatra, H. Cohen, D. Porath and G. Cuniberti, Phys. Rev. B: Condens. Matter Mater. Phys. , 2006, 74 , 235105 CrossRef .
+ ###### 
+From cou.: 129 X. F. Wang and Tapash Chakraborty, Phys. Rev. B: Condens. Matter Mater. Phys., 2006, 74, 193103 CrossRef .
+From Soup: 129 E. Maciá and S. Roche, Nanotechnology , 2006, 17 , 3002 CrossRef CAS .
+ ###### 
+From cou.: 130 A. V. Malyshev, Phys. Rev. Lett., 2007, 98, 096801 CrossRef CAS .
+From Soup: 130 R. A. Caetano and P. A. Schulz, Phys. Rev. Lett. , 2005, 95 , 126601 CrossRef CAS .
+ ###### 
+From cou.: 131 R. Gutiérrez, S. Mohapatra, H. Cohen, D. Porath and G. Cuniberti, Phys. Rev. B: Condens. Matter Mater. Phys., 2006, 74, 235105 CrossRef .
+From Soup: 131 S. Datta, Electronic Transport in Mesoscopic Systems , Cambridge University Press, Cambridge, 1995 Search PubMed .
+ ###### 
+From cou.: 132 E. Maciá and S. Roche, Nanotechnology, 2006, 17, 3002 CrossRef CAS .
+From Soup: 132 D. Ferry and S. M. Goodnick, Transport in Nanostructures , Cambridge University Press, Cambridge, 1997, ch. 3, and references therein Search PubMed .
+ ###### 
+From cou.: 133 R. A. Caetano and P. A. Schulz, Phys. Rev. Lett., 2005, 95, 126601 CrossRef CAS .
+From Soup: 133 J. H. Wei, S. J. Xie, L. M. Mei, J. Berakdar and YiJing Yan, Org. Electron. , 2007, 8 , 487 CrossRef CAS .
+ ###### 
+From cou.: 134 S. Datta, Electronic Transport in Mesoscopic Systems, Cambridge University Press, Cambridge, 1995 Search PubMed .
+From Soup: 134 S. J. Xie, K. H. Ahn, D. L. Smith, A. R. Bishop and A. Saxena, Phys. Rev. B: Condens. Matter Mater. Phys. , 2003, 67 , 125202 CrossRef .
+ ###### 
+From cou.: 135 D. Ferry and S. M. Goodnick, Transport in Nanostructures, Cambridge University Press, Cambridge, 1997, ch. 3, and references therein Search PubMed .
+From Soup: 135 S. Yuasa, A. Fukusima, H. Kubota, Y. Suzuki and K. Ando, Appl. Phys. Lett. , 2006, 89 , 042505 CrossRef .
+ ###### 
+From cou.: 136 J. H. Wei, S. J. Xie, L. M. Mei, J. Berakdar and YiJing Yan, Org. Electron., 2007, 8, 487 CrossRef CAS .
+From Soup: 136 J. Mathon and A. Umerski, Phys. Rev. B: Condens. Matter Mater. Phys. , 2001, 63 , 220403 CrossRef .
+ ###### 
+From cou.: 137 S. J. Xie, K. H. Ahn, D. L. Smith, A. R. Bishop and A. Saxena, Phys. Rev. B: Condens. Matter Mater. Phys., 2003, 67, 125202 CrossRef .
+From Soup: 137 P. Lyu, D. Y. Xing and J. Dong, Phys. Rev. B: Condens. Matter Mater. Phys. , 1998, 58 , 54 CrossRef CAS .
+ ###### 
+From cou.: 138 S. Yuasa, A. Fukusima, H. Kubota, Y. Suzuki and K. Ando, Appl. Phys. Lett., 2006, 89, 042505 CrossRef .
+From Soup: 138 W. Rudzinski1 and J. Barnas, Phys. Rev. B: Condens. Matter Mater. Phys. , 2001, 64 , 085318 CrossRef .
+ ###### 
+From cou.: 139 J. Mathon and A. Umerski, Phys. Rev. B: Condens. Matter Mater. Phys., 2001, 63, 220403 CrossRef .
+From Soup: 139 D. Tripathy and A. O. Adeyeye, Phys. Rev. B: Condens. Matter Mater. Phys. , 2007, 76 , 174429 CrossRef .
+ ###### 
+From cou.: 140 P. Lyu, D. Y. Xing and J. Dong, Phys. Rev. B: Condens. Matter Mater. Phys., 1998, 58, 54 CrossRef CAS .
+From Soup: 140 where and are separately the on-site energy and the nearest hopping integral. is the Stoner-like exchange integral with = ±1. ( ) is the creation (annihilation) of a π-electron on site ( , ) of the electrode with spin in the electrode. where the interfacial coupling is supposed to be spin independent. where is the electronic charge unit and the helix radius of the DNA molecule. = 1 represents the sub-chain of base G and = −1 the sub-chain of base C. = 2 is the transverse electric field voltage drop across the diameter of the DNA double helix and the strength of the transverse electric field. is the angle of the electric field direction with a reference one. We assume the DNA molecule has a perfect B-form with 10-base-pairs helix period neglecting any structure defect. The transverse electric filed can originate from the gate electrodes or the component of the inter-electrode field perpendicular to the DNA axis. where is the Planck constant. ( ) is the transmission coefficient of an electron from the left electrode to the right one. There are two configurations for the ferromagnetic electrodes: one is that the magnetization of the electrodes are parallel, so the transmission coefficient ( ) = ( ) + ( ); another is that the magnetization of the electrodes is antiparallel, so ( ) = ( ) + ( ). In the present work, we simply assume that there is no spin flip for π-electron during transport due to the weak spin-orbital coupling in DNA. ( ′) = in is the majority and minority spin states of electron in the ferromagnetic electrodes. is the Fermi distribution function, with the chemical potential of the left (right) , is the Boltzmann constant and the temperature. The transmission function ( ) can be calculated from the lattice Green function according to the Fisher–Lee relation as where Γ = [Σ −Σ ] is the electrode spectral density and Σ (Σ ) is the retarded (advanced) self-energy of the electrode. The self-energy is calculated from the surface green function ( , ) of the electrode. The lattice Green function is expressed as where denotes the identity operator.
+ ###### 
+From cou.: 141 W. Rudzinski1 and J. Barnas, Phys. Rev. B: Condens. Matter Mater. Phys., 2001, 64, 085318 CrossRef .
+From cou.: 142 D. Tripathy and A. O. Adeyeye, Phys. Rev. B: Condens. Matter Mater. Phys., 2007, 76, 174429 CrossRef .

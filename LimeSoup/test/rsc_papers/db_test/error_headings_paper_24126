@@ -1,0 +1,24 @@
+from test: 0 Comparison of wavelet transform and Fourier self-deconvolution (FSD) and wavelet FSD for curve fitting
+from soup: 0 Comparison of wavelet transform and Fourier self-deconvolution (FSD) and wavelet FSD for curve fitting
+ ###### 
+from test: 1 Abstract
+from soup: 1 Abstract
+ ###### 
+from test: 2 Theoretical
+from soup: 2 Introduction(guess)
+ ###### 
+from test: 3 Wavelet transform
+from soup: 3 Theoretical
+ ###### 
+from test: 4 Fourier self-deconvolution
+from soup: 4 Wavelet transform
+ ###### 
+from test: 5 Wavelet Fourier self-deconvolution
+from test: 6 Experimental
+from test: 7 Results and discussion
+from test: 8 Combined FSD with curve fitting
+from test: 9 Combined wavelet transform with curve fitting
+from test: 10 Combined wavelet FSD and curve fitting
+from test: 11 Conclusions
+from test: 12 Acknowledgements
+from test: 13 References

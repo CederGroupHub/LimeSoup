@@ -1,0 +1,387 @@
+From cou.: 0 Journal
+From Soup: 0 Lab Chip
+ ###### 
+From cou.: 1 Diffusion is slow. Thus, diffusion experiments are intrinsically time-consuming and laborious. Additionally, the experimental effort is multiplied for multicomponent systems as the determination of multicomponent diffusion coefficients typically requires several experiments. To reduce the experimental effort, we present the first microfluidic diffusion measurement method for multicomponent liquid systems. The measurement setup combines a microfluidic chip with Raman microspectroscopy. Excellent agreement between experimental results and literature data is achieved for the binary system cyclohexane + toluene and the ternary system 1-propanol + 1-chlorobutane + heptane. The Fick diffusion coefficients are obtained from fitting a multicomponent convection-diffusion model to the mole fractions measured in experiments. Ternary diffusion coefficients can be obtained from a single experiment; high accuracy is already obtained from two experiments. Advantages of the presented measurement method are thus short measurement times, reduced sample consumption, and less experiments for the determination of a multicomponent diffusion coefficient.
+From Soup: 1 Diffusion is slow. Thus, diffusion experiments are intrinsically time-consuming and laborious. Additionally, the experimental effort is multiplied for multicomponent systems as the determination of multicomponent diffusion coefficients typically requires several experiments. To reduce the experimental effort, we present the first microfluidic diffusion measurement method for multicomponent liquid systems. The measurement setup combines a microfluidic chip with Raman microspectroscopy. Excellent agreement between experimental results and literature data is achieved for the binary system cyclohexane + toluene and the ternary system 1-propanol + 1-chlorobutane + heptane. The Fick diffusion coefficients are obtained from fitting a multicomponent convection-diffusion model to the mole fractions measured in experiments. Ternary diffusion coefficients can be obtained from a single experiment; high accuracy is already obtained from two experiments. Advantages of the presented measurement method are thus short measurement times, reduced sample consumption, and less experiments for the determination of a multicomponent diffusion coefficient.
+ ###### 
+From cou.: 2 Diffusion is the most important mass transport process on the micro-scale, both in chemistry and biology.1–4 Therefore, the knowledge of diffusion coefficients is indispensable for the design of microfluidic devices,3,5–12 industrial processes, and environmental phenomena.13 Since most applications contain more than two components, multicomponent diffusion coefficients are usually needed. However, there is a lack of data for multicomponent systems:13–15 to date, diffusion coefficients of less than 300 multicomponent systems are published. Less than 30% of these systems are non-aqueous.16 For comparison: the commercial Dortmund Database contains vapor–liquid equilibrium data on more than 2000 multicomponent mixtures.17 Here, more than 60% of the multicomponent mixtures are non-aqueous.
+From Soup: 2 Diffusion is the most important mass transport process on the micro-scale, both in chemistry and biology. 1–4 Therefore, the knowledge of diffusion coefficients is indispensable for the design of microfluidic devices, 3,5–12 industrial processes, and environmental phenomena. 13 Since most applications contain more than two components, multicomponent diffusion coefficients are usually needed. However, there is a lack of data for multicomponent systems: 13–15 to date, diffusion coefficients of less than 300 multicomponent systems are published. Less than 30% of these systems are non-aqueous. 16 For comparison: the commercial Dortmund Database contains vapor–liquid equilibrium data on more than 2000 multicomponent mixtures. 17 Here, more than 60% of the multicomponent mixtures are non-aqueous.
+ ###### 
+From cou.: 3 The reason for the sparse diffusion data is that diffusion measurements are time-consuming and laborious. Typical measurements last from about an hour up to several days.18 At the same time, these measurements consume sample volumes ranging from a few mL to several 100 mL.18,19 These limitations already apply to binary diffusion. For multicomponent diffusion, repeated experiments are required for a single data point such that the effort of diffusion measurements increases with (nc − 1), where nc denotes the number of components.20 In practice, several times (nc − 1) experiments are performed.21,22 Thus, ternary diffusion experiments take at least twice the effort of binary experiments.
+From Soup: 3 The reason for the sparse diffusion data is that diffusion measurements are time-consuming and laborious. Typical measurements last from about an hour up to several days. 18 At the same time, these measurements consume sample volumes ranging from a few mL to several 100 mL. 18,19 These limitations already apply to binary diffusion. For multicomponent diffusion, repeated experiments are required for a single data point such that the effort of diffusion measurements increases with ( n c − 1), where n c denotes the number of components. 20 In practice, several times ( n c − 1) experiments are performed. 21,22 Thus, ternary diffusion experiments take at least twice the effort of binary experiments.
+ ###### 
+From cou.: 4 Microfluidics is particularly suited to overcome the main limitations in the measurement of diffusion coefficients: small dimensions result in short measurement times (<1 h), since the diffusion time is proportional to the squared diffusion distance.23,24 Furthermore, microfluidics allows for reduced sample volumes due to the small channel volumes (≈10 μL).5,25
+From Soup: 4 Microfluidics is particularly suited to overcome the main limitations in the measurement of diffusion coefficients: small dimensions result in short measurement times (<1 h), since the diffusion time is proportional to the squared diffusion distance. 23,24 Furthermore, microfluidics allows for reduced sample volumes due to the small channel volumes (≈10 μL). 5,25
+ ###### 
+From cou.: 5 The potential and the feasibility of microfluidic diffusion measurements have previously been demonstrated for binary mixtures.5,26–32 It has already been suggested that microfluidics offers the potential for the measurement of multicomponent diffusion coefficients.27,33,34 However, to the best of the authors' knowledge, microfluidic diffusion measurements of multicomponent systems have not been accomplished yet.
+From Soup: 5 The potential and the feasibility of microfluidic diffusion measurements have previously been demonstrated for binary mixtures. 5,26–32 It has already been suggested that microfluidics offers the potential for the measurement of multicomponent diffusion coefficients. 27,33,34 However, to the best of the authors' knowledge, microfluidic diffusion measurements of multicomponent systems have not been accomplished yet.
+ ###### 
+From cou.: 6 To investigate diffusion in multicomponent systems, Raman spectroscopy is a particularly suitable analytical tool as shown for macroscopic experiments.35 Raman spectroscopy allows for the simultaneous quantification of all components with high accuracy and high spatial resolution.33,36 Thereby, it is possible to determine multicomponent diffusion coefficients from a single experiment.35
+From Soup: 6 To investigate diffusion in multicomponent systems, Raman spectroscopy is a particularly suitable analytical tool as shown for macroscopic experiments. 35 Raman spectroscopy allows for the simultaneous quantification of all components with high accuracy and high spatial resolution. 33,36 Thereby, it is possible to determine multicomponent diffusion coefficients from a single experiment. 35
+ ###### 
+From cou.: 7 The aim of this study is to provide a rapid and accurate measurement method for multicomponent diffusion coefficients. We present a multicomponent diffusion experiment combining a microfluidic H-cell with Raman microspectroscopy (sec. 2.1). The information per diffusion experiment and the number of measurements are improved by model-based optimal experimental design (sec. 2.2 and 2.3). The Raman spectra are analyzed to provide mole fractions of all components simultaneously as described in sec. 2.3 and 2.4. The estimation procedure for diffusion coefficients from the temporally and spatially resolved mole fractions is discussed in sec. 2.4. The proof of concept is accomplished for ternary mixtures as prototype of multicomponent fluids (sec. 3).
+From Soup: 7 The aim of this study is to provide a rapid and accurate measurement method for multicomponent diffusion coefficients. We present a multicomponent diffusion experiment combining a microfluidic H-cell with Raman microspectroscopy (sec. 2.1). The information per diffusion experiment and the number of measurements are improved by model-based optimal experimental design (sec. 2.2 and 2.3). The Raman spectra are analyzed to provide mole fractions of all components simultaneously as described in sec. 2.3 and 2.4. The estimation procedure for diffusion coefficients from the temporally and spatially resolved mole fractions is discussed in sec. 2.4. The proof of concept is accomplished for ternary mixtures as prototype of multicomponent fluids (sec. 3).
+ ###### 
+From cou.: 8 The experimental setup is based on Raman microspectroscopy in an H-cell microchannel (Fig. 1). In the H-cell, two solutions of different compositions are contacted and the compositions equilibrate through diffusion perpendicular to the flow direction.
+From Soup: 8 The experimental setup is based on Raman microspectroscopy in an H-cell microchannel ( Fig. 1 ). In the H-cell, two solutions of different compositions are contacted and the compositions equilibrate through diffusion perpendicular to the flow direction.
+ ###### 
+From cou.: 9 The microfluidic chip (Micronit, Netherlands) consists of two bonded borosilicate glass plates. The thickness of the upper and lower glass is 1000 μm and 700 μm, respectively. The H-cell is wet-etched into the lower of the two glass plates. The H-cell is a custom-made channel in form of a spiral of length L = 1 m, width W = 400 μm, and height H = 40 μm (Fig. 1(A) and (C)). The temperature of the microfluidic chip is controlled by a thermostat (CC-K15 Pilot One, HUBER SE, Germany) with an external Pt 100-sensor and a water-flushed aluminum plate on top of the microfluidic chip. Thereby, a temperature precision of ±0.5 K is achieved in the microfluidic chip.
+From Soup: 9 The microfluidic chip (Micronit, Netherlands) consists of two bonded borosilicate glass plates. The thickness of the upper and lower glass is 1000 μm and 700 μm, respectively. The H-cell is wet-etched into the lower of the two glass plates. The H-cell is a custom-made channel in form of a spiral of length L = 1 m, width W = 400 μm, and height H = 40 μm ( Fig. 1(A) and (C) ). The temperature of the microfluidic chip is controlled by a thermostat (CC-K15 Pilot One, HUBER SE, Germany) with an external Pt 100-sensor and a water-flushed aluminum plate on top of the microfluidic chip. Thereby, a temperature precision of ±0.5 K is achieved in the microfluidic chip.
+ ###### 
+From cou.: 10 The dosing system consists of a push–pull syringe pump (PHD ULTRA, Harvard Apparatus, US) with 2.5 mL syringes (H-TLT, ILS Innovative Labor Systeme GmbH, Germany) and syringe filters with a pore diameter of 0.45 μm (MULTOCLEAR-PTFE, CS – Chromatographie Service GmbH, Germany). Tubing from PTFE and connecting parts from PEEK are used.
+From Soup: 10 The dosing system consists of a push–pull syringe pump (PHD ULTRA, Harvard Apparatus, US) with 2.5 mL syringes (H-TLT, ILS Innovative Labor Systeme GmbH, Germany) and syringe filters with a pore diameter of 0.45 μm (MULTOCLEAR-PTFE, CS – Chromatographie Service GmbH, Germany). Tubing from PTFE and connecting parts from PEEK are used.
+ ###### 
+From cou.: 11 An inverse confocal Raman microscope (inVia, Renishaw, UK) is equipped with a frequency-doubled Nd:YAG-laser of 100 mW at 532 nm. The microscope is operated with a water immersion objective (NA = 1, LUMPLFLN 60XW, Olympus, Japan), resulting in a confocal volume of 2 μm × 2 μm × 10 μm (l × w × h) (Fig. 1(B) and (C)). The attached multichannel analyzer consists of a spectrometer with a grating of 1800 grooves per mm and a cooled CCD-camera.
+From Soup: 11 An inverse confocal Raman microscope (inVia, Renishaw, UK) is equipped with a frequency-doubled Nd:YAG-laser of 100 mW at 532 nm. The microscope is operated with a water immersion objective (NA = 1, LUMPLFLN 60XW, Olympus, Japan), resulting in a confocal volume of 2 μm × 2 μm × 10 μm ( l × w × h ) ( Fig. 1(B) and (C) ). The attached multichannel analyzer consists of a spectrometer with a grating of 1800 grooves per mm and a cooled CCD-camera.
+ ###### 
+From cou.: 12 All chemicals were used as received (Table S1 in the ESI†).
+From Soup: 12 All chemicals were used as received (Table S1 in the ESI † ).
+ ###### 
+From cou.: 13 The model-based estimation procedure for the diffusion coefficients is based on a mass transport model. For this purpose, we extend the convection–diffusion model for binary mixtures developed by our group27 to multicomponent mixtures. We assume a no-slip, laminar flow in a duct with a fully developed and gravimetrically stable flow field. This assumption is based on the fact that the channel is flat (W ≫ H, see Fig. 1(C)) and that the magnitude of the Reynolds number Re is of order 1.37
+From Soup: 13 The model-based estimation procedure for the diffusion coefficients is based on a mass transport model. For this purpose, we extend the convection–diffusion model for binary mixtures developed by our group 27 to multicomponent mixtures. We assume a no-slip, laminar flow in a duct with a fully developed and gravimetrically stable flow field. This assumption is based on the fact that the channel is flat ( W ≫ H , see Fig. 1(C) ) and that the magnitude of the Reynolds number Re is of order 1. 37
+ ###### 
+From cou.: 14 The diffusion process is continuous and steady-state. Therefore, the length coordinate s (Fig. 1(A)) is proportional to an average contact time. Convection dominates the mass transport in length-direction s (Péclet number Pe > 100), while diffusion dominates the mass transport in the y–z cross-sectional plane. Furthermore, we average the concentrations over the z-direction because concentrations are smoothed out by diffusion much faster in z-direction than in y-direction due to the high aspect ratio (W ≫ H).
+From Soup: 14 The diffusion process is continuous and steady-state. Therefore, the length coordinate s ( Fig. 1(A) ) is proportional to an average contact time. Convection dominates the mass transport in length-direction s (Péclet number Pe > 100), while diffusion dominates the mass transport in the y – z cross-sectional plane. Furthermore, we average the concentrations over the z -direction because concentrations are smoothed out by diffusion much faster in z -direction than in y -direction due to the high aspect ratio ( W ≫ H ).
+ ###### 
+From cou.: 15 The channel is fed with solutions composed of mole fractions xl,i and xr,i of component i for the left (l) and right (r) channel inlet, respectively, i.e.,
+From Soup: 15 The channel is fed with solutions composed of mole fractions x l, i and x r, i of component i for the left (l) and right (r) channel inlet, respectively, i.e. ,
+ ###### 
+From cou.: 16 Here, y0 denotes the position where the two channel inlets join. The difference in mole fractions Δxi = ∣xl,i − xr,i∣ between the left and right channel inlet is chosen preferably small. Thereby, constant viscosities and negligible excess volume effects can be assumed. The diffusion coefficient matrix D is also averaged over the measured mole fraction range Δxi. A constant diffusion coefficient matrix D can be assumed for the small Δxi employed here.
+From Soup: 16 Here, y 0 denotes the position where the two channel inlets join. The difference in mole fractions Δ x i = ∣ x l, i − x r, i ∣ between the left and right channel inlet is chosen preferably small. Thereby, constant viscosities and negligible excess volume effects can be assumed. The diffusion coefficient matrix D is also averaged over the measured mole fraction range Δ x i . A constant diffusion coefficient matrix D can be assumed for the small Δ x i employed here.
+ ###### 
+From cou.: 17 Using generalized Fick's law to describe the diffusive fluxes,38 the multicomponent convection–diffusion model then reads:
+From Soup: 17 Using generalized Fick's law to describe the diffusive fluxes, 38 the multicomponent convection–diffusion model then reads:
+ ###### 
+From cou.: 18 Here, ci denotes the molar concentration averaged over the z-coordinate, xi the mole fraction, V0i the molar volume of component i, and ct the total molar concentration. The literature data on molar volumes V0i are listed in Table S2.†39–43 The elements DVi,j of the (nc − 1) × (nc − 1) diffusion coefficient matrix DV are determined in the volumetric reference frame.
+From Soup: 18 Here, c i denotes the molar concentration averaged over the z -coordinate, x i the mole fraction, V 0 i the molar volume of component i , and c t the total molar concentration. The literature data on molar volumes V 0 i are listed in Table S2. † 39–43 The elements D V i , j of the ( n c − 1) × ( n c − 1) diffusion coefficient matrix D V are determined in the volumetric reference frame.
+ ###### 
+From cou.: 19 The z-averaged velocity profile v(y) for a laminar, no-slip flow in a rectangular duct is given by44
+From Soup: 19 The z -averaged velocity profile v ( y ) for a laminar, no-slip flow in a rectangular duct is given by 44
+ ###### 
+From cou.: 20 Here, denotes the average velocity in the channel given by = /(H·W). is the total volume flow in the channel.
+From Soup: 20 Here, denotes the average velocity in the channel given by = /( H · W ). is the total volume flow in the channel.
+ ###### 
+From cou.: 21 In addition to the inlet conditions (1), the convection–diffusion model (eqn (2)) is complemented by the two no-flux boundary conditions at the channel walls:
+From Soup: 21 In addition to the inlet conditions (1), the convection–diffusion model ( eqn (2) ) is complemented by the two no-flux boundary conditions at the channel walls:
+ ###### 
+From cou.: 22 The progress of diffusional mixing can be described by the dimensionless Fourier number Fo. The Fourier number relates the contact time τ to the characteristic diffusion time (W/2)2/D* and is defined by:
+From Soup: 22 The progress of diffusional mixing can be described by the dimensionless Fourier number Fo. The Fourier number relates the contact time τ to the characteristic diffusion time ( W /2) 2 / D * and is defined by:
+ ###### 
+From cou.: 23 Here, D* is a characteristic value of the diffusion coefficient. For binary systems, the characteristic value D* equals the diffusion coefficient D. For ternary systems, the geometric average of the eigenvalues of the diffusion coefficient matrix is used.
+From Soup: 23 Here, D * is a characteristic value of the diffusion coefficient. For binary systems, the characteristic value D * equals the diffusion coefficient D . For ternary systems, the geometric average of the eigenvalues of the diffusion coefficient matrix is used.
+ ###### 
+From cou.: 24 The developed experimental procedure is based on the convection–diffusion model and model-based optimal experimental design from previous work by our group.27,45 The model-based optimal experimental design affects the design of the microfluidic chip, the composition of the inlet solutions and the contact time of the solutions in the microchannel.
+From Soup: 24 The developed experimental procedure is based on the convection–diffusion model and model-based optimal experimental design from previous work by our group. 27,45 The model-based optimal experimental design affects the design of the microfluidic chip, the composition of the inlet solutions and the contact time of the solutions in the microchannel.
+ ###### 
+From cou.: 25 The assumptions in the convection–diffusion model limit the Reynolds numbers Re to be of order 1 and the Péclet number to Pe > 100. Additionally, the contact time is optimized by model-based optimal experimental design techniques to increase the measurement sensitivity: the optimal Fourier number Foopt is in the range from 0.30 to 0.39 for channel geometries 0.05 < H/W < 1 as shown in our previous work.27 At this optimal Fourier number, there is considerable progress of diffusional mixing across the whole channel width while the concentration change over the channel width is still observable.
+From Soup: 25 The assumptions in the convection–diffusion model limit the Reynolds numbers Re to be of order 1 and the Péclet number to Pe > 100. Additionally, the contact time is optimized by model-based optimal experimental design techniques to increase the measurement sensitivity: the optimal Fourier number Fo opt is in the range from 0.30 to 0.39 for channel geometries 0.05 < H / W < 1 as shown in our previous work. 27 At this optimal Fourier number, there is considerable progress of diffusional mixing across the whole channel width while the concentration change over the channel width is still observable.
+ ###### 
+From cou.: 26 The three dimensionless numbers Re, Pe, Fo comprise material properties (density, viscosity and diffusion coefficient), dimensions of the microchannel, and the contact time. The dimensions of the microchannel and the volume flow have been chosen to assure optimal operation, because the material properties are inherent to the system to be measured. The chosen dimensions of the presented microchannel (sec. 2.1) allow for a wide range of material properties.
+From Soup: 26 The three dimensionless numbers Re, Pe, Fo comprise material properties (density, viscosity and diffusion coefficient), dimensions of the microchannel, and the contact time. The dimensions of the microchannel and the volume flow have been chosen to assure optimal operation, because the material properties are inherent to the system to be measured. The chosen dimensions of the presented microchannel (sec. 2.1) allow for a wide range of material properties.
+ ###### 
+From cou.: 27 The microfluidic glass chip provides in situ access to the diffusion process by non-invasive Raman microspectroscopy. Four observation points s1 to s4 are chosen (illustrated in Fig. 1(A)) to observe the diffusion process at several contact times (i.e., various Fourier numbers Fo). At each observation point, Raman spectra are acquired every 2.5 μm along the channel cross-section y (Fig. 1(C)). For every system, an exposure time for the spectra acquisition is chosen once to ensure a sufficient signal-to-noise ratio. Since the system is in steady state, acquisition time is not an issue.
+From Soup: 27 The microfluidic glass chip provides in situ access to the diffusion process by non-invasive Raman microspectroscopy. Four observation points s 1 to s 4 are chosen (illustrated in Fig. 1(A) ) to observe the diffusion process at several contact times ( i.e. , various Fourier numbers Fo). At each observation point, Raman spectra are acquired every 2.5 μm along the channel cross-section y ( Fig. 1(C) ). For every system, an exposure time for the spectra acquisition is chosen once to ensure a sufficient signal-to-noise ratio. Since the system is in steady state, acquisition time is not an issue.
+ ###### 
+From cou.: 28 For every experiment, solutions of composition xl and xr are prepared by weight. For ternary diffusion coefficients, the accuracy of the estimated diffusion coefficient is significantly improved by an optimal independent second experiment as shown by optimal experimental design theory in our previous work:35 both optimal experiments have the same average concentration, but should differ maximally in the composition of the inlet solutions as shown in Fig. 2. Thus, two series of independent experiments were performed, in the following called series A and series B.
+From Soup: 28 For every experiment, solutions of composition x l and x r are prepared by weight. For ternary diffusion coefficients, the accuracy of the estimated diffusion coefficient is significantly improved by an optimal independent second experiment as shown by optimal experimental design theory in our previous work: 35 both optimal experiments have the same average concentration, but should differ maximally in the composition of the inlet solutions as shown in Fig. 2 . Thus, two series of independent experiments were performed, in the following called series A and series B.
+ ###### 
+From cou.: 29 For the validation of the measurement method, the binary system cyclohexane + toluene and the ternary system 1-propanol + 1-chlorobutane + heptane are investigated. The inlet compositions of the cyclohexane + toluene experiments are listed in Table 1. The mole fraction difference between the inlet compositions is Δxi = 3 mol%.
+From Soup: 29 For the validation of the measurement method, the binary system cyclohexane + toluene and the ternary system 1-propanol + 1-chlorobutane + heptane are investigated. The inlet compositions of the cyclohexane + toluene experiments are listed in Table 1 . The mole fraction difference between the inlet compositions is Δ x i = 3 mol%.
+ ###### 
+From cou.: 30 For 1-propanol + 1-chlorobutane + heptane, the compositions of the inlet solutions for both series are the same as used by Käshammer et al.22 in a diaphragm cell. The inlet compositions are shown in Fig. 2, while numerical values are written in Table S4.† The mole fraction difference between the inlet compositions is Δxi = 5 mol%.
+From Soup: 30 For 1-propanol + 1-chlorobutane + heptane, the compositions of the inlet solutions for both series are the same as used by Käshammer et al. 22 in a diaphragm cell. The inlet compositions are shown in Fig. 2 , while numerical values are written in Table S4. † The mole fraction difference between the inlet compositions is Δ x i = 5 mol%.
+ ###### 
+From cou.: 31 The Δxi for both systems are sufficient to distinguish the mixture spectra. To illustrate the difference between the mixture spectra, typical spectra for inlet solutions of the system 1-propanol + 1-chlorobutane + heptane are shown in Fig. 3(A).
+From Soup: 31 The Δ x i for both systems are sufficient to distinguish the mixture spectra. To illustrate the difference between the mixture spectra, typical spectra for inlet solutions of the system 1-propanol + 1-chlorobutane + heptane are shown in Fig. 3(A) .
+ ###### 
+From cou.: 32 All diffusion experiments are conducted isothermally at temperatures of (25.0 ± 0.5 °C). For a diffusion experiment, the channel inlets are fed with the inlets solutions. The volume flow is adjusted to ensure Fourier numbers growing from Fo = 0.01 to Fo = 0.5 at the observation points s1 to s4. This range includes the optimal Fourier number Foopt = 0.37 for the presented microchannel geometry.
+From Soup: 32 All diffusion experiments are conducted isothermally at temperatures of (25.0 ± 0.5 °C). For a diffusion experiment, the channel inlets are fed with the inlets solutions. The volume flow is adjusted to ensure Fourier numbers growing from Fo = 0.01 to Fo = 0.5 at the observation points s 1 to s 4 . This range includes the optimal Fourier number Fo opt = 0.37 for the presented microchannel geometry.
+ ###### 
+From cou.: 33 At the beginning of every experiment, a start-up period accounts for the time to reach steady state and the effusion of air bubbles from connecting parts through the microchannel. The maximum start-up period is 15 min, determined from repeated measurements. The overall sample consumption is less than 5 mL, while the overall time for an experiment is less than 1 h. For the binary system cyclohexane + toluene, four experiments were performed. For the ternary system 1-propanol + 1-chlorobutane + heptane, four experiments of series A and five experiments of series B were performed.
+From Soup: 33 At the beginning of every experiment, a start-up period accounts for the time to reach steady state and the effusion of air bubbles from connecting parts through the microchannel. The maximum start-up period is 15 min, determined from repeated measurements. The overall sample consumption is less than 5 mL, while the overall time for an experiment is less than 1 h. For the binary system cyclohexane + toluene, four experiments were performed. For the ternary system 1-propanol + 1-chlorobutane + heptane, four experiments of series A and five experiments of series B were performed.
+ ###### 
+From cou.: 34 For every experiment, mole fraction profiles are determined from the acquired Raman spectra at the observation points s1 to s4. From these mole fraction profiles, the diffusion coefficient DV is estimated using the convection–diffusion model (1)–(4).
+From Soup: 34 For every experiment, mole fraction profiles are determined from the acquired Raman spectra at the observation points s 1 to s 4 . From these mole fraction profiles, the diffusion coefficient D V is estimated using the convection–diffusion model (1)–(4) .
+ ###### 
+From cou.: 35 Raman spectra of liquid mixtures often show nonlinear effects, e.g., changes in the spectral positions or in the shapes of spectral bands.46 These nonlinear effects are well taken into account by using indirect hard modeling (IHM) for the calculation of mole fractions from liquid phase Raman spectra.47
+From Soup: 35 Raman spectra of liquid mixtures often show nonlinear effects, e.g. , changes in the spectral positions or in the shapes of spectral bands. 46 These nonlinear effects are well taken into account by using indirect hard modeling (IHM) for the calculation of mole fractions from liquid phase Raman spectra. 47
+ ###### 
+From cou.: 36 In the IHM analysis, every pure component spectrum is modeled by a sum of peak-shaped pseudo-Voigt functions (component model). The Raman spectrum of the borosilicate glass is an additional component model used as background. All component models of the system are weighted and added to a mixture model.
+From Soup: 36 In the IHM analysis, every pure component spectrum is modeled by a sum of peak-shaped pseudo-Voigt functions (component model). The Raman spectrum of the borosilicate glass is an additional component model used as background. All component models of the system are weighted and added to a mixture model.
+ ###### 
+From cou.: 37 To calculate the mole fractions from a mixture spectrum, the residuals between the spectrum and the mixture model are minimized in a least squares procedure. From the components in the mixture model, integrated intensities of the pure components Ai are obtained for each spectrum, which are converted to mole fractions
+From Soup: 37 To calculate the mole fractions from a mixture spectrum, the residuals between the spectrum and the mixture model are minimized in a least squares procedure. From the components in the mixture model, integrated intensities of the pure components A i are obtained for each spectrum, which are converted to mole fractions
+ ###### 
+From cou.: 38 k
+From Soup: 38 k
+ ###### 
+From cou.: 39 i
+From Soup: 39 i , j
+ ###### 
+From cou.: 40 j
+From Soup: 40 k
+ ###### 
+From cou.: 41 k
+From Soup: 41 i , j
+ ###### 
+From cou.: 42 i
+From Soup: 42 k
+ ###### 
+From cou.: 43 j
+From Soup: 43 i , j
+ ###### 
+From cou.: 44 k
+From Soup: 44 The IHM analysis of the binary system cyclohexane + toluene yields a very small root mean square error for the mole fractions RMSE cal ( x i ) = 0.12 mol% as determined from repeated measurements. Typical Raman spectra for the inlet solutions of the system cyclohexane + toluene are shown in Fig. 4(A) , which correspond to mole fractions of x cyclohexane = 58.5 mol% and x cyclohexane = 61.5 mol%. Since the concentration difference between the inlets is reduced during the diffusion process, all spectra obtained in the microchannel lie in-between these spectra. A very low RMSE cal was still achieved as the Raman spectra of cyclohexane and toluene provide several distinctive peaks and the integrated areas of the pure components are of similar size ( Fig. 4(B) ). All bands in the spectral range from 500 cm −1 to 1800 cm −1 were considered in the IHM analysis.
+ ###### 
+From cou.: 45 i
+From Soup: 45 For the ternary system 1-propanol + 1-chlorobutane + heptane, an error of the mole fractions of RMSE cal ( x i ) = 0.5 mol% was obtained within the mole fraction range of 1-propanol and 1-chlorobutane from 30.8 mol% to 35.8 mol%. The spectra at the channel inlets for series A and series B are shown in Fig. 3(A) . The shown spectra are typical for this mole fraction range. The higher uncertainty for the ternary system compared to the binary system results from overlapping characteristic spectral bands of the pure components ( Fig. 3(B) ) and the resulting more difficult assigning of components in the spectral analysis. The spectral analysis by IHM considered all spectral bands from 500 cm −1 to 1600 cm −1 .
+ ###### 
+From cou.: 46 j
+From Soup: 46 The mole fractions x i ,meas are the input to the parameter estimation procedure for the diffusion coefficient D V . The parameter estimation is based on a maximum likelihood procedure. We assume that the standard deviation of the mole fractions σ ( x i ) is independent of the concentration for small mole fraction differences Δ x i . The standard deviations of the mole fractions σ ( x i ) are specific for each system. Still, the standard deviations appear to be similar for components i within one system in this study based on the RMSE cal ( x i ) values determined from calibration. Hence, σ ( x i ) are assumed to be the same for all components of one system, constant and independent. Therefore, unweighted least squares are used in the parameter estimation of the diffusion coefficient:
+ ###### 
+From cou.: 47 The IHM analysis of the binary system cyclohexane + toluene yields a very small root mean square error for the mole fractions RMSEcal(xi) = 0.12 mol% as determined from repeated measurements. Typical Raman spectra for the inlet solutions of the system cyclohexane + toluene are shown in Fig. 4(A), which correspond to mole fractions of xcyclohexane = 58.5 mol% and xcyclohexane = 61.5 mol%. Since the concentration difference between the inlets is reduced during the diffusion process, all spectra obtained in the microchannel lie in-between these spectra. A very low RMSEcal was still achieved as the Raman spectra of cyclohexane and toluene provide several distinctive peaks and the integrated areas of the pure components are of similar size (Fig. 4(B)). All bands in the spectral range from 500 cm−1 to 1800 cm−1 were considered in the IHM analysis.
+From Soup: 47 Here, n exp denotes the number of experiments, n c the number of components, n s the number of observation points, and n R ( o ) the number of Raman spectra along the measurement line at observation point s o . x calc denotes the calculated mole fractions from the convection–diffusion model (1)–(4) . To account for uncertainties in the initial experimental conditions, several experimental parameters are fitted together with the diffusion coefficient: Δ s is an offset of the observation point s 1 to the inlet. One Δ s is adjusted for each experiment; it is typically in the range of 0 μm to 2 μm. The distances between the observation points s 1 to s 4 are fixed. y 0 adjusts the position where the two channel inlets join. One y 0 is adjusted for each experiment; it is typically in the range of −5 μm to 5 μm. The mole fractions x l and x r at the left and right inlet, respectively, are fitted once for each experiment.
+ ###### 
+From cou.: 48 For the ternary system 1-propanol + 1-chlorobutane + heptane, an error of the mole fractions of RMSEcal(xi) = 0.5 mol% was obtained within the mole fraction range of 1-propanol and 1-chlorobutane from 30.8 mol% to 35.8 mol%. The spectra at the channel inlets for series A and series B are shown in Fig. 3(A). The shown spectra are typical for this mole fraction range. The higher uncertainty for the ternary system compared to the binary system results from overlapping characteristic spectral bands of the pure components (Fig. 3(B)) and the resulting more difficult assigning of components in the spectral analysis. The spectral analysis by IHM considered all spectral bands from 500 cm−1 to 1600 cm−1.
+From Soup: 48 The diffusion coefficient D V is positive definite according to the thermodynamics of irreversible processes. 38 The corresponding constraints are directly incorporated into the fitting procedure by a reparameterization proposed in our earlier work (eqn (S4) in the ESI † ). 35
+ ###### 
+From cou.: 49 The mole fractions xi,meas are the input to the parameter estimation procedure for the diffusion coefficient DV. The parameter estimation is based on a maximum likelihood procedure. We assume that the standard deviation of the mole fractions σ(xi) is independent of the concentration for small mole fraction differences Δxi. The standard deviations of the mole fractions σ(xi) are specific for each system. Still, the standard deviations appear to be similar for components i within one system in this study based on the RMSEcal(xi) values determined from calibration. Hence, σ(xi) are assumed to be the same for all components of one system, constant and independent. Therefore, unweighted least squares are used in the parameter estimation of the diffusion coefficient:
+From Soup: 49 For multicomponent diffusion, the diffusion coefficient matrix depends on the order of the components in the estimation procedure. 38 Here, the order of components in the parameter estimation is taken from the first publication of the measured system in the literature 22 to obtain the same Fick diffusion coefficients.
+ ###### 
+From cou.: 50 Here, nexp denotes the number of experiments, nc the number of components, ns the number of observation points, and nR(o) the number of Raman spectra along the measurement line at observation point so. xcalc denotes the calculated mole fractions from the convection–diffusion model (1)–(4). To account for uncertainties in the initial experimental conditions, several experimental parameters are fitted together with the diffusion coefficient: Δs is an offset of the observation point s1 to the inlet. One Δs is adjusted for each experiment; it is typically in the range of 0 μm to 2 μm. The distances between the observation points s1 to s4 are fixed. y0 adjusts the position where the two channel inlets join. One y0 is adjusted for each experiment; it is typically in the range of −5 μm to 5 μm. The mole fractions xl and xr at the left and right inlet, respectively, are fitted once for each experiment.
+From Soup: 50 Isothermal diffusion coefficients have been measured for the binary system cyclohexane + toluene (sec. 3.1) and the ternary system 1-propanol + 1 chlorobutane + heptane (sec. 3.2).
+ ###### 
+From cou.: 51 The diffusion coefficient DV is positive definite according to the thermodynamics of irreversible processes.38 The corresponding constraints are directly incorporated into the fitting procedure by a reparameterization proposed in our earlier work (eqn (S4) in the ESI†).35
+From Soup: 51 For cyclohexane + toluene, the diffusion coefficient D V and experimental parameters are estimated according to eqn (7) from measured mole fractions for each single experiment.
+ ###### 
+From cou.: 52 For multicomponent diffusion, the diffusion coefficient matrix depends on the order of the components in the estimation procedure.38 Here, the order of components in the parameter estimation is taken from the first publication of the measured system in the literature22 to obtain the same Fick diffusion coefficients.
+From Soup: 52 Fig. 5 shows the measured and calculated mole fraction profiles at observation points s 1 to s 4 for a typical binary diffusion experiment. The calculated mole fraction profiles are obtained from the convection–diffusion model (1)–(4) . The diffusion coefficient and the experimental parameters (Δ s , y 0 , x l , and x r ) necessary in the convection–diffusion model (1)–(4) are obtained in the fitting procedure (7) . As expected, the mole fraction gradient decreases with consecutive observation points s 1 to s 4 . Measured and calculated mole fractions are in excellent agreement for all experiments. The deviation between measurement and model has a root mean square error (RMSE fit ) of less than 0.1 mol%. Hence, the RMSE fit is smaller than the RMSE cal of the mole fractions of 0.12 mol% from calibrations.
+ ###### 
+From cou.: 53 Isothermal diffusion coefficients have been measured for the binary system cyclohexane + toluene (sec. 3.1) and the ternary system 1-propanol + 1 chlorobutane + heptane (sec. 3.2).
+From Soup: 53 The average of the diffusion coefficient D V and its standard deviation σ ( D V ) are given in Table 2 . For the diffusion coefficient D V , a relative standard deviation of σ ( D V ) = 2.4% was obtained (the relative error is related to the mean measured diffusion coefficient). We assume that the main source of uncertainty is the accuracy of the temperature control (≈1%, eqn (S6) and Table S3 in the ESI † ).
+ ###### 
+From cou.: 54 For cyclohexane + toluene, the diffusion coefficient DV and experimental parameters are estimated according to eqn (7) from measured mole fractions for each single experiment.
+From Soup: 54 An excellent agreement is found with the measurements of Sanni et al. 48 ( Table 2 ): the deviation between the diffusion coefficients is 0.45%. Thus, the diffusion coefficient from the microfluidic experiment agrees with the value from Sanni et al. 48 within the measurement uncertainty.
+ ###### 
+From cou.: 55 Fig. 5 shows the measured and calculated mole fraction profiles at observation points s1 to s4 for a typical binary diffusion experiment. The calculated mole fraction profiles are obtained from the convection–diffusion model (1)–(4). The diffusion coefficient and the experimental parameters (Δs, y0, xl, and xr) necessary in the convection–diffusion model (1)–(4) are obtained in the fitting procedure (7). As expected, the mole fraction gradient decreases with consecutive observation points s1 to s4. Measured and calculated mole fractions are in excellent agreement for all experiments. The deviation between measurement and model has a root mean square error (RMSEfit) of less than 0.1 mol%. Hence, the RMSEfit is smaller than the RMSEcal of the mole fractions of 0.12 mol% from calibrations.
+From Soup: 55 For the system 1-propanol + 1-chlorobutane + heptane, the diffusion coefficient matrix D V was estimated according to eqn (7) by two procedures: in the first procedure, diffusion coefficients were determined for every individual experiment ( n exp = 1) from series A and series B, e.g. , experiment A.1. In the second procedure, diffusion coefficients were determined for all combinations of one experiment from series A with one experiment of series B ( n exp = 2), e.g. , A.1 with B.3.
+ ###### 
+From cou.: 56 The average of the diffusion coefficient DV and its standard deviation σ(DV) are given in Table 2. For the diffusion coefficient DV, a relative standard deviation of σ(DV) = 2.4% was obtained (the relative error is related to the mean measured diffusion coefficient). We assume that the main source of uncertainty is the accuracy of the temperature control (≈1%, eqn (S6) and Table S3 in the ESI†).
+From Soup: 56 The measured and calculated mole fraction profiles are shown for a typical ternary diffusion experiment in Fig. 6 . The calculated mole fraction profiles are obtained from the multicomponent convection–diffusion model (1)–(4) in the fitting procedure (7) . The plot shows excellent agreement between the measured and the calculated mole fractions: the RMSE fit is less than 0.4 mol%. The agreement between model and experiment retained the same excellent quality independently whether the diffusion coefficient was determined from individual experiments or two independent experiments (Table S5 in the ESI † ). Hence, the convection–diffusion model is suitable to describe the mass transport for multicomponent systems.
+ ###### 
+From cou.: 57 An excellent agreement is found with the measurements of Sanni et al.48 (Table 2): the deviation between the diffusion coefficients is 0.45%. Thus, the diffusion coefficient from the microfluidic experiment agrees with the value from Sanni et al.48 within the measurement uncertainty.
+From Soup: 57 As shown in Fig. 6 , the mole fraction gradient of 1-propanol decreases slowest of all three components. The mole fraction gradient of 1-chlorobutane decreases fastest of all three components ( D 22 > D 11 ). For heptane, the gradient decreases moderately.
+ ###### 
+From cou.: 58 For the system 1-propanol + 1-chlorobutane + heptane, the diffusion coefficient matrix DV was estimated according to eqn (7) by two procedures: in the first procedure, diffusion coefficients were determined for every individual experiment (nexp = 1) from series A and series B, e.g., experiment A.1. In the second procedure, diffusion coefficients were determined for all combinations of one experiment from series A with one experiment of series B (nexp = 2), e.g., A.1 with B.3.
+From Soup: 58 3.2.1 Diffusion coefficients from individual experiments.
+ ###### 
+From cou.: 59 The measured and calculated mole fraction profiles are shown for a typical ternary diffusion experiment in Fig. 6. The calculated mole fraction profiles are obtained from the multicomponent convection–diffusion model (1)–(4) in the fitting procedure (7). The plot shows excellent agreement between the measured and the calculated mole fractions: the RMSEfit is less than 0.4 mol%. The agreement between model and experiment retained the same excellent quality independently whether the diffusion coefficient was determined from individual experiments or two independent experiments (Table S5 in the ESI†). Hence, the convection–diffusion model is suitable to describe the mass transport for multicomponent systems.
+From Soup: 59 The estimation of a ternary diffusion coefficient from only one single experiment was successful. The ternary diffusion coefficient matrix D V from individual experiments is shown in the left bars in the matrix of Fig. 7 ( n exp = 1). The numerical data are also given in Table S5. † Although we used few data, reasonable precision and accuracy of the diffusion coefficient D V were achieved. The relative error of the diffusion coefficient σ ( D V ) is less than 33%. Here and in the following, relative errors are related to the geometric mean of the eigenvalues . Main and cross diffusion coefficients are correlated as the diffusion behavior cannot be unambiguously assigned to the four diffusion coefficients based on a single experiment. The results agree with our expectations as moderate measurement precisions for measurements of multicomponent diffusion coefficients from single experiments are predicted from theory. 35 Notably, the averaged diffusion coefficient matrix agrees with literature data 22 within the measurement uncertainty. Altogether, one microfluidic experiment is sufficient to measure a ternary diffusion coefficient. Determining the multicomponent diffusion coefficient D V from only one single experiment is only possible with spectroscopic analysis as this analysis provides all concentrations simultaneously. Hence, the experimental effort can be considerably reduced.
+ ###### 
+From cou.: 60 As shown in Fig. 6, the mole fraction gradient of 1-propanol decreases slowest of all three components. The mole fraction gradient of 1-chlorobutane decreases fastest of all three components (D22 > D11). For heptane, the gradient decreases moderately.
+From Soup: 60 3.2.2 Diffusion coefficients from combinations of two independent experiments.
+ ###### 
+From cou.: 61 3.2.1 Diffusion coefficients from individual experiments.
+From Soup: 61 The ternary diffusion coefficient matrix D V is obtained from combinations of two experiments, one each from series A and series B as shown in the central bars in the matrix of Fig. 7 ( n exp = 2). In this procedure, parameters were estimated for a total of 20 combinations. From combining 2 experiments, the relative standard deviations σ ( D 11 ) and σ ( D 21 ) are less than 2%, while the relative standard deviations σ ( D 12 ) and σ ( D 22 ) are less than 3.1%.
+ ###### 
+From cou.: 62 The estimation of a ternary diffusion coefficient from only one single experiment was successful. The ternary diffusion coefficient matrix DV from individual experiments is shown in the left bars in the matrix of Fig. 7 (nexp = 1). The numerical data are also given in Table S5.† Although we used few data, reasonable precision and accuracy of the diffusion coefficient DV were achieved. The relative error of the diffusion coefficient σ(DV) is less than 33%. Here and in the following, relative errors are related to the geometric mean of the eigenvalues . Main and cross diffusion coefficients are correlated as the diffusion behavior cannot be unambiguously assigned to the four diffusion coefficients based on a single experiment. The results agree with our expectations as moderate measurement precisions for measurements of multicomponent diffusion coefficients from single experiments are predicted from theory.35 Notably, the averaged diffusion coefficient matrix agrees with literature data22 within the measurement uncertainty. Altogether, one microfluidic experiment is sufficient to measure a ternary diffusion coefficient. Determining the multicomponent diffusion coefficient DV from only one single experiment is only possible with spectroscopic analysis as this analysis provides all concentrations simultaneously. Hence, the experimental effort can be considerably reduced.
+From Soup: 62 The relative errors of the cross diffusion coefficients D 12 and D 21 are similar to the relative errors of the main diffusion coefficients as is typically expected. 49
+ ###### 
+From cou.: 63 3.2.2 Diffusion coefficients from combinations of two independent experiments.
+From Soup: 63 The high quality of the fit of the single experiments was retained in the fit of 2 combined experiments (RMSE fit = 0.29 mol%, see Table S5 in the ESI † ). The second experiment in the evaluation reduces cross-correlations between entries of the diffusion matrix D i , j . Thereby, high precision is achieved and the second independent experiment is highly beneficial: the standard deviation decreases by a factor of 10 in comparison to the estimation from single experiments. We assume that the main remaining source of uncertainty is the accuracy of the temperature control as in the case of binary diffusion.
+ ###### 
+From cou.: 64 The ternary diffusion coefficient matrix DV is obtained from combinations of two experiments, one each from series A and series B as shown in the central bars in the matrix of Fig. 7 (nexp = 2). In this procedure, parameters were estimated for a total of 20 combinations. From combining 2 experiments, the relative standard deviations σ(D11) and σ(D21) are less than 2%, while the relative standard deviations σ(D12) and σ(D22) are less than 3.1%.
+From Soup: 64 A very good agreement with the literature data 22 was achieved. The relative deviations are 2.3% and 3.4% for main diffusion coefficients. The main diffusion coefficients agree with the literature values within the measurement uncertainties. Regarding the cross-diffusion coefficients, deviations of less than 8% from literature were observed. Overall, excellent accuracy, precision, and agreement with literature data were achieved.
+ ###### 
+From cou.: 65 The relative errors of the cross diffusion coefficients D12 and D21 are similar to the relative errors of the main diffusion coefficients as is typically expected.49
+From Soup: 65 As a reference case, all 9 available experiments were also fitted simultaneously. Even in this case, the quality of the fit stays very high (RMSE fit = 0.29 mol%, Table S5 in the ESI † ). The resulting diffusion coefficients are within the measurement uncertainty of the results from 2 experiments (Table S5 in the ESI † ). Thus, 2 experiments seem sufficient for ternary diffusion experiments in practice.
+ ###### 
+From cou.: 66 The high quality of the fit of the single experiments was retained in the fit of 2 combined experiments (RMSEfit = 0.29 mol%, see Table S5 in the ESI†). The second experiment in the evaluation reduces cross-correlations between entries of the diffusion matrix Di,j. Thereby, high precision is achieved and the second independent experiment is highly beneficial: the standard deviation decreases by a factor of 10 in comparison to the estimation from single experiments. We assume that the main remaining source of uncertainty is the accuracy of the temperature control as in the case of binary diffusion.
+From Soup: 66 We have developed a measurement method for multicomponent diffusion coefficients in liquids combining microfluidics with Raman microspectroscopy. All experiments were well described by the multicomponent convection–diffusion model and the measured diffusion coefficients agree with the literature values. Therefore, the assumptions underlying our convection–diffusion model are in agreement with our experimental results. Reliable operation has been proven for binary and ternary systems. Here, the ternary system was used as prototype of multicomponent fluids. As the measurement method provides information on mole fractions of all components simultaneously, the measurement method is expected to provide also diffusion coefficients for systems with more components.
+ ###### 
+From cou.: 67 A very good agreement with the literature data22 was achieved. The relative deviations are 2.3% and 3.4% for main diffusion coefficients. The main diffusion coefficients agree with the literature values within the measurement uncertainties. Regarding the cross-diffusion coefficients, deviations of less than 8% from literature were observed. Overall, excellent accuracy, precision, and agreement with literature data were achieved.
+From Soup: 67 In particular, it was shown that one multicomponent experiment suffices to determine ternary diffusion coefficients. For the ternary system, a reasonable accuracy of the diffusion coefficients ( σ ( D V ) = 33%) was already achieved from a single experiment. By combining two independent experiments, excellent precision and accuracy were achieved ( σ ( D V ) = 3.1%). Despite the high spatial resolution of the Raman spectra (2.5 μm), the experiment duration (<1 h) is competitive to the fastest classical diffusion experiments. The sample consumption is less than 5 mL. Furthermore, the number of experiments was reduced in comparison to classical methods.
+ ###### 
+From cou.: 68 As a reference case, all 9 available experiments were also fitted simultaneously. Even in this case, the quality of the fit stays very high (RMSEfit = 0.29 mol%, Table S5 in the ESI†). The resulting diffusion coefficients are within the measurement uncertainty of the results from 2 experiments (Table S5 in the ESI†). Thus, 2 experiments seem sufficient for ternary diffusion experiments in practice.
+From Soup: 68 The setup could be used for diffusion coefficient measurements in more complex fluids, e.g. , proteins in solution, as investigated by Loureiro et al. 50 The measurement of diffusion coefficients of nanoparticles in suspension, as used by Chrimes et al. 51,52 should also be possible with corresponding adaptions ( e.g. , to account for the very small diffusion coefficients in the order of 1 × 10 −10 m 2 s −1 to 1 × 10 −11 m 2 s −1 ).The current model assumed negligible excess volumes and negligible change in viscosities between the inlets but these limitations could probably be overcome by expanding the convection–diffusion model. The main limitation of the presented setup is that the studied species have to be Raman active and sufficiently different in the Raman spectra. Spectral analysis might further be complicated by fluorescence interference with the Raman signal. Fluorescence can be handled, e.g. , by using a different laser wavelength or pseudosecond derivatives in the analysis. 46,53–55 If Raman spectroscopy is not suitable for a mixture of interest, other spectroscopic techniques such as Fourier transform infrared spectroscopy 56,57 could be used in the setup as long as they allow for in situ confocal measurements.
+ ###### 
+From cou.: 69 We have developed a measurement method for multicomponent diffusion coefficients in liquids combining microfluidics with Raman microspectroscopy. All experiments were well described by the multicomponent convection–diffusion model and the measured diffusion coefficients agree with the literature values. Therefore, the assumptions underlying our convection–diffusion model are in agreement with our experimental results. Reliable operation has been proven for binary and ternary systems. Here, the ternary system was used as prototype of multicomponent fluids. As the measurement method provides information on mole fractions of all components simultaneously, the measurement method is expected to provide also diffusion coefficients for systems with more components.
+From Soup: 69 In conclusion, a new efficient and accurate measurement method for multicomponent diffusion coefficients using microfluidics and Raman microspectroscopy has been demonstrated.
+ ###### 
+From cou.: 70 In particular, it was shown that one multicomponent experiment suffices to determine ternary diffusion coefficients. For the ternary system, a reasonable accuracy of the diffusion coefficients (σ(DV) = 33%) was already achieved from a single experiment. By combining two independent experiments, excellent precision and accuracy were achieved (σ(DV) = 3.1%). Despite the high spatial resolution of the Raman spectra (2.5 μm), the experiment duration (<1 h) is competitive to the fastest classical diffusion experiments. The sample consumption is less than 5 mL. Furthermore, the number of experiments was reduced in comparison to classical methods.
+From Soup: 70 This IGF Project of the IUTA is supported via AiF within the programme for promoting the Industrial Collective Research (IGF) of the German Ministry of Economic Affairs and Energy (BMWi), based on a resolution of the German Parliament. The work by Julia Thien was performed as part of the Cluster of Excellence “Tailor-Made Fuels from Biomass” funded by the Excellence Initiative by the German federal and state governments to promote science and research at German universities. The authors thank Rafael Becka for performing experiments.
+ ###### 
+From cou.: 71 The setup could be used for diffusion coefficient measurements in more complex fluids, e.g., proteins in solution, as investigated by Loureiro et al.50 The measurement of diffusion coefficients of nanoparticles in suspension, as used by Chrimes et al.51,52 should also be possible with corresponding adaptions (e.g., to account for the very small diffusion coefficients in the order of 1 × 10−10 m2 s−1 to 1 × 10−11 m2 s−1).The current model assumed negligible excess volumes and negligible change in viscosities between the inlets but these limitations could probably be overcome by expanding the convection–diffusion model. The main limitation of the presented setup is that the studied species have to be Raman active and sufficiently different in the Raman spectra. Spectral analysis might further be complicated by fluorescence interference with the Raman signal. Fluorescence can be handled, e.g., by using a different laser wavelength or pseudosecond derivatives in the analysis.46,53–55 If Raman spectroscopy is not suitable for a mixture of interest, other spectroscopic techniques such as Fourier transform infrared spectroscopy56,57 could be used in the setup as long as they allow for in situ confocal measurements.
+From Soup: 71 R. B. Bird, W. E. Stewart and E. N. Lightfoot, Transport Phenomena , John Wiley & Sons, 2nd edn., 2002 Search PubMed .
+ ###### 
+From cou.: 72 In conclusion, a new efficient and accurate measurement method for multicomponent diffusion coefficients using microfluidics and Raman microspectroscopy has been demonstrated.
+From Soup: 72 M. Abonnenc, J. Josserand and H. H. Girault, Lab Chip , 2009, 9 , 440–448 RSC .
+ ###### 
+From cou.: 73 This IGF Project of the IUTA is supported via AiF within the programme for promoting the Industrial Collective Research (IGF) of the German Ministry of Economic Affairs and Energy (BMWi), based on a resolution of the German Parliament. The work by Julia Thien was performed as part of the Cluster of Excellence “Tailor-Made Fuels from Biomass” funded by the Excellence Initiative by the German federal and state governments to promote science and research at German universities. The authors thank Rafael Becka for performing experiments.
+From Soup: 73 E. Berthier and D. J. Beebe, Lab Chip , 2014, 14 , 3241–3247 RSC .
+ ###### 
+From cou.: 74 R. B. Bird, W. E. Stewart and E. N. Lightfoot, Transport Phenomena, John Wiley & Sons, 2nd edn., 2002 Search PubMed.
+From Soup: 74 T. Wienhold, F. Breithaupt, C. Vannahme, M. B. Christiansen, W. Dörfler, A. Kristensen and T. Mappes, Lab Chip , 2012, 12 , 3734–3739 RSC .
+ ###### 
+From cou.: 75 M. Abonnenc, J. Josserand and H. H. Girault, Lab Chip, 2009, 9, 440–448 RSC.
+From Soup: 75 A. E. Kamholz, E. A. Schilling and P. Yager, Biophys. J. , 2001, 80 , 1967–1972 CrossRef CAS PubMed .
+ ###### 
+From cou.: 76 E. Berthier and D. J. Beebe, Lab Chip, 2014, 14, 3241–3247 RSC.
+From Soup: 76 M. Yang, J. Yang, C.-W. Li and J. Zhao, Lab Chip , 2002, 2 , 158–163 RSC .
+ ###### 
+From cou.: 77 T. Wienhold, F. Breithaupt, C. Vannahme, M. B. Christiansen, W. Dörfler, A. Kristensen and T. Mappes, Lab Chip, 2012, 12, 3734–3739 RSC.
+From Soup: 77 T. Frank and S. Tay, Lab Chip , 2013, 13 , 1273 RSC .
+ ###### 
+From cou.: 78 A. E. Kamholz, E. A. Schilling and P. Yager, Biophys. J., 2001, 80, 1967–1972 CrossRef CAS PubMed.
+From Soup: 78 T. P. Forbes, M. S. Munson and S. P. Forry, Lab Chip , 2013, 13 , 3935 RSC .
+ ###### 
+From cou.: 79 M. Yang, J. Yang, C.-W. Li and J. Zhao, Lab Chip, 2002, 2, 158–163 RSC.
+From Soup: 79 J. Atencia, J. Morrow and L. E. Locascio, Lab Chip , 2009, 9 , 2707–2714 RSC .
+ ###### 
+From cou.: 80 T. Frank and S. Tay, Lab Chip, 2013, 13, 1273 RSC.
+From Soup: 80 B. M. Baker, B. Trappmann, S. C. Stapleton, E. Toro and C. S. Chen, Lab Chip , 2013, 13 , 3246 RSC .
+ ###### 
+From cou.: 81 T. P. Forbes, M. S. Munson and S. P. Forry, Lab Chip, 2013, 13, 3935 RSC.
+From Soup: 81 J. L. Osborn, B. Lutz, E. Fu, P. Kauffman, D. Y. Stevens and P. Yager, Lab Chip , 2010, 10 , 2659–2665 RSC .
+ ###### 
+From cou.: 82 J. Atencia, J. Morrow and L. E. Locascio, Lab Chip, 2009, 9, 2707–2714 RSC.
+From Soup: 82 S. Ma, D. N. Loufakis, Z. Cao, Y. Chang, L. E. K. Achenie and C. Lu, Lab Chip , 2014, 14 , 2905 RSC .
+ ###### 
+From cou.: 83 B. M. Baker, B. Trappmann, S. C. Stapleton, E. Toro and C. S. Chen, Lab Chip, 2013, 13, 3246 RSC.
+From Soup: 83 I. G. Economou, J.-C. de Hemptinne, R. Dohrn, E. Hendriks, K. Keskinen and O. Baudouin, Chem. Eng. Res. Des. , 2014, 92 , 2795–2796 CrossRef CAS .
+ ###### 
+From cou.: 84 J. L. Osborn, B. Lutz, E. Fu, P. Kauffman, D. Y. Stevens and P. Yager, Lab Chip, 2010, 10, 2659–2665 RSC.
+From Soup: 84 A. A. Shapiro, Phys. A , 2003, 320 , 211–234 CrossRef CAS .
+ ###### 
+From cou.: 85 S. Ma, D. N. Loufakis, Z. Cao, Y. Chang, L. E. K. Achenie and C. Lu, Lab Chip, 2014, 14, 2905 RSC.
+From Soup: 85 R. B. Bird, AIChE J. , 2004, 50 , 273–287 CrossRef CAS .
+ ###### 
+From cou.: 86 I. G. Economou, J.-C. de Hemptinne, R. Dohrn, E. Hendriks, K. Keskinen and O. Baudouin, Chem. Eng. Res. Des., 2014, 92, 2795–2796 CrossRef CAS.
+From Soup: 86 J. W. Mutoru and A. Firoozabadi, J. Chem. Thermodyn. , 2011, 43 , 1192–1203 CrossRef .
+ ###### 
+From cou.: 87 A. A. Shapiro, Phys. A, 2003, 320, 211–234 CrossRef CAS.
+From Soup: 87 DDBST Dortmund Data Bank Software & Separation Technology GmbH, Statistics on Online DDB Search, 02.01.2017, http://ddbonline.ddbst.com/DDBSearch/onlineddboverview.exe?submit=Statistics.
+ ###### 
+From cou.: 88 R. B. Bird, AIChE J., 2004, 50, 273–287 CrossRef CAS.
+From Soup: 88 L. A. Woolf, R. Mills, D. G. Leaist, C. Erkey, A. Akgerman, A. J. Easteal, D. G. Miller, J. G. Albright, S. F. Y. Li and W. Wakeham, in Measurement of the Transport Properties of Fluids , ed. W. A. Wakeham, A. Nagashima and J. V. Sengers, Blackwell Scientific Publications, Oxford, 1991, ch. 9 - Diffusion Coefficients, pp. 227–320 Search PubMed .
+ ###### 
+From cou.: 89 J. W. Mutoru and A. Firoozabadi, J. Chem. Thermodyn., 2011, 43, 1192–1203 CrossRef.
+From Soup: 89 A. R. Gordon, Ann. N. Y. Acad. Sci. , 1945, 46 , 285–308 CrossRef CAS PubMed .
+ ###### 
+From cou.: 90 DDBST Dortmund Data Bank Software & Separation Technology GmbH, Statistics on Online DDB Search, 02.01.2017, http://ddbonline.ddbst.com/DDBSearch/onlineddboverview.exe?submit=Statistics.
+From Soup: 90 C. Peters, L. Wolff, T. J. H. Vlugt and A. Bardow, in Experimental Thermodynamics Volume X : Non-equilibrium Thermodynamics with Applications , ed. D. Bedeaux, S. Kjelstrup and J. Sengers, The Royal Society of Chemistry, 2016, ch. 5 – Diffusion in Liquids: Exeriments, Molecular Dynamics, and Engineering Models, pp. 78–104 Search PubMed .
+ ###### 
+From cou.: 91 L. A. Woolf, R. Mills, D. G. Leaist, C. Erkey, A. Akgerman, A. J. Easteal, D. G. Miller, J. G. Albright, S. F. Y. Li and W. Wakeham, in Measurement of the Transport Properties of Fluids, ed. W. A. Wakeham, A. Nagashima and J. V. Sengers, Blackwell Scientific Publications, Oxford, 1991, ch. 9 - Diffusion Coefficients, pp. 227–320 Search PubMed.
+From Soup: 91 E. Cussler, Multicomponent diffusion , Elsevier Scientific Publishing Company, 1976 Search PubMed .
+ ###### 
+From cou.: 92 A. R. Gordon, Ann. N. Y. Acad. Sci., 1945, 46, 285–308 CrossRef CAS PubMed.
+From Soup: 92 S. Käshammer, H. Weingärtner and H. G. Hertz, Z. Phys. Chem. , 1994, 187 , 233–255 CrossRef .
+ ###### 
+From cou.: 93 C. Peters, L. Wolff, T. J. H. Vlugt and A. Bardow, in Experimental Thermodynamics Volume X : Non-equilibrium Thermodynamics with Applications, ed. D. Bedeaux, S. Kjelstrup and J. Sengers, The Royal Society of Chemistry, 2016, ch. 5 – Diffusion in Liquids: Exeriments, Molecular Dynamics, and Engineering Models, pp. 78–104 Search PubMed.
+From Soup: 93 G. M. Whitesides, Nature , 2006, 442 , 368–373 CrossRef CAS PubMed .
+ ###### 
+From cou.: 94 E. Cussler, Multicomponent diffusion, Elsevier Scientific Publishing Company, 1976 Search PubMed.
+From Soup: 94 A. Estévez-Torres, T. Le Saux, C. Gosse, A. Lemarchand, A. Bourdoncle and L. Jullien, Lab Chip , 2008, 8 , 1205–1209 RSC .
+ ###### 
+From cou.: 95 S. Käshammer, H. Weingärtner and H. G. Hertz, Z. Phys. Chem., 1994, 187, 233–255 CrossRef.
+From Soup: 95 A. Hatch, A. E. Kamholz, K. R. Hawkins, M. S. Munson, E. A. Schilling, B. H. Weigl and P. Yager, Nat. Biotechnol. , 2001, 19 , 461–465 CrossRef CAS PubMed .
+ ###### 
+From cou.: 96 G. M. Whitesides, Nature, 2006, 442, 368–373 CrossRef CAS PubMed.
+From Soup: 96 K. Pappaert, J. Biesemans, D. Clicq, S. Vankrunkelsven and G. Desmet, Lab Chip , 2005, 5 , 1104–1110 RSC .
+ ###### 
+From cou.: 97 A. Estévez-Torres, T. Le Saux, C. Gosse, A. Lemarchand, A. Bourdoncle and L. Jullien, Lab Chip, 2008, 8, 1205–1209 RSC.
+From Soup: 97 E. Häusler, P. Domagalski, M. Ottens and A. Bardow, Chem. Eng. Sci. , 2012, 72 , 45–50 CrossRef .
+ ###### 
+From cou.: 98 A. Hatch, A. E. Kamholz, K. R. Hawkins, M. S. Munson, E. A. Schilling, B. H. Weigl and P. Yager, Nat. Biotechnol., 2001, 19, 461–465 CrossRef CAS PubMed.
+From Soup: 98 C. D. Costin, R. K. Olund, B. A. Staggemeier, A. K. Torgerson and R. E. Synovec, J. Chromatogr. A , 2013, 1013 , 77–91 CrossRef .
+ ###### 
+From cou.: 99 K. Pappaert, J. Biesemans, D. Clicq, S. Vankrunkelsven and G. Desmet, Lab Chip, 2005, 5, 1104–1110 RSC.
+From Soup: 99 M. H. V. Werts, V. Raimbault, R. Texier-Picard, R. Poizat, O. Français, L. Griscom and J. R. G. Navarro, Lab Chip , 2012, 12 , 808–820 RSC .
+ ###### 
+From cou.: 100 E. Häusler, P. Domagalski, M. Ottens and A. Bardow, Chem. Eng. Sci., 2012, 72, 45–50 CrossRef.
+From Soup: 100 E. Ryckeboer, J. Vierendeels, A. Lee, S. Werquin, P. Bienstman and R. Baets, Lab Chip , 2013, 13 , 4392 RSC .
+ ###### 
+From cou.: 101 C. D. Costin, R. K. Olund, B. A. Staggemeier, A. K. Torgerson and R. E. Synovec, J. Chromatogr. A, 2013, 1013, 77–91 CrossRef.
+From Soup: 101 S. G. R. Lefortier, P. J. Hamersma, A. Bardow and M. T. Kreutzer, Lab Chip , 2012, 12 , 3387–3391 RSC .
+ ###### 
+From cou.: 102 M. H. V. Werts, V. Raimbault, R. Texier-Picard, R. Poizat, O. Français, L. Griscom and J. R. G. Navarro, Lab Chip, 2012, 12, 808–820 RSC.
+From Soup: 102 M. S. Munson, K. R. Hawkins, M. S. Hasenbank and P. Yager, Lab Chip , 2005, 5 , 856–862 RSC .
+ ###### 
+From cou.: 103 E. Ryckeboer, J. Vierendeels, A. Lee, S. Werquin, P. Bienstman and R. Baets, Lab Chip, 2013, 13, 4392 RSC.
+From Soup: 103 J.-B. Salmon, A. Ajdari, P. Tabeling, L. Servant, D. Talaga and M. Joanicot, Appl. Phys. Lett. , 2005, 86 , 094106 CrossRef .
+ ###### 
+From cou.: 104 S. G. R. Lefortier, P. J. Hamersma, A. Bardow and M. T. Kreutzer, Lab Chip, 2012, 12, 3387–3391 RSC.
+From Soup: 104 Y. Wang, Q. Lin and T. Mukherjee, Lab Chip , 2005, 5 , 877–887 RSC .
+ ###### 
+From cou.: 105 M. S. Munson, K. R. Hawkins, M. S. Hasenbank and P. Yager, Lab Chip, 2005, 5, 856–862 RSC.
+From Soup: 105 A. Bardow, V. Göke, H.-J. Koß and W. Marquardt, AIChE J. , 2006, 52 , 4004–4015 CrossRef CAS .
+ ###### 
+From cou.: 106 J.-B. Salmon, A. Ajdari, P. Tabeling, L. Servant, D. Talaga and M. Joanicot, Appl. Phys. Lett., 2005, 86, 094106 CrossRef.
+From Soup: 106 M. J. Pelletier, Appl. Spectrosc. , 2003, 57 , 20A–42A CrossRef CAS PubMed .
+ ###### 
+From cou.: 107 Y. Wang, Q. Lin and T. Mukherjee, Lab Chip, 2005, 5, 877–887 RSC.
+From Soup: 107 Y. Lin, X. Yu, Z. Wang, S.-T. Tu and Z. Wang, Chem. Eng. Process. , 2012, 57-58 , 1–7 CrossRef CAS .
+ ###### 
+From cou.: 108 A. Bardow, V. Göke, H.-J. Koß and W. Marquardt, AIChE J., 2006, 52, 4004–4015 CrossRef CAS.
+From Soup: 108 R. Taylor and R. Krishna, Multicomponent Mass Transfer , John Wiley & Sons, 1993 Search PubMed .
+ ###### 
+From cou.: 109 M. J. Pelletier, Appl. Spectrosc., 2003, 57, 20A–42A CrossRef CAS PubMed.
+From Soup: 109 S. A. Beg, N. M. Tukur, D. K. Al-Harbi and E. Z. Hamad, J. Chem. Eng. Data , 1993, 38 , 461–464 CrossRef CAS .
+ ###### 
+From cou.: 110 Y. Lin, X. Yu, Z. Wang, S.-T. Tu and Z. Wang, Chem. Eng. Process., 2012, 57-58, 1–7 CrossRef CAS.
+From Soup: 110 M. Chorażewski, J.-P. E. Grolier and S. L. Randzio, J. Chem. Eng. Data , 2010, 55 , 5489–5496 CrossRef .
+ ###### 
+From cou.: 111 R. Taylor and R. Krishna, Multicomponent Mass Transfer, John Wiley & Sons, 1993 Search PubMed.
+From Soup: 111 E. Vercher, A. V. Orchillés, P. J. Miguel and A. Martínez-Andreu, J. Chem. Eng. Data , 2007, 52 , 1468–1482 CrossRef CAS .
+ ###### 
+From cou.: 112 S. A. Beg, N. M. Tukur, D. K. Al-Harbi and E. Z. Hamad, J. Chem. Eng. Data, 1993, 38, 461–464 CrossRef CAS.
+From Soup: 112 M. F. Bolotnikov, Y. A. Neruchev and O. S. Ryshkova, J. Chem. Eng. Data , 2007, 52 , 2514–2516 CrossRef CAS .
+ ###### 
+From cou.: 113 M. Chorażewski, J.-P. E. Grolier and S. L. Randzio, J. Chem. Eng. Data, 2010, 55, 5489–5496 CrossRef.
+From Soup: 113 D. C. Landaverde-Cortes, A. Estrada-Baltazar, G. A. Iglesias-Silva and K. R. Hall, J. Chem. Eng. Data , 2007, 52 , 1226–1232 CrossRef CAS .
+ ###### 
+From cou.: 114 E. Vercher, A. V. Orchillés, P. J. Miguel and A. Martínez-Andreu, J. Chem. Eng. Data, 2007, 52, 1468–1482 CrossRef CAS.
+From Soup: 114 W. Rohsenow, J. P. Hartnett and Y. I. Cho, Handbook of Heat Transfer, McGraw-Hill Professional , 3rd edn., 1998 Search PubMed .
+ ###### 
+From cou.: 115 M. F. Bolotnikov, Y. A. Neruchev and O. S. Ryshkova, J. Chem. Eng. Data, 2007, 52, 2514–2516 CrossRef CAS.
+From Soup: 115 A. Bardow, V. Göke, H.-J. Koß, K. Lucas and W. Marquardt, Fluid Phase Equilib. , 2005, 228–229 , 357–366 CrossRef CAS .
+ ###### 
+From cou.: 116 D. C. Landaverde-Cortes, A. Estrada-Baltazar, G. A. Iglesias-Silva and K. R. Hall, J. Chem. Eng. Data, 2007, 52, 1226–1232 CrossRef CAS.
+From Soup: 116 P. Beumers, T. Brands, H.-J. Koss and A. Bardow, Fluid Phase Equilib. , 2016, 424 , 52–57 CrossRef CAS .
+ ###### 
+From cou.: 117 W. Rohsenow, J. P. Hartnett and Y. I. Cho, Handbook of Heat Transfer, McGraw-Hill Professional, 3rd edn., 1998 Search PubMed.
+From Soup: 117 F. Alsmeyer, H.-J. Koß and W. Marquardt, Appl. Spectrosc. , 2004, 58 , 975–985 CrossRef CAS PubMed .
+ ###### 
+From cou.: 118 A. Bardow, V. Göke, H.-J. Koß, K. Lucas and W. Marquardt, Fluid Phase Equilib., 2005, 228–229, 357–366 CrossRef CAS.
+From Soup: 118 S. A. Sanni, C. J. D. Fell and H. P. Hutchison, J. Chem. Eng. Data , 1971, 16 , 424–427 CrossRef CAS .
+ ###### 
+From cou.: 119 P. Beumers, T. Brands, H.-J. Koss and A. Bardow, Fluid Phase Equilib., 2016, 424, 52–57 CrossRef CAS.
+From Soup: 119 D. G. Miller, J. G. Albright, R. Mathew, C. M. Lee, J. A. Rard and L. B. Eppstein, J. Phys. Chem. , 1993, 97 , 3885–3899 CrossRef CAS .
+ ###### 
+From cou.: 120 F. Alsmeyer, H.-J. Koß and W. Marquardt, Appl. Spectrosc., 2004, 58, 975–985 CrossRef CAS PubMed.
+From Soup: 120 F. C. C. L. Loureiro, A. G. S. Barreto Neto, C. S. Moreira, A. M. N. Lima and H. Neff, Sens. Actuators, B , 2011, 154 , 129–136 CrossRef CAS .
+ ###### 
+From cou.: 121 S. A. Sanni, C. J. D. Fell and H. P. Hutchison, J. Chem. Eng. Data, 1971, 16, 424–427 CrossRef CAS.
+From Soup: 121 A. F. Chrimes, K. Khoshmanesh, P. R. Stoddart, A. A. Kayani, A. Mitchell, H. Daima, V. Bansal and K. Kalantar-zadeh, Anal. Chem. , 2012, 84 , 4029–4035 CrossRef CAS PubMed .
+ ###### 
+From cou.: 122 D. G. Miller, J. G. Albright, R. Mathew, C. M. Lee, J. A. Rard and L. B. Eppstein, J. Phys. Chem., 1993, 97, 3885–3899 CrossRef CAS.
+From Soup: 122 A. F. Chrimes, A. A. Kayani, K. Khoshmanesh, P. R. Stoddart, P. Mulvaney, A. Mitchell and K. Kalantar-zadeh, Lab Chip , 2011, 11 , 921–928 RSC .
+ ###### 
+From cou.: 123 F. C. C. L. Loureiro, A. G. S. Barreto Neto, C. S. Moreira, A. M. N. Lima and H. Neff, Sens. Actuators, B, 2011, 154, 129–136 CrossRef CAS.
+From Soup: 123 C. A. Lieber and A. Mahadevan-Jansen, Appl. Spectrosc. , 2003, 57 , 1363–1367 CrossRef CAS PubMed .
+ ###### 
+From cou.: 124 A. F. Chrimes, K. Khoshmanesh, P. R. Stoddart, A. A. Kayani, A. Mitchell, H. Daima, V. Bansal and K. Kalantar-zadeh, Anal. Chem., 2012, 84, 4029–4035 CrossRef CAS PubMed.
+From Soup: 124 D. Wei, S. Chen and Q. Liu, Appl. Spectrosc. Rev. , 2015, 50 , 387–406 CrossRef .
+ ###### 
+From cou.: 125 A. F. Chrimes, A. A. Kayani, K. Khoshmanesh, P. R. Stoddart, P. Mulvaney, A. Mitchell and K. Kalantar-zadeh, Lab Chip, 2011, 11, 921–928 RSC.
+From Soup: 125 A. O'Grady, A. C. Dennis, D. Denvir, J. J. McGarvey and S. E. Bell, Anal. Chem. , 2001, 73 , 2058–2065 CrossRef .
+ ###### 
+From cou.: 126 C. A. Lieber and A. Mahadevan-Jansen, Appl. Spectrosc., 2003, 57, 1363–1367 CrossRef CAS PubMed.
+From Soup: 126 A. Perro, G. Lebourdon, S. Henry, S. Lecomte, L. Servant and S. Marre, React. Chem. Eng. , 2016, 1 , 577–594 CAS .
+ ###### 
+From cou.: 127 D. Wei, S. Chen and Q. Liu, Appl. Spectrosc. Rev., 2015, 50, 387–406 CrossRef.
+From Soup: 127 A. F. Chrimes, K. Khoshmanesh, P. R. Stoddart, A. Mitchella and K. Kalantar-zadeh, Chem. Soc. Rev. , 2013, 42 , 5880–5906 RSC .
+ ###### 
+From cou.: 128 A. O'Grady, A. C. Dennis, D. Denvir, J. J. McGarvey and S. E. Bell, Anal. Chem., 2001, 73, 2058–2065 CrossRef.
+From cou.: 129 A. Perro, G. Lebourdon, S. Henry, S. Lecomte, L. Servant and S. Marre, React. Chem. Eng., 2016, 1, 577–594 CAS.
+From cou.: 130 A. F. Chrimes, K. Khoshmanesh, P. R. Stoddart, A. Mitchella and K. Kalantar-zadeh, Chem. Soc. Rev., 2013, 42, 5880–5906 RSC.

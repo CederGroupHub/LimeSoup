@@ -1,0 +1,36 @@
+from test: 0 One-pot synthesis of tetrasubstituted imidazoles catalyzed by zeolite HY and silica gel under microwave irradiation
+from soup: 0 One-pot synthesis of tetrasubstituted imidazoles catalyzed by zeolite HY and silica gel under microwave irradiation
+ ###### 
+from test: 1 Abstract
+from soup: 1 Abstract
+ ###### 
+from test: 2 Introduction
+from soup: 2 Introduction(guess)
+ ###### 
+from test: 3 Results and discussion
+from soup: 3 Introduction
+ ###### 
+from test: 4 Conclusions
+from soup: 4 Results and discussion
+ ###### 
+from test: 5 Experimental
+from test: 6 General procedure for the synthesis of tetrasubstituted imidazoles
+from test: 7 1-Methyl-2,4,5-triphenylimidazole (5a)
+from test: 8 1-Methyl-2-(4-methylphenyl)-4,5-diphenylimidazole (5b)
+from test: 9 2-(4-Bromophenyl)-1-methyl-4,5-diphenylimidazole (5c)
+from test: 10 1-Ethyl-2,4,5-triphenylimidazole (5d)
+from test: 11 1-Ethyl-2-(4-methylphenyl)-4,5-diphenylimidazole (5e)
+from test: 12 2-(4-Bromophenyl)-1-ethyl-4,5-diphenylimidazole (5f)
+from test: 13 1-Isopropyl-2,4,5-triphenylimidazole (5g)
+from test: 14 1-(3-Propenyl)-2,4,5-triphenylimidazole (5h)
+from test: 15 2-(4-Bromophenyl)-1-(3-propenyl)-4,5-diphenylimidazole (5i)
+from test: 16 1-Isobutyl-2,4,5-triphenylimidazole (5j)
+from test: 17 1-(Isobutyl)-2-(4-methylphenyl)-4,5-diphenylimidazole (5k)
+from test: 18 1-Cyclohexyl-2,4,5-triphenylimidazole (5l)
+from test: 19 1-Cyclohexyl-2-(4-methylphenyl)-4,5-diphenylimidazole (5m)
+from test: 20 1,2,4,5-Tetraphenylimidazole (5n)
+from test: 21 2-(4-Methylphenyl)-1,4,5-triphenylimidazole (5o)
+from test: 22 1-Benzyl-2,4,5-triphenylimidazole (5p)
+from test: 23 1-Benzyl-2-(4-methylphenyl)-4,5-diphenylimidazole (5q)
+from test: 24 Acknowledgements
+from test: 25 Notes and references

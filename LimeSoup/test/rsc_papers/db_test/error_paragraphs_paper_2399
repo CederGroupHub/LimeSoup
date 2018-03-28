@@ -1,0 +1,567 @@
+From cou.: 0 Journal
+From Soup: 0 Mol. BioSyst.
+ ###### 
+From cou.: 1 Predicting the subcellular locations of proteins can provide useful hints that reveal their functions, increase our understanding of the mechanisms of some diseases, and finally aid in the development of novel drugs. As the number of newly discovered proteins has been growing exponentially, which in turns, makes the subcellular localization prediction by purely laboratory tests prohibitively laborious and expensive. In this context, to tackle the challenges, computational methods are being developed as an alternative choice to aid biologists in selecting target proteins and designing related experiments. However, the success of protein subcellular localization prediction is still a complicated and challenging issue, particularly, when query proteins have multi-label characteristics, i.e., if they exist simultaneously in more than one subcellular location or if they move between two or more different subcellular locations. To date, to address this problem, several types of subcellular localization prediction methods with different levels of accuracy have been proposed. The support vector machine (SVM) has been employed to provide potential solutions to the protein subcellular localization prediction problem. However, the practicability of an SVM is affected by the challenges of selecting an appropriate kernel and selecting the parameters of the selected kernel. To address this difficulty, in this study, we aimed to develop an efficient multi-label protein subcellular localization prediction system, named as MKLoc, by introducing multiple kernel learning (MKL) based SVM. We evaluated MKLoc using a combined dataset containing 5447 single-localized proteins (originally published as part of the Höglund dataset) and 3056 multi-localized proteins (originally published as part of the DBMLoc set). Note that this dataset was used by Briesemeister et al. in their extensive comparison of multi-localization prediction systems. Finally, our experimental results indicate that MKLoc not only achieves higher accuracy than a single kernel based SVM system but also shows significantly better results than those obtained from other top systems (MDLoc, BNCs, YLoc+). Moreover, MKLoc requires less computation time to tune and train the system than that required for BNCs and single kernel based SVM.
+From Soup: 1 Predicting the subcellular locations of proteins can provide useful hints that reveal their functions, increase our understanding of the mechanisms of some diseases, and finally aid in the development of novel drugs. As the number of newly discovered proteins has been growing exponentially, which in turns, makes the subcellular localization prediction by purely laboratory tests prohibitively laborious and expensive. In this context, to tackle the challenges, computational methods are being developed as an alternative choice to aid biologists in selecting target proteins and designing related experiments. However, the success of protein subcellular localization prediction is still a complicated and challenging issue, particularly, when query proteins have multi-label characteristics, i.e. , if they exist simultaneously in more than one subcellular location or if they move between two or more different subcellular locations. To date, to address this problem, several types of subcellular localization prediction methods with different levels of accuracy have been proposed. The support vector machine (SVM) has been employed to provide potential solutions to the protein subcellular localization prediction problem. However, the practicability of an SVM is affected by the challenges of selecting an appropriate kernel and selecting the parameters of the selected kernel. To address this difficulty, in this study, we aimed to develop an efficient multi-label protein subcellular localization prediction system, named as MKLoc, by introducing multiple kernel learning (MKL) based SVM. We evaluated MKLoc using a combined dataset containing 5447 single-localized proteins (originally published as part of the Höglund dataset) and 3056 multi-localized proteins (originally published as part of the DBMLoc set). Note that this dataset was used by Briesemeister et al. in their extensive comparison of multi-localization prediction systems. Finally, our experimental results indicate that MKLoc not only achieves higher accuracy than a single kernel based SVM system but also shows significantly better results than those obtained from other top systems (MDLoc, BNCs, YLoc+). Moreover, MKLoc requires less computation time to tune and train the system than that required for BNCs and single kernel based SVM.
+ ###### 
+From cou.: 2 A biological cell is made up of many different compartments or organelles and these compartments are close to each other and they have different functions. The proteins in the cells are responsible for most of the functions required for a cell's survival. A typical cell contains approximately one billion protein molecules that reside in many different compartments or organelles, usually termed as subcellular locations.1 It is very interesting that proteins can perform their appropriate functions when they are located in the correct subcellular locations. Knowledge of the subcellular localization of proteins is important because it (a) provides useful insights into their functions, (b) indicates how and in which type of cellular environment they interact with each other and with other molecules, (c) helps in understanding the intricate pathways that regulate biological processes at the cellular level, and (d) helps to identify and prioritize drug targets during the process of drug development.2,3
+From Soup: 2 A biological cell is made up of many different compartments or organelles and these compartments are close to each other and they have different functions. The proteins in the cells are responsible for most of the functions required for a cell's survival. A typical cell contains approximately one billion protein molecules that reside in many different compartments or organelles, usually termed as subcellular locations. 1 It is very interesting that proteins can perform their appropriate functions when they are located in the correct subcellular locations. Knowledge of the subcellular localization of proteins is important because it (a) provides useful insights into their functions, (b) indicates how and in which type of cellular environment they interact with each other and with other molecules, (c) helps in understanding the intricate pathways that regulate biological processes at the cellular level, and (d) helps to identify and prioritize drug targets during the process of drug development. 2,3
+ ###### 
+From cou.: 3 Although various experimental approaches have been developed to determine the subcellular locations of proteins, most of these approaches are costly and time-consuming.4 Moreover, since the number of newly discovered proteins has been exponentially increasing, the subcellular localization prediction purely by laboratory tests is becoming prohibitively expensive.5 In this context, computational methods are being developed to help biologists in selecting target proteins and designing related experiments. Moreover, these computational methods are fast and can potentially predict the locations of proteins whose actual locations have not yet been experimentally determined. Various methods for predicting the subcellular localizations of protein sequences have been extensively studied in recent decades, and researchers have developed new models to achieve better prediction performance.6
+From Soup: 3 Although various experimental approaches have been developed to determine the subcellular locations of proteins, most of these approaches are costly and time-consuming. 4 Moreover, since the number of newly discovered proteins has been exponentially increasing, the subcellular localization prediction purely by laboratory tests is becoming prohibitively expensive. 5 In this context, computational methods are being developed to help biologists in selecting target proteins and designing related experiments. Moreover, these computational methods are fast and can potentially predict the locations of proteins whose actual locations have not yet been experimentally determined. Various methods for predicting the subcellular localizations of protein sequences have been extensively studied in recent decades, and researchers have developed new models to achieve better prediction performance. 6
+ ###### 
+From cou.: 4 Conventional methods for the subcellular localization prediction can be roughly divided into sequence-based methods and annotation-based methods.6–8 Sequence-based predictors make use of (I) sequence-coded sorting signals,9,10 such as WoLF PSORT,11 TargetP,12 and SignalP,13 (II) amino acid composition information,14,15 such as amino-acid compositions (AA),16 amino-acid pair compositions (PairAA),16 gapped amino-acid pair compositions (GapAA),17 and pseudo amino-acid compositions (PseAA),18 and (III) both information sources.11,19 Note that sequence-based methods are general in that they can be applied to any newly discovered protein.20 However, their performance is usually poor, especially for datasets containing sequences with low similarity.
+From Soup: 4 Conventional methods for the subcellular localization prediction can be roughly divided into sequence-based methods and annotation-based methods. 6–8 Sequence-based predictors make use of (I) sequence-coded sorting signals, 9,10 such as WoLF PSORT, 11 TargetP, 12 and SignalP, 13 (II) amino acid composition information, 14,15 such as amino-acid compositions (AA), 16 amino-acid pair compositions (PairAA), 16 gapped amino-acid pair compositions (GapAA), 17 and pseudo amino-acid compositions (PseAA), 18 and (III) both information sources. 11,19 Note that sequence-based methods are general in that they can be applied to any newly discovered protein. 20 However, their performance is usually poor, especially for datasets containing sequences with low similarity.
+ ###### 
+From cou.: 5 Annotation-based predictors use information about the functional domains and motifs,21,22 protein–protein interactions,23,24 homologous proteins such as KnowPredsite,25 PairProSVM,26 annotated Gene Ontology (GO) terms,27 such as Euk-OET-PLoc,28 Euk-mPLoc,29 iLoc-Gneg,30 CELLO2GO,31 and Cell-PLoc 2.0,2 and textual information from Swiss-Prot keywords32,33 or PubMed abstracts.34,35 Annotation-based predictors often show higher accuracies than pure sequence-based predictors although they are less robust when the protein is newly discovered and even if its close homologues are unknown.36 In fact, when the protein to be predicted is newly discovered, there is no existing annotation in the database. As a result, the prediction performance of the annotation-based methods decreases. However, at least, the annotation of the close homologues of a novel protein is expected to be available because coverage of public annotation databases is rapidly increasing,6 which finally addresses the abovementioned limitation of this method.
+From Soup: 5 Annotation-based predictors use information about the functional domains and motifs, 21,22 protein–protein interactions, 23,24 homologous proteins such as KnowPredsite, 25 PairProSVM, 26 annotated Gene Ontology (GO) terms, 27 such as Euk-OET-PLoc, 28 Euk-mPLoc, 29 iLoc-Gneg, 30 CELLO2GO, 31 and Cell-PLoc 2.0, 2 and textual information from Swiss-Prot keywords 32,33 or PubMed abstracts. 34,35 Annotation-based predictors often show higher accuracies than pure sequence-based predictors although they are less robust when the protein is newly discovered and even if its close homologues are unknown. 36 In fact, when the protein to be predicted is newly discovered, there is no existing annotation in the database. As a result, the prediction performance of the annotation-based methods decreases. However, at least, the annotation of the close homologues of a novel protein is expected to be available because coverage of public annotation databases is rapidly increasing, 6 which finally addresses the abovementioned limitation of this method.
+ ###### 
+From cou.: 6 In addition to the abovementioned approaches, some researchers have developed hybrid prediction approaches such as BNCs,8 MDLoc,38 and YLoc+,36 which include both sequence-based and annotation-based methods.8,29,36–38
+From Soup: 6 In addition to the abovementioned approaches, some researchers have developed hybrid prediction approaches such as BNCs, 8 MDLoc, 38 and YLoc+, 36 which include both sequence-based and annotation-based methods. 8,29,36–38
+ ###### 
+From cou.: 7 Not only protein sequence information but also prediction algorithms can affect the accuracy of the subcellular localization prediction.39 Many computational techniques, such as the neural network,40 K-nearest neighbor (KNN),28,41,42 and a few ensemble classifiers,45,46 have been introduced for the prediction of protein subcellular localization. Some methods use variations of k-NN to predict multiple locations for proteins; for example, WoLF PSORT11 uses k-NN with a distance measure that combines Euclidean and Manhattan distances, whereas Euk-mPLoc29 uses an ensemble of k-NN. YLoc+36 uses a naïve Bayes classifier and captures protein localization to multiple locations by explicitly introducing a new class for each combination of locations supported by the training set. BNCs8 is based on a collection of Bayesian network classifiers that incorporate interdependencies among the locations into the process of predicting the locations of proteins. MDLoc38 presents a new probabilistic generative model for protein localization that directly incorporates the learning of location interdependencies into the iterative learning process. KnowPredsite25 uses sequence-based similarity to create a collection of location-annotated peptide fragments and predict multiple locations for proteins.
+From Soup: 7 Not only protein sequence information but also prediction algorithms can affect the accuracy of the subcellular localization prediction. 39 Many computational techniques, such as the neural network, 40 K-nearest neighbor (KNN), 28,41,42 and a few ensemble classifiers, 45,46 have been introduced for the prediction of protein subcellular localization. Some methods use variations of k-NN to predict multiple locations for proteins; for example, WoLF PSORT 11 uses k-NN with a distance measure that combines Euclidean and Manhattan distances, whereas Euk-mPLoc 29 uses an ensemble of k-NN. YLoc+ 36 uses a naïve Bayes classifier and captures protein localization to multiple locations by explicitly introducing a new class for each combination of locations supported by the training set. BNCs 8 is based on a collection of Bayesian network classifiers that incorporate interdependencies among the locations into the process of predicting the locations of proteins. MDLoc 38 presents a new probabilistic generative model for protein localization that directly incorporates the learning of location interdependencies into the iterative learning process. KnowPred site 25 uses sequence-based similarity to create a collection of location-annotated peptide fragments and predict multiple locations for proteins.
+ ###### 
+From cou.: 8 Recently, support vector machine (SVM)7,19,39,43,44 has also been extensively applied to provide potential solutions for the subcellular localization prediction problem. However, the selection of an appropriate kernel and its parameters for a certain classification problem influence the performance of the SVM. A literature survey showed that for all the practical purposes, most of the researchers have applied radial basis function (RBF) kernel to develop SVM based subcellular localization prediction5,7,17,20,21,46 and have found the values of the kernel parameters using different techniques, such as trial and error, heuristics or grid search procedures; unfortunately, these approaches are time-consuming.49
+From Soup: 8 Recently, support vector machine (SVM) 7,19,39,43,44 has also been extensively applied to provide potential solutions for the subcellular localization prediction problem. However, the selection of an appropriate kernel and its parameters for a certain classification problem influence the performance of the SVM. A literature survey showed that for all the practical purposes, most of the researchers have applied radial basis function (RBF) kernel to develop SVM based subcellular localization prediction 5,7,17,20,21,46 and have found the values of the kernel parameters using different techniques, such as trial and error, heuristics or grid search procedures; unfortunately, these approaches are time-consuming. 49
+ ###### 
+From cou.: 9 Therefore, to reduce the complexity of finding the values of kernel parameters, such as the value of sigma for RBF kernel, a multiple kernel learning approach can be adopted.49 Several researchers have proposed various multiple kernel learning approaches in which multiple kernels are used to construct a combined kernel.49–59 To reduce the complexity of finding kernel parameters, in MKL, the kernel parameter spaces are discretized into r values, and a set of r kernels is created using each of the r values. Finally, a combined kernel is constructed by combining each of the r kernels using a specific rule; this combined kernel is used in the SVM classifier. These ideas motivated us to introduce multiple kernel learning based SVM rather than simply using a single kernel in the subcellular localization prediction, with the hope of obtaining better accuracy with less computational time. Note that we used RBF kernel, as have other researchers who built SVM based classifiers using RBF kernel,5,7,17,20,21,46 and finally we applied MKL to solve the problem of choosing the value of sigma.
+From Soup: 9 Therefore, to reduce the complexity of finding the values of kernel parameters, such as the value of sigma for RBF kernel, a multiple kernel learning approach can be adopted. 49 Several researchers have proposed various multiple kernel learning approaches in which multiple kernels are used to construct a combined kernel. 49–59 To reduce the complexity of finding kernel parameters, in MKL, the kernel parameter spaces are discretized into r values, and a set of r kernels is created using each of the r values. Finally, a combined kernel is constructed by combining each of the r kernels using a specific rule; this combined kernel is used in the SVM classifier. These ideas motivated us to introduce multiple kernel learning based SVM rather than simply using a single kernel in the subcellular localization prediction, with the hope of obtaining better accuracy with less computational time. Note that we used RBF kernel, as have other researchers who built SVM based classifiers using RBF kernel, 5,7,17,20,21,46 and finally we applied MKL to solve the problem of choosing the value of sigma.
+ ###### 
+From cou.: 10 Recently, some researchers applied MKL in the protein subcellular localization prediction.47,48 However, their approach of applying MKL in the protein subcellular localization prediction is different from our approach. They applied MKL to integrate heterogeneous sources of features of a dataset without solving the parameter tuning problem. In contrast, herein, we used the same features in all the kernels and solved the time-consuming parameter tuning problem using MKL.
+From Soup: 10 Recently, some researchers applied MKL in the protein subcellular localization prediction. 47,48 However, their approach of applying MKL in the protein subcellular localization prediction is different from our approach. They applied MKL to integrate heterogeneous sources of features of a dataset without solving the parameter tuning problem. In contrast, herein, we used the same features in all the kernels and solved the time-consuming parameter tuning problem using MKL.
+ ###### 
+From cou.: 11 In addition, in this study, we implemented a single kernel based SVM to compare the execution time with that of the MKL based SVM. Note that the performance of the single kernel based SVM is also reported in the literature;8 however, the execution time is not mentioned.
+From Soup: 11 In addition, in this study, we implemented a single kernel based SVM to compare the execution time with that of the MKL based SVM. Note that the performance of the single kernel based SVM is also reported in the literature; 8 however, the execution time is not mentioned.
+ ###### 
+From cou.: 12 Additionally, as multi-location proteins exist that can simultaneously reside at, or move between, two or more subcellular locations, recent studies have focused on predicting both single-label and multi-label proteins.60 However, the consideration of a multi-label protein was excluded in some studies.46 However, identifying the multiple locations of a protein is important because translocation of proteins can provide some unique functions.60 To address this point, in this study, we also considered multi-label prediction for predicting the subcellular localizations of both single-label and multi-label proteins.
+From Soup: 12 Additionally, as multi-location proteins exist that can simultaneously reside at, or move between, two or more subcellular locations, recent studies have focused on predicting both single-label and multi-label proteins. 60 However, the consideration of a multi-label protein was excluded in some studies. 46 However, identifying the multiple locations of a protein is important because translocation of proteins can provide some unique functions. 60 To address this point, in this study, we also considered multi-label prediction for predicting the subcellular localizations of both single-label and multi-label proteins.
+ ###### 
+From cou.: 13 The proposed system was trained and tested using a dataset containing both single- and multi-localized proteins, which was used in the development and testing of the YLoc+ system36 as well as the MDLoc and BNCs systems;8,38 this dataset is derived from the Höglund dataset19 and the DBMLoc dataset.61 As reported in other studies,8,19,36–38,62 multiple runs of 5-fold cross-validation were performed. The results clearly demonstrate the advantage of using multiple kernel learning based SVM. The F1-label score of 72.7% and the overall accuracy of 69.4% obtained by MKLoc are higher than the corresponding results obtained by other classifiers when only multi-localized proteins are considered. Furthermore, in the cases of both single and multi-localized proteins, MKLoc demonstrated higher overall accuracy than single kernel based SVM and BNCs with less computational time.
+From Soup: 13 The proposed system was trained and tested using a dataset containing both single- and multi-localized proteins, which was used in the development and testing of the YLoc+ system 36 as well as the MDLoc and BNCs systems; 8,38 this dataset is derived from the Höglund dataset 19 and the DBMLoc dataset. 61 As reported in other studies, 8,19,36–38,62 multiple runs of 5-fold cross-validation were performed. The results clearly demonstrate the advantage of using multiple kernel learning based SVM. The F 1 -label score of 72.7% and the overall accuracy of 69.4% obtained by MKLoc are higher than the corresponding results obtained by other classifiers when only multi-localized proteins are considered. Furthermore, in the cases of both single and multi-localized proteins, MKLoc demonstrated higher overall accuracy than single kernel based SVM and BNCs with less computational time.
+ ###### 
+From cou.: 14 In our experiments, we used a combined dataset containing 5447 single-localized proteins, originally published as part of the Höglund dataset,19 and 3056 multi-localized proteins that were originally published as part of the DBMLoc set.61 This combined dataset was first constructed by Briesemeister et al. to enable an extensive comparison of the multi-localization prediction systems.36 This dataset is already homology-reduced, i.e. the protein sequences from the Höglund dataset share no more than 30% sequence identity with each other; at the same time, sequences from the DBMLoc dataset share less than 80% sequence similarity with each other. As it is not known, a priori whether a protein may localize to a single location or to multiple locations, we trained our system using the combined set of proteins, thus enabling it to perform the actual prediction task. We have reported results using different evaluation metrics obtained over the dataset containing both single- and multi-localized proteins to compare our system with other reported systems. Note that most of the results for other systems are only available for the set of multi-localized proteins.38 In the cases where reports obtained over the combined set of single- and multi-localized proteins from other systems are available, we also performed comparisons with MKLoc. The 5447 single-localized proteins include the following 9 locations (abbreviations and number of proteins per location are given in parentheses): cytoplasm (cyt, 1411 proteins), endoplasmic reticulum (ER, 198), extracellular space (ex, 843), golgi apparatus (gol, 150), lysosome (lys, 103), mitochondrion (mi, 510), nucleus (nuc, 837), membrane (mem, 1238), and peroxisome (per, 157). The multi-localized proteins were obtained from the following pairs of locations: cyt and nuc (cyt_nuc, 1882 proteins), ex and mem (ex_mem, 334), cyt and mem (cyt_mem, 252), cyt and mi (cyt_mi, 240), nuc and mi (nuc_mi, 120), ER and ex (ER_ex, 115), and ex and nuc (ex_nuc, 113). Note that all the multi-location subsets used herein contain over 100 representative proteins and this is one of the largest data sets of proteins obtained from multiple locations.73
+From Soup: 14 In our experiments, we used a combined dataset containing 5447 single-localized proteins, originally published as part of the Höglund dataset, 19 and 3056 multi-localized proteins that were originally published as part of the DBMLoc set. 61 This combined dataset was first constructed by Briesemeister et al. to enable an extensive comparison of the multi-localization prediction systems. 36 This dataset is already homology-reduced, i.e. the protein sequences from the Höglund dataset share no more than 30% sequence identity with each other; at the same time, sequences from the DBMLoc dataset share less than 80% sequence similarity with each other. As it is not known, a priori whether a protein may localize to a single location or to multiple locations, we trained our system using the combined set of proteins, thus enabling it to perform the actual prediction task. We have reported results using different evaluation metrics obtained over the dataset containing both single- and multi-localized proteins to compare our system with other reported systems. Note that most of the results for other systems are only available for the set of multi-localized proteins. 38 In the cases where reports obtained over the combined set of single- and multi-localized proteins from other systems are available, we also performed comparisons with MKLoc. The 5447 single-localized proteins include the following 9 locations (abbreviations and number of proteins per location are given in parentheses): cytoplasm (cyt, 1411 proteins), endoplasmic reticulum (ER, 198), extracellular space (ex, 843), golgi apparatus (gol, 150), lysosome (lys, 103), mitochondrion (mi, 510), nucleus (nuc, 837), membrane (mem, 1238), and peroxisome (per, 157). The multi-localized proteins were obtained from the following pairs of locations: cyt and nuc (cyt_nuc, 1882 proteins), ex and mem (ex_mem, 334), cyt and mem (cyt_mem, 252), cyt and mi (cyt_mi, 240), nuc and mi (nuc_mi, 120), ER and ex (ER_ex, 115), and ex and nuc (ex_nuc, 113). Note that all the multi-location subsets used herein contain over 100 representative proteins and this is one of the largest data sets of proteins obtained from multiple locations. 73
+ ###### 
+From cou.: 15 In this study, we used the 30-dimensional feature vector of proteins as used by Briesemeister et al. for YLoc+ and by R. Ramanuja Simha for MDLoc and BNCs.8,36,38 However, thirteen of these features were directly constructed from the protein sequences such as length of the amino acid chain, length of the longest very hydrophobic region, respective numbers of methionine, asparagine, and tryptophan residues occurring in the N-terminus.8 Moreover, nine of these features were extracted from the pseudo-amino acid composition,18 which is based on certain physical and chemical properties of amino acid subsequences. The remaining 8 features were obtained from two types of annotation-based features. Herein, the first annotation-based feature contained two features constructed using two distinct groups of PROSITE patterns and the second annotation-based feature contained six features extracted based on GO-annotations.8,38 A list of these 30 features can be found in the ESI.†
+From Soup: 15 In this study, we used the 30-dimensional feature vector of proteins as used by Briesemeister et al. for YLoc+ and by R. Ramanuja Simha for MDLoc and BNCs. 8,36,38 However, thirteen of these features were directly constructed from the protein sequences such as length of the amino acid chain, length of the longest very hydrophobic region, respective numbers of methionine, asparagine, and tryptophan residues occurring in the N-terminus. 8 Moreover, nine of these features were extracted from the pseudo-amino acid composition, 18 which is based on certain physical and chemical properties of amino acid subsequences. The remaining 8 features were obtained from two types of annotation-based features. Herein, the first annotation-based feature contained two features constructed using two distinct groups of PROSITE patterns and the second annotation-based feature contained six features extracted based on GO-annotations. 8,38 A list of these 30 features can be found in the ESI. †
+ ###### 
+From cou.: 16 The SVM modeling algorithm finds an optimal hyperplane with the maximal margin to separate two classes, which requires solving the following constraint problem:63,64where xi ∈ Rp and yi ∈ {−1,+1} is the corresponding class label.
+From Soup: 16 The SVM modeling algorithm finds an optimal hyperplane with the maximal margin to separate two classes, which requires solving the following constraint problem: 63,64 where x i ∈ R p and y i ∈ {−1,+1} is the corresponding class label.
+ ###### 
+From cou.: 17 Finally, in terms of the kernel function, the discriminant function takes the following form:
+From Soup: 17 Finally, in terms of the kernel function, the discriminant function takes the following form:
+ ###### 
+From cou.: 18 Because support vector machines are generally formulated for two-class single label problems,63–66 we used the binary relevance method (BR)67 to solve the multiclass multi-label problem. The binary relevance method (BR)67 uses the one vs. rest strategy to convert a multi-label problem into several binary classification problems.
+From Soup: 18 Because support vector machines are generally formulated for two-class single label problems, 63–66 we used the binary relevance method (BR) 67 to solve the multiclass multi-label problem. The binary relevance method (BR) 67 uses the one vs. rest strategy to convert a multi-label problem into several binary classification problems.
+ ###### 
+From cou.: 19 In accordance with the BR method discussed in literature,67 in this study, N independent binary SVMs were trained, one for each location.68 Thus, the subcellular location(s) of the i-th query protein will be predicted as follows:
+From Soup: 19 In accordance with the BR method discussed in literature, 67 in this study, N independent binary SVMs were trained, one for each location. 68 Thus, the subcellular location(s) of the i -th query protein will be predicted as follows:
+ ###### 
+From cou.: 20 M
+From Soup: 20 M
+ ###### 
+From cou.: 21 x
+From Soup: 21 x
+ ###### 
+From cou.: 22 i
+From Soup: 22 i
+ ###### 
+From cou.: 23 i.e.
+From Soup: 23 eqn (3)
+ ###### 
+From cou.: 24 M
+From Soup: 24 i.e.
+ ###### 
+From cou.: 25 x
+From Soup: 25 M
+ ###### 
+From cou.: 26 i
+From Soup: 26 x
+ ###### 
+From cou.: 27 The successful application of SVMs heavily depends on the determination of the right type and suitable hyperparameter settings of the kernel functions.49 However, Hsu et al.69 claimed the RBF kernel to be a reasonable first choice for the SVM. Again, various other researchers have used trial and error, heuristic or grid search procedures to determine the settings of the hyperparameters of a kernel.70–72 This obviously requires much effort.
+From Soup: 27 i
+ ###### 
+From cou.: 28 To avoid the time-consuming parameter tuning problem, one approach of MKL, which has been adopted by many practitioners, is to discretize the parameter space (space of sigma for the RBF kernel) into r values, and then find an appropriate combination of the resulting set of the base kernels, S = {kσ1,kσ2,…,kσr}.57 The advantage of this approach is that once the set S is fixed, any of the standard MKL methods available in the literature can be used to find the coefficients to combine the base kernels in S.49–59 In this study, we used the RBF kernel and applied MKL to solve the problem of choosing the sigma of the RBF kernel.
+From Soup: 28 The successful application of SVMs heavily depends on the determination of the right type and suitable hyperparameter settings of the kernel functions. 49 However, Hsu et al. 69 claimed the RBF kernel to be a reasonable first choice for the SVM. Again, various other researchers have used trial and error, heuristic or grid search procedures to determine the settings of the hyperparameters of a kernel. 70–72 This obviously requires much effort.
+ ###### 
+From cou.: 29 The form of the linear combined kernel of multiple kernel learning (MKL) is defined as follows:50
+From Soup: 29 To avoid the time-consuming parameter tuning problem, one approach of MKL, which has been adopted by many practitioners, is to discretize the parameter space (space of sigma for the RBF kernel) into r values, and then find an appropriate combination of the resulting set of the base kernels, S = { k σ 1 , k σ 2 ,…, k σ r }. 57 The advantage of this approach is that once the set S is fixed, any of the standard MKL methods available in the literature can be used to find the coefficients to combine the base kernels in S . 49–59 In this study, we used the RBF kernel and applied MKL to solve the problem of choosing the sigma of the RBF kernel.
+ ###### 
+From cou.: 30 η
+From Soup: 30 The form of the linear combined kernel of multiple kernel learning (MKL) is defined as follows: 50
+ ###### 
+From cou.: 31 m
+From Soup: 31 η
+ ###### 
+From cou.: 32 k
+From Soup: 32 m
+ ###### 
+From cou.: 33 m
+From Soup: 33 k
+ ###### 
+From cou.: 34 x
+From Soup: 34 m
+ ###### 
+From cou.: 35 m
+From Soup: 35 x
+ ###### 
+From cou.: 36 i
+From Soup: 36 m
+ ###### 
+From cou.: 37 x
+From Soup: 37 i
+ ###### 
+From cou.: 38 m
+From Soup: 38 x
+ ###### 
+From cou.: 39 j
+From Soup: 39 m
+ ###### 
+From cou.: 40 P
+From Soup: 40 j
+ ###### 
+From cou.: 41 x
+From Soup: 41 P
+ ###### 
+From cou.: 42 m
+From Soup: 42 x
+ ###### 
+From cou.: 43 i
+From Soup: 43 m
+ ###### 
+From cou.: 44 R
+From Soup: 44 i
+ ###### 
+From cou.: 45 Dm
+From Soup: 45 R
+ ###### 
+From cou.: 46 D
+From Soup: 46 D m
+ ###### 
+From cou.: 47 m
+From Soup: 47 D
+ ###### 
+From cou.: 48 In our study, to obtain the combination function parameters or kernel weights, we used a heuristic approach proposed by Qiu and Lane53 that uses a kernel alignment-based similarity measure to find the kernel weights. The kernel alignment metric, a notion of similarity between two kernels, originates from the uncentered alignment metric of Cristianini et al.59 According to Cristianini et al., the empirical alignment of two kernels is calculated as follows:
+From Soup: 48 m
+ ###### 
+From cou.: 49 K
+From Soup: 49 In our study, to obtain the combination function parameters or kernel weights, we used a heuristic approach proposed by Qiu and Lane 53 that uses a kernel alignment-based similarity measure to find the kernel weights. The kernel alignment metric, a notion of similarity between two kernels, originates from the uncentered alignment metric of Cristianini et al. 59 According to Cristianini et al. , the empirical alignment of two kernels is calculated as follows:
+ ###### 
+From cou.: 50 K
+From Soup: 50 K
+ ###### 
+From cou.: 51 50
+From Soup: 51 1
+ ###### 
+From cou.: 52 yy
+From Soup: 52 K
+ ###### 
+From cou.: 53 T
+From Soup: 53 2
+ ###### 
+From cou.: 54 Kernel alignment has one key property due to concentration (i.e., the probability of deviation from the mean exponentially decays), which enables us to maintain high alignment on a test set when we optimize it on a training set.50
+From Soup: 54 50
+ ###### 
+From cou.: 55 Qiu and Lane53 proposed the following simple heuristic for classification problems to select the kernel weights using kernel alignment:
+From Soup: 55 yy
+ ###### 
+From cou.: 56 To implement the proposed system, we followed the following steps:
+From Soup: 56 T
+ ###### 
+From cou.: 57 I. Discretize the parameter space of the sigma of the RBF kernel into 17 values to obtain the set of the base kernels, S = {kσ1,kσ2,…,kσ17}. In our study, 17 values of sigma for the base kernels are {2−8,2−7,…,27,28}.
+From Soup: 57 Kernel alignment has one key property due to concentration ( i.e. , the probability of deviation from the mean exponentially decays), which enables us to maintain high alignment on a test set when we optimize it on a training set. 50
+ ###### 
+From cou.: 58 II. Find kernel weights for each of these 17 kernels using eqn (8).
+From Soup: 58 Qiu and Lane 53 proposed the following simple heuristic for classification problems to select the kernel weights using kernel alignment:
+ ###### 
+From cou.: 59 III. Combine these 17 kernels using eqn (5) to obtain the combined kernel.
+From Soup: 59 To implement the proposed system, we followed the following steps:
+ ###### 
+From cou.: 60 IV. N (N = 9 in our study) independent binary SVMs are trained, one for each location, using the combined kernel.
+From Soup: 60 I. Discretize the parameter space of the sigma of the RBF kernel into 17 values to obtain the set of the base kernels , S = { k σ 1 , k σ 2 ,…, k σ 17 }. In our study, 17 values of sigma for the base kernels are {2 −8 ,2 −7 ,…,2 7 ,2 8 }.
+ ###### 
+From cou.: 61 V. Make a prediction for a query protein through learned SVM using eqn (3) and (4).
+From Soup: 61 II. Find kernel weights for each of these 17 kernels using eqn (8) .
+ ###### 
+From cou.: 62 In statistical prediction, there are three commonly used methods to derive the metric values for a predictor: the independent dataset test, the subsampling (e.g., K-fold cross-validation) test, and the jackknife test.1 These methods are often used to test the accuracy of a statistical prediction algorithm. However, among these three methods, the jackknife test is deemed the most objective because it always yields a unique result for a given benchmark data set, as reported in a comprehensive review.1 Although the jackknife test has been increasingly and widely adopted by investigators to examine the power of various prediction methods, it requires an enormous amount of computational time for a larger dataset.
+From Soup: 62 III. Combine these 17 kernels using eqn (5) to obtain the combined kernel.
+ ###### 
+From cou.: 63 In this study, to save computational time, we used K-fold cross validation methods (subsampling) and compared the performance of MKLoc with those of other systems (MDLoc,38 BNCs,8 YLoc+,36 Euk-mPLoc,29 WoLF PSORT,11 and KnowPredsite25). Note that the performances of MDLoc, BNCs, YLoc+, Euk-mPLoc, WoLF PSORT, and KnowPredsite have been comprehensively studied, as reported in the literature,38 by employing the commonly used stratified 5-fold cross-validation for exactly the same dataset defined in Section 2.1. The information about the exact 5-way split of the dataset used in previous studies is not reported; therefore, to validate the stability and the statistical significance of our results, we repeated the 5-fold cross validation 5 times (i.e. 25 runs in total). Note that herein, in each 5-fold cross validation, the given training samples were randomly partitioned into 5 mutually exclusive sets of approximately equal size and approximately equal class distribution. Finally, we reported the average results obtained in this study. In addition, the standard deviation of each metric is shown in parentheses.
+From Soup: 63 IV. N ( N = 9 in our study ) independent binary SVMs are trained, one for each location, using the combined kernel .
+ ###### 
+From cou.: 64 In our study, all programs were run on a standard DELL Optiplex 390 machine with 8 GB RAM and a Core-i3 processor running at 3.30 GHz.
+From Soup: 64 V. Make a prediction for a query protein through learned SVM using eqn (3) and (4) .
+ ###### 
+From cou.: 65 Performance measurement in multi-label classification is more complicated than in traditional single-label classification as each example can be simultaneously associated with multiple labels. In this study, we used various adapted measures, such as accuracy and F1 score, proposed by Tsoumakas et al.67 for evaluating the multi-label classification in our evaluation.
+From Soup: 65 In statistical prediction, there are three commonly used methods to derive the metric values for a predictor: the independent dataset test, the subsampling ( e.g. , K-fold cross-validation) test, and the jackknife test. 1 These methods are often used to test the accuracy of a statistical prediction algorithm. However, among these three methods, the jackknife test is deemed the most objective because it always yields a unique result for a given benchmark data set, as reported in a comprehensive review. 1 Although the jackknife test has been increasingly and widely adopted by investigators to examine the power of various prediction methods, it requires an enormous amount of computational time for a larger dataset.
+ ###### 
+From cou.: 66 To formally define these evaluation measures, let D be a dataset containing m proteins and S = {s1,s2,…,sq} be the set of q possible subcellular components in the cell. For a given protein P, let MP = {si|lPi = 1, where 1 ≤ i ≤ q} be the set of locations to which protein P localizes according to the dataset, and let P = {si|Pi = 1, where 1 ≤ i ≤ q} be the set of locations that a classifier predicts for protein P, where Pi,lPi ∈ {1,0}. Note that lPi or Pi takes the value 1 if P actually localizes at si or is predicted to localize at si, respectively. The multi-label accuracy and the multi-label F1 score were computed as follows:8
+From Soup: 66 In this study, to save computational time, we used K-fold cross validation methods (subsampling) and compared the performance of MKLoc with those of other systems (MDLoc, 38 BNCs, 8 YLoc+, 36 Euk-mPLoc, 29 WoLF PSORT, 11 and KnowPred site 25 ). Note that the performances of MDLoc, BNCs, YLoc+, Euk-mPLoc, WoLF PSORT, and KnowPred site have been comprehensively studied, as reported in the literature, 38 by employing the commonly used stratified 5-fold cross-validation for exactly the same dataset defined in Section 2.1. The information about the exact 5-way split of the dataset used in previous studies is not reported; therefore, to validate the stability and the statistical significance of our results, we repeated the 5-fold cross validation 5 times ( i.e. 25 runs in total). Note that herein, in each 5-fold cross validation, the given training samples were randomly partitioned into 5 mutually exclusive sets of approximately equal size and approximately equal class distribution. Finally, we reported the average results obtained in this study. In addition, the standard deviation of each metric is shown in parentheses.
+ ###### 
+From cou.: 67 s
+From Soup: 67 In our study, all programs were run on a standard DELL Optiplex 390 machine with 8 GB RAM and a Core-i3 processor running at 3.30 GHz.
+ ###### 
+From cou.: 68 i
+From Soup: 68 Performance measurement in multi-label classification is more complicated than in traditional single-label classification as each example can be simultaneously associated with multiple labels. In this study, we used various adapted measures, such as accuracy and F 1 score, proposed by Tsoumakas et al. 67 for evaluating the multi-label classification in our evaluation.
+ ###### 
+From cou.: 69 s
+From Soup: 69 To formally define these evaluation measures, let D be a dataset containing m proteins and S = { s 1 , s 2 ,…, s q } be the set of q possible subcellular components in the cell. For a given protein P , let M P = { s i | l P i = 1, where 1 ≤ i ≤ q } be the set of locations to which protein P localizes according to the dataset, and let P = { s i | P i = 1, where 1 ≤ i ≤ q } be the set of locations that a classifier predicts for protein P , where P i , l P i ∈ {1,0}. Note that l P i or P i takes the value 1 if P actually localizes at s i or is predicted to localize at s i , respectively. The multi-label accuracy and the multi-label F 1 score were computed as follows: 8
+ ###### 
+From cou.: 70 i
+From Soup: 70 s i
+ ###### 
+From cou.: 71 s
+From Soup: 71 s i
+ ###### 
+From cou.: 72 i
+From Soup: 72 s
+ ###### 
+From cou.: 73 46
+From Soup: 73 i
+ ###### 
+From cou.: 74 s
+From Soup: 74 46
+ ###### 
+From cou.: 75 i
+From Soup: 75 s i
+ ###### 
+From cou.: 76 s
+From Soup: 76 s i
+ ###### 
+From cou.: 77 i
+From Soup: 77 s i
+ ###### 
+From cou.: 78 s
+From Soup: 78 s i
+ ###### 
+From cou.: 79 i
+From Soup: 79 s
+ ###### 
+From cou.: 80 s
+From Soup: 80 i
+ ###### 
+From cou.: 81 i
+From Soup: 81 8
+ ###### 
+From cou.: 82 s
+From Soup: 82 s
+ ###### 
+From cou.: 83 i
+From Soup: 83 i
+ ###### 
+From cou.: 84 8
+From Soup: 84 s
+ ###### 
+From cou.: 85 s
+From Soup: 85 i
+ ###### 
+From cou.: 86 i
+From Soup: 86 8
+ ###### 
+From cou.: 87 s
+From Soup: 87 Standard precision and recall measures, denoted by Pre-Std s i and Rec-Std s i , were used in this study to evaluate the correctness of the predictions made for each location s i and were computed as follows:
+ ###### 
+From cou.: 88 i
+From Soup: 88 s
+ ###### 
+From cou.: 89 8
+From Soup: 89 i
+ ###### 
+From cou.: 90 Standard precision and recall measures, denoted by Pre-Stdsi and Rec-Stdsi, were used in this study to evaluate the correctness of the predictions made for each location si and were computed as follows:
+From Soup: 90 s
+ ###### 
+From cou.: 91 s
+From Soup: 91 i
+ ###### 
+From cou.: 92 i
+From Soup: 92 s
+ ###### 
+From cou.: 93 s
+From Soup: 93 i
+ ###### 
+From cou.: 94 i
+From Soup: 94 s
+ ###### 
+From cou.: 95 s
+From Soup: 95 i
+ ###### 
+From cou.: 96 i
+From Soup: 96 s
+ ###### 
+From cou.: 97 s
+From Soup: 97 i
+ ###### 
+From cou.: 98 i
+From Soup: 98 s
+ ###### 
+From cou.: 99 s
+From Soup: 99 i
+ ###### 
+From cou.: 100 i
+From Soup: 100 Additionally, the adapted measure of F 1 -label score used by Briesemeister et al. 36 to evaluate the performance of multi-location predictors was used in our evaluation and is defined as follows:
+ ###### 
+From cou.: 101 s
+From Soup: 101 S
+ ###### 
+From cou.: 102 i
+From Soup: 102 To generate highly performing classifiers capable of dealing with real data, an efficient model selection is required. In our experiment, the grid-search technique was used to find the best models for different kernels. This method selects the best solution by evaluating several combinations of possible values of parameters of the classifier. We ran the 5-fold cross-validation 5 times; each time, we selected the best parameter of the classifier on the basis of the multi-label accuracy.
+ ###### 
+From cou.: 103 Additionally, the adapted measure of F1-label score used by Briesemeister et al.36 to evaluate the performance of multi-location predictors was used in our evaluation and is defined as follows:
+From Soup: 103 In SVM with multiple kernels, we used a combined kernel that was formed using eqn (5) from the set of RBF kernels with different values of sigma. Herein, we discretized the parameter space of sigma of the RBF kernel into 17 values to obtain the set of base kernels, S = { k σ 1 , k σ 2 ,…, k σ 17 }. We also considered that the resulting set of sigma for the base kernels is {2 −8 ,2 −7 ,…,2 7 ,2 8 }.
+ ###### 
+From cou.: 104 S
+From Soup: 104 Then, to find the parameter value C (penalty term for soft margin), we considered the values from 2 −8 to 2 8 for C and from 2 −8 to 2 8 for sigma as our searching space. We performed 5 complete runs of the 5-fold cross-validation; each time, we selected the best parameter of the classifier depending on the accuracy value. Herein, this model selection was applied on the combined set of single- and multi-localized proteins. The selected C values for the 5 complete runs of the 5-fold cross-validation are shown in Table 1 .
+ ###### 
+From cou.: 105 To generate highly performing classifiers capable of dealing with real data, an efficient model selection is required. In our experiment, the grid-search technique was used to find the best models for different kernels. This method selects the best solution by evaluating several combinations of possible values of parameters of the classifier. We ran the 5-fold cross-validation 5 times; each time, we selected the best parameter of the classifier on the basis of the multi-label accuracy.
+From Soup: 105 From Table 1 , we can see that for most of the runs, the best model was found for the value of C = 2 5 . Finally, we used C = 2 5 in all 5 complete runs of the 5-fold cross-validation and averaged our results on the combined dataset to ensure unbiased model selection.
+ ###### 
+From cou.: 106 In SVM with multiple kernels, we used a combined kernel that was formed using eqn (5) from the set of RBF kernels with different values of sigma. Herein, we discretized the parameter space of sigma of the RBF kernel into 17 values to obtain the set of base kernels, S = {kσ1,kσ2,…,kσ17}. We also considered that the resulting set of sigma for the base kernels is {2−8,2−7,…,27,28}.
+From Soup: 106 We also implemented and tuned parameters ( C and sigma for the RBF kernel) for the single kernel-based SVM with the same procedure used for the MKL-based SVM; finally, we used C = 2 0 and sigma = 2 1 in all 5 complete runs of the 5-fold cross-validations and averaged our results on the combined dataset.
+ ###### 
+From cou.: 107 Then, to find the parameter value C (penalty term for soft margin), we considered the values from 2−8 to 28 for C and from 2−8 to 28 for sigma as our searching space. We performed 5 complete runs of the 5-fold cross-validation; each time, we selected the best parameter of the classifier depending on the accuracy value. Herein, this model selection was applied on the combined set of single- and multi-localized proteins. The selected C values for the 5 complete runs of the 5-fold cross-validation are shown in Table 1.
+From Soup: 107 Herein, we compared the performance of MKLoc on ‘multi-localized Proteins’ as well as on the ‘combined set of single and multi-localized proteins’ with those of existing location prediction systems. We trained our system using the combined dataset and measured two sets of results; one set for the multi-localized proteins only and the other set for the combined set of single- and multi-localized proteins.
+ ###### 
+From cou.: 108 From Table 1, we can see that for most of the runs, the best model was found for the value of C = 25. Finally, we used C = 25 in all 5 complete runs of the 5-fold cross-validation and averaged our results on the combined dataset to ensure unbiased model selection.
+From Soup: 108 Table 2A shows comparisons of the F 1 -label score and the accuracy obtained by MKLoc with those obtained by other multi-location predictors for multi-localized proteins only (MDLoc, BNCs, YLoc+, Euk-mPLoc, WoLF PSORT, and KnowPred site , as reported in Table 1 of the study reported by Ramanuja Simha et al. 38 ). In addition to the tabular presentation shown in Table 2A , comparisons of the F 1 -label and Acc results are also graphically shown in Fig. 1 and 2 , respectively. Note that all the abovementioned predictors used the same set of multi-localized proteins. The table as well as the figures show that MKLoc performs better than the existing top systems, including MDLoc, YLoc+, and BNCs, which have the best performances reported to date.
+ ###### 
+From cou.: 109 We also implemented and tuned parameters (C and sigma for the RBF kernel) for the single kernel-based SVM with the same procedure used for the MKL-based SVM; finally, we used C = 20 and sigma = 21 in all 5 complete runs of the 5-fold cross-validations and averaged our results on the combined dataset.
+From Soup: 109 Table 2B shows the per-location prediction results for multi-localized proteins obtained by MKLoc compared with those systems reported by MDLoc. 38 Because the per-location predictions for the other systems (BNCs, Euk-mPLoc, WoLF PSORT, and KnowPred site ) are not publicly available, we could not show these findings. In Table 2B , the results are shown for the five locations with the largest number of associated proteins. However, for each location s i , we showed Multilabel-Precision (Pre s i ) and Multilabel-Recall (Rec s i ) as well as standard precision (Pre-Std s i ) and recall (Rec-Std s i ). The results show that in almost all the cases, these four measures obtained from MKLoc are significantly higher than those obtained using MDLoc and YLoc+ for all the protein locations.
+ ###### 
+From cou.: 110 Herein, we compared the performance of MKLoc on ‘multi-localized Proteins’ as well as on the ‘combined set of single and multi-localized proteins’ with those of existing location prediction systems. We trained our system using the combined dataset and measured two sets of results; one set for the multi-localized proteins only and the other set for the combined set of single- and multi-localized proteins.
+From Soup: 110 Table 3A shows comparative studies of the F 1 score and the accuracy obtained by MKLoc with those obtained by other multi-location predictors for the combined dataset (single kernel-based SVM and BNCs, as reported in Table 2 of the study reported by Ramanuja Simha et al. 8 ). In addition to the tabular presentation shown in Table 3A , comparisons of the F 1 and Acc results are also graphically shown in Fig. 3 and 4 , respectively. It is clear from the table as well as from the figures that MKLoc provides better accuracy than the existing systems. Moreover, for the experiments described in this study, we performed 5 runs of the 5-fold cross validation, where the total run time including the tuning parameter is nearly 30 hours (wall clock), which is about half of the time required for implementation of BNCs. In addition to it, another finding from this table is that the F 1 value and accuracy found from our implementation with a single kernel-based SVM are better than those obtained from a single kernel SVM 8 and are very close to those obtained from MKLoc. The main drawback of a single kernel based SVM is that the required execution time is about double that of MKLoc, as shown in Table 3A . Note that the F 1 values, accuracies, and execution times for the other systems, 8,38 except for BNCs, have not been compared as they are not publicly available.
+ ###### 
+From cou.: 111 Table 2A shows comparisons of the F1-label score and the accuracy obtained by MKLoc with those obtained by other multi-location predictors for multi-localized proteins only (MDLoc, BNCs, YLoc+, Euk-mPLoc, WoLF PSORT, and KnowPredsite, as reported in Table 1 of the study reported by Ramanuja Simha et al.38). In addition to the tabular presentation shown in Table 2A, comparisons of the F1-label and Acc results are also graphically shown in Fig. 1 and 2, respectively. Note that all the abovementioned predictors used the same set of multi-localized proteins. The table as well as the figures show that MKLoc performs better than the existing top systems, including MDLoc, YLoc+, and BNCs, which have the best performances reported to date.
+From Soup: 111 Table 3B shows the comparative studies of the results of per-location predictions for the combined dataset of both single- and multi-localized proteins obtained by MKLoc and those obtained by MDLoc and BNCs. 8,38 It is obvious from the table that the recall values of MKLoc are somewhat lower than those of MDLoc, whereas the precision of MKLoc is typically higher.
+ ###### 
+From cou.: 112 Table 2B shows the per-location prediction results for multi-localized proteins obtained by MKLoc compared with those systems reported by MDLoc.38 Because the per-location predictions for the other systems (BNCs, Euk-mPLoc, WoLF PSORT, and KnowPredsite) are not publicly available, we could not show these findings. In Table 2B, the results are shown for the five locations with the largest number of associated proteins. However, for each location si, we showed Multilabel-Precision (Presi) and Multilabel-Recall (Recsi) as well as standard precision (Pre-Stdsi) and recall (Rec-Stdsi). The results show that in almost all the cases, these four measures obtained from MKLoc are significantly higher than those obtained using MDLoc and YLoc+ for all the protein locations.
+From Soup: 112 The following point may be the reason why the proposed predictor has improved success rates over single kernel based SVM. MKLoc uses a combined kernel that has been derived from all the kernels with different rates of contribution from the set of base kernels defined in the model selection Section 4.1 to build the SVM based classifier. Herein, note that the influences or weights of all kernels have been derived using MKL. On the other hand, the main reason that the time is shorter than that for single kernel based SVM is that MKLoc avoids the grid search operation for the value of sigma, which is mandatory for the single kernel based SVM.
+ ###### 
+From cou.: 113 Table 3A shows comparative studies of the F1 score and the accuracy obtained by MKLoc with those obtained by other multi-location predictors for the combined dataset (single kernel-based SVM and BNCs, as reported in Table 2 of the study reported by Ramanuja Simha et al.8). In addition to the tabular presentation shown in Table 3A, comparisons of the F1 and Acc results are also graphically shown in Fig. 3 and 4, respectively. It is clear from the table as well as from the figures that MKLoc provides better accuracy than the existing systems. Moreover, for the experiments described in this study, we performed 5 runs of the 5-fold cross validation, where the total run time including the tuning parameter is nearly 30 hours (wall clock), which is about half of the time required for implementation of BNCs. In addition to it, another finding from this table is that the F1 value and accuracy found from our implementation with a single kernel-based SVM are better than those obtained from a single kernel SVM8 and are very close to those obtained from MKLoc. The main drawback of a single kernel based SVM is that the required execution time is about double that of MKLoc, as shown in Table 3A. Note that the F1 values, accuracies, and execution times for the other systems,8,38 except for BNCs, have not been compared as they are not publicly available.
+From Soup: 113 In this study, we presented a protein subcellular localization prediction system using an MKL based SVM. MKLoc takes the advantage of multiple kernel learning to overcome the problem of finding an actual sigma value for the RBF kernel when it is used in a single kernel based SVM. Our results demonstrate the utility of multiple kernel learning in the prediction process and show that the performance of MKLoc is better than that of the current state-of-the-art systems.
+ ###### 
+From cou.: 114 Table 3B shows the comparative studies of the results of per-location predictions for the combined dataset of both single- and multi-localized proteins obtained by MKLoc and those obtained by MDLoc and BNCs.8,38 It is obvious from the table that the recall values of MKLoc are somewhat lower than those of MDLoc, whereas the precision of MKLoc is typically higher.
+From Soup: 114 Finally, note that although MKLoc can achieve performance superior to that of the existing systems, it mainly improves the classifier. In the future, we will try to improve the classifier to consider other information, such as location inter-dependencies, in addition to feature information. Moreover, we shall make efforts in our future work to provide a web server for the method presented in this study. In conclusion, we believe that this method may be extended to other biological problems.
+ ###### 
+From cou.: 115 The following point may be the reason why the proposed predictor has improved success rates over single kernel based SVM. MKLoc uses a combined kernel that has been derived from all the kernels with different rates of contribution from the set of base kernels defined in the model selection Section 4.1 to build the SVM based classifier. Herein, note that the influences or weights of all kernels have been derived using MKL. On the other hand, the main reason that the time is shorter than that for single kernel based SVM is that MKLoc avoids the grid search operation for the value of sigma, which is mandatory for the single kernel based SVM.
+From Soup: 115 K. C. Chou and H. B. Shen, Recent progress in protein subcellular location prediction, Anal. Biochem. , 2007, 370 (1), 1–16 CrossRef CAS PubMed .
+ ###### 
+From cou.: 116 In this study, we presented a protein subcellular localization prediction system using an MKL based SVM. MKLoc takes the advantage of multiple kernel learning to overcome the problem of finding an actual sigma value for the RBF kernel when it is used in a single kernel based SVM. Our results demonstrate the utility of multiple kernel learning in the prediction process and show that the performance of MKLoc is better than that of the current state-of-the-art systems.
+From Soup: 116 K. C. Chou and H. B. Shen, Cell-PLoc 2.0: an improved package of web-servers for predicting subcellular localization of proteins in various organisms, Nat. Sci. , 2010, 2 (10), 1090 CAS .
+ ###### 
+From cou.: 117 Finally, note that although MKLoc can achieve performance superior to that of the existing systems, it mainly improves the classifier. In the future, we will try to improve the classifier to consider other information, such as location inter-dependencies, in addition to feature information. Moreover, we shall make efforts in our future work to provide a web server for the method presented in this study. In conclusion, we believe that this method may be extended to other biological problems.
+From Soup: 117 X. Wang, G. Z. Li, J. M. Liu and R. W. Zhao, Multi-label learning for protein subcellular location prediction, Bioinformatics and Biomedicine (BIBM), 2011 IEEE International Conference on, IEEE, 2011, pp. 282–285.
+ ###### 
+From cou.: 118 K. C. Chou and H. B. Shen, Recent progress in protein subcellular location prediction, Anal. Biochem., 2007, 370(1), 1–16 CrossRef CAS PubMed .
+From Soup: 118 P. Du and C. Xu, Predicting multisite protein subcellular locations: progress and challenges, Expert Rev. Proteomics , 2013, 10 (3), 227–237 CrossRef CAS PubMed .
+ ###### 
+From cou.: 119 K. C. Chou and H. B. Shen, Cell-PLoc 2.0: an improved package of web-servers for predicting subcellular localization of proteins in various organisms, Nat. Sci., 2010, 2(10), 1090 CAS .
+From Soup: 119 S. Wan, M. W. Mak and S. Y. Kung, GOASVM: Protein subcellular localization prediction based on gene ontology annotation and SVM, Acoustics, Speech and Signal Processing (ICASSP), 2012 IEEE International Conference on, IEEE, 2012, pp. 2229–2232.
+ ###### 
+From cou.: 120 X. Wang, G. Z. Li, J. M. Liu and R. W. Zhao, Multi-label learning for protein subcellular location prediction, Bioinformatics and Biomedicine (BIBM), 2011 IEEE International Conference on, IEEE, 2011, pp. 282–285.
+From Soup: 120 W. Y. Yang, B. L. Lu and Y. Yang, A comparative study on feature extraction from protein sequences for subcellular localization prediction, Computational Intelligence and Bioinformatics and Computational Biology, 2006. CIBCB'06. 2006 IEEE Symposium on, IEEE, 2006, pp. 1–8.
+ ###### 
+From cou.: 121 P. Du and C. Xu, Predicting multisite protein subcellular locations: progress and challenges, Expert Rev. Proteomics, 2013, 10(3), 227–237 CrossRef CAS PubMed .
+From Soup: 121 S. Wan, M. W. Mak and S. Y. Kung, mGOASVM: Multi-label protein subcellular localization based on gene ontology and support vector machines, BMC Bioinf. , 2012, 13 (1), 1 CrossRef PubMed .
+ ###### 
+From cou.: 122 S. Wan, M. W. Mak and S. Y. Kung, GOASVM: Protein subcellular localization prediction based on gene ontology annotation and SVM, Acoustics, Speech and Signal Processing (ICASSP), 2012 IEEE International Conference on, IEEE, 2012, pp. 2229–2232.
+From Soup: 122 R. Simha and H. Shatkay, Protein (multi-) location prediction: using location inter-dependencies in a probabilistic framework, Algorithms Mol. Biol. , 2014, 9 (1), 1 CrossRef PubMed .
+ ###### 
+From cou.: 123 W. Y. Yang, B. L. Lu and Y. Yang, A comparative study on feature extraction from protein sequences for subcellular localization prediction, Computational Intelligence and Bioinformatics and Computational Biology, 2006. CIBCB'06. 2006 IEEE Symposium on, IEEE, 2006, pp. 1–8.
+From Soup: 123 E. I. Petsalaki, P. G. Bagos, Z. I. Litou and S. J. Hamodrakas, PredSL: a tool for the N-terminal sequence-based prediction of protein subcellular localization, Genomics, Proteomics Bioinf. , 2006, 4 (1), 48–55 CrossRef CAS .
+ ###### 
+From cou.: 124 S. Wan, M. W. Mak and S. Y. Kung, mGOASVM: Multi-label protein subcellular localization based on gene ontology and support vector machines, BMC Bioinf., 2012, 13(1), 1 CrossRef PubMed .
+From Soup: 124 H. Bannai, Y. Tamada, O. Maruyama, K. Nakai and S. Miyano, Extensive feature detection of N-terminal protein sorting signals, Bioinformatics , 2002, 18 (2), 298–305 CrossRef CAS PubMed .
+ ###### 
+From cou.: 125 R. Simha and H. Shatkay, Protein (multi-) location prediction: using location inter-dependencies in a probabilistic framework, Algorithms Mol. Biol., 2014, 9(1), 1 CrossRef PubMed .
+From Soup: 125 P. Horton, K. J. Park, T. Obayashi, N. Fujita, H. Harada, C. J. Adams-Collier and K. Nakai, WoLF PSORT: protein localization predictor, Nucleic Acids Res. , 2007, 35 (suppl 2), W585–W587 CrossRef PubMed .
+ ###### 
+From cou.: 126 E. I. Petsalaki, P. G. Bagos, Z. I. Litou and S. J. Hamodrakas, PredSL: a tool for the N-terminal sequence-based prediction of protein subcellular localization, Genomics, Proteomics Bioinf., 2006, 4(1), 48–55 CrossRef CAS .
+From Soup: 126 O. Emanuelsson, H. Nielsen, S. Brunak and G. von Heijne, Predicting subcellular localization of proteins based on their N-terminal amino acid sequence, J. Mol. Biol. , 2000, 300 (4), 1005–1016 CrossRef CAS PubMed .
+ ###### 
+From cou.: 127 H. Bannai, Y. Tamada, O. Maruyama, K. Nakai and S. Miyano, Extensive feature detection of N-terminal protein sorting signals, Bioinformatics, 2002, 18(2), 298–305 CrossRef CAS PubMed .
+From Soup: 127 H. Nielsen, J. Engelbrecht, S. Brunak and G. V. Heijne, A neural network method for identification of prokaryotic and eukaryotic signal peptides and prediction of their cleavage sites, Int. J. Neural Syst. , 1997, 8 (05n06), 581–599 CrossRef CAS PubMed .
+ ###### 
+From cou.: 128 P. Horton, K. J. Park, T. Obayashi, N. Fujita, H. Harada, C. J. Adams-Collier and K. Nakai, WoLF PSORT: protein localization predictor, Nucleic Acids Res., 2007, 35(suppl 2), W585–W587 CrossRef PubMed .
+From Soup: 128 X. Guo, F. Liu, Y. Ju, Z. Wang and C. Wang, Human Protein Subcellular Localization with Integrated Source and Multi-label Ensemble Classifier, Sci. Rep. , 2016, 6 CAS .
+ ###### 
+From cou.: 129 O. Emanuelsson, H. Nielsen, S. Brunak and G. von Heijne, Predicting subcellular localization of proteins based on their N-terminal amino acid sequence, J. Mol. Biol., 2000, 300(4), 1005–1016 CrossRef CAS PubMed .
+From Soup: 129 B. R. King and C. Guda, ngLOC: an n-gram-based Bayesian method for estimating the subcellular proteomes of eukaryotes, Genome Biol. , 2007, 8 (5), R68 CrossRef PubMed .
+ ###### 
+From cou.: 130 H. Nielsen, J. Engelbrecht, S. Brunak and G. V. Heijne, A neural network method for identification of prokaryotic and eukaryotic signal peptides and prediction of their cleavage sites, Int. J. Neural Syst., 1997, 8(05n06), 581–599 CrossRef CAS PubMed .
+From Soup: 130 H. Nakashima and K. Nishikawa, Discrimination of intracellular and extracellular proteins using amino acid composition and residue-pair frequencies, J. Mol. Biol. , 1994, 238 (1), 54–61 CrossRef CAS PubMed .
+ ###### 
+From cou.: 131 X. Guo, F. Liu, Y. Ju, Z. Wang and C. Wang, Human Protein Subcellular Localization with Integrated Source and Multi-label Ensemble Classifier, Sci. Rep., 2016, 6 CAS .
+From Soup: 131 K. J. Park and M. Kanehisa, Prediction of protein subcellular locations by support vector machines using compositions of amino acids and amino acid pairs, Bioinformatics , 2003, 19 (13), 1656–1663 CrossRef CAS PubMed .
+ ###### 
+From cou.: 132 B. R. King and C. Guda, ngLOC: an n-gram-based Bayesian method for estimating the subcellular proteomes of eukaryotes, Genome Biol., 2007, 8(5), R68 CrossRef PubMed .
+From Soup: 132 K. C. Chou and Y. D. Cai, Prediction and classification of protein subcellular location—sequence-order effect and pseudo amino acid composition, J. Cell. Biochem. , 2003, 90 (6), 1250–1260 CrossRef CAS PubMed .
+ ###### 
+From cou.: 133 H. Nakashima and K. Nishikawa, Discrimination of intracellular and extracellular proteins using amino acid composition and residue-pair frequencies, J. Mol. Biol., 1994, 238(1), 54–61 CrossRef CAS PubMed .
+From Soup: 133 A. Höglund, P. Dönnes, T. Blum, H. W. Adolph and O. Kohlbacher, MultiLoc: prediction of protein subcellular localization using N-terminal targeting sequences, sequence motifs and amino acid composition, Bioinformatics , 2006, 22 (10), 1158–1165 CrossRef PubMed .
+ ###### 
+From cou.: 134 K. J. Park and M. Kanehisa, Prediction of protein subcellular locations by support vector machines using compositions of amino acids and amino acid pairs, Bioinformatics, 2003, 19(13), 1656–1663 CrossRef CAS PubMed .
+From Soup: 134 S. Wan, M. W. Mak and S. Y. Kung, GOASVM: a subcellular location predictor by incorporating term-frequency gene ontology into the general form of Chou's pseudo-amino acid composition, J. Theor. Biol. , 2013, 323 , 40–48 CrossRef CAS PubMed .
+ ###### 
+From cou.: 135 K. C. Chou and Y. D. Cai, Prediction and classification of protein subcellular location—sequence-order effect and pseudo amino acid composition, J. Cell. Biochem., 2003, 90(6), 1250–1260 CrossRef CAS PubMed .
+From Soup: 135 K. C. Chou and Y. D. Cai, Using functional domain composition and support vector machines for prediction of protein subcellular location, J. Biol. Chem. , 2002, 277 (48), 45765–45769 CrossRef CAS PubMed .
+ ###### 
+From cou.: 136 A. Höglund, P. Dönnes, T. Blum, H. W. Adolph and O. Kohlbacher, MultiLoc: prediction of protein subcellular localization using N-terminal targeting sequences, sequence motifs and amino acid composition, Bioinformatics, 2006, 22(10), 1158–1165 CrossRef PubMed .
+From Soup: 136 M. S. Scott, D. Y. Thomas and M. T. Hallett, Predicting subcellular localization via protein motif co-occurrence, Genome Res. , 2004, 14 (10a), 1957–1966 CrossRef CAS PubMed .
+ ###### 
+From cou.: 137 S. Wan, M. W. Mak and S. Y. Kung, GOASVM: a subcellular location predictor by incorporating term-frequency gene ontology into the general form of Chou's pseudo-amino acid composition, J. Theor. Biol., 2013, 323, 40–48 CrossRef CAS PubMed .
+From Soup: 137 K. Lee, H. Y. Chuang, A. Beyer, M. K. Sung, W. K. Huh, B. Lee and T. Ideker, Protein networks markedly improve prediction of subcellular localization in multiple eukaryotic species, Nucleic Acids Res. , 2008, 36 (20), e136 CrossRef PubMed .
+ ###### 
+From cou.: 138 K. C. Chou and Y. D. Cai, Using functional domain composition and support vector machines for prediction of protein subcellular location, J. Biol. Chem., 2002, 277(48), 45765–45769 CrossRef CAS PubMed .
+From Soup: 138 C. J. Shin, S. Wong, M. J. Davis and M. A. Ragan, Protein-protein interaction as a predictor of subcellular location, BMC Syst. Biol. , 2009, 3 (1), 1 CrossRef PubMed .
+ ###### 
+From cou.: 139 M. S. Scott, D. Y. Thomas and M. T. Hallett, Predicting subcellular localization via protein motif co-occurrence, Genome Res., 2004, 14(10a), 1957–1966 CrossRef CAS PubMed .
+From Soup: 139 H. N. Lin, C. T. Chen, T. Y. Sung, S. Y. Ho and W. L. Hsu, Protein subcellular localization prediction of eukaryotes using a knowledge-based approach, BMC Bioinf. , 2009, 10 (15), 1 Search PubMed .
+ ###### 
+From cou.: 140 K. Lee, H. Y. Chuang, A. Beyer, M. K. Sung, W. K. Huh, B. Lee and T. Ideker, Protein networks markedly improve prediction of subcellular localization in multiple eukaryotic species, Nucleic Acids Res., 2008, 36(20), e136 CrossRef PubMed .
+From Soup: 140 M. W. Mak, J. Guo and S. Y. Kung, PairProSVM: protein subcellular localization based on local pairwise profile alignment and SVM, IEEE/ACM Trans. Comput. Biol. Bioinf. , 2008, 5 (3), 416–422 CrossRef CAS PubMed .
+ ###### 
+From cou.: 141 C. J. Shin, S. Wong, M. J. Davis and M. A. Ragan, Protein-protein interaction as a predictor of subcellular location, BMC Syst. Biol., 2009, 3(1), 1 CrossRef PubMed .
+From Soup: 141 S. Wan, M. W. Mak and S. Y. Kung, Sparse regressions for predicting and interpreting subcellular localization of multi-label proteins, BMC Bioinf. , 2016, 17 (1), 1 CrossRef PubMed .
+ ###### 
+From cou.: 142 H. N. Lin, C. T. Chen, T. Y. Sung, S. Y. Ho and W. L. Hsu, Protein subcellular localization prediction of eukaryotes using a knowledge-based approach, BMC Bioinf., 2009, 10(15), 1 Search PubMed .
+From Soup: 142 X. Wang, H. Li, Q. Zhang and R. Wang, Predicting Subcellular Localization of Apoptosis Proteins Combining GO Features of Homologous Proteins and Distance Weighted KNN Classifier, BioMed Res. Int. , 2016, 1793272 Search PubMed .
+ ###### 
+From cou.: 143 M. W. Mak, J. Guo and S. Y. Kung, PairProSVM: protein subcellular localization based on local pairwise profile alignment and SVM, IEEE/ACM Trans. Comput. Biol. Bioinf., 2008, 5(3), 416–422 CrossRef CAS PubMed .
+From Soup: 143 K. C. Chou and H. B. Shen, Euk-mPLoc: a fusion classifier for large-scale eukaryotic protein subcellular location prediction by incorporating multiple sites, J. Proteome Res. , 2007, 6 (5), 1728–1734 CrossRef CAS PubMed .
+ ###### 
+From cou.: 144 S. Wan, M. W. Mak and S. Y. Kung, Sparse regressions for predicting and interpreting subcellular localization of multi-label proteins, BMC Bioinf., 2016, 17(1), 1 CrossRef PubMed .
+From Soup: 144 X. Xiao, Z. C. Wu and K. C. Chou, A multi-label classifier for predicting the subcellular localization of gram-negative bacterial proteins with both single and multiple sites, PLoS One , 2011, 6 (6), e20592 CAS .
+ ###### 
+From cou.: 145 X. Wang, H. Li, Q. Zhang and R. Wang, Predicting Subcellular Localization of Apoptosis Proteins Combining GO Features of Homologous Proteins and Distance Weighted KNN Classifier, BioMed Res. Int., 2016, 1793272 Search PubMed .
+From Soup: 145 C. S. Yu, C. W. Cheng, W. C. Su, K. C. Chang, S. W. Huang, J. K. Hwang and C. H. Lu, CELLO2GO: a web server for protein subCELlular LOcalization prediction with functional gene ontology annotation, PLoS One , 2014, 9 (6), e99368 Search PubMed .
+ ###### 
+From cou.: 146 K. C. Chou and H. B. Shen, Euk-mPLoc: a fusion classifier for large-scale eukaryotic protein subcellular location prediction by incorporating multiple sites, J. Proteome Res., 2007, 6(5), 1728–1734 CrossRef CAS PubMed .
+From Soup: 146 Z. Lu, D. Szafron, R. Greiner, P. Lu, D. S. Wishart, B. Poulin and R. Eisner, Predicting subcellular localization of proteins using machine-learned classifiers, Bioinformatics , 2004, 20 (4), 547–556 CrossRef CAS PubMed .
+ ###### 
+From cou.: 147 X. Xiao, Z. C. Wu and K. C. Chou, A multi-label classifier for predicting the subcellular localization of gram-negative bacterial proteins with both single and multiple sites, PLoS One, 2011, 6(6), e20592 CAS .
+From Soup: 147 R. Nair and B. Rost, Inferring sub-cellular localization through automated lexical analysis, Bioinformatics , 2002, 18 (suppl 1), S78–S86 CrossRef PubMed .
+ ###### 
+From cou.: 148 C. S. Yu, C. W. Cheng, W. C. Su, K. C. Chang, S. W. Huang, J. K. Hwang and C. H. Lu, CELLO2GO: a web server for protein subCELlular LOcalization prediction with functional gene ontology annotation, PLoS One, 2014, 9(6), e99368 Search PubMed .
+From Soup: 148 S. Brady and H. Shatkay, EpiLoc: a (working) text-based system for predicting protein subcellular location, Pacific Symposium on Biocomputing , 2008, vol. 13, pp. 604–615 Search PubMed .
+ ###### 
+From cou.: 149 Z. Lu, D. Szafron, R. Greiner, P. Lu, D. S. Wishart, B. Poulin and R. Eisner, Predicting subcellular localization of proteins using machine-learned classifiers, Bioinformatics, 2004, 20(4), 547–556 CrossRef CAS PubMed .
+From Soup: 149 A. Fyshe, Y. Liu, D. Szafron, R. Greiner and P. Lu, Improving subcellular localization prediction using text classification and the gene ontology, Bioinformatics , 2008, 24 (21), 2512–2517 CrossRef CAS PubMed .
+ ###### 
+From cou.: 150 R. Nair and B. Rost, Inferring sub-cellular localization through automated lexical analysis, Bioinformatics, 2002, 18(suppl 1), S78–S86 CrossRef PubMed .
+From Soup: 150 S. Briesemeister, J. Rahnenführer and O. Kohlbacher, Going from where to why—interpretable prediction of protein subcellular localization, Bioinformatics , 2010, 26 (9), 1232–1238 CrossRef CAS PubMed .
+ ###### 
+From cou.: 151 S. Brady and H. Shatkay, EpiLoc: a (working) text-based system for predicting protein subcellular location, Pacific Symposium on Biocomputing, 2008, vol. 13, pp. 604–615 Search PubMed .
+From Soup: 151 T. Blum, S. Briesemeister and O. Kohlbacher, MultiLoc2: integrating phylogeny and Gene Ontology terms improves subcellular protein localization prediction, BMC Bioinf. , 2009, 10 (1), 1 CrossRef PubMed .
+ ###### 
+From cou.: 152 A. Fyshe, Y. Liu, D. Szafron, R. Greiner and P. Lu, Improving subcellular localization prediction using text classification and the gene ontology, Bioinformatics, 2008, 24(21), 2512–2517 CrossRef CAS PubMed .
+From Soup: 152 R. Simha, S. Briesemeister, O. Kohlbacher and H. Shatkay, Protein (multi-) location prediction: utilizing interdependencies via a generative model, Bioinformatics , 2015, 31 (12), i365–i374 CrossRef CAS PubMed .
+ ###### 
+From cou.: 153 S. Briesemeister, J. Rahnenführer and O. Kohlbacher, Going from where to why—interpretable prediction of protein subcellular localization, Bioinformatics, 2010, 26(9), 1232–1238 CrossRef CAS PubMed .
+From Soup: 153 L. Li, Y. Zhang, L. Zou, C. Li, B. Yu, X. Zheng and Y. Zhou, An ensemble classifier for eukaryotic protein subcellular location prediction using gene ontology categories and amino acid hydrophobicity, PLoS One , 2012, 7 (1), e31057 CAS .
+ ###### 
+From cou.: 154 T. Blum, S. Briesemeister and O. Kohlbacher, MultiLoc2: integrating phylogeny and Gene Ontology terms improves subcellular protein localization prediction, BMC Bioinf., 2009, 10(1), 1 CrossRef PubMed .
+From Soup: 154 L. Zou, Z. Wang and J. Huang, Prediction of subcellular localization of eukaryotic proteins using position-specific profiles and neural network with weighted inputs, J. Genet. Genomics , 2007, 34 (12), 1080–1087 CrossRef CAS PubMed .
+ ###### 
+From cou.: 155 R. Simha, S. Briesemeister, O. Kohlbacher and H. Shatkay, Protein (multi-) location prediction: utilizing interdependencies via a generative model, Bioinformatics, 2015, 31(12), i365–i374 CrossRef CAS PubMed .
+From Soup: 155 J. He, H. Gu and W. Liu, Imbalanced multi-modal multi-label learning for subcellular localization prediction of human proteins with both single and multiple sites, PLoS One , 2012, 7 (6), e37155 CAS .
+ ###### 
+From cou.: 156 L. Li, Y. Zhang, L. Zou, C. Li, B. Yu, X. Zheng and Y. Zhou, An ensemble classifier for eukaryotic protein subcellular location prediction using gene ontology categories and amino acid hydrophobicity, PLoS One, 2012, 7(1), e31057 CAS .
+From Soup: 156 X. Xiao, Z. C. Wu and K. C. Chou, iLoc-Virus: A multi-label learning classifier for identifying the subcellular localization of virus proteins with both single and multiple sites, J. Theor. Biol. , 2011, 284 (1), 42–51 CrossRef CAS PubMed .
+ ###### 
+From cou.: 157 L. Zou, Z. Wang and J. Huang, Prediction of subcellular localization of eukaryotic proteins using position-specific profiles and neural network with weighted inputs, J. Genet. Genomics, 2007, 34(12), 1080–1087 CrossRef CAS PubMed .
+From Soup: 157 M. A. M. Hasan, M. Nasser, B. Pal, S. Ahmad and M. K. I. Molla, Prediction of Multi-Label Protein Subcellular Location Using Support Vector Machine With Proper Kernel Selection. Second International Conference on Theory and Application of Statistics, 2015, p. 32.
+ ###### 
+From cou.: 158 J. He, H. Gu and W. Liu, Imbalanced multi-modal multi-label learning for subcellular localization prediction of human proteins with both single and multiple sites, PLoS One, 2012, 7(6), e37155 CAS .
+From Soup: 158 A. Thakur, A. Rajput and M. Kumar, MSLVP: prediction of multiple subcellular localization of viral proteins using a support vector machine, Mol. BioSyst. , 2016, 2572–2586 RSC .
+ ###### 
+From cou.: 159 X. Xiao, Z. C. Wu and K. C. Chou, iLoc-Virus: A multi-label learning classifier for identifying the subcellular localization of virus proteins with both single and multiple sites, J. Theor. Biol., 2011, 284(1), 42–51 CrossRef CAS PubMed .
+From Soup: 159 S. Wan, M. W. Mak and S. Y. Kung, Ensemble linear neighborhood propagation for predicting subchloroplast localization of multi-location proteins, J. Proteome Res. , 2016, 15 (12), 4755–4762 CrossRef CAS PubMed .
+ ###### 
+From cou.: 160 M. A. M. Hasan, M. Nasser, B. Pal, S. Ahmad and M. K. I. Molla, Prediction of Multi-Label Protein Subcellular Location Using Support Vector Machine With Proper Kernel Selection. Second International Conference on Theory and Application of Statistics, 2015, p. 32.
+From Soup: 160 L. Q. Li, H. Kuang, Y. Zhang, Y. Zhou, K. F. Wang and Y. Wan, Prediction of eukaryotic protein subcellular multilocalisation with a combined KNN-SVM ensemble classifier, J. Comput. Biol. Bioinf. Res. , 2011, 3 (2), 15–24 Search PubMed .
+ ###### 
+From cou.: 161 A. Thakur, A. Rajput and M. Kumar, MSLVP: prediction of multiple subcellular localization of viral proteins using a support vector machine, Mol. BioSyst., 2016, 2572–2586 RSC .
+From Soup: 161 S. Mei, Multi-label multi-kernel transfer learning for human protein subcellular localization, PLoS One , 2012, 7 (6), e37716 CAS .
+ ###### 
+From cou.: 162 S. Wan, M. W. Mak and S. Y. Kung, Ensemble linear neighborhood propagation for predicting subchloroplast localization of multi-location proteins, J. Proteome Res., 2016, 15(12), 4755–4762 CrossRef CAS PubMed .
+From Soup: 162 C. S. Ong and A. Zien, An automated combination of kernels for predicting protein subcellular localization, International Workshop on Algorithms in Bioinformatics , Springer, Berlin, Heidelberg, 2008, pp. 186–197 Search PubMed .
+ ###### 
+From cou.: 163 L. Q. Li, H. Kuang, Y. Zhang, Y. Zhou, K. F. Wang and Y. Wan, Prediction of eukaryotic protein subcellular multilocalisation with a combined KNN-SVM ensemble classifier, J. Comput. Biol. Bioinf. Res., 2011, 3(2), 15–24 Search PubMed .
+From Soup: 163 C. Y. Yeh, W. P. Su and S. J. Lee, An efficient multiple-kernel learning for pattern classification, Expert Syst. Appl. , 2013, 40 (9), 3491–3499 CrossRef .
+ ###### 
+From cou.: 164 S. Mei, Multi-label multi-kernel transfer learning for human protein subcellular localization, PLoS One, 2012, 7(6), e37716 CAS .
+From Soup: 164 M. Gönen and E. Alpaydın, Multiple kernel learning algorithms, J. Mach. Learn. Res. , 2011, 12 , 2211–2268 Search PubMed .
+ ###### 
+From cou.: 165 C. S. Ong and A. Zien, An automated combination of kernels for predicting protein subcellular localization, International Workshop on Algorithms in Bioinformatics, Springer, Berlin, Heidelberg, 2008, pp. 186–197 Search PubMed .
+From Soup: 165 G. R. Lanckriet, N. Cristianini, P. Bartlett, L. E. Ghaoui and M. I. Jordan, Learning the kernel matrix with semidefinite programming, J. Mach. Learn. Res. , 2004, 5 , 27–72 Search PubMed .
+ ###### 
+From cou.: 166 C. Y. Yeh, W. P. Su and S. J. Lee, An efficient multiple-kernel learning for pattern classification, Expert Syst. Appl., 2013, 40(9), 3491–3499 CrossRef .
+From Soup: 166 A. Rakotomamonjy, F. Bach, S. Canu and Y. Grandvalet, SimpleMKL, J. Mach. Learn. Res. , 2008, 9 , 2491–2521 Search PubMed .
+ ###### 
+From cou.: 167 M. Gönen and E. Alpaydın, Multiple kernel learning algorithms, J. Mach. Learn. Res., 2011, 12, 2211–2268 Search PubMed .
+From Soup: 167 S. Qiu and T. Lane, A framework for multiple kernel support vector regression and its applications to siRNA efficacy prediction, IEEE/ACM Trans. Comput. Biol. Bioinf. , 2009, 6 (2), 190–199 CrossRef CAS PubMed .
+ ###### 
+From cou.: 168 G. R. Lanckriet, N. Cristianini, P. Bartlett, L. E. Ghaoui and M. I. Jordan, Learning the kernel matrix with semidefinite programming, J. Mach. Learn. Res., 2004, 5, 27–72 Search PubMed .
+From Soup: 168 C. Cortes, M. Mohri and A. Rostamizadeh, Algorithms for learning kernels based on centered alignment, J. Mach. Learn. Res. , 2012, 13 (1), 795–828 Search PubMed .
+ ###### 
+From cou.: 169 A. Rakotomamonjy, F. Bach, S. Canu and Y. Grandvalet, SimpleMKL, J. Mach. Learn. Res., 2008, 9, 2491–2521 Search PubMed .
+From Soup: 169 C. Cortes, M. Mohri and A. Rostamizadeh, Learning non-linear combinations of kernels, Advances in neural information processing systems , 2009, pp. 396–404 Search PubMed .
+ ###### 
+From cou.: 170 S. Qiu and T. Lane, A framework for multiple kernel support vector regression and its applications to siRNA efficacy prediction, IEEE/ACM Trans. Comput. Biol. Bioinf., 2009, 6(2), 190–199 CrossRef CAS PubMed .
+From Soup: 170 X. Liu, L. Zhou, L. Wang, J. Zhang, J. Yin and D. Shen, An efficient radius-incorporated MKL algorithm for Alzheimer's disease prediction, Pattern Recogn. , 2015, 48 (7), 2141–2150 CrossRef .
+ ###### 
+From cou.: 171 C. Cortes, M. Mohri and A. Rostamizadeh, Algorithms for learning kernels based on centered alignment, J. Mach. Learn. Res., 2012, 13(1), 795–828 Search PubMed .
+From Soup: 171 A. Afkanpour, C. Szepesvári and M. Bowling, Alignment based kernel learning with a continuous set of base kernels, Mach. Learn. , 2013, 91 (3), 305–324 CrossRef .
+ ###### 
+From cou.: 172 C. Cortes, M. Mohri and A. Rostamizadeh, Learning non-linear combinations of kernels, Advances in neural information processing systems, 2009, pp. 396–404 Search PubMed .
+From Soup: 172 X. Liu, L. Wang, J. Zhang and J. Yin, Sample-adaptive multiple kernel learning. Twenty-Eighth AAAI Conference on Artificial Intelligence (AAAI-14) 2014, pp. 1975–1981.
+ ###### 
+From cou.: 173 X. Liu, L. Zhou, L. Wang, J. Zhang, J. Yin and D. Shen, An efficient radius-incorporated MKL algorithm for Alzheimer's disease prediction, Pattern Recogn., 2015, 48(7), 2141–2150 CrossRef .
+From Soup: 173 N. Nello Cristianini, A. Elisseeff, J. Shawe-Taylor and J. Kandola, On kernel-target alignment, Advances in Neural Information Processing Systems , 2001 Search PubMed .
+ ###### 
+From cou.: 174 A. Afkanpour, C. Szepesvári and M. Bowling, Alignment based kernel learning with a continuous set of base kernels, Mach. Learn., 2013, 91(3), 305–324 CrossRef .
+From Soup: 174 S. Wan, M. W. Mak and S. Y. Kung, mPLR-Loc: An adaptive decision multi-label classifier based on penalized logistic regression for protein subcellular localization prediction, Anal. Biochem. , 2015, 473 , 14–27 CrossRef CAS PubMed .
+ ###### 
+From cou.: 175 X. Liu, L. Wang, J. Zhang and J. Yin, Sample-adaptive multiple kernel learning. Twenty-Eighth AAAI Conference on Artificial Intelligence (AAAI-14) 2014, pp. 1975–1981.
+From Soup: 175 S. Zhang, X. Xia, J. Shen, Y. Zhou and Z. Sun, DBMLoc: a Database of proteins with multiple subcellular localizations, BMC Bioinf. , 2008, 9 (1), 127 CrossRef PubMed .
+ ###### 
+From cou.: 176 N. Nello Cristianini, A. Elisseeff, J. Shawe-Taylor and J. Kandola, On kernel-target alignment, Advances in Neural Information Processing Systems, 2001 Search PubMed .
+From Soup: 176 H. Shatkay, A. Höglund, S. Brady, T. Blum, P. Dönnes and O. Kohlbacher, SherLoc: high-accuracy prediction of protein subcellular localization by integrating text and protein sequence data, Bioinformatics , 2007, 23 (11), 1410–1417 CrossRef CAS PubMed .
+ ###### 
+From cou.: 177 S. Wan, M. W. Mak and S. Y. Kung, mPLR-Loc: An adaptive decision multi-label classifier based on penalized logistic regression for protein subcellular localization prediction, Anal. Biochem., 2015, 473, 14–27 CrossRef CAS PubMed .
+From Soup: 177 V. N. Vladimir and V. Vapnik, The nature of statistical learning theory , 1995 Search PubMed .
+ ###### 
+From cou.: 178 S. Zhang, X. Xia, J. Shen, Y. Zhou and Z. Sun, DBMLoc: a Database of proteins with multiple subcellular localizations, BMC Bioinf., 2008, 9(1), 127 CrossRef PubMed .
+From Soup: 178 B. Schölkopf and A. J. Smola, Learning with kernels: support vector machines, regularization, optimization, and beyond , MIT Press, 2002 Search PubMed .
+ ###### 
+From cou.: 179 H. Shatkay, A. Höglund, S. Brady, T. Blum, P. Dönnes and O. Kohlbacher, SherLoc: high-accuracy prediction of protein subcellular localization by integrating text and protein sequence data, Bioinformatics, 2007, 23(11), 1410–1417 CrossRef CAS PubMed .
+From Soup: 179 M. A. M. Hasan, M. Nasser, B. Pal and S. Ahmad, Support vector machine and random forest modeling for intrusion detection system (IDS), Journal of Intelligent Learning Systems and Applications , 2014, 6 (1), 45 CrossRef .
+ ###### 
+From cou.: 180 V. N. Vladimir and V. Vapnik, The nature of statistical learning theory, 1995 Search PubMed .
+From Soup: 180 M. Al Mehedi Hasan, M. Nasser and B. Pal, On the KDD’99 Dataset: Support Vector Machine Based Intrusion Detection System (IDS) with Different Kernels, IJECCE , 2013, 4 (4), 1164–1170 Search PubMed .
+ ###### 
+From cou.: 181 B. Schölkopf and A. J. Smola, Learning with kernels: support vector machines, regularization, optimization, and beyond, MIT Press, 2002 Search PubMed .
+From Soup: 181 G. Tsoumakas, I. Katakis and I. Vlahavas, Mining multi-label data, Data mining and knowledge discovery handbook , Springer US, 2009, pp. 667–685 Search PubMed .
+ ###### 
+From cou.: 182 M. A. M. Hasan, M. Nasser, B. Pal and S. Ahmad, Support vector machine and random forest modeling for intrusion detection system (IDS), Journal of Intelligent Learning Systems and Applications, 2014, 6(1), 45 CrossRef .
+From Soup: 182 X. Wang, J. Zhang and G.-Z. Li, Multi-location gram-positive and gram-negative bacterial protein subcellular localization using gene ontology and multi-label classifier ensemble, BMC Bioinf. , 2015, 16 (suppl 12), S1 CrossRef PubMed .
+ ###### 
+From cou.: 183 M. Al Mehedi Hasan, M. Nasser and B. Pal, On the KDD’99 Dataset: Support Vector Machine Based Intrusion Detection System (IDS) with Different Kernels, IJECCE, 2013, 4(4), 1164–1170 Search PubMed .
+From Soup: 183 C. W. Hsu, C. C. Chang and C. J. Lin, A practical guide to support vector classification , Technical Report, National Taiwan University, 2003 Search PubMed .
+ ###### 
+From cou.: 184 G. Tsoumakas, I. Katakis and I. Vlahavas, Mining multi-label data, Data mining and knowledge discovery handbook, Springer US, 2009, pp. 667–685 Search PubMed .
+From Soup: 184 A. C. Tsoi and S. Tan, Recurrent neural networks: a constructive algorithm, and its properties, Neurocomputing , 1997, 15 (3), 309–326 CrossRef .
+ ###### 
+From cou.: 185 X. Wang, J. Zhang and G.-Z. Li, Multi-location gram-positive and gram-negative bacterial protein subcellular localization using gene ontology and multi-label classifier ensemble, BMC Bioinf., 2015, 16(suppl 12), S1 CrossRef PubMed .
+From Soup: 185 O. Chapelle, V. Vapnik, O. Bousquet and S. Mukherjee, Choosing multiple parameters for support vector machines, Mach. Learn. , 2002, 46 (1–3), 131–159 CrossRef .
+ ###### 
+From cou.: 186 C. W. Hsu, C. C. Chang and C. J. Lin, A practical guide to support vector classification, Technical Report, National Taiwan University, 2003 Search PubMed .
+From Soup: 186 K. Duan, S. S. Keerthi and A. N. Poo, Evaluation of simple performance measures for tuning SVM hyperparameters, Neurocomputing , 2003, 51 , 41–59 CrossRef .
+ ###### 
+From cou.: 187 A. C. Tsoi and S. Tan, Recurrent neural networks: a constructive algorithm, and its properties, Neurocomputing, 1997, 15(3), 309–326 CrossRef .
+From Soup: 187 S. Briesemeister, J. Rahnenführer and O. Kohlbacher, YLoc—an interpretable web server for predicting subcellular localization, Nucleic Acids Res. , 2010, 38 (suppl 2), W497–W502 CrossRef CAS PubMed .
+ ###### 
+From cou.: 188 O. Chapelle, V. Vapnik, O. Bousquet and S. Mukherjee, Choosing multiple parameters for support vector machines, Mach. Learn., 2002, 46(1–3), 131–159 CrossRef .
+From cou.: 189 K. Duan, S. S. Keerthi and A. N. Poo, Evaluation of simple performance measures for tuning SVM hyperparameters, Neurocomputing, 2003, 51, 41–59 CrossRef .
+From cou.: 190 S. Briesemeister, J. Rahnenführer and O. Kohlbacher, YLoc—an interpretable web server for predicting subcellular localization, Nucleic Acids Res., 2010, 38(suppl 2), W497–W502 CrossRef CAS PubMed .
