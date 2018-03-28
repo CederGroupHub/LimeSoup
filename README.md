@@ -11,7 +11,7 @@ Use for ECS Publisher:
 
 Use for RCS Publisher:
 
-    from LimeSoup.ECSSoup import RCSSoup
+    from LimeSoup.ECSSoup import RSCSoup
     data = RCSSoup.parse(html_str)
 
 parameters:
