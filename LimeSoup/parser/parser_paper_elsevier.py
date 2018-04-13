@@ -316,7 +316,8 @@ class ParserPaper:
                 section = self.soup.new_tag('section_h{}'.format(tag_name))
                 each_tag.wrap(section)
             except:
-                print(each_tag,'has no label.')
+                section = self.soup.new_tag('section_h0')
+                each_tag.wrap(section)
 
 #            for tag in inside_tags:
 #                section.append(tag)
