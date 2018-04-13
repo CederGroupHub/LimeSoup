@@ -61,7 +61,7 @@ class ParserSections(object):
                             'type': item.name,
                             'name': item.section_title.get_text(),
                             'content': []
-                            })          
+                            })
     
                     #print('Creation of self.content_section:',self.content_section)
             for content in item.contents:
@@ -79,7 +79,7 @@ class ParserSections(object):
                         self._deal()
                         content.extract()
             self.i += 1
-        self.data.append(self.content_section)
+        self.data = self.content_section
         lost_section = {
             'type': 'lost_content'
             , 'name': 'lost_content'

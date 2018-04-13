@@ -111,7 +111,7 @@ class ElsevierCollect(RuleIngredient):
             try:
                 abstract = parser.get_abstract(rule={'name': 'dc:description'})
                 if len(abstract) > 0:
-                    data.append([abstract])
+                    data.append(abstract)
             except:
                 pass
             try:
