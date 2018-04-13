@@ -338,6 +338,11 @@ class ParserPaper:
             except:
                 section = self.soup.new_tag('section_h0')
                 each_tag.wrap(section)
+<<<<<<< HEAD
+
+#            for tag in inside_tags:
+#                section.append(tag)
+>>>>>>> 8dea4cde6876fabdf65f4acb4894a9ed64fd7e5f
 
     def rename_tag(self, rule, new_name='section_h4'):
         tags = self.soup.find_all(**rule)
