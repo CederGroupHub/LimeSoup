@@ -1,5 +1,5 @@
 """
-ParserPaper is a class to parse XML papers from different publishers into
+This ParserPaper is a class to parse XML papers from different publishers into
 simples text. It can be used to feed a database.
 """
 
@@ -93,14 +93,6 @@ class ParserPaper:
 
     def get_title(self, rules):
         self.title = self.get(rules)
-    """ 
-        for rule in rules:
-            title = self.soup.find_all(**rule)
-            for item_title in title:
-                text = tl.convert_to_text(item_title.get_text())
-                self.title.append(text)
-                item_title.extract()
-    """
 
     def get(self, rules):
         results = list()
@@ -241,7 +233,37 @@ class ParserPaper:
             self.soup.sections.insert(0,paragraph_tag)
             paragraph_tag.wrap(self.soup.new_tag('section_h2'))
 
-    def move_title(self, rule):
+    def get_abstract(self, rule):
+        """
+        Get abstract when there is no body article
+        """
+        abstract = self.soup.find(**rule)
+        if abstract is not None:
+            abstract_text = abstract.get_text()
+            abstract_text = abstract_text.replace('Abstract', '')
+            abstract_text = abstract_text.replace('\n','')
+            abstract_text = abstract_text.replace('  ', '')
+            abstract_dict = {
+                            'type': 'section_h2',
+                            'name': 'Abstract',
+                            'content': [abstract_text]
+                            }
+            return abstract_dict
+
+    def raw_text(self,rule):
+        """
+        Get the text with no format if Elsevier does not provide the sections hierarchy.
+        """
+        raw_text = self.soup.find(**rule)
+        if raw_text is not None:
+            raw_text_dict = {
+                            'type': 'section_h2',
+                            'name': 'Raw text',
+                            'content': [raw_text.get_text()]
+                            }
+            return raw_text_dict
+
+    def move_journal_name(self, rule):
         """
         Move journal name out of the meta part.
         """
@@ -288,6 +310,7 @@ class ParserPaper:
             if 'section_h' in tag_next_sibling.name:
                 break
 
+
     def operation_tag_remove_space(self, rules):
         for rule in rules:
             tags = self.soup.find_all(**rule)
@@ -304,9 +327,6 @@ class ParserPaper:
         """
         tags = self.soup.find_all('ce:section')  # Tags corresponded to headings
         for each_tag in tags:
-#            inside_tags = [item for item in itertools.takewhile(
-#                lambda t: t.name not in [each_tag.name, 'script'],
-#                each_tag.next_siblings)]
             
             try:
                 tag_name_tmp = each_tag.find('label').string
@@ -316,10 +336,8 @@ class ParserPaper:
                 section = self.soup.new_tag('section_h{}'.format(tag_name))
                 each_tag.wrap(section)
             except:
-                print(each_tag,'has no label.')
-
-#            for tag in inside_tags:
-#                section.append(tag)
+                section = self.soup.new_tag('section_h0')
+                each_tag.wrap(section)
 
     def rename_tag(self, rule, new_name='section_h4'):
         tags = self.soup.find_all(**rule)

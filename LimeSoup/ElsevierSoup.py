@@ -16,7 +16,7 @@ __email__ = 'nicolasmingione@lbl.gov'
 class ElsevierRemoveTrash(RuleIngredient):
     @staticmethod
     def _parse(xml_str):
-        # Tags to be removed from the xml paper ECS
+        # Tags to be removed from the xml paper
         list_remove = [{'name': 'xocs:meta'},
                        {'name': 'tail'}]
         parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
@@ -28,9 +28,12 @@ class ElsevierCreateTags(RuleIngredient):
 
     @staticmethod
     def _parse(xml_str):
-        # This create a standard of sections tag name
         parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
-        parser.create_tag_sections()
+        try:
+            # This create a standard of sections tag name
+            parser.create_tag_sections()
+        except:
+            pass
         return parser.raw_xml
 
 class ElsevierMoveJournalName(RuleIngredient):
@@ -38,7 +41,10 @@ class ElsevierMoveJournalName(RuleIngredient):
     @staticmethod
     def _parse(xml_str):
         parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
-        parser.move_title(rule={'name': 'xocs:srctitle'})
+        try:
+            parser.move_journal_name(rule={'name': 'xocs:srctitle'})
+        except:
+            pass
         return parser.raw_xml
 
 
@@ -47,7 +53,10 @@ class ElsevierCreateTagAbstract(RuleIngredient):
     @staticmethod
     def _parse(xml_str):
         parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
-        parser.create_abstract(rule={'name': 'dc:description'})
+        try:
+            parser.create_abstract(rule={'name': 'dc:description'})
+        except:
+            pass
         return parser.raw_xml
 
 
@@ -56,7 +65,10 @@ class ElsevierReplaceSectionTag(RuleIngredient):
     @staticmethod
     def _parse(xml_str):
         parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
-        parser.strip_tags(rules=[{'name': 'ce:section'}])
+        try:
+            parser.strip_tags(rules=[{'name': 'ce:section'}])
+        except:
+            pass
         return parser.raw_xml
 
 class ElsevierRenameSectionTitleTag(RuleIngredient):
@@ -64,9 +76,19 @@ class ElsevierRenameSectionTitleTag(RuleIngredient):
     @staticmethod
     def _parse(xml_str):
         parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
-        parser.rename_tag({'name': 'section-title'}, 'section_title')
+        try:
+            parser.rename_tag({'name': 'section-title'}, 'section_title')
+        except:
+            pass
         return parser.raw_xml
 
+class ElsevierReformat(RuleIngredient):
+
+    @staticmethod
+    def _parse(xml_str):
+        new_xml = xml_str.replace('>/','>')
+        parser = ParserPaper(new_xml, parser_type='lxml-xml',debugging=False)
+        return parser.raw_xml
 
 class ElsevierCollect(RuleIngredient):
 
@@ -80,9 +102,24 @@ class ElsevierCollect(RuleIngredient):
             {'name': 'ce:title'}
         ]
         )
-        # Create tag from selection function in ParserPaper
-        parser.deal_with_sections()
-        data = parser.data_sections
+        try:
+            # Create tag from selection function in ParserPaper
+            parser.deal_with_sections()
+            data = parser.data_sections
+        except: # If Elsevier gives only the abstract OR gives only the raw text
+            data = []
+            try:
+                abstract = parser.get_abstract(rule={'name': 'dc:description'})
+                if len(abstract) > 0:
+                    data.append([abstract])
+            except:
+                pass
+            try:
+                raw_text = parser.raw_text(rule={'name': 'xocs:rawtext'})
+                if len(raw_text) > 0:
+                    data.append(raw_text)
+            except:
+                pass
         obj = {
             'DOI': '',
             'Title': parser.title,
@@ -93,11 +130,8 @@ class ElsevierCollect(RuleIngredient):
         return {'obj': obj, 'xml_txt': parser.raw_xml}
 
 
-"""
-Error where the paper has paragraphs (content) that is not inside of a tag,
-problem to recover these paragraphs. 
-"""
 ElsevierSoup = Soup()
+ElsevierSoup.add_ingredient(ElsevierReformat())
 ElsevierSoup.add_ingredient(ElsevierMoveJournalName())
 ElsevierSoup.add_ingredient(ElsevierCreateTagAbstract())
 ElsevierSoup.add_ingredient(ElsevierRemoveTrash())
