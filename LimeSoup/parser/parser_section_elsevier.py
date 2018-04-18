@@ -16,6 +16,7 @@ __date__ = "Apr 11 2018"
 
 import warnings
 import bs4
+import re
 
 from LimeSoup.parser import tools as tl
 
@@ -59,7 +60,7 @@ class ParserSections(object):
                     #print('IT\'S A HEADING!')
                     self.content_section.append({
                             'type': item.name,
-                            'name': item.section_title.get_text(),
+                            'name': re.sub('(?<!\.)\\n','',item.section_title.get_text()),
                             'content': []
                             })
     
@@ -88,12 +89,12 @@ class ParserSections(object):
         save_lost = False
         tags_lost = self.soup.find_all()
         for tag in tags_lost:
-            text1 = tl.convert_to_text(tag.get_text())
+            text1 = tl.convert_to_text(re.sub('(?<!\.)\\n','',tag.get_text()))
             if len(text1) > 0:
                 save_lost = True
                 lost_section['content'].append(text1)
             tag.extract()
-        text1 = tl.convert_to_text(self.soup1.get_text())
+        text1 = tl.convert_to_text(re.sub('(?<!\.)\\n','',self.soup1.get_text()))
         if len(text1) > 0:
             save_lost = True
             lost_section['content'].append(text1)
@@ -119,7 +120,7 @@ class ParserSections(object):
                 + "the name was defined as no_name_section"
             )
         ParserSections.number_paragraphs += 1
-        txt_paragraph = tl.convert_to_text(self.content.get_text())
+        txt_paragraph = tl.convert_to_text(re.sub('(?<!\.)\\n','',self.content.get_text()))
         #print('The paragraph is', txt_paragraph)
         if txt_paragraph != '' or txt_paragraph is None:
             #print('We add it to the content_section')
@@ -164,7 +165,7 @@ class ParserSections(object):
     def _deal_default(self):
         #print('DEFAULT')
         ParserSections.number_paragraphs += len(list(self.content.find_all('ce:para')))
-        txt_paragraph = tl.convert_to_text(self.content.get_text())
+        txt_paragraph = tl.convert_to_text(re.sub('(?<!\.)\\n','',self.content.get_text()))
         if self.content_section is None:
             self._create_section()
             warnings.warn(

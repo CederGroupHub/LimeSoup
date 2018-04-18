@@ -222,7 +222,7 @@ class ParserPaper:
         """
         abstract = self.soup.find(**rule)
         if abstract is not None:
-            abstract_text = abstract.get_text()
+            abstract_text = re.sub('(?<!\.)\\n','',abstract.get_text())
             paragraph_tag = self.soup.new_tag('ce:para')
             if 'Abstract' in abstract_text:
                 abstract_text = abstract_text.replace('Abstract','')
@@ -239,7 +239,7 @@ class ParserPaper:
         """
         abstract = self.soup.find(**rule)
         if abstract is not None:
-            abstract_text = abstract.get_text()
+            abstract_text = re.sub('(?<!\.)\\n','',abstract.get_text())
             abstract_text = abstract_text.replace('Abstract', '')
             abstract_text = abstract_text.replace('\n','')
             abstract_text = abstract_text.replace('  ', '')
@@ -338,11 +338,6 @@ class ParserPaper:
             except:
                 section = self.soup.new_tag('section_h0')
                 each_tag.wrap(section)
-<<<<<<< HEAD
-
-#            for tag in inside_tags:
-#                section.append(tag)
->>>>>>> 8dea4cde6876fabdf65f4acb4894a9ed64fd7e5f
 
     def rename_tag(self, rule, new_name='section_h4'):
         tags = self.soup.find_all(**rule)
