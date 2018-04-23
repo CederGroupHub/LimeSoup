@@ -30,7 +30,7 @@ if __name__ == '__main__':
             {
                 "$or": [
                         {"Parser": {"$exists": False}},
-                        {"Parser": False}
+                        {"Parser": True}
                         ]
             }
         ]
@@ -40,23 +40,28 @@ if __name__ == '__main__':
     coll_paper_raw_html = db["Paper_Raw_HTML"]
     coll_parser_papers = db["Parsered_Paper"]
 
-    data_list = list(coll_paper_raw_html.find())  # {"Publisher": "RSC"}
+    #data_list = list(coll_paper_raw_html.find())  # {"Publisher": "RSC"}
 
-    print(len(data_list))
+    #print(len(data_list))
 
-    exit()
+    #exit()
     fd = open('problems.txt', 'w')
 
     # for i_paper in range(5000):
     # data = data_list[i_paper]
     i_paper = 0
-    while True:
-        data = list(coll_paper_raw_html.find(query_mdb).limit(1))
+    datas = list(coll_paper_raw_html.find({"Publisher": "RSC"}).limit(2000))
+    for data in datas:
+    # while True:
+        #query_mdb = {'DOI': '10.1039/C4QI00128A'}
+        #query_mdb = {'DOI': '10.1039/B003394O'}
+        #data = list(coll_paper_raw_html.find(query_mdb).limit(1))
+        # data = list(coll_paper_raw_html.find({"Publisher": "RSC"}).limit(1))
         if len(data) == 0:
             break
         i_paper += 1
-        data = data[0]
-        data['Lock'] = True
+        #data = data[0]
+        # data['Lock'] = True
         id_paper = data["_id"]
         coll_paper_raw_html.update_one(
             {"_id": id_paper},
@@ -110,9 +115,13 @@ if __name__ == '__main__':
         # len(parser_tb.paragraphs)
 
         paragraphs_tb = ['Journal'] + parser_tb.span
-        # parser_tb.save_soup_to_file('clean_paper_tb_{}.html'.format(i_paper))
+
+        clean_text_html = parser_tb.soup.prettify()
 
         if len(paragraphs_tb) > len(plane_data['paragraphs']):
+            with open('clean_{:}.html'.format(i_paper), 'w') as f_html:
+                f_html.write(clean_text_html)
+
             data_new['problem'] = True
             data_new['problem_p'] = True
             print('Paragraphs error:')
@@ -120,6 +129,7 @@ if __name__ == '__main__':
             fd.write('problem paragraphs paper i: {}\n'.format(i_paper))
             # input('problem paragraphs')
             with open('error_paragraphs_paper_{}'.format(i_paper), 'w') as fd1:
+                fd1.write('DOI: {}\n'.format(doi_i_paper))
                 for i, heading_i in enumerate(paragraphs_tb):
                     try:
                         fd1.write('From cou.: {} {}\n'.format(i, paragraphs_tb[i]))
@@ -132,12 +142,16 @@ if __name__ == '__main__':
                         continue
 
         if len(parser_tb.headings) > len(plane_data['headings']):
+            with open('clean_{:}.html'.format(i_paper), 'w') as f_html:
+                f_html.write(clean_text_html)
+
             data_new['problem'] = True
             data_new['problem_h'] = True
             print('Heading error:')
             print(len(parser_tb.headings), ' from soup: ', len(plane_data['headings']))
             fd.write('problem headings paper i: {}\n'.format(i_paper))
             with open('error_headings_paper_{}'.format(i_paper), 'w') as fd1:
+                fd1.write('DOI: {}\n'.format(doi_i_paper))
                 for i, heading_i in enumerate(parser_tb.headings):
                     try:
                         fd1.write('from test: {} {}\n'.format(i, parser_tb.headings[i]))
@@ -157,6 +171,7 @@ if __name__ == '__main__':
             }
         )
         print('Salved os data!!!')
+        # exit()
             #except:
             #    print('error!!!')
         #print('----->', len(paragraphs_tb), len(plane_data['paragraphs']))
@@ -165,28 +180,28 @@ if __name__ == '__main__':
 #            input('continue...')
 
 
-def data1():
-    for raw_doc in tqdm(raw_col.find(), total=raw_col.find().count()):
-        if "parsed" in raw_doc and \
-                raw_doc["parsed"] and \
-                StrictVersion(raw_doc["parser_version"]) >= StrictVersion(parser_version):
-            pass
-    else:
-        parsed_doc = None
-    try:
-        if raw_doc['Publisher'] == "ECS":
-            parsed_doc = ECSSoup.parse(raw_doc['Paper_Raw_HTML'])['obj']
-    elif raw_doc['Publisher'] == "RSC":
-    parsed_doc = RSCSoup.parse(raw_doc['Paper_Raw_HTML'])['obj']
-    if parsed_doc is not None:
-        parsed_doc['DOI'] = raw_doc['DOI']
-    parsed_doc["parser_version"] = parser_version
-    parsed_col.replace_one({'DOI': raw_doc["DOI"].strip()}, parsed_doc, upsert=True)
-    raw_doc["parsed"] = True
-    except Exception as e:
-    raw_doc["parsed"] = False
-    raw_doc["err_msg"] = str(e)
-    logging.warning("Failed to parse " + raw_doc['DOI'] + ": " + str(e))
-    raw_doc["parser_version"] = parser_version
-    raw_col.replace_one({'DOI': raw_doc["DOI"].strip()}, raw_doc)
-    logging.info("Finished Parsing Raw HTML")
+# def data1():
+#     for raw_doc in tqdm(raw_col.find(), total=raw_col.find().count()):
+#         if "parsed" in raw_doc and \
+#                 raw_doc["parsed"] and \
+#                 StrictVersion(raw_doc["parser_version"]) >= StrictVersion(parser_version):
+#             pass
+#     else:
+#         parsed_doc = None
+#     try:
+#         if raw_doc['Publisher'] == "ECS":
+#             parsed_doc = ECSSoup.parse(raw_doc['Paper_Raw_HTML'])['obj']
+#     elif raw_doc['Publisher'] == "RSC":
+#     parsed_doc = RSCSoup.parse(raw_doc['Paper_Raw_HTML'])['obj']
+#     if parsed_doc is not None:
+#         parsed_doc['DOI'] = raw_doc['DOI']
+#     parsed_doc["parser_version"] = parser_version
+#     parsed_col.replace_one({'DOI': raw_doc["DOI"].strip()}, parsed_doc, upsert=True)
+#     raw_doc["parsed"] = True
+#     except Exception as e:
+#     raw_doc["parsed"] = False
+#     raw_doc["err_msg"] = str(e)
+#     logging.warning("Failed to parse " + raw_doc['DOI'] + ": " + str(e))
+#     raw_doc["parser_version"] = parser_version
+#     raw_col.replace_one({'DOI': raw_doc["DOI"].strip()}, raw_doc)
+#     logging.info("Finished Parsing Raw HTML")

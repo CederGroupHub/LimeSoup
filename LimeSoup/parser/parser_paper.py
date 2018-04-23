@@ -92,9 +92,10 @@ class ParserPaper:
                 fd_div.write(self.soup.prettify())
                 fd_div.write('\n')
             else:
-                for item in self.soup:
-                    fd_div.write(item)
-                    fd_div.write('\n')
+                # for item in self.soup:
+                #     #fd_div.write(item)
+                fd_div.write(str(self.soup))
+                fd_div.write('\n')
 
     def get_title(self, rules):
         self.title = self.get(rules)
@@ -219,8 +220,6 @@ class ParserPaper:
             number_of_paragraphs_soup_sec += len(list(
                 it.find_all('p', recursive=False)
             ))
-        # print(' number paragraphs inside div class section and sub: ',
-        #      number_of_paragraphs_soup_sec)
 
     def number_of_paragraphs_children(self):
         if not self.debugging:
@@ -230,7 +229,7 @@ class ParserPaper:
             self.soup_orig.children)[0].find_all('p', recursive=True)
                                                  )
                                             )
-        # print(' Number of Paragraphs externo : ', number_of_paragraphs_children)
+
 
     def create_tag_from_selection(self, rule, name_new_tag, name_section='Abstract'):
         """
@@ -258,7 +257,6 @@ class ParserPaper:
         inside_tags = inside_tags_inter[0].find_all(re.compile('(p|ol)|span'), recursive=False)
         #inside_tags = inside_tags_inter[0].find_all('p', recursive=False)
         #inside_tags_ol = inside_tags_inter[0].find_all('ol', recursive=False)
-        #print(len(inside_tags_ol))
         #inside_tags = inside_tags_p + inside_tags_ol
         if len(inside_tags) == 0:
             # self.save_soup_to_file('selction_found_nothing.html')
@@ -290,7 +288,7 @@ class ParserPaper:
             for tag in tags:
                 if tag is not None:
                     if tag.name is not None:
-                        tag.string = tag.get_text().strip()
+                        tag.string = tag.get_text().rstrip()
 
     def create_tag_sections(self, rule=None):
         """

@@ -13,6 +13,28 @@ __maintainer__ = 'Tiago Botari'
 __email__ = 'tiagobotari@gmail.com'
 
 
+class RSCRemoveTagsSmallSub(RuleIngredient):
+
+    @staticmethod
+    def _parse(html_str):
+        """
+        Deal with spaces in the sub, small tag and then remove it.
+        """
+        parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
+        rules = [{'name': 'sub'}, {'name': 'small'}, {'name': 'span', 'class': 'small_caps'}, {'name': 'sup'}]
+        parser.operation_tag_remove_space(rules)
+        rules = [{'name': 'small'},
+                 {'name': 'sub'},
+                 {'name': 'span', 'class': 'small_caps'},
+                 {'name': 'sup'},
+                 {'name': 'span', 'class': 'italic'}]
+        parser.strip_tags(rules)
+        html_str = str(parser.soup)
+        parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
+
+        return parser.raw_html
+
+
 class RSCRemoveTrash(RuleIngredient):
     # TODO: error in two papers: 10.1039/B802997K - 10.1039/B717130G, some heading inside a span tag:
     @staticmethod
@@ -71,29 +93,10 @@ class RSCReplaceDivTag(RuleIngredient):
     @staticmethod
     def _parse(html_str):
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
-
         rules = [{'name': 'div'}]
         parser.strip_tags(rules)
-
         rules = [{'name': 'span', 'id': parser.compile('^sect[0-9]+$')}]  # some span are heading
         _ = parser.strip_tags(rules)
-
-        return parser.raw_html
-
-
-class RSCDealSubscript(RuleIngredient):
-
-    @staticmethod
-    def _parse(html_str):
-        """
-        TODO: Deal with the subscripts tags <small> <sub>
-        """
-
-        parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
-
-        rules = [{'name': 'sub'}]
-        parser.operation_tag_remove_space(rules)
-
         return parser.raw_html
 
 
@@ -134,9 +137,9 @@ Error where the paper has paragraphs (content) that is not inside of a tag,
 problem to recover these paragraphs. 
 """
 RSCSoup = Soup()
+RSCSoup.add_ingredient(RSCRemoveTagsSmallSub())
 RSCSoup.add_ingredient(RSCRemoveTrash())
 RSCSoup.add_ingredient(RSCCreateTags())
 RSCSoup.add_ingredient(RSCCreateTagAbstract())
 RSCSoup.add_ingredient(RSCReplaceDivTag())
-RSCSoup.add_ingredient(RSCDealSubscript())
 RSCSoup.add_ingredient(RSCCollect())

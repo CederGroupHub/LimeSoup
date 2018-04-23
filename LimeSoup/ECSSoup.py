@@ -41,6 +41,7 @@ class ECSRemoveTrash(RuleIngredient):
             {'name': 'span', 'class': 'highwire-journal-article-marker-start'},
             {'name': 'ul', 'class': 'epreprint-list'}
         ]
+
         parser.strip_tags(rules)
         return {'obj': obj, 'html_txt': parser.raw_html}
 

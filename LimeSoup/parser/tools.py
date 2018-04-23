@@ -15,6 +15,8 @@ def convert_to_text(text_input):
     text = text_input.rstrip()
     # text =  unicodedata.normalize('NFKD', text_input).encode('ascii','ignore')
     text = ' '.join(str(text).split())
+    # input()
+    # input()
     return text
 
 
