@@ -99,10 +99,19 @@ class ParserPaper:
         for rule in rules:
             finds = self.soup.find_all(**rule)
             for item in finds:
-                text = tl.convert_to_text(item.get_text())
+                text = self.convert_to_text(item.get_text())
                 results.append(text)
                 item.extract()
         return results
+
+    def parse_formula(self,rules):
+        for rule in rules:
+            finds = self.soup.find_all(**rule)
+            for item in finds:
+                label = item.find('ce:label')
+                if label is not None:
+                    label.string = ' ' + label.string + ' '
+                item.append(', ')
 
     def get_keywords(self, rules):
         self.keywords = []
@@ -149,7 +158,7 @@ class ParserPaper:
         list_heading_soup = self.soup.find_all('ce:section-title')
         list_heading = []
         for item in list_heading_soup:
-            list_heading.append(tl.convert_to_text(item.get_text()))
+            list_heading.append(self.convert_to_text(item.get_text()))
         return list_heading
 
     @property
@@ -160,8 +169,8 @@ class ParserPaper:
         list_paragraphs_soup = self.soup.find_all(name='ce:para') # re.compile(
         list_paragraphs = []
         for item in list_paragraphs_soup:
-            if len(tl.convert_to_text(item.get_text())) != 0:
-                item.string = tl.convert_to_text(item.get_text())
+            if len(self.convert_to_text(item.get_text())) != 0:
+                item.string = self.convert_to_text(item.get_text())
                 list_paragraphs.append(item.get_text())
         return list_paragraphs
 
@@ -364,6 +373,11 @@ class ParserPaper:
             # To be consistent with the xml parser, the notation h1, h2, ..., h6 is kept.
             tag_name = int((len(tag_name_tmp)+1)/2)+1
             each_tag.parent.name = 'section_h{}'.format(each_tag.name)
+
+    @staticmethod
+    def convert_to_text(text):
+        text = ' '.join(str(text).split())
+        return text
 
     @property
     def raw_xml(self):

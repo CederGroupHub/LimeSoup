@@ -4,10 +4,8 @@ Use of the Elsevier parser on some papers
 """
 
 from LimeSoup.ElsevierSoup import ElsevierSoup
-import os
-import pprint
 import pymongo as pm
-import json
+import re
 
 client = pm.MongoClient('localhost', 27017, username="test", password="test", authSource="admin")
 client_***REMOVED*** = pm.MongoClient('***REMOVED***', 27017, username = '***REMOVED***', password = '***REMOVED***', authSource = 'synthesis',
@@ -16,7 +14,7 @@ client_***REMOVED*** = pm.MongoClient('***REMOVED***', 27017, username = '***REM
 db = client['admin']
 db_***REMOVED*** = client_***REMOVED***['synthesis']
 coll_elsevierpapers = db_***REMOVED***['ElsevierPapers']
-coll_parseredpapers = db['ParsedElsevier2']
+coll_parseredpapers = db['ParsedElsevier5']
 
 ##
 txt = open('Elsevier_journals_upd.json','r')
@@ -29,9 +27,7 @@ nb_errors = 0
 for journal in journals:
     print('JOURNAL:',journal)
     query_mdb = {"Crawled":True, "Journal": journal}
-    # query_mdb = {"Crawled":True, "Paper_Content": {"$exists": True}, "$where": "this.Paper_Content.length > 20000",
-    #              "Journal":journal}
-
+    #query_mdb = {"DOI": "10.1016/S0016-2361(00)00007-7"}
     documents = list(coll_elsevierpapers.find(query_mdb).limit(num_papers))
     if len(documents) == 0:
         print('No paper in',journal,'satisfies the query:',str(query_mdb))
@@ -60,10 +56,6 @@ for journal in journals:
             if len(data_new['Title']) == 0:
                 data_new['Title'] = [title]
             coll_parseredpapers.insert_one(data_new)
-            filename = 'data/ElsevierPapertest'+str(i_paper)+'.txt'
-            os.makedirs(os.path.dirname(filename), exist_ok=True)
-            with open(filename,'w') as f:
-                f.write(pprint.pformat(data_new))
             print('Document parsed and saved.')
         except Exception as e:
             nb_errors += 1

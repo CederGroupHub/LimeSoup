@@ -8,7 +8,7 @@ from LimeSoup.lime_soup import Soup, RuleIngredient
 from LimeSoup.parser.parser_paper_elsevier import ParserPaper
 
 
-__author__ = 'Ziqin (Shaun) Rong, Tiago Botari'
+__author__ = ''
 __maintainer__ = 'Nicolas Mingione'
 __email__ = 'nicolasmingione@lbl.gov'
 
@@ -23,6 +23,12 @@ class ElsevierRemoveTrash(RuleIngredient):
         parser.remove_tags(rules=list_remove)
         return parser.raw_xml
 
+class ElsevierSpaceBeforeFormula(RuleIngredient):
+    @staticmethod
+    def _parse(xml_str):
+        parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
+        parser.parse_formula(rules=[{'name': 'formula'}])
+        return parser.raw_xml
 
 class ElsevierCreateTags(RuleIngredient):
 
@@ -132,6 +138,7 @@ class ElsevierCollect(RuleIngredient):
 
 ElsevierSoup = Soup()
 ElsevierSoup.add_ingredient(ElsevierReformat())
+ElsevierSoup.add_ingredient(ElsevierSpaceBeforeFormula())
 ElsevierSoup.add_ingredient(ElsevierMoveJournalName())
 ElsevierSoup.add_ingredient(ElsevierCreateTagAbstract())
 ElsevierSoup.add_ingredient(ElsevierRemoveTrash())
