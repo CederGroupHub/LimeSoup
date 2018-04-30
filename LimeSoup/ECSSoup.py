@@ -4,6 +4,8 @@ from __future__ import print_function
 from __future__ import division
 from __future__ import absolute_import
 
+import re
+
 from LimeSoup.lime_soup import Soup, RuleIngredient
 from LimeSoup.parser.parser_paper import ParserPaper
 
@@ -11,6 +13,45 @@ from LimeSoup.parser.parser_paper import ParserPaper
 __author__ = 'Tiago Botari'
 __maintainer__ = 'Tiago Botari'
 __email__ = 'tiagobotari@gmail.com'
+
+
+class ECSRemoveTagsSmallSub(RuleIngredient):
+
+    @staticmethod
+    def _parse(html_str):
+        """
+                Deal with spaces in the sub, small tag and then remove it.
+        """
+        parser = ParserPaper(html_str, debugging=False)
+        rules = [{'name': 'small'},
+                 {'name': 'sub'},
+                 {'name': 'span', 'class': 'small_caps'},
+                 {'name': 'sup'},
+                 {'name': 'span', 'class': 'italic'},
+                 {'name': 'span', 'class': 'bold'},
+                 {'name': 'strong'},
+                 {'name': 'span', 'class': 'small_caps'},
+                 {'name': 'em'}]
+        # parser.operation_tag_remove_space(rules)
+        # Remove some specific all span that are inside of a paragraph 'p'
+        parser.strip_tags(rules)
+        tags = parser.soup.find_all(**{'name': 'p'})
+        for tag in tags:
+            tags_inside_paragraph = tag.find_all(**{'name': 'span'})
+            for tag_inside_paragraph in tags_inside_paragraph:
+                tag_inside_paragraph.replace_with_children()
+        # Remove some specific span that are inside of a span and p
+        parser.strip_tags(rules)
+        tags = parser.soup.find_all(**{'name': re.compile('span|p')})
+        for tag in tags:
+            for rule in rules:
+                tags_inside_paragraph = tag.find_all(**rule)
+                for tag_inside_paragraph in tags_inside_paragraph:
+                    tag_inside_paragraph.replace_with_children()
+        # Recreating the ParserPaper bug in beautifulsoup
+        html_str = str(parser.soup)
+        parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
+        return parser.raw_html
 
 
 class ECSRemoveTrash(RuleIngredient):
@@ -128,6 +169,7 @@ class ECSCollect(RuleIngredient):
 
 
 ECSSoup = Soup()
+ECSSoup.add_ingredient(ECSRemoveTagsSmallSub())
 ECSSoup.add_ingredient(ECSRemoveTrash())
 ECSSoup.add_ingredient(ECSCollectTitleKeywords())
 ECSSoup.add_ingredient(ECSCreateTags())

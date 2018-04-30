@@ -53,12 +53,24 @@ if __name__ == '__main__':
     datas = list(coll_paper_raw_html.find({"Publisher": "RSC"}).limit(2000))
     for data in datas:
     # while True:
+    # if True:
+
+        # data = coll_paper_raw_html.aggregate([
+        #     {"$match": {"Publisher": "RSC"}},
+        #     {"$sample": {"size": 1}}]
+        # ).next()[0]
+
+        # doi_query = '10.1039/C5QI00200A'
+
+        # query_mdb = {'DOI': doi_query}
         #query_mdb = {'DOI': '10.1039/C4QI00128A'}
         #query_mdb = {'DOI': '10.1039/B003394O'}
-        #data = list(coll_paper_raw_html.find(query_mdb).limit(1))
+        # data = list(coll_paper_raw_html.find(query_mdb).limit(1))[0]
         # data = list(coll_paper_raw_html.find({"Publisher": "RSC"}).limit(1))
         if len(data) == 0:
-            break
+            exit()
+        #     break
+
         i_paper += 1
         #data = data[0]
         # data['Lock'] = True

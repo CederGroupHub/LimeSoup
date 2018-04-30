@@ -3,13 +3,14 @@
 from __future__ import print_function
 from __future__ import division
 from __future__ import absolute_import
+
 from LimeSoup.RSCSoup import RSCSoup
 
 import pymongo as pm
 
-__author__ = 'Ziqin (Shaun) Rong'
-__maintainer__ = 'Ziqin (Shaun) Rong'
-__email__ = 'rongzq08@gmail.com'
+__author__ = 'Tiago Botari'
+__maintainer__ = 'Tiago Botari'
+__email__ = 'tiagobotari@gmail.com'
 
 
 if __name__ == '__main__':
@@ -27,3 +28,15 @@ if __name__ == '__main__':
     pprint(processed_json)
     with open('data/after.html', 'w') as fd:
         fd.write(repr(processed_json))
+
+
+class TestRSCRemoveTagsSmallSub:
+    html_str = """"
+                       <html>
+                       <body>
+                           <p> a<strong>b </strong>c </p>
+                           <span> a<strong>b </strong>c </span>
+                           <span> a<strong>b </strong>c <span> a<strong>b </strong>c </span> </span>
+                       </body>
+                       </html>
+                       """

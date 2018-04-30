@@ -41,7 +41,7 @@ if __name__ == '__main__':
     db = client['SynPro']
     coll_paper_raw_html = db["Paper_Raw_HTML"]
     coll_parser_papers = db["Parsered_Paper"]
-    #data_list = list(coll_paper_raw_html.find({"Publisher": "ECS"}).limit(5000))
+    data_list = list(coll_paper_raw_html.find({"Publisher": "ECS"}).limit(5000))
     fd = open('problems.txt', 'w')
     # for i_data, data in enumerate(coll_paper_raw_html.find()):
     #     print('##############################')
@@ -58,12 +58,16 @@ if __name__ == '__main__':
     # exit()
     #for i_paper, data in enumerate(coll_paper_raw_html.find(query_mdb)):
     i_paper = 0
-    while True:
-        data = list(coll_paper_raw_html.find(query_mdb).limit(1))
+    query_mdb = {"Publisher": "ECS"}
+    # query_mdb = {'DOI': '10.1149/1.1344530'}
+    data_list = list(coll_paper_raw_html.find(query_mdb).limit(2000))
+    for data in data_list:
+    # while True:
+    #     data = list(coll_paper_raw_html.find(query_mdb).limit(1))
         if len(data) == 0:
             break
         i_paper += 1
-        data = data[0]
+        # data = data[0]
         data['Lock'] = True
         id_paper = data["_id"]
         coll_paper_raw_html.update_one(

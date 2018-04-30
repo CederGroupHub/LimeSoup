@@ -4,6 +4,8 @@ from __future__ import print_function
 from __future__ import division
 from __future__ import absolute_import
 
+import re
+
 from LimeSoup.lime_soup import Soup, RuleIngredient
 from LimeSoup.parser.parser_paper import ParserPaper
 
@@ -21,17 +23,34 @@ class RSCRemoveTagsSmallSub(RuleIngredient):
         Deal with spaces in the sub, small tag and then remove it.
         """
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
-        rules = [{'name': 'sub'}, {'name': 'small'}, {'name': 'span', 'class': 'small_caps'}, {'name': 'sup'}]
-        parser.operation_tag_remove_space(rules)
         rules = [{'name': 'small'},
                  {'name': 'sub'},
                  {'name': 'span', 'class': 'small_caps'},
                  {'name': 'sup'},
-                 {'name': 'span', 'class': 'italic'}]
+                 {'name': 'span', 'class': 'italic'},
+                 {'name': 'span', 'class': 'bold'},
+                 {'name': 'strong'},
+                 {'name': 'span', 'class': 'small_caps'}]
+        parser.operation_tag_remove_space(rules)
+        # Remove some specific all span that are inside of a paragraph 'p'
         parser.strip_tags(rules)
+        tags = parser.soup.find_all(**{'name': 'p'})
+        for tag in tags:
+            tags_inside_paragraph = tag.find_all(**{'name': 'span'})
+            for tag_inside_paragraph in tags_inside_paragraph:
+                tag_inside_paragraph.replace_with_children()
+
+        # Remove some specific span that are inside of a span and p
+        parser.strip_tags(rules)
+        tags = parser.soup.find_all(**{'name': re.compile('span|p')})
+        for tag in tags:
+            for rule in rules:
+                tags_inside_paragraph = tag.find_all(**rule)
+                for tag_inside_paragraph in tags_inside_paragraph:
+                    tag_inside_paragraph.replace_with_children()
+        # Recreating the ParserPaper bug in beautifulsoup
         html_str = str(parser.soup)
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
-
         return parser.raw_html
 
 

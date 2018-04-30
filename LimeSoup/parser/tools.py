@@ -58,3 +58,6 @@ def n_paragraphs_sections(data):
         'paragraphs': paragraphs,
         'keywords': n_keywords
     }
+
+# check some paragraphs
+# db.Paragraphs.aggregate([{"$match": {"classification": "solid_state_ceramic_synthesis"}},{"$sample": {"size": 1}}]).next()
