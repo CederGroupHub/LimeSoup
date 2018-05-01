@@ -47,10 +47,8 @@ if __name__ == '__main__':
     doi_list = db.Meta_data
 
     paragraphs = db["Paragraphs_tmp"]
-    datas = list(paragraphs_tmp.find()).limit(2000)) #{"Publisher": "RSC"})
-
+    datas = list(paragraphs.find()).limit(2000)  #{"Publisher": "RSC"})
     # {'ancestors': 'Results and '}
-
 
     # db.Paragraphs.find({"ancestors": "Experimental"})
     # db.Paragraphs.find({"path": /^_root\$\$Experiment/})
