@@ -18,7 +18,9 @@ class ElsevierRemoveTrash(RuleIngredient):
     def _parse(xml_str):
         # Tags to be removed from the xml paper
         list_remove = [{'name': 'xocs:meta'},
-                       {'name': 'tail'}]
+                       {'name': 'tail'},
+                       {'name': 'ce:cross-refs'},
+                       {'name': 'ce:cross-ref'}]
         parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
         parser.remove_tags(rules=list_remove)
         return parser.raw_xml
