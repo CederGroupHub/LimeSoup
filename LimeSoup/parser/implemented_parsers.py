@@ -141,6 +141,9 @@ class ParserRSC(ParserPaper):
 class ParserNature(ParserPaper):
 
     def __init__(self, raw_html, debugging=False):
+        # self.error_message = ''
+        # self.DOI, self.journal, self.type = None, None, None
+
         self.debugging = debugging
         # parsers 'html.parser', 'lxml', 'html5lib', 'lxml-xml'
         self.soup = self.create_soup(
@@ -164,9 +167,11 @@ class ParserNature(ParserPaper):
                 results.append(text)
         return results
 
-    # Nature articles don't have keywords
+    # Most Nature articles don't have keywords
     def set_keywords(self):
-        self.keywords = []
+        # Very few articles have a keyword attribute in metadata
+        keywords = self.soup.find('meta', {'name':'keywords'})
+        self.keywords = keywords['content'].split(', ') if keywords else []
 
     def set_title(self):
         self.title = self.get([{'itemprop':'name headline'}])
@@ -176,41 +181,45 @@ class ParserNature(ParserPaper):
         return section_div.find('h2').get_text(strip=True)
 
     @staticmethod
-    def deal_with_section(section_div, article_flag):
+    def deal_with_section(section_div, article_flag=0):
         """
         :param section_div: current section from which to extract subheadings and text
-        :article_flag: boolean (set during DOI extraction) - Older articles have excess '\n'
-
+        :param article_flag: boolean (set during DOI extraction) - There are different
+                                                    extraction method for older articles.
         return: (Example format below)
 
         Without section_sub_title:
         {
+            "type": "section_h2"
+            "name": "Section Title"
             "content": [
                 "Paragraph 1 Content",
                 "Paragraph 2 Content"
-            ],
-            "name": "Section Title"
+            ]
         }
 
         With section_sub_title (nested):
         {
+            "type": 'section_h2'
+            "name": "Section Title"
             "content": [
                 {
+                    "type": "section_h3"
+                    "name": "Sub-Section 1"
                     "content": [
                         "Paragraph 1 Content",
                         "Paragraph 2 Content"
-                    ],
-                    "name": "Sub-Section 1"
+                    ]
                 },
                 {
+                    "type": "section_h3"
+                    "name": "Sub-Section 1"
                     "content": [
                         "Paragraph 1 Content",
                         "Paragraph 2 Content"
-                    ],
-                    "name": "Sub-Section 2"
+                    ]
                 }
-            ],
-            "name": "Section Title"
+            ]
         }
         """
 
@@ -223,9 +232,7 @@ class ParserNature(ParserPaper):
         if section_sub_title is None:
             for paragraph in content_div.find_all(['p']):
                 string = paragraph.get_text(' ', strip=True)
-
-                if article_flag:
-                    string = string.replace('\n', ' ')
+                string = string.replace('\n', ' ')
 
                 content.append(string)
 
@@ -235,21 +242,80 @@ class ParserNature(ParserPaper):
 
             for item in content_div.find_all(['p', 'h3'])[1:]:
                 if text != [] and item.name == 'h3':
-                    nested += [{"name": section_sub_title.get_text(strip=True), "content": text}]
+                    nested += [{"type": "section_h3",
+                                "name": section_sub_title.get_text(strip=True),
+                                "content": text}]
+
                     section_sub_title = item
                     text = []
 
                 else:
                     string = item.get_text(' ', strip=True)
-
-                    if article_flag:
-                        string = string.replace('\n', ' ')
+                    string = string.replace('\n', ' ')
 
                     text.append(string)
 
             content.append(nested)
 
         return content
+
+    def is_letter_or_article(self):
+        '''
+        Scrape the article type and check if it is a Letter or Article. All other
+        types (ie Books and Art, News and Views, Correspondence, etc.) seem to
+        be useless. Return whether the file is Article/Letter.
+        '''
+        try:
+            type = self.soup.find('p', {'data-test':'article-identifier'})
+
+            if type is None:    # Different years have different type specifications
+                type = self.soup.find('h1', {'class':'page-header'})
+
+            if type is None:    # These three options seem to cover > 90% of articles
+                type = self.soup.find('p', {'class':'article-type'}).string
+            else:
+                type = type.get_text(strip=True)
+                type = type.split('|', 1)[0].strip()
+
+            # print(f'Article:{article}\nType:{type}\n')
+            return type in ['Letter', 'Article']
+
+        except Exception as e:
+            print(e)
+            return False
+
+
+    def collect_metadata(self, valid_article):
+        '''
+        Collect metadata from file. Set parser.DOI and parser.journal_name
+        for use outside of the function. Return False if there were errors.
+
+        :param valid_article: (boolean) Is the article valid (so far)?
+
+        return valid_article: False if there was DOI/journal collection error
+        '''
+
+        self.DOI = self.soup.find('meta', {'name':'dc.identifier'})
+        self.journal = self.soup.find('meta', {'name':'WT.cg_n'})
+
+        if self.DOI is None:
+            self.DOI = self.soup.find('meta', {'name':'citation_doi'})
+
+
+        if self.journal is None:
+            print("There was a journal error.\n")
+            valid_article = False
+
+        elif self.DOI is None:
+            print("There was a DOI error.\n")
+            self.journal = self.journal['content']
+            valid_article = False
+
+        else:
+            self.DOI, self.journal = self.DOI['content'][4:], self.journal['content']
+            # print(f'DOI: {self.DOI}\nJournal: {self.journal}')
+
+        return valid_article
 
     def save_soup_to_file(self, filename='soup.html', prettify=True):
         filename = 'debug_Nature/{}'.format(filename)
