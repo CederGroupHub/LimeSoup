@@ -14,18 +14,22 @@ __author__ = 'Jason Madeano'
 __maintainer__ = 'Jason Madeano'
 __email__ = 'Jason.Madeano@shell.com'
 
-# TODO: Some articles only have abstract (or title). These articles are only viewable as pdf
+# TODO:
 
-class InvalidArticleException(Exception):
-    '''
-    This exception should be raised whenever the article seems to be invalid. The dataset
-    seems to have many articles that are news/reviews rather than journal articles and
-    there are also quite a few articles that were improperly downloaded and lack html content.
-    '''
 
-    def __init__(self):
-        exc = 'This appears to be either an empty journal article or a news/review article.'
-        Exception.__init__(self, exc)
+
+# # This no longer seems necessary, but I will keep just in case.
+#
+# class InvalidArticleException(Exception):
+#     '''
+#     This exception should be raised whenever the article seems to be invalid. The dataset
+#     seems to have many articles that are news/reviews rather than journal articles and
+#     there are also quite a few articles that were improperly downloaded and lack html content.
+#     '''
+#
+#     def __init__(self):
+#         exc = 'This appears to be either an empty journal article or a news/review article.'
+#         Exception.__init__(self, exc)
 
 
 class NatureRemoveTagsSmallSub(RuleIngredient):
@@ -49,7 +53,6 @@ class NatureRemoveTagsSmallSub(RuleIngredient):
 
         # First manually delete all 'sup's that include reference numbers
         [s.extract() for s in parser.soup.find_all('sup') if s.find('a')]
-        #[s.extract() for s in parser.soup.find_all('sup') if s.find('a', {'data-track-action':'reference anchor'})]
 
         parser.operation_tag_remove_space(rules)
         # Remove some specific all span that are inside of a paragraph 'p'
@@ -88,20 +91,17 @@ class NatureRemoveTrash(RuleIngredient):
             {'name': 'figure'},  # Figures
             {'name': 'code'},  # Code inside the HTML
             {'name': 'div', 'class': 'figure-at-a-glance'}, # Copy of all figures
-            {'name': 'a', 'data-track-action':'figure anchor'}, # Figure Link
-            {'name': 'a', 'data-track-action':'supplementary material anchor'} # Supplementary Link
+
+            # # Still deciding how to deal with removing all references,
+            # # Currently all superscript references are removed.
+            # {'name': 'a'}
+            # {'name': 'a', 'data-track-action':'figure anchor'}, # Figure Link
+            # {'name': 'a', 'data-track-action':'supplementary material anchor'} # Supplementary Link
         ]
         parser = ParserNature(html_str, debugging=False)
-
-        # # Only take 'main' article component: filter out header, sidebar, etc
-        # parser.soup = parser.soup.find('div', role = 'main')
-        # if parser.soup is None:
-        #     raise InvalidArticleException()
-
         parser.remove_tags(rules=list_remove)
 
         return parser.raw_html
-
 
 
 class NatureCollectMetadata(RuleIngredient):
@@ -154,19 +154,24 @@ class NatureCollectMetadata(RuleIngredient):
                 error_message = "Error: Not Letter/Article"
 
         except Exception as e:
-            print(e)
-            error_message = "THERE WAS AN ERROR HERE"
+            print('---Metadata Collection Error---')
+            # print(e)
 
         if error_message:
             valid_article = False
             title = error_message
 
+        # Very small subset of Nature articles have keywords, defaults to []
+        parser.set_keywords()
+
+        # This dictionary structure should match other parsers,
+        # "Valid Article" and "Content Type" are specific to Nature Parser
         obj = {
             'Valid Article': valid_article,
             'Content Type': type.lower(),
             'DOI': doi,
             'Title': [title],
-            'Keywords': [parser.keywords],
+            'Keywords': parser.keywords,
             'Journal': journal,
             'Sections': []
         }
@@ -178,7 +183,6 @@ class NatureCollect(RuleIngredient):
 
     @staticmethod
     def _parse(parser_obj):
-
         obj, html_str = parser_obj
         parser = ParserNature(html_str, debugging=False)
 
@@ -186,57 +190,42 @@ class NatureCollect(RuleIngredient):
         valid_article = obj['Valid Article']
         if not valid_article: return obj
 
-        print("VALID)
-        # parser.set_title()
-        parser.set_keywords()
-
-        data = list()
-
         # Navigate to the actual article body
         article_body = parser.soup.find('div', {'class': 'article-body clear'})
 
         if article_body is None or article_body.section is None:
-            raise InvalidArticleException()
+            print('---Invalid Article Body---')
+            obj['Title'] = 'Error: Cannot Find Article Body'
             valid_article = False
 
-        for section in article_body.find_all("section"):
-            try:
-                section_title = parser.get_section_title(section.div)
-                # print(f'TITLE:{section_title}')
+        else:
+            data = []
+            for section in article_body.find_all("section"):
+                try:
+                    section_title = parser.get_section_title(section.div)
 
-            # News/Review articles do not have section headers, will not be parsed
-            except Exception as e:
-                print(f"Section Title ERROR: {e}")
-                raise InvalidArticleException()
-                valid_article = False
-                break
-
-            # Stop collecting data once any of these sections are reached
-            if section_title.lower() in ['references', 'additional information',
-                                         'change history', 'author information']:
-                if data == []:
-                    print("No Data ERROR")
-                    raise InvalidArticleException()
+                # News/Review articles do not have section headers, will not be parsed
+                except Exception as e:
+                    print('---Section Title Error---')
                     valid_article = False
-                break
+                    break
 
-            section_content = parser.deal_with_section(section.div)
-            data += [{"type": "section_h2",
-                      "name": section_title,
-                      "content": section_content}]
+                # Stop collecting data once any of these sections are reached
+                if section_title.lower() in ['references', 'additional information',
+                                             'change history', 'author information']:
+                    if data == []: # If parser reaches the end without collecting any data
+                        print("-----No Data-----")
+                        valid_article = False
+                    break
+
+                section_content = parser.deal_with_section(section.div)
+                data += [{"type": "section_h2",
+                          "name": section_title,
+                          "content": section_content}]
+
+            obj['Sections'] = data
 
         obj['Valid Article'] = valid_article
-        obj['Keywords'] = parser.keywords
-        obj['Sections'] = data
-
-        # obj = {
-        #     'Valid Article': valid_article,
-        #     'DOI': parser.DOI,
-        #     'Title': [parser.title],
-        #     'Keywords': parser.keywords,
-        #     'Journal': parser.journal,
-        #     'Sections': data
-        # }
         return obj#, 'html_txt':parser.raw_html}
 
 NatureSoup = Soup()
