@@ -15,7 +15,7 @@ import re
 
 import bs4
 
-from LimeSoup.parser.parser_section_elsevier import ParserSections
+from LimeSoup.parser.parser_section_acs import ParserSections
 from LimeSoup.parser import tools as tl
 
 
@@ -97,9 +97,12 @@ class ParserPaper:
     def get(self, rules):
         results = list()
         for rule in rules:
+            print (rule)
             finds = self.soup.find_all(**rule)
+            print (finds)
             for item in finds:
                 text = self.convert_to_text(item.get_text())
+                print (text)
                 results.append(text)
                 item.extract()
         return results

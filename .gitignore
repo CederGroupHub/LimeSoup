@@ -6,3 +6,6 @@ output_parser_paper.txt
 .pydevproject
 .idea
 .pyc
+build/
+*.egg-info/
+dist/

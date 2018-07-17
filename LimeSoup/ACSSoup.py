@@ -87,6 +87,9 @@ class ACSCollect(RuleIngredient):
             {'name': 'article-title'}
         ]
         )
+        doi = parser.get(rules=[{'name': 'article-id'}])
+        print (doi)
+        print (parser.title)
         try:
             # Create tag from selection function in ParserPaper
             parser.deal_with_sections()
@@ -109,10 +112,10 @@ class ACSCollect(RuleIngredient):
 
 
 ACSSoup = Soup()
-ACSSoup.add_ingredient(ACSReformat())
-ACSSoup.add_ingredient(ACSCreateTagAbstract())
-ACSSoup.add_ingredient(ACSRemoveTrash())
-ACSSoup.add_ingredient(ACSCreateTags())
-ACSSoup.add_ingredient(ACSReplaceSectionTag())
-ACSSoup.add_ingredient(ACSRenameSectionTitleTag())
+# ACSSoup.add_ingredient(ACSReformat())
+# ACSSoup.add_ingredient(ACSCreateTagAbstract())
+# ACSSoup.add_ingredient(ACSRemoveTrash())
+# ACSSoup.add_ingredient(ACSCreateTags())
+# ACSSoup.add_ingredient(ACSReplaceSectionTag())
+# ACSSoup.add_ingredient(ACSRenameSectionTitleTag())
 ACSSoup.add_ingredient(ACSCollect())
