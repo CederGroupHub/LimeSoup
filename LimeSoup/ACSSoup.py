@@ -18,7 +18,7 @@ class ACSRemoveTrash(RuleIngredient):
     def _parse(xml_str):
         # Tags to be removed from the xml paper
         list_remove = [{'name': 'ref-list'}]
-        parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
+        parser = ParserPaper(xml_str, parser_type='lxml', debugging=False)
         parser.remove_tags(rules=list_remove)
         return parser.raw_xml
 
@@ -26,19 +26,20 @@ class ACSCreateTags(RuleIngredient):
 
     @staticmethod
     def _parse(xml_str):
-        parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
+        parser = ParserPaper(xml_str, parser_type='lxml', debugging=False)
         try:
             # This create a standard of sections tag name
             parser.create_tag_sections()
         except:
             pass
+        print (parser.raw_xml)
         return parser.raw_xml
 
 class ACSCreateTagAbstract(RuleIngredient):
 
     @staticmethod
     def _parse(xml_str):
-        parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
+        parser = ParserPaper(xml_str, parser_type='lxml', debugging=False)
         try:
             parser.create_abstract(rule={'name': 'abstract'})
         except:
@@ -50,7 +51,7 @@ class ACSReplaceSectionTag(RuleIngredient):
 
     @staticmethod
     def _parse(xml_str):
-        parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
+        parser = ParserPaper(xml_str, parser_type='lxml', debugging=False)
         try:
             parser.strip_tags(rules=[{'name': 'sec'}])
         except:
@@ -61,7 +62,7 @@ class ACSRenameSectionTitleTag(RuleIngredient):
 
     @staticmethod
     def _parse(xml_str):
-        parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
+        parser = ParserPaper(xml_str, parser_type='lxml', debugging=False)
         try:
             parser.rename_tag({'name': 'section-title'}, 'section_title')
         except:
@@ -73,23 +74,26 @@ class ACSReformat(RuleIngredient):
     @staticmethod
     def _parse(xml_str):
         new_xml = xml_str.replace('>/','>')
-        parser = ParserPaper(new_xml, parser_type='lxml-xml',debugging=False)
+        parser = ParserPaper(new_xml, parser_type='lxml',debugging=False)
         return parser.raw_xml
 
 class ACSCollect(RuleIngredient):
 
     @staticmethod
     def _parse(xml_str):
-        parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
+        parser = ParserPaper(xml_str, parser_type='lxml', debugging=False)
         # Collect information from the paper using ParserPaper
-        journal_name = parser.get([{'name': 'journal-title'}])
+        journal_name = parser.get(rules=[{"name": "journal-title"}])
         parser.get_title(rules=[
             {'name': 'article-title'}
         ]
         )
-        doi = parser.get(rules=[{'name': 'article-id'}])
-        print (doi)
-        print (parser.title)
+        doi = parser.get(rules=[
+            {'name': 'article-id',
+            'pub-id-type': 'doi'}
+        ])
+        parser.deal_with_sections()
+        data = parser.data_sections
         try:
             # Create tag from selection function in ParserPaper
             parser.deal_with_sections()
@@ -103,7 +107,8 @@ class ACSCollect(RuleIngredient):
             except:
                 pass
         obj = {
-            'DOI': '',
+            'DOI': doi,
+            'Keywords': [],
             'Title': parser.title,
             'Journal': journal_name,
             'Sections': data
@@ -112,10 +117,10 @@ class ACSCollect(RuleIngredient):
 
 
 ACSSoup = Soup()
-# ACSSoup.add_ingredient(ACSReformat())
-# ACSSoup.add_ingredient(ACSCreateTagAbstract())
-# ACSSoup.add_ingredient(ACSRemoveTrash())
-# ACSSoup.add_ingredient(ACSCreateTags())
-# ACSSoup.add_ingredient(ACSReplaceSectionTag())
-# ACSSoup.add_ingredient(ACSRenameSectionTitleTag())
+ACSSoup.add_ingredient(ACSReformat())
+ACSSoup.add_ingredient(ACSCreateTagAbstract())
+ACSSoup.add_ingredient(ACSRemoveTrash())
+ACSSoup.add_ingredient(ACSCreateTags())
+ACSSoup.add_ingredient(ACSReplaceSectionTag())
+ACSSoup.add_ingredient(ACSRenameSectionTitleTag())
 ACSSoup.add_ingredient(ACSCollect())

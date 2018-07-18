@@ -26,7 +26,7 @@ class ParserSections(object):
     number_heading = 0
     list_heading = []
 
-    def __init__(self, soup, parameters, debugging=False, parser_type='lxml-xml', new=False):
+    def __init__(self, soup, parameters, debugging=False, parser_type='lxml', new=False):
         # parser_types = ['xml.parser', 'lxml', 'xml5lib', 'lxml-xml']
         self.parser_type = parser_type
         self.soup = bs4.BeautifulSoup(repr(soup), parser_type)

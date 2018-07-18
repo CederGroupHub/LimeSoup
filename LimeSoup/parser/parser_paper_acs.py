@@ -21,7 +21,7 @@ from LimeSoup.parser import tools as tl
 
 class ParserPaper:
 
-    def __init__(self, raw_xml, parser_type='lxml-xml', debugging=False):
+    def __init__(self, raw_xml, parser_type='lxml', debugging=False):
         """
         :param raw_xml:
         :param parser_type: can be 'xml.parser', 'lxml', 'xml5lib', 'lxml-xml'
@@ -29,7 +29,7 @@ class ParserPaper:
         """
         self.debugging = debugging
         # parsers 'xml.parser', 'lxml', 'xml5lib', 'lxml-xml'
-        self.soup = bs4.BeautifulSoup('{:}'.format(raw_xml), parser_type)
+        self.soup = bs4.BeautifulSoup(raw_xml, parser_type)
         self.parser_type = parser_type
         self.title = []
         self.keywords = []
@@ -70,7 +70,7 @@ class ParserPaper:
         return ParserSections(inter_soup, parameters, parser_type=parser_type, new = True)
 
     @staticmethod
-    def create_soup(xml_xlm, parser_type='xml.parser'):
+    def create_soup(xml_xlm, parser_type='lxml'):
         # parser_types = ['xml.parser', 'lxml', 'xml5lib', 'lxml-xml']
         return bs4.BeautifulSoup(xml_xlm, parser_type)
 
@@ -97,12 +97,9 @@ class ParserPaper:
     def get(self, rules):
         results = list()
         for rule in rules:
-            print (rule)
             finds = self.soup.find_all(**rule)
-            print (finds)
             for item in finds:
                 text = self.convert_to_text(item.get_text())
-                print (text)
                 results.append(text)
                 item.extract()
         return results
@@ -327,17 +324,17 @@ class ParserPaper:
         """
         tags = self.soup.find_all('sec')  # Tags corresponded to headings
         for each_tag in tags:
-            
-            try:
-                tag_name_tmp = each_tag.find('id').string
-                #print('Tag:', each_tag.name, 'Label:', "%r"%tag_name_tmp)
-                # To be consistent with the html parser, the notation h1, h2, ..., h6 is kept.
-                tag_name = int(tag_name_tmp.count('.'))+2
-                section = self.soup.new_tag('section_h{}'.format(tag_name))
-                each_tag.wrap(section)
-            except:
-                section = self.soup.new_tag('section_h0')
-                each_tag.wrap(section)
+            print ("test")
+            # try:
+            tag_name_tmp = each_tag.find('id').string
+            #print('Tag:', each_tag.name, 'Label:', "%r"%tag_name_tmp)
+            # To be consistent with the html parser, the notation h1, h2, ..., h6 is kept.
+            tag_name = int(tag_name_tmp.count('.'))+2
+            section = self.soup.new_tag('section_h{}'.format(tag_name))
+            each_tag.wrap(section)
+            # except:
+            #     section = self.soup.new_tag('section_h0')
+            #     each_tag.wrap(section)
 
     def rename_tag(self, rule, new_name='section_h4'):
         tags = self.soup.find_all(**rule)
