@@ -3,10 +3,15 @@ import pymongo as pm
 from pprint import pprint
 
 
-def random_paragraph(datas):
-    for data in datas:
-        data = db.Paragraphs_tmp.aggregate([{"$sample": {"size": 1}}]).next()
-
+def random_paragraph():
+    while True:
+        data = db.Paragraphs_tmp.aggregate([
+            # {"$match": {"path": "introduction"}}
+            {"$sample": {"size": 1}}
+        ]).next()
+        input_ = print_paragraph(data)
+        if input_ == 'e':
+            break
 
 def print_paragraph(data_paragraph):
     print('##########################################')
@@ -45,7 +50,7 @@ if __name__ == '__main__':
     db = client.the_database.authenticate(user, password, source='SynPro')
     db = client['SynPro']
     doi_list = db.Meta_data
-
+    random_paragraph()
     paragraphs = db["Paragraphs_tmp"]
     datas = list(paragraphs.find()).limit(2000)  #{"Publisher": "RSC"})
     # {'ancestors': 'Results and '}

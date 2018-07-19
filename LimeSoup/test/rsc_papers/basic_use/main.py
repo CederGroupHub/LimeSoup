@@ -30,7 +30,7 @@ if __name__ == '__main__':
     for data in data_list:
         i_paper += 1
         id_paper = data["_id"]
-        doi_i_paper = data["DOI"]
+          = data["DOI"]
 
         # print("Dealing with paper number: {}".format(i_paper))
         # print("DOI: ", doi_i_paper)
