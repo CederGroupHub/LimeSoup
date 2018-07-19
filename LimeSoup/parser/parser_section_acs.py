@@ -197,10 +197,3 @@ class ParserSections(object):
                     fd_div.write(item)
                     fd_div.write('\n')
 
-    def _create_section(self, name='no_name_section', type_section='no_type'):
-        self.content_section.append({
-            'type': type_section
-            , 'name': name
-            , 'content': []
-        })
-

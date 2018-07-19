@@ -32,7 +32,6 @@ class ACSCreateTags(RuleIngredient):
             parser.create_tag_sections()
         except:
             pass
-        print (parser.raw_xml)
         return parser.raw_xml
 
 class ACSCreateTagAbstract(RuleIngredient):
@@ -52,21 +51,7 @@ class ACSReplaceSectionTag(RuleIngredient):
     @staticmethod
     def _parse(xml_str):
         parser = ParserPaper(xml_str, parser_type='lxml', debugging=False)
-        try:
-            parser.strip_tags(rules=[{'name': 'sec'}])
-        except:
-            pass
-        return parser.raw_xml
-
-class ACSRenameSectionTitleTag(RuleIngredient):
-
-    @staticmethod
-    def _parse(xml_str):
-        parser = ParserPaper(xml_str, parser_type='lxml', debugging=False)
-        try:
-            parser.rename_tag({'name': 'section-title'}, 'section_title')
-        except:
-            pass
+        parser.change_name_tag_sections()
         return parser.raw_xml
 
 class ACSReformat(RuleIngredient):
@@ -122,5 +107,4 @@ ACSSoup.add_ingredient(ACSCreateTagAbstract())
 ACSSoup.add_ingredient(ACSRemoveTrash())
 ACSSoup.add_ingredient(ACSCreateTags())
 ACSSoup.add_ingredient(ACSReplaceSectionTag())
-ACSSoup.add_ingredient(ACSRenameSectionTitleTag())
 ACSSoup.add_ingredient(ACSCollect())

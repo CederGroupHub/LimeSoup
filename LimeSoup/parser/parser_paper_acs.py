@@ -15,7 +15,7 @@ import re
 
 import bs4
 
-from LimeSoup.parser.parser_section_acs import ParserSections
+# from LimeSoup.parser.parser_section_acs import ParserSections
 from LimeSoup.parser import tools as tl
 
 
@@ -45,29 +45,62 @@ class ParserPaper:
         Ex: <'section_h2'>
         :return:
         """
-        parameters = {'name': re.compile('^section_h[0-6]'), 'recursive': False}
-        parse_section = self.create_parser_section(self.soup, parameters, parser_type=self.parser_type)
-        self.data_sections = parse_section.data
-        self.headings_sections = parse_section.heading
-        self.number_paragraphs_sections = parse_section.number_paragraphs
-        self.soup = parse_section.soup
-        del parse_section
+        self.data_sections = []
+        parse_section = self.create_parser_sections(self.soup)
+        # self.data_sections = parse_section.data
+        # self.headings_sections = parse_section.heading
+        # self.number_paragraphs_sections = parse_section.number_paragraphs
+        # self.soup = parse_section.soup
+        # del parse_section
 
     @staticmethod
     def compile(pattern):
         return re.compile(pattern)
 
-    @staticmethod
-    def create_parser_section(soup, parameters, parser_type):
-        """
-        Uses the class ParserSections to deal with the sections
-        :param soup: bs4 obj
-        :param parameters:
-        :param parser_type:
-        :return:
-        """
-        inter_soup = soup.find_all('sec')[0]
-        return ParserSections(inter_soup, parameters, parser_type=parser_type, new = True)
+    def create_section(self, name='no_name_section', type_section='no_type', content=[]):
+       return {
+            'type': type_section
+            , 'name': name
+            , 'content': content
+        }
+
+
+    def create_parser_sections(self, soup):
+        search_str = re.compile('section_h[1-6]')
+        section_tags = soup.find_all(search_str)
+        
+        # Get all sections
+        for tag in section_tags:
+            name = tag.find('title').text
+            content = []
+            for p in tag.find_all('p'):
+                content.append(p.text)
+
+            self.data_sections.append(self.create_section(
+                name=name,
+                type_section=tag.name,
+                content= "\n".join(content)
+            ))
+
+        # Nest data sections
+        for i in range(6, 1, -1):
+            did_nest = False
+            secname = "section_h{}".format(i)
+            supersec_name = "section_h{}".format(i-1)
+            curr_sec_set = []
+            for j, sec in enumerate(reversed(self.data_sections)):
+                if sec['type'] == secname:
+                    curr_sec_set.insert(0, sec)
+                elif (sec['type'] == supersec_name) and curr_sec_set:
+                    sec['content'] = curr_sec_set
+                    curr_sec_set = []
+                    did_nest = True
+
+            if did_nest:
+                self.data_sections = [s for s in self.data_sections if s['type'] != 'section_h{}'.format(i)]
+
+            
+
 
     @staticmethod
     def create_soup(xml_xlm, parser_type='lxml'):
@@ -324,7 +357,6 @@ class ParserPaper:
         """
         tags = self.soup.find_all('sec')  # Tags corresponded to headings
         for each_tag in tags:
-            print ("test")
             # try:
             tag_name_tmp = each_tag.find('id').string
             #print('Tag:', each_tag.name, 'Label:', "%r"%tag_name_tmp)
@@ -355,12 +387,15 @@ class ParserPaper:
         return tags
 
     def change_name_tag_sections(self):
-        tags = self.soup.find_all(re.compile('sec'))
+        tags = self.soup.find_all('sec')
         for each_tag in tags:
-            tag_name_tmp = each_tag.find('id').string
-            # To be consistent with the xml parser, the notation h1, h2, ..., h6 is kept.
-            tag_name = int(tag_name_tmp.count('.'))+2
-            each_tag.parent.name = 'section_h{}'.format(each_tag.name)
+            try:
+                tag_name_tmp = each_tag['id']
+                # To be consistent with the xml parser, the notation h1, h2, ..., h6 is kept.
+                tag_name = int(tag_name_tmp.count('.'))+2
+                each_tag.name = 'section_h{}'.format(tag_name)
+            except:
+                 each_tag.name = 'section_h2'
 
     @staticmethod
     def convert_to_text(text):
