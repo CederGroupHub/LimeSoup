@@ -34,18 +34,6 @@ class ACSCreateTags(RuleIngredient):
             pass
         return parser.raw_xml
 
-class ACSCreateTagAbstract(RuleIngredient):
-
-    @staticmethod
-    def _parse(xml_str):
-        parser = ParserPaper(xml_str, parser_type='lxml', debugging=False)
-        try:
-            parser.create_abstract(rule={'name': 'abstract'})
-        except:
-            pass
-        return parser.raw_xml
-
-
 class ACSReplaceSectionTag(RuleIngredient):
 
     @staticmethod
@@ -79,18 +67,8 @@ class ACSCollect(RuleIngredient):
         ])
         parser.deal_with_sections()
         data = parser.data_sections
-        try:
-            # Create tag from selection function in ParserPaper
-            parser.deal_with_sections()
-            data = parser.data_sections
-        except: # If Elsevier gives only the abstract OR gives only the raw text
-            data = []
-            try:
-                abstract = parser.get_abstract(rule={'name': 'abstract'})
-                if len(abstract) > 0:
-                    data.append(abstract)
-            except:
-                pass
+        parser.create_abstract(rule={'name': 'abstract'})
+
         obj = {
             'DOI': doi,
             'Keywords': [],
@@ -103,7 +81,6 @@ class ACSCollect(RuleIngredient):
 
 ACSSoup = Soup()
 ACSSoup.add_ingredient(ACSReformat())
-ACSSoup.add_ingredient(ACSCreateTagAbstract())
 ACSSoup.add_ingredient(ACSRemoveTrash())
 ACSSoup.add_ingredient(ACSCreateTags())
 ACSSoup.add_ingredient(ACSReplaceSectionTag())

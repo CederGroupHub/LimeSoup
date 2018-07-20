@@ -46,7 +46,7 @@ class ParserPaper:
         :return:
         """
         self.data_sections = []
-        parse_section = self.create_parser_sections(self.soup)
+        self.create_parser_sections(self.soup)
         # self.data_sections = parse_section.data
         # self.headings_sections = parse_section.heading
         # self.number_paragraphs_sections = parse_section.number_paragraphs
@@ -263,17 +263,11 @@ class ParserPaper:
         Create a section for the abstract
         """
         abstract = self.soup.find(**rule)
-        if abstract is not None:
-            abstract_text = re.sub('(?<!\.)\\n','',abstract.get_text())
-            paragraph_tag = self.soup.new_tag('p')
-            if 'Abstract' in abstract_text:
-                abstract_text = abstract_text.replace('Abstract','')
-            paragraph_tag.string = abstract_text
-            abstract_title = self.soup.new_tag('abstract')
-            abstract_title.string = 'Abstract'
-            paragraph_tag.insert(0,abstract_title)
-            self.soup.sections.insert(0,paragraph_tag)
-            paragraph_tag.wrap(self.soup.new_tag('section_h2'))
+        self.data_sections.insert(0, self.create_section(
+                name='Abstract',
+                type_section='abstract',
+                content= abstract.get_text()
+            ))
 
     def get_abstract(self, rule):
         """
