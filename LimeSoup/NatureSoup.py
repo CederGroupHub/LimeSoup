@@ -14,24 +14,6 @@ __author__ = 'Jason Madeano'
 __maintainer__ = 'Jason Madeano'
 __email__ = 'Jason.Madeano@shell.com'
 
-# TODO:
-
-
-
-# # This no longer seems necessary, but I will keep just in case.
-#
-# class InvalidArticleException(Exception):
-#     '''
-#     This exception should be raised whenever the article seems to be invalid. The dataset
-#     seems to have many articles that are news/reviews rather than journal articles and
-#     there are also quite a few articles that were improperly downloaded and lack html content.
-#     '''
-#
-#     def __init__(self):
-#         exc = 'This appears to be either an empty journal article or a news/review article.'
-#         Exception.__init__(self, exc)
-
-
 class NatureRemoveTagsSmallSub(RuleIngredient):
 
     @staticmethod
@@ -226,6 +208,8 @@ class NatureCollect(RuleIngredient):
             obj['Sections'] = data
 
         obj['Valid Article'] = valid_article
+
+        # Should the return include html_text?
         return obj#, 'html_txt':parser.raw_html}
 
 NatureSoup = Soup()

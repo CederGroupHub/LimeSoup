@@ -7,39 +7,40 @@ import json
 from bs4 import BeautifulSoup
 from LimeSoup.NatureSoup import NatureSoup
 
-#### TEST PARSER USING HTML FILES ####
-# # Select random article from ~65,000
-directory = os.path.realpath('C:\\Users\\Jason\\Desktop\\nature_htmls\\nature_htmls')
-html_files = glob.glob(os.path.join(directory, '*.html'))
-articles = random.sample(html_files, 20) # This number represents size of sample
 
-directory = os.path.realpath('C:\\Users\\Jason\\Desktop\\Shell\\Synthesis Articles')
-articles = glob.glob(os.path.join(directory, '*Z.html'))
+'''
+TODO: These articles are currently not parsed. They seem to be a very small subset.
 
-
-# # ***Automatically find path of LimeSoup\TestingSoup.py***
-# # ***Test the parser using the included test files***
-# file_path = os.path.realpath(__file__)
-# directory = os.path.dirname(file_path)
-# test_file_directory = directory + "\\test\\nature_papers"
-#
-# articles = [test_file_directory +'\\10103835012032.html',
-#             test_file_directory +'\\10103835050110.html',
-#             test_file_directory + '\\101038416304a.html',
-#             test_file_directory +'\\10103818335.html',
-#             test_file_directory +'\\10103826206.html',
-#             test_file_directory +'\\10103819734.html']
-
-
-# TODO: These articles are currently not parsed. They seem to be a very small subset.
-    #   If it becomes a noticeable issue in regular usage, I will attempt to fix.
-
-# # These articles have an entirely different format, they do not have 'article-body'
-# articles = ['C:\\Users\\Jason\\Desktop\\nature_htmls\\nature_htmls\\101038nature05027.html',
+articles1: These articles have an entirely different format, they do not have 'article-body'
+articles2: Everything parses but methods remains blank, *Methods section has h3 & h4 tags for subsection titles*
+'''
+# articles1 = ['C:\\Users\\Jason\\Desktop\\nature_htmls\\nature_htmls\\101038nature05027.html',
 #             'C:\\Users\\Jason\\Desktop\\nature_htmls\\nature_htmls\\101038nature05904.html']
+# articles2 = ['C:\\Users\\Jason\\Desktop\\nature_htmls\\nature_htmls\\101038nature21420.html']
 
-# # Everything parses but methods remains blank, *Methods section has h3 and (mainly) h4 tags for subsection titles*
-# articles = ['C:\\Users\\Jason\\Desktop\\nature_htmls\\nature_htmls\\101038nature21420.html']
+
+
+#### TEST PARSER USING HTML FILES ####
+'''This will randomly sample nature_htmls from a subset of papers downloaded locally onto my machine.
+   This was mainly for testing, but can be used for other purposes if the directory is changed.'''
+# # # Select random article from ~65,000
+# directory = os.path.realpath('C:\\Users\\Jason\\Desktop\\nature_htmls\\nature_htmls')
+# html_files = glob.glob(os.path.join(directory, '*.html'))
+# articles = random.sample(html_files, 20) # This number represents size of sample
+
+
+# ***Automatically find path of LimeSoup\TestingSoup.py***
+# ***Test the parser using the included test files***
+file_path = os.path.realpath(__file__)
+directory = os.path.dirname(file_path)
+test_file_directory = directory + "\\test\\nature_papers"
+
+articles = [test_file_directory +'\\10103835012032.html',
+            test_file_directory +'\\10103835050110.html',
+            test_file_directory + '\\101038416304a.html',
+            test_file_directory +'\\10103818335.html',
+            test_file_directory +'\\10103826206.html',
+            test_file_directory +'\\10103819734.html']
 
 parsed = []
 for article in articles:    # Quickly test using nature links
@@ -56,5 +57,5 @@ for article in articles:    # Quickly test using nature links
 
 # Export the test results as .json
 # Use ensure_ascii = False and encoding = 'utf-8' in order to get rid of \u****
-with open('Nature_file_test.json', 'w', encoding = 'utf-8') as f:
+with open('nature_file_test.json', 'w', encoding = 'utf-8') as f:
     json.dump(parsed, f, indent=4, ensure_ascii=False)
