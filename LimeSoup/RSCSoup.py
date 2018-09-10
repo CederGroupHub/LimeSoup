@@ -75,6 +75,8 @@ class RSCRemoveTrash(RuleIngredient):
         parser.remove_tag(
             rules=[{'name': 'p', 'class': 'bold italic', 'string': parser.compile('First published on')}]
         )
+        file = open('LimeSoup/test/new_rsc_papers/test.html', 'w')
+        file.write(parser.raw_html)
         return parser.raw_html
 
 
@@ -85,6 +87,8 @@ class RSCCreateTags(RuleIngredient):
         # This create a standard of sections tag name
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.create_tag_sections()
+        file2 = open('LimeSoup/test/new_rsc_papers/test2.html', 'w')
+        file2.write(parser.raw_html)
         return parser.raw_html
 
 
@@ -104,6 +108,9 @@ class RSCCreateTagAbstract(RuleIngredient):
             name_new_tag='h2',
             name_section='Introduction(guess)'
         )
+        file3 = open('LimeSoup/test/new_rsc_papers/test3.html', 'w')
+        file3.write(parser.raw_html)
+        x=y
         return parser.raw_html
 
 
