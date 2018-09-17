@@ -92,9 +92,6 @@ class WileyRemoveTrash(RuleIngredient):
         parser.remove_tag(
             rules=[{'name': 'p', 'class': 'bold italic', 'string': parser.compile('First published on')}]
         )
-
-        file = open('LimeSoup/test/wiley_papers/test.html', 'w')
-        file.write(parser.raw_html)
         return parser.raw_html
 
 class WileyCreateTags(RuleIngredient):
