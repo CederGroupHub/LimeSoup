@@ -263,11 +263,12 @@ class ParserPaper:
         Create a section for the abstract
         """
         abstract = self.soup.find(**rule)
-        self.data_sections.insert(0, self.create_section(
-                name='Abstract',
-                type_section='abstract',
-                content= abstract.get_text()
-            ))
+        if abstract is not None:
+            self.data_sections.insert(0, self.create_section(
+                    name='Abstract',
+                    type_section='abstract',
+                    content= abstract.get_text()
+                ))
 
     def get_abstract(self, rule):
         """
