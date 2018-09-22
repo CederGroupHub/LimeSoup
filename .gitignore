@@ -6,6 +6,8 @@ output_parser_paper.txt
 .pydevproject
 .idea
 .pyc
+
+*.pyc
 build/
 *.egg-info/
 dist/
@@ -15,4 +17,5 @@ dist/
 
 LimeSoup/Nature_file_test.json
 LimeSoup/test.json
+tester.py
 tester.py
