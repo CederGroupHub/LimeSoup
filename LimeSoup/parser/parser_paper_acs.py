@@ -394,6 +394,7 @@ class ParserPaper:
 
     @staticmethod
     def convert_to_text(text):
+        text = text.replace("\n", " ")
         text = ' '.join(str(text).split())
         text = re.sub(r"\&(\w+?)gr;", r"\1", text)
         return text
