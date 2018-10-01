@@ -79,7 +79,7 @@ class ParserPaper:
             self.data_sections.append(self.create_section(
                 name=name,
                 type_section=tag.name,
-                content= "\n".join(content)
+                content=content
             ))
 
         # Nest data sections
