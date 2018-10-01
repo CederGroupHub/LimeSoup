@@ -14,5 +14,5 @@ parsed_paper = ACSSoup.parse(paper)
 data = parsed_paper["obj"]
 # print (data)
 
-with open("LimeSoup/utils/data/acs/acs_parsed_paper.json", "w") as f:
+with open("LimeSoup/utils/data/acs/acs_parsed_paper.json", "w", encoding="utf-8") as f:
     f.write(json.dumps(data, indent=2))
