@@ -7,15 +7,26 @@ from __future__ import absolute_import
 import re
 
 from LimeSoup.lime_soup import Soup, RuleIngredient
-from LimeSoup.parser.parser_paper import ParserPaper
+from LimeSoup.parser.parser_paper_springer import ParserPaper
 
 
-__author__ = 'Ziqin (Shaun) Rong, Tiago Botari'
-__maintainer__ = 'Tiago Botari'
-__email__ = 'tiagobotari@gmail.com'
+__author__ = 'Alex van Grootel'
+__maintainer__ = 'Alex van Grootel'
+__email__ = 'agrootel@mit.edu'
 
 
-class RSCRemoveTagsSmallSub(RuleIngredient):
+class SpringerFindJournalName(RuleIngredient):
+    @staticmethod
+    def _parse(html_str):
+        parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
+        rules = [
+            {'name': 'span', 'class':'JournalTitle'}
+        ]
+        ParserPaper.journal_name = parser.get(rules)
+        return parser.raw_html
+
+
+class SpringerRemoveTagsSmallSub(RuleIngredient):
 
     @staticmethod
     def _parse(html_str):
@@ -23,14 +34,13 @@ class RSCRemoveTagsSmallSub(RuleIngredient):
         Deal with spaces in the sub, small tag and then remove it.
         """
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
-        rules = [{'name': 'small'},
+        rules = [#{'name': 'small'},
                  {'name': 'sub'},
-                 {'name': 'span', 'class': 'small_caps'},
                  {'name': 'sup'},
-                 {'name': 'span', 'class': 'italic'},
-                 {'name': 'span', 'class': 'bold'},
-                 {'name': 'strong'},
-                 {'name': 'span', 'class': 'small_caps'}]
+                 {'name': 'em', 'class': 'EmphasisTypeItalic '},
+                 {'name': 'strong', 'class': 'EmphasisTypeBold '}
+                # {'name': 'span', 'class': 'small_caps'},
+                ]
         parser.operation_tag_remove_space(rules)
         # Remove some specific all span that are inside of a paragraph 'p'
         parser.strip_tags(rules)
@@ -51,55 +61,61 @@ class RSCRemoveTagsSmallSub(RuleIngredient):
         # Recreating the ParserPaper bug in beautifulsoup
         html_str = str(parser.soup)
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
+
         return parser.raw_html
 
 
-class RSCRemoveTrash(RuleIngredient):
+class SpringerRemoveTrash(RuleIngredient):
     # TODO: error in two papers: 10.1039/B802997K - 10.1039/B717130G, some heading inside a span tag:
     @staticmethod
     def _parse(html_str):
         # Tags to be removed from the HTML paper ECS
         list_remove = [
-            {'name': 'p', 'class': 'header_text'},  # Authors
-            {'name': 'div', 'id': 'art-admin'},  # Data rec./accept.
-            {'name': 'div', 'class': 'image_table'},  # Figures
-            {'name': 'div', 'id': 'crossmark-content'},  # Another Logo
-            {'name': 'code'},  # Codes inside the HTML
-            {'name': 'div', 'class': 'table_caption'},  # Remove table caption
-            {'name': 'div', 'class': 'rtable__wrapper'},  # Remove table itself
-            {'name': 'div', 'class': 'left_head'}, # Navigation links
-            {'name': 'table'},  # Remove Footnote
+            {'name': 'div', 'class': 'Table'},  # Table
+            {'name': 'div', 'class': 'HeaderArticleNotes'},  # submitted date
+            {'name': 'p', 'class': 'skip-to'}, # Navigation links
+            {'name': 'header', 'class': 'header u-interface'}, #search
+            {'name': 'p', 'class': 'icon--meta-keyline-before'}, #published date and info
+            {'name': 'h2', 'class': 'Heading u-jsHide'}, #Authors title
+            {'name': 'ul', 'class': 'composite-layer authors'}, #Authors
+            {'name': 'div', 'class': 'article-context__container'}, #article context
+            {'name': 'div', 'class': 'banner'}, #search
+            {'name': 'aside', 'class': 'article-complementary-left'}, #Journal images
+            # {'name': 'div', 'class': 'ArticleHeader article-context'}, #article header
+            {'name': 'figure', 'class': 'Figure'}, #Figures
+            {'name': 'aside', 'class': 'article-about'}, #About paper
+            {'name': 'aside', 'class': 'article-complementary-right u-interface'}, #Article actions
+            {'name': 'footer', 'class': 'footer'}, #Article footer
+            {'name': 'div', 'class': 'ArticleCopyright content'}, #Copyright
+            {'name': 'h2', 'id': 'copyrightInformation'}, #copyright title
+            {'name': 'div', 'class': 'Acknowledgments'}, #Acknowledgements
+            {'name': 'aside', 'class': 'Bibliography'}, #Acknowledgements
         ]
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.remove_tags(rules=list_remove)
         parser.remove_tag(
             rules=[{'name': 'p', 'class': 'bold italic', 'string': parser.compile('First published on')}]
         )
-        # file = open('LimeSoup/test/new_rsc_papers/test.html', 'w')
-        # file.write(parser.raw_html)
         return parser.raw_html
 
-
-class RSCCreateTags(RuleIngredient):
+class SpringerCreateTags(RuleIngredient):
 
     @staticmethod
     def _parse(html_str):
         # This create a standard of sections tag name
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.create_tag_sections()
-        # file2 = open('LimeSoup/test/new_rsc_papers/test2.html', 'w')
-        # file2.write(parser.raw_html)
         return parser.raw_html
 
 
-class RSCCreateTagAbstract(RuleIngredient):
+class SpringerCreateTagAbstract(RuleIngredient):
 
     @staticmethod
     def _parse(html_str):
         # Create tag from selection function in ParserPaper
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.create_tag_from_selection(
-            rule={'name': 'p', 'class': 'abstract'},
+            rule={'name': 'section', 'class': 'Abstract'},
             name_new_tag='h2'
         )
         # Guess introductions
@@ -108,13 +124,10 @@ class RSCCreateTagAbstract(RuleIngredient):
             name_new_tag='h2',
             name_section='Introduction(guess)'
         )
-        # file3 = open('LimeSoup/test/new_rsc_papers/test3.html', 'w')
-        # file3.write(parser.raw_html)
-        # x=y
         return parser.raw_html
 
 
-class RSCReplaceDivTag(RuleIngredient):
+class SpringerReplaceDivTag(RuleIngredient):
 
     @staticmethod
     def _parse(html_str):
@@ -125,36 +138,41 @@ class RSCReplaceDivTag(RuleIngredient):
         _ = parser.strip_tags(rules)
         return parser.raw_html
 
+class SpringerReplaceDivTagPara(RuleIngredient):
 
-class RSCCollect(RuleIngredient):
+    @staticmethod
+    def _parse(html_str):
+        parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
+        rules = {'name': 'div', 'class': 'Para'}
+        parser.rename_tag(rules, 'p')
+        return parser.raw_html
+
+class SpringerCollect(RuleIngredient):
 
     @staticmethod
     def _parse(html_str):
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         # Collect information from the paper using ParserPaper
-        parser.get_keywords(rules=[{'name': 'li', 'class': 'kwd'}])
-        journal_name = parser.get([{'name': 'a', 'title': 'Link to journal home page'}])
+        # parser.get_keywords(rules=[{'name': 'li', 'class': 'kwd'}])
+        # journal_name = parser.get([{'name': 'a', 'title': 'Link to journal home page'}])
         parser.get_title(rules=[
-                {'name': 'h1', 'recursive': True},
-                {'name': 'h2', 'class': 'subtitle', 'recursive': True}
+                {'name': 'h1', 'class' :'ArticleTitle', 'recursive': True},
             ]
         )
         # Create tag from selection function in ParserPaper
         data = list()
-        """
-        Can deal with multiple Titles in the same paper
-        """
-        for i_item, item in enumerate(parser.soup.find_all('section_h1')):
-            parser.soup = item
-            parser.deal_with_sections()
-            data += parser.data_sections
+        
+        parser.deal_with_sections()
+        data = parser.data_sections
+        
         obj = {
             'DOI': '',
             'Title': parser.title,
             'Keywords': parser.keywords,
-            'Journal': journal_name,
+            'Journal': ParserPaper.journal_name,
             'Sections': data
         }
+
         return {'obj': obj, 'html_txt': parser.raw_html}
 
 
@@ -162,10 +180,12 @@ class RSCCollect(RuleIngredient):
 Error where the paper has paragraphs (content) that is not inside of a tag,
 problem to recover these paragraphs. 
 """
-RSCSoup = Soup()
-RSCSoup.add_ingredient(RSCRemoveTagsSmallSub())
-RSCSoup.add_ingredient(RSCRemoveTrash())
-RSCSoup.add_ingredient(RSCCreateTags())
-RSCSoup.add_ingredient(RSCCreateTagAbstract())
-RSCSoup.add_ingredient(RSCReplaceDivTag())
-RSCSoup.add_ingredient(RSCCollect())
+SpringerSoup = Soup()
+SpringerSoup.add_ingredient(SpringerFindJournalName())
+SpringerSoup.add_ingredient(SpringerRemoveTagsSmallSub())
+SpringerSoup.add_ingredient(SpringerRemoveTrash())
+SpringerSoup.add_ingredient(SpringerCreateTags())
+SpringerSoup.add_ingredient(SpringerCreateTagAbstract())
+SpringerSoup.add_ingredient(SpringerReplaceDivTag())
+SpringerSoup.add_ingredient(SpringerReplaceDivTagPara())
+SpringerSoup.add_ingredient(SpringerCollect())

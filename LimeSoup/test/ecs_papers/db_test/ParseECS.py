@@ -57,11 +57,17 @@ if __name__ == '__main__':
     # print(list(data))
     # exit()
     #for i_paper, data in enumerate(coll_paper_raw_html.find(query_mdb)):
+    print('here')
     i_paper = 0
     query_mdb = {"Publisher": "ECS"}
-    # query_mdb = {'DOI': '10.1149/1.1344530'}
-    data_list = list(coll_paper_raw_html.find(query_mdb).limit(2000))
+    '10.1149/1.3492151, 10.1149/1.3492174, 10.1149/1.3492188'
+    query_mdb = {'DOI': '10.1149/1.3492188'}
+    data_list = list(coll_paper_raw_html.find(query_mdb).limit(1))
+    print(data_list)
+    print('fim')
+    exit()
     for data in data_list:
+
     # while True:
     #     data = list(coll_paper_raw_html.find(query_mdb).limit(1))
         if len(data) == 0:
