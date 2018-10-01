@@ -71,10 +71,11 @@ class ParserPaper:
         
         # Get all sections
         for tag in section_tags:
-            name = tag.find('title').text
+            name = self.convert_to_text(tag.find('title').text)
+
             content = []
             for p in tag.find_all('p'):
-                content.append(p.text)
+                content.append(self.convert_to_text(p.text))
 
             self.data_sections.append(self.create_section(
                 name=name,
