@@ -74,7 +74,7 @@ class ParserPaper:
             name = self.convert_to_text(tag.find('title').text)
 
             content = []
-            for p in tag.find_all('p'):
+            for p in tag.find_all('p', recursive=False):
                 content.append(self.convert_to_text(p.text))
 
             self.data_sections.append(self.create_section(
@@ -87,13 +87,13 @@ class ParserPaper:
         for i in range(6, 1, -1):
             did_nest = False
             secname = "section_h{}".format(i)
-            supersec_name = "section_h{}".format(i-1)
+            # supersec_name = "section_h{}".format(i-1)
             curr_sec_set = []
             for j, sec in enumerate(reversed(self.data_sections)):
                 if sec['type'] == secname:
                     curr_sec_set.insert(0, sec)
-                elif (sec['type'] == supersec_name) and curr_sec_set:
-                    sec['content'] = curr_sec_set
+                elif (sec['type'] != secname) and curr_sec_set:
+                    sec['content'].extend(curr_sec_set)
                     curr_sec_set = []
                     did_nest = True
 

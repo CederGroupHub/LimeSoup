@@ -4,7 +4,8 @@ from bs4 import BeautifulSoup
 
 # filename = "LimeSoup/utils/data/acs/ja016991d.xml"
 # filename = "LimeSoup/utils/data/acs/acs.cgd.5b00741.xml"
-filename = "LimeSoup/utils/data/acs/acs.chemmater.7b01467.xml"
+# filename = "LimeSoup/utils/data/acs/acs.chemmater.7b01467.xml"
+filename = "LimeSoup/utils/data/acs/101021acsnano7b02500.xml"
 # filename = "LimeSoup/utils/data/acs/cg701151m.xml"
 
 with open(filename, "r", encoding="utf-8") as f:
