@@ -71,28 +71,29 @@ class ParserPaper:
         
         # Get all sections
         for tag in section_tags:
-            name = tag.find('title').text
+            name = self.convert_to_text(tag.find('title').text)
+
             content = []
-            for p in tag.find_all('p'):
-                content.append(p.text)
+            for p in tag.find_all('p', recursive=False):
+                content.append(self.convert_to_text(p.text))
 
             self.data_sections.append(self.create_section(
                 name=name,
                 type_section=tag.name,
-                content= "\n".join(content)
+                content=content
             ))
 
         # Nest data sections
         for i in range(6, 1, -1):
             did_nest = False
             secname = "section_h{}".format(i)
-            supersec_name = "section_h{}".format(i-1)
+            # supersec_name = "section_h{}".format(i-1)
             curr_sec_set = []
             for j, sec in enumerate(reversed(self.data_sections)):
                 if sec['type'] == secname:
                     curr_sec_set.insert(0, sec)
-                elif (sec['type'] == supersec_name) and curr_sec_set:
-                    sec['content'] = curr_sec_set
+                elif (sec['type'] != secname) and curr_sec_set:
+                    sec['content'].extend(curr_sec_set)
                     curr_sec_set = []
                     did_nest = True
 
@@ -267,7 +268,7 @@ class ParserPaper:
             self.data_sections.insert(0, self.create_section(
                     name='Abstract',
                     type_section='abstract',
-                    content= abstract.get_text()
+                    content= self.convert_to_text(abstract.get_text())
                 ))
 
     def get_abstract(self, rule):
@@ -394,7 +395,9 @@ class ParserPaper:
 
     @staticmethod
     def convert_to_text(text):
+        text = text.replace("\n", " ")
         text = ' '.join(str(text).split())
+        text = re.sub(r"\&(\w+?)gr;", r"\1", text)
         return text
 
     @property

@@ -17,7 +17,12 @@ class ACSRemoveTrash(RuleIngredient):
     @staticmethod
     def _parse(xml_str):
         # Tags to be removed from the xml paper
-        list_remove = [{'name': 'ref-list'}]
+        list_remove = [
+            {'name': 'ref-list'},
+            {'name': 'xref', 'ref-type': 'bibr'},
+            {'name': 'table-wrap'},
+            {'name': 'fig'},
+        ]
         parser = ParserPaper(xml_str, parser_type='lxml', debugging=False)
         parser.remove_tags(rules=list_remove)
         return parser.raw_xml
