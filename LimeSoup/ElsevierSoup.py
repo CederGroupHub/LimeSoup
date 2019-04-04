@@ -138,7 +138,7 @@ class ElsevierCollect(RuleIngredient):
         return {'obj': obj, 'xml_txt': parser.raw_xml}
 
 
-ElsevierSoup = Soup()
+ElsevierSoup = Soup(parser_version='0.2.2')
 ElsevierSoup.add_ingredient(ElsevierReformat())
 ElsevierSoup.add_ingredient(ElsevierSpaceBeforeFormula())
 ElsevierSoup.add_ingredient(ElsevierMoveJournalName())

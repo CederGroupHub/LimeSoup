@@ -84,7 +84,7 @@ class ACSCollect(RuleIngredient):
         return {'obj': obj, 'xml_txt': parser.raw_xml}
 
 
-ACSSoup = Soup()
+ACSSoup = Soup(parser_version='0.2.2')
 ACSSoup.add_ingredient(ACSReformat())
 ACSSoup.add_ingredient(ACSRemoveTrash())
 ACSSoup.add_ingredient(ACSCreateTags())

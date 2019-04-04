@@ -162,7 +162,7 @@ class RSCCollect(RuleIngredient):
 Error where the paper has paragraphs (content) that is not inside of a tag,
 problem to recover these paragraphs. 
 """
-RSCSoup = Soup()
+RSCSoup = Soup(parser_version='0.2.2')
 RSCSoup.add_ingredient(RSCRemoveTagsSmallSub())
 RSCSoup.add_ingredient(RSCRemoveTrash())
 RSCSoup.add_ingredient(RSCCreateTags())
