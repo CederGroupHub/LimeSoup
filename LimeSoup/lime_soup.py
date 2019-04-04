@@ -43,8 +43,13 @@ class SoupBase(object):
 
 class Soup(SoupBase):
 
-    def __init__(self):
+    def __init__(self, parser_version):
         super(Soup, self).__init__()
+        self._version = parser_version
+
+    @property
+    def version(self):
+        return self._version
 
     def parse(self, html_str):
         if not self._next:

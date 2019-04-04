@@ -212,7 +212,7 @@ class NatureCollect(RuleIngredient):
         # Should the return include html_text?
         return obj#, 'html_txt':parser.raw_html}
 
-NatureSoup = Soup()
+NatureSoup = Soup(parser_version='0.2.2')
 NatureSoup.add_ingredient(NatureRemoveTagsSmallSub())
 NatureSoup.add_ingredient(NatureRemoveTrash())
 NatureSoup.add_ingredient(NatureCollectMetadata())

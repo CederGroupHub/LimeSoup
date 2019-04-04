@@ -168,7 +168,7 @@ class ECSCollect(RuleIngredient):
         return {'obj': obj, 'html_txt': parser.raw_html}
 
 
-ECSSoup = Soup()
+ECSSoup = Soup(parser_version='0.2.2')
 ECSSoup.add_ingredient(ECSRemoveTagsSmallSub())
 ECSSoup.add_ingredient(ECSRemoveTrash())
 ECSSoup.add_ingredient(ECSCollectTitleKeywords())

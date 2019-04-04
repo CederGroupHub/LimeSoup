@@ -17,7 +17,12 @@ class ACSRemoveTrash(RuleIngredient):
     @staticmethod
     def _parse(xml_str):
         # Tags to be removed from the xml paper
-        list_remove = [{'name': 'ref-list'}]
+        list_remove = [
+            {'name': 'ref-list'},
+            {'name': 'xref', 'ref-type': 'bibr'},
+            {'name': 'table-wrap'},
+            {'name': 'fig'},
+        ]
         parser = ParserPaper(xml_str, parser_type='lxml', debugging=False)
         parser.remove_tags(rules=list_remove)
         return parser.raw_xml
@@ -79,7 +84,7 @@ class ACSCollect(RuleIngredient):
         return {'obj': obj, 'xml_txt': parser.raw_xml}
 
 
-ACSSoup = Soup()
+ACSSoup = Soup(parser_version='0.2.2')
 ACSSoup.add_ingredient(ACSReformat())
 ACSSoup.add_ingredient(ACSRemoveTrash())
 ACSSoup.add_ingredient(ACSCreateTags())

@@ -166,7 +166,7 @@ class WileyCollect(RuleIngredient):
         }
         return {'obj': obj, 'html_txt': parser.raw_html}
 
-WileySoup = Soup()
+WileySoup = Soup(parser_version='0.2.2')
 WileySoup.add_ingredient(WileyRemoveTagsSmallSub())
 WileySoup.add_ingredient(WileyRemoveTrash())
 WileySoup.add_ingredient(WileyCreateTags())

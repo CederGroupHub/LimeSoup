@@ -180,7 +180,7 @@ class SpringerCollect(RuleIngredient):
 Error where the paper has paragraphs (content) that is not inside of a tag,
 problem to recover these paragraphs. 
 """
-SpringerSoup = Soup()
+SpringerSoup = Soup(parser_version='0.2.2')
 SpringerSoup.add_ingredient(SpringerFindJournalName())
 SpringerSoup.add_ingredient(SpringerRemoveTagsSmallSub())
 SpringerSoup.add_ingredient(SpringerRemoveTrash())
