@@ -13,6 +13,7 @@ from LimeSoup.parser.parser_paper import ParserPaper
 __author__ = 'Ziqin (Shaun) Rong, Tiago Botari'
 __maintainer__ = 'Tiago Botari'
 __email__ = 'tiagobotari@gmail.com'
+__version__ = '0.2.2'
 
 
 class RSCRemoveTagsSmallSub(RuleIngredient):
@@ -162,7 +163,7 @@ class RSCCollect(RuleIngredient):
 Error where the paper has paragraphs (content) that is not inside of a tag,
 problem to recover these paragraphs. 
 """
-RSCSoup = Soup(parser_version='0.2.2')
+RSCSoup = Soup(parser_version=__version__)
 RSCSoup.add_ingredient(RSCRemoveTagsSmallSub())
 RSCSoup.add_ingredient(RSCRemoveTrash())
 RSCSoup.add_ingredient(RSCCreateTags())

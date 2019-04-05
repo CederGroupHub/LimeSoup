@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 __author__ = 'Zach Jensen'
 __maintainer__ = ''
 __email__ = 'zjensen@mit.edu'
-
+__version__ = '0.2.2'
 
 
 class WileyRemoveTagsSmallSub(RuleIngredient):
@@ -166,7 +166,8 @@ class WileyCollect(RuleIngredient):
         }
         return {'obj': obj, 'html_txt': parser.raw_html}
 
-WileySoup = Soup(parser_version='0.2.2')
+
+WileySoup = Soup(parser_version=__version__)
 WileySoup.add_ingredient(WileyRemoveTagsSmallSub())
 WileySoup.add_ingredient(WileyRemoveTrash())
 WileySoup.add_ingredient(WileyCreateTags())

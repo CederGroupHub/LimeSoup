@@ -13,6 +13,8 @@ from LimeSoup.parser.implemented_parsers import ParserNature
 __author__ = 'Jason Madeano'
 __maintainer__ = 'Jason Madeano'
 __email__ = 'Jason.Madeano@shell.com'
+__version__ = '0.2.2'
+
 
 class NatureRemoveTagsSmallSub(RuleIngredient):
 
@@ -212,7 +214,8 @@ class NatureCollect(RuleIngredient):
         # Should the return include html_text?
         return obj#, 'html_txt':parser.raw_html}
 
-NatureSoup = Soup(parser_version='0.2.2')
+
+NatureSoup = Soup(parser_version=__version__)
 NatureSoup.add_ingredient(NatureRemoveTagsSmallSub())
 NatureSoup.add_ingredient(NatureRemoveTrash())
 NatureSoup.add_ingredient(NatureCollectMetadata())

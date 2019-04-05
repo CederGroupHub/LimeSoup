@@ -11,6 +11,7 @@ from LimeSoup.parser.parser_paper_acs import ParserPaper
 __author__ = ''
 __maintainer__ = 'Nicolas Mingione'
 __email__ = 'nicolasmingione@lbl.gov'
+__version__ = '0.2.2'
 
 
 class ACSRemoveTrash(RuleIngredient):
@@ -84,7 +85,7 @@ class ACSCollect(RuleIngredient):
         return {'obj': obj, 'xml_txt': parser.raw_xml}
 
 
-ACSSoup = Soup(parser_version='0.2.2')
+ACSSoup = Soup(parser_version=__version__)
 ACSSoup.add_ingredient(ACSReformat())
 ACSSoup.add_ingredient(ACSRemoveTrash())
 ACSSoup.add_ingredient(ACSCreateTags())
