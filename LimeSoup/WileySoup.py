@@ -47,10 +47,8 @@ class WileyRemoveTagsSmallSub(RuleIngredient):
         return parser.raw_html
 
 class WileyRemoveTrash(RuleIngredient):
-    # TODO: error in two papers: 10.1039/B802997K - 10.1039/B717130G, some heading inside a span tag:
     @staticmethod
     def _parse(html_str):
-        # Tags to be removed from the HTML paper ECS
         list_remove = [
             {'name': 'div', 'class': 'loa-wrappers loa_authors hidden-xs'},
             {'name':'div', 'class':'article-header__authors-container'},  # Authors X
