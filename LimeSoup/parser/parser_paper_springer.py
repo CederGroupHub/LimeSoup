@@ -86,7 +86,7 @@ class ParserPaper:
             #         re.sub('\n*\s+\n*',' ',p.text.strip())
             #         )
             [x.extract() for x in tag.findAll('h{}'.format(tag.name[-1]))]
-            content = re.sub('\n*\s+\n*',' ',tag.text.strip())
+            content = re.sub('\n*\s+\n*',' ',tag.text.strip()) 
 
             self.data_sections.append(self.create_section(
                 name=name,
@@ -327,7 +327,8 @@ class ParserPaper:
             for tag in tags:
                 if tag is not None:
                     if tag.name is not None:
-                        tag.string = tag.get_text().rstrip()
+                        tag.string = tag.get_text().strip()
+
 
     def create_tag_sections(self, rule=None):
         """

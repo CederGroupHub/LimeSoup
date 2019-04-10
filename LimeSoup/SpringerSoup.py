@@ -37,7 +37,7 @@ class SpringerRemoveTagsSmallSub(RuleIngredient):
         rules = [#{'name': 'small'},
                  {'name': 'sub'},
                  {'name': 'sup'},
-                 {'name': 'em', 'class': 'EmphasisTypeItalic '},
+                 {'name': 'em', 'class': 'EmphasisTypeItalic '}, 
                  {'name': 'strong', 'class': 'EmphasisTypeBold '}
                 # {'name': 'span', 'class': 'small_caps'},
                 ]
@@ -181,11 +181,11 @@ Error where the paper has paragraphs (content) that is not inside of a tag,
 problem to recover these paragraphs. 
 """
 SpringerSoup = Soup()
-SpringerSoup.add_ingredient(SpringerFindJournalName())
 SpringerSoup.add_ingredient(SpringerRemoveTagsSmallSub())
 SpringerSoup.add_ingredient(SpringerRemoveTrash())
 SpringerSoup.add_ingredient(SpringerCreateTags())
-SpringerSoup.add_ingredient(SpringerCreateTagAbstract())
-SpringerSoup.add_ingredient(SpringerReplaceDivTag())
-SpringerSoup.add_ingredient(SpringerReplaceDivTagPara())
+# SpringerSoup.add_ingredient(SpringerCreateTagAbstract())
+# SpringerSoup.add_ingredient(SpringerReplaceDivTag())
+# SpringerSoup.add_ingredient(SpringerReplaceDivTagPara())
+SpringerSoup.add_ingredient(SpringerFindJournalName())
 SpringerSoup.add_ingredient(SpringerCollect())
