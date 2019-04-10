@@ -84,6 +84,8 @@ class WileyRemoveTrash(RuleIngredient):
             {'name':'section', 'id':'footer-citing'},
             {'name':'section', 'id':'footer-support-info'},
             {'name':'ul', 'class':'article-section__references-list-additional u-horizontal-list'}, # Remove Footnote X
+            {'name':'a', 'class':'bibLink tab-link'}, # remove references
+            {'name':'a', 'class':'link__reference js-link__reference'}
         ]
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.remove_tags(rules=list_remove)
