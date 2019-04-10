@@ -81,12 +81,13 @@ class ParserPaper:
             except AttributeError:
                 continue
             content = []
-            # for p in tag.find_all('p'):
-            #     content.append(
-            #         re.sub('\n*\s+\n*',' ',p.text.strip())
-            #         )
-            [x.extract() for x in tag.findAll('h{}'.format(tag.name[-1]))]
-            content = re.sub('\n*\s+\n*',' ',tag.text.strip()) 
+            for p in tag.find_all('p'):
+                
+                [x.extract() for x in tag.findAll('h{}'.format(tag.name[-1]))]
+                p = re.sub('\n*\s+\n*',' ',tag.text.strip())
+                p = re.sub(r'\[(\s|-\s|–\s|,\s)*\]', '', p)
+                
+                content.append(p)
 
             self.data_sections.append(self.create_section(
                 name=name,

@@ -46,19 +46,19 @@ class SpringerRemoveTagsSmallSub(RuleIngredient):
         # Remove some specific all span that are inside of a paragraph 'p'
         parser.strip_tags(rules)
         tags = parser.soup.find_all(**{'name': 'p'})
-        for tag in tags:
-            tags_inside_paragraph = tag.find_all(**{'name': 'span'})
-            for tag_inside_paragraph in tags_inside_paragraph:
-                tag_inside_paragraph.replace_with_children()
+        # for tag in tags:
+        #     tags_inside_paragraph = tag.find_all(**{'name': 'span'})
+        #     for tag_inside_paragraph in tags_inside_paragraph:
+        #         tag_inside_paragraph.replace_with_children()
 
         # Remove some specific span that are inside of a span and p
         parser.strip_tags(rules)
-        tags = parser.soup.find_all(**{'name': re.compile('span|p')})
-        for tag in tags:
-            for rule in rules:
-                tags_inside_paragraph = tag.find_all(**rule)
-                for tag_inside_paragraph in tags_inside_paragraph:
-                    tag_inside_paragraph.replace_with_children()
+        # tags = parser.soup.find_all(**{'name': re.compile('span|p')})
+        # for tag in tags:
+        #     for rule in rules:
+        #         tags_inside_paragraph = tag.find_all(**rule)
+        #         for tag_inside_paragraph in tags_inside_paragraph:
+        #             tag_inside_paragraph.replace_with_children()
         # Recreating the ParserPaper bug in beautifulsoup
         html_str = str(parser.soup)
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
@@ -70,7 +70,7 @@ class SpringerRemoveTrash(RuleIngredient):
     # TODO: error in two papers: 10.1039/B802997K - 10.1039/B717130G, some heading inside a span tag:
     @staticmethod
     def _parse(html_str):
-        # Tags to be removed from the HTML paper ECS
+        # Tags to be removed from the HTML paper 
         list_remove = [
             {'name': 'div', 'class': 'Table'},  # Table
             {'name': 'div', 'class': 'HeaderArticleNotes'},  # submitted date
@@ -91,6 +91,7 @@ class SpringerRemoveTrash(RuleIngredient):
             {'name': 'h2', 'id': 'copyrightInformation'}, #copyright title
             {'name': 'div', 'class': 'Acknowledgments'}, #Acknowledgements
             {'name': 'aside', 'class': 'Bibliography'}, #Acknowledgements
+            {'name': 'span', 'class': 'CitationRef'}, #references
         ]
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.remove_tags(rules=list_remove)
@@ -182,12 +183,11 @@ Error where the paper has paragraphs (content) that is not inside of a tag,
 problem to recover these paragraphs. 
 """
 SpringerSoup = Soup(parser_version=__version__)
-SpringerSoup.add_ingredient(SpringerFindJournalName())
 SpringerSoup.add_ingredient(SpringerRemoveTagsSmallSub())
+SpringerSoup.add_ingredient(SpringerFindJournalName())
 SpringerSoup.add_ingredient(SpringerRemoveTrash())
 SpringerSoup.add_ingredient(SpringerCreateTags())
-# SpringerSoup.add_ingredient(SpringerCreateTagAbstract())
-# SpringerSoup.add_ingredient(SpringerReplaceDivTag())
-# SpringerSoup.add_ingredient(SpringerReplaceDivTagPara())
-SpringerSoup.add_ingredient(SpringerFindJournalName())
+SpringerSoup.add_ingredient(SpringerCreateTagAbstract())
+SpringerSoup.add_ingredient(SpringerReplaceDivTag())
+SpringerSoup.add_ingredient(SpringerReplaceDivTagPara())
 SpringerSoup.add_ingredient(SpringerCollect())
