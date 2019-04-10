@@ -13,6 +13,7 @@ from LimeSoup.parser.parser_paper import ParserPaper
 __author__ = 'Tiago Botari'
 __maintainer__ = 'Tiago Botari'
 __email__ = 'tiagobotari@gmail.com'
+__version__ = '0.2.2'
 
 
 class ECSRemoveTagsSmallSub(RuleIngredient):
@@ -168,7 +169,7 @@ class ECSCollect(RuleIngredient):
         return {'obj': obj, 'html_txt': parser.raw_html}
 
 
-ECSSoup = Soup()
+ECSSoup = Soup(parser_version=__version__)
 ECSSoup.add_ingredient(ECSRemoveTagsSmallSub())
 ECSSoup.add_ingredient(ECSRemoveTrash())
 ECSSoup.add_ingredient(ECSCollectTitleKeywords())
