@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 __author__ = 'Zach Jensen'
 __maintainer__ = ''
 __email__ = 'zjensen@mit.edu'
-__version__ = '0.2.2'
+__version__ = '0.2.3'
 
 
 class WileyRemoveTagsSmallSub(RuleIngredient):
@@ -85,7 +85,17 @@ class WileyRemoveTrash(RuleIngredient):
             {'name':'section', 'id':'footer-support-info'},
             {'name':'ul', 'class':'article-section__references-list-additional u-horizontal-list'}, # Remove Footnote X
             {'name':'a', 'class':'bibLink tab-link'}, # remove references
-            {'name':'a', 'class':'link__reference js-link__reference'}
+            {'name':'a', 'class':'link__reference js-link__reference'},
+            {'name':'div', 'class':'loa-wrapper loa-authors hidden-xs'},
+            {'name':'div', 'class':'rlist--inline loa comma visible-xs mobile-authors loa-authors-trunc'},
+            {'name':'div', 'class':'readCube-sharing hidden'},
+            {'name':'div', 'class':'modal__header'},
+            {'name':'div', 'class':'modal__body'},
+            {'name':'div', 'class':'readCube-sharing hidden'},
+            {'name':'div', 'class':'ux-modal-container readCube-sharing__modal'},
+            {'name':'div', 'class':'share__block dropBlock__holder fixed'},
+            {'name':'div', 'class':'article-citation'},
+            {'name':'span', 'class':'inline-equation__label'},
         ]
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.remove_tags(rules=list_remove)
@@ -171,6 +181,6 @@ WileySoup = Soup(parser_version=__version__)
 WileySoup.add_ingredient(WileyRemoveTagsSmallSub())
 WileySoup.add_ingredient(WileyRemoveTrash())
 WileySoup.add_ingredient(WileyCreateTags())
-WileySoup.add_ingredient(WileyCreateTagAbstract())
+# WileySoup.add_ingredient(WileyCreateTagAbstract())
 WileySoup.add_ingredient(WileyReplaceDivTag())
 WileySoup.add_ingredient(WileyCollect())
