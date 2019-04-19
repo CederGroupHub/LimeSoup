@@ -82,10 +82,13 @@ class ParserPaper:
             content = []
             for p in tag.find_all('p'):
                 text = re.sub('\n*\s+\n*',' ',p.text.strip()).strip()
-                text.replace(' , , , ', '').replace(' , , , ', '').replace(' , , ', '')
+                text.replace(' , , , , ', '').replace(' , , , ', '').replace(' , , ', '')
                 text = text.replace('\\n', '').replace(', \'', '')
                 text = text.replace('.\'', '.').replace(' , ', '')
                 text.replace(' .', '.')
+                if text[-1] != '.':
+                    index = text.rfind('.')
+                    text = text[:index+1]
                 content.append(text)
             self.data_sections.append(self.create_section(
                 name=name,
@@ -349,9 +352,6 @@ class ParserPaper:
             section = self.soup.new_tag('section_'+each_tag.name)
             t.wrap(section)
             count += 1
-            # for tag in inside_tags:
-            #     section.append(tag)
-        print(count)
 
     def rename_tag(self, rule, new_name='section_h4'):
         tags = self.soup.find_all(**rule)

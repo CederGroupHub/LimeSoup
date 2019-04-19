@@ -3,6 +3,7 @@ import re
 from LimeSoup.lime_soup import Soup, RuleIngredient
 from LimeSoup.parser.parser_paper_wiley import ParserPaper
 from bs4 import BeautifulSoup
+import string
 
 __author__ = 'Zach Jensen'
 __maintainer__ = ''
@@ -96,6 +97,7 @@ class WileyRemoveTrash(RuleIngredient):
             {'name':'div', 'class':'share__block dropBlock__holder fixed'},
             {'name':'div', 'class':'article-citation'},
             {'name':'span', 'class':'inline-equation__label'},
+            {'name':'div', 'class':'accordion article-accordion'},
         ]
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.remove_tags(rules=list_remove)
@@ -167,6 +169,41 @@ class WileyCollect(RuleIngredient):
         """
         parser.deal_with_sections()
         data = parser.data_sections
+        check = ['Abstract', 'Acknowledgements', 'Experimental Section']
+        no_sections = True
+        for d in data:
+            if d['name'] not in check:
+                no_sections = False
+        if no_sections:
+            section = soup.find_all('section')
+            for sect in section:
+                if sect.get('class') is not None and 'article-section__full' in sect.get('class'):
+                    paragraphs = sect.find_all('p')
+                    for p in paragraphs:
+                        skip = False
+                        pars = p.parents
+                        for par in pars:
+                            if (par.get('class') is not None and ('supporting' in par.get('class') or 'references' in par.get('class') or 
+                                    'citedby' in par.get('class'))):
+                                skip = True
+                        if not skip:
+                            text = re.sub('\n*\s+\n*',' ',p.text.strip()).strip()
+                            text.replace(' , , , , ', '').replace(' , , , ', '').replace(' , , ', '')
+                            text = text.replace('\\n', '').replace(', \'', '')
+                            text = text.replace('.\'', '.').replace(' , ', '')
+                            text.replace(' .', '.')
+                            text = ''.join(filter(lambda x: x in string.printable, text))
+                            if text[-1] != '.':
+                                index = text.rfind('.')
+                                text = text[:index+1]
+                            if text == data[-1]['content'][0]:
+                                continue
+                            obj = {
+                                'type':'section_h2',
+                                'name':'',
+                                'content':[text]
+                            }
+                            data.insert(-1, obj)
         obj = {
             'DOI': doi,
             'Title': title,
