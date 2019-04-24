@@ -56,7 +56,6 @@ class SpringerRemoveTagsSmallSub(RuleIngredient):
 
 
 class SpringerRemoveTrash(RuleIngredient):
-    # TODO: error in two papers: 10.1039/B802997K - 10.1039/B717130G, some heading inside a span tag:
     @staticmethod
     def _parse(html_str):
         # Tags to be removed from the HTML paper 
@@ -105,14 +104,8 @@ class SpringerCreateTagAbstract(RuleIngredient):
         # Create tag from selection function in ParserPaper
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.create_tag_from_selection(
-            rule={'name': 'section', 'class': 'Abstract'},
+            rule={'name': 'div', 'class': 'AbstractSection'},
             name_new_tag='h2'
-        )
-        # Guess introductions
-        parser.create_tag_to_paragraphs_inside_tag(
-            rule={'name': 'section_h1'},
-            name_new_tag='h2',
-            name_section='Introduction(guess)'
         )
         return parser.raw_html
 
@@ -171,6 +164,7 @@ problem to recover these paragraphs.
 SpringerSoup = Soup(parser_version=__version__)
 SpringerSoup.add_ingredient(SpringerRemoveTagsSmallSub())
 SpringerSoup.add_ingredient(SpringerFindJournalName())
+SpringerSoup.add_ingredient(SpringerCreateTagAbstract())
 SpringerSoup.add_ingredient(SpringerRemoveTrash())
 SpringerSoup.add_ingredient(SpringerCreateTags())
 SpringerSoup.add_ingredient(SpringerReplaceDivTagPara())

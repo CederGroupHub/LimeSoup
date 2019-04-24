@@ -122,6 +122,10 @@ class ParserPaper:
 
             if did_nest:
                 self.data_sections = [s for s in self.data_sections if s['type'] != 'section_h{}'.format(i)]
+            else:
+                self.data_sections = [s for s in self.data_sections if s['content'] != []]
+                
+                
 
             
 
