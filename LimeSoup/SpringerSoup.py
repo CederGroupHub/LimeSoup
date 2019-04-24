@@ -38,8 +38,8 @@ class SpringerRemoveTagsSmallSub(RuleIngredient):
         rules = [
                  {'name': 'sub'},
                  {'name': 'sup'},
-                 {'name': 'em', 'class': 'EmphasisTypeItalic '}, 
-                 {'name': 'strong', 'class': 'EmphasisTypeBold '},
+                 {'name': 'em', 'class': re.compile("EmphasisTypeItalic *")}, 
+                 {'name': 'strong', 'class': re.compile("EmphasisTypeBold *")},
                  {'name': 'div', 'class':'Equation EquationMathjax'},
                  {'name': 'span', 'class':'InlineEquation'},
                  {'name': 'span', 'class':'InternalRef'}
