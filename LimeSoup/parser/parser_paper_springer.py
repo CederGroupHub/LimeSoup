@@ -18,6 +18,7 @@ import itertools
 import warnings
 import re
 from pprint import pprint
+import sys
 
 import bs4
 
@@ -75,26 +76,29 @@ class ParserPaper:
         section_tags = soup.find_all(search_str)
         
         # Get all sections
+        paras = []
         for tag in section_tags:
             try:
                 name = tag.find('h{}'.format(tag.name[-1])).text.strip()
+                name = name.replace('\n', '')
+                name = ' '.join(name.split())
             except AttributeError:
                 continue
             content = []
-            # for p in tag.find_all('p'):
-            #     content.append(
-            #         re.sub('\n*\s+\n*',' ',p.text.strip())
-            #         )
-            [x.extract() for x in tag.findAll('h{}'.format(tag.name[-1]))]
-            content = re.sub('\n*\s+\n*',' ',tag.text.strip())
-
-            self.data_sections.append(self.create_section(
-                name=name,
-                type_section=tag.name,
-                content= content
-            ))
+            for p in tag.find_all('p'):
+                p = p.getText()
+                p = re.sub('\n*\s+\n*',' ',p)
+                p = re.sub(r'\s?\[(\s|-\s|–\s|,\s)*\]', '', p)
+                
+                content.append(p.strip())
+            if len(content) > 0:
+                self.data_sections.append(self.create_section(
+                    name=name,
+                    type_section=tag.name,
+                    content= content))
 
         # Nest data sections
+        prev_texts = []
         for i in range(6, 1, -1):
             did_nest = False
             secname = "section_h{}".format(i)
@@ -102,14 +106,26 @@ class ParserPaper:
             curr_sec_set = []
             for j, sec in enumerate(reversed(self.data_sections)):
                 if sec['type'] == secname:
+                    sec['content'] = [s for s in sec['content'] if s not in prev_texts]
+                    prev_texts.extend([c for c in sec['content'] if type(c)==str])
                     curr_sec_set.insert(0, sec)
                 elif (sec['type'] == supersec_name) and curr_sec_set:
-                    sec['content'] = curr_sec_set
+                    for c in curr_sec_set:
+                        curr = c['content']
+                        for cu in curr:
+                            if cu in sec['content']:
+                                sec['content'].remove(cu)
+                    for c in curr_sec_set:
+                        sec['content'].append(c)
                     curr_sec_set = []
                     did_nest = True
 
             if did_nest:
                 self.data_sections = [s for s in self.data_sections if s['type'] != 'section_h{}'.format(i)]
+            else:
+                self.data_sections = [s for s in self.data_sections if s['content'] != []]
+                
+                
 
             
 
@@ -210,7 +226,7 @@ class ParserPaper:
         if not self.debugging:
             warnings.warn('Debugging mode has to be True when call the class')
             return None
-        list_paragraphs_soup = self.soup.find_all(name='p') # re.compile(
+        list_paragraphs_soup = self.soup.find_all('p', 'Para') # re.compile(
         list_paragraphs = []
         for item in list_paragraphs_soup:
             if len(tl.convert_to_text(item.get_text())) != 0:
@@ -327,7 +343,8 @@ class ParserPaper:
             for tag in tags:
                 if tag is not None:
                     if tag.name is not None:
-                        tag.string = tag.get_text().rstrip()
+                        tag.string = tag.get_text().strip()
+
 
     def create_tag_sections(self, rule=None):
         """
