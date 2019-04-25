@@ -305,7 +305,7 @@ class TestParsing(SoupTester):
             ]
         )
 
-    def test_paper_key_material_2(self):
+    def test_paper_key_material_3(self):
         parsed = self.get_parsed('10.1007_bf01142064.html', __file__)
         self.assertMaterialMentioned(
             parsed,
@@ -315,7 +315,7 @@ class TestParsing(SoupTester):
             ]
         )
 
-    def test_paper_key_material_2(self):
+    def test_paper_key_material_4(self):
         parsed = self.get_parsed('10.1007_bf00701095.html', __file__)
         self.assertMaterialMentioned(
             parsed,
