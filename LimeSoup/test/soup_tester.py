@@ -82,3 +82,89 @@ class SoupTester(TestCase):
 
         test_section(parsed['Sections'], '')
         self.assertTrue(len(section_names) == 0, 'Missing sections: %r.' % section_names)
+
+    def assertMaterialMentioned(self, parsed, materials, key_materials=[]):
+        """
+        Test if the parser extract material in correct format.
+        1. Check if materials appear in at least one paragraph
+        2. Check if key materials appear in abstract, main content,
+        and conclusion if applicable.
+        Assume a "key material" should appears in abstract, main content,
+        and conclusion. For materials only appearing in one or few paragraphs,
+        the string of materials should be assigned into `materials` rather
+        than `key_materials`.
+        :param parsed: Parsed object.
+        :param materials: List of material strings. For example, ['Y2O3']
+        :param key_materials: List of key material strings. For example, ['Pb(ZrxTi1−x)O3']
+        :return:
+        """
+
+        def type_of_element_in_list(meta_list):
+            all_types = []
+            for e in meta_list:
+                all_types.append(type(e))
+            return set(all_types)
+
+        def flatten_section(section):
+            all_sections = []
+            if isinstance(section, list):
+                for sub_section in section:
+                    all_sections.extend(flatten_section(sub_section))
+            elif isinstance(section, dict):
+                type_of_list = type_of_element_in_list(section['content'])
+                if type_of_list == {dict}:
+                    all_sections.extend(flatten_section(section['content']))
+                elif type_of_list == {str}:
+                    all_sections.append(section)
+            return  all_sections
+
+        # goal
+        materials_found = set()
+        key_materials_not_found = set()
+        all_text = {
+            'abstract': [],
+            'main_content': [],
+            'conclusion': [],
+        }
+
+        # get materials_found and all_text
+        all_sections = flatten_section(parsed['Sections'])
+        for section in all_sections:
+            name = section['name']
+            content = section['content']
+            text = '\n'.join(content)
+            for mat in materials:
+                if mat in text:
+                    materials_found.add(mat)
+            name_lower = name.lower()
+            if 'abstract' in name_lower:
+                all_text['abstract'].extend(content)
+            elif ('conclusion' in name_lower or
+                  'summary' in name_lower):
+                all_text['conclusion'].extend(content)
+            else:
+                all_text['main_content'].extend(content)
+
+        # clean all_text
+        all_text = dict(filter(lambda x: len(x[1]) > 0, all_text.items()))
+        if 'main_content' in all_text and len(all_text['main_content']) <= 3:
+            # assume main content should have at least 3 (arbitary) paragraphs
+            del all_text['main_content']
+
+        # get key_materials_not_found and key_materials_found
+        for mat in key_materials:
+            for paras in all_text.values():
+                text = '\n'.join(paras)
+                if mat not in text:
+                    key_materials_not_found.add(mat)
+        key_materials_found = set(key_materials) - key_materials_not_found
+
+        self.assertEqual(
+            materials_found, set(materials),
+            'Expected materials %s, got %s' % (sorted(set(materials)), sorted(materials_found))
+        )
+        self.assertEqual(
+            key_materials_found, set(key_materials),
+            'Expected materials %s, got %s' % (sorted(set(key_materials)), sorted(key_materials_found))
+        )
+
