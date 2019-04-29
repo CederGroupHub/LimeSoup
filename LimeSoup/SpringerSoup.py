@@ -35,31 +35,20 @@ class SpringerRemoveTagsSmallSub(RuleIngredient):
         Deal with spaces in the sub, small tag and then remove it.
         """
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
-        rules = [#{'name': 'small'},
+        rules = [
                  {'name': 'sub'},
                  {'name': 'sup'},
-                 {'name': 'em', 'class': 'EmphasisTypeItalic '},
-                 {'name': 'strong', 'class': 'EmphasisTypeBold '}
-                # {'name': 'span', 'class': 'small_caps'},
+                 {'name': 'em', 'class': re.compile("EmphasisTypeItalic *")}, 
+                 {'name': 'strong', 'class': re.compile("EmphasisTypeBold *")},
+                 {'name': 'div', 'class':'Equation EquationMathjax'},
+                 {'name': 'span', 'class':'InlineEquation'},
+                 {'name': 'span', 'class':'InternalRef'}
                 ]
         parser.operation_tag_remove_space(rules)
         # Remove some specific all span that are inside of a paragraph 'p'
         parser.strip_tags(rules)
         tags = parser.soup.find_all(**{'name': 'p'})
-        for tag in tags:
-            tags_inside_paragraph = tag.find_all(**{'name': 'span'})
-            for tag_inside_paragraph in tags_inside_paragraph:
-                tag_inside_paragraph.replace_with_children()
-
-        # Remove some specific span that are inside of a span and p
         parser.strip_tags(rules)
-        tags = parser.soup.find_all(**{'name': re.compile('span|p')})
-        for tag in tags:
-            for rule in rules:
-                tags_inside_paragraph = tag.find_all(**rule)
-                for tag_inside_paragraph in tags_inside_paragraph:
-                    tag_inside_paragraph.replace_with_children()
-        # Recreating the ParserPaper bug in beautifulsoup
         html_str = str(parser.soup)
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
 
@@ -67,10 +56,9 @@ class SpringerRemoveTagsSmallSub(RuleIngredient):
 
 
 class SpringerRemoveTrash(RuleIngredient):
-    # TODO: error in two papers: 10.1039/B802997K - 10.1039/B717130G, some heading inside a span tag:
     @staticmethod
     def _parse(html_str):
-        # Tags to be removed from the HTML paper ECS
+        # Tags to be removed from the HTML paper 
         list_remove = [
             {'name': 'div', 'class': 'Table'},  # Table
             {'name': 'div', 'class': 'HeaderArticleNotes'},  # submitted date
@@ -82,7 +70,6 @@ class SpringerRemoveTrash(RuleIngredient):
             {'name': 'div', 'class': 'article-context__container'}, #article context
             {'name': 'div', 'class': 'banner'}, #search
             {'name': 'aside', 'class': 'article-complementary-left'}, #Journal images
-            # {'name': 'div', 'class': 'ArticleHeader article-context'}, #article header
             {'name': 'figure', 'class': 'Figure'}, #Figures
             {'name': 'aside', 'class': 'article-about'}, #About paper
             {'name': 'aside', 'class': 'article-complementary-right u-interface'}, #Article actions
@@ -91,6 +78,7 @@ class SpringerRemoveTrash(RuleIngredient):
             {'name': 'h2', 'id': 'copyrightInformation'}, #copyright title
             {'name': 'div', 'class': 'Acknowledgments'}, #Acknowledgements
             {'name': 'aside', 'class': 'Bibliography'}, #Acknowledgements
+            {'name': 'span', 'class': 'CitationRef'}, #references
         ]
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.remove_tags(rules=list_remove)
@@ -116,14 +104,8 @@ class SpringerCreateTagAbstract(RuleIngredient):
         # Create tag from selection function in ParserPaper
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.create_tag_from_selection(
-            rule={'name': 'section', 'class': 'Abstract'},
+            rule={'name': 'div', 'class': 'AbstractSection'},
             name_new_tag='h2'
-        )
-        # Guess introductions
-        parser.create_tag_to_paragraphs_inside_tag(
-            rule={'name': 'section_h1'},
-            name_new_tag='h2',
-            name_section='Introduction(guess)'
         )
         return parser.raw_html
 
@@ -154,8 +136,7 @@ class SpringerCollect(RuleIngredient):
     def _parse(html_str):
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         # Collect information from the paper using ParserPaper
-        # parser.get_keywords(rules=[{'name': 'li', 'class': 'kwd'}])
-        # journal_name = parser.get([{'name': 'a', 'title': 'Link to journal home page'}])
+        parser.get_keywords(rules=[{'name': 'span', 'class': 'Keyword'}])
         parser.get_title(rules=[
                 {'name': 'h1', 'class' :'ArticleTitle', 'recursive': True},
             ]
@@ -176,17 +157,15 @@ class SpringerCollect(RuleIngredient):
 
         return {'obj': obj, 'html_txt': parser.raw_html}
 
-
 """
 Error where the paper has paragraphs (content) that is not inside of a tag,
 problem to recover these paragraphs. 
 """
 SpringerSoup = Soup(parser_version=__version__)
-SpringerSoup.add_ingredient(SpringerFindJournalName())
 SpringerSoup.add_ingredient(SpringerRemoveTagsSmallSub())
+SpringerSoup.add_ingredient(SpringerFindJournalName())
+SpringerSoup.add_ingredient(SpringerCreateTagAbstract())
 SpringerSoup.add_ingredient(SpringerRemoveTrash())
 SpringerSoup.add_ingredient(SpringerCreateTags())
-SpringerSoup.add_ingredient(SpringerCreateTagAbstract())
-SpringerSoup.add_ingredient(SpringerReplaceDivTag())
 SpringerSoup.add_ingredient(SpringerReplaceDivTagPara())
 SpringerSoup.add_ingredient(SpringerCollect())
