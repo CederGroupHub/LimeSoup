@@ -78,7 +78,9 @@ class SpringerRemoveTrash(RuleIngredient):
             {'name': 'h2', 'id': 'copyrightInformation'}, #copyright title
             {'name': 'div', 'class': 'Acknowledgments'}, #Acknowledgements
             {'name': 'aside', 'class': 'Bibliography'}, #Acknowledgements
+            {'name': 'section', 'id':'Notes'}, #acknowledgements
             {'name': 'span', 'class': 'CitationRef'}, #references
+            
         ]
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.remove_tags(rules=list_remove)
