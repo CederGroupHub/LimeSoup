@@ -77,15 +77,14 @@ class ParserPaper:
         for tag in section_tags:
             try:
                 name = tag.find('h{}'.format(tag.name[-1])).text.strip().replace('\\n\'', '').replace(', \'', '')
+                name = name.replace('\n', '')
+                name = " ".join(name.split())
+                name = name.replace('( ', '(').replace(' )', ')')
             except:
                 name = ''
             content = []
             for p in tag.find_all('p'):
-                text = re.sub('\n*\s+\n*',' ',p.text.strip()).strip()
-                text.replace(' , , , , ', '').replace(' , , , ', '').replace(' , , ', '')
-                text = text.replace('\\n', '').replace(', \'', '')
-                text = text.replace('.\'', '.').replace(' , ', '')
-                text.replace(' .', '.')
+                text = self.format_text(p.text)
                 if text[-1] != '.':
                     index = text.rfind('.')
                     text = text[:index+1]
@@ -97,19 +96,28 @@ class ParserPaper:
             ))
         # Nest data sections   
         for i in range(6, 1, -1):
+            print(i, '-----')
             did_nest = False
             secname = "section_h{}".format(i)
             supersec_name = "section_h{}".format(i-1)
+            supersupersec_name = "section_h{}".format(i-2)
+            supersupersupersect_name = "section_h{}".format(i-3)
             curr_sec_set = []
             for j, sec in enumerate(reversed(self.data_sections)):
+                # print(sec['type'], sec['name'])
                 if sec['type'] == secname:
                     curr_sec_set.insert(0, sec)
-                elif (sec['type'] == supersec_name) and curr_sec_set:
+                elif sec['type'] == supersec_name and curr_sec_set:
                     for c in curr_sec_set:
                         curr = c['content']
                         for cu in curr:
                             if cu in sec['content']:
                                 sec['content'].remove(cu)
+                            elif isinstance(cu, dict):
+                                curr2 = cu['content']
+                                for cu2 in curr2:
+                                    if cu2 in sec['content']:
+                                        sec['content'].remove(cu2)
                     for c in curr_sec_set:
                         sec['content'].append(c)
                     curr_sec_set = []
@@ -117,7 +125,13 @@ class ParserPaper:
 
             if did_nest:
                 self.data_sections = [s for s in self.data_sections if s['type'] != 'section_h{}'.format(i)]
-            
+    def format_text(self, text):
+        text = re.sub('\n*\s+\n*',' ',text.strip()).strip()
+        text = text.replace(' , , , , ', '').replace(' , , , ', '').replace(' , , ', '')
+        text = text.replace('\\n', '').replace(', \'', '')
+        text = text.replace('.\'', '.').replace(' , ', '')
+        text = text.replace(' .', '.').replace(' [ ]', '')
+        return text
     @staticmethod
     def create_soup(html_xlm, parser_type='html.parser'):
         # parser_types = ['html.parser', 'lxml', 'html5lib', 'lxml-xml']
@@ -344,9 +358,21 @@ class ParserPaper:
         tags = self.soup.find_all(search_str)
         count = 0
         for each_tag in tags:
-            if each_tag.get('class') is None: 
+            if 'reference' in each_tag.text.lower():
                 continue
-            if 'article' not in each_tag.get('class')[0]:
+            already_found = False
+            if each_tag.get('class') is None:
+                t = each_tag.parent
+                if t.get('class') is None:
+                    continue
+                else:
+                    if 'article' not in t.get('class')[0]:
+                        continue
+                    else:
+                        already_found = True
+            if already_found:
+                pass
+            elif 'article' not in each_tag.get('class')[0]:
                 continue
             t = each_tag.parent
             section = self.soup.new_tag('section_'+each_tag.name)

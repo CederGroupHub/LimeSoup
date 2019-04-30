@@ -3,7 +3,7 @@ sys.path.append('.')
 from LimeSoup.WileySoup import WileySoup
 import json
 
-html_files = ['LimeSoup/test/wiley_papers/10.1111j1551-2916201104722x.html'
+html_files = ['LimeSoup/test/test_wiley/10.1002-jhet.2172.html'
 
 ]
 
