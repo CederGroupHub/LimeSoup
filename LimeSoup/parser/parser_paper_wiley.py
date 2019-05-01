@@ -96,7 +96,6 @@ class ParserPaper:
             ))
         # Nest data sections   
         for i in range(6, 1, -1):
-            print(i, '-----')
             did_nest = False
             secname = "section_h{}".format(i)
             supersec_name = "section_h{}".format(i-1)
@@ -104,7 +103,6 @@ class ParserPaper:
             supersupersupersect_name = "section_h{}".format(i-3)
             curr_sec_set = []
             for j, sec in enumerate(reversed(self.data_sections)):
-                # print(sec['type'], sec['name'])
                 if sec['type'] == secname:
                     curr_sec_set.insert(0, sec)
                 elif sec['type'] == supersec_name and curr_sec_set:
@@ -125,13 +123,22 @@ class ParserPaper:
 
             if did_nest:
                 self.data_sections = [s for s in self.data_sections if s['type'] != 'section_h{}'.format(i)]
+
     def format_text(self, text):
         text = re.sub('\n*\s+\n*',' ',text.strip()).strip()
         text = text.replace(' , , , , ', '').replace(' , , , ', '').replace(' , , ', '')
         text = text.replace('\\n', '').replace(', \'', '')
         text = text.replace('.\'', '.').replace(' , ', '')
         text = text.replace(' .', '.').replace(' [ ]', '')
+        text = text.replace('\\uf8ff', '--').replace('\\u2005', '').replace('\\u2009', '').replace('\\uf8fe', '--')
+        text = text.replace('\' \' \' \' ', '').replace('\' \' \' ', '')
+        text = text.replace(' , , ', ' ').replace(' , ', ' ').replace(' )', ')')
+        text = text.replace("<span class=\\'icomoon\\'>?</span>", "--")
+        text = text.replace("<span class='icomoon'>?</span>", '--') 
+        text = text.replace(' \' \'', '')
+        text = text.replace("&amp;", "&")
         return text
+
     @staticmethod
     def create_soup(html_xlm, parser_type='html.parser'):
         # parser_types = ['html.parser', 'lxml', 'html5lib', 'lxml-xml']

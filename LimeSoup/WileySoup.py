@@ -155,13 +155,13 @@ class WileyCollect(RuleIngredient):
         keywords = soup.find_all(attrs={'name':'citation_keywords'})
         keys = []
         for key in keywords:
-            keys.append(key.get('content'))
+            keys.append(parser.format_text(key.get('content')))
         journal_name = soup.find(attrs={'name':'citation_journal_title'})
-        journal_name = journal_name.get('content')
+        journal_name = parser.format_text(journal_name.get('content'))
         doi = soup.find(attrs={'name':'citation_doi'})
         doi = doi.get('content')
         title = soup.find(attrs={'name':'citation_title'})
-        title = title.get('content')
+        title = parser.format_text(title.get('content'))
         # Create tag from selection function in ParserPaper
         data = list()
         """
@@ -169,7 +169,8 @@ class WileyCollect(RuleIngredient):
         """
         parser.deal_with_sections()
         data = parser.data_sections
-        check = ['Abstract', 'Acknowledgements', 'Experimental Section']
+        index2 = max(len(data)-1,1)
+        check = ['Abstract', 'Acknowledgements', 'Experimental Section', 'Supporting Information']
         no_sections = True
         for d in data:
             if d['name'] not in check:
@@ -177,22 +178,38 @@ class WileyCollect(RuleIngredient):
         if no_sections:
             section = soup.find_all('section')
             for sect in section:
-                if sect.get('class') is not None and 'article-section__full' in sect.get('class'):
+                if (sect.get('class') is not None and ('article-section__full' in sect.get('class') or 
+                    (isinstance(sect.get('class'), list) and len(sect.get('class'))>1 and 'article-body-section' in sect.get('class')[1]))):
                     paragraphs = sect.find_all('p')
                     for p in paragraphs:
                         skip = False
+                        ul = p.find('ul')
+                        if ul is not None and ul.get('class') is not None and 'rlist' in ul.get('class'):
+                            skip = True
                         pars = p.parents
                         for par in pars:
                             if (par.get('class') is not None and ('supporting' in par.get('class') or 'references' in par.get('class') or 
                                     'citedby' in par.get('class'))):
                                 skip = True
+                        for d in data:
+                            for c in d['content']:
+                                if isinstance(c, str):
+                                    if c == parser.format_text(p.text):
+                                        skip = True
+                                elif isinstance(c, dict):
+                                    d2 = c['content']
+                                    for c2 in d2:
+                                        if isinstance(c2, str):
+                                            if c2 == parser.format_text(p.text):
+                                                skip = True
+                                        elif isinstance(c2, dict):
+                                            d3 = c2['content']
+                                            for c3 in d3:
+                                                if c3 == parser.format_text(p.text):
+                                                    skip = True
                         if not skip:
-                            text = re.sub('\n*\s+\n*',' ',p.text.strip()).strip()
-                            text.replace(' , , , , ', '').replace(' , , , ', '').replace(' , , ', '')
-                            text = text.replace('\\n', '').replace(', \'', '')
-                            text = text.replace('.\'', '.').replace(' , ', '')
-                            text.replace(' .', '.')
-                            text = ''.join(filter(lambda x: x in string.printable, text))
+                            text = parser.format_text(p.text)
+                            # text = ''.join(filter(lambda x: x in string.printable, text)) Can be useful for formating but can remove characters
                             if text[-1] != '.':
                                 index = text.rfind('.')
                                 text = text[:index+1]
@@ -203,7 +220,7 @@ class WileyCollect(RuleIngredient):
                                 'name':'',
                                 'content':[text]
                             }
-                            data.insert(-1, obj)
+                            data.insert(-1*index2, obj)
         obj = {
             'DOI': doi,
             'Title': title,
