@@ -2,12 +2,10 @@ from LimeSoup.SpringerSoup import SpringerSoup
 
 from LimeSoup.test.soup_tester import SoupTester
 
+import os
+import zipfile
 from pprint import pprint
 
-
-# TODO: WHAT is the section type for the paper missing abstract? h2 or h3
-# TODO: do we need to parse DOI
-# TODO: discuss what it the format of journal/title output
 
 class TestParsing(SoupTester):
     Soup = SpringerSoup
@@ -326,4 +324,31 @@ class TestParsing(SoupTester):
             key_materials=[]
         )
 
+
+    def test_journal_name_1(self):
+        paper_folder = os.path.dirname(os.path.realpath(__file__))
+        all_files = os.listdir(paper_folder)
+        all_files = list(filter(lambda x: x.endswith('.html'), all_files))
+        for tmp_f in all_files:
+            parsed = self.get_parsed(tmp_f, __file__)
+            self.checkSpecialCharacters(
+                parsed,
+                field_to_check=['Journal', 'Title', 'DOI', 'Keywords', 'Sections']
+            )
+
+    def test_journal_name_2(self):
+        archive = zipfile.ZipFile(
+            os.path.join(
+                os.path.dirname(os.path.realpath(__file__)),
+                'onePaperPerJournal.zip'
+            ),
+            'r'
+        )
+        for tmp_f in archive.filelist:
+            fr = archive.read(tmp_f).decode('utf8')
+            parsed = self.Soup.parse(fr)['obj']
+            self.checkSpecialCharacters(
+                parsed,
+                field_to_check=['Journal', 'Title', 'DOI', 'Keywords', 'Sections']
+            )
 
