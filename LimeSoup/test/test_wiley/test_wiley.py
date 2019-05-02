@@ -23,20 +23,20 @@ class TestParsing(SoupTester):
                 ('$$Introduction', 2),
                 ('$$Results and Discussion', 3),
                 ('$$Experimental', 1),
-                ('$$Typical procedure for the preparation of 2,3-diphenyl-2,3,4,4a,5,6,7,8-octahydrocinnoline (5a)', 1),
-                ('$$Typical procedure for the preparation of 2,3-diphenyl-2,3,4,4a,5,6,7,8-octahydrocinnoline (5a)$$'
+                ('$$Experimental$$Typical procedure for the preparation of 2,3-diphenyl-2,3,4,4a,5,6,7,8-octahydrocinnoline (5a)', 1),
+                ('$$Experimental$$Typical procedure for the preparation of 2,3-diphenyl-2,3,4,4a,5,6,7,8-octahydrocinnoline (5a)$$'
                  '3-Methyl-2,3-diphenyl-2,3,4,4a,5,6,7,8-octahydrocinnoline (5b)', 1),
-                ('$$Typical procedure for the preparation of 2,3-diphenyl-2,3,4,4a,5,6,7,8-octahydrocinnoline (5a)$$'
+                ('$$Experimental$$Typical procedure for the preparation of 2,3-diphenyl-2,3,4,4a,5,6,7,8-octahydrocinnoline (5a)$$'
                  '2-Phenyl-2,3,4,4a,5,6,7,8-octahydrocinnoline-3-carbonitrile (5c)', 1),
-                ('$$Typical procedure for the preparation of 2,3-diphenyl-2,3,4,4a,5,6,7,8-octahydrocinnoline (5a)$$'
+                ('$$Experimental$$Typical procedure for the preparation of 2,3-diphenyl-2,3,4,4a,5,6,7,8-octahydrocinnoline (5a)$$'
                  '2-Phenyl-2,3,4,4a,5,6,7,8-octahydrocinnoline-3-carboxylic acid ethyl ester (5d)', 1),
-                ('$$Typical procedure for the preparation of 2,3-diphenyl-2,3,4,4a,5,6,7,8-octahydrocinnoline (5a)$$'
+                ('$$Experimental$$Typical procedure for the preparation of 2,3-diphenyl-2,3,4,4a,5,6,7,8-octahydrocinnoline (5a)$$'
                  '2,3-Diphenyl-3,4,4a,5,6,7-hexahydro-2H-cyclopenta[c]pyridazine (9a)', 1),
-                ('$$Typical procedure for the preparation of 2,3-diphenyl-2,3,4,4a,5,6,7,8-octahydrocinnoline (5a)$$'
+                ('$$Experimental$$Typical procedure for the preparation of 2,3-diphenyl-2,3,4,4a,5,6,7,8-octahydrocinnoline (5a)$$'
                  '3-Methyl-2,3-Diphenyl-3,4,4a,5,6,7-hexahydro-2H-cyclopenta[c]pyridazine (9b)', 1),
-                ('$$Typical procedure for the preparation of 2,3-diphenyl-2,3,4,4a,5,6,7,8-octahydrocinnoline (5a)$$'
+                ('$$Experimental$$Typical procedure for the preparation of 2,3-diphenyl-2,3,4,4a,5,6,7,8-octahydrocinnoline (5a)$$'
                  '2-Phenyl-3,4,4a,5,6,7-hexahydro-2H-cyclopenta[c]pyridazine-3-carbonitrile (9c)', 1),
-                ('$$Typical procedure for the preparation of 2,3-diphenyl-2,3,4,4a,5,6,7,8-octahydrocinnoline (5a)$$'
+                ('$$Experimental$$Typical procedure for the preparation of 2,3-diphenyl-2,3,4,4a,5,6,7,8-octahydrocinnoline (5a)$$'
                  '2-Phenyl-3,4,4a,5,6,7-hexahydro-2H-cyclopenta[c]pyridazine-3-carboxylic acid ethyl ester (9d)', 1),
             ]
         )
@@ -49,10 +49,10 @@ class TestParsing(SoupTester):
         self.assertTitleEqual(
             parsed,
             "A [4+1] Cyclative Capture Approach to 3H‐Indole‐N‐oxides at Room Temperature "
-            "by Rhodium(III)‐Catalyzed C<span class='icomoon'>?</span>H Activation")
+            "by Rhodium(III)‐Catalyzed C--H Activation")
         self.assertKeywordsEqual(
             parsed, [
-                "C<span class='icomoon'>?</span>H activation", 'cyclizations', 'diazo compounds',
+                "C--H activation", 'cyclizations', 'diazo compounds',
                 'heterocycles', 'rhodium'
             ]
         )
@@ -107,7 +107,7 @@ class TestParsing(SoupTester):
                 ('$$III. Results and Discussion$$(2) Microstructural Evolution of ZS/TC4 Joints', 3),
                 ('$$III. Results and Discussion$$(3) Growing Behavior of TiB', 4),
                 ('$$III. Results and Discussion$$(4) Mechanical Properties of ZS/TC4 Joints', 2),
-                ('$$IV. Conclusion', 5),
+                ('$$IV. Conclusion', 1),
                 ('$$Acknowledgments', 1),
             ]
         )
