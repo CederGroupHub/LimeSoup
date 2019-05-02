@@ -3,7 +3,8 @@ from LimeSoup.SpringerSoup import SpringerSoup
 from LimeSoup.test.soup_tester import SoupTester
 
 import os
-import zipfile
+import codecs
+import tarfile
 from pprint import pprint
 
 
@@ -31,7 +32,6 @@ class TestParsing(SoupTester):
                 ('$$4 Results and discussion$$4.2 Diffuse transmission measurements', 1),
                 ('$$4 Results and discussion$$4.3 Diffuse light scattering calculations', 1),
                 ('$$5 Conclusions', 2),
-                ('$$Acknowledgments', 1),
             ]
         )
 
@@ -69,7 +69,6 @@ class TestParsing(SoupTester):
                 ('$$3 Results and discussion$$3.2 Study of Cu Species$$3.2.4 XPS', 2),
                 ('$$3 Results and discussion$$3.3 Hydroxylation of Phenol', 4),
                 ('$$4 Conclusion', 1),
-                ('$$Notes$$Acknowledgments', 1),
             ]
         )
 
@@ -159,8 +158,6 @@ class TestParsing(SoupTester):
                 ('$$Experiment', 2),
                 ('$$Results and discussion', 4),
                 ('$$Conclusions', 1),
-                ('$$Acknowledgements', 1),
-
             ]
         )
 
@@ -184,7 +181,6 @@ class TestParsing(SoupTester):
                 ('$$Results', 20),
                 ('$$Discussion', 12),
                 ('$$Conclusions', 1),
-                ('$$Acknowledgements', 1),
             ]
         )
 
@@ -213,8 +209,7 @@ class TestParsing(SoupTester):
                 ('$$4 TPU 3D printing$$4.1 Tensile test result', 2),
                 ('$$4 TPU 3D printing$$4.2 Orientation angle', 4),
                 ('$$4 TPU 3D printing$$4.3 Printing temperature', 4),
-                ('$$5 Conclusion', 1),
-                ('$$Notes$$Acknowledgements', 1),
+                ('$$5 Conclusion', 3),
             ]
         )
 
@@ -260,7 +255,6 @@ class TestParsing(SoupTester):
                 ('$$Discussion', 5),
                 ('$$Conclusion', 1),
                 ('$$Misc', 1),
-                ('$$Acknowledgements', 1),
             ]
         )
 
@@ -337,18 +331,26 @@ class TestParsing(SoupTester):
             )
 
     def test_journal_name_2(self):
-        archive = zipfile.ZipFile(
+        # take care if running this, because it might be very slow
+        # there are 1.8 k paper for testing in the zip
+        # one paper for a Springer journal (sampled using collection Paper_Metadata)
+        archive = tarfile.open(
             os.path.join(
                 os.path.dirname(os.path.realpath(__file__)),
-                'onePaperPerJournal.zip'
-            ),
-            'r'
+                'onePaperPerJournal.tar.xz'
+            )
         )
-        for tmp_f in archive.filelist:
-            fr = archive.read(tmp_f).decode('utf8')
+        utf8reader = codecs.getreader('utf-8')
+        for tmp_f in archive.getmembers():
+            if not tmp_f.isfile():
+                continue
+            fr = utf8reader(archive.extractfile(tmp_f)).read()
             parsed = self.Soup.parse(fr)['obj']
+
             self.checkSpecialCharacters(
                 parsed,
                 field_to_check=['Journal', 'Title', 'DOI', 'Keywords', 'Sections']
             )
+
+
 
