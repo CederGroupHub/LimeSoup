@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from __future__ import print_function
-from __future__ import division
 from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
 
-import re, bs4, json
+import json
+import re
 
 from LimeSoup.lime_soup import Soup, RuleIngredient
 from LimeSoup.parser.implemented_parsers import ParserNature
-
 
 __author__ = 'Jason Madeano'
 __maintainer__ = 'Jason Madeano'
@@ -66,15 +66,16 @@ class NatureRemoveTrash(RuleIngredient):
     Selects the article div and removes all of the excess (ie. the sidebar,
     Nature contact info, etc). Also strips the items listed below.
     '''
+
     @staticmethod
     def _parse(html_str):
         # Tags to be removed from the HTML paper ECS
         list_remove = [
-            {'name': 'li', 'itemprop':'citation'},  # Citations/References
+            {'name': 'li', 'itemprop': 'citation'},  # Citations/References
             {'name': 'div', 'id': 'article-comments-section'},  # Comments
             {'name': 'figure'},  # Figures
             {'name': 'code'},  # Code inside the HTML
-            {'name': 'div', 'class': 'figure-at-a-glance'}, # Copy of all figures
+            {'name': 'div', 'class': 'figure-at-a-glance'},  # Copy of all figures
 
             # # Still deciding how to deal with removing all references,
             # # Currently all superscript references are removed.
@@ -89,21 +90,21 @@ class NatureRemoveTrash(RuleIngredient):
 
 
 class NatureCollectMetadata(RuleIngredient):
-    '''
+    """
     Collect metadata such as Title, Journal Name, DOI and Content Type.
-    '''
+    """
 
     @staticmethod
     def _parse(html_str):
         parser = ParserNature(html_str, debugging=False)
-        error_message, valid_article = '', True # Assume no error
+        error_message, valid_article = '', True  # Assume no error
         doi, journal, title, type = None, None, None, None
 
         try:
             # The majority of nature articles have a script tag that contains
             # all of the valuable metadata in structure json format.
             pattern = re.compile(r'.*dataLayer.*')
-            script = parser.soup.find('script', text = pattern)
+            script = parser.soup.find('script', text=pattern)
 
             if script:
                 script = script.get_text()
@@ -118,10 +119,10 @@ class NatureCollectMetadata(RuleIngredient):
                 title = dict['contentInfo']['title']
                 type = dict['category']['contentType']
 
-            else: # Some articles don't include script, but the metadata still exists
-                doi = parser.soup.find('meta', {'name':'dc.identifier'})
-                title = parser.soup.find('meta', {'name':'dc.title'})
-                journal = parser.soup.find('meta', {'name':'WT.cg_n'})
+            else:  # Some articles don't include script, but the metadata still exists
+                doi = parser.soup.find('meta', {'name': 'dc.identifier'})
+                title = parser.soup.find('meta', {'name': 'dc.title'})
+                journal = parser.soup.find('meta', {'name': 'WT.cg_n'})
                 type = parser.soup.find('meta', {'name': 'WT.cg_s'})
 
                 if doi: doi = doi['content'][4:]
@@ -154,7 +155,7 @@ class NatureCollectMetadata(RuleIngredient):
             'Valid Article': valid_article,
             'Content Type': type.lower(),
             'DOI': doi,
-            'Title': [title],
+            'Title': title,
             'Keywords': parser.keywords,
             'Journal': journal,
             'Sections': []
@@ -197,7 +198,7 @@ class NatureCollect(RuleIngredient):
                 # Stop collecting data once any of these sections are reached
                 if section_title.lower() in ['references', 'additional information',
                                              'change history', 'author information']:
-                    if data == []: # If parser reaches the end without collecting any data
+                    if data == []:  # If parser reaches the end without collecting any data
                         print("-----No Data-----")
                         valid_article = False
                     break
@@ -212,7 +213,7 @@ class NatureCollect(RuleIngredient):
         obj['Valid Article'] = valid_article
 
         # Should the return include html_text?
-        return obj#, 'html_txt':parser.raw_html}
+        return {'obj': obj, 'html_txt': parser.raw_html}
 
 
 NatureSoup = Soup(parser_version=__version__)

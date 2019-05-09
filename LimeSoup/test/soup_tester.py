@@ -5,6 +5,7 @@ import warnings
 
 from html.entities import name2codepoint
 
+
 def type_of_element_in_list(meta_list):
     """
     Get the type of all elements in a list
@@ -15,6 +16,7 @@ def type_of_element_in_list(meta_list):
     for e in meta_list:
         all_types.append(type(e))
     return set(all_types)
+
 
 def flatten_section(section):
     """
