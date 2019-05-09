@@ -15,14 +15,12 @@ __email__ = "tiagobotari@gmail.com"
 __date__ = "Feb 18 2018"
 
 import itertools
-import warnings
 import re
-from pprint import pprint
+import warnings
 
-import bs4
-
-from LimeSoup.parser.parser_section import ParserSections
 import LimeSoup.parser.tools as tl
+import bs4
+from LimeSoup.parser.parser_section import ParserSections
 
 
 class ParserPaper:
@@ -34,7 +32,6 @@ class ParserPaper:
         :param debugging: True or False
         """
         self.debugging = debugging
-        # parsers 'html.parser', 'lxml', 'html5lib', 'lxml-xml'
         self.soup = bs4.BeautifulSoup('{:}'.format(raw_html), parser_type)
         self.parser_type = parser_type
         self.title = []
@@ -334,4 +331,3 @@ class ParserPaper:
     @property
     def raw_html(self):
         return self.soup.prettify()
-
