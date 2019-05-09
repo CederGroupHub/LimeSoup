@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-
 import json
 import re
 
@@ -13,7 +7,7 @@ from LimeSoup.parser.implemented_parsers import ParserNature
 __author__ = 'Jason Madeano'
 __maintainer__ = 'Jason Madeano'
 __email__ = 'Jason.Madeano@shell.com'
-__version__ = '0.2.2'
+__version__ = '0.2.3'
 
 
 class NatureRemoveTagsSmallSub(RuleIngredient):
