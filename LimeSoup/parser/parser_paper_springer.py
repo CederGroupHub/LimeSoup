@@ -15,14 +15,11 @@ __email__ = "tiagobotari@gmail.com"
 __date__ = "Feb 18 2018"
 
 import itertools
-import warnings
 import re
-from pprint import pprint
-import sys
+import warnings
 
 import bs4
 
-from LimeSoup.parser.parser_section import ParserSections
 import LimeSoup.parser.tools as tl
 
 
@@ -390,4 +387,3 @@ class ParserPaper:
     @property
     def raw_html(self):
         return self.soup.prettify()
-

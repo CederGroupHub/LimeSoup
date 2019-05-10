@@ -1,13 +1,13 @@
 import re
 
 from LimeSoup.lime_soup import Soup, RuleIngredient
+from LimeSoup.parser.paragraphs import extract_paragraphs_recursive, get_tag_text
 from LimeSoup.parser.parser_paper import ParserPaper
 
-
-__author__ = 'Ziqin (Shaun) Rong, Tiago Botari'
-__maintainer__ = 'Tiago Botari'
-__email__ = 'tiagobotari@gmail.com'
-__version__ = '0.2.2'
+__author__ = 'Ziqin (Shaun) Rong, Tiago Botari, Haoyan Huo'
+__maintainer__ = 'Haoyan Huo'
+__email__ = 'haoyan.huo@lbl.gov'
+__version__ = '0.2.3'
 
 
 class RSCRemoveTagsSmallSub(RuleIngredient):
@@ -42,18 +42,15 @@ class RSCRemoveTagsSmallSub(RuleIngredient):
                 tags_inside_paragraph = tag.find_all(**rule)
                 for tag_inside_paragraph in tags_inside_paragraph:
                     tag_inside_paragraph.replace_with_children()
-        # Recreating the ParserPaper bug in beautifulsoup
-        html_str = str(parser.soup)
-        parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
-        return parser.raw_html
+
+        return parser
 
 
 class RSCRemoveTrash(RuleIngredient):
     # TODO: error in two papers: 10.1039/B802997K - 10.1039/B717130G, some heading inside a span tag:
     @staticmethod
-    def _parse(html_str):
-        # Tags to be removed from the HTML paper ECS
-        list_remove = [
+    def _parse(parser):
+        parser.remove_tags(rules=[
             {'name': 'p', 'class': 'header_text'},  # Authors
             {'name': 'div', 'id': 'art-admin'},  # Data rec./accept.
             {'name': 'div', 'class': 'image_table'},  # Figures
@@ -61,33 +58,29 @@ class RSCRemoveTrash(RuleIngredient):
             {'name': 'code'},  # Codes inside the HTML
             {'name': 'div', 'class': 'table_caption'},  # Remove table caption
             {'name': 'div', 'class': 'rtable__wrapper'},  # Remove table itself
-            {'name': 'div', 'class': 'left_head'}, # Navigation links
+            {'name': 'div', 'class': 'left_head'},  # Navigation links
             {'name': 'table'},  # Remove Footnote
-        ]
-        parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
-        parser.remove_tags(rules=list_remove)
-        parser.remove_tag(
-            rules=[{'name': 'p', 'class': 'bold italic', 'string': parser.compile('First published on')}]
-        )
-        # file = open('LimeSoup/test/new_rsc_papers/test.html', 'w')
-        # file.write(parser.raw_html)
-        return parser.raw_html
+            {'name': 'a', 'href': re.compile(r'#cit\d+')},  # Remove citations
+            {'name': 'script'},
+        ])
+        parser.remove_first_tag(rules=[
+            {'name': 'p', 'class': 'bold italic', 'string': parser.compile('First published on')}
+        ])
+        return parser
 
 
 class RSCCreateTags(RuleIngredient):
     @staticmethod
-    def _parse(html_str):
+    def _parse(parser):
         # This create a standard of sections tag name
-        parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.create_tag_sections()
-        return parser.raw_html
+        return parser
 
 
 class RSCCreateTagAbstract(RuleIngredient):
     @staticmethod
-    def _parse(html_str):
+    def _parse(parser):
         # Create tag from selection function in ParserPaper
-        parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.create_tag_from_selection(
             rule={'name': 'p', 'class': 'abstract'},
             name_new_tag='h2'
@@ -98,44 +91,47 @@ class RSCCreateTagAbstract(RuleIngredient):
             name_new_tag='h2',
             name_section='Introduction(guess)'
         )
-        return parser.raw_html
-
-
-class RSCReplaceDivTag(RuleIngredient):
-    @staticmethod
-    def _parse(html_str):
-        parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
-        rules = [{'name': 'div'}]
-        parser.strip_tags(rules)
-        rules = [{'name': 'span', 'id': parser.compile('^sect[0-9]+$')}]  # some span are heading
-        _ = parser.strip_tags(rules)
-        return parser.raw_html
+        return parser
 
 
 class RSCCollect(RuleIngredient):
     @staticmethod
-    def _parse(html_str):
-        parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
+    def _parse(parser):
+        """
+        Collect metadata and sections from cleaned-up Paper structure.
+
+        :type parser: LimeSoup.parser.parser_paper.ParserPaper
+        :return:
+        """
         # Collect information from the paper using ParserPaper
         parser.get_keywords(rules=[{'name': 'li', 'class': 'kwd'}])
-        journal_name = parser.get([{'name': 'a', 'title': 'Link to journal home page'}])
-        parser.get_title(rules=[
-                {'name': 'h1', 'recursive': True},
-                {'name': 'h2', 'class': 'subtitle', 'recursive': True}
-            ]
+
+        doi = parser.extract_first_meta('DC.Identifier')
+        journal_name = parser.extract_first_meta('citation_journal_title')
+
+        title_element = next(
+            x for x in parser.soup.find_all(attrs={'class': 'title_heading'})
         )
+        title = get_tag_text(title_element).strip('*†‡§‖¶')
+        # title = parser.extract_first_meta('citation_title')
+
         # Create tag from selection function in ParserPaper
         data = list()
-        """
-        Can deal with multiple Titles in the same paper
-        """
-        for i_item, item in enumerate(parser.soup.find_all('section_h1')):
-            parser.soup = item
-            parser.deal_with_sections()
-            data += parser.data_sections
+
+        exclude_sections = [
+            re.compile(r'.*?acknowledgements.*?', re.IGNORECASE),
+            re.compile(r'.*?references.*?', re.IGNORECASE),
+        ]
+        for item in parser.soup.find_all('section_h1'):
+            for tag in item.find_all(**{'name': re.compile('^section_h[1-6]'), 'recursive': False}):
+                data.extend(extract_paragraphs_recursive(
+                    tag,
+                    exclude_section_rules=exclude_sections
+                ))
+
         obj = {
-            'DOI': '',
-            'Title': parser.title,
+            'DOI': doi,
+            'Title': title,
             'Keywords': parser.keywords,
             'Journal': journal_name,
             'Sections': data
@@ -143,14 +139,9 @@ class RSCCollect(RuleIngredient):
         return {'obj': obj, 'html_txt': parser.raw_html}
 
 
-"""
-Error where the paper has paragraphs (content) that is not inside of a tag,
-problem to recover these paragraphs. 
-"""
 RSCSoup = Soup(parser_version=__version__)
 RSCSoup.add_ingredient(RSCRemoveTagsSmallSub())
 RSCSoup.add_ingredient(RSCRemoveTrash())
 RSCSoup.add_ingredient(RSCCreateTags())
 RSCSoup.add_ingredient(RSCCreateTagAbstract())
-RSCSoup.add_ingredient(RSCReplaceDivTag())
 RSCSoup.add_ingredient(RSCCollect())
