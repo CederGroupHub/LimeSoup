@@ -8,6 +8,7 @@ if __name__ == "__main__":
     setup(
         name='LimeSoup',
         version="0.2.2",
+        python_requires='>=3.3',
         author="Tiago Botari, Ziqin (Shaun) Rong",
         author_email="tiagobotari@gmail.com, rongzq08@gmail.com",
         license="MIT License",

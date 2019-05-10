@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-from __future__ import print_function
-from __future__ import division
-from __future__ import absolute_import
-
 import re
 
 from LimeSoup.lime_soup import Soup, RuleIngredient
@@ -17,7 +11,6 @@ __version__ = '0.2.2'
 
 
 class RSCRemoveTagsSmallSub(RuleIngredient):
-
     @staticmethod
     def _parse(html_str):
         """
@@ -82,19 +75,15 @@ class RSCRemoveTrash(RuleIngredient):
 
 
 class RSCCreateTags(RuleIngredient):
-
     @staticmethod
     def _parse(html_str):
         # This create a standard of sections tag name
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.create_tag_sections()
-        # file2 = open('LimeSoup/test/new_rsc_papers/test2.html', 'w')
-        # file2.write(parser.raw_html)
         return parser.raw_html
 
 
 class RSCCreateTagAbstract(RuleIngredient):
-
     @staticmethod
     def _parse(html_str):
         # Create tag from selection function in ParserPaper
@@ -109,14 +98,10 @@ class RSCCreateTagAbstract(RuleIngredient):
             name_new_tag='h2',
             name_section='Introduction(guess)'
         )
-        # file3 = open('LimeSoup/test/new_rsc_papers/test3.html', 'w')
-        # file3.write(parser.raw_html)
-        # x=y
         return parser.raw_html
 
 
 class RSCReplaceDivTag(RuleIngredient):
-
     @staticmethod
     def _parse(html_str):
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
@@ -128,7 +113,6 @@ class RSCReplaceDivTag(RuleIngredient):
 
 
 class RSCCollect(RuleIngredient):
-
     @staticmethod
     def _parse(html_str):
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)

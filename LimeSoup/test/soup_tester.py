@@ -1,6 +1,41 @@
 import os
 
 from unittest import TestCase
+import warnings
+
+from html.entities import name2codepoint
+
+
+def type_of_element_in_list(meta_list):
+    """
+    Get the type of all elements in a list
+    :param meta_list:  a list
+    :return: a set of all types of the elements in the input list
+    """
+    all_types = []
+    for e in meta_list:
+        all_types.append(type(e))
+    return set(all_types)
+
+
+def flatten_section(section):
+    """
+    convert stacked sections (with sub-sections in the content field)
+    in parsed result to a list of simple sections (no sub-sections)
+    :param section: a list of stacked sections or a stacked section dict
+    :return: a list of simple sections
+    """
+    all_sections = []
+    if isinstance(section, list):
+        for sub_section in section:
+            all_sections.extend(flatten_section(sub_section))
+    elif isinstance(section, dict):
+        type_of_list = type_of_element_in_list(section['content'])
+        if type_of_list == {dict}:
+            all_sections.extend(flatten_section(section['content']))
+        elif type_of_list == {str}:
+            all_sections.append(section)
+    return all_sections
 
 
 class SoupTester(TestCase):
@@ -99,25 +134,6 @@ class SoupTester(TestCase):
         :return:
         """
 
-        def type_of_element_in_list(meta_list):
-            all_types = []
-            for e in meta_list:
-                all_types.append(type(e))
-            return set(all_types)
-
-        def flatten_section(section):
-            all_sections = []
-            if isinstance(section, list):
-                for sub_section in section:
-                    all_sections.extend(flatten_section(sub_section))
-            elif isinstance(section, dict):
-                type_of_list = type_of_element_in_list(section['content'])
-                if type_of_list == {dict}:
-                    all_sections.extend(flatten_section(section['content']))
-                elif type_of_list == {str}:
-                    all_sections.append(section)
-            return  all_sections
-
         # goal
         materials_found = set()
         key_materials_not_found = set()
@@ -168,3 +184,168 @@ class SoupTester(TestCase):
             'Expected materials %s, got %s' % (sorted(set(key_materials)), sorted(key_materials_found))
         )
 
+    def checkSpecialCharInStr(self, s):
+        """
+        check the special characters in input string
+        1. raise error if html characters are used
+        2. raise warning if characters neither ascii nor extended latin are used
+        :param s: a string
+        :return:
+        """
+        import re
+
+        # check if contain HTML characters such as &nbsp;
+        def contain_html(s):
+            if re.search('&(%s);' % '|'.join(name2codepoint), s):
+                return True
+            else:
+                return False
+
+        # check if only ascii or extended latin characters are contained
+        # extended ascii: https://www.ascii-code.com/
+        # extended latin: see https://en.wikipedia.org/wiki/Latin_script_in_Unicode
+        # greek: https: // en.wikipedia.org / wiki / Greek_alphabet
+        def get_non_ascii_latin(s):
+            result = []
+            for c in s:
+                # ascii
+                not_ascii = False
+                if not (ord(c) < 256):
+                    not_ascii = True
+                # extended latin
+                not_latin = False
+                if not (ord(c) >= 0x00C0 and ord(c) < 0x017F):
+                    not_latin = True
+                # greek
+                not_greek = False
+                if not (ord(c) >= 0x0370 and ord(c) <= 0x03FF):
+                    not_greek = True
+                if all([not_ascii, not_latin, not_greek]):
+                    result.append(c)
+            if result:
+                print(s)
+                print(result)
+            return result
+
+        # simple text cleaning work here
+        def simple_clean(s):
+            new_s = s
+            new_s = new_s.replace('–', '-')
+            new_s = new_s.replace('—', '-')
+            new_s = new_s.replace('−', '-')
+            new_s = new_s.replace('’', '\'')
+            return new_s
+
+        # get check results
+        new_s = simple_clean(s)
+        has_html = contain_html(new_s)
+        non_ascii_latin = get_non_ascii_latin(new_s)
+
+        # error if HTML characters used
+        self.assertEqual(
+            has_html, False,
+            'Expected no HTML characters, got %s' % (s)
+        )
+
+        # warning if characters neither ascii nor extended latin are used
+        if non_ascii_latin:
+            warnings.warn(
+                'Not only ascii or latin characters used in %s, found: %s' % (s, non_ascii_latin),
+                UnicodeWarning
+            )
+
+    def checkSpecialCharacters(self, parsed, field_to_check=['Journal']):
+        """
+        check the special characters in parsed fields
+        1. raise error if html characters are used
+        2. raise warning if characters neither ascii nor extended latin are used
+        :param parsed: Parsed object.
+        :param field_to_check: fields in parsed object to check. Check journal name as default.
+        :return:
+        """
+
+        def get_str_from_journal(parsed):
+            # TODO: to be updated after the type of Journal/Title is changed to str
+            parsed_str = []
+            if parsed['Journal']:
+                self.assertEqual(
+                    len(parsed['Journal']), 1,
+                    'Expected only 1 journal name, got %s' % (len(parsed['Journal']))
+                )
+                parsed_str.append({
+                    'source': 'Journal',
+                    'str': parsed['Journal'][0],
+                })
+            return parsed_str
+
+        def get_str_from_title(parsed):
+            # TODO: to be updated after the type of Journal/Title is changed to str
+            parsed_str = []
+            if parsed['Title']:
+                self.assertEqual(
+                    len(parsed['Title']), 1,
+                    'Expected only 1 title, got %s' % (len(parsed['Title']))
+                )
+                parsed_str.append({
+                    'source': 'Title',
+                    'str': parsed['Title'][0],
+                })
+            return parsed_str
+
+        def get_str_from_doi(parsed):
+            parsed_str = []
+            if parsed['DOI']:
+                parsed_str.append({
+                    'source': 'DOI',
+                    'str': parsed['DOI'],
+                })
+            return parsed_str
+
+        def get_str_from_keywords(parsed):
+            parsed_str = []
+            for kw in parsed['Keywords']:
+                parsed_str.append({
+                    'source': 'Keywords',
+                    'str': kw,
+                })
+            return parsed_str
+
+        def get_str_from_sections(parsed):
+            parsed_str = []
+            all_sections = flatten_section(parsed['Sections'])
+            for tmp_section in all_sections:
+                parsed_str.append({
+                    'source': 'Sections.name',
+                    'str': tmp_section['name'],
+                })
+                parsed_str.append({
+                    'source': 'Sections.type',
+                    'str': tmp_section['type'],
+                })
+                for tmp_para in tmp_section['content']:
+                    parsed_str.append({
+                        'source': 'Sections.content',
+                        'str': tmp_para,
+                    })
+            return parsed_str
+
+        get_str_from = {
+            'Journal': get_str_from_journal,
+            'Title': get_str_from_title,
+            'DOI': get_str_from_doi,
+            'Keywords': get_str_from_keywords,
+            'Sections': get_str_from_sections,
+        }
+
+        # goal
+        str_to_check = []
+
+        for k in field_to_check:
+            self.assertIn(
+                k, get_str_from,
+                'Key error! Cannot get str from the field: %s' % (k)
+            )
+            str_to_check.extend(get_str_from[k](parsed))
+
+        for tmp_str in str_to_check:
+            self.checkSpecialCharInStr(tmp_str['str'])
