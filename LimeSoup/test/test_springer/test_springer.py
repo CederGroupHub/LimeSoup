@@ -1,3 +1,5 @@
+import random
+
 from LimeSoup.SpringerSoup import SpringerSoup
 
 from LimeSoup.test.soup_tester import SoupTester
@@ -318,7 +320,6 @@ class TestParsing(SoupTester):
             key_materials=[]
         )
 
-
     def test_journal_name_1(self):
         paper_folder = os.path.dirname(os.path.realpath(__file__))
         all_files = os.listdir(paper_folder)
@@ -342,6 +343,8 @@ class TestParsing(SoupTester):
         )
         utf8reader = codecs.getreader('utf-8')
         for tmp_f in archive.getmembers():
+            if random.random() > 0.95:
+                continue
             if not tmp_f.isfile():
                 continue
             fr = utf8reader(archive.extractfile(tmp_f)).read()
@@ -351,6 +354,3 @@ class TestParsing(SoupTester):
                 parsed,
                 field_to_check=['Journal', 'Title', 'DOI', 'Keywords', 'Sections']
             )
-
-
-
