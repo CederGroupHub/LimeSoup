@@ -10,40 +10,10 @@ __email__ = 'haoyan.huo@lbl.gov'
 __version__ = '0.2.3'
 
 
-class RSCRemoveTagsSmallSub(RuleIngredient):
+class RSCParseHTML(RuleIngredient):
     @staticmethod
     def _parse(html_str):
-        """
-        Deal with spaces in the sub, small tag and then remove it.
-        """
-        parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
-        rules = [{'name': 'small'},
-                 {'name': 'sub'},
-                 {'name': 'span', 'class': 'small_caps'},
-                 {'name': 'sup'},
-                 {'name': 'span', 'class': 'italic'},
-                 {'name': 'span', 'class': 'bold'},
-                 {'name': 'strong'},
-                 {'name': 'span', 'class': 'small_caps'}]
-        parser.operation_tag_remove_space(rules)
-        # Remove some specific all span that are inside of a paragraph 'p'
-        parser.strip_tags(rules)
-        tags = parser.soup.find_all(**{'name': 'p'})
-        for tag in tags:
-            tags_inside_paragraph = tag.find_all(**{'name': 'span'})
-            for tag_inside_paragraph in tags_inside_paragraph:
-                tag_inside_paragraph.replace_with_children()
-
-        # Remove some specific span that are inside of a span and p
-        parser.strip_tags(rules)
-        tags = parser.soup.find_all(**{'name': re.compile('span|p')})
-        for tag in tags:
-            for rule in rules:
-                tags_inside_paragraph = tag.find_all(**rule)
-                for tag_inside_paragraph in tags_inside_paragraph:
-                    tag_inside_paragraph.replace_with_children()
-
-        return parser
+        return ParserPaper(html_str, parser_type='html.parser', debugging=False)
 
 
 class RSCRemoveTrash(RuleIngredient):
@@ -107,7 +77,22 @@ class RSCCollect(RuleIngredient):
         parser.get_keywords(rules=[{'name': 'li', 'class': 'kwd'}])
 
         doi = parser.extract_first_meta('DC.Identifier')
+        if doi is None:
+            a_element = next(
+                x for x in parser.soup.find_all('a', attrs={'title': 'Link to landing page via DOI'})
+            )
+            doi_text = a_element.get_text().strip()
+            if len(doi_text) > 0:
+                doi = doi_text
+
         journal_name = parser.extract_first_meta('citation_journal_title')
+        if journal_name is None:
+            a_element = next(
+                x for x in parser.soup.find_all('a', attrs={'title': 'Link to journal home page'})
+            )
+            journal_text = a_element.get_text().strip()
+            if len(journal_text) > 0:
+                journal_name = journal_text
 
         title_element = next(
             x for x in parser.soup.find_all(attrs={'class': 'title_heading'})
@@ -140,7 +125,7 @@ class RSCCollect(RuleIngredient):
 
 
 RSCSoup = Soup(parser_version=__version__)
-RSCSoup.add_ingredient(RSCRemoveTagsSmallSub())
+RSCSoup.add_ingredient(RSCParseHTML())
 RSCSoup.add_ingredient(RSCRemoveTrash())
 RSCSoup.add_ingredient(RSCCreateTags())
 RSCSoup.add_ingredient(RSCCreateTagAbstract())
