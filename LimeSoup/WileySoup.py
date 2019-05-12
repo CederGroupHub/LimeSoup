@@ -223,7 +223,7 @@ class WileyCollect(RuleIngredient):
                             data.insert(-1*index2, obj)
         obj = {
             'DOI': doi,
-            'Title': title,
+            'Title': [title],
             'Keywords': keys,
             'Journal': journal_name,
             'Sections': data
