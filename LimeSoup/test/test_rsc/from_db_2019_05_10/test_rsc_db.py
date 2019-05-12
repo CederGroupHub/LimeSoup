@@ -422,6 +422,15 @@ class TestParsing(SoupTester):
                 ('$$IV. Conclusion', 1),
             ]
         )
+        self.assertMaterialMentioned(
+            parsed,
+            [
+                'CaPb3', 'LnM3', 'MgCNi3', 'AX3'
+            ],
+            [
+                'CaSn3'
+            ]
+        )
 
     def test_paper_CrystEngComm_highlight(self):
         parsed = self.get_parsed('10.1039-C7CE00022G.html', __file__)
