@@ -1,9 +1,26 @@
+import json
 import os
-
-from unittest import TestCase
+import re
 import warnings
+from unittest import TestCase
 
-from html.entities import name2codepoint
+
+def load_html_character_entities_re():
+    # create a regular expression that will capture all HTML character entities
+    # https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
+    # https://www.w3.org/TR/html5/syntax.html#named-character-references
+    # https://www.w3.org/TR/html5/entities.json
+    entity_definition = os.path.join(
+        os.path.dirname(os.path.realpath(__file__)),
+        'html_entities.json'
+    )
+    with open(entity_definition) as f:
+        char_entities = json.load(f)
+    regular_expr = r'&#\d{1,4};|&#x[0-9a-f]{1,4};|' + '|'.join(char_entities.keys())
+    return re.compile(regular_expr)
+
+
+HTML_CHAR_ENTITY_RE = load_html_character_entities_re()
 
 
 def type_of_element_in_list(meta_list):
@@ -118,7 +135,7 @@ class SoupTester(TestCase):
         test_section(parsed['Sections'], '')
         self.assertTrue(len(section_names) == 0, 'Missing sections: %r.' % section_names)
 
-    def assertMaterialMentioned(self, parsed, materials, key_materials=[]):
+    def assertMaterialMentioned(self, parsed, materials, key_materials=None):
         """
         Test if the parser extract material in correct format.
         1. Check if materials appear in at least one paragraph
@@ -133,6 +150,8 @@ class SoupTester(TestCase):
         :param key_materials: List of key material strings. For example, ['Pb(ZrxTi1−x)O3']
         :return:
         """
+        materials = set(materials)
+        key_materials = set(key_materials or ())
 
         # goal
         materials_found = set()
@@ -148,21 +167,19 @@ class SoupTester(TestCase):
         for section in all_sections:
             name = section['name']
             content = section['content']
-            text = '\n'.join(content)
-            for mat in materials:
-                if mat in text:
-                    materials_found.add(mat)
-            name_lower = name.lower()
-            if 'abstract' in name_lower:
+            for paragraph in content:
+                for mat in materials - materials_found:
+                    if mat in paragraph:
+                        materials_found.add(mat)
+            if re.match(r'.*?abstract.*?', name, re.IGNORECASE):
                 all_text['abstract'].extend(content)
-            elif ('conclusion' in name_lower or
-                  'summary' in name_lower):
+            elif re.match(r'.*?(conclusion|summary).*?', name, re.IGNORECASE):
                 all_text['conclusion'].extend(content)
             else:
                 all_text['main_content'].extend(content)
 
         # clean all_text
-        all_text = dict(filter(lambda x: len(x[1]) > 0, all_text.items()))
+        all_text = {k: v for (k, v) in all_text.items() if len(v) > 0}
         if 'main_content' in all_text and len(all_text['main_content']) <= 3:
             # assume main content should have at least 3 (arbitary) paragraphs
             del all_text['main_content']
@@ -173,7 +190,7 @@ class SoupTester(TestCase):
                 text = '\n'.join(paras)
                 if mat not in text:
                     key_materials_not_found.add(mat)
-        key_materials_found = set(key_materials) - key_materials_not_found
+        key_materials_found = key_materials - key_materials_not_found
 
         self.assertEqual(
             materials_found, set(materials),
@@ -181,7 +198,7 @@ class SoupTester(TestCase):
         )
         self.assertEqual(
             key_materials_found, set(key_materials),
-            'Expected materials %s, got %s' % (sorted(set(key_materials)), sorted(key_materials_found))
+            'Expected key materials %s, got %s' % (sorted(set(key_materials)), sorted(key_materials_found))
         )
 
     def checkSpecialCharInStr(self, s):
@@ -192,14 +209,9 @@ class SoupTester(TestCase):
         :param s: a string
         :return:
         """
-        import re
-
         # check if contain HTML characters such as &nbsp;
-        def contain_html(s):
-            if re.search('&(%s);' % '|'.join(name2codepoint), s):
-                return True
-            else:
-                return False
+        def contain_html(string):
+            return HTML_CHAR_ENTITY_RE.search(string) is not None
 
         # check if only ascii or extended latin characters are contained
         # extended ascii: https://www.ascii-code.com/
@@ -214,11 +226,11 @@ class SoupTester(TestCase):
                     not_ascii = True
                 # extended latin
                 not_latin = False
-                if not (ord(c) >= 0x00C0 and ord(c) < 0x017F):
+                if not (0x00C0 <= ord(c) < 0x017F):
                     not_latin = True
                 # greek
                 not_greek = False
-                if not (ord(c) >= 0x0370 and ord(c) <= 0x03FF):
+                if not (0x0370 <= ord(c) <= 0x03FF):
                     not_greek = True
                 if all([not_ascii, not_latin, not_greek]):
                     result.append(c)
@@ -238,12 +250,11 @@ class SoupTester(TestCase):
 
         # get check results
         new_s = simple_clean(s)
-        has_html = contain_html(new_s)
         non_ascii_latin = get_non_ascii_latin(new_s)
 
         # error if HTML characters used
-        self.assertEqual(
-            has_html, False,
+        self.assertFalse(
+            contain_html(new_s),
             'Expected no HTML characters, got %s' % (s)
         )
 
