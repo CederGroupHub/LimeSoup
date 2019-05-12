@@ -79,25 +79,25 @@ class SoupTester(TestCase):
 
     def assertDOIEqual(self, parsed, doi):
         self.assertEqual(
-            parsed['DOI'], doi,
+            doi, parsed['DOI'],
             'Expected DOI %s, got %s' % (doi, parsed['DOI'])
         )
 
     def assertTitleEqual(self, parsed, title):
         self.assertEqual(
-            parsed['Title'], title,
+            title, parsed['Title'],
             'Expected title "%s", got "%s"' % (title, parsed['Title'])
         )
 
     def assertJournalEqual(self, parsed, journal):
         self.assertEqual(
-            parsed['Journal'], journal,
+            journal, parsed['Journal'],
             'Expected journal %s, got %s' % (journal, parsed['Journal'])
         )
 
     def assertKeywordsEqual(self, parsed, keywords):
         self.assertSetEqual(
-            set(parsed['Keywords']), set(keywords),
+            set(keywords), set(parsed['Keywords']),
             'Expected keywords %r, got %r' % (keywords, parsed['Keywords'])
         )
 
@@ -125,7 +125,7 @@ class SoupTester(TestCase):
                     'Unexpected paragraph with path %s: %s' % (current_path, section)
                 )
                 self.assertEqual(
-                    current_path, section_names[0][0],
+                    section_names[0][0], current_path,
                     'Expected path %s, got %s' % (section_names[0][0], current_path))
 
                 section_names[0][1] -= 1

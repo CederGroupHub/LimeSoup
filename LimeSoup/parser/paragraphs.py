@@ -100,10 +100,15 @@ def extract_paragraphs_recursive(tag_or_soup, exclude_section_rules=None):
         # don't override caller's heading info, as we will be jumping outside
         cur_heading = cur_heading or {}
 
-        for child in cur_tag.contents:
+        for i, child in enumerate(cur_tag.contents):
             if child.name is None:
                 # this is a pure text
                 child_text = re.sub(r'\n', ' ', child)
+                if i < len(cur_tag.contents) - 1 and cur_tag.contents[i + 1].name is None:
+                    # !!! This is actually a hack. When we modify the HTML DOM, we might
+                    # remove a node between text nodes, thus these two nodes are left disconnected
+                    # an additional whitespace should be inserted.
+                    child_text += ' '
                 # .copy(): performance issues?
                 text_chunks.append((cur_heading.copy(), child_text))
             elif child.name in {'h1', 'h2', 'h3', 'h4', 'h5', 'h6'}:
@@ -124,6 +129,7 @@ def extract_paragraphs_recursive(tag_or_soup, exclude_section_rules=None):
             else:
                 text_chunks.append((cur_heading.copy(), '\n'))
                 find_paragraphs(child, cur_heading)
+                text_chunks.append((cur_heading.copy(), '\n'))
 
     if isinstance(tag_or_soup, Tag):
         find_paragraphs(tag_or_soup)
