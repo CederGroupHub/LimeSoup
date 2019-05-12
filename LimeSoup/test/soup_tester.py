@@ -213,59 +213,29 @@ class SoupTester(TestCase):
         def contain_html(string):
             return HTML_CHAR_ENTITY_RE.search(string) is not None
 
-        # check if only ascii or extended latin characters are contained
-        # extended ascii: https://www.ascii-code.com/
-        # extended latin: see https://en.wikipedia.org/wiki/Latin_script_in_Unicode
-        # greek: https: // en.wikipedia.org / wiki / Greek_alphabet
-        def get_non_ascii_latin(s):
-            result = []
-            for c in s:
-                # ascii
-                not_ascii = False
-                if not (ord(c) < 256):
-                    not_ascii = True
-                # extended latin
-                not_latin = False
-                if not (0x00C0 <= ord(c) < 0x017F):
-                    not_latin = True
-                # greek
-                not_greek = False
-                if not (0x0370 <= ord(c) <= 0x03FF):
-                    not_greek = True
-                if all([not_ascii, not_latin, not_greek]):
-                    result.append(c)
-            if result:
-                print(s)
-                print(result)
-            return result
-
-        # simple text cleaning work here
-        def simple_clean(s):
-            new_s = s
-            new_s = new_s.replace('–', '-')
-            new_s = new_s.replace('—', '-')
-            new_s = new_s.replace('−', '-')
-            new_s = new_s.replace('’', '\'')
-            return new_s
-
-        # get check results
-        new_s = simple_clean(s)
-        non_ascii_latin = get_non_ascii_latin(new_s)
+        # check string does not contain special unicodes
+        # https://en.wikipedia.org/wiki/Specials_(Unicode_block)
+        def search_unicode_specials(string):
+            spans = []
+            for x in re.finditer(r'[\ufff9\ufffa\ufffb\ufffc\ufffd\ufffe\uffff]', string):
+                spans.append(x.span())
+            return spans
 
         # error if HTML characters used
         self.assertFalse(
-            contain_html(new_s),
+            contain_html(s),
             'Expected no HTML characters, got %s' % (s)
         )
 
+        special_spans = search_unicode_specials(s)
         # warning if characters neither ascii nor extended latin are used
-        if non_ascii_latin:
+        if special_spans:
             warnings.warn(
-                'Not only ascii or latin characters used in %s, found: %s' % (s, non_ascii_latin),
+                'Unicode Specials found in %s: spanning %r' % (s, special_spans),
                 UnicodeWarning
             )
 
-    def checkSpecialCharacters(self, parsed, field_to_check=['Journal']):
+    def checkSpecialCharacters(self, parsed, field_to_check):
         """
         check the special characters in parsed fields
         1. raise error if html characters are used
