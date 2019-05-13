@@ -118,7 +118,7 @@ class ECSCreateTags(RuleIngredient):
         parser.change_name_tag_sections()
         #  Create the Introduction section.
         parser.create_tag_to_paragraphs_inside_tag(
-            rule={'name': 'div', 'class': parser.compile('article fulltext-view')},
+            rule={'name': 'div', 'class': re.compile('article fulltext-view')},
             name_new_tag='h2',
             name_section='Introduction(guess)'
         )

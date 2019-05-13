@@ -17,7 +17,6 @@ class RSCParseHTML(RuleIngredient):
 
 
 class RSCRemoveTrash(RuleIngredient):
-    # TODO: error in two papers: 10.1039/B802997K - 10.1039/B717130G, some heading inside a span tag:
     @staticmethod
     def _parse(parser):
         parser.remove_tags(rules=[
@@ -34,7 +33,7 @@ class RSCRemoveTrash(RuleIngredient):
             {'name': 'script'},
         ])
         parser.remove_first_tag(rules=[
-            {'name': 'p', 'class': 'bold italic', 'string': parser.compile('First published on')}
+            {'name': 'p', 'class': 'bold italic', 'string': re.compile('First published on')}
         ])
         return parser
 

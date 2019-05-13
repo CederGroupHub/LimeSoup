@@ -1,18 +1,6 @@
-"""
-ParserPaper is a class to parse HTML, XML papers from different publishers into
-simples text. It can be used to feed a database.
-This is the first version, I tried to separate things 
-related to a specific publisher in the ParsePaper in order to help
-to think how to reuse code in new publishers.
-This class is not yet finished, just a security copy in GitHub.
-"""
-
-__author__ = "Tiago Botari"
-__copyright__ = ""
-__version__ = "1.0"
-__maintainer__ = "Tiago Botari"
-__email__ = "tiagobotari@gmail.com"
-__date__ = "Feb 18 2018"
+__author__ = "Tiago Botari, Haoyan Huo"
+__maintainer__ = "Haoyan Huo"
+__email__ = "haoyan.huo@lbl.gov"
 
 import itertools
 import re
@@ -22,8 +10,7 @@ import bs4
 import LimeSoup.parser.tools as tl
 
 
-class ParserPaper:
-
+class ParserPaper(object):
     def __init__(self, raw_html, parser_type='lxml-xml', debugging=False):
         """
         :param raw_html:
@@ -31,7 +18,7 @@ class ParserPaper:
         :param debugging: True or False
         """
         self.debugging = debugging
-        self.soup = bs4.BeautifulSoup('{:}'.format(raw_html), parser_type)
+        self.soup = bs4.BeautifulSoup(raw_html, parser_type)
         self.parser_type = parser_type
         self.title = []
         self.keywords = []
@@ -40,10 +27,6 @@ class ParserPaper:
         self.number_paragraphs_sections = []
         if debugging:
             self.soup_orig = self.soup
-
-    @staticmethod
-    def compile(pattern):
-        return re.compile(pattern)
 
     @staticmethod
     def create_soup(html_xlm, parser_type='html.parser'):
