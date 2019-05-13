@@ -126,7 +126,10 @@ class ParserPaper:
                     fd_div.write('\n')
 
     def get_title(self, rules):
-        self.title = self.get(rules)
+        try:
+            self.title = next(x for x in self.get(rules))
+        except StopIteration:
+            self.title = None
 
     def get(self, rules):
         results = list()

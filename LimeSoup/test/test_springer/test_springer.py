@@ -16,10 +16,10 @@ class TestParsing(SoupTester):
     def test_paper_applied_physics_a(self):
         parsed = self.get_parsed('10.1007_s00339-013-8138-9.html', __file__)
         # self.assertDOIEqual(parsed, '10.1007/s00339-013-8138-9')
-        self.assertJournalEqual(parsed, ['Applied Physics A'])
+        self.assertJournalEqual(parsed, 'Applied Physics A')
         self.assertTitleEqual(
             parsed,
-            ['Surface nanostructure effects on optical properties of Pb(ZrxTi1−x)O3 thin films']
+            'Surface nanostructure effects on optical properties of Pb(ZrxTi1−x)O3 thin films'
         )
         self.assertKeywordsEqual(
             parsed, []
@@ -40,11 +40,11 @@ class TestParsing(SoupTester):
     def test_paper_catalysis_letters(self):
         parsed = self.get_parsed('10.1007_s10562-010-0490-1.html', __file__)
         # self.assertDOIEqual(parsed, '10.1007/s10562-010-0490-1')
-        self.assertJournalEqual(parsed, ['Catalysis Letters'])
+        self.assertJournalEqual(parsed, 'Catalysis Letters')
         self.assertTitleEqual(
             parsed,
-            ['One-Pot Synthesis and Characterization of Cu-SBA-16 Mesoporous '
-             'Molecular Sieves as an Excellent Catalyst for Phenol Hydroxylation']
+            'One-Pot Synthesis and Characterization of Cu-SBA-16 Mesoporous '
+            'Molecular Sieves as an Excellent Catalyst for Phenol Hydroxylation'
         )
         self.assertKeywordsEqual(
             parsed, ['Copper species', 'Cu-SBA-16', 'Phenol hydroxylation']
@@ -77,11 +77,11 @@ class TestParsing(SoupTester):
     def test_paper_european_physical_journal_b(self):
         parsed = self.get_parsed('101140epjbe2017-80152-2.html', __file__)
         # self.assertDOIEqual(parsed, '10.1140/epjb/e2017-80152-2')
-        self.assertJournalEqual(parsed, ['The European Physical Journal B'])
+        self.assertJournalEqual(parsed, 'The European Physical Journal B')
         self.assertTitleEqual(
             parsed,
-            ['Ab initio study of new sp3 silicon and germanium allotropes '
-             'predicted from the zeolite topologies']
+            'Ab initio study of new sp3 silicon and germanium allotropes '
+            'predicted from the zeolite topologies'
         )
         self.assertKeywordsEqual(
             parsed, ['Solid State and Materials']
@@ -96,11 +96,11 @@ class TestParsing(SoupTester):
     def test_paper_old_paper(self):
         parsed = self.get_parsed('10.1007_bf00353117.html', __file__)
         # self.assertDOIEqual(parsed, '10.1007/BF00353117')
-        self.assertJournalEqual(parsed, ['Journal of Materials Science'])
+        self.assertJournalEqual(parsed, 'Journal of Materials Science')
         self.assertTitleEqual(
             parsed,
-            ['Fracture and fracture toughness of stoichiometric '
-             'MgAl2O4 crystals at room temperature']
+            'Fracture and fracture toughness of stoichiometric '
+            'MgAl2O4 crystals at room temperature'
         )
         self.assertKeywordsEqual(
             parsed, []
@@ -114,11 +114,11 @@ class TestParsing(SoupTester):
     def test_paper_multi_para_abstract(self):
         parsed = self.get_parsed('10.1007_bf00701095.html', __file__)
         # self.assertDOIEqual(parsed, '10.1007/BF00701095')
-        self.assertJournalEqual(parsed, ['Journal of Materials Science: Materials in Electronics']
+        self.assertJournalEqual(parsed, 'Journal of Materials Science: Materials in Electronics'
                                 )
         self.assertTitleEqual(
             parsed,
-            ['TEM studies of RF magnetron-sputtered thin films'])
+            'TEM studies of RF magnetron-sputtered thin films')
         self.assertKeywordsEqual(
             parsed, []
         )
@@ -131,10 +131,10 @@ class TestParsing(SoupTester):
     def test_paper_empty_paper(self):
         parsed = self.get_parsed('10.1007_bf03378691.html', __file__)
         # self.assertDOIEqual(parsed, '10.1007/BF03378691')
-        self.assertJournalEqual(parsed, ['JOM'])
+        self.assertJournalEqual(parsed, 'JOM')
         self.assertTitleEqual(
             parsed,
-            ['Engineers and the military service']
+            'Engineers and the military service'
         )
         self.assertKeywordsEqual(
             parsed, []
@@ -146,10 +146,10 @@ class TestParsing(SoupTester):
     def test_paper_with_table(self):
         parsed = self.get_parsed('10.1007_s10853-011-5258-5.html', __file__)
         # self.assertDOIEqual(parsed, '10.1007/s10853-011-5258-5')
-        self.assertJournalEqual(parsed, ['Journal of Materials Science'])
+        self.assertJournalEqual(parsed, 'Journal of Materials Science')
         self.assertTitleEqual(
             parsed,
-            ['Properties of In-N doped ZnO films synthesized by ion beam assisted deposition']
+            'Properties of In-N doped ZnO films synthesized by ion beam assisted deposition'
         )
         self.assertKeywordsEqual(
             parsed, []
@@ -166,11 +166,11 @@ class TestParsing(SoupTester):
     def test_paper_many_paras(self):
         parsed = self.get_parsed('10.1007_s10853-015-9171-1.html', __file__)
         # self.assertDOIEqual(parsed, '10.1007/s10853-015-9171-1')
-        self.assertJournalEqual(parsed, ['Journal of Materials Science'])
+        self.assertJournalEqual(parsed, 'Journal of Materials Science')
         self.assertTitleEqual(
             parsed,
-            ['A study of the dynamic recrystallization kinetics '
-             'of V-microalloyed medium carbon steel']
+            'A study of the dynamic recrystallization kinetics '
+             'of V-microalloyed medium carbon steel'
         )
         self.assertKeywordsEqual(
             parsed, []
@@ -189,10 +189,10 @@ class TestParsing(SoupTester):
     def test_paper_subsection(self):
         parsed = self.get_parsed('101007s40964-017-0023-1.html', __file__)
         # self.assertDOIEqual(parsed, '10.1007/s40964-017-0023-1')
-        self.assertJournalEqual(parsed, ['Progress in Additive Manufacturing'])
+        self.assertJournalEqual(parsed, 'Progress in Additive Manufacturing')
         self.assertTitleEqual(
             parsed,
-            ['The manufacture of 3D printing of medical grade TPU']
+            'The manufacture of 3D printing of medical grade TPU'
         )
         self.assertKeywordsEqual(
             parsed, ['Medical grade TPU', '3D printing',
@@ -218,10 +218,10 @@ class TestParsing(SoupTester):
     def test_paper_many_subsections(self):
         parsed = self.get_parsed('101007s11671-009-9393-8.html', __file__)
         # self.assertDOIEqual(parsed, '10.1007/s11671-009-9393-8')
-        self.assertJournalEqual(parsed, ['Nanoscale Research Letters'])
+        self.assertJournalEqual(parsed, 'Nanoscale Research Letters')
         self.assertTitleEqual(
             parsed,
-            ['The Acute Liver Injury in Mice Caused by Nano-Anatase TiO2']
+            'The Acute Liver Injury in Mice Caused by Nano-Anatase TiO2'
         )
         self.assertKeywordsEqual(
             parsed, ['Mice', 'Nano-anatase TiO2', 'Liver',

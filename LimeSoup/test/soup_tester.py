@@ -209,9 +209,6 @@ class SoupTester(TestCase):
         :param s: a string
         :return:
         """
-        # check if contain HTML characters such as &nbsp;
-        def contain_html(string):
-            return HTML_CHAR_ENTITY_RE.search(string) is not None
 
         # check string does not contain special unicodes
         # https://en.wikipedia.org/wiki/Specials_(Unicode_block)
@@ -221,9 +218,9 @@ class SoupTester(TestCase):
                 spans.append(x.span())
             return spans
 
-        # error if HTML characters used
+        # check if contain HTML characters such as &nbsp;
         self.assertFalse(
-            contain_html(s),
+            HTML_CHAR_ENTITY_RE.search(s) is not None,
             'Expected no HTML characters, got %s' % (s)
         )
 
@@ -245,35 +242,19 @@ class SoupTester(TestCase):
         :return:
         """
 
-        def get_str_from_journal(parsed):
-            # TODO: to be updated after the type of Journal/Title is changed to str
-            parsed_str = []
-            if parsed['Journal']:
-                self.assertEqual(
-                    len(parsed['Journal']), 1,
-                    'Expected only 1 journal name, got %s' % (len(parsed['Journal']))
-                )
-                parsed_str.append({
-                    'source': 'Journal',
-                    'str': parsed['Journal'][0],
-                })
-            return parsed_str
+        def get_str_from_journal():
+            return [{
+                'source': 'Journal',
+                'str': parsed['Journal'],
+            }]
 
-        def get_str_from_title(parsed):
-            # TODO: to be updated after the type of Journal/Title is changed to str
-            parsed_str = []
-            if parsed['Title']:
-                self.assertEqual(
-                    len(parsed['Title']), 1,
-                    'Expected only 1 title, got %s' % (len(parsed['Title']))
-                )
-                parsed_str.append({
-                    'source': 'Title',
-                    'str': parsed['Title'][0],
-                })
-            return parsed_str
+        def get_str_from_title():
+            return [{
+                'source': 'Title',
+                'str': parsed['Title'],
+            }]
 
-        def get_str_from_doi(parsed):
+        def get_str_from_doi():
             parsed_str = []
             if parsed['DOI']:
                 parsed_str.append({
@@ -282,7 +263,7 @@ class SoupTester(TestCase):
                 })
             return parsed_str
 
-        def get_str_from_keywords(parsed):
+        def get_str_from_keywords():
             parsed_str = []
             for kw in parsed['Keywords']:
                 parsed_str.append({
@@ -291,7 +272,7 @@ class SoupTester(TestCase):
                 })
             return parsed_str
 
-        def get_str_from_sections(parsed):
+        def get_str_from_sections():
             parsed_str = []
             all_sections = flatten_section(parsed['Sections'])
             for tmp_section in all_sections:
@@ -326,7 +307,8 @@ class SoupTester(TestCase):
                 k, get_str_from,
                 'Key error! Cannot get str from the field: %s' % (k)
             )
-            str_to_check.extend(get_str_from[k](parsed))
+            str_to_check.extend(get_str_from[k]())
 
         for tmp_str in str_to_check:
-            self.checkSpecialCharInStr(tmp_str['str'])
+            if tmp_str['str'] is not None:
+                self.checkSpecialCharInStr(tmp_str['str'])

@@ -7,7 +7,7 @@ from LimeSoup.parser.parser_paper import ParserPaper
 __author__ = 'Ziqin (Shaun) Rong, Tiago Botari, Haoyan Huo'
 __maintainer__ = 'Haoyan Huo'
 __email__ = 'haoyan.huo@lbl.gov'
-__version__ = '0.2.3'
+__version__ = '0.2.3-dev'
 
 
 class RSCParseHTML(RuleIngredient):

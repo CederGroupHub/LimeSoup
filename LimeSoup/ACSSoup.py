@@ -11,7 +11,7 @@ from LimeSoup.parser.parser_paper_acs import ParserPaper
 __author__ = ''
 __maintainer__ = 'Nicolas Mingione'
 __email__ = 'nicolasmingione@lbl.gov'
-__version__ = '0.2.2'
+__version__ = '0.2.3-dev'
 
 
 class ACSRemoveTrash(RuleIngredient):
@@ -62,7 +62,11 @@ class ACSCollect(RuleIngredient):
     def _parse(xml_str):
         parser = ParserPaper(xml_str, parser_type='lxml', debugging=False)
         # Collect information from the paper using ParserPaper
-        journal_name = parser.get(rules=[{"name": "journal-title"}])
+        try:
+            journal_name = next(x for x in parser.get(rules=[{"name": "journal-title"}]))
+        except StopIteration:
+            journal_name = None
+
         parser.get_title(rules=[
             {'name': 'article-title'}
         ]

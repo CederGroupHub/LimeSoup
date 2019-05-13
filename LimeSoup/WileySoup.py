@@ -1,14 +1,14 @@
-import re 
+import re
+
+from bs4 import BeautifulSoup
 
 from LimeSoup.lime_soup import Soup, RuleIngredient
 from LimeSoup.parser.parser_paper_wiley import ParserPaper
-from bs4 import BeautifulSoup
-import string
 
 __author__ = 'Zach Jensen'
 __maintainer__ = ''
 __email__ = 'zjensen@mit.edu'
-__version__ = '0.2.3'
+__version__ = '0.2.4-dev'
 
 
 class WileyRemoveTagsSmallSub(RuleIngredient):
@@ -223,7 +223,7 @@ class WileyCollect(RuleIngredient):
                             data.insert(-1*index2, obj)
         obj = {
             'DOI': doi,
-            'Title': [title],
+            'Title': title,
             'Keywords': keys,
             'Journal': journal_name,
             'Sections': data

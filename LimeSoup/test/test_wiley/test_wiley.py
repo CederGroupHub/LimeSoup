@@ -279,3 +279,29 @@ class TestParsing(SoupTester):
                 ('$$Acknowledgements', 1),
             ]
         )
+
+    def test_paper_journal_ameri_cera_soci(self):
+        parsed = self.get_parsed('10.1111-j.1551-2916.2011.04722.x.html', __file__)
+
+        self.assertDOIEqual(parsed, '10.1111/j.1551-2916.2011.04722.x')
+        self.assertJournalEqual(parsed, 'Journal of the American Ceramic Society')
+        self.assertTitleEqual(
+            parsed,
+            'Synthesis and Piezoelectricity of Single‐Crystalline (K,Na)NbO3 Nanobars')
+        self.assertKeywordsEqual(
+            parsed, []
+        )
+        self.assertSectionPathsEqual(
+            parsed, [
+                ('$$Abstract', 1),
+                ('$$I. Introduction', 3),
+                ('$$II. Experimental Procedure', 3),
+                ('$$III. Results and Discussion'
+                 '$$(1) Synthesis of K2Nb8O21 and Nb2O5 Nanobars as Precursors', 11),
+                ('$$III. Results and Discussion'
+                 '$$(2) Synthesis and Structural Analysis of (K,Na)NbO3 Nanobars', 4),
+                ('$$III. Results and Discussion'
+                 '$$(3) Piezoelectricity of an Individual (K,Na)NbO3 Nanobar', 3),
+                ('$$IV. Conclusions', 1),
+            ]
+        )

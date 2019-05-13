@@ -13,7 +13,7 @@ from LimeSoup.parser.parser_paper_springer import ParserPaper
 __author__ = 'Alex van Grootel'
 __maintainer__ = 'Alex van Grootel'
 __email__ = 'agrootel@mit.edu'
-__version__ = '0.2.2'
+__version__ = '0.2.3-dev'
 
 
 class SpringerFindJournalName(RuleIngredient):
@@ -23,7 +23,10 @@ class SpringerFindJournalName(RuleIngredient):
         rules = [
             {'name': 'span', 'class':'JournalTitle'}
         ]
-        ParserPaper.journal_name = parser.get(rules)
+        try:
+            ParserPaper.journal_name = next(x for x in parser.get(rules))
+        except StopIteration:
+            ParserPaper.journal_name = None
         return parser.raw_html
 
 
