@@ -20,11 +20,6 @@ class ParserPaper(object):
         self.debugging = debugging
         self.soup = bs4.BeautifulSoup(raw_html, parser_type)
         self.parser_type = parser_type
-        self.title = []
-        self.keywords = []
-        self.data_sections = []
-        self.headings_sections = []
-        self.number_paragraphs_sections = []
         if debugging:
             self.soup_orig = self.soup
 
@@ -91,12 +86,23 @@ class ParserPaper(object):
                 item.extract()
         return results
 
+    def get_first_title(self, rules):
+        for rule in rules:
+            for title_tag in self.soup.find_all(**rule):
+                title = tl.convert_to_text(title_tag.get_text())
+                title_tag.extract()
+                return title
+
+        return None
+
     def get_keywords(self, rules):
-        self.keywords = []
+        keywords = []
         for rule in rules:
             for keyword in self.soup.find_all(**rule):
-                self.keywords.append(tl.convert_to_text(keyword.get_text()))
+                keywords.append(tl.convert_to_text(keyword.get_text()))
                 keyword.extract()
+
+        return keywords
 
     def remove_tags(self, rules):
         """

@@ -73,7 +73,7 @@ class RSCCollect(RuleIngredient):
         :return:
         """
         # Collect information from the paper using ParserPaper
-        parser.get_keywords(rules=[{'name': 'li', 'class': 'kwd'}])
+        keywords = parser.get_keywords(rules=[{'name': 'li', 'class': 'kwd'}])
 
         doi = parser.extract_first_meta('DC.Identifier')
         if doi is None:
@@ -103,8 +103,8 @@ class RSCCollect(RuleIngredient):
         data = list()
 
         exclude_sections = [
-            re.compile(r'.*?acknowledgements.*?', re.IGNORECASE),
-            re.compile(r'.*?references.*?', re.IGNORECASE),
+            re.compile(r'.*?acknowledge?ment.*?', re.IGNORECASE),
+            re.compile(r'.*?reference.*?', re.IGNORECASE),
         ]
         for item in parser.soup.find_all('section_h1'):
             for tag in item.find_all(**{'name': re.compile('^section_h[1-6]'), 'recursive': False}):
@@ -116,7 +116,7 @@ class RSCCollect(RuleIngredient):
         obj = {
             'DOI': doi,
             'Title': title,
-            'Keywords': parser.keywords,
+            'Keywords': keywords,
             'Journal': journal_name,
             'Sections': data
         }
