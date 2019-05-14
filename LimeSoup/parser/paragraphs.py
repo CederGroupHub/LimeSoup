@@ -4,7 +4,7 @@ from bs4 import Tag
 
 __author__ = "Tiago Botari, Haoyan Huo"
 __maintainer__ = "Haoyan Huo"
-__email__ = "haoyan.huo@gmail.com"
+__email__ = "haoyan.huo@lbl.gov"
 
 INLINE_TAGS = {
     # https://www.w3schools.com/html/html_blocks.asp
