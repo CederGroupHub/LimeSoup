@@ -1,66 +1,21 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-from __future__ import print_function
-from __future__ import division
-from __future__ import absolute_import
-
 import re
 
 from LimeSoup.lime_soup import Soup, RuleIngredient
+from LimeSoup.parser.paragraphs import extract_paragraphs_recursive
 from LimeSoup.parser.parser_paper import ParserPaper
 
-
-__author__ = 'Tiago Botari'
-__maintainer__ = 'Tiago Botari'
-__email__ = 'tiagobotari@gmail.com'
-__version__ = '0.2.2'
-
-
-class ECSRemoveTagsSmallSub(RuleIngredient):
-
-    @staticmethod
-    def _parse(html_str):
-        """
-                Deal with spaces in the sub, small tag and then remove it.
-        """
-        parser = ParserPaper(html_str, debugging=False)
-        rules = [{'name': 'small'},
-                 {'name': 'sub'},
-                 {'name': 'span', 'class': 'small_caps'},
-                 {'name': 'sup'},
-                 {'name': 'span', 'class': 'italic'},
-                 {'name': 'span', 'class': 'bold'},
-                 {'name': 'strong'},
-                 {'name': 'span', 'class': 'small_caps'},
-                 {'name': 'em'}]
-        # parser.operation_tag_remove_space(rules)
-        # Remove some specific all span that are inside of a paragraph 'p'
-        parser.strip_tags(rules)
-        tags = parser.soup.find_all(**{'name': 'p'})
-        for tag in tags:
-            tags_inside_paragraph = tag.find_all(**{'name': 'span'})
-            for tag_inside_paragraph in tags_inside_paragraph:
-                tag_inside_paragraph.replace_with_children()
-        # Remove some specific span that are inside of a span and p
-        parser.strip_tags(rules)
-        tags = parser.soup.find_all(**{'name': re.compile('span|p')})
-        for tag in tags:
-            for rule in rules:
-                tags_inside_paragraph = tag.find_all(**rule)
-                for tag_inside_paragraph in tags_inside_paragraph:
-                    tag_inside_paragraph.replace_with_children()
-        # Recreating the ParserPaper bug in beautifulsoup
-        html_str = str(parser.soup)
-        parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
-        return parser.raw_html
+__author__ = 'Tiago Botari, Haoyan Huo'
+__maintainer__ = 'Haoyan Huo'
+__email__ = 'haoyan.huo@lbl.gov'
+__version__ = '0.2.3-dev'
 
 
 class ECSRemoveTrash(RuleIngredient):
-
     @staticmethod
     def _parse(html_str):
+        parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
+
         # Tags to be removed from the HTML paper ECS
-        obj = dict()
         list_remove = [
             {'name': 'div', 'class_': 'section-nav'},  # Navigation buttons
             {'name': 'div', 'class_': 'contributors'},  # Authors
@@ -75,9 +30,9 @@ class ECSRemoveTrash(RuleIngredient):
             {'name': 'div', 'id': 'fn-group-1'},  # Footnotes
             {'name': 'div', 'id': 'license-1'},  # License
             {'name': 'ul', 'class': 'history-list'},  # some historical information of the paper
-            {'name': 'ul', 'class': 'copyright-statement'}
+            {'name': 'ul', 'class': 'copyright-statement'},
+            {'name': 'a', 'href': re.compile(r'#ref.*?')},
         ]
-        parser = ParserPaper(html_str, debugging=False)
         parser.remove_tags(rules=list_remove)
         rules = [
             {'name': 'span', 'class': 'highwire-journal-article-marker-start'},
@@ -85,95 +40,61 @@ class ECSRemoveTrash(RuleIngredient):
         ]
 
         parser.strip_tags(rules)
-        return {'obj': obj, 'html_txt': parser.raw_html}
+        main_body = str(next(x for x in parser.soup.find_all('div', attrs={'class': 'fulltext-view'})))
+        return main_body
 
 
 class ECSCollectTitleKeywords(RuleIngredient):
 
     @staticmethod
-    def _parse(parser_obj):
-        html_str = parser_obj['html_txt']
-        obj = parser_obj['obj']
-        parser = ParserPaper(html_str, debugging=False)
+    def _parse(mainbody_text):
+        parser = ParserPaper(mainbody_text, parser_type='html.parser', debugging=False)
+
         # Collect information from the paper using ParserPaper
-        parser.get_keywords(rules=[{'name': 'li', 'class_': 'kwd'}])
-        parser.get_title(rules=[
-                {'name': 'h1', 'recursive': True},
-                {'name': 'h2', 'class_': 'subtitle', 'recursive': True}
+        keywords = parser.get_keywords(rules=[{'name': 'li', 'class_': 'kwd'}])
+        title = parser.get_first_title(rules=[
+            {'name': 'h1', 'recursive': True},
+            {'name': 'h2', 'class_': 'subtitle', 'recursive': True}
         ])
-        obj['Title'] = parser.title
-        obj['Keywords'] = parser.keywords
-        obj['DOI'] = ''
-        return {'obj': obj, 'html_txt': parser.raw_html}
+        obj = {
+            'Title': title,
+            'Keywords': keywords,
+            'DOI': ''
+        }
+        return obj, parser
 
 
-class ECSCreateTags(RuleIngredient):
-
+class ECSCollectAbstract(RuleIngredient):
     @staticmethod
     def _parse(parser_obj):
-        html_str = parser_obj['html_txt']
-        obj = parser_obj['obj']
-        # This create a standard of sections tag name
-        parser = ParserPaper(html_str, debugging=False)
-        parser.change_name_tag_sections()
-        #  Create the Introduction section.
-        parser.create_tag_to_paragraphs_inside_tag(
-            rule={'name': 'div', 'class': parser.compile('article fulltext-view')},
-            name_new_tag='h2',
-            name_section='Introduction(guess)'
+        obj, parser = parser_obj
+
+        abstract_section = next(
+            x for x in parser.soup.find_all('div', attrs={'class': 'section abstract'})
         )
-        return {'obj': obj, 'html_txt': parser.raw_html}
+        obj['Sections'] = extract_paragraphs_recursive(abstract_section)
+        abstract_section.extract()
 
-
-class ECSDealDivWithNoHeading(RuleIngredient):
-
-    @staticmethod
-    def _parse(parser_obj):
-        html_str = parser_obj['html_txt']
-        obj = parser_obj['obj']
-        parser = ParserPaper(html_str, debugging=False)
-        #  Remove the content inside of empty div tags for ECS
-        # TODO: Need to improve, the recovered paragraphs go to wrong section.
-        rules = [
-            {'name': 'div', 'class': 'subsection'},
-            {'name': 'div', 'class': 'section'}
-        ]
-        for rule in rules:
-            tags = parser.soup.find_all(**rule)
-            for tag in tags:
-                tag_close_sibling = tag
-                while True:
-                    tag_close_sibling = tag_close_sibling.previous_sibling
-                    if tag_close_sibling is None:
-                        break
-                    if tag_close_sibling.name is None:
-                        continue
-                    if 'section_h' in tag_close_sibling.name:
-                        tag_close_sibling.append(tag)
-                        break
-        parser.strip_tags(rules)
-        return {'obj': obj, 'html_txt': parser.raw_html}
+        return obj, parser
 
 
 class ECSCollect(RuleIngredient):
-
     @staticmethod
     def _parse(parser_obj):
-        html_str = parser_obj['html_txt']
-        obj = parser_obj['obj']
-        parser = ParserPaper(html_str, debugging=False)
-        # Collect information from the paper using ParserPaper
-        # Create tag from selection function in ParserPaper
-        parser.deal_with_sections()
-        obj['Sections'] = parser.data_sections
-        return {'obj': obj, 'html_txt': parser.raw_html}
+        obj, parser = parser_obj
+
+        exclude_sections = [
+            re.compile(r'.*?acknowledge?ment.*?', re.IGNORECASE),
+            re.compile(r'.*?reference.*?', re.IGNORECASE),
+        ]
+        obj['Sections'].extend(
+            extract_paragraphs_recursive(parser.soup, exclude_section_rules=exclude_sections)
+        )
+        return {'obj': obj, 'html_txt': ''}
 
 
 ECSSoup = Soup(parser_version=__version__)
-ECSSoup.add_ingredient(ECSRemoveTagsSmallSub())
 ECSSoup.add_ingredient(ECSRemoveTrash())
 ECSSoup.add_ingredient(ECSCollectTitleKeywords())
-ECSSoup.add_ingredient(ECSCreateTags())
-ECSSoup.add_ingredient(ECSDealDivWithNoHeading())
+ECSSoup.add_ingredient(ECSCollectAbstract())
 ECSSoup.add_ingredient(ECSCollect())
-

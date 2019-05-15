@@ -1,32 +1,16 @@
-"""
-ParserPaper is a class to parse HTML, XML papers from different publishers into
-simples text. It can be used to feed a database.
-This is the first version, I tried to separate things 
-related to a specific publisher in the ParsePaper in order to help
-to think how to reuse code in new publishers.
-This class is not yet finished, just a security copy in GitHub.
-"""
-
-__author__ = "Tiago Botari"
-__copyright__ = ""
-__version__ = "1.0"
-__maintainer__ = "Tiago Botari"
-__email__ = "tiagobotari@gmail.com"
-__date__ = "Feb 18 2018"
+__author__ = "Tiago Botari, Haoyan Huo"
+__maintainer__ = "Haoyan Huo"
+__email__ = "haoyan.huo@lbl.gov"
 
 import itertools
-import warnings
 import re
-from pprint import pprint
 
 import bs4
 
-from LimeSoup.parser.parser_section import ParserSections
 import LimeSoup.parser.tools as tl
 
 
-class ParserPaper:
-
+class ParserPaper(object):
     def __init__(self, raw_html, parser_type='lxml-xml', debugging=False):
         """
         :param raw_html:
@@ -34,45 +18,10 @@ class ParserPaper:
         :param debugging: True or False
         """
         self.debugging = debugging
-        # parsers 'html.parser', 'lxml', 'html5lib', 'lxml-xml'
-        self.soup = bs4.BeautifulSoup('{:}'.format(raw_html), parser_type)
+        self.soup = bs4.BeautifulSoup(raw_html, parser_type)
         self.parser_type = parser_type
-        self.title = []
-        self.keywords = []
-        self.data_sections = []
-        self.headings_sections = []
-        self.number_paragraphs_sections = []
         if debugging:
             self.soup_orig = self.soup
-
-    def deal_with_sections(self):
-        """
-        Deal with the sections, parse tags that contains <'section_h#'>
-        Ex: <'section_h2'>
-        :return:
-        """
-        parameters = {'name': re.compile('^section_h[0-6]'), 'recursive': False}
-        parse_section = self.create_parser_section(self.soup, parameters, parser_type=self.parser_type)
-        self.data_sections = parse_section.data
-        self.headings_sections = parse_section.heading
-        self.number_paragraphs_sections = parse_section.number_paragraphs
-        self.soup = parse_section.soup
-        del parse_section
-
-    @staticmethod
-    def compile(pattern):
-        return re.compile(pattern)
-
-    @staticmethod
-    def create_parser_section(soup, parameters, parser_type):
-        """
-        Uses the class ParserSections to deal with the sections
-        :param soup: bs4 obj
-        :param parameters:
-        :param parser_type:
-        :return:
-        """
-        return ParserSections(soup, parameters, parser_type=parser_type)
 
     @staticmethod
     def create_soup(html_xlm, parser_type='html.parser'):
@@ -97,16 +46,35 @@ class ParserPaper:
                 fd_div.write(str(self.soup))
                 fd_div.write('\n')
 
-    def get_title(self, rules):
-        self.title = self.get(rules)
-    """ 
-        for rule in rules:
-            title = self.soup.find_all(**rule)
-            for item_title in title:
-                text = tl.convert_to_text(item_title.get_text())
-                self.title.append(text)
-                item_title.extract()
-    """
+    def extract_meta(self, *meta_names):
+        """
+        Extract metadata from <head> section. The <meta> tags will be removed.
+
+        :param meta_names: List of names that should be extracted.
+        :return: list of strings.
+        """
+        results = []
+        for name in meta_names:
+            for item in self.soup.find_all('meta', attrs={'name': name}):
+                if item.has_attr('content'):
+                    results.append(item['content'].strip())
+                item.extract()
+        return results
+
+    def extract_first_meta(self, *meta_names):
+        """
+        Extract the first metadata from <head> section. The <meta> tag will be removed.
+
+        :param meta_names: List of names that should be extracted.
+        :return: a string containing the metadata value.
+        """
+        for name in meta_names:
+            for item in self.soup.find_all('meta', attrs={'name': name}):
+                if item.has_attr('content'):
+                    value = item['content'].strip()
+                    item.extract()
+                    return value
+        return None
 
     def get(self, rules):
         results = list()
@@ -118,12 +86,23 @@ class ParserPaper:
                 item.extract()
         return results
 
+    def get_first_title(self, rules):
+        for rule in rules:
+            for title_tag in self.soup.find_all(**rule):
+                title = tl.convert_to_text(title_tag.get_text())
+                title_tag.extract()
+                return title
+
+        return None
+
     def get_keywords(self, rules):
-        self.keywords = []
+        keywords = []
         for rule in rules:
             for keyword in self.soup.find_all(**rule):
-                self.keywords.append(tl.convert_to_text(keyword.get_text()))
+                keywords.append(tl.convert_to_text(keyword.get_text()))
                 keyword.extract()
+
+        return keywords
 
     def remove_tags(self, rules):
         """
@@ -132,9 +111,10 @@ class ParserPaper:
         :return: None
         """
         for rule in rules:
-            [s.extract() for s in self.soup.find_all(**rule)]
+            for s in self.soup.find_all(**rule):
+                s.extract()
 
-    def remove_tag(self, rules):
+    def remove_first_tag(self, rules):
         """
         Remove the first found tag from bs4 soup object using
         a list of bs4 rules to find_all() Remove the first tag.
@@ -142,94 +122,9 @@ class ParserPaper:
         :return: None
         """
         for rule in rules:
-            [s.extract() for s in self.soup.find_all(limit=1, **rule)]
-
-    @property
-    def headings_orig(self):
-        if not self.debugging:
-            warnings.warn('Debugging mode has to be True when call the class')
-            return None
-        list_heading_soup = self.soup_orig.find_all(name=re.compile('^h[1-6]$'))
-        list_heading = []
-        for item in list_heading_soup:
-            list_heading.append(item.get_text())
-        return list_heading
-
-    @property
-    def headings(self):
-        if not self.debugging:
-            warnings.warn('Debugging mode has to be True when call the class')
-            return None
-        list_heading_soup = self.soup.find_all(name=re.compile('^h[1-6]$'))
-        list_heading = []
-        for item in list_heading_soup:
-            list_heading.append(tl.convert_to_text(item.get_text()))
-        return list_heading
-
-    @property
-    def paragraphs(self):
-        if not self.debugging:
-            warnings.warn('Debugging mode has to be True when call the class')
-            return None
-        list_paragraphs_soup = self.soup.find_all(name='p') # re.compile(
-        list_paragraphs = []
-        for item in list_paragraphs_soup:
-            if len(tl.convert_to_text(item.get_text())) != 0:
-                item.string = tl.convert_to_text(item.get_text())
-                list_paragraphs.append(item.get_text())
-        return list_paragraphs
-
-    @property
-    def span(self):
-        import copy
-        if not self.debugging:
-            warnings.warn('Debugging mode has to be True when call the class')
-            return None
-        soup_one = copy.copy(self.soup)
-        find_one1 = soup_one.find_all(name=re.compile('^h[1-6]$'))
-        for e in find_one1:
-            e.extract()
-        find_one = soup_one.find_all(name=re.compile('span|p'), limit=1)
-        list_paragraphs = []
-        while len(find_one) != 0:
-            text = tl.convert_to_text(find_one[0].get_text())
-            if (find_one[0].name is not None) and (len(text) != 0):
-                list_paragraphs.append(text)
-            find_one[0].extract()
-            find_one = soup_one.find_all(name=re.compile('span|p'), limit=1)
-        return list_paragraphs
-
-    @property
-    def paragraphs_orig(self):
-        if not self.debugging:
-            warnings.warn('Debugging mode has to be True when call the class')
-            return None
-        list_paragraphs_soup = self.soup_orig.find_all(name=re.compile('p'))
-        list_paragraphs = []
-        for item in list_paragraphs_soup:
-            list_paragraphs.append(item.get_text())
-        return list_paragraphs
-
-    def number_of_paragraphs_inside_parameters(self, parameters):
-        if not self.debugging:
-            warnings.warn('Debugging mode has to be True when call the class')
-            return None
-        soup_sec = self.soup_orig.find_all(parameters)
-        number_of_paragraphs_soup_sec = 0
-        for it in soup_sec:
-            number_of_paragraphs_soup_sec += len(list(
-                it.find_all('p', recursive=False)
-            ))
-
-    def number_of_paragraphs_children(self):
-        if not self.debugging:
-            warnings.warn('Debugging mode has to be True when call the class')
-            return None
-        number_of_paragraphs_children = len(list(list(
-            self.soup_orig.children)[0].find_all('p', recursive=True)
-                                                 )
-                                            )
-
+            for s in self.soup.find_all(limit=1, **rule):
+                s.extract()
+                return
 
     def create_tag_from_selection(self, rule, name_new_tag, name_section='Abstract'):
         """
@@ -255,9 +150,9 @@ class ParserPaper:
             # input('Section not created, selection found nothing')
             return 'Section not created, number of paragraphs equal zero.'
         inside_tags = inside_tags_inter[0].find_all(re.compile('(p|ol)|span'), recursive=False)
-        #inside_tags = inside_tags_inter[0].find_all('p', recursive=False)
-        #inside_tags_ol = inside_tags_inter[0].find_all('ol', recursive=False)
-        #inside_tags = inside_tags_p + inside_tags_ol
+        # inside_tags = inside_tags_inter[0].find_all('p', recursive=False)
+        # inside_tags_ol = inside_tags_inter[0].find_all('ol', recursive=False)
+        # inside_tags = inside_tags_p + inside_tags_ol
         if len(inside_tags) == 0:
             # self.save_soup_to_file('selction_found_nothing.html')
             # input('Section not created, number of paragraphs equal zero.')
@@ -296,7 +191,7 @@ class ParserPaper:
         :param rule:
         :return:
         """
-        tag_names = ['h{}'.format(i) for i in range(1, 6)]
+        tag_names = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']
         for tag_name in tag_names:
             tags = self.soup.find_all(tag_name)  # Tags corresponded to headings
             for each_tag in tags:
@@ -334,4 +229,3 @@ class ParserPaper:
     @property
     def raw_html(self):
         return self.soup.prettify()
-

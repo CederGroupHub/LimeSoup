@@ -7,21 +7,18 @@ to think how to reuse code in new publishers.
 This class is not yet finished, just a security copy in GitHub.
 """
 
-__author__ = "Tiago Botari"
+__author__ = "Zach Jensen"
 __copyright__ = ""
-__version__ = "1.0"
+__version__ = "1.1"
 __maintainer__ = "Tiago Botari"
 __email__ = "tiagobotari@gmail.com"
-__date__ = "Feb 18 2018"
+__date__ = "Apr 2019"
 
-import itertools
-import warnings
 import re
-from pprint import pprint
+import warnings
 
 import bs4
 
-from LimeSoup.parser.parser_section import ParserSections
 import LimeSoup.parser.tools as tl
 
 
@@ -74,40 +71,71 @@ class ParserPaper:
     def create_parser_sections(self, soup):
         search_str = re.compile('section_h[2-6]')
         section_tags = soup.find_all(search_str)
-        
-        # Get all sections
         for tag in section_tags:
             try:
-                name = tag.find('h{}'.format(tag.name[-1])).text.strip()
+                name = tag.find('h{}'.format(tag.name[-1])).text.strip().replace('\\n\'', '').replace(', \'', '')
+                name = name.replace('\n', '')
+                name = " ".join(name.split())
+                name = name.replace('( ', '(').replace(' )', ')')
             except:
                 name = ''
+            content = []
             for p in tag.find_all('p'):
-                content = re.sub('\n*\s+\n*',' ',p.text.strip())
-            
-                self.data_sections.append(self.create_section(
-                    name=name,
-                    type_section=tag.name,
-                    content= content
-                ))
-
-        # Nest data sections
-        '''
+                text = self.format_text(p.text)
+                if text[-1] != '.':
+                    index = text.rfind('.')
+                    text = text[:index+1]
+                content.append(text)
+            self.data_sections.append(self.create_section(
+                name=name,
+                type_section=tag.name,
+                content= content
+            ))
+        # Nest data sections   
         for i in range(6, 1, -1):
             did_nest = False
             secname = "section_h{}".format(i)
             supersec_name = "section_h{}".format(i-1)
+            supersupersec_name = "section_h{}".format(i-2)
+            supersupersupersect_name = "section_h{}".format(i-3)
             curr_sec_set = []
             for j, sec in enumerate(reversed(self.data_sections)):
                 if sec['type'] == secname:
                     curr_sec_set.insert(0, sec)
-                elif (sec['type'] == supersec_name) and curr_sec_set:
-                    sec['content'] = curr_sec_set
+                elif sec['type'] == supersec_name and curr_sec_set:
+                    for c in curr_sec_set:
+                        curr = c['content']
+                        for cu in curr:
+                            if cu in sec['content']:
+                                sec['content'].remove(cu)
+                            elif isinstance(cu, dict):
+                                curr2 = cu['content']
+                                for cu2 in curr2:
+                                    if cu2 in sec['content']:
+                                        sec['content'].remove(cu2)
+                    for c in curr_sec_set:
+                        sec['content'].append(c)
                     curr_sec_set = []
                     did_nest = True
 
             if did_nest:
                 self.data_sections = [s for s in self.data_sections if s['type'] != 'section_h{}'.format(i)]
-            '''
+
+    def format_text(self, text):
+        text = re.sub('\n*\s+\n*',' ',text.strip()).strip()
+        text = text.replace(' , , , , ', '').replace(' , , , ', '').replace(' , , ', '')
+        text = text.replace('\\n', '').replace(', \'', '')
+        text = text.replace('.\'', '.').replace(' , ', '')
+        text = text.replace(' .', '.').replace(' [ ]', '')
+        text = text.replace('\\uf8ff', '--').replace('\\u2005', '').replace('\\u2009', '').replace('\\uf8fe', '--')
+        text = text.replace('\' \' \' \' ', '').replace('\' \' \' ', '')
+        text = text.replace(' , , ', ' ').replace(' , ', ' ').replace(' )', ')')
+        text = text.replace("<span class=\\'icomoon\\'>?</span>", "--")
+        text = text.replace("<span class='icomoon'>?</span>", '--') 
+        text = text.replace(' \' \'', '')
+        text = text.replace("&amp;", "&")
+        return text
+
     @staticmethod
     def create_soup(html_xlm, parser_type='html.parser'):
         # parser_types = ['html.parser', 'lxml', 'html5lib', 'lxml-xml']
@@ -330,17 +358,30 @@ class ParserPaper:
         :param rule:
         :return:
         """
-        tag_names = ['section']
-        for tag_name in tag_names:
-            tags = self.soup.find_all(tag_name)  # Tags corresponded to headings
-            for each_tag in tags:
-                inside_tags = [item for item in itertools.takewhile(
-                    lambda t: t.name not in [each_tag.name, 'script'],
-                    each_tag.next_siblings)]
-                section = self.soup.new_tag('section_h2')
-                each_tag.wrap(section)
-                for tag in inside_tags:
-                    section.append(tag)
+        search_str = re.compile('h[2-6]')
+        tags = self.soup.find_all(search_str)
+        count = 0
+        for each_tag in tags:
+            if 'reference' in each_tag.text.lower():
+                continue
+            already_found = False
+            if each_tag.get('class') is None:
+                t = each_tag.parent
+                if t.get('class') is None:
+                    continue
+                else:
+                    if 'article' not in t.get('class')[0]:
+                        continue
+                    else:
+                        already_found = True
+            if already_found:
+                pass
+            elif 'article' not in each_tag.get('class')[0]:
+                continue
+            t = each_tag.parent
+            section = self.soup.new_tag('section_'+each_tag.name)
+            t.wrap(section)
+            count += 1
 
     def rename_tag(self, rule, new_name='section_h4'):
         tags = self.soup.find_all(**rule)
@@ -368,4 +409,3 @@ class ParserPaper:
     @property
     def raw_html(self):
         return self.soup.prettify()
-

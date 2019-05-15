@@ -1,19 +1,13 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-from __future__ import print_function
-from __future__ import division
-from __future__ import absolute_import
-
-import re, bs4, json
+import re
 
 from LimeSoup.lime_soup import Soup, RuleIngredient
-from LimeSoup.parser.implemented_parsers import ParserNature
+from LimeSoup.parser.paragraphs import extract_paragraphs_recursive
+from LimeSoup.parser.parser_paper import ParserPaper
 
-
-__author__ = 'Jason Madeano'
-__maintainer__ = 'Jason Madeano'
-__email__ = 'Jason.Madeano@shell.com'
-__version__ = '0.2.2'
+__author__ = 'Jason Madeano, Haoyan Huo'
+__maintainer__ = 'Haoyan Huo'
+__email__ = 'Jason.Madeano@shell.com,haoyan.huo@lbl.gov'
+__version__ = '0.2.4-dev'
 
 
 class NatureRemoveTagsSmallSub(RuleIngredient):
@@ -23,7 +17,7 @@ class NatureRemoveTagsSmallSub(RuleIngredient):
         """
         Deal with spaces in the sub, small tag and then remove it.
         """
-        parser = ParserNature(html_str, debugging=False)
+        parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         rules = [{'name': 'small'},
                  {'name': 'sub'},
                  {'name': 'span', 'class': 'small_caps'},
@@ -35,188 +29,113 @@ class NatureRemoveTagsSmallSub(RuleIngredient):
                  {'name': 'strong'},
                  {'name': 'span', 'class': 'small_caps'}]
 
-        # First manually delete all 'sup's that include reference numbers
-        [s.extract() for s in parser.soup.find_all('sup') if s.find('a')]
-
         parser.operation_tag_remove_space(rules)
         # Remove some specific all span that are inside of a paragraph 'p'
         parser.strip_tags(rules)
-        tags = parser.soup.find_all(**{'name': 'p'})
-        for tag in tags:
-            tags_inside_paragraph = tag.find_all(**{'name': 'span'})
-            for tag_inside_paragraph in tags_inside_paragraph:
-                tag_inside_paragraph.replace_with_children()
-
-        # Remove some specific span that are inside of a span and p
-        parser.strip_tags(rules)
-        tags = parser.soup.find_all(**{'name': re.compile('span|p')})
-        for tag in tags:
-            for rule in rules:
-                tags_inside_paragraph = tag.find_all(**rule)
-                for tag_inside_paragraph in tags_inside_paragraph:
-                    tag_inside_paragraph.replace_with_children()
-        # Recreating the ParserPaper bug in beautifulsoup
-        html_str = str(parser.soup)
-        parser = ParserNature(html_str, debugging=False)
-        return parser.raw_html
+        return parser
 
 
 class NatureRemoveTrash(RuleIngredient):
-    '''
+    """
     Selects the article div and removes all of the excess (ie. the sidebar,
     Nature contact info, etc). Also strips the items listed below.
-    '''
+    """
+
     @staticmethod
-    def _parse(html_str):
+    def _parse(parser):
         # Tags to be removed from the HTML paper ECS
         list_remove = [
-            {'name': 'li', 'itemprop':'citation'},  # Citations/References
+            {'name': 'li', 'itemprop': 'citation'},  # Citations/References
             {'name': 'div', 'id': 'article-comments-section'},  # Comments
             {'name': 'figure'},  # Figures
             {'name': 'code'},  # Code inside the HTML
-            {'name': 'div', 'class': 'figure-at-a-glance'}, # Copy of all figures
+            {'name': 'div', 'class': 'figure-at-a-glance'},  # Copy of all figures
 
             # # Still deciding how to deal with removing all references,
             # # Currently all superscript references are removed.
             # {'name': 'a'}
-            # {'name': 'a', 'data-track-action':'figure anchor'}, # Figure Link
-            # {'name': 'a', 'data-track-action':'supplementary material anchor'} # Supplementary Link
+            {'name': 'a', 'data-track-action': 'figure anchor'},  # Figure Link
+            {'name': 'a', 'data-track-action': 'supplementary material anchor'}  # Supplementary Link
         ]
-        parser = ParserNature(html_str, debugging=False)
         parser.remove_tags(rules=list_remove)
 
-        return parser.raw_html
+        return parser
 
 
 class NatureCollectMetadata(RuleIngredient):
-    '''
+    """
     Collect metadata such as Title, Journal Name, DOI and Content Type.
-    '''
+    """
 
     @staticmethod
-    def _parse(html_str):
-        parser = ParserNature(html_str, debugging=False)
-        error_message, valid_article = '', True # Assume no error
-        doi, journal, title, type = None, None, None, None
-
-        try:
-            # The majority of nature articles have a script tag that contains
-            # all of the valuable metadata in structure json format.
-            pattern = re.compile(r'.*dataLayer.*')
-            script = parser.soup.find('script', text = pattern)
-
-            if script:
-                script = script.get_text()
-
-                # Extract the correct script and convert to python dictionary
-                dict = re.search('\[(.*)\]', script)
-                dict = dict.group(1)
-                dict = json.loads(dict)['content']
-
-                doi = dict['article']['doi']
-                journal = dict['category']['legacy']['webtrendsContentGroup']
-                title = dict['contentInfo']['title']
-                type = dict['category']['contentType']
-
-            else: # Some articles don't include script, but the metadata still exists
-                doi = parser.soup.find('meta', {'name':'dc.identifier'})
-                title = parser.soup.find('meta', {'name':'dc.title'})
-                journal = parser.soup.find('meta', {'name':'WT.cg_n'})
-                type = parser.soup.find('meta', {'name': 'WT.cg_s'})
-
-                if doi: doi = doi['content'][4:]
-                if title: title = title['content']
-                if journal: journal = journal['content']
-                if type: type = type['content'].lower()
-
-                # Some articles have improperly downloaded HTML, these are flagged
-                if doi is None or type is None:
-                    error_message = "Error: Try Redownloading HTML File"
-                    # os.startfile(article)
-
-            if type and type not in ['letter', 'article']:
-                error_message = "Error: Not Letter/Article"
-
-        except Exception as e:
-            print('---Metadata Collection Error---')
-            # print(e)
-
-        if error_message:
-            valid_article = False
-            title = error_message
-
-        # Very small subset of Nature articles have keywords, defaults to []
-        parser.set_keywords()
-
+    def _parse(parser):
         # This dictionary structure should match other parsers,
         # "Valid Article" and "Content Type" are specific to Nature Parser
+        doi = parser.extract_first_meta('citation_doi')
+        title = re.sub(r'\s+', ' ', parser.extract_first_meta('citation_title'))
+        journal = parser.extract_first_meta('citation_journal_title')
+        keywords = parser.extract_meta('keywords')
+        article_type = parser.extract_first_meta('WT.cg_s')
         obj = {
-            'Valid Article': valid_article,
-            'Content Type': type.lower(),
+            'Content Type': article_type,
             'DOI': doi,
-            'Title': [title],
-            'Keywords': parser.keywords,
+            'Title': title,
+            'Keywords': keywords,
             'Journal': journal,
-            'Sections': []
         }
 
-        return [obj, parser.raw_html]
+        return [obj, parser]
 
 
-class NatureCollect(RuleIngredient):
+class NatureExtractArticleBody(RuleIngredient):
+    """
+    Take the body section out of the HTML DOM.
+    """
 
     @staticmethod
     def _parse(parser_obj):
-        obj, html_str = parser_obj
-        parser = ParserNature(html_str, debugging=False)
+        obj, parser = parser_obj
 
-        # No need to parse further if the article is invalid
-        valid_article = obj['Valid Article']
-        if not valid_article: return obj
+        article_body = next(
+            x for x in parser.soup.find_all(
+                attrs={'data-article-body': 'true'}
+            )
+        )
+        parser = ParserPaper(str(article_body), parser_type='html.parser')
 
-        # Navigate to the actual article body
-        article_body = parser.soup.find('div', {'class': 'article-body clear'})
+        # remove any sections after references
+        secs_to_remove = []
+        sec = parser.soup.find(attrs={'aria-labelledby': 'references'})
+        while sec is not None:
+            secs_to_remove.append(sec)
+            sec = sec.next_sibling
 
-        if article_body is None or article_body.section is None:
-            print('---Invalid Article Body---')
-            obj['Title'] = 'Error: Cannot Find Article Body'
-            valid_article = False
+        for sec in secs_to_remove:
+            sec.extract()
 
-        else:
-            data = []
-            for section in article_body.find_all("section"):
-                try:
-                    section_title = parser.get_section_title(section.div)
+        return [obj, parser]
 
-                # News/Review articles do not have section headers, will not be parsed
-                except Exception as e:
-                    print('---Section Title Error---')
-                    valid_article = False
-                    break
 
-                # Stop collecting data once any of these sections are reached
-                if section_title.lower() in ['references', 'additional information',
-                                             'change history', 'author information']:
-                    if data == []: # If parser reaches the end without collecting any data
-                        print("-----No Data-----")
-                        valid_article = False
-                    break
+class NatureCollect(RuleIngredient):
+    @staticmethod
+    def _parse(parser_obj):
+        obj, parser = parser_obj
 
-                section_content = parser.deal_with_section(section.div)
-                data += [{"type": "section_h2",
-                          "name": section_title,
-                          "content": section_content}]
+        # Create tag from selection function in ParserPaper
+        data = list()
 
-            obj['Sections'] = data
+        for item in parser.soup.contents:
+            data.extend(extract_paragraphs_recursive(item))
 
-        obj['Valid Article'] = valid_article
+        obj['Sections'] = data
 
         # Should the return include html_text?
-        return obj#, 'html_txt':parser.raw_html}
+        return {'obj': obj, 'html_txt': parser.raw_html}
 
 
 NatureSoup = Soup(parser_version=__version__)
 NatureSoup.add_ingredient(NatureRemoveTagsSmallSub())
 NatureSoup.add_ingredient(NatureRemoveTrash())
 NatureSoup.add_ingredient(NatureCollectMetadata())
+NatureSoup.add_ingredient(NatureExtractArticleBody())
 NatureSoup.add_ingredient(NatureCollect())

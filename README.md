@@ -2,6 +2,11 @@
 
 LimeSoup is a package to parse HTML or XML papers from different publishers. It can be
 used to feed a database.
+
+[![Build Status](https://semaphoreci.com/api/v1/projects/686509c1-2128-44fd-9532-1a32090bd980/2687086/badge.svg)](https://semaphoreci.com/cedergrouphub/limesoup)
+
+# Usage
+
 The class ECSSoup and RCSSoup are implementations for the ECS and RSC publishers respectively.
 
 Use for ECS Publisher:

@@ -15,18 +15,17 @@ __email__ = "tiagobotari@gmail.com"
 __date__ = "Feb 18 2018"
 
 import itertools
-import warnings
 import re
-from pprint import pprint
+import warnings
 
 import bs4
 
-from LimeSoup.parser.parser_section import ParserSections
 import LimeSoup.parser.tools as tl
 
 
 class ParserPaper:
     journal_name = None
+
     def __init__(self, raw_html, parser_type='lxml-xml', debugging=False):
         """
         :param raw_html:
@@ -63,55 +62,65 @@ class ParserPaper:
         return re.compile(pattern)
 
     def create_section(self, name='no_name_section', type_section='no_type', content=[]):
-       return {
+        return {
             'type': type_section
             , 'name': name
             , 'content': content
         }
 
-
     def create_parser_sections(self, soup):
         search_str = re.compile('section_h[1-6]')
         section_tags = soup.find_all(search_str)
-        
+
         # Get all sections
+        paras = []
         for tag in section_tags:
             try:
                 name = tag.find('h{}'.format(tag.name[-1])).text.strip()
+                name = name.replace('\n', '')
+                name = ' '.join(name.split())
             except AttributeError:
                 continue
             content = []
-            # for p in tag.find_all('p'):
-            #     content.append(
-            #         re.sub('\n*\s+\n*',' ',p.text.strip())
-            #         )
-            [x.extract() for x in tag.findAll('h{}'.format(tag.name[-1]))]
-            content = re.sub('\n*\s+\n*',' ',tag.text.strip())
+            for p in tag.find_all('p'):
+                p = p.getText()
+                p = re.sub('\n*\s+\n*', ' ', p)
+                p = re.sub(r'\s?\[(\s|-\s|–\s|,\s)*\]', '', p)
 
-            self.data_sections.append(self.create_section(
-                name=name,
-                type_section=tag.name,
-                content= content
-            ))
+                content.append(p.strip())
+            if len(content) > 0:
+                self.data_sections.append(self.create_section(
+                    name=name,
+                    type_section=tag.name,
+                    content=content))
 
         # Nest data sections
+        prev_texts = []
         for i in range(6, 1, -1):
             did_nest = False
             secname = "section_h{}".format(i)
-            supersec_name = "section_h{}".format(i-1)
+            supersec_name = "section_h{}".format(i - 1)
             curr_sec_set = []
             for j, sec in enumerate(reversed(self.data_sections)):
                 if sec['type'] == secname:
+                    sec['content'] = [s for s in sec['content'] if s not in prev_texts]
+                    prev_texts.extend([c for c in sec['content'] if type(c) == str])
                     curr_sec_set.insert(0, sec)
                 elif (sec['type'] == supersec_name) and curr_sec_set:
-                    sec['content'] = curr_sec_set
+                    for c in curr_sec_set:
+                        curr = c['content']
+                        for cu in curr:
+                            if cu in sec['content']:
+                                sec['content'].remove(cu)
+                    for c in curr_sec_set:
+                        sec['content'].append(c)
                     curr_sec_set = []
                     did_nest = True
 
             if did_nest:
                 self.data_sections = [s for s in self.data_sections if s['type'] != 'section_h{}'.format(i)]
-
-            
+            else:
+                self.data_sections = [s for s in self.data_sections if s['content'] != []]
 
     @staticmethod
     def create_soup(html_xlm, parser_type='html.parser'):
@@ -137,7 +146,11 @@ class ParserPaper:
                 fd_div.write('\n')
 
     def get_title(self, rules):
-        self.title = self.get(rules)
+        try:
+            self.title = next(x for x in self.get(rules))
+        except StopIteration:
+            self.title = None
+
     """ 
         for rule in rules:
             title = self.soup.find_all(**rule)
@@ -210,7 +223,7 @@ class ParserPaper:
         if not self.debugging:
             warnings.warn('Debugging mode has to be True when call the class')
             return None
-        list_paragraphs_soup = self.soup.find_all(name='p') # re.compile(
+        list_paragraphs_soup = self.soup.find_all('p', 'Para')  # re.compile(
         list_paragraphs = []
         for item in list_paragraphs_soup:
             if len(tl.convert_to_text(item.get_text())) != 0:
@@ -269,7 +282,6 @@ class ParserPaper:
                                                  )
                                             )
 
-
     def create_tag_from_selection(self, rule, name_new_tag, name_section='Abstract'):
         """
         Create a tag inside a bs4 soup object from a selection using a rule.
@@ -294,9 +306,9 @@ class ParserPaper:
             # input('Section not created, selection found nothing')
             return 'Section not created, number of paragraphs equal zero.'
         inside_tags = inside_tags_inter[0].find_all(re.compile('(p|ol)|span'), recursive=False)
-        #inside_tags = inside_tags_inter[0].find_all('p', recursive=False)
-        #inside_tags_ol = inside_tags_inter[0].find_all('ol', recursive=False)
-        #inside_tags = inside_tags_p + inside_tags_ol
+        # inside_tags = inside_tags_inter[0].find_all('p', recursive=False)
+        # inside_tags_ol = inside_tags_inter[0].find_all('ol', recursive=False)
+        # inside_tags = inside_tags_p + inside_tags_ol
         if len(inside_tags) == 0:
             # self.save_soup_to_file('selction_found_nothing.html')
             # input('Section not created, number of paragraphs equal zero.')
@@ -327,7 +339,7 @@ class ParserPaper:
             for tag in tags:
                 if tag is not None:
                     if tag.name is not None:
-                        tag.string = tag.get_text().rstrip()
+                        tag.string = tag.get_text().strip()
 
     def create_tag_sections(self, rule=None):
         """
@@ -373,4 +385,3 @@ class ParserPaper:
     @property
     def raw_html(self):
         return self.soup.prettify()
-
