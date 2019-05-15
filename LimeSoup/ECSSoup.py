@@ -59,6 +59,7 @@ class ECSCollectTitleKeywords(RuleIngredient):
         obj = {
             'Title': title,
             'Keywords': keywords,
+            'Journal': None,
             'DOI': ''
         }
         return obj, parser
