@@ -127,3 +127,57 @@ class TestParsing(SoupTester):
                 ('$$Appendix III: Light Absorption Spectrum of Nafion', 1),
             ]
         )
+
+    def test_paper_ecs_content(self):
+        parsed = self.get_parsed('10.1149-1.3606475.html', __file__)
+
+        self.assertTitleEqual(
+            parsed,
+            'Characterizations of LBC-GDC Composite Cathodes for Low Temperature SOFCs')
+        self.assertKeywordsEqual(
+            parsed, ['barium compounds',
+                     'catalysis',
+                     'cerium compounds',
+                     'composite materials',
+                     'electrical resistivity',
+                     'electrochemical electrodes',
+                     'electrochemical impedance spectroscopy',
+                     'gadolinium',
+                     'heat treatment',
+                     'ionic conductivity',
+                     'lanthanum compounds',
+                     'materials preparation',
+                     'porous materials',
+                     'reduction (chemical)',
+                     'solid electrolytes',
+                     'thermal expansion',
+                     'X-ray diffraction']
+        )
+        self.assertSectionPathsEqual(
+            parsed, [
+                ('$$Abstract', 1),
+                ('', 3),
+                ('$$Experimental$$LBC synthesis and characterization', 1),
+                ('$$Experimental$$LBC-GDC composite fabrication', 1),
+                ('$$Experimental$$TEC measurements', 1),
+                ('$$Experimental$$Electrode fabrication and characterization', 2),
+                ('$$Results and Discussion$$XRD measurements', 1),
+                ('$$Results and Discussion$$Electrode microstructure', 1),
+                ('$$Results and Discussion$$Thermal expansion coefficient (TEC)', 1),
+                ('$$Results and Discussion$$Impedance response of symmetrical cell electrodes', 2),
+                ('$$Results and Discussion'
+                 '$$Comparison of total polarization resistance of different composite electrodes', 3),
+                ('$$Results and Discussion'
+                 '$$Mechanistic understanding of electrochemical processes', 3),
+                ('$$Results and Discussion'
+                 '$$Quantification of activation energy of HF and LF resistances', 1),
+                ('$$Results and Discussion'
+                 '$$pO2 dependency of HF and LF resistances', 3),
+                ('$$Conclusions', 1),
+            ]
+        )
+
+        self.assertNoReference(parsed, 1, ['1', '2', '3', '4'])
+        self.assertNoReference(parsed, 2, ['6-9', '12-17'])
+
+        self.assertContainsStrings(parsed, 4, ['153 MPa', '1000°C', '1. 5406 Å'])

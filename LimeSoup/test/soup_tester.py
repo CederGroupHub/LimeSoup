@@ -55,6 +55,18 @@ def flatten_section(section):
     return all_sections
 
 
+def all_paragraphs(section):
+    paragraphs = []
+    if isinstance(section, list):
+        for sub_section in section:
+            paragraphs.extend(all_paragraphs(sub_section))
+    elif isinstance(section, dict):
+        paragraphs.extend(all_paragraphs(section['content']))
+    elif isinstance(section, str):
+        paragraphs.append(section)
+    return paragraphs
+
+
 class SoupTester(TestCase):
     Soup = None
 
@@ -134,6 +146,18 @@ class SoupTester(TestCase):
 
         test_section(parsed['Sections'], '')
         self.assertTrue(len(section_names) == 0, 'Missing sections: %r.' % section_names)
+
+    def assertNoReference(self, parsed, nth_paragraph, ref_number_strings):
+        paragraphs = all_paragraphs(parsed['Sections'])
+        paragraph = paragraphs[nth_paragraph]
+        for string in ref_number_strings:
+            self.assertFalse(string in paragraph, 'Should not have reference: %s' % string)
+
+    def assertContainsStrings(self, parsed, nth_paragraph, strings):
+        paragraphs = all_paragraphs(parsed['Sections'])
+        paragraph = paragraphs[nth_paragraph]
+        for string in strings:
+            self.assertTrue(string in paragraph, 'Expected string not found: %s' % string)
 
     def assertMaterialMentioned(self, parsed, materials, key_materials=None):
         """
