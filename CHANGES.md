@@ -9,8 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed bugs in RSC/ECS parser (almost rewrote it).
 - Fixed bugs in Nature parser (almost rewrote it).
 - Added CHANGES.md to track all changes in LimeSoup.
-- Added unit tests for Wiley, Springer, Nature, RSC, ECS.
-- Implemented parsers for Wiley and Springer.
+- Added unit tests for Wiley, Springer, APS, Nature, RSC, ECS.
+- Implemented parsers for Wiley, Springer, and APS.
 - Added worker class using `synthesis-api-hub` to serve the parser in parallel computing environments.
 
 ## [0.2.2] - 2018-10-27
