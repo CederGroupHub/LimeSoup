@@ -6,6 +6,7 @@ from __future__ import absolute_import
 
 from LimeSoup.lime_soup import Soup, RuleIngredient
 from LimeSoup.parser.parser_paper_aps import ParserPaper
+import re
 
 
 __author__ = ''
@@ -33,11 +34,11 @@ class APSCreateTags(RuleIngredient):
     @staticmethod
     def _parse(xml_str):
         parser = ParserPaper(xml_str, parser_type='lxml', debugging=False)
-        try:
+        # try:
             # This create a standard of sections tag name
-            parser.create_tag_sections()
-        except:
-            pass
+        parser.create_tag_sections()
+        # except:
+        #     pass
         return parser.raw_xml
 
 class APSReplaceSectionTag(RuleIngredient):
@@ -74,12 +75,25 @@ class APSCollect(RuleIngredient):
         parser.deal_with_sections()
         data = parser.data_sections
         parser.create_abstract(rule={'name': 'abstract'})
+        
+        if len(data) == 1:
+            parser.soup.front.decompose()
+            parser.soup.back.decompose()
+            body = parser.soup.find_all('p')
+            for paras in body:
+                p = re.sub('\n*\s+\n*',' ',paras.text.strip())
+                p = re.sub('\s,\s',', ',p)
+                p = re.sub('\s.\s','. ',p)
+                if p[-1] == '.' and p[-2] == ' ':
+                    p = p[:-2] + '.'
+                data.append(parser.create_section(name='', type_section='section_h2', content=[p]))
+
 
         obj = {
-            'DOI': doi,
+            'DOI': doi[0],
             'Keywords': [],
             'Title': parser.title,
-            'Journal': journal_name,
+            'Journal': journal_name[0],
             'Sections': data
         }
         return {'obj': obj, 'xml_txt': parser.raw_xml}
@@ -88,6 +102,6 @@ class APSCollect(RuleIngredient):
 APSSoup = Soup(parser_version=__version__)
 APSSoup.add_ingredient(APSReformat())
 APSSoup.add_ingredient(APSRemoveTrash())
-APSSoup.add_ingredient(APSCreateTags())
+# APSSoup.add_ingredient(APSCreateTags())
 APSSoup.add_ingredient(APSReplaceSectionTag())
 APSSoup.add_ingredient(APSCollect())

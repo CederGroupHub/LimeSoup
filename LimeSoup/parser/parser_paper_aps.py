@@ -68,16 +68,20 @@ class ParserPaper:
     def create_parser_sections(self, soup):
         search_str = re.compile('section_h[1-6]')
         section_tags = soup.find_all(search_str)
-        
+        # for s in section_tags:
         # Get all sections
         for tag in section_tags:
-            name = self.convert_to_text(tag.find('title').text)
-
+            try:
+                name = self.convert_to_text(tag.find('title').text)
+            except:
+                name = ''
             content = []
             for p in tag.find_all('p', recursive=False):
                 p = re.sub('\n*\s+\n*',' ',p.text.strip())
                 p = re.sub('\s,\s',', ',p)
                 p = re.sub('\s.\s','. ',p)
+                if p[-1] == '.' and p[-2] == ' ':
+                    p = p[:-2] + '.'
                 content.append(p)
 
             self.data_sections.append(self.create_section(
@@ -129,7 +133,7 @@ class ParserPaper:
                     fd_div.write('\n')
 
     def get_title(self, rules):
-        self.title = self.get(rules)
+        self.title = self.get(rules)[0]
 
     def get(self, rules):
         results = list()
@@ -270,7 +274,7 @@ class ParserPaper:
         if abstract is not None:
             self.data_sections.insert(0, self.create_section(
                     name='Abstract',
-                    type_section='abstract',
+                    type_section='section_h2',
                     content= self.convert_to_text(abstract.get_text())
                 ))
 
@@ -357,7 +361,7 @@ class ParserPaper:
         tags = self.soup.find_all('sec')  # Tags corresponded to headings
         for each_tag in tags:
             # try:
-            tag_name_tmp = each_tag.find('id').string
+            tag_name_tmp = each_tag.get('id')
             #print('Tag:', each_tag.name, 'Label:', "%r"%tag_name_tmp)
             # To be consistent with the html parser, the notation h1, h2, ..., h6 is kept.
             tag_name = int(tag_name_tmp.count('.'))+2
@@ -388,13 +392,14 @@ class ParserPaper:
     def change_name_tag_sections(self):
         tags = self.soup.find_all('sec')
         for each_tag in tags:
-            try:
+            # try:
                 tag_name_tmp = each_tag['id']
                 # To be consistent with the xml parser, the notation h1, h2, ..., h6 is kept.
-                tag_name = int(tag_name_tmp.count('.'))+2
+                # tag_name = int(tag_name_tmp.count('.'))+2
+                tag_name = len(tag_name_tmp)
                 each_tag.name = 'section_h{}'.format(tag_name)
-            except:
-                 each_tag.name = 'section_h2'
+            # except:
+            #      each_tag.name = 'section_h2'
 
     @staticmethod
     def convert_to_text(text):

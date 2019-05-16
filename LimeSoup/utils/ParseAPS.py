@@ -3,7 +3,7 @@ sys.path.append('.')
 from LimeSoup.APSSoup import APSSoup
 import json
 
-xml_files = ['LimeSoup/test/aps_papers/101103PhysRevApplied4054003.xml'
+xml_files = ['LimeSoup/test/test_aps/101103PhysRevMaterials1043801.xml'
 
 ]
 
