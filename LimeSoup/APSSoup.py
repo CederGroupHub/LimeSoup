@@ -12,7 +12,7 @@ import re
 __author__ = ''
 __maintainer__ = 'Haihao Liu'
 __email__ = 'hhliu@mit.edu'
-__version__ = '0.1'
+__version__ = '0.2'
 
 
 class APSRemoveTrash(RuleIngredient):

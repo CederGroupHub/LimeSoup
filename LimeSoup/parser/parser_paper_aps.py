@@ -5,7 +5,7 @@ simples text. It can be used to feed a database.
 
 __author__ = "Tiago Botari"
 __copyright__ = ""
-__version__ = "1.0"
+__version__ = "1.1"
 __maintainer__ = "Haihao Liu"
 __email__ = "hhliu@mit.edu"
 __date__ = "Apr 10 2019"
