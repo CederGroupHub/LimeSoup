@@ -7,7 +7,7 @@ from LimeSoup.parser.parser_paper import ParserPaper
 __author__ = 'Jason Madeano, Haoyan Huo'
 __maintainer__ = 'Haoyan Huo'
 __email__ = 'Jason.Madeano@shell.com,haoyan.huo@lbl.gov'
-__version__ = '0.2.4-dev'
+__version__ = '0.3.0'
 
 
 class NatureRemoveTagsSmallSub(RuleIngredient):
@@ -129,8 +129,7 @@ class NatureCollect(RuleIngredient):
 
         obj['Sections'] = data
 
-        # Should the return include html_text?
-        return {'obj': obj, 'html_txt': parser.raw_html}
+        return obj
 
 
 NatureSoup = Soup(parser_version=__version__)

@@ -13,7 +13,7 @@ from LimeSoup.parser.parser_paper_springer import ParserPaper
 __author__ = 'Alex van Grootel'
 __maintainer__ = 'Alex van Grootel'
 __email__ = 'agrootel@mit.edu'
-__version__ = '0.2.3-dev'
+__version__ = '0.3.0'
 
 
 class SpringerFindJournalName(RuleIngredient):
@@ -160,7 +160,7 @@ class SpringerCollect(RuleIngredient):
             'Sections': data
         }
 
-        return {'obj': obj, 'html_txt': parser.raw_html}
+        return obj
 
 """
 Error where the paper has paragraphs (content) that is not inside of a tag,

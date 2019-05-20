@@ -7,7 +7,7 @@ from LimeSoup.parser.parser_paper import ParserPaper
 __author__ = 'Ziqin (Shaun) Rong, Tiago Botari, Haoyan Huo'
 __maintainer__ = 'Haoyan Huo'
 __email__ = 'haoyan.huo@lbl.gov'
-__version__ = '0.2.3-dev'
+__version__ = '0.3.0'
 
 
 class RSCParseHTML(RuleIngredient):
@@ -120,7 +120,7 @@ class RSCCollect(RuleIngredient):
             'Journal': journal_name,
             'Sections': data
         }
-        return {'obj': obj, 'html_txt': parser.raw_html}
+        return obj
 
 
 RSCSoup = Soup(parser_version=__version__)

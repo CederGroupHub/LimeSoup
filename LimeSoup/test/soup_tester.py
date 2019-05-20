@@ -87,7 +87,7 @@ class SoupTester(TestCase):
         :return:
         """
         parse_obj = self.Soup.parse(self.load_paper(filename, source_file))
-        return parse_obj['obj']
+        return parse_obj
 
     def assertDOIEqual(self, parsed, doi):
         self.assertEqual(

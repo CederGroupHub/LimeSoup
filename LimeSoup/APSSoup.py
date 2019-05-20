@@ -12,7 +12,7 @@ import re
 __author__ = ''
 __maintainer__ = 'Haihao Liu'
 __email__ = 'hhliu@mit.edu'
-__version__ = '0.2'
+__version__ = '0.3.0'
 
 
 class APSRemoveTrash(RuleIngredient):
@@ -96,7 +96,7 @@ class APSCollect(RuleIngredient):
             'Journal': journal_name[0],
             'Sections': data
         }
-        return {'obj': obj, 'xml_txt': parser.raw_xml}
+        return obj
 
 
 APSSoup = Soup(parser_version=__version__)

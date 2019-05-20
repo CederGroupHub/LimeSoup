@@ -11,7 +11,7 @@ from LimeSoup.parser.parser_paper_elsevier import ParserPaper
 __author__ = ''
 __maintainer__ = 'Nicolas Mingione'
 __email__ = 'nicolasmingione@lbl.gov'
-__version__ = '0.2.2'
+__version__ = '0.3.0'
 
 
 class ElsevierRemoveTrash(RuleIngredient):
@@ -136,7 +136,7 @@ class ElsevierCollect(RuleIngredient):
             'Journal': journal_name,
             'Sections': data
         }
-        return {'obj': obj, 'xml_txt': parser.raw_xml}
+        return obj
 
 
 ElsevierSoup = Soup(parser_version=__version__)

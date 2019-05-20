@@ -7,7 +7,7 @@ from LimeSoup.parser.parser_paper import ParserPaper
 __author__ = 'Tiago Botari, Haoyan Huo'
 __maintainer__ = 'Haoyan Huo'
 __email__ = 'haoyan.huo@lbl.gov'
-__version__ = '0.2.3-dev'
+__version__ = '0.3.0'
 
 
 class ECSRemoveTrash(RuleIngredient):
@@ -91,7 +91,7 @@ class ECSCollect(RuleIngredient):
         obj['Sections'].extend(
             extract_paragraphs_recursive(parser.soup, exclude_section_rules=exclude_sections)
         )
-        return {'obj': obj, 'html_txt': ''}
+        return obj
 
 
 ECSSoup = Soup(parser_version=__version__)

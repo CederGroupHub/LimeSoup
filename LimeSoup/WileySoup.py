@@ -8,7 +8,7 @@ from LimeSoup.parser.parser_paper_wiley import ParserPaper
 __author__ = 'Zach Jensen'
 __maintainer__ = ''
 __email__ = 'zjensen@mit.edu'
-__version__ = '0.2.4-dev'
+__version__ = '0.3.0'
 
 
 class WileyRemoveTagsSmallSub(RuleIngredient):
@@ -228,7 +228,7 @@ class WileyCollect(RuleIngredient):
             'Journal': journal_name,
             'Sections': data
         }
-        return {'obj': obj, 'html_txt': parser.raw_html}
+        return obj
 
 
 WileySoup = Soup(parser_version=__version__)
