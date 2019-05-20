@@ -348,7 +348,7 @@ class TestParsing(SoupTester):
             if not tmp_f.isfile():
                 continue
             fr = utf8reader(archive.extractfile(tmp_f)).read()
-            parsed = self.Soup.parse(fr)['obj']
+            parsed = self.Soup.parse(fr)
 
             self.checkSpecialCharacters(
                 parsed,
