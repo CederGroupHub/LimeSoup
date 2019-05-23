@@ -8,10 +8,10 @@ from LimeSoup.lime_soup import Soup, RuleIngredient
 from LimeSoup.parser.parser_paper_IOP2 import ParserPaper
 
 
-__author__ = ''
-__maintainer__ = 'Nicolas Mingione'
-__email__ = 'nicolasmingione@lbl.gov'
-__version__ = '0.3.0'
+__author__ = 'Zheren Wang'
+__maintainer__ = ''
+__email__ = ''
+__version__ = '0.1.0'
 
 
 class IOPRemoveTrash(RuleIngredient):
