@@ -21,7 +21,6 @@ class TestParsing(SoupTester):
             parsed, [
                 ('$$Abstract', 1),
                 ('$$Introduction', 4),
-                ('$$Experimental section', 0),
                 ('$$Materials', 1),
                 ('$$Surface cleaning and etching',1 ),
                 ('$$Alkylsiloxane reaction conditions', 1),
@@ -32,15 +31,15 @@ class TestParsing(SoupTester):
                 ('$$Chemical composition and stability of HF-etched Si3N4 films', 2),
                 ('$$Characterization of HF-etched Si3N4 samples.',2),
                 ('$$Chemical bonding of fluorine and oxygen on HF-etched Si3N4 surfaces.', 6),
-                ('$$Quantification of fluorine surface coverage on HF- etched Si3N4.', 1),
+                ('$$Quantification of fluorine surface coverage on HF-etched Si3N4.', 1),
                 ('$$Detection of surficial Si–NH2 bonds on HF-etched Si3N4 surfaces.', 4),
                 ('$$Stability of the HF(aq)-etched Si3N4 surface in water.', 10),
                 ('$$Chemical functionalization of HF(aq)-etched Si3N4 films', 2),
                 ('$$Reaction of etched surfaces of Si3N4 or SiO2 surfaces with CDMODS.', 2),
                 ('$$Characterization of surfaces after surface modification with alkylsiloxanes.', 3),
-                ('$$Examining selectivity with organosilanes: reaction of HF(aq)-etched surfaces of Si3N4 or SiO2 with other organosi- lanes.',1 ),
-                ('$$Schiff-base-style reaction with surficial –NH2 modes of the HF(aq)-etched Si3N4 surface and quantification of the surficial –NH2 concentration',2 ),
-                ('$$ Procedure for selective functionalization.',3 ),
+                ('$$Examining selectivity with organosilanes: reaction of HF(aq)-etched surfaces of Si3N4 or SiO2 with other organosilanes.',1 ),
+                ('$$Schiff-base-style reaction with surficial –NH2 modes of the HF(aq)-etched Si3N4 surface and quantification of the surficial –NH2 concentration.',2 ),
+                ('$$Procedure for selective functionalization.',3 ),
                 ('$$Discussion of the etching mechanism and surface chemical composition of Si3N4 in HF(aq)', 9),
                 ('$$Conclusions', 1),
             ]
@@ -61,12 +60,12 @@ class TestParsing(SoupTester):
         self.assertSectionPathsEqual(
             parsed, [
                 ('$$Abstract', 1),
-                ('$$INTRODUCTION', 4),
+                ('$$Introduction', 4),
                 ('$$Synthesis of K2Mo3O10.4H2O nanowires', 1),
                 ('$$Preparation of microspaced electrodes', 1),
-                ('$$RESULTS$$Gas sensing studies', 1),
-                ('$$RESULTS$$Results and discussion', 13),
-                ('$$RESULTS$$Conclusions', 5),
+                ('$$Gas sensing studies', 1),
+                ('$$Results and discussion', 13),
+                ('$$Conclusions', 5),
             ]
         )
 
@@ -84,7 +83,7 @@ class TestParsing(SoupTester):
         self.assertSectionPathsEqual(
             parsed, [
                 ('$$Abstract', 1),
-                ('$$INTRODUCTION', 4),
+                ('$$Introduction', 4),
                 ('$$Device fabrication', 1),
                 ('$$Experiment methods', 4),
                 ('$$Theoretical analysis', 1),
@@ -94,7 +93,7 @@ class TestParsing(SoupTester):
         )
 
     def test_paper_2D_Materials(self):
-        parsed = self.get_parsed('101103PhysRevB80233405.xml', __file__)
+        parsed = self.get_parsed('2dm_3_1_011003.xml', __file__)
 
         self.assertDOIEqual(parsed, '10.1088/2053-1583/3/1/011003')
         self.assertJournalEqual(parsed, '2D Materials')
@@ -130,7 +129,6 @@ class TestParsing(SoupTester):
             parsed, [
                 ('$$Abstract', 1),
                 ('$$Introduction', 4),
-                ('$$Experimental details', 0),
                 ('$$Materials preparation', 2),
                 ('$$Surface characterization', 1),
                 ('$$Results and discussion', 9),
@@ -152,9 +150,10 @@ class TestParsing(SoupTester):
             parsed, [
                 ('$$Abstract', 1),
                 ('$$Introduction', 10),
+                ('$$Interactions responsible for the specificity of post-translational modifications', 6),
                 ('$$Structural features of the neighbouring environment of modification sites', 2),
                 ('$$Information resources', 9),
-                ('$$Methods for the prediction of PTMs', 5),
+                ('$$General aspects', 5),
                 ('$$Prediction of phosphorylation', 34),
                 ('$$Prediction of acetylation at lysine residues', 6),
                 ('$$Prediction of glycosylation', 4),

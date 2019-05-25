@@ -85,7 +85,7 @@ class IOPCollect1(RuleIngredient):
         parser.create_abstract(rule={'name': 'abstract'})
 
         obj = {
-            'DOI': doi,
+            'DOI': "".join(doi),
             'Keywords': [],
             'Title': parser.title,
             'Journal': journal_name,
@@ -167,7 +167,7 @@ class IOPCollect2(RuleIngredient):
         parser.create_abstract(rule={'name': 'abstract'})
 
         obj = {
-            'DOI': doi,
+            'DOI': "".join(doi),
             'Keywords': [],
             'Title': parser.title,
             'Journal': journal_name,
