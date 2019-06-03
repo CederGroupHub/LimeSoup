@@ -92,7 +92,7 @@ class ParserPaper:
                     fd_div.write('\n')
 
     def get_title(self, rules):
-        self.title = self.get(rules)
+        self.title = next(x for x in self.get(rules))
 
     def get(self, rules):
         results = list()

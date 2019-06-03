@@ -1,17 +1,10 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-from __future__ import print_function
-from __future__ import division
-from __future__ import absolute_import
-
 from LimeSoup.lime_soup import Soup, RuleIngredient
 from LimeSoup.parser.parser_paper_elsevier import ParserPaper
-
 
 __author__ = ''
 __maintainer__ = 'Nicolas Mingione'
 __email__ = 'nicolasmingione@lbl.gov'
-__version__ = '0.3.0'
+__version__ = '0.3.1-dev'
 
 
 class ElsevierRemoveTrash(RuleIngredient):
@@ -26,12 +19,14 @@ class ElsevierRemoveTrash(RuleIngredient):
         parser.remove_tags(rules=list_remove)
         return parser.raw_xml
 
+
 class ElsevierSpaceBeforeFormula(RuleIngredient):
     @staticmethod
     def _parse(xml_str):
         parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
         parser.parse_formula(rules=[{'name': 'formula'}])
         return parser.raw_xml
+
 
 class ElsevierCreateTags(RuleIngredient):
 
@@ -44,6 +39,7 @@ class ElsevierCreateTags(RuleIngredient):
         except:
             pass
         return parser.raw_xml
+
 
 class ElsevierMoveJournalName(RuleIngredient):
 
@@ -80,6 +76,7 @@ class ElsevierReplaceSectionTag(RuleIngredient):
             pass
         return parser.raw_xml
 
+
 class ElsevierRenameSectionTitleTag(RuleIngredient):
 
     @staticmethod
@@ -91,13 +88,15 @@ class ElsevierRenameSectionTitleTag(RuleIngredient):
             pass
         return parser.raw_xml
 
+
 class ElsevierReformat(RuleIngredient):
 
     @staticmethod
     def _parse(xml_str):
-        new_xml = xml_str.replace('>/','>')
-        parser = ParserPaper(new_xml, parser_type='lxml-xml',debugging=False)
+        new_xml = xml_str.replace('>/', '>')
+        parser = ParserPaper(new_xml, parser_type='lxml-xml', debugging=False)
         return parser.raw_xml
+
 
 class ElsevierCollect(RuleIngredient):
 
@@ -106,7 +105,7 @@ class ElsevierCollect(RuleIngredient):
         parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
         # Collect information from the paper using ParserPaper
         parser.get_keywords(rules=[{'name': 'ce:keyword'}])
-        journal_name = parser.get([{'name': 'ce:srctitle'}])
+        journal_name = next(x for x in parser.get([{'name': 'ce:srctitle'}]))
         parser.get_title(rules=[
             {'name': 'ce:title'}
         ]
@@ -115,7 +114,7 @@ class ElsevierCollect(RuleIngredient):
             # Create tag from selection function in ParserPaper
             parser.deal_with_sections()
             data = parser.data_sections
-        except: # If Elsevier gives only the abstract OR gives only the raw text
+        except:  # If Elsevier gives only the abstract OR gives only the raw text
             data = []
             try:
                 abstract = parser.get_abstract(rule={'name': 'dc:description'})
