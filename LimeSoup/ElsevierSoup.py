@@ -17,71 +17,60 @@ class ElsevierRemoveTrash(RuleIngredient):
                        {'name': 'ce:cross-ref'}]
         parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
         parser.remove_tags(rules=list_remove)
-        return parser.raw_xml
+        return parser
 
 
 class ElsevierSpaceBeforeFormula(RuleIngredient):
     @staticmethod
-    def _parse(xml_str):
-        parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
+    def _parse(parser):
         parser.parse_formula(rules=[{'name': 'formula'}])
-        return parser.raw_xml
+        return parser
 
 
 class ElsevierCreateTags(RuleIngredient):
-
     @staticmethod
-    def _parse(xml_str):
-        parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
+    def _parse(parser):
         try:
             # This create a standard of sections tag name
             parser.create_tag_sections()
         except:
             pass
-        return parser.raw_xml
+        return parser
 
 
 class ElsevierMoveJournalName(RuleIngredient):
-
     @staticmethod
-    def _parse(xml_str):
-        parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
+    def _parse(parser):
         try:
             parser.move_journal_name(rule={'name': 'xocs:srctitle'})
         except:
             pass
-        return parser.raw_xml
+        return parser
 
 
 class ElsevierCreateTagAbstract(RuleIngredient):
-
     @staticmethod
-    def _parse(xml_str):
-        parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
+    def _parse(parser):
         try:
             parser.create_abstract(rule={'name': 'dc:description'})
         except:
             pass
-        return parser.raw_xml
+        return parser
 
 
 class ElsevierReplaceSectionTag(RuleIngredient):
-
     @staticmethod
-    def _parse(xml_str):
-        parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
+    def _parse(parser):
         try:
             parser.strip_tags(rules=[{'name': 'ce:section'}])
         except:
             pass
-        return parser.raw_xml
+        return parser
 
 
 class ElsevierRenameSectionTitleTag(RuleIngredient):
-
     @staticmethod
-    def _parse(xml_str):
-        parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
+    def _parse(parser):
         try:
             parser.rename_tag({'name': 'section-title'}, 'section_title')
         except:
@@ -90,7 +79,6 @@ class ElsevierRenameSectionTitleTag(RuleIngredient):
 
 
 class ElsevierReformat(RuleIngredient):
-
     @staticmethod
     def _parse(xml_str):
         new_xml = xml_str.replace('>/', '>')
@@ -101,15 +89,13 @@ class ElsevierReformat(RuleIngredient):
 class ElsevierCollect(RuleIngredient):
 
     @staticmethod
-    def _parse(xml_str):
-        parser = ParserPaper(xml_str, parser_type='lxml-xml', debugging=False)
+    def _parse(parser):
         # Collect information from the paper using ParserPaper
         parser.get_keywords(rules=[{'name': 'ce:keyword'}])
         journal_name = next(x for x in parser.get([{'name': 'ce:srctitle'}]))
         parser.get_title(rules=[
             {'name': 'ce:title'}
-        ]
-        )
+        ])
         try:
             # Create tag from selection function in ParserPaper
             parser.deal_with_sections()
