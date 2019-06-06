@@ -8,7 +8,7 @@ class TestParsing(SoupTester):
 
     def test_paper_JPCM(self):
         parsed = self.get_parsed('cm_28_9_094014.xml', __file__)
-
+#format 2
         self.assertDOIEqual(parsed, '10.1088/0953-8984/28/9/094014')
         self.assertJournalEqual(parsed, 'Journal of Physics: Condensed Matter')
         self.assertTitleEqual(
@@ -47,7 +47,7 @@ class TestParsing(SoupTester):
 
     def test_paper_Materials_Research_Express(self):
         parsed = self.get_parsed('mrx_3_9_095008.xml', __file__)
-
+#format 2
         self.assertDOIEqual(parsed, '10.1088/2053-1591/3/9/095008')
         self.assertJournalEqual(parsed, 'Materials Research Express')
         self.assertTitleEqual(
@@ -71,7 +71,7 @@ class TestParsing(SoupTester):
 
     def test_paper_Smart_Materials_and_Structures(self):
         parsed = self.get_parsed('sms_25_12_125015.xml', __file__)
-
+#format 2
         self.assertDOIEqual(parsed, '10.1088/0964-1726/25/12/125015')
         self.assertJournalEqual(parsed, 'Smart Materials and Structures')
         self.assertTitleEqual(
@@ -94,7 +94,7 @@ class TestParsing(SoupTester):
 
     def test_paper_2D_Materials(self):
         parsed = self.get_parsed('2dm_3_1_011003.xml', __file__)
-
+#format 2
         self.assertDOIEqual(parsed, '10.1088/2053-1583/3/1/011003')
         self.assertJournalEqual(parsed, '2D Materials')
         self.assertTitleEqual(
@@ -116,7 +116,7 @@ class TestParsing(SoupTester):
 
     def test_paper_Nanotechnology(self):
         parsed = self.get_parsed('nano11_13_135302.xml', __file__)
-
+#format 1
         self.assertDOIEqual(parsed, '10.1088/0957-4484/22/13/135302')
         self.assertJournalEqual(parsed, 'Nanotechnology')
         self.assertTitleEqual(
@@ -137,7 +137,7 @@ class TestParsing(SoupTester):
         )
     def test_paper_Russian_Chemical_Reviews(self):
         parsed = self.get_parsed('RCR_83_2_143.xml', __file__)
-
+#format 2
         self.assertDOIEqual(parsed, '10.1070/RC2014v083n02ABEH004377')
         self.assertJournalEqual(parsed, 'Russian Chemical Reviews')
         self.assertTitleEqual(

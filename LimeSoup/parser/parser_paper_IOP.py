@@ -5,6 +5,9 @@ import bs4
 
 from LimeSoup.parser import tools as tl
 
+"""There are two parsers, because we have two different formats of papers from IOP. The main difference is their notes' name are different. For example, for the paragraph title, Format 1 uses the note name "heading" whereas format 2 uses "title"
+
+"""
 class ParserPaper1:
 
     def __init__(self, raw_xml, parser_type='lxml', debugging=False):
@@ -61,8 +64,9 @@ class ParserPaper1:
 
             content = []
             for p in tag.find_all('p', recursive=False):
+                # content_text=self.convert_to_text(p.text)
                 content.append(self.convert_to_text(p.text))
-
+                # content.append(content_text)
             self.data_sections.append(self.create_section(
                 name=name,
                 type_section=tag.name,
@@ -385,6 +389,12 @@ class ParserPaper1:
     @staticmethod
     def convert_to_text(text):
         text = text.replace("\n", " ")
+        text = text.replace(" ?> ", " ")
+        text = text.replace(" []", " ")
+        text = text.replace(" [, ]", " ")
+        text = text.replace(" [, , ]", " ")
+        text = text.replace(" [, , , ]", " ")
+        text = text.replace(" [, , , ,]", " ")
         text = ' '.join(str(text).split())
         text = re.sub(r"\&(\w+?)gr;", r"\1", text)
         return text
@@ -451,7 +461,9 @@ class ParserPaper2:
 
                 content = []
                 for p in tag.find_all('p', recursive=False):
+                    # content_text=self.convert_to_text(p.text)
                     content.append(self.convert_to_text(p.text))
+                    # content.append(content_text)
 
                 self.data_sections.append(self.create_section(
                     name=name,
@@ -775,6 +787,12 @@ class ParserPaper2:
     @staticmethod
     def convert_to_text(text):
         text = text.replace("\n", " ")
+        text = text.replace(" ?> ", " ")
+        text = text.replace(" []", " ")
+        text = text.replace(" [, ]", " ")
+        text = text.replace(" [, , ]", " ")
+        text = text.replace(" [, , , ]", " ")
+        text = text.replace(" [, , , ,]", " ")
         text = ' '.join(str(text).split())
         text = re.sub(r"\&(\w+?)gr;", r"\1", text)
         return text
