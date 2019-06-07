@@ -870,7 +870,7 @@
 
 <!ENTITY % mathml-dtd
     PUBLIC "-//W3C//DTD MathML 2.0 Mod ES//EN"
-    "mathml2-mod-ES.dtd">
+    "mathml2-mod-ES-strict.dtd">
 %mathml-dtd;
 
 <!-- Extended CALS table model -->
