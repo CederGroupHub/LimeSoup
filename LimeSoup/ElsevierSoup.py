@@ -6,11 +6,11 @@ from LimeSoup.lime_soup import Soup, RuleIngredient
 from LimeSoup.parser.elsevier_xml import (
     resolve_elsevier_entities, extract_ce_text, find_non_empty_children,
     node_named, extract_ce_para, extract_ce_section, extract_ce_abstract,
-    extract_ce_title)
+    extract_ce_title, remove_consecutive_whitespaces)
 
 __author__ = 'Haoyan Huo, Nicolas Mingione'
 __maintainer__ = 'Nicolas Mingione'
-__version__ = '0.3.1'
+__version__ = '0.3.2'
 
 
 class ElsevierParseXML(RuleIngredient):
@@ -38,7 +38,7 @@ class ElsevierReadMetaData(RuleIngredient):
     def _parse(soup):
         # journal
         journal_name = ElsevierReadMetaData.get_text_or_none(soup, 'xocs:srctitle') or \
-            ElsevierReadMetaData.get_text_or_none(soup, 'prism:publicationName')
+                       ElsevierReadMetaData.get_text_or_none(soup, 'prism:publicationName')
         doi = ElsevierReadMetaData.get_text_or_none(soup, 'xocs:doi')
 
         # https://www.elsevier.com/__data/assets/pdf_file/0003/58872/ja5_tagbytag5_v1.9.5.pdf
@@ -54,7 +54,11 @@ class ElsevierReadMetaData(RuleIngredient):
             for node in head_node.find_all('ce:keyword'):
                 text_node = node.find('ce:text')
                 if text_node is not None:
-                    keywords.append(extract_ce_text(text_node))
+                    keyword = remove_consecutive_whitespaces(
+                        extract_ce_text(text_node),
+                        keep_newline=False
+                    ).strip()
+                    keywords.append(keyword)
 
         if len(keywords) == 0:
             for subject in soup.find_all('dcterms:subject'):

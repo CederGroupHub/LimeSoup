@@ -205,3 +205,80 @@ class TestParsing(SoupTester):
             ['Lu2WO6', 'Lu2(1−x)Eu2xWO6', 'Lu1.8Eu0.2WO6', 'CdWO4'],
             ['Lu2WO6 ']
         )
+
+    def test_paper_desalination(self):
+        parsed = self.get_parsed('10.1016-j.desal.2010.05.020.xml', __file__)
+
+        self.assertJournalEqual(parsed, 'Desalination')
+        self.assertTitleEqual(
+            parsed,
+            'Natural radioactivity in various surface waters in Adana, Turkey')
+        self.assertKeywordsEqual(
+            parsed, [
+                'α Activity',
+                'β Activity',
+                'Drinking water',
+                'Surface water',
+                'Radioactivity',
+                'Effective dose equivalent',
+            ]
+        )
+        self.assertSectionPathsEqual(
+            parsed, [
+                ('$$Abstract', 1),
+                ('$$Introduction', 12),
+                ('$$Materials and methods', 2),
+                ('$$Materials and methods$$Measurement of gross α and gross-β in surface waters', 3),
+                ('$$Materials and methods$$Determination of the effective dose equivalent', 2),
+                ('$$Results and discussion', 7),
+                ('$$Conclusions', 2),
+            ]
+        )
+        self.assertMaterialMentioned(
+            parsed,
+            ['U-238', 'K-40'],
+        )
+
+    def test_paper_jcat(self):
+        parsed = self.get_parsed('10.1016-j.jcat.2009.11.006.xml', __file__)
+
+        self.assertJournalEqual(parsed, 'Journal of Catalysis')
+        self.assertTitleEqual(
+            parsed,
+            'Solar light photocatalytic hydrogen production from water over Pt and Au/TiO2(anatase/rutile) '
+            'photocatalysts: Influence of noble metal and porogen promotion')
+        self.assertKeywordsEqual(
+            parsed, [
+                'H2 production',
+                'Photocatalysis',
+                'Water splitting',
+                'Pt/TiO2',
+                'Au/TiO2',
+                'Template-assisted sol–gel synthesis',
+                'Methanol',
+                'Sacrificial reagent',
+                'Solar light',
+            ]
+        )
+        self.assertSectionPathsEqual(
+            parsed, [
+                ('$$Abstract', 1),
+                ('$$Introduction', 4),
+                ('$$Experimental$$Material synthesis', 3),
+                ('$$Experimental$$Characterization techniques', 7),
+                ('$$Experimental$$Experimental device and procedure', 1),
+                ('$$Results on Pt/sol–gel TiO2 (anatase/rutile)-porogen modified, Pt/TiO2-P'
+                 '$$Characterization results of the sol–gel TiO2-P supports', 8),
+                ('$$Results on Pt/sol–gel TiO2 (anatase/rutile)-porogen modified, Pt/TiO2-P'
+                 '$$Photocatalytic water splitting results', 4),
+                ('$$Results on Au/TiO2-P samples', 1),
+                ('$$Results on Au/TiO2-P samples$$Characterization results', 8),
+                ('$$Results on Au/TiO2-P samples$$Photocatalytic water splitting results', 3),
+                ('$$Discussion', 8),
+                ('$$Conclusion', 1),
+            ]
+        )
+        self.assertMaterialMentioned(
+            parsed,
+            ['TiO2', 'CO2', 'CO'],
+        )
