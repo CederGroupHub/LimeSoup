@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- Fixed bugs in Elsevier parser.
+- Fixed bugs in Elsevier parser (almost rewrote it).
 
 ## [0.3] - 2019-05-20
 ### Added

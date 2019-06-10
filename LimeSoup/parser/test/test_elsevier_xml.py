@@ -71,5 +71,5 @@ class TestExtractSection(unittest.TestCase):
         self.assertEqual(paragraph, {
             'type': 'ce_section',
             'name': 'Photodamage',
-            'content': ['Sunlight coupled ']
+            'content': ['Sunlight coupled']
         })

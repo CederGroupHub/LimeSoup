@@ -331,7 +331,9 @@ class TestParsing(SoupTester):
                 field_to_check=['Journal', 'Title', 'DOI', 'Keywords', 'Sections']
             )
 
-    def test_journal_name_2(self):
+    # This function will not be tested by the automatic framework because it's too slow.
+    # To run this, remove the prefix "maybe_".
+    def maybe_test_journal_name_2(self):
         # take care if running this, because it might be very slow
         # there are 1.8 k paper for testing in the zip
         # one paper for a Springer journal (sampled using collection Paper_Metadata)

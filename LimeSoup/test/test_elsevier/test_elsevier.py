@@ -21,7 +21,7 @@ class TestParsing(SoupTester):
                 'vHPLC systems',
                 'Homologous compounds',
                 'Extra-column band broadening',
-                'Sub-2μm core–shell particles',
+                'Sub-2 μm core–shell particles',
             ]
         )
         self.assertSectionPathsEqual(
@@ -140,7 +140,7 @@ class TestParsing(SoupTester):
         )
         self.assertSectionPathsEqual(
             parsed, [
-                ('$$', 234),
+                ('', 234),
             ]
         )
 
@@ -161,72 +161,6 @@ class TestParsing(SoupTester):
         self.assertSectionPathsEqual(
             parsed, [
                 ('$$Abstract', 1),
-            ]
-        )
-
-    def test_paper_chem(self):
-        parsed = self.get_parsed('10.1016-j.matchemphys.2013.04.003.xml', __file__)
-
-        self.assertJournalEqual(parsed, 'Materials Chemistry and Physics')
-        self.assertTitleEqual(
-            parsed,
-            'Synthesis and characterization of azo benzothiazole chromophore based liquid crystal macromers: '
-            'Effects of substituents on benzothiazole ring and terminal group on mesomorphic, '
-            'thermal and optical properties')
-        self.assertKeywordsEqual(
-            parsed, [
-                'Liquid crystals',
-                'Chemical synthesis',
-                'Optical microscopy',
-                'Optical properties']
-        )
-        self.assertSectionPathsEqual(
-            parsed, [
-                ('$$Abstract', 1),
-                ('$$Introduction', 3),
-                ('$$Experimental section$$Materials', 1),
-                ('$$Experimental section$$Characterization techniques', 1),
-                ('$$Experimental section$$Synthesis', 1),
-                ('$$Experimental section$$Synthesis'
-                 '$$Synthesis of 2-[4′-(6-methacryloyloxyhexyloxy)phenylazo]benzothiazole, (M1)'
-                 '$$2-(4′-Hydroxyphenylazo)benzothiazole (1a)', 1),
-                ('$$Experimental section$$Synthesis'
-                 '$$Synthesis of 2-[4′-(6-methacryloyloxyhexyloxy)phenylazo]benzothiazole, (M1)'
-                 '$$2-[4′-(6-Bromohexyloxy)phenylazo]benzothiazole (2a)', 1),
-                ('$$Experimental section$$Synthesis'
-                 '$$Synthesis of 2-[4′-(6-methacryloyloxyhexyloxy)phenylazo]benzothiazole, (M1)'
-                 '$$2-[4′-(6-Methacryloyloxyhexyloxy)phenylazo]benzothiazole, (M1)', 1),
-                ('$$Experimental section$$Synthesis'
-                 '$$Synthesis of 2-[4′-(6-methacryloyloxyhexyloxy)phenylazo]-6-methylbenzothiazole, (M2)'
-                 '$$2-(4′-Hydroxyphenylazo)-6-methyl]benzothiazole (1b)', 1),
-                ('$$Experimental section$$Synthesis'
-                 '$$Synthesis of 2-[4′-(6-methacryloyloxyhexyloxy)phenylazo]-6-methylbenzothiazole, (M2)'
-                 '$$2-[4′-(6-Bromohexyloxy)phenylazo]-6-methylbenzothiazole (2b)', 1),
-                ('$$Experimental section$$Synthesis'
-                 '$$Synthesis of 2-[4′-(6-methacryloyloxyhexyloxy)phenylazo]-6-methylbenzothiazole, (M2)'
-                 '$$2-[4′-(6-Methacryloyloxyhexyloxy)phenylazo]-6-methylbenzothiazole, (M2)', 1),
-                ('$$Experimental section$$Synthesis'
-                 '$$Synthesis of 2-[4′-(6-methacryloyloxyhexyloxy)phenylazo]-6-methoxybenzothiazole, (M3)'
-                 '$$[2-(4′-Hydroxyphenylazo)-6-methoxy]benzothiazole (1c)', 1),
-                ('$$Experimental section$$Synthesis'
-                 '$$Synthesis of 2-[4′-(6-methacryloyloxyhexyloxy)phenylazo]-6-methoxybenzothiazole, (M3)'
-                 '$$2-[4′-(6-Bromohexyloxy)phenylazo]-6-methoxybenzothiazole (2c)', 1),
-                ('$$Experimental section$$Synthesis'
-                 '$$Synthesis of 2-[4′-(6-methacryloyloxyhexyloxy)phenylazo]-6-methoxybenzothiazole, (M3)'
-                 '$$2-[4′-(6-Methacryloyloxyhexyloxy)phenylazo]-6-methoxybenzothiazole, (M3)', 1),
-                ('$$Experimental section$$Synthesis'
-                 '$$Synthesis of 2-[4′-(6-methacryloyloxyhexyloxy)phenylazo]-6-ethoxybenzothiazole, (M4)'
-                 '$$[2-(4′-Hydroxyphenylazo)-6-ethoxy]benzothiazole (1d)', 1),
-                ('$$Experimental section$$Synthesis'
-                 '$$Synthesis of 2-[4′-(6-methacryloyloxyhexyloxy)phenylazo]-6-ethoxybenzothiazole, (M4)'
-                 '$$2-[4′-(6-Bromohexyloxy)phenylazo]-6-ethoxybenzothiazole (2d)', 1),
-                ('$$Experimental section$$Synthesis'
-                 '$$Synthesis of 2-[4′-(6-methacryloyloxyhexyloxy)phenylazo]-6-ethoxybenzothiazole, (M4)'
-                 '$$2-[4′-(6-Methacryloyloxyhexyloxy)phenylazo]-6-ethoxybenzothiazole, (M4)', 1),
-                ('$$Results and discussion$$Thermal properties', 2),
-                ('$$Results and discussion$$Mesomorphic behaviors', 7),
-                ('$$Results and discussion$$Optical properties', 2),
-                ('$$Conclusions', 1),
             ]
         )
 

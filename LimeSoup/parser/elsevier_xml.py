@@ -60,6 +60,16 @@ def node_named(node, name):
         return node.name == name
 
 
+def remove_consecutive_whitespaces(string, keep_newline=False):
+    def sub(m):
+        if keep_newline and '\n' in m.group(0):
+            return '\n'
+        else:
+            return ' '
+
+    return re.sub(r'[ \t\n]+', sub, string)
+
+
 # Elsevier XML format is defined here:
 # Book "The Elsevier DTD 5 Family of XML DTDs"
 # https://www.elsevier.com/__data/assets/pdf_file/0003/58872/ja5_tagbytag5_v1.9.5.pdf
@@ -108,7 +118,8 @@ def process_richstring_data(_node):
     #                              ce:small-caps" >
     if _node.name is None:
         # PC data
-        return _node.string
+        # All consecutive whitespaces should be treated as only one
+        return remove_consecutive_whitespaces(_node.string)
     elif node_named(_node, 'ce:glyph'):
         # TODO: don't know how to process glyph, produce a whitespace
         return ' '
@@ -118,22 +129,20 @@ def process_richstring_data(_node):
         'bold', 'italic', 'monospace', 'sans-serif', 'small-caps',
         'underline', 'cross-out'
     }:
-        children_strings = [process_richstring_data(x) for x in _node.children]
-        return ''.join(children_strings)
+        # This is an enhancement: we strip the text for them because they usually
+        # appear as inline elements.
+        return remove_consecutive_whitespaces(
+            extract_text_any(_node, process_richstring_data),
+            keep_newline=False).strip()
     elif _node.prefix == 'ce' and _node.name in {'sup', 'inf'}:
-        children_strings = [process_richstring_data(x) for x in _node.children]
-        return ''.join(children_strings)
+        # Same as above.
+        return remove_consecutive_whitespaces(
+            extract_text_any(_node, process_richstring_data),
+            keep_newline=False).strip()
     elif _node.prefix == 'ce' and _node.name in {'hsp', 'vsp'}:
         return ' '
     else:
         raise NameError('Unknown tag <%s> in richstring processing' % str(_node.name))
-
-
-def extract_mml_math(node):
-    assert_node_type(node, 'mml:math')
-
-    # TODO: better rendering.
-    return re.sub(r'\s', '', ''.join(node.findAll(text=True)))
 
 
 def process_text_data(_node):
@@ -228,9 +237,15 @@ def process_textref_data(_node):
     ))
 
 
-def extract_ce_footnote(node):
-    assert_node_type(node, 'ce:footnote')
-    return ''
+def process_lists(_node):
+    # <!ENTITY % lists            "ce:def-list|ce:list" >
+    # This is a hack: insert a newline before list, so that it won't break the paragraph
+    # If there is no paragraph, this does not hurt, as the paragraph will finally strip
+    # the string.
+    return '\n' + extract_text_or(_node, (
+        extract_ce_def_list,
+        extract_ce_list,
+    ))
 
 
 def process_nondisplay_data(_node):
@@ -249,6 +264,71 @@ def process_nondisplay_data(_node):
 
     raise NameError('Unknown tag name (%r, %r) in processing nondisplay.data' %
                     (_node.prefix, _node.name))
+
+
+def process_text_objects(_node):
+    # <!ENTITY % text-objects     "ce:anchor|ce:grant-sponsor|ce:grant-number" >
+    return extract_text_or(_node, (
+        extract_ce_anchor,
+        extract_ce_grant_sponsor,
+        extract_ce_grant_number,
+    ))
+
+
+def process_textfn_data(_node):
+    # <!ENTITY % textfn.data
+    #          "%text.data;|ce:footnote|%cross-ref-s; %local.textfn.data;" >
+    return extract_text_or(_node, (
+        process_text_data,
+        extract_ce_footnote,
+        process_cross_ref_s
+    ))
+
+
+def process_spar_data(_node):
+    # <!ENTITY % spar.data        "%textref.data;|%display;|%lists;|ce:footnote|%text-objects;
+    #                              %local.spar.data;" >
+    return extract_text_or(_node, (
+        process_textref_data,
+        process_display,
+        process_lists,
+        extract_ce_footnote,
+        process_text_objects,
+    ))
+
+
+def process_display(_node):
+    # <!ENTITY % display          "ce:display|ce:displayed-quote|ce:enunciation" >
+    return extract_text_or(_node, (
+        extract_ce_display,
+        extract_ce_displayed_quote,
+        extract_ce_enunciation,
+    ))
+
+
+def process_par_data(_node):
+    # <!ENTITY % par.data         "%textref.data;|ce:float-anchor|%display;|%lists;|ce:footnote|%text-objects;
+    #                              %local.par.data;" >
+    return extract_text_or(_node, (
+        process_textref_data,
+        extract_ce_float_anchor,
+        process_display,
+        process_lists,
+        extract_ce_footnote,
+        process_text_objects,
+    ))
+
+
+def extract_mml_math(node):
+    assert_node_type(node, 'mml:math')
+
+    # TODO: better rendering.
+    return re.sub(r'\s', '', ''.join(node.findAll(text=True)))
+
+
+def extract_ce_footnote(node):
+    assert_node_type(node, 'ce:footnote')
+    return ''
 
 
 def extract_ce_text(node):
@@ -271,7 +351,11 @@ def extract_ce_section_title(node):
     :return:
     """
     assert_node_type(node, 'ce:section-title')
-    return extract_text_any(node, process_nondisplay_data)
+    # HACK: see function for ce:title
+    return remove_consecutive_whitespaces(
+        extract_text_any(node, process_nondisplay_data),
+        keep_newline=False
+    ).strip()
 
 
 def extract_ce_def_term(node):
@@ -347,14 +431,6 @@ def extract_ce_list(node):
     return '\n'.join(paragraphs)
 
 
-def process_lists(_node):
-    # <!ENTITY % lists            "ce:def-list|ce:list" >
-    return extract_text_or(_node, (
-        extract_ce_def_list,
-        extract_ce_list,
-    ))
-
-
 def extract_ce_float_anchor(node):
     assert_node_type(node, 'ce:float-anchor')
     return ''
@@ -378,15 +454,6 @@ def extract_ce_grant_number(node):
     return extract_text_any(node, process_text_data)
 
 
-def process_text_objects(_node):
-    # <!ENTITY % text-objects     "ce:anchor|ce:grant-sponsor|ce:grant-number" >
-    return extract_text_or(_node, (
-        extract_ce_anchor,
-        extract_ce_grant_sponsor,
-        extract_ce_grant_number,
-    ))
-
-
 def extract_ce_figure(node):
     assert_node_type(node, 'ce:figure')
     return ''
@@ -405,16 +472,6 @@ def extract_ce_textbox(node):
 def extract_ce_e_component(node):
     assert_node_type(node, 'ce:e-component')
     return ''
-
-
-def process_textfn_data(_node):
-    # <!ENTITY % textfn.data
-    #          "%text.data;|ce:footnote|%cross-ref-s; %local.textfn.data;" >
-    return extract_text_or(_node, (
-        process_text_data,
-        extract_ce_footnote,
-        process_cross_ref_s
-    ))
 
 
 def extract_ce_chem(node):
@@ -446,7 +503,8 @@ def extract_ce_formula(node):
         formulas = [extract_ce_formula(x) for x in children]
         return ' '.join(formulas)
 
-    return extract_text_or(children[0], (
+    # Another hack: we put an additional whitespace to separate formula and text
+    return ' %s ' % extract_text_or(children[0], (
         extract_mml_math,
         extract_ce_chem,
         extract_ce_link,
@@ -470,21 +528,10 @@ def extract_ce_display(node):
     ))
 
 
-def process_spar_data(_node):
-    # <!ENTITY % spar.data        "%textref.data;|%display;|%lists;|ce:footnote|%text-objects;
-    #                              %local.spar.data;" >
-    return extract_text_or(_node, (
-        process_textref_data,
-        process_display,
-        process_lists,
-        extract_ce_footnote,
-        process_text_objects,
-    ))
-
-
 def extract_ce_simple_para(node):
     # <!ELEMENT   ce:simple-para      ( %spar.data; )* >
-    return extract_text_any(node, process_spar_data)
+    text = extract_text_any(node, process_spar_data)
+    return remove_consecutive_whitespaces(text, keep_newline=True).strip()
 
 
 def extract_ce_displayed_quote(node):
@@ -524,32 +571,10 @@ def extract_ce_enunciation(node):
     return '\n'.join(paragraphs)
 
 
-def process_display(_node):
-    # <!ENTITY % display          "ce:display|ce:displayed-quote|ce:enunciation" >
-    return extract_text_or(_node, (
-        extract_ce_display,
-        extract_ce_displayed_quote,
-        extract_ce_enunciation,
-    ))
-
-
-def process_par_data(_node):
-    # <!ENTITY % par.data         "%textref.data;|ce:float-anchor|%display;|%lists;|ce:footnote|%text-objects;
-    #                              %local.par.data;" >
-    return extract_text_or(_node, (
-        process_textref_data,
-        extract_ce_float_anchor,
-        process_display,
-        process_lists,
-        extract_ce_footnote,
-        process_text_objects,
-    ))
-
-
 def extract_ce_para(node):
     # <!ELEMENT   ce:para             ( %par.data; )* >
     assert_node_type(node, 'ce:para')
-    return extract_text_any(node, process_par_data)
+    return remove_consecutive_whitespaces(extract_text_any(node, process_par_data), keep_newline=True).strip()
 
 
 def extract_ce_section(node):
@@ -644,9 +669,21 @@ def extract_ce_abstract(node):
         while len(_children) > 0 and node_named(_children[0], 'ce:simple-para'):
             abstract_sec['content'].extend(extract_ce_simple_para(_children.pop(0)).split('\n'))
 
-        return abstract_sec
+        if abstract_sec['name']:
+            return abstract_sec,
+        else:
+            return abstract_sec['content']
 
     while len(children) and node_named(children[0], 'ce:abstract-sec'):
-        section_content['content'].append(get_abstract_sec(children.pop(0)))
+        section_content['content'].extend(get_abstract_sec(children.pop(0)))
 
     return section_content
+
+
+def extract_ce_title(node):
+    # <!ELEMENT   ce:title            ( %textfn.data; )* >
+    # This is a hack: remove newlines because titles should not contain them.
+    return remove_consecutive_whitespaces(
+        extract_text_any(node, process_textfn_data),
+        keep_newline=False
+    ).strip()
