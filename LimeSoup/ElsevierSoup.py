@@ -9,7 +9,8 @@ from LimeSoup.parser.elsevier_xml import (
     extract_ce_title, remove_consecutive_whitespaces)
 
 __author__ = 'Haoyan Huo, Nicolas Mingione'
-__maintainer__ = 'Nicolas Mingione'
+__maintainer__ = 'Haoyan Huo'
+__email__ = 'haoyan.huo@lbl.gov'
 __version__ = '0.3.2'
 
 
