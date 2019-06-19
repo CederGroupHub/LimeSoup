@@ -7,36 +7,37 @@ used to feed a database.
 
 # Usage
 
-The class ECSSoup and RCSSoup are implementations for the ECS and RSC publishers respectively.
-
-Use for ECS Publisher:
-
-    from LimeSoup.ECSSoup import ECSSoup
-    data = ECSSoup.parse(html_str)
-
-Use for RCS Publisher:
-
-    from LimeSoup.RCSSoup import RSCSoup
-    data = RCSSoup.parse(html_str)
-
-Use for Nature Publisher:
-
-    from LimeSoup.NatureSoup import NatureSoup
-    data = NatureSoup.parse(html_str)
-
-
-parameters:
-
-    :param html_str: raw HTML strings
-    :return: Parse JSON object
-
-
 Full Usage:
 
-    with open(article, 'r', encoding = 'utf-8') as f:
-        html_str = f.read()
+```
+with open(article, 'r', encoding = 'utf-8') as f:
+    html_str = f.read()
 
-    ***Choose correct publisher and paste code from above to parse***
+***Choose correct publisher
+from LimeSoup.ECSSoup import ECSSoup
+data = ECSSoup.parse(html_str)
 
-    with open('file_test.json', 'w', encoding = 'utf-8') as f:
-        json.dump(data, f, sort_keys=True, indent=4, ensure_ascii=False)
+with open('file_test.json', 'w', encoding = 'utf-8') as f:
+    json.dump(data, f, sort_keys=True, indent=4, ensure_ascii=False)
+```    
+
+Currently, we have implemented the following parsers:
+
+- ECS: The Electrochemical Society
+- RSC: The Royal Society of Chemistry
+- Elsevier
+- Nature Publishing Group
+- Springer
+- Wiley
+- ACS: American Chemical Society
+- APS: American Physical Society
+- IOP Publishing
+
+# Development documentation
+
+Please refer to the [wiki pages](https://github.com/CederGroupHub/LimeSoup/wiki).
+
+# Change logs
+
+Please see [change logs](CHANGES.md).
+
