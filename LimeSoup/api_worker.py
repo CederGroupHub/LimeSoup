@@ -1,3 +1,4 @@
+from LimeSoup.APSSoup import APSSoup
 from synthesis_api_hub import api_method
 from synthesis_api_hub.apiegg import APIEgg
 
@@ -70,14 +71,9 @@ class LimeSoupWorker(APIEgg):
         return ACSSoup.parse(html_string)
 
     @api_method
-    def parse(self, html_string, publisher):
-        if publisher == 'American Chemical Society (ACS)':
-            return ACSSoup.parse(html_string)
-        elif publisher == 'Elsevier':
-            return ElsevierSoup.parse(html_string)
-        elif publisher == 'RSC':
-            return RSCSoup.parse(html_string)
-        elif publisher == 'ECS':
-            return ECSSoup.parse(html_string)
-        else:
-            raise ValueError('Not implemented for publisher %s' % publisher)
+    def version_aps(self):
+        return APSSoup.version
+
+    @api_method
+    def parse_aps(self, html_string):
+        return APSSoup.parse(html_string)
