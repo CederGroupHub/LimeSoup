@@ -15,7 +15,10 @@ if __name__ == "__main__":
         packages=find_packages(),
         zip_safe=False,
         install_requires=[
-            'beautifulsoup4',
-            'lxml==4.2.6',
+            'beautifulsoup4>=4.6.1',
+            # lxml 4.4.0 changed default namespace to '', which causes
+            # unexpected behaviors. For compatibility reasons, keep using
+            # old versions for now.
+            'lxml>=4.2.6,<=4.3.5',
         ]
     )

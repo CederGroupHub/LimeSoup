@@ -45,6 +45,11 @@ def find_non_empty_children(_node):
 def assert_node_type(node, name):
     if ':' in name:
         prefix, name = name.split(':')
+
+        # handle wildcards
+        if prefix == '*':
+            prefix = node.prefix
+
         if (node.prefix, node.name) != (prefix, name):
             raise NameError('Expecting %s but got %r:%r' %
                             (name, node.prefix, node.name))
@@ -343,7 +348,7 @@ def extract_mml_math(node):
     except NameError:
         # To catch the error for some specific articles,
         # such as 10.1016/S1388-2481(01)00138-2
-        assert_node_type(node, 'ja:math')
+        assert_node_type(node, '*:math')
 
     # TODO: better rendering.
     return re.sub(r'\s', '', ''.join(node.findAll(text=True)))
@@ -522,7 +527,7 @@ def extract_ce_formula(node):
     except NameError:
         # To catch the error for some specific articles,
         # such as 10.1016/S1388-2481(01)00138-2
-        assert_node_type(node, 'ja:formula')
+        assert_node_type(node, '*:formula')
 
     children = find_non_empty_children(node)
 
@@ -552,7 +557,7 @@ def extract_ce_display(node):
     except NameError:
         # To catch the error for some specific articles,
         # such as 10.1016/S1388-2481(01)00138-2
-        assert_node_type(node, 'ja:display')
+        assert_node_type(node, '*:display')
 
     children = find_non_empty_children(node)
 
