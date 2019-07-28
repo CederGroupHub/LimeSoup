@@ -1,3 +1,9 @@
-__author__ = 'Ziqin (Shaun) Rong'
-__maintainer__ = 'Ziqin (Shaun) Rong'
-__email__ = 'rongzq08@gmail.com'
+from LimeSoup.ACSSoup import ACSSoup
+from LimeSoup.APSSoup import APSSoup
+from LimeSoup.ECSSoup import ECSSoup
+from LimeSoup.ElsevierSoup import ElsevierSoup
+from LimeSoup.IOPSoup import IOPSoup
+from LimeSoup.NatureSoup import NatureSoup
+from LimeSoup.RSCSoup import RSCSoup
+from LimeSoup.SpringerSoup import SpringerSoup
+from LimeSoup.WileySoup import WileySoup

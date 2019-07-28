@@ -1,13 +1,28 @@
-from LimeSoup.ElsevierSoup import ElsevierSoup
+import os
+from unittest import TestCase
 
+from LimeSoup.ElsevierSoup import classify_code_type
+from LimeSoup.ElsevierSoup_XML import ElsevierXMLSoup
 from LimeSoup.test.soup_tester import SoupTester
 
 
+class TestCodeClassifier(TestCase):
+    def test_all_xml(self):
+        xml_dir = os.path.join(
+            os.path.dirname(os.path.realpath(__file__)),
+            'xml',
+        )
+        for fn in os.listdir(xml_dir):
+            with open(os.path.join(xml_dir, fn), encoding='utf8') as f:
+                raw_string = f.read()
+                self.assertEqual(classify_code_type(raw_string), 'XML')
+
+
 class TestParsing(SoupTester):
-    Soup = ElsevierSoup
+    Soup = ElsevierXMLSoup
 
     def test_paper_regular(self):
-        parsed = self.get_parsed('10.1016-j.chroma.2013.12.003.xml', __file__)
+        parsed = self.get_parsed('xml/10.1016-j.chroma.2013.12.003.xml', __file__)
 
         self.assertJournalEqual(parsed, 'Journal of Chromatography A')
         self.assertTitleEqual(
@@ -49,7 +64,7 @@ class TestParsing(SoupTester):
         )
 
     def test_paper_abs_only(self):
-        parsed = self.get_parsed('10.1006-jcis.1997.5095.xml', __file__)
+        parsed = self.get_parsed('xml/10.1006-jcis.1997.5095.xml', __file__)
 
         self.assertJournalEqual(parsed, 'Journal of Colloid and Interface Science')
         self.assertTitleEqual(
@@ -69,7 +84,7 @@ class TestParsing(SoupTester):
         )
 
     def test_paper_paper_with_list(self):
-        parsed = self.get_parsed('10.1016-j.apsusc.2009.04.100.xml', __file__)
+        parsed = self.get_parsed('xml/10.1016-j.apsusc.2009.04.100.xml', __file__)
 
         self.assertJournalEqual(parsed, 'Applied Surface Science')
         self.assertTitleEqual(
@@ -96,7 +111,7 @@ class TestParsing(SoupTester):
         )
 
     def test_paper_with_equations(self):
-        parsed = self.get_parsed('10.1016-j.jiec.2013.10.024.xml', __file__)
+        parsed = self.get_parsed('xml/10.1016-j.jiec.2013.10.024.xml', __file__)
 
         self.assertJournalEqual(parsed, 'Journal of Industrial and Engineering Chemistry')
         self.assertTitleEqual(
@@ -128,7 +143,7 @@ class TestParsing(SoupTester):
         )
 
     def test_paper_no_headings(self):
-        parsed = self.get_parsed('10.1016-S0168-9002(01)01806-X.xml', __file__)
+        parsed = self.get_parsed('xml/10.1016-S0168-9002(01)01806-X.xml', __file__)
 
         self.assertJournalEqual(parsed, 'Nuclear Instruments and Methods in Physics Research Section A: '
                                         'Accelerators, Spectrometers, Detectors and Associated Equipment')
@@ -145,7 +160,7 @@ class TestParsing(SoupTester):
         )
 
     def test_paper_no_full_text(self):
-        parsed = self.get_parsed('10.1016-j.phpro.2013.10.018.xml', __file__)
+        parsed = self.get_parsed('xml/10.1016-j.phpro.2013.10.018.xml', __file__)
 
         self.assertJournalEqual(parsed, 'Physics Procedia')
         self.assertTitleEqual(
@@ -165,7 +180,7 @@ class TestParsing(SoupTester):
         )
 
     def test_paper_with_chemical_formulas(self):
-        parsed = self.get_parsed('10.1016-j.materresbull.2015.04.014.xml', __file__)
+        parsed = self.get_parsed('xml/10.1016-j.materresbull.2015.04.014.xml', __file__)
 
         self.assertJournalEqual(parsed, 'Materials Research Bulletin')
         self.assertTitleEqual(
@@ -207,7 +222,7 @@ class TestParsing(SoupTester):
         )
 
     def test_paper_desalination(self):
-        parsed = self.get_parsed('10.1016-j.desal.2010.05.020.xml', __file__)
+        parsed = self.get_parsed('xml/10.1016-j.desal.2010.05.020.xml', __file__)
 
         self.assertJournalEqual(parsed, 'Desalination')
         self.assertTitleEqual(
@@ -240,7 +255,7 @@ class TestParsing(SoupTester):
         )
 
     def test_paper_jcat(self):
-        parsed = self.get_parsed('10.1016-j.jcat.2009.11.006.xml', __file__)
+        parsed = self.get_parsed('xml/10.1016-j.jcat.2009.11.006.xml', __file__)
 
         self.assertJournalEqual(parsed, 'Journal of Catalysis')
         self.assertTitleEqual(
@@ -284,7 +299,7 @@ class TestParsing(SoupTester):
         )
 
     def test_paper_ce_list(self):
-        parsed = self.get_parsed('10.1016-j.fluid.2014.06.008.xml', __file__)
+        parsed = self.get_parsed('xml/10.1016-j.fluid.2014.06.008.xml', __file__)
 
         self.assertJournalEqual(parsed, 'Fluid Phase Equilibria')
         self.assertTitleEqual(
@@ -324,7 +339,7 @@ class TestParsing(SoupTester):
         )
 
     def test_paper_xml_syntax_error(self):
-        parsed = self.get_parsed('10.1016-j.fluid.2017.10.031.xml', __file__)
+        parsed = self.get_parsed('xml/10.1016-j.fluid.2017.10.031.xml', __file__)
 
         self.assertJournalEqual(parsed, 'Fluid Phase Equilibria')
         self.assertTitleEqual(
@@ -364,7 +379,7 @@ class TestParsing(SoupTester):
         )
 
     def test_paper_xml_bad_definition(self):
-        parsed = self.get_parsed('10.1016-S1388-2481(01)00138-2.xml', __file__)
+        parsed = self.get_parsed('xml/10.1016-S1388-2481(01)00138-2.xml', __file__)
 
         self.assertJournalEqual(parsed, 'Electrochemistry Communications')
         self.assertTitleEqual(
