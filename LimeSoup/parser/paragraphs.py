@@ -1,8 +1,8 @@
 import re
 
-from bs4 import Tag
+from bs4 import Tag, Comment
 
-__author__ = "Tiago Botari, Haoyan Huo"
+__author__ = "Haoyan Huo"
 __maintainer__ = "Haoyan Huo"
 __email__ = "haoyan.huo@lbl.gov"
 
@@ -101,6 +101,11 @@ def extract_paragraphs_recursive(tag_or_soup, exclude_section_rules=None):
         cur_heading = cur_heading or {}
 
         for i, child in enumerate(cur_tag.contents):
+
+            # Skip comment blocks
+            if isinstance(child, Comment):
+                continue
+
             if child.name is None:
                 # this is a pure text
                 child_text = re.sub(r'\n', ' ', child)
