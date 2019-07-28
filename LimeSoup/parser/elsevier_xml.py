@@ -1,7 +1,9 @@
 import os
 import re
+import warnings
 
 from lxml import etree
+from lxml.etree import XMLSyntaxError
 
 __author__ = 'Haoyan Huo'
 __maintainer__ = 'Haoyan Huo'
@@ -27,8 +29,8 @@ def extract_text_or(_node, handlers):
         except NameError:
             pass
 
-    raise NameError('Failed to match node (%r, %r) with all rules specified: %r' %
-                    (_node.prefix, _node.name, handlers))
+    raise NameError('Failed to match node (%r, %r, %r) with all rules specified: %r' %
+                    (_node.prefix, _node.name, str(_node)[:50], handlers))
 
 
 def find_non_empty_children(_node):
@@ -77,6 +79,10 @@ def remove_consecutive_whitespaces(string, keep_newline=False):
 # This file defines functions that are capable of extracting text according to
 # the rules defined above.
 
+class XMLSyntaxWarning(Warning):
+    pass
+
+
 def resolve_elsevier_entities(xml_string):
     """
     Elsevier defined a set of entities that can be found in the corresponding
@@ -101,11 +107,23 @@ def resolve_elsevier_entities(xml_string):
 
         setattr(resolve_elsevier_entities, 'dtd_invocation', invocation.format(file_dir=file_path))
 
-    parser = etree.XMLParser(load_dtd=True)
-    xml_tree = etree.fromstring(
-        getattr(resolve_elsevier_entities, 'dtd_invocation') + xml_string,
-        parser=parser,
-    )
+    try:
+        parser = etree.XMLParser(load_dtd=True)
+        xml_tree = etree.fromstring(
+            getattr(resolve_elsevier_entities, 'dtd_invocation') + xml_string,
+            parser=parser,
+        )
+    except XMLSyntaxError:
+        if not hasattr(resolve_elsevier_entities, 'recover'):
+            warnings.warn('Enabling "recover" in XML parser. '
+                          'There might be a problem with XML source.', XMLSyntaxWarning)
+            setattr(resolve_elsevier_entities, 'recover', True)
+        parser = etree.XMLParser(load_dtd=True, recover=True)
+        xml_tree = etree.fromstring(
+            getattr(resolve_elsevier_entities, 'dtd_invocation') + xml_string,
+            parser=parser,
+        )
+
     return etree.tostring(xml_tree)
 
 
@@ -174,7 +192,7 @@ def process_cross_ref(_node):
     elif node_named(_node, 'ce:cross-ref'):
         # We take only cross-ref's that are not bib refs. This includes,
         # for example, "Fig. ?", "Table ?"...
-        if not re.match(r'bib.*', _node.attrs['refid']):
+        if not re.match(r'bib.*', _node.attrs['refid'], re.IGNORECASE):
             return extract_text_any(_node, process_text_data)
         else:
             return ''
@@ -191,7 +209,7 @@ def process_cross_refs(_node):
     elif node_named(_node, 'ce:cross-refs'):
         # We take only cross-ref's that are not bib refs. This includes,
         # for example, "Fig. ?", "Table ?"...
-        if not re.match(r'bib.*', _node.attrs['refid']):
+        if not re.match(r'bib.*', _node.attrs['refid'], re.IGNORECASE):
             return extract_text_any(_node, process_text_data)
         else:
             return ''
@@ -320,7 +338,12 @@ def process_par_data(_node):
 
 
 def extract_mml_math(node):
-    assert_node_type(node, 'mml:math')
+    try:
+        assert_node_type(node, 'mml:math')
+    except NameError:
+        # To catch the error for some specific articles,
+        # such as 10.1016/S1388-2481(01)00138-2
+        assert_node_type(node, 'ja:math')
 
     # TODO: better rendering.
     return re.sub(r'\s', '', ''.join(node.findAll(text=True)))
@@ -388,15 +411,20 @@ def extract_ce_def_list(node):
     if len(children) and node_named(children[0], 'ce:section-title'):
         children.pop(0)
 
-    term = extract_ce_def_term(children.pop(0))
+    term_definitions = []
+    while True:
+        term = extract_ce_def_term(children.pop(0))
 
-    if len(children) > 1:
-        raise ValueError('Expecting 0 or 1 ce:def-description in ce:def-list')
-    elif len(children) == 1:
-        desc = extract_ce_def_description(children[0])
-        return 'Definition list for term %s\n%s' % (term, desc)
-    else:
-        return 'Definition list for term %s' % (term,)
+        if len(children) > 0:
+            desc = extract_ce_def_description(children.pop(0))
+            term_definitions.append('%s : %s' % (term, desc))
+        else:
+            term_definitions.append('%s' % (term,))
+
+        if len(children) == 0:
+            break
+
+    return '\n'.join(term_definitions)
 
 
 def extract_ce_list_item(node):
@@ -489,7 +517,12 @@ def extract_ce_link(node):
 def extract_ce_formula(node):
     # <!ELEMENT   ce:formula
     #             ( ce:label?, ( mml:math | ce:chem | ce:link | ce:formula+ ))>
-    assert_node_type(node, 'ce:formula')
+    try:
+        assert_node_type(node, 'ce:formula')
+    except NameError:
+        # To catch the error for some specific articles,
+        # such as 10.1016/S1388-2481(01)00138-2
+        assert_node_type(node, 'ja:formula')
 
     children = find_non_empty_children(node)
 
@@ -514,7 +547,13 @@ def extract_ce_formula(node):
 def extract_ce_display(node):
     # <!ELEMENT   ce:display
     #   ( ce:figure | ce:table | ce:textbox | ce:e-component | ce:formula )>
-    assert_node_type(node, 'ce:display')
+    try:
+        assert_node_type(node, 'ce:display')
+    except NameError:
+        # To catch the error for some specific articles,
+        # such as 10.1016/S1388-2481(01)00138-2
+        assert_node_type(node, 'ja:display')
+
     children = find_non_empty_children(node)
 
     if len(children) != 1:
@@ -624,7 +663,7 @@ def extract_ce_section(node):
         section_content['content'].extend(get_parsec(children))
     else:
         for child in children:
-            if node_named(child, 'ce:section'):
+            if not node_named(child, 'ce:section'):
                 raise NameError('Expecting ce:section, but got (%r, %r)' %
                                 (child.prefix, child.name))
             content = extract_ce_section(child)

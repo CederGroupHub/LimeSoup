@@ -282,3 +282,109 @@ class TestParsing(SoupTester):
             parsed,
             ['TiO2', 'CO2', 'CO'],
         )
+
+    def test_paper_ce_list(self):
+        parsed = self.get_parsed('10.1016-j.fluid.2014.06.008.xml', __file__)
+
+        self.assertJournalEqual(parsed, 'Fluid Phase Equilibria')
+        self.assertTitleEqual(
+            parsed,
+            'Aqueous two-phase system of poly ethylene glycol dimethyl ether 2000 and '
+            'sodium hydroxide at different temperatures: Experiment and correlation')
+        self.assertKeywordsEqual(
+            parsed, [
+                "Liquid–liquid equilibrium",
+                "Poly ethylene glycol dimethyl ether",
+                "Sodium hydroxide, Setschenow equation, Local composition model"
+            ]
+        )
+        self.assertSectionPathsEqual(
+            parsed, [
+                ('$$Abstract', 1),
+                ('$$Introduction', 5),
+                ('$$Materials and methods$$Materials', 1),
+                ('$$Materials and methods$$Apparatus and procedure', 2),
+                ('$$Results and discussion$$Experimental results', 2),
+                ('$$Results and discussion$$Effect of polymer', 1),
+                ('$$Results and discussion$$Effect of anion', 1),
+                ('$$Correlation$$Correlation of binodal curve', 4),
+                ('$$Correlation$$Tie-line correlation', 1),
+                ('$$Correlation$$Tie-line correlation$$Othmer–Tobias and Bancroft equations', 1),
+                ('$$Correlation$$Tie-line correlation$$Setschenow-type equation', 2),
+                ('$$Correlation$$Tie-line correlation$$Local composition NRTL models', 8),
+                ('$$Correlation$$Estimated plait point, slope and the length of tie-lines', 3),
+                ('$$Correlation$$The free energies of the cloud point (CP)', 5),
+                ('$$Conclusion', 3),
+                ('$$List of symbols', 40),
+            ]
+        )
+        self.assertMaterialMentioned(
+            parsed,
+            ['PEGDME2000'],
+        )
+
+    def test_paper_xml_syntax_error(self):
+        parsed = self.get_parsed('10.1016-j.fluid.2017.10.031.xml', __file__)
+
+        self.assertJournalEqual(parsed, 'Fluid Phase Equilibria')
+        self.assertTitleEqual(
+            parsed,
+            'On fundamentally-based and thermodynamically-consistent description '
+            'of dilute multicomponent solutions: Formal results, microscopic '
+            'interpretations, and modeling implications')
+        self.assertKeywordsEqual(
+            parsed, [
+                "Multicomponent solutions",
+                "Maxwell relations",
+                "Gibbs-Duhem relation",
+                "Kirkwood-Buff",
+                "Henry's constant",
+            ]
+        )
+        self.assertSectionPathsEqual(
+            parsed, [
+                ('$$Abstract', 1),
+                ('$$Introduction', 8),
+                ('$$Isobaric-isothermal composition truncated perturbation '
+                 'expansion of the partial molar properties of species in dilute quaternary solutions', 15),
+                ('$$Molecular-based interpretation of the expansion coefficients kij(T,P)', 13),
+                ('$$Special types of systems and species\' intermolecular asymmetries', 1),
+                ('$$Special types of systems and species\' intermolecular asymmetries'
+                 '$$Species partial molar fugacity coefficients for quaternary mixtures '
+                 'of imperfect gases: second-order perturbation versus truncated virial EoS approaches', 6),
+                ('$$Special types of systems and species\' intermolecular asymmetries'
+                 '$$Solvation of mixed gases in mixed solvents', 7),
+                ('$$Special types of systems and species\' intermolecular asymmetries'
+                 '$$Mixed-solutes in a single solvent', 2),
+                ('$$Special types of systems and species\' intermolecular asymmetries'
+                 '$$Lewis-Randall ideality between solvents or/and solutes', 22),
+                ('$$Discussion and concluding remarks', 15),
+                ('$$Dedication', 1),
+            ]
+        )
+
+    def test_paper_xml_bad_definition(self):
+        parsed = self.get_parsed('10.1016-S1388-2481(01)00138-2.xml', __file__)
+
+        self.assertJournalEqual(parsed, 'Electrochemistry Communications')
+        self.assertTitleEqual(
+            parsed,
+            'Voltammetry at a liquid–liquid interface supported on a metallic electrode')
+        self.assertKeywordsEqual(
+            parsed, [
+                "ITIES",
+                "Ion transfer",
+                "Electron transfer"
+            ]
+        )
+        self.assertSectionPathsEqual(
+            parsed, [
+                ('$$Abstract', 1),
+                ('$$Introduction', 4),
+                ('$$Experimental$$Chemicals', 2),
+                ('$$Experimental$$Electrochemical cell and measurements', 3),
+                ('$$Results and discussion$$Study of ion transfer reactions at the supported ITIES', 12),
+                ('$$Results and discussion$$Potential window', 8),
+                ('$$Conclusions', 1),
+            ]
+        )
