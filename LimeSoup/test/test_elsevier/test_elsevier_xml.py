@@ -428,3 +428,51 @@ class TestParsing(SoupTester):
                 ('$$Conclusion', 36),
             ]
         )
+
+    def test_paper_formula_in_formula(self):
+        parsed = self.get_parsed('xml/10.1016-S0927-0248(00)00408-6.xml', __file__)
+
+        self.assertJournalEqual(parsed, 'Solar Energy Materials and Solar Cells')
+        self.assertTitleEqual(
+            parsed,
+            'Calculation of the PV modules angular losses under '
+            'field conditions by means of an analytical model')
+        self.assertKeywordsEqual(
+            parsed, [
+                "PV modules",
+                "Optical losses",
+                "Angular losses",
+                "Reflectance"
+            ]
+        )
+        self.assertSectionPathsEqual(
+            parsed, [
+                ('$$Abstract', 1),
+                ('$$Introduction', 3),
+                ('$$The PV module angular losses', 2),
+                ('$$Analytical model for the reflectance of a PV module$$The model expression', 1),
+                ('$$Analytical model for the reflectance of a PV module'
+                 '$$Model-fitting performance with analytical results', 3),
+                ('$$Analytical model for the reflectance of a PV module'
+                 '$$Validation of the model with experimental results$$Experimental method', 1),
+                ('$$Analytical model for the reflectance of a PV module'
+                 '$$Validation of the model with experimental results'
+                 '$$Regression analysis with the experimental data', 1),
+                ('$$Analytical model for the reflectance of a PV module'
+                 '$$The effect of superficial dust on the model parameters', 2),
+                ('$$Corrected expression of Isc with angular losses', 3),
+                ('$$Angular losses calculation at different European sites', 1),
+                ('$$Angular losses calculation at different European sites$$Monthly average losses', 1),
+                ('$$Angular losses calculation at different European sites'
+                 '$$Annual losses: The latitude and tilt angle influence', 3),
+                ('$$Angular losses calculation at different European sites'
+                 '$$The dust influence in the average angular losses', 1),
+                ('$$Conclusions', 1),
+            ]
+        )
+
+        self.assertMaterialMentioned(
+            parsed, [
+                'Isc=I\u0304scG\u0304Bcos\u03b11\u2212FB(\u03b2)+D1+'
+                'cos\u03b221\u2212FD(\u03b2)+A1\u2212cos\u03b221\u2212FA(\u03b2),'
+            ])

@@ -545,7 +545,8 @@ def extract_ce_formula(node):
     if len(children) < 1:
         raise ValueError('Expecting 1+ visible element for ce:formula')
 
-    if len(children) > 1 or node_named(children[0], 'ce:formula'):
+    if len(children) > 1 or node_named(children[0], 'ce:formula') or \
+            node_named(children[0], '*:formula'):
         formulas = [extract_ce_formula(x) for x in children]
         return ' '.join(formulas)
 
@@ -554,6 +555,7 @@ def extract_ce_formula(node):
         extract_mml_math,
         extract_ce_chem,
         extract_ce_link,
+        extract_ce_formula,
     ))
 
 
