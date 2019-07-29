@@ -3,7 +3,7 @@ import re
 import bs4
 
 from LimeSoup.lime_soup import Soup, RuleIngredient
-from LimeSoup.parser.paragraphs import extract_paragraphs_recursive
+from LimeSoup.parser.paragraphs import extract_paragraphs_recursive, get_tag_text
 
 __author__ = 'Haoyan Huo'
 __maintainer__ = 'Haoyan Huo'
@@ -32,7 +32,20 @@ class ElsevierRemoveTrash(RuleIngredient):
 class ElsevierCollect(RuleIngredient):
     @staticmethod
     def _parse(soup):
-        sections = extract_paragraphs_recursive(soup)
+        obj = {
+            'Journal': None,
+            'DOI': None,
+            'Title': None,
+            'Keywords': None,
+            'Sections': None
+        }
+
+        h1_tag = soup.find('h1')
+        if h1_tag is not None:
+            obj['Title'] = get_tag_text(h1_tag)
+            h1_tag.extract()
+
+        raw_sections = extract_paragraphs_recursive(soup)
 
         iterate_status = {
             'content_begins': False,
@@ -47,7 +60,12 @@ class ElsevierCollect(RuleIngredient):
             :return:
             """
             if isinstance(sec, dict):
-                sec_name = sec['name']
+                sec_name = re.sub(r'^[0-9.\s]+', '', sec['name'])
+
+                if re.match(r'keywords?', sec_name, re.IGNORECASE) and \
+                        all(isinstance(x, str) for x in sec['content']):
+                    obj['Keywords'] = [x.strip(';') for x in sec['content']]
+                    return False, sec
 
                 if not iterate_status['content_begins']:
                     if re.match(
@@ -63,6 +81,7 @@ class ElsevierCollect(RuleIngredient):
 
                 should_include, sub_sections = iterate_sections(sec['content'])
                 sec['content'] = sub_sections
+                sec['name'] = sec_name
                 return should_include, sec
             elif isinstance(sec, list):
                 final_secs = []
@@ -81,15 +100,10 @@ class ElsevierCollect(RuleIngredient):
                 else:
                     return False, sec
 
-        success, sections = iterate_sections(sections)
+        success, sections = iterate_sections(raw_sections)
+        obj['Sections'] = sections
 
-        return {
-            'Journal': None,
-            'DOI': None,
-            'Title': None,
-            'Keywords': None,
-            'Sections': sections
-        }
+        return obj
 
 
 ElsevierHTMLSoup = Soup(parser_version=__version__)
