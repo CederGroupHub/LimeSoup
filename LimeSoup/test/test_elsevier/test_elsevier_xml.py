@@ -403,3 +403,28 @@ class TestParsing(SoupTester):
                 ('$$Conclusions', 1),
             ]
         )
+
+    def test_paper_xml_term_no_desc(self):
+        parsed = self.get_parsed('xml/10.1016-j.icheatmasstransfer.2004.04.029.xml', __file__)
+
+        self.assertJournalEqual(parsed, 'International Communications in Heat and Mass Transfer')
+        self.assertTitleEqual(
+            parsed,
+            'Mixed convection with heat and mass transfer in horizontal tubes')
+        self.assertKeywordsEqual(
+            parsed, [
+                "Heat and Mass transfer",
+                "Mixed convection",
+                "Lewis number effect",
+                "Horizontal tubes"
+            ]
+        )
+        self.assertSectionPathsEqual(
+            parsed, [
+                ('$$Abstract', 1),
+                ('$$Introduction', 2),
+                ('$$Problem formulation and numerical procedure', 4),
+                ('$$Results and discussion', 4),
+                ('$$Conclusion', 36),
+            ]
+        )

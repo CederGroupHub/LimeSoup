@@ -420,9 +420,16 @@ def extract_ce_def_list(node):
     while True:
         term = extract_ce_def_term(children.pop(0))
 
+        description = None
         if len(children) > 0:
-            desc = extract_ce_def_description(children.pop(0))
-            term_definitions.append('%s : %s' % (term, desc))
+            try:
+                description = extract_ce_def_description(children[0])
+                children.pop(0)
+            except NameError:
+                pass
+
+        if description is not None:
+            term_definitions.append('%s : %s' % (term, description))
         else:
             term_definitions.append('%s' % (term,))
 
