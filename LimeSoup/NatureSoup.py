@@ -1,7 +1,7 @@
 import re
 
 from LimeSoup.lime_soup import Soup, RuleIngredient
-from LimeSoup.parser.paragraphs import extract_paragraphs_recursive
+from LimeSoup.parser.paragraphs import extract_paragraphs_recursive, get_tag_text
 from LimeSoup.parser.parser_paper import ParserPaper
 
 __author__ = 'Jason Madeano, Haoyan Huo'
@@ -72,8 +72,19 @@ class NatureCollectMetadata(RuleIngredient):
         # This dictionary structure should match other parsers,
         # "Valid Article" and "Content Type" are specific to Nature Parser
         doi = parser.extract_first_meta('citation_doi')
-        title = re.sub(r'\s+', ' ', parser.extract_first_meta('citation_title'))
+        if doi is None:
+            doi = parser.extract_first_meta('prism.doi')
+        doi = re.sub(r'^doi:\s*', '', doi)
+        doi = re.sub(r'\s+', '', doi)
+
+        title = parser.extract_first_meta('citation_title')
+        if title is None:
+            title = parser.extract_first_meta('twitter:title')
+        if title is not None:
+            title = re.sub(r'\s+', ' ', title)
+
         journal = parser.extract_first_meta('citation_journal_title')
+
         keywords = parser.extract_meta('keywords')
         article_type = parser.extract_first_meta('WT.cg_s')
         obj = {
@@ -103,16 +114,6 @@ class NatureExtractArticleBody(RuleIngredient):
         )
         parser = ParserPaper(str(article_body), parser_type='html.parser')
 
-        # remove any sections after references
-        secs_to_remove = []
-        sec = parser.soup.find(attrs={'aria-labelledby': 'references'})
-        while sec is not None:
-            secs_to_remove.append(sec)
-            sec = sec.next_sibling
-
-        for sec in secs_to_remove:
-            sec.extract()
-
         return [obj, parser]
 
 
@@ -121,13 +122,48 @@ class NatureCollect(RuleIngredient):
     def _parse(parser_obj):
         obj, parser = parser_obj
 
-        # Create tag from selection function in ParserPaper
-        data = list()
+        ending_sections = [
+            re.compile(r'.*?acknowledge?ment.*?', re.IGNORECASE),
+            re.compile(r'.*?reference.*?', re.IGNORECASE),
+            re.compile(r'.*?author\s*information.*?', re.IGNORECASE),
+            re.compile(r'.*?related\s*links.*?', re.IGNORECASE),
+            re.compile(r'.*?about\s*this\s*article.*?', re.IGNORECASE),
+        ]
 
-        for item in parser.soup.contents:
-            data.extend(extract_paragraphs_recursive(item))
+        section_status = {
+            'should_trim': False
+        }
 
-        obj['Sections'] = data
+        def trim_sections(sections):
+            """
+            Remove anything after "ending_sections"
+            """
+            if isinstance(sections, dict):
+                for rule in ending_sections:
+                    if not section_status['should_trim']:
+                        if rule.match(sections['name']):
+                            section_status['should_trim'] = True
+                            break
+
+                should_include, secs = trim_sections(sections['content'])
+                sections['content'] = secs
+
+                return should_include, sections
+            elif isinstance(sections, list):
+                final_secs = []
+                for sub_sec in sections:
+                    should_include, sub_sec = trim_sections(sub_sec)
+                    if should_include:
+                        final_secs.append(sub_sec)
+
+                return len(final_secs) > 0, final_secs
+            else:
+                return not section_status['should_trim'], sections
+
+        raw_sections = extract_paragraphs_recursive(parser.soup)
+
+        should_include, trimmed_sections = trim_sections(raw_sections)
+        obj['Sections'] = trimmed_sections
 
         return obj
 

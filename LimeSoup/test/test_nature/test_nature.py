@@ -102,3 +102,19 @@ class TestParsing(SoupTester):
                 ('$$Methods$$Analysis of βAPP and amyloid burden in brain', 2),
             ]
         )
+
+    def test_news(self):
+        parsed = self.get_parsed('10.1038-440274a.html', __file__)
+
+        self.assertDOIEqual(parsed, '10.1038/440274a')
+        self.assertTitleEqual(
+            parsed,
+            "Political chemistry: Make a strong bond")
+        self.assertKeywordsEqual(
+            parsed, []
+        )
+        self.assertSectionPathsEqual(
+            parsed, [
+                ('', 24),
+            ]
+        )
