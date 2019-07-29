@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - Fixed bugs in Elsevier parser (almost rewrote it).
+- Fixed bugs in Nature parser that tries to re-substitute None.
+- Fixed bugs in Nature parser that includes garbage sections after "related links".
 
 ## [0.3] - 2019-05-20
 ### Added
