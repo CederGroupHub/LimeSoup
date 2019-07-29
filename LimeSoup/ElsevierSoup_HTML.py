@@ -68,9 +68,10 @@ class ElsevierCollect(RuleIngredient):
                     return False, sec
 
                 if not iterate_status['content_begins']:
-                    if re.match(
-                            r'.*?abstract.*?',
-                            sec_name, re.IGNORECASE):
+                    if re.match(r'.*?abstract.*?', sec_name, re.IGNORECASE) or \
+                            (len(sec['content']) > 0 and
+                             isinstance(sec['content'][0], str) and  # Typical abstract has more than 100 words
+                             sec['content'][0].count(' ') > 100):
                         iterate_status['content_begins'] = True
 
                 if not iterate_status['content_ends']:
