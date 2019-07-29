@@ -98,7 +98,8 @@ def extract_paragraphs_recursive(tag_or_soup, exclude_section_rules=None):
 
         """
         # don't override caller's heading info, as we will be jumping outside
-        cur_heading = cur_heading or {}
+        if cur_heading is None:
+            cur_heading = {}
 
         for i, child in enumerate(cur_tag.contents):
 
