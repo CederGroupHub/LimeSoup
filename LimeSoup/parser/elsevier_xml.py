@@ -23,14 +23,15 @@ def extract_text_any(_node, handler):
 def extract_text_or(_node, handlers):
     # Extract node text in rules:
     # A := (B|C|D|E)
+    last_exception = None
     for h in handlers:
         try:
             return h(_node)
-        except NameError:
-            pass
+        except NameError as e:
+            last_exception = e
 
-    raise NameError('Failed to match node (%r, %r, %r) with all rules specified: %r' %
-                    (_node.prefix, _node.name, str(_node)[:50], handlers))
+    raise NameError('Failed to match node (%r, %r, %r) with all rules specified: %r, last exception was:\n%s' %
+                    (_node.prefix, _node.name, str(_node)[:50], handlers, str(last_exception)))
 
 
 def find_non_empty_children(_node):
