@@ -74,9 +74,12 @@ class NatureCollectMetadata(RuleIngredient):
         doi = parser.extract_first_meta('citation_doi')
         if doi is None:
             doi = parser.extract_first_meta('prism.doi')
-        doi = re.sub(r'^doi:\s*', '', doi)
-        doi = re.sub(r'\s+', '', doi)
+        if doi is not None:
+            doi = re.sub(r'^doi:\s*', '', doi)
+            doi = re.sub(r'\s+', '', doi)
 
+        # TODO: We can actually use heuristics to get the title as <h1>.
+        # this can be implemented later.
         title = parser.extract_first_meta('citation_title')
         if title is None:
             title = parser.extract_first_meta('twitter:title')

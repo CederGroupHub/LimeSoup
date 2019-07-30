@@ -118,3 +118,14 @@ class TestParsing(SoupTester):
                 ('', 24),
             ]
         )
+
+    def test_no_doi(self):
+        parsed = self.get_parsed('10.1038-416525a.html', __file__)
+
+        self.assertDOIEqual(parsed, None)
+        self.assertSectionPathsEqual(
+            parsed, [
+                ('$$Abstract', 1),
+                ('$$Main', 8),
+            ]
+        )
