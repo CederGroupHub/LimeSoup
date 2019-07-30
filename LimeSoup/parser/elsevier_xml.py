@@ -283,6 +283,11 @@ def process_nondisplay_data(_node):
     if node_named(_node, 'ce:footnote'):
         return extract_ce_footnote(_node)
 
+    # TODO: some papers have ce:float-anchor in a nondisplay.data.
+    # We make an exception here.
+    if node_named(_node, 'ce:float-anchor'):
+        return extract_ce_float_anchor(_node)
+
     if node_named(_node, 'ce:anchor'):
         return extract_text_any(_node, process_richstring_data)
 

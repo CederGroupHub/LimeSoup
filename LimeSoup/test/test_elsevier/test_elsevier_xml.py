@@ -429,6 +429,28 @@ class TestParsing(SoupTester):
             ]
         )
 
+    def test_paper_xml_buggy_float_anchor(self):
+        parsed = self.get_parsed('xml/10.1016-S0960-894X(00)00396-6.xml', __file__)
+
+        self.assertJournalEqual(parsed, 'Bioorganic & Medicinal Chemistry Letters')
+        self.assertDOIEqual(parsed, '10.1016/S0960-894X(00)00396-6')
+        self.assertTitleEqual(
+            parsed,
+            'Design and synthesis of triglyceride analogue biotinylated '
+            'suicide inhibitors for directed molecular evolution of lipolytic enzymes')
+        self.assertKeywordsEqual(
+            parsed, []
+        )
+        self.assertSectionPathsEqual(
+            parsed, [
+                ('$$Abstract', 1),
+                ('$$Introduction', 1),
+                ('$$Affinity Label Design', 2),
+                ('$$Lipase Inhibition', 1),
+                ('$$Synthesis (Scheme 1 )', 1),
+            ]
+        )
+
     def test_paper_formula_in_formula(self):
         parsed = self.get_parsed('xml/10.1016-S0927-0248(00)00408-6.xml', __file__)
 
