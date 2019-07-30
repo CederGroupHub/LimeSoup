@@ -88,6 +88,7 @@ class NatureCollectMetadata(RuleIngredient):
 
         journal = parser.extract_first_meta('citation_journal_title')
 
+        # FIXME: separate keywords into single words by comma
         keywords = parser.extract_meta('keywords')
         article_type = parser.extract_first_meta('WT.cg_s')
         obj = {
@@ -110,11 +111,27 @@ class NatureExtractArticleBody(RuleIngredient):
     def _parse(parser_obj):
         obj, parser = parser_obj
 
-        article_body = next(
-            x for x in parser.soup.find_all(
-                attrs={'data-article-body': 'true'}
-            )
-        )
+        # style 1
+        article_body = parser.soup.find(attrs={'data-article-body': 'true'})
+
+        if article_body is None:
+            # style 2
+            article_body = parser.soup.find('article')
+            rules_to_remove = [
+                {'name': 'header'},
+                {'name': 'nav'},
+                {'class': 'article-keywords'},
+                {'class': 'figures-at-a-glance'},
+            ]
+            if article_body:
+                for rule in rules_to_remove:
+                    for tag in article_body.find_all(**rule):
+                        tag.extract()
+
+        if article_body is None:
+            raise ValueError('Cannot find article body. You '
+                             'should inspect this HTML file carefully.')
+
         parser = ParserPaper(str(article_body), parser_type='html.parser')
 
         return [obj, parser]
@@ -166,6 +183,16 @@ class NatureCollect(RuleIngredient):
         raw_sections = extract_paragraphs_recursive(parser.soup)
 
         should_include, trimmed_sections = trim_sections(raw_sections)
+
+        # Fix abstract, if the first element is just a plain text.
+        if len(trimmed_sections) > 1 and \
+                isinstance(trimmed_sections[0], str) and \
+                isinstance(trimmed_sections[1], dict):
+            trimmed_sections[0] = {
+                'type': 'section_abstract_heuristics',
+                'name': 'Abstract',
+                'content': [trimmed_sections[0]],
+            }
         obj['Sections'] = trimmed_sections
 
         return obj

@@ -2,7 +2,14 @@ import unittest
 
 from bs4 import BeautifulSoup
 
-from LimeSoup.parser.paragraphs import get_tag_text
+from LimeSoup.parser.paragraphs import get_tag_text, INLINE_TAGS, LINEBREAK_ELEMENTS, NON_DISPLAY_TAGS
+
+
+class HTMLTagText(unittest.TestCase):
+    def no_common_elements(self):
+        self.assertSetEqual(INLINE_TAGS & LINEBREAK_ELEMENTS, set())
+        self.assertSetEqual(INLINE_TAGS & NON_DISPLAY_TAGS, set())
+        self.assertSetEqual(NON_DISPLAY_TAGS & LINEBREAK_ELEMENTS, set())
 
 
 class TestTagText(unittest.TestCase):

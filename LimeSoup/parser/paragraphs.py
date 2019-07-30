@@ -9,12 +9,15 @@ __email__ = "haoyan.huo@lbl.gov"
 INLINE_TAGS = {
     # https://www.w3schools.com/html/html_blocks.asp
     'a', 'abbr', 'acronym', 'b', 'bdo', 'big', 'button', 'cite', 'code', 'dfn',
-    'em', 'i', 'img', 'input', 'kbd', 'label', 'map', 'object', 'output', 'q',
+    'em', 'i', 'img', 'input', 'kbd', 'label', 'map', 'output', 'q',
     'samp', 'select', 'small', 'span', 'strong', 'sub', 'sup', 'textarea', 'time',
-    'tt', 'var'
+    'tt', 'var',
+
+    # Added July 29
+    'bdi', 'data', 'del', 'ins', 'mark', 'meter', 'progress', 's', 'u', 'wbr',
 }
 
-LINEBREAK_ELEMENTS = ['hr', 'br']
+LINEBREAK_ELEMENTS = {'hr', 'br'}
 
 NON_DISPLAY_TAGS = {
     # https://developer.mozilla.org/en-US/docs/Web/HTML/Element
