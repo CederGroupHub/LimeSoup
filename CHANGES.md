@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed bugs in Elsevier parser (almost rewrote it).
 - Fixed bugs in Nature parser that tries to re-substitute None.
 - Fixed bugs in Nature parser that includes garbage sections after "related links".
+- Fixed bugs in Elsevier parser that generates many paragraphs for math formulas
+due to incorrect handling of unknown HTML with "block" display.
 
 ## [0.3] - 2019-05-20
 ### Added
