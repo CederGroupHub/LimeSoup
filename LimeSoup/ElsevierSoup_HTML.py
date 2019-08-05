@@ -26,6 +26,11 @@ class ElsevierRemoveTrash(RuleIngredient):
         for rule in rules_for_remove:
             for s in soup.find_all(**rule):
                 s.extract()
+
+        for math in soup.find_all('math'):
+            text = get_tag_text(math)
+            text = re.sub(r'\s\n', '', text)
+            math.replace_with(text)
         return soup
 
 

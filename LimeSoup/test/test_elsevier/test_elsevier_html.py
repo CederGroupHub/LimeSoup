@@ -110,3 +110,33 @@ class TestParsing(SoupTester):
                 ('$$Abstract', 2),
             ]
         )
+
+    def test_paper_mit_formula_embedded(self):
+        parsed = self.get_parsed('html/10.1016-j.jeurceramsoc.2007.03.025.html', __file__)
+
+        self.assertTitleEqual(
+            parsed,
+            'Synthesis, densification and electrical properties of strontium cerate ceramics')
+        self.assertListEqual(
+            parsed['Keywords'], [
+                "SrCeO3",
+                "Sintering",
+                "Electrical conductivity"
+            ])
+        self.assertSectionPathsEqual(
+            parsed, [
+                ('$$Abstract', 1),
+                ('$$Introduction', 9),
+                ('$$Experimental$$Powder synthesis and sample preparation', 2),
+                ('$$Experimental$$Characterization of sintered materials', 2),
+                ('$$Experimental$$Conductivity measurements', 3),
+                ('$$Results$$Characterization of powders', 5),
+                ('$$Results$$Densification', 2),
+                ('$$Results$$Microstructure and grain growth', 1),
+                ('$$Results$$Electrical properties', 2),
+                ('$$Discussion$$Powder characteristics', 1),
+                ('$$Discussion$$Densification and microstructure', 3),
+                ('$$Discussion$$Conductivity', 16),
+                ('$$Conclusions', 1),
+            ]
+        )
