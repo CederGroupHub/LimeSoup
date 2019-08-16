@@ -35,15 +35,15 @@ with open('file_test.json', 'w', encoding = 'utf-8') as f:
 
 Currently, we have implemented the following parsers:
 
-- ECS: The Electrochemical Society
-- RSC: The Royal Society of Chemistry
-- Elsevier
-- Nature Publishing Group
-- Springer
-- Wiley
-- ACS: American Chemical Society
-- APS: American Physical Society
-- IOP Publishing
+- [ECS: The Electrochemical Society](http://ecsdl.org)
+- [RSC: The Royal Society of Chemistry](https://www.rsc.org)
+- [Elsevier](https://www.elsevier.com/catalog)
+- [Nature Publishing Group](https://www.nature.com)
+- [Springer](https://www.springernature.com/gp/products/journals)
+- [Wiley](https://onlinelibrary.wiley.com)
+- [ACS: American Chemical Society](https://pubs.acs.org)
+- [APS: American Physical Society](https://journals.aps.org)
+- [IOP Publishing](https://ioppublishing.org/publications/our-journals/)
 
 # Development documentation
 
@@ -53,3 +53,19 @@ Please refer to the [wiki pages](https://github.com/CederGroupHub/LimeSoup/wiki)
 
 Please see [change logs](CHANGES.md).
 
+# Credits
+
+LimeSoup was contributed to by these genius people:
+
+- Tiago Botari
+- Ziqin Rong
+- Vahe Tshitoyan
+- Nicolas Mingione
+- Jason Madeano
+- Haoyan Huo
+- Tanjin He
+- Zach Jensen
+- Alex van Grootel
+- Edward Kim
+- Haihao Liu
+- Zheren Wang

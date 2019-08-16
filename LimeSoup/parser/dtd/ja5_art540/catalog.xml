@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE catalog
+  PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN"
+  "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+  
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
+
+	<!-- JA DTD 5.4 -->
+	<public publicId="-//ES//DTD journal article DTD version 5.4.0//EN//XML" uri="art540/art540.dtd"/>
+
+	<!-- SI DTD 5.4 -->
+	<public publicId="-//ES//DTD serials issue DTD version 5.4.0//EN//XML" uri="issue540/si540.dtd"/>
+	
+	<!-- Book DTD 5.4 -->
+	<public publicId="-//ES//DTD book DTD version 5.4.0//EN//XML" uri="book540/book540.dtd"/>
+	
+	<!-- CEP DTD 1.4 -->
+	<public publicId="-//ES//ELEMENTS common element pool version 1.4.0//EN//XML" uri="cep140/common140.ent"/>
+
+	<public publicId="-//ES//ENTITIES extra entities 1.0.0//EN" uri="cep140/ESextra.ent"/>
+
+	<public publicId="-//W3C//DTD MathML 2.0 Mod ES//EN" uri="cep140/mathml2-mod-ES-strict.dtd"/>
+	
+</catalog>
