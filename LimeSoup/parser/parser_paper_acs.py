@@ -270,8 +270,8 @@ class ParserPaper:
         if abstract is not None:
             self.data_sections.insert(0, self.create_section(
                     name='Abstract',
-                    type_section='abstract',
-                    content= self.convert_to_text(abstract.get_text())
+                    type_section='section_h2',
+                    content= [self.convert_to_text(abstract.get_text())]
                 ))
 
     def get_abstract(self, rule):
@@ -394,7 +394,7 @@ class ParserPaper:
                 tag_name = int(tag_name_tmp.count('.'))+2
                 each_tag.name = 'section_h{}'.format(tag_name)
             except:
-                 each_tag.name = 'section_h2'
+                each_tag.name = 'section_h2'
 
     @staticmethod
     def convert_to_text(text):

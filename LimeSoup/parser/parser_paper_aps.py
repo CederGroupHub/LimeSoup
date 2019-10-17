@@ -275,7 +275,7 @@ class ParserPaper:
             self.data_sections.insert(0, self.create_section(
                     name='Abstract',
                     type_section='section_h2',
-                    content= self.convert_to_text(abstract.get_text())
+                    content= [self.convert_to_text(abstract.get_text())]
                 ))
 
     def get_abstract(self, rule):
