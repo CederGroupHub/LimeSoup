@@ -6,7 +6,7 @@ from __future__ import absolute_import
 
 from LimeSoup.lime_soup import Soup, RuleIngredient
 from LimeSoup.parser.parser_paper_acs import ParserPaper
-
+import re
 
 __author__ = ''
 __maintainer__ = 'Nicolas Mingione'
@@ -78,6 +78,17 @@ class ACSCollect(RuleIngredient):
         parser.deal_with_sections()
         data = parser.data_sections
         parser.create_abstract(rule={'name': 'abstract'})
+        if len(data) == 1:
+            parser.soup.front.decompose()
+            parser.soup.back.decompose()
+            body = parser.soup.find_all('p')
+            for paras in body:
+                p = re.sub('\n*\s+\n*',' ',paras.text.strip())
+                p = re.sub('\s,\s',', ',p)
+                p = re.sub('\s.\s','. ',p)
+                if p[-1] == '.' and p[-2] == ' ':
+                    p = p[:-2] + '.'
+                data.append(parser.create_section(name='', type_section='section_h2', content=[p]))
 
         obj = {
             'DOI': doi,
@@ -92,6 +103,6 @@ class ACSCollect(RuleIngredient):
 ACSSoup = Soup(parser_version=__version__)
 ACSSoup.add_ingredient(ACSReformat())
 ACSSoup.add_ingredient(ACSRemoveTrash())
-ACSSoup.add_ingredient(ACSCreateTags())
+# ACSSoup.add_ingredient(ACSCreateTags())
 ACSSoup.add_ingredient(ACSReplaceSectionTag())
 ACSSoup.add_ingredient(ACSCollect())
