@@ -134,6 +134,8 @@ class ParserPaper:
         text = text.replace("<span class='icomoon'>?</span>", '--') 
         text = text.replace(' \' \'', '')
         text = text.replace("&amp;", "&")
+        text = text.replace('[]', '').replace('[ ]', '')
+        text = text.replace(' – ', ' ')
         return text
 
     @staticmethod

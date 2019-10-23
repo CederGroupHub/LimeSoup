@@ -97,6 +97,8 @@ class WileyRemoveTrash(RuleIngredient):
             {'name':'div', 'class':'article-citation'},
             {'name':'span', 'class':'inline-equation__label'},
             {'name':'div', 'class':'accordion article-accordion'},
+            {'name':'div', 'class':'table__overflow js-module'},
+
         ]
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.remove_tags(rules=list_remove)
