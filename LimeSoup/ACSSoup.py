@@ -75,6 +75,12 @@ class ACSCollect(RuleIngredient):
             {'name': 'article-id',
             'pub-id-type': 'doi'}
         ])
+
+        keywords = parser.get(rules=[
+            {'name':'kwd'}
+        ])
+
+
         parser.deal_with_sections()
         data = parser.data_sections
         parser.create_abstract(rule={'name': 'abstract'})
@@ -92,7 +98,7 @@ class ACSCollect(RuleIngredient):
 
         obj = {
             'DOI': doi,
-            'Keywords': [],
+            'Keywords': keywords,
             'Title': parser.title,
             'Journal': journal_name,
             'Sections': data
