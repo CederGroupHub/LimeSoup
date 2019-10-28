@@ -49,6 +49,10 @@ class ElsevierCollect(RuleIngredient):
         if h1_tag is not None:
             obj['Title'] = get_tag_text(h1_tag)
             h1_tag.extract()
+        x = soup.find('head').find_all('meta')
+        for s in soup.find('head').find_all('meta'):
+            if s.get('name') == 'dc.publisher':
+                obj['Journal'] = s.get('content')
 
         raw_sections = extract_paragraphs_recursive(soup)
         print(len(raw_sections))
