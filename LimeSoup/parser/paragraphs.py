@@ -28,7 +28,11 @@ NON_DISPLAY_TAGS = {
 
 
 def normalize_text(string):
-    return re.sub(r'[ \t]+', ' ', string.strip())
+    st = re.sub(r'[ \t]+', ' ', string.strip())
+    reg = re.compile('\[\d+\]')
+    st = reg.sub('', st)
+    st = st.replace(' .', '.').replace(' \xa0and\xa0.', '.').replace('\xa0', '')
+    return st
 
 
 def get_tag_text(cur_tag):

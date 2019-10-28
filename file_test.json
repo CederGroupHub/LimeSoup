@@ -1,171 +1,139 @@
 {
-    "DOI": [
-        "10.1021/nl104209c"
-    ],
-    "Journal": "Nano Letters",
+    "DOI": null,
+    "Journal": "Sensors and Actuators B: Chemical",
     "Keywords": [
-        "In-situ X-ray absorption",
-        "Bimetallic CoPt nanoparticles",
-        "oxidation states",
-        "alloy effect",
-        "cycling pressure",
-        "octahedral and tetrahedral structure"
+        "Polyelectrolyte",
+        "Poly(allylamine hydrochloride)",
+        "NADH",
+        "Sensor"
     ],
     "Sections": [
         {
             "content": [
-                "In-situ near edge X-ray absorption fine structure spectroscopy was performed to monitor the oxidation states of Co and CoPt nanoparticles (NPs) of 4 nm size in the presence of H2 and O2 in the pressure range of 1 bar and 36 Torr respectively. Platinum helps the rapid reduction of cobalt oxides in hydrogen at a rather low temperature (38 °C). In addition, reversible changes of the oxidation states of cobalt in the Co and CoPt NPs as a function of cycling oxygen pressure (in the range of millitorr to 36 Torr) are quantified and compared. The role of Pt in the process of Co reducing and oxidizing was explored. Our findings permit the prediction of the cobalt oxidation states as the reaction conditions are altered. The experimental results also suggest the presence of tetrahedral structure of Cobalt oxide that differs from the Co3O4 spinel structure."
+                "A screen-printed electrode (SPE) modified with poly(allylamine hydrochloride) (PAH) for electrochemical detection of NADH is described. FT-IR spectrum confirms the presence of a positively charged PAH SPE that was exploited to accumulate the NADH on the electrode surface for a faster electrochemical detection of this analyte. A wide response range was achieved in amperometry, at an applied potential of +0.6V, from 0.01 to 5mM, with a detection limit of 0.22μM. Differential pulse voltammetry allowed selective detection of NADH in presence of ascorbic acid. This approach provides a simple and effective way to detect low amounts of NADH with potential application in dehydrogenase-based biosensors."
             ],
             "name": "Abstract",
             "type": "section_h2"
         },
         {
             "content": [
-                "Cobalt is one of the important transition metals used for catalytic hydrogenation reactions of CO and CO2 to produce gaseous or liquid hydrocarbons. It has. major role to play in the industrial process with. long history of producing synthetic fuels. The reducibility of Co is important for hydrogenation reactions of CO and CO2 while the oxidation property is important for CO oxidation. The oxidation state of Co nanocatalysts is sensitive to the chemical environment and reaction temperature. Recently, thermodynamic phase diagram of Co oxide nanoparticles has been derived based on the surface energies of nanophase and bulk phase of Co oxides. In priniciple, the derived phase diagram predicts the most thermodynamically stable phase of Co oxide under. given chemical environment and temperature. In reality, nanoparticles of Co oxide may be trapped in. metastable phase due to kinetic barriers between the different phases. Thus, it is highly desirable to directly monitor the oxidation states of Co nanoparticles under the variable chemical environment and temperature."
+                "In the last two decades the polymers have gained increasing importance in the development of electrochemical sensors and biosensors due to the fact that they are flexible materials that can be tailored for different needs. The literature reveals that polymers are mainly used as a coating material or as an immobilization matrix for some bio-molecules. Among the different type of polymers, the non-conducting one allow the immobilization of different biological components by encapsulation, cross-linking, or inclusion in their supramolecular structure. On the other hand the conducting polymers and the polyelectrolytes were extensively used, alone or in combination with other materials such as carbon nanotubes, nanofibers, graphene or metal nanoparticles in order to improve the performances of the electrochemical transducers. Electropolymerization is a very simple and attractive approach for the controlled immobilization of enzymes on electrode surfaces. Polyaniline, polypyrrole and polythiophene are the most known conducting polymers used for immobilization of horseradish peroxidase or different oxidases for detection of hydrogen peroxide, glucose, cholesterol, lactate, glutamate , , , ,. The binding forces involved are electrostatic interactions, hydrogen bonds, Van der Waals forces, etc. Such an approach leaded to an increase of five times the current response for immobilization of GOD in polypyrrole. The main drawback of this method is the high amount of enzyme required for the immobilization process and the impossibility to calculate the exact amount of immobilized enzymes on the electrode surface. The polyelectrolytes are polymers obtained from monomers that have attached on the molecule polar groups. The polymers chain contains charged groups of the same sign. The polyelectrolytes can be strong (constant charge) or weak (with pH-dependent charge) depending on the pKa of charged groups. They are suitable for developing films that in aqueous media could have positive or negative charges, layer-by-layer (LBL) materials, with potential application in sensing. Positively charges polyelectrolytes such as, poly(diallyldimethylammonium chloride) (PDDA), poly(allylamine hydrochloride) (PAH) or negatively charged polystyrene sulfonate (PSS), poly acrylic acid (PAA) are the common used for sensors and biosensor development. One of the advantages of polyelectrolyte films is the elimination of the interferences that could reach the electrode surface if the interfering species have opposite charge to that of the analyte. Nafion polyelectrolyte membrane used for immobilization of biomolecules by simple casting on the working electrodes, leads toward improved sensors in term of selectivity because it is negatively charged and has ion-exchange properties. However, these sensors present a slow response and a low sensitivity, due the low diffusion of the analytes through the film.",
+                "The polyelectrolyte layer ensures a high active area and the electrostatic interaction between analyte and polymer could facilitate its accumulation at the electrode surface, resulting in the enhancement of analytical signal.",
+                "Different composite materials based on polymers and other conductive materials (carbon nanotubes, metal nanoparticles) were also used to increase the electroactive surface of the electrode for a fast electron transfer to the electrode surface , , ,. Mediators could also be entrapped into the polymer structure facilitating the electron transfer between the analyte and electrode surface.",
+                "There are not so many reports about systems based on dehydrogenases that use polyelectrolytes ,. Nicotinamide adenine dinucleotide, reduced form (NADH) and its oxidized form (NAD+) play an important role in the living organism for functioning of more than 300 NAD-dependent enzymes. Usually the compound that is electrochemically detected by dehydrogenase based electrochemical biosensors is the NADH. However, the direct oxidation of NADH at bare classical electrodes occurs at a high overpotential and is affected by several electrochemical interferences. Moreover, a low sensitivity of these sensors was achieved and fouling of the electrode surface should be overcome. Various redox mediators and , conducting polymers , carbon nanotubes, graphene nanomaterials or nano-composite materials , ionic-liquid based materials , and were used to modify the electrode surface in order to increase the rate of the electron transfer. Despite the fact the chemical modification of the electrode leads to a decrease of the applied potential and an increase of the sensitivity, the sensors exhibited a limited stability because of the mediator leakage , a narrow linear range and do not eliminate completely the interferences. Also, the analytical applications of such NADH sensors are limited.",
+                "In the present work, to the best of our knowledge, for the first time is reported a simple and effective way to detect NADH using poly(allylamine hydrochloride) (PAH) modify carbon screen-printed electrodes (SPE). The electrostatic interaction between positively charged polyelectrolyte and NADH facilitates the accumulation of the analyte at the surface of the modified electrode and lead to an enhancement of the oxidation current for the NADH."
             ],
-            "name": "",
+            "name": "Introduction",
             "type": "section_h2"
         },
         {
             "content": [
-                "To develop. molecular understanding of the chemistry of these reactions we synthesized cobalt monometallic and cobalt−platinum bimetallic nanoparticles to study the change of the oxidation states in the different reactant gases that are chemically oxidizing (in O2) or reducing (in H2). In this paper, we report the chemical behavior of. nm size Co and CoPt bimetallic nanoparticles in. bar of hydrogen and. partial pressure range of millitorr to 36 Torr oxygen (mixed with Helium at. bar). We monitored the cobalt oxidation states using X-ray absorption total electron yield spectroscopy that permits recording the changes of cobalt oxidation states under in situ reaction conditions."
+                {
+                    "content": [
+                        "Nicotinamide adenine dinucleotide reduced disodium salt (NADH), poly(allylamine hydrochloride) (PAH, MW=15,000), potassium ferricyanide (K3[Fe(CN)6], potassium ferrocyanide (K4[Fe(CN)6], hexaammine-ruthenium (II) chloride ([Ru(NH3)6]Cl2), hexaammine-ruthenium (III) chloride ([Ru(NH3)6]Cl3) were purchased from Sigma–Aldrich and used as received without further purification. All other chemicals used were of analytical grade. Phosphate buffer solution (PBS, 0.1M, containing 0.1 KCl, pH 6.0) was prepared by mixing solution of Na2HPO4, NaH2PO4 and KCl. All solutions were prepared in ultrapure water (Millipore, 18MΩcm)."
+                    ],
+                    "name": "Reagents",
+                    "type": "section_h3"
+                },
+                {
+                    "content": [
+                        "Cyclic voltammetry (CV), differential pulse voltammetry (DPV) and amperometric measurements were performed using a computer-controlled Autolab PGSTAT 101 and electrochemical impedance spectroscopy (EIS) experiments with a Autolab PGSTAT 12 with FRA2 module (Eco Chemie, Utrecht, Netherlands). IR spectra were recorded on Nicolet 4700 FT-IR spectrophotometer (Thermo Scientific). Screen-printed electrodes from Dropsens (DRP-C110) with carbon working electrode, Ag pseudo-reference electrode and carbon counter electrode were used for the experiments. All potentials are reported vs. pseudo-reference Ag electrode. All electrochemical experiments were performed at room temperature."
+                    ],
+                    "name": "Equipments and materials",
+                    "type": "section_h3"
+                },
+                {
+                    "content": [
+                        "Prior to polymer modification, the screen-printed electrodes (SPE) were electrochemically pre-treated by cycling the potential between −0.5 and 0.5V in PBS (0.1M, pH=6) until a reproducible shape of the voltammogram was obtained. A negatively charged electrode surface was achieved by ending the cycling at a negative potential, thus favoring the interaction with PAH, a positively charged polyelectrolyte. After pre-treatment, 5μL of the PAH solution (0.5mg/mL) was deposited on the surface of working electrode and then was left to dry, in a desiccator, at the room temperature, for 24h."
+                    ],
+                    "name": "Preparation of the PAH modified electrodes",
+                    "type": "section_h3"
+                }
             ],
-            "name": "",
+            "name": "Experimental",
             "type": "section_h2"
         },
         {
             "content": [
-                "To our knowledge, due to the technical difficulty (balancing UHV condition for soft X-ray and chemical reaction condition), few experiments have been conducted to explore the chemical states of catalysts at different gas environments especially to the one bar pressure range with soft X-rays. The 3d metal. edge soft X-ray absorption provides detailed features that can be well resolved as compared with. edge absorption. This makes soft X-ray absorption. powerful tool when exploring the oxidation states of the catalysts since the fine structure is sensitive to the oxidation states. With the rapid theoretical development in the soft X-ray region, the. edge X-ray absorption calculations are also available for solid interpretation or confirmation of experimental measurements."
+                {
+                    "content": [
+                        "The SPE modified with PAH 0.5mg/mL was characterized by IR spectroscopy. The FT-IR spectrum presented in Fig. 1 shows characteristic peaks at 990.7, 1454.3, 1644.5cm−1 and 3060.1cm−1. The peaks were associated with the following vibrational modes: R-CHCH2, symmetric deformation vibration of CH2N+H3, NH of a primary amine bending vibration and asymmetric NH stretching vibration of N+H3 group.",
+                        "The FT-IR spectrum indicated the presence of quaternary nitrogen on the polymer structure, which charges positively the modified electrode surface. This is essential for the electrochemical detection of NADH. The electrostatic interaction between negatively charged NADH molecules and the positively charged surface of the electrode can lead to an accumulation of the NADH near the electrode. Consequently, an enhancement of the electrochemical response of the sensor can be achieved."
+                    ],
+                    "name": "Characterization of PAH layer",
+                    "type": "section_h3"
+                },
+                {
+                    "content": [
+                        "The bare SPE and PAH modified electrodes (PAH/SPE) were tested in the presence or in the absence of NADH 5mM solution by cyclic voltammetry. No oxidation peak was observed for both types of electrode in the absence of NADH. The CV response of bare SPE and PAH/SPE electrodes shows the oxidation peak of NADH +550mV (Fig. 2A). The increase of the oxidation current from 4μA for bare electrode to 56μA in the presence of the polyelectrolyte layer suggests a faster oxidation process at the electrode surface for the last one. This phenomenon could be attributed to the electrostatic attraction between the polymer layer, which is positively charged and NADH molecules, negatively charged. This leads to an accumulation of the analyte on the electrode surface and to an enhancement of the oxidation current of the NADH.",
+                        "The cyclic voltammograms recorded in NADH 5mM at different scan rates in the range of 1–200mV/s revealed the fact that the current intensity of the oxidation peak of NADH increase with the increase of the scan rate (Fig. 2B). A linear relationship could be established between the peak current (ip) and the square root of the scan rate (v1/2). Nicholson–Shain criteria state that this is an indication that the electrochemical process is controlled by the diffusion of the NADH. Despite the fact that the Randles–Sevcik plot is linear the non-zero intercept of the equation suggests that the process is not fully diffusion-controlled. The intercept is more or less of the same order of magnitude with the smallest Faradaic current recorded and the diffusion controlled oxidation process could not be considered dominating. This may be due to the presence of the electrostatic interaction between PAH layer and the analyte that could play an important role and affect the electrochemical process. A shift of the peak potential to more positive values was also observed.",
+                        {
+                            "content": [
+                                "The sensor response to NADH is affected by the thickness of the polyelectrolyte film. In order to study this effect the same volume of PAH solution of different concentration was deposited on the surface of working electrode and left to dry according to the procedure described in Section 2.2. The SPE sensors were tested by cyclic voltammetry and the peak currents for NADH 5mM were compared. The highest current was recorded for a PAH concentration of 0.5mg/mL. At lower concentrations of PAH a very low response and unstable polyelectrolyte films were obtained. For higher concentrations of PAH the signal was lower due to the increase of the polymer film thickness that make the diffusion inside the film to be limitative for the sensor response. The optimal concentration of PAH was considered to be 0.5mg/mL and it was used for all further experiments. The thickness of the polyelectrolyte film is important for further development of dehydrogenase-based biosensors where the diffusion of the coenzyme through the film has an impact on the response time as well as on the sensitivity of the detection."
+                            ],
+                            "name": "Effect of thickness of the PAH film on the sensor response",
+                            "type": "section_h4"
+                        },
+                        {
+                            "content": [
+                                "The pH plays an important role in the detection of NADH with PAH modified SPE sensor. The variation of the pH value will modify the electrical charges of both polyelectrolyte film and analyte and thus will affect the electrostatic interaction between the polyelectrolyte and NADH. Therefore, the PAH deposition was realized from solution prepared in distilled water. No buffer solution was used for preparation of PAH solution because the presence of salts could have a negative impact to the adherence of the film to the electrode surface. In order to study the pH effect on the NADH sensor response, solutions of 5mM NADH with different pH were tested by CV. The results reveal a maximum oxidation current recorded for pH=6 and a minimum current for pH=8 (data not shown). The minimum value of the current could be explained by taking into account the pKa of PAH, which is reported in the literature to be between 8.0 and 8.7. At this pH the PAH layer is not electrically charged anymore. The accumulation of the NADH at the electrode surface cannot occur because there are no electrostatic interactions between PAH and NADH."
+                            ],
+                            "name": "Effect of pH on the sensor response",
+                            "type": "section_h4"
+                        }
+                    ],
+                    "name": "Cyclic voltammetry studies",
+                    "type": "section_h3"
+                },
+                {
+                    "content": [
+                        "To investigate more the interaction of PAH layer with charged chemical species electrochemical impedance spectroscopy (EIS) studies were performed. Two redox couples, one negatively charged Fe(CN)63−/Fe(CN)64− and another one positively charged [Ru(NH3)6]2+/[Ru(NH3)6]3+ were considered. Fig. 3 shows the Nyquist plots for bare and PAH modified SPE electrodes. The Fe(CN)63−/Fe(CN)64− plot for PAH/SPE (Fig. 3A) presents a semicircular portion followed at lower frequencies by a linear part, characteristic to a diffusion of redox species. The Randles model circuit based on the solution resistance (Rs), the charge transfer resistance (Rct), the constant phase element (CPE) and the Warburg impedance (ZW) was chosen to fit the impedance data and it is presented as inset in Fig. 3A. A fast electron transfer was observed for PAH/SPE with a value of the resistance of the electron transfer of 19.2±3.2Ω while the bare SPE showed a much slower electron transfer (Rct=705±97Ω). Lower resistance for PAH modified electrode could be attributed to the electrostatic interaction between PAH and Fe(CN)63−/Fe(CN)64−. The presence of electrostatic interaction between the electrode surface and redox couple leads further to an electrochemical reaction and affect the double layer capacitance. It is more appropriate to consider a CPE in the equivalent circuit than a capacitor.",
+                        "On the other hand, the [Ru(NH3)6]2+/[Ru(NH3)6]3+ couple has a different behavior (Fig. 3B). Nyquist diagram does not exhibit a semicircular part at higher frequencies. Only a linear part can be distinguished that suggest a diffusion process of the redox species. At lower frequencies the Warburg impedance increases in the case of PAH/SPE compared to unmodified SPE electrode because the redox species have to diffuse farther and the PAH layer acts as barrier for the positively charged species. That could be explained by an electrostatic repel between the electrode surface and the mediator molecules both positively charged. EIS results suggest that faster electron transfer could be achieved for negatively charged species. The polyelectrolyte film can be successfully used for electrochemical application for ionizable analytes with negative charge."
+                    ],
+                    "name": "Electrochemical impedance spectroscopy studies",
+                    "type": "section_h3"
+                },
+                {
+                    "content": [
+                        "Amperometric determination requires working at an applied potential that allow a sensitive detection of the analyte. The optimization of the working potential for PAH/SPE sensor was performed by recording the response curves for NADH 1mM at different working potential in the range of +300 to +800mV. A very low response was observed for a potential of +300mV. The current increases at +400mV and reach a maximum at +600mV. This value was used for all amperometric measurements.",
+                        "The catalytic rate constant (kcat) and diffusion coefficient (D) of NADH for PAH/SPE were estimated by chronoamperometry. Chronoamperometric measurements were performed in phosphate buffer and solutions containing different NADH concentrations (1, 2 and 5mM) at an applied potential of +600mV vs. Ag/AgCl ( Fig. 4A).",
+                        "The catalytic rate constant kcat, was calculated using the formula",
+                        "equation (1 )",
+                        "iNADHiPBS=π1/2(Kcat⋅C⋅t)1/2",
+                        "where i NADH and i PBS are the currents for NADH solution and for PBS buffer respectively, C is the NADH concentration and t is the time in second.",
+                        "The catalytic rate constant was calculated from the slope of the plot icat/ibuffervs. t1/2 for a NADH concentration of 5mM (inset Fig. 4A). A value of 9.38×104M−1s−1 was calculated for the PAH modified SPE, which reveals the fact that PAH film is suitable for developing NADH sensors. This value is almost 10 times higher than catalytic constant reported in the literature by other groups. For instance, using SPE electrode modified with SWCNT-COOH and Variamine blue and chronoamperometric data a value of 1.5×104M−1s−1 was calculated. By using hydrodynamic voltammetry on poly(phenosafranin)-modified carbon electrodes a maximum value of the catalytic constant of 1.6×104M−1s−1 was reported.",
+                        "A slightly higher catalytic constant of 3.36×105M−1s−1 was reported for a modified electrode with composite material based on poly(phenosafranin) functionalized single-walled carbon nanotubes.",
+                        "The NADH diffusion coefficient (D) was estimated based on Cottrel equation by chronoamperometric measurements :",
+                        "equation (2 )",
+                        "i=nFAD1/2Cπ1/2t1/2",
+                        "The linear parts of the plots of i vs. t −1/2 were selected ( Fig. 4B) and used to calculate the slope for each NADH concentration. The plot ( i· t 1/2) vs. C NADH allowed us to determine the diffusion coefficient of 1.15×10 −7cm 2s −1."
+                    ],
+                    "name": "Chronoamperometric measurements",
+                    "type": "section_h3"
+                },
+                {
+                    "content": [
+                        "The calibration graph was performed, for NADH concentration range of 0.01–5mM (Fig. 5A) at an applied potential of +600mV. A fast response of the sensor was observed. The current reaches 95% of steady state value within 10s for the entire range of concentrations we have tested. A first linear range was recorded from 0.01 to 0.2mM with a sensitivity of 15.81±0.37μAmM−1 (125.9±2.9μAmM−1cm2). For the range of 0.2–5mM was calculated a sensitivity of 10.71±0.85μAmM−1, which corresponds to a specific sensitivity of 85.3±6.7μAmM−1cm2. A detection limit (based on signal to noise ratio of 3) of 0.22μM was calculated.",
+                        "The inset of Fig. 5A reveals a very stable amperometric response for NADH during calibration procedure. Amperometric response was stable for more than 10min. This is a proof that no passivation of the electrode surface occurred. This phenomenon could be attributed to the presence of PAH, which does not favor the accumulation of the oxidation product, NAD+, on the electrode surface. The good stability of the sensor response represents an attractive feature comparing with other NADH sensors. Table 1 presents the main performances of published data about NADH sensors based on polymers and composite materials. By comparison, the NADH sensor presented in this paper exhibits one of the largest response ranges with a low detection limit. A significant lower detection limit and a higher sensitivity were reported for sensors based on SWCNT functionalized with poly styrensulfonic acid.",
+                        "A wider linear range could be achieved by using differential pulse voltammetry (DPV). This technique also allows a fast and selective detection of NADH. Optimal results were obtained in conditions mentioned in Fig. 5B. The calibration graph was plotted using current intensity of the NADH peak vs. NADH concentration and the sensitivity was 13.33±0.58μA/mM. The specific sensitivity was calculated to be 106.1μA/mMcm2. A linear range of two decades of concentration (0.05–5mM) is very useful for developing of further application based on dehydrogenases. Stability of the PAH/SPE sensor was tested on NADH 5mM. After each measurement sensor was washed twice with buffer. A standard deviation of 5.2% was obtained after 20 consecutive measurements.",
+                        "Ascorbic acid (AA) is the common interfering compound in the electrochemical detection of NADH from biological samples. The AA interference in amperometric detection could not be eliminated because both target and interfering compounds are negatively charged. The selective determination of this coenzyme in the presence of AA could be achieved by differential pulse voltammetry. In Fig. 6 is presented the response of the PAH/SPE recorded in 5mM NADH solution containing 5mM AA. Two well defined oxidation peaks are observed at 343mV for AA and 625mV for NADH, respectively. A peak separation of 282mV indicates that PAH modified sensor can be successfully used for selective detection of NADH in the presence of AA."
+                    ],
+                    "name": "Calibration of the NADH sensor",
+                    "type": "section_h3"
+                }
             ],
-            "name": "",
+            "name": "Results and discussion",
             "type": "section_h2"
         },
         {
             "content": [
-                "In situ X-ray absorption experiments were performed at the undulator beamline 7.0.1 of the Advanced Light Source (Berkeley, CA).. gas reaction cell (figure 1) is used to collect the total electron yield (TEY) at the pressure range from millitorr to over one bar. In X-ray absorption, soft X-ray photons promote electrons from the core level into the empty states. Each absorption event produces Auger and secondary electrons, and the total electron yield (TEY) is proportional to the number of absorption events. Different from X-ray photoelectron spectroscopy (XPS), in the TEY mode the signals are detected through. conductor (in this case. piece of inert gold foil) to the ammeter instead of electrons going through the vacuum and collected by the spectrometer. Thus this technique allows studying the electronic structure at. much higher pressure. The exploring depth of this technique is around. nm for metal. Nanoparticles were deposited onto. 0.1 mm thickness gold foil using the Langmuir−Blodgett (LB, Nima Technology M611) method. Samples were characterized with transmission electron microscopy (TEM, Jeol 2100 and Philips CM300), scanning electron microscopy (SEM, Zeiss Ultra55) and X-ray photoelectron spectroscopy (XPS, home-built) prior to the synchrotron measurements."
+                "The efficiency of the poly(allylamine hydrochloride) for sensing application using screen-printed electrodes was explored in this work. The presence of the positively charge polyelectrolyte on the electrode surface was demonstrated by FT-IR and PAH modified SPE was used for detection of a negatively charged analyte NADH. The PAH/SPE sensor was optimized in terms of PAH concentration, pH of the working solution and applied potential for amperometric detection of NADH. The EIS experiments confirm the ability of polyelectrolyte modified electrode toward electrochemical detection of negatively charged species. The sensor calibration by amperometry and by differential pulse voltammetry revealed that NADH could be detected in the range of μM to mM. Moreover, DPV technique has allowed the selective determination of NADH in the presence of ascorbic acid.",
+                "The PAH modified SPE presents the advantage of a low background current compared to CNT based electrodes. A very attractive feature is the very simple preparation procedure compared to sensors based on electropolymerization or some nano-composite based on CNT, which require laborious procedures of purification and/or functionalization.",
+                "The modification of SPE with PAH leads to a major improvement for NADH detection and could exploited further for immobilization of dehydrogenases using layer-by-layer technique for developing sensitive and selective enzyme biosensors. PAH itself or in combination with other polyelectrolytes could play a double role, ones it improves the detection of NADH and second represents a good immobilization matrix for dehydrogenases."
             ],
-            "name": "",
-            "type": "section_h2"
-        },
-        {
-            "content": [
-                "The reaction cell is separated from UHV by. Si3N4 membrane window of. × 0.5 mm2 in size and 100 nm in thickness. X-ray absorption at the Co. edges was recorded with 0.3 eV resolution.. cobalt sample in the UHV chamber is used for energy calibration. The gas flow was regulated by mass flow controllers (Porter Instruments, Hatfield, PA) that were connected to the flow cell. Pressure inside the reaction cell was adjusted by the valve to. turbo pump and is read by two baratron gauges installed right before and after the reaction cell along the gas flow line."
-            ],
-            "name": "",
-            "type": "section_h2"
-        },
-        {
-            "content": [
-                "The. nm Pt50Co50 and. nm Co nanoparticles were synthesized employing. modified polyol reduction protocol. PVP-capped Pt NPs synthesized under the similar reaction conditions are ∼10 nm in average. To synthesize Pt50Co50 NPs, Pt(acac)2 and Co(acac)2 metal precursor salt mixtures are reduced and conucleated at about the boiling temperature of ethylene glycol solvent. Rapid temperature ramping using an oil bath is key to the success of the synthesis in the preparation. When ramping rates slower than 20 °C/min are employed the resulting colloidal suspension composes of inhomogeneous mixtures of monometallic platinum nanoparticles and bimetallic alloy nanoparticles with broad concentration gradients. In the absence of Pt, no nucleation of Co was observed. PVP-capped Co NPs were obtained in benzyl alchohol with 1,6-hexanediol as the reducing agent. Monometallic Co nanoparticles are magnetic and subject to oxidation as they are exposed to the air."
-            ],
-            "name": "",
-            "type": "section_h2"
-        },
-        {
-            "content": [
-                "An array of bulk and surface techniques including TEM, scanning transmission electron microscopy (STEM)/energy dispersive spectroscopy (EDS), X-ray diffraction (XRD), and XPS were employed to characterize the as-synthesized nanoparticles. Figure. shows TEM images of Pt50Co50 NPs with average particle sizes of 4.06. 0.71 nm (Figure 2A,C).. representative high-resolution TEM (HR-TEM) image reveals lattice fringes with 0.22 nm spacings that correspond to [111] lattice of Pt50Co50 in Figure 2B. EDS spectra of multiple single particles of Pt50Co50 reveal an average composition of 35. 10 mol. Co (Supporting Information). Additionally, no stray monometallic nanoparticles were detected in our STEM/EDS analysis. Similarly, Co nanoparticles are 4.05. 1.79 nm on average (Figure 2D,F). Figure 2E shows. representative Co nanocrystal in the zone axis with fast Fourier transform (FFT, inset) revealing hexagonal array of atoms. SEM pictures of the LB films on Au substrates were taken on the as-prepared and postcatalysis samples of Pt50Co50 nanoparticles and show. nm discrete nanoparticles with no significant changes in size or morphology after catalytic studies (Supporting Information Figure S1A,B, respectively.)"
-            ],
-            "name": "",
-            "type": "section_h2"
-        },
-        {
-            "content": [
-                "XRD reveals. broad FCC pattern with diffraction peaks that are intermediate to the monometallic Pt and monometallic (FCC) Co. No CoO phase is discernible from the XRD pattern (Supporting Information Figure 2B). Furthermore, Debye-Scherer analysis reveals an average particle size of. nm, which is also consistent with TEM size histograms. On the other hand, in the case of Co NPs the XRD pattern reveals nanocrystalline structures with coexisting metallic and oxide phases (Supporting Information Figure S2A). Monometallic Co and bimetallic Pt50Co50 nanoparticles have been studied using XPS for chemical analysis (Supporting Information Figures S3 and S4). Because of the PVP cappings, Co 2p XPS spectra have low signal-to-noise ratio. Still one can tell that Co in the CoPt NPs is in. more reduced state since the 2p3/2 peak in the CoPt NPs is at the lower binding energy (778 eV) than in the Co NPs (780 eV), which is consistent with X-ray absorption data. Au 4f spectrum in Supporting Information Figure S4A was used for energy calibration. Pt 4f signal is of high quality and the fitting results in ca. 80% metallic Pt with the major 4f7/2 peak centered at 71.5 eV (Supporting Information Figure S4B)."
-            ],
-            "name": "",
-            "type": "section_h2"
-        },
-        {
-            "content": [
-                "The total electron yield spectra as. function of X-ray photon energy for various cobalt oxidation states are sown in Figure 3. In CoO’s stable structure, Co2+ is octahedrally coordinated with oxygen. Another stable cobalt oxide is the spinel oxide Co3O4, which is formed under ambient room temperature and oxygen partial pressure. In Co3O4, Co3+ is octahedrally coordinated and Co2+ is tetrahedrally coordinated with oxygen, where Co3+Co2+. 2:1. Even though Co2+ Oh is generally regarded as the stable CoO state, in the sample spectrum shown in Figure. stronger feature at photon energy 778.8 than at 780.0 eV suggests the necessity to have. Co2+ Td component that is independent of the spinel oxide. To quantitatively identify the oxidation states of Co in Co and CoPt nanoparticles,. least-squares fitting method is used to fit the spectra with these four references that represent known oxidation states or structures. In Figure 3, one fitting example is given to show how one spectrum was decomposed into the four references. Since the oxidation states composition of the four references are known, the fraction of each individual oxidation state in the Co and CoPt NPs can be obtained and they are plotted in Figure 6. It is interesting to notice that for the spectrum of CoPt NPs, the shoulder at ∼777.4 eV is missing compared with the CoO reference and the spectrum of Co NPs (see Figure 5). This difference could be caused by the change of crystallinity or variation in site symmetry that is induced by the addition of Pt to Co. The slight discrepancies between the original spectrum and the fitting between 783 and 787 eV in Figure. could be caused by the background subtracting or the existence of. small amount of Co hydroxide."
-            ],
-            "name": "",
-            "type": "section_h2"
-        },
-        {
-            "content": [
-                "Figure. demonstrates the comparison of reducibility of Co in Co and CoPt NPs. All measurements were conducted at one bar of pure He or H2. With the references from refs and oxidation states of Co at the different reducing conditions can be identified. Before introducing H2, Co. edge absorption spectra were obtained in one bar He at room temperature. Co in the as-made CoPt NPs is in. more reduced state compared with Co in the as-made Co NPs. When introducing H2 at 38 °C, the Co is almost completely reduced in the CoPt NPs. While for Co in the Co NPs, one bar H2 at 250 °C still could not completely reduce Co to the metallic state. This striking different condition demonstrates that Pt facilitates effectively Co reduction in the form of bimetallic nanoparticles. Previous study on CoPt layer structure generated by spin coating also demonstrated that Pt helped to reduce Co. This can be explained as Pt is able to dissociate H2 upon H2 adsorption and hydrogen atoms are spilled over from Pt to Co thus makes Co much easier to reduce. An earlier study also shows the size effect on the reducibility of Co NPs, where it is found that the smaller cobalt nanoparticles (3 nm) are easier to reduce than the larger nanoparticles (10 nm). Our results demonstrate. more dramatic effect on Co’s reducibility when introducing the noble metal Pt."
-            ],
-            "name": "",
-            "type": "section_h2"
-        },
-        {
-            "content": [
-                "Next, Co and CoPt NPs are studied in the oxidizing conditions. The gas is composed of He and O2 with He/O2. 20:1 at 125 °C. The total pressure is cycled from millitorr to one bar and back to millitorr while O2 partial pressure is changed from millitorr to 36 Torr and back to millitorr. Co. edge absorption spectra were recorded at the same spot as well as different spots and no X-ray induced artifacts were observed."
-            ],
-            "name": "",
-            "type": "section_h2"
-        },
-        {
-            "content": [
-                "It is not straightforward to tell at each selected O2 partial pressure if the system arrived at the thermodynamically equilibrium or not. Because after the initial oxidation step, the oxidation rate can drop to. very low value. Also kinetic hindrance can keep the system in. metastable state for. very long time without approaching the thermodynamical equilibrium. In our case, at each pressure point. series of spectra were taken (in the time scale of 20−50 min) at the Co. edge until the fine structure does not change anymore, which indicates the Co arrives at. kinetically stable or metastable state. For. real catalytic reaction, the highest activity is expected to happen at the phase boundaries where the reaction is prevailed by the kinetics instead of thermodynamics."
-            ],
-            "name": "",
-            "type": "section_h2"
-        },
-        {
-            "content": [
-                "Figure. selects some of these series of spectra (at stabilized condition) at the different O2 partial pressure and Co in the Co and CoPt NPs are compared at each pressure point. By comparing these Co. edge spectra with the reference qualitatively one can see that most time Co in the CoPt NPs is in. more reduced state than in the Co NPs. To give. more quantitative picture of the evolution of Co’s oxidation states in the oxidizing conditions least-squares component fitting is performed with four reference spectra shown in Figure 3. Through fitting at each pressure point, fractions of Co0, Co2+, and Co3+ can be obtained on the stablilized specra of Co. Carbon. edge absorption spectra were also obtained (not shown here) in the reducing and oxidizing conditions; no significant changes in the carbon. edge absorption spectra were observed. Since the Pt-catalyzed decomposition temperature for PVP is beyond 300 °C, at 125 °C most PVP cappings remain intact."
-            ],
-            "name": "",
-            "type": "section_h2"
-        },
-        {
-            "content": [
-                "Figure. shows that the oxidation state of Co changes with the cycling O2 partial pressure for Co in both Co and CoPt NPs (The first points from left for Co and CoPt were taken in high vacuum, no gas flow). The ratio of He to O2 is kept at 20:1 so the corresponding total pressures change from millitorr to one bar and decrease back to millitorr. At the lower pressure, Co is in. more reduced state in the CoPt than in the Co NPs. This is illustrated by the higher fraction of Co0 and lower fraction of Co2+ for Co in the CoPt NPs than in the Co NPs. At the low pressure, Co3+ occupy very little or zero fraction. When the pressure is increased toward 36 Torr partial O2 pressure (one bar total pressure), the fractions of Co0 and Co2+ for both NPs converge while the fraction of Co3+ is significantly higher for Co in the Co NPs than in the CoPt NPs. When pressure is decreased from the highest point to millitorr, fractions of Co3+ in both CoPt and Co are reversible, that is, drop to zero when O2 partial pressure drops below 4.8 Torr; the fraction of Co0 and Co2+ in the CoPt NPs are partially reversible (hysteresis) while the fraction of Co0 and Co2+ in the Co NPs are the least reversible. Hysteresis phenomena of CO2 production as. function of CO partial pressure on Pd has been studied before, where the hysteresis was shown to be caused by the subsurface oxygen diffusion."
-            ],
-            "name": "",
-            "type": "section_h2"
-        },
-        {
-            "content": [
-                "The hysteresis phenomena in regard to the oxidation state change of Co as. function of O2 partial pressure cycling may be explained similarly by the slow diffusion rate of oxygen from the surface to the subsurface. Basically, the diffusion of oxygen from the surface to subsurface is very slow so that even though there is no change from the X-ray absorption spectra the final equilibrium may not arrive in regard to the oxygen diffusion. Since during the increase and decrease of the O2 partial pressure the oxygen keeps diffusing into the NPs, Co will be in. more oxidized state when O2 partial pressure is decreasing than while it is increasing. On the other hand, once the pressure of oxygen is changed, significant change of Co oxidation state is observed and usually does not change after 20−50 min. This represents an intrinsic steady state that is formed under the oxygen, Co NPs and their interface. Each spectrum shown under the new pressure corresponds to. quasi-equilibrium state while the slow diffusion of oxygen may cause the hysteresis. Other studies (and reference therein) also suggested that hysteresis was connected with stress−strain energy associated with lattice expansion-contraction, resulting in generation-annihilation of dislocation networks, especially for small particles."
-            ],
-            "name": "",
-            "type": "section_h2"
-        },
-        {
-            "content": [
-                "The low hysteresis (completely reversible) of Co3+ state as the function of O2 partial pressure implies that they are mostly formed at the surface since they are not affected by the diffusion of oxygen. Co3+ oxidation state plays. very important role in the catalytic reactions.. study suggests that the active state of Co for CO oxidation reactions is Co3+. Alloying with Pt tunes the amount of Co3+ state at the high pressure for Co. The reversibility of Co oxidation states with the cycling O2 partial pressure demonstrates the importance of studying catalysts at the in situ conditions for those states that are catalytically active may never appear in the low pressure or UHV condition."
-            ],
-            "name": "",
-            "type": "section_h2"
-        },
-        {
-            "content": [
-                "Previous study showed that the oxidation rate of Co increases with the increasing O2 partial pressure. In our study, oxidation state stabilized relatively fast at each O2 partial pressure for both Co and CoPt NPs at 125 °C. Figure. shows that Pt enhances the oxidation resistance of Co at the elevated partial O2 pressure. The theory of metal oxidation and alloy effect on the metal oxidation resistance was developed long ago. Basically, for many metals in the thin film region the oxidation rate is controlled by the diffusion of metal ions to the surface as well as the electron tunneling to the surface. To apply the metal oxidation theory to our system, the possible mechanism that Pt enhanced the oxidation resistance of Co could be (1) the formation of PtO2 (XPS data shows top layer Pt is oxidized) at the surface may slow down the electron tunneling rate thus slow down the oxidation of Co; (2) at the phase boundary of Pt oxide and Co oxide, metal ion diffusion or electron tunneling may slow down due to the sudden electronic potential change; and (3) alloying with Pt may generate more free electrons at the metal−oxide interface. If that is the case, according to Wagner-Hauffe rule, these extra electrons will increase the concentration of interstitial Co vacancies, thus decrease the Co ion concentration. Since the oxidation rate is determined by the metal ion diffusion, the decrease of the Co ion concentration will decrease the oxidation rate of Co."
-            ],
-            "name": "",
-            "type": "section_h2"
-        },
-        {
-            "content": [
-                "Figure. shows the evolution of fractions of tetrahedral Co2+ Td and octahedral Co2+ Oh as. function of O2 partial pressure. Overall, Co2+ Td has. higher fraction in the Co than in the CoPt NPs. In both Co and CoPt NPs, the fraction of Co2+ Td decreases with the increasing O2 pressure and increases when the O2 partial pressure goes down again, while the fraction of Co2+ Oh increases with the increasing pressure and decreases when the O2 partial pressure goes down again except Co2+ Oh fraction fluctuates at the high O2 partial pressure (18−36 Torr) for the Co NPs. At 36 Torr O2 partial pressure, the fraction of Co2+ Oh is higher in the CoPt NPs than in the Co NPs.. closer look at Figures. and. implies that for the Co NPs most Co3+ at high pressure is transformed from the Co2+ Oh structure since when O2 partial pressure increases from 18 to 36 Torr the fraction of Co2+ Oh decreases while the fraction of Co2+ Td remains flat. In the CoPt NPs, Co3+ may be transformed from both Co2+ Oh and Co2+ Td structures."
-            ],
-            "name": "",
-            "type": "section_h2"
-        },
-        {
-            "content": [
-                "Generally the stable state for Co in CoO is Co2+ Oh structure while the fitting implies there may be some Co2+ Td structure in the. nm nanoparticles that is independent of Co3O4 spinel structure.. previous study found that Co in the Pt−Co cathode is oxidized to Co2+ Td and was explained by cobalt atoms coordinating with fluorine atoms from the Nafion ionomer. Stable Co2+ Td structure with oxygen was also found in Zn0.95Co0.05O compound. Here, in our case the component fitting on the. nm nanoparticles suggests that Co2+ is stabilized to. tetrahedrally coordinated structure in addition to the Co2+ Oh structure. It is also possible that the interaction between the Co and the PVP cappings keeps Co2+ Td more stable.. definite conclusion calls for. calculation of the oxidized nanoparticle’s structure under the O2 partial pressure. Previous studies suggest Co3+ and Co2+ Oh is active and Co2+ Td in the spinel is almost inactive for CO oxidation; mapping the oxidation states distribution will help optimize the reaction condition for enhanced catalytic performance."
-            ],
-            "name": "",
-            "type": "section_h2"
-        },
-        {
-            "content": [
-                "From. more fundamental point of view, observing the evolution of oxidation states of metal under the gas pressure provides invaluable information for understanding the gas−solid interface. Depending on the system, oxidation of surface can either lead to an active or inactive phase of the catalyst. It is relevant to investigate the factors that may affect the ease or resistance of oxide formation, in this case the alloy effect. During the reaction, the surface is under the adsorption and desorption processes and is in equilibrium with the gas phase. K. Reuter et al. showed that the surface free energy is dependent only on the gas phase chemical potential. By relating the gas phase chemical potential to the total energy that was obtainable from the density functional theory (DFT) calculation,. surface phase diagram of stable and metastable structures of RuO2 in the chemical potential space was presented. Surface phase boundary was shown to span from UHV to more than one atmosphere pressure, where strong kinetic effect may lead to high catalytic activity. Also surface X-ray diffraction (SXRD) and first-principle calculations were performed to demonstrate that at the different oxygen partial pressure the metal presented different oxidized phases, where the experiment also showed. kinetic hindrance during the oxidation of Pd(100) that was not able to be revealed by the DFT calculation. Thus the feedback between the experiment and the DFT calculation complete each other and lead to the correct description of the system. Specifically, the experimental exploration of the chemical state phase diagram as. function of chemical potential or pressure would aid the DFT calculations under the H2 and O2 gas environments. Overall investigating the catalyst oxidation state in situ is important because the gas phase chemical reactivity plays. dominant role in deciding the stable oxidation states."
-            ],
-            "name": "",
-            "type": "section_h2"
-        },
-        {
-            "content": [
-                "To summarize, in situ X-ray absorption total electron yield experiments were performed on. nm Co and CoPt NPs and fractions of Co oxidation states were mapped under the cycling total pressure from millitorr to one bar. Reducibility and oxidation states of Co in Co and CoPt NPs were compared. Pt has. substantial impact on the oxidation state and structure of Co. Co is much easier to reduce when alloying with Pt. Pt keeps Co in. more reduced state in the low O2 partial pressure range. When O2 partial pressure is increased above 4.8 Torr, Co0 and Co2+ fractions in the Co and CoPt NPs tend to converge while Co has. much larger amount of Co3+ fraction in the Co NPs. Hysteresis phenomena were observed for the evolution of the oxidation states as the O2 partial pressure was cycled. Our study also suggests that. stable tetrahedral Co2+ Td oxide structure exist and evolve together with the octahedral Co2+ Oh oxide structure under the O2 environment. Catalytic properties of monometallic and bimetallic nanoparticles of Co are closely related to the oxidation state of Co. By in situ mapping the oxidation states of Co at various redox conditions, information toward understanding the catalytic reactivity of Co nanoparticles is provided."
-            ],
-            "name": "",
+            "name": "Conclusions",
             "type": "section_h2"
         }
     ],
-    "Title": "In-situ X-ray Absorption Study of Evolution of Oxidation States and Structure of Cobalt in Co and CoPt Bimetallic Nanoparticles (4 nm) under Reducing (H2) and Oxidizing (O2) Environments"
+    "Title": "Poly(allylamine hydrochloride) modified screen-printed carbon electrode for sensitive and selective detection of NADH"
 }
