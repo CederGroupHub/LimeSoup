@@ -31,7 +31,7 @@ def normalize_text(string):
     st = re.sub(r'[ \t]+', ' ', string.strip())
     reg = re.compile('\[\d+\]')
     st = reg.sub('', st)
-    st = st.replace(' .', '.').replace(' \xa0and\xa0.', '.').replace('\xa0', '')
+    st = st.replace(' .', '.').replace(' \xa0and\xa0.', '.').replace('\xa0', '').replace(' , , , , ', '').replace(' , , , ', '').replace(' , , ', '').replace(' ,', ',').replace('and,', ',').replace(',.', '.').replace(' ,', ',')
     return st
 
 
