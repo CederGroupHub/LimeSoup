@@ -16,5 +16,5 @@ with open('data/101021nl104209c.xml', 'r', encoding = 'utf-8') as f:
 
 data = ACSSoup.parse(html_str)
 
-with open('file_test.json', 'w', encoding = 'utf-8') as f:
+with open('101021nl104209c.json', 'w', encoding = 'utf-8') as f:
     json.dump(data, f, sort_keys=True, indent=4, ensure_ascii=False)

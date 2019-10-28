@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE article PUBLIC "-//Atypon//DTD Archiving and Interchange DTD Suite with ACHS extensions v2.2 20080601//EN" "archivearticle.dtd">
+<article article-type="rapid-communication" dtd-version="2.2" xml:lang="EN"  xmlns:mml="http://www.w3.org/1998/Math/MathML"><front><journal-meta>
+<journal-id journal-id-type="publisher">nalefd</journal-id><journal-title>Nano Letters</journal-title><abbrev-journal-title abbrev-type="publisher">Nano Lett.</abbrev-journal-title><issn pub-type="ppub">1530-6984</issn><issn pub-type="epub">1530-6992</issn><publisher><publisher-name>American Chemical
+Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="doi">10.1021/nl3016957</article-id><article-categories>
+<subj-group subj-group-type="type-of-article">
+<subject>Letter</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Sodium Ion Insertion in
+Hollow Carbon Nanowires for
+Battery Applications</article-title>
+</title-group><contrib-group><contrib contrib-type="author" corresp="yes" id="ath1"><name><given-names>Yuliang</given-names><x> </x><surname>Cao</surname></name><xref ref-type="corresp" rid="cor1">*</xref><xref ref-type="aff" rid="aff1">&#x2020;</xref><xref ref-type="aff" rid="aff2">&#x2021;</xref><x>, </x></contrib><contrib contrib-type="author" id="ath2"><name><given-names>Lifen</given-names><x> </x><surname>Xiao</surname></name><xref ref-type="aff" rid="aff1">&#x2020;</xref><xref ref-type="aff" rid="aff3">&#xa7;</xref><x>, </x></contrib><contrib contrib-type="author" id="ath3"><name><given-names>Maria L.</given-names><x> </x><surname>Sushko</surname></name><xref ref-type="aff" rid="aff1">&#x2020;</xref><x>, </x></contrib><contrib contrib-type="author" id="ath4"><name><given-names>Wei</given-names><x> </x><surname>Wang</surname></name><xref ref-type="aff" rid="aff1">&#x2020;</xref><x>, </x></contrib><contrib contrib-type="author" id="ath5"><name><given-names>Birgit</given-names><x> </x><surname>Schwenzer</surname></name><xref ref-type="aff" rid="aff1">&#x2020;</xref><x>, </x></contrib><contrib contrib-type="author" id="ath6"><name><given-names>Jie</given-names><x> </x><surname>Xiao</surname></name><xref ref-type="aff" rid="aff1">&#x2020;</xref><x>, </x></contrib><contrib contrib-type="author" id="ath7"><name><given-names>Zimin</given-names><x> </x><surname>Nie</surname></name><xref ref-type="aff" rid="aff1">&#x2020;</xref><x>, </x></contrib><contrib contrib-type="author" id="ath8"><name><given-names>Laxmikant V.</given-names><x> </x><surname>Saraf</surname></name><xref ref-type="aff" rid="aff1">&#x2020;</xref><x>, </x></contrib><contrib contrib-type="author" id="ath9"><name><given-names>Zhengguo</given-names><x> </x><surname>Yang</surname></name><xref ref-type="aff" rid="aff1">&#x2020;</xref><x>, and </x></contrib><contrib contrib-type="author" corresp="yes" id="ath10"><name><given-names>Jun</given-names><x> </x><surname>Liu</surname></name><xref ref-type="corresp" rid="cor1">*</xref><xref ref-type="aff" rid="aff1">&#x2020;</xref><x> </x></contrib><aff id="aff1"><label>&#x2020;</label><institution>Pacific Northwest
+National Laboratory</institution>, 902 Battelle Boulevard P.O. Box
+999, Richland, Washington 99352, United States</aff><aff id="aff2"><label>&#x2021;</label>Hubei Key Laboratory of Electrochemical
+Power Sources, College of Chemistry and Molecular Science, <institution>Wuhan University</institution>, Wuhan, 430072, P. R. China</aff><aff id="aff3"><label>&#xa7;</label>College of Chemistry, <institution>Central China Normal University</institution>, Wuhan 430079, P. R.
+China</aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email xlink:href="Jun.Liu@pnnl.gov">Jun.Liu@pnnl.gov</email>. Phone: <phone>+1 5093754443</phone> (J.L.).
+E-mail: <email xlink:href="ylcao@whu.edu.cn">ylcao@whu.edu.cn</email>. Phone: <phone>+86 27-68754526</phone> (Y.C.).</corresp></author-notes><pub-date pub-type="ppub"><day>11</day><month>07</month><year>2012</year></pub-date><pub-date pub-type="epub"><day>13</day><month>06</month><year>2012</year></pub-date><volume>12</volume><issue>7</issue><fpage>3783</fpage><lpage>3787</lpage><supplementary-material xlink:href="nl3016957_si_001.pdf" id="sifile1"/>
+<history><date date-type="received"><day>05</day><month>05</month><year>2012</year></date><date date-type="rev-recd"><day>29</day><month>05</month><year>2012</year></date><date date-type="asap"><day>13</day><month>06</month><year>2012</year></date><date date-type="issue-pub"><day>11</day><month>07</month><year>2012</year></date><date date-type="just-accepted"><day>11</day><month>06</month><year>2012</year></date></history><permissions><copyright-statement>&copy; 2012 American Chemical Society</copyright-statement><copyright-year>2012</copyright-year><copyright-holder>American Chemical Society</copyright-holder></permissions><related-article related-article-type="pdf" xlink:href="nl3016957.pdf"/>
+<abstract><p>Hollow carbon nanowires (HCNWs) were prepared through
+pyrolyzation
+of a hollow polyaniline nanowire precursor. The HCNWs used as anode
+material for Na-ion batteries deliver a high reversible capacity of
+251 mAh g<sup>&#x2013;1</sup> and 82.2% capacity retention over 400
+charge&#x2013;discharge cycles between 1.2 and 0.01 V (vs Na<sup>+</sup>/Na) at a constant current of 50 mA g<sup>&#x2013;1</sup> (0.2 C).
+Excellent cycling stability is also observed at an even higher charge&#x2013;discharge
+rate. A high reversible capacity of 149 mAh g<sup>&#x2013;1</sup> also
+can be obtained at a current rate of 500 mA g<sup>&#x2013;1</sup> (2C).
+The good Na-ion insertion property is attributed to the short diffusion
+distance in the HCNWs and the large interlayer distance (0.37 nm)
+between the graphitic sheets, which agrees with the interlayered distance
+predicted by theoretical calculations to enable Na-ion insertion in
+carbon materials.</p></abstract><abstract abstract-type="graphical">
+<fig fig-type="figure" id="f_tgr1" position="float">
+<graphic xlink:href="nl-2012-016957_0006.tif" id="tgr1"/></fig>
+</abstract><kwd-group><kwd>Hollow carbon nanowires</kwd><kwd>polyaniline nanowires</kwd><kwd>anode</kwd><kwd>sodium ion battery</kwd></kwd-group></article-meta></front><body><sec id="sec1"><title/><p>Electrical energy storage has
+attracted wide attention for the electrification of transportation
+and renewable energy integration. Currently lithium ion batteries
+are considered one of the most promising technologies due to their
+long lifetime and high energy density.<xref ref-type="bibr" rid="ref1 ref2">(1, 2)</xref> However, for
+large-scale applications, there is increasing concern about the cost
+and the limitation of lithium terrestrial reserves.<xref ref-type="bibr" rid="ref3 ref4">(3, 4)</xref> As
+a result, great efforts have been made to explore new low-cost and
+reliable electrochemical energy storage technologies.</p><p>Because
+of the abundant supply and widespread terrestrial reserves
+of Na mineral salts, Na-ion batteries have attracted increasing attention
+as a low-cost alternative to Li-ion batteries. However, the progress
+of Na-ion batteries has been slow because of the lack of appropriate
+active materials for both cathodes and anodes. Since the Na ion is
+about 55% larger than the Li ion, most materials do not have sufficiently
+big interstitial space within their crystallographic structure to
+host Na ions. This greatly limits the range of potential candidate
+materials. There are a few materials such as manganese oxides that
+have large open tunnels to accommodate Na ions for cathode material,
+but they exhibit poor stability and reversibility for the Na insertion&#x2013;extraction
+reaction.<xref ref-type="bibr" rid="ref5 ref6">(5, 6)</xref> Recently, several groups have made good
+progress on cathode material development.<xref ref-type="bibr" rid="ref7 ref8 ref9 ref10 ref11 ref12 ref13 ref14 ref15">(7-15)</xref> Johnson et al. reported a Na layered transition metal oxide that
+can deliver a stable capacity of &#x223c;95 mAh g<sup>&#x2013;1</sup> after 50 cycles owing to the stabilizing effect of Li doping in
+the layered structure.<xref ref-type="bibr" rid="ref7">(7)</xref> Our group reported
+that single crystalline Na<sub>4</sub>Mn<sub>9</sub>O<sub>18</sub> nanowires offered a high reversible capacity of 128 mAh g<sup>&#x2013;1</sup> at first cycle (at 0.1 C) and exhibited unprecedented cyclability
+(77% capacity retention for 1000 cycles at 0.5 C).<xref ref-type="bibr" rid="ref8">(8)</xref> Komaba et al. recently reported that P2&#x2013;Na<sub>2/3</sub>[Fe<sub>1/2</sub>Mn<sub>1/2</sub>]O<sub>2</sub> can deliver a higher
+reversible capacity of 190 mAh g<sup>&#x2013;1</sup> at a rate of
+12 mA g<sup>&#x2013;1</sup> in the voltage range of 1.5&#x2013;4.3
+V.<xref ref-type="bibr" rid="ref14">(14)</xref> These advances have demonstrated the
+feasibility of the Na-ion battery technology.</p><p>On the anode side,
+most studies focused on hard carbon materials
+due to their large interlayer distance and disordered structure, which
+facilitates Na-ion insertion&#x2013;extraction.<xref ref-type="bibr" rid="ref16 ref17 ref18 ref19 ref20">(16-20)</xref> Dahn and Stevens found that hard carbon from pyrolyzed
+glucose had an initial reversible capacity as high as 300 mAh g<sup>&#x2013;1</sup>, but they also pointed out that a large portion of
+the capacity came from the stripping of the Na metal plated onto the
+nanopores during discharge since the discharge cutoff voltage is set
+below 0 V.<xref ref-type="bibr" rid="ref16">(16)</xref> Tirado&#x2019;s group reported
+that carbon black had a reversible capacity close to 200 mAh g<sup>&#x2013;1</sup>. However, the large irreversible capacity (&#x223c;70%)
+is still a problem.<xref ref-type="bibr" rid="ref17">(17)</xref> Later, the same group
+used carbon microspheres prepared from resorcinol-formaldehyde and
+obtained an initial reversible capacity of 285 mAh g<sup>&#x2013;1</sup>, but they only reported the results of limited charge&#x2013;discharge
+cycles.<xref ref-type="bibr" rid="ref18">(18)</xref> Recently, Komaba et al. reported
+another hard carbon material that could deliver a reversible capacity
+of about 240 mAh g<sup>&#x2013;1</sup> between 0 and 2 V at a current
+rate of 25 mA g<sup>&#x2013;1</sup> and maintain more than 200 mAh
+g<sup>&#x2013;1</sup> over 100 cycles.<xref ref-type="bibr" rid="ref21">(21)</xref> Overall, these hard carbon materials have displayed capacities of
+200&#x2013;300 mAh g<sup>&#x2013;1</sup>, but there have been few
+reports of good cycling stability during extended operation, in particular
+at high charge&#x2013;discharge rates.</p><p>Nanostructured materials
+such as nanowires/nanotubes have provided
+new opportunities to improve the properties of energy storage materials
+for various batteries because of their structural stability and good
+conducting connectivity.<xref ref-type="bibr" rid="ref22 ref23 ref24 ref25">(22-25)</xref> Herein, we report hollow carbon nanowires (HCNWs)
+by direct pyrolyzation of a hollow polyaniline nanowire precursor.
+This novel carbon nanostructure displayed a high reversible capacity
+(251 mAh g<sup>&#x2013;1</sup> at 50 mA g<sup>&#x2013;1</sup>) and
+good excellent cycling stability over 400 cycles. A reversible capacity
+of over 200 mAh g<sup>&#x2013;1</sup> and more than 90% capacity retention
+was obtained at 125 mA g<sup>&#x2013;1</sup> after 200 cycles. Even
+at 500 mA g<sup>&#x2013;1</sup> (2 C) a high reversible capacity of
+149 mAh g<sup>&#x2013;1</sup> also can be observed. From theoretical
+calculations, we showed that a critical minimum spacing of 0.37 nm
+between the graphitic layers is required to enable good Na-ion insertion
+properties, which agrees well with experimental observations.</p><p>The hollow polyaniline nanowires (PANI-HNWs) were prepared through
+self-assembly.<xref ref-type="bibr" rid="ref26 ref27 ref28">(26-28)</xref> The amphipathic <sc>d,l</sc>-tartaric acid molecules
+first self-assembled to form wire-like micelles to act as a template.
+Then the aniline molecules underwent orientational polymerization
+and growth on the surface of the micelles. After the amphipathic templating
+molecules were washed off, polyaniline with a hollow nanowire structure
+was obtained. The as-prepared precursor exhibits a uniform tube-like
+structure with about 150 nm in diameter, about several micrometers
+in length (Figure <xref ref-type="fig" rid="fig1">1</xref>a,b) and a 20 nm inside
+diameter. Higher magnification shows that the surface of the nanowires
+is very rough, with many nanohemispheres protruding from the surface
+(Figure <xref ref-type="fig" rid="fig1">1</xref>b), which increases the specific surface
+area and the contact area with electrolyte. Scanning electron microscopy
+(SEM) images of the nanowire edges reveals that these nanowires have
+a hollow structure (inset in Figure <xref ref-type="fig" rid="fig1">1</xref>a), which
+is also confirmed by the high-resolution transmission electron microscopy
+(HRTEM) characterization (Figure <xref ref-type="fig" rid="fig1">1</xref>e). The diameter
+of the internal hollow tube is about 30 nm. In addition, the HRTEM
+image shows that the walls of the nanowires are filled with nanoparticles
+and the protrusions on the surface are embedded in the walls (Figure <xref ref-type="fig" rid="fig1">1</xref>e).</p><fig fig-type="figure" id="fig1" position="float"><label>Figure 1</label><caption><p>SEM images of the PANI-HNWs (a, b) and HCNWs (c, d). TEM
+images
+of the PANI-HNWs (e) and HCNWs (f). (g) High-resolution TEM images
+of the HCNWs.</p></caption><graphic id="gr1" position="float" xlink:href="nl-2012-016957_0002.tif"/></fig><p>After being carbonized at 1150 &#xb0;C for 6 h,
+the material still
+maintains a hollow nanowire structure; however, the surface becomes
+smoother, and the diameter decreases slightly (Figure <xref ref-type="fig" rid="fig1">1</xref>d). The TEM image in Figure <xref ref-type="fig" rid="fig1">1</xref>f shows
+that the internal hollow tubes have a diameter of 20&#x2013;40 nm.
+To avoid confusion with traditional carbon nanotubes, the new materials
+are called hollow carbon nanowires (HCNWs) in this paper. The HRTEM
+image in Figure <xref ref-type="fig" rid="fig1">1</xref>g shows that the product consists
+of graphite microcrystallites, which assemble to form many disordered
+microvoids. The graphite microcrystallites are formed by 3&#x2013;4
+layer-stacked-graphene sheets. The average spacing between the graphene
+layers is about 0.37 nm (Figure <xref ref-type="fig" rid="fig1">1</xref>g). The X-ray
+diffraction (XRD) patterns for the samples before and after carbonization
+are shown in Figure <xref ref-type="fig" rid="fig2">2</xref>a. The hollow polyaniline
+nanowire precursor shows two broad peaks centered at 2&#x3b8; = 20.2&#xb0;
+and 25.5&#xb0;, which are attributed to the periodicity parallel and
+perpendicular to the polyaniline chains, indicating an amorphous phase.<xref ref-type="bibr" rid="ref21 ref26 ref29">(21, 26, 29)</xref> After heat treatment, the XRD
+pattern of the HCNWs shows two broad peaks around 2&#x3b8; = 24.3&#xb0;
+and 44.4&#xb0;, corresponding to the (002) diffraction of the graphitic
+layer-by-layer structure and the (101) diffraction for graphite, respectively.
+From the 2&#x3b8; degree of the (002) peak, the interlayer distance
+(<italic>d</italic><sub>(002)</sub>) of graphitic layers is calculated
+to be 0.37 nm, which is in good agreement with the HRTEM observation
+in Figure <xref ref-type="fig" rid="fig1">1</xref>g. Based on the full width at half-maximum
+(fwhm) of the (002) and (101) diffraction peaks, the <italic>c</italic>-axis length (<italic>L</italic><sub><italic>c</italic></sub>) and <italic>a</italic>-axis length (<italic>L</italic><sub><italic>a</italic></sub>) in the graphite lattice can be estimated to be 1.27 nm and
+2.12 nm, respectively. Thus, the XRD results suggest that the carbonized
+product is composed of disordered graphite nanocrystallites with 3&#x2013;4
+(1.27/0.37 = 3.4) layer-stacked-graphene sheets, in agreement with
+the HRTEM observation in Figure <xref ref-type="fig" rid="fig1">1</xref>g. The microstructure
+of HCNWs is illustrated in Figure <xref ref-type="fig" rid="fig2">2</xref>b.<xref ref-type="bibr" rid="ref30">(30)</xref></p><fig fig-type="figure" id="fig2" position="float"><label>Figure 2</label><caption><p>(a) XRD patterns of the PANI-HNWs and HCNWs. (b) Schematic
+structure
+of the HCNWs.</p></caption><graphic id="gr2" position="float" xlink:href="nl-2012-016957_0003.tif"/></fig><p>Na-ion insertion&#x2013;extraction behavior in
+HCNWs was investigated
+by cyclic voltammetry (CV) and galvanostatic charge&#x2013;discharge
+cycling. To better understand the Na-ion insertion mechanism in HCNWs,
+the Li-ion insertion behavior in HCNWs was also conducted for comparison.
+The CV curves of the HCNWs electrode in the Li-ion electrolyte (Figure
+S1, <xref rid="notes-1">Supporting Information</xref> (SI)) are similar
+to other hard carbon electrodes.<xref ref-type="bibr" rid="ref31">(31)</xref> In the
+first negative scan, two irreversible reductive peaks occur at higher
+potentials (&#x223c;1.0 and 0.7 V), which are known to reflect the
+decomposition of the electrolyte and the formation of solid electrolyte
+interphase (SEI) on the surface of carbon grains.<xref ref-type="bibr" rid="ref18 ref32">(18, 32)</xref> Figure <xref ref-type="fig" rid="fig3">3</xref>a shows the CV curves of the HCNW
+electrode cycled in Na-ion electrolyte. During the reduction process,
+two small irreversible peaks occurred at 1.13 and 0.42 V versus Na<sup>+</sup>/Na, which by analogy can be related to the SEI formation,
+and the two irreversible peaks at different potentials may be attributed
+to the decomposition of the electrolyte on different active surfaces
+of the HCNWs. While the Na-ion insertion&#x2013;extraction behavior
+in this hard carbon is distinctly different from its Li counterpart
+(Figure S1, <xref rid="notes-1">SI</xref>), a pair of sharp redox
+peaks at a lower potential region (0&#x2013;0.2 V) can be clearly
+observed, which resemble Li-ion insertion into/extraction out of the
+graphite structure.<xref ref-type="bibr" rid="ref32 ref33">(32, 33)</xref> Additionally, a pair of small
+and broad redox peaks can be detected in a wide potential range of
+0.2&#x2013;1.0 V. Compared with the lithiation process in hard carbon
+and graphite, we can infer that the Na-ion insertion&#x2013;extraction
+process in the HCNWs takes place in two stages. The reaction occurring
+at higher potential (0.2&#x2013;1 V) range is attributed to the charge
+transfer on the surface of small graphitic clusters, while the reaction
+occurring at the narrow low potential range (0&#x2013;0.2 V) is ascribed
+to Na-ion insertion&#x2013;extraction in the interlayer of the graphitic
+microcrystallites.<xref ref-type="bibr" rid="ref30">(30)</xref> The redox current
+peaks tend to decrease gradually from the second to fifth cycles (Figure <xref ref-type="fig" rid="fig3">3</xref>a). In the subsequent cycles, the CV curves almost
+overlap, suggesting that the capacity decay mainly occurs in the first
+several cycles, and subsequently the electrode shows good Na ion insertion&#x2013;extraction
+stability.</p><fig fig-type="figure" id="fig3" position="float"><label>Figure 3</label><caption><p>Electrochemical characterization and battery performance of the
+HCNWs as anode material for Na-ion batteries. (a) CV curves of the
+HCNW electrode between 0 and 2.5 V at a potential sweep rate of 0.1
+mV s<sup>&#x2013;1</sup>. (b) First two charge&#x2013;discharge profiles
+of the HCNW electrode between 0 and 1.2 V at a current density of
+50 mA g<sup>&#x2013;1</sup> (0.2 C). (c) Cycle performance of the
+HCNW electrode at a current density of 50 mA g<sup>&#x2013;1</sup> (0.2 C). (d) Discharge capacity of the HCNW electrode as a function
+of charge&#x2013;discharge cycles at different charge&#x2013;discharge
+current densities of 50 (0.2 C), 125 (0.5 C), 250 (1 C), and 500 (2
+C) mAh g<sup>&#x2013;1</sup>, respectively.</p></caption><graphic id="gr3" position="float" xlink:href="nl-2012-016957_0004.tif"/></fig><p>The discharge&#x2013;charge profiles of the HCNWs
+electrode were
+measured in the potential range of 0&#x2013;1.2 V (vs Na<sup>+</sup>/Na) at a constant current rate of 50 mA g<sup>&#x2013;1</sup> (corresponding
+to a 0.2 C rate) shown in Figure <xref ref-type="fig" rid="fig3">3</xref>b. The electrode
+exhibited an initial discharge capacity of 497 mAh g<sup>&#x2013;1</sup> and only recovered a charge capacity of 251 mAh g<sup>&#x2013;1</sup>, showing a 50.5% initial Coulombic efficiency. The large irreversible
+capacity loss at the potential range of 1.5&#x2013;0.4 V (vs Na<sup>+</sup>/Na) likely originated from the decomposition of electrolyte
+partly on the surface of active sites and partly on the carbon surface
+to form SEI film as discussed above. Based on lessons from Li-ion
+batteries, the irreversible loss could be reduced in the future by
+reducing the surface area or the number of surface active sites<xref ref-type="bibr" rid="ref32 ref34">(32, 34)</xref> or using additives in the electrolytes.<xref ref-type="bibr" rid="ref35 ref36">(35, 36)</xref> The discharge/charge curves can be divided into two distinct stages,
+which correlate well with the CV curves. The first stage between 1.2
+and 0.2 V is characterized by a monotonous slope and a plateau below
+0.2 V. It has been shown that the Na-ion insertion into the microvoids
+formed by the disorderedly assembled graphite microcrystallites takes
+place at almost 0 V (vs Na<sup>+</sup>/Na).<xref ref-type="bibr" rid="ref16 ref18">(16, 18)</xref> Thus, this plateau can be attributed to the Na-ion insertion&#x2013;extraction
+in the interlayer of the graphite microcrystallites similar to that
+of Li ions with graphite.<xref ref-type="bibr" rid="ref32 ref33">(32, 33)</xref> In comparison, the
+discharge&#x2013;charge profiles of the HCNWs in Li-ion electrolyte
+only display a monotonous slope (Figure S2, <xref rid="notes-1">SI</xref>), in accord with Li insertion&#x2013;extraction behavior on most
+of the hard carbons.<xref ref-type="bibr" rid="ref30 ref37">(30, 37)</xref></p><p>Figure <xref ref-type="fig" rid="fig3">3</xref>c shows the cyclability of the HCNW
+electrode at a constant current density of 50 mA g<sup>&#x2013;1</sup> (0.2 C rate). The electrode retains a reversible capacity of 206.3
+mAh g<sup>&#x2013;1</sup> after 400 cycles, corresponding to a capacity
+retention ratio of 82.2%. The capacity decay mainly happens in the
+initial 10 cycles, which possibly results from the volume &#x201c;adjustment&#x201d;
+during the Na ion insertion&#x2013;extraction in the carbon structure.
+Still, the electrode shows good cycling performance, most likely due
+to the unique hollow structure which provides a buffering zone for
+effective release of mechanical stress caused by Na ion insertion&#x2013;extraction.
+However, as mentioned above, the electrode shows a very low initial
+Coulombic efficiency largely due to the high surface area (34.1 m<sup>2</sup> g<sup>&#x2013;1</sup>) of the as-prepared HCNWs. This drawback
+can be lifted by material modification such as surface coating, electrolyte
+optimization, and the use of highly effective SEI film-forming additives.<xref ref-type="bibr" rid="ref38">(38)</xref> Nevertheless, after the initial cycle, the Coulombic
+efficiency of the electrode reached 94% at the fourth cycle and was
+maintained thereafter at above 98% beyond 10 cycles.</p><p>Figure <xref ref-type="fig" rid="fig3">3</xref>d displays the rate performance
+of the HCNW electrode. This electrode delivered an initial reversible
+capacities of 252, 238, 216, and 149 mAh g<sup>&#x2013;1</sup> at
+the current rates of 50 (0.2 C), 125 (0.5 C), 250 (1 C), and 500 (2
+C) mA g<sup>&#x2013;1</sup>, respectively. This result demonstrates
+that the HCNW electrode exhibits a high rate capability and structural
+stability even at very high Na-ion insertion&#x2013;extraction velocities
+(2 C).</p><p>To elucidate the Na ion insertion&#x2013;extraction mechanism
+in
+the HCNW electrode, theoretical simulations on the energy cost for
+Na-ion insertion into carbon as a function of carbon interlayer distance
+were carried out. Li-ion insertion simulation was also performed for
+comparison. The calculation is based on the balance of attractive
+van der Waals interactions between carbon layers and repulsive interactions
+between Na or Li ions and carbon. The equilibrium interplanar distance
+for NaC<sub>6</sub> is about 0.45 nm (Figure <xref ref-type="fig" rid="fig4">4</xref>), while that for LiC<sub>6</sub> is 0.37 nm, in good agreement with
+the previous experimental observations.<xref ref-type="bibr" rid="ref39">(39)</xref> It is not surprising that the interplanar distance for NaC<sub>6</sub> is much larger than that of LiC<sub>6</sub> because of the larger
+size of the Na ion. The calculations of energy cost for Na or Li ion
+insertion into carbon show that the energy cost curve for Na ion is
+much steeper than that for the Li ion (Figure <xref ref-type="fig" rid="fig4">4</xref>). For graphite with an interlayer spacing of 0.335 nm, the energy
+cost for Li-ion insertion is 0.03 eV, while for Na-ion insertion it
+is 0.12 eV. As the energy of thermal fluctuations at room temperature
+is 0.0257 eV, thus, Li ions can easily intercalate into graphite layers.
+Since 0.12 eV is a significant energy barrier to overcome, Na ions
+are incapable to intercalate into the graphite layers. However, when
+the layer spacings increase to 0.37 nm, the energy barrier for Na
+ion insertion drops markedly to 0.053 eV. This energy barrier is low
+enough to conquer. The simulation analysis indicates while Na ions
+cannot intercalate into graphite with an interlayer spacing less than
+0.335 nm, they can easily insert into the as-prepared HCNWs with an
+interlayer spacing of 0.37 nm, consistent with the electrochemical
+observation. As only a capacity of 10 mAh g<sup>&#x2013;1</sup> was
+obtained from the graphite electrode (see Figure S3, <xref rid="notes-1">SI</xref>), a capacity of 150 mAh g<sup>&#x2013;1</sup> was obtained
+from the HCNW electrode under 0.2 V vs Na<sup>+</sup>/Na absolutely
+deriving from the Na-ion insertion&#x2013;extraction reaction (Figure <xref ref-type="fig" rid="fig3">3</xref>b). From these experimental and simulation
+results, it could be speculated that carbon materials with an ordered
+layer structure and an interplanar distance of a little above 0.37
+nm could act a Na-ion insertion anode similar to that of Li-ion with
+graphite (LiC<sub>6</sub>).</p><fig fig-type="figure" id="fig4" position="float"><label>Figure 4</label><caption><p>Theoretical energy cost for Na (red curve) and
+Li (blue curve)
+ions insertion into carbon as a function of carbon interlayer distance.
+The inset illustrates the mechanism of Na and Li ions insertion into
+carbon.</p></caption><graphic id="gr4" position="float" xlink:href="nl-2012-016957_0005.tif"/></fig><p>In summary, novel HCNWs were synthesized via a
+two-step method.
+First, a hollow polyaniline nanowire precursor was obtained by a self-assembly
+process, and then the precursor was carbonized at high temperature
+to obtain the target product. When used as anode materials in Na-ion
+batteries, the HCNW electrode can deliver an initial reversible capacity
+of 251 mAh g<sup>&#x2013;1</sup> and retain 206.3 mAh g<sup>&#x2013;1</sup> after 400 cycles at a 0.2 C rate. Even at a high current rate of
+2 C, the electrode still can release a reversible capacity of 149
+mAh g<sup>&#x2013;1</sup>, demonstrating a high rate capability and
+cyclability. Moreover, the electrochemical characterizations show
+that Na ions experience two types of insertion&#x2013;extraction mechanisms:
+the reaction at a higher voltage range of 0.2&#x2013;1.0 V is characterized
+by a charge transfer mechanism on the surface of the small graphitic
+clusters, while that at a lower voltage range of 0.0&#x2013;0.2 V
+is related to Na ion insertion&#x2013;extraction in the graphitic
+interlayers. The theoretical simulations show that Na ions can easily
+insert into layered carbon materials with a layer spacing of 0.37
+nm, confirming electrochemical observations.</p><p>The development
+of Na-ion batteries is still in early stages. Although
+we showed that the nanostructure is helpful for Na-ion insertion,
+the detailed reaction mechanisms need more careful study, in particular
+on the nanostructured hard carbon which has more complex structures
+and reactive sites than graphite. Electrolytes also play an important
+role in the properties observed, but the effects of composition and
+additives need to be systematically evaluated and optimized. Furthermore,
+the full cell structure of Na ion batteries may be similar or different
+from Li ion batteries, depending on the electrodes and electrolytes
+used. We are currently conducting full cell studies with different
+designs using the hard carbon nanowires as the anode and hope to report
+our progress in the future.</p></sec></body><back><notes id="notes-1" notes-type="si">
+<title><inline-supplementary-material xlink:href="/doi/suppl/10.1021/nl3016957">Supporting Information</inline-supplementary-material></title><p>Experimental details, material
+characterizations, cyclic voltammograms and charge&#x2013;discharge
+voltage profiles of HCNWs electrode in lithium ion electrolyte, charge&#x2013;discharge
+profiles of the graphite electrode. This material is available free
+of charge via the Internet at <uri xlink:href="http://pubs.acs.org">http://pubs.acs.org</uri>.</p></notes><notes id="NOTES-d316e670-autogenerated" notes-type="conflict-of-interest"><p>The authors
+declare no
+competing financial interest.</p></notes><ack id="ACK-d316e661-autogenerated"><title>Acknowledgment</title><p>We thank the support from the U.S. Department of Energy (DOE),
+Office of Electricity Delivery &amp; Energy Reliability for this research.
+The theoretical modeling is supported by Basic Energy Sciences, Division
+of Materials Sciences and Engineering under Award KC020105-FWP12152.
+Pacific Northwest National Laboratory is a multiprogram national laboratory
+operated for DOE by Battelle under Contract DE-AC05-76RL01830.</p></ack><ref-list><title>References</title><ref id="ref1"><label>1. </label><citation citation-type="journal" id="cit1"><name><surname>Tarascon</surname><x>, </x><given-names>J. M.</given-names></name><x>; </x><name><surname>Armand</surname><x>, </x><given-names>M.</given-names></name><source>Nature</source><x> </x><year>2001</year><x>, </x><volume>414</volume><x>, </x><fpage>359</fpage></citation></ref><ref id="ref2"><label>2. </label><citation citation-type="journal" id="cit2"><name><surname>Goodenough</surname><x>, </x><given-names>J. B.</given-names></name><x>; </x><name><surname>Kim</surname><x>, </x><given-names>Y.</given-names></name><source>Chem.
+Mater.</source><x> </x><year>2010</year><x>, </x><volume>22</volume><x>, </x><fpage>587</fpage></citation></ref><ref id="ref3"><label>3. </label><citation citation-type="journal" id="cit3"><name><surname>Tarascon</surname><x>, </x><given-names>J.-M.</given-names></name><source>Nat. Chem.</source><x> </x><year>2010</year><x>, </x><volume>2</volume><x>, </x><fpage>510</fpage></citation></ref><ref id="ref4"><label>4. </label><citation citation-type="journal" id="cit4"><name><surname>Ellis</surname><x>, </x><given-names>B. L.</given-names></name><x>; </x><name><surname>Makahnouk</surname><x>, </x><given-names>W. R. M.</given-names></name><x>; </x><name><surname>Makimura</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Toghill</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Nazar</surname><x>, </x><given-names>L. F.</given-names></name><source>Nat. Mater.</source><x> </x><year>2007</year><x>, </x><volume>6</volume><x>, </x><fpage>749</fpage></citation></ref><ref id="ref5"><label>5. </label><citation citation-type="journal" id="cit5"><name><surname>Sauvage</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Laffont</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Tarascon</surname><x>, </x><given-names>J. M.</given-names></name><x>; </x><name><surname>Baudrin</surname><x>, </x><given-names>E.</given-names></name><source>Inorg. Chem.</source><x> </x><year>2007</year><x>, </x><volume>46</volume><x>, </x><fpage>3289</fpage></citation></ref><ref id="ref6"><label>6. </label><citation citation-type="journal" id="cit6"><name><surname>Doeff</surname><x>, </x><given-names>M. M.</given-names></name><x>; </x><name><surname>Peng</surname><x>, </x><given-names>M. Y.</given-names></name><x>; </x><name><surname>Ma</surname><x>, </x><given-names>Y. P.</given-names></name><x>; </x><name><surname>Dejonghe</surname><x>, </x><given-names>L. C.</given-names></name><source>J. Electrochem. Soc.</source><x> </x><year>1994</year><x>, </x><volume>141</volume><x>, </x><fpage>L145</fpage></citation></ref><ref id="ref7"><label>7. </label><citation citation-type="journal" id="cit7"><name><surname>Kim</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Kang</surname><x>, </x><given-names>S. H.</given-names></name><x>; </x><name><surname>Slater</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Rood</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Vaughey</surname><x>, </x><given-names>J. T.</given-names></name><x>; </x><name><surname>Karan</surname><x>, </x><given-names>N.</given-names></name><x>; </x><name><surname>Balasubramanian</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Johnson</surname><x>, </x><given-names>C. S.</given-names></name><source>Adv. Energy Mater.</source><x> </x><year>2011</year><x>, </x><volume>1</volume><x>, </x><fpage>333</fpage></citation></ref><ref id="ref8"><label>8. </label><citation citation-type="journal" id="cit8"><name><surname>Cao</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Xiao</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Choi</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Nie</surname><x>, </x><given-names>Z.</given-names></name><x>; </x><name><surname>Yu</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Saraf</surname><x>, </x><given-names>L. V.</given-names></name><x>; </x><name><surname>Yang</surname><x>, </x><given-names>Z.</given-names></name><x>; </x><name><surname>Liu</surname><x>, </x><given-names>J.</given-names></name><source>Adv. Mater.</source><x> </x><year>2011</year><x>, </x><volume>23</volume><x>, </x><fpage>3155</fpage></citation></ref><ref id="ref9"><label>9. </label><citation citation-type="journal" id="cit9"><name><surname>Barker</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Saidi</surname><x>, </x><given-names>M. Y.</given-names></name><x>; </x><name><surname>Swoyer</surname><x>, </x><given-names>J. L.</given-names></name><source>Electrochem. Solid State Lett.</source><x> </x><year>2003</year><x>, </x><volume>6</volume><x>, </x><fpage>A1</fpage></citation></ref><ref id="ref10"><label>10. </label><citation citation-type="journal" id="cit10"><name><surname>Caballero</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Hernan</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Morales</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Sanchez</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Pena</surname><x>, </x><given-names>J. S.</given-names></name><x>; </x><name><surname>Aranda</surname><x>, </x><given-names>M. A. G.</given-names></name><source>J. Mater. Chem.</source><x> </x><year>2002</year><x>, </x><volume>12</volume><x>, </x><fpage>1142</fpage></citation></ref><ref id="ref11"><label>11. </label><citation citation-type="journal" id="cit11"><name><surname>Wessells</surname><x>, </x><given-names>C. D.</given-names></name><x>; </x><name><surname>Peddada</surname><x>, </x><given-names>S. V.</given-names></name><x>; </x><name><surname>Huggins</surname><x>, </x><given-names>R. A.</given-names></name><x>; </x><name><surname>Cui</surname><x>, </x><given-names>Y.</given-names></name><source>Nano
+Lett.</source><x> </x><year>2011</year><x>, </x><volume>11</volume><x>, </x><fpage>5421</fpage></citation></ref><ref id="ref12"><label>12. </label><citation citation-type="journal" id="cit12"><name><surname>Wessells</surname><x>, </x><given-names>C. D.</given-names></name><x>; </x><name><surname>McDowell</surname><x>, </x><given-names>M. T.</given-names></name><x>; </x><name><surname>Peddada</surname><x>, </x><given-names>S. V.</given-names></name><x>; </x><name><surname>Pasta</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Huggins</surname><x>, </x><given-names>R. A.</given-names></name><x>; </x><name><surname>Cui</surname><x>, </x><given-names>Y.</given-names></name><source>ACS
+Nano</source><x> </x><year>2012</year><x>, </x><volume>6</volume><x>, </x><fpage>1688</fpage></citation></ref><ref id="ref13"><label>13. </label><citation citation-type="journal" id="cit13"><name><surname>Tepavcevic</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Xiong</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Stamenkovic</surname><x>, </x><given-names>V. R.</given-names></name><x>; </x><name><surname>Zuo</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Balasubramanian</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Prakapenka</surname><x>, </x><given-names>V. B.</given-names></name><x>; </x><name><surname>Johnson</surname><x>, </x><given-names>C. S.</given-names></name><x>; </x><name><surname>Rajh</surname><x>, </x><given-names>T.</given-names></name><source>ACS Nano</source><x> </x><year>2012</year><x>, </x><volume>6</volume><x>, </x><fpage>530</fpage></citation></ref><ref id="ref14"><label>14. </label><citation citation-type="journal" id="cit14"><name><surname>Yabuuchi</surname><x>, </x><given-names>N.</given-names></name><x>; </x><name><surname>Kajiyama</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Iwatate</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Nishikawa</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Hitomi</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Okuyama</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Usui</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Yamada</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Komaba</surname><x>, </x><given-names>S.</given-names></name><source>Nat. Mater.</source><x> </x><year>2012</year><x>, </x><elocation-id/><pub-id pub-id-type="doi">10.1038/nmat3309</pub-id></citation></ref><ref id="ref15"><label>15. </label><citation citation-type="journal" id="cit15"><name><surname>Qian</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Zhou</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Cao</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Ai</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Yang</surname><x>, </x><given-names>H.</given-names></name><source>Adv. Energy Mater.</source><x> </x><year>2012</year><x>, </x><volume>2</volume><x>, </x><fpage>410</fpage></citation></ref><ref id="ref16"><label>16. </label><citation citation-type="journal" id="cit16"><name><surname>Stevens</surname><x>, </x><given-names>D. A.</given-names></name><x>; </x><name><surname>Dahn</surname><x>, </x><given-names>J. R.</given-names></name><source>J. Electrochem. Soc.</source><x> </x><year>2000</year><x>, </x><volume>147</volume><x>, </x><fpage>1271</fpage></citation></ref><ref id="ref17"><label>17. </label><citation citation-type="journal" id="cit17"><name><surname>Alcantara</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Jimenez-Mateos</surname><x>, </x><given-names>J. M.</given-names></name><x>; </x><name><surname>Lavela</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Tirado</surname><x>, </x><given-names>J. L.</given-names></name><source>Electrochem. Commun.</source><x> </x><year>2001</year><x>, </x><volume>3</volume><x>, </x><fpage>639</fpage></citation></ref><ref id="ref18"><label>18. </label><citation citation-type="journal" id="cit18"><name><surname>Alcantara</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Lavela</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Ortiz</surname><x>, </x><given-names>G. F.</given-names></name><x>; </x><name><surname>Tirado</surname><x>, </x><given-names>J. L.</given-names></name><source>Electrochem. Solid State
+Lett.</source><x> </x><year>2005</year><x>, </x><volume>8</volume><x>, </x><fpage>A222</fpage></citation></ref><ref id="ref19"><label>19. </label><citation citation-type="book" id="cit19"><person-group person-group-type="allauthors"><name><surname>Komaba</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Ishikawa</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Murata</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Yabuuchi</surname><x>, </x><given-names>N.</given-names></name><x>; </x><name><surname>Ozeki</surname><x>, </x><given-names>T.</given-names></name></person-group><source>15th International Meeting on Lithium
+Batteries</source>, Montreal, Canada, June 27&#x2013;July 3,<x> </x><year>2010</year><x>; </x>Abstr. No. 793.</citation></ref><ref id="ref20"><label>20. </label><citation citation-type="journal" id="cit20"><name><surname>Alcantara</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Madrigal</surname><x>, </x><given-names>F. J. F.</given-names></name><x>; </x><name><surname>Lavela</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Tirado</surname><x>, </x><given-names>J. L.</given-names></name><x>; </x><name><surname>Mateos</surname><x>, </x><given-names>J. M. J.</given-names></name><x>; </x><name><surname>de Salazar</surname><x>, </x><given-names>C. G.</given-names></name><x>; </x><name><surname>Stoyanova</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Zhecheva</surname><x>, </x><given-names>E.</given-names></name><source>Carbon</source><x> </x><year>2000</year><x>, </x><volume>38</volume><x>, </x><fpage>1031</fpage></citation></ref><ref id="ref21"><label>21. </label><citation citation-type="journal" id="cit21"><name><surname>Komaba</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Murata</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Ishikawa</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Yabuuchi</surname><x>, </x><given-names>N.</given-names></name><x>; </x><name><surname>Ozeki</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Nakayama</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Ogata</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Gotoh</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Fujiwara</surname><x>, </x><given-names>K.</given-names></name><source>Adv. Funct. Mater.</source><x> </x><year>2011</year><x>, </x><volume>21</volume><x>, </x><fpage>3859</fpage></citation></ref><ref id="ref22"><label>22. </label><citation citation-type="journal" id="cit22"><name><surname>Mai</surname><x>, </x><given-names>L. Q.</given-names></name><x>; </x><name><surname>Dong</surname><x>, </x><given-names>Y. J.</given-names></name><x>; </x><name><surname>Xu</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Han</surname><x>, </x><given-names>C. H.</given-names></name><source>Nano Lett.</source><x> </x><year>2010</year><x>, </x><volume>10</volume><x>, </x><fpage>4273</fpage></citation></ref><ref id="ref23"><label>23. </label><citation citation-type="journal" id="cit23"><name><surname>Cui</surname><x>, </x><given-names>L. F.</given-names></name><x>; </x><name><surname>Ruffo</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Chan</surname><x>, </x><given-names>C. K.</given-names></name><x>; </x><name><surname>Peng</surname><x>, </x><given-names>H. L.</given-names></name><x>; </x><name><surname>Cui</surname><x>, </x><given-names>Y.</given-names></name><source>Nano Lett.</source><x> </x><year>2009</year><x>, </x><volume>9</volume><x>, </x><fpage>491</fpage></citation></ref><ref id="ref24"><label>24. </label><citation citation-type="journal" id="cit24"><name><surname>Cui</surname><x>, </x><given-names>L. F.</given-names></name><x>; </x><name><surname>Yang</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Hsu</surname><x>, </x><given-names>C. M.</given-names></name><x>; </x><name><surname>Cui</surname><x>, </x><given-names>Y.</given-names></name><source>Nano Lett.</source><x> </x><year>2009</year><x>, </x><volume>9</volume><x>, </x><fpage>3370</fpage></citation></ref><ref id="ref25"><label>25. </label><citation citation-type="journal" id="cit25"><name><surname>Park</surname><x>, </x><given-names>M. H.</given-names></name><x>; </x><name><surname>Kim</surname><x>, </x><given-names>M. G.</given-names></name><x>; </x><name><surname>Joo</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Kim</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Kim</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Ahn</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Cui</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Cho</surname><x>, </x><given-names>J.</given-names></name><source>Nano Lett.</source><x> </x><year>2009</year><x>, </x><volume>9</volume><x>, </x><fpage>3844</fpage></citation></ref><ref id="ref26"><label>26. </label><citation citation-type="journal" id="cit26"><name><surname>Xiao</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Cao</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Xiao</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Schwenzer</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Engelhard</surname><x>, </x><given-names>M. H.</given-names></name><x>; </x><name><surname>Saraf</surname><x>, </x><given-names>L. V.</given-names></name><x>; </x><name><surname>Nie</surname><x>, </x><given-names>Z.</given-names></name><x>; </x><name><surname>Exarhos</surname><x>, </x><given-names>G. J.</given-names></name><x>; </x><name><surname>Liu</surname><x>, </x><given-names>J.</given-names></name><source>Adv. Mater.</source><x> </x><year>2012</year><x>, </x><volume>24</volume><x>, </x><fpage>1176</fpage></citation></ref><ref id="ref27"><label>27. </label><citation citation-type="journal" id="cit27"><name><surname>Zhang</surname><x>, </x><given-names>L. J.</given-names></name><x>; </x><name><surname>Long</surname><x>, </x><given-names>Y. Z.</given-names></name><x>; </x><name><surname>Chen</surname><x>, </x><given-names>Z. J.</given-names></name><x>; </x><name><surname>Wan</surname><x>, </x><given-names>M. X.</given-names></name><source>Adv. Funct. Mater.</source><x> </x><year>2004</year><x>, </x><volume>14</volume><x>, </x><fpage>693</fpage></citation></ref><ref id="ref28"><label>28. </label><citation citation-type="journal" id="cit28"><name><surname>Guo</surname><x>, </x><given-names>X. A.</given-names></name><x>; </x><name><surname>Fei</surname><x>, </x><given-names>G. T.</given-names></name><x>; </x><name><surname>Su</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>L. D.</given-names></name><source>J. Phys. Chem.
+C</source><x> </x><year>2011</year><x>, </x><volume>115</volume><x>, </x><fpage>1608</fpage></citation></ref><ref id="ref29"><label>29. </label><citation citation-type="journal" id="cit29"><name><surname>Zhao</surname><x>, </x><given-names>G. Y.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>H. L.</given-names></name><source>Microporous
+Mesoporous Mater.</source><x> </x><year>2008</year><x>, </x><volume>110</volume><x>, </x><fpage>590</fpage></citation></ref><ref id="ref30"><label>30. </label><citation citation-type="journal" id="cit30"><name><surname>Mochida</surname><x>, </x><given-names>I.</given-names></name><x>; </x><name><surname>Ku</surname><x>, </x><given-names>C. H.</given-names></name><x>; </x><name><surname>Korai</surname><x>, </x><given-names>Y.</given-names></name><source>Carbon</source><x> </x><year>2001</year><x>, </x><volume>39</volume><x>, </x><fpage>399</fpage></citation></ref><ref id="ref31"><label>31. </label><citation citation-type="journal" id="cit31"><name><surname>Ma</surname><x>, </x><given-names>Z. F.</given-names></name><x>; </x><name><surname>Yuan</surname><x>, </x><given-names>X. Z.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Liao</surname><x>, </x><given-names>X. Z.</given-names></name><x>; </x><name><surname>Hu</surname><x>, </x><given-names>H. P.</given-names></name><x>; </x><name><surname>Ma</surname><x>, </x><given-names>J. Q.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>J. F.</given-names></name><source>Electrochem. Commun.</source><x> </x><year>2002</year><x>, </x><volume>4</volume><x>, </x><fpage>188</fpage></citation></ref><ref id="ref32"><label>32. </label><citation citation-type="journal" id="cit32"><name><surname>Cao</surname><x>, </x><given-names>Y. L.</given-names></name><x>; </x><name><surname>Xiao</surname><x>, </x><given-names>L. F.</given-names></name><x>; </x><name><surname>Ai</surname><x>, </x><given-names>X. P.</given-names></name><x>; </x><name><surname>Yang</surname><x>, </x><given-names>H. X.</given-names></name><source>Electrochem. Solid State
+Lett.</source><x> </x><year>2003</year><x>, </x><volume>6</volume><x>, </x><fpage>A30</fpage></citation></ref><ref id="ref33"><label>33. </label><citation citation-type="journal" id="cit33"><name><surname>Wang</surname><x>, </x><given-names>L. S.</given-names></name><x>; </x><name><surname>Huang</surname><x>, </x><given-names>Y. D.</given-names></name><x>; </x><name><surname>Jia</surname><x>, </x><given-names>D. Z.</given-names></name><source>Electrochim. Acta</source><x> </x><year>2006</year><x>, </x><volume>51</volume><x>, </x><fpage>4950</fpage></citation></ref><ref id="ref34"><label>34. </label><citation citation-type="journal" id="cit34"><name><surname>Spahr</surname><x>, </x><given-names>M. E.</given-names></name><x>; </x><name><surname>Buqa</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Wu&#x308;rsig</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Goers</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Hardwick</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Nova&#x301;k</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Krumeich</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Dentzer</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Vix-Guterl</surname><x>, </x><given-names>C.</given-names></name><source>J. Power Sources</source><x> </x><year>2006</year><x>, </x><volume>153</volume><x>, </x><fpage>300</fpage></citation></ref><ref id="ref35"><label>35. </label><citation citation-type="journal" id="cit35"><name><surname>Jeong</surname><x>, </x><given-names>S.-K.</given-names></name><x>; </x><name><surname>Inaba</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Mogi</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Iriyama</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Abe</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Ogumi</surname><x>, </x><given-names>Z.</given-names></name><source>Langmuir</source><x> </x><year>2001</year><x>, </x><volume>17</volume><x>, </x><fpage>8281</fpage></citation></ref><ref id="ref36"><label>36. </label><citation citation-type="journal" id="cit36"><name><surname>Hu</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Kong</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Huang</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Chen</surname><x>, </x><given-names>L.</given-names></name><source>Electrochem. Commun.</source><x> </x><year>2004</year><x>, </x><volume>6</volume><x>, </x><fpage>126</fpage></citation></ref><ref id="ref37"><label>37. </label><citation citation-type="journal" id="cit37"><name><surname>Gotoh</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Maeda</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Nagai</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Goto</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Tansho</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Hashi</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Shimizu</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Ishida</surname><x>, </x><given-names>H.</given-names></name><source>J. Power Sources</source><x> </x><year>2006</year><x>, </x><volume>162</volume><x>, </x><fpage>1322</fpage></citation></ref><ref id="ref38"><label>38. </label><citation citation-type="journal" id="cit38"><name><surname>Zhang</surname><x>, </x><given-names>S. S.</given-names></name><source>J. Power Sources</source><x> </x><year>2006</year><x>, </x><volume>162</volume><x>, </x><fpage>1379</fpage></citation></ref><ref id="ref39"><label>39. </label><citation citation-type="journal" id="cit39"><name><surname>Billaud</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Henry</surname><x>, </x><given-names>F. X.</given-names></name><x>; </x><name><surname>Willmann</surname><x>, </x><given-names>P.</given-names></name><source>Mater. Res. Bull.</source><x> </x><year>1993</year><x>, </x><volume>28</volume><x>, </x><fpage>477</fpage></citation></ref></ref-list></back></article>

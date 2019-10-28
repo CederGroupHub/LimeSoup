@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE article PUBLIC "-//Atypon//DTD Archiving and Interchange DTD Suite with ACHS extensions v2.2 20080601//EN" "archivearticle.dtd">
+<article article-type="research-article" dtd-version="2.2" xml:lang="EN"  xmlns:mml="http://www.w3.org/1998/Math/MathML"><front><journal-meta>
+<journal-id journal-id-type="publisher">ancac3</journal-id><journal-title>ACS Nano</journal-title><abbrev-journal-title abbrev-type="publisher">ACS Nano</abbrev-journal-title><issn pub-type="ppub">1936-0851</issn><issn pub-type="epub">1936-086X</issn><publisher><publisher-name>American
+Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="doi">10.1021/acsnano.7b04923</article-id><article-categories>
+<subj-group subj-group-type="type-of-article">
+<subject>Article</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Picomolar
+Fingerprinting of Nucleic Acid Nanoparticles
+Using Solid-State Nanopores</article-title>
+</title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><given-names>Mohammad
+Amin</given-names><x> </x><surname>Alibakhshi</surname></name><xref rid="aff1">&#x2020;</xref><xref rid="notes-3">&#xb6;</xref><x>, </x></contrib><contrib contrib-type="author" id="ath2"><name><given-names>Justin R.</given-names><x> </x><surname>Halman</surname></name><xref rid="aff2">&#xa7;</xref><xref rid="notes-3">&#xb6;</xref><x>, </x></contrib><contrib contrib-type="author" id="ath3"><name><given-names>James</given-names><x> </x><surname>Wilson</surname></name><xref ref-type="aff" rid="aff3"><sup>&#x2225;</sup></xref><xref rid="notes-3">&#xb6;</xref><x>, </x></contrib><contrib contrib-type="author" corresp="yes" id="ath4"><contrib-id contrib-id-type="orcid"  authenticated="true">http://orcid.org/0000-0002-6042-8442</contrib-id><name><given-names>Aleksei</given-names><x> </x><surname>Aksimentiev</surname></name><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref><xref ref-type="aff" rid="aff3"><sup>&#x2225;</sup></xref><x>, </x></contrib><contrib contrib-type="author" corresp="yes" id="ath5"><name><given-names>Kirill A.</given-names><x> </x><surname>Afonin</surname></name><xref ref-type="corresp" rid="cor2"><sup>*</sup></xref><xref rid="aff2">&#xa7;</xref><xref rid="aff2">&#x22a5;</xref><x>, and </x></contrib><contrib contrib-type="author" corresp="yes" id="ath6"><contrib-id contrib-id-type="orcid"  authenticated="true">http://orcid.org/0000-0002-9837-0004</contrib-id><name><given-names>Meni</given-names><x> </x><surname>Wanunu</surname></name><xref ref-type="corresp" rid="cor3"><sup>*</sup></xref><xref rid="aff1">&#x2020;</xref><xref rid="aff1">&#x2021;</xref><x> </x></contrib><aff id="aff1"><sup>&#x2020;</sup>Department
+of Physics and <sup>&#x2021;</sup>Department of Chemistry and Chemical Biology, <institution>Northeastern University</institution>, Boston, Massachusetts 02115, <country>United States</country></aff><aff id="aff2"><sup>&#xa7;</sup>Nanoscale Science Program,
+Department of Chemistry,
+and <sup>&#x22a5;</sup>The Center for
+Biomedical Engineering and Science, <institution>University
+of North Carolina at Charlotte</institution>, Charlotte, North Carolina 28223, <country>United States</country></aff><aff id="aff3"><label>&#x2225;</label>Department
+of Physics, <institution>University of Illinois at Urbana&#xe5f8;Champaign</institution>, Urbana, Illinois 61801, <country>United States</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email xlink:href="aksiment@illinois.edu">aksiment@illinois.edu</email>.</corresp><corresp id="cor2"><label>*</label>E-mail: <email xlink:href="kafonin@uncc.edu">kafonin@uncc.edu</email>.</corresp><corresp id="cor3"><label>*</label>E-mail: <email xlink:href="wanunu@neu.edu">wanunu@neu.edu</email>.</corresp></author-notes><pub-date pub-type="ppub"><day>24</day><month>10</month><year>2017</year></pub-date><pub-date pub-type="epub"><day>11</day><month>09</month><year>2017</year></pub-date><volume>11</volume><issue>10</issue><fpage>9701</fpage><lpage>9710</lpage><supplementary-material xlink:href="nn7b04923_si_001.pdf" id="sifile1"/>
+<supplementary-material xlink:href="nn7b04923_si_002.mpg" id="sifile2"/>
+<supplementary-material xlink:href="nn7b04923_si_003.mpg" id="sifile3"/>
+<supplementary-material xlink:href="nn7b04923_si_004.mpg" id="sifile4"/>
+<supplementary-material xlink:href="nn7b04923_si_005.mpg" id="sifile5"/>
+<supplementary-material xlink:href="nn7b04923_si_006.mpg" id="sifile6"/>
+<history><date date-type="received"><day>12</day><month>07</month><year>2017</year></date><date date-type="accepted"><day>25</day><month>08</month><year>2017</year></date><date date-type="asap"><day>11</day><month>09</month><year>2017</year></date><date date-type="issue-pub"><day>24</day><month>10</month><year>2017</year></date><date date-type="just-accepted"><day>25</day><month>08</month><year>2017</year></date></history><permissions><copyright-statement>&copy; 2017 American Chemical Society</copyright-statement><copyright-year>2017</copyright-year><copyright-holder>American Chemical Society</copyright-holder></permissions><related-article related-article-type="pdf" xlink:href="acsnano.7b04923.pdf"/>
+<abstract><p>Nucleic
+acid nanoparticles (NANPs) are an emerging class of programmable
+structures with tunable shape and function. Their promise as tools
+for fundamental biophysics studies, molecular sensing, and therapeutic
+applications necessitates methods for their detection and characterization
+at the single-particle level. In this work, we study electrophoretic
+transport of individual ring-shaped and cube-shaped NANPs through
+solid-state nanopores. In the optimal nanopore size range, the particles
+must deform to pass through, which considerably increases their residence
+time within the pore. Such anomalously long residence times permit
+detection of picomolar amounts of NANPs when nanopore measurements
+are carried out at a high transmembrane bias. In the case of a NANP
+mixture, the type of individual particle passing through nanopores
+can be efficiently determined from analysis of a single electrical
+pulse. Molecular dynamics simulations provide insight into the mechanical
+barrier to transport of the NANPs and corroborate the difference in
+the signal amplitudes observed for the two types of particles. Our
+study serves as a basis for label-free analysis of soft programmable-shape
+nanoparticles.</p></abstract><abstract abstract-type="graphical">
+<fig fig-type="figure" id="f_tgr1" position="float">
+<graphic xlink:href="nn-2017-049233_0006.tif" id="tgr1"/></fig>
+</abstract><kwd-group><kwd>nucleic acid nanoparticles</kwd><kwd>nanopore sensing</kwd><kwd>RNA and DNA nanotechnology</kwd><kwd>RNA ring</kwd><kwd>DNA cube</kwd></kwd-group></article-meta></front><body><sec id="sec1"><title/><p>The advent
+of nanopores as a
+single-molecule platform has advanced studies of a wide range of species
+such as proteins, drugs, nucleotides, and polymers such as RNA, DNA,
+polypeptides, and polysaccharides.<xref ref-type="bibr" rid="ref1 ref2 ref3 ref4 ref5 ref6 ref7">(1-7)</xref> Voltage-driven passage of analytes through a nanopore results in
+transient occlusion of the pore, which temporarily reduces the ionic
+current. The depth, duration, and frequency of the current modulations
+contain information about size,<xref ref-type="bibr" rid="ref8 ref9 ref10">(8-10)</xref> charge,<xref ref-type="bibr" rid="ref10 ref11">(10, 11)</xref> and structure<xref ref-type="bibr" rid="ref12 ref13">(12, 13)</xref> of biomolecules and their interactions
+with the nanopore.<xref ref-type="bibr" rid="ref3 ref14">(3, 14)</xref> Deciphering such ionic current
+signals enables biophysical characterization of single-molecule processes<xref ref-type="bibr" rid="ref15 ref16">(15, 16)</xref> and contributes to development of single-molecule analytical methods<xref ref-type="bibr" rid="ref16 ref17 ref18 ref19">(16-19)</xref> such as nanopore DNA sequencing.<xref ref-type="bibr" rid="ref2 ref20 ref21 ref22 ref23">(2, 20-23)</xref> Alongside the development of nanopore-based sensing techniques,
+advances in nucleic acid nanotechnology have enabled design and programming
+of complex molecular structures for applications in nanomedicine and
+nanobiotechnology.</p><p>Nucleic acid nanoparticles (NANPs) are self-assembled
+nanostructures
+composed of multiple RNA or DNA molecules.<xref ref-type="bibr" rid="ref24">(24)</xref> To date, a variety of distinct NANPs has been demonstrated differing
+from one another by their shape, size, internal connectivity, and
+physicochemical properties.<xref ref-type="bibr" rid="ref24 ref25 ref26 ref27 ref28 ref29 ref30 ref31 ref32 ref33 ref34 ref35 ref36 ref37 ref38 ref39 ref40 ref41 ref42 ref43 ref44 ref45 ref46 ref47">(24-47)</xref> Ongoing development of NANPs is motivated by their potential applications
+in medicine and biotechnology, including their uses as carriers for
+RNAi inducers,<xref ref-type="bibr" rid="ref47 ref48 ref49 ref50">(47-50)</xref> aptamers,<xref ref-type="bibr" rid="ref48 ref51">(48, 51)</xref> fluorophores, and as customizable
+materials.<xref ref-type="bibr" rid="ref52 ref53 ref54">(52-54)</xref> Striking features of these nanoparticles are their
+precisely defined molecular structures, chemical stability, and tunable
+physiochemical properties. Moreover, due to their size uniformity
+and biocompatibility, NANPs are expected to outperform their metal
+and polymeric nanoparticle counterparts previously used for biosensing
+through antibody decoration, peptide coating, as well as DNA conjugation.<xref ref-type="bibr" rid="ref55 ref56 ref57 ref58">(55-58)</xref></p><p>In this work, we show that solid-state nanopores can be used
+to
+detect and characterize NANPs with high efficiency and precision.
+Akin to nanopore transport of deformable hydrogels,<xref ref-type="bibr" rid="ref59 ref60 ref61">(59-61)</xref> nanopore transport
+of hollow and flexible NANPs can be expected to report on their mechanical
+properties. Furthermore, distinguishing individual types of NANPs <italic>via</italic> a nanopore measurement can enable multiplexed detection
+of biomarkers using functional NANPs. Here, we characterize nanopore
+translocation of ring-shaped RNA and cube-shaped DNA nanoparticles
+and find that mechanical deformation of NANPs governs their passage
+through narrow pores. Next, we examine the detection limit of such
+nanopore measurements and show that individual particles from a binary
+mixture can be identified based on an ionic current pulse produced
+by a single nanopore passage of a nanoparticle.</p></sec><sec id="sec2"><title>Results and Discussion</title><p>In this work, we explore nanopore transport of NANPs using two
+representative NA structures that are further referred to as DNA cubes
+and RNA rings. Each structure is composed entirely of either DNA or
+RNA strands, self-assembled according to the prescribed connectivity
+rules. The DNA cubes<xref ref-type="bibr" rid="ref47">(47)</xref> are assembled through
+intermolecular canonical Watson&#x2013;Crick base pairing, whereas
+the RNA rings<xref ref-type="bibr" rid="ref62">(62)</xref> are formed <italic>via</italic> RNA&#x2013;RNA tertiary interactions known as kissing loops.<xref ref-type="bibr" rid="ref63">(63)</xref> To initiate the magnesium-dependent kissing
+loop interactions, individual monomers of RNA rings must be prefolded
+prior to assembly. In contrast, monomers entering the composition
+of DNA cubes were designed to avoid any internal secondary structures.</p><p>To assess the physical characteristics of these NANPs, we used
+atomic force microscopy (AFM) (<xref rid="fig1">Figure <xref ref-type="fig" rid="fig1">1</xref></xref>a,b) and gel electrophoresis (<xref rid="fig1">Figure <xref ref-type="fig" rid="fig1">1</xref></xref>c), both of which show the formation of monodisperse
+and highly regular structures. Our nanopore setup is schematically
+shown in <xref rid="fig1">Figure <xref ref-type="fig" rid="fig1">1</xref></xref>d.
+The nanopore forms a solitary electrolyte contact between the <italic>cis</italic> and <italic>trans</italic> side of the membrane. Applying
+an electric field across the pore produces a steady-state ion current
+as well as a localized electric field that captures and drives charged
+nanoparticles through the pore. Each time a nanoparticle interacts
+with the pore, the ion flux through the pore is reduced transiently,
+producing an electrical spike.</p><fig fig-type="figure" id="fig1" position="float"><label>Figure 1</label><caption><p>Assembly and visualization of nucleic
+acid nanoparticles (NANPs).
+Cartoon and 3D models (each strand colored differently) that define
+the structure of DNA cubes (a) and RNA rings (b). Below each structure,
+AFM images of the assembled structures are shown. (c) Ethidium bromide
+total staining native-PAGE of rings, cubes, and mixture of rings and
+cubes. (d) Schematics of a nanopore drawn approximately to scale with
+the two NANPs. Inset: Transmission electron micrograph of a 9 nm pore
+fabricated using electron beam irradiation of a 50 nm thick silicon
+nitride membrane (scale bar: 5 nm).</p></caption><graphic id="gr1" position="float" xlink:href="nn-2017-049233_0001.tif"/></fig><p>Previously, increasing the electric field was found to facilitate
+nanopore capture of biomolecules from the bulk solution and increase
+the signal-to-noise ratio of the produced electrical spikes.<xref ref-type="bibr" rid="ref64 ref65">(64, 65)</xref> A major downside, however, was the shorter duration of the nanopore
+translocation process, which compromised detection efficiency. In
+the case of NANPs, however, we find that it is possible to increase
+the capture rate without compromising the detection efficiency. Employing
+pores with diameters in the range of 9&#x2013;10 nm, just smaller
+than the size of a NANP, forces NANPs to reside at the nanopore entrance
+for a prolonged time before being squeezed through the nanopore by
+the electric field. As a result, every particle is detected with high
+signal-to-noise ratio using high-bandwidth electronics.<xref ref-type="bibr" rid="ref66">(66)</xref></p><p>Sample current traces for RNA rings through
+a 9 nm pore at different
+applied voltages are shown in <xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>a. The current is normalized by its open-pore value
+to highlight changes in the fractional blockade. We find that the
+fractional current blockade increases with applied bias. Further,
+we observe a seemingly counterintuitive result of longer dwell times
+at 400 mV than at 200 mV bias, which defies the previously observed
+trends in translocation of DNA<xref ref-type="bibr" rid="ref64">(64)</xref> and proteins<xref ref-type="bibr" rid="ref65">(65)</xref> through nanopores. Increasing the applied bias
+beyond 400 mV reveals the trend expected with translocation, namely,
+faster dwell times with increasing voltage. We rationalize these results
+as follows: below a certain voltage threshold, the RNA rings only
+collide with the pore and do not translocate because the electromotive
+force that drives the NANPs is insufficient for squeezing them through.
+As a result, the NANPs dwell in the pore entrance for durations that
+span orders of magnitude. Beyond a certain threshold defined by the
+electric field strength, the NANPs traverse the pore. A similar mechanism
+was previously suggested to govern transport of double-stranded DNA
+through very narrow pores in silicon nitride membranes,<xref ref-type="bibr" rid="ref67">(67)</xref> as well as the docking translocation of DNA
+origami nanoplates in 5&#x2013;30 nm nanopores.<xref ref-type="bibr" rid="ref68">(68)</xref> The deformation-controlled mechanism of NANP translocation
+is also borne out by the observation of increasing fractional blockades
+with voltage (<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>c), which reports on how deep the NANPs enter into the pore constriction.
+The transition from collisions to translocations manifests itself
+in <xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>b as a peak
+in the dwell times at &#x223c;400 mV, although we find the exact location
+of the peak to depend on the pore and particle geometry. Another example
+of dwell time dependence is shown in <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_001.pdf">Supporting Information (SI) Figure S1</ext-link>, where the peak voltage is at &#x223c;700
+mV. Note that the nanopore shape drawn in <xref rid="fig1">Figure <xref ref-type="fig" rid="fig1">1</xref></xref>d is derived from the prior tomography-based
+studies of pores produced using a similar fabrication protocol.<xref ref-type="bibr" rid="ref69 ref70">(69, 70)</xref> Thus far, our results suggest that nanopore translocation of NANPs
+involves processes that occur at two separate time scales: the dwell
+time scale associated with NANPs residing at the nanopore entrance
+and the passage time scale associated with actual nanopore translocation
+of NANPs. Whereas the dwell times of the RNA rings span several orders
+of magnitude (see <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_001.pdf">SI Figure S1</ext-link> and <xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>c,d), the passage
+times are expected to be much shorter than the dwell times, given
+that the nanopore translocation can only happen after deformation
+and/or buckling of the stalled nanoparticles. Thus, although we would
+expect to see deeper blockades when NANPs pass through the pores,
+we do not detect them presumably due to the passage time scales shorter
+than those detectable by our electronics (&gt;1 &#x3bc;s detection
+limits).</p><fig fig-type="figure" id="fig2" position="float"><label>Figure 2</label><caption><p>Deformation-controlled transport of NANPs. (a) Normalized current
+traces obtained for RNA rings interacting with a 9 nm nanopore at
+200, 400, 600, 800, and 1000 mV (for 400 and 600 mV data, open-pore
+segments were excised to allow more events to be seen). (b) Mean dwell
+time <italic>versus</italic> applied bias for RNA rings (dashed line
+is a trendline fit to guide the eye). Vertical lines for each data
+point represent &#xb1;1 standard deviation in the corresponding dwell
+time distributions. (c) Mean fractional blockade <italic>versus</italic> applied bias (dashed line is a linear fit). Inset cartoons are perceived
+interpretations of the increasing fractional blockades with increasing
+voltage. (d) Recapture of an RNA ring. Switching polarity of the voltage
+bias immediately after a long ionic current blockade produced a similar
+amplitude opposite polarity blockade event, confirming nanopore translocation
+of NANPs and further suggesting that NANPs retain their structure
+after translocation (inset scale bar: 300 &#x3bc;s). Experiments performed
+with 400 mM KCl (10 mM Tris, 2 mM MgCl<sub>2</sub>, pH 7.9).</p></caption><graphic id="gr2" position="float" xlink:href="nn-2017-049233_0002.tif"/></fig><p>In order to verify successful
+translocation of NANPs through the
+nanopore, we performed nanopore recapture experiments (see <xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>d).<xref ref-type="bibr" rid="ref71">(71)</xref> In these experiments, a transition in the pore current
+level from the NANP-occupied state back to the open state triggers
+the hardware to reverse the bias polarity after a set delay, which
+we have chosen to be 200 &#x3bc;s. Such rapid switching of bias polarity
+results in recapture of the same NANP that just passed through the
+nanopore. Recapture of the rings, which occurs with a probability
+of &#x223c;10%, validates our interpretation of long-lasting blockades
+as NANP capture terminated by nanopore translocation. Furthermore,
+ionic current blockades produced by both translocation and recapture
+are very similar (more example events are shown in <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_001.pdf">SI Figure S2</ext-link>), with slight variations in the exact signal
+amplitude and durations (&lt;20%) that may be accounted for by the
+nanopore-shape asymmetry. This finding suggests that nanopore translocation
+does not disrupt the structural integrity of the rings, as linear
+RNA molecules of similar mass are not expected to produce signals
+of similar amplitudes and durations given that the translocation kinetics
+of a NANP is conditioned by both the size of the ring and its mechanical
+compliance.</p><p>In a typical nanopore experiment, the voltage applied
+across the
+pore serves to facilitate the capture of analytes as well as to translocate
+them through the pore. Therefore, capture and translocation are coupled,
+which makes detection of trace amounts of analyte challenging. Indeed,
+although detection limits for a particular analyte can be increased
+by increasing the applied bias,<xref ref-type="bibr" rid="ref72">(72)</xref> any increase
+in applied bias would also speed up the translocation process, which
+usually compromises detection. However, in contrast to free translocation
+of particles through nanopores that are larger than the analytes,
+in the regime of deformation-controlled transport, capture and translocation
+can be decoupled. In <xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>a&#x2013;h, we show example 60 s current traces for RNA rings
+at 1 V applied bias for concentrations ranging from 10 pM to 1.25
+nM. The experiment was carried out by serial dilution (2&#xd7;) of
+a 5 nM solution of RNA rings, followed by recording of &#x223c;150
+s of data at each concentration for mean capture rate calculation. <xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>i displays a log&#x2013;log
+plot of the mean capture rate of the RNA rings as a function of their
+concentration. Red markers were obtained by calculating the capture
+rate based on the total number of recorded events, whereas the black
+markers represent capture rates for only events with amplitudes that
+are larger than 15% of the open-pore current (mean blockades of rings
+&#x223c;30%). With the shallow events omitted, a power law fit to
+the log&#x2013;log data yields a power of 1.12, which closely matches
+the expected linearity (1.0 power), the discrepancy either stemming
+from volume estimation error or from pipet miscalibration. However,
+it is noteworthy that omitting the random (and rare) shallow events
+that result either from pore surface contamination or from buffer
+contamination allows us to push detection limits to the pM levels.
+Finally, we have calculated the capture radius of the rings from the
+observed capture rates, yielding values of &#x223c;100 nm; the diffusion
+coefficient of an RNA ring was estimated to be 40 &#x3bc;m<sup>2</sup>/s using the nominal size of the ring and the Einstein&#x2013;Stokes
+equation. We note that for a previous study of double-stranded DNA
+capture into small (4 nm diameter) nanopores,<xref ref-type="bibr" rid="ref72">(72)</xref> the capture radius was found to be commensurate with the DNA radius
+of gyration. In contrast, the higher voltages used in our experiment,
+coupled to high efficiency detection that results from deformation-controlled
+transport, yields a capture radius for the deformable structure that
+is an order of magnitude larger than its radius of gyration.</p><fig fig-type="figure" id="fig3" position="float"><label>Figure 3</label><caption><p>Concentration
+limit of NANP detection. (a&#x2013;h) Current traces
+recorded from samples containing RNA rings at different concentrations.
+All measurements were carried out using a 9 nm pore at 1 V applied
+bias; the data were low-pass filtered at 500 kHz. Shaded regions in
+panels a&#x2013;c highlight occurrence of shallow events. (i) Capture
+rate <italic>versus</italic> concentration of RNA rings. Red markers:
+capture rate based on total number of events. Black markers: capture
+rate after omission of the shallow events with fractional blockade
+less than 15%. Experiments performed with 400 mM KCl (10 mM Tris,
+2 mM MgCl<sub>2</sub>, pH 7.9).</p></caption><graphic id="gr3" position="float" xlink:href="nn-2017-049233_0003.tif"/></fig><p>After having characterized the nanopore transport of RNA
+rings,
+we have carried out similar measurement using DNA cubes (see <xref rid="fig1">Figure <xref ref-type="fig" rid="fig1">1</xref></xref> and <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_001.pdf">SI Figure S3</ext-link>). Overall, DNA cubes exhibit very
+similar transport behavior, including very broad dwell time distributions,
+increased fractional blockade with increasing voltage, and nonmonotonous
+behavior of dwell times with increasing voltage values. A simple theoretical
+estimate of the fractional blockade produced by a DNA cube is in good
+agreement with the results of our measurements (see <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_001.pdf">SI, section III</ext-link>). Owing to their 3D structure, DNA cubes can
+block a larger volume of the pore in its high electric field zone,
+hence causing larger current blockades. This permits the use of the
+same pore to discriminate DNA cubes from RNA rings. <xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>a directly shows the possibility of such shape differentiation.
+Clearly, two distinct blockade levels are present in the trace, as
+further exemplified in the close-up of <xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>b. Experiments conducted with individual
+NANPs as well as their binary mixtures (1 nM ring; 1.4 nM cube) confirmed
+that the higher-level blockade belongs to the cubes (see <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_001.pdf">Figure S4</ext-link>). The scatter plot of the fractional
+blockade <italic>versus</italic> dwell time clearly demonstrates two
+mutually exclusive populations, indicating that cubes and rings can
+be differentiated based on single pulses with &#x2265;99% efficiency
+(<xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>c). In other
+words, each event in the scatter plot can be mapped to either a ring
+or a cube, based on its fractional blockade amplitude. Given that
+both particles deform as they enter the pore constriction, increasing
+the applied bias to 800 mV results in increased fractional current
+blockades for both NANPs while also reducing their corresponding mean
+dwell times (<xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>d). These results were reproduced using 15 different nanopores in
+the 9.5 &#xb1; 1 nm range at different applied voltages despite small
+variabilities in the fractional current blockades and translocation
+threshold voltage that are related to the exact nanopore geometry.
+It is important to note that in the gel electrophoresis experiment
+performed using a ring&#x2013;cube mixture (<xref rid="fig1">Figure <xref ref-type="fig" rid="fig1">1</xref></xref>c), the two types of NANPs, despite being
+different in shape and size, migrate very similarly and hence are
+difficult to distinguish from one another. In contrast, the deformation-controlled
+transport through nanopores enables accurate differentiation of the
+two NANP species. An even more accurate quantification of a composition
+of a NANP mixture, in addition to measuring the capture rate, would
+require accounting for the relative capture probability for each nanoparticle,
+which in practice would reduce to a calibration measurement for each
+particle type.</p><fig fig-type="figure" id="fig4" position="float"><label>Figure 4</label><caption><p>Discrimination of RNA rings from DNA cubes. (a) Current
+traces
+measured from a binary mixture of DNA cubes and RNA rings (1 nM ring;
+1.4 nM cube). The translocation experiments were performed using a
+9.5 nm diameter pore, with a 500 mV transmembrane voltage; data were
+low-pass filtered at 500 kHz. (b) Close view of the current trace
+indicates two distinct blockade levels associated with each nucleic
+acid nanoparticle. (c) Scatter plot of the fractional blockade <italic>versus</italic> dwell time measured at 500 mV applied bias displays
+two distinct populations corresponding to the DNA cubes (<italic>n</italic> = 422) and the RNA rings (<italic>n</italic> = 376). (d) Scatter
+plot similar to (c) obtained at an applied bias of 800 mV. In this
+panel, data were processed using a 1 MHz low-pass filter (<italic>n</italic><sub>cube</sub> = 573, <italic>n</italic><sub>ring</sub> = 498). Experiments performed with 400 mM KCl (10 mM Tris, 2 mM
+MgCl<sub>2</sub>, pH 7.9).</p></caption><graphic id="gr4" position="float" xlink:href="nn-2017-049233_0004.tif"/></fig><p>To elucidate the microscopic mechanism of NANP permeation
+through
+solid-state nanopores and to obtain an independent assessment of the
+ionic current blockade levels, we constructed several all-atom models
+of a nanopore system containing either a DNA cube or an RNA ring nanoparticle
+(<xref rid="fig5">Figure <xref ref-type="fig" rid="fig5">5</xref></xref>a). To increase
+the computational efficiency of molecular dynamics (MD) simulations,
+the nanopore shape was chosen to reproduce the <italic>cis</italic> half of the experimental nanopore system, with the <italic>trans</italic> side cut off at the membrane midplane. Prior to simulations of the
+nanopore transport, the nanoparticles were equilibrated for at least
+60 ns in bulk 400 mM KCl solution until their root-mean-square deviation
+(rmsd) from the idealized geometry had reached steady values of 1.2
+and 0.6 nm for the DNA cube and the RNA ring, respectively (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_001.pdf">SI Figure S8</ext-link>). Such rather large equilibrium
+rmsd values reflect considerable structural fluctuations that nevertheless
+do not affect integrity of the particles, Indeed, more than 90% of
+all base pairs remained intact during the free equilibration simulation
+(<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_001.pdf">SI Figure S8</ext-link>).</p><fig fig-type="figure" id="fig5" position="float"><label>Figure 5</label><caption><p>MD simulations of NANPs&#x2019;
+translocation through a solid-state
+nanopore. (a) Typical simulation system containing a nanopore (gray),
+a DNA cube (colors), water (semitransparent surface), and ions (spheres).
+The diameter of the nanopore constriction is 9 nm. (b) Snapshots illustrating
+a simulated translocation of a DNA cube under a 500 mV transmembrane
+bias. Water and ions are not shown for clarity. (c,d) Representative
+conformations of a DNA cube (c) and an RNA ring (d) trapped at the
+nanopore constriction under a 200 mV transmembrane bias. (e) Percentage
+of the open-pore current reduced by the nanoparticles trapped in the
+nanopore. Several independent simulations were performed for each
+particle at each bias condition differing by the initial orientation
+of the particles with respect to the nanopore (see <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_001.pdf">SI Figure S6</ext-link>). The blockade currents were determined after
+the particles reached a stable conformation within the nanopore (see <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_001.pdf">SI Figure S7 and Table S1</ext-link>). The error bars represent
+the propagated standard error of 800 ps block averaging. A horizontal
+dashed line denotes the average blockade currents produced by DNA
+cubes and RNA rings.</p></caption><graphic id="gr5" position="float" xlink:href="nn-2017-049233_0005.tif"/></fig><p>To simulate nanopore transport, equilibrated NANPs were placed
+at the opening of the nanopore (<xref rid="fig5">Figure <xref ref-type="fig" rid="fig5">5</xref></xref>a) and, following short equilibration, were simulated
+under a transmembrane bias of either 200 or 500 mV. Several independent
+simulations were performed at each bias; <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_001.pdf">Table S1</ext-link> provides a summary of all MD runs. In some simulations performed
+at a 500 mV bias, the particles were observed to pass through the
+nanopore constriction, rapidly exiting on the <italic>trans</italic> side; one such trajectory is featured in <xref rid="fig5">Figure <xref ref-type="fig" rid="fig5">5</xref></xref>b. Interestingly, the DNA cube maintained
+its integrity after the translocation (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_001.pdf">SI Figure S9</ext-link>). In the majority of the simulations, however, the particles
+became wedged at the <italic>cis</italic> entrance of the nanopore.
+Two such stable conformations are shown in <xref rid="fig5">Figure <xref ref-type="fig" rid="fig5">5</xref></xref>c,d; <xref rid="notes-1">SI animations 1&#x2013;5</xref> represent simulation trajectories. Once the structures had reached
+an equilibrium conformation and their movement effectively ceased,
+see <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_001.pdf">SI Figure S7 and Table S1</ext-link>, we calculated
+the ionic current for each of the structures directly from the motion
+of the ions through the nanopore. For comparison, we also simulated
+the ionic current through the nanopore containing no nanoparticles. <xref rid="fig5">Figure <xref ref-type="fig" rid="fig5">5</xref></xref>e plots the current
+blockade percentage 100 (<italic>I</italic><sub>o</sub> &#x2013; <italic>I</italic>)/<italic>I</italic><sub>o</sub>, where <italic>I</italic> is the ionic current passing through the nanopore and <italic>I</italic><sub>o</sub> is the open-pore current. The DNA cube blocked a higher
+percentage of the current than the RNA ring in our simulations, at
+both biases, which is in agreement with our experimental data. Note
+that, because of the difference in the geometry of the simulated and
+experimental nanopore systems, the simulations systematically underestimate
+the fractional blockade levels.</p></sec><sec id="sec3"><title>Conclusions</title><p>NANPs
+have shown promise as enablers of advanced biophysical studies
+and as probes for molecular sensing approaches. Here, we have used
+measurements of ionic current to characterize the process of NANPs&#x2019;
+transport through solid-state nanopores, identifying conditions where
+deformability of the nanoparticles determines their transport characteristics.
+Specifically, we find that elastic deformation of NANPs in response
+to the applied electric field permits them to pass through nanopores
+smaller than the particle size but only after the force on the particles
+in the nanopore exceeds a threshold value. Such deformation results
+in longer dwell times, which considerably improves NANP detection
+limits even at a high applied bias. Furthermore, nanoparticles of
+different types (<italic>i.e.</italic>, RNA rings and DNA cubes) produce
+distinct populations of ionic current blockade, and the type of individual
+particle transiting a nanopore from a particle mixture can be determined
+from a single current blockade. Such a tremendous distinguishability,
+combined with picomolar sensitivity, poises nanopore-based sensing
+of NANPs as an attractive candidate for development of a multiplexed
+detection platform for general biomarker sensing. Finally, our work
+introduces nanopores as sensitive tools for investigation of the physical
+properties of multistrand nanoassemblies, which are challenging to
+characterize otherwise, especially when several nanoparticle types
+of comparable sizes, charges, and molecular weights are simultaneously
+present in the mixture, even at pM concentrations.</p></sec><sec id="sec4"><title>Methods</title><sec id="sec4.1"><title>Nanoparticle Synthesis and Characterization</title><p>All NANPs
+were assembled by combining individual monomer components at equimolar
+concentrations. The oligonucleotides encoding the composition of NANPs
+are listed in the <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_001.pdf">Supporting Information</ext-link>. DNA oligonucleotides were purchased from IDT (<uri xlink:href="http://idtdna.com">idtdna.com</uri>), and RNA strands were produced by <italic>in vitro</italic> runoff transcription using PCR-amplified DNA templates. For that,
+synthetic DNAs coding for the sequence of the designed RNA were amplified
+by PCR using primers containing the promoters for T7 RNA polymerase.
+PCR-amplified and purified (DNA Clean&amp;Concentrator-5, Zymo Research)
+DNA templates (0.2 &#x3bc;M) were transcribed with &#x201c;home-made&#x201d;
+T7 RNA polymerase in 80 mM HEPES-KOH, pH 7.5; 2.5 mM spermidine; 50
+mM DTT; 25 mM MgCl<sub>2</sub>; 5 mM NTPs. Transcription was stopped
+with RQ1 DNase. Transcribed RNAs were purified with 8 M urea denaturing
+gel electrophoresis (PAGE, 15% acrylamide). The RNAs were eluted from
+gel slices overnight at 4 &#xb0;C into 1&#xd7; TBE buffer containing
+300 mM NaCl and then precipitated in 2.5 volumes of 100% ethanol.
+Samples were then rinsed with 90% ethanol, vacuum-dried, and dissolved
+in double-deionized water.</p><p>For assembly of DNA cubes, corresponding
+oligonucleotides (purchased from IDT) were mixed in doubly deionized
+water, heated to 95 &#xb0;C for 2 min, snap-cooled to 45 &#xb0;C,
+and incubated for 20 min. For assembly of RNA rings, mixtures of RNAs
+(individually transcribed and purified) were heated to 95 &#xb0;C
+for 2 min, followed by snap-cooling on ice for 2 min, and incubation
+at 30 &#xb0;C for 30 min. An assembly buffer (1&#xd7; concentration:
+89 mM tris-borate (pH 8.3), 2 mM MgCl<sub>2</sub>, 50 mM KCl) was
+added following the heating step to all assemblies.</p><p>All NANPs
+were characterized by the electrophoretic mobility shift
+assays carried out on 8% nondenaturing native PAGE (37.5:1, 2 mM MgCl<sub>2</sub>) and visualized with a Bio-Rad ChemiDoc MP system using total
+staining with ethidium bromide (EtBr). All gels were run for 30 min
+at 4 &#xb0;C, 300 V. NANPs were further visualized by AFM. For that,
+5 &#x3bc;L of 50 nM NANPs was deposited on APS-modified mica, incubated
+for &#x223c;2 min, and air-dried, as described previously. AFM visualization
+was carried out in tapping mode on a MultiMode AFM Nanoscope IV system
+(Bruker Instruments, Santa Barbara, CA). The images were recorded
+with a 1.5 Hz scanning rate using a TESPA-300 probe from Bruker with
+a resonance frequency of 320 kHz and spring constant of about 40 N/m.
+Images were processed by the FemtoScan Online software package (Advanced
+Technologies Center, Moscow, Russia).<xref ref-type="bibr" rid="ref73 ref74">(73, 74)</xref></p></sec><sec id="sec4.2"><title>Nanopore Fabrication
+and Measurement</title><p>The nanopore devices
+are 5 &#xd7; 5 mm<sup>2</sup> chips with a 50 nm thick freestanding
+silicon nitride membranes at the center. Nanopores were drilled using
+a JEOL 2010F transmission electron microscope operating at 200 kV.
+After fabrication, nanopore chips were cleaned using hot Piranha (sulfuric
+acid/hydrogen peroxide, 2:1), rinsed first by hot DI water and then
+by a stream of DI water, and finally dried under a gentle stream of
+nitrogen. Next, the chips were mounted in a custom PTFE cell, and
+a fast-curing silicone elastomer was used to seal the edges as well
+as to paint the exposed areas of the chips as close as possible to
+the membrane. This painting along with a 2 &#x3bc;m thick silicon
+oxide layer intermediating the silicon substrate and the silicon nitride
+layer reduced the capacitive noise of these chips, allowing high bandwidth
+electrical measurement of the ionic current through the nanopore.
+The rms noise of the chips after filtering with a 1 MHz low-pass filter
+was in the range of 180&#x2013;220 pA. The fluidic cell is composed
+of two chambers (<italic>cis</italic> and <italic>trans</italic>)
+that can only be connected through the nanopore. Experiments were
+performed with 400 mM KCl (10 mM Tris, 2 mM MgCl<sub>2</sub>, pH 7.9).
+This low concentration of Mg<sup>2+</sup> ions was added to the buffer
+to help with preserving the nanoparticles. The silver/silver chloride
+electrodes interface the fluidics with the electronics. The ionic
+current was recorded using a Chimera VC100 amplifier (Chimera Instruments
+LLC), digitized at 4.17 M sample/s and digitally low-pass filtered.</p><p>Before each experiment, the conductance of the nanopores was measured
+and compared against the theoretical values to confirm the dimensions
+of the nanopores. Next, the nanoparticles were added to the <italic>cis</italic> chamber (grounded), and a positive bias was applied
+to the <italic>trans</italic> chamber. Upon applying the bias, the
+charged nanoparticles were electrophoretically driven through the
+nanopore and the translocation events were observed in the form of
+spikes in the DC current. The height and width of these events, that
+is, current blockade by a nanoparticle and the dwell time of a nanoparticle
+in the nanopore contain information about the structure of the nanoparticles
+and their interactions with the nanopore. Additionally, the interevent
+time distribution (the time interval between two successive events)
+was used to determine the capture rate, which was then correlated
+with the concentration of nanoparticles. Pyth-Ion, a nanopore data
+analysis package, was used to extract such data from the recordings.
+Further analysis and distribution fittings were performed with MATLAB
+R2014.</p></sec><sec id="sec4.3"><title>Molecular Dynamics Simulations</title><p>All MD simulations of
+the NANPs/nanopore systems were carried out using NAMD2,<xref ref-type="bibr" rid="ref75">(75)</xref> periodic boundary conditions, the CHARMM36 force
+field,<xref ref-type="bibr" rid="ref76">(76)</xref> a custom force field for silica,<xref ref-type="bibr" rid="ref77">(77)</xref> and the CUFIX corrections for ions.<xref ref-type="bibr" rid="ref78">(78)</xref> Multiple timestepping<xref ref-type="bibr" rid="ref79">(79)</xref> was used: local interactions were computed every 2 fs, whereas long-range
+interactions were computed every 6 fs. All short-range nonbonded interactions
+were cut off starting at 0.8 nm and completely cut off by 1.0 nm.
+Long-range electrostatic interactions were evaluated using the particle-mesh
+Ewald method<xref ref-type="bibr" rid="ref80">(80)</xref> computed over a 0.1 nm spaced
+grid. SETTLE<xref ref-type="bibr" rid="ref81">(81)</xref> and RATTLE<xref ref-type="bibr" rid="ref82">(82)</xref> algorithms were applied to water and nucleic acid hydrogen
+atoms, respectively. A Langevin thermostat of 1.0 ps<sup>&#x2013;1</sup> damping constant was coupled to silica atoms to maintain constant
+temperature. Atoms of silica membrane were also harmonically restrained
+to their initial coordinates; the spring constant of the restraints
+was 200 kcal mol<sup>&#x2013;1</sup> &#xc5;<sup>&#x2013;2</sup>. Constant
+pressure simulations employed a Nose&#x301;&#x2013;Hoover Langevin
+piston.<xref ref-type="bibr" rid="ref83">(83)</xref></p><p>The atomic-scale model
+of a solid-state nanopore was obtained by annealing high-temperature
+(7000 K) silica melt in the presence of a grid-based potential that
+defined the shape of the nanopore. During the annealing simulation,
+the temperature of the system was set to 7000, 5000, 2000, and 300
+K for 40&#x202f;000, 40&#x202f;000, 100&#x202f;000, and 100&#x202f;000
+steps, respectively. These simulations were performed in vacuum using
+the BKS force field.<xref ref-type="bibr" rid="ref84">(84)</xref> The nanopore shape
+was chosen to match the nanopore geometry realized in the experiment:<xref ref-type="bibr" rid="ref70">(70)</xref> the nanopore had an hourglass shape with the
+middle section approximated by a 9 nm diameter cylinder and the nanopore
+entrances approximated by 30&#xb0; angle cones. To reduce the cost
+of MD simulations, the nanopore shape was cut in half along the midplane
+of the membrane, resulting in an asymmetric system shown in <xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>a. After being annealed,
+atoms located farther than 1 nm away from the nanopore surface were
+removed, further reducing the computational cost of the simulations.</p><p>Initial models of NA particles were built by arranging DNA and
+RNA strands according to the particle&#x2019;s idealized geometry.
+The cube and the ring particles were submerged in a cubic volume of
+400 mM KCl electrolyte 14 and 18 nm on each side, respectively. The
+systems were equilibrated in the constant number of particles, pressure,
+and temperature (NPT) ensemble for over 60 ns each (<italic>P</italic> = 1 atm; <italic>T</italic> = 295 K). The equilibrated systems were
+then merged with the all-atom model of the nanopore, placing each
+NANP at the entrance of the nanopore with its center of mass initially
+located at the nanopore axis. The ring particle was initially oriented
+normal to the silica membrane. Three versions of the cube/nanopore
+system were built differing by the orientation of the cube with respect
+to the nanopore (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_001.pdf">SI Figure S6</ext-link>). Water and
+ions that clashed with the membrane were removed; additional volumes
+of 400 mM KCl solution were added to fully wet the nanopore and to
+form water-filled compartments on either side of the membrane. The
+final systems measured 16 &#xd7; 16 &#xd7; 23 nm<sup>3</sup> and contained
+approximately 470&#x202f;000 atoms. The systems were equilibrated
+in the NPT ensemble for approximately 5 ns. Following the equilibration,
+the simulations were run in the constant number of particles, volume,
+and temperature (NVT) ensemble. An external electric field, <italic>E</italic> = &#x2212;<italic>V</italic>/<italic>L</italic><sub><italic>Z</italic></sub>, was applied along the nanopore axis to produce
+the target drop of the electric potential, <italic>V</italic>, over
+the system&#x2019;s dimension in the direction of the applied field, <italic>L</italic><sub><italic>Z</italic></sub>.<xref ref-type="bibr" rid="ref85">(85)</xref> In all simulations, a short-range repulsive potential was applied
+to atoms of NANPs to prevent their permanent binding to the nanopore
+surface.<xref ref-type="bibr" rid="ref86">(86)</xref></p></sec></sec></body><back><notes id="notes-1" notes-type="si">
+<title><inline-supplementary-material xlink:href="/doi/suppl/10.1021/acsnano.7b04923">Supporting Information</inline-supplementary-material></title><p>The Supporting Information
+is available free of charge on the <ext-link xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at DOI: <ext-link xlink:href="http://pubs.acs.org/doi/abs/10.1021/acsnano.7b04923">10.1021/acsnano.7b04923</ext-link>.<list id="silist" list-type="label"><list-item><p>Compositions of
+the nanoparticles; translocation of
+the DNA cubes and RNA rings through a nanopore at different voltages;
+recapture of RNA rings at different voltages; estimation of the fractional
+current blockade; initial orientation of the NANPs in MD simulations;
+simulated displacement of NANPs through a nanopore; structural fluctuations
+of NANPs in bulk solution; structural integrity of NANPs during simulated
+nanopore translocation; animations illustrating MD trajectories of
+a DNA cube translocation through a solid-state nanopore with different
+initial orientations under a 200 mV bias, an MD trajectory of a DNA
+cube translocation under a 500 mV bias, an MD trajectory of an RNA
+ring translocation under a 200 mV bias translocation (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_001.pdf">PDF</ext-link>)</p></list-item><list-item><p>Animation M1
+(<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_002.mpg">MPG</ext-link>)</p></list-item><list-item><p>Animation
+M2 (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_003.mpg">MPG</ext-link>)</p></list-item><list-item><p>Animation
+M3 (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_004.mpg">MPG</ext-link>)</p></list-item><list-item><p>Animation
+M4 (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_005.mpg">MPG</ext-link>)</p></list-item><list-item><p>Animation
+M5 (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.7b04923/suppl_file/nn7b04923_si_006.mpg">MPG</ext-link>)</p></list-item></list></p></notes><notes id="notes-3"><label>&#xb6;</label><title>Author Contributions</title><p>M.A.A.,
+J.R.H., and J.W. contributed equally to this work.</p></notes><notes id="notes-2" notes-type="conflict-of-interest"><p>The authors
+declare no competing financial interest.</p></notes><ack id="ACK-d289e905-autogenerated"><title>Acknowledgment</title><p>We thank Dr. Vivek Jadhav for fabricating the silicon nitride
+membrane chips, and Drs. Alexander Lushnikov and Alexey Krasnoslobodtsev
+for performing AFM imaging at the Nanoimaging core facility at the
+University of Nebraska Medical Center. We acknowledge the National
+Institutes of Health R01 HG009186 (M.A.A. and M.W.), R01-GM114204
+and R01-HG007406 (A.A. and J.W.), the National Science Foundation
+NSF-1645671 (M.W.), DMR-1507985 (A.A.), and the UNCC Department of
+Chemistry start-up funds (K.A.A.). Supercomputer time was provided
+through XSEDE Allocation Grant MCA05S028 and the BlueWaters petascale
+supercomputer system (UIUC).</p></ack><ref-list><title>References</title><ref id="ref1"><label>1. </label><citation citation-type="journal" id="cit1"><name><surname>Dekker</surname><x>, </x><given-names>C.</given-names></name><article-title>Solid-State
+Nanopores</article-title><source>Nat. Nanotechnol.</source><x> </x><year>2007</year><x>, </x><volume>2</volume><x>, </x><fpage>209</fpage><x>&ndash;</x><lpage>215</lpage><pub-id pub-id-type="doi">10.1038/nnano.2007.27</pub-id></citation></ref><ref id="ref2"><label>2. </label><citation citation-type="journal" id="cit2"><name><surname>Bayley</surname><x>, </x><given-names>H.</given-names></name><article-title>Nanopore Sequencing:
+From Imagination to Reality</article-title><source>Clin. Chem.</source><x> </x><year>2015</year><x>, </x><volume>61</volume><x>, </x><fpage>25</fpage><x>&ndash;</x><lpage>31</lpage><pub-id pub-id-type="doi">10.1373/clinchem.2014.223016</pub-id></citation></ref><ref id="ref3"><label>3. </label><citation citation-type="journal" id="cit3"><name><surname>Kasianowicz</surname><x>, </x><given-names>J. J.</given-names></name><x>; </x><name><surname>Robertson</surname><x>, </x><given-names>J. W.</given-names></name><x>; </x><name><surname>Chan</surname><x>, </x><given-names>E. R.</given-names></name><x>; </x><name><surname>Reiner</surname><x>, </x><given-names>J. E.</given-names></name><x>; </x><name><surname>Stanford</surname><x>, </x><given-names>V. M.</given-names></name><article-title>Nanoscopic
+Porous Sensors</article-title><source>Annu. Rev. Anal. Chem.</source><x> </x><year>2008</year><x>, </x><volume>1</volume><x>, </x><fpage>737</fpage><x>&ndash;</x><lpage>766</lpage><pub-id pub-id-type="doi">10.1146/annurev.anchem.1.031207.112818</pub-id></citation></ref><ref id="ref4"><label>4. </label><citation citation-type="journal" id="cit4"><name><surname>Howorka</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Siwy</surname><x>, </x><given-names>Z.</given-names></name><article-title>Nanopore Analytics:
+Sensing of Single Molecules</article-title><source>Chem. Soc. Rev.</source><x> </x><year>2009</year><x>, </x><volume>38</volume><x>, </x><fpage>2360</fpage><x>&ndash;</x><lpage>2384</lpage><pub-id pub-id-type="doi">10.1039/b813796j</pub-id></citation></ref><ref id="ref5"><label>5. </label><citation citation-type="journal" id="cit5"><name><surname>Haque</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Wu</surname><x>, </x><given-names>H.-C.</given-names></name><x>; </x><name><surname>Liang</surname><x>, </x><given-names>X.-J.</given-names></name><x>; </x><name><surname>Guo</surname><x>, </x><given-names>P.</given-names></name><article-title>Solid-State and Biological
+Nanopore for Real-Time Sensing of Single Chemical and Sequencing of
+DNA</article-title><source>Nano Today</source><x> </x><year>2013</year><x>, </x><volume>8</volume><x>, </x><fpage>56</fpage><x>&ndash;</x><lpage>74</lpage><pub-id pub-id-type="doi">10.1016/j.nantod.2012.12.008</pub-id></citation></ref><ref id="ref6"><label>6. </label><citation citation-type="journal" id="cit6"><name><surname>Fennouri</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Przybylski</surname><x>, </x><given-names>C. d.</given-names></name><x>; </x><name><surname>Pastoriza-Gallego</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Bacri</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Auvray</surname><x>, </x><given-names>L. c.</given-names></name><x>; </x><name><surname>Daniel</surname><x>, </x><given-names>R.</given-names></name><article-title>g., Single Molecule
+Detection of Glycosaminoglycan
+Hyaluronic Acid Oligosaccharides and Depolymerization Enzyme Activity
+Using a Protein Nanopore</article-title><source>ACS Nano</source><x> </x><year>2012</year><x>, </x><volume>6</volume><x>, </x><fpage>9672</fpage><x>&ndash;</x><lpage>9678</lpage><pub-id pub-id-type="doi">10.1021/nn3031047</pub-id></citation></ref><ref id="ref7"><label>7. </label><citation citation-type="journal" id="cit7"><name><surname>Bacri</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Oukhaled</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>He&#x301;mon</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Bassafoula</surname><x>, </x><given-names>F. B.</given-names></name><x>; </x><name><surname>Auvray</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Daniel</surname><x>, </x><given-names>R.</given-names></name><article-title>Discrimination of Neutral
+Oligosaccharides
+through a Nanopore</article-title><source>Biochem. Biophys. Res. Commun.</source><x> </x><year>2011</year><x>, </x><volume>412</volume><x>, </x><fpage>561</fpage><x>&ndash;</x><lpage>564</lpage><pub-id pub-id-type="doi">10.1016/j.bbrc.2011.07.121</pub-id></citation></ref><ref id="ref8"><label>8. </label><citation citation-type="journal" id="cit8"><name><surname>Waduge</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Hu</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Bandarkar</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Yamazaki</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Cressiot</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Zhao</surname><x>, </x><given-names>Q.</given-names></name><x>; </x><name><surname>Whitford</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Wanunu</surname><x>, </x><given-names>M.</given-names></name><article-title>Nanopore-Based Measurements of Protein
+Size, Fluctuations, and Conformational Changes</article-title><source>ACS Nano</source><x> </x><year>2017</year><x>, </x><volume>11</volume><x>, </x><fpage>5706</fpage><x>&ndash;</x><lpage>5716</lpage><pub-id pub-id-type="doi">10.1021/acsnano.7b01212</pub-id></citation></ref><ref id="ref9"><label>9. </label><citation citation-type="journal" id="cit9"><name><surname>Li</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Fologea</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Rollings</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Ledden</surname><x>, </x><given-names>B.</given-names></name><article-title>Characterization of
+Protein Unfolding with Solid-State Nanopores</article-title><source>Protein Pept. Lett.</source><x> </x><year>2014</year><x>, </x><volume>21</volume><x>, </x><fpage>256</fpage><x>&ndash;</x><lpage>265</lpage><pub-id pub-id-type="doi">10.2174/09298665113209990077</pub-id></citation></ref><ref id="ref10"><label>10. </label><citation citation-type="journal" id="cit10"><name><surname>Fologea</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Ledden</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>McNabb</surname><x>, </x><given-names>D. S.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>J.</given-names></name><article-title>Electrical
+Characterization
+of Protein Molecules by a Solid-State Nanopore</article-title><source>Appl. Phys. Lett.</source><x> </x><year>2007</year><x>, </x><volume>91</volume><x>, </x><fpage>053901</fpage><pub-id pub-id-type="doi">10.1063/1.2767206</pub-id></citation></ref><ref id="ref11"><label>11. </label><citation citation-type="journal" id="cit11"><name><surname>Firnkes</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Pedone</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Knezevic</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Do&#x308;blinger</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Rant</surname><x>, </x><given-names>U.</given-names></name><article-title>Electrically Facilitated Translocations
+of Proteins through Silicon
+Nitride Nanopores: Conjoint and Competitive Action of Diffusion, Electrophoresis,
+and Electroosmosis</article-title><source>Nano Lett.</source><x> </x><year>2010</year><x>, </x><volume>10</volume><x>, </x><fpage>2162</fpage><x>&ndash;</x><lpage>2167</lpage><pub-id pub-id-type="doi">10.1021/nl100861c</pub-id></citation></ref><ref id="ref12"><label>12. </label><citation citation-type="journal" id="cit12"><name><surname>Talaga</surname><x>, </x><given-names>D. S.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>J.</given-names></name><article-title>Single-Molecule Protein
+Unfolding in Solid State Nanopores</article-title><source>J. Am. Chem.
+Soc.</source><x> </x><year>2009</year><x>, </x><volume>131</volume><x>, </x><fpage>9287</fpage><x>&ndash;</x><lpage>9297</lpage><pub-id pub-id-type="doi">10.1021/ja901088b</pub-id></citation></ref><ref id="ref13"><label>13. </label><citation citation-type="journal" id="cit13"><name><surname>Wanunu</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Bhattacharya</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Xie</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Tor</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Aksimentiev</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Drndic</surname><x>, </x><given-names>M.</given-names></name><article-title>Nanopore Analysis of
+Individual Rna/Antibiotic Complexes</article-title><source>ACS Nano</source><x> </x><year>2011</year><x>, </x><volume>5</volume><x>, </x><fpage>9345</fpage><x>&ndash;</x><lpage>9353</lpage><pub-id pub-id-type="doi">10.1021/nn203764j</pub-id></citation></ref><ref id="ref14"><label>14. </label><citation citation-type="journal" id="cit14"><name><surname>Wanunu</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Sutin</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>McNally</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Chow</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Meller</surname><x>, </x><given-names>A.</given-names></name><article-title>DNA Translocation
+Governed by Interactions with Solid-State Nanopores</article-title><source>Biophys. J.</source><x> </x><year>2008</year><x>, </x><volume>95</volume><x>, </x><fpage>4716</fpage><x>&ndash;</x><lpage>4725</lpage><pub-id pub-id-type="doi">10.1529/biophysj.108.140475</pub-id></citation></ref><ref id="ref15"><label>15. </label><citation citation-type="journal" id="cit15"><name><surname>Squires</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Gilboa</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Torfstein</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Varongchayakul</surname><x>, </x><given-names>N.</given-names></name><x>; </x><name><surname>Meller</surname><x>, </x><given-names>A.</given-names></name><article-title>Chapter Fourteen-Single-Molecule
+Characterization of
+DNA&#x2013;Protein Interactions Using Nanopore Biosensors</article-title><source>Methods Enzymol.</source><x> </x><year>2017</year><x>, </x><volume>582</volume><x>, </x><fpage>353</fpage><x>&ndash;</x><lpage>385</lpage><pub-id pub-id-type="doi">10.1016/bs.mie.2016.08.010</pub-id></citation></ref><ref id="ref16"><label>16. </label><citation citation-type="journal" id="cit16"><name><surname>Wang</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Haque</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Rychahou</surname><x>, </x><given-names>P. G.</given-names></name><x>; </x><name><surname>Evers</surname><x>, </x><given-names>B. M.</given-names></name><x>; </x><name><surname>Guo</surname><x>, </x><given-names>P.</given-names></name><article-title>Engineered
+Nanopore of Phi29 DNA-Packaging Motor for Real-Time Detection of Single
+Colon Cancer Specific Antibody in Serum</article-title><source>ACS
+Nano</source><x> </x><year>2013</year><x>, </x><volume>7</volume><x>, </x><fpage>9814</fpage><x>&ndash;</x><lpage>9822</lpage><pub-id pub-id-type="doi">10.1021/nn404435v</pub-id></citation></ref><ref id="ref17"><label>17. </label><citation citation-type="journal" id="cit17"><name><surname>Reiner</surname><x>, </x><given-names>J.
+E.</given-names></name><x>; </x><name><surname>Balijepalli</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Robertson</surname><x>, </x><given-names>J. W.</given-names></name><x>; </x><name><surname>Campbell</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Suehle</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Kasianowicz</surname><x>, </x><given-names>J. J.</given-names></name><article-title>Disease
+Detection and Management Via Single Nanopore-Based
+Sensors</article-title><source>Chem. Rev.</source><x> </x><year>2012</year><x>, </x><volume>112</volume><x>, </x><fpage>6431</fpage><x>&ndash;</x><lpage>6451</lpage><pub-id pub-id-type="doi">10.1021/cr300381m</pub-id></citation></ref><ref id="ref18"><label>18. </label><citation citation-type="journal" id="cit18"><name><surname>Wanunu</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Dadosh</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Ray</surname><x>, </x><given-names>V.</given-names></name><x>; </x><name><surname>Jin</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>McReynolds</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Drndic&#x301;</surname><x>, </x><given-names>M.</given-names></name><article-title>Rapid Electronic Detection of Probe-Specific
+Micrornas
+Using Thin Nanopore Sensors</article-title><source>Nat. Nanotechnol.</source><x> </x><year>2010</year><x>, </x><volume>5</volume><x>, </x><fpage>807</fpage><x>&ndash;</x><lpage>814</lpage><pub-id pub-id-type="doi">10.1038/nnano.2010.202</pub-id></citation></ref><ref id="ref19"><label>19. </label><citation citation-type="journal" id="cit19"><name><surname>Wang</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Zheng</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Tan</surname><x>, </x><given-names>Q.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>M. X.</given-names></name><x>; </x><name><surname>Gu</surname><x>, </x><given-names>L.-Q.</given-names></name><article-title>Nanopore-Based
+Detection of Circulating Micrornas in Lung Cancer Patients</article-title><source>Nat. Nanotechnol.</source><x> </x><year>2011</year><x>, </x><volume>6</volume><x>, </x><fpage>668</fpage><x>&ndash;</x><lpage>674</lpage><pub-id pub-id-type="doi">10.1038/nnano.2011.147</pub-id></citation></ref><ref id="ref20"><label>20. </label><citation citation-type="journal" id="cit20"><name><surname>Branton</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Deamer</surname><x>, </x><given-names>D. W.</given-names></name><x>; </x><name><surname>Marziali</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Bayley</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Benner</surname><x>, </x><given-names>S. A.</given-names></name><x>; </x><name><surname>Butler</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Di Ventra</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Garaj</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Hibbs</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Huang</surname><x>, </x><given-names>X.</given-names></name><etal/><article-title>The Potential and Challenges of Nanopore Sequencing</article-title><source>Nat. Biotechnol.</source><x> </x><year>2008</year><x>, </x><volume>26</volume><x>, </x><fpage>1146</fpage><x>&ndash;</x><lpage>1153</lpage><pub-id pub-id-type="doi">10.1038/nbt.1495</pub-id></citation></ref><ref id="ref21"><label>21. </label><citation citation-type="journal" id="cit21"><name><surname>Carson</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Wanunu</surname><x>, </x><given-names>M.</given-names></name><article-title>Challenges in DNA Motion Control and Sequence Readout
+Using Nanopore Devices</article-title><source>Nanotechnology</source><x> </x><year>2015</year><x>, </x><volume>26</volume><x>, </x><fpage>074004</fpage><pub-id pub-id-type="doi">10.1088/0957-4484/26/7/074004</pub-id></citation></ref><ref id="ref22"><label>22. </label><citation citation-type="journal" id="cit22"><name><surname>Venkatesan</surname><x>, </x><given-names>B. M.</given-names></name><x>; </x><name><surname>Bashir</surname><x>, </x><given-names>R.</given-names></name><article-title>Nanopore Sensors for
+Nucleic Acid Analysis</article-title><source>Nat. Nanotechnol.</source><x> </x><year>2011</year><x>, </x><volume>6</volume><x>, </x><fpage>615</fpage><x>&ndash;</x><lpage>624</lpage><pub-id pub-id-type="doi">10.1038/nnano.2011.129</pub-id></citation></ref><ref id="ref23"><label>23. </label><citation citation-type="journal" id="cit23"><name><surname>Wanunu</surname><x>, </x><given-names>M.</given-names></name><article-title>Nanopores:
+A Journey Towards DNA Sequencing</article-title><source>Phys. Life
+Rev.</source><x> </x><year>2012</year><x>, </x><volume>9</volume><x>, </x><fpage>125</fpage><x>&ndash;</x><lpage>158</lpage><pub-id pub-id-type="doi">10.1016/j.plrev.2012.05.010</pub-id></citation></ref><ref id="ref24"><label>24. </label><citation citation-type="journal" id="cit24"><name><surname>Guo</surname><x>, </x><given-names>P.</given-names></name><article-title>The Emerging
+Field of Rna Nanotechnology</article-title><source>Nat. Nanotechnol.</source><x> </x><year>2010</year><x>, </x><volume>5</volume><x>, </x><fpage>833</fpage><x>&ndash;</x><lpage>842</lpage><pub-id pub-id-type="doi">10.1038/nnano.2010.231</pub-id></citation></ref><ref id="ref25"><label>25. </label><citation citation-type="journal" id="cit25"><name><surname>Osada</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Suzuki</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Hidaka</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Ohno</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Sugiyama</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Endo</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Saito</surname><x>, </x><given-names>H.</given-names></name><article-title>Engineering
+Rna&#x2013;Protein Complexes
+with Different Shapes for Imaging and Therapeutic Applications</article-title><source>ACS Nano</source><x> </x><year>2014</year><x>, </x><volume>8</volume><x>, </x><fpage>8130</fpage><x>&ndash;</x><lpage>8140</lpage><pub-id pub-id-type="doi">10.1021/nn502253c</pub-id></citation></ref><ref id="ref26"><label>26. </label><citation citation-type="journal" id="cit26"><name><surname>Ohno</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Kobayashi</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Kabata</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Endo</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Iwasa</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Yoshimura</surname><x>, </x><given-names>S. H.</given-names></name><x>; </x><name><surname>Takeyasu</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Inoue</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Saito</surname><x>, </x><given-names>H.</given-names></name><article-title>Synthetic
+Rna-Protein Complex Shaped Like an Equilateral Triangle</article-title><source>Nat. Nanotechnol.</source><x> </x><year>2011</year><x>, </x><volume>6</volume><x>, </x><fpage>116</fpage><x>&ndash;</x><lpage>120</lpage><pub-id pub-id-type="doi">10.1038/nnano.2010.268</pub-id></citation></ref><ref id="ref27"><label>27. </label><citation citation-type="journal" id="cit27"><name><surname>Afonin</surname><x>, </x><given-names>K. A.</given-names></name><x>; </x><name><surname>Bindewald</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Yaghoubian</surname><x>, </x><given-names>A. J.</given-names></name><x>; </x><name><surname>Voss</surname><x>, </x><given-names>N.</given-names></name><x>; </x><name><surname>Jacovetty</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Shapiro</surname><x>, </x><given-names>B. A.</given-names></name><x>; </x><name><surname>Jaeger</surname><x>, </x><given-names>L.</given-names></name><article-title>In Vitro Assembly of Cubic Rna-Based
+Scaffolds Designed in Silico</article-title><source>Nat. Nanotechnol.</source><x> </x><year>2010</year><x>, </x><volume>5</volume><x>, </x><fpage>676</fpage><x>&ndash;</x><lpage>682</lpage><pub-id pub-id-type="doi">10.1038/nnano.2010.160</pub-id></citation></ref><ref id="ref28"><label>28. </label><citation citation-type="journal" id="cit28"><name><surname>Afonin</surname><x>, </x><given-names>K. A.</given-names></name><x>; </x><name><surname>Cieply</surname><x>, </x><given-names>D. J.</given-names></name><x>; </x><name><surname>Leontis</surname><x>, </x><given-names>N. B.</given-names></name><article-title>Specific
+Rna Self-Assembly with Minimal
+Paranemic Motifs</article-title><source>J. Am. Chem. Soc.</source><x> </x><year>2008</year><x>, </x><volume>130</volume><x>, </x><fpage>93</fpage><x>&ndash;</x><lpage>102</lpage><pub-id pub-id-type="doi">10.1021/ja071516m</pub-id></citation></ref><ref id="ref29"><label>29. </label><citation citation-type="journal" id="cit29"><name><surname>Afonin</surname><x>, </x><given-names>K. A.</given-names></name><x>; </x><name><surname>Grabow</surname><x>, </x><given-names>W. W.</given-names></name><x>; </x><name><surname>Walker</surname><x>, </x><given-names>F. M.</given-names></name><x>; </x><name><surname>Bindewald</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Dobrovolskaia</surname><x>, </x><given-names>M. A.</given-names></name><x>; </x><name><surname>Shapiro</surname><x>, </x><given-names>B. A.</given-names></name><x>; </x><name><surname>Jaeger</surname><x>, </x><given-names>L.</given-names></name><article-title>Design and
+Self-Assembly
+of Sirna-Functionalized Rna Nanoparticles for Use in Automated Nanomedicine</article-title><source>Nat. Protoc.</source><x> </x><year>2011</year><x>, </x><volume>6</volume><x>, </x><fpage>2022</fpage><x>&ndash;</x><lpage>2034</lpage><pub-id pub-id-type="doi">10.1038/nprot.2011.418</pub-id></citation></ref><ref id="ref30"><label>30. </label><citation citation-type="journal" id="cit30"><name><surname>Afonin</surname><x>, </x><given-names>K. A.</given-names></name><x>; </x><name><surname>Kasprzak</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Bindewald</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Puppala</surname><x>, </x><given-names>P. S.</given-names></name><x>; </x><name><surname>Diehl</surname><x>, </x><given-names>A. R.</given-names></name><x>; </x><name><surname>Hall</surname><x>, </x><given-names>K. T.</given-names></name><x>; </x><name><surname>Kim</surname><x>, </x><given-names>T. J.</given-names></name><x>; </x><name><surname>Zimmermann</surname><x>, </x><given-names>M. T.</given-names></name><x>; </x><name><surname>Jernigan</surname><x>, </x><given-names>R. L.</given-names></name><x>; </x><name><surname>Jaeger</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Shapiro</surname><x>, </x><given-names>B. A.</given-names></name><article-title>Computational and
+Experimental Characterization of Rna Cubic Nanoscaffolds</article-title><source>Methods</source><x> </x><year>2014</year><x>, </x><volume>67</volume><x>, </x><fpage>256</fpage><x>&ndash;</x><lpage>265</lpage><pub-id pub-id-type="doi">10.1016/j.ymeth.2013.10.013</pub-id></citation></ref><ref id="ref31"><label>31. </label><citation citation-type="journal" id="cit31"><name><surname>Afonin</surname><x>, </x><given-names>K. A.</given-names></name><x>; </x><name><surname>Kasprzak</surname><x>, </x><given-names>W. K.</given-names></name><x>; </x><name><surname>Bindewald</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Kireeva</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Viard</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Kashlev</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Shapiro</surname><x>, </x><given-names>B. A.</given-names></name><article-title>In Silico
+Design and Enzymatic Synthesis
+of Functional Rna Nanoparticles</article-title><source>Acc. Chem.
+Res.</source><x> </x><year>2014</year><x>, </x><volume>47</volume><x>, </x><fpage>1731</fpage><x>&ndash;</x><lpage>1741</lpage><pub-id pub-id-type="doi">10.1021/ar400329z</pub-id></citation></ref><ref id="ref32"><label>32. </label><citation citation-type="journal" id="cit32"><name><surname>Afonin</surname><x>, </x><given-names>K.
+A.</given-names></name><x>; </x><name><surname>Lindsay</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Shapiro</surname><x>, </x><given-names>B. A.</given-names></name><article-title>Engineered Rna Nanodesigns for Applications
+in Rna Nanotechnology</article-title><source>DNA RNA Nanotechnol.</source><x> </x><year>2013</year><x>, </x><volume>1</volume><x>, </x><fpage>1</fpage><x>&ndash;</x><lpage>15</lpage><pub-id pub-id-type="doi">10.2478/rnan-2013-0001</pub-id></citation></ref><ref id="ref33"><label>33. </label><citation citation-type="journal" id="cit33"><name><surname>Bui</surname><x>, </x><given-names>M. N.</given-names></name><x>; </x><name><surname>Brittany Johnson</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Viard</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Satterwhite</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Martins</surname><x>, </x><given-names>A. N.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>Z.</given-names></name><x>; </x><name><surname>Marriott</surname><x>, </x><given-names>I.</given-names></name><x>; </x><name><surname>Afonin</surname><x>, </x><given-names>K. A.</given-names></name><x>; </x><name><surname>Khisamutdinov</surname><x>, </x><given-names>E. F.</given-names></name><article-title>Versatile
+Rna Tetra-U Helix Linking Motif as a Toolkit
+for Nucleic Acid Nanotechnology</article-title><source>Nanomedicine</source><x> </x><year>2017</year><x>, </x><volume>13</volume><x>, </x><fpage>1137</fpage><x>&ndash;</x><lpage>1146</lpage><pub-id pub-id-type="doi">10.1016/j.nano.2016.12.018</pub-id></citation></ref><ref id="ref34"><label>34. </label><citation citation-type="journal" id="cit34"><name><surname>Dibrov</surname><x>, </x><given-names>S. M.</given-names></name><x>; </x><name><surname>McLean</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Parsons</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Hermann</surname><x>, </x><given-names>T.</given-names></name><article-title>Self-Assembling Rna
+Square</article-title><source>Proc. Natl. Acad. Sci. U. S. A.</source><x> </x><year>2011</year><x>, </x><volume>108</volume><x>, </x><fpage>6405</fpage><x>&ndash;</x><lpage>6408</lpage><pub-id pub-id-type="doi">10.1073/pnas.1017999108</pub-id></citation></ref><ref id="ref35"><label>35. </label><citation citation-type="journal" id="cit35"><name><surname>Guo</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Haque</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Hallahan</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Reif</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>H.</given-names></name><article-title>Uniqueness,
+Advantages, Challenges, Solutions, and Perspectives in Therapeutics
+Applying RNA Nanotechnology</article-title><source>Nucleic Acid Ther.</source><x> </x><year>2012</year><x>, </x><volume>22</volume><x>, </x><fpage>226</fpage><x>&ndash;</x><lpage>245</lpage><pub-id pub-id-type="doi">10.1089/nat.2012.0350</pub-id></citation></ref><ref id="ref36"><label>36. </label><citation citation-type="journal" id="cit36"><name><surname>Guo</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Chen</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Garver</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Trottier</surname><x>, </x><given-names>M.</given-names></name><article-title>Inter-Rna
+Interaction of Phage Phi29 Prna to Form a Hexameric Complex for Viral
+DNA Transportation</article-title><source>Mol. Cell</source><x> </x><year>1998</year><x>, </x><volume>2</volume><x>, </x><fpage>149</fpage><x>&ndash;</x><lpage>155</lpage><pub-id pub-id-type="doi">10.1016/S1097-2765(00)80124-0</pub-id></citation></ref><ref id="ref37"><label>37. </label><citation citation-type="journal" id="cit37"><name><surname>Guo</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Huang</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Guo</surname><x>, </x><given-names>P.</given-names></name><article-title>Construction
+of Folate-Conjugated
+Prna of Bacteriophage Phi29 DNA Packaging Motor for Delivery of Chimeric
+Sirna to Nasopharyngeal Carcinoma Cells</article-title><source>Gene
+Ther.</source><x> </x><year>2006</year><x>, </x><volume>13</volume><x>, </x><fpage>1553</fpage><pub-id pub-id-type="doi">10.1038/sj.gt.3302856</pub-id></citation></ref><ref id="ref38"><label>38. </label><citation citation-type="journal" id="cit38"><name><surname>Bhatia</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Arumugam</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Nasilowski</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Joshi</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Wunder</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Chambon</surname><x>, </x><given-names>V.</given-names></name><x>; </x><name><surname>Prakash</surname><x>, </x><given-names>V.</given-names></name><x>; </x><name><surname>Grazon</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Nadal</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Maiti</surname><x>, </x><given-names>P. K.</given-names></name><etal/><article-title>Quantum
+Dot-Loaded Monofunctionalized DNA Icosahedra
+for Single-Particle Tracking of Endocytic Pathways</article-title><source>Nat. Nanotechnol.</source><x> </x><year>2016</year><x>, </x><volume>11</volume><x>, </x><fpage>1112</fpage><x>&ndash;</x><lpage>1119</lpage><pub-id pub-id-type="doi">10.1038/nnano.2016.150</pub-id></citation></ref><ref id="ref39"><label>39. </label><citation citation-type="journal" id="cit39"><name><surname>Bhatia</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Mehtab</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Krishnan</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Indi</surname><x>, </x><given-names>S. S.</given-names></name><x>; </x><name><surname>Basu</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Krishnan</surname><x>, </x><given-names>Y.</given-names></name><article-title>Icosahedral DNA Nanocapsules by Modular Assembly</article-title><source>Angew. Chem., Int. Ed.</source><x> </x><year>2009</year><x>, </x><volume>48</volume><x>, </x><fpage>4134</fpage><x>&ndash;</x><lpage>4137</lpage><pub-id pub-id-type="doi">10.1002/anie.200806000</pub-id></citation></ref><ref id="ref40"><label>40. </label><citation citation-type="journal" id="cit40"><name><surname>He</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Ye</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Su</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Ribbe</surname><x>, </x><given-names>A. E.</given-names></name><x>; </x><name><surname>Jiang</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Mao</surname><x>, </x><given-names>C.</given-names></name><article-title>Hierarchical Self-Assembly of DNA into Symmetric Supramolecular Polyhedra</article-title><source>Nature</source><x> </x><year>2008</year><x>, </x><volume>452</volume><x>, </x><fpage>198</fpage><x>&ndash;</x><lpage>202</lpage><pub-id pub-id-type="doi">10.1038/nature06597</pub-id></citation></ref><ref id="ref41"><label>41. </label><citation citation-type="journal" id="cit41"><name><surname>Andersen</surname><x>, </x><given-names>E. S.</given-names></name><x>; </x><name><surname>Dong</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Nielsen</surname><x>, </x><given-names>M. M.</given-names></name><x>; </x><name><surname>Jahn</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Subramani</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Mamdouh</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Golas</surname><x>, </x><given-names>M. M.</given-names></name><x>; </x><name><surname>Sander</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Stark</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Oliveira</surname><x>, </x><given-names>C. L.</given-names></name><etal/><article-title>Self-Assembly of a Nanoscale DNA Box with a
+Controllable Lid</article-title><source>Nature</source><x> </x><year>2009</year><x>, </x><volume>459</volume><x>, </x><fpage>73</fpage><x>&ndash;</x><lpage>76</lpage><pub-id pub-id-type="doi">10.1038/nature07971</pub-id></citation></ref><ref id="ref42"><label>42. </label><citation citation-type="journal" id="cit42"><name><surname>Bujold</surname><x>, </x><given-names>K. E.</given-names></name><x>; </x><name><surname>Hsu</surname><x>, </x><given-names>J. C.</given-names></name><x>; </x><name><surname>Sleiman</surname><x>, </x><given-names>H. F.</given-names></name><article-title>Optimized
+DNA &#x201c;Nanosuitcases&#x201d;
+for Encapsulation and Conditional Release of Sirna</article-title><source>J. Am. Chem. Soc.</source><x> </x><year>2016</year><x>, </x><volume>138</volume><x>, </x><fpage>14030</fpage><x>&ndash;</x><lpage>14038</lpage><pub-id pub-id-type="doi">10.1021/jacs.6b08369</pub-id></citation></ref><ref id="ref43"><label>43. </label><citation citation-type="journal" id="cit43"><name><surname>Chidchob</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Edwardson</surname><x>, </x><given-names>T. G.</given-names></name><x>; </x><name><surname>Serpell</surname><x>, </x><given-names>C. J.</given-names></name><x>; </x><name><surname>Sleiman</surname><x>, </x><given-names>H. F.</given-names></name><article-title>Synergy of Two Assembly
+Languages in DNA Nanostructures: Self-Assembly of Sequence-Defined
+Polymers on DNA Cages</article-title><source>J. Am. Chem. Soc.</source><x> </x><year>2016</year><x>, </x><volume>138</volume><x>, </x><fpage>4416</fpage><x>&ndash;</x><lpage>4425</lpage><pub-id pub-id-type="doi">10.1021/jacs.5b12953</pub-id></citation></ref><ref id="ref44"><label>44. </label><citation citation-type="journal" id="cit44"><name><surname>Liu</surname><x>, </x><given-names>Z.</given-names></name><x>; </x><name><surname>Tian</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Yu</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Jiang</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Mao</surname><x>, </x><given-names>C.</given-names></name><article-title>Self-Assembly of Responsive Multilayered
+DNA Nanocages</article-title><source>J. Am. Chem. Soc.</source><x> </x><year>2015</year><x>, </x><volume>137</volume><x>, </x><fpage>1730</fpage><x>&ndash;</x><lpage>1733</lpage><pub-id pub-id-type="doi">10.1021/ja5101307</pub-id></citation></ref><ref id="ref45"><label>45. </label><citation citation-type="journal" id="cit45"><name><surname>Yu</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Liu</surname><x>, </x><given-names>Z.</given-names></name><x>; </x><name><surname>Jiang</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Mao</surname><x>, </x><given-names>C.</given-names></name><article-title>De Novo Design of an
+Rna Tile That Self-Assembles into a Homo-Octameric Nanoprism</article-title><source>Nat. Commun.</source><x> </x><year>2015</year><x>, </x><volume>6</volume><x>, </x><fpage>5724</fpage><pub-id pub-id-type="doi">10.1038/ncomms6724</pub-id></citation></ref><ref id="ref46"><label>46. </label><citation citation-type="journal" id="cit46"><name><surname>Goodman</surname><x>, </x><given-names>R. P.</given-names></name><x>; </x><name><surname>Schaap</surname><x>, </x><given-names>I. A.</given-names></name><x>; </x><name><surname>Tardin</surname><x>, </x><given-names>C. F.</given-names></name><x>; </x><name><surname>Erben</surname><x>, </x><given-names>C. M.</given-names></name><x>; </x><name><surname>Berry</surname><x>, </x><given-names>R. M.</given-names></name><x>; </x><name><surname>Schmidt</surname><x>, </x><given-names>C. F.</given-names></name><x>; </x><name><surname>Turberfield</surname><x>, </x><given-names>A. J.</given-names></name><article-title>Rapid Chiral
+Assembly of Rigid DNA
+Building Blocks for Molecular Nanofabrication</article-title><source>Science</source><x> </x><year>2005</year><x>, </x><volume>310</volume><x>, </x><fpage>1661</fpage><x>&ndash;</x><lpage>1665</lpage><pub-id pub-id-type="doi">10.1126/science.1120367</pub-id></citation></ref><ref id="ref47"><label>47. </label><citation citation-type="journal" id="cit47"><name><surname>Halman</surname><x>, </x><given-names>J. R.</given-names></name><x>; </x><name><surname>Satterwhite</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Roark</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Chandler</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Viard</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Ivanina</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Bindewald</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Kasprzak</surname><x>, </x><given-names>W. K.</given-names></name><x>; </x><name><surname>Panigaj</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Bui</surname><x>, </x><given-names>M. N.</given-names></name><x>; </x><name><surname>Lu</surname><x>, </x><given-names>J. S.</given-names></name><x>; </x><name><surname>Miller</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Khisamutdinov</surname><x>, </x><given-names>E. F.</given-names></name><x>; </x><name><surname>Shapiro</surname><x>, </x><given-names>B. A.</given-names></name><x>; </x><name><surname>Dobrovolskaia</surname><x>, </x><given-names>M. A.</given-names></name><x>; </x><name><surname>Afonin</surname><x>, </x><given-names>K. A.</given-names></name><article-title>Functionally-Interdependent
+Shape-Switching Nanoparticles with Controllable Properties</article-title><source>Nucleic Acids Res.</source><x> </x><year>2017</year><x>, </x><volume>45</volume><x>, </x><fpage>2210</fpage><x>&ndash;</x><lpage>2220</lpage><pub-id pub-id-type="doi">10.1093/nar/gkx008</pub-id></citation></ref><ref id="ref48"><label>48. </label><citation citation-type="journal" id="cit48"><name><surname>Afonin</surname><x>, </x><given-names>K. A.</given-names></name><x>; </x><name><surname>Viard</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Koyfman</surname><x>, </x><given-names>A. Y.</given-names></name><x>; </x><name><surname>Martins</surname><x>, </x><given-names>A. N.</given-names></name><x>; </x><name><surname>Kasprzak</surname><x>, </x><given-names>W. K.</given-names></name><x>; </x><name><surname>Panigaj</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Desai</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Santhanam</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Grabow</surname><x>, </x><given-names>W. W.</given-names></name><x>; </x><name><surname>Jaeger</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Heldman</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Reiser</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Chiu</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Freed</surname><x>, </x><given-names>E. O.</given-names></name><x>; </x><name><surname>Shapiro</surname><x>, </x><given-names>B. A.</given-names></name><article-title>Multifunctional
+Rna Nanoparticles</article-title><source>Nano Lett.</source><x> </x><year>2014</year><x>, </x><volume>14</volume><x>, </x><fpage>5662</fpage><x>&ndash;</x><lpage>5671</lpage><pub-id pub-id-type="doi">10.1021/nl502385k</pub-id></citation></ref><ref id="ref49"><label>49. </label><citation citation-type="journal" id="cit49"><name><surname>Dao</surname><x>, </x><given-names>B. N.</given-names></name><x>; </x><name><surname>Viard</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Martins</surname><x>, </x><given-names>A. N.</given-names></name><x>; </x><name><surname>Kasprzak</surname><x>, </x><given-names>W. K.</given-names></name><x>; </x><name><surname>Shapiro</surname><x>, </x><given-names>B. A.</given-names></name><x>; </x><name><surname>Afonin</surname><x>, </x><given-names>K. A.</given-names></name><article-title>Triggering Rnai
+with Multifunctional Rna Nanoparticles
+and Their Delivery</article-title><source>DNA RNA Nanotechnol.</source><x> </x><year>2015</year><x>, </x><volume>1</volume><x>, </x><fpage>27</fpage><x>&ndash;</x><lpage>38</lpage><pub-id pub-id-type="doi">10.1515/rnan-2015-0001</pub-id></citation></ref><ref id="ref50"><label>50. </label><citation citation-type="journal" id="cit50"><name><surname>Guo</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Tschammer</surname><x>, </x><given-names>N.</given-names></name><x>; </x><name><surname>Mohammed</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Guo</surname><x>, </x><given-names>P.</given-names></name><article-title>Specific Delivery of
+Therapeutic Rnas to Cancer Cells Via the Dimerization Mechanism of
+Phi29 Motor Prna</article-title><source>Hum. Gene Ther.</source><x> </x><year>2005</year><x>, </x><volume>16</volume><x>, </x><fpage>1097</fpage><x>&ndash;</x><lpage>1109</lpage><pub-id pub-id-type="doi">10.1089/hum.2005.16.1097</pub-id></citation></ref><ref id="ref51"><label>51. </label><citation citation-type="journal" id="cit51"><name><surname>Li</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>K. M.</given-names></name><x>; </x><name><surname>Pi</surname><x>, </x><given-names>F. M.</given-names></name><x>; </x><name><surname>Guo</surname><x>, </x><given-names>S. J.</given-names></name><x>; </x><name><surname>Shlyakhtenko</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Chiu</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Shu</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Guo</surname><x>, </x><given-names>P. X.</given-names></name><article-title>Controllable Self-Assembly
+of Rna Tetrahedrons with Precise Shape and Size for Cancer Targeting</article-title><source>Adv. Mater.</source><x> </x><year>2016</year><x>, </x><volume>28</volume><x>, </x><fpage>7501</fpage><x>&ndash;</x><lpage>7507</lpage><pub-id pub-id-type="doi">10.1002/adma.201601976</pub-id></citation></ref><ref id="ref52"><label>52. </label><citation citation-type="journal" id="cit52"><name><surname>Cassinelli</surname><x>, </x><given-names>V.</given-names></name><x>; </x><name><surname>Oberleitner</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Sobotta</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Nickels</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Grossi</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Kempter</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Frischmuth</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Liedl</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Manetto</surname><x>, </x><given-names>A.</given-names></name><article-title>One-Step Formation
+of &#x2033;Chain-Armor&#x2033;-Stabilized DNA Nanostructures</article-title><source>Angew. Chem., Int. Ed.</source><x> </x><year>2015</year><x>, </x><volume>54</volume><x>, </x><fpage>7795</fpage><x>&ndash;</x><lpage>7798</lpage><pub-id pub-id-type="doi">10.1002/anie.201500561</pub-id></citation></ref><ref id="ref53"><label>53. </label><citation citation-type="journal" id="cit53"><name><surname>Kim</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Lee</surname><x>, </x><given-names>J. S.</given-names></name><x>; </x><name><surname>Lee</surname><x>, </x><given-names>J. B.</given-names></name><article-title>Generation of Sirna Nanosheets for
+Efficient Rna Interference</article-title><source>Sci. Rep.</source><x> </x><year>2016</year><x>, </x><volume>6</volume><x>, </x><fpage>25146</fpage><pub-id pub-id-type="doi">10.1038/srep25146</pub-id></citation></ref><ref id="ref54"><label>54. </label><citation citation-type="journal" id="cit54"><name><surname>Stewart</surname><x>, </x><given-names>J. M.</given-names></name><x>; </x><name><surname>Viard</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Subramanian</surname><x>, </x><given-names>H. K. K.</given-names></name><x>; </x><name><surname>Roark</surname><x>, </x><given-names>B. K.</given-names></name><x>; </x><name><surname>Afonin</surname><x>, </x><given-names>K. A.</given-names></name><x>; </x><name><surname>Franco</surname><x>, </x><given-names>E.</given-names></name><article-title>Programmable Rna Microstructures
+for Coordinated Delivery
+of Sirnas</article-title><source>Nanoscale</source><x> </x><year>2016</year><x>, </x><volume>8</volume><x>, </x><fpage>17542</fpage><x>&ndash;</x><lpage>17550</lpage><pub-id pub-id-type="doi">10.1039/C6NR05085A</pub-id></citation></ref><ref id="ref55"><label>55. </label><citation citation-type="journal" id="cit55"><name><surname>Saleh</surname><x>, </x><given-names>O. A.</given-names></name><x>; </x><name><surname>Sohn</surname><x>, </x><given-names>L. L.</given-names></name><article-title>Direct Detection
+of Antibody&#x2013;Antigen Binding
+Using an on-Chip Artificial Pore</article-title><source>Proc. Natl.
+Acad. Sci. U. S. A.</source><x> </x><year>2003</year><x>, </x><volume>100</volume><x>, </x><fpage>820</fpage><x>&ndash;</x><lpage>824</lpage><pub-id pub-id-type="doi">10.1073/pnas.0337563100</pub-id></citation></ref><ref id="ref56"><label>56. </label><citation citation-type="journal" id="cit56"><name><surname>Wu</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Liu</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Tan</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Yu</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Zhao</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Liu</surname><x>, </x><given-names>Q.</given-names></name><article-title>The Estimation of Field-Dependent Conductance Change of Nanopore
+by Field-Induced Charge in the Translocations of Aunps-DNA Conjugates</article-title><source>J. Phys. Chem. C</source><x> </x><year>2014</year><x>, </x><volume>118</volume><x>, </x><fpage>26825</fpage><x>&ndash;</x><lpage>26835</lpage><pub-id pub-id-type="doi">10.1021/jp5083032</pub-id></citation></ref><ref id="ref57"><label>57. </label><citation citation-type="journal" id="cit57"><name><surname>Cai</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Yu</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Mirkin</surname><x>, </x><given-names>M. V.</given-names></name><x>; </x><name><surname>Bhakta</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Bishop</surname><x>, </x><given-names>G. W.</given-names></name><x>; </x><name><surname>Joshi</surname><x>, </x><given-names>A. A.</given-names></name><x>; </x><name><surname>Rusling</surname><x>, </x><given-names>J. F.</given-names></name><article-title>Resistive-Pulse
+Measurements with Nanopipettes: Detection of Vascular Endothelial
+Growth Factor C (Vegf-C) Using Antibody-Decorated Nanoparticles</article-title><source>Anal. Chem.</source><x> </x><year>2015</year><x>, </x><volume>87</volume><x>, </x><fpage>6403</fpage><x>&ndash;</x><lpage>6410</lpage><pub-id pub-id-type="doi">10.1021/acs.analchem.5b01468</pub-id></citation></ref><ref id="ref58"><label>58. </label><citation citation-type="journal" id="cit58"><name><surname>Wang</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Kececi</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Mirkin</surname><x>, </x><given-names>M. V.</given-names></name><x>; </x><name><surname>Mani</surname><x>, </x><given-names>V.</given-names></name><x>; </x><name><surname>Sardesai</surname><x>, </x><given-names>N.</given-names></name><x>; </x><name><surname>Rusling</surname><x>, </x><given-names>J. F.</given-names></name><article-title>Resistive-Pulse Measurements with
+Nanopipettes: Detection
+of Au Nanoparticles and Nanoparticle-Bound Anti-Peanut Igy</article-title><source>Chem. Sci.</source><x> </x><year>2013</year><x>, </x><volume>4</volume><x>, </x><fpage>655</fpage><x>&ndash;</x><lpage>663</lpage><pub-id pub-id-type="doi">10.1039/C2SC21502K</pub-id></citation></ref><ref id="ref59"><label>59. </label><citation citation-type="journal" id="cit59"><name><surname>Pevarnik</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Schiel</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Yoshimatsu</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Vlassiouk</surname><x>, </x><given-names>I. V.</given-names></name><x>; </x><name><surname>Kwon</surname><x>, </x><given-names>J. S.</given-names></name><x>; </x><name><surname>Shea</surname><x>, </x><given-names>K. J.</given-names></name><x>; </x><name><surname>Siwy</surname><x>, </x><given-names>Z. S.</given-names></name><article-title>Particle Deformation
+and Concentration Polarization in Electroosmotic Transport of Hydrogels
+through Pores</article-title><source>ACS Nano</source><x> </x><year>2013</year><x>, </x><volume>7</volume><x>, </x><fpage>3720</fpage><x>&ndash;</x><lpage>3728</lpage><pub-id pub-id-type="doi">10.1021/nn400774e</pub-id></citation></ref><ref id="ref60"><label>60. </label><citation citation-type="journal" id="cit60"><name><surname>Holden</surname><x>, </x><given-names>D. A.</given-names></name><x>; </x><name><surname>Hendrickson</surname><x>, </x><given-names>G. R.</given-names></name><x>; </x><name><surname>Lan</surname><x>, </x><given-names>W.-J.</given-names></name><x>; </x><name><surname>Lyon</surname><x>, </x><given-names>L. A.</given-names></name><x>; </x><name><surname>White</surname><x>, </x><given-names>H. S.</given-names></name><article-title>Electrical
+Signature of the Deformation and Dehydration of Microgels During Translocation
+through Nanopores</article-title><source>Soft Matter</source><x> </x><year>2011</year><x>, </x><volume>7</volume><x>, </x><fpage>8035</fpage><x>&ndash;</x><lpage>8040</lpage><pub-id pub-id-type="doi">10.1039/c1sm05680h</pub-id></citation></ref><ref id="ref61"><label>61. </label><citation citation-type="journal" id="cit61"><name><surname>Holden</surname><x>, </x><given-names>D. A.</given-names></name><x>; </x><name><surname>Hendrickson</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Lyon</surname><x>, </x><given-names>L. A.</given-names></name><x>; </x><name><surname>White</surname><x>, </x><given-names>H. S.</given-names></name><article-title>Resistive Pulse
+Analysis of Microgel Deformation During Nanopore Translocation</article-title><source>J. Phys. Chem. C</source><x> </x><year>2011</year><x>, </x><volume>115</volume><x>, </x><fpage>2999</fpage><x>&ndash;</x><lpage>3004</lpage><pub-id pub-id-type="doi">10.1021/jp111244v</pub-id></citation></ref><ref id="ref62"><label>62. </label><citation citation-type="journal" id="cit62"><name><surname>Yingling</surname><x>, </x><given-names>Y. G.</given-names></name><x>; </x><name><surname>Shapiro</surname><x>, </x><given-names>B. A.</given-names></name><article-title>Computational Design of an Rna Hexagonal Nanoring and
+an Rna Nanotube</article-title><source>Nano Lett.</source><x> </x><year>2007</year><x>, </x><volume>7</volume><x>, </x><fpage>2328</fpage><x>&ndash;</x><lpage>2334</lpage><pub-id pub-id-type="doi">10.1021/nl070984r</pub-id></citation></ref><ref id="ref63"><label>63. </label><citation citation-type="journal" id="cit63"><name><surname>Grabow</surname><x>, </x><given-names>W. W.</given-names></name><x>; </x><name><surname>Zakrevsky</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Afonin</surname><x>, </x><given-names>K. A.</given-names></name><x>; </x><name><surname>Chworos</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Shapiro</surname><x>, </x><given-names>B. A.</given-names></name><x>; </x><name><surname>Jaeger</surname><x>, </x><given-names>L.</given-names></name><article-title>Self-Assembling
+Rna Nanorings Based on Rnai/Ii Inverse
+Kissing Complexes</article-title><source>Nano Lett.</source><x> </x><year>2011</year><x>, </x><volume>11</volume><x>, </x><fpage>878</fpage><x>&ndash;</x><lpage>887</lpage><pub-id pub-id-type="doi">10.1021/nl104271s</pub-id></citation></ref><ref id="ref64"><label>64. </label><citation citation-type="journal" id="cit64"><name><surname>Li</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Talaga</surname><x>, </x><given-names>D. S.</given-names></name><article-title>The Distribution
+of DNA Translocation Times in Solid-State
+Nanopores</article-title><source>J. Phys.: Condens. Matter</source><x> </x><year>2010</year><x>, </x><volume>22</volume><x>, </x><fpage>454129</fpage><pub-id pub-id-type="doi">10.1088/0953-8984/22/45/454129</pub-id></citation></ref><ref id="ref65"><label>65. </label><citation citation-type="journal" id="cit65"><name><surname>Larkin</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Henley</surname><x>, </x><given-names>R. Y.</given-names></name><x>; </x><name><surname>Muthukumar</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Rosenstein</surname><x>, </x><given-names>J. K.</given-names></name><x>; </x><name><surname>Wanunu</surname><x>, </x><given-names>M.</given-names></name><article-title>High-Bandwidth Protein Analysis Using
+Solid-State Nanopores</article-title><source>Biophys. J.</source><x> </x><year>2014</year><x>, </x><volume>106</volume><x>, </x><fpage>696</fpage><x>&ndash;</x><lpage>704</lpage><pub-id pub-id-type="doi">10.1016/j.bpj.2013.12.025</pub-id></citation></ref><ref id="ref66"><label>66. </label><citation citation-type="journal" id="cit66"><name><surname>Rosenstein</surname><x>, </x><given-names>J. K.</given-names></name><x>; </x><name><surname>Wanunu</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Merchant</surname><x>, </x><given-names>C. A.</given-names></name><x>; </x><name><surname>Drndic</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Shepard</surname><x>, </x><given-names>K. L.</given-names></name><article-title>Integrated
+Nanopore Sensing Platform with Sub-Microsecond Temporal Resolution</article-title><source>Nat. Methods</source><x> </x><year>2012</year><x>, </x><volume>9</volume><x>, </x><fpage>487</fpage><x>&ndash;</x><lpage>492</lpage><pub-id pub-id-type="doi">10.1038/nmeth.1932</pub-id></citation></ref><ref id="ref67"><label>67. </label><citation citation-type="journal" id="cit67"><name><surname>Heng</surname><x>, </x><given-names>J. B.</given-names></name><x>; </x><name><surname>Aksimentiev</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Ho</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Marks</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Grinkova</surname><x>, </x><given-names>Y. V.</given-names></name><x>; </x><name><surname>Sligar</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Schulten</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Timp</surname><x>, </x><given-names>G.</given-names></name><article-title>Stretching DNA Using
+the Electric Field in a Synthetic Nanopore</article-title><source>Nano Lett.</source><x> </x><year>2005</year><x>, </x><volume>5</volume><x>, </x><fpage>1883</fpage><x>&ndash;</x><lpage>1888</lpage><pub-id pub-id-type="doi">10.1021/nl0510816</pub-id></citation></ref><ref id="ref68"><label>68. </label><citation citation-type="journal" id="cit68"><name><surname>Plesa</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Ananth</surname><x>, </x><given-names>A. N.</given-names></name><x>; </x><name><surname>Linko</surname><x>, </x><given-names>V.</given-names></name><x>; </x><name><surname>Gu&#x308;lcher</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Katan</surname><x>, </x><given-names>A. J.</given-names></name><x>; </x><name><surname>Dietz</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Dekker</surname><x>, </x><given-names>C.</given-names></name><article-title>Ionic Permeability
+and Mechanical Properties of DNA Origami Nanoplates on Solid-State
+Nanopores</article-title><source>ACS Nano</source><x> </x><year>2014</year><x>, </x><volume>8</volume><x>, </x><fpage>35</fpage><x>&ndash;</x><lpage>43</lpage><pub-id pub-id-type="doi">10.1021/nn405045x</pub-id></citation></ref><ref id="ref69"><label>69. </label><citation citation-type="journal" id="cit69"><name><surname>Kim</surname><x>, </x><given-names>M. J.</given-names></name><x>; </x><name><surname>McNally</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Murata</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Meller</surname><x>, </x><given-names>A.</given-names></name><article-title>Characteristics of
+Solid-State Nanometre Pores Fabricated Using a Transmission Electron
+Microscope</article-title><source>Nanotechnology</source><x> </x><year>2007</year><x>, </x><volume>18</volume><x>, </x><fpage>205302</fpage><pub-id pub-id-type="doi">10.1088/0957-4484/18/20/205302</pub-id></citation></ref><ref id="ref70"><label>70. </label><citation citation-type="journal" id="cit70"><name><surname>Kim</surname><x>, </x><given-names>M. J.</given-names></name><x>; </x><name><surname>Wanunu</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Bell</surname><x>, </x><given-names>D. C.</given-names></name><x>; </x><name><surname>Meller</surname><x>, </x><given-names>A.</given-names></name><article-title>Rapid Fabrication of
+Uniformly Sized Nanopores and Nanopore Arrays for Parallel DNA Analysis</article-title><source>Adv. Mater.</source><x> </x><year>2006</year><x>, </x><volume>18</volume><x>, </x><fpage>3149</fpage><x>&ndash;</x><lpage>3153</lpage><pub-id pub-id-type="doi">10.1002/adma.200601191</pub-id></citation></ref><ref id="ref71"><label>71. </label><citation citation-type="journal" id="cit71"><name><surname>Gershow</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Golovchenko</surname><x>, </x><given-names>J. A.</given-names></name><article-title>Recapturing and Trapping Single Molecules with a Solid-State
+Nanopore</article-title><source>Nat. Nanotechnol.</source><x> </x><year>2007</year><x>, </x><volume>2</volume><x>, </x><fpage>775</fpage><x>&ndash;</x><lpage>779</lpage><pub-id pub-id-type="doi">10.1038/nnano.2007.381</pub-id></citation></ref><ref id="ref72"><label>72. </label><citation citation-type="journal" id="cit72"><name><surname>Wanunu</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Morrison</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Rabin</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Grosberg</surname><x>, </x><given-names>A. Y.</given-names></name><x>; </x><name><surname>Meller</surname><x>, </x><given-names>A.</given-names></name><article-title>Electrostatic
+Focusing of Unlabelled DNA into Nanoscale Pores Using a Salt Gradient</article-title><source>Nat. Nanotechnol.</source><x> </x><year>2010</year><x>, </x><volume>5</volume><x>, </x><fpage>160</fpage><x>&ndash;</x><lpage>165</lpage><pub-id pub-id-type="doi">10.1038/nnano.2009.379</pub-id></citation></ref><ref id="ref73"><label>73. </label><citation citation-type="journal" id="cit73"><name><surname>Shlyakhtenko</surname><x>, </x><given-names>L. S.</given-names></name><x>; </x><name><surname>Gall</surname><x>, </x><given-names>A. A.</given-names></name><x>; </x><name><surname>Lyubchenko</surname><x>, </x><given-names>Y. L.</given-names></name><article-title>Mica Functionalization for Imaging
+of DNA and Protein-DNA Complexes with Atomic Force Microscopy</article-title><source>Methods Mol. Biol.</source><x> </x><year>2012</year><x>, </x><volume>931</volume><x>, </x><fpage>295</fpage><x>&ndash;</x><lpage>312</lpage><pub-id pub-id-type="doi">10.1007/978-1-62703-056-4_14</pub-id></citation></ref><ref id="ref74"><label>74. </label><citation citation-type="journal" id="cit74"><name><surname>Shlyakhtenko</surname><x>, </x><given-names>L. S.</given-names></name><x>; </x><name><surname>Gall</surname><x>, </x><given-names>A. A.</given-names></name><x>; </x><name><surname>Filonov</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Cerovac</surname><x>, </x><given-names>Z.</given-names></name><x>; </x><name><surname>Lushnikov</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Lyubchenko</surname><x>, </x><given-names>Y. L.</given-names></name><article-title>Silatrane-Based Surface Chemistry
+for Immobilization
+of DNA, Protein-DNA Complexes and Other Biological Materials</article-title><source>Ultramicroscopy</source><x> </x><year>2003</year><x>, </x><volume>97</volume><x>, </x><fpage>279</fpage><x>&ndash;</x><lpage>287</lpage><pub-id pub-id-type="doi">10.1016/S0304-3991(03)00053-6</pub-id></citation></ref><ref id="ref75"><label>75. </label><citation citation-type="journal" id="cit75"><name><surname>Phillips</surname><x>, </x><given-names>J. C.</given-names></name><x>; </x><name><surname>Braun</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Gumbart</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Tajkhorshid</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Villa</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Chipot</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Skeel</surname><x>, </x><given-names>R. D.</given-names></name><x>; </x><name><surname>Kale</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Schulten</surname><x>, </x><given-names>K.</given-names></name><article-title>Scalable Molecular Dynamics with
+Namd</article-title><source>J. Comput. Chem.</source><x> </x><year>2005</year><x>, </x><volume>26</volume><x>, </x><fpage>1781</fpage><x>&ndash;</x><lpage>1802</lpage><pub-id pub-id-type="doi">10.1002/jcc.20289</pub-id></citation></ref><ref id="ref76"><label>76. </label><citation citation-type="journal" id="cit76"><name><surname>Best</surname><x>, </x><given-names>R. B.</given-names></name><x>; </x><name><surname>Zhu</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Shim</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Lopes</surname><x>, </x><given-names>P. E.</given-names></name><x>; </x><name><surname>Mittal</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Feig</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>MacKerell</surname><x>, </x><given-names>A. D.</given-names><x>, </x><suffix>Jr</suffix></name><article-title>Optimization of the Additive Charmm
+All-Atom Protein Force Field Targeting Improved Sampling of the Backbone
+&#x3d5;, &#x3a8; and Side-Chain X1 and X2 Dihedral Angles</article-title><source>J. Chem. Theory Comput.</source><x> </x><year>2012</year><x>, </x><volume>8</volume><x>, </x><fpage>3257</fpage><x>&ndash;</x><lpage>3273</lpage><pub-id pub-id-type="doi">10.1021/ct300400x</pub-id></citation></ref><ref id="ref77"><label>77. </label><citation citation-type="journal" id="cit77"><name><surname>Cruz-Chu</surname><x>, </x><given-names>E. R.</given-names></name><x>; </x><name><surname>Aksimentiev</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Schulten</surname><x>, </x><given-names>K.</given-names></name><article-title>Water&#x2013; Silica Force Field
+for Simulating Nanodevices</article-title><source>J. Phys. Chem. B</source><x> </x><year>2006</year><x>, </x><volume>110</volume><x>, </x><fpage>21497</fpage><x>&ndash;</x><lpage>21508</lpage><pub-id pub-id-type="doi">10.1021/jp063896o</pub-id></citation></ref><ref id="ref78"><label>78. </label><citation citation-type="journal" id="cit78"><name><surname>Yoo</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Aksimentiev</surname><x>, </x><given-names>A.</given-names></name><article-title>Competitive
+Binding of Cations to Duplex DNA Revealed
+through Molecular Dynamics Simulations</article-title><source>J. Phys.
+Chem. B</source><x> </x><year>2012</year><x>, </x><volume>116</volume><x>, </x><fpage>12946</fpage><x>&ndash;</x><lpage>12954</lpage><pub-id pub-id-type="doi">10.1021/jp306598y</pub-id></citation></ref><ref id="ref79"><label>79. </label><citation citation-type="journal" id="cit79"><name><surname>Batcho</surname><x>, </x><given-names>P.
+F.</given-names></name><x>; </x><name><surname>Case</surname><x>, </x><given-names>D. A.</given-names></name><x>; </x><name><surname>Schlick</surname><x>, </x><given-names>T.</given-names></name><article-title>Optimized Particle-Mesh Ewald/Multiple-Time
+Step Integration for Molecular Dynamics Simulations</article-title><source>J. Chem. Phys.</source><x> </x><year>2001</year><x>, </x><volume>115</volume><x>, </x><fpage>4003</fpage><x>&ndash;</x><lpage>4018</lpage><pub-id pub-id-type="doi">10.1063/1.1389854</pub-id></citation></ref><ref id="ref80"><label>80. </label><citation citation-type="journal" id="cit80"><name><surname>Darden</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>York</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Pedersen</surname><x>, </x><given-names>L.</given-names></name><article-title>Particle Mesh Ewald: An N&#xb7; Log
+(N) Method for Ewald Sums in Large Systems</article-title><source>J. Chem. Phys.</source><x> </x><year>1993</year><x>, </x><volume>98</volume><x>, </x><fpage>10089</fpage><x>&ndash;</x><lpage>10092</lpage><pub-id pub-id-type="doi">10.1063/1.464397</pub-id></citation></ref><ref id="ref81"><label>81. </label><citation citation-type="journal" id="cit81"><name><surname>Miyamoto</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Kollman</surname><x>, </x><given-names>P. A.</given-names></name><article-title>Settle: An Analytical Version of the Shake and Rattle
+Algorithm for Rigid Water Models</article-title><source>J. Comput.
+Chem.</source><x> </x><year>1992</year><x>, </x><volume>13</volume><x>, </x><fpage>952</fpage><x>&ndash;</x><lpage>962</lpage><pub-id pub-id-type="doi">10.1002/jcc.540130805</pub-id></citation></ref><ref id="ref82"><label>82. </label><citation citation-type="journal" id="cit82"><name><surname>Andersen</surname><x>, </x><given-names>H. C.</given-names></name><article-title>Rattle:
+A &#x201c;Velocity&#x201d; Version of the Shake Algorithm for Molecular
+Dynamics Calculations</article-title><source>J. Comput. Phys.</source><x> </x><year>1983</year><x>, </x><volume>52</volume><x>, </x><fpage>24</fpage><x>&ndash;</x><lpage>34</lpage><pub-id pub-id-type="doi">10.1016/0021-9991(83)90014-1</pub-id></citation></ref><ref id="ref83"><label>83. </label><citation citation-type="journal" id="cit83"><name><surname>Martyna</surname><x>, </x><given-names>G. J.</given-names></name><x>; </x><name><surname>Tobias</surname><x>, </x><given-names>D. J.</given-names></name><x>; </x><name><surname>Klein</surname><x>, </x><given-names>M. L.</given-names></name><article-title>Constant
+Pressure Molecular Dynamics
+Algorithms</article-title><source>J. Chem. Phys.</source><x> </x><year>1994</year><x>, </x><volume>101</volume><x>, </x><fpage>4177</fpage><x>&ndash;</x><lpage>4189</lpage><pub-id pub-id-type="doi">10.1063/1.467468</pub-id></citation></ref><ref id="ref84"><label>84. </label><citation citation-type="journal" id="cit84"><name><surname>Van
+Beest</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Kramer</surname><x>, </x><given-names>G. J.</given-names></name><x>; </x><name><surname>Van Santen</surname><x>, </x><given-names>R.</given-names></name><article-title>Force Fields
+for Silicas and Aluminophosphates Based on Ab Initio Calculations</article-title><source>Phys. Rev. Lett.</source><x> </x><year>1990</year><x>, </x><volume>64</volume><x>, </x><fpage>1955</fpage><x>&ndash;</x><lpage>1958</lpage><pub-id pub-id-type="doi">10.1103/PhysRevLett.64.1955</pub-id></citation></ref><ref id="ref85"><label>85. </label><citation citation-type="journal" id="cit85"><name><surname>Aksimentiev</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Heng</surname><x>, </x><given-names>J. B.</given-names></name><x>; </x><name><surname>Timp</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Schulten</surname><x>, </x><given-names>K.</given-names></name><article-title>Microscopic
+Kinetics
+of DNA Translocation through Synthetic Nanopores</article-title><source>Biophys. J.</source><x> </x><year>2004</year><x>, </x><volume>87</volume><x>, </x><fpage>2086</fpage><x>&ndash;</x><lpage>2097</lpage><pub-id pub-id-type="doi">10.1529/biophysj.104.042960</pub-id></citation></ref><ref id="ref86"><label>86. </label><citation citation-type="journal" id="cit86"><name><surname>Comer</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Dimitrov</surname><x>, </x><given-names>V.</given-names></name><x>; </x><name><surname>Zhao</surname><x>, </x><given-names>Q.</given-names></name><x>; </x><name><surname>Timp</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Aksimentiev</surname><x>, </x><given-names>A.</given-names></name><article-title>Microscopic
+Mechanics of Hairpin DNA Translocation through Synthetic Nanopores</article-title><source>Biophys. J.</source><x> </x><year>2009</year><x>, </x><volume>96</volume><x>, </x><fpage>593</fpage><x>&ndash;</x><lpage>608</lpage><pub-id pub-id-type="doi">10.1016/j.bpj.2008.09.023</pub-id></citation></ref></ref-list></back></article>

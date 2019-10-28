@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE article PUBLIC "-//Atypon//DTD Archiving and Interchange DTD Suite with ACHS extensions v2.2 20080601//EN" "archivearticle.dtd">
+<article article-type="research-article" dtd-version="2.2" xml:lang="EN"  xmlns:mml="http://www.w3.org/1998/Math/MathML"><front><journal-meta>
+<journal-id journal-id-type="publisher">ancac3</journal-id><journal-title>ACS Nano</journal-title><abbrev-journal-title abbrev-type="publisher">ACS Nano</abbrev-journal-title><issn pub-type="ppub">1936-0851</issn><issn pub-type="epub">1936-086X</issn><publisher><publisher-name>American
+Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="doi">10.1021/acsnano.6b02796</article-id><article-categories>
+<subj-group subj-group-type="type-of-article">
+<subject>Article</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Continuous
+Growth of Metal Oxide Nanocrystals: Enhanced
+Control of Nanocrystal Size and Radial Dopant Distribution</article-title>
+</title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><given-names>Adam W.</given-names><x> </x><surname>Jansons</surname></name><x> and </x></contrib><contrib contrib-type="author" corresp="yes" id="ath2"><name><given-names>James E.</given-names><x> </x><surname>Hutchison</surname></name><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref><x> </x></contrib><aff id="aff1">Materials Science Institute
+and Department of Chemistry, <institution>University
+of Oregon</institution>, Eugene, Oregon 97403, <country>United
+States</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email xlink:href="hutch@uoregon.edu">hutch@uoregon.edu</email>.</corresp></author-notes><pub-date pub-type="ppub"><day>26</day><month>07</month><year>2016</year></pub-date><pub-date pub-type="epub"><day>01</day><month>07</month><year>2016</year></pub-date><volume>10</volume><issue>7</issue><fpage>6942</fpage><lpage>6951</lpage><supplementary-material xlink:href="nn6b02796_si_001.pdf" id="sifile1"/>
+<history><date date-type="received"><day>27</day><month>04</month><year>2016</year></date><date date-type="accepted"><day>21</day><month>06</month><year>2016</year></date><date date-type="asap"><day>01</day><month>07</month><year>2016</year></date><date date-type="issue-pub"><day>26</day><month>07</month><year>2016</year></date><date date-type="just-accepted"><day>21</day><month>06</month><year>2016</year></date></history><permissions><copyright-statement>&copy; 2016 American Chemical Society</copyright-statement><copyright-year>2016</copyright-year><copyright-holder>American Chemical Society</copyright-holder></permissions><related-article related-article-type="pdf" xlink:href="acsnano.6b02796.pdf"/>
+<abstract><p>The ability to precisely
+control the composition of nanocrystals,
+similar to the way organic chemists control the structure of small
+molecules, remains an important challenge in nanoscience. Rather than
+dictating nanocrystal size through the nucleation event, growth of
+nanocrystals through continuous precursor addition would allow fine
+structural control. Herein, we present a method of growth for indium
+oxide nanocrystals that relies on the slow addition of an indium carboxylate
+precursor into hot oleyl alcohol. Nanocrystal size and structure can
+be governed at a subnanometer scale, and it is possible to precisely
+control core size over a range of three to at least 22 nm with dispersities
+as low as 7%. Growth can be stopped and restarted repeatedly without
+aggregation or passivation. We show that the volume of the nanocrystal
+core (and thus molecular weight) increases linearly with added monomer
+and the number of nanocrystals remains constant throughout the growth
+process, yielding an extremely predictable approach to size control.
+It is also possible to place metal oxide shells (e.g., Sn-doped In<sub>2</sub>O<sub>3</sub> (ITO)) at various radial positions within the
+nanocrystal, and we use this approach to synthesize ITO/In<sub>2</sub>O<sub>3</sub> core/shell nanocrystals as well as In<sub>2</sub>O<sub>3</sub>/ITO/In<sub>2</sub>O<sub>3</sub> core/shell/shell nanocrystals.</p></abstract><abstract abstract-type="graphical">
+<fig fig-type="figure" id="f_tgr1" position="float">
+<graphic xlink:href="nn-2016-02796v_0011.tif" id="tgr1"/></fig>
+</abstract><kwd-group><kwd>metal oxide nanoparticle</kwd><kwd>nanoparticle size control</kwd><kwd>nanoparticle synthesis</kwd><kwd>core/shell nanoparticle</kwd><kwd>doped nanoparticle</kwd><kwd>SAXS</kwd></kwd-group></article-meta></front><body><sec id="sec1"><title/><p>A wide range
+of nanocrystal
+syntheses has been developed in recent years that provide size control
+of uniform populations of nanoparticles.<xref ref-type="bibr" rid="ref1 ref2">(1, 2)</xref> For semiconducting
+nanocrystals, the traditional heat-up and hot-injection methods often
+achieve this by modifying the kinetics and thermodynamics of nucleation,
+principally through the level of supersaturation, reaction temperature,
+choice of stabilizing ligands, and alteration of precursor conversion
+kinetics.<xref ref-type="bibr" rid="ref3 ref4 ref5 ref6 ref7">(3-7)</xref> The mechanisms involved are based on classic LaMer theory,<xref ref-type="bibr" rid="ref8">(8)</xref> and more quantitative models.<xref ref-type="bibr" rid="ref9 ref10">(9, 10)</xref> Even
+with these advancements in our understanding of nanocrystal formation,
+selecting appropriate synthetic conditions for a desired nanocrystal
+structure remains challenging.</p><p>In addition to modifying the
+rate of nucleation, &#x201c;multiple
+injection&#x201d; or &#x201c;seeded growth&#x201d; strategies have
+been used to synthesize nanocrystals with varying degrees of size
+control. Seeded growth strategies, whereby preformed nanoparticles
+are mixed with metal precursors and surfactants in optimized ratios,
+have shown success in both metal and oxide nanocrystal syntheses.<xref ref-type="bibr" rid="ref11 ref12 ref13 ref14 ref15 ref16">(11-16)</xref> Secondary rapid-injection of precursors and surfactants into the
+original reaction solution can also be used to grow both semiconducting
+nanocrystals and nanowires;<xref ref-type="bibr" rid="ref17 ref18 ref19">(17-19)</xref> however, the above methods are
+often limited in their size control and size resolution control. Because
+the detailed mechanisms of growth in many of the previous approaches
+involve complex processes, such as ripening and aggregation, seeded
+growth or &#x201c;dynamic injection&#x201d; strategies often require
+careful selection of reaction conditions so as not to induce new nucleation
+or product formation with unreacted precursor. Strategies include
+isolating (and often purifying) the nanocrystal seeds, lowering the
+reaction temperature for shell growth, and carefully selecting the
+shell-forming precursor.</p><p>An ideal nanocrystal synthetic method
+would allow for a continuous,
+layer by layer construction of a nanoparticle at the subnanometer
+level, similar to the &#x201c;living metal-polymer&#x201d; idea first
+conceptualized by Watzky et al.<xref ref-type="bibr" rid="ref20">(20)</xref> A continuous
+growth synthetic method applicable for a wide variety of inorganic
+nanomaterials would allow precise and predictable structural control
+analogous to that provided by living polymerization in macromolecular
+chemistry. Several groups have recently acknowledged the importance
+of more generalizable synthetic methods for assembling complex nanomaterials,<xref ref-type="bibr" rid="ref21">(21)</xref> and suggest the utility of polymer-like control
+in nanowire and quantum dot syntheses.<xref ref-type="bibr" rid="ref20 ref22 ref23 ref24">(20, 22-24)</xref> To achieve such control requires a system in which no new nucleation
+takes place during growth, the number of growing species remains constant,
+and intermediate nanocrystal cores do not passivate. An ideal synthesis
+would permit epitaxial growth of core/shell structures and the seamless
+control of concentration gradients within doped nanocrystals. Such
+approaches would offer precision and control of the internal nanostructures
+and sizes, which dictate the properties of nanocrystal cores.</p><p>Recently, several synthetic approaches have been reported that
+employ slow addition of precursor to extend the growth of nanocrystals
+and demonstrate some of the potential benefits of continuous growth
+processes.<xref ref-type="bibr" rid="ref25 ref26 ref27">(25-27)</xref> We previously showed that slow addition of metal
+oleates into hot oleyl alcohol produced monodispersed nanocrystals
+for a variety of binary oxides.<xref ref-type="bibr" rid="ref28">(28)</xref> The catalytic
+esterification reactions that lead to nanocrystal formation seemed
+ideal to examine whether these syntheses could be used to carry out
+continuous growth of binary oxide nanocrystals and, potentially, to
+control the radial placement of dopant atoms in the oxide matrix.
+To this end we examined the growth process for indium oxide nanocrystals
+during slow addition of precursor under conditions where thermal decomposition
+of the precursor does not occur. We show that this process shares
+attributes common to living growth in polymers, yielding nanocrystals
+with predictable sizes and compositions over a range of three to over
+22 nm in diameter. The surfaces of the nanocrystals retain their reactivity,
+and thus are amenable to further growth of either the core material
+or even doped material. The continuous growth process permits the
+synthesis of core/shell nanocrystals with custom radial dopant compositions
+that, in turn, allow predictable tuning of the energy of the localized
+surface plasmon resonance. The continuous, controlled growth process
+offers an intuitive approach to precise and predictable size control
+of metal oxide nanocrystals.</p></sec><sec id="sec2"><title>Results and Discussion</title><p>Previously
+we showed that <italic>slow</italic> addition of a metal
+oleate to oleyl alcohol at elevated temperatures (&gt;200 &#xb0;C)
+yields
+crystalline nanoparticles for a variety of binary metal oxides at
+temperatures below the thermal decomposition point of the precursors.<xref ref-type="bibr" rid="ref28">(28)</xref> It was also possible to produce core/shell nanocrystals
+using this method. Spectroscopic studies reveal the production of
+an ester, oleyl oleate, during the synthesis, resulting in the formation
+of a metal hydroxyl species. As the concentration of M&#x2013;OH species
+increases, condensation eventually occurs to form metal oxide nanoparticles
+stabilized primarily by oleic acid (<xref rid="sch1">Scheme <xref ref-type="scheme" rid="sch1">1</xref></xref>). Metal hydroxide condensation is accompanied
+by the production of water, observed both in the reaction flask and
+by <sup>1</sup>H NMR spectroscopy.</p><fig fig-type="scheme" id="sch1" position="float"><label>Scheme 1</label><caption><title>Overview of the continuous, controlled
+growth synthesis of metal
+oxide nanocrystals<xref ref-type="fn" rid="sch1-fn1"><sup>a</sup></xref></title></caption><graphic id="gr1" position="float" xlink:href="nn-2016-02796v_0010.tif"/><p><fn id="sch1-fn1"><label>Scheme a</label><p>Slow addition of
+metal oleate
+promotes rapid metal hydroxide formation leading to initiation of
+nanocrystal growth. Nanocrystals continue to grow as additional precursor
+is added. Metal hydroxyls on the nanocrystal surface support a continuous
+growth process in which particle size is not limited.</p></fn></p></fig><p>Although a variety of binary and doped oxide nanocrystals
+have
+recently been produced through esterification of metal carboxylates
+in long-chain alcohols (including In<sub>2</sub>O<sub>3</sub>, &#x3b3;-Fe<sub>2</sub>O<sub>3</sub>, Mn<sub>3</sub>O<sub>4</sub>, CoO, and ZnO),<xref ref-type="bibr" rid="ref28 ref29 ref30 ref31 ref32">(28-32)</xref> little is known about their growth mechanism. We chose to investigate
+indium oxide in detail because of our interest in the optical and
+electronic properties of these nanocrystals as a function of nanocrystal
+size and tin doping level. Indium oxide nanocrystals were synthesized
+through the dropwise addition (0.3 mL/min) of indium oleate solution
+into oleyl alcohol at 290 &#xb0;C. Small aliquots were taken and quenched
+by rapid cooling to room temperature. Purified samples were characterized
+by small-angle X-ray scattering (SAXS). Transmission electron microscopy
+(TEM) images were also collected and offer complementary size and
+size dispersion information to SAXS that serve to validate the generated
+SAXS models.<xref ref-type="bibr" rid="ref33">(33)</xref> We were able to monitor
+nanocrystal size, size dispersion, and concentration with SAXS (<xref rid="fig1">Figure <xref ref-type="fig" rid="fig1">1</xref></xref>) and validate this
+data using TEM (<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>).</p><fig fig-type="figure" id="fig1" position="float"><label>Figure 1</label><caption><p>Representative small-angle X-ray scattering data. Colored dots
+represent raw SAXS data collected, and the black lines represent fits
+to the data. Modeled sizes of nanocrystals from top to bottom are
+11.4, 12.7, 16.4, and 21.9 nm.</p></caption><graphic id="gr2" position="float" xlink:href="nn-2016-02796v_0002.tif"/></fig><fig fig-type="figure" id="fig2" position="float"><label>Figure 2</label><caption><p>SAXS and TEM data from a typical slow-injection synthesis of indium
+oxide nanocrystals. Nanocrystal aliquots were quenched and the size,
+size dispersion, and concentration evaluated. (a) Average particle
+size and relative dispersity (1&#x3c3;) from SAXS as a function of
+metal precursor added to the reaction. Since the same volume of solution
+was taken out of the reaction flask for each aliquot, the number of
+particles (or scatterers) could be calculated and compared over the
+entire synthesis period, as shown in (b). (c) TEM image of 3 nm particles
+after 0.2 mmol indium addition. (d&#x2013;f) TEM images of 6.1, 11.7,
+and 16.4 nm particles (corresponding to first, fifth, and last points
+in (a), respectively). Scale bars are 20 nm.</p></caption><graphic id="gr3" position="float" xlink:href="nn-2016-02796v_0003.tif"/></fig><p>This initial study showed continuous nanocrystal growth as
+a result
+of further precursor addition (<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>a). No nanoparticles were observed immediately after
+metal precursor addition began, however crystalline particles were
+detected in the reaction solution after the addition of 0.2 mmol of
+metal (<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>c).
+Based upon the SAXS data (<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>a) and corresponding TEM images in <xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>c&#x2013;f, the particle size
+increased steadily from 6 to 16 nm as more metal precursor was added.
+The relative size dispersity decreased over this addition, and at
+core sizes greater than 8 nm, the particles became monodisperse, as
+revealed by both SAXS and TEM (1&#x3c3; by SAXS = 7&#x2013;8%). The
+absolute dispersity for this data set (plotted in <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b02796/suppl_file/nn6b02796_si_001.pdf">Figure S1</ext-link>) remains essentially constant after the addition
+of 2 mmol of precursor, suggesting that processes such as ripening
+and size focusing are not occurring during the later stages of the
+growth process. The size dispersion was even smaller by TEM, 1&#x3c3;
+= &#x223c;5% (see <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b02796/suppl_file/nn6b02796_si_001.pdf">Figure S2</ext-link> for TEM size
+analysis).</p><p>SAXS analysis revealed that the number of particles
+in the reaction
+vessel remained nearly constant through the entire precursor addition
+(<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>b), suggesting
+that little coalescence and ripening occurs, and no additional nucleation
+begins. Further, if precursor addition was stopped at any point during
+the synthesis and the solution left under synthesis conditions for
+several hours, nanocrystals did not change shape or size during that
+time (see below and <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b02796/suppl_file/nn6b02796_si_001.pdf">Figure S6</ext-link>). When precursor
+addition resumes, growth continues as expected. These attributes are
+consistent with a continuous growth process analogous to that found
+in living polymer chemistry.<xref ref-type="bibr" rid="ref34">(34)</xref></p><p>If
+the nanocrystal cores remain reactive, there should be no upper
+limit to the nanocrystal size that can be produced. Under standard
+synthetic conditions, we were initially unable to grow nanocrystals
+larger than 16 nm (<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>a). Because alcohol is consumed during nanocrystal growth,
+we hypothesized that this may be due to the consumption of all the
+alcohol initially in the reaction vessel. By adding more alcohol to
+the reaction flask during the synthesis, larger nanocrystals were
+obtained. SAXS and TEM analysis (<xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>) confirm the synthesis of monodisperse nanocrystals
+up to 22 nm in diameter. We expect that larger sizes are possible
+through the continued addition of precursor, assuming enough alcohol
+is present to continue esterification. For a typical batch, over 3.0
+g of monodisperse 22 nm nanocrystals were obtained as a solid powder
+(see <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b02796/suppl_file/nn6b02796_si_001.pdf">Figures S3 and S4</ext-link> for further SAXS
+analysis and a picture of gram quantities of the product).</p><fig fig-type="figure" id="fig3" position="float"><label>Figure 3</label><caption><p>SAXS and TEM
+data acquired from a continuous growth synthesis of
+larger nanocrystals. To produce nanocrystals larger than 16 nm, additional
+reactant (alcohol) was added to the vessel to ensure esterification
+of metal carboxylate would continue. (a) Particle diameter from SAXS
+as a function of metal precursor added displays the growing nanocrystal
+size with precursor addition, while maintaining &lt;10% size dispersion.
+(b) SAXS data replotted as particle core mass versus added precursor,
+showing a linear correlation (<italic>R</italic><sup>2</sup> = 0.998)
+between core mass and monomer conversion. (c&#x2013;f) TEM images
+of 11.4, 13.9, 18.4, and 21.9 nm nanocrystals, corresponding to the
+first, second, fourth, and last data points in (a), respectively.
+Scale bars are 20 nm.</p></caption><graphic id="gr4" position="float" xlink:href="nn-2016-02796v_0004.tif"/></fig><p>Nanocrystal growth utilizing this slow-injection approach
+exhibits
+several signatures that are common to living polymerizations. First,
+as mentioned above, precursor addition can be halted, left at reaction
+temperature (or room temperature), and restarted without any change
+to particle size or size dispersion (see <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b02796/suppl_file/nn6b02796_si_001.pdf">Figure S6</ext-link> and <xref rid="sec3">Methods</xref> section). Second, we
+observed a linear correlation (<xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>b) between the average mass of a nanocrystal core and
+the addition of metal precursor up to a mass of at least 25 million.
+In typical living polymerizations, because the number of growing chains
+is constant, a linear correlation between monomer conversion and polymer
+molecular weight is observed.</p><p>We suspected that the surface
+hydroxyl groups are responsible for
+sustaining nanocrystal growth (or, alternatively, terminate growth
+if the hydroxyls become passivated or dehydrate to an oxo species)
+as shown in <xref rid="sch1">Scheme <xref ref-type="scheme" rid="sch1">1</xref></xref>. To test this hypothesis, we investigated whether nanocrystal growth
+can be sustained in their absence by eliminating the hydroxyls through
+reaction with a long-chain silane reagent. To this end, we synthesized
+10.4 nm In<sub>2</sub>O<sub>3</sub> nanocrystals. Half of these nanocrystals
+were treated with trimethoxy(octadecyl)silane. A TEM of the silane-treated,
+purified product is shown in <xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>a, along with an EDX and XPS spectra indicating the
+presence of silicon (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b02796/suppl_file/nn6b02796_si_001.pdf">Figure S5</ext-link>). No discernible
+changes in the size or dispersity of the nanocrystals were observed
+during silanization. When additional metal precursor was added to
+the silane-coated particles, significant changes in morphology and
+polydispersity of the sample were observed (<xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>b). The anisotropy of the grown nanocrystals,
+along with the presence of two populations of nanocrystals (one much
+smaller than the original), imply that growth on existing cores was
+hindered and new nucleation occurred. When additional precursor was
+added to the untreated nanocrystals, growth continued as expected,
+producing larger, monodisperse nanocrystals. (<xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>c). These results suggest that continuous
+growth occurs through monomer addition to the surface hydroxyl groups</p><fig fig-type="figure" id="fig4" position="float"><label>Figure 4</label><caption><p>TEM images
+assessing nanocrystal growth in the presence and absence
+of a long-chain silane. The silane reacts with surface hydroxyls of
+the nanocrystals. (a) Washed particles after treatment with the coupling
+agent (10.4 nm by SAXS). An EDX and XPS spectra (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b02796/suppl_file/nn6b02796_si_001.pdf">Figure S5</ext-link>) shows the presence of silicon. (b) After addition
+of 0.5 mmol metal precursor under standard synthetic conditions, particle
+growth is suppressed and two populations of nanocrystals are present,
+indicating that growth is inhibited and new nucleation has occurred.
+(c) The experiment performed under the same conditions as those in
+(b), without the addition of the coupling agent. Particles are 11.3
+nm by SAXS, suggesting that growth is not suppressed and nanocrystals
+continue to grow. All scale bars are 20 nm.</p></caption><graphic id="gr5" position="float" xlink:href="nn-2016-02796v_0005.tif"/></fig><p>During the growth process, we observed striking morphology
+changes
+in the nanocrystals as a function of core size by low-resolution TEM
+(<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref> and <xref ref-type="fig" rid="fig3">3</xref>). Because key properties of nanomaterials depend
+upon shape and facets, in addition to the core size,<xref ref-type="bibr" rid="ref35">(35)</xref> we investigated select samples with HRTEM (<xref rid="fig5">Figure <xref ref-type="fig" rid="fig5">5</xref></xref>). The nanocrystals are single
+crystals at all core sizes, indicating that growth occurs epitaxially
+at the particle surface. At smaller sizes, the nanocrystals appear
+cubic passivated by {001} facets, whereas at larger sizes, the [011]
+and [012] planes dominate the cuboctahedra. This shape change suggests
+that the {001} facets are growing at a faster rate than other planes,<xref ref-type="bibr" rid="ref35">(35)</xref> and as a result, the nanocrystals become mostly
+passivated by the slower growing planes. As previously detailed,<xref ref-type="bibr" rid="ref28 ref36">(28, 36)</xref> {001} facets of In<sub>2</sub>O<sub>3</sub> become more stable when
+passivated by water or hydroxide, indicating that growth proceeds
+by hydroxide condensation.</p><fig fig-type="figure" id="fig5" position="float"><label>Figure 5</label><caption><p>HRTEM and FFT images of representative nanocrystals.
+Smaller particles
+(a) have a truncated cubic morphology and are passivated by {001}
+planes. The FFT on the right displays the [010] zone axis. (b). Larger
+particles appear octahedral. The FFT on the right displays the [012]
+zone axis. All particles are single crystals. Scale bars are 5 nm.</p></caption><graphic id="gr6" position="float" xlink:href="nn-2016-02796v_0006.tif"/></fig><p>The fact that the surface hydroxyls
+remain reactive throughout
+the synthesis allows easy and logical preparation of more complex
+structures, specifically core/shell nanocrystals.<xref ref-type="bibr" rid="ref37 ref38">(37, 38)</xref> We examined this aspect of the growth method by producing a series
+of Sn-doped In<sub>2</sub>O<sub>3</sub> (ITO) nanocrystals with a
+shell of In<sub>2</sub>O<sub>3</sub> (ITO/In<sub>2</sub>O<sub>3</sub> core/shell nanocrystals). To produce doped nanocrystals using more
+traditional methods (i.e., thermal decomposition or hot-injection),
+the reactivity of the host and dopant precursor must be determined
+empirically and carefully balanced to control dopant density.<xref ref-type="bibr" rid="ref39">(39)</xref> Our slow-injection approach using metal oleates
+as precursors allows effective incorporation of dopants that is easily
+controlled by simply varying their feed ratios.</p><p>An ITO core
+was synthesized by slow addition of a mixture of indium
+and tin precursors into oleyl alcohol. At the end of this addition,
+the core reached 6.3 nm. Additional indium oleate was added to grow
+the shell. No purification was necessary before shell growth. SAXS
+and TEM data on core/shell particles of varying shell thickness are
+presented in <xref rid="fig6">Figure <xref ref-type="fig" rid="fig6">6</xref></xref>.</p><fig fig-type="figure" id="fig6" position="float"><label>Figure 6</label><caption><p>SAXS and TEM data for In<sub>2</sub>O<sub>3</sub> core/shell nanocrystals.
+The table displays the particle size and size dispersion from SAXS.
+By TEM, all nanocrystal sizes have a sub-10% size distribution. The
+slightly higher percent polydispersity found by SAXS is likely the
+result of differing degrees of shape anisotropy in the sample. Because
+SAXS is a scattering based method of analysis, small shape anisotropies
+can contribute to a larger modeled polydispersity. Dopant-induced
+shape modulation is commonly reported in literature, and anisotropies
+could be caused from dopant-induced crystallographic disorder or changes
+in ligand bonding. All scale bars are 20 nm.</p></caption><graphic id="gr7" position="float" xlink:href="nn-2016-02796v_0007.tif"/></fig><p>X-ray photoelectron spectroscopy (XPS) was used to monitor
+shell
+growth and radial distribution of the tin atoms. <xref rid="fig7">Figure <xref ref-type="fig" rid="fig7">7</xref></xref>a shows decreasing Sn 3d peaks
+as more indium precursor is added to the nanocrystals. The sampling
+depth (3&#x3bb;) for the In and Sn 3d XPS peaks was calculated to
+be &#x223c;5 nm within the nanocrystal core.<xref ref-type="bibr" rid="ref40">(40)</xref> Additional attenuation of these signals occurs in the ligand shell.
+As the In<sub>2</sub>O<sub>3</sub> shell thickness increases from
+0.6&#x2013;3.3 nm, the intensity of the Sn 3d peaks steadily decrease,
+suggesting that the dopant (tin) is being confined to the nanocrystal
+core as the In<sub>2</sub>O<sub>3</sub> shell is grown. For the 12.8
+nm ITO/In<sub>2</sub>O<sub>3</sub> nanocrystals (<xref rid="fig6">Figures <xref ref-type="fig" rid="fig6">6</xref></xref>d and <xref ref-type="fig" rid="fig7">7</xref>, green trace), no Sn 3d peaks are present in the XPS spectrum, indicating
+the nanocrystal does not contain tin in the shell of the material.
+If tin were redistributing itself in the nanocrystal homogeneously,
+one would expect a little over 1 at. % tin present, which is easily
+detectable in this measurement. Two other features of the XPS spectra
+support these conclusions. First, the In 3d peaks narrow as In<sub>2</sub>O<sub>3</sub> is grown, suggesting that undoped In<sub>2</sub>O<sub>3</sub> dominates the signal produced in the outer portions
+of the nanocrystals. Second, the systematic decreases in the baseline
+intensity at binding energies &gt;455 eV (attributed to inelastic
+scattering
+of In 3d photoelectrons) suggests that the depth sampled contains
+higher concentrations of indium sampled as the shell thickness increases.<xref ref-type="bibr" rid="ref41">(41)</xref></p><fig fig-type="figure" id="fig7" position="float"><label>Figure 7</label><caption><p>XPS and NIR absorbance of ITO/In<sub>2</sub>O<sub>3</sub> core/shell
+nanocrystals with varying thickness of In<sub>2</sub>O<sub>3</sub>. (a) XPS spectra show a decreasing intensity of the Sn 3d peaks
+of the core, decreasing intensity of the inelastic binding region,
+and a smaller width of the In 3d peaks consistent with thicker In<sub>2</sub>O<sub>3</sub> shells. (b) Near-infrared (NIR) spectra of ITO
+and core/shell nanocrystals display LSPR peaks that are shifted to
+longer wavelength as the concentration of tin in the crystal decreases,
+indicating a decreasing free electron concentration in the crystal.</p></caption><graphic id="gr8" position="float" xlink:href="nn-2016-02796v_0008.tif"/></fig><p>We measured the near-infrared
+absorbance spectra of the core/shell
+nanocrystals to assess the role of dopant distribution on the optoelectronic
+properties of the nanocrystals. Heterovalently doped metal oxide nanocrystals
+have been identified as important non-noble metal plasmonic materials,
+which have been an area of recent active research.<xref ref-type="bibr" rid="ref42 ref43 ref44">(42-44)</xref> The localized
+surface plasmon resonance (LSPR) of these materials can be tuned based
+on the free electron concentrations. In <xref rid="fig7">Figure <xref ref-type="fig" rid="fig7">7</xref></xref>b, we find the LSPR red-shift with increasing
+shell (In<sub>2</sub>O<sub>3</sub>) thickness, as would be expected
+with decreasing Sn-dopant concentration. The wavelength of the LSPR
+can be tuned over a range of more than 1,000 nm simply by increasing
+the thickness of the oxide shell. If In<sub>2</sub>O<sub>3</sub> were
+not growing on the existing crystals and instead were nucleating independently,
+one would not observe the same red-shift of the LSPR, but would instead
+observe a superposition of ITO and In<sub>2</sub>O<sub>3</sub> spectra.<xref ref-type="bibr" rid="ref45">(45)</xref> This synthetic method has the potential to yield
+more information regarding the LSPR response to the dopant distribution
+within a nanocrystal as well as the degree of LSPR modulation.<xref ref-type="bibr" rid="ref46">(46)</xref></p><p>In an effort to evaluate the ease with
+which dopants can be intentionally
+placed in different radial positions in a nanocrystal, we aimed to
+synthesize In<sub>2</sub>O<sub>3</sub>/ITO/In<sub>2</sub>O<sub>3</sub> core/shell/shell nanocrystals. First, 8.9 nm In<sub>2</sub>O<sub>3</sub> nanocrystals were synthesized as described above. The reaction
+mixture was then stirred at synthesis temperature for 3 h. SAXS analysis
+of aliquots taken over this time show no further growth or aggregation
+(<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b02796/suppl_file/nn6b02796_si_001.pdf">Figure S6</ext-link>). Next, a 90:10 In/Sn oleate
+mixture was slowly added to the reaction mixture, and the particles
+were grown to reach 10.4 nm. Finally, additional indium oleate was
+slowly injected to reach a final diameter of 13.6 nm (see <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b02796/suppl_file/nn6b02796_si_001.pdf">Figure S7</ext-link> for TEM images). XPS spectra of aliquots
+taken for the In<sub>2</sub>O<sub>3</sub> core, In<sub>2</sub>O<sub>3</sub>/ITO core/shell, and In<sub>2</sub>O<sub>3</sub>/ITO/In<sub>2</sub>O<sub>3</sub> core/shell/shell nanocrystals are shown in <xref rid="fig8">Figure <xref ref-type="fig" rid="fig8">8</xref></xref>. The Sn 3d peaks
+grow in upon addition of the ITO shell, and decrease after the In<sub>2</sub>O<sub>3</sub> shell is added. The inelastic scattering of
+the In 3d photoelectrons increases upon ITO shell addition and decreases
+when the In<sub>2</sub>O<sub>3</sub> shell is added, as expected if
+the dopant atoms are localized in the inner shell.</p><fig fig-type="figure" id="fig8" position="float"><label>Figure 8</label><caption><p>XPS of In<sub>2</sub>O<sub>3</sub> core, In<sub>2</sub>O<sub>3</sub>/ITO core/shell, and
+In<sub>2</sub>O<sub>3</sub>/ITO/In<sub>2</sub>O<sub>3</sub> core/shell/shell
+nanocrystals. The core nanocrystals
+shows no presence of Sn 3d peaks (the peak at 494 in the spectrum
+of the core is a Na Auger peak from the mica substrate), whereas the
+core/shell and core/shell/shell nanocrystals show the presence of
+Sn. The decrease in the amplitude of the Sn 3d peaks and the decrease
+in inelastic scattering are both consistent with the core/shell/shell
+structure with the tin localized in the inner shell. Inset: zoomed-in
+view of the Sn 3d peaks between 510 and 470 eV.</p></caption><graphic id="gr9" position="float" xlink:href="nn-2016-02796v_0009.tif"/></fig></sec><sec id="sec3"><title>Conclusion</title><p>We have demonstrated subnanometer control of
+core size and dopant
+distribution in indium oxide and tin-doped indium oxide nanocrystals
+via a slow-injection synthetic method. Rapid esterification, rather
+than thermal decomposition, produces reactive species that condense
+with active hydroxyl groups on the nanocrystal surface leading to
+continuous, controlled growth. The reactivity of the surface hydroxyl
+groups is important because if they become passivated, nucleation
+of new nanocrystals occurs rather than the growth of the existing
+cores. The method possesses several of the beneficial attributes of
+living growth processes common in polymer chemistry: (i) the number
+of growing nanocrystals remains constant, (ii) the size distribution
+of the nanocrystal cores remains low throughout the process, (iii)
+the molecular weight of the nanocrystal core scales linearly with
+the amount of precursor added, and (iv) the growth can be stopped
+and restarted making it convenient to grow shells of differing compositions.</p><p>This approach allows the synthesis of rationally designed core/shell
+materials with predictable dopant densities and desired shell and
+core sizes. We utilized this method to synthesize ITO/In<sub>2</sub>O<sub>3</sub> core/shell nanocrystals, as well as In<sub>2</sub>O<sub>3</sub>/ITO/In<sub>2</sub>O<sub>3</sub> core/shell/shell nanocrystals.
+The similar reactivities of the matrix and dopant precursors under
+esterification conditions means that dopant concentration is easily
+controlled through the ratio of precursors used. Under the conditions
+employed for synthesis, dopants do not redistribute throughout the
+nanocrystals. Convenient access to semiconductor nanocrystals with
+deliberately controlled radial distributions of dopant ions will permit
+studies to probe how such distributions influence the optical and
+electronic properties of these materials.</p><p>Slow-injection syntheses
+that produce reactive species through
+controlled reactions, (such as the esterification process described
+here), hold promise to produce a wide range of mixed metal oxide and
+doped metal oxide nanocrystals with desired dimensions and composition
+profiles. Chemistries that generate a reactive nanocrystal surface
+and produce controlled mixtures of reactive species that condense
+with the surface groups would, more generally, allow more controlled
+syntheses of nanocrystals with specific overall or local compositions.
+Such methods would serve as a springboard for the development of other
+types of nanomaterials, in addition to oxide nanocrystals.</p></sec><sec id="sec4"><title>Materials
+and Methods</title><sec id="sec4.1"><title>Materials</title><p>Indium(III) acetate (99.99%), oleic acid
+(90% technical grade), tin(IV) acetate, and trimethoxy(octadecyl)silane
+(90% technical grade) were purchased from Sigma-Aldrich and used as
+received. Oleyl alcohol (80&#x2013;85% technical grade) was purchased
+from Alfa Aesar and used as received. A flow meter purchased from
+Cole-Parmer was used to monitor nitrogen flow (model 03216&#x2013;10).</p></sec><sec id="sec4.2"><title>Characterization of Indium Oxide Nanocrystals</title><p>Small-angle
+X-ray scattering (SAXS) analysis was done on a lab-scale SAXS (SAXSess,
+Anton Paar, Austria). The system was attached to an X-ray generator
+equipped with a X-ray tube (Cu K&#x3b1; X-rays with wavelength &#x3bb;
+= 0.154 nm) operating at 40 kV and 50 mA. The scattered X-ray intensities
+were measured with a charge-coupled device (CCD) detector (Roper Scientific,
+Germany). The raw data was processed with SAXSquant software (version
+2.0). Scattering curves were averaged over 50 individual curves for
+various acquisition times (2&#x2013;40s). Curve fitting was done using
+Irena macros for IGOR (V. 6.3).<xref ref-type="bibr" rid="ref33">(33)</xref> Select
+samples were analyzed with a NIST SANS data reduction software.<xref ref-type="bibr" rid="ref47">(47)</xref> The SAXS was calibrated to absolute intensity
+using 18.2 M&#x3a9; water as a standard, and all data was normalized
+to the same exposure time. The number of scatterers were calculated
+dividing the volume fraction by the volume of one particle. We were
+concerned that a SAXS model generated from a spherical form factor
+might produce inaccuracies because particle shapes ranged from truncated
+cubic to cuboctahedral. However, generated SAXS patterns will be directly
+proportional to a nanocrystals&#x2019; core volume, and when the appropriate
+form factor is used to for analysis, we find negligible (&lt;5%) differences
+in the modeled volume.</p><p>Transmission electron microscopy (TEM)
+images and electron diffraction patterns were collected on 400 mesh
+Cu grids (Ted Pella, Redding, CA) using a Tecnai Spirit TEM (FEI,
+Hillsboro, OR) operating at 120 kV equipped with a Bruker EDS detector.
+HRTEM images were collected on a 300 kV C<sub>s</sub> image corrected
+FEI Titan (S)TEM. Samples were prepared by drop-casting a toluene
+solution directly onto a copper grid, or by dipping the grid into
+a dilute solution of particles. Images were analyzed using ImageJ
+software, and following procedures outlined in literature.<xref ref-type="bibr" rid="ref48">(48)</xref> Over 300 nanoparticles were measured for each
+data point.</p><p>X-ray photoelectron spectroscopy (XPS) was acquired
+using a Thermo
+Scientific ESCALAB 250 X-ray photoelectron spectrometer using monochromatic
+Al K&#x3b1; X-ray source at 20 kV. Twenty scans were collected on
+each sample over a binding energy of 436&#x2013;523 eV to observe
+the In and Sn 3d peaks. Samples were prepared by drop-casting a hexane
+solution of nanocrystals on mica substrates.</p><p>NIR absorbance
+measurements were collected on a PerkinElmer Lambda
+1050 UV/vis/NIR spectrometer. Samples were prepared at concentrations
+of 0.5 mg/mL in carbon tetrachloride.</p></sec><sec id="sec4.3"><title>Synthesis of Indium Oxide
+Nanocrystals</title><p>Indium(III)
+acetate (2.198 g, 7.5 mmol) was added to 15 mL oleic acid and kept
+at 150 &#xb0;C for several hours under N<sub>2</sub> to produce an
+indium oleate solution with a concentration of 0.5 mmol indium/mL
+oleic acid. The indium oleate solution obtained was then added dropwise
+to 13.0 mL of oleyl alcohol heated to 290 &#xb0;C in a 100.0 mL three-neck
+flask. The metal oleate solution was added using a 20 mL syringe and
+syringe pump at a rate of 0.35 mL/min. During addition, N<sub>2</sub> was flowing through the flask at a rate of 130 cc/min. All three
+necks of the flask were capped with septa, and three 16-gauge purge
+needles were placed in one of the necks to prevent pressure buildup.
+A small amount of kimwipe was placed in the purge needles.</p><p>For
+the synthesis of larger nanocrystals, the presence of more than 13.0
+mL oleyl alcohol was necessary to continue esterification and growth
+the nanocrystals. After the addition of 10 mL indium oleate solution,
+the syringe of indium oleate was removed and 10 mL of oleyl alcohol
+was added dropwise at a rate of 0.2 mL/min. Once the alcohol was added,
+additional metal oleate precursor was added at 0.35 mL/min. The cycle
+continued once more (see <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b02796/suppl_file/nn6b02796_si_001.pdf">Supporting Information Figure 3</ext-link>) for the synthesis of 22 nm particles.</p><p>To gain
+insight into the growth mechanism during the synthesis,
+0.1 mL aliquots were taken from the reaction solution using a dry
+1.0 mL glass syringe. Collection of the aliquot out of the hot reaction
+vessel rapidly cooled the solution and quenched particle growth. The
+nanocrystals were precipitated with 12 mL ethanol. The solid was collected
+by centrifugation at 7300 rpm and washed once more with 12 mL ethanol.
+After collection, the final nanocrystals were dissolved in toluene.</p></sec><sec id="sec4.4"><title>Termination of Surface Hydroxyl Groups with a Trialkoxysilane
+during In<sub>2</sub>O<sub>3</sub> Growth</title><p>In<sub>2</sub>O<sub>3</sub> nanocrystals were synthesized at 290 &#xb0;C as described
+above to produce nanocrystals that are 10.4 nm by SAXS. At this point,
+the reaction mixture was cooled to room temperature. After the nanocrystals
+had settled to the bottom of the flask, &#x223c;8 mLs of the supernatant
+(oleyl alcohol and ester) were decanted. This reduces the amount of
+oleyl alcohol that is available to react with the silane reagent.
+The remaining nanocrystals were heated to 150 &#xb0;C. Then, 8 mL
+of trimethoxy(octadecyl)silane was added dropwise (0.2 mL/min), and
+the reaction was then left at 150 &#xb0;C for 1 h. Next, the flask
+was cooled to room temperature and the original decanted solution
+was added back to the flask. The contents of the flask were then reheated
+to 290 &#xb0;C. An aliquot was taken at this point for analysis.</p><p>To investigate the effects of the silane treatment, an additional
+0.5 mmol metal precursor was added to the nanocrystals under synthesis
+conditions. A second aliquot was taken at this point (<xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>b).</p><p>As a control to evaluate
+the growth in the absence of silane, the
+same experimental procedure described above was performed without
+addition of trimethoxy(octadecyl)silane. That product is shown in <xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>c.</p><p>Each aliquot
+was precipitated with 12 mL ethanol. The solid was
+collected by centrifugation at 7300 rpm and washed once more with
+12 mL ethanol. Final nanocrystals were dispersed in hexanes for SAXS
+analysis and deposited on a TEM grid for imaging.</p></sec><sec id="sec4.5"><title>Synthesis of
+ITO/In<sub>2</sub>O<sub>3</sub> Core/Shell Nanocrystals</title><p>The
+synthesis is similar to that described above for In<sub>2</sub>O<sub>3</sub>, using the same reaction temperature and nitrogen flow
+rate. Indium oleate precursor was previously prepared by mixing indium
+acetate and oleic acid as described above. In a different vial, a
+10% Sn-doped indium oleate solution (ITO precursor) was prepared by
+mixing tin(IV) acetate and indium(III) acetate in a 1:9 molar ratio.
+Oleic acid was added to yield a final solution with a concentration
+of 0.5 mmol/mL oleic acid. Both precursor solutions were left at 150
+&#xb0;C for several hour under N<sub>2</sub>.</p><p>The ITO precursor
+solution was first added dropwise into 13.0 mL of oleyl alcohol at
+290 &#xb0;C using a 20.0 mL syringe and syringe pump at a rate of
+0.35 mL/min. An aliquot of the solution was collected at this point.</p><p>After growth of the ITO cores, the ITO precursor syringe was removed
+from the syringe pump and replaced with a syringe filled with the
+indium oleate precursor. As described above, the precursor was added
+to the flask using a 20.0 mL syringe and syringe pump at a rate of
+0.35 mL/min. Aliquots were taken after the addition of 0.5, 1.0, and
+2.0 mmol of indium precursor was added. All aliquots were precipitated
+twice with 12 mL ethanol, collected by centrifugation, and dissolved
+in hexanes.</p></sec><sec id="sec4.6"><title>Synthesis of In<sub>2</sub>O<sub>3</sub>/ITO/In<sub>2</sub>O<sub>3</sub> Core/Shell Nanocrystals</title><p>The synthesis
+is similar
+to that described above for In<sub>2</sub>O<sub>3</sub>, using the
+same reaction temperature and nitrogen flow rate. Indium oleate precursor
+was previously prepared by mixing indium acetate and oleic acid as
+described above. In a different vial, a 10% Sn-doped indium oleate
+solution (ITO precursor) was prepared by mixing tin(IV) acetate and
+indium(III) acetate in a 1:9 molar ratio. Oleic acid was added to
+yield a final solution with a concentration of 0.5 mmol/mL oleic acid.
+Both precursor solutions were left at 150 &#xb0;C for several hour
+under N<sub>2</sub>.</p><p>The indium precursor solution was first
+added dropwise into 13.0 mL of oleyl alcohol at 290 &#xb0;C using
+a 20.0 mL syringe and syringe pump at a rate of 0.35 mL/min to grow
+8.9 nm indium oxide nanocrystals. The nanocrystals were then left
+in the reaction solution at 290 &#xb0;C for 3 h (SAXS data shown in <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b02796/suppl_file/nn6b02796_si_001.pdf">Figure S6</ext-link>). After 3 h, the ITO precursor was
+added dropwise into the reaction solution at a rate of 0.35 mL/min,
+until the nanocrystals reached 10.4 nm. An aliquot was taken after
+this addition for TEM and XPS analysis. Subsequently, the same indium
+oleate precursor described above was slowly added (0.35 mL/min) into
+the reaction solution to yield nanocrystals with a final core size
+of 13.6 nm. XPS spectra from these particles are shown in <xref rid="fig8">Figure <xref ref-type="fig" rid="fig8">8</xref></xref>, TEM images of the
+In<sub>2</sub>O<sub>3</sub> core, In<sub>2</sub>O<sub>3</sub>/ITO
+core/shell, and In<sub>2</sub>O<sub>3</sub>/ITO/In<sub>2</sub>O<sub>3</sub> core/shell/shell nanocrystals can be found in <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b02796/suppl_file/nn6b02796_si_001.pdf">Figure S7</ext-link>.</p></sec></sec></body><back><notes id="notes-1" notes-type="si">
+<title><inline-supplementary-material xlink:href="/doi/suppl/10.1021/acsnano.6b02796">Supporting Information</inline-supplementary-material></title><p>The Supporting Information
+is available free of charge on the <ext-link xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at DOI: <ext-link xlink:href="http://pubs.acs.org/doi/abs/10.1021/acsnano.6b02796">10.1021/acsnano.6b02796</ext-link>.<list id="silist" list-type="label"><list-item><p>Nanocrystal size
+with absolute size distribution, nanocrystal
+size and size dispersion by TEM, extended SAXS data from the synthesis
+of larger nanocrystals, picture of gram scale nanocrystal products,
+EDX spectrum of silane coated particles, SAXS analysis from nanocrystals
+left in reaction solution, and core/shell/shell nanocrystal TEM images.
+(<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b02796/suppl_file/nn6b02796_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><notes id="notes-2"><title>Author Contributions</title><p>All authors
+designed the experiments, analyzed data, and wrote the manuscript.
+Experiments were performed by A.W.J. J.E.H. supervised the project.</p></notes><notes id="NOTES-d7e923-autogenerated" notes-type="conflict-of-interest"><p>The authors declare no
+competing financial interest.</p></notes><ack id="ACK-d7e917-autogenerated"><title>Acknowledgment</title><p>We thank J. Razink for assistance acquiring and analyzing
+TEM data, S. Golledge and F. Fumasi for assistance acquiring XPS data
+and discussion, and B. Crockett and K. Koskela for LSPR analysis and
+discussion. We also thank J. Ilavsky at the Advanced Photon Source
+for providing <italic>IRENA Macros</italic> for SAXS analysis, E.
+Downs and L. Kenyon Plummer for several edits the manuscript, and
+S. Young for assistance with SAXS measurements. This research was
+supported by NSF grant NSF IIP-1237890.</p></ack><ref-list><title>References</title><ref id="ref1"><label>1. </label><citation citation-type="journal" id="cit1"><name><surname>Park</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Joo</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Kwon</surname><x>, </x><given-names>S. G.</given-names></name><x>; </x><name><surname>Jang</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Hyeon</surname><x>, </x><given-names>T.</given-names></name><article-title>Synthesis of Monodisperse
+Spherical Nanocrystals</article-title><source>Angew. Chem., Int. Ed.</source><x> </x><year>2007</year><x>, </x><volume>46</volume><x>, </x><fpage>4630</fpage><x>&ndash;</x><lpage>4660</lpage><pub-id pub-id-type="doi">10.1002/anie.200603148</pub-id></citation></ref><ref id="ref2"><label>2. </label><citation citation-type="journal" id="cit2"><name><surname>Thanh</surname><x>, </x><given-names>N. T. K.</given-names></name><x>; </x><name><surname>Maclean</surname><x>, </x><given-names>N.</given-names></name><x>; </x><name><surname>Mahiddine</surname><x>, </x><given-names>S.</given-names></name><article-title>Mechanisms
+of Nucleation and Growth
+of Nanoparticles in Solution</article-title><source>Chem. Rev.</source><x> </x><year>2014</year><x>, </x><volume>114</volume><x>, </x><fpage>7610</fpage><x>&ndash;</x><lpage>7630</lpage><pub-id pub-id-type="doi">10.1021/cr400544s</pub-id></citation></ref><ref id="ref3"><label>3. </label><citation citation-type="journal" id="cit3"><name><surname>Kwon</surname><x>, </x><given-names>S. G.</given-names></name><x>; </x><name><surname>Hyeon</surname><x>, </x><given-names>T.</given-names></name><article-title>Formation Mechanisms
+of Uniform Nanocrystals <italic>via</italic> Hot-Injection and Heat-Up
+Methods</article-title><source>Small</source><x> </x><year>2011</year><x>, </x><volume>7</volume><x>, </x><fpage>2685</fpage><x>&ndash;</x><lpage>2702</lpage><pub-id pub-id-type="doi">10.1002/smll.201002022</pub-id></citation></ref><ref id="ref4"><label>4. </label><citation citation-type="journal" id="cit4"><name><surname>Owen</surname><x>, </x><given-names>J. S.</given-names></name><x>; </x><name><surname>Chan</surname><x>, </x><given-names>E. M.</given-names></name><x>; </x><name><surname>Liu</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Alivisatos</surname><x>, </x><given-names>A. P.</given-names></name><article-title>Precursor
+Conversion Kinetics and the Nucleation of Cadmium Selenide Nanocrystals</article-title><source>J. Am. Chem. Soc.</source><x> </x><year>2010</year><x>, </x><volume>132</volume><x>, </x><fpage>18206</fpage><x>&ndash;</x><lpage>18213</lpage><pub-id pub-id-type="doi">10.1021/ja106777j</pub-id></citation></ref><ref id="ref5"><label>5. </label><citation citation-type="journal" id="cit5"><name><surname>Abe</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>C&#x30c;apek</surname><x>, </x><given-names>R. K.</given-names></name><x>; </x><name><surname>De Geyter</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Hens</surname><x>, </x><given-names>Z.</given-names></name><article-title>Tuning the Postfocused
+Size of Colloidal Nanocrystals by the Reaction Rate: From Theory to
+Application</article-title><source>ACS Nano</source><x> </x><year>2012</year><x>, </x><volume>6</volume><x>, </x><fpage>42</fpage><x>&ndash;</x><lpage>53</lpage><pub-id pub-id-type="doi">10.1021/nn204008q</pub-id></citation></ref><ref id="ref6"><label>6. </label><citation citation-type="journal" id="cit6"><name><surname>Hendricks</surname><x>, </x><given-names>M. P.</given-names></name><x>; </x><name><surname>Cossairt</surname><x>, </x><given-names>B. M.</given-names></name><x>; </x><name><surname>Owen</surname><x>, </x><given-names>J. S.</given-names></name><article-title>The Importance
+of Nanocrystal Precursor
+Conversion Kinetics: Mechanism of the Reaction between Cadmium Carboxylate
+and Cadmium Bis(diphenyldithiophosphinate)</article-title><source>ACS Nano</source><x> </x><year>2012</year><x>, </x><volume>6</volume><x>, </x><fpage>10054</fpage><x>&ndash;</x><lpage>10062</lpage><pub-id pub-id-type="doi">10.1021/nn303769h</pub-id></citation></ref><ref id="ref7"><label>7. </label><citation citation-type="journal" id="cit7"><name><surname>Hendricks</surname><x>, </x><given-names>M.
+P.</given-names></name><x>; </x><name><surname>Campos</surname><x>, </x><given-names>M. P.</given-names></name><x>; </x><name><surname>Cleveland</surname><x>, </x><given-names>G. T.</given-names></name><x>; </x><name><surname>Jen-La Plante</surname><x>, </x><given-names>I.</given-names></name><x>; </x><name><surname>Owen</surname><x>, </x><given-names>J. S.</given-names></name><article-title>A Tunable Library
+of Substituted Thiourea Precursors
+to Metal Sulfide Nanocrystals</article-title><source>Science</source><x> </x><year>2015</year><x>, </x><volume>348</volume><x>, </x><fpage>1226</fpage><x>&ndash;</x><lpage>1230</lpage><pub-id pub-id-type="doi">10.1126/science.aaa2951</pub-id></citation></ref><ref id="ref8"><label>8. </label><citation citation-type="journal" id="cit8"><name><surname>LaMer</surname><x>, </x><given-names>V. K.</given-names></name><x>; </x><name><surname>Dinegar</surname><x>, </x><given-names>R. H.</given-names></name><article-title>Theory, Production
+and Mechanism of Formation of Monodispersed
+Hydrosols</article-title><source>J. Am. Chem. Soc.</source><x> </x><year>1950</year><x>, </x><volume>72</volume><x>, </x><fpage>4847</fpage><x>&ndash;</x><lpage>4854</lpage><pub-id pub-id-type="doi">10.1021/ja01167a001</pub-id></citation></ref><ref id="ref9"><label>9. </label><citation citation-type="journal" id="cit9"><name><surname>Robb</surname><x>, </x><given-names>D. T.</given-names></name><x>; </x><name><surname>Privman</surname><x>, </x><given-names>V.</given-names></name><article-title>Model of Nanocrystal
+Formation in Solution by Burst
+Nucleation and Diffusional Growth</article-title><source>Langmuir</source><x> </x><year>2008</year><x>, </x><volume>24</volume><x>, </x><fpage>26</fpage><x>&ndash;</x><lpage>35</lpage><pub-id pub-id-type="doi">10.1021/la702097g</pub-id></citation></ref><ref id="ref10"><label>10. </label><citation citation-type="journal" id="cit10"><name><surname>Rempel</surname><x>, </x><given-names>J. Y.</given-names></name><x>; </x><name><surname>Bawendi</surname><x>, </x><given-names>M. G.</given-names></name><x>; </x><name><surname>Jensen</surname><x>, </x><given-names>K. F.</given-names></name><article-title>Insights
+into the Kinetics of Semiconductor
+Nanocrystal Nucleation and Growth</article-title><source>J. Am. Chem.
+Soc.</source><x> </x><year>2009</year><x>, </x><volume>131</volume><x>, </x><fpage>4479</fpage><x>&ndash;</x><lpage>4489</lpage><pub-id pub-id-type="doi">10.1021/ja809156t</pub-id></citation></ref><ref id="ref11"><label>11. </label><citation citation-type="journal" id="cit11"><name><surname>Park</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Lee</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Hwang</surname><x>, </x><given-names>N.-M.</given-names></name><x>; </x><name><surname>Kang</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Kim</surname><x>, </x><given-names>S. C.</given-names></name><x>; </x><name><surname>Hwang</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Park</surname><x>, </x><given-names>J.-G.</given-names></name><x>; </x><name><surname>Noh</surname><x>, </x><given-names>H.-J.</given-names></name><x>; </x><name><surname>Kim</surname><x>, </x><given-names>J.-Y.</given-names></name><x>; </x><name><surname>Park</surname><x>, </x><given-names>J.-H.</given-names></name><x>; </x><name><surname>Hyeon</surname><x>, </x><given-names>T.</given-names></name><article-title>One-Nanometer-Scale
+Size-Controlled Synthesis of Monodisperse Magnetic
+Iron Oxide Nanoparticles</article-title><source>Angew. Chem., Int.
+Ed.</source><x> </x><year>2005</year><x>, </x><volume>44</volume><x>, </x><fpage>2872</fpage><x>&ndash;</x><lpage>2877</lpage><pub-id pub-id-type="doi">10.1002/anie.200461665</pub-id></citation></ref><ref id="ref12"><label>12. </label><citation citation-type="journal" id="cit12"><name><surname>Yu</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Gibbons</surname><x>, </x><given-names>P. C.</given-names></name><x>; </x><name><surname>Kelton</surname><x>, </x><given-names>K. F.</given-names></name><x>; </x><name><surname>Buhro</surname><x>, </x><given-names>W. E.</given-names></name><article-title>Heterogeneous Seeded
+Growth: A Potentially General Synthesis of Monodisperse Metallic Nanoparticles</article-title><source>J. Am. Chem. Soc.</source><x> </x><year>2001</year><x>, </x><volume>123</volume><x>, </x><fpage>9198</fpage><x>&ndash;</x><lpage>9199</lpage><pub-id pub-id-type="doi">10.1021/ja016529t</pub-id></citation></ref><ref id="ref13"><label>13. </label><citation citation-type="journal" id="cit13"><name><surname>Jana</surname><x>, </x><given-names>N. R.</given-names></name><x>; </x><name><surname>Peng</surname><x>, </x><given-names>X.</given-names></name><article-title>Single-Phase and Gram-Scale Routes toward Nearly Monodisperse Au
+and Other Noble Metal Nanocrystals</article-title><source>J. Am. Chem.
+Soc.</source><x> </x><year>2003</year><x>, </x><volume>125</volume><x>, </x><fpage>14280</fpage><x>&ndash;</x><lpage>14281</lpage><pub-id pub-id-type="doi">10.1021/ja038219b</pub-id></citation></ref><ref id="ref14"><label>14. </label><citation citation-type="journal" id="cit14"><name><surname>Wilcoxon</surname><x>, </x><given-names>J.
+P.</given-names></name><x>; </x><name><surname>Provencio</surname><x>, </x><given-names>P. P.</given-names></name><article-title>Heterogeneous
+Growth of Metal Clusters from Solutions
+of Seed Nanoparticles</article-title><source>J. Am. Chem. Soc.</source><x> </x><year>2004</year><x>, </x><volume>126</volume><x>, </x><fpage>6402</fpage><x>&ndash;</x><lpage>6408</lpage><pub-id pub-id-type="doi">10.1021/ja031622y</pub-id></citation></ref><ref id="ref15"><label>15. </label><citation citation-type="journal" id="cit15"><name><surname>Farrell</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Majetich</surname><x>, </x><given-names>S. A.</given-names></name><x>; </x><name><surname>Wilcoxon</surname><x>, </x><given-names>J. P.</given-names></name><article-title>Preparation
+and Characterization
+of Monodisperse Fe Nanoparticles</article-title><source>J. Phys. Chem.
+B</source><x> </x><year>2003</year><x>, </x><volume>107</volume><x>, </x><fpage>11022</fpage><x>&ndash;</x><lpage>11030</lpage><pub-id pub-id-type="doi">10.1021/jp0351831</pub-id></citation></ref><ref id="ref16"><label>16. </label><citation citation-type="journal" id="cit16"><name><surname>Sun</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Zeng</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Robinson</surname><x>, </x><given-names>D. B.</given-names></name><x>; </x><name><surname>Raoux</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Rice</surname><x>, </x><given-names>P. M.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>S. X.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>G.</given-names></name><article-title>Monodisperse
+MFe<sub>2</sub>O<sub>4</sub> (M = Fe, Co, Mn) Nanoparticles</article-title><source>J.
+Am. Chem. Soc.</source><x> </x><year>2004</year><x>, </x><volume>126</volume><x>, </x><fpage>273</fpage><x>&ndash;</x><lpage>279</lpage><pub-id pub-id-type="doi">10.1021/ja0380852</pub-id></citation></ref><ref id="ref17"><label>17. </label><citation citation-type="journal" id="cit17"><name><surname>Peng</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Wickham</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Alivisatos</surname><x>, </x><given-names>A. P.</given-names></name><article-title>Kinetics of II-VI and III-V Colloidal
+Semiconductor Nanocrystal Growth:&#x201c;Focusing&#x201d; of Size
+Distributions</article-title><source>J. Am. Chem. Soc.</source><x> </x><year>1998</year><x>, </x><volume>120</volume><x>, </x><fpage>5343</fpage><x>&ndash;</x><lpage>5344</lpage><pub-id pub-id-type="doi">10.1021/ja9805425</pub-id></citation></ref><ref id="ref18"><label>18. </label><citation citation-type="journal" id="cit18"><name><surname>Qian</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Kim</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Ma</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Tsui</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Yang</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Liu</surname><x>, </x><given-names>J.</given-names></name><article-title>Solution-Phase
+Synthesis of Single-Crystalline Iron Phosphide Nanorods/Nanowires</article-title><source>J. Am. Chem. Soc.</source><x> </x><year>2004</year><x>, </x><volume>126</volume><x>, </x><fpage>1195</fpage><x>&ndash;</x><lpage>1198</lpage><pub-id pub-id-type="doi">10.1021/ja038401c</pub-id></citation></ref><ref id="ref19"><label>19. </label><citation citation-type="journal" id="cit19"><name><surname>Lu</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Gao</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Jian</surname><x>, </x><given-names>W. B.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>Z. L.</given-names></name><x>; </x><name><surname>Fang</surname><x>, </x><given-names>J.</given-names></name><article-title>Perfect Orientation
+Ordered in-Situ One-Dimensional Self-Assembly of Mn-Doped PbSe Nanocrystals</article-title><source>J. Am. Chem. Soc.</source><x> </x><year>2004</year><x>, </x><volume>126</volume><x>, </x><fpage>14816</fpage><x>&ndash;</x><lpage>14821</lpage><pub-id pub-id-type="doi">10.1021/ja046769j</pub-id></citation></ref><ref id="ref20"><label>20. </label><citation citation-type="journal" id="cit20"><name><surname>Watzky</surname><x>, </x><given-names>M. A.</given-names></name><x>; </x><name><surname>Finke</surname><x>, </x><given-names>R. G.</given-names></name><article-title>Nanocluster Size-Control and &#x201c;Magic Number&#x201d;
+Investigations. Experimental Tests of the &#x201c;Living-Metal Polymer&#x201d;
+Concept and of Mechanism-Based Size-Control Predictions Leading to
+the Syntheses of Iridium(0) Nanoclusters Centering about Four Sequential
+Magic Numbers</article-title><source>Chem. Mater.</source><x> </x><year>1997</year><x>, </x><volume>9</volume><x>, </x><fpage>3083</fpage><x>&ndash;</x><lpage>3095</lpage><pub-id pub-id-type="doi">10.1021/cm9704387</pub-id></citation></ref><ref id="ref21"><label>21. </label><citation citation-type="journal" id="cit21"><name><surname>Wang</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Zhuang</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Peng</surname><x>, </x><given-names>Q.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>Y.</given-names></name><article-title>A General Strategy
+for Nanocrystal Synthesis</article-title><source>Nature</source><x> </x><year>2005</year><x>, </x><volume>437</volume><x>, </x><fpage>121</fpage><x>&ndash;</x><lpage>124</lpage><pub-id pub-id-type="doi">10.1038/nature03968</pub-id></citation></ref><ref id="ref22"><label>22. </label><citation citation-type="journal" id="cit22"><name><surname>Mayer</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Scarabelli</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>March</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Altantzis</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Tebbe</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Kociak</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Bals</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Garci&#x301;a
+de Abajo</surname><x>, </x><given-names>F. J.</given-names></name><x>; </x><name><surname>Fery</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Liz-Marza&#x301;n</surname><x>, </x><given-names>L. M.</given-names></name><article-title>Controlled
+Living Nanowire Growth: Precise Control over the Morphology and Optical
+Properties of AgAuAg Bimetallic Nanowires</article-title><source>Nano
+Lett.</source><x> </x><year>2015</year><x>, </x><volume>15</volume><x>, </x><fpage>5427</fpage><x>&ndash;</x><lpage>5437</lpage><pub-id pub-id-type="doi">10.1021/acs.nanolett.5b01833</pub-id></citation></ref><ref id="ref23"><label>23. </label><citation citation-type="journal" id="cit23"><name><surname>Cademartiri</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Guerin</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Bishop</surname><x>, </x><given-names>K. J. M.</given-names></name><x>; </x><name><surname>Winnik</surname><x>, </x><given-names>M. A.</given-names></name><x>; </x><name><surname>Ozin</surname><x>, </x><given-names>G. A.</given-names></name><article-title>Polymer-like
+Conformation and Growth Kinetics of Bi<sub>2</sub>S<sub>3</sub> Nanowires</article-title><source>J. Am. Chem. Soc.</source><x> </x><year>2012</year><x>, </x><volume>134</volume><x>, </x><fpage>9327</fpage><x>&ndash;</x><lpage>9334</lpage><pub-id pub-id-type="doi">10.1021/ja301855z</pub-id></citation></ref><ref id="ref24"><label>24. </label><citation citation-type="journal" id="cit24"><name><surname>Evans</surname><x>, </x><given-names>C. M.</given-names></name><x>; </x><name><surname>Love</surname><x>, </x><given-names>A. M.</given-names></name><x>; </x><name><surname>Weiss</surname><x>, </x><given-names>E. A.</given-names></name><article-title>Surfactant-Controlled Polymerization
+of Semiconductor Clusters to Quantum Dots through Competing Step-Growth
+and Living Chain-Growth Mechanisms</article-title><source>J. Am. Chem.
+Soc.</source><x> </x><year>2012</year><x>, </x><volume>134</volume><x>, </x><fpage>17298</fpage><x>&ndash;</x><lpage>17305</lpage><pub-id pub-id-type="doi">10.1021/ja3079576</pub-id></citation></ref><ref id="ref25"><label>25. </label><citation citation-type="journal" id="cit25"><name><surname>Gordon</surname><x>, </x><given-names>T.
+R.</given-names></name><x>; </x><name><surname>Cargnello</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Paik</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Mangolini</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Weber</surname><x>, </x><given-names>R. T.</given-names></name><x>; </x><name><surname>Fornasiero</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Murray</surname><x>, </x><given-names>C. B.</given-names></name><article-title>Nonaqueous Synthesis
+of TiO<sub>2</sub> Nanocrystals Using TiF<sub>4</sub> to Engineer
+Morphology, Oxygen Vacancy Concentration, and Photocatalytic Activity</article-title><source>J. Am. Chem. Soc.</source><x> </x><year>2012</year><x>, </x><volume>134</volume><x>, </x><fpage>6751</fpage><x>&ndash;</x><lpage>6761</lpage><pub-id pub-id-type="doi">10.1021/ja300823a</pub-id></citation></ref><ref id="ref26"><label>26. </label><citation citation-type="journal" id="cit26"><name><surname>Vreeland</surname><x>, </x><given-names>E. C.</given-names></name><x>; </x><name><surname>Watt</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Schober</surname><x>, </x><given-names>G. B.</given-names></name><x>; </x><name><surname>Hance</surname><x>, </x><given-names>B. G.</given-names></name><x>; </x><name><surname>Austin</surname><x>, </x><given-names>M. J.</given-names></name><x>; </x><name><surname>Price</surname><x>, </x><given-names>A. D.</given-names></name><x>; </x><name><surname>Fellows</surname><x>, </x><given-names>B. D.</given-names></name><x>; </x><name><surname>Monson</surname><x>, </x><given-names>T. C.</given-names></name><x>; </x><name><surname>Hudak</surname><x>, </x><given-names>N. S.</given-names></name><x>; </x><name><surname>Maldonado-Camargo</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Bohorquez</surname><x>, </x><given-names>A. C.</given-names></name><x>; </x><name><surname>Rinaldi</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Huber</surname><x>, </x><given-names>D. L.</given-names></name><article-title>Enhanced
+Nanoparticle Size Control by Extending LaMer&#x2019;s Mechanism</article-title><source>Chem. Mater.</source><x> </x><year>2015</year><x>, </x><volume>27</volume><x>, </x><fpage>6059</fpage><x>&ndash;</x><lpage>6066</lpage><pub-id pub-id-type="doi">10.1021/acs.chemmater.5b02510</pub-id></citation></ref><ref id="ref27"><label>27. </label><citation citation-type="journal" id="cit27"><name><surname>Buonsanti</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Grillo</surname><x>, </x><given-names>V.</given-names></name><x>; </x><name><surname>Carlino</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Giannini</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Kipp</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Cingolani</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Cozzoli</surname><x>, </x><given-names>P. D.</given-names></name><article-title>Nonhydrolytic Synthesis
+of High-Quality
+Anisotropically Shaped Brookite TiO<sub>2</sub> Nanocrystals</article-title><source>J. Am. Chem. Soc.</source><x> </x><year>2008</year><x>, </x><volume>130</volume><x>, </x><fpage>11223</fpage><x>&ndash;</x><lpage>11233</lpage><pub-id pub-id-type="doi">10.1021/ja803559b</pub-id></citation></ref><ref id="ref28"><label>28. </label><citation citation-type="journal" id="cit28"><name><surname>Ito</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Yokoyama</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Zaikova</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Masuko</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Hutchison</surname><x>, </x><given-names>J. E.</given-names></name><article-title>Synthesis
+of Ligand-Stabilized Metal Oxide Nanocrystals and Epitaxial Core/Shell
+Nanocrystals <italic>via</italic> a Lower-Temperature Esterification
+Process</article-title><source>ACS Nano</source><x> </x><year>2014</year><x>, </x><volume>8</volume><x>, </x><fpage>64</fpage><x>&ndash;</x><lpage>75</lpage><pub-id pub-id-type="doi">10.1021/nn401888h</pub-id></citation></ref><ref id="ref29"><label>29. </label><citation citation-type="journal" id="cit29"><name><surname>Niederberger</surname><x>, </x><given-names>M.</given-names></name><article-title>Nonaqueous
+Sol&#x2013;Gel Routes to Metal Oxide Nanoparticles</article-title><source>Acc. Chem. Res.</source><x> </x><year>2007</year><x>, </x><volume>40</volume><x>, </x><fpage>793</fpage><x>&ndash;</x><lpage>800</lpage><pub-id pub-id-type="doi">10.1021/ar600035e</pub-id></citation></ref><ref id="ref30"><label>30. </label><citation citation-type="journal" id="cit30"><name><surname>Song</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Kulinich</surname><x>, </x><given-names>S. A.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Liu</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Zeng</surname><x>, </x><given-names>H.</given-names></name><article-title>A General
+One-Pot Strategy for the Synthesis of High-Performance Transparent-Conducting-Oxide
+Nanocrystal Inks for All-Solution-Processed Devices</article-title><source>Angew. Chem., Int. Ed.</source><x> </x><year>2014</year><x>, </x><volume>54</volume><x>, </x><fpage>462</fpage><x>&ndash;</x><lpage>466</lpage><pub-id pub-id-type="doi">10.1002/anie.201411396</pub-id></citation></ref><ref id="ref31"><label>31. </label><citation citation-type="journal" id="cit31"><name><surname>Della
+Gaspera</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Chesman</surname><x>, </x><given-names>A. S. R.</given-names></name><x>; </x><name><surname>van Embden</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Jasieniak</surname><x>, </x><given-names>J. J.</given-names></name><article-title>Non-Injection Synthesis of Doped Zinc Oxide Plasmonic
+Nanocrystals</article-title><source>ACS Nano</source><x> </x><year>2014</year><x>, </x><volume>8</volume><x>, </x><fpage>9154</fpage><x>&ndash;</x><lpage>9163</lpage><pub-id pub-id-type="doi">10.1021/nn5027593</pub-id></citation></ref><ref id="ref32"><label>32. </label><citation citation-type="journal" id="cit32"><name><surname>Narayanaswamy</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Xu</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Pradhan</surname><x>, </x><given-names>N.</given-names></name><x>; </x><name><surname>Kim</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Peng</surname><x>, </x><given-names>X.</given-names></name><article-title>Formation of Nearly
+Monodisperse In<sub>2</sub>O<sub>3</sub> Nanodots and Oriented-Attached
+Nanoflowers: Hydrolysis and Alcoholysis vs Pyrolysis</article-title><source>J. Am. Chem. Soc.</source><x> </x><year>2006</year><x>, </x><volume>128</volume><x>, </x><fpage>10310</fpage><x>&ndash;</x><lpage>10319</lpage><pub-id pub-id-type="doi">10.1021/ja0627601</pub-id></citation></ref><ref id="ref33"><label>33. </label><citation citation-type="journal" id="cit33"><name><surname>Ilavsky</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Jemian</surname><x>, </x><given-names>P. R.</given-names></name><article-title>Irena: Tool Suite for Modeling and Analysis of Small-Angle
+Scattering</article-title><source>J. Appl. Crystallogr.</source><x> </x><year>2009</year><x>, </x><volume>42</volume><x>, </x><fpage>347</fpage><x>&ndash;</x><lpage>353</lpage><pub-id pub-id-type="doi">10.1107/S0021889809002222</pub-id></citation></ref><ref id="ref34"><label>34. </label><citation citation-type="journal" id="cit34"><name><surname>Szwarc</surname><x>, </x><given-names>M.</given-names></name><article-title>Living Polymers.
+Their Discovery, Characterization, and Properties</article-title><source>J. Polym. Sci., Part A: Polym. Chem.</source><x> </x><year>1998</year><x>, </x><volume>36</volume><x>, </x><fpage>IX</fpage><x>&ndash;</x><lpage>XV</lpage><pub-id pub-id-type="doi">10.1002/(SICI)1099-0518(19980115)36:1&lt;IX::AID-POLA2&gt;3.0.CO;2-9</pub-id></citation></ref><ref id="ref35"><label>35. </label><citation citation-type="journal" id="cit35"><name><surname>Xia</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Xiong</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Lim</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Skrabalak</surname><x>, </x><given-names>S. E.</given-names></name><article-title>Shape-Controlled
+Synthesis of Metal Nanocrystals: Simple Chemistry Meets Complex Physics?</article-title><source>Angew. Chem., Int. Ed.</source><x> </x><year>2009</year><x>, </x><volume>48</volume><x>, </x><fpage>60</fpage><x>&ndash;</x><lpage>103</lpage><pub-id pub-id-type="doi">10.1002/anie.200802248</pub-id></citation></ref><ref id="ref36"><label>36. </label><citation citation-type="journal" id="cit36"><name><surname>Agoston</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Albe</surname><x>, </x><given-names>K.</given-names></name><article-title>Thermodynamic Stability, Stoichiometry, and Electronic Structure
+of bcc-In<sub>2</sub>O<sub>3</sub> Surfaces</article-title><source>Phys. Rev. B: Condens. Matter Mater. Phys.</source><x> </x><year>2011</year><x>, </x><volume>84</volume><x>, </x><fpage>045311</fpage><pub-id pub-id-type="doi">10.1103/PhysRevB.84.045311</pub-id></citation></ref><ref id="ref37"><label>37. </label><citation citation-type="journal" id="cit37"><name><surname>Reiss</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Protie&#x300;re</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>L.</given-names></name><article-title>Core/Shell Semiconductor
+Nanocrystals</article-title><source>Small</source><x> </x><year>2009</year><x>, </x><volume>5</volume><x>, </x><fpage>154</fpage><x>&ndash;</x><lpage>168</lpage><pub-id pub-id-type="doi">10.1002/smll.200800841</pub-id></citation></ref><ref id="ref38"><label>38. </label><citation citation-type="journal" id="cit38"><name><surname>Ghosh
+Chaudhuri</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Paria</surname><x>, </x><given-names>S.</given-names></name><article-title>Core/Shell Nanoparticles: Classes,
+Properties, Synthesis Mechanisms, Characterization, and Applications</article-title><source>Chem. Rev.</source><x> </x><year>2012</year><x>, </x><volume>112</volume><x>, </x><fpage>2373</fpage><x>&ndash;</x><lpage>2433</lpage><pub-id pub-id-type="doi">10.1021/cr100449n</pub-id></citation></ref><ref id="ref39"><label>39. </label><citation citation-type="journal" id="cit39"><name><surname>Buonsanti</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Milliron</surname><x>, </x><given-names>D. J.</given-names></name><article-title>Chemistry of Doped Colloidal Nanocrystals</article-title><source>Chem. Mater.</source><x> </x><year>2013</year><x>, </x><volume>25</volume><x>, </x><fpage>1305</fpage><x>&ndash;</x><lpage>1317</lpage><pub-id pub-id-type="doi">10.1021/cm304104m</pub-id></citation></ref><ref id="ref40"><label>40. </label><citation citation-type="journal" id="cit40"><name><surname>Tanuma</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Powell</surname><x>, </x><given-names>C. J.</given-names></name><x>; </x><name><surname>Penn</surname><x>, </x><given-names>D. R.</given-names></name><article-title>Calculations of Electron Inelastic
+Mean Free Paths. V. Data for 14 Organic Compounds over the 50&#x2013;2000
+eV Range</article-title><source>Surf. Interface Anal.</source><x> </x><year>1994</year><x>, </x><volume>21</volume><x>, </x><fpage>165</fpage><x>&ndash;</x><lpage>176</lpage><pub-id pub-id-type="doi">10.1002/sia.740210302</pub-id></citation></ref><ref id="ref41"><label>41. </label><citation citation-type="journal" id="cit41"><name><surname>Tougaard</surname><x>, </x><given-names>S.</given-names></name><article-title>Surface Nanostructure
+Determination by X-ray Photoemission Spectroscopy Peak Shape Analysis</article-title><source>J. Vac. Sci. Technol., A</source><x> </x><year>1996</year><x>, </x><volume>14</volume><x>, </x><fpage>1415</fpage><x>&ndash;</x><lpage>1423</lpage><pub-id pub-id-type="doi">10.1116/1.579963</pub-id></citation></ref><ref id="ref42"><label>42. </label><citation citation-type="journal" id="cit42"><name><surname>Kovalenko</surname><x>, </x><given-names>M. V.</given-names></name><x>; </x><name><surname>Manna</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Cabot</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Hens</surname><x>, </x><given-names>Z.</given-names></name><x>; </x><name><surname>Talapin</surname><x>, </x><given-names>D. V.</given-names></name><x>; </x><name><surname>Kagan</surname><x>, </x><given-names>C. R.</given-names></name><x>; </x><name><surname>Klimov</surname><x>, </x><given-names>V. I.</given-names></name><x>; </x><name><surname>Rogach</surname><x>, </x><given-names>A. L.</given-names></name><x>; </x><name><surname>Reiss</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Milliron</surname><x>, </x><given-names>D. J.</given-names></name><x>; </x><name><surname>Guyot-Sionnnest</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Konstantatos</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Parak</surname><x>, </x><given-names>W. J.</given-names></name><x>; </x><name><surname>Hyeon</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Korgel</surname><x>, </x><given-names>B. A.</given-names></name><x>; </x><name><surname>Murray</surname><x>, </x><given-names>C. B.</given-names></name><x>; </x><name><surname>Heiss</surname><x>, </x><given-names>W.</given-names></name><article-title>Prospects of Nanoscience with Nanocrystals</article-title><source>ACS Nano</source><x> </x><year>2015</year><x>, </x><volume>9</volume><x>, </x><fpage>1012</fpage><x>&ndash;</x><lpage>1057</lpage><pub-id pub-id-type="doi">10.1021/nn506223h</pub-id></citation></ref><ref id="ref43"><label>43. </label><citation citation-type="journal" id="cit43"><name><surname>Faucheaux</surname><x>, </x><given-names>J. A.</given-names></name><x>; </x><name><surname>Stanton</surname><x>, </x><given-names>A. L. D.</given-names></name><x>; </x><name><surname>Jain</surname><x>, </x><given-names>P. K.</given-names></name><article-title>Plasmon Resonances of Semiconductor
+Nanocrystals: Physical Principles and New Opportunities</article-title><source>J. Phys. Chem. Lett.</source><x> </x><year>2014</year><x>, </x><volume>5</volume><x>, </x><fpage>976</fpage><x>&ndash;</x><lpage>985</lpage><pub-id pub-id-type="doi">10.1021/jz500037k</pub-id></citation></ref><ref id="ref44"><label>44. </label><citation citation-type="journal" id="cit44"><name><surname>Lounis</surname><x>, </x><given-names>S. D.</given-names></name><x>; </x><name><surname>Runnerstrom</surname><x>, </x><given-names>E. L.</given-names></name><x>; </x><name><surname>Llorde&#x301;s</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Milliron</surname><x>, </x><given-names>D. J.</given-names></name><article-title>Defect Chemistry
+and Plasmon Physics of Colloidal Metal Oxide Nanocrystals</article-title><source>J. Phys. Chem. Lett.</source><x> </x><year>2014</year><x>, </x><volume>5</volume><x>, </x><fpage>1564</fpage><x>&ndash;</x><lpage>1574</lpage><pub-id pub-id-type="doi">10.1021/jz500440e</pub-id></citation></ref><ref id="ref45"><label>45. </label><citation citation-type="journal" id="cit45"><name><surname>Schimpf</surname><x>, </x><given-names>A. M.</given-names></name><x>; </x><name><surname>Lounis</surname><x>, </x><given-names>S. D.</given-names></name><x>; </x><name><surname>Runnerstrom</surname><x>, </x><given-names>E. L.</given-names></name><x>; </x><name><surname>Milliron</surname><x>, </x><given-names>D. J.</given-names></name><x>; </x><name><surname>Gamelin</surname><x>, </x><given-names>D. R.</given-names></name><article-title>Redox Chemistries
+and Plasmon Energies of Photodoped In<sub>2</sub>O<sub>3</sub> and
+Sn-Doped In<sub>2</sub>O<sub>3</sub> (ITO) Nanocrystals</article-title><source>J. Am. Chem. Soc.</source><x> </x><year>2015</year><x>, </x><volume>137</volume><x>, </x><fpage>518</fpage><x>&ndash;</x><lpage>524</lpage><pub-id pub-id-type="doi">10.1021/ja5116953</pub-id></citation></ref><ref id="ref46"><label>46. </label><citation citation-type="journal" id="cit46"><name><surname>Lounis</surname><x>, </x><given-names>S. D.</given-names></name><x>; </x><name><surname>Runnerstrom</surname><x>, </x><given-names>E. L.</given-names></name><x>; </x><name><surname>Bergerud</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Nordlund</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Milliron</surname><x>, </x><given-names>D. J.</given-names></name><article-title>Influence
+of Dopant Distribution on the Plasmonic Properties of Indium Tin Oxide
+Nanocrystals</article-title><source>J. Am. Chem. Soc.</source><x> </x><year>2014</year><x>, </x><volume>136</volume><x>, </x><fpage>7110</fpage><x>&ndash;</x><lpage>7116</lpage><pub-id pub-id-type="doi">10.1021/ja502541z</pub-id></citation></ref><ref id="ref47"><label>47. </label><citation citation-type="journal" id="cit47"><name><surname>Kline</surname><x>, </x><given-names>S.</given-names></name><article-title>Reduction
+and Analysis of SANS and USANS Data Using IGOR Pro</article-title><source>J. Appl. Crystallogr.</source><x> </x><year>2006</year><x>, </x><volume>39</volume><x>, </x><fpage>895</fpage><x>&ndash;</x><lpage>900</lpage><pub-id pub-id-type="doi">10.1107/S0021889806035059</pub-id></citation></ref><ref id="ref48"><label>48. </label><citation citation-type="journal" id="cit48"><name><surname>Woehrle</surname><x>, </x><given-names>G. H.</given-names></name><x>; </x><name><surname>Hutchison</surname><x>, </x><given-names>J. E.</given-names></name><x>; </x><name><surname>O&#x308;zkar</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Finke</surname><x>, </x><given-names>R. G.</given-names></name><article-title>Analysis of Nanoparticle
+Transmission Electron Microscopy Data Using a Public-Domain Image-Processing
+Program, Image</article-title><source>Turk. J. Chem.</source><x> </x><year>2006</year><x>, </x><volume>30</volume><x>, </x><fpage>1</fpage><x>&ndash;</x><lpage>13</lpage></citation></ref></ref-list></back></article>

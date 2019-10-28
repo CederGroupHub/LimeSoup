@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE article PUBLIC "-//Atypon//DTD Archiving and Interchange DTD Suite with ACHS extensions v2.2 20080601//EN" "archivearticle.dtd">
+<article article-type="research-article" dtd-version="2.2" xml:lang="EN"  xmlns:mml="http://www.w3.org/1998/Math/MathML"><front><journal-meta>
+<journal-id journal-id-type="publisher">ancac3</journal-id><journal-title>ACS Nano</journal-title><abbrev-journal-title abbrev-type="publisher">ACS Nano</abbrev-journal-title><issn pub-type="ppub">1936-0851</issn><issn pub-type="epub">1936-086X</issn><publisher><publisher-name>American
+Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="doi">10.1021/acsnano.6b07666</article-id><article-categories>
+<subj-group subj-group-type="type-of-article">
+<subject>Article</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Synergistically Enhanced Electrochemical
+Performance
+of Hierarchical MoS<sub>2</sub>/TiNb<sub>2</sub>O<sub>7</sub> Hetero-nanostructures
+as Anode Materials for Li-Ion Batteries</article-title>
+</title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><given-names>De</given-names><x> </x><surname>Pham-Cong</surname></name><xref ref-type="aff" rid="aff1"><sup>&#x2020;</sup></xref><xref ref-type="notes" rid="notes-2">&#x2225;</xref><x>, </x></contrib><contrib contrib-type="author" id="ath2"><name><given-names>Jun Hee</given-names><x> </x><surname>Choi</surname></name><xref ref-type="aff" rid="aff2"><sup>&#x2021;</sup></xref><xref ref-type="notes" rid="notes-2">&#x2225;</xref><x>, </x></contrib><contrib contrib-type="author" id="ath3"><name><given-names>Jeongsik</given-names><x> </x><surname>Yun</surname></name><xref ref-type="aff" rid="aff3"><sup>&#xa7;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath4"><contrib-id contrib-id-type="orcid"  authenticated="true">http://orcid.org/0000-0002-5970-4315</contrib-id><name><given-names>Aliaksandr S.</given-names><x> </x><surname>Bandarenka</surname></name><xref ref-type="aff" rid="aff3"><sup>&#xa7;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath5"><name><given-names>Jinwoo</given-names><x> </x><surname>Kim</surname></name><xref ref-type="aff" rid="aff5"><sup>#</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath6"><contrib-id contrib-id-type="orcid"  authenticated="true">http://orcid.org/0000-0003-4079-8160</contrib-id><name><given-names>Paul V.</given-names><x> </x><surname>Braun</surname></name><xref ref-type="aff" rid="aff5"><sup>#</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath7"><name><given-names>Se Young</given-names><x> </x><surname>Jeong</surname></name><xref ref-type="aff" rid="aff1"><sup>&#x2020;</sup></xref><x>, and </x></contrib><contrib contrib-type="author" corresp="yes" id="ath8"><contrib-id contrib-id-type="orcid"  authenticated="true">http://orcid.org/0000-0002-6685-4012</contrib-id><name><given-names>Chae Ryong</given-names><x> </x><surname>Cho</surname></name><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref><xref ref-type="aff" rid="aff1"><sup>&#x2020;</sup></xref><x> </x></contrib><aff id="aff1"><label>&#x2020;</label>Department
+of Nanoenergy Engineering and College of Nanoscience and Nanotechnology, <institution>Pusan National University</institution>, Busan 46241, <country>Republic
+of Korea</country></aff><aff id="aff2"><label>&#x2021;</label>Device
+&amp; System Research Center, Samsung Advanced Institute of Technology, <institution>Samsung Electronics</institution>, Suwon 16676, <country>Republic
+of Korea</country></aff><aff id="aff3"><label>&#xa7;</label>Physik-Department
+ECS, <institution>Technische Universita&#x308;t Mu&#x308;nchen</institution>, James-Franck-Stra&#xdf;e 1, 85748 Garching, <country>Germany</country></aff><aff id="aff4"><institution>Nanosystems Initiative Munich
+(NIM)</institution>, Schellingstra&#xdf;e
+4, 80799 Munich, <country>Germany</country></aff><aff id="aff5"><label>#</label>Department
+of Materials Science and Engineering, Frederick Seitz Materials Research
+Laboratory, <institution>University of Illinois at Urbana&#x2212;Champaign</institution>, Urbana, Illinois 61801, <country>United States</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email xlink:href="crcho@pusan.ac.kr">crcho@pusan.ac.kr</email>.</corresp></author-notes><pub-date pub-type="ppub"><day>24</day><month>01</month><year>2017</year></pub-date><pub-date pub-type="epub"><day>06</day><month>01</month><year>2017</year></pub-date><volume>11</volume><issue>1</issue><fpage>1026</fpage><lpage>1033</lpage><supplementary-material xlink:href="nn6b07666_si_001.pdf" id="sifile1"/>
+<history><date date-type="received"><day>14</day><month>11</month><year>2016</year></date><date date-type="accepted"><day>31</day><month>12</month><year>2016</year></date><date date-type="asap"><day>06</day><month>01</month><year>2017</year></date><date date-type="issue-pub"><day>24</day><month>01</month><year>2017</year></date><date date-type="just-accepted"><day>31</day><month>12</month><year>2016</year></date></history><permissions><copyright-statement>&copy; 2016 American Chemical Society</copyright-statement><copyright-year>2016</copyright-year><copyright-holder>American Chemical Society</copyright-holder></permissions><related-article related-article-type="pdf" xlink:href="acsnano.6b07666.pdf"/>
+<abstract><p>As potential high-performance
+anodes for Li-ion batteries (LIBs),
+hierarchical heteronanostructures consisting of TiNb<sub>2</sub>O<sub>7</sub> nanofibers and ultrathin MoS2 nanosheets (TNO@MS HRs) were
+synthesized by simple electrospinning/hydrothermal processes. With
+their growth mechanism revealed, the TNO@MS HRs exhibited an entangled
+structure both for their ionic and electronic conducting pathways,
+which enabled the synergetic combination of one- and two-dimensional
+structures to be realized. In the potential range of 0.001&#x2013;3
+V <italic>vs</italic> Li/Li<sup>+</sup>, the TNO@MS HR-based LIBs
+exhibited high capacities of 872 and 740 mAh g<sup>&#x2013;1</sup> after 42 and 200 cycles at a current density of 1 A g<sup>&#x2013;1</sup>, respectively, and excellent rate performance of 611 mAh g<sup>&#x2013;1</sup> at 4 A g<sup>&#x2013;1</sup>. We believe that the fabrication route
+of TNO@MS HRs will find visibility for the use of anode electrodes
+for high capacity LIBs at low cost.</p></abstract><abstract abstract-type="graphical">
+<fig fig-type="figure" id="f_tgr1" position="float">
+<graphic xlink:href="nn-2016-07666j_0008.tif" id="tgr1"/></fig>
+</abstract><kwd-group><kwd>TiNb<sub>2</sub>O<sub>7</sub> nanofibers</kwd><kwd>MoS<sub>2</sub> nanosheets</kwd><kwd>hierarchical nanostructure</kwd><kwd>anode</kwd><kwd>synergetic behavior</kwd></kwd-group></article-meta></front><body><sec id="sec1"><title/><p>The Ti&#x2013;Nb-based
+compound
+oxides such as Ti<sub>2</sub>Nb<sub>2</sub>O<sub>9</sub>, TiNb<sub>6</sub>O<sub>17</sub>, LiTiNbO<sub>5</sub>, and TiNb<sub>2</sub>O<sub>7</sub> are known to have multiple redox couples of Ti<sup>4+</sup>/Ti<sup>3+</sup>, Nb<sup>5+</sup>/Nb<sup>4+</sup>, and Nb<sup>4+</sup>/Nb<sup>3+</sup> and low volume expansion during the charge&#x2013;discharge
+process.<xref ref-type="bibr" rid="ref1 ref2 ref3 ref4 ref5">(1-5)</xref> As a result, these oxides exhibit highly stable and reversible characteristics
+as anode materials for Li-ion batteries (LIBs). However, the theoretical
+capacity of TiNb<sub>2</sub>O<sub>7</sub> is relatively low: 387.6
+mAh g<sup>&#x2013;1</sup> for a five-electron transfer (Ti<sup>4+</sup>/Ti<sup>3+</sup> and Nb<sup>5+</sup>/Nb<sup>3+</sup>) or 310 mAh
+g<sup>&#x2013;1</sup> for a four-electron transfer (Nb<sup>5+</sup>/Nb<sup>3+</sup>).<xref ref-type="bibr" rid="ref4">(4)</xref> It has generally been
+acknowledged that nanostructured electrode materials provide excellent
+capacity because of the reduced diffusion length of Li ions and increased
+contact area between active materials and electrolytes.<xref ref-type="bibr" rid="ref6 ref7">(6, 7)</xref> Among emerging anode materials, MoS<sub>2</sub> exhibits high Li
+storage capacity thanks to the weak van der Waals interaction between
+its (002) planes, enabling the easy intercalation of Li<sup>+</sup> ions without a significant increase in volume.<xref ref-type="bibr" rid="ref8 ref9 ref10 ref11">(8-11)</xref> Moreover, hierarchical nanostructures
+such as three-dimensional branched, hyperbranched, and multibranched
+structures are considered to be more attractive in many nanoscale
+device applications.<xref ref-type="bibr" rid="ref12 ref13 ref14 ref15">(12-15)</xref> However, they still suffer from poor cycling performance. Recently,
+several research groups have assembled MoS<sub>2</sub> on various
+inactive one-dimensional conducting matrices such as carbon nanotubes,
+mesoporous CMK-3, carbon nanofibers, and carbon fiber cloth as anode
+materials for the reversible storage of Li<sup>+</sup>. These structures
+are known to exhibit additional advantages of outstanding electric
+conductivity, high charge mobility, and large specific surface area.<xref ref-type="bibr" rid="ref16 ref17 ref18 ref19 ref20 ref21">(16-21)</xref> However, all of the discussed approaches have not yet been successful
+in satisfying various requirements for next-generation LIB applications.</p><p>Here, we demonstrate the fabrication of hierarchical heteronanostructures
+consisting of TiNb<sub>2</sub>O<sub>7</sub> nanofibers and ultrathin
+MoS<sub>2</sub> nanosheets (TNO@MS HRs) using simple and cost-competitive
+electrospinning/hydrothermal processes. We examine the synergetic
+advantages of TNO@MS HRs based on the following points: (i) the low
+volume change of the TiNb<sub>2</sub>O<sub>7</sub> core during lithiation/delithiation
+should yield excellent cyclic stability at a relatively high rate
+without the formation of a solid-electrolyte interphase (SEI) layer,
+(ii) the ultrathin and independent MoS<sub>2</sub> shell morphology
+should result in exceptionally high capacity even beyond the theoretical
+limit because of the large available sites for Li<sup>+</sup> ion
+storage and high surface contact areas with electrolytes, and (iii)
+the entangled three-dimensional hierarchical TiNb<sub>2</sub>O<sub>7</sub>@MoS<sub>2</sub> nanostructures should fully utilize both
+(i) and (ii) in a synergetic manner.</p></sec><sec id="sec2"><title>Results and Discussion</title><p>We propose a fabrication strategy for TNO@MS HRs as illustrated
+in <xref rid="sch1">Scheme <xref ref-type="scheme" rid="sch1">1</xref></xref>. Uniform
+polymeric nanofibers with smooth surfaces were first fabricated using
+electrospinning (<xref rid="sch1">Scheme <xref ref-type="scheme" rid="sch1">1</xref></xref>a) and subsequent calcination at 850 &#xb0;C for 4 h, which converted
+the polymer fibers into polycrystalline TiNb<sub>2</sub>O<sub>7</sub> nanofibers through organic burning and successive crystallization
+(<xref rid="sch1">Scheme <xref ref-type="scheme" rid="sch1">1</xref></xref>b).</p><fig fig-type="scheme" id="sch1" position="float"><label>Scheme 1</label><caption><title>Schematic
+Illustration of the Formation of the TNO@MS HRs: (a) As-Electrospun
+Polymeric TiNb<sub>2</sub>O<sub>7</sub> Nanofibers, (b) TiNb<sub>2</sub>O<sub>7</sub> Nanofibers Formed by Process I, and (c) TNO@MS HRs
+Composed of MoS<sub>2</sub> Nanosheets Grown on TiNb<sub>2</sub>O<sub>7</sub> Nanofibers Formed by Process II</title></caption><graphic id="gr1" position="float" xlink:href="nn-2016-07666j_0007.tif"/></fig><p>The TNO@MS HRs were subsequently fabricated with successive
+hydrothermal
+growth of MoS<sub>2</sub> on the TiNb<sub>2</sub>O<sub>7</sub> nanofibers
+followed by thermal annealing in an ambient Ar atmosphere (<xref rid="sch1">Scheme <xref ref-type="scheme" rid="sch1">1</xref></xref>c). The TiNb<sub>2</sub>O<sub>7</sub> nanofibers were composed of serially interconnected
+and faceted nanograins with an average diameter of &#x223c;200 nm.
+The faceted nanograin morphology was clearly observed when calcination
+of the as-electrospun nanofibers was performed at 850 &#xb0;C or above
+(Figure S1, <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">Supporting Information</ext-link>). With
+further increase in the calcination temperature (<italic>T</italic><sub>c</sub>) to 950 &#xb0;C, grain growth was clearly observed with
+a slight degradation of the diameter uniformity (Figure S1g,h, <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">Supporting Information</ext-link>). Thermogravimetric analysis
+(TGA) of the as-electrospun nanofibers revealed the thermal decomposition
+of polyvinyl pyrolidone (PVP) and other organics, and crystallization
+into TiNb<sub>2</sub>O<sub>7</sub> occurs simultaneously up to a <italic>T</italic><sub>c</sub> of 700 &#xb0;C (Figure S2a, <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">Supporting Information</ext-link>). The crystallinity of the TiNb<sub>2</sub>O<sub>7</sub> nanofibers was still low at a <italic>T</italic><sub>c</sub> of 700 &#xb0;C but remarkably increased at a <italic>T</italic><sub>c</sub> of 850 &#xb0;C and above; this temperature
+dependence is observed in the X-ray diffraction (XRD) patterns (Figure
+S2b, <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">Supporting Information</ext-link>). This finding
+indicates that the faceted nanograins have high crystalline quality
+(see <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">Figure S1</ext-link>). Therefore, the TiNb<sub>2</sub>O<sub>7</sub> nanofibers annealed at a <italic>T</italic><sub>c</sub> of 850 &#xb0;C were used for further experiments. The macroscopic
+color resemblance between the TNO@MS HRs and MoS<sub>2</sub> indicates
+uniform MoS<sub>2</sub> coating on the TiNb<sub>2</sub>O<sub>7</sub> nanofibers during hydrothermal growth (Figure S3, <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">Supporting Information</ext-link>). Energy-dispersive X-ray spectroscopy
+(EDS) analyses of the TNO@MS HRs revealed that thermal annealing in
+an Ar ambient after the hydrothermal growth is required to achieve
+stoichiometric ratios of both TiNb<sub>2</sub>O<sub>7</sub> and MoS<sub>2</sub> (Figure S4, <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">Supporting Information</ext-link>). The TNO@MS HRs consisted of TiNb<sub>2</sub>O<sub>7</sub> nanofibers
+fully covered by ultrathin MoS<sub>2</sub> nanosheets (<xref rid="fig1">Figure <xref ref-type="fig" rid="fig1">1</xref></xref>c).</p><fig fig-type="figure" id="fig1" position="float"><label>Figure 1</label><caption><p>(a&#x2013;d) SEM images
+and (e, f) nucleation and growth models
+as a function of reaction time (1, 4, 8, and 16 h) of the TNO@MS HRs;
+(g) XRD patterns and (h) Raman spectra of the MoS<sub>2</sub> nanosheets,
+TiNb<sub>2</sub>O<sub>7</sub> nanofibers, and TNO@MS HRs.</p></caption><graphic id="gr2" position="float" xlink:href="nn-2016-07666j_0001.tif"/></fig><p>To examine the growth mechanism of the TNO@MS HRs,
+the temporal
+evolution of the MoS<sub>2</sub> morphologies was examined at various
+hydrothermal growth times (<italic>t</italic><sub>h</sub>), as shown
+in <xref rid="fig1">Figure <xref ref-type="fig" rid="fig1">1</xref></xref>a&#x2013;c.
+Notably, at <italic>t</italic><sub>h</sub> of 1 h, a large number
+of MoS<sub>2</sub> nuclei were observed to form on the surface of
+the TiNb<sub>2</sub>O<sub>7</sub> nanofibers (<xref rid="fig1">Figure <xref ref-type="fig" rid="fig1">1</xref></xref>a). This result suggests typical heterogeneous
+nucleation, and the growth mechanism remains valid for the TNO@MS
+HRs. The nuclei could function not only as growth sites of ultrathin
+MoS<sub>2</sub> nanosheets but also as strong binding sites between
+the TiNb<sub>2</sub>O<sub>7</sub> nanofibers and MoS<sub>2</sub> nanosheets
+for facilitated electron and ion transport. With a further increase
+of <italic>t</italic><sub>h</sub> to 4, 8, and 16 h, ultrathin MoS<sub>2</sub> nanosheets were clearly visible and grown, fully covering
+the TiNb<sub>2</sub>O<sub>7</sub> nanofibers (<xref rid="fig1">Figure <xref ref-type="fig" rid="fig1">1</xref></xref>b&#x2013;d). From the nuclei, a large number
+of independently separated ultrathin MoS<sub>2</sub> nanosheets consisting
+of several (002) atomic planes appeared to grow not in parallel but
+inclined or vertical to the surface of the TiNb<sub>2</sub>O<sub>7</sub> nanofibers, as shown in the schematic (<xref rid="sch1">Scheme <xref ref-type="scheme" rid="sch1">1</xref></xref>c and <xref rid="fig1">Figure <xref ref-type="fig" rid="fig1">1</xref></xref>b&#x2013;f). In addition, the ultrathin MoS<sub>2</sub> nanosheets appeared to grow in the (002) plane direction without
+any thickness growth. This result could be attributed to the sp<sup>2</sup> atomic bonding of molybdenum and sulfur atoms in the (002)
+plane being energetically favorable compared with the van der Waals
+bonding between the planes. This MoS<sub>2</sub> morphology of maintaining
+its initial thickness is the key factor in explaining high-performance
+LIBs, which will be discussed in detail.</p><p>XRD measurements were
+performed to investigate the crystallinity
+of the MoS<sub>2</sub> nanosheets, TiNb<sub>2</sub>O<sub>7</sub> nanofibers,
+and TNO@MS HRs (<xref rid="fig1">Figure <xref ref-type="fig" rid="fig1">1</xref></xref>g). The XRD pattern of the bare MoS<sub>2</sub> nanosheets displays
+distinct (100), (103), and (110) peaks of 2H-MoS<sub>2</sub> (JCPDS
+37&#x2013;1492) at 33.2&#xb0;, 39.4&#xb0;, and 58.7&#xb0;, respectively.<xref ref-type="bibr" rid="ref22">(22)</xref> The XRD pattern of the TiNb<sub>2</sub>O<sub>7</sub> nanofibers indicates the presence of single-phase TiNb<sub>2</sub>O<sub>7</sub> without any other phases such as TiO<sub>2</sub>, Nb<sub>2</sub>O<sub>5</sub>, or Ti<sub>2</sub>Nb<sub>10</sub>O<sub>29</sub>, which agrees well with the results of previous reports.<xref ref-type="bibr" rid="ref23 ref24">(23, 24)</xref> The TiNb<sub>2</sub>O<sub>7</sub> phase belongs to the monoclinic
+symmetry system with <italic>C</italic>2/<italic>m</italic> space
+group (JCPDS 70&#x2212;2009).</p><p>However, inspection of the XRD
+pattern of the TNO@MS HRs reveals
+that only the (100) peak of MoS<sub>2</sub> is slightly distinguishable
+compared with those of the TiNb<sub>2</sub>O<sub>7</sub> nanofibers.
+This result implies that the (100) planes of MoS<sub>2</sub> are preferentially
+oriented parallel to the substrate surface, which agrees with our
+assumption that most (002) planes are not parallel to the surface
+of nanofibers and hence the surface of the substrate. To further explore
+the properties of the hierarchical hybrid structures, phonon spectra
+of the TNO@MS HRs, bare TiNb<sub>2</sub>O<sub>7</sub> nanofibers,
+and MoS<sub>2</sub> were obtained using Raman spectroscopy in the
+range of 50&#x2013;1200 cm<sup>&#x2013;1</sup> (<xref rid="fig1">Figure <xref ref-type="fig" rid="fig1">1</xref></xref>h). The phonon vibrational modes of the pure
+TiNb<sub>2</sub>O<sub>7</sub> nanofibers at 894 and 1011 cm<sup>&#x2013;1</sup> can be assigned to the corner-shared and edge-shared NbO<sub>6</sub> octahedra, respectively. The strong band observed at 647 cm<sup>&#x2013;1</sup> is assigned to the vibration of the TiO<sub>6</sub> octahedra. The peaks of the octahedral coordinations for both cations
+clearly verify the presence of TiNb<sub>2</sub>O<sub>7</sub>.<xref ref-type="bibr" rid="ref25">(25)</xref> The peak intensities for the TNO@MS HRs were
+relatively low compared with those for the TiNb<sub>2</sub>O<sub>7</sub> nanofibers. However, two additional peaks at 368 and 389 cm<sup>&#x2013;1</sup> clearly verify the presence of MoS<sub>2</sub> in
+the TNO@MS HRs, which are assigned to the representative modes of
+E<sub>2g</sub> and A<sub>1g</sub> of MoS<sub>2</sub>, respectively.<xref ref-type="bibr" rid="ref26">(26)</xref> It should be noted that the positions of these
+two peaks are shifted relative to those of bare MoS<sub>2</sub> at
+370 and 396 cm<sup>&#x2013;1</sup>, indicating that the MoS<sub>2</sub> nanosheets were surface-strained.<xref ref-type="bibr" rid="ref27">(27)</xref> We
+believe that the strained MoS<sub>2</sub> is direct evidence of the
+presence of strong or robust interfaces between TiNb<sub>2</sub>O<sub>7</sub> and MoS<sub>2</sub>. We can conclude that the TNO@MS HRs
+were synergistically combined, forming 1D&#x2013;2D hybrid structures
+where each TiNb<sub>2</sub>O<sub>7</sub> nanofiber was not only fully
+covered but also tightly bonded with the MoS<sub>2</sub> nanosheets.
+The chemical bonding states of the elements of the TiNb<sub>2</sub>O<sub>7</sub> nanofibers and TNO@MS HR samples were investigated
+using X-ray photoelectron spectroscopy (XPS) techniques (Figures S5
+and S6, <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">Supporting Information</ext-link>). Although
+Ti, Nb, and O elements in the high-resolution XPS spectra were clearly
+detected in both samples, Mo and S elements were only detected in
+the TNO@MS HRs.</p><p>The microstructures of the TiNb<sub>2</sub>O<sub>7</sub> nanofibers
+and TNO@MS HRs were investigated using transmission electron microscopy
+(TEM) (<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref> and
+Figure S7, <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">Supporting Information</ext-link>). The
+selected-area electron diffraction (SAED) patterns (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">Figure S7d,f</ext-link>) confirmed the presence of the rutile phase,
+polycrystalline TiNb<sub>2</sub>O<sub>7</sub>, which agrees with the
+XRD results. <xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>a demonstrates that the TNO@MS HR consists of MoS<sub>2</sub> nanosheets
+as a shell and the TiNb<sub>2</sub>O<sub>7</sub> nanofiber as a core.
+As discussed, the MoS<sub>2</sub> nanosheets not only cover the TiNb<sub>2</sub>O<sub>7</sub> nanofibers but also form a robust binding with
+them. The shell has a length of a few hundred nanometers and a thickness
+of a few nanometers, confirming the explained growth mechanism (<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>b). The core&#x2013;shell
+feature was verified using cross-sectional analyses (<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>c,d). Note that most of the
+MoS<sub>2</sub> nanosheets were not parallel but inclined to the surface
+of the TiNb<sub>2</sub>O<sub>7</sub> nanofiber, which is consistent
+with the XRD analyses. To study the TNO@MS HRs on the atomic scale,
+we examined TiNb<sub>2</sub>O<sub>7</sub>/MoS<sub>2</sub> heterointerfaces.
+Because of the absence of crystal symmetry between TiNb<sub>2</sub>O<sub>7</sub> and MoS<sub>2</sub>, the heterointerface intrinsically
+lacks epitaxial relationships (TiNb<sub>2</sub>O<sub>7</sub> is indexed
+to the monoclinic Bravais lattice (<italic>a</italic> = 11.90 &#xc5;, <italic>b</italic> = 3.80 &#xc5;, <italic>c</italic> = 20.37 &#xc5;, &#x3b1;
+= &#x3b3; = 90&#xb0;, &#x3b2; = 120&#xb0;, space group: <italic>C</italic>2/<italic>m</italic>), and MoS<sub>2</sub> is indexed to the hexagonal
+lattice (<italic>a</italic> = <italic>b</italic> = 3.16 &#xc5;, <italic>c</italic> = 12.30 &#xc5;, &#x3b1; = 90&#xb0;, &#x3b2; = 120&#xb0;,
+&#x3b3; = 90&#xb0;, space group: <italic>P</italic>6<sub>3</sub>/<italic>mmc</italic>)). Therefore, several crystallographic orientations
+are available between them.</p><fig fig-type="figure" id="fig2" position="float"><label>Figure 2</label><caption><p>(a) TEM image of the TNO@MS HR (the inset presents
+an electron
+diffraction pattern of the sample). (b) HRTEM images of TNO@MS HR
+(the A and B regions represent TiNb<sub>2</sub>O<sub>7</sub> and MoS<sub>2</sub>, respectively). (c) Cross-sectional, bright-field image of
+TNO@MS HR and (d) overlapped elemental mapping of oxygen (red) and
+sulfur (green). Separate mapping images are presented in <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">Figure S9e,f</ext-link>. Fast-Fourier transform images of
+regions A and B obtained from the SAED patterns as shown in the insets,
+respectively.</p></caption><graphic id="gr3" position="float" xlink:href="nn-2016-07666j_0002.tif"/></fig><p><xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>a,b presents
+two exemplary atomistic views of the heterointerface based on the
+TEM observations. The first heterointerface (marked with a yellow
+line) is in between regions A and B (<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>b) having the zone axes of [110] for TiNb<sub>2</sub>O<sub>7</sub> (<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>e) and [002] for MoS<sub>2</sub> (<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>f). Making the zone axes parallel to each
+other with the arbitrarily selected zone planes, we can present an
+atomistic view of the first heterointerface (<xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>a). In the same manner, the second heterointerface
+(marked with a white line in <xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>c) can be viewed in <xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>b. The mesoscopic and atomistic schematics
+clearly reveal Li<sup>+</sup> conducting channels fully connected
+from MoS<sub>2</sub> to TiNb<sub>2</sub>O<sub>7</sub> and favorable
+electron transfer paths in MoS<sub>2</sub> and TiNb<sub>2</sub>O<sub>7</sub> (<xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>a&#x2013;c).
+As long as the (002) planes of the MoS<sub>2</sub> nanosheets are
+not parallel to the surface of TiNb<sub>2</sub>O<sub>7</sub> nanofiber,
+the absence of an epitaxial relationship does not appear to significantly
+reduce ionic or electronic transport across the heterointerface. Such
+structural features might enable the high performance of the anode
+by synergistically combining the high charge capacity of MoS<sub>2</sub> and facile electron transport of TiNb<sub>2</sub>O<sub>7</sub>.
+The elemental mapping for the TiNb<sub>2</sub>O<sub>7</sub> nanofiber
+and TNO@MS HR was performed using EDS. In the bare TiNb<sub>2</sub>O<sub>7</sub> nanofiber, Ti, Nb, and O elements were uniformly distributed
+(Figure S8, <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">Supporting Information</ext-link>).</p><fig fig-type="figure" id="fig3" position="float"><label>Figure 3</label><caption><p>Atomistic and
+mesoscopic views of the TNO@MS HRs. TNO and MoS<sub>2</sub> heterointerfaces
+with two different orientation relationships:
+(a) [&#x2212;110]TNO//[002]MoS<sub>2</sub>, (001)TNO//(100)MoS<sub>2</sub> and (b) [&#x2212;110]TNO//[100]MoS<sub>2</sub>, (001)TNO//(010)MoS<sub>2</sub>. Li<sup>+</sup> ions reach the TNO structure by moving between
+MoS<sub>2</sub> layers. (c) Mesoscopic views of the TNO@MS HRs. The
+pathways of Li<sup>+</sup> ions and electrons are displayed.</p></caption><graphic id="gr4" position="float" xlink:href="nn-2016-07666j_0003.tif"/></fig><p>Inspection of the compositional
+mapping of the TNO@MS HR clearly
+reveals that TiNb<sub>2</sub>O<sub>7</sub> nanofibers and MoS<sub>2</sub> nanosheets play roles as a core and shell, respectively (Figure
+S9a&#x2013;f, <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">Supporting Information</ext-link>).</p><p>The uniformity of the Mo and S elements was also maintained in
+the axial direction, confirming the uniform distribution of the MoS<sub>2</sub> nanosheets across the entire TiNb<sub>2</sub>O<sub>7</sub> nanofiber (Figure S9g&#x2013;l, <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">Supporting Information</ext-link>).</p><p>To quantitatively examine the synergetic effect of the TNO@MS
+HRs
+on the performance of an anode material for LIBs, their electrochemical
+performance was measured and compared with that of bare TiNb<sub>2</sub>O<sub>7</sub> nanofibers, bare bulk MoS<sub>2</sub>, and other MoS<sub>2</sub>- and TiNb<sub>2</sub>O<sub>7</sub>-based hybrid nanostructures
+(<xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>). The cycle
+life was measured for TNO@MS HR-, TiNb<sub>2</sub>O<sub>7</sub> nanofiber-,
+and bulk MoS<sub>2</sub>-based anodes in the voltage range of 0.001&#x2013;3.0
+V at a high current density of 1 A g<sup>&#x2013;1</sup> (<xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>a). Although a discharge
+potential of below 1.0 V <italic>vs</italic> Li<sup>+</sup>/Li to
+the electrode typically leads to the formation of a SEI layer because
+of the decomposition of an ethyl/methyl carbonate-based electrolyte,
+no distinguishable capacity fading behavior was observed. The TNO@MS
+HR-based anodes exhibited both high charge capacity and cycling stability,
+delivering discharge/charge capacities (<italic>C</italic><sub>dis</sub>/<italic>C</italic><sub>ch</sub>) of 1026/808 mAh g<sup>&#x2013;1</sup> after the first cycle, 870/872 mAh g<sup>&#x2013;1</sup> after the
+42th cycle, and 733/740 mAh g<sup>&#x2013;1</sup> after the 200th
+cycle. However, the TiNb<sub>2</sub>O<sub>7</sub> nanofiber-based
+anodes exhibited relatively low charge capacity: <italic>C</italic><sub>dis</sub>/<italic>C</italic><sub>ch</sub> values of 399/306
+mAh g<sup>&#x2013;1</sup> after the first cycle and 237/236 mAh g<sup>&#x2013;1</sup> after 200th cycle. The MoS<sub>2</sub> bulk-based
+anodes exhibited a high initial <italic>C</italic><sub>dis</sub>/<italic>C</italic><sub>ch</sub> of 1343/989 mAh g<sup>&#x2013;1</sup>, which
+rapidly decreased to 159/158 mAh g<sup>&#x2013;1</sup> after the 200th
+cycle. This behavior is attributed to the layer-by-layer dissociation
+of the MoS<sub>2</sub> nanosheets due to their structural transition
+from the 2H to the 1T phase by the intercalation of Li ions.<xref ref-type="bibr" rid="ref21 ref28">(21, 28)</xref> Compared with both the TiNb<sub>2</sub>O<sub>7</sub> nanofiber-
+and bulk MoS<sub>2</sub>-based anodes, the TNO@MS HR-based anodes
+exhibited highly stable and reversible <italic>C</italic><sub>dis</sub>, <italic>C</italic><sub>ch</sub>, and average capacities (<italic>C</italic><sub>ave</sub> = (<italic>C</italic><sub>dis</sub> + <italic>C</italic><sub>ch</sub>)/2) for various current densities (<xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>b,c). <italic>C</italic><sub>ave</sub> of the TNO@MS HR-based anodes were 820 and 580 mAh
+g<sup>&#x2013;1</sup> at 0.2 and 4 A g<sup>&#x2013;1</sup>, respectively.
+The experimental <italic>C</italic><sub>ave</sub> values were even
+larger than the theoretical values for MoS<sub>2</sub> (<italic>C</italic><sub>theo,MoS2</sub> = 670 mAh g<sup>&#x2013;1</sup>)<xref ref-type="bibr" rid="ref29 ref30">(29, 30)</xref> and TiNb<sub>2</sub>O<sub>7</sub> (<italic>C</italic><sub>theo,TNO</sub> = 387 mAh g<sup>&#x2013;1</sup>). It should be noted that our TNO@MS
+HR-based anodes exhibit superior electrochemical performances compared
+to recently reported TiNb<sub>2</sub>O<sub>7</sub>- or MoS<sub>2</sub>-based anodes and even compared to other MoS<sub>2</sub>-based hybrid
+nanostructures (see <xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>d and Table S1, <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">Supporting Information</ext-link>).<xref ref-type="bibr" rid="ref8 ref16 ref18 ref20">(8, 16, 18, 20)</xref></p><fig fig-type="figure" id="fig4" position="float"><label>Figure 4</label><caption><p>(a) Specific capacity as a function of the cycle number
+of TNO
+nanofibers, bare bulk MoS<sub>2</sub>, and TNO@MS HRs in the voltage
+range of 0.001&#x2013;3.0 V at a current density of 1 A g<sup>&#x2013;1</sup>. (b, c) Charge/discharge and average capacities for various current
+densities. (d) Comparison of the average capacity value at various
+current densities of the previously reported results related to MoS<sub>2</sub>-based composites and our work. (e) Excess number of Li atoms
+calculated considering the number of MoS<sub>2</sub> layers. A Li
+atom is additionally considered to bind on both sides of the surfaces
+of MoS<sub>2</sub> layers.</p></caption><graphic id="gr5" position="float" xlink:href="nn-2016-07666j_0004.tif"/></fig><p>First, we discuss the reason for the high capacity beyond
+the <italic>C</italic><sub>theo,MoS2</sub> of 670 mAh g<sup>&#x2013;1</sup>,
+corresponding to each MoS<sub>2</sub> unit taking up 4 Li ions (Li<sup>+</sup>) into the intercalated forms between MoS<sub>2</sub> layers
+using the following successive reactions (<xref rid="eq1">eqs <xref ref-type="disp-formula" rid="eq1">1</xref></xref> and <xref ref-type="disp-formula" rid="eq2">2</xref>):<disp-formula id="eq1" pre-labeled="no"><mml:math altimg="nn-2016-07666j_m001.gif" display="block"><mml:msub><mml:mrow><mml:mi>MoS</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="italic">x</mml:mi><mml:mi mathvariant="normal">Li</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="italic">x</mml:mi><mml:mi mathvariant="normal">e</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo></mml:mrow></mml:msup><mml:mo>&#x2194;</mml:mo><mml:msub><mml:mrow><mml:mi>Li</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="italic">x</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>MoS</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo lspace="0em" rspace="1em">&#x2063;</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mo form="prefix">&#x223c;</mml:mo><mml:mn>1.1</mml:mn><mml:mspace width=".25em"/><mml:mi mathvariant="normal">V</mml:mi><mml:mspace width=".25em"/><mml:mi>v</mml:mi><mml:mi>s</mml:mi><mml:mspace width=".25em"/><mml:mi>Li</mml:mi><mml:mo>/</mml:mo><mml:msup><mml:mrow><mml:mi>Li</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><label><x>(</x>1<x>)</x></label></disp-formula><disp-formula id="eq2" pre-labeled="no"><mml:math altimg="nn-2016-07666j_m002.gif" display="block"><mml:msub><mml:mrow><mml:mi>Li</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="italic">x</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>MoS</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>4</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mi mathvariant="italic">x</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:msup><mml:mrow><mml:mi>Li</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>4</mml:mn><mml:mo>&#x2212;</mml:mo><mml:mi mathvariant="italic">x</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">e</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo></mml:mrow></mml:msup><mml:mo>&#x2194;</mml:mo><mml:mi>Mo</mml:mi><mml:mo>+</mml:mo><mml:mn>2</mml:mn><mml:msub><mml:mrow><mml:mi>Li</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mi mathvariant="normal">S</mml:mi><mml:mo lspace="0em" rspace="1em">&#x2063;</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mo form="prefix">&#x223c;</mml:mo><mml:mn>0.6</mml:mn><mml:mspace width=".25em"/><mml:mi mathvariant="normal">V</mml:mi><mml:mspace width=".25em"/><mml:mi>v</mml:mi><mml:mi>s</mml:mi><mml:mspace width=".25em"/><mml:mi>Li</mml:mi><mml:mo>/</mml:mo><mml:msup><mml:mrow><mml:mi>Li</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><label><x>(</x>2<x>)</x></label></disp-formula>We propose that excess Li<sup>+</sup> ions
+are stored outside the topmost and bottommost MoS<sub>2</sub> layers
+through various defective sites.<xref ref-type="bibr" rid="ref31">(31)</xref> For
+example, assuming that the same amount of Li<sup>+</sup> can be stored
+in the topmost or bottommost layers as in between the layers, the
+excess Li<sup>+</sup> in the nanoshell can be calculated. Compared
+with the capacity in the bulk, 200%, 100%, 66.7%, and 50% excess Li<sup>+</sup> can be stored for the shells consisting of two, three, four,
+and five (002) planes, respectively (<xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>e). It is evident that a thinner MoS<sub>2</sub> shell is preferable if this storage mechanism is valid. Considering
+these values, the maximum calculated <italic>C</italic><sub>ave</sub> according to this mechanism (&#x223c;795 mAh g<sup>&#x2013;1</sup> for five-(002) plane-thick MoS<sub>2</sub>) remains lower than the
+experimental value, indicating that this mechanism cannot be the sole
+reason for the high capacity. As an auxiliary mechanism, an additional
+lithiation should be considered through reaction <xref rid="eq3">eq <xref ref-type="disp-formula" rid="eq3">3</xref></xref> following <xref rid="eq1">eqs <xref ref-type="disp-formula" rid="eq1">1</xref></xref> and <xref ref-type="disp-formula" rid="eq2">2</xref>:<disp-formula id="eq3" pre-labeled="no"><mml:math altimg="nn-2016-07666j_m003.gif" display="block"><mml:mi mathvariant="normal">S</mml:mi><mml:mo>+</mml:mo><mml:mn>2</mml:mn><mml:msup><mml:mrow><mml:mi>Li</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:mn>2</mml:mn><mml:msup><mml:mrow><mml:mi mathvariant="normal">e</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo></mml:mrow></mml:msup><mml:mo>&#x2194;</mml:mo><mml:msub><mml:mrow><mml:mi>Li</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mi mathvariant="normal">S</mml:mi><mml:mo lspace="0em" rspace="1em">&#x2063;</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mo form="prefix">&#x223c;</mml:mo><mml:mn>2.2</mml:mn><mml:mspace width=".25em"/><mml:mi mathvariant="normal">V</mml:mi><mml:mspace width=".25em"/><mml:mi>v</mml:mi><mml:mi>s</mml:mi><mml:mspace width=".25em"/><mml:mi>Li</mml:mi><mml:mo>/</mml:mo><mml:msup><mml:mrow><mml:mi>Li</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><label><x>(</x>3<x>)</x></label></disp-formula><xref rid="eq3">Reaction <xref ref-type="disp-formula" rid="eq3">3</xref></xref> can yield a <italic>C</italic><sub>theo,MoS2</sub> of 1671
+mAh g<sup>&#x2013;1</sup> if the weight of Mo is not considered.<xref ref-type="bibr" rid="ref32">(32)</xref> It is believed that <xref rid="eq3">reaction <xref ref-type="disp-formula" rid="eq3">3</xref></xref> can to some extent contribute to increasing <italic>C</italic><sub>theo,MoS2</sub> beyond the experimental <italic>C</italic><sub>ave</sub> of the TNO@MS HR-based anodes.</p><p>Next, we examine
+the high retention characteristics of the TNO@MS
+HR-based anodes. As demonstrated in <xref rid="sch1">Scheme <xref ref-type="scheme" rid="sch1">1</xref></xref>c and <xref rid="fig1">Figures <xref ref-type="fig" rid="fig1">1</xref></xref>e and <xref ref-type="fig" rid="fig3">3</xref>, the TNO@MS HRs consist
+of high-surface area MoS<sub>2</sub> nanosheet shells and TiNb<sub>2</sub>O<sub>7</sub> nanofiber backbone cores that provide abundant
+intercalation channels of surrounding Li ions (Li<sup>+</sup>) and
+fast electronic conduction channels, respectively. The Li<sup>+</sup> and electron conduction pathways are well guided from the MoS<sub>2</sub> shells to the TiNb<sub>2</sub>O<sub>7</sub> core through
+the robust binding sites. More importantly, most of the MoS<sub>2</sub> shells exist in the form of independent atomically thick layers, <italic>i.e.</italic>, several (002) planes (<xref rid="fig1">Figure <xref ref-type="fig" rid="fig1">1</xref></xref>a&#x2013;f), which can secure highly active
+and defective sites that can store Li<sup>+</sup> beyond the theoretical
+limit. Such an ultrathin MoS<sub>2</sub> morphology in the TNO@MS
+HR might be optimal to avoid aggregation and retain a large surface
+area and small dimensions with minimized volume expansion even under
+high Li<sup>+</sup> loading. In addition, the ultrathin MoS<sub>2</sub> nanosheets shorten the diffusion paths of Li<sup>+</sup> ions, thus
+improving the dynamic performance of Li<sup>+</sup> insertion/extraction.
+The diffusion coefficients of Li<sup>+</sup> insertion/extraction
+were 2.44 &#xd7; 10<sup>&#x2013;12</sup>/1.60 &#xd7; 10<sup>&#x2013;12</sup> and 1.60 &#xd7; 10<sup>&#x2013;13</sup>/0.90 &#xd7; 10<sup>&#x2013;13</sup> cm<sup>2</sup> s<sup>&#x2013;1</sup> in the TNO@MS HR- and TiNb<sub>2</sub>O<sub>7</sub>-based anode, respectively. These values were
+calculated from the plots of peak current <italic>vs</italic> the
+square root of the scan rate using the Randles&#x2013;Sevcik equation<xref ref-type="bibr" rid="ref33">(33)</xref> (see Figure S10 and Table S2, <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">Supporting Information</ext-link>). It is worth noting that comparison
+of irreversible capacity loss during the first cycle also suggests
+that the rate performance between the TNO@MS HR- and the pure TiNb<sub>2</sub>O<sub>7</sub>-based anodes is comparable (see Figure S11, <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">Supporting Information</ext-link>). It is concluded that
+the TNO@MS HRs exhibit high capacity, excellent cycling stability,
+and outstanding rate capability for LIB anodes under high current
+densities and a voltage window of 0.001&#x2013;3.0 V.</p><p>To further
+study the electrochemical process in detail, additional
+comparative measurements were performed for the TiNb<sub>2</sub>O<sub>7</sub>- and TNO@MS HR-based anodes. <xref rid="fig5">Figure <xref ref-type="fig" rid="fig5">5</xref></xref>a,b presents the cyclic voltammetry (CV)
+measurements of the TiNb<sub>2</sub>O<sub>7</sub>- and TNO@MS HR-based
+anodes. For the bare TiNb<sub>2</sub>O<sub>7</sub>-based anode (<xref rid="fig5">Figure <xref ref-type="fig" rid="fig5">5</xref></xref>a), the overall Li
+insertion (reduction, cathodic)/extraction (oxidation, anodic) reaction
+can be described by the following equation:<disp-formula id="eq4" pre-labeled="no"><mml:math altimg="nn-2016-07666j_m004.gif" display="block"><mml:msub><mml:mrow><mml:mi>TiNb</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant="normal">O</mml:mi></mml:mrow><mml:mrow><mml:mn>7</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="italic">x</mml:mi><mml:mi mathvariant="normal">Li</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="italic">x</mml:mi><mml:mi mathvariant="normal">e</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo></mml:mrow></mml:msup><mml:mo>&#x2194;</mml:mo><mml:msub><mml:mrow><mml:mi>Li</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="italic">x</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>TiNb</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant="normal">O</mml:mi></mml:mrow><mml:mrow><mml:mn>7</mml:mn></mml:mrow></mml:msub><mml:mo lspace="0em" rspace="1em">&#x2063;</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>0</mml:mn><mml:mo>&#x2264;</mml:mo><mml:mi mathvariant="italic">x</mml:mi><mml:mo>&#x2264;</mml:mo><mml:mn>5</mml:mn><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><label><x>(</x>4<x>)</x></label></disp-formula></p><fig fig-type="figure" id="fig5" position="float"><label>Figure 5</label><caption><p>(a, b) CV measurements
+at a scan rate of 0.1 mV s<sup>&#x2013;1</sup> in the region of 3.0&#x2013;0.001
+V <italic>vs</italic> Li/Li<sup>+</sup> for TNO nanofibers and TNO@MS
+HRs. (c,d) Nyquist plots of
+the fresh TiNb<sub>2</sub>O<sub>7</sub> nanofibers and those after
+cycling and TNO@MS HR anodes. (e, f) Charge/discharge curves of the
+TiNb<sub>2</sub>O<sub>7</sub> nanofibers and TNO@MS HR anodes at various
+current densities in the voltage range of 0.001&#x2013;3.0 V.</p></caption><graphic id="gr6" position="float" xlink:href="nn-2016-07666j_0005.tif"/></fig><p>The peaks at 1.60 and 1.69 V <italic>vs</italic> Li/Li<sup>+</sup> during the first cathodic and anodic
+sweep correspond to the Ti<sup>4+</sup>/Ti<sup>3+</sup> and Nb<sup>5+</sup>/Nb<sup>3+</sup> redox
+couples, respectively. The oxidation peak of 1.02 V is assigned to
+Nb<sup>4+</sup>/Nb<sup>3+</sup> redox couples. For the TNO@MS HR-based
+anode (<xref rid="fig5">Figure <xref ref-type="fig" rid="fig5">5</xref></xref>b),
+additional MoS<sub>2</sub>-related peaks appeared, and their overall
+reaction can be described by <xref rid="eq1">eqs <xref ref-type="disp-formula" rid="eq1">1</xref></xref> and <xref ref-type="disp-formula" rid="eq2">2</xref>. The transient peaks at 0.49
+and 0.83 V during the first cathodic scan and at &#x223c;1.24 V during
+the second cathodic scan might correspond to the decomposition of
+MoS<sub>2</sub> into Mo nanoparticles embedded in a Li<sub>2</sub>S matrix by a series of reactions (<xref rid="eq1">eqs <xref ref-type="disp-formula" rid="eq1">1</xref></xref> and <xref ref-type="disp-formula" rid="eq2">2</xref>).<xref ref-type="bibr" rid="ref34">(34)</xref> The oxidation/reduction peaks at 2.22/1.85 V <italic>vs</italic> Li/Li<sup>+</sup> should correspond to Li<sup>+</sup> extraction/intercalation
+by the oxidation/reduction of Li<sub>2</sub>S (reverse/forward reaction
+in <xref rid="eq3">eq <xref ref-type="disp-formula" rid="eq3">3</xref></xref>).<xref ref-type="bibr" rid="ref32 ref35">(32, 35)</xref> The oxidation peak corresponding to Li<sup>+</sup> extraction from
+the Li<sub><italic>x</italic></sub>MoS<sub>2</sub> lattice (reverse
+reaction in <xref rid="eq1">eq <xref ref-type="disp-formula" rid="eq1">1</xref></xref>) may
+overlap with that of TiNb<sub>2</sub>O<sub>7</sub> at 1.69 V. In particular,
+the clear and stable existence of the 2.22/1.85 V peaks indicates
+that <xref rid="eq3">reaction <xref ref-type="disp-formula" rid="eq3">3</xref></xref> is stable
+and reversible, supporting the previously discussed reason for the
+high <italic>C</italic><sub>ave</sub> of the TNO@MS HR-based anode.</p><p>These peaks should be reversible as there is no significant change
+in the second cycle. Next, the Nyquist plots of the TiNb<sub>2</sub>O<sub>7</sub>- and TNO@MS HR-based anodes obtained using electrochemical
+impedance spectroscopy (EIS) are displayed in <xref rid="fig5">Figure <xref ref-type="fig" rid="fig5">5</xref></xref>c,d. The diameter of the semicircle at high
+frequencies is remarkably reduced in the plot of the TNO@MS HRs compared
+with that of the bare TiNb<sub>2</sub>O<sub>7</sub> nanofiber, indicating
+the greatly decreased charge-transfer resistance at the electrode/electrolyte
+interface due to robust binding to fully utilize the high surface
+area and high electrical conductivity of MoS<sub>2</sub>. Irrespective
+of the large surface area, bare MoS<sub>2</sub> nanoparticles or powders
+are also reported to exhibit low charge-transfer resistance at the
+electrode/electrolyte interface because of their high electrical conductivity.<xref ref-type="bibr" rid="ref36">(36)</xref> This enhanced charge-transfer in the TNO@MS
+HR could maximize the LIB performance. Finally, parts e and f of <xref rid="fig5">Figure <xref ref-type="fig" rid="fig5">5</xref></xref> display the charge/discharge
+curves of the TiNb<sub>2</sub>O<sub>7</sub> nanofiber- and TNO@MS
+HR-based anodes at various current densities in the voltage range
+of 0.001&#x2013;3.0 V for a detailed investigation of <xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>b,c. It can be clearly observed
+that the rate performance of the TNO@MS HR-based anodes is excellent
+even compared with other anode materials including the TiNb<sub>2</sub>O<sub>7</sub> nanofibers. The <italic>C</italic><sub>dis</sub> values
+of the TNO@MS HRs were 844&#x2013;611 mAh g<sup>&#x2013;1</sup> in
+the current density range of 0.2&#x2013;4 A g<sup>&#x2013;1</sup>,
+respectively. However, the <italic>C</italic><sub>dis</sub> values
+of the TiNb<sub>2</sub>O<sub>7</sub> nanofibers were relatively poor:
+407&#x2013;135 mAh g<sup>&#x2013;1</sup> under the same conditions.
+When the current density returned to 0.2 A g<sup>&#x2013;1</sup>,
+the capacity of the TNO@MS HRs increased up to 889 mAh g<sup>&#x2013;1</sup>, which is even higher than its initial value. It should be pointed
+out in <xref rid="fig5">Figure <xref ref-type="fig" rid="fig5">5</xref></xref>f that
+the average lithiation voltage of TNO@MS HR-based anodes is quite
+high (&#x223c;1.6 V). This means that the overall-energy-density value
+of TNO@MS HR-based LIBs might not be as remarkable as that of charge
+capacity (see Figure S12, <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">Supporting Information</ext-link>). In order to fully utilize the merit of high capacity, we are currently
+investigating the reduction of the lithiation voltage by incorporating
+other materials such as carbon into TiNb<sub>2</sub>O<sub>7</sub> nanofibers
+during electrospinning process.</p><p>We further examined the electrochemical
+performance of the TNO@MS
+HR-based anodes in other electrolytes such as LiClO<sub>4</sub>/propylene
+carbonate to evaluate their robustness in different environments (<xref rid="fig6">Figure <xref ref-type="fig" rid="fig6">6</xref></xref>). With slight differences
+in the oxidation/reduction peaks, the CV curves in <xref rid="fig6">Figure <xref ref-type="fig" rid="fig6">6</xref></xref>a primarily exhibit the similar
+behavior as those measured in our typical LiFP<sub>6</sub>-based electrolyte
+solution (see <xref rid="fig5">Figure <xref ref-type="fig" rid="fig5">5</xref></xref>b and Figure S10, <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">Supporting Information</ext-link>). The shape of the EIS spectra and the trend of the impedance reduction
+(<xref rid="fig6">Figure <xref ref-type="fig" rid="fig6">6</xref></xref>b) are also
+similar to those in <xref rid="fig5">Figure <xref ref-type="fig" rid="fig5">5</xref></xref>c,d. As discussed, these findings indicate that the lithiation/delithiation
+occurs in multiple stages, which is attributed to differences in the
+diffusion rate between the electrode and electrolyte. It should be
+noted that the experimental EIS data were well fitted with the equivalent
+electric circuit model depicted in the inset of <xref rid="fig6">Figure <xref ref-type="fig" rid="fig6">6</xref></xref>b.<xref ref-type="bibr" rid="ref37 ref38">(37, 38)</xref></p><fig fig-type="figure" id="fig6" position="float"><label>Figure 6</label><caption><p>(a) CV measurements at
+a scan rate of 1 mV s<sup>&#x2013;1</sup> in the region of 3.0&#x2013;0.001
+V <italic>vs</italic> Li/Li<sup>+</sup> for TNO@MS HRs. (b) EIS spectra
+of TNO@MS HRs at 1.0, 1.5,
+and 2.0 V <italic>vs</italic> Li/Li<sup>+</sup>; the open circles
+are experimental data points (with 95% accuracy in K&#x2013;K check),
+and the lines represent the corresponding fitting. The inset shows
+the equivalent electric circuit elucidated to fit the EIS spectra. <italic>R</italic><sub>u</sub>, uncompensated resistance; <italic>Z</italic><sub>dl</sub>, impedance of the double layer; <italic>R</italic><sub>ct</sub>, charge transfer resistance; the other <italic>R</italic> and <italic>C</italic> elements are the adsorption (pseudo)resistances
+and (pseudo)capacitances, respectively, which are given by complex
+combinations of physicochemical parameters of the interfacial charge
+and mass transfer.<xref ref-type="bibr" rid="ref37 ref38">(37, 38)</xref></p></caption><graphic id="gr7" position="float" xlink:href="nn-2016-07666j_0006.tif"/></fig></sec><sec id="sec3"><title>Conclusion</title><p>In summary, we rationally designed and synthesized
+TNO@MS HRs composed
+of two-dimensional MoS<sub>2</sub> nanosheets grown around one-dimensional
+TiNb<sub>2</sub>O<sub>7</sub> nanofiber cores with a robust MoS<sub>2</sub>/TiNb<sub>2</sub>O<sub>7</sub> interface. The ultrathin/independent
+MoS<sub>2</sub> growth morphology was well explained based on the
+typical nucleation and growth mechanism. The TNO@MS HR exhibited synergistic
+performance including high capacity, excellent rate capability, and
+outstanding cycling stability. We anticipate that this hierarchical
+nanostructure can be applied in high-power LIBs, supercapacitors,
+and various catalysts.</p></sec><sec id="sec4"><title>Experimental Section</title><sec id="sec4.1"><title>Materials
+Preparation</title><p>First, the TiNb<sub>2</sub>O<sub>7</sub> nanofibers
+were synthesized using a simple electrospinning
+technique. In a typical synthesis procedure, the sol&#x2013;gel homogeneous
+transparent solution was prepared by mixing with 1.1 g of niobium(V)
+ethoxide (Nb(OC<sub>2</sub>H<sub>5</sub>)<sub>5</sub>), 0.6 g of titanium(IV)
+butoxide (Ti(OC<sub>4</sub>H<sub>9</sub>)<sub>4</sub>), and 0.7 g
+of PVP, Sigma-Aldrich, <italic>M</italic><sub>w</sub> = 1300000),
+which was added into a solution containing 9 mL of ethanol and 2 mL
+of acetic acid. After 3 h of stirring, the prepared solution was transferred
+into a 15 mL syringe with a 25-gauge blunt tip needle. A voltage of
+15 kV was applied between the tip and aluminum foil at a distance
+of approximately 20 cm. The as-electrospun TiNb<sub>2</sub>O<sub>7</sub> nanofibers were collected by controlling the syringe pump with the
+sol&#x2013;gel solution at a flow rate of 0.5 mL h<sup>&#x2013;1</sup>. The dried polymetric TiNb<sub>2</sub>O<sub>7</sub> nanofibers were
+crystallized into one-dimensional TiNb<sub>2</sub>O<sub>7</sub> nanofibers
+by annealing at 850 &#xb0;C for 5 h with a 2 &#xb0;C min<sup>&#x2013;1</sup> ramp rate in air <italic>via</italic> the thermal decomposition
+and combustion of the polymer. The TiNb<sub>2</sub>O<sub>7</sub> nanofibers
+were used as a backbone for loading MoS<sub>2</sub>.</p><p>In the
+next step, the MoS<sub>2</sub> nanosheets were directly grown onto
+the TiNb<sub>2</sub>O<sub>7</sub> nanofibers <italic>via</italic> a
+low-temperature hydrothermal method. In a typical preparation, 0.3
+g of sodium molybdate dehydrate (Na<sub>2</sub>MoO<sub>4</sub>&#xb7;2H<sub>2</sub>O) was first added to 40 mL of a 0.03 M glucose solution and
+then stirred for 0.5 h. Subsequently, 0.6 g of thiourea (N<sub>2</sub>H<sub>4</sub>CS) was added to the prepared solution, which was further
+stirred for another 0.5 h. The solution mixed with 0.2 g of TiNb<sub>2</sub>O<sub>7</sub> nanofibers was transferred into a 60 mL Teflon-lined
+autoclave and then maintained at 200 &#xb0;C for 24 h. After a hydrothermal
+reaction, the autoclave was cooled to room temperature, and the TNO@MS
+HR product was obtained. The postannealing process was performed in
+a tube furnace at 800 &#xb0;C for 2 h with a 2 &#xb0;C min<sup>&#x2013;1</sup> ramp rate in an Ar/10%H<sub>2</sub> mixture gas. For comparison
+with the TNO@MS HRs, MoS<sub>2</sub> nanosheets were also prepared
+using the same hydrothermal process without the TiNb<sub>2</sub>O<sub>7</sub> nanofiber backbone.</p></sec><sec id="sec4.2"><title>Characterization</title><p>The morphology
+of the samples was
+characterized using scanning electron microscopy (SEM; Hitachi, S4700)
+at an operating voltage of 15 kV. The crystal structure of the active
+materials was determined using XRD (PANalytical, MPD-Pro) in &#x3b8;&#x2013;2&#x3b8;
+scan mode with 2&#x3b8; ranging from 10&#xb0; to 80&#xb0; and a Cu
+K&#x3b1;1 radiation source. To investigate the reaction process with
+increasing temperature of the as-spun polymeric nanofibers, TGA (TA
+Instruments, Q500) was performed from room temperature to 1000 &#xb0;C
+with a heating rate of 5 &#xb0;C min<sup>&#x2013;1</sup> in air. Crystalline
+structures of the samples were determined, and elemental mapping was
+performed using TEM (JEOL, JEM2011). Raman spectra were obtained using
+a Raman spectrometer (Dongwoo Optron, MonoRa500i) with a 532 nm excitation
+light source of an Ar laser. The chemical bonding states of the pristine
+TiNb<sub>2</sub>O<sub>7</sub> nanofibers and TNO@MS HRs were analyzed
+using XPS (VG Scientific, ESCALAB250) with monochromic Al K&#x3b1;
+radiation (1486.6 eV). The binding energy in the spectra was calibrated
+with carbon (C 1s = 284.6 eV).</p></sec><sec id="sec4.3"><title>Electrochemical Measurements</title><p>The electrochemical properties
+of the MoS<sub>2</sub> nanosheets, TiNb<sub>2</sub>O<sub>7</sub> nanofibers,
+and TNO@MS HRs were evaluated using CR2032 coin cells with Li metal
+as the counter electrode. The working electrode was prepared by spreading
+a slurry composed of the active materials, carbon black, and carboxymethyl
+cellulose with a weight ratio of 70:15:15. The mixed slurry was coated
+using a doctor blade on clean Cu foil and then dried in a vacuum oven
+at 100 &#xb0;C for 12 h. The mass of the active materials in each
+working electrode disk with a diameter of &#x223c;1.4 cm was calculated
+to be approximately 1.0&#x2013;1.2 mg cm<sup>&#x2013;2</sup>. The
+dried electrode was punched under a pressure of 4 MPa in a glovebox
+filled with Ar gas to prepare the coin cells. Then a 1 M LiPF<sub>6</sub> solution in ethylene carbonate/dimethyl carbonate (1:1 vol
+%) with 10% fluoroethylene carbonate was used as an electrolyte. Pure
+Li foil (thickness of 1.3 mm and diameter of &#x223c;1.6 cm) was used
+as the counter electrode, and the separator was Celgard 2300. The
+electrochemical properties of the samples were investigated using
+a multichannel potentiostat/galvanostat (Wonatech, WMPG 1000) in the
+voltage range of 0.001&#x2013;3.0 V <italic>vs</italic> Li/Li<sup>+</sup> at room temperature at current densities ranging from 0.2
+to 4 A g<sup>&#x2013;1</sup>. CV measurements were performed in the
+voltage range of 0.001&#x2013;3.0 V at various scan rates from 0.1
+to 2.5 mV s<sup>&#x2013;1</sup>. The ac impedance spectra were collected
+by applying a sine wave with amplitude of 5.0 mV in the frequency
+range of 100 kHz to 0.01 Hz.</p><p>CV and EIS measurements were also
+performed to investigate the interfacial mass and charge transfer
+mechanism during intercalation/deintercalation for the TNO@MS HRs
+under the same conditions (except using a 1 M LiClO<sub>4</sub> solution
+in propylene carbonate (PC)). A &#x201c;Compactstat electrochemical
+interface&#x201d; (IVIUM Technologies) potentiostat enhanced with
+a &#x201c;Compactstat Plus II compliance booster&#x201d; (IVIUM Technologies)
+was used to obtain greater scan ranges. Data were collected with &#x201c;IVIUM
+soft&#x201d; v2.509&#x2033;. The 1 M LiClO<sub>4</sub>/PC electrolyte
+was prepared under an Ar (5.0, Air Liquid, Germany) atmosphere. For
+the analysis and fitting of the impedance data, a homemade software
+&#x201c;EIS Data Analysis 1.2&#x201d; was used as described in detail
+elsewhere.<xref ref-type="bibr" rid="ref39 ref40">(39, 40)</xref></p></sec></sec></body><back><notes id="notes-1" notes-type="si">
+<title><inline-supplementary-material xlink:href="/doi/suppl/10.1021/acsnano.6b07666">Supporting Information</inline-supplementary-material></title><p>The Supporting Information
+is available free of charge on the <ext-link xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at DOI: <ext-link xlink:href="http://pubs.acs.org/doi/abs/10.1021/acsnano.6b07666">10.1021/acsnano.6b07666</ext-link>.<list id="silist" list-type="label"><list-item><p>Figures S1&#x2013;S12
+and Tables S1,S2 as referenced
+in the paper (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.6b07666/suppl_file/nn6b07666_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><notes id="notes-2"><label>&#x2225;</label><title>Author Contributions</title><p>D.P.-C. and J.H.C. contributed equally.</p></notes><notes id="notes-3" notes-type="conflict-of-interest"><p>The
+authors
+declare no competing financial interest.</p></notes><ack id="ACK-d46e2688-autogenerated"><title>Acknowledgment</title><p>This work
+was supported by a research program (Grant No. NRF-2015R1D1A3A01018611)
+through the Ministry of Education of the Korean government.</p></ack><ref-list><title>References</title><ref id="ref1"><label>1. </label><citation citation-type="journal" id="cit1"><name><surname>Colin</surname><x>, </x><given-names>J. F.</given-names></name><x>; </x><name><surname>Pralong</surname><x>, </x><given-names>V.</given-names></name><x>; </x><name><surname>Hervieu</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Caignaert</surname><x>, </x><given-names>V.</given-names></name><x>; </x><name><surname>Raveau</surname><x>, </x><given-names>B.</given-names></name><article-title>Lithium Insertion in an Oriented Nanoporous Oxide with
+a Tunnel Structure: Ti<sub>2</sub>Nb<sub>2</sub>O<sub>9</sub></article-title><source>Chem. Mater.</source><x> </x><year>2008</year><x>, </x><volume>20</volume><x>, </x><fpage>1534</fpage><x>&ndash;</x><lpage>1540</lpage><pub-id pub-id-type="doi">10.1021/cm702978g</pub-id></citation></ref><ref id="ref2"><label>2. </label><citation citation-type="journal" id="cit2"><name><surname>Lin</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Lin</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Lu</surname><x>, </x><given-names>L.</given-names></name><article-title>TiNb<sub>6</sub>O<sub>17</sub>: A New Electrode Material for Lithium-Ion Batteries</article-title><source>Chem. Commun.</source><x> </x><year>2015</year><x>, </x><volume>51</volume><x>, </x><fpage>8970</fpage><x>&ndash;</x><lpage>8973</lpage><pub-id pub-id-type="doi">10.1039/C5CC01494H</pub-id></citation></ref><ref id="ref3"><label>3. </label><citation citation-type="journal" id="cit3"><name><surname>Catti</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Pinus</surname><x>, </x><given-names>I.</given-names></name><x>; </x><name><surname>Ruffo</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Salamone</surname><x>, </x><given-names>M. M.</given-names></name><x>; </x><name><surname>Mari</surname><x>, </x><given-names>C. M.</given-names></name><article-title>A Novel
+Layered Lithium Niobium Titanate as Battery Anode Material: Crystal
+Structure and Charge-Discharge Properties</article-title><source>Solid
+State Ionics</source><x> </x><year>2016</year><x>, </x><volume>295</volume><x>, </x><fpage>72</fpage><x>&ndash;</x><lpage>77</lpage><pub-id pub-id-type="doi">10.1016/j.ssi.2016.08.001</pub-id></citation></ref><ref id="ref4"><label>4. </label><citation citation-type="journal" id="cit4"><name><surname>Guo</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Yu</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Sun</surname><x>, </x><given-names>X. G.</given-names></name><x>; </x><name><surname>Chi</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Qiao</surname><x>, </x><given-names>Z. A.</given-names></name><x>; </x><name><surname>Liu</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Hu</surname><x>, </x><given-names>Y. S.</given-names></name><x>; </x><name><surname>Yang</surname><x>, </x><given-names>X. Q.</given-names></name><x>; </x><name><surname>Goodenough</surname><x>, </x><given-names>J. B.</given-names></name><x>; </x><name><surname>Dai</surname><x>, </x><given-names>S.</given-names></name><article-title>A Long-Life Lithium-Ion Battery with a Highly Porous TiNb<sub>2</sub>O<sub>7</sub> Anode for Large-Scale Electrical Energy Storage</article-title><source>Energy Environ. Sci.</source><x> </x><year>2014</year><x>, </x><volume>7</volume><x>, </x><fpage>2220</fpage><x>&ndash;</x><lpage>2226</lpage><pub-id pub-id-type="doi">10.1039/c4ee00508b</pub-id></citation></ref><ref id="ref5"><label>5. </label><citation citation-type="journal" id="cit5"><name><surname>Lou</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Ma</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Cheng</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Gao</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Gao</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Zuo</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Du</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Yin</surname><x>, </x><given-names>G.</given-names></name><article-title>Facile Synthesis of Nanostructured TiNb<sub>2</sub>O<sub>7</sub> Anode Materials with Superior Performance for High-Rate
+Lithium-Ion Batteries</article-title><source>Chem. Commun.</source><x> </x><year>2015</year><x>, </x><volume>51</volume><x>, </x><fpage>17293</fpage><x>&ndash;</x><lpage>17296</lpage><pub-id pub-id-type="doi">10.1039/C5CC07052J</pub-id></citation></ref><ref id="ref6"><label>6. </label><citation citation-type="journal" id="cit6"><name><surname>Arico&#x301;</surname><x>, </x><given-names>A. S.</given-names></name><x>; </x><name><surname>Bruce</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Scrosati</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Tarascon</surname><x>, </x><given-names>J. M.</given-names></name><x>; </x><name><surname>van Schalkwijk</surname><x>, </x><given-names>W.</given-names></name><article-title>Nanostructured
+Materials for Advanced Energy Conversion and Storage Devices</article-title><source>Nat. Mater.</source><x> </x><year>2005</year><x>, </x><volume>4</volume><x>, </x><fpage>366</fpage><x>&ndash;</x><lpage>377</lpage><pub-id pub-id-type="doi">10.1038/nmat1368</pub-id></citation></ref><ref id="ref7"><label>7. </label><citation citation-type="journal" id="cit7"><name><surname>Jiang</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Lee</surname><x>, </x><given-names>P. S.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>C. Z.</given-names></name><article-title>3D Carbon Based Nanostructures for
+Advanced Supercapacitors</article-title><source>Energy Environ. Sci.</source><x> </x><year>2013</year><x>, </x><volume>6</volume><x>, </x><fpage>41</fpage><x>&ndash;</x><lpage>53</lpage><pub-id pub-id-type="doi">10.1039/C2EE23284G</pub-id></citation></ref><ref id="ref8"><label>8. </label><citation citation-type="journal" id="cit8"><name><surname>Zeng</surname><x>, </x><given-names>Z.</given-names></name><x>; </x><name><surname>Yin</surname><x>, </x><given-names>Z.</given-names></name><x>; </x><name><surname>Huang</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>He</surname><x>, </x><given-names>Q.</given-names></name><x>; </x><name><surname>Lu</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Boey</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>H.</given-names></name><article-title>Single-Layer
+Semiconducting Nanosheets:
+High-Yield Preparation and Device Fabrication</article-title><source>Angew. Chem., Int. Ed.</source><x> </x><year>2011</year><x>, </x><volume>50</volume><x>, </x><fpage>11093</fpage><x>&ndash;</x><lpage>11097</lpage><pub-id pub-id-type="doi">10.1002/anie.201106004</pub-id></citation></ref><ref id="ref9"><label>9. </label><citation citation-type="journal" id="cit9"><name><surname>Huang</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Zeng</surname><x>, </x><given-names>Z. Y.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>H.</given-names></name><article-title>Metal Dichalcogenide Nanosheets:
+Preparation, Properties and Applications</article-title><source>Chem.
+Soc. Rev.</source><x> </x><year>2013</year><x>, </x><volume>42</volume><x>, </x><fpage>1934</fpage><x>&ndash;</x><lpage>1946</lpage><pub-id pub-id-type="doi">10.1039/c2cs35387c</pub-id></citation></ref><ref id="ref10"><label>10. </label><citation citation-type="journal" id="cit10"><name><surname>Hwang</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Kim</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Cho</surname><x>, </x><given-names>J.</given-names></name><article-title>MoS<sub>2</sub> Nanoplates Consisting of Disordered
+Graphene-Like Layers for High Rate Lithium Battery Anode Materials</article-title><source>Nano Lett.</source><x> </x><year>2011</year><x>, </x><volume>11</volume><x>, </x><fpage>4826</fpage><x>&ndash;</x><lpage>4830</lpage><pub-id pub-id-type="doi">10.1021/nl202675f</pub-id></citation></ref><ref id="ref11"><label>11. </label><citation citation-type="journal" id="cit11"><name><surname>Ding</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Chen</surname><x>, </x><given-names>J. S.</given-names></name><x>; </x><name><surname>Lou</surname><x>, </x><given-names>X. W.</given-names></name><article-title>Facile Synthesis
+of Hierarchical MoS<sub>2</sub> Microspheres Composed of Few-Layered
+Nanosheets and Their Lithium Storage Properties</article-title><source>Nanoscale</source><x> </x><year>2012</year><x>, </x><volume>4</volume><x>, </x><fpage>95</fpage><x>&ndash;</x><lpage>98</lpage><pub-id pub-id-type="doi">10.1039/C1NR11552A</pub-id></citation></ref><ref id="ref12"><label>12. </label><citation citation-type="journal" id="cit12"><name><surname>Balogun</surname><x>, </x><given-names>M.-S.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Zeng</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Yu</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Wu</surname><x>, </x><given-names>Q.</given-names></name><x>; </x><name><surname>Wu</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Lu</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Tong</surname><x>, </x><given-names>Y.</given-names></name><article-title>Titanium Dioxide@Titanium
+Nitride Nanowires on Carbon
+Cloth with Remarkable Rate Capability for Flexible Lithium-Ion Batteries</article-title><source>J. Power Sources</source><x> </x><year>2014</year><x>, </x><volume>272</volume><x>, </x><fpage>946</fpage><x>&ndash;</x><lpage>953</lpage><pub-id pub-id-type="doi">10.1016/j.jpowsour.2014.09.034</pub-id></citation></ref><ref id="ref13"><label>13. </label><citation citation-type="journal" id="cit13"><name><surname>Lee</surname><x>, </x><given-names>S. H.</given-names></name><x>; </x><name><surname>Sridhar</surname><x>, </x><given-names>V.</given-names></name><x>; </x><name><surname>Jung</surname><x>, </x><given-names>J. H.</given-names></name><x>; </x><name><surname>Karthikeyan</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Lee</surname><x>, </x><given-names>Y. S.</given-names></name><x>; </x><name><surname>Mukherjee</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Koratkar</surname><x>, </x><given-names>N.</given-names></name><x>; </x><name><surname>Oh</surname><x>, </x><given-names>I. K.</given-names></name><article-title>Graphene&#x2013;Nanotube&#x2013;Iron
+Hierarchical Nanostructure as Lithium Ion Battery Anode</article-title><source>ACS Nano</source><x> </x><year>2013</year><x>, </x><volume>7</volume><x>, </x><fpage>4242</fpage><x>&ndash;</x><lpage>4251</lpage><pub-id pub-id-type="doi">10.1021/nn4007253</pub-id></citation></ref><ref id="ref14"><label>14. </label><citation citation-type="journal" id="cit14"><name><surname>Cho</surname><x>, </x><given-names>I. S.</given-names></name><x>; </x><name><surname>Chen</surname><x>, </x><given-names>Z.</given-names></name><x>; </x><name><surname>Forman</surname><x>, </x><given-names>A. J.</given-names></name><x>; </x><name><surname>Kim</surname><x>, </x><given-names>D. R.</given-names></name><x>; </x><name><surname>Rao</surname><x>, </x><given-names>P. M.</given-names></name><x>; </x><name><surname>Jaramillo</surname><x>, </x><given-names>T. F.</given-names></name><x>; </x><name><surname>Zheng</surname><x>, </x><given-names>X.</given-names></name><article-title>Branched TiO<sub>2</sub> Nanorods
+for Photoelectrochemical Hydrogen Production</article-title><source>Nano Lett.</source><x> </x><year>2011</year><x>, </x><volume>11</volume><x>, </x><fpage>4978</fpage><x>&ndash;</x><lpage>4984</lpage><pub-id pub-id-type="doi">10.1021/nl2029392</pub-id></citation></ref><ref id="ref15"><label>15. </label><citation citation-type="journal" id="cit15"><name><surname>Bierman</surname><x>, </x><given-names>M.
+J.</given-names></name><x>; </x><name><surname>Lau</surname><x>, </x><given-names>Y. K. A.</given-names></name><x>; </x><name><surname>Kvit</surname><x>, </x><given-names>A. V.</given-names></name><x>; </x><name><surname>Schmitt</surname><x>, </x><given-names>A. L.</given-names></name><x>; </x><name><surname>Jin</surname><x>, </x><given-names>S.</given-names></name><article-title>Dislocation-Driven
+Nanowire Growth and Eshelby Twist</article-title><source>Science</source><x> </x><year>2008</year><x>, </x><volume>320</volume><x>, </x><fpage>1060</fpage><x>&ndash;</x><lpage>1063</lpage><pub-id pub-id-type="doi">10.1126/science.1157131</pub-id></citation></ref><ref id="ref16"><label>16. </label><citation citation-type="journal" id="cit16"><name><surname>Shi</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Wong</surname><x>, </x><given-names>J. I.</given-names></name><x>; </x><name><surname>Tan</surname><x>, </x><given-names>A. Y. S.</given-names></name><x>; </x><name><surname>Hsu</surname><x>, </x><given-names>C.-L.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>L.-J.</given-names></name><x>; </x><name><surname>Lu</surname><x>, </x><given-names>Y.-C.</given-names></name><x>; </x><name><surname>Yang</surname><x>, </x><given-names>H. Y.</given-names></name><article-title>Self-Assembly of
+Hierarchical MoS<sub>x</sub>/CNT Nanocomposites (2 &lt; x &lt; 3):
+Towards High Performance Anode Materials for Lithium Ion Batteries</article-title><source>Sci. Rep.</source><x> </x><year>2013</year><x>, </x><volume>3</volume><x>, </x><fpage>2169</fpage><pub-id pub-id-type="doi">10.1038/srep02169</pub-id></citation></ref><ref id="ref17"><label>17. </label><citation citation-type="journal" id="cit17"><name><surname>Zhou</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Xin</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Liang</surname><x>, </x><given-names>H.-W.</given-names></name><x>; </x><name><surname>Song</surname><x>, </x><given-names>L.-T.</given-names></name><x>; </x><name><surname>Yu</surname><x>, </x><given-names>S.-H.</given-names></name><article-title>Carbon Nanofibers
+Decorated with Molybdenum Disulfide Nanosheets: Synergistic Lithium
+Storage and Enhanced Electrochemical Performance</article-title><source>Angew. Chem., Int. Ed.</source><x> </x><year>2014</year><x>, </x><volume>53</volume><x>, </x><fpage>11552</fpage><x>&ndash;</x><lpage>11556</lpage><pub-id pub-id-type="doi">10.1002/anie.201407103</pub-id></citation></ref><ref id="ref18"><label>18. </label><citation citation-type="journal" id="cit18"><name><surname>Wang</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Wan</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Huang</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Chen</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Zhou</surname><x>, </x><given-names>H. H.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>X. X.</given-names></name><article-title>Hierarchical
+MoS<sub>2</sub> Nanosheet/Active Carbon Fiber Cloth as a Binder-Free
+and Free-Standing Anode for Lithium-Ion Batteries</article-title><source>Nanoscale</source><x> </x><year>2014</year><x>, </x><volume>6</volume><x>, </x><fpage>5351</fpage><x>&ndash;</x><lpage>5358</lpage><pub-id pub-id-type="doi">10.1039/c4nr00303a</pub-id></citation></ref><ref id="ref19"><label>19. </label><citation citation-type="journal" id="cit19"><name><surname>Ren</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Jiang</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Hu</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>C.</given-names></name><article-title>Self-Assembling
+Few-Layer MoS<sub>2</sub> Nanosheets on a CNT Backbone for High-Rate
+and Long-Life Lithium-Ion Batteries</article-title><source>RSC Adv.</source><x> </x><year>2014</year><x>, </x><volume>4</volume><x>, </x><fpage>40368</fpage><x>&ndash;</x><lpage>40372</lpage><pub-id pub-id-type="doi">10.1039/C4RA08604J</pub-id></citation></ref><ref id="ref20"><label>20. </label><citation citation-type="journal" id="cit20"><name><surname>Xu</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Fan</surname><x>, </x><given-names>Z.</given-names></name><x>; </x><name><surname>Yu</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Ding</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Yu</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Lou</surname><x>, </x><given-names>X. W.</given-names></name><article-title>A Nanosheets-on-Channel
+Architecture Constructed from MoS<sub>2</sub> and CMK-3 for High-Capacity
+and Long-Cycle-Life Lithium Storage</article-title><source>Adv. Energy
+Mater.</source><x> </x><year>2014</year><x>, </x><volume>4</volume><x>, </x><fpage>1400902</fpage><pub-id pub-id-type="doi">10.1002/aenm.201400902</pub-id></citation></ref><ref id="ref21"><label>21. </label><citation citation-type="journal" id="cit21"><name><surname>Shu</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Hu</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Liang</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Cao</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Chen</surname><x>, </x><given-names>X.</given-names></name><article-title>The Capacity
+Fading Mechanism and Improvement of Cycling Stability in MoS<sub>2</sub>-Based Anode Materials for Lithium-Ion Batteries</article-title><source>Nanoscale</source><x> </x><year>2016</year><x>, </x><volume>8</volume><x>, </x><fpage>2918</fpage><x>&ndash;</x><lpage>2926</lpage><pub-id pub-id-type="doi">10.1039/C5NR07909H</pub-id></citation></ref><ref id="ref22"><label>22. </label><citation citation-type="journal" id="cit22"><name><surname>Zhao</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Kuai</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Liu</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Arandiyan</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Cao</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Li</surname></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>F. Q.</given-names></name><x>; </x><name><surname>Geng</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Sun</surname><x>, </x><given-names>H.</given-names></name><article-title>Well-Constructed
+Single-Layer Molybdenum Disulfide Nanorose Cross-Linked by Three Dimensional-Reduced
+Graphene Oxide Network for Superior Water Splitting and Lithium Storage
+Property</article-title><source>Sci. Rep.</source><x> </x><year>2015</year><x>, </x><volume>5</volume><x>, </x><fpage>8722</fpage><pub-id pub-id-type="doi">10.1038/srep08722</pub-id></citation></ref><ref id="ref23"><label>23. </label><citation citation-type="journal" id="cit23"><name><surname>Nakhal</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Lumey</surname><x>, </x><given-names>M.-W.</given-names></name><x>; </x><name><surname>Bredow</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Dronskowski</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Lerch</surname><x>, </x><given-names>M.</given-names></name><article-title>Synthesis and Approximated Crystal and Electronic Structure of a
+Proposed New Tantalum Oxide Nitride Ta<sub>3</sub>O<sub>6</sub>N</article-title><source>Z. Anorg. Allg. Chem.</source><x> </x><year>2010</year><x>, </x><volume>636</volume><x>, </x><fpage>1006</fpage><x>&ndash;</x><lpage>1012</lpage><pub-id pub-id-type="doi">10.1002/zaac.200900539</pub-id></citation></ref><ref id="ref24"><label>24. </label><citation citation-type="journal" id="cit24"><name><surname>Wadsley</surname><x>, </x><given-names>A. D.</given-names></name><article-title>Mixed Oxides
+of Titanium and Niobium. I</article-title><source>Acta Crystallogr.</source><x> </x><year>1961</year><x>, </x><volume>14</volume><x>, </x><fpage>660</fpage><x>&ndash;</x><lpage>664</lpage><pub-id pub-id-type="doi">10.1107/S0365110X61001996</pub-id></citation></ref><ref id="ref25"><label>25. </label><citation citation-type="journal" id="cit25"><name><surname>Eror</surname><x>, </x><given-names>N. G.</given-names></name><x>; </x><name><surname>Balachandran</surname><x>, </x><given-names>U.</given-names></name><article-title>Coordination
+of Cations in TiNb<sub>2</sub>O<sub>7</sub> by Raman Spectroscopy</article-title><source>J. Solid State Chem.</source><x> </x><year>1982</year><x>, </x><volume>45</volume><x>, </x><fpage>276</fpage><x>&ndash;</x><lpage>279</lpage><pub-id pub-id-type="doi">10.1016/0022-4596(82)90283-3</pub-id></citation></ref><ref id="ref26"><label>26. </label><citation citation-type="journal" id="cit26"><name><surname>Li</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>Q.</given-names></name><x>; </x><name><surname>Yap</surname><x>, </x><given-names>C. C. R.</given-names></name><x>; </x><name><surname>Tay</surname><x>, </x><given-names>B. K.</given-names></name><x>; </x><name><surname>Edwin</surname><x>, </x><given-names>T. H. T.</given-names></name><x>; </x><name><surname>Olivier</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Baillargeat</surname><x>, </x><given-names>D.</given-names></name><article-title>From Bulk to Monolayer MoS<sub>2</sub>: Evolution of Raman Scattering</article-title><source>Adv. Funct.
+Mater.</source><x> </x><year>2012</year><x>, </x><volume>22</volume><x>, </x><fpage>1385</fpage><x>&ndash;</x><lpage>1390</lpage><pub-id pub-id-type="doi">10.1002/adfm.201102111</pub-id></citation></ref><ref id="ref27"><label>27. </label><citation citation-type="journal" id="cit27"><name><surname>Xu</surname><x>, </x><given-names>C. Y.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>P. X.</given-names></name><x>; </x><name><surname>Yan</surname><x>, </x><given-names>L.</given-names></name><article-title>Blue Shift of Raman Peak from Coated
+TiO<sub>2</sub> Nanoparticles</article-title><source>J. Raman Spectrosc.</source><x> </x><year>2001</year><x>, </x><volume>32</volume><x>, </x><fpage>862</fpage><x>&ndash;</x><lpage>865</lpage><pub-id pub-id-type="doi">10.1002/jrs.773</pub-id></citation></ref><ref id="ref28"><label>28. </label><citation citation-type="journal" id="cit28"><name><surname>Wang</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Xu</surname><x>, </x><given-names>Z.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Bai</surname><x>, </x><given-names>X.</given-names></name><article-title>Atomic Mechanism of Dynamic Electrochemical
+Lithiation Processes of MoS<sub>2</sub> Nanosheets</article-title><source>J. Am. Chem. Soc.</source><x> </x><year>2014</year><x>, </x><volume>136</volume><x>, </x><fpage>6693</fpage><x>&ndash;</x><lpage>6697</lpage><pub-id pub-id-type="doi">10.1021/ja501686w</pub-id></citation></ref><ref id="ref29"><label>29. </label><citation citation-type="journal" id="cit29"><name><surname>Xiao</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Yang</surname><x>, </x><given-names>X. Q.</given-names></name><x>; </x><name><surname>Xun</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Liu</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Koech</surname><x>, </x><given-names>P. K.</given-names></name><x>; </x><name><surname>Liu</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Lemmon</surname><x>, </x><given-names>J. P.</given-names></name><article-title>Electrochemically
+Induced High Capacity Displacement Reaction of PEO/MoS<sub>2</sub>/Graphene Nanocomposites with Lithium</article-title><source>Adv.
+Funct. Mater.</source><x> </x><year>2011</year><x>, </x><volume>21</volume><x>, </x><fpage>2840</fpage><x>&ndash;</x><lpage>2846</lpage><pub-id pub-id-type="doi">10.1002/adfm.201002752</pub-id></citation></ref><ref id="ref30"><label>30. </label><citation citation-type="journal" id="cit30"><name><surname>Chang</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Chen</surname><x>, </x><given-names>W.</given-names></name><article-title>In-Situ Synthesis of MoS<sub>2</sub>/Graphene Nanosheet Composites
+with Extraordinarily High Electrochemical Performance for Lithium
+Ion Batteries</article-title><source>Chem. Commun.</source><x> </x><year>2011</year><x>, </x><volume>47</volume><x>, </x><fpage>4252</fpage><x>&ndash;</x><lpage>4254</lpage><pub-id pub-id-type="doi">10.1039/c1cc10631g</pub-id></citation></ref><ref id="ref31"><label>31. </label><citation citation-type="journal" id="cit31"><name><surname>Feng</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Ma</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Zeng</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Guo</surname><x>, </x><given-names>Z.</given-names></name><x>; </x><name><surname>Liu</surname><x>, </x><given-names>H.</given-names></name><article-title>Synthesis
+of Molybdenum Disulfide (MoS<sub>2</sub>) for Lithium Ion Battery
+Applications</article-title><source>Mater. Res. Bull.</source><x> </x><year>2009</year><x>, </x><volume>44</volume><x>, </x><fpage>1811</fpage><x>&ndash;</x><lpage>1815</lpage><pub-id pub-id-type="doi">10.1016/j.materresbull.2009.05.018</pub-id></citation></ref><ref id="ref32"><label>32. </label><citation citation-type="journal" id="cit32"><name><surname>Stephenson</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>Z.</given-names></name><x>; </x><name><surname>Olsen</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Mitlin</surname><x>, </x><given-names>D.</given-names></name><article-title>Lithium Ion Battery Applications
+of Molybdenum Disulfide (MoS<sub>2</sub>) Nanocomposites</article-title><source>Energy Environ. Sci.</source><x> </x><year>2014</year><x>, </x><volume>7</volume><x>, </x><fpage>209</fpage><x>&ndash;</x><lpage>231</lpage><pub-id pub-id-type="doi">10.1039/C3EE42591F</pub-id></citation></ref><ref id="ref33"><label>33. </label><citation citation-type="journal" id="cit33"><name><surname>Wang</surname><x>, </x><given-names>J. X.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>Z. X.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>X. H.</given-names></name><x>; </x><name><surname>Guo</surname><x>, </x><given-names>H. J.</given-names></name><x>; </x><name><surname>Wu</surname><x>, </x><given-names>X. W.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>X. P.</given-names></name><x>; </x><name><surname>Xiao</surname><x>, </x><given-names>W.</given-names></name><article-title>xLi<sub>3</sub>V<sub>2</sub>(PO<sub>4</sub>)<sub>3</sub>&#xb7;LiVPO<sub>4</sub>F/C Composite Cathode
+Materials for Lithium Ion Batteries</article-title><source>Electrochim.
+Acta</source><x> </x><year>2013</year><x>, </x><volume>87</volume><x>, </x><fpage>224</fpage><x>&ndash;</x><lpage>229</lpage><pub-id pub-id-type="doi">10.1016/j.electacta.2012.09.014</pub-id></citation></ref><ref id="ref34"><label>34. </label><citation citation-type="journal" id="cit34"><name><surname>Fang</surname><x>, </x><given-names>X. P.</given-names></name><x>; </x><name><surname>Yu</surname><x>, </x><given-names>X. Q.</given-names></name><x>; </x><name><surname>Liao</surname><x>, </x><given-names>S. F.</given-names></name><x>; </x><name><surname>Shi</surname><x>, </x><given-names>Y. F.</given-names></name><x>; </x><name><surname>Hu</surname><x>, </x><given-names>Y. S.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>Z. X.</given-names></name><x>; </x><name><surname>Stucky</surname><x>, </x><given-names>G. D.</given-names></name><x>; </x><name><surname>Chen</surname><x>, </x><given-names>L. Q.</given-names></name><article-title>Lithium Storage
+Performance in Ordered Mesoporous MoS<sub>2</sub> Electrode Material</article-title><source>Microporous Mesoporous Mater.</source><x> </x><year>2012</year><x>, </x><volume>151</volume><x>, </x><fpage>418</fpage><x>&ndash;</x><lpage>423</lpage><pub-id pub-id-type="doi">10.1016/j.micromeso.2011.09.032</pub-id></citation></ref><ref id="ref35"><label>35. </label><citation citation-type="journal" id="cit35"><name><surname>George</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Morris</surname><x>, </x><given-names>A. J.</given-names></name><x>; </x><name><surname>Modarres</surname><x>, </x><given-names>M. H.</given-names></name><x>; </x><name><surname>De Volder</surname><x>, </x><given-names>M.</given-names></name><article-title>Structural
+Evolution of Electrochemically Lithiated MoS<sub>2</sub> Nanosheets
+and the Role of Carbon Additive in Li-Ion Batteries</article-title><source>Chem. Mater.</source><x> </x><year>2016</year><x>, </x><volume>28</volume><x>, </x><fpage>7304</fpage><x>&ndash;</x><lpage>7310</lpage><pub-id pub-id-type="doi">10.1021/acs.chemmater.6b02607</pub-id></citation></ref><ref id="ref36"><label>36. </label><citation citation-type="journal" id="cit36"><name><surname>Yang</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Mao</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Deng</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Gao</surname><x>, </x><given-names>Q.</given-names></name><x>; </x><name><surname>Tang</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Schmidt</surname><x>, </x><given-names>O. G.</given-names></name><article-title>Hierarchical MoS<sub>2</sub>/Polyaniline
+Nanowires with Excellent Electrochemical Performance for Lithium Ion
+Batteries</article-title><source>Adv. Mater.</source><x> </x><year>2013</year><x>, </x><volume>25</volume><x>, </x><fpage>1180</fpage><x>&ndash;</x><lpage>1184</lpage><pub-id pub-id-type="doi">10.1002/adma.201203999</pub-id></citation></ref><ref id="ref37"><label>37. </label><citation citation-type="journal" id="cit37"><name><surname>Yun</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Pfisterer</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Bandarenka</surname><x>, </x><given-names>A. S.</given-names></name><article-title>How Simple are the Models of Na Intercalation
+in Aqueous Media?</article-title><source>Energy Environ. Sci.</source><x> </x><year>2016</year><x>, </x><volume>9</volume><x>, </x><fpage>955</fpage><x>&ndash;</x><lpage>961</lpage><pub-id pub-id-type="doi">10.1039/C5EE03197D</pub-id></citation></ref><ref id="ref38"><label>38. </label><citation citation-type="journal" id="cit38"><name><surname>Ventosa</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Paulitsch</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Marzak</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Yun</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Schiegg</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Quast</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Bandarenka</surname><x>, </x><given-names>A. S.</given-names></name><article-title>The Mechanism of the Interfacial
+Charge and Mass Transfer during Intercalation of Alkali Metal Cations</article-title><source>Adv. Sci.</source><x> </x><year>2016</year><x>, </x><volume>3</volume><x>, </x><fpage>1600211</fpage><pub-id pub-id-type="doi">10.1002/advs.201600211</pub-id></citation></ref><ref id="ref39"><label>39. </label><citation citation-type="journal" id="cit39"><name><surname>Bondarenko</surname><x>, </x><given-names>A. S.</given-names></name><article-title>Analysis
+of Large Experimental Datasets in Electrochemical Impedance Spectroscopy</article-title><source>Anal. Chim. Acta</source><x> </x><year>2012</year><x>, </x><volume>743</volume><x>, </x><fpage>41</fpage><x>&ndash;</x><lpage>50</lpage><pub-id pub-id-type="doi">10.1016/j.aca.2012.06.055</pub-id></citation></ref><ref id="ref40"><label>40. </label><citation citation-type="web" id="cit40"><person-group person-group-type="allauthors"><name><surname>Bondarenko</surname><x>, </x><given-names>A. S.</given-names></name><x>; </x><name><surname>Ragoisha</surname><x>, </x><given-names>G. A.</given-names></name></person-group> EIS Spectrum Analyser,
+electronic resource. <uri xlink:href="http://www.abc.chemistry.bsu.by/vi/analyser">http://www.abc.chemistry.bsu.by/vi/analyser</uri> (accessed Oct<x> </x><year>2016</year><x>) </x>.</citation></ref></ref-list></back></article>

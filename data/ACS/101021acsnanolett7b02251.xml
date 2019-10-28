@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE article PUBLIC "-//Atypon//DTD Archiving and Interchange DTD Suite with ACHS extensions v2.2 20080601//EN" "archivearticle.dtd">
+<article article-type="rapid-communication" dtd-version="2.2" xml:lang="EN"  xmlns:mml="http://www.w3.org/1998/Math/MathML"><front><journal-meta>
+<journal-id journal-id-type="publisher">nalefd</journal-id><journal-title>Nano Letters</journal-title><abbrev-journal-title abbrev-type="publisher">Nano
+Lett.</abbrev-journal-title><issn pub-type="ppub">1530-6984</issn><issn pub-type="epub">1530-6992</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="doi">10.1021/acs.nanolett.7b02251</article-id><article-categories>
+<subj-group subj-group-type="type-of-article">
+<subject>Letter</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Vertical InAs/InGaAs Heterostructure Metal&#x2013;Oxide&#x2013;Semiconductor
+Field-Effect Transistors on Si</article-title>
+</title-group><contrib-group><contrib contrib-type="author" corresp="yes" id="ath1"><contrib-id contrib-id-type="orcid"  authenticated="true">http://orcid.org/0000-0002-0179-0927</contrib-id><name><given-names>Olli-Pekka</given-names><x> </x><surname>Kilpi</surname></name><xref rid="ath1">*</xref><xref ref-type="aff" rid="aff1"><sup>&#x2020;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath2"><name><given-names>Johannes</given-names><x> </x><surname>Svensson</surname></name><xref ref-type="aff" rid="aff1"><sup>&#x2020;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath3"><contrib-id contrib-id-type="orcid"  authenticated="true">http://orcid.org/0000-0002-1403-7272</contrib-id><name><given-names>Jun</given-names><x> </x><surname>Wu</surname></name><xref ref-type="aff" rid="aff2"><sup>&#x2021;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath4"><name><given-names>Axel R.</given-names><x> </x><surname>Persson</surname></name><xref ref-type="aff" rid="aff3"><sup>&#xa7;</sup></xref><xref ref-type="aff" rid="aff4"><sup>&#x2225;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath5"><name><given-names>Reine</given-names><x> </x><surname>Wallenberg</surname></name><xref ref-type="aff" rid="aff3"><sup>&#xa7;</sup></xref><xref ref-type="aff" rid="aff4"><sup>&#x2225;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath6"><name><given-names>Erik</given-names><x> </x><surname>Lind</surname></name><xref ref-type="aff" rid="aff1"><sup>&#x2020;</sup></xref><x>, and </x></contrib><contrib contrib-type="author" id="ath7"><name><given-names>Lars-Erik</given-names><x> </x><surname>Wernersson</surname></name><xref ref-type="aff" rid="aff1"><sup>&#x2020;</sup></xref><x> </x></contrib><aff id="aff1"><label>&#x2020;</label>Department
+of Electrical and Information Technology, <institution>Lund University</institution>, Box 118, 221 00 Lund, <country>Sweden</country></aff><aff id="aff2"><label>&#x2021;</label>Department
+of Electrical and Computer Engineering, <institution>University of California</institution>, Santa
+Barbara, California 93106, <country>United States</country></aff><aff id="aff3"><label>&#xa7;</label>Centre
+for Analysis and Synthesis, <institution>Lund University</institution>, Box 124, 221 00 Lund, <country>Sweden</country></aff><aff id="aff4"><label>&#x2225;</label>NanoLund, <institution>Lund University</institution>, Box
+118, 22100 Lund, <country>Sweden</country></aff></contrib-group><pub-date pub-type="ppub"><day>11</day><month>10</month><year>2017</year></pub-date><pub-date pub-type="epub"><day>14</day><month>09</month><year>2017</year></pub-date><volume>17</volume><issue>10</issue><fpage>6006</fpage><lpage>6010</lpage><history><date date-type="received"><day>28</day><month>05</month><year>2017</year></date><date date-type="rev-recd"><day>11</day><month>08</month><year>2017</year></date><date date-type="asap"><day>14</day><month>09</month><year>2017</year></date><date date-type="issue-pub"><day>11</day><month>10</month><year>2017</year></date><date date-type="just-accepted"><day>05</day><month>09</month><year>2017</year></date></history><permissions><copyright-statement>&copy; 2017 American Chemical Society</copyright-statement><copyright-year>2017</copyright-year><copyright-holder>American Chemical Society</copyright-holder></permissions><related-article related-article-type="pdf" xlink:href="acs.nanolett.7b02251.pdf"/>
+<abstract><p>III&#x2013;V
+compound semiconductors offer a path to continue Moore&#x2019;s
+law due to their excellent electron transport properties. One major
+challenge, integrating III&#x2013;V&#x2019;s on Si, can be addressed
+by using vapor&#x2013;liquid&#x2013;solid grown vertical nanowires.
+InAs is an attractive material due to its superior mobility, although
+InAs metal&#x2013;oxide&#x2013;semiconductor field-effect transistors
+(MOSFETs) typically suffer from band-to-band tunneling caused by its
+narrow band gap, which increases the off-current and therefore the
+power consumption. In this work, we present vertical heterostructure
+InAs/InGaAs nanowire MOSFETs with low off-currents provided by the
+wider band gap material on the drain side suppressing band-to-band
+tunneling. We demonstrate vertical III&#x2013;V MOSFETs achieving
+off-current below 1 nA/&#x3bc;m while still maintaining on-performance
+comparable to InAs MOSFETs; therefore, this approach opens a path
+to address not only high-performance applications but also Internet-of-Things
+applications that require low off-state current levels.</p></abstract><abstract abstract-type="graphical">
+<fig fig-type="figure" id="f_tgr1" position="float">
+<graphic xlink:href="nl-2017-02251j_0005.tif" id="tgr1"/></fig>
+</abstract><kwd-group><kwd>MOSFETs</kwd><kwd>nanowire</kwd><kwd>vapor&#x2212;liquid&#x2212;solid</kwd><kwd>heterostructure</kwd><kwd>InAs</kwd><kwd>InGaAs</kwd></kwd-group></article-meta></front><body><sec id="sec1"><title/><p>Vertical vapor&#x2013;liquid&#x2013;solid
+(VLS) grown nanowires offer an interesting option for future electrical
+and optical devices, as the vertical growth direction allows a high
+degree of freedom in material selection. Thin nanowires can relax
+stress originating from lattice mismatch by lateral expansion; therefore,
+high-quality axial heterostructures as well as nanowires integrated
+on different substrates can
+be grown.<xref ref-type="bibr" rid="ref1 ref2 ref3 ref4">(1-4)</xref> One major driving force for the development has been the possibility
+to integrate high mobility and direct band gap III&#x2013;V materials
+on Si.<xref ref-type="bibr" rid="ref1 ref4 ref5">(1, 4, 5)</xref> Axial heterostructures
+further offer the possibility for band gap engineering, which allows
+for design of advanced metal&#x2013;oxide&#x2013;semiconductor field-effect
+transistors (MOSFETs)<xref ref-type="bibr" rid="ref6 ref7">(6, 7)</xref> and tunnel field-effect transistors
+(TFETs),<xref ref-type="bibr" rid="ref8 ref9 ref10">(8-10)</xref> where for instance the tunneling current can be controlled
+by proper band gap engineering.</p><p>III&#x2013;V MOSFETs integrated
+on Si substrates, such as InAs
+and InGaAs, are considered to extend Moore&#x2019;s law, as they offer
+the possibility to decrease the supply voltage and therefore power
+consumption, while still operating with a high performance.<xref ref-type="bibr" rid="ref11 ref12">(11, 12)</xref> Continuous scaling of the gate length has led to an increase in
+the off-state power consumption due to leakage, and unfortunately,
+the problem is even worse for narrow bandgap III&#x2013;V MOSFETs,
+which have relatively large off-currents due to band-to-band tunneling
+and impact ionization. The established way of comparing different
+digital technologies is to define the on-current (<italic>I</italic><sub>on</sub>) at a fixed off-current (<italic>I</italic><sub>off</sub>). III&#x2013;V MOSFETs normally reach only the high performance
+limit (<italic>I</italic><sub>off</sub> = 100 nA/&#x3bc;m) due to
+leakage associated with the narrow band gap. Recently, planar MOSFETs
+with a wider band gap material on the drain side have demonstrated
+to decrease the output conductance, increase the breakdown voltage,
+and suppress the tunneling off-state leakage current to reach the
+standard performance limit (<italic>I</italic><sub>off</sub> = 1 nA/&#x3bc;m).<xref ref-type="bibr" rid="ref6 ref7">(6, 7)</xref></p><p>In this paper, growth, material characterization, processing,
+and
+device measurements of vertical InAs/In<sub>0.7</sub>Ga<sub>0.3</sub>As nanowire MOSFET integrated on Si are presented. The wider band
+gap material, inserted as a segment on the drain side, together with
+the drain contact being electrically isolated from the substrate allows
+a decrease in the off-state leakage, while still maintaining the excellent
+transistor properties provided by the InAs channel. With the removal
+of the substrate leakage component, all of the drain current passes
+through the nanowire and it is therefore well controlled due to the
+excellent electrostatics provided by the gate-all-around (GAA) structure.
+We present MOSFETs with typical <italic>I</italic><sub>off</sub> between
+1 and 10 nA/&#x3bc;m, with the smallest <italic>I</italic><sub>off</sub> below 1 nA/&#x3bc;m. This represents the first demonstration of
+vertical III&#x2013;V nanowire MOSFETs achieving <italic>I</italic><sub>off</sub> = 1 nA/&#x3bc;m at <italic>V</italic><sub>DS</sub> = 0.5 V. These MOSFETs also have, to the best of the authors&#x2019;
+knowledge, the highest high performance <italic>I</italic><sub>on</sub> (330 &#x3bc;A/&#x3bc;m at <italic>I</italic><sub>off</sub> = 100
+nA/&#x3bc;m and <italic>V</italic><sub>DS</sub> = 0.5) demonstrated
+for vertical nanowire MOSFETs. The high <italic>I</italic><sub>on</sub> is related to a high <italic>g</italic><sub>m</sub> = 1.4 mS/&#x3bc;m
+as well as a good subthreshold swing SS = 85 mV/dec.</p><p>The MOSFETs
+were fabricated on p-type silicon substrate that had
+300 nm thick metal&#x2013;organic vapor-phase epitaxy (MOVPE) grown
+n-doped InAs layer, which acts as a seed layer for nanowire definition
+and a source contact for the transistors. The growth of the InAs thin
+film on Si have been demonstrated before with good electrical performance.<xref ref-type="bibr" rid="ref13">(13)</xref> The nanowires were grown by MOVPE using electron
+beam lithography defined (EBL) gold particles in VLS growth mode (detailed
+description in <xref rid="sec2">Methods</xref>). Three different diameters
+of EBL defined gold particles, 32, 36, and 40 nm, were used. The nanowires
+consisted of, starting from the substrate, a segment with 100 nm unintentionally
+doped InAs, a 50 nm-long unintentionally doped graded InGaAs segment
+(from InAs to In<sub>0.7</sub>Ga<sub>0.3</sub>As), and 300 nm highly
+n-doped In<sub>0.7</sub>Ga<sub>0.3</sub>As, which also overgrew the
+undoped region forming a core&#x2013;shell heterostructure. The analysis
+of the structure is shown in <xref rid="fig1">Figure <xref ref-type="fig" rid="fig1">1</xref></xref>. The diameter of the core is a few nanometers larger
+than the gold particle diameter, and the shell thickness is approximately
+10 nm.</p><fig fig-type="figure" id="fig1" position="float"><label>Figure 1</label><caption><p>SEM (a) and TEM (d) images of the InAs/InGaAs heterostructure nanowire.
+TEM image (b) reveals short a zinc blende segment at the heterojunction
+and a large amount of stacking faults (c) after doping is introduced.
+Composition analysis (e) shows that nanowire has an approximately
+50 nm long segment, where InAs is graded to In<sub>0.7</sub>Ga<sub>0.3</sub>As.</p></caption><graphic id="gr1" position="float" xlink:href="nl-2017-02251j_0001.tif"/></fig><p>A scanning electron micrograph
+image, a transmission electron micrograph
+image, and a composition analysis of the nanowire are shown in <xref rid="fig1">Figure <xref ref-type="fig" rid="fig1">1</xref></xref>. Typically, nanowires
+grown under these conditions have a wurtzite crystal structure; however,
+the transition from InAs to InGaAs causes the formation of a short,
+approximately 10 nm long, zincblende segment at the InAs/InGaAs junction,
+which could be due to a variation in gold particle size induced by
+the Ga introduction.<xref ref-type="bibr" rid="ref14">(14)</xref> Another clearly
+visible property is the large number of stacking faults in the doped
+InGaAs segment, which could lead to a mobility degradation.</p><p>A schematic illustration of the transistor structure together with
+the false-color SEM image of a vertical nanowire is shown in <xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>. The transistor
+has a 50 nm thick SiO<sub>2</sub> first spacer, a 5 nm thick Al<sub>2</sub>O<sub>3</sub>/HfO<sub>2</sub> bilayer gate oxide, and a 60
+nm thick W gate. The transistor processing followed the recently developed
+gate-last process,<xref ref-type="bibr" rid="ref15">(15)</xref> where the gate is
+self-aligned to the source and drain regions, by a W top-metal and
+a doped shell at the bottom, as shown in <xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref> (detailed process description in <xref rid="sec2">Methods</xref>). This alignment allows the removal of the
+ungated regions, in which the transport would greatly increase the
+parasitic source and drain resistance and therefore decrease the transistor
+performance. Furthermore, to improve the transistor electrostatics,
+the doped shell is removed from the channel region, and the channel
+diameter is decreased to form a recess gate.</p><fig fig-type="figure" id="fig2" position="float"><label>Figure 2</label><caption><p>Schematic illustration
+of the nanowire after growth (a), finalized
+device (b), and a cross-sectional SEM image (c) of vertical InAs/InGaAs
+MOSFETs. The self-aligned gate technology together with the recessed
+gate allows to achieve high performance transistors.</p></caption><graphic id="gr2" position="float" xlink:href="nl-2017-02251j_0002.tif"/></fig><p>Transfer characteristics of the vertical InAs/InGaAs
+single nanowire
+MOSFET at <italic>V</italic><sub>DS</sub> = 0.5 V is shown in <xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>a. The diameter of
+the nanowire, for this particular device, is 28 nm, and the total
+gate length is 260 nm, where the effective gate length (<italic>L</italic><sub>g,eff</sub>), defined by the region where the nanowire thickness
+is uniform and the smallest (<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>b), is 160 nm. In this work, only single nanowire transistors
+are demonstrated, as larger arrays always have slightly degraded performance
+due to small variations within the array. The transistor operates
+as an enhancement mode transistor with a threshold voltage (<italic>V</italic><sub>T</sub>) of 0.16 V (defined by extrapolating from
+the maximum <italic>g</italic><sub>m</sub>), a maximum transconductance
+(<italic>g</italic><sub>m</sub>) of 1.4 mS/&#x3bc;m (normalized by
+the circumference of the nanowire), and subthreshold swing (SS) of
+85 mV/dec The transistor shows good combined on- (<italic>g</italic><sub>m</sub>) and off- (SS) performance with a <italic>Q</italic>-value (<italic>g</italic><sub>m</sub>/SS) of 16, which is required
+to achieve a high <italic>I</italic><sub>on</sub>. The best <italic>I</italic><sub>on</sub> of these transistors at <italic>I</italic><sub>off</sub> = 100 nA/&#x3bc;m and <italic>V</italic><sub>DS</sub> = 0.5 V is 330 &#x3bc;A/&#x3bc;m. These transistors also show excellent <italic>I</italic><sub>off</sub> control due to the wider band gap on the
+drain side and GAA structure, therefore demonstrating vertical III&#x2013;V
+nanowire MOSFETs achieving standard performance limit (<italic>I</italic><sub>off</sub> = 1 nA/&#x3bc;m) at <italic>V</italic><sub>DS</sub> = 0.5 V. For the best device, the <italic>I</italic><sub>on</sub> = 88 &#x3bc;A/&#x3bc;m at <italic>I</italic><sub>off</sub> = 1 nA/&#x3bc;m
+and <italic>V</italic><sub>DS</sub> = 0.5 V was measured.</p><fig fig-type="figure" id="fig3" position="float"><label>Figure 3</label><caption><p>Transfer characteristics
+of MOSFET with InGaAs drain (a) showing
+high <italic>I</italic><sub>on</sub> and <italic>I</italic><sub>off</sub> &lt; 1 nA/&#x3bc;m. The comparison of InAs and InGaAs drains (b)
+show clearly improved on- and off-state performance with InGaAs drain.
+Output characteristics in panels c and d show improved saturation
+with InGaAs drain at higher biases due to reduced band-to-band tunneling
+and impact ionization.</p></caption><graphic id="gr3" position="float" xlink:href="nl-2017-02251j_0003.tif"/></fig><p>In <xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>b, the
+transfer characteristics of InGaAs and InAs drain MOSFETs are compared.
+The InAs/InGaAs MOSFET corresponds to the transistor in <xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>a whereas the InAs MOSFET is
+a similarly processed single nanowire vertical MOSFET with a diameter
+of 31 nm and a gate length of 170 nm. The maximum <italic>g</italic><sub>m</sub> of the InAs transistor is 0.75 mS/&#x3bc;m, and SS is
+95 mV/dec. Its <italic>Q</italic>-value is approximately 8, and therefore,
+the performance corresponds well to recently published state-of-the-art
+vertical InAs transistors.<xref ref-type="bibr" rid="ref15">(15)</xref> The InAs MOSFET
+has <italic>I</italic><sub>on</sub> = 183 &#x3bc;A/&#x3bc;m at <italic>I</italic><sub>off</sub> = 100 nA/&#x3bc;m and <italic>V</italic><sub>DS</sub> = 0.5 V, which to the authors knowledge is the highest
+reported <italic>I</italic><sub>on</sub> for vertical InAs MOSFETs.
+From the data presented in <xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>b, it is clear that the transconductance <italic>g</italic><sub>m</sub> in the InAs/InGaAs MOSFET is considerably higher and
+the SS lower as compared to the InAs MOSFET. The ambipolar leakage
+component observed at negative gate biases is lower for the InAs/InGaAs
+MOSFET as compared with the InAs transistor, and therefore, lower
+off-state currents can be achieved when the InGaAs drain is introduced.
+The higher <italic>g</italic><sub>m</sub> and higher maximum on-current
+for InAs/InGaAs MOSFETs is based on a good balance between on- and
+off-state performance. For the comparison, vertical InAs device with
+the highest <italic>Q</italic>-value was selected. Vertical InAs devices
+with higher <italic>g</italic><sub>m</sub> and higher maximum on-current
+have been previously demonstrated; however, they do not have reasonable
+off-state performance.<xref ref-type="bibr" rid="ref16">(16)</xref></p><p><xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>c shows
+output characteristics of the MOSFETs with InGaAs drain. The MOSFET
+with InGaAs drain shows good saturation at relatively high <italic>V</italic><sub>DS</sub> values (&lt;1.2 V). Typical InAs MOSFETs
+are not measured at high <italic>V</italic><sub>DS</sub>,<xref ref-type="bibr" rid="ref5 ref17 ref18 ref19 ref20 ref21">(5, 17-21)</xref> as impact ionization and band-to-band tunneling cause breakdown
+well below 1 V. Therefore, this technology is attractive for RF applications
+as the current is saturated over a relatively large region. The difference
+in the increase of the leakage current with drain bias, which will
+evidently also cause the device breakdown, is more clearly shown in <xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>d, where MOSFETs
+with InAs and InGaAs drain are compared, when <italic>V</italic><sub>ov</sub> (<italic>V</italic><sub>gs</sub> &#x2013; <italic>V</italic><sub>t</sub>) is approximately &#x2212;0.35 V. Evidently, the current
+increase with the InAs drain starts already at approximately 0.4 V,
+while with the InGaAs drain it starts after 0.7 V demonstrating a
+reduction in the tunneling current component as the Ga is introduced.</p><p>To further investigate the leakage mechanism, transfer and output
+characteristics for the InAs/InGaAs MOSFET were measured at different
+temperatures (10, 60, 120, 160, 200, 240, and 295 K). The transfer
+characteristics in <xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>a show reduced minimum current levels at lower temperatures,
+which is attributed to a decreased tunneling rate caused by the increased
+band gap. Further, the data show a <italic>V</italic><sub>T</sub> shift
+as a function of temperature, which can be explained by possible charge
+trapping either at the high-<italic>k</italic> interface or within
+the oxide. Similar effect is also detected in other III&#x2013;V MOSFETs
+from our lab.<xref ref-type="bibr" rid="ref22">(22)</xref></p><fig fig-type="figure" id="fig4" position="float"><label>Figure 4</label><caption><p>Transfer (a) and output
+(<italic>V</italic><sub>GS</sub> = &#x2212;0.5
+V) (b) characteristics measured at low temperatures (10, 60, 120,
+160, 200, 240, and 295 K). Inset in panel a shows large <italic>V</italic><sub>T</sub> shift, which is attributed to carrier freeze out. Model
+describing tunneling through the triangular barrier allows a good
+fit for the leakage current (b) and shows that leakage current below
+room temperature is caused by band-to-band tunneling. Inset in panel
+c shows estimated band structure of an InAs/InGaAs MOSFET, when <italic>V</italic><sub>GS</sub> = &#x2212;0.5 V and <italic>V</italic><sub>DS</sub> = 0.7 V, showing a small tunneling distance at the drain
+side.</p></caption><graphic id="gr4" position="float" xlink:href="nl-2017-02251j_0004.tif"/></fig><p>The output characteristics in <xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>b show the off-state
+leakage current measured
+for different drain biases at <italic>V</italic><sub>GS</sub> = &#x2212;0.5
+V. To correlate the transport with the InGaAs band gap, the measured
+data are analyzed by fitting the data, using the least-square method,
+to a formula describing tunneling through a triangular barrier<xref ref-type="bibr" rid="ref23">(23)</xref><disp-formula id="ueq1" pre-labeled="no"><mml:math altimg="nl-2017-02251j_m001.gif" display="block"><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">b</mml:mi><mml:mn>2</mml:mn><mml:mi mathvariant="normal">b</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>A</mml:mi><mml:mfrac><mml:mrow><mml:mi>B</mml:mi></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">G</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mfrac><mml:mrow><mml:msubsup><mml:mrow><mml:mi>V</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">D</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:mrow><mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>V</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">D</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>&#x3bb;</mml:mi></mml:mrow></mml:mfrac><mml:msup><mml:mrow><mml:mi mathvariant="normal">e</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>C</mml:mi><mml:msqrt><mml:mrow><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">G</mml:mi></mml:mrow></mml:msub><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:msqrt><mml:mrow><mml:mo stretchy="false">[</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>V</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">D</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>&#x3bb;</mml:mi><mml:mo>/</mml:mo><mml:msub><mml:mrow><mml:mi>V</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">D</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:mrow></mml:msup></mml:math></disp-formula><disp-formula id="ueq2" pre-labeled="no"><mml:math altimg="nl-2017-02251j_m002.gif" display="block"><mml:mi>B</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msqrt><mml:mrow><mml:mn>2</mml:mn><mml:msubsup><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">R</mml:mi></mml:mrow><mml:mrow><mml:mo>*</mml:mo></mml:mrow></mml:msubsup></mml:mrow></mml:msqrt><mml:msup><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:mn>8</mml:mn><mml:msup><mml:mrow><mml:mi>&#x3c0;</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:msup><mml:mrow><mml:mi>&#x210f;</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mfrac></mml:math></disp-formula><disp-formula id="ueq3" pre-labeled="no"><mml:math altimg="nl-2017-02251j_m003.gif" display="block"><mml:mi>C</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>4</mml:mn><mml:msqrt><mml:mrow><mml:mn>2</mml:mn><mml:msubsup><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">R</mml:mi></mml:mrow><mml:mrow><mml:mo>*</mml:mo></mml:mrow></mml:msubsup></mml:mrow></mml:msqrt></mml:mrow><mml:mrow><mml:mn>3</mml:mn><mml:mi>q</mml:mi><mml:mi>&#x210f;</mml:mi></mml:mrow></mml:mfrac></mml:math></disp-formula>where <italic>A</italic> is the cross-sectional
+area, <italic>E</italic><sub>G</sub> is the band gap, <italic>m</italic><sub arrange="stack">R</sub><sup arrange="stack">*</sup> is the reduced
+effective mass, and &#x3bb; is fitting parameter describing tunneling
+length. The leakage current at 240 K (red line in <xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>c) was first fitted to define
+&#x3bb;, which describe the tunneling length and therefore the electric
+field. From the fitting, &#x3bb; = 9.2 nm, therefore validating the
+model. To evaluate the leakage currents at different temperatures,
+&#x3bb; was kept constant, and the <italic>E</italic><sub>G</sub> was
+varied. Notably, the estimated band gap values from this simple tunneling
+model does not match well with the empirical band gap model for InGaAs,<xref ref-type="bibr" rid="ref24">(24)</xref> as seen in <xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>c. Applying the detected <italic>V</italic><sub>t</sub> variation to the electric field of the model does not
+improve the matching either. Instead, the difference is attributed
+to the complex transport process in the transistor, where the tunneling
+carriers at the drain junction generate holes within the channel region.
+They may be injected to the source, recombine in the channel, or lower
+the barrier under the gate and cause thermionic emission of electrons,
+the so-called bipolar effect. Hence, a more deliberate model is required.
+Notably, below room temperature, thermionic emission can be ruled
+out, as the leakage current is lower than predicted by the tunneling
+model.</p><p>To describe the transport processes, the model was modified
+by
+adding a temperature-dependent function <inline-formula><mml:math altimg="nl-2017-02251j_m004.gif" display="inline"><mml:mi>y</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>&#x3bb;</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac></mml:math></inline-formula>, where <italic>x</italic>(<italic>T</italic>) describes the temperature-dependent
+hole escape rate related to
+the recombination and injection process at the source side. This is
+a simple modification to the model that describes the phenomena and
+provides a better matching. However, a more sophisticated model is
+needed to describe in detail the origin of the hole escape. The leakage
+current was fitted to the current equation<disp-formula id="ueq4" pre-labeled="no"><mml:math altimg="nl-2017-02251j_m005.gif" display="block"><mml:msubsup><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">b</mml:mi><mml:mn>2</mml:mn><mml:mi mathvariant="normal">b</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x2032;</mml:mo></mml:mrow></mml:msubsup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi>A</mml:mi><mml:mfrac><mml:mrow><mml:mi>B</mml:mi></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">G</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mfrac><mml:mrow><mml:msubsup><mml:mrow><mml:mi>V</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">D</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup></mml:mrow><mml:mrow><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>V</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">D</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>y</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mfrac><mml:msup><mml:mrow><mml:mi mathvariant="normal">e</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x2212;</mml:mo><mml:mi>C</mml:mi><mml:msqrt><mml:mrow><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">G</mml:mi></mml:mrow></mml:msub><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:msqrt><mml:mrow><mml:mo stretchy="false">[</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>V</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">D</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mi>&#x3bb;</mml:mi><mml:mo>/</mml:mo><mml:msub><mml:mrow><mml:mi>V</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">D</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">]</mml:mo></mml:mrow></mml:mrow></mml:msup></mml:math></disp-formula></p><p>Using this approach, the determined band gap follows the reported
+band gap for InGaAs reasonably well in the temperature range from
+160 to 240 K. The leakage current seems thus to be mainly dependent
+on tunneling below room temperature, although at room temperature
+it seems necessary to include a current component related to thermionic
+emission to fully describe the transport.</p><p>In conclusion, we
+have shown state-of-the-art InAs/InGaAs vertical
+III&#x2013;V nanowire MOSFETs on Si. The improved performance is mainly
+attributed to the introduction of wider band gap material (In<sub>0.7</sub>Ga<sub>0.3</sub>As) on the drain side, enabled by lateral
+strain relaxation of vertically grown nanowires. The approach has
+allowed us to decrease <italic>I</italic><sub>off</sub> below 1 nA/&#x3bc;m
+with improved breakdown voltage, which both are related to suppressed
+band-to-band tunneling and impact ionization. The devices show comparable
+or even advantageous on-performance as compared to vertical InAs MOSFETs;
+however, the subthreshold performance is greatly improved, which provides
+a high drive current, <italic>I</italic><sub>on.</sub> This approach
+opens a path to address not only high-performance applications but
+also Internet-of-Things applications that require low off-state current
+levels.</p><sec id="sec2"><title>Methods</title><sec id="sec2.1"><title>Nanowire Growth</title><p>The nanowires were grown using metal&#x2013;organic
+vapor phase epitaxy (MOVPE) in an Aixtron 200/4 reactor at a pressure
+of 100 mbar and a total flow of 13&#x202f;000 sccm. After annealing
+in arsine (AsH<sub>3</sub>) at 550 &#xb0;C, a 100 nm long InAs segment
+was grown at 470 &#xb0;C for 50 s using trimethylindium (TMIn) and
+AsH<sub>3</sub> with a molar fraction of <italic>X</italic><sub>TMIn</sub> = 3.0 &#xd7; 10<sup>&#x2013;5</sup> and <italic>X</italic><sub>AsH3</sub> = 1.9 &#xd7; 10<sup>&#x2013;4</sup>, respectively, corresponding
+to a V/III-ratio of 6.3. A 50 nm long graded InGaAs segment was subsequently
+grown by adding trimethylgallium (TMGa) and increasing its molar fraction
+from 0 to <italic>X</italic><sub>TMGa</sub> = 4.3 &#xd7; 10<sup>&#x2013;5</sup> while reducing the TMIn molar fraction to <italic>X</italic><sub>TMIn</sub> = 8.9 &#xd7; 10<sup>&#x2013;6</sup> during 20 s. The final
+vapor phase composition is In/(In + Ga) = 0.17. After the graded segment
+a 300 nm long n-doped InGaAs segment was grown for 55 s by adding
+triethyltin (TESn) at a molar fraction of <italic>X</italic><sub>TESn</sub> = 1.6 &#xd7; 10<sup>&#x2013;5</sup>, while the AsH<sub>3</sub> molar
+fraction was increased to <italic>X</italic><sub>AsH3</sub> = 7.7
+&#xd7; 10<sup>&#x2013;4</sup>. The increased V/III-ratio for the top
+InGaAs segment resulted in a shorter diffusion length, and the increased
+radial growth needed to provide low access resistance to the channel
+from the bottom source contact.</p></sec><sec id="sec2.2"><title>TEM Analysis</title><p>The
+wires were transferred onto a copper
+TEM-grid covered by a lacy carbon film and analyzed in a JEM-3000F
+transmission electron microscope, operated at 300 kV in both conventional
+and scanning TEM (STEM) modes. High-resolution TEM (HRTEM) micrographs
+were used for structural analysis, while STEM in combination with
+EDX was used for elemental mapping and quantification along both the
+wire and of the seed particle.</p></sec><sec id="sec2.3"><title>Device Fabrication</title><p>The transistor fabrication was started
+by spin coating the sample by a hydrogen silsesquioxane (HSQ) thin
+film. The HSQ was patterned by electron beam lithography (EBL), where
+the dose of the EBL defined the thickness of the HSQ layer. After
+developing the HSQ layer in 25% TMAH solution, 20 nm of W was sputtered
+and followed by a 3 nm thick atomic layer deposited (ALD) TiN. The
+metal was anisotropically etched, and the HSQ film was removed by
+HF leaving approximately a 10 nm thick metal film only on the sidewalls
+of the nanowires.</p><p>A 50 nm thick SiO<sub>2</sub> bottom spacer
+was deposited by plasma enhanced ALD. To remove SiO<sub>2</sub> from
+the sidewalls, thin S1813 resist mask was deposited, and SiO<sub>2</sub> was etched by 1&#x2013;100 HF. The bottom part of the nanowire was
+covered by the SiO<sub>2</sub> spacer and the top part by top-metal;
+therefore, the gate region was locally etched forming a recess gate.
+In this particular case, the highly doped shell at the gate region
+was locally etched by digital etching, in other words repeatedly oxidizing
+the nanowire surface in O<sub>3</sub> and removing the oxide by HCl
+until the highly doped shell was removed. On the basis of our growth
+studies, the core diameter is a couple of nanometers larger than the
+gold particle diameter; therefore, the nanowire diameter was inspected
+between the digital etching by SEM, and the digital etching was stopped,
+when the diameter was less or same as the gold particle diameter.
+Next, 1 nm Al<sub>2</sub>O<sub>3</sub> and 4 nm HfO<sub>2</sub> ALD
+high-<italic>k</italic> gate oxide was deposited and followed by sputtering
+of 60 nm thick W gate metal. The device process was finished by defining
+a 300 nm thick S1813 top spacer and contacts to the terminals. The
+final metal layer consists of 15 nm Ni, 30 nm W, and 180 nm Au.</p></sec></sec></sec></body><back><notes id="NOTES-d7e1285-autogenerated" notes-type="conflict-of-interest"><p>The authors declare no
+competing financial interest.</p></notes><ack id="ACK-d7e1282-autogenerated"><title>Acknowledgment</title><p>This work was supported in
+part by the Swedish Research Council,
+in part by the Knut and Alice Wallenberg Foundation, in part by the
+Swedish Foundation for Strategic Research, and in part by the European
+Union H2020 program INSIGHT (grant agreement no. 688784).</p></ack><ref-list><title>References</title><ref id="ref1"><label>1. </label><citation citation-type="journal" id="cit1"><name><surname>Wei</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Bao</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Soci</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Ding</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>Z.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>D.</given-names></name><source>Nano Lett.</source><x> </x><year>2009</year><x>, </x><volume>9</volume><x>, </x><fpage>2926</fpage><x>&ndash;</x><lpage>2934</lpage><pub-id pub-id-type="doi">10.1021/nl901270n</pub-id></citation></ref><ref id="ref2"><label>2. </label><citation citation-type="journal" id="cit2"><name><surname>Johansson</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Dick</surname><x>, </x><given-names>K. A.</given-names></name><source>CrystEngComm</source><x> </x><year>2011</year><x>, </x><volume>13</volume><x>, </x><fpage>7175</fpage><x>&ndash;</x><lpage>7184</lpage><pub-id pub-id-type="doi">10.1039/c1ce05821e</pub-id></citation></ref><ref id="ref3"><label>3. </label><citation citation-type="journal" id="cit3"><name><surname>Fortuna</surname><x>, </x><given-names>S. A.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>X.</given-names></name><source>Semicond.
+Sci. Technol.</source><x> </x><year>2010</year><x>, </x><volume>25</volume><x>, </x><fpage>024005</fpage><pub-id pub-id-type="doi">10.1088/0268-1242/25/2/024005</pub-id></citation></ref><ref id="ref4"><label>4. </label><citation citation-type="journal" id="cit4"><name><surname>Svensson</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Dey</surname><x>, </x><given-names>A. W.</given-names></name><x>; </x><name><surname>Jacobsson</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Wernersson</surname><x>, </x><given-names>L.</given-names></name><source>Nano Lett.</source><x> </x><year>2015</year><x>, </x><volume>15</volume><x>, </x><fpage>7898</fpage><x>&ndash;</x><lpage>7904</lpage><pub-id pub-id-type="doi">10.1021/acs.nanolett.5b02936</pub-id></citation></ref><ref id="ref5"><label>5. </label><citation citation-type="journal" id="cit5"><name><surname>Doornbos</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Holland</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Vellianitis</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Van Dal</surname><x>, </x><given-names>M. J.</given-names></name><x>; </x><name><surname>Duriez</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Oxland</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Afzalian</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Chen</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Hsieh</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Passlack</surname><x>, </x><given-names>M.</given-names></name><source>IEEE J. Electron Devices Soc.</source><x> </x><year>2016</year><x>, </x><volume>4</volume><x>, </x><fpage>253</fpage><x>&ndash;</x><lpage>259</lpage><pub-id pub-id-type="doi">10.1109/JEDS.2016.2574203</pub-id></citation></ref><ref id="ref6"><label>6. </label><citation citation-type="journal" id="cit6"><name><surname>Mo</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Lind</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Wernersson</surname><x>, </x><given-names>L.</given-names></name><source>IEEE Trans. Electron Devices</source><x> </x><year>2015</year><x>, </x><volume>62</volume><x>, </x><fpage>501</fpage><x>&ndash;</x><lpage>506</lpage><pub-id pub-id-type="doi">10.1109/TED.2014.2375913</pub-id></citation></ref><ref id="ref7"><label>7. </label><citation citation-type="book" id="cit7"><person-group person-group-type="allauthors"><name><surname>Huang</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Lee</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Chobpattana</surname><x>, </x><given-names>V.</given-names></name><x>; </x><name><surname>Stemmer</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Gossard</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Thibeault</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Mitchell</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Rodwell</surname><x>, </x><given-names>M.</given-names></name></person-group> <source>Electron
+Devices Meeting (IEDM)</source>, 2014 IEEE International; <publisher-name>IEEE</publisher-name>,<x> </x><year>2014</year><x>; </x>pp <fpage>25.4.1</fpage><x>&ndash;</x><lpage>25.4.4</lpage>.</citation></ref><ref id="ref8"><label>8. </label><citation citation-type="book" id="cit8"><person-group person-group-type="allauthors"><name><surname>Tomioka</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Yoshimura</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Fukui</surname><x>, </x><given-names>T.</given-names></name></person-group> <source>2012 symposium on VLSI Technology
+(VLSIT)</source>; <publisher-name>IEEE</publisher-name>,<x> </x><year>2012</year><x>; </x>pp <fpage>47</fpage><x>&ndash;</x><lpage>48</lpage>.</citation></ref><ref id="ref9"><label>9. </label><citation citation-type="journal" id="cit9"><name><surname>Lind</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Memis&#x30c;evic&#x301;</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Dey</surname><x>, </x><given-names>A. W.</given-names></name><x>; </x><name><surname>Wernersson</surname><x>, </x><given-names>L.</given-names></name><source>IEEE J. Electron
+Devices Soc.</source><x> </x><year>2015</year><x>, </x><volume>3</volume><x>, </x><fpage>96</fpage><x>&ndash;</x><lpage>102</lpage><pub-id pub-id-type="doi">10.1109/JEDS.2015.2388811</pub-id></citation></ref><ref id="ref10"><label>10. </label><citation citation-type="journal" id="cit10"><name><surname>Memisevic</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Hellenbrand</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Lind</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Persson</surname><x>, </x><given-names>A. R.</given-names></name><x>; </x><name><surname>Sant</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Schenk</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Svensson</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Wallenberg</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Wernersson</surname><x>, </x><given-names>L.</given-names></name><source>Nano Lett.</source><x> </x><year>2017</year><x>, </x><volume>17</volume><x>, </x><fpage>4373</fpage><pub-id pub-id-type="doi">10.1021/acs.nanolett.7b01455</pub-id></citation></ref><ref id="ref11"><label>11. </label><citation citation-type="journal" id="cit11"><name><surname>Riel</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Wernersson</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Hong</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Del Alamo</surname><x>, </x><given-names>J. A.</given-names></name><source>MRS Bull.</source><x> </x><year>2014</year><x>, </x><volume>39</volume><x>, </x><fpage>668</fpage><x>&ndash;</x><lpage>677</lpage><pub-id pub-id-type="doi">10.1557/mrs.2014.137</pub-id></citation></ref><ref id="ref12"><label>12. </label><citation citation-type="journal" id="cit12"><name><surname>Del
+Alamo</surname><x>, </x><given-names>J. A.</given-names></name><x>; </x><name><surname>Antoniadis</surname><x>, </x><given-names>D. A.</given-names></name><x>; </x><name><surname>Lin</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Lu</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Vardi</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Zhao</surname><x>, </x><given-names>X.</given-names></name><source>IEEE J. Electron Devices Soc.</source><x> </x><year>2016</year><x>, </x><volume>4</volume><x>, </x><fpage>205</fpage><x>&ndash;</x><lpage>214</lpage><pub-id pub-id-type="doi">10.1109/JEDS.2016.2571666</pub-id></citation></ref><ref id="ref13"><label>13. </label><citation citation-type="journal" id="cit13"><name><surname>Ghalamestani</surname><x>, </x><given-names>S. G.</given-names></name><x>; </x><name><surname>Berg</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Dick</surname><x>, </x><given-names>K. A.</given-names></name><x>; </x><name><surname>Wernersson</surname><x>, </x><given-names>L.</given-names></name><source>J. Cryst. Growth</source><x> </x><year>2011</year><x>, </x><volume>332</volume><x>, </x><fpage>12</fpage><x>&ndash;</x><lpage>16</lpage><pub-id pub-id-type="doi">10.1016/j.jcrysgro.2011.03.062</pub-id></citation></ref><ref id="ref14"><label>14. </label><citation citation-type="journal" id="cit14"><name><surname>Jacobsson</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Panciera</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Tersoff</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Reuter</surname><x>, </x><given-names>M. C.</given-names></name><x>; </x><name><surname>Lehmann</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Hofmann</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Dick</surname><x>, </x><given-names>K. A.</given-names></name><x>; </x><name><surname>Ross</surname><x>, </x><given-names>F. M.</given-names></name><source>Nature</source><x> </x><year>2016</year><x>, </x><volume>531</volume><x>, </x><fpage>317</fpage><x>&ndash;</x><lpage>322</lpage><pub-id pub-id-type="doi">10.1038/nature17148</pub-id></citation></ref><ref id="ref15"><label>15. </label><citation citation-type="journal" id="cit15"><name><surname>Berg</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Kilpi</surname><x>, </x><given-names>O.</given-names></name><x>; </x><name><surname>Persson</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Svensson</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Hellenbrand</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Lind</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Wernersson</surname><x>, </x><given-names>L.</given-names></name><source>IEEE Electron Device Lett.</source><x> </x><year>2016</year><x>, </x><volume>37</volume><x>, </x><fpage>966</fpage><x>&ndash;</x><lpage>969</lpage><pub-id pub-id-type="doi">10.1109/LED.2016.2581918</pub-id></citation></ref><ref id="ref16"><label>16. </label><citation citation-type="journal" id="cit16"><name><surname>Persson</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Berg</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Borg</surname><x>, </x><given-names>M. B.</given-names></name><x>; </x><name><surname>Wu</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Johansson</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Svensson</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Jansson</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Lind</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Wernersson</surname><x>, </x><given-names>L.</given-names></name><source>IEEE Trans. Electron
+Devices</source><x> </x><year>2013</year><x>, </x><volume>60</volume><x>, </x><fpage>2761</fpage><x>&ndash;</x><lpage>2767</lpage><pub-id pub-id-type="doi">10.1109/TED.2013.2272324</pub-id></citation></ref><ref id="ref17"><label>17. </label><citation citation-type="journal" id="cit17"><name><surname>Chang</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Oxland</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Contreras-Guerrero</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Bhuwalka</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Doornbos</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Vasen</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Holland</surname><x>, </x><given-names>M.</given-names></name><source>IEDM Technol. Dig.</source><x> </x><year>2013</year><x>, </x><volume>16</volume><x>, </x><fpage>1</fpage></citation></ref><ref id="ref18"><label>18. </label><citation citation-type="book" id="cit18"><person-group person-group-type="allauthors"><name><surname>Kim</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Hill</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Young</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Veksler</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Morassi</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Oktybrshky</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Oh</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Kang</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Kim</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>del
+Alamo</surname><x>, </x><given-names>J.</given-names></name></person-group> <source>2012 Symposium on VLSI Technology (VLSIT)</source>; <publisher-name>IEEE</publisher-name>,<x> </x><year>2012</year><x>; </x>pp <fpage>179</fpage><x>&ndash;</x><lpage>180</lpage>.</citation></ref><ref id="ref19"><label>19. </label><citation citation-type="journal" id="cit19"><name><surname>Dey</surname><x>, </x><given-names>A. W.</given-names></name><x>; </x><name><surname>Thelander</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Lind</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Dick</surname><x>, </x><given-names>K. A.</given-names></name><x>; </x><name><surname>Borg</surname><x>, </x><given-names>B. M.</given-names></name><x>; </x><name><surname>Borgstrom</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Nilsson</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Wernersson</surname><x>, </x><given-names>L.</given-names></name><source>IEEE Electron Device
+Lett.</source><x> </x><year>2012</year><x>, </x><volume>33</volume><x>, </x><fpage>791</fpage><x>&ndash;</x><lpage>793</lpage><pub-id pub-id-type="doi">10.1109/LED.2012.2190132</pub-id></citation></ref><ref id="ref20"><label>20. </label><citation citation-type="book" id="cit20"><person-group person-group-type="allauthors"><name><surname>Lee</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Chobpattana</surname><x>, </x><given-names>V.</given-names></name><x>; </x><name><surname>Huang</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Thibeault</surname><x>, </x><given-names>B. J.</given-names></name><x>; </x><name><surname>Mitchell</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Stemmer</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Gossard</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Rodwell</surname><x>, </x><given-names>M.</given-names></name></person-group> <source>2014 Symposium on VLSI Technology</source>, Digest of Technical Papers; <publisher-name>IEEE</publisher-name>,<x> </x><year>2014</year><x>; </x>pp <fpage>1</fpage><x>&ndash;</x><lpage>2</lpage>.</citation></ref><ref id="ref21"><label>21. </label><citation citation-type="journal" id="cit21"><name><surname>Thelander</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Froberg</surname><x>, </x><given-names>L. E.</given-names></name><x>; </x><name><surname>Rehnstedt</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Samuelson</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Wernersson</surname><x>, </x><given-names>L.</given-names></name><source>IEEE Electron Device Lett.</source><x> </x><year>2008</year><x>, </x><volume>29</volume><x>, </x><fpage>206</fpage><x>&ndash;</x><lpage>208</lpage><pub-id pub-id-type="doi">10.1109/LED.2007.915374</pub-id></citation></ref><ref id="ref22"><label>22. </label><citation citation-type="journal" id="cit22"><name><surname>Nilsson</surname><x>, </x><given-names>H. A.</given-names></name><x>; </x><name><surname>Caroff</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Thelander</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Lind</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Karlstro&#x308;m</surname><x>, </x><given-names>O.</given-names></name><x>; </x><name><surname>Wernersson</surname><x>, </x><given-names>L.</given-names></name><source>Appl. Phys. Lett.</source><x> </x><year>2010</year><x>, </x><volume>96</volume><x>, </x><fpage>153505</fpage><pub-id pub-id-type="doi">10.1063/1.3402760</pub-id></citation></ref><ref id="ref23"><label>23. </label><citation citation-type="journal" id="cit23"><name><surname>Seabaugh</surname><x>, </x><given-names>A. C.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>Q.</given-names></name><source>Proc.
+IEEE</source><x> </x><year>2010</year><x>, </x><volume>98</volume><x>, </x><fpage>2095</fpage><x>&ndash;</x><lpage>2110</lpage><pub-id pub-id-type="doi">10.1109/JPROC.2010.2070470</pub-id></citation></ref><ref id="ref24"><label>24. </label><citation citation-type="journal" id="cit24"><name><surname>Paul</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Roy</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Basu</surname><x>, </x><given-names>P.</given-names></name><source>J. Appl. Phys.</source><x> </x><year>1991</year><x>, </x><volume>69</volume><x>, </x><fpage>827</fpage><x>&ndash;</x><lpage>829</lpage><pub-id pub-id-type="doi">10.1063/1.348919</pub-id></citation></ref></ref-list></back></article>

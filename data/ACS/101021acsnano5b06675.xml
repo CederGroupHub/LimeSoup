@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE article PUBLIC "-//Atypon//DTD Archiving and Interchange DTD Suite with ACHS extensions v2.2 20080601//EN" "archivearticle.dtd">
+<article article-type="research-article" dtd-version="2.2" xml:lang="EN"  xmlns:mml="http://www.w3.org/1998/Math/MathML"><front><journal-meta>
+<journal-id journal-id-type="publisher">ancac3</journal-id><journal-title>ACS Nano</journal-title><abbrev-journal-title abbrev-type="publisher">ACS Nano</abbrev-journal-title><issn pub-type="ppub">1936-0851</issn><issn pub-type="epub">1936-086X</issn><publisher><publisher-name>American
+Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="doi">10.1021/acsnano.5b06675</article-id><article-categories>
+<subj-group subj-group-type="type-of-article">
+<subject>Article</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Sulfur Embedded in a Mesoporous
+Carbon Nanotube Network
+as a Binder-Free Electrode for High-Performance Lithium&#x2013;Sulfur
+Batteries</article-title>
+</title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><given-names>Li</given-names><x> </x><surname>Sun</surname></name><xref ref-type="aff" rid="aff1"><sup>&#x2020;</sup></xref><xref ref-type="aff" rid="aff2"><sup>&#x2021;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath2"><name><given-names>Datao</given-names><x> </x><surname>Wang</surname></name><xref ref-type="aff" rid="aff2"><sup>&#x2021;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath3"><name><given-names>Yufeng</given-names><x> </x><surname>Luo</surname></name><xref ref-type="aff" rid="aff2"><sup>&#x2021;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath4"><name><given-names>Ke</given-names><x> </x><surname>Wang</surname></name><xref ref-type="aff" rid="aff2"><sup>&#x2021;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath5"><name><given-names>Weibang</given-names><x> </x><surname>Kong</surname></name><xref ref-type="aff" rid="aff2"><sup>&#x2021;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath6"><name><given-names>Yang</given-names><x> </x><surname>Wu</surname></name><xref ref-type="aff" rid="aff2"><sup>&#x2021;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath7"><name><given-names>Lina</given-names><x> </x><surname>Zhang</surname></name><xref ref-type="aff" rid="aff2"><sup>&#x2021;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath8"><name><given-names>Kaili</given-names><x> </x><surname>Jiang</surname></name><xref ref-type="aff" rid="aff2"><sup>&#x2021;</sup></xref><xref ref-type="aff" rid="aff3"><sup>&#xa7;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath9"><name><given-names>Qunqing</given-names><x> </x><surname>Li</surname></name><xref ref-type="aff" rid="aff2"><sup>&#x2021;</sup></xref><xref ref-type="aff" rid="aff3"><sup>&#xa7;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath10"><name><given-names>Yihe</given-names><x> </x><surname>Zhang</surname></name><xref ref-type="aff" rid="aff1"><sup>&#x2020;</sup></xref><x>, </x></contrib><contrib contrib-type="author" corresp="yes" id="ath11"><name><given-names>Jiaping</given-names><x> </x><surname>Wang</surname></name><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref><xref ref-type="aff" rid="aff2"><sup>&#x2021;</sup></xref><xref ref-type="aff" rid="aff3"><sup>&#xa7;</sup></xref><x>, and </x></contrib><contrib contrib-type="author" id="ath12"><name><given-names>Shoushan</given-names><x> </x><surname>Fan</surname></name><xref ref-type="aff" rid="aff2"><sup>&#x2021;</sup></xref><x> </x></contrib><aff id="aff1"><label>&#x2020;</label>Beijing
+Key Laboratory of Materials Utilization of Nonmetallic Minerals and
+Solid Wastes, National Laboratory of Mineral Materials, School of
+Materials Science and Technology, <institution>China
+University of Geosciences</institution>, 100083 Beijing, <country>China</country></aff><aff id="aff2"><label>&#x2021;</label>Department
+of Physics and Tsinghua-Foxconn Nanotechnology Research Center, <institution>Tsinghua University</institution>, Beijing 100084, <country>China</country></aff><aff id="aff3"><label>&#xa7;</label><institution>Collaborative
+Innovation Center of Quantum Matter</institution>, Beijing 100084, <country>China</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email xlink:href="jpwang@tsinghua.edu.cn">jpwang@tsinghua.edu.cn</email>.</corresp></author-notes><pub-date pub-type="ppub"><day>26</day><month>01</month><year>2016</year></pub-date><pub-date pub-type="epub"><day>31</day><month>12</month><year>2015</year></pub-date><volume>10</volume><issue>1</issue><fpage>1300</fpage><lpage>1308</lpage><supplementary-material xlink:href="nn5b06675_si_001.pdf" id="sifile1"/>
+<history><date date-type="received"><day>23</day><month>10</month><year>2015</year></date><date date-type="accepted"><day>22</day><month>12</month><year>2015</year></date><date date-type="asap"><day>31</day><month>12</month><year>2015</year></date><date date-type="issue-pub"><day>26</day><month>01</month><year>2016</year></date><date date-type="just-accepted"><day>22</day><month>12</month><year>2015</year></date></history><permissions><copyright-statement>&copy; 2015 American Chemical Society</copyright-statement><copyright-year>2015</copyright-year><copyright-holder>American Chemical Society</copyright-holder></permissions><related-article related-article-type="pdf" xlink:href="acsnano.5b06675.pdf"/>
+<abstract><p>Sulfur-porous
+carbon nanotube (S-PCNT) composites are proposed
+as cathode materials for advanced lithium&#x2013;sulfur (Li&#x2013;S)
+batteries. Abundant mesopores are introduced to superaligned carbon
+nanotubes (SACNTs) through controlled oxidation in air to obtain porous
+carbon nanotubes (PCNTs). Compared to original SACNTs, improved dispersive
+behavior, enhanced conductivity, and higher mechanical strength are
+demonstrated in PCNTs. Meanwhile, high flexibility and sufficient
+intertube interaction are preserved in PCNTs to support binder-free
+and flexible electrodes. Additionally, several attractive features,
+including high surface area and abundant adsorption points on tubes,
+are introduced, which allow high sulfur loading, provide dual protection
+to sulfur cathode materials, and consequently alleviate the capacity
+fade especially during slow charge/discharge processes. When used
+as cathodes for Li&#x2013;S batteries, a high sulfur loading of 60
+wt % is achieved, with excellent reversible capacities of 866 and
+526 mAh g<sup>&#x2013;1</sup> based on the weights of sulfur and electrode,
+respectively, after 100 cycles at a slow charge/discharge rate of
+0.1C, revealing efficient suppression of polysulfide dissolution.
+Even with a high sulfur loading of 70 wt %, the S-PCNT composite maintains
+capacities of 760 and 528 mAh g<sup>&#x2013;1</sup> based on the weights
+of sulfur and electrode, respectively, after 100 cycles at 0.1C, outperforming
+the current state-of-the-art sulfur cathodes. Improved high-rate capability
+is also delivered by the S-PCNT composites, revealing their potentials
+as high-performance carbon&#x2013;sulfur composite cathodes for Li&#x2013;S
+batteries.</p></abstract><abstract abstract-type="graphical">
+<fig fig-type="figure" id="f_tgr1" position="float">
+<graphic xlink:href="nn-2015-06675n_0008.tif" id="tgr1"/></fig>
+</abstract><kwd-group><kwd>mesoporous</kwd><kwd>carbon nanotube</kwd><kwd>lithium&#x2212;sulfur
+batteries</kwd><kwd>carbon&#x2212;sulfur cathodes</kwd><kwd>binder-free</kwd></kwd-group></article-meta></front><body><sec id="sec1"><title/><p>Lithium&#x2013;sulfur
+(Li&#x2013;S)
+batteries are considered as a promising candidate to replace current
+Li-ion batteries (LIBs) due to their low cost, benign environmental
+effects, high specific capacity (1675 mAh g<sup>&#x2013;1</sup>),
+and high energy density (2600 Wh kg<sup>&#x2013;1</sup>).<xref ref-type="bibr" rid="ref1 ref2 ref3 ref4">(1-4)</xref> Commercialization of current sulfur cathodes generally suffers from
+fast capacity degradation and poor Coulombic efficiency originated
+from the dissolution of intermediate discharge products (polysulfides,
+Li<sub>2</sub>S<sub>4&#x2013;8</sub>) in the electrolyte.<xref ref-type="bibr" rid="ref5">(5)</xref> The polysulfide dissolution causes loss of active
+sulfur and suppresses its deep lithiation, which becomes especially
+severe during slow charge&#x2013;discharge processes and deteriorates
+the electrochemical performances at low cycling rates. Besides, compared
+to commercial LIB cathodes mostly with loading of active materials
+larger than 80 wt %, it is quite difficult to achieve high sulfur
+loading due to its low conductivity (5 &#xd7; 10<sup>&#x2013;30</sup> S cm<sup>&#x2013;1</sup>). Currently reported sulfur cathodes with
+encouraging electrochemical performances had sulfur loadings mostly
+around or even smaller than 50 wt %. A further increase of sulfur
+content in cathodes could cause severe polarization, poor cycling
+stability, low capacity, and decreased Coulombic efficiency.<xref ref-type="bibr" rid="ref6 ref7">(6, 7)</xref> Therefore, it is of urgent need to fabricate cathodes with high
+sulfur loading, high capacities, and large capacity reversibility
+simultaneously.<xref ref-type="bibr" rid="ref8 ref9 ref10">(8-10)</xref></p><p>Carbon-based materials with optimal porosity
+and high surface area,
+such as mesoporous carbons,<xref ref-type="bibr" rid="ref7 ref11 ref12">(7, 11, 12)</xref> graphene,<xref ref-type="bibr" rid="ref13 ref14">(13, 14)</xref> porous carbon nanofibers,<xref ref-type="bibr" rid="ref15 ref16">(15, 16)</xref> and carbon spheres,<xref ref-type="bibr" rid="ref17 ref18">(17, 18)</xref> have been widely used to accommodate
+sulfur and constrain polysulfides <italic>via</italic> physisorbtion.
+Among these porous structures, those with mesoporosity are considered
+of great promise due to their proper pore size and large overall pore
+volume, which ensure electrolyte access for fast lithium transport,
+provide abundant adsorption points for high sulfur loading, and alleviate
+active material loss <italic>via</italic> physical adsorption. Improved
+cyclic stability and high Coulombic efficiency were reported in these
+mesoporous structures; however, most of them were designed into powder-like
+morphologies with limited interior interaction. Therefore, the use
+of polymeric binders and carbon black additives was required to ensure
+the mechanical stability and electrical connectivity in the electrode.
+Unlike in LIBs, where binders effectively hold the active materials
+without interrupting the electrochemical process, binders in Li&#x2013;S
+batteries could play a critical role in the cell performance.<xref ref-type="bibr" rid="ref19">(19)</xref> As the structure and morphology change upon
+cycling, binders cannot hold all the active materials, especially
+the soluble polysulfides. Instead, they could become &#x201c;dead&#x201d;
+sites for the electrochemical reactions that can deteriorate the cell
+performance.<xref ref-type="bibr" rid="ref19">(19)</xref> Therefore, it is important
+to develop binder-free sulfur cathodes in order to facilitate green
+fabrication processes, allow high active material loading, increase
+electronic conductivity, and achieve excellent electrochemical performances.</p><p>Carboneous materials fabricated into various morphologies, including
+carbon fibers,<xref ref-type="bibr" rid="ref20">(20)</xref> vertically aligned carbon
+nanotubes,<xref ref-type="bibr" rid="ref21">(21)</xref> carbon nanotubes,<xref ref-type="bibr" rid="ref22 ref23 ref24">(22-24)</xref> and graphene,<xref ref-type="bibr" rid="ref25">(25)</xref> have been utilized as
+supportive skeletons to construct integrated binder-free carbon&#x2013;sulfur
+composites, of which the ones based on superaligned carbon nanotubes
+(SACNTs) have shown unique advantages. On the basis of many attractive
+characteristics, including large aspect ratio (&gt;10<sup>4</sup>),
+clean
+surface, and strong intertube interaction, SACNTs have been widely
+used to support binder-free electrodes in LIBs.<xref ref-type="bibr" rid="ref26 ref27 ref28">(26-28)</xref> Binder-free
+sulfur electrodes were also developed <italic>via</italic> a facile
+ultrasonication-assisted method.<xref ref-type="bibr" rid="ref29">(29)</xref> Excellent
+high rate performance was obtained in the S-SACNT composite due to
+the highly conductive SACNTs and efficient electrolyte infiltration.
+The absorption ability of the SACNT framework also localized sulfur
+and its lithiation products and therefore suppressed the polysulfide
+migration. However, only a small sulfur loading of around 50 wt %
+was achievable in order to retain microstructural homogeneity, high
+conductivity, and stable cycling behaviors. Besides, the cycling stability
+at lower rates such as 0.1C/0.2C was unsatisfactory, possibly because
+of the obvious loss of active materials in prolonged charge/discharge
+processes.</p><p>In order to achieve high sulfur loading and promote
+the cycling
+performances, the advantages of mesoporosity and binder-free electrodes
+were combined in this work and a sulfur&#x2013;mesoporous CNT composite
+was fabricated. Abundant mesopores were introduced into SACNTs through
+controlled oxidation in air at high temperature to create the porous
+CNTs (PCNTs). When employed as sulfur hosts, PCNTs give superiority
+of both porous structures and 3D continuous CNT network, which not
+only offer abundant mesopores for sulfur incorporation but also construct
+a bush-like structure to further adsorb sulfur, therefore achieving
+dual confinement to sulfur cathode materials. Furthermore, the high
+surface area and large pore volume of PCNTs simultaneously allow a
+high sulfur loading and high sulfur utilization. Through a facile
+solution-based and ultrasonic-assisted method, highly flexible and
+robust S-PCNT composites with sulfur loading varied from 50 to 70
+wt % were prepared and directly used as electrodes without binders
+or current collectors. Benefiting from the high electrical conductivity,
+the mesoporous structure, and the 3D continuous bush-like network,
+the S-PCNT composites showed significantly improved electrochemical
+performance.</p></sec><sec id="sec2"><title>Results and Discussion</title><p>The synthesis
+method of the S-PCNT composites is schematically
+illustrated in <xref rid="fig1">Figure <xref ref-type="fig" rid="fig1">1</xref></xref>. SACNTs were heated in air to allow controlled oxidation and creation
+of nanoscale pores to obtain PCNTs. A free-standing and flexible S-PCNT
+composite was fabricated <italic>via</italic> a simple solution-based
+and ultrasonication-assisted method,<xref ref-type="bibr" rid="ref30">(30)</xref> followed
+by solvent removal through drying. The intensive ultrasonication ensures
+nanoscale sulfur to load onto PCNTs and create a uniform sulfur distribution.
+A typical SEM image of the S-PCNT composite and corresponding sulfur
+elemental mapping in <xref rid="fig1">Figure <xref ref-type="fig" rid="fig1">1</xref></xref> demonstrates a homogeneous distribution of sulfur.</p><fig fig-type="figure" id="fig1" position="float"><label>Figure 1</label><caption><p>Synthesis and
+characterization of the S-PCNT composites.</p></caption><graphic id="gr1" position="float" xlink:href="nn-2015-06675n_0002.tif"/></fig><p>The controlled oxidation of CNTs was conducted at 550 &#xb0;C
+according
+to the thermal gravimetric behavior of CNTs in air. As shown in <xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>a, effective weight
+loss cannot be induced at low temperatures (&lt;550 &#xb0;C), indicating
+slow oxidation and insufficient tube defects, while fast and uncontrollable
+weight loss happened at high temperatures (&gt;550 &#xb0;C), which
+brought
+out significant degradation of CNTs. Therefore, effective, controllable,
+and time-saving oxidation was conducted at the temperature of 550
+&#xb0;C, where the steep weight loss was about to start. In addition,
+in order to maintain the large aspect ratio and strong intertube interaction
+of pristine CNTs to support a binder-free and mechanically integral
+film, the holding time at 550 &#xb0;C was set as 30 min. Shorter holding
+time (15 min, <italic>etc</italic>.) cannot introduce enough defects,
+and longer holding time (1 h, <italic>etc</italic>.) produced chopped
+tubes. Compared to pristine CNTs, PCNTs presented an obviously lowered
+oxidation temperature in <xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>a, revealing more open structure and increased chemical
+reactivity. The relative intensity of the D and G bands (<italic>I</italic><sub>D</sub>/<italic>I</italic><sub>G</sub>) increased from 0.74
+in CNTs to 0.95 in PCNTs in the Raman spectra (<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>b), further confirming the presence of surface
+defects.<xref ref-type="bibr" rid="ref31 ref32 ref33">(31-33)</xref> It is notable that although defects were introduced,
+the graphite structures of CNTs were basically preserved, as indicated
+by the clear (002) peak with high intensity at around 26&#xb0; in
+the XRD pattern of PCNTs (<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>c). The X-ray photoelectron spectroscopy (XPS) analysis
+of PCNTs (<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>d)
+further revealed the introduction of surface defects and functional
+groups during the oxidation process. Apart from the peaks corresponding
+to the sp<sup>2</sup>-hybridized C&#x2013;C (284.8 eV) and the sp<sup>3</sup>-hybridized C&#xe5fb;C (285.1 eV) bonds in the graphitic structure
+of the nanotube, the peaks at 286.5 and 288.8 eV revealed the existence
+of hydroxyl, carbonyl, and carboxyl groups. The last peak at 291.5
+eV can be attributed to the &#x3c0;&#x2013;&#x3c0;* transition.<xref ref-type="bibr" rid="ref33">(33)</xref> A large amount of sp<sup>3</sup>-configured
+carbon was demonstrated in the PCNTs, with a ratio of 4:3 between
+the sp<sup>2</sup>- and sp<sup>3</sup>-configured carbons. As the
+peak corresponding to the sp<sup>3</sup>-configured carbon was generally
+attributed to the defects on the carbon nanotube structures,<xref ref-type="bibr" rid="ref32">(32)</xref> the high percentage of sp<sup>3</sup>-configured
+carbon in the PCNTs further confirmed the introduction of defects
+to the side walls after the heat treatment. TEM examination of CNTs
+(<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>e) and PCNTs
+(<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>f) presented
+a visible alteration in morphology and tubular structures before and
+after heat treatment. Pristine CNTs presented good tubular structures
+as well as clean and smooth shells, with few surface defects, while
+in PCNTs, the hollow tubular structures were partially destroyed due
+to oxidation of carbon, and a quantity of defects was produced both
+on the side walls and on the tubes&#x2019; ends (indicated by the
+yellow arrows). The defects revealed in PCNTs, including the chopped
+tubes, the open ends, and the &#x201c;bitten&#x201d; points along
+the walls, were similar to those created by chemical oxidation.<xref ref-type="bibr" rid="ref34 ref35">(34, 35)</xref> Considering the large aspect ratio (&#x223c;10<sup>4</sup>) of the
+SACNTs used in this work,<xref ref-type="bibr" rid="ref36 ref37">(36, 37)</xref> it was reasonable to
+consider most of the burned sites located on the sides of the CNT
+walls. The water wetting property of the nanotubes was also tuned
+by the surface defects and the oxygen functional groups. <xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>g and h show photographs
+of water droplets (1 &#x3bc;L) on a CNT film and a PCNT film, respectively.
+The CNT film presented hydrophobicity with a large contact angle of
+129&#xb0; at the water/CNT interface. This water wetting behavior
+was effectively tuned after controlled oxidation. As shown in <xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>h, the water droplet
+was perfectly wetting into the PCNT film within a short time, presenting
+high hydrophilicity. The superwetting at the PCNT/water interface
+resulted in an effective dispersion of the tubes in the water-containing
+solvent and allowed the formation of well-dispersed tubes in the composite
+structure. To evaluate the dispersive behavior, CNT and PCNT films
+were prepared by ultrasonicating CNTs and PCNTs in an ethanol/water
+solution followed by drying. Compared to pristine CNTs (<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>i) with large bundles and tube
+aggregation, PCNT films (<xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>j) presented a more condensed structure, alleviated
+aggregations, and improved tube dispersion. The condensed structure
+of PCNTs was also evidenced by its smaller film thickness. For a typical
+film with the same weight of 15 mg and area of 8 cm<sup>2</sup>, the
+PCNT film produced a rather smaller thickness of 41 &#x3bc;m than
+the 64 &#x3bc;m of the pristine CNT film, revealing increased density
+of the PCNT film.</p><fig fig-type="figure" id="fig2" position="float"><label>Figure 2</label><caption><p>Comparison of CNTs and PCNTs. (a) TGA analysis, (b) Raman
+spectra,
+and (c) XRD patterns of CNTs and PCNTs. (d) C 1s XPS spectra of PCNT.
+TEM images of (e) CNTs and (f) PCNTs. Water wetting behavior of (g)
+CNT and (h) PCNT. TEM images of (i) CNT film and (j) PCNT film. (k)
+Mechanical properties and (l) conductivity of CNTs and PCNTs.</p></caption><graphic id="gr2" position="float" xlink:href="nn-2015-06675n_0003.tif"/></fig><p>The mechanical strength of the
+S-PCNT composites also benefited
+from the PCNT network. As shown in <xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>k, the pristine CNT film exhibited a strength
+of 0.46 MPa, while the PCNT film with condensed structure presented
+a greatly enhanced strength of 3.65 MPa. The high mechanical strength
+of PCNTs was attributed to the well-dispersed nanotubes and condensed
+film structure, as revealed in <xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>j. As bundling of tubes in PCNTs was effectively alleviated,
+each tube can be effectively entangled with the neighboring ones to
+effectively bear the external loading, therefore resulting in an interwoven
+film with enhanced strength. Moreover, high electric conductivities
+were also demonstrated in the PCNT film. As illustrated in <xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>l, the PCNT film
+possessed an improved conductivity of 5.80 &#xd7; 10<sup>3</sup> S
+m<sup>&#x2013;1</sup> compared to that of the pristine CNT film (3.50
+&#xd7; 10<sup>3</sup> S m<sup>&#x2013;1</sup>), possibly due to the
+condensed film structure, increased density, and consequently improved
+electronic contact in PCNTs.<xref ref-type="bibr" rid="ref38">(38)</xref> In addition,
+improved conductivity was also found to be related to the chemical
+functionalization in the oxidized CNT electrode.<xref ref-type="bibr" rid="ref39 ref40 ref41">(39-41)</xref> This might
+be another reason for the enhanced conductivity in PCNTs.</p><p>With
+these appealing characteristics, PCNTs were regarded as a
+promising sulfur host to construct binder-free composite cathodes
+with large microstructural homogeneity, enhanced mechanical strength,
+improved electrical conductivity, and excellent electrochemical performances. <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S1</ext-link> shows SEM images of the S-PCNT composites
+with varied sulfur contents of 50, 60, and 70 wt %. Composites with
+50 and 60 wt&#xa0;%&#xa0;S presented similar morphologies to PCNTs,
+with no massive or agglomerated sulfur particles (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S1a and b</ext-link>). When sulfur content was further increased
+to 70 wt %, obvious convex areas formed on the surface (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S1c</ext-link>). The magnified image of one convex
+region (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S1d</ext-link>) suggested intertwined
+PCNTs through the area. Though with no visible sulfur particles, the
+sulfur elemental mapping suggested increased sulfur content within
+the convex area, indicating locally increased sulfur deposition on
+PCNTs. Both the Raman spectra (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S2a</ext-link>) and XRD pattern (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S2b</ext-link>) of the
+S-PCNT showed a combination of PCNTs and sulfur, and the sharp diffraction
+peak at 23.1&#xb0; in the XRD pattern matched well with that of orthorhombic
+sulfur (JCPDS No. 08-0247). TGA analysis of the S-PCNT composites
+(<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S2c</ext-link>) indicated that the sulfur
+contents were 51, 59, and 69 wt % in the S-PCNT (50%), S-PCNT (60%),
+and S-PCNT (70%) composites, respectively, roughly in accordance with
+those in the raw materials.</p><p><xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>a&#x2013;c
+show the TEM images of the S-PCNT composites with elevated sulfur
+contents. No sulfur particles were visible in the S-PCNT (50%) composite
+(<xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>a), while,
+at higher magnification, tubes of PCNTs were found to be covered with
+a thin layer of sulfur (<xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>d), which was also visible in the S-PCNT (60%, 70%) composites
+(<xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>e and f).
+The tube&#x2019;s central area of PCNTs in the S-PCNT composite appeared
+brighter than the tube walls, which indicated the location of sulfur
+in the surface area along the walls of the PCNTs. When the sulfur
+content was increased to approximately 60 wt %, nanoparticles mostly
+with a dimension of 10&#x2013;20 nm were found uniformly distributed
+in the PCNT networks (<xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>b). The high-resolution image of the particle presented an
+interlayer distance of 0.32 nm, consistent with the (040) plane spacing
+of sulfur. Further increase of sulfur content to 70 wt % produced
+more and larger sulfur particles (10&#x2013;50 nm) in the composite
+(<xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>c), and the
+HRTEM image in <xref rid="fig3">Figure <xref ref-type="fig" rid="fig3">3</xref></xref>f suggested that the PCNTs were covered with an even thicker sulfur
+layer.</p><fig fig-type="figure" id="fig3" position="float"><label>Figure 3</label><caption><p>TEM images of (a, d) S-PCNT (50%), (b, e) S-PCNT (60%), and (c,
+f) S-PCNT (70%) composites. The inset of (e) gives the HRTEM images
+of a sulfur particle.</p></caption><graphic id="gr3" position="float" xlink:href="nn-2015-06675n_0004.tif"/></fig><p>High-angle annular dark-field scanning transmission electron
+microscopy
+(HAADF-STEM) and corresponding energy dispersive X-ray (EDX) analysis
+were used to further identify the microstructure of the S-PCNT composites. <xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>a shows bundles of
+PCNTs with no obvious sulfur particles, in which the area within the
+green dashed rectangle was selected and enlarged in <xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>b. The elemental maps of sulfur
+and carbon (<xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>c and d) clearly illustrated their homogeneous distribution in the
+PCNT bundles. EDX line scanning was further conducted on one tube
+in <xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>e. One can
+see that in the direction perpendicular to (green arrow a, <xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>f) and along the
+tube (green arrow b, <xref rid="fig4">Figure <xref ref-type="fig" rid="fig4">4</xref></xref>g), carbon and sulfur presented similar variation trends,
+indicating uniform incorporation of sulfur in the PCNT network. As
+the sulfur content did not increase in the central area of the carbon
+nanotube, sulfur was estimated mostly covering the surface area along
+the side walls of the PCNTs.</p><fig fig-type="figure" id="fig4" position="float"><label>Figure 4</label><caption><p>(a, b, e) HAADF-STEM images of the S-PCNTs.
+(c) Carbon and (d)
+sulfur elemental mapping of (b). Carbon and sulfur elemental linear
+analysis along directions (f) a and (g) b in (e).</p></caption><graphic id="gr4" position="float" xlink:href="nn-2015-06675n_0005.tif"/></fig><p>Nitrogen adsorption/desorption experiments were conducted
+to investigate
+the pore-size characteristics of the CNTs, PCNTs, and S-PCNT composites.
+As shown in <xref rid="fig5">Figure <xref ref-type="fig" rid="fig5">5</xref></xref>a and b, both adsorption curves of pristine CNTs and PCNTs showed
+a gradual increase near the relative pressure (<italic>P</italic>/<italic>P</italic><sub>0</sub>) of 0, which suggested the existence of micropores
+(diameter &lt;2 nm), and a sharp increase near the relative pressure
+of 1.0, which indicated the existence of macropores (diameter &gt;100
+nm).<xref ref-type="bibr" rid="ref35">(35)</xref> Besides, the N<sub>2</sub> adsorption/desorption
+volume of PCNTs was considerably higher than that of CNTs whether
+at low or high pressure, suggesting abundant pores generated after
+oxidation. Distinctive hysteresis was found in the relative pressure
+(<italic>P</italic>/<italic>P</italic><sub>0</sub>) range of 0.4&#x2013;1.0
+in the PCNTs, revealing a mesoporous microstructure. The pore structures
+revealed here agree well with the TEM images in <xref rid="fig2">Figure <xref ref-type="fig" rid="fig2">2</xref></xref>e and f. After oxidation, not only were some
+of the tube tips opened, but also the tube walls were corroded with
+defects, both of which created abundant mesopores on the surface along
+the side walls or on the tube ends in the PCNTs. The created mesopores
+also gave rise to a high surface area of 523.4 m<sup>2</sup>/g in
+the PCNTs, about 2.13 times that in pristine CNTs (245.9 m<sup>2</sup>/g). After sulfur was incorporated into the PCNTs, the hysteresis
+of the isotherms became almost absent (<xref rid="fig5">Figure <xref ref-type="fig" rid="fig5">5</xref></xref>c), with the surface area decreased to 330.4
+m<sup>2</sup>/g. The absence of mesopores and the decease of surface
+area in the S-PCNT composite indicated that the introduced sulfur
+preferred to locate in the open pore structures along the side walls
+in the surface area of the PCNTs. This might be attributed to the
+improved affinity between sulfur and the defects created on the PCNTs.
+The Barrette&#x2013;Joynere&#x2013;Halenda desorption pore size distribution
+is given in <xref rid="fig5">Figure <xref ref-type="fig" rid="fig5">5</xref></xref>d. Pristine CNTs exhibited two mild peaks at 3.46 and 31.75 nm, corresponding
+to the pores between neighboring tubes and among bundles, respectively.
+After heat treatment, a sharp peak was found at the pore diameter
+of 3.54 nm, which arose from the introduced defects on tube walls
+and openings at the tube tips. At the same time, the mild peak suggesting
+an interbundle porosity of 31.75 nm became slightly lower. According
+to the SEM images, this could be attributed to the well-dispersed
+tubes, weakening of aggregation, and consequently densification of
+the PCNT film. Both the peaks at 3.54 nm and the shoulder at 31 nm
+became lower in the S-PCNT (50%) composite, further confirming the
+deposition of sulfur into the created mesopores along the side walls
+in the surface area of the PCNTs. Note that similar isotherms and
+pore size distribution were obtained in S-PCNTs (60%, 70%) (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S3</ext-link>), suggesting that the created mesoporosity
+in PCNTs was almost saturated with a sulfur content of 50 wt %.</p><fig fig-type="figure" id="fig5" position="float"><label>Figure 5</label><caption><p>N<sub>2</sub> adsorption&#x2013;desorption isotherm loops of (a)
+CNTs, (b) PCNTs, and (c) S-PCNTs (50%). (d) Pore size distributions
+of CNTs, PCNTs, and S-PCNTs (50%).</p></caption><graphic id="gr5" position="float" xlink:href="nn-2015-06675n_0006.tif"/></fig><p>Although sulfur incorporation brought a decrease in conductivity
+compared to a pure PCNT film, high conductivities were still achieved
+in the S-PCNT (50%, 60%) composites (4.24 &#xd7; 10<sup>3</sup> and
+3.80 &#xd7; 10<sup>3</sup> S m<sup>&#x2013;1</sup>), as shown in <xref rid="fig6">Figure <xref ref-type="fig" rid="fig6">6</xref></xref>a. The comparable
+conductivities in these two samples were understandable considering
+their microstructures. In S-PCNTs (50%), most sulfur particles located
+within the mesopores on the walls and therefore can be easily intimated
+by the conductive network and exhibit high conductivity. When the
+sulfur content was raised to 60 wt %, excess sulfur particles anchored
+closely on the tube walls without aggregation, ensuring accessibility
+to the PCNT network and resulting in similar conductivity to S-PCNTs
+(50%). However, when the sulfur content further increased to 70 wt
+%, larger sulfur aggregates and convex areas were present in the composite,
+leading to localized poor electron connection and consequently low
+overall conductivity (1.74 &#xd7; 10<sup>3</sup> S m<sup>&#x2013;1</sup>). High mechanical strengths of 2.50, 1.59, and 0.99 MPa were also
+delivered in the S-PCNT (50%, 60%, and 70%) composites (<xref rid="fig6">Figure <xref ref-type="fig" rid="fig6">6</xref></xref>b), about 5.43, 3.46, and 2.15
+times those in pristine CNTs. It is notable that the strength of the
+S-PCNT (50%) composite was also much higher than that of the S-CNT
+(50%) composite reported previously (0.62 MPa),<xref ref-type="bibr" rid="ref30">(30)</xref> indicating the advantage of PCNTs as a mechanical support.
+The high strength of the electrodes was supposed important to avoid
+cracks or voids and maintain the mechanical stability of the electrode
+during cycling. Besides, high flexibility was also demonstrated in
+the S-PCNT composites. As shown in the inset of <xref rid="fig6">Figure <xref ref-type="fig" rid="fig6">6</xref></xref>b, freestanding composites were formed without
+the introduction of any polymeric binders and can be easily buckled
+by tweezers without damage.</p><fig fig-type="figure" id="fig6" position="float"><label>Figure 6</label><caption><p>(a) Conductivity and (b) mechanical properties
+of the S-PCNT composites.
+(c) Rate performance and (d) cycle performance at 0.1C of the S-PCNT
+composites. SEM images of the cycled S-PCNT (60%) electrode (e) before
+and (f) after rinsing with 1,3-dioxolane (DOL). (g) TGA results of
+the cycled S-PCNT composites. The insets of (b) and (e) give photographs
+of the S-PCNT composite before and after cycling, respectively, both
+showing high flexibility. The capacities in (c) and (d) are calculated
+based on the weight of the electrode. The inset of (f) gives the EDX
+results of the cycled electrode after rinsing with DOL.</p></caption><graphic id="gr6" position="float" xlink:href="nn-2015-06675n_0007.tif"/></fig><p>The electrochemical performances were tested by
+directly using
+the S-PCNT composites as electrodes. As no additional binders or conductive
+additives were used, the mass loading of sulfur in the electrodes
+remained the same as that in the S-PCNT composites. <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S4a</ext-link> shows the initial discharge&#x2013;charge profiles
+of the S-PCNT cathodes at 0.2C. On the basis of the weight of sulfur,
+comparable capacities of 1180 and 1163 mAh g<sup>&#x2013;1</sup> were
+obtained in the S-PCNT (50%, 60%) composites respectively, followed
+by a relatively lower capacity of 1034 mAh g<sup>&#x2013;1</sup> in
+S-PCNT (70%). Two discharge plateaus at about 2.3 and 2.0 V were clearly
+found in the S-PCNT (50%, 60%) composites, while in S-PCNT (70%),
+the second plateau became lower than 2.0 V, possibly resulting from
+the high resistance and consequently increased polarization. This
+was also confirmed by the relatively lower charge transfer resistance
+in the electrochemical impedance (EIS) spectra (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S4b</ext-link>) and sharper cathodic peaks in the cyclic voltammeter
+(CV) curves (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S4c</ext-link>) of S-PCNT (50%,
+60%) than S-PCNT (70%). As the cycling rate was increased to 0.4,
+0.6, 0.8, 1, 2 and 5C, the S-PCNT (50%/60%) composites continued to
+deliver larger capacities of 1077/1088, 1023/1018, 950/938, 904/892,
+880/810, and 847/745 mAh g<sup>&#x2013;1</sup> (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S 4d</ext-link>) and higher capacity retention of 91%/94%, 87%/87%,
+81%/81%, 77%/77%, 73%/75%, and 72%/67% compared to that at 0.2C (inset
+of <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S4d</ext-link>). When the C rate decreased
+to 0.2C after 60 cycles, the capacities of the two electrodes recovered
+to 1049 and 1021 mAh g<sup>&#x2013;1</sup>, respectively, indicating
+the good stability of the composite structure. It is notable that
+impressive rate capability was also obtained in the S-PCNT (70%) composite,
+with capacities of 912, 842, 790, 753, 701, and 655 mAh g<sup>&#x2013;1</sup> at 0.4, 0.6, 0.8, 1, 2, and 5 C in sequence. As a contrast, in the
+S-CNT (50%) composite using pristine CNTs as sulfur host, smaller
+capacities and inferior reversibility were delivered. In addition,
+as pristine CNTs cannot be effectively dispersed in ethanol/water
+solution, large sulfur aggregates appeared at higher sulfur loadings
+(&gt;50 wt %), resulting in large microstructural inhomogeneity and
+dramatically
+reduced capacities.<xref ref-type="bibr" rid="ref29">(29)</xref> When considering
+the total weight of the electrode, the advantage of the S-PCNT was
+even more obvious. With the large capacities and high sulfur loading,
+the S-PCNT (60%/70%) composites delivered high capacities of 700/714,
+656/632, 613/579, 571/548, 541/521, 503/485, and 452/427 mAh g<sup>&#x2013;1</sup> based on the weight of the electrode at 0.2, 0.4,
+0.8, 1, 2, and 5C, respectively (<xref rid="fig6">Figure <xref ref-type="fig" rid="fig6">6</xref></xref>c), showing their great potential as high-performance
+cathodes for Li&#x2013;S cells. In comparison, the S-PCNT (50%) composite,
+although having high capacities based on the weight of sulfur, presented
+smaller capacities of 588 (0.2C), 542 (0.4C), 477 (0.8C), 452 (1C),
+439 (2C), and 423 (5C) mAh g<sup>&#x2013;1</sup> based on the weight
+of the electrode due to the smaller sulfur content in the electrode.</p><p>Cycling performances of the S-PCNT composites were tested at a
+slow cycling rate of 0.1C (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S4e</ext-link>).
+Similarly to the rate test, when based on the weight of sulfur, the
+S-PCNT (50%, 60%) composites presented comparable capacities of 1268
+and 1264 mAh g<sup>&#x2013;1</sup> initially, and these values dropped
+to 886 and 866 mAh g<sup>&#x2013;1</sup> after 100 cycles, with capacity
+retention of 69.8% and 68.5%, respectively. Slightly diminished capacities
+of 1109&#x2013;760 mAh g<sup>&#x2013;1</sup> were observed in the
+S-PCNT (70%) composite in 100 cycles, corresponding to capacity retention
+of 68.5%. When considering the total weight of the electrode, the
+largest capacities were obtained in the S-PCNT (60%/70%) composites,
+which delivered capacities of 762&#x2013;526 and 776&#x2013;528 mAh
+g<sup>&#x2013;1</sup> based on the weight of the electrode in 100
+cycles, respectively (<xref rid="fig6">Figure <xref ref-type="fig" rid="fig6">6</xref></xref>d), larger than those in the S-PCNT (50%) composite. All cells
+showed high Coulombic efficiencies around 100%, declaring the uniform
+sulfur distribution and the efficiency of the highly porous PCNT framework
+in retarding the shuttle of polysulfides. The cycling performances
+of the S-PCNT composites also presented large advantages over the
+S-CNT (50%) composite, which can deliver capacities of only 685 mAh
+g<sup>&#x2013;1</sup> based on the weight of sulfur and 342 mAh g<sup>&#x2013;1</sup> based on the weight of the electrode after 100 cycles
+with a low capacity retention of 57.4%. The average sulfur lithiation
+degree and the percentage of active sulfur participating in the electrochemical
+reaction were examined by analyzing the capacity contribution from
+the two discharge plateaus.<xref ref-type="bibr" rid="ref30 ref42">(30, 42)</xref> As shown in the inset
+of <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S4e</ext-link>, both the S-PCNT (50%, 60%)
+composites exhibited a high lithiation degree of about 1.6&#x2013;1.2
+throughout 100 charge/discharge cycles, while the S-PCNT (70%) composite
+exhibited relatively small but acceptable lithiation degrees of around
+1.5&#x2013;1.1. The increased lithiation degree of sulfur was ascribed
+to the highly porous structure and improved sulfur affinity in PCNTs
+that effectively localized sulfur cathode materials and consequently
+alleviated polysulfide dissolution. Moreover, high sulfur utilization
+was achieved in the S-PCNT composites. As plotted in <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S4f</ext-link>, the S-PCNT (50%/60%) composites possess a high
+percentage of active sulfur, <italic>i</italic>.<italic>e</italic>., 87.6/84.2%, 85.6/78.5%, 74.9/81.3%, 74.1/73.2%, 68.7/72.2%, and
+67.2/68.7% in the first, 20th, 40th, 60th, 80th, and 100th cycle,
+respectively. In comparison, the S-PCNT (70%) composite exerted relatively
+low sulfur utilization, possibly due to the large sulfur aggregates
+and small conductivity. Such high sulfur utilization was supposed
+to benefit from the homogeneous distribution of sulfur in the open
+PCNT network, which ensured efficient electronic contact and electrolyte
+access.</p><p>On the basis of <xref rid="fig6">Figure <xref ref-type="fig" rid="fig6">6</xref></xref>c,d and <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S4d,e</ext-link>, one
+can find
+that the largest capacities were obtained in the S-PCNT (60%) composite
+based on both sulfur loading and total electrode weight. The long
+cycling performance of the S-PCNT (60%) cathode was also tested at
+0.5C, with the results concluded in <ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S4g</ext-link>, showing capacities based on both sulfur and overall weight of the
+electrode. High capacities of 1102.0&#x2013;627.9 mAh g<sup>&#x2013;1</sup> based on the weight of sulfur and 608.2&#x2013;379.2 mAh g<sup>&#x2013;1</sup> based on the weight of the electrode were delivered in 400 cycles,
+corresponding to the capacity decay rates of 0.093% per cycle. Notably
+enhanced stability was achieved in the S-PCNT (60%) composite at 0.5C
+compared to that at 0.1C due to the speeded up discharge process,
+which suppressed the loss of polysulfides. The high capacity and capacity
+retention of S-PCNT composites were also comparable to or better than
+the current binder-free and flexible sulfur cathodes for Li&#x2013;S
+batteries with similar sulfur loading.<xref ref-type="bibr" rid="ref18 ref21 ref24">(18, 21, 24)</xref></p><p>A typical photo of the S-PCNT (60%) electrode
+after 100 cycles
+at 0.1C is given in the inset of <xref rid="fig6">Figure <xref ref-type="fig" rid="fig6">6</xref></xref>e, in which the composite film&#x2019;s integrity
+was maintained with high flexibility. The SEM image in <xref rid="fig6">Figure <xref ref-type="fig" rid="fig6">6</xref></xref>e demonstrated coverage of
+large lithium salts (LITFSI and LiNO<sub>3</sub>) on the cycled electrode.
+After rinsing with 1,3-dioxolane (DOL) to dissolve the lithium salts,<xref ref-type="bibr" rid="ref43">(43)</xref> the composite presented a well-maintained microstructure
+(<xref rid="fig6">Figure <xref ref-type="fig" rid="fig6">6</xref></xref>f) similar
+to that before cycling, with no sulfur/Li<sub>2</sub>S<sub>2</sub>/Li<sub>2</sub>S aggregates or mechanical cracks. Flexibility of
+the film also remained after rinsing. Note that a large mechanical
+strength of 3.45 MPa was delivered in the rinsed S-PCNT (60%) electrode
+(<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S4h</ext-link>), which was even higher than
+the strength before cycling (1.59 MPa). This might be attributed to
+the further homogenized sulfur distribution in the composite film
+during the charge&#x2013;discharge process and the residual lithium
+salts in the interior region of the composite film, both of which
+acted as &#x201c;glues&#x201d; to mechanically reinforce the film.
+The EDX analysis shown in the inset of <xref rid="fig6">Figure <xref ref-type="fig" rid="fig6">6</xref></xref>f revealed the existence of elemental sulfur
+in the S-PCNT composite after cycling. The remaining sulfur content
+in the cycled S-PCNT electrodes was estimated through thermogravimetric
+analysis (TGA) measurements (<xref rid="fig6">Figure <xref ref-type="fig" rid="fig6">6</xref></xref>g) of the electrode without rinsing. Three-step weight
+loss in the temperature ranges 150&#x2013;300, 300&#x2013;480, and
+480&#x2013;700 &#xb0;C was observed, roughly corresponding to the
+loss of sulfur, lithium salts (LITFSI), and PCNTs (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S4i</ext-link>) in sequence. The remaining sulfur content was
+calculated as 44, 54, and 58 wt % in the S-PCNT (50%, 60%, and 70%)
+electrodes, respectively. Combined with the percentage of active sulfur
+in the first and 100th cycle (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">Figure S4f</ext-link>), the capacity retention could be calculated as 67%, 71%, and 65%,
+roughly in agreement with those shown in <xref rid="fig6">Figure <xref ref-type="fig" rid="fig6">6</xref></xref>d.</p><p>The superhigh capacities and stable
+electrochemical performance
+of the S-PCNT composites can be explained by various synergistic factors
+in the novel nanostructures. First, improved dispersive behavior and
+alleviated aggregation were achieved in PCNTs <italic>via</italic> controlled oxidation of SACNTs, which led to condensed composite
+structures and increased electronic conductivity. Meanwhile, high
+flexibility and sufficient intertube interaction were maintained in
+PCNTs, allowing the construction of integrated composite structures
+without binders and conductive additives. Second, oxidation in air
+introduced numerous defects in the PCNTs, which provided improved
+sulfur affinity, intimate sulfur&#x2013;PCNT contact, and homogeneous
+sulfur distribution. Therefore, sulfur particles can attach to the
+conductive network easily, resulting in high conductivity in the S-PCNT
+composite. Third, abundant mesopores and a high surface area were
+created in PCNTs after oxidation. The porous structure not only facilitated
+high-loading sulfur to deposit onto or into it but also played important
+roles in adsorbing polysulfide anions, suppressing polysulfide diffusion,
+and minimizing sulfur loss. Fourth, the greatly enhanced mechanical
+strength in the condensed PCNT network also provided mechanical integrity
+and stability to the composites, which additionally contributed to
+the excellent electrochemical stability during cycling. Compared to
+micropores with diameters smaller than 2 nm, the pores in the PCNTs
+were large enough to allow ready access by electrolyte and preserve
+fast lithium ion transport to sulfur. The relatively open pores also
+allowed sulfur to locate into these pores <italic>via</italic> interface
+adsorption through a simple solution-based method.</p></sec><sec id="sec3"><title>Conclusions</title><p>Sulfur&#x2013;mesoporous CNT composites were synthesized by incorporating
+sulfur into a mesoporous PCNT network as cathodes for Li&#x2013;S
+batteries with high sulfur loading and excellent electrochemical performances.
+The PCNTs were fabricated <italic>via</italic> facile and cheap oxidation
+of SACNTs in air and presented improved dipersive behavior, higher
+conductivity, and enhanced mechanical strength. Meanwhile, sufficient
+intertube interaction and high flexibility of SACNTs were preserved
+in PCNTs, which allowed the construction of binder-free and flexible
+electrodes. Moreover, the highly porous structure of PCNTs allowed
+high sulfur loading, suppressed polysulfide dissolution, and minimized
+loss of active sulfur. These appealing characteristics of PCNTs rendered
+the S-PCNT electrodes with high specific capacity, excellent rate
+performance, and long cycle life, exceeding that of S-CNT electrodes.
+The S-PCNT (60%) composite delivered a high initial capacity of 1264
+and 762 mAh g<sup>&#x2013;1</sup> based on the weights of sulfur and
+electrode, respectively. Large reversible capacities were retained
+after 100 cycles at 0.1C, with 866 and 526 mAh g<sup>&#x2013;1</sup> based on the weights of sulfur and electrode, respectively. Even
+with a high sulfur loading of 70 wt %, the S-PCNT composite can maintain
+a capacity of 760 and 528 mAh g<sup>&#x2013;1</sup> based on the weights
+of sulfur and electrode, respectively, after 100 cycles at 0.1C, outperforming
+the current state-of-the-art sulfur cathode. Excellent high-rate capability
+was also delivered by the S-PCNT composites, with capacities of 423,
+452, and 427 mAh g<sup>&#x2013;1</sup> based on the weight of the
+electrode at 5C for sulfur contents of 50, 60, and 70 wt %, respectively,
+revealing their potentials as high-performance carbon&#x2013;sulfur
+composite cathodes. Additionally, the simple procedure in the cathode
+preparation, including the controlled oxidation of CNTs in air and
+the solution-based method to incoporate sulfur, also demonstrated
+the potential of large-scale production of high-sulfur-loading cathodes
+in Li&#x2013;S batteries.</p></sec><sec id="sec4"><title>Materials and Methods</title><sec id="sec4.1"><title>Fabrication
+of CNTs</title><p>SACNT arrays with a diameter of
+20&#x2013;30 nm and a height of 300 &#x3bc;m were synthesized on silicon
+wafers by chemical vapor deposition (CVD), with iron as the catalyst
+and acetylene as the precursor. Details of the synthesis procedure
+can be found in previous papers.<xref ref-type="bibr" rid="ref36 ref37">(36, 37)</xref></p></sec><sec id="sec4.2"><title>Fabrication
+of PCNTs</title><p>SACNTs were heated at a rate of
+15 &#xb0;C/min to 550 &#xb0;C in air and kept at that temperature
+for 30 min. When they were cooled to 500 &#xb0;C, the calcined SACNTs
+were taken out of the furnace and rapidly cooled to room temperature
+to obtain PCNTs with mesoporosity. During the heat treatment, a weight
+loss of around 10 wt % was present, indicating a reaction between
+CNTs and air.</p></sec><sec id="sec4.3"><title>Fabrication of S-PCNT Composites</title><p>The S-PCNT composite
+was prepared <italic>via</italic> a facile solution-based method reported
+previously.<xref ref-type="bibr" rid="ref30">(30)</xref> Sulfur powder (Beijing Dk
+Nano Technology Co., Ltd.) and PCNTs were simultaneously suspended
+in a water/ethanol mixed solution. The mixture was intensively ultrasonicated
+using an ultrasonication probe (1000 W) for 30 min to form a uniform
+suspension. The resulting mixture was then dried at 50 &#xb0;C to
+remove the solvent, and a binder-free and flexible S-PCNT nanocomposite
+was detached from the container. S-PCNT composites with sulfur loadings
+of 50, 60, and 70 wt % in the raw materials were prepared, marked
+as S-PCNT (50%), S-PCNT (60%), and S-PCNT (70%), respectively.</p></sec><sec id="sec4.4"><title>Material
+Analysis</title><p>X-ray diffraction (XRD) patterns
+were characterized using a diffractometer (Rigaku, Cu K&#x3b1; radiation).
+Raman spectra were recorded on a Horiba spectrometer (514 nm Ar laser,
+24 mW). Thermogravimetric analysis was conducted on a Pyris 1 TGA
+(PerkinElmer, USA) at a heating rate of 5 &#xb0;C min<sup>&#x2013;1</sup> in air from 25 to 500 &#xb0;C. XPS analysis was carried out on a
+PHI Quantera II (XPS) surface analysis equipment. C 1s XPS spectra
+was deconvoluted into Gaussian&#x2013;Lorentzian-type peaks after
+applying a Shirley background. The contact angles and surface contact
+areas of the water droplets on the CNT and PCNT films were measured
+using an optical microscope. The sheet resistances of the S-PCNT composites
+were measured by a four-point method using a ResMap system (Creative
+Design Engineering Inc., USA). Tensile tests were performed using
+an Instron 5848 microtester with a strain rate of 1% min<sup>&#x2013;1</sup> and a 1 cm gauge length. The microstructure and elemental analysis
+were characterized by a scanning electron microscope (Sirion 200,
+FEI) and a transmission electron microscope (Tecnai G2F20, FEI). The
+Brunauere&#x2013;Emmette&#x2013;Teller measurements were performed
+on a surface area and porosity analyzer (ASAP 2020).</p></sec><sec id="sec4.5"><title>Electrochemical
+Measurement</title><p>Coin-type half-cells were
+assembled in a glovebox filled with protective argon gas (M. Braun
+Inert Gas Systems Co. Ltd., Germany) with the S-PCNT composites as
+the working electrodes and pure lithium foil as the reference electrode.
+A polypropylene film (Celgard 2400) was used to separate the cathode
+and the anode. A 1 mol L<sup>&#x2013;1</sup> concentration of lithium
+bis(trifluoromethanesulfonyl)imide (LITFSI) and 0.2 mol L<sup>&#x2013;1</sup> LiNO<sub>3</sub> in dimethyl ether and 1,3-dioxolane with a volume
+ratio of 1:1 were used as the electrolyte. The cycling tests were
+made on a Land battery test system (Wuhan Land Electronic Co., China)
+at 1.8&#x2013;2.6 V at different charge/discharge rates. The rate
+tests were performed by charging the electrode at varied charge rates
+while discharging at a constant rate of 0.2C. The electrochemical
+impedance spectroscopy and cyclic voltammetry measurements were performed
+on a potentiostat/galvanostat (EG&amp;G Princeton Applied Research
+273A).</p></sec></sec></body><back><notes id="notes-1" notes-type="si">
+<title><inline-supplementary-material xlink:href="/doi/suppl/10.1021/acsnano.5b06675">Supporting Information</inline-supplementary-material></title><p>The Supporting Information
+is available free of charge on the <ext-link xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at DOI: <ext-link xlink:href="http://pubs.acs.org/doi/abs/10.1021/acsnano.5b06675">10.1021/acsnano.5b06675</ext-link>.<list id="silist" list-type="label"><list-item><p>SEM images, Raman
+spectra, XRD patterns, TGA analysis,
+N<sub>2</sub> adsorption&#x2013;desorption isotherm loops, pore size
+distributions, and electrochemical performances of the S-PCNT composites
+with varied sulfur loadings (<ext-link xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.5b06675/suppl_file/nn5b06675_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><notes id="NOTES-d39e1039-autogenerated" notes-type="conflict-of-interest"><p>The authors declare no
+competing financial interest.</p></notes><ack id="ACK-d39e1017-autogenerated"><title>Acknowledgment</title><p>This work was supported
+by the National Basic Research Program
+of China (2012CB932301), the NSFC (51102146 and 51472141), and the
+Fundamental Research Funds for the Central Universities (2652015425).</p></ack><ref-list><title>References</title><ref id="ref1"><label>1. </label><citation citation-type="journal" id="cit1"><name><surname>Chen</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Shaw</surname><x>, </x><given-names>L. L.</given-names></name><article-title>Recent Advances
+in Lithium-Sulfur Batteries</article-title><source>J. Power Sources</source><x> </x><year>2014</year><x>, </x><volume>267</volume><x>, </x><fpage>770</fpage><x>&ndash;</x><lpage>783</lpage><pub-id pub-id-type="doi">10.1016/j.jpowsour.2014.05.111</pub-id></citation></ref><ref id="ref2"><label>2. </label><citation citation-type="journal" id="cit2"><name><surname>Yin</surname><x>, </x><given-names>Y. X.</given-names></name><x>; </x><name><surname>Xin</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Guo</surname><x>, </x><given-names>Y. G.</given-names></name><x>; </x><name><surname>Wan</surname><x>, </x><given-names>L. J.</given-names></name><article-title>Lithium-Sulfur Batteries: Electrochemistry,
+Materials, and Prospects</article-title><source>Angew. Chem., Int.
+Ed.</source><x> </x><year>2013</year><x>, </x><volume>52</volume><x>, </x><fpage>13186</fpage><x>&ndash;</x><lpage>13200</lpage><pub-id pub-id-type="doi">10.1002/anie.201304762</pub-id></citation></ref><ref id="ref3"><label>3. </label><citation citation-type="journal" id="cit3"><name><surname>Wang</surname><x>, </x><given-names>D. W.</given-names></name><x>; </x><name><surname>Zeng</surname><x>, </x><given-names>Q. C.</given-names></name><x>; </x><name><surname>Zhou</surname><x>, </x><given-names>G. M.</given-names></name><x>; </x><name><surname>Yin</surname><x>, </x><given-names>L. C.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Cheng</surname><x>, </x><given-names>H. M.</given-names></name><x>; </x><name><surname>Gentle</surname><x>, </x><given-names>I. R.</given-names></name><x>; </x><name><surname>Lu</surname><x>, </x><given-names>G. Q. M.</given-names></name><article-title>Carbon-Sulfur
+Composites for Li-S Batteries: Status and Prospects</article-title><source>J. Mater. Chem. A</source><x> </x><year>2013</year><x>, </x><volume>1</volume><x>, </x><fpage>9382</fpage><x>&ndash;</x><lpage>9394</lpage><pub-id pub-id-type="doi">10.1039/c3ta11045a</pub-id></citation></ref><ref id="ref4"><label>4. </label><citation citation-type="journal" id="cit4"><name><surname>Choi</surname><x>, </x><given-names>N. S.</given-names></name><x>; </x><name><surname>Chen</surname><x>, </x><given-names>Z. H.</given-names></name><x>; </x><name><surname>Freunberger</surname><x>, </x><given-names>S. A.</given-names></name><x>; </x><name><surname>Ji</surname><x>, </x><given-names>X. L.</given-names></name><x>; </x><name><surname>Sun</surname><x>, </x><given-names>Y. K.</given-names></name><x>; </x><name><surname>Amine</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Yushin</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Nazar</surname><x>, </x><given-names>L. F.</given-names></name><x>; </x><name><surname>Cho</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Bruce</surname><x>, </x><given-names>P. G.</given-names></name><article-title>Challenges Facing Lithium Batteries and Electrical
+Double-Layer Capacitors</article-title><source>Angew. Chem., Int.
+Ed.</source><x> </x><year>2012</year><x>, </x><volume>51</volume><x>, </x><fpage>9994</fpage><x>&ndash;</x><lpage>10024</lpage><pub-id pub-id-type="doi">10.1002/anie.201201429</pub-id></citation></ref><ref id="ref5"><label>5. </label><citation citation-type="journal" id="cit5"><name><surname>Fu</surname><x>, </x><given-names>Y. Z.</given-names></name><x>; </x><name><surname>Manthiram</surname><x>, </x><given-names>A.</given-names></name><article-title>Enhanced Cyclability
+of Lithium-Sulfur Batteries by
+a Polymer Acid-Doped Polypyrrole Mixed Ionic-Electronic Conductor</article-title><source>Chem. Mater.</source><x> </x><year>2012</year><x>, </x><volume>24</volume><x>, </x><fpage>3081</fpage><x>&ndash;</x><lpage>3087</lpage><pub-id pub-id-type="doi">10.1021/cm301661y</pub-id></citation></ref><ref id="ref6"><label>6. </label><citation citation-type="journal" id="cit6"><name><surname>Cheon</surname><x>, </x><given-names>S. E.</given-names></name><x>; </x><name><surname>Ko</surname><x>, </x><given-names>K. S.</given-names></name><x>; </x><name><surname>Cho</surname><x>, </x><given-names>J. H.</given-names></name><x>; </x><name><surname>Kim</surname><x>, </x><given-names>S. W.</given-names></name><x>; </x><name><surname>Chin</surname><x>, </x><given-names>E. Y.</given-names></name><x>; </x><name><surname>Kim</surname><x>, </x><given-names>H. T.</given-names></name><article-title>Rechargeable Lithium Sulfur Battery - II. Rate Capability
+and Cycle Characteristics</article-title><source>J. Electrochem. Soc.</source><x> </x><year>2003</year><x>, </x><volume>150</volume><x>, </x><fpage>A800</fpage><x>&ndash;</x><lpage>A805</lpage><pub-id pub-id-type="doi">10.1149/1.1571533</pub-id></citation></ref><ref id="ref7"><label>7. </label><citation citation-type="journal" id="cit7"><name><surname>Song</surname><x>, </x><given-names>J. X.</given-names></name><x>; </x><name><surname>Xu</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Gordin</surname><x>, </x><given-names>M. L.</given-names></name><x>; </x><name><surname>Zhu</surname><x>, </x><given-names>P. Y.</given-names></name><x>; </x><name><surname>Lv</surname><x>, </x><given-names>D. P.</given-names></name><x>; </x><name><surname>Jiang</surname><x>, </x><given-names>Y. B.</given-names></name><x>; </x><name><surname>Chen</surname><x>, </x><given-names>Y. S.</given-names></name><x>; </x><name><surname>Duan</surname><x>, </x><given-names>Y. H.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>D. H.</given-names></name><article-title>Nitrogen-Doped Mesoporous
+Carbon Promoted Chemical Adsorption of Sulfur and Fabrication of High-Areal-Capacity
+Sulfur Cathode With Exceptional Cycling Stability for Lithium- Sulfur
+Batteries</article-title><source>Adv. Funct. Mater.</source><x> </x><year>2014</year><x>, </x><volume>24</volume><x>, </x><fpage>1243</fpage><x>&ndash;</x><lpage>1250</lpage><pub-id pub-id-type="doi">10.1002/adfm.201302631</pub-id></citation></ref><ref id="ref8"><label>8. </label><citation citation-type="journal" id="cit8"><name><surname>Hu</surname><x>, </x><given-names>L. B.</given-names></name><x>; </x><name><surname>La Mantia</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Wu</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Xie</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>McDonough</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Pasta</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Cui</surname><x>, </x><given-names>Y.</given-names></name><article-title>Lithium-Ion
+Textile Batteries with
+Large Areal Mass Loading</article-title><source>Adv. Energy Mater.</source><x> </x><year>2011</year><x>, </x><volume>1</volume><x>, </x><fpage>1012</fpage><x>&ndash;</x><lpage>1017</lpage><pub-id pub-id-type="doi">10.1002/aenm.201100261</pub-id></citation></ref><ref id="ref9"><label>9. </label><citation citation-type="journal" id="cit9"><name><surname>Whittingham</surname><x>, </x><given-names>M. S.</given-names></name><article-title>Lithium
+Batteries and Cathode Materials</article-title><source>Chem. Rev.</source><x> </x><year>2004</year><x>, </x><volume>104</volume><x>, </x><fpage>4271</fpage><x>&ndash;</x><lpage>4301</lpage><pub-id pub-id-type="doi">10.1021/cr020731c</pub-id></citation></ref><ref id="ref10"><label>10. </label><citation citation-type="journal" id="cit10"><name><surname>Aurbach</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Markovsky</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Rodkin</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Cojocaru</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Levi</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Kim</surname><x>, </x><given-names>H. J.</given-names></name><article-title>An Analysis
+of Rechargeable Lithium-Ion Batteries after
+Prolonged Cycling</article-title><source>Electrochim. Acta</source><x> </x><year>2002</year><x>, </x><volume>47</volume><x>, </x><fpage>1899</fpage><x>&ndash;</x><lpage>1911</lpage><pub-id pub-id-type="doi">10.1016/S0013-4686(02)00013-0</pub-id></citation></ref><ref id="ref11"><label>11. </label><citation citation-type="journal" id="cit11"><name><surname>Ji</surname><x>, </x><given-names>X. L.</given-names></name><x>; </x><name><surname>Lee</surname><x>, </x><given-names>K. T.</given-names></name><x>; </x><name><surname>Nazar</surname><x>, </x><given-names>L. F.</given-names></name><article-title>A Highly
+Ordered Nanostructured Carbon-Sulphur
+Cathode for Lithium-Sulphur Batteries</article-title><source>Nat.
+Mater.</source><x> </x><year>2009</year><x>, </x><volume>8</volume><x>, </x><fpage>500</fpage><x>&ndash;</x><lpage>506</lpage><pub-id pub-id-type="doi">10.1038/nmat2460</pub-id></citation></ref><ref id="ref12"><label>12. </label><citation citation-type="journal" id="cit12"><name><surname>Li</surname><x>, </x><given-names>Z.</given-names></name><x>; </x><name><surname>Yuan</surname><x>, </x><given-names>L. X.</given-names></name><x>; </x><name><surname>Yi</surname><x>, </x><given-names>Z. Q.</given-names></name><x>; </x><name><surname>Sun</surname><x>, </x><given-names>Y. M.</given-names></name><x>; </x><name><surname>Liu</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Jiang</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Shen</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Xin</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>Z. L.</given-names></name><x>; </x><name><surname>Huang</surname><x>, </x><given-names>Y. H.</given-names></name><article-title>Insight into the Electrode Mechanism
+in Lithium-Sulfur
+Batteries with Ordered Microporous Carbon Confined Sulfur As the Cathode</article-title><source>Adv. Energy Mater.</source><x> </x><year>2014</year><x>, </x><volume>4</volume><x>, </x><fpage>1301473</fpage><pub-id pub-id-type="doi">10.1002/aenm.201301473</pub-id></citation></ref><ref id="ref13"><label>13. </label><citation citation-type="journal" id="cit13"><name><surname>Ji</surname><x>, </x><given-names>L. W.</given-names></name><x>; </x><name><surname>Rao</surname><x>, </x><given-names>M. M.</given-names></name><x>; </x><name><surname>Zheng</surname><x>, </x><given-names>H. M.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>Y. C.</given-names></name><x>; </x><name><surname>Duan</surname><x>, </x><given-names>W. H.</given-names></name><x>; </x><name><surname>Guo</surname><x>, </x><given-names>J. H.</given-names></name><x>; </x><name><surname>Cairns</surname><x>, </x><given-names>E. J.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>Y. G.</given-names></name><article-title>Graphene
+Oxide As a Sulfur Immobilizer in High Performance Lithium/Sulfur Cells</article-title><source>J. Am. Chem. Soc.</source><x> </x><year>2011</year><x>, </x><volume>133</volume><x>, </x><fpage>18522</fpage><x>&ndash;</x><lpage>18525</lpage><pub-id pub-id-type="doi">10.1021/ja206955k</pub-id></citation></ref><ref id="ref14"><label>14. </label><citation citation-type="journal" id="cit14"><name><surname>Yang</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Huang</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Chen</surname><x>, </x><given-names>Y. S.</given-names></name><article-title>Sulfur-Infiltrated
+Graphene-Based Layered Porous Carbon Cathodes for High-Performance
+Lithium-Sulfur Batteries</article-title><source>ACS Nano</source><x> </x><year>2014</year><x>, </x><volume>8</volume><x>, </x><fpage>5208</fpage><x>&ndash;</x><lpage>5215</lpage><pub-id pub-id-type="doi">10.1021/nn501284q</pub-id></citation></ref><ref id="ref15"><label>15. </label><citation citation-type="journal" id="cit15"><name><surname>Ji</surname><x>, </x><given-names>L. W.</given-names></name><x>; </x><name><surname>Rao</surname><x>, </x><given-names>M. M.</given-names></name><x>; </x><name><surname>Aloni</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Cairns</surname><x>, </x><given-names>E. J.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>Y. G.</given-names></name><article-title>Porous Carbon Nanofiber-Sulfur
+Composite Electrodes
+for Lithium/Sulfur Cells</article-title><source>Energy Environ. Sci.</source><x> </x><year>2011</year><x>, </x><volume>4</volume><x>, </x><fpage>5053</fpage><x>&ndash;</x><lpage>5059</lpage><pub-id pub-id-type="doi">10.1039/c1ee02256c</pub-id></citation></ref><ref id="ref16"><label>16. </label><citation citation-type="journal" id="cit16"><name><surname>Rao</surname><x>, </x><given-names>M. M.</given-names></name><x>; </x><name><surname>Song</surname><x>, </x><given-names>X. Y.</given-names></name><x>; </x><name><surname>Cairns</surname><x>, </x><given-names>E. J.</given-names></name><article-title>Nano-Carbon/Sulfur
+Composite Cathode
+Materials with Carbon Nanofiber as Electrical Conductor for Advanced
+Secondary Lithium/Sulfur Cells</article-title><source>J. Power Sources</source><x> </x><year>2012</year><x>, </x><volume>205</volume><x>, </x><fpage>474</fpage><x>&ndash;</x><lpage>478</lpage><pub-id pub-id-type="doi">10.1016/j.jpowsour.2012.01.047</pub-id></citation></ref><ref id="ref17"><label>17. </label><citation citation-type="journal" id="cit17"><name><surname>Song</surname><x>, </x><given-names>M. K.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>Y. G.</given-names></name><x>; </x><name><surname>Cairns</surname><x>, </x><given-names>E. J.</given-names></name><article-title>A Long-Life,
+High-Rate Lithium/Sulfur
+Cell: A Multifaceted Approach to Enhancing Cell Performance</article-title><source>Nano Lett.</source><x> </x><year>2013</year><x>, </x><volume>13</volume><x>, </x><fpage>5891</fpage><x>&ndash;</x><lpage>5899</lpage><pub-id pub-id-type="doi">10.1021/nl402793z</pub-id></citation></ref><ref id="ref18"><label>18. </label><citation citation-type="journal" id="cit18"><name><surname>Zhou</surname><x>, </x><given-names>G. M.</given-names></name><x>; </x><name><surname>Zhao</surname><x>, </x><given-names>Y. B.</given-names></name><x>; </x><name><surname>Manthiram</surname><x>, </x><given-names>A.</given-names></name><article-title>Dual-Confined Flexible Sulfur Cathodes
+Encapsulated in Nitrogen-Doped Double-Shelled Hollow Carbon Spheres
+and Wrapped with Graphene for Li-S Batteries</article-title><source>Adv. Energy Mater.</source><x> </x><year>2015</year><x>, </x><volume>5</volume><x>, </x><fpage>1402263</fpage><pub-id pub-id-type="doi">10.1002/aenm.201402263</pub-id></citation></ref><ref id="ref19"><label>19. </label><citation citation-type="journal" id="cit19"><name><surname>Manthiram</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Fu</surname><x>, </x><given-names>Y. Z.</given-names></name><x>; </x><name><surname>Chung</surname><x>, </x><given-names>S. H.</given-names></name><x>; </x><name><surname>Zu</surname><x>, </x><given-names>C. X.</given-names></name><x>; </x><name><surname>Su</surname><x>, </x><given-names>Y. S.</given-names></name><article-title>Rechargeable
+Lithium-Sulfur Batteries</article-title><source>Chem. Rev.</source><x> </x><year>2014</year><x>, </x><volume>114</volume><x>, </x><fpage>11751</fpage><x>&ndash;</x><lpage>11787</lpage><pub-id pub-id-type="doi">10.1021/cr500062v</pub-id></citation></ref><ref id="ref20"><label>20. </label><citation citation-type="journal" id="cit20"><name><surname>Elazari</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Salitra</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Garsuch</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Panchenko</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Aurbach</surname><x>, </x><given-names>D.</given-names></name><article-title>Sulfur-Impregnated Activated Carbon
+Fiber Cloth as
+a Binder-Free Cathode for Rechargeable Li-S Batteries</article-title><source>Adv. Mater.</source><x> </x><year>2011</year><x>, </x><volume>23</volume><x>, </x><fpage>5641</fpage><x>&ndash;</x><lpage>5644</lpage><pub-id pub-id-type="doi">10.1002/adma.201103274</pub-id></citation></ref><ref id="ref21"><label>21. </label><citation citation-type="journal" id="cit21"><name><surname>Dorfler</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Hagen</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Althues</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Tubke</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Kaskel</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Hoffmann</surname><x>, </x><given-names>M. J.</given-names></name><article-title>High Capacity Vertical Aligned Carbon Nanotube/Sulfur
+Composite Cathodes for Lithium-Sulfur Batteries</article-title><source>Chem. Commun.</source><x> </x><year>2012</year><x>, </x><volume>48</volume><x>, </x><fpage>4097</fpage><x>&ndash;</x><lpage>4099</lpage><pub-id pub-id-type="doi">10.1039/c2cc17925c</pub-id></citation></ref><ref id="ref22"><label>22. </label><citation citation-type="journal" id="cit22"><name><surname>Huang</surname><x>, </x><given-names>J. Q.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>Q.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>S. M.</given-names></name><x>; </x><name><surname>Liu</surname><x>, </x><given-names>X. F.</given-names></name><x>; </x><name><surname>Zhu</surname><x>, </x><given-names>W. C.</given-names></name><x>; </x><name><surname>Qian</surname><x>, </x><given-names>W. Z.</given-names></name><x>; </x><name><surname>Wei</surname><x>, </x><given-names>F.</given-names></name><article-title>Aligned Sulfur-Coated Carbon Nanotubes
+with a Polyethylene Glycol Barrier at One End for Use As A High Efficiency
+Sulfur Cathode</article-title><source>Carbon</source><x> </x><year>2013</year><x>, </x><volume>58</volume><x>, </x><fpage>99</fpage><x>&ndash;</x><lpage>106</lpage><pub-id pub-id-type="doi">10.1016/j.carbon.2013.02.037</pub-id></citation></ref><ref id="ref23"><label>23. </label><citation citation-type="journal" id="cit23"><name><surname>Jin</surname><x>, </x><given-names>K. K.</given-names></name><x>; </x><name><surname>Zhou</surname><x>, </x><given-names>X. F.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>L. Z.</given-names></name><x>; </x><name><surname>Xin</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Wan</surname><x>, </x><given-names>G. H.</given-names></name><x>; </x><name><surname>Liu</surname><x>, </x><given-names>Z. P.</given-names></name><article-title>Sulfur/Carbon Nanotube Composite
+Film As a Flexible
+Cathode for Lithium-Sulfur Batteries</article-title><source>J. Phys.
+Chem. C</source><x> </x><year>2013</year><x>, </x><volume>117</volume><x>, </x><fpage>21112</fpage><x>&ndash;</x><lpage>21119</lpage><pub-id pub-id-type="doi">10.1021/jp406757w</pub-id></citation></ref><ref id="ref24"><label>24. </label><citation citation-type="journal" id="cit24"><name><surname>Su</surname><x>, </x><given-names>Y. S.</given-names></name><x>; </x><name><surname>Fu</surname><x>, </x><given-names>Y. Z.</given-names></name><x>; </x><name><surname>Manthiram</surname><x>, </x><given-names>A.</given-names></name><article-title>Self-Weaving
+Sulfur-Carbon Composite
+Cathodes for High Rate Lithium-Sulfur Batteries</article-title><source>Phys. Chem. Chem. Phys.</source><x> </x><year>2012</year><x>, </x><volume>14</volume><x>, </x><fpage>14495</fpage><x>&ndash;</x><lpage>14499</lpage><pub-id pub-id-type="doi">10.1039/c2cp42796f</pub-id></citation></ref><ref id="ref25"><label>25. </label><citation citation-type="journal" id="cit25"><name><surname>Xi</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Kidambi</surname><x>, </x><given-names>P. R.</given-names></name><x>; </x><name><surname>Chen</surname><x>, </x><given-names>R. J.</given-names></name><x>; </x><name><surname>Gao</surname><x>, </x><given-names>C. L.</given-names></name><x>; </x><name><surname>Peng</surname><x>, </x><given-names>X. Y.</given-names></name><x>; </x><name><surname>Ducati</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Hofmann</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Kumar</surname><x>, </x><given-names>R. V.</given-names></name><article-title>Binder Free Three-Dimensional
+Sulphur/Few-Layer Graphene Foam Cathode with Enhanced High-Rate Capability
+for Rechargeable Lithium Sulphur Batteries</article-title><source>Nanoscale</source><x> </x><year>2014</year><x>, </x><volume>6</volume><x>, </x><fpage>5746</fpage><x>&ndash;</x><lpage>5753</lpage><pub-id pub-id-type="doi">10.1039/c4nr00326h</pub-id></citation></ref><ref id="ref26"><label>26. </label><citation citation-type="journal" id="cit26"><name><surname>Wu</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>J. P.</given-names></name><x>; </x><name><surname>Jiang</surname><x>, </x><given-names>K. L.</given-names></name><x>; </x><name><surname>Fan</surname><x>, </x><given-names>S. S.</given-names></name><article-title>Applications of
+Carbon Nanotubes in High Performance Lithium Ion Batteries</article-title><source>Front Phys-Beijing</source><x> </x><year>2014</year><x>, </x><volume>9</volume><x>, </x><fpage>351</fpage><x>&ndash;</x><lpage>369</lpage><pub-id pub-id-type="doi">10.1007/s11467-013-0308-x</pub-id></citation></ref><ref id="ref27"><label>27. </label><citation citation-type="journal" id="cit27"><name><surname>He</surname><x>, </x><given-names>X. F.</given-names></name><x>; </x><name><surname>Wu</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Zhao</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>J. P.</given-names></name><x>; </x><name><surname>Jiang</surname><x>, </x><given-names>K. L.</given-names></name><x>; </x><name><surname>Fan</surname><x>, </x><given-names>S. S.</given-names></name><article-title>Enhanced
+Rate Capabilities of Co3O4/Carbon Nanotube Anodes for Lithium Ion
+Battery Applications</article-title><source>J. Mater. Chem. A</source><x> </x><year>2013</year><x>, </x><volume>1</volume><x>, </x><fpage>11121</fpage><x>&ndash;</x><lpage>11125</lpage><pub-id pub-id-type="doi">10.1039/c3ta12608k</pub-id></citation></ref><ref id="ref28"><label>28. </label><citation citation-type="journal" id="cit28"><name><surname>Luo</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>J. P.</given-names></name><x>; </x><name><surname>Jiang</surname><x>, </x><given-names>K. L.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>Q. Q.</given-names></name><x>; </x><name><surname>Fan</surname><x>, </x><given-names>S. S.</given-names></name><article-title>Binder-Free LiCoO2/Carbon
+Nanotube Cathodes for High-Performance
+Lithium Ion Batteries</article-title><source>Adv. Mater.</source><x> </x><year>2012</year><x>, </x><volume>24</volume><x>, </x><fpage>2294</fpage><x>&ndash;</x><lpage>2298</lpage><pub-id pub-id-type="doi">10.1002/adma.201104720</pub-id></citation></ref><ref id="ref29"><label>29. </label><citation citation-type="journal" id="cit29"><name><surname>Sun</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>M. Y.</given-names></name><x>; </x><name><surname>Jiang</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Kong</surname><x>, </x><given-names>W. B.</given-names></name><x>; </x><name><surname>Jiang</surname><x>, </x><given-names>K. L.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>J. P.</given-names></name><x>; </x><name><surname>Fan</surname><x>, </x><given-names>S. S.</given-names></name><article-title>Sulfur
+Nanocrystals Confined in Carbon
+Nanotube Network As a Binder-Free Electrode for High-Performance Lithium
+Sulfur Batteries</article-title><source>Nano Lett.</source><x> </x><year>2014</year><x>, </x><volume>14</volume><x>, </x><fpage>4044</fpage><x>&ndash;</x><lpage>4049</lpage><pub-id pub-id-type="doi">10.1021/nl501486n</pub-id></citation></ref><ref id="ref30"><label>30. </label><citation citation-type="journal" id="cit30"><name><surname>Sun</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Kong</surname><x>, </x><given-names>W. B.</given-names></name><x>; </x><name><surname>Jiang</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Wu</surname><x>, </x><given-names>H. C.</given-names></name><x>; </x><name><surname>Jiang</surname><x>, </x><given-names>K. L.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>J. P.</given-names></name><x>; </x><name><surname>Fan</surname><x>, </x><given-names>S. S.</given-names></name><article-title>Super-Aligned
+Carbon Nanotube/Graphene
+Hybrid Materials As A Framework for Sulfur Cathodes in High Performance
+Lithium Sulfur Batteries</article-title><source>J. Mater. Chem. A</source><x> </x><year>2015</year><x>, </x><volume>3</volume><x>, </x><fpage>5305</fpage><x>&ndash;</x><lpage>5312</lpage><pub-id pub-id-type="doi">10.1039/C4TA06255H</pub-id></citation></ref><ref id="ref31"><label>31. </label><citation citation-type="journal" id="cit31"><name><surname>Balasubramanian</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Burghard</surname><x>, </x><given-names>M.</given-names></name><article-title>Chemically Functionalized
+Carbon Nanotubes</article-title><source>Small</source><x> </x><year>2005</year><x>, </x><volume>1</volume><x>, </x><fpage>180</fpage><x>&ndash;</x><lpage>192</lpage><pub-id pub-id-type="doi">10.1002/smll.200400118</pub-id></citation></ref><ref id="ref32"><label>32. </label><citation citation-type="journal" id="cit32"><name><surname>Datsyuk</surname><x>, </x><given-names>V.</given-names></name><x>; </x><name><surname>Kalyva</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Papagelis</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Parthenios</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Tasis</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Siokou</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Kallitsis</surname><x>, </x><given-names>I.</given-names></name><x>; </x><name><surname>Galiotis</surname><x>, </x><given-names>C.</given-names></name><article-title>Chemical Oxidation of Multiwalled Carbon Nanotubes</article-title><source>Carbon</source><x> </x><year>2008</year><x>, </x><volume>46</volume><x>, </x><fpage>833</fpage><x>&ndash;</x><lpage>840</lpage><pub-id pub-id-type="doi">10.1016/j.carbon.2008.02.012</pub-id></citation></ref><ref id="ref33"><label>33. </label><citation citation-type="journal" id="cit33"><name><surname>Li</surname><x>, </x><given-names>M. Y.</given-names></name><x>; </x><name><surname>Wu</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Zhao</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Wei</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>J. P.</given-names></name><x>; </x><name><surname>Jiang</surname><x>, </x><given-names>K. L.</given-names></name><x>; </x><name><surname>Fan</surname><x>, </x><given-names>S. S.</given-names></name><article-title>Cycle and Rate Performance
+of Chemically Modified Super-Aligned
+Carbon Nanotube Electrodes for Lithium Ion Batteries</article-title><source>Carbon</source><x> </x><year>2014</year><x>, </x><volume>69</volume><x>, </x><fpage>444</fpage><x>&ndash;</x><lpage>451</lpage><pub-id pub-id-type="doi">10.1016/j.carbon.2013.12.047</pub-id></citation></ref><ref id="ref34"><label>34. </label><citation citation-type="journal" id="cit34"><name><surname>Zhang</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Zou</surname><x>, </x><given-names>H. L.</given-names></name><x>; </x><name><surname>Qing</surname><x>, </x><given-names>Q.</given-names></name><x>; </x><name><surname>Yang</surname><x>, </x><given-names>Y. L.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>Q. W.</given-names></name><x>; </x><name><surname>Liu</surname><x>, </x><given-names>Z. F.</given-names></name><x>; </x><name><surname>Guo</surname><x>, </x><given-names>X. Y.</given-names></name><x>; </x><name><surname>Du</surname><x>, </x><given-names>Z. L.</given-names></name><article-title>Effect
+of Chemical
+Oxidation on the Structure of Single-Walled Carbon Nanotubes</article-title><source>J. Phys. Chem. B</source><x> </x><year>2003</year><x>, </x><volume>107</volume><x>, </x><fpage>3712</fpage><x>&ndash;</x><lpage>3718</lpage><pub-id pub-id-type="doi">10.1021/jp027500u</pub-id></citation></ref><ref id="ref35"><label>35. </label><citation citation-type="journal" id="cit35"><name><surname>Niu</surname><x>, </x><given-names>J. J.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>J. N.</given-names></name><x>; </x><name><surname>Jiang</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Su</surname><x>, </x><given-names>L. F.</given-names></name><x>; </x><name><surname>Ma</surname><x>, </x><given-names>J.</given-names></name><article-title>An Approach
+to Carbon Nanotubes with High Surface Area and Large Pore Volume</article-title><source>Microporous Mesoporous Mater.</source><x> </x><year>2007</year><x>, </x><volume>100</volume><x>, </x><fpage>1</fpage><x>&ndash;</x><lpage>5</lpage><pub-id pub-id-type="doi">10.1016/j.micromeso.2006.10.009</pub-id></citation></ref><ref id="ref36"><label>36. </label><citation citation-type="journal" id="cit36"><name><surname>Jiang</surname><x>, </x><given-names>K. L.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>J. P.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>Q. Q.</given-names></name><x>; </x><name><surname>Liu</surname><x>, </x><given-names>L. A.</given-names></name><x>; </x><name><surname>Liu</surname><x>, </x><given-names>C. H.</given-names></name><x>; </x><name><surname>Fan</surname><x>, </x><given-names>S. S.</given-names></name><article-title>Superaligned Carbon
+Nanotube Arrays, Films, and Yarns:
+A Road to Applications</article-title><source>Adv. Mater.</source><x> </x><year>2011</year><x>, </x><volume>23</volume><x>, </x><fpage>1154</fpage><x>&ndash;</x><lpage>1161</lpage><pub-id pub-id-type="doi">10.1002/adma.201003989</pub-id></citation></ref><ref id="ref37"><label>37. </label><citation citation-type="journal" id="cit37"><name><surname>Jiang</surname><x>, </x><given-names>K. L.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>Q. Q.</given-names></name><x>; </x><name><surname>Fan</surname><x>, </x><given-names>S. S.</given-names></name><article-title>Nanotechnology:
+Spinning Continuous
+Carbon Nanotube yarns-Carbon Nanotubes Weave Their Way into A Range
+of Imaginative Macroscopic Applications</article-title><source>Nature</source><x> </x><year>2002</year><x>, </x><volume>419</volume><x>, </x><fpage>801</fpage><pub-id pub-id-type="doi">10.1038/419801a</pub-id></citation></ref><ref id="ref38"><label>38. </label><citation citation-type="journal" id="cit38"><name><surname>Spitalsky</surname><x>, </x><given-names>Z.</given-names></name><x>; </x><name><surname>Aggelopoulos</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Tsoukleri</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Tsakiroglou</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Parthenios</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Georga</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Krontiras</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Tasis</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Papagelis</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Galiotis</surname><x>, </x><given-names>C.</given-names></name><article-title>The Effect of Oxidation
+Treatment on the Properties of Mmulti-Walled Carbon Nanotube Thin
+Films</article-title><source>Mater. Sci. Eng., B</source><x> </x><year>2009</year><x>, </x><volume>165</volume><x>, </x><fpage>135</fpage><x>&ndash;</x><lpage>138</lpage><pub-id pub-id-type="doi">10.1016/j.mseb.2009.09.019</pub-id></citation></ref><ref id="ref39"><label>39. </label><citation citation-type="journal" id="cit39"><name><surname>Tantang</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Ong</surname><x>, </x><given-names>J. Y.</given-names></name><x>; </x><name><surname>Loh</surname><x>, </x><given-names>C. L.</given-names></name><x>; </x><name><surname>Dong</surname><x>, </x><given-names>X. C.</given-names></name><x>; </x><name><surname>Chen</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Chen</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Hu</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Tan</surname><x>, </x><given-names>L. P.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>L. J.</given-names></name><article-title>Using Oxidation
+to Increase the Electrical Conductivity of Carbon Nanotube Electrodes</article-title><source>Carbon</source><x> </x><year>2009</year><x>, </x><volume>47</volume><x>, </x><fpage>1867</fpage><x>&ndash;</x><lpage>1870</lpage><pub-id pub-id-type="doi">10.1016/j.carbon.2009.03.005</pub-id></citation></ref><ref id="ref40"><label>40. </label><citation citation-type="journal" id="cit40"><name><surname>Parekh</surname><x>, </x><given-names>B. B.</given-names></name><x>; </x><name><surname>Fanchini</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Eda</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Chhowalla</surname><x>, </x><given-names>M.</given-names></name><article-title>Improved Conductivity
+of Transparent Single-Wall Carbon Nanotube Thin Films <italic>via</italic> Stable Postdeposition Functionalization</article-title><source>Appl.
+Phys. Lett.</source><x> </x><year>2007</year><x>, </x><volume>90</volume><x>, </x><fpage>121913</fpage><pub-id pub-id-type="doi">10.1063/1.2715027</pub-id></citation></ref><ref id="ref41"><label>41. </label><citation citation-type="journal" id="cit41"><name><surname>Wang</surname><x>, </x><given-names>C. C.</given-names></name><x>; </x><name><surname>Zhou</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Wu</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Gu</surname><x>, </x><given-names>B. L.</given-names></name><x>; </x><name><surname>Duan</surname><x>, </x><given-names>W. H.</given-names></name><article-title>Effects
+of Vacancy-Carboxyl Pair Functionalization on Electronic Properties
+of Carbon Nanotubes</article-title><source>Appl. Phys. Lett.</source><x> </x><year>2006</year><x>, </x><volume>89</volume><x>, </x><fpage>173130</fpage><pub-id pub-id-type="doi">10.1063/1.2364844</pub-id></citation></ref><ref id="ref42"><label>42. </label><citation citation-type="journal" id="cit42"><name><surname>Tang</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Zhang</surname><x>, </x><given-names>Q.</given-names></name><x>; </x><name><surname>Zhao</surname><x>, </x><given-names>M. Q.</given-names></name><x>; </x><name><surname>Huang</surname><x>, </x><given-names>J. Q.</given-names></name><x>; </x><name><surname>Cheng</surname><x>, </x><given-names>X. B.</given-names></name><x>; </x><name><surname>Tian</surname><x>, </x><given-names>G. L.</given-names></name><x>; </x><name><surname>Peng</surname><x>, </x><given-names>H. J.</given-names></name><x>; </x><name><surname>Wei</surname><x>, </x><given-names>F.</given-names></name><article-title>Nitrogen-Doped Aligned
+Carbon Nanotube/Graphene Sandwiches: Facile Catalytic Growth on Bifunctional
+Natural Catalysts and Their Applications As Scaffolds for High-Rate
+Lithium-Sulfur Batteries</article-title><source>Adv. Mater.</source><x> </x><year>2014</year><x>, </x><volume>26</volume><x>, </x><fpage>6100</fpage><x>&ndash;</x><lpage>6105</lpage><pub-id pub-id-type="doi">10.1002/adma.201401243</pub-id></citation></ref><ref id="ref43"><label>43. </label><citation citation-type="journal" id="cit43"><name><surname>Pu</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Yang</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Yu</surname><x>, </x><given-names>C.</given-names></name><article-title>Liquid-Type
+Cathode Enabled by 3D
+Sponge-Like Carbon Nanotubes for High Energy Density and Long Cycling
+Life of Li-S Batteries</article-title><source>Adv. Mater.</source><x> </x><year>2014</year><x>, </x><volume>26</volume><x>, </x><fpage>7456</fpage><x>&ndash;</x><lpage>7461</lpage><pub-id pub-id-type="doi">10.1002/adma.201403337</pub-id></citation></ref></ref-list></back></article>

@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE article PUBLIC "-//Atypon//DTD Archiving and Interchange DTD Suite with ACHS extensions v2.2 20080601//EN" "archivearticle.dtd">
+<article article-type="rapid-communication" dtd-version="2.2" xml:lang="EN" xmlns:mml="http://www.w3.org/1998/Math/MathML"> <front>
+<journal-meta>
+<journal-id journal-id-type="publisher">nalefd</journal-id>
+<journal-title>Nano Letters</journal-title>
+<abbrev-journal-title abbrev-type="publisher">Nano Lett.</abbrev-journal-title>
+<issn pub-type="ppub">1530-6984</issn>
+<issn pub-type="epub">1530-6992</issn>
+
+<publisher>
+<publisher-name>American Chemical Society</publisher-name></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1021/nl902315u</article-id>
+<article-categories>
+<subj-group subj-group-type="type-of-article">
+<subject>Letter</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Single Nanorod Devices for Battery Diagnostics: A Case Study on LiMn<sub>2</sub>O<sub>4</sub></article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="ath1"><name><given-names>Yuan</given-names><x> </x><surname>Yang</surname></name><xref ref-type="fn" rid="afn1"><sup>&#x2020;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath2"><name><given-names>Chong</given-names><x> </x><surname>Xie</surname></name><xref ref-type="fn" rid="afn1"><sup>&#x2020;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath3"><name><given-names>Riccardo</given-names><x> </x><surname>Ruffo</surname></name><xref ref-type="fn" rid="afn2"><sup>&#x2021;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath4"><name><given-names>Hailin</given-names><x> </x><surname>Peng</surname></name><xref ref-type="fn" rid="afn1"><sup>&#x2020;</sup></xref><x>, </x></contrib><contrib contrib-type="author" id="ath5"><name><given-names>Do Kyung</given-names><x> </x><surname>Kim</surname></name><xref ref-type="fn" rid="afn3"><sup>&#xa7;</sup></xref><x> and </x></contrib><contrib contrib-type="author" corresp="yes" id="ath6"><name><given-names>Yi</given-names><x> </x><surname>Cui</surname></name><xref ref-type="corresp" rid="cor1">*</xref><xref ref-type="fn" rid="afn1"><sup>&#x2020;</sup></xref><x> </x></contrib><aff id="aff1">Department of Materials Science and Engineering, Stanford University, Stanford, California 94305, Dipartimento di Scienza dei Materiali, Universita&#x300; degli Studi di Milano-Bicocca, Via Cozzi 53, 20135 Milan, Italy, and Department of Materials Science and Engineering, Korea Advanced Institute of Science and Technology (KAIST), Daejeon 305-701, Korea</aff></contrib-group>
+<author-notes>
+<corresp id="cor1">
+<label>*</label>
+To whom correspondence should be addressed. E-mail: <email xlink:href="yicui@stanford.edu">yicui@stanford.edu</email>.</corresp>
+<fn id="afn1">
+<label>&#x2020;</label>
+<p>Stanford University.</p></fn>
+<fn id="afn2">
+<label>&#x2021;</label>
+<p>Universita&#x300; degli Studi di Milano-Bicocca.</p></fn>
+<fn id="afn3">
+<label>&#xa7;</label>
+<p>KAIST.</p></fn>
+</author-notes>
+<pub-date pub-type="ppub"><day>09</day><month>12</month><year>2009</year></pub-date><pub-date pub-type="epub"><day>06</day><month>10</month><year>2009</year></pub-date>
+<volume>9</volume>
+<issue>12</issue>
+<fpage>4109</fpage>
+<lpage>4114</lpage>
+<supplementary-material xlink:href="nl902315u_si_001.pdf" id="sifile1"/>
+<history>
+
+
+<date date-type="received">
+<day>20</day>
+<month>07</month>
+<year>2009</year></date>
+<date date-type="rev-recd">
+<day>28</day>
+<month>08</month>
+<year>2009</year></date>
+<date date-type="asap"><day>06</day><month>10</month><year>2009</year></date><date date-type="issue-pub"><day>09</day><month>12</month><year>2009</year></date></history>
+<permissions>
+
+<copyright-statement>&copy; 2009 American Chemical Society</copyright-statement><copyright-year>2009</copyright-year><copyright-holder>American Chemical Society</copyright-holder>
+<license license-type="ccc"><p>CCC: $40.75</p></license></permissions>
+
+<related-article related-article-type="pdf" xlink:href="nl902315u.pdf"/>
+<abstract>
+<p>This paper presents single nanostructure devices as a powerful new diagnostic tool for batteries with LiMn<sub>2</sub>O<sub>4</sub> nanorod materials as an example. LiMn<sub>2</sub>O<sub>4</sub> and Al-doped LiMn<sub>2</sub>O<sub>4</sub> nanorods were synthesized by a two-step method that combines hydrothermal synthesis of &#x3b2;-MnO<sub>2</sub> nanorods and a solid state reaction to convert them to LiMn<sub>2</sub>O<sub>4</sub> nanorods. &#x3bb;-MnO<sub>2</sub> nanorods were also prepared by acid treatment of LiMn<sub>2</sub>O<sub>4</sub> nanorods. The effect of electrolyte etching on these LiMn<sub>2</sub>O<sub>4</sub>-related nanorods is investigated by both SEM and single-nanorod transport measurement, and this is the first time that the transport properties of this material have been studied at the level of an individual single-crystalline particle. Experiments show that Al dopants reduce the dissolution of Mn<sup>3+</sup> ions significantly and make the LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> nanorods much more stable than LiMn<sub>2</sub>O<sub>4</sub> against electrolyte etching, which is reflected by the magnification of both size shrinkage and conductance decrease. These results correlate well with the better cycling performance of Al-doped LiMn<sub>2</sub>O<sub>4</sub> in our Li-ion battery tests: LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> nanorods achieve 96% capacity retention after 100 cycles at 1C rate at room temperature, and 80% at 60 &#xb0;C, whereas LiMn<sub>2</sub>O<sub>4</sub> shows worse retention of 91% at room temperature, and 69% at 60 &#xb0;C. Moreover, temperature-dependent <italic>I</italic>&#x2212;<italic>V</italic> measurements indicate that the sharp electronic resistance increase due to charge ordering transition at 290 K does not appear in our LiMn<sub>2</sub>O<sub>4</sub> nanorod samples, suggesting good battery performance at low temperature.</p></abstract>
+<abstract abstract-type="graphical">
+<fig fig-type="figure" id="f_tgr1" position="float">
+<graphic xlink:href="nl-2009-02315u_0006.tif" id="tgr1"/></fig>
+</abstract>
+
+</article-meta>
+
+</front>
+<body>
+<sec id="sec1">
+<title/><p>Rechargeable batteries such as lithium ion batteries are important energy storage devices for portable electronic devices, power tools, and electrical vehicles.<xref ref-type="bibr" rid="ref1 ref2 ref3 ref4">(1-4)</xref> Anodes and cathodes in the existing lithium ion batteries consist of particles with various sizes and shapes, conductive carbon, and polymer binders. During battery charge/discharge, electrons and ions are simultaneously inserted or extracted from battery electrodes, which is accompanied by a series of other complex processes such as structure and phase transformation, volume change, materials dissolution, and side chemical reaction with electrolyte. Various technologies have been utilized for battery diagnostics, including electrochemical impedance spectroscopy,<xref ref-type="bibr" rid="ref5">(5)</xref> X-ray diffraction,<xref ref-type="bibr" rid="ref6 ref7">(6, 7)</xref> Raman spectroscopy,<xref ref-type="bibr" rid="ref8 ref9">(8, 9)</xref> and electron microscopy inspection<xref ref-type="bibr" rid="ref10 ref11">(10, 11)</xref> of ensemble electrodes. However, the heterogeneous nature of ensemble electrodes averages all information and can not provide a direct correlation of electrochemical properties with the local morphology, structure, and chemical composition. Few reports focused on single particle diagnostics, as it is hard to handle single particles with size of 0.1&#x223c;10 &#x3bc;m.<xref ref-type="bibr" rid="ref12 ref13 ref14">(12-14)</xref> Here we exploit single nanorod devices to demonstrate a novel powerful diagnostic tool, which allows for the direct correlation of the electrochemical property with the structure on the same nanoscale particle. Single nanostructure devices fabricated with lithographic techniques have been well developed in the field of nano science<xref ref-type="bibr" rid="ref15 ref16 ref17 ref18">(15-18)</xref> but rarely applied to battery researches. This work represents the first example of single nanostructure device battery diagnostics. We use single LiMn<sub>2</sub>O<sub>4</sub> nanorod devices as an example in this study although this new methodology can generally be applied to a broad range of battery electrode materials. In the future, the capability of combining single nanostructure device diagnostics with in situ electron microscopy techniques<xref ref-type="bibr" rid="ref16 ref19">(16, 19)</xref> can lead to a much deeper understanding of battery operational processes.</p>
+<p>We choose spinel LiMn<sub>2</sub>O<sub>4</sub> in this study since it has the advantages of low-cost, environmental friendliness, and safety.<xref ref-type="bibr" rid="ref20 ref21">(20, 21)</xref> However, the fast capacity decay at high temperature impedes its practical application. The mechanism is that Mn<sup>3+</sup> ions in LiMn<sub>2</sub>O<sub>4</sub> can disproportionate due to the generation of HF in an LiPF<sub>6</sub>-based electrolyte and be dissolved in the electrolyte resulting in cathode capacity loss and the attack of carbon anodes by Mn ions.<xref ref-type="bibr" rid="ref22 ref23 ref24 ref25">(22-25)</xref> Significant efforts have been made to improve the cycling performance of LiMn<sub>2</sub>O<sub>4</sub>, such as coating<xref ref-type="bibr" rid="ref26 ref27 ref28">(26-28)</xref> and doping.<xref ref-type="bibr" rid="ref29 ref30 ref31 ref32">(29-32)</xref> Moreover, various methods have been utilized to analyze the mechanism and the process of Mn dissolution, including X-ray diffraction<xref ref-type="bibr" rid="ref6">(6)</xref> and impedance spectroscopy,<xref ref-type="bibr" rid="ref5 ref6">(5, 6)</xref> which can provide useful information but in an indirect way. Nevertheless, there is no study that directly track the effect of the electrolyte on the morphology or properties of a single LiMn<sub>2</sub>O<sub>4</sub> particle. The difficulties resulting from the ensemble nature of electrodes include how to distinguish a particle in the mixed film-like electrode and how to make probes, such as contacting metal electrodes, onto such small particles (typically less than 20 &#x3bc;m for battery materials).</p>
+<p>In comparison, one-dimensional nanorods and nanowires can offer the following advantages: (1) In contrast to microsized particles, it is feasible to put multiple electrodes onto them to study their transport properties.<xref ref-type="bibr" rid="ref19 ref33">(19, 33)</xref> (2) The single-nanostructure devices can be characterized by a variety of electron microscopy and even in situ techniques.<xref ref-type="bibr" rid="ref15 ref16">(15, 16)</xref> (3) They are single-crystalline,<xref ref-type="bibr" rid="ref34 ref35">(34, 35)</xref> which provides well-defined nanoscale domains for understanding their intrinsic properties. LiMn<sub>2</sub>O<sub>4</sub> nanorods and nanowires have been synthesized by us<xref ref-type="bibr" rid="ref36">(36)</xref> and several other groups,<xref ref-type="bibr" rid="ref37 ref38">(37, 38)</xref> but their transport properties have not been studied at the single nanostructure level. In this work, single-crystalline LiMn<sub>2</sub>O<sub>4</sub> and Al-doped LiMn<sub>2</sub>O<sub>4</sub> nanorods were synthesized by a two-step method and &#x3bb;-MnO<sub>2</sub> nanorods were also prepared by acid delithiation of LiMn<sub>2</sub>O<sub>4</sub> nanorods. These three kinds of nanorods offer the possibility to study the electrochemical and transport properties of LiMn<sub>2</sub>O<sub>4</sub>, such as the effect of dopants and lithium concentration. We studied how electrolyte etching affects their electrical properties and correlated them with the electrochemical performance of these materials.</p>
+<p>The synthesis of LiAl<sub><italic>x</italic></sub>Mn<sub>2-<italic>x</italic></sub>O<sub>4</sub> (0 &#x2264; <italic>x</italic> &#x2264; 0.2) nanorods is a two-step approach. First, &#x3b2;-MnO<sub>2</sub> nanorods were synthesized as a template by hydrothermal methods.<xref ref-type="bibr" rid="ref39">(39)</xref> Typically 8 mmol of MnSO<sub>4</sub>&#xb7;H<sub>2</sub>O and 8 mmol of (NH<sub>4</sub>)<sub>2</sub>S<sub>2</sub>O<sub>8</sub> were dissolved in 10 mL of deionized water separately to form clear solutions. They were mixed together and transferred to a 45 mL Teflon-lined stainless steel vessel (Parr Co.). The vessel was sealed and heated at 150 &#xb0;C for 12 h to obtain &#x3b2;-MnO<sub>2</sub> nanorods. After this step, as-synthesized MnO<sub>2</sub> nanorods were mixed and ground with lithium acetate (Sigma Aldrich) with a molar ratio of 2:1. A total of 1 mL of methanol was added to make a uniform slurry mixture. The mixture was sintered at 700 &#xb0;C for 10 h under air. For Al-doped LiMn<sub>2</sub>O<sub>4</sub> samples, a stoichiometric amount of Al(NO<sub>3</sub>)<sub>3</sub>&#xb7;9H<sub>2</sub>O was added into the slurry mixture as the Al source. A series of samples were prepared with <italic>x</italic> = 0, 0.05, 0.1, and 0.2. To prepare &#x3bb;-MnO<sub>2</sub> nanorods, a method reported previously<xref ref-type="bibr" rid="ref40">(40)</xref> was used with a slight modification. Generally 20 mg of LiMn<sub>2</sub>O<sub>4</sub> nanorods were delithiated in 10 mL of 0.1 M HCl for 30 min under stirring, and then the delithiated nanorods were dried at 200 &#xb0;C in air for 2 h. It is believed that hydrogen is not stable inside &#x3bb;-MnO<sub>2</sub> and the valence of Mn is close to 4 according to magnetic measurement<xref ref-type="bibr" rid="ref40">(40)</xref> and X-ray absorption spectra.<xref ref-type="bibr" rid="ref41">(41)</xref></p>
+<p>The composition of as-synthesized LiAl<sub><italic>x</italic></sub>Mn<sub>2-<italic>x</italic></sub>O<sub>4</sub> nanorods was characterized by X-ray diffraction (XRD, PANalytical X&#x2019;Pert diffractometer with Cu K&#x3b1;-radiation) and energy dispersive X-ray spectroscopy (EDS). The morphologies of the nanostructures were observed by a field emission scanning electron microscope (FEI XL30 Sirion SEM) and a high resolution transmission electron microscope (HR-TEM, 200 kV Phillips CM20).</p>
+<p>The electrodes for electrochemical studies were prepared by making slurry of 78 wt % active material of LiAl<sub><italic>x</italic></sub>Mn<sub>2-<italic>x</italic></sub>O<sub>4</sub>, 15 wt % conducting carbon black, and 7 wt % polyvinylidene fluoride (PVdF) binder in <italic>N</italic>-methyl-2-pyrrolidone (NMP) as the solvent. The slurry was coated onto an aluminum foil by an applicator and then dried at 120 &#xb0;C overnight. The electrochemical performance of LiMn<sub>2</sub>O<sub>4</sub> was investigated inside a coffee bag (pouch) cell assembled in an argon-filled glovebox (oxygen and water contents below 1 and 0.1 ppm, respectively). Lithium metal foil (Alfa Aesar) was used as the anode. The typical cathode loading was 3&#x2212;4 mg/cm<sup>2</sup>. A 1 M solution of LiPF<sub>6</sub> in ethylene carbonate/diethyl carbonate (EC/DEC, 1:1 v/v) (Ferro Corporation) was used as the electrolyte with a Celgard 2321 triple-layer polypropylene-based membrane as the separator. The charge/discharge cycles were performed at different rates between 3.5&#x2212;4.3 V at room temperature and 60 &#xb0;C using Bio-Logic VMP3 battery testers.</p>
+<p>Devices for single-nanorod transport measurement were fabricated by electron beam lithography (EBL) on Si/SiN<sub><italic>x</italic></sub> (300 nm) chips. The metal electrode consisted of 10 nm Cr/190 nm Au. The electrolyte etching experiments were performed by immersing Si/SiN<sub><italic>x</italic></sub> chips with nanorod devices into 2 mL of the electrolyte mentioned above and heating to 60 &#xb0;C for different amounts of time. Then the electrolyte was washed away by DEC and acetone in sequence. SEM and transport (I&#x2212;V) measurements were used to characterize the effect of the electrolyte on nanorod devices.</p>
+<p>Figure <xref ref-type="fig" rid="fig1">1</xref>, panels a and b, shows SEM images of LiMn<sub>2</sub>O<sub>4</sub> and LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> nanorods, respectively. The length of both LiMn<sub>2</sub>O<sub>4</sub> and LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> nanorods is around 0.7&#x2212;1.2 &#x3bc;m and the diameter is 100&#x2212;200 nm; these nanorods are shorter in length and larger in diameter than &#x3b2;-MnO<sub>2</sub> nanorods (<xref rid="si1">Supporting Information</xref>, <xref rid="si1">Figure S1</xref>) as a result of high temperature sintering. Figure <xref ref-type="fig" rid="fig1">1</xref>c shows an SEM image of delithiated &#x3bb;-MnO<sub>2</sub> nanorods, which look similar to the LiMn<sub>2</sub>O<sub>4</sub> nanorods. This indicates that the delithiation process does not destroy the nanorod morphology. TEM characterization of these nanorods is also presented in Figure <xref ref-type="fig" rid="fig1">1</xref>. The lattice fringes of LiMn<sub>2</sub>O<sub>4</sub> and LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> are illustrated in Figure <xref ref-type="fig" rid="fig1">1</xref>, panels d and e, respectively. The inset is the corresponding diffraction pattern. The clear lattice structure and the sharp diffraction spots reveal the single crystalline nature of these samples. EDS results of LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> samples give a calculated Al/Mn ratio of 4.8 at. % (<xref rid="si1">Supporting Information</xref>, <xref rid="si1">Figure S2</xref>). However, as represented in Figure <xref ref-type="fig" rid="fig1">1</xref>f, inset, the diffraction spots of &#x3bb;-MnO<sub>2</sub> nanorods are elongated, which implies strain and slight lattice distortion after acid delithiation. An XRD study was also performed to investigate the purity of samples and the effect of Al dopant on the fine structure of these nanorods (<xref rid="si1">Supporting Information</xref>, <xref rid="si1">Figure S3</xref>). No impurity peaks were detected in the XRD pattern, and a systematic shift of peaks toward higher angle was observed in doped samples, suggesting a smaller lattice parameter as a consequence of Al substitution.</p>
+<fig fig-type="figure" id="fig1" position="float">
+<label>Figure 1</label>
+<caption>
+<p>SEM pictures of (a) LiMn<sub>2</sub>O<sub>4</sub> nanorods, (b) LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> nanorods, and (c) &#x3bb;-MnO<sub>2</sub> nanorods. High resolution TEM images of (d) LiMn<sub>2</sub>O<sub>4</sub>, (e) LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub>, and (f) &#x3bb;-MnO<sub>2</sub>. Inset is the corresponding diffraction pattern.</p></caption>
+<graphic id="gr2" position="float" xlink:href="nl-2009-02315u_0001.tif"/></fig>
+<p>Since the dissolution of LiMn<sub>2</sub>O<sub>4</sub> in the electrolyte is an important issue which has impeded the application of this material, we studied the effect of the electrolyte on the morphology and transport properties of these LiMn<sub>2</sub>O<sub>4</sub>-based nanorods. To directly observe the dissolution of material and its effect on transport properties, two metal electrodes were deposited at the two ends of the nanorods, and <italic>I</italic>&#x2212;<italic>V</italic> measurements were used to track the effect of the electrolyte on a particularly identified nanorod. A typical device is shown in <xref rid="si1">Figure S4</xref> in the <xref rid="si1">Supporting Information</xref>. Furthermore, these results could be well correlated with their electrochemical performance, which will be discussed later. Figure <xref ref-type="fig" rid="fig2">2</xref>a&#x2212;c shows SEM images of LiMn<sub>2</sub>O<sub>4</sub> nanorods immersed in the electrolyte of 1 M LiPF<sub>6</sub> in EC/DEC at 60 &#xb0;C after 0, 3, and 9 h, respectively, whereas Figure <xref ref-type="fig" rid="fig2">2</xref>, panels d&#x2212;f and g&#x2212;i, represents images of LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> and &#x3bb;-MnO<sub>2</sub> immersed in electrolyte after the same time, respectively. It is obvious that the middle part of the LiMn<sub>2</sub>O<sub>4</sub> nanorod, which was not protected by the metal electrodes, was etched. In contrast, no change occurred in LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> samples. Results of the &#x3bb;-MnO<sub>2</sub> samples are interesting. The nanorod becomes covered by electrolyte residue or solid electrolyte interphase (SEI) layer after a period of time, which is difficult to remove. This might be a consequence of electrolyte decomposition on the surface of &#x3bb;-MnO<sub>2</sub>, since Mn (IV) has high oxidation power. The corresponding redox potential of &#x3bb;-MnO<sub>2</sub> is &#x223c;4.2&#x2212;4.3 V vs Li/Li<sup>+</sup>, which is close to the potential of electrolyte oxidation.<xref ref-type="bibr" rid="ref42 ref43">(42, 43)</xref> These results are based on observation of at least 5 nanorod devices for each kind of material.</p>
+<fig fig-type="figure" id="fig2" position="float">
+<label>Figure 2</label>
+<caption>
+<p>SEM images of nanorod devices in 1 M LiPF<sub>6</sub> in the EC/DEC electrolyte: LiMn<sub>2</sub>O<sub>4</sub> (a) 0, (b) 3, and (c) 9 h; LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> (d) 0, (e) 3, and (f) 9 h; &#x3bb;-MnO<sub>2</sub> (g) 0, (h) 3, and (i) 9 h. All scale bars are 200 nm.</p></caption>
+<graphic id="gr3" position="float" xlink:href="nl-2009-02315u_0002.tif"/></fig>
+<p>In addition to the evolution of their morphology, the conductance of these nanorods also changes with time in the electrolyte. Figure <xref ref-type="fig" rid="fig3">3</xref>a&#x2212;c shows the evolution of <italic>I</italic>&#x2212;<italic>V</italic> curves of the same LiMn<sub>2</sub>O<sub>4</sub>, LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub>, and &#x3bb;-MnO<sub>2</sub> nanorod devices shown in Figure <xref ref-type="fig" rid="fig2">2</xref>, immersed in the electrolyte. The nonlinear behavior of the <italic>I</italic>&#x2212;<italic>V</italic> curves indicates that there is most likely a Schottky contact between the metal electrode and the nanorod. However, when the applied bias is larger than 2.0 V, the curves become linear (<xref rid="si1">Supporting Information</xref>, <xref rid="si1">Figure S5</xref>). The conductance and the conductivity of these nanorods were calculated based on data at the high voltage bias of 2.2&#x2212;2.5 V. It is clear that the conductance decreases gradually after immersion in the electrolyte. Results are summarized as the change in conductance versus time immersed in electrolyte at 60 &#xb0;C, as illustrated in Figure <xref ref-type="fig" rid="fig3">3</xref>d. The conductance is normalized to its value before immersion. The conductance of LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> decreases slightly (&#x223c;20%) while that of LiMn<sub>2</sub>O<sub>4</sub> drops dramatically (&gt;60%). This indicates that Al-doped samples are more resistive to electrolyte etching. The reason is that Al could suppress the dissolution of Mn<sup>3+</sup> in the electrolyte since the concentration of Mn<sup>3+</sup> becomes smaller. As a result, LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> should show better capacity retention than LiMn<sub>2</sub>O<sub>4</sub> in battery charge/discharge cycling. The conductivity of &#x3bb;-MnO<sub>2</sub> decreases a lot due to the reduction by the electrolyte and thus the dissolution of Mn. On a few occasions, broken &#x3bb;-MnO<sub>2</sub> nanorods were observed and the conductance was zero. The change in conductivity is less likely to come from the effect of the electrolyte on the metal/nanorod interface, since the interface is protected by the thick metal layer itself. Moreover, if the damage at the interface is the main factor in the conductivity change, it is hard to explain the quite different behavior of these three similar materials. It is worthwhile to point out that the total mass of nanorods immersed in the electrolyte is at most on the order of tens of micrograms. As a result, the ratio of the volume of organic electrolyte to the mass of active material is at least 3 orders of magnitude larger than that in practical batteries, so the etching rate is highly magnified in our experiments, though the trend should be the same.</p>
+<fig fig-type="figure" id="fig3" position="float">
+<label>Figure 3</label>
+<caption>
+<p><italic>I</italic>&#x2212;<italic>V</italic> curves of nanorods in the electrolyte for different times: (a) LiMn<sub>2</sub>O<sub>4</sub>, (b) LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub>, and (c) &#x3bb;-MnO<sub>2</sub>. (d) The evolution of the normalized conductance of nanorods in the electrolyte.</p></caption>
+<graphic id="gr4" position="float" xlink:href="nl-2009-02315u_0003.tif"/></fig>
+<p>As indicated by the <italic>I</italic>&#x2212;<italic>V</italic> measurement above, Al-doped samples should give better capacity cycling retention. To confirm this, LiAl<sub><italic>x</italic></sub>Mn<sub>2-<italic>x</italic></sub>O<sub>4</sub> nanorods were incorporated into a composite ensemble electrode, as described in the experimental section. Typical discharge curves of samples with <italic>x</italic> = 0 and 0.1 at the cycling rate of C/5 (1C = 148 mA/g) are plotted in Figure <xref ref-type="fig" rid="fig4">4</xref>a. The sample without doping exhibits the well-known two plateau behavior,<xref ref-type="bibr" rid="ref20 ref21 ref25">(20, 21, 25)</xref> but the doped samples show vague plateaus as a result of doping aluminum. To evaluate the cycling performance, the discharge capacity of LiMn<sub>2</sub>O<sub>4</sub> and LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> nanorods up to 100 cycles at room temperature and 60 &#xb0;C are shown in Figure <xref ref-type="fig" rid="fig4">4</xref>, panels b and c, respectively. The initial capacity at 1C rate of the doped sample is around 100 mAh/g compared to nearly 120 mAh/g of the sample without doping. The smaller capacity of LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> is a result of the lower concentration of Mn<sup>3+</sup> ions due to Al substitution. However, it is clear that the substitution of Al enhances the cycling retention significantly. The capacity retention increases from 91.0% to 95.8% at room temperature, and from 69% to 80% at 60 &#xb0;C. This indicates that the capacity fading of LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> nanorods is only 0.04% at room temperature and 0.2% at 60 &#xb0;C per cycle. These results correlate well with the transport and morphology data at the single particle level, which also show that Al-doped LiMn<sub>2</sub>O<sub>4</sub> is more stable when exposed to the electrolyte. Furthermore, these good cycling retention data also make LiMn<sub>2</sub>O<sub>4</sub> nanorods attractive for practical applications. The capacity retention above is better than previous reports on Al-doped LiMn<sub>2</sub>O<sub>4</sub>.<xref ref-type="bibr" rid="ref32 ref44">(32, 44)</xref> The performance is also comparable to that of other doped and coated LiMn<sub>2</sub>O<sub>4</sub>, as summarized in a recent paper.</p>
+<fig fig-type="figure" id="fig4" position="float">
+<label>Figure 4</label>
+<caption>
+<p>(a) Voltage profiles of LiMn<sub>2</sub>O<sub>4</sub> and LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> at C/5 (29.6 mA/g). The voltage range is 3.5&#x2212;4.3 V. (b and c) Cycling performance of the discharge capacity of LiMn<sub>2</sub>O<sub>4</sub>, LiAl<sub>0.05</sub>Mn<sub>1.95</sub>O<sub>4</sub>, and LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> at room temperature and 60 &#xb0;C, respectively. (d) Rate performance of the discharge capacity of LiMn<sub>2</sub>O<sub>4</sub> and LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4.</sub> The capacity is normalized to that at C/5.</p></caption>
+<graphic id="gr5" position="float" xlink:href="nl-2009-02315u_0004.tif"/></fig>
+<p>Another important aspect of the electrochemical performance, the capacity versus charge/discharge rate, is shown in Figure <xref ref-type="fig" rid="fig4">4</xref>d. The rate capability is expressed as the capacity at a given discharge rate relative to that obtained at the rate of C/5 (29.6 mA/g). In LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> samples, the specific capacity retention at 4C (592 mA/g) is still 75% compared to the capacity at C/5, whereas &#x223c;65% retention is obtained in LiMn<sub>2</sub>O<sub>4</sub> samples. Given that the actual capacity of LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> is around 100 mA/g at C/5, this indicates that these batteries could be charged to 75% full within 8 min. In addition, the capacity returns back after slowing the charge/discharge rate to 1C again, suggesting no damage to the active materials. The coulomb efficiency of all electrochemical data shown above is generally over 99.5%.</p>
+<p>Another possible drawback of LiMn<sub>2</sub>O<sub>4</sub> is the charge ordering transition of this material at 290 K, which is accompanied with a &#x223c;10 times sharp increase in its electronic resistivity. This might affect its application as battery electrodes at low temperatures. Some references<xref ref-type="bibr" rid="ref46">(46)</xref> claim that oxygen deficiency is important for the existence of the phase transition, and many bulk LiMn<sub>2</sub>O<sub>4</sub> samples in reports showing this phenomena were synthesized or annealed at 800 &#xb0;C or higher.<xref ref-type="bibr" rid="ref46 ref47 ref48 ref49">(46-49)</xref> The temperature used to sinter in this work is only 700 &#xb0;C, which might not be high enough to reach critical oxygen deficiency. To test whether there is a phase transition in our samples, temperature-dependent electrical measurements of all three kinds of samples, LiMn<sub>2</sub>O<sub>4</sub>, LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub>, and &#x3bb;-MnO<sub>2</sub>, were performed. The device fabrication and data analysis is the same as that in the electrolyte etching experiments. <italic>I</italic>&#x2212;<italic>V</italic> curves of LiMn<sub>2</sub>O<sub>4</sub>, LiAl<sub>0.1</sub>Mn<sub>2</sub>O<sub>4</sub>, and &#x3bb;-MnO<sub>2</sub> nanorods at 295 K are shown in Figure <xref ref-type="fig" rid="fig5">5</xref>(a). At room temperature, it is obvious that the conductivity of &#x3bb;-MnO<sub>2</sub> (4.2 Sm<sup>&#x2212;1</sup>) is more than 1 order of magnitude larger than LiMn<sub>2</sub>O<sub>4</sub> (0.071 Sm<sup>&#x2212;1</sup>), and LiAl<sub>0.1</sub>Mn<sub>2</sub>O<sub>4</sub> (0.051 Sm<sup>&#x2212;1</sup>), but much smaller compared to other phases of MnO<sub>2</sub>, such as &#x3b2;-MnO<sub>2</sub> (&#x223c;300 Sm<sup>&#x2212;1</sup>).<xref ref-type="bibr" rid="ref50">(50)</xref> This might be a result of a closer Mn&#x2212;Mn distance in &#x3bb;-MnO<sub>2</sub> compared to LiMn<sub>2</sub>O<sub>4</sub> and LiAl<sub>0.1</sub>Mn<sub>2</sub>O<sub>4</sub>. Though a two-electrode configuration introduces contact resistance to the experiment, the measured conductivity of LiMn<sub>2</sub>O<sub>4</sub> is still larger than previous results,<xref ref-type="bibr" rid="ref48 ref49">(48, 49)</xref> implying that the contact resistance is not important in the measurement and the nanorods measured have good crystallinity. Ionic conductivity is considered not to be dominant (&lt;15%) in the conductivity of LiMn<sub>2</sub>O<sub>4</sub>,<xref ref-type="bibr" rid="ref51">(51)</xref> so the as-measured <italic>I</italic>&#x2212;<italic>V</italic> data counts for electronic conductivity of these samples. Figure <xref ref-type="fig" rid="fig5">5</xref>b indicates the temperature-dependent conductivity of these three kinds of nanorods. They all behave like semiconductors from 260 to 350 K. The sharp drop in conductivity at 290 K induced by the charge-ordering transition in LiMn<sub>2</sub>O<sub>4</sub><xref ref-type="bibr" rid="ref47 ref48">(47, 48)</xref> was not observed in our devices, suggesting that our materials would have good battery performance at low temperatures from the perspective of electronic conductivity. By fitting the data of the temperature-dependent conductivity, the activation energy of these materials was calculated. Three models were used: simply &#x3c3; &#x221d; exp(&#x2212;<italic>E</italic><sub>A</sub>/<italic>kT</italic>), adiabatic Arrhenius relationship &#x3c3; &#x221d; <italic>T</italic><italic/><sup>&#x2212;1</sup> exp(&#x2212;<italic>E</italic><sub>A</sub>/<italic>kT</italic>), and nonadiabatic Arrhenius relationship &#x3c3; &#x221d; <italic>T</italic><sup>&#x2212;3/2</sup> exp(&#x2212;<italic>E</italic><sub>A</sub>/<italic>kT</italic>), and the result is represented in Table <xref ref-type="table" rid="tbl1">1</xref>. The activation energy of LiMn<sub>2</sub>O<sub>4</sub> is slightly higher than that of LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> but almost twice that of &#x3bb;-MnO<sub>2</sub>. This result is consistent with the hopping model of manganese oxide-based materials, which predicts that smaller Mn&#x2212;Mn distance leads to a lower activation barrier. No matter which model is used, the values in this table are smaller than previous results.<xref ref-type="bibr" rid="ref48 ref51">(48, 51)</xref> This also suggests that our LiAl<sub><italic>x</italic></sub>Mn<sub>2-<italic>x</italic></sub>O<sub>4</sub> nanorods have good crystallinity and the single nanorod measurement is free of interparticle hopping.</p>
+<fig fig-type="figure" id="fig5" position="float">
+<label>Figure 5</label>
+<caption>
+<p>(a) Current&#x2212;voltage curves of LiMn<sub>2</sub>O<sub>4</sub>, LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub>, and &#x3bb;-MnO<sub>2</sub> nanorods. (b) The dependence of the conductivity of nanorods on temperature from 260 to 350 K.</p></caption>
+<graphic id="gr6" position="float" xlink:href="nl-2009-02315u_0005.tif"/></fig>
+<table-wrap id="tbl1" position="float">
+<label>Table 1</label>
+<caption>
+<title>Activation Energy of Nanorods Based on Different Fitting Models</title></caption>
+<oasis:table>
+<oasis:tgroup cols="4">
+<oasis:colspec align="left" colname="col1"/>
+<oasis:colspec align="char" char="." colname="col2"/>
+<oasis:colspec align="char" char="." colname="col3"/>
+<oasis:colspec align="char" char="." colname="col4"/>
+<oasis:thead>
+<oasis:row >
+<oasis:entry align="center"/>
+<oasis:entry align="center" valign="bottom">exp(&#x2212;<italic>E</italic><sub>A</sub>/<italic>T</italic>)/eV</oasis:entry>
+<oasis:entry align="center" valign="bottom"><italic>T</italic><sup>&#x2212;1</sup> exp(&#x2212;<italic>E</italic><sub>A</sub>/<italic>T</italic>)/eV</oasis:entry>
+<oasis:entry align="center" valign="bottom"><italic>T</italic><sup>&#x2212;3/2</sup> exp(&#x2212;<italic>E</italic><sub>A</sub>/<italic>T</italic>)/eV</oasis:entry></oasis:row>
+</oasis:thead>
+<oasis:tbody>
+<oasis:row>
+<oasis:entry>LiMn<sub>2</sub>O<sub>4</sub></oasis:entry>
+<oasis:entry>0.28</oasis:entry>
+<oasis:entry>0.31</oasis:entry>
+<oasis:entry>0.32</oasis:entry></oasis:row>
+<oasis:row>
+<oasis:entry>Al<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub></oasis:entry>
+<oasis:entry>0.27</oasis:entry>
+<oasis:entry>0.29</oasis:entry>
+<oasis:entry>0.30</oasis:entry></oasis:row>
+<oasis:row>
+<oasis:entry>&#x3bb;-MnO<sub>2</sub></oasis:entry>
+<oasis:entry>0.15</oasis:entry>
+<oasis:entry>0.18</oasis:entry>
+<oasis:entry>0.19</oasis:entry></oasis:row>
+</oasis:tbody>
+</oasis:tgroup>
+</oasis:table>
+</table-wrap>
+<p>In conclusion, LiMn<sub>2</sub>O<sub>4</sub> and Al-doped LiMn<sub>2</sub>O<sub>4</sub> nanorods were synthesized by a method combining hydrothermal synthesis of &#x3b2;-MnO<sub>2</sub> nanorods and sintering with lithium acetate and aluminum nitrate. &#x3bb;-MnO<sub>2</sub> nanorods were also obtained by delithiating the LiMn<sub>2</sub>O<sub>4</sub> nanorods with acid. For the first time, the effect of the electrolyte on LiMn<sub>2</sub>O<sub>4</sub> is tracked at a single-particle level by both SEM characterization and electronic transport measurement. Al dopants reduce the dissolution of Mn<sup>3+</sup> ions, and make LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> nanorods more stable than LiMn<sub>2</sub>O<sub>4</sub> against electrolyte etching. LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> nanorods shows high stability during fast cycling, with 96% capacity retention after 100 cycles at 1C rate at room temperature, and 80% at 60 &#xb0;C. Moreover, the temperature-dependent I&#x2212;V measurement indicates that LiMn<sub>2</sub>O<sub>4</sub>, LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub> and &#x3bb;-MnO<sub>2</sub> nanorods all behave like semiconductors and the activation energy of &#x3bb;-MnO<sub>2</sub> is just half of that of LiMn<sub>2</sub>O<sub>4</sub> and LiAl<sub>0.1</sub>Mn<sub>1.9</sub>O<sub>4</sub>, which is consistent with the rule that smaller Mn&#x2212;Mn distance leads to easier hopping among Mn ions. The sharp drop in conductivity at 290 K of LiMn<sub>2</sub>O<sub>4</sub> has not been observed in our measurement, which might suggest good battery performance at low temperatures. In addition to the specific materials discussed in this study, we suggest that our method of single-nanorod measurement could be used as a new way to investigate the interaction between electrolyte and electrode materials, revealing relationships that current methods have not ascertained.</p></sec>
+</body>
+<back>
+<ack><title>Acknowledgment</title>
+<p>The work is partially supported by the Global Climate and Energy Project at Stanford and King Abdullah University of Science and Technology (KAUST) under the award No. KUS-l1-001-12. We thank C. K. Chan and A. Jackson for helpful discussion.</p></ack>
+<notes id="si1" notes-type="si">
+<title><inline-supplementary-material xlink:href="/doi/suppl/10.1021/nl902315u">Supporting Information</inline-supplementary-material></title>
+<p>Additional figures depicting experimantal results. This material is available free of charge via the Internet at <uri xlink:href="http://pubs.acs.org">http://pubs.acs.org</uri>.</p></notes>
+<ref-list><title>References</title>
+<ref id="ref1"><label>1. </label>
+<citation citation-type="journal" id="cit1">
+<name><surname>Chung</surname><x>, </x><given-names>S. Y.</given-names></name><x>; </x><name><surname>Bloking</surname><x>, </x><given-names>J. T.</given-names></name><x>; </x><name><surname>Chiang</surname><x>, </x><given-names>Y. M.</given-names></name>
+<source>Nat. Mater.</source><x> </x><year>2002</year><x>, </x><volume>1</volume><x> (</x><issue>2</issue><x>) </x><fpage>123</fpage><x>&ndash;</x><lpage>128</lpage></citation>
+</ref>
+<ref id="ref2"><label>2. </label>
+<citation citation-type="journal" id="cit2">
+<name><surname>Kang</surname><x>, </x><given-names>K. S.</given-names></name><x>; </x><name><surname>Meng</surname><x>, </x><given-names>Y. S.</given-names></name><x>; </x><name><surname>Breger</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Grey</surname><x>, </x><given-names>C. P.</given-names></name><x>; </x><name><surname>Ceder</surname><x>, </x><given-names>G.</given-names></name>
+<source>Science</source><x> </x><year>2006</year><x>, </x><volume>311</volume><x> (</x><issue>5763</issue><x>) </x><fpage>977</fpage><x>&ndash;</x><lpage>980</lpage></citation>
+</ref>
+<ref id="ref3"><label>3. </label>
+<citation citation-type="journal" id="cit3">
+<name><surname>Scrosati</surname><x>, </x><given-names>B.</given-names></name>
+<source>Nature</source><x> </x><year>1995</year><x>, </x><volume>373</volume><x> (</x><issue>6515</issue><x>) </x><fpage>557</fpage><x>&ndash;</x><lpage>558</lpage></citation>
+</ref>
+<ref id="ref4"><label>4. </label>
+<citation citation-type="journal" id="cit4">
+<name><surname>Whittingham</surname><x>, </x><given-names>M. S.</given-names></name>
+<source>Chem. Rev.</source><x> </x><year>2004</year><x>, </x><volume>104</volume><x> (</x><issue>10</issue><x>) </x><fpage>4271</fpage><x>&ndash;</x><lpage>4301</lpage></citation>
+</ref>
+<ref id="ref5"><label>5. </label>
+<citation citation-type="journal" id="cit5">
+<name><surname>Shu</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Chung</surname><x>, </x><given-names>K. Y.</given-names></name><x>; </x><name><surname>Cho</surname><x>, </x><given-names>W. I.</given-names></name><x>; </x><name><surname>Kim</surname><x>, </x><given-names>K. B.</given-names></name>
+<source>J. Power Sources</source><x> </x><year>2003</year><x>, </x><volume>114</volume><x> (</x><issue>2</issue>
+<fpage/>
+<note>
+<p>PII S0378&#x2212;7753(02)00602-X</p></note>
+</citation>
+</ref>
+<ref id="ref6"><label>6. </label>
+<citation citation-type="journal" id="cit6">
+<name><surname>Aurbach</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Levi</surname><x>, </x><given-names>M. D.</given-names></name><x>; </x><name><surname>Gamulski</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Markovsky</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Salitra</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Levi</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Heider</surname><x>, </x><given-names>U.</given-names></name><x>; </x><name><surname>Heider</surname><x>, </x><given-names>L.</given-names></name><x>; </x><name><surname>Oesten</surname><x>, </x><given-names>R.</given-names></name>
+<source>J. Power Sources</source><x> </x><year>1999</year><x>, </x><volume>81</volume><x>, </x><fpage>472</fpage><x>&ndash;</x><lpage>479</lpage></citation>
+</ref>
+<ref id="ref7"><label>7. </label>
+<citation citation-type="journal" id="cit7">
+<name><surname>Piszora</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Darul</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Nowicki</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Wolska</surname><x>, </x><given-names>E.</given-names></name>
+<source>J. Alloys Compd.</source><x> </x><year>2004</year><x>, </x><volume>362</volume><x> (</x><issue>1&#x2212;2</issue><x>) </x><fpage>231</fpage><x>&ndash;</x><lpage>235</lpage></citation>
+</ref>
+<ref id="ref8"><label>8. </label>
+<citation citation-type="journal" id="cit8">
+<name><surname>Novak</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Panitz</surname><x>, </x><given-names>J. C.</given-names></name><x>; </x><name><surname>Joho</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Lanz</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Imhof</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Coluccia</surname><x>, </x><given-names>M.</given-names></name>
+<source>J. Power Sources</source><x> </x><year>2000</year><x>, </x><volume>90</volume><x> (</x><issue>1</issue><x>) </x><fpage>52</fpage><x>&ndash;</x><lpage>58</lpage></citation>
+</ref>
+<ref id="ref9"><label>9. </label>
+<citation citation-type="journal" id="cit9">
+<name><surname>Burba</surname><x>, </x><given-names>C. A.</given-names></name><x>; </x><name><surname>Frech</surname><x>, </x><given-names>R.</given-names></name>
+<source>J. Power Sources</source><x> </x><year>2007</year><x>, </x><volume>172</volume><x> (</x><issue>2</issue><x>) </x><fpage>870</fpage><x>&ndash;</x><lpage>876</lpage></citation>
+</ref>
+<ref id="ref10"><label>10. </label>
+<citation citation-type="journal" id="cit10">
+<name><surname>Cho</surname><x>, </x><given-names>T. H.</given-names></name><x>; </x><name><surname>Park</surname><x>, </x><given-names>S. M.</given-names></name><x>; </x><name><surname>Yoshio</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Hirai</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Hideshima</surname><x>, </x><given-names>Y.</given-names></name>
+<source>J. Power Sources</source><x> </x><year>2005</year><x>, </x><volume>142</volume><x> (</x><issue>1&#x2212;2</issue><x>) </x><fpage>306</fpage><x>&ndash;</x><lpage>312</lpage></citation>
+</ref>
+<ref id="ref11"><label>11. </label>
+<citation citation-type="journal" id="cit11">
+<name><surname>Ji</surname><x>, </x><given-names>X. L.</given-names></name><x>; </x><name><surname>Lee</surname><x>, </x><given-names>K. T.</given-names></name><x>; </x><name><surname>Nazar</surname><x>, </x><given-names>L. F.</given-names></name>
+<source>Nat. Mater.</source><x> </x><year>2009</year><x>, </x><volume>8</volume><x> (</x><issue>6</issue><x>) </x><fpage>500</fpage><x>&ndash;</x><lpage>506</lpage></citation>
+</ref>
+<ref id="ref12"><label>12. </label>
+<citation citation-type="journal" id="cit12">
+<name><surname>Nishizawa</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Uchida</surname><x>, </x><given-names>I.</given-names></name>
+<source>Electrochemistry</source><x> </x><year>1999</year><x>, </x><volume>67</volume><x> (</x><issue>5</issue><x>) </x><fpage>420</fpage><x>&ndash;</x><lpage>426</lpage></citation>
+</ref>
+<ref id="ref13"><label>13. </label>
+<citation citation-type="journal" id="cit13">
+<name><surname>Luo</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Cai</surname><x>, </x><given-names>W. B.</given-names></name><x>; </x><name><surname>Scherson</surname><x>, </x><given-names>D. A.</given-names></name>
+<source>Electrochem. Solid State Lett.</source><x> </x><year>2001</year><x>, </x><volume>4</volume><x> (</x><issue>7</issue><x>) </x><fpage>A101</fpage><x>&ndash;</x><lpage>A104</lpage></citation>
+</ref>
+<ref id="ref14"><label>14. </label>
+<citation citation-type="journal" id="cit14">
+<name><surname>Dokko</surname><x>, </x><given-names>K.</given-names></name><x>; </x><name><surname>Shi</surname><x>, </x><given-names>Q. F.</given-names></name><x>; </x><name><surname>Stefan</surname><x>, </x><given-names>I. C.</given-names></name><x>; </x><name><surname>Scherson</surname><x>, </x><given-names>D. A.</given-names></name>
+<source>J. Phys. Chem. B</source><x> </x><year>2003</year><x>, </x><volume>107</volume><x> (</x><issue>46</issue><x>) </x><fpage>12549</fpage><x>&ndash;</x><lpage>12554</lpage></citation>
+</ref>
+<ref id="ref15"><label>15. </label>
+<citation citation-type="journal" id="cit15">
+<name><surname>Cui</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Lieber</surname><x>, </x><given-names>C. M.</given-names></name>
+<source>Science</source><x> </x><year>2001</year><x>, </x><volume>291</volume><x> (</x><issue>5505</issue><x>) </x><fpage>851</fpage><x>&ndash;</x><lpage>853</lpage></citation>
+</ref>
+<ref id="ref16"><label>16. </label>
+<citation citation-type="journal" id="cit16">
+<name><surname>Meister</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Schoen</surname><x>, </x><given-names>D. T.</given-names></name><x>; </x><name><surname>Topinka</surname><x>, </x><given-names>M. A.</given-names></name><x>; </x><name><surname>Minor</surname><x>, </x><given-names>A. M.</given-names></name><x>; </x><name><surname>Cui</surname><x>, </x><given-names>Y.</given-names></name>
+<source>Nano Lett.</source><x> </x><year>2008</year><x>, </x><volume>8</volume><x> (</x><issue>12</issue><x>) </x><fpage>4562</fpage><x>&ndash;</x><lpage>4567</lpage></citation>
+</ref>
+<ref id="ref17"><label>17. </label>
+<citation citation-type="journal" id="cit17">
+<name><surname>Li</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Qian</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Xiang</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Lieber</surname><x>, </x><given-names>C. M.</given-names></name>
+<source>Mater. Today</source><x> </x><year>2006</year><x>, </x><volume>9</volume><x> (</x><issue>10</issue><x>) </x><fpage>18</fpage><x>&ndash;</x><lpage>27</lpage></citation>
+</ref>
+<ref id="ref18"><label>18. </label>
+<citation citation-type="journal" id="cit18">
+<name><surname>Xiang</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Lu</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Hu</surname><x>, </x><given-names>Y. J.</given-names></name><x>; </x><name><surname>Wu</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Yan</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Lieber</surname><x>, </x><given-names>C. M.</given-names></name>
+<source>Nature</source><x> </x><year>2006</year><x>, </x><volume>441</volume><x> (</x><issue>7092</issue><x>) </x><fpage>489</fpage><x>&ndash;</x><lpage>493</lpage></citation>
+</ref>
+<ref id="ref19"><label>19. </label>
+<citation citation-type="journal" id="cit19">
+<name><surname>Peng</surname><x>, </x><given-names>H. L.</given-names></name><x>; </x><name><surname>Xie</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Schoen</surname><x>, </x><given-names>D. T.</given-names></name><x>; </x><name><surname>Cui</surname><x>, </x><given-names>Y.</given-names></name>
+<source>Nano Lett.</source><x> </x><year>2008</year><x>, </x><volume>8</volume><x> (</x><issue>5</issue><x>) </x><fpage>1511</fpage><x>&ndash;</x><lpage>1516</lpage></citation>
+</ref>
+<ref id="ref20"><label>20. </label>
+<citation citation-type="journal" id="cit20">
+<name><surname>Luo</surname><x>, </x><given-names>J. Y.</given-names></name><x>; </x><name><surname>Wang</surname><x>, </x><given-names>Y. G.</given-names></name><x>; </x><name><surname>Xiong</surname><x>, </x><given-names>H. M.</given-names></name><x>; </x><name><surname>Xia</surname><x>, </x><given-names>Y. Y.</given-names></name>
+<source>Chem. Mater.</source><x> </x><year>2007</year><x>, </x><volume>19</volume><x> (</x><issue>19</issue><x>) </x><fpage>4791</fpage><x>&ndash;</x><lpage>4795</lpage></citation>
+</ref>
+<ref id="ref21"><label>21. </label>
+<citation citation-type="journal" id="cit21">
+<name><surname>Thackeray</surname><x>, </x><given-names>M. M.</given-names></name><x>; </x><name><surname>Johnson</surname><x>, </x><given-names>P. J.</given-names></name><x>; </x><name><surname>Depicciotto</surname><x>, </x><given-names>L. A.</given-names></name><x>; </x><name><surname>Bruce</surname><x>, </x><given-names>P. G.</given-names></name><x>; </x><name><surname>Goodenough</surname><x>, </x><given-names>J. B.</given-names></name>
+<source>Mater. Res. Bull.</source><x> </x><year>1984</year><x>, </x><volume>19</volume><x> (</x><issue>2</issue><x>) </x><fpage>179</fpage><x>&ndash;</x><lpage>187</lpage></citation>
+</ref>
+<ref id="ref22"><label>22. </label>
+<citation citation-type="journal" id="cit22">
+<name><surname>Amatucci</surname><x>, </x><given-names>G. G.</given-names></name><x>; </x><name><surname>Schmutz</surname><x>, </x><given-names>C. N.</given-names></name><x>; </x><name><surname>Blyr</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Sigala</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Gozdz</surname><x>, </x><given-names>A. S.</given-names></name><x>; </x><name><surname>Larcher</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Tarascon</surname><x>, </x><given-names>J. M.</given-names></name>
+<source>J. Power Sources</source><x> </x><year>1997</year><x>, </x><volume>69</volume><x> (</x><issue>1&#x2212;2</issue><x>) </x><fpage>11</fpage><x>&ndash;</x><lpage>25</lpage></citation>
+</ref>
+<ref id="ref23"><label>23. </label>
+<citation citation-type="journal" id="cit23">
+<name><surname>Wang</surname><x>, </x><given-names>X. Q.</given-names></name><x>; </x><name><surname>Nakamura</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Yoshio</surname><x>, </x><given-names>M.</given-names></name>
+<source>J. Power Sources</source><x> </x><year>2002</year><x>, </x><volume>110</volume><x> (</x><issue>1</issue>
+<fpage/>
+<note>
+<p>PII S0378&#x2212;7753(02)00213&#x2212;6</p></note>
+</citation>
+</ref>
+<ref id="ref24"><label>24. </label>
+<citation citation-type="journal" id="cit24">
+<name><surname>Wohlfahrt-Mehrens</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Vogler</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Garche</surname><x>, </x><given-names>J.</given-names></name>
+<source>J. Power Sources</source><x> </x><year>2004</year><x>, </x><volume>127</volume><x> (</x><issue>1&#x2212;2</issue><x>) </x><fpage>58</fpage><x>&ndash;</x><lpage>64</lpage></citation>
+</ref>
+<ref id="ref25"><label>25. </label>
+<citation citation-type="journal" id="cit25">
+<name><surname>Xia</surname><x>, </x><given-names>Y. Y.</given-names></name><x>; </x><name><surname>Yoshio</surname><x>, </x><given-names>M.</given-names></name>
+<source>J. Electrochem. Soc.</source><x> </x><year>1996</year><x>, </x><volume>143</volume><x> (</x><issue>3</issue><x>) </x><fpage>825</fpage><x>&ndash;</x><lpage>833</lpage></citation>
+</ref>
+<ref id="ref26"><label>26. </label>
+<citation citation-type="journal" id="cit26">
+<name><surname>Park</surname><x>, </x><given-names>S. C.</given-names></name><x>; </x><name><surname>Han</surname><x>, </x><given-names>Y. S.</given-names></name><x>; </x><name><surname>Kang</surname><x>, </x><given-names>Y. S.</given-names></name><x>; </x><name><surname>Lee</surname><x>, </x><given-names>P. S.</given-names></name><x>; </x><name><surname>Ahn</surname><x>, </x><given-names>S.</given-names></name><x>; </x><name><surname>Lee</surname><x>, </x><given-names>H. M.</given-names></name><x>; </x><name><surname>Lee</surname><x>, </x><given-names>J. Y.</given-names></name>
+<source>J. Electrochem. Soc.</source><x> </x><year>2001</year><x>, </x><volume>148</volume><x> (</x><issue>7</issue><x>) </x><fpage>A680</fpage><x>&ndash;</x><lpage>A686</lpage></citation>
+</ref>
+<ref id="ref27"><label>27. </label>
+<citation citation-type="journal" id="cit27">
+<name><surname>Sun</surname><x>, </x><given-names>Y. K.</given-names></name><x>; </x><name><surname>Hong</surname><x>, </x><given-names>K. J.</given-names></name><x>; </x><name><surname>Prakash</surname><x>, </x><given-names>J.</given-names></name>
+<source>J. Electrochem. Soc.</source><x> </x><year>2003</year><x>, </x><volume>150</volume><x> (</x><issue>7</issue><x>) </x><fpage>A970</fpage><x>&ndash;</x><lpage>A972</lpage></citation>
+</ref>
+<ref id="ref28"><label>28. </label>
+<citation citation-type="journal" id="cit28">
+<name><surname>Thackeray</surname><x>, </x><given-names>M. M.</given-names></name><x>; </x><name><surname>Johnson</surname><x>, </x><given-names>C. S.</given-names></name><x>; </x><name><surname>Kim</surname><x>, </x><given-names>J. S.</given-names></name><x>; </x><name><surname>Lauzze</surname><x>, </x><given-names>K. C.</given-names></name><x>; </x><name><surname>Vaughey</surname><x>, </x><given-names>J. T.</given-names></name><x>; </x><name><surname>Dietz</surname><x>, </x><given-names>N.</given-names></name><x>; </x><name><surname>Abraham</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Hackney</surname><x>, </x><given-names>S. A.</given-names></name><x>; </x><name><surname>Zeltner</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Anderson</surname><x>, </x><given-names>M. A.</given-names></name>
+<source>Electrochem. Commun.</source><x> </x><year>2003</year><x>, </x><volume>5</volume><x> (</x><issue>9</issue><x>) </x><fpage>752</fpage><x>&ndash;</x><lpage>758</lpage></citation>
+</ref>
+<ref id="ref29"><label>29. </label>
+<citation citation-type="journal" id="cit29">
+<name><surname>Choi</surname><x>, </x><given-names>W.</given-names></name><x>; </x><name><surname>Manthiram</surname><x>, </x><given-names>A.</given-names></name>
+<source>J. Electrochem. Soc.</source><x> </x><year>2007</year><x>, </x><volume>154</volume><x> (</x><issue>7</issue><x>) </x><fpage>A614</fpage><x>&ndash;</x><lpage>A618</lpage></citation>
+</ref>
+<ref id="ref30"><label>30. </label>
+<citation citation-type="journal" id="cit30">
+<name><surname>Shin</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Manthiram</surname><x>, </x><given-names>A.</given-names></name>
+<source>Electrochem. Solid State Lett.</source><x> </x><year>2003</year><x>, </x><volume>6</volume><x> (</x><issue>2</issue><x>) </x><fpage>A34</fpage><x>&ndash;</x><lpage>A36</lpage></citation>
+</ref>
+<ref id="ref31"><label>31. </label>
+<citation citation-type="journal" id="cit31">
+<name><surname>Sun</surname><x>, </x><given-names>Y. K.</given-names></name><x>; </x><name><surname>Kim</surname><x>, </x><given-names>D. W.</given-names></name><x>; </x><name><surname>Choi</surname><x>, </x><given-names>Y. M.</given-names></name>
+<source>J. Power Sources</source><x> </x><year>1999</year><x>, </x><volume>79</volume><x> (</x><issue>2</issue><x>) </x><fpage>231</fpage><x>&ndash;</x><lpage>237</lpage></citation>
+</ref>
+<ref id="ref32"><label>32. </label>
+<citation citation-type="journal" id="cit32">
+<name><surname>Lee</surname><x>, </x><given-names>Y. S.</given-names></name><x>; </x><name><surname>Kumada</surname><x>, </x><given-names>N.</given-names></name><x>; </x><name><surname>Yoshio</surname><x>, </x><given-names>M.</given-names></name>
+<source>J. Power Sources</source><x> </x><year>2001</year><x>, </x><volume>96</volume><x> (</x><issue>2</issue><x>) </x><fpage>376</fpage><x>&ndash;</x><lpage>384</lpage></citation>
+</ref>
+<ref id="ref33"><label>33. </label>
+<citation citation-type="journal" id="cit33">
+<name><surname>Zheng</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Yang</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Yu</surname><x>, </x><given-names>B.</given-names></name><x>; </x><name><surname>Song</surname><x>, </x><given-names>X. B.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>X. G.</given-names></name>
+<source>ACS Nano</source><x> </x><year>2008</year><x>, </x><volume>2</volume><x> (</x><issue>1</issue><x>) </x><fpage>134</fpage><x>&ndash;</x><lpage>142</lpage></citation>
+</ref>
+<ref id="ref34"><label>34. </label>
+<citation citation-type="journal" id="cit34">
+<name><surname>Duan</surname><x>, </x><given-names>X. F.</given-names></name><x>; </x><name><surname>Lieber</surname><x>, </x><given-names>C. M.</given-names></name>
+<source>Adv. Mater.</source><x> </x><year>2000</year><x>, </x><volume>12</volume><x> (</x><issue>4</issue><x>) </x><fpage>298</fpage><x>&ndash;</x><lpage>302</lpage></citation>
+</ref>
+<ref id="ref35"><label>35. </label>
+<citation citation-type="journal" id="cit35">
+<name><surname>Lieber</surname><x>, </x><given-names>C. M.</given-names></name>
+<source>Solid State Commun.</source><x> </x><year>1998</year><x>, </x><volume>107</volume><x> (</x><issue>11</issue><x>) </x><fpage>607</fpage><x>&ndash;</x><lpage>616</lpage></citation>
+</ref>
+<ref id="ref36"><label>36. </label>
+<citation citation-type="journal" id="cit36">
+<name><surname>Kim</surname><x>, </x><given-names>D. K.</given-names></name><x>; </x><name><surname>Muralidharan</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Lee</surname><x>, </x><given-names>H. W.</given-names></name><x>; </x><name><surname>Ruffo</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Yang</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Chan</surname><x>, </x><given-names>C. K.</given-names></name><x>; </x><name><surname>Peng</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Huggins</surname><x>, </x><given-names>R. A.</given-names></name><x>; </x><name><surname>Cui</surname><x>, </x><given-names>Y.</given-names></name>
+<source>Nano Lett.</source><x> </x><year>2008</year><x>, </x><volume>8</volume><x> (</x><issue>11</issue><x>) </x><fpage>3948</fpage><x>&ndash;</x><lpage>3952</lpage></citation>
+</ref>
+<ref id="ref37"><label>37. </label>
+<citation citation-type="journal" id="cit37">
+<name><surname>Cho</surname><x>, </x><given-names>J.</given-names></name>
+<source>J. Mater. Chem.</source><x> </x><year>2008</year><x>, </x><volume>18</volume><x> (</x><issue>19</issue><x>) </x><fpage>2257</fpage><x>&ndash;</x><lpage>2261</lpage></citation>
+</ref>
+<ref id="ref38"><label>38. </label>
+<citation citation-type="journal" id="cit38">
+<name><surname>Hosono</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Kudo</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Honma</surname><x>, </x><given-names>I.</given-names></name><x>; </x><name><surname>Matsuda</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Zhou</surname><x>, </x><given-names>H. S.</given-names></name>
+<source>Nano Lett.</source><x> </x><year>2009</year><x>, </x><volume>9</volume><x> (</x><issue>3</issue><x>) </x><fpage>1045</fpage><x>&ndash;</x><lpage>1051</lpage></citation>
+</ref>
+<ref id="ref39"><label>39. </label>
+<citation citation-type="journal" id="cit39">
+<name><surname>Wang</surname><x>, </x><given-names>X.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>Y. D.</given-names></name>
+<source>Chem.&#xe5f8;Eur. J.</source><x> </x><year>2003</year><x>, </x><volume>9</volume><x> (</x><issue>1</issue><x>) </x><fpage>300</fpage><x>&ndash;</x><lpage>306</lpage></citation>
+</ref>
+<ref id="ref40"><label>40. </label>
+<citation citation-type="journal" id="cit40">
+<name><surname>Greedan</surname><x>, </x><given-names>J. E.</given-names></name><x>; </x><name><surname>Raju</surname><x>, </x><given-names>N. P.</given-names></name><x>; </x><name><surname>Wills</surname><x>, </x><given-names>A. S.</given-names></name><x>; </x><name><surname>Morin</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Shaw</surname><x>, </x><given-names>S. M.</given-names></name><x>; </x><name><surname>Reimers</surname><x>, </x><given-names>J. N.</given-names></name>
+<source>Chem. Mater.</source><x> </x><year>1998</year><x>, </x><volume>10</volume><x> (</x><issue>10</issue><x>) </x><fpage>3058</fpage><x>&ndash;</x><lpage>3067</lpage></citation>
+</ref>
+<ref id="ref41"><label>41. </label>
+<citation citation-type="journal" id="cit41">
+<name><surname>Yamaguchi</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Yamada</surname><x>, </x><given-names>A.</given-names></name><x>; </x><name><surname>Uwe</surname><x>, </x><given-names>H.</given-names></name>
+<source>Phys. Rev. B</source><x> </x><year>1998</year><x>, </x><volume>58</volume><x> (</x><issue>1</issue><x>) </x><fpage>8</fpage><x>&ndash;</x><lpage>11</lpage></citation>
+</ref>
+<ref id="ref42"><label>42. </label>
+<citation citation-type="journal" id="cit42">
+<name><surname>Sarre</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Blanchard</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>Broussely</surname><x>, </x><given-names>M.</given-names></name>
+<source>J. Power Sources</source><x> </x><year>2004</year><x>, </x><volume>127</volume><x> (</x><issue>1&#x2212;2</issue><x>) </x><fpage>65</fpage><x>&ndash;</x><lpage>71</lpage></citation>
+</ref>
+<ref id="ref43"><label>43. </label>
+<citation citation-type="journal" id="cit43">
+<name><surname>Arora</surname><x>, </x><given-names>P.</given-names></name><x>; </x><name><surname>White</surname><x>, </x><given-names>R. E.</given-names></name><x>; </x><name><surname>Doyle</surname><x>, </x><given-names>M.</given-names></name>
+<source>J. Electrochem. Soc.</source><x> </x><year>1998</year><x>, </x><volume>145</volume><x> (</x><issue>10</issue><x>) </x><fpage>3647</fpage><x>&ndash;</x><lpage>3667</lpage></citation>
+</ref>
+<ref id="ref44"><label>44. </label>
+<citation citation-type="journal" id="cit44">
+<name><surname>Bao</surname><x>, </x><given-names>S. J.</given-names></name><x>; </x><name><surname>Liang</surname><x>, </x><given-names>Y. Y.</given-names></name><x>; </x><name><surname>Zhou</surname><x>, </x><given-names>W. H.</given-names></name><x>; </x><name><surname>He</surname><x>, </x><given-names>B. L.</given-names></name><x>; </x><name><surname>Li</surname><x>, </x><given-names>H. L.</given-names></name>
+<source>J. Power Sources</source><x> </x><year>2006</year><x>, </x><volume>154</volume><x> (</x><issue>1</issue><x>) </x><fpage>239</fpage><x>&ndash;</x><lpage>245</lpage></citation>
+</ref>
+<ref id="ref45"><label>45. </label>
+<citation citation-type="journal" id="cit45">
+<name><surname>Shaju</surname><x>, </x><given-names>K. M.</given-names></name><x>; </x><name><surname>Bruce</surname><x>, </x><given-names>P. G.</given-names></name>
+<source>Chem. Mater.</source><x> </x><year>2008</year><x>, </x><volume>20</volume><x> (</x><issue>17</issue><x>) </x><fpage>5557</fpage><x>&ndash;</x><lpage>5562</lpage></citation>
+</ref>
+<ref id="ref46"><label>46. </label>
+<citation citation-type="journal" id="cit46">
+<name><surname>Tachibana</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Tojo</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Kawaji</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Atake</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Yonemura</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Kanno</surname><x>, </x><given-names>R.</given-names></name>
+<source>Phys. Rev. B</source><x> </x><year>2003</year><x>, </x><volume>68</volume><x> (</x><issue>9</issue>
+<fpage/></citation>
+</ref>
+<ref id="ref47"><label>47. </label>
+<citation citation-type="journal" id="cit47">
+<name><surname>Rodriguez-Carvajal</surname><x>, </x><given-names>J.</given-names></name><x>; </x><name><surname>Rousse</surname><x>, </x><given-names>G.</given-names></name><x>; </x><name><surname>Masquelier</surname><x>, </x><given-names>C.</given-names></name><x>; </x><name><surname>Hervieu</surname><x>, </x><given-names>M.</given-names></name>
+<source>Phys. Rev. Lett.</source><x> </x><year>1998</year><x>, </x><volume>81</volume><x> (</x><issue>21</issue><x>) </x><fpage>4660</fpage><x>&ndash;</x><lpage>4663</lpage></citation>
+</ref>
+<ref id="ref48"><label>48. </label>
+<citation citation-type="journal" id="cit48">
+<name><surname>Dygas</surname><x>, </x><given-names>J. R.</given-names></name><x>; </x><name><surname>Kopec</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Krok</surname><x>, </x><given-names>F.</given-names></name><x>; </x><name><surname>Lisovytskiy</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Pielaszek</surname><x>, </x><given-names>J.</given-names></name>
+<source>Solid State Ionics</source><x> </x><year>2005</year><x>, </x><volume>176</volume><x> (</x><issue>25&#x2212;28</issue><x>) </x><fpage>2153</fpage><x>&ndash;</x><lpage>2161</lpage></citation>
+</ref>
+<ref id="ref49"><label>49. </label>
+<citation citation-type="journal" id="cit49">
+<name><surname>Dziembaj</surname><x>, </x><given-names>R.</given-names></name><x>; </x><name><surname>Molenda</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Majda</surname><x>, </x><given-names>D.</given-names></name><x>; </x><name><surname>Walas</surname><x>, </x><given-names>S.</given-names></name>
+<source>Solid State Ionics</source><x> </x><year>2003</year><x>, </x><volume>157</volume><x> (</x><issue>1&#x2212;4</issue>
+<fpage/>
+<note>
+<p>PII S0167&#x2212;2738(02)00192&#x2212;3</p></note>
+</citation>
+</ref>
+<ref id="ref50"><label>50. </label>
+<citation citation-type="journal" id="cit50">
+<name><surname>Sato</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Enoki</surname><x>, </x><given-names>T.</given-names></name><x>; </x><name><surname>Isobe</surname><x>, </x><given-names>M.</given-names></name><x>; </x><name><surname>Ueda</surname><x>, </x><given-names>Y.</given-names></name>
+<source>Phys. Rev. B</source><x> </x><year>2000</year><x>, </x><volume>61</volume><x> (</x><issue>5</issue><x>) </x><fpage>3563</fpage><x>&ndash;</x><lpage>3569</lpage></citation>
+</ref>
+<ref id="ref51"><label>51. </label>
+<citation citation-type="journal" id="cit51">
+<name><surname>Iguchi</surname><x>, </x><given-names>E.</given-names></name><x>; </x><name><surname>Tokuda</surname><x>, </x><given-names>Y.</given-names></name><x>; </x><name><surname>Nakatsugawa</surname><x>, </x><given-names>H.</given-names></name><x>; </x><name><surname>Munakata</surname><x>, </x><given-names>F.</given-names></name>
+<source>J. Appl. Phys.</source><x> </x><year>2002</year><x>, </x><volume>91</volume><x> (</x><issue>4</issue><x>) </x><fpage>2149</fpage><x>&ndash;</x><lpage>2154</lpage></citation>
+</ref>
+</ref-list></back>
+</article>
