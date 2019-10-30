@@ -11,10 +11,10 @@ from LimeSoup import (
 )
 import json
 
-with open('data/Elsevier/101016jijhydene201301030.html', 'r', encoding = 'utf-8') as f:
+with open('data/ACS/101021nn403444j.xml', 'r', encoding = 'utf-8') as f:
     html_str = f.read()
 
-data = ElsevierSoup.parse(html_str)
+data = ACSSoup.parse(html_str)
 
-with open('Elsevier_Parsed/new/101016jijhydene201301030.json', 'w', encoding = 'utf-8') as f:
+with open('file_test.json', 'w', encoding = 'utf-8') as f:
     json.dump(data, f, sort_keys=True, indent=4, ensure_ascii=False)
