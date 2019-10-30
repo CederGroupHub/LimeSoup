@@ -68,7 +68,9 @@ class ParserPaper:
     def create_parser_sections(self, soup):
         search_str = re.compile('section_h[1-6]')
         section_tags = soup.find_all(search_str)
-        
+        for s in section_tags:
+            print(s)
+            print('----')
         # Get all sections
         for tag in section_tags:
             name = self.convert_to_text(tag.find('title').text)
