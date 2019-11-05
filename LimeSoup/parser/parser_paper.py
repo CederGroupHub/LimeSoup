@@ -177,14 +177,6 @@ class ParserPaper(object):
             if 'section_h' in tag_next_sibling.name:
                 break
 
-    def operation_tag_remove_space(self, rules):
-        for rule in rules:
-            tags = self.soup.find_all(**rule)
-            for tag in tags:
-                if tag is not None:
-                    if tag.name is not None:
-                        tag.string = tag.get_text().rstrip()
-
     def create_tag_sections(self, rule=None):
         """
         Create the standard tags (<section_#>) using a rule to bs4 find_all()
@@ -220,6 +212,16 @@ class ParserPaper(object):
                 tag.replace_with_children()
                 tags.append(tag.name)
         return tags
+
+    def flatten_tags(self, rules):
+        """
+        Flatten some tags.
+        :param rules: list of rules for bs4 find_all()
+        :return: None
+        """
+        for rule in rules:
+            for tag in self.soup.find_all(**rule):
+                tag.replace_with(' %s ' % tag.get_text())
 
     def change_name_tag_sections(self):
         tags = self.soup.find_all(re.compile('^h[2-6]'))

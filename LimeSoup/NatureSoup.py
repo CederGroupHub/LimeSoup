@@ -1,7 +1,7 @@
 import re
 
 from LimeSoup.lime_soup import Soup, RuleIngredient
-from LimeSoup.parser.paragraphs import extract_paragraphs_recursive, get_tag_text
+from LimeSoup.parser.paragraphs import extract_paragraphs_recursive
 from LimeSoup.parser.parser_paper import ParserPaper
 
 __author__ = 'Jason Madeano, Haoyan Huo'
@@ -29,7 +29,6 @@ class NatureRemoveTagsSmallSub(RuleIngredient):
                  {'name': 'strong'},
                  {'name': 'span', 'class': 'small_caps'}]
 
-        parser.operation_tag_remove_space(rules)
         # Remove some specific all span that are inside of a paragraph 'p'
         parser.strip_tags(rules)
         return parser
