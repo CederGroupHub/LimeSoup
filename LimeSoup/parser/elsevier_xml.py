@@ -78,7 +78,7 @@ def remove_consecutive_whitespaces(string, keep_newline=False):
     st= re.sub(r'[ \t\n]+', sub, string)
     reg = re.compile('\[\d+\]')
     st = reg.sub('', st)
-    st = st.replace(' .', '.').replace(' \xa0and\xa0.', '.').replace('\xa0', '').replace(' , , , , ', '').replace(' , , , ', '').replace(' , , ', '').replace(' ,', ',').replace('and,', ',').replace(',.', '.').replace(' ,', ',').replace('[]', '')
+    st = st.replace(' .', '.').replace(' \xa0and\xa0.', '.').replace('\xa0', '').replace(' , , , , ', '').replace(' , , , ', '').replace(' , , ', '').replace(' ,', ',').replace('and,', ',').replace(',.', '.').replace(' ,', ',').replace('[]', '').replace(' .', '.')
     return st
 
 
