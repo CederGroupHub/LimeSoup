@@ -75,7 +75,11 @@ def remove_consecutive_whitespaces(string, keep_newline=False):
         else:
             return ' '
 
-    return re.sub(r'[ \t\n]+', sub, string)
+    st= re.sub(r'[ \t\n]+', sub, string)
+    reg = re.compile('\[\d+\]')
+    st = reg.sub('', st)
+    st = st.replace(' .', '.').replace(' \xa0and\xa0.', '.').replace('\xa0', '').replace(' , , , , ', '').replace(' , , , ', '').replace(' , , ', '').replace(' ,', ',').replace('and,', ',').replace(',.', '.').replace(' ,', ',').replace('[]', '')
+    return st
 
 
 # Elsevier XML format is defined here:

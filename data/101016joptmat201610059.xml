@@ -1,0 +1,2344 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>http://api.elsevier.com/content/article/pii/S0925346716306255</prism:url><dc:identifier>doi:10.1016/j.optmat.2016.10.059</dc:identifier><eid>1-s2.0-S0925346716306255</eid><prism:doi>10.1016/j.optmat.2016.10.059</prism:doi><pii>S0925-3467(16)30625-5</pii><dc:title>Effect of Zn doping on the photoluminescence properties of LiNbO3 single crystals </dc:title><prism:publicationName>Optical Materials</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><prism:issn>09253467</prism:issn><prism:volume>62</prism:volume><prism:startingPage>639</prism:startingPage><prism:endingPage>645</prism:endingPage><prism:pageRange>639-645</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2016-12-31</prism:coverDate><prism:coverDisplayDate>December 2016</prism:coverDisplayDate><prism:copyright>© 2016 Elsevier B.V. All rights reserved.</prism:copyright><prism:publisher>Elsevier B.V.</prism:publisher><dc:creator>Murillo, J.G.</dc:creator><dc:creator>Herrera, G.</dc:creator><dc:creator>Vega-Rios, A.</dc:creator><dc:creator>Flores-Gallardo, S.</dc:creator><dc:creator>Duarte-Moller, A.</dc:creator><dc:creator>Castillo-Torres, J.</dc:creator><dc:description>
+               Abstract
+               
+                  An extraordinary violet luminescence at 418 nm together with the intrinsic blue band at 440 nm with excitation in the UV region (380 nm) was observed in a series of LiNbO3 single crystals doped with Zn. Structural and photoluminescence properties were studied by Raman, UV reflectance, and fluorospectrometry, respectively. The emission peaks in PL spectra varied in amplitude according to the level of concentration of Zn in LiNbO3 crystals. It was found, from Raman spectroscopy studies, a connection between the appearance of the new emission band centered at 418 nm and a diminishing in the Li concentration in crystals, which suggest the displacement of the Li ions from their regular sites by the Zn ions. The maximum peak intensity of each one of the three PL emission components found from a deconvolution process shows a linear dependence on the Zn concentration present in the crystals studied.
+               
+            </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><dcterms:subject>Lithium niobate</dcterms:subject><dcterms:subject>Zinc doping</dcterms:subject><dcterms:subject>Photoluminescence properties</dcterms:subject><link href="http://api.elsevier.com/content/article/pii/S0925346716306255" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S0925346716306255" rel="scidir"/></coredata><objects><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="158" height="164" size="17382">http://api.elsevier.com/content/object/eid/1-s2.0-S0925346716306255-gr1.sml?httpAccept=%2A%2F%2A</object><object ref="gr2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="201" height="164" size="18033">http://api.elsevier.com/content/object/eid/1-s2.0-S0925346716306255-gr2.sml?httpAccept=%2A%2F%2A</object><object ref="gr3" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="197" height="164" size="18329">http://api.elsevier.com/content/object/eid/1-s2.0-S0925346716306255-gr3.sml?httpAccept=%2A%2F%2A</object><object ref="gr4" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="136" height="163" size="15774">http://api.elsevier.com/content/object/eid/1-s2.0-S0925346716306255-gr4.sml?httpAccept=%2A%2F%2A</object><object ref="gr5" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="88" size="9432">http://api.elsevier.com/content/object/eid/1-s2.0-S0925346716306255-gr5.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="570" height="592" size="111520">http://api.elsevier.com/content/object/eid/1-s2.0-S0925346716306255-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="624" height="508" size="104453">http://api.elsevier.com/content/object/eid/1-s2.0-S0925346716306255-gr2.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="354" height="295" size="58206">http://api.elsevier.com/content/object/eid/1-s2.0-S0925346716306255-gr3.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="602" height="723" size="135945">http://api.elsevier.com/content/object/eid/1-s2.0-S0925346716306255-gr4.jpg?httpAccept=%2A%2F%2A</object><object ref="gr5" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="599" height="240" size="46424">http://api.elsevier.com/content/object/eid/1-s2.0-S0925346716306255-gr5.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2524" height="2622" size="797434">http://api.elsevier.com/content/object/eid/1-s2.0-S0925346716306255-gr1_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2763" height="2251" size="667385">http://api.elsevier.com/content/object/eid/1-s2.0-S0925346716306255-gr2_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1568" height="1307" size="311959">http://api.elsevier.com/content/object/eid/1-s2.0-S0925346716306255-gr3_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2667" height="3203" size="961429">http://api.elsevier.com/content/object/eid/1-s2.0-S0925346716306255-gr4_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr5" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2651" height="1064" size="250664">http://api.elsevier.com/content/object/eid/1-s2.0-S0925346716306255-gr5_lrg.jpg?httpAccept=%2A%2F%2A</object></objects><scopus-id>85003727770</scopus-id><scopus-eid>2-s2.0-85003727770</scopus-eid><link href="http://api.elsevier.com/content/abstract/scopus_id/85003727770" rel="abstract"/><originalText><xocs:doc xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd" xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd">
+   <xocs:meta>
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>271556</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291719</xocs:ssid>
+         <xocs:ssid type="subj">291788</xocs:ssid>
+         <xocs:ssid type="subj">291821</xocs:ssid>
+         <xocs:ssid type="subj">291892</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Optical Materials</xocs:srctitle>
+      <xocs:normalized-srctitle>OPTICALMATERIALS</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20161111">2016-11-11</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20161111">2016-11-11</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20161209">2016-12-09</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20161209">2016-12-09</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2016-12-08T21:55:46</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S0925346716306255</xocs:eid>
+      <xocs:pii-formatted>S0925-3467(16)30625-5</xocs:pii-formatted>
+      <xocs:pii-unformatted>S0925346716306255</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.optmat.2016.10.059</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.1</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S0925346716X00109</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20161209">2016-12-09T03:05:20.442167-05:00</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20161201</xocs:date-search-begin>
+      <xocs:date-search-end>20161231</xocs:date-search-end>
+      <xocs:year-nav>2016</xocs:year-nav>
+      <xocs:indexeddate epoch="1478873077">2016-11-11T14:04:37.578551Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor highlightsabst primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>0925-3467</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>09253467</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>62</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>62</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 62</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>92</xocs:sort-order>
+      <xocs:first-fp>639</xocs:first-fp>
+      <xocs:last-lp>645</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>639</xocs:first-page>
+         <xocs:last-page>645</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201612</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>December 2016</xocs:cover-date-text>
+      <xocs:cover-date-start>2016-12-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2016-12-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2016</xocs:cover-date-year>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Regular Articles</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 2016 Elsevier B.V. All rights reserved.</xocs:copyright-line>
+      <xocs:normalized-article-title>EFFECTZNDOPINGPHOTOLUMINESCENCEPROPERTIESLINBO3SINGLECRYSTALS</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>MURILLO</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>J</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>1</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Introduction</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>2</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Experimental details</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>3</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Results and discussion</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.1</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Raman spectroscopy</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.2</xocs:item-toc-label>
+               <xocs:item-toc-section-title>UV–Vis–NIR spectroscopy</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.3</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Photoluminescence</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>4</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Conclusions</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>Acknowledgements</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sref1">
+            <xocs:ref-normalized-surname>BUSE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1998</xocs:ref-pub-year>
+            <xocs:ref-first-fp>665</xocs:ref-first-fp>
+            <xocs:ref-last-lp>668</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref2">
+            <xocs:ref-normalized-surname>ARIZMENDI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>253</xocs:ref-first-fp>
+            <xocs:ref-last-lp>283</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref3">
+            <xocs:ref-normalized-surname>SUN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>511</xocs:ref-first-fp>
+            <xocs:ref-last-lp>515</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref4">
+            <xocs:ref-normalized-surname>CHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2002</xocs:ref-pub-year>
+            <xocs:ref-first-fp>400</xocs:ref-first-fp>
+            <xocs:ref-last-lp>404</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref5">
+            <xocs:ref-normalized-surname>POLGAR</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>327</xocs:ref-first-fp>
+            <xocs:ref-last-lp>333</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref6">
+            <xocs:ref-normalized-surname>VOLK</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1996</xocs:ref-pub-year>
+            <xocs:ref-first-fp>291</xocs:ref-first-fp>
+            <xocs:ref-last-lp>300</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref7">
+            <xocs:ref-normalized-surname>QIAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>94101</xocs:ref-first-fp>
+            <xocs:ref-last-lp>94111</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref8">
+            <xocs:ref-normalized-surname>VOLK</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1990</xocs:ref-pub-year>
+            <xocs:ref-first-fp>996</xocs:ref-first-fp>
+            <xocs:ref-last-lp>998</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref9">
+            <xocs:ref-normalized-surname>JAQUE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>19</xocs:ref-first-fp>
+            <xocs:ref-last-lp>21</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref10">
+            <xocs:ref-normalized-surname>VOLK</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1990</xocs:ref-pub-year>
+            <xocs:ref-first-fp>345</xocs:ref-first-fp>
+            <xocs:ref-last-lp>350</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref11">
+            <xocs:ref-normalized-surname>SCHILLER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>425</xocs:ref-first-fp>
+            <xocs:ref-last-lp>429</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref12">
+            <xocs:ref-normalized-surname>KUSHWAHA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3297</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3305</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref13">
+            <xocs:ref-normalized-surname>XU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>144104</xocs:ref-first-fp>
+            <xocs:ref-last-lp>144112</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref14">
+            <xocs:ref-normalized-surname>BHAGAVANNARAYANA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1372</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1376</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref15">
+            <xocs:ref-normalized-surname>CAPMANY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2001</xocs:ref-pub-year>
+            <xocs:ref-first-fp>144</xocs:ref-first-fp>
+            <xocs:ref-last-lp>146</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref16">
+            <xocs:ref-normalized-surname>REPELIN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>819</xocs:ref-first-fp>
+            <xocs:ref-last-lp>825</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref17">
+            <xocs:ref-normalized-surname>SCOTT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>691</xocs:ref-first-fp>
+            <xocs:ref-last-lp>696</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref18">
+            <xocs:ref-normalized-surname>HUANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>126</xocs:ref-first-fp>
+            <xocs:ref-last-lp>142</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref19">
+            <xocs:ref-normalized-surname>SIDOROV</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>60</xocs:ref-first-fp>
+            <xocs:ref-last-lp>67</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref20">
+            <xocs:ref-normalized-surname>RIDAH</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>9687</xocs:ref-first-fp>
+            <xocs:ref-last-lp>9693</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref21">
+            <xocs:ref-normalized-surname>MIGNIONI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>541</xocs:ref-first-fp>
+            <xocs:ref-last-lp>546</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref22">
+            <xocs:ref-normalized-surname>SCHLARB</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1993</xocs:ref-pub-year>
+            <xocs:ref-first-fp>311</xocs:ref-first-fp>
+            <xocs:ref-last-lp>315</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>U</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref23">
+            <xocs:ref-normalized-surname>SIDOROV</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2003</xocs:ref-pub-year>
+            <xocs:ref-first-fp>311</xocs:ref-first-fp>
+            <xocs:ref-last-lp>320</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref24">
+            <xocs:ref-normalized-surname>KUSHWAHA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1054</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1061</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref25">
+            <xocs:ref-normalized-surname>CASTILLOTORRES</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>107</xocs:ref-first-fp>
+            <xocs:ref-last-lp>109</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref26">
+            <xocs:ref-normalized-surname>ZHEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2002</xocs:ref-pub-year>
+            <xocs:ref-first-fp>976</xocs:ref-first-fp>
+            <xocs:ref-last-lp>982</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref27">
+            <xocs:ref-normalized-surname>GUNTER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>PHOTOREFRACTIVEMATERIALSAPPLICATIONS</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref28">
+            <xocs:ref-normalized-surname>BLASSE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1986</xocs:ref-pub-year>
+            <xocs:ref-first-fp>481</xocs:ref-first-fp>
+            <xocs:ref-last-lp>484</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref29">
+            <xocs:ref-normalized-surname>TOWNSEND</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2002</xocs:ref-pub-year>
+            <xocs:ref-first-fp>185</xocs:ref-first-fp>
+            <xocs:ref-last-lp>187</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>LUMINESCENCELINBO3</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref30">
+            <xocs:ref-normalized-surname>TUMULURI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3371</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3377</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref31">
+            <xocs:ref-normalized-surname>BRIDGES</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>064107</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref32">
+            <xocs:ref-normalized-surname>HAYCOCK</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1987</xocs:ref-pub-year>
+            <xocs:ref-first-fp>319</xocs:ref-first-fp>
+            <xocs:ref-last-lp>327</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref33">
+            <xocs:ref-normalized-surname>PANKRATOV</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>241</xocs:ref-first-fp>
+            <xocs:ref-last-lp>250</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>V</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref34">
+            <xocs:ref-normalized-surname>CAPMANY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1374</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1376</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>MURILLOX2016X639</xocs:refkey3>
+         <xocs:refkey4lp>MURILLOX2016X639X645</xocs:refkey4lp>
+         <xocs:refkey4ai>MURILLOX2016X639XJ</xocs:refkey4ai>
+         <xocs:refkey5>MURILLOX2016X639X645XJ</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+      </xocs:open-access>
+      <xocs:self-archiving>
+         <xocs:sa-start-date>2018-12-09T00:00:00.000Z</xocs:sa-start-date>
+         <xocs:sa-embargo-status>UnderEmbargo</xocs:sa-embargo-status>
+         <xocs:sa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:sa-user-license>
+      </xocs:self-archiving>
+      <xocs:copyright-info>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2016 Elsevier B.V. All rights reserved.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S0925-3467(16)30625-5</xocs:pii-formatted>
+         <xocs:pii-unformatted>S0925346716306255</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S0925346716306255</xocs:eid>
+         <xocs:doi>10.1016/j.optmat.2016.10.059</xocs:doi>
+         <xocs:cid>271556</xocs:cid>
+         <xocs:timestamp>2016-12-08T21:28:36.372473-05:00</xocs:timestamp>
+         <xocs:cover-date-start>2016-12-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2016-12-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S0925346716306255-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0925346716306255/MAIN/application/pdf/de73b9f0f7c6ea7becbf86f062f5e19f/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0925346716306255/MAIN/application/pdf/de73b9f0f7c6ea7becbf86f062f5e19f/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>1842408</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>7</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S0925346716306255-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0925346716306255/PREVIEW/image/png/1fc255071cd8fddfa34b162c1f465295/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0925346716306255/PREVIEW/image/png/1fc255071cd8fddfa34b162c1f465295/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>55886</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0925346716306255-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0925346716306255/gr1/THUMBNAIL/image/gif/d29d8c4820791bad49cc2f80544a9595/gr1.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0925346716306255/gr1/THUMBNAIL/image/gif/d29d8c4820791bad49cc2f80544a9595/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>17382</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>158</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0925346716306255-gr2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0925346716306255/gr2/THUMBNAIL/image/gif/98e58462dd4e86db505578f18c7b8f6a/gr2.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0925346716306255/gr2/THUMBNAIL/image/gif/98e58462dd4e86db505578f18c7b8f6a/gr2.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>18033</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>201</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0925346716306255-gr3.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0925346716306255/gr3/THUMBNAIL/image/gif/1bb629b09669f4b20a7191823e9f4b7c/gr3.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0925346716306255/gr3/THUMBNAIL/image/gif/1bb629b09669f4b20a7191823e9f4b7c/gr3.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>18329</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>197</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0925346716306255-gr4.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0925346716306255/gr4/THUMBNAIL/image/gif/522baffedaf33aec980d34c3216e4a5b/gr4.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0925346716306255/gr4/THUMBNAIL/image/gif/522baffedaf33aec980d34c3216e4a5b/gr4.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>15774</xocs:filesize>
+               <xocs:pixel-height>163</xocs:pixel-height>
+               <xocs:pixel-width>136</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0925346716306255-gr5.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0925346716306255/gr5/THUMBNAIL/image/gif/494e3303e90a5d6cb8a4450c4ca80e04/gr5.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0925346716306255/gr5/THUMBNAIL/image/gif/494e3303e90a5d6cb8a4450c4ca80e04/gr5.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>9432</xocs:filesize>
+               <xocs:pixel-height>88</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0925346716306255-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0925346716306255/gr1/DOWNSAMPLED/image/jpeg/e7595205c14e010c9a2661ae025286de/gr1.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0925346716306255/gr1/DOWNSAMPLED/image/jpeg/e7595205c14e010c9a2661ae025286de/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>111520</xocs:filesize>
+               <xocs:pixel-height>592</xocs:pixel-height>
+               <xocs:pixel-width>570</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0925346716306255-gr2.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0925346716306255/gr2/DOWNSAMPLED/image/jpeg/e88a32bf231ebdc6514ffbf589c08811/gr2.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0925346716306255/gr2/DOWNSAMPLED/image/jpeg/e88a32bf231ebdc6514ffbf589c08811/gr2.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>104453</xocs:filesize>
+               <xocs:pixel-height>508</xocs:pixel-height>
+               <xocs:pixel-width>624</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0925346716306255-gr3.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0925346716306255/gr3/DOWNSAMPLED/image/jpeg/ee682c1783e5e012f687bc19c873ee2a/gr3.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0925346716306255/gr3/DOWNSAMPLED/image/jpeg/ee682c1783e5e012f687bc19c873ee2a/gr3.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>58206</xocs:filesize>
+               <xocs:pixel-height>295</xocs:pixel-height>
+               <xocs:pixel-width>354</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0925346716306255-gr4.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0925346716306255/gr4/DOWNSAMPLED/image/jpeg/29c5137b65b62e2213b66fb0b1a315fd/gr4.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0925346716306255/gr4/DOWNSAMPLED/image/jpeg/29c5137b65b62e2213b66fb0b1a315fd/gr4.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>135945</xocs:filesize>
+               <xocs:pixel-height>723</xocs:pixel-height>
+               <xocs:pixel-width>602</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0925346716306255-gr5.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0925346716306255/gr5/DOWNSAMPLED/image/jpeg/e42732c301f3183a77f322c01464f640/gr5.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0925346716306255/gr5/DOWNSAMPLED/image/jpeg/e42732c301f3183a77f322c01464f640/gr5.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>46424</xocs:filesize>
+               <xocs:pixel-height>240</xocs:pixel-height>
+               <xocs:pixel-width>599</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0925346716306255-gr1_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0925346716306255/gr1/HIGHRES/image/jpeg/df685e6d50a8958b449c6a38cb2e18f3/gr1_lrg.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0925346716306255/gr1/HIGHRES/image/jpeg/df685e6d50a8958b449c6a38cb2e18f3/gr1_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>797434</xocs:filesize>
+               <xocs:pixel-height>2622</xocs:pixel-height>
+               <xocs:pixel-width>2524</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0925346716306255-gr2_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0925346716306255/gr2/HIGHRES/image/jpeg/cb8ede2d54e3108160b45feffb2a9179/gr2_lrg.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0925346716306255/gr2/HIGHRES/image/jpeg/cb8ede2d54e3108160b45feffb2a9179/gr2_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>667385</xocs:filesize>
+               <xocs:pixel-height>2251</xocs:pixel-height>
+               <xocs:pixel-width>2763</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0925346716306255-gr3_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0925346716306255/gr3/HIGHRES/image/jpeg/ad8171065c643c6b929239d3732aff61/gr3_lrg.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0925346716306255/gr3/HIGHRES/image/jpeg/ad8171065c643c6b929239d3732aff61/gr3_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>311959</xocs:filesize>
+               <xocs:pixel-height>1307</xocs:pixel-height>
+               <xocs:pixel-width>1568</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0925346716306255-gr4_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0925346716306255/gr4/HIGHRES/image/jpeg/4f6e41dbd00efe01508e0255c6f55dda/gr4_lrg.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0925346716306255/gr4/HIGHRES/image/jpeg/4f6e41dbd00efe01508e0255c6f55dda/gr4_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>961429</xocs:filesize>
+               <xocs:pixel-height>3203</xocs:pixel-height>
+               <xocs:pixel-width>2667</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0925346716306255-gr5_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0925346716306255/gr5/HIGHRES/image/jpeg/6fbe0f0cac428d19541bd0062e47ab81/gr5_lrg.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0925346716306255/gr5/HIGHRES/image/jpeg/6fbe0f0cac428d19541bd0062e47ab81/gr5_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>250664</xocs:filesize>
+               <xocs:pixel-height>1064</xocs:pixel-height>
+               <xocs:pixel-width>2651</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta>
+   <xocs:serial-item>
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="fla" version="5.4" xml:lang="en">
+         <item-info>
+            <jid>OPTMAT</jid>
+            <aid>7318</aid>
+            <ce:pii>S0925-3467(16)30625-5</ce:pii>
+            <ce:doi>10.1016/j.optmat.2016.10.059</ce:doi>
+            <ce:copyright type="full-transfer" year="2016">Elsevier B.V.</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig1">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption id="cap0010">
+                  <ce:simple-para id="fspara0010" view="all">(a) Raman spectra for the LN crystals at different concentrations of Zn in melt; (b) magnified view of the peaks at 150 cm<ce:sup loc="post">−</ce:sup>
+                     <ce:sup loc="post">1</ce:sup> and (c) 878 cm<ce:sup loc="post">−1</ce:sup>, respectively.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text role="short" id="alttext0010">Fig. 1</ce:alt-text>
+               <ce:link locator="gr1" xlink:type="simple" xlink:href="pii:S0925346716306255/gr1"/>
+            </ce:figure>
+            <ce:figure id="fig2">
+               <ce:label>Fig. 2</ce:label>
+               <ce:caption id="cap0015">
+                  <ce:simple-para id="fspara0015" view="all">(a) Optical transmittance spectra, (b) optical reflectance spectra, (c) (αhʋ)<ce:sup loc="post">2</ce:sup> vs hʋ spectra for the calculation of direct band gap of Zn-doped LN single crystals, (d) dependence of energy band gap on the Zn concentration in melt.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text role="short" id="alttext0015">Fig. 2</ce:alt-text>
+               <ce:link locator="gr2" xlink:type="simple" xlink:href="pii:S0925346716306255/gr2"/>
+            </ce:figure>
+            <ce:figure id="fig3">
+               <ce:label>Fig. 3</ce:label>
+               <ce:caption id="cap0020">
+                  <ce:simple-para id="fspara0020" view="all">PL spectra of LN single crystals for different concentration of Zn, the excitation spectrum centered at wavelength of 380 nm is also shown.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text role="short" id="alttext0020">Fig. 3</ce:alt-text>
+               <ce:link locator="gr3" xlink:type="simple" xlink:href="pii:S0925346716306255/gr3"/>
+            </ce:figure>
+            <ce:figure id="fig4">
+               <ce:label>Fig. 4</ce:label>
+               <ce:caption id="cap0025">
+                  <ce:simple-para id="fspara0025" view="all">Deconvoluted PL spectra of LN single crystals for different concentration of Zn in melt; (a) 5.0 mol %, (b) 5.5 mol %, (c) 6.5 mol %, (d) 7.0 mol %, (e) 7.5mol %, and (f) 9.0 mol %.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text role="short" id="alttext0025">Fig. 4</ce:alt-text>
+               <ce:link locator="gr4" xlink:type="simple" xlink:href="pii:S0925346716306255/gr4"/>
+            </ce:figure>
+            <ce:figure id="fig5">
+               <ce:label>Fig. 5</ce:label>
+               <ce:caption id="cap0030">
+                  <ce:simple-para id="fspara0030" view="all">(a) Maximum peak intensity corresponding to the emission components centered at 418, 440 and 488 nm, obtained from the deconvolution process, as a function of the Zn concentration aggregated in congruent melt in crystals, (b) contribution of each one of the emission components (418, 440 and 488 nm) to the overall emission peak for each one of crystals. This means, the area under the curve that describes each one of the emission components compared in percentage to the area under the curve of the corresponding overall emission.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text role="short" id="alttext0030">Fig. 5</ce:alt-text>
+               <ce:link locator="gr5" xlink:type="simple" xlink:href="pii:S0925346716306255/gr5"/>
+            </ce:figure>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="tbl1" frame="topbot" colsep="0" rowsep="0">
+               <ce:label>Table 1</ce:label>
+               <ce:caption id="cap0035">
+                  <ce:simple-para id="tspara0010" view="all">Left column represents ZnO concentration aggregated in congruent melt for growing LiNbO<ce:inf loc="post">3</ce:inf> crystals. In right column, ZnO content incorporated in each sample.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text role="short" id="alttext0035">Table 1</ce:alt-text>
+               <tgroup cols="2">
+                  <colspec colnum="1" colname="col1"/>
+                  <colspec colnum="2" colname="col2"/>
+                  <thead>
+                     <row rowsep="1" valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">ZnO in melt (mol %)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">Zn in crystal (mol %)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">5.0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">0.4718</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">5.5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">0.5345</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">6.5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">0.5549</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">7.0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">0.5359</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">7.5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">0.5669</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">9.0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">0.5935</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="tbl2" frame="topbot" colsep="0" rowsep="0">
+               <ce:label>Table 2</ce:label>
+               <ce:caption id="cap0040">
+                  <ce:simple-para id="tspara0015" view="all">Line widths (FWHM) of E(TO) and A1(LO) Raman modes, Li concentration (CLi), and the Li/Nb ratio.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text role="short" id="alttext0040">Table 2</ce:alt-text>
+               <tgroup cols="7">
+                  <colspec colnum="1" colname="col1"/>
+                  <colspec colnum="2" colname="col2"/>
+                  <colspec colnum="3" colname="col3"/>
+                  <colspec colnum="4" colname="col4"/>
+                  <colspec colnum="5" colname="col5"/>
+                  <colspec colnum="6" colname="col6"/>
+                  <colspec colnum="7" colname="col7"/>
+                  <thead>
+                     <row rowsep="1" valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">ZnO concentration (mol%)/vibrational mode</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">5.5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">6.5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">7</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">7.5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">9</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">Γ<inf loc="post">E(TO)</inf> (cm<sup loc="post">−1</sup>)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">15.4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">15.5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">16.2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">16.8</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">17.5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">17.1</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">Γ<inf loc="post">A1(LO)</inf> (cm<sup loc="post">−1</sup>)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">34.0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">27.6</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">28.6</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">25.7</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">30.1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">35.8</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">C<inf loc="post">Li</inf> (mol %) <inf loc="post">E(TO)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">45.7</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">45.7</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">45.3</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">45.0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">44.7</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">44.9</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">C<inf loc="post">Li</inf> (mol %) <inf loc="post">A1(LO)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">47.0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">48.2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">48.0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">48.6</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">47.7</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">46.7</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">Li/Nb</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">0.941</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">0.964</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">0.961</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">0.972</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">0.954</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd">0.934</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+         </ce:floats>
+         <head>
+            <ce:title id="title0010">Effect of Zn doping on the photoluminescence properties of LiNbO<ce:inf loc="post">3</ce:inf> single crystals</ce:title>
+            <ce:author-group id="augrp0010">
+               <ce:author id="au1" author-id="S0925346716306255-c6f20a921a8f0ecd77952eccd9cfe281">
+                  <ce:given-name>J.G.</ce:given-name>
+                  <ce:surname>Murillo</ce:surname>
+                  <ce:cross-ref refid="aff1" id="crosref0010">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="cor1" id="crosref0015">
+                     <ce:sup loc="post">∗</ce:sup>
+                  </ce:cross-ref>
+                  <ce:e-address type="email" id="eadd0010">jose.murillo@cimav.edu.mx</ce:e-address>
+               </ce:author>
+               <ce:author id="au2" author-id="S0925346716306255-3b4762297fb5baa9dabee4acf3f45d00">
+                  <ce:given-name>G.</ce:given-name>
+                  <ce:surname>Herrera</ce:surname>
+                  <ce:cross-ref refid="aff2" id="crosref0020">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au3" author-id="S0925346716306255-d5176f948775fafb4d6525585ccc2826">
+                  <ce:given-name>A.</ce:given-name>
+                  <ce:surname>Vega-Rios</ce:surname>
+                  <ce:cross-ref refid="aff1" id="crosref0025">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au4" author-id="S0925346716306255-6ce5dcbb8416a552e31a019009712ede">
+                  <ce:given-name>S.</ce:given-name>
+                  <ce:surname>Flores-Gallardo</ce:surname>
+                  <ce:cross-ref refid="aff1" id="crosref0030">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au5" author-id="S0925346716306255-423bc04ecd27e3d35912d52a57229a8e">
+                  <ce:given-name>A.</ce:given-name>
+                  <ce:surname>Duarte-Moller</ce:surname>
+                  <ce:cross-ref refid="aff1" id="crosref0035">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au6" author-id="S0925346716306255-bd6d1e102d32f6767916a30c72b13bab">
+                  <ce:given-name>J.</ce:given-name>
+                  <ce:surname>Castillo-Torres</ce:surname>
+                  <ce:cross-ref refid="aff3" id="crosref0040">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="aff1">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>Centro de Investigación en Materiales Avanzados S. C., Miguel de Cervantes 120, Chihuahua 31136, Chihuahua, Mexico</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Centro de Investigación en Materiales Avanzados S. C.</sa:organization>
+                     <sa:address-line>Miguel de Cervantes 120</sa:address-line>
+                     <sa:city>Chihuahua</sa:city>
+                     <sa:state>Chihuahua</sa:state>
+                     <sa:postal-code>31136</sa:postal-code>
+                     <sa:country>Mexico</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff2">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>Cátedra CONACYT Assigned to Department of Physics of Materials, Centro de Investigación en Materiales Avanzados S. C., Miguel de Cervantes 120, Chihuahua 31136, Chihuahua, Mexico</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Cátedra CONACYT Assigned to Department of Physics of Materials</sa:organization>
+                     <sa:organization>Centro de Investigación en Materiales Avanzados S. C.</sa:organization>
+                     <sa:address-line>Miguel de Cervantes 120</sa:address-line>
+                     <sa:city>Chihuahua</sa:city>
+                     <sa:state>Chihuahua</sa:state>
+                     <sa:postal-code>31136</sa:postal-code>
+                     <sa:country>Mexico</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff3">
+                  <ce:label>c</ce:label>
+                  <ce:textfn>Instituto de Física y Matemáticas, Universidad Tecnológica de la Mixteca, Huajuapan de León, Oaxaca, Mexico</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Instituto de Física y Matemáticas</sa:organization>
+                     <sa:organization>Universidad Tecnológica de la Mixteca</sa:organization>
+                     <sa:city>Huajuapan de León</sa:city>
+                     <sa:state>Oaxaca</sa:state>
+                     <sa:country>Mexico</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:correspondence id="cor1">
+                  <ce:label>∗</ce:label>
+                  <ce:text>Corresponding author.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="5" month="7" year="2016"/>
+            <ce:date-revised day="26" month="9" year="2016"/>
+            <ce:date-accepted day="31" month="10" year="2016"/>
+            <ce:abstract xml:lang="en" id="abs0010" view="all" class="author">
+               <ce:section-title id="sectitle0010">Abstract</ce:section-title>
+               <ce:abstract-sec id="abssec0010" view="all">
+                  <ce:simple-para id="abspara0010" view="all">An extraordinary violet luminescence at 418 nm together with the intrinsic blue band at 440 nm with excitation in the UV region (380 nm) was observed in a series of LiNbO<ce:inf loc="post">3</ce:inf> single crystals doped with Zn. Structural and photoluminescence properties were studied by Raman, UV reflectance, and fluorospectrometry, respectively. The emission peaks in PL spectra varied in amplitude according to the level of concentration of Zn in LiNbO<ce:inf loc="post">3</ce:inf> crystals. It was found, from Raman spectroscopy studies, a connection between the appearance of the new emission band centered at 418 nm and a diminishing in the Li concentration in crystals, which suggest the displacement of the Li ions from their regular sites by the Zn ions. The maximum peak intensity of each one of the three PL emission components found from a deconvolution process shows a linear dependence on the Zn concentration present in the crystals studied.</ce:simple-para>
+               </ce:abstract-sec>
+            </ce:abstract>
+            <ce:abstract class="author-highlights" xml:lang="en" id="abs0015" view="all">
+               <ce:section-title id="sectitle0015">Highlights</ce:section-title>
+               <ce:abstract-sec id="abssec0015" view="all">
+                  <ce:simple-para id="abspara0015" view="all">
+                     <ce:list id="ulist0010">
+                        <ce:list-item id="u0010">
+                           <ce:label>•</ce:label>
+                           <ce:para id="p0010" view="all">The Zn doping in LiNbO<ce:inf loc="post">3</ce:inf> crystals induces a new and strong emission violet band centered at 418 nm.</ce:para>
+                        </ce:list-item>
+                        <ce:list-item id="u0015">
+                           <ce:label>•</ce:label>
+                           <ce:para id="p0015" view="all">A linear dependence of the photoluminescence components on the Zn concentration in LiNbO<ce:inf loc="post">3</ce:inf> was found.</ce:para>
+                        </ce:list-item>
+                        <ce:list-item id="u0020">
+                           <ce:label>•</ce:label>
+                           <ce:para id="p0020" view="all">A diminishing in Li concentration in LiNbO<ce:inf loc="post">3</ce:inf> with an increasing in Zn concentration was determined.</ce:para>
+                        </ce:list-item>
+                     </ce:list>
+                  </ce:simple-para>
+               </ce:abstract-sec>
+            </ce:abstract>
+            <ce:keywords xml:lang="en" id="kwrds0010" view="all" class="keyword">
+               <ce:section-title id="sectitle0020">Keywords</ce:section-title>
+               <ce:keyword id="kwrd0010">
+                  <ce:text>Lithium niobate</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kwrd0015">
+                  <ce:text>Zinc doping</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kwrd0020">
+                  <ce:text>Photoluminescence properties</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:section id="sec1" role="introduction" view="all">
+                  <ce:label>1</ce:label>
+                  <ce:section-title id="sectitle0025">Introduction</ce:section-title>
+                  <ce:para id="p0025" view="all">Lithium niobate (LiNbO<ce:inf loc="post">3</ce:inf>; LN) is a photorefractive material with excellent pyroelectric, piezoelectric, and strong non-linear optical properties with high potential in advanced photonic applications including the store and process of information <ce:cross-refs refid="bib1 bib2" id="crosrefs0010">[1,2]</ce:cross-refs>. This ferroelectric material, at room temperature has a characteristic rhombohedral structure rather than the perovskite structure. In general, LN crystal is grown from a congruent melting composition (Li/Nb = 48.6:51.4) by the Czochralski method with a great compositional stability during growth <ce:cross-ref refid="bib3" id="crosref0045">[3]</ce:cross-ref>. Although usually a compositional variation along the growth axis occurs in the crystal and affects several of its physical properties. Congruent crystals generally have good optical quality and uniformity. However, they have a nonstoichiometric composition, and Nb anti-site defects occupying Li-ion sites and cation vacancies are always present <ce:cross-ref refid="bib4" id="crosref0050">[4]</ce:cross-ref>. Nevertheless, fortunately, stoichiometric or quasi-stoichiometric crystals have a perfect lattice which is expected to show improved performance in some applications <ce:cross-ref refid="bib5" id="crosref0055">[5]</ce:cross-ref>. Several physical properties, like the phase transition temperature and those related to optics (birefringence and UV band edge) strongly depend on the [Li/Nb] ratio, for this reason is very important to determine its deviation from the unity.</ce:para>
+                  <ce:para id="p0030" view="all">In the optical properties context, LN doped with low concentrations of Zinc (2 mol%) shows an enhancement on the speed of holographic recording which is comparable to that obtained for low-doped LN:Fe <ce:cross-ref refid="bib6" id="crosref0060">[6]</ce:cross-ref>. In addition, the holographic recording in LN:Zn is not accompanied by the photoinduced light scattering, which is characteristic of LiNbO<ce:inf loc="post">3</ce:inf>:Fe that hampers its holographic applications <ce:cross-ref refid="bib6" id="crosref0065">[6]</ce:cross-ref>. Zn doping similarly to In doping makes LN suitable for ultraviolet recording grating applications <ce:cross-ref refid="bib7" id="crosref0070">[7]</ce:cross-ref>. This because both dopants modify efficiently the photo-refraction efficiency and hence improve the data storage capabilities <ce:cross-refs refid="bib6 bib7" id="crosrefs0015">[6,7]</ce:cross-refs>. Instead, Zn doping with high concentrations above 6 mol % in nominal melt in LN crystals significantly improves the optical damage resistance <ce:cross-ref refid="bib8" id="crosref0075">[8]</ce:cross-ref>. This makes LN:Zn crystal a perspective material for the non-linear optical applications <ce:cross-refs refid="bib8 bib9 bib10" id="crosrefs0020">[8–10]</ce:cross-refs>. Zn-doped LN crystals have additional interest due to the possibility of fabrication of planar waveguides by Zn diffusion from ZnO source in congruent LN <ce:cross-ref refid="bib11" id="crosref0080">[11]</ce:cross-ref>. In fact, LN crystals doped with ZnO concentrations in the melt between 5 and 10 mol % are promising for the frequency doubling of 1064 nm radiation exhibiting conversion efficiencies higher than highly-doped LN:Mg <ce:cross-refs refid="bib8 bib10" id="crosrefs0025">[8,10]</ce:cross-refs>.</ce:para>
+                  <ce:para id="p0035" view="all">On the other hand, recently, S. K. Kushwaha et al. made a comparison of structural and vibrational properties between pure and Zn-doped at 1 mol% LN single crystals <ce:cross-ref refid="bib12" id="crosref0085">[12]</ce:cross-ref>. They found that the distribution of dopant ions in the lattice matrix of a host single crystal depends on the concentration, size and ionic state of dopant. In fact, this one is incorporated homogeneously in the lattice only up to certain concentration value <ce:cross-ref refid="bib13" id="crosref0090">[13]</ce:cross-ref>. At higher concentrations of Zn, high strain is developed in the lattice. As a consequence of this process, defects take place which leading to agglomeration of point defects and dislocations <ce:cross-ref refid="bib14" id="crosref0095">[14]</ce:cross-ref>.</ce:para>
+                  <ce:para id="p0040" view="all">In view of the importance of LN single crystals doped with Zn in photonic applications, the main aim of the present work is to study the photoluminescence properties of LN single crystals highly doped with Zn. This because, high concentration of Zn doping in LN crystals improves its non-linear optical properties making it a promising material in integrated optics applications <ce:cross-refs refid="bib9 bib15" id="crosrefs0030">[9,15]</ce:cross-refs>. In fact, it has been reported in the literature, simultaneous generation of red, green, and blue continuous-wave laser radiation in Nd<ce:sup loc="post">3+</ce:sup> doped LN. This due to the multisite character of Nd<ce:sup loc="post">3+</ce:sup> doped LN which gives the possibility of lasing different centers in different channels due to the inhomogeneous broadening character of fluorescent emissions <ce:cross-ref refid="bib15" id="crosref0100">[15]</ce:cross-ref>. Hence, it is important to research the photoluminescence properties of LN doped with Zn, especially because Zn doping could enhances the photoluminescence capabilities of LN in the UV–Vis portion of the electromagnetic spectrum.</ce:para>
+                  <ce:para id="p0045" view="all">This work also reports the spectroscopy analysis of Zn-doping in a range between 5.0 mol% and 9.0 mol% in LN single crystals growth by the Czochralski (CZ) technique. In this work were performed Raman spectra studies to reveal the effect of Zn dopant on the modes of vibration. On the other hand, absorption spectra were obtained from measurement of optical transmission and optical reflectance in the UV–Vis–NIR ranges to evaluate the direct band gap. The stoichiometry (Li/Nb) was evaluated by Raman and UV–Vis spectroscopy. Finally, photoluminescence studies performed with an excitation in the UV region (380 nm) have revealed an extraordinary violet luminescence centered at 418 nm and a blue emission centered at 488 nm in addition to the well-known blue band centered at 440 nm usually present in LN crystals.</ce:para>
+               </ce:section>
+               <ce:section id="sec2" role="materials-methods" view="all">
+                  <ce:label>2</ce:label>
+                  <ce:section-title id="sectitle0030">Experimental details</ce:section-title>
+                  <ce:para id="p0050" view="all">A set of six LiNbO<ce:inf loc="post">3</ce:inf> single crystals with different ZnO concentrations in melt, 5, 5.5,6.5,7,7.5 and 9 mol% were acquired from a commercial supplier (Impex High-Tech, Germany). These samples were grown by the Czochralski method in air. A Li/Nb ratio equal to 0.945 was selected to get a growing process of congruent phase, and the polar axis for each sample was parallel to the pulling direction. The samples were subsequently cut along the crystallographic axes to obtain rectangular shapes with dimensions a × b × c=(8 × 1 × 10) mm<ce:sup loc="post">3</ce:sup> for all crystals.</ce:para>
+                  <ce:para id="p0055" view="all">Raman spectroscopy was performed using a Micro RAMAN Labram HR VIS-633 Horiba model, equipped with an Olympus microscope with a 10× objective, a laser spot diameter ∼15 μm and a CCD detector. The spectra were scanned between 180 and 1000 cm<ce:sup loc="post">−1</ce:sup> with five accumulations using a He–Ne laser at a wavelength of 632.8 nm with a power of 14 mW.</ce:para>
+                  <ce:para id="p0060" view="all">By using UV–Vis–NIR spectroscopy were measured the optical transmission and optical reflectance in the UV–Vis–NIR ranges using a spectrophotometer Agilent Cary 5000. The optical transmittance T was measured at normal incidence while optical reflectance R was measured using an absolute specular reflectance accessory with an incident light at 7° to sample surface. From these measurements was obtained the optical absorption coefficient α of each one of samples in the UV–Vis–NIR ranges using the formula T = (1-R)<ce:sup loc="post">2</ce:sup>exp(-αL) where L is the thickness of the crystal. Next, from the absorption coefficient was evaluated the direct band gap for each one of samples.</ce:para>
+                  <ce:para id="p0065" view="all">Photoluminescence (PL) studies were performed at room temperature using a Horiba spectrofluorometer model Fluorolog-3.</ce:para>
+               </ce:section>
+               <ce:section id="sec3" role="results" view="all">
+                  <ce:label>3</ce:label>
+                  <ce:section-title id="sectitle0035">Results and discussion</ce:section-title>
+                  <ce:para id="p0070" view="all">In the growth process of LN crystals was aggregated a quantity of ZnO powder in the melt at several concentrations. Nevertheless, due to there is a solubility limit in LiNbO<ce:inf loc="post">3</ce:inf>:Zn crystals, the Zn content integrated in each sample is much less than the quantity aggregated in the melt. <ce:cross-ref refid="tbl1" id="crosref0105">Table 1</ce:cross-ref>
+                     <ce:float-anchor refid="tbl1"/> shows the Zn content aggregated in melt as well as the quantity incorporated in each sample which was determined by energy dispersive spectroscopy (EDS) on a scanning electron microscope (SEM).</ce:para>
+                  <ce:section id="sec3.1" view="all">
+                     <ce:label>3.1</ce:label>
+                     <ce:section-title id="sectitle0040">Raman spectroscopy</ce:section-title>
+                     <ce:para id="p0075" view="all">
+                        <ce:cross-ref refid="fig1" id="crosref0110">Fig. 1</ce:cross-ref>
+                        <ce:float-anchor refid="fig1"/> (a) shows the Raman spectra obtained for the six Zn-doped LN single crystals. As is well known, the LN unit cell with 10 atoms has associated 30° of freedom, 27 of which are assigned as phonon modes and the other three as acoustic phonons. The optical modes of LN for R3c symmetry are given by the relation: Γ<ce:inf loc="post">optical</ce:inf> = 4A<ce:inf loc="post">1</ce:inf> + 5A<ce:inf loc="post">2</ce:inf> + 9E <ce:cross-refs refid="bib12 bib16 bib17" id="crosrefs0035">[12,16,17]</ce:cross-refs>. Only A<ce:inf loc="post">1</ce:inf> and E modes are Raman active and therefore only 13 phonon peaks are expected in the spectra as shown with labels at the bottom of <ce:cross-ref refid="fig1" id="crosref0115">Fig. 1</ce:cross-ref> (a). The degeneracy between longitudinal optical (LO) and transverse optical (TO) phonons has been lifted due to the long-range electrostatic fields and the ionic character of LN <ce:cross-ref refid="bib17" id="crosref0120">[17]</ce:cross-ref>. The peak parameters of the Raman spectra are known to be very sensitive to the structural changes of LN crystals, particularly those induced by the deviations from stoichiometry and structural defects <ce:cross-refs refid="bib18 bib19" id="crosrefs0040">[18,19]</ce:cross-refs>. In fact, it can be observed significant differences in the peak intensities of the recorded spectra. For example the intensity of the line at 186 cm<ce:sup loc="post">−1</ce:sup> is said to be strongly dependent on structural defects <ce:cross-ref refid="bib19" id="crosref0125">[19]</ce:cross-ref> and its low intensity for LN may be attributed to the presence of stress in the lattice. The relaxation of the lattice from strains in the Zn-doped LN crystal can lead to increase the intensity of this peak. The increase in the intensity of the other peaks also could have the same origin.</ce:para>
+                     <ce:para id="p0080" view="all">The observed modes in the crystals studied in this work are in agreement with other reports available in the literature <ce:cross-refs refid="bib12 bib17 bib19 bib20 bib21 bib22 bib23" id="crosrefs0045">[12,17,19–23]</ce:cross-refs>. No inconsistency in the spectra due to Zn doping was observed, which reveals no change in the basic structure of the crystal lattice. The E(TO) and A1(LO) modes respectively at ∼150 and ∼878 cm<ce:sup loc="post">−1</ce:sup> are indicated by arrows in <ce:cross-ref refid="fig1" id="crosref0130">Fig. 1</ce:cross-ref> (a). <ce:cross-ref refid="fig1" id="crosref0135">Fig. 1</ce:cross-ref> (b) and (c) show respectively, magnified views of these modes. The determination of Γ as the linewidth (FWHM) in the mode E(TO) and in the mode A1(LO) was useful to evaluate the Li concentration (C<ce:inf loc="post">Li</ce:inf>) by using the empirical formulae: C<ce:inf loc="post">Li</ce:inf>[mol%] = 53.03–0.4739Γ [cm<ce:sup loc="post">−1</ce:sup>] for 150 cm<ce:sup loc="post">−1</ce:sup> and C<ce:inf loc="post">Li</ce:inf>[mol%] = 53.29–0.1837Γ [cm<ce:sup loc="post">−1</ce:sup>] for 878 cm<ce:sup loc="post">−1</ce:sup> 
+                        <ce:cross-ref refid="bib12" id="crosref0140">[12]</ce:cross-ref>. The Γ values determined by the deconvolution of Raman peaks are summarized in <ce:cross-ref refid="tbl2" id="crosref0145">Table 2</ce:cross-ref>
+                        <ce:float-anchor refid="tbl2"/>. The slight variation in Γ is due to the change in translational symmetry perhaps to the presence of point defects (V<ce:inf loc="post">Li</ce:inf>, Nb<ce:inf loc="post">Li</ce:inf> and Zn<ce:inf loc="post">Li</ce:inf> which stand, respectively, for Li vacancies, Nb at Li and Zn at Li). C<ce:inf loc="post">Li</ce:inf> values also are given in <ce:cross-ref refid="tbl2" id="crosref0150">Table 2</ce:cross-ref>. As is usual for a Li/Nb ratio up to 0.946 the LN crystals were termed as congruent, and above 0.970 were termed as stoichiometric.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec3.2" view="all">
+                     <ce:label>3.2</ce:label>
+                     <ce:section-title id="sectitle0045">UV–Vis–NIR spectroscopy</ce:section-title>
+                     <ce:para id="p0085" view="all">UV–Vis spectroscopy studies included measurements of optical transmittance and optical reflectance in the wavelength range from 300 to 3000 nm as shown in <ce:cross-ref refid="fig2" id="crosref0155">Fig. 2</ce:cross-ref>
+                        <ce:float-anchor refid="fig2"/>(a), and (b), respectively. As can be seen in <ce:cross-ref refid="fig2" id="crosref0160">Fig. 2</ce:cross-ref>(a) the LN crystals studied in this work are highly transparent above a wavelength of 350 nm. Next, the transmittance and reflectance were used to obtain the absorption coefficient α which was used to calculate the direct band gaps of Zn-doped LN crystals using the relation: (αhʋ)<ce:sup loc="post">2</ce:sup> = A (Eg - hʋ). Where ʋ is the frequency of incident radiation, and h is the Plank's constant. Eg represents the optical band gap and A is a constant <ce:cross-ref refid="bib24" id="crosref0165">[24]</ce:cross-ref>. <ce:cross-ref refid="fig2" id="crosref0170">Fig. 2</ce:cross-ref>(c) shows the behavior of (αhʋ)<ce:sup loc="post">2</ce:sup> as a function of hʋ. The Eg values were evaluated by extrapolating the linear part of the plots (see solid lines) to the abscissa (hʋ). These values were found in the range between 3.96 and 3.99 eV. Although the band gap energy values found for all crystals were very similar to each other, it was still possible to discern between them. In fact, the maximum experimental error found in the calculation of the band gap energy was estimated in 0.005 eV. <ce:cross-ref refid="fig2" id="crosref0175">Fig. 2</ce:cross-ref> (d) shows the dependence of the energy band gap on the Zn concentration. These slight changes in the energy band gap may be attributed to the distortion of energy band structure. It is known that the optical properties of LN crystals are sensitive to the presence of intrinsic defects, and the structural rearrangement near the defects can change its main non-linear optical effects. In fact, when Nb<ce:inf loc="post">Li</ce:inf> antisites are formed, in order to electrically balance the region, it is very likely to be created near Li-oxygen vacancies, leading to a local structural rearrangement <ce:cross-refs refid="bib25 bib26" id="crosrefs0050">[25,26]</ce:cross-refs>. Since usually the zinc ions substitute the Nb<ce:inf loc="post">L</ce:inf>i antisites <ce:cross-ref refid="bib27" id="crosref0180">[27]</ce:cross-ref> the intrinsic defects of LN crystals are altered, and therefore a modification in the direct optical transition energy values occurs. These results open the possibility that crystals of LN doped with high concentrations of Zn can be used in non-linear optical applications in the UV region of the electromagnetic spectrum.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec3.3" view="all">
+                     <ce:label>3.3</ce:label>
+                     <ce:section-title id="sectitle0050">Photoluminescence</ce:section-title>
+                     <ce:para id="p0090" view="all">It is well known that LN crystals present interesting photoluminescence (PL) properties showing strong and abroad emission bands in the UV–Vis range. In stoichiometric crystals it is usual to observe an intrinsic emission blue band at 440 nm which apparently is independent of the excitation wavelength <ce:cross-refs refid="bib28 bib29" id="crosrefs0055">[28,29]</ce:cross-refs>. In fact, this band occurs in both pure and doped crystals and has its origin in the intrinsic electron (Nb<ce:sup loc="post">4+</ce:sup>) hole (O<ce:sup loc="post">−</ce:sup>) recombination at a regular niobate group <ce:cross-ref refid="bib29" id="crosref0185">[29]</ce:cross-ref>. The origin of photoluminescence in LN single crystals it has been previously explained in terms of charge-transfer in the niobate octahedron, which is strongly affected by the concentrations of Li vacancies <ce:cross-ref refid="bib29" id="crosref0190">[29]</ce:cross-ref>.</ce:para>
+                     <ce:para id="p0095" view="all">On the other hand, it has also been reported in congruent lithium niobate crystals, a strong emission band near 520 nm which appears due to the anti-site defect Nb<ce:inf loc="post">LI</ce:inf>
+                        <ce:sup loc="post">4+</ce:sup> (Nb<ce:sup loc="post">4+</ce:sup> ions located in Li<ce:sup loc="post">+</ce:sup> sites). This explanation is supported by the appearance of PL signal in reduced crystals and in those that have lost lithium by heat treatment or changes in the Li:Nb stoichiometry <ce:cross-ref refid="bib29" id="crosref0195">[29]</ce:cross-ref>. Moreover, a blue emission at 473 nm in pure LN polycrystalline ceramics has been reported using an excitation wavelength of 289 nm <ce:cross-ref refid="bib30" id="crosref0200">[30]</ce:cross-ref>.</ce:para>
+                     <ce:para id="p0100" view="all">In the present work, we have researched the effect of high Zn doping on the PL properties of a series of six LN single crystals. The results of this study show an intense photoluminescence in the violet-green spectral region. A broad emission with two peaks with comparable intensities centered at 418 and 440 nm upon excitation with UV light (380 nm) was observed as shown in <ce:cross-ref refid="fig3" id="crosref0205">Fig. 3</ce:cross-ref>
+                        <ce:float-anchor refid="fig3"/>. The excitation peak centered at a wavelength of 380 nm is also shown in <ce:cross-ref refid="fig3" id="crosref0210">Fig. 3</ce:cross-ref>. Taking into account that the ranges of excitation and emission are overlapping, it seems there are two excitation peaks but there is only one centered at 380 nm. This excitation wavelength was determined as the optimum after to run a 3D series of excitation and emission automatized cycles performed in a Fluorolog Horiba spectrofluorometer. <ce:cross-ref refid="fig3" id="crosref0215">Fig. 3</ce:cross-ref> shows that the intensity of the emission peaks centered at 418 and 440 nm, present in the PL spectrum of all crystals has a nonlinear dependence on the magnitude of Zn concentration. Only in some crystals the intensity of these emission peaks increases as the Zn concentration increases. Nevertheless, the emission peaks reveal shoulders that suggest the presence of several components. In order to determine these constituents of the PL spectra of each one of crystals, a deconvolution process using Gaussian components was carried out after to filter the excitation signal. From this deconvolution process it was found indeed that each one of PL spectrum corresponding to the six crystals under study has the same three emission components centered at 418, 440 and 488 nm, respectively. As can be observed in <ce:cross-ref refid="fig4" id="crosref0220">Fig. 4</ce:cross-ref>
+                        <ce:float-anchor refid="fig4"/>(a)–4(f), all the crystals show the well-known blue band centered at 440 nm, usually present in pure and doped LN crystals, and other two emission components with peaks centered at 418 and 488 nm, respectively. Furthermore, these luminescence emissions appeared at the same wavelengths for all the crystals regardless of each one of them contain a different concentration of Zn. The origin of the emission centered at 418 nm is not clear but can be attributed to the alteration of niobate group by foreign ions of Zn. In fact, from <ce:cross-ref refid="tbl1" id="crosref0225">Table 1</ce:cross-ref> obtained by Raman spectroscopy studies is clear that the Li concentration in crystals calculated from the E(TO) modes decreases as the Zn concentration increases. Thus this suggests that Zn ions tend to displace to the Li ions from their regular sites given rise to the new emission peak centered at 418 nm. In fact, from EXAFS measurements it has been found that Li sites are substituted by Zn atoms independently of its concentration <ce:cross-ref refid="bib31" id="crosref0230">[31]</ce:cross-ref>. In the literature it has been reported the existence of an emission band of photoluminescence centered at 425 nm in pure LN crystals, which is close to the band centered at 418 found in this work, but stimulating the obtained signals with X-rays <ce:cross-ref refid="bib32" id="crosref0235">[32]</ce:cross-ref>. On the other hand, the origin of the emission of the component centered at 488 nm, as it has been explained in the literature can be ascribed to the antisite defect Nb<ce:inf loc="post">LI</ce:inf>
+                        <ce:sup loc="post">4+</ce:sup> 
+                        <ce:cross-ref refid="bib33" id="crosref0240">[33]</ce:cross-ref>.</ce:para>
+                     <ce:para id="p0105" view="all">At this point from the obtained results shown in <ce:cross-ref refid="fig3" id="crosref0245">Fig. 3</ce:cross-ref> it would appear that the variation in the concentration of Zn in LN crystals it does not change its PL properties in a predictable way. However, after to process all the components of PL signal acquired for each one of crystals it can be observed that there is a regular behavior between Zn concentration and the intensity of the corresponding PL signal, as shown in <ce:cross-ref refid="fig5" id="crosref0250">Fig. 5</ce:cross-ref>
+                        <ce:float-anchor refid="fig5"/>(a). It is interesting to observe in <ce:cross-ref refid="fig5" id="crosref0255">Fig. 5</ce:cross-ref>(a) how the maximum peak intensity, corresponding to the emission components centered at 418, 440 and 488 nm obtained from the deconvolution process, increases as the Zn concentration in crystals also increases. In fact, as shown in <ce:cross-ref refid="fig5" id="crosref0260">Fig. 5</ce:cross-ref>(a), in good approximation the maximum peak intensity of each one of PL emission components shows a linear dependence, with a positive slope, on the Zn concentration present in the crystals under study. <ce:cross-ref refid="fig5" id="crosref0265">Fig. 5</ce:cross-ref>(b) shows the contribution of each one of the emission components (418, 440 and 488 nm) to the overall emission peak for each one of crystals. This means, the area under the curve that describes each one of the emission components compared in percentage to the area under the curve of the corresponding overall emission. As can be observed in <ce:cross-ref refid="fig5" id="crosref0270">Fig. 5</ce:cross-ref>(b) the contribution of the component centered 418 nm to the overall emission peak is low and essentially constant as the concentration of zinc in crystals increases. Qualitatively, the contribution percentage of this component to the overall emission peak varies from 6% to 13%. Nevertheless, the contribution to the overall emission peak of each one of the other two components centered at 440 and 488 nm, respectively, is around 50%. Although of course, the contribution of the component centered at 440 nm is slightly higher than the contribution of the component centered at 488 nm as it was expected. In addition, the contribution to the overall emission of both components centered at 440 and 488 nm, respectively, increases slightly as the concentration of zinc in crystals increases.</ce:para>
+                     <ce:para id="p0110" view="all">These results support the possibility that crystals of LN doped with high concentrations of Zn can be used in nonlinear optical applications in the UV–Vis region of the electromagnetic spectrum. One of these applications could be based on the replacement of Mg doping by Zn doping in LN crystals to generate continuous wave laser action at shorter wavelengths than in Yb:LN:MgO crystals <ce:cross-ref refid="bib34" id="crosref0275">[34]</ce:cross-ref>.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="sec4" role="conclusion" view="all">
+                  <ce:label>4</ce:label>
+                  <ce:section-title id="sectitle0055">Conclusions</ce:section-title>
+                  <ce:para id="p0115" view="all">In this work we have found from the obtained results that the high Zn doping in LN crystals improve their photoluminescence properties inducing a new strong emission violet band centered at 418 nm. The series of six LN single crystals studied presented peaks of photoluminescence emission in the violet-green spectral region. All the crystals studied presented the well-known blue band emission centered at 440 nm and other two emission components with peaks centered at 418 and 488 nm, respectively. Furthermore, the new violet emission band centered at 418 nm has intensity very similar to that of the blue emission band centered at 440 nm. As is known, impurities influence the spectra by introducing new luminescence features characteristic of the dopant. The appearance of the emission centered at 418 can be attributed to the alteration of niobate group by foreign ions of Zn. In fact, from the analysis of E(TO) Raman modes obtained by Raman spectroscopy studies performed in this work it was found that the Li concentration in the crystals decreases as the Zn concentration increases. This suggests a displacement of the Li ions from their regular sites by the Zn ions which give rise to the new emission peak centered at 418 nm. Thus the studies of Raman spectroscopy and the fluorospectrometry technique have permitted to connect the structural and PL properties of LN single crystals studied.</ce:para>
+                  <ce:para id="p0120" view="all">These results open the possibility that crystals of LN doped with high concentrations of Zn can be used in photonic applications in the UV–Vis region of the electromagnetic spectrum.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:acknowledgment id="ack0010" view="all">
+               <ce:section-title id="sectitle0060">Acknowledgements</ce:section-title>
+               <ce:para id="p0125" view="all">The authors would like to express their thanks to L. de la Torre-Saenz, Karla Campos, and P. Pizá- Ruiz, from the Laboratorio Nacional de Nanotecnología (NaNoTeCh). G. Herrera-Pérez would like to thank for complementary support SNI I-CONACyT and Cátedra Grant No. <ce:grant-number refid="gs1">2563</ce:grant-number> of <ce:grant-sponsor id="gs1" xlink:type="simple" xlink:role="http://www.elsevier.com/xml/linking-roles/grant-sponsor">CONACyT México</ce:grant-sponsor>.</ce:para>
+            </ce:acknowledgment>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="cebib0010" view="all">
+               <ce:section-title id="sectitle0065">References</ce:section-title>
+               <ce:bibliography-sec id="cebibsec0010" view="all">
+                  <ce:bib-reference id="bib1">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="sref1">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Buse</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Adibi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Psaltis</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nature</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>393</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1998</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>665</sb:first-page>
+                              <sb:last-page>668</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib2">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference id="sref2">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Arizmendi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Phys. Stat. Sol. A</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>201</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>253</sb:first-page>
+                              <sb:last-page>283</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib3">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference id="sref3">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.L.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Hang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.H.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.Z.</ce:given-name>
+                                 <ce:surname>Luo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.N.</ce:given-name>
+                                 <ce:surname>Zhu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.K.</ce:given-name>
+                                 <ce:surname>Lim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.W.</ce:given-name>
+                                 <ce:surname>Hung</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Cryst. Res. Technol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>39</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>511</sb:first-page>
+                              <sb:last-page>515</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib4">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference id="sref4">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.L.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.P.</ce:given-name>
+                                 <ce:surname>Wen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.F.</ce:given-name>
+                                 <ce:surname>Kong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.L.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.L.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.J.</ce:given-name>
+                                 <ce:surname>Xu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.Y.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Cryst. Growth</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>242</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2002</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>400</sb:first-page>
+                              <sb:last-page>404</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib5">
+                     <ce:label>[5]</ce:label>
+                     <sb:reference id="sref5">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Polgár</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Á.</ce:given-name>
+                                 <ce:surname>Péter</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I.</ce:given-name>
+                                 <ce:surname>Földvári</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Zs</ce:given-name>
+                                 <ce:surname>Szaller</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Cryst. Growth</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>218</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>327</sb:first-page>
+                              <sb:last-page>333</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib6">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference id="sref6">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.R.</ce:given-name>
+                                 <ce:surname>Volk</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Wöhlecke</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.M.</ce:given-name>
+                                 <ce:surname>Rubinina</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Ferrolectrics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>183</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1996</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>291</sb:first-page>
+                              <sb:last-page>300</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib7">
+                     <ce:label>[7]</ce:label>
+                     <sb:reference id="sref7">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Qiao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Xu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Sun</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Phys. Rev. B Condens. Matter Mater. Phys.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>70</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>94101</sb:first-page>
+                              <sb:last-page>94111</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib8">
+                     <ce:label>[8]</ce:label>
+                     <sb:reference id="sref8">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.R.</ce:given-name>
+                                 <ce:surname>Volk</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.I.</ce:given-name>
+                                 <ce:surname>Pryalkin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.M.</ce:given-name>
+                                 <ce:surname>Rubinina</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Opt. Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>15</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1990</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>996</sb:first-page>
+                              <sb:last-page>998</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib9">
+                     <ce:label>[9]</ce:label>
+                     <sb:reference id="sref9">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Jaque</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.A.</ce:given-name>
+                                 <ce:surname>Sanz García</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>García Solé</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Phys. Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>85</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>19</sb:first-page>
+                              <sb:last-page>21</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib10">
+                     <ce:label>[10]</ce:label>
+                     <sb:reference id="sref10">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.R.</ce:given-name>
+                                 <ce:surname>Volk</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.M.</ce:given-name>
+                                 <ce:surname>Rubinina</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.I.</ce:given-name>
+                                 <ce:surname>Pryalkin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.V.</ce:given-name>
+                                 <ce:surname>Krasnikov</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.V.</ce:given-name>
+                                 <ce:surname>Volkov</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Ferroelectrics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>109</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1990</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>345</sb:first-page>
+                              <sb:last-page>350</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib11">
+                     <ce:label>[11]</ce:label>
+                     <sb:reference id="sref11">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Schiller</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Herreros</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Lifante</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Opt. Soc. Am. A</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>14</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>425</sb:first-page>
+                              <sb:last-page>429</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib12">
+                     <ce:label>[12]</ce:label>
+                     <sb:reference id="sref12">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.K.</ce:given-name>
+                                 <ce:surname>Kushwaha</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.K.</ce:given-name>
+                                 <ce:surname>Maurya</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Vijayan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Kumar</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Bhatt</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Ganesamoorthy</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Bhagavannarayana</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Cryst. Eng. Comm.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>14</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3297</sb:first-page>
+                              <sb:last-page>3305</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib13">
+                     <ce:label>[13]</ce:label>
+                     <sb:reference id="sref13">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Xu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.B.</ce:given-name>
+                                 <ce:surname>Sinnott</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Gopalan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Dierolf</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.R.</ce:given-name>
+                                 <ce:surname>Phillpot</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Phys. Rev. B Condens. Matter Mater. Phys.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>80</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>144104</sb:first-page>
+                              <sb:last-page>144112</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib14">
+                     <ce:label>[14]</ce:label>
+                     <sb:reference id="sref14">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Bhagavannarayana</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Rajesh</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Ramasamy</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Appl. Crystallogr.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>43</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1372</sb:first-page>
+                              <sb:last-page>1376</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib15">
+                     <ce:label>[15]</ce:label>
+                     <sb:reference id="sref15">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Capmany</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Phys. Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>78</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2001</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>144</sb:first-page>
+                              <sb:last-page>146</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib16">
+                     <ce:label>[16]</ce:label>
+                     <sb:reference id="sref16">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Repelin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Husson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Bennani</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Proust</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Phys. Chem. Solids</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>60</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>819</sb:first-page>
+                              <sb:last-page>825</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib17">
+                     <ce:label>[17]</ce:label>
+                     <sb:reference id="sref17">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.G.</ce:given-name>
+                                 <ce:surname>Scott</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Mailis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.L.</ce:given-name>
+                                 <ce:surname>Sones</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.W.</ce:given-name>
+                                 <ce:surname>Eason</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Phys. A Mater. Sci. Process</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>79</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>691</sb:first-page>
+                              <sb:last-page>696</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib18">
+                     <ce:label>[18]</ce:label>
+                     <sb:reference id="sref18">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.C.</ce:given-name>
+                                 <ce:surname>Huang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.I.</ce:given-name>
+                                 <ce:surname>Dadap</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Gaathon</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I.P.</ce:given-name>
+                                 <ce:surname>Herman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.M.</ce:given-name>
+                                 <ce:surname>Osgood</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Bakhru</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Bakhru</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Opt. Mater. Express.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>3</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>126</sb:first-page>
+                              <sb:last-page>142</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib19">
+                     <ce:label>[19]</ce:label>
+                     <sb:reference id="sref19">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.V.</ce:given-name>
+                                 <ce:surname>Sidorov</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.N.</ce:given-name>
+                                 <ce:surname>Palatnikov</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.T.</ce:given-name>
+                                 <ce:surname>Gabrielyan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.G.</ce:given-name>
+                                 <ce:surname>Chufyrev</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.T.</ce:given-name>
+                                 <ce:surname>Kalinnikov</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Inorg. Mater</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>43</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>60</sb:first-page>
+                              <sb:last-page>67</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib20">
+                     <ce:label>[20]</ce:label>
+                     <sb:reference id="sref20">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Ridah</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Bourson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.D.</ce:given-name>
+                                 <ce:surname>Fontana</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Malovichko</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Phys. Condens. Matter</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>9</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>9687</sb:first-page>
+                              <sb:last-page>9693</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib21">
+                     <ce:label>[21]</ce:label>
+                     <sb:reference id="sref21">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Mignioni</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.D.</ce:given-name>
+                                 <ce:surname>Fontana</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Bazzan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.V.</ce:given-name>
+                                 <ce:surname>Ciampolillo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.M.</ce:given-name>
+                                 <ce:surname>Zaltron</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Argiolas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Sada</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Phys. B</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>101</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>541</sb:first-page>
+                              <sb:last-page>546</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib22">
+                     <ce:label>[22]</ce:label>
+                     <sb:reference id="sref22">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>U.</ce:given-name>
+                                 <ce:surname>Schlarb</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Klauer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Wesselmann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Betzler</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Wohlccke</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Phys. A Solids Surf.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>56</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1993</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>311</sb:first-page>
+                              <sb:last-page>315</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib23">
+                     <ce:label>[23]</ce:label>
+                     <sb:reference id="sref23">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.V.</ce:given-name>
+                                 <ce:surname>Sidorov</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.N.</ce:given-name>
+                                 <ce:surname>Palatnikov</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Bormanis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Sternberg</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Ferroelectrics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>285</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2003</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>311</sb:first-page>
+                              <sb:last-page>320</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib24">
+                     <ce:label>[24]</ce:label>
+                     <sb:reference id="sref24">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.K.</ce:given-name>
+                                 <ce:surname>Kushwaha</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.K.</ce:given-name>
+                                 <ce:surname>Maurya</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Haranath</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Bhagavannarayana</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Appl. Crystallogr.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>44</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1054</sb:first-page>
+                              <sb:last-page>1061</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib25">
+                     <ce:label>[25]</ce:label>
+                     <sb:reference id="sref25">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Castillo-Torres</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Opt. Comm.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>290</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>107</sb:first-page>
+                              <sb:last-page>109</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib26">
+                     <ce:label>[26]</ce:label>
+                     <sb:reference id="sref26">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.H.</ce:given-name>
+                                 <ce:surname>Zhen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.S.</ce:given-name>
+                                 <ce:surname>Xu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.Z.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.C.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.H.</ce:given-name>
+                                 <ce:surname>Xu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Cryst. Res. Technol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>37</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2002</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>976</sb:first-page>
+                              <sb:last-page>982</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib27">
+                     <ce:label>[27]</ce:label>
+                     <sb:reference id="sref27">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Günter</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.P.</ce:given-name>
+                                 <ce:surname>Huignard</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:book-series>
+                                 <sb:series>
+                                    <sb:title>
+                                       <sb:maintitle>Photorefractive Materials and their Applications</sb:maintitle>
+                                    </sb:title>
+                                    <sb:volume-nr>vols. 1 and 2</sb:volume-nr>
+                                 </sb:series>
+                              </sb:book-series>
+                              <sb:date>2007</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Springer</sb:name>
+                                 <sb:location>New York</sb:location>
+                              </sb:publisher>
+                           </sb:book>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib28">
+                     <ce:label>[28]</ce:label>
+                     <sb:reference id="sref28">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Blasse</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.G.J.</ce:given-name>
+                                 <ce:surname>de Haart</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Mater. Chem. Phys.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>14</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1986</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>481</sb:first-page>
+                              <sb:last-page>484</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib29">
+                     <ce:label>[29]</ce:label>
+                     <sb:reference id="sref29">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.D.</ce:given-name>
+                                 <ce:surname>Townsend</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.A.</ce:given-name>
+                                 <ce:surname>Green</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:edited-book>
+                              <sb:editors>
+                                 <sb:editor>
+                                    <ce:given-name>K.K.</ce:given-name>
+                                    <ce:surname>Wong</ce:surname>
+                                 </sb:editor>
+                              </sb:editors>
+                              <sb:title>
+                                 <sb:maintitle>Luminescence of LiNbO<ce:inf loc="post">3</ce:inf>
+                                 </sb:maintitle>
+                              </sb:title>
+                              <sb:date>2002</sb:date>
+                           </sb:edited-book>
+                           <sb:pages>
+                              <sb:first-page>185</sb:first-page>
+                              <sb:last-page>187</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>London UK</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib30">
+                     <ce:label>[30]</ce:label>
+                     <sb:reference id="sref30">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Tumuluri</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.C.J.</ce:given-name>
+                                 <ce:surname>Raju</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Ceram. Int.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>40</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3371</sb:first-page>
+                              <sb:last-page>3377</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib31">
+                     <ce:label>[31]</ce:label>
+                     <sb:reference id="sref31">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Bridges</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Castillo-Torres</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Car</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Medling</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Kozina</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Phys. Rev. B</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>85</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>064107</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib32">
+                     <ce:label>[32]</ce:label>
+                     <sb:reference id="sref32">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.W.</ce:given-name>
+                                 <ce:surname>Haycock</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.D.</ce:given-name>
+                                 <ce:surname>Townsend</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Phys. C. Solid State Phys.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>20</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1987</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>319</sb:first-page>
+                              <sb:last-page>327</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib33">
+                     <ce:label>[33]</ce:label>
+                     <sb:reference id="sref33">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Pankratov</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Grigorjeva</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Millers</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Corradi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Polgar</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Ferroelectrics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>239</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>241</sb:first-page>
+                              <sb:last-page>250</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib34">
+                     <ce:label>[34]</ce:label>
+                     <sb:reference id="sref34">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Capmany</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Montoya</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Bermúdez</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Callejo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Diéguez</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.E.</ce:given-name>
+                                 <ce:surname>Bausá</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Appl. Phys. Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>76</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1374</sb:first-page>
+                              <sb:last-page>1376</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item>
+</xocs:doc></originalText></full-text-retrieval-response>

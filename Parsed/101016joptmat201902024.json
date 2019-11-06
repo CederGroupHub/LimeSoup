@@ -1,0 +1,157 @@
+{
+    "DOI": "10.1016/j.optmat.2019.02.024",
+    "Journal": "Optical Materials",
+    "Keywords": [
+        "BaLaAlO4",
+        "Eu3+",
+        "Substitution effect",
+        "Solid state reaction",
+        "Red phosphor"
+    ],
+    "Sections": [
+        {
+            "content": [
+                "New red emitting Eu3+ doped and substituted BaLaAlO4 phosphor powders were synthesized by simple modified solid state reaction method. BaLaAlO4 crystal phase formation studied through powder X-ray diffraction (XRD) analysis. Fourier Transform - Infra Red (FT-IR) analysis was performed to study the formation of the host with respect to temperature increment and metal-oxygen bond vibrations of BaLaAlO4 host lattice. Morphology of the phosphor was appeared as irregular in shapes with agglomeration. Photoluminescence (PL) analysis was performed to study the PL excitation and emission characteristics of the phosphor. It dictates that synthesized phosphors exhibited a strong red emission at 626 nm. Substitution effect of Eu3+ in BaLaAlO4 with various compositions such as Ba(1-x)LaAlO4: Eux 3+, BaLa(1-y)AlO4: Euy 3+ and BaLaAl(1-z)O4: Euz 3+ were studied for PL enhancement. Luminescence decay time of the phosphors was also determined. PL thermal quenching and Commission Internationale de l'Eclairage (CIE) chromaticity analysis were carried out to find thermal stability and colour purity of the phosphor sample respectively. The Judd- Ofelt parameters (Ω2 Ω4) obtained from the emission spectra of Eu3+ ions in BaLaAlO4 host lattice were evaluated and discussed."
+            ],
+            "name": "Abstract",
+            "type": "ce_section"
+        },
+        {
+            "content": [
+                "Since nineteenth century, for about 100 years, inorganic phosphors have been serving as potential candidates in various lighting and display devices. Different types of phosphors were developed deliberately for different applications . Phosphors have been performing an essential role in phosphor converted LED (pcLED) technology to create white light. Since phosphors efficiently yield the white light through proper colour combination in pcLEDs system which is now used in modern lighting technology. To attain good colour purity in pcLED devices phosphors with narrow band red emission are essential. Reports dictate that the introduction of such narrow band red emission would increase the colour purity of pcLED devices . So researches on development of new phosphors with such spectral properties have been encouraged. Among the various types of phosphor host lattices concerned, the aluminates always have proven its excellence due to their good mechanical, thermal and structural stability . Similarly, the lanthanides have been demonstrated their outstanding performances as luminescent center in rare earths doped phosphors for various lighting and display applications [,]. The lanthanide ion Eu3+ is an efficient luminescent center which provides intense red emission as a result of 4f-4f transition by occupying appropriate site symmetry in various host lattices. Further, Eu3+ is an excellent probe to analyse the site-symmetry in host lattices. Concerning the above discussed lighting requirements the compound BaLaAlO4 doped with Eu3+ was chosen for the present investigation. The host lattice BaLaAlO4 belongs to ABCO4 compound type (A - divalent metal cation, B – trivalent metal cation, C – Al or Ga and O – O2− ion) which was developed and studied so far for various technological applications such as superconductors and solid state lasers. Earlier reports dictated that BaLaAlO4 phase formation achieved at temperature greater than 1100 °C for several hours heat treatment. Liu et al. have prepared BaLaAlO4 ceramic powder by ball milling process followed by solid state reaction at 1350 °C. Single crystals of BaLaAlO4 were also obtained at temperature around 1200 °C by Czochralski method . To best of our knowledge, for the first time, we put an effort to synthesize BaLaAlO4 host lattice through a simple route based on modified solid state reaction. Also an attempt has been made to bring a narrow band red emission based on Eu3+ activated BaLaAlO4 host lattice. Herein, we fairly report the synthesis and photoluminescence properties Eu3+ doped and substituted BaLaAlO4 phosphors based on our earlier approach ."
+            ],
+            "name": "Introduction",
+            "type": "ce_section"
+        },
+        {
+            "content": [
+                {
+                    "content": [
+                        "Pure, Eu3+ doped and substituted BaLaAlO4 phosphors have been synthesized through modified solid state reaction technique. In this process, an intermediate combustion process was performed. A stoichiometric ratio of precursors with respect to molecular formula of BaLaAlO4 was weighed accurately. Initially the precursors such as Ba(NO3)2, La2O3, AlCl3·6H2O, CO(NH2)2 and Eu2O3 were dissolved in a solution comprises of water and concentrated nitric acid. The dissolved precursor salts were fired at 600 °C for an hour. A pyrolysis process was takes place, and as a result a white fluffy powder was obtained. Then the fluffy powder was milled using an agate mortar and annealed at temperature 1000 °C for 1 h in an air atmosphere. Finally pure white samples were obtained. This experimental procedure for the phosphor synthesis was described in our earlier report ."
+                    ],
+                    "name": "Phosphor synthesis",
+                    "type": "ce_section"
+                },
+                {
+                    "content": [
+                        "X-ray diffraction (XRD) patterns of synthesized BaLaAlO4 samples were recorded using BRUKER XRD instrument model D2 PHASER with CuKα radiation (k = 1.54059) between the 2θ values 10–80° with a step of 0.02° per 0.5 s at room temperature. Fourier transform infrared (FT-IR) spectra were recorded using Spectrum One FTIR spectrophotometer with KBr pellets. Surface morphology of the phosphor sample was examined using SEM instrument Carl Zeiss MA15/EVO 18. PL excitation and emission spectra of the phosphors were recorded using JOBIN YVON-Spex spectrofluorometer (Fluorolog version-3; model FL3-11) with a 150 W Xenon lamp. The temperature-dependent photoluminescence spectra were computed on the Hitachi 650-40 Fluorescence Spectrophotometer utilizing a 150 W Xenon lamp that was associated with an in build heating element. The lifetime measurements were carried out using Fluorolog- FL3-11 spectrometer."
+                    ],
+                    "name": "Phosphor samples characterization",
+                    "type": "ce_section"
+                }
+            ],
+            "name": "Experimental",
+            "type": "ce_section"
+        },
+        {
+            "content": [
+                {
+                    "content": [
+                        {
+                            "content": [
+                                "Powder X-ray diffraction patterns of synthesized pure BaLaAlO4 samples between the temperatures 600–1000 °C is shown in Fig. 1 a. Obtained diffraction patterns of BaLaAlO4 samples are compared with standard Joint Committee on Powder Diffraction Standards (JCPDS) files related to BaLaAlO4 phase. Diffraction pattern of BaLaAlO4 sample annealed at 1000 °C replicates the diffraction lines of standard JCPDS card no.78–1336 of BaLaAlO4 phase. According to JCPDS file, the synthesized BaLaAlO4 belongs to orthorhombic crystal phase with primitive lattice. It lies under the space group P212121. Lattice parameters are calculated using the formula 1dhkl2=h2a2+k2b2+l2c2 and values are a = 9.878 Å, b = 7.284 Å and c = 5.829 Å. Fig. 1b shows the XRD pattern of pure BaLaAlO4 and their various substituted compositions by changing Ba, La and Al concentrations in Eu3+ doped BaLaAlO4 host lattice. It reveals the retaining of pristine diffraction pattern of the host material even after change in composition of BaLaAlO4. However, substitutions such as Ba(1-x)LaAlO4: Eux 3+ and BaLaAl(1-z)O4: Euz 3+ shows small peak broadening in their diffraction lines which can be attributed to induced lattice strains or change of lattice parameters. In BaLaAlO4 host lattice, Al3+ ions occupy tetrahedral site (AlO4), the La3+ ions occupy dodecahedral site (LaO8) and the Ba2+ ions co-ordinated with ten O2− ions through connecting with adjacent polyhedra . In the perception of ionic radii, doped and substituted Eu3+ ions may occupy Ba2+/La3+ lattice sites."
+                            ],
+                            "name": "XRD analysis of BaLaAlO4",
+                            "type": "ce_section"
+                        },
+                        {
+                            "content": [
+                                "FT-IR spectra of BaLaAlO4 host lattice annealed between temperatures 200–1000 °C in steps of 200 °C is shown in Fig. 2 a. IR vibrational bands in different regions 3410–3440, 2920–2930 and 1630–1640 cm−1 are due to O-H groups. Bands in the region 2420–2450 and at around 2270 cm−1 are ascribed to C-H molecular vibrations. C-N bond vibrations are observed in the region 1750–1780 cm−1. Bands in the regions 1410–1430 and 1460–1490 are due to C = C and C – NO2 respectively. Peaks in region 1040 - 1060 cm−1 are may be due to either C-O stretching vibration or O-H vibrations. Above discussed bands are may be to organic molecules such as urea and nitric acid which are used during the synthesis. These bands are disappeared when annealing temperature approaching 800 °C. At this temperature most of the organic volatile substances escapes as gaseous molecules. IR bands below 900 cm−1 are mostly due to metal-oxygen bond vibrations. Metal-oxygen bonds are well pronounced while increasing the annealing temperature (Fig. 2a). Bands at 684, 741, 924 and 1060 cm−1 are corresponds to Al-O/ Ba-O/La-O bonding vibrations. La-O bond vibrations are observed at 490 and 920 cm−1. The peak at 1160 cm−1 may be attributed to metal-oxygen-metal vibrations . These bonds are arises from AlO4/LaO8/BaO10 polyhedra present in BaLaAlO4 unit cell. A weak band observed around 435 cm−1 may be ascribed to Eu-O bond vibration . Possible reaction mechanisms for the formation of metal-oxygen bond are given in following equations. FT-IR spectra of Eu3+ doped BaLaAlO4 are in shown in Fig. 2b. It indicates there is no significant change is produced in BaLaAlO4 phase. Exact peak values of all spectra and their vibrational assignment with references are given in Table 1. 2Ba(NO3)2→Δ2BaO+4NO2↑(Ba-Obond)+O2↑ AlCl3.6H2O→ΔAl(OH)3(Al-Obond)→600∘C−100∘CAl2O3+3H2O La2O3→La-Obond"
+                            ],
+                            "name": "FT-IR analysis",
+                            "type": "ce_section"
+                        }
+                    ],
+                    "name": "Structural analysis",
+                    "type": "ce_section"
+                },
+                {
+                    "content": [
+                        "Grain size of phosphors was also one of the influencing parameters in determining their PL intensity. Surface morphology and grain size of the as synthesized phosphor sample was examined by Field Emission - Scanning Electron Microscope. SEM micrograph of BaLa(1-y)AlO4: Euy 3+ phosphor is shown in Fig. 3 (a,bc). It is observed that morphology of phosphor appeared as irregular in shapes with agglomeration with average grain sizes ranging from 0.5 to 2 μm. However, the phosphor grains having defined boundaries which tentatively resembling orthorhombic faces. Agglomerations of grains are resulted in phosphor is due to high surface reactivity of primary crystals of BaLaAlO4 at high temperature. This submicron sized phosphor may be more suitable for coating in solid state lighting. Elemental identity of the phosphor shown in Fig. 3d through EDAX analysis."
+                    ],
+                    "name": "Morphological analysis",
+                    "type": "ce_section"
+                }
+            ],
+            "name": "Results and discussion",
+            "type": "ce_section"
+        },
+        {
+            "content": [
+                {
+                    "content": [
+                        "A typical excitation and emission spectra of BaLaAlO4:Eu3+ phosphor is shown in Fig. 4. In the excitation spectra, sharp peaks are found at 365 nm, 385 nm, 396 nm and 416 nm. These peaks are attributed to 4f-4f transitions of Eu3+ ions such as 7F0 → 5D4, 7F0 → 5L7, 7F0 → 5L6 and 7F0 → 5D3. A broad peak centred at 295 nm is a charge transfer band (CTB) which is due to the transition of electron from oxygen ion to Eu3+ ion. This CTB is more dominant over the 4f-4f excitation band at 396 nm. By the excitation of 295 nm, PL emission peaks are found at 554 nm, 587 nm, 626 nm, 652 nm, 685 nm and 707 nm. Observed emission peaks are due to the electronic transitions 5D0→7F0, 5D0→7F1, 5D0→7F2, 5D0→7F3 and 5D0 →7F4 . In PL emission spectrum a well defined magnetic and electric dipole transitions are appeared. Both electric and magnetic dipole transitions’ intensities are increases considerably with increase of europium concentration. The electric dipole transitions are predominated over the magnetic dipole transitions which indicate that Eu3+ ions are occupied in non-inversion site symmetry (Fig. 4). Rajamohan and Ponnusamy  have been reported about the enhancement of magnetic dipole transition 5D0→7F1 of Eu3+ ion when it occupies inversion-site symmetry. If Eu3+ ions occupy the non-inversion site symmetry the electric dipole transition is pre-dominated over magnetic dipole transition and it is strongly depends on the chemical environment i.e., 5D0→7F2 transitions is hypersensitive to site-symmetry . Dominance of this forced electric-dipole transition confirms that Eu3+ ions occupy non-inversion center or low symmetry site. Further, the emission peak at 626 nm is more intense as it has more transition probability compared to other transitions. Generally, the branching at 618 nm is more predominant over the 626 nm in forced electric-dipole transition of Eu3+. But, in the present scenario, the branching at 626 nm is more intense. It dictates that the possibility of improvement of colour purity of the phosphor towards pure red. Furthermore, possible site occupancy of Eu3+ is discussed as follows. In BaLaAlO4 host lattice, Eu3+ may occupy either Ba2+ site or La3+ site. For orthorhombic crystals, D 2 is one of the appropriate point symmetry. Spectral splitting in 5D0→7F2 transition also coincides with D 2 site symmetry . It concludes availability of non-inversion centres in BaLaAlO4 host lattice for Eu3+ occupancy. Literally, it proves non-centrosymmetric nature in BaLaAlO4 molecule. Additionally, the presence of 5D0→7F0 transition around 560 nm emission bands Fig. 5 provides information about occupation of Eu3+ ion in C2v site-symmetry in BaLaAlO4. Since 5D0→7F0 transition is not present in all the host lattices. This C2v site-symmetry (ten coordination polyhedra based on dodecahedron) may arise from Ba2+ ion site symmetry . These results show that the two different sites are available for Eu3+ ions."
+                    ],
+                    "name": "PL excitation and emission profile",
+                    "type": "ce_section"
+                },
+                {
+                    "content": [
+                        "Excitation and emission spectra of all Eu3+ doped and substituted phosphors are shown in Fig. 6 (a–h). Fig. 7 shows the variation of PL intensities of doped BaLaAlO4 and substituted (BaLaAlO4:Eu3+, Ba(1-x)LaAlO4: Eux 3+, BaLa(1-y)AlO4: Euy 3+ and BaLaAl(1-z)O4: Euz 3+) samples as a function of Eu3+ concentration. The concentration of Eu3+ is varied from 1 to 8 mol%. The Eu3+ doped and substituted BaLaAlO4 phosphor shows highest PL intensity at 6 mol% PL intensity decreases gradually beyond 6 mol%. Decrease of PL intensity or concentration quenching beyond the respective mol % of Eu3+ is due to resonant energy transfer between the identical luminescent centres. Among the substituted phosphors compositions, BaLa(1-y)AlO4:Euy 3+ (y = 6 mol%) provides maximum PL intensity compared to other phosphors composition and values are given in Table 2. It is due to the reason that ionic radii (La = 130 pm for CN = 8) and valence of La3+ is better coincides with the ionic radii of the Eu3+ (Eu3+ = 126 pm for CN = 8) in comparison with other cationic sites (Ba2+ = 156 pm for CN = 8; Al3+ = 53 pm for CN = 4). If Eu3+ tries to occupy the other cationic sites such as Ba2+ and Al3+, the mismatch of valency and ionic radii may takes place respectively. On the perception of ionic radii and valence, a Eu3+ ion mostly favors the La3+ sites. Meanwhile, intentionally produced cation site vacancies such as Ba2+ and Al3+ induces some probability for Eu3+ ions to occupy Ba2+/Al3+ sites for charge compensation in host lattice. It results more nearby site occupancies of Eu3+ ions in Ba(1-x)LaAlO4: Eux 3+ and BaLaAl(1-z)O4: Euz 3+ phosphor compositions. This phenomena may leads to the decrease of PL intensity in Ba(1-x)LaAlO4: Eux 3+ and BaLaAl(1-z)O4: Euz 3+ phosphor due to resonant energy transfer among Eu3+ ions [,].",
+                        "In all excitation spectra, it is also realized that CT band and 396 nm band intensities are increases with increase of Eu3+ concentration upto 6 mol% of all the phosphor. Further increase of Eu3+ concentration a decreasing trend is observed. Normalized PL intensity values of all phosphors viz., BaLaAlO4:Eu3+, Ba(1-x)LaAlO4: Eux 3+, BaLa(1-y)AlO4: Euy 3+ and BaLaAl(1-z)O4: Euz 3+ are measured and given in Table 3. In all phosphors the 1 mol % of Eu3+ ions is taken as base value for both excitations (295 and 396 nm). From the table it is demonstrated an indication of improving the 396 nm band and decreasing of CT band in current phosphor materials. It represents the probability of improving near UV excitation characteristics. It favors the phosphors for application in near UV LED system."
+                    ],
+                    "name": "Eu3+substitution effect",
+                    "type": "ce_section"
+                },
+                {
+                    "content": [
+                        "Luminescent materials are standardized by Commission Internationale de l'Eclairage (CIE) co-ordinates which is important for lighting industry [,]. Obtained PL emission from the phosphors (BaLaAlO4: Eu, Ba(1-x)LaAlO4: Eux 3+, BaLa(1-y)AlO4: Euy 3+ and BaLaAl(1-z)O4: Euz 3+) is converted to CIE 1931 chromaticity using PL data and CIE software which is shown in Fig. 8. The identification of natural colour of phosphors can be made through (x,y) coordinates which is represented by circle symbol in the CIE diagram. CIE chromaticity values of phosphors BaLaAlO4:Eu3+, Ba(1-x)LaAlO4: Eux 3+, BaLa(1-y)AlO4: Euy 3+ and BaLaAl(1-z)O4: Euz 3+ are x = 0.6262, y = 0.3734; x = 0.6108, y = 0.3872; x = 0.6247, y = 0.3721 and x = 0.6089, y = 0.3862 respectively. CIE coordinate values of phosphors of this study and earlier reported CIE values of Eu3+ doped phosphors with references are given in Table 5 . It dictates that the phosphor comparatively having deep-red emission characteristics and the obtained colour property is approaching applications in lighting systems [,]. Hence, the phosphor may be an ingenious PL material for solid state lighting application as a red component."
+                    ],
+                    "name": "CIE colour chromaticity",
+                    "type": "ce_section"
+                },
+                {
+                    "content": [
+                        "Using chromaticity diagram, the colour coordinates values (x, y) are obtained which are immensely useful to calculate colour purity of the phosphor. Colour purity is one of the prime factors of phosphor materials for device application. Colour purity values are calculated using the expression (equation (4)) . Colour⋅purity=(x−xi)2+(y−yi)2(xd−xi)2+(yd−yi)2×100% Where, (x,y), (xi,yi) and (xd, yd) are the colour coordinates of the sample, coordinate values of white point and coordinate values of dominant wavelength respectively. The colour purity of the phosphors BaLaAlO4:Eu3+, Ba(1-x)LaAlO4: Eux 3+, BaLa(1-y)AlO4: Euy 3+ and BaLaAl(1-z)O4: Euz 3+ are calculated and reported in Table 4 (a-d)."
+                    ],
+                    "name": "Colour purity",
+                    "type": "ce_section"
+                },
+                {
+                    "content": [
+                        "PL thermal quenching (temperature dependent PL emission) study of BaLa(1-y)AlO4: Euy 3+ (x = 6 mol%) is performed to identify thermal stability. Fig. 9 shows the relative variation PL intensity with respect to increase of temperature. Temperature varied from room temperature to 190 °C in steps 20 °C. While temperature increases PL intensity of the phosphor decreases gradually. Relative PL intensity values of the phosphor at different temperatures are given in Table 6. When temperature increases intersection of 4f excited and ground levels of Eu3+ may takes place. It leads to multi-phonon relaxation of excitation energy which is responsible for the decrease of PL intensity of the phosphor. However, the significant reduction of PL intensity doesn't take place upto 100 °C.",
+                        "To find thermal stability of the phosphor, quenching parameters is fitted into activation energy plot, with an aid of Arrhenius equation (eqn. (5)) and the plot is shown in Fig. 10. I(T)=I01+cexp(−ΔE/kT)",
+                        "Rearranging equation (5) In[(I0I)−1]=ΔEkT+Inc",
+                        "The plot between 1/KT(e/V) and ln ((I0/I)-1) shows a linear fit. From the above equation ΔE is estimated to be 0.161eV. This activation energy value coincides with earlier reported phosphors such as BaZrGe3O9:Eu3+, Ca19Mg2(PO4)14:0.06Eu3+ and Sr1.7Zn0.3CeO4: Eu3+ having values 0.175, 0.140 and 0.1355 eV respectively [,,]. It indicates the moderate thermal stability of the phosphor as evidenced from those literature."
+                    ],
+                    "name": "Temperature dependent PL characteristics",
+                    "type": "ce_section"
+                },
+                {
+                    "content": [
+                        "Fig. 11 shows the fluorescence decay profiles of phosphors those are well fitted into the double exponential decay curve expression given in equation (7). I=I1exp(−tτ1)+I2exp(−tτ2) Where “I” is the luminescence intensity, I1 and I2 are intensities at different time which are constant, t is time, and τ1 and τ2 are decay constants that give the decay rates . The average lifetime of a double exponential decay can be estimated using the below equation (8) τavg=I1τ12+I2τ22I1τ1+I2τ2",
+                        "The average fluorescence life-time (τ ave) values of the phosphors BaLaAlO4: Eu3+ (6 mol%), Ba(1-x)LaAlO4: Eux 3+ (x = 6 mol%), BaLa(1-y)AlO4: Euy 3+ (y = 6 mol%) and BaLaAl(1-z)O4: Euz 3+ (z = 6 mol%), are calculated and the values are 1.0839 ms, 0.8100 ms, 1.1340 ms and 0.7485 ms respectively. The above values implies, intentionally created lanthanum vacancies provides higher life-time value for Eu3+ in BaLa(1-y)AlO4: Euy 3+ lattice compared to other substitutions."
+                    ],
+                    "name": "Life time",
+                    "type": "ce_section"
+                },
+                {
+                    "content": [
+                        "Judd-Ofelt theory is an important tool to examine spectral characteristics of 4f-4f transitions in lanthanides . It provides adequate information about covalency between lanthanides and co-ordinating ligands. Judd-Ofelt parameters Ω2 and Ω4 can be calculated from the spectra of 4f-4f transition in BaLa(1-y)AlO4: Euy 3+ phosphor. The parameter Ω6 not calculated since the emission of 5D0→7F6 is located in the infrared region and is quite weak. Therefore, Ω6 cannot be calculated. The parameters Ω2 and Ω4 are determined from the luminescence spectra by expressing the integrated emission intensities of certain transitions using the following expression which is given below as equation (9) Ωλ=Smde2(ν1νλ)39n3n(n2+2)21|ΨJ||νλ||ΨJ´´|2∫Iλ(ν)dνI1(ν)dν Where ν 1 is the wave number of the 5D0→7F1 transition, νλ is the wave number of the 5D0→7Fλ (λ = 2,4,6) transitions, Smd = 7.83 × 10−42 esu2 cm2 is the line strength of 5D0→7F6 transition, n is the refractive index. The parameters Ω2 Ω4 are calculated and summarized in Table 7. Ω2 parameter is structure sensitive and depends on the covalency between lanthanide ion and ligand atom (Eu-O) . The higher value of Ω2 indicates high covalence of the Eu-O bonds which visualizes high asymmetric nature around Eu3+ ions in the BaLa(1-y)AlO4: Euy 3+. In substitutional compositions, the cations distribution in BaLaAlO4 unit cell changes considerably which influences the 4f-4f transitions of Eu3+ in Eu-O co-ordination. It favours to the enhancement of PL intensity. Hence, it indicates that substitution effect in phosphor compositions might alter the spectral characteristics of Eu3+ which inferred from the changes in Judd-Oflet parameters values [,]."
+                    ],
+                    "name": "Judd-Ofelt parameters",
+                    "type": "ce_section"
+                },
+                {
+                    "content": [
+                        "Ratio of electric-dipole transition to magnetic dipole transition of Eu3+ provides adequate information about the symmetric nature around Eu3+ ions. 5D0 → 7F1 is magnetic dipole transition and is independent of the host matrix and 5D0 → 7F2 is an electric dipole type which is strongly affected by the local structure and site symmetry that around the Eu3+ion. So the ratio of the intensities is affected by site symmetry.",
+                        "Asymmetric ratio R is calculated using the following formula and values are given in Table 8. R = I (5D0 → 7F2) / I (5D0 → 7F1)",
+                        "Changes in ‘R’ values are observed with respect to Eu3+ mol %. Significant change is observed for Ba(1-x)LaAlO4: Eux 3+ (x = 6 mol%), BaLa(1-y)AlO4: Euy 3+ (y = 6 mol%) phosphors. Higher ratio signifies lower symmetry of Eu3+ site which is advantages in improving the colour purity of Eu3+. Ω2 and R values are plotted and shown in Fig. 12 a-d. The change of ‘Ω2’ parameter with different mol % concentration is consistent with ‘R’ ratio Table 8."
+                    ],
+                    "name": "Asymmetric ratio",
+                    "type": "ce_section"
+                }
+            ],
+            "name": "PL characteristics of BaLaAlO4:Eu3+ phosphor",
+            "type": "ce_section"
+        },
+        {
+            "content": [
+                "A series of new red phosphors such as BaLaAlO4: Eu3+, Ba(1-x)LaAlO4: Eux 3+, BaLa(1-y)AlO4: Euy 3+ and BaLaAl(1-z)O4: Euz 3+ were synthesized by simple modified solid state reaction. The phosphor synthesized at 1000 °C for 1 h had attained BaLaAlO4 phase with minimized impurity phases. Evolution of metal-oxygen bond vibrations at various annealing temperature can be studied through FT-IR analysis. Eu3+ substituted phosphor in the composition BaLa(1-y)AlO4: Euy 3+ (y = 6 mol %) had exhibited highest PL intensity compared to other compositions. PL thermal quenching study dictates that the phosphor has moderate thermal stability. Fluorescence decay time of the phosphor was found to be in milliseconds and it is influenced by substitution effect. Obtained J-O parameter indicates the high covalence nature of Eu-O bond in synthesized phosphors by changing their compositions. Moreover, this phosphor acquired prominent excitation both in mid UV (296 nm) and near UV (395 nm) regions. Upon those excitations, the phosphor yield intense red emission at 626 nm with high colour purity. Based on obtained results, with further development, it is concluded that this phosphor could serve as good red emitter in display and lighting industry."
+            ],
+            "name": "Conclusion",
+            "type": "ce_section"
+        }
+    ],
+    "Title": "A development of new red phosphor based on europium doped as well as substituted Barium Lanthanum Aluminate (BaLaAlO4: Eu3+)"
+}
