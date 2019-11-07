@@ -68,9 +68,6 @@ class ParserPaper:
     def create_parser_sections(self, soup):
         search_str = re.compile('section_h[1-6]')
         section_tags = soup.find_all(search_str)
-        for s in section_tags:
-            print(s)
-            print('----')
         # Get all sections
         for tag in section_tags:
             name = self.convert_to_text(tag.find('title').text)
@@ -393,7 +390,10 @@ class ParserPaper:
             try:
                 tag_name_tmp = each_tag['id']
                 # To be consistent with the xml parser, the notation h1, h2, ..., h6 is kept.
-                tag_name = int(tag_name_tmp.count('.'))+2
+                if '-' in tag_name_tmp:
+                    tag_name = int(tag_name_tmp.count('-'))+2
+                else:
+                    tag_name = int(tag_name_tmp.count('.'))+2
                 each_tag.name = 'section_h{}'.format(tag_name)
             except:
                 each_tag.name = 'section_h2'
