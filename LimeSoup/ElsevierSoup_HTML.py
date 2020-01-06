@@ -56,7 +56,6 @@ class ElsevierCollect(RuleIngredient):
                 obj['Journal'] = s.get('content')
 
         raw_sections = extract_paragraphs_recursive(soup)
-        print(len(raw_sections))
         # for r in raw_sections[-2]['content']:
         #     print(r)
         #     print('----')
@@ -68,15 +67,12 @@ class ElsevierCollect(RuleIngredient):
             if not isinstance(r, dict):
                 continue
             if r['name'] == 'Keywords':
-                print('found')
-                print(len(r['content']))
                 keys, nots = [],[]
                 for j in r['content']:
                     if len(j.split()) < 5:
                         keys.append(j)
                     else:
                         nots.append(j)
-                print(len(keys), len(nots))
                 keysd = dict()
                 keysd['name'] = 'Keywords'
                 keysd['type'] = 'section_h2'
@@ -90,9 +86,6 @@ class ElsevierCollect(RuleIngredient):
             else:
                 keyword_fix.append(r)
         raw_sections = keyword_fix
-        print(len(raw_sections))
-        for r in raw_sections:
-            print(type(r))
         iterate_status = {
             'content_begins': False,
             'content_ends': False
