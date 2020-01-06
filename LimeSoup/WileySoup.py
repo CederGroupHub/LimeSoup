@@ -151,6 +151,7 @@ class WileyCollect(RuleIngredient):
     @staticmethod
     def _parse(html_str):
         soup = BeautifulSoup(html_str, 'html.parser')
+        print(soup)
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         # Collect information from the paper using ParserPaper
         keywords = soup.find_all(attrs={'name':'citation_keywords'})
