@@ -175,7 +175,6 @@ class WileyCollect(RuleIngredient):
         no_sections = True
         for d in data:
             if d['name'] not in check:
-                print(d['name'])
                 no_sections = False
         if no_sections:
             section = soup.find_all('section')
@@ -215,7 +214,6 @@ class WileyCollect(RuleIngredient):
                             if text[-1] != '.':
                                 index = text.rfind('.')
                                 text = text[:index+1]
-                            print(data[-1])
                             if data[-1]['content'] and text == data[-1]['content'][0]:
                                 continue
                             obj = {
