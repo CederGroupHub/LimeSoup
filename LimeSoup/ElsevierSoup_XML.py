@@ -46,7 +46,8 @@ class ElsevierReadMetaData(RuleIngredient):
         f = soup.find('srctitle')
         print(f)
         journal_name = ElsevierReadMetaData.get_text_or_none(soup, 'xocs:srctitle') or \
-                       ElsevierReadMetaData.get_text_or_none(soup, 'prism:publicationName')
+                       ElsevierReadMetaData.get_text_or_none(soup, 'prism:publicationName') or \ 
+                       ElsevierReadMetaData.get_text_or_none(soup, 'srctitle')
         doi = ElsevierReadMetaData.get_text_or_none(soup, 'xocs:doi') or \
               ElsevierReadMetaData.get_text_or_none(soup, 'ce:doi') 
         print(journal_name, doi)
