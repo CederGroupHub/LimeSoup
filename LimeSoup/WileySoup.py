@@ -177,6 +177,7 @@ class WileyCollect(RuleIngredient):
             if d['name'] not in check:
                 no_sections = False
         if no_sections:
+            print('Here')
             section = soup.find_all('section')
             for sect in section:
                 if (sect.get('class') is not None and ('article-section__full' in sect.get('class') or 
