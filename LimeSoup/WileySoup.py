@@ -226,7 +226,7 @@ class WileyCollect(RuleIngredient):
                             data.insert(-1*index2, obj)
         cleaned_data = []
         for d in data:
-            if d['name'] == 'abstract':
+            if d['name'] == 'Abstract':
                 lines = []
                 for c in d['content']:
                     if type(c) is str:
