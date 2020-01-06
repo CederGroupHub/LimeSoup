@@ -26,9 +26,11 @@ class ElsevierReadMetaData(RuleIngredient):
     @staticmethod
     def get_text_or_none(soup, name, handler=None):
         if soup is None:
+            print('Here 1')
             return None
 
         node = soup.find(name=name)
+        print(node)
         if node is None:
             return None
         elif handler is not None:
