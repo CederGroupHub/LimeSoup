@@ -175,6 +175,7 @@ class WileyCollect(RuleIngredient):
         no_sections = True
         for d in data:
             if d['name'] not in check:
+                print(d['name'])
                 no_sections = False
         if no_sections:
             print('Here')
