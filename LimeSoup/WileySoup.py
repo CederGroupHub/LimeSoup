@@ -171,7 +171,7 @@ class WileyCollect(RuleIngredient):
         parser.deal_with_sections()
         data = parser.data_sections
         index2 = max(len(data)-1,1)
-        check = ['Abstract', 'Acknowledgements', 'Experimental Section', 'Supporting Information']
+        check = ['Abstract', 'Acknowledgements', 'Experimental Section', 'Supporting Information', 'Conflict of interest']
         no_sections = True
         for d in data:
             if d['name'] not in check:
