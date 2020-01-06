@@ -179,7 +179,6 @@ class WileyCollect(RuleIngredient):
                 print(d['name'])
                 no_sections = False
         if no_sections:
-            print('Here')
             section = soup.find_all('section')
             for sect in section:
                 if (sect.get('class') is not None and ('article-section__full' in sect.get('class') or 
@@ -211,9 +210,9 @@ class WileyCollect(RuleIngredient):
                                             for c3 in d3:
                                                 if c3 == parser.format_text(p.text):
                                                     skip = True
-                        print(skip)
                         if not skip:
                             text = parser.format_text(p.text)
+                            print(text)
                             # text = ''.join(filter(lambda x: x in string.printable, text)) Can be useful for formating but can remove characters
                             if text[-1] != '.':
                                 index = text.rfind('.')
