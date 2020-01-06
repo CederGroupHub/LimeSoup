@@ -237,7 +237,7 @@ class WileyCollect(RuleIngredient):
                 new['type'] = 'section_h2'
                 cleaned_data.append(new)
             else:
-                if not d['content']:
+                if d['content']:
                     cleaned_data.append(d)
         obj = {
             'DOI': doi,
