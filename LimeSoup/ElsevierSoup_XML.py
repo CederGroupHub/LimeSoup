@@ -26,11 +26,9 @@ class ElsevierReadMetaData(RuleIngredient):
     @staticmethod
     def get_text_or_none(soup, name, handler=None):
         if soup is None:
-            print('Here 1')
             return None
 
         node = soup.find(name=name)
-        print(node, name)
         if node is None:
             return None
         elif handler is not None:
@@ -43,8 +41,6 @@ class ElsevierReadMetaData(RuleIngredient):
         # journal
         print(type(soup))
         print('Here parse')
-        f = soup.find('srctitle')
-        print(f)
         journal_name = (ElsevierReadMetaData.get_text_or_none(soup, 'xocs:srctitle') or ElsevierReadMetaData.get_text_or_none(soup, 
                         'prism:publicationName') or ElsevierReadMetaData.get_text_or_none(soup, 'srctitle') or ElsevierReadMetaData.get_text_or_none(soup,
                         'publicationName'))
@@ -55,14 +51,13 @@ class ElsevierReadMetaData(RuleIngredient):
         # Elsevier XML definition pp. 46
         head_node = soup.find('head')
 
-        title = ElsevierReadMetaData.get_text_or_none(head_node, 'ce:title', extract_ce_title) or \
-                ElsevierReadMetaData.get_text_or_none(soup, 'dc:title')
-
+        title = (ElsevierReadMetaData.get_text_or_none(head_node, 'ce:title', extract_ce_title) or ElsevierReadMetaData.get_text_or_none(soup, 'dc:title')
+                or ElsevierReadMetaData.get_text_or_none(soup, 'title'))
         keywords = []
         if head_node is not None:
             # Elsevier XML definition pp. 366
-            for node in head_node.find_all('ce:keyword'):
-                text_node = node.find('ce:text')
+            for node in head_node.find_all('keyword'):
+                text_node = node.find('text')
                 if text_node is not None:
                     keyword = remove_consecutive_whitespaces(
                         extract_ce_text(text_node),
