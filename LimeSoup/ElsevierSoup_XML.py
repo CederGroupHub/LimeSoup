@@ -48,8 +48,8 @@ class ElsevierReadMetaData(RuleIngredient):
         journal_name = (ElsevierReadMetaData.get_text_or_none(soup, 'xocs:srctitle') or ElsevierReadMetaData.get_text_or_none(soup, 
                         'prism:publicationName') or ElsevierReadMetaData.get_text_or_none(soup, 'srctitle') or ElsevierReadMetaData.get_text_or_none(soup,
                         'publicationName'))
-        doi = ElsevierReadMetaData.get_text_or_none(soup, 'xocs:doi') or ElsevierReadMetaData.get_text_or_none(soup, 'ce:doi') or 
-              ElsevierReadMetaData.get_text_or_none(soup, 'doi') 
+        doi = (ElsevierReadMetaData.get_text_or_none(soup, 'xocs:doi') or ElsevierReadMetaData.get_text_or_none(soup, 'ce:doi') or 
+              ElsevierReadMetaData.get_text_or_none(soup, 'doi')) 
         print(journal_name, doi)
         # https://www.elsevier.com/__data/assets/pdf_file/0003/58872/ja5_tagbytag5_v1.9.5.pdf
         # Elsevier XML definition pp. 46
