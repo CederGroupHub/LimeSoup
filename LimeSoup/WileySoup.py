@@ -184,11 +184,7 @@ class WileyCollect(RuleIngredient):
             for sect in section:
                 if (sect.get('class') is not None and ('article-section__full' in sect.get('class') or 
                     (isinstance(sect.get('class'), list) and len(sect.get('class'))>1 and 'article-body-section' in sect.get('class')[1]))):
-                    print('Here 2')
                     paragraphs = sect.find_all('p')
-                    print(len(paragraphs))
-                    for p in paragraphs:
-                        print(p.text[:30])
                     for p in paragraphs:
                         skip = False
                         ul = p.find('ul')
@@ -215,6 +211,7 @@ class WileyCollect(RuleIngredient):
                                             for c3 in d3:
                                                 if c3 == parser.format_text(p.text):
                                                     skip = True
+                        print(skip)
                         if not skip:
                             text = parser.format_text(p.text)
                             # text = ''.join(filter(lambda x: x in string.printable, text)) Can be useful for formating but can remove characters
