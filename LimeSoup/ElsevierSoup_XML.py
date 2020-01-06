@@ -39,6 +39,8 @@ class ElsevierReadMetaData(RuleIngredient):
     @staticmethod
     def _parse(soup):
         # journal
+        print('Here parse')
+        print(soup)
         journal_name = ElsevierReadMetaData.get_text_or_none(soup, 'xocs:srctitle') or \
                        ElsevierReadMetaData.get_text_or_none(soup, 'prism:publicationName')
         doi = ElsevierReadMetaData.get_text_or_none(soup, 'xocs:doi')
