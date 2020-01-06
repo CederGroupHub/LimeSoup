@@ -98,7 +98,6 @@ class WileyRemoveTrash(RuleIngredient):
             {'name':'span', 'class':'inline-equation__label'},
             {'name':'div', 'class':'accordion article-accordion'},
             {'name':'div', 'class':'table__overflow js-module'},
-
         ]
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.remove_tags(rules=list_remove)
@@ -217,6 +216,7 @@ class WileyCollect(RuleIngredient):
                             if text[-1] != '.':
                                 index = text.rfind('.')
                                 text = text[:index+1]
+                            print(data[-1])
                             if text == data[-1]['content'][0]:
                                 continue
                             obj = {
