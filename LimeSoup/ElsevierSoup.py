@@ -31,6 +31,7 @@ class ElsevierChooseParser(RuleIngredient):
         code_type = classify_code_type(raw_string)
 
         if code_type == 'XML':
+            print('Here')
             return ElsevierXMLSoup.parse(raw_string)
         elif code_type == 'HTML':
             return ElsevierHTMLSoup.parse(raw_string)
