@@ -66,7 +66,7 @@ class ElsevierReadMetaData(RuleIngredient):
                     keywords.append(keyword)
 
         if len(keywords) == 0:
-            for subject in soup.find_all('dcterms:subject'):
+            for subject in soup.find_all('subject'):
                 keywords.append(subject.get_text().strip())
 
         return soup, {
@@ -86,18 +86,18 @@ class ElsevierCollect(RuleIngredient):
         paragraphs = []
 
         # find all sections
-        for node in soup.find_all('ce:abstract'):
+        for node in soup.find_all('abstract'):
             abstract_paragraph = extract_ce_abstract(node)
             normalized_name = re.sub(r'[^\w]', '', abstract_paragraph['name'])
             if re.match(r'abstracts?', normalized_name, re.IGNORECASE):
                 paragraphs.append(abstract_paragraph)
 
-        sections = soup.find('ce:sections')
+        sections = soup.find('sections')
         if sections is not None:
             for node in find_non_empty_children(sections):
-                if node_named(node, 'ce:para'):
+                if node_named(node, 'para'):
                     paragraphs.extend(extract_ce_para(node).split('\n'))
-                elif node_named(node, 'ce:section'):
+                elif node_named(node, 'section'):
                     paragraphs.append(extract_ce_section(node))
 
         obj['Sections'] = paragraphs
