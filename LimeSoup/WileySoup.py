@@ -188,6 +188,8 @@ class WileyCollect(RuleIngredient):
                     paragraphs = sect.find_all('p')
                     print(len(paragraphs))
                     for p in paragraphs:
+                        print(p.text[:30])
+                    for p in paragraphs:
                         skip = False
                         ul = p.find('ul')
                         if ul is not None and ul.get('class') is not None and 'rlist' in ul.get('class'):
