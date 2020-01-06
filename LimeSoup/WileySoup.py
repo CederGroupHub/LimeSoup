@@ -211,13 +211,12 @@ class WileyCollect(RuleIngredient):
                                                     skip = True
                         if not skip:
                             text = parser.format_text(p.text)
-                            print(text)
                             # text = ''.join(filter(lambda x: x in string.printable, text)) Can be useful for formating but can remove characters
                             if text[-1] != '.':
                                 index = text.rfind('.')
                                 text = text[:index+1]
                             print(data[-1])
-                            if text == data[-1]['content'][0]:
+                            if data[-1]['content'] and text == data[-1]['content'][0]:
                                 continue
                             obj = {
                                 'type':'section_h2',
