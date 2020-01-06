@@ -49,7 +49,6 @@ class WileyRemoveTagsSmallSub(RuleIngredient):
 class WileyRemoveTrash(RuleIngredient):
     @staticmethod
     def _parse(html_str):
-        print('Here')
         list_remove = [
             {'name': 'div', 'class': 'loa-wrappers loa_authors hidden-xs'},
             {'name':'div', 'class':'article-header__authors-container'},  # Authors X
@@ -152,6 +151,7 @@ class WileyCollect(RuleIngredient):
     @staticmethod
     def _parse(html_str):
         soup = BeautifulSoup(html_str, 'html.parser')
+        print(soup)
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         # Collect information from the paper using ParserPaper
         keywords = soup.find_all(attrs={'name':'citation_keywords'})
