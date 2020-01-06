@@ -186,6 +186,7 @@ class WileyCollect(RuleIngredient):
                     (isinstance(sect.get('class'), list) and len(sect.get('class'))>1 and 'article-body-section' in sect.get('class')[1]))):
                     print('Here 2')
                     paragraphs = sect.find_all('p')
+                    print(len(paragraphs))
                     for p in paragraphs:
                         skip = False
                         ul = p.find('ul')
