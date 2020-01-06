@@ -30,7 +30,7 @@ class ElsevierReadMetaData(RuleIngredient):
             return None
 
         node = soup.find(name=name)
-        print(node)
+        print(node, name)
         if node is None:
             return None
         elif handler is not None:
