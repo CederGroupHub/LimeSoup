@@ -224,12 +224,27 @@ class WileyCollect(RuleIngredient):
                                 'content':[text]
                             }
                             data.insert(-1*index2, obj)
+        cleaned_data = []
+        for d in data:
+            if d['name'] == 'abstract':
+                lines = []
+                for c in d['content']:
+                    if type(c) is str:
+                        lines.append(c)
+                new = dict()
+                new['content'] = lines
+                new['name'] = 'Abstract'
+                new['type'] = 'section_h2'
+                cleaned_data.append(new)
+            else:
+                if not d['content']:
+                    cleaned_data.append(d)
         obj = {
             'DOI': doi,
             'Title': title,
             'Keywords': keys,
             'Journal': journal_name,
-            'Sections': data
+            'Sections': cleaned_data
         }
         return obj
 
