@@ -5,6 +5,7 @@ from __future__ import division
 from __future__ import absolute_import
 
 import re
+from bs4 import BeautifulSoup
 
 from LimeSoup.lime_soup import Soup, RuleIngredient
 from LimeSoup.parser.parser_paper_springer import ParserPaper
@@ -43,7 +44,6 @@ class SpringerRemoveTagsSmallSub(RuleIngredient):
                  {'name': 'sup'},
                  {'name': 'em', 'class': re.compile("EmphasisTypeItalic *")}, 
                  {'name': 'strong', 'class': re.compile("EmphasisTypeBold *")},
-                 {'name': 'div', 'class':'Equation EquationMathjax'},
                  {'name': 'span', 'class':'InlineEquation'},
                  {'name': 'span', 'class':'InternalRef'}
                 ]
@@ -83,7 +83,9 @@ class SpringerRemoveTrash(RuleIngredient):
             {'name': 'aside', 'class': 'Bibliography'}, #Acknowledgements
             {'name': 'section', 'id':'Notes'}, #acknowledgements
             {'name': 'span', 'class': 'CitationRef'}, #references
-            
+            {'name':'div', 'class':'EquationContent'},
+            {'name':'div', 'class':'EquationNumber'},
+            {'name': 'div', 'class':'Equation EquationMathjax'},
         ]
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.remove_tags(rules=list_remove)
@@ -148,12 +150,47 @@ class SpringerCollect(RuleIngredient):
         )
         # Create tag from selection function in ParserPaper
         data = list()
-        
+        soup = BeautifulSoup(html_str, 'html.parser')
         parser.deal_with_sections()
         data = parser.data_sections
-        
+        if data[0]['name'] != 'Abstract':
+            sections = soup.find_all('section')
+            for s in sections:
+                if s.get('class') == ['Abstract']:
+                    abstract = dict()
+                    ab_text = s.text.strip()
+                    ab_text = ab_text.replace('\n', '')
+                    ab_text = re.sub('\n*\s+\n*', ' ', ab_text)
+                    ab_text = re.sub(r'\s?\[(\s|-\s|–\s|,\s)*\]', '', ab_text)
+                    abstract['content'] = [ab_text]
+                    abstract['name'] = 'Abstract'
+                    abstract['type'] = 'section_h2'
+                    data = [abstract]+data
+                    break
+        doi = ''
+        metas = soup.find_all('meta')
+        for meta in metas:
+            if meta.get('name') == 'citation_doi':
+                doi = meta.get('content').strip()
+                break
+        if len(data) == 1 and data[0]['name'] == 'Abstract':
+            divs = soup.find_all('div')
+            for div in divs:
+                if div.get('id') == 'body':
+                    paras = []
+                    paragraphs = div.find_all('p')
+                    for para in paragraphs:
+                        pa_text = para.text.strip().replace('\n', '')
+                        pa_text = re.sub('\n*\s+\n*', ' ', pa_text)
+                        pa_text = re.sub(r'\s?\[(\s|-\s|–\s|,\s)*\]', '', pa_text)
+                        paras.append(pa_text)
+                    new = dict()
+                    new['content'] = paras
+                    new['name'] = ''
+                    new['type'] = 'section_h2'
+                    data.extend([new])
         obj = {
-            'DOI': '',
+            'DOI': doi,
             'Title': parser.title,
             'Keywords': parser.keywords,
             'Journal': ParserPaper.journal_name,
