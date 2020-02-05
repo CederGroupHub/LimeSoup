@@ -126,6 +126,12 @@ class SpringerReplaceDivTag(RuleIngredient):
         parser.strip_tags(rules)
         rules = [{'name': 'span', 'id': parser.compile('^sect[0-9]+$')}]  # some span are heading
         _ = parser.strip_tags(rules)
+        rules = [
+            {'name': 'div', 'class': 'UnorderedList'},
+            {'name': 'ul', 'class': 'UnorderedListMarkBullet'},
+            {'name': 'li'}
+        ]
+        paser.strip_tags(rules)
         return parser.raw_html
 
 class SpringerReplaceDivTagPara(RuleIngredient):
@@ -135,6 +141,14 @@ class SpringerReplaceDivTagPara(RuleIngredient):
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         rules = {'name': 'div', 'class': 'Para'}
         parser.rename_tag(rules, 'p')
+        return parser.raw_html
+
+class SpringerListHandler(RuleIngredient):
+
+    @staticmethod
+    def _parser(html_str):
+        parser = ParserPaper(html_str, parser_type = 'html.parser', debugging = False)
+        paser.handle_list()
         return parser.raw_html
 
 class SpringerCollect(RuleIngredient):
@@ -208,6 +222,7 @@ SpringerSoup.add_ingredient(SpringerRemoveTagsSmallSub())
 SpringerSoup.add_ingredient(SpringerFindJournalName())
 SpringerSoup.add_ingredient(SpringerCreateTagAbstract())
 SpringerSoup.add_ingredient(SpringerRemoveTrash())
+SpringerSoup.add_ingredient(SpringerListHandler())
 SpringerSoup.add_ingredient(SpringerCreateTags())
 SpringerSoup.add_ingredient(SpringerReplaceDivTagPara())
 SpringerSoup.add_ingredient(SpringerCollect())

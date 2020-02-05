@@ -385,3 +385,18 @@ class ParserPaper:
     @property
     def raw_html(self):
         return self.soup.prettify()
+
+    def handle_list(self):
+        """
+        This handles list so they show up as one paragraph and ensure that list elements do not get double counted as two paragraphs
+        This function will extra the contents of a list, delete the list and then reinsert the list contents as separate paragraphs
+        """
+        list_tags = self.soup.find_all('div', class_='UnorderedList')
+        for unordered_list in list_tags:
+            paras_to_add = unordered_list.find_all('p', class_='Para')
+            parent_of_list = unordered_list.parent
+            for para in paras_to_add[::-1]:
+                parent_of_list.insert_after(para)
+            unordered_list.extract()
+            
+
