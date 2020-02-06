@@ -98,7 +98,6 @@ class WileyRemoveTrash(RuleIngredient):
             {'name':'span', 'class':'inline-equation__label'},
             {'name':'div', 'class':'accordion article-accordion'},
             {'name':'div', 'class':'table__overflow js-module'},
-
         ]
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.remove_tags(rules=list_remove)
@@ -171,7 +170,8 @@ class WileyCollect(RuleIngredient):
         parser.deal_with_sections()
         data = parser.data_sections
         index2 = max(len(data)-1,1)
-        check = ['Abstract', 'Acknowledgements', 'Experimental Section', 'Supporting Information']
+        check = ['Abstract', 'Acknowledgements', 'Experimental Section', 'Supporting Information', 'Conflict of interest', 'Figures', 'Related', 
+                'Information']
         no_sections = True
         for d in data:
             if d['name'] not in check:
@@ -214,7 +214,7 @@ class WileyCollect(RuleIngredient):
                             if text[-1] != '.':
                                 index = text.rfind('.')
                                 text = text[:index+1]
-                            if text == data[-1]['content'][0]:
+                            if data[-1]['content'] and text == data[-1]['content'][0]:
                                 continue
                             obj = {
                                 'type':'section_h2',
@@ -222,12 +222,27 @@ class WileyCollect(RuleIngredient):
                                 'content':[text]
                             }
                             data.insert(-1*index2, obj)
+        cleaned_data = []
+        for d in data:
+            if d['name'] == 'Abstract':
+                lines = []
+                for c in d['content']:
+                    if type(c) is str:
+                        lines.append(c)
+                new = dict()
+                new['content'] = lines
+                new['name'] = 'Abstract'
+                new['type'] = 'section_h2'
+                cleaned_data.append(new)
+            else:
+                if d['content']:
+                    cleaned_data.append(d)
         obj = {
             'DOI': doi,
             'Title': title,
             'Keywords': keys,
             'Journal': journal_name,
-            'Sections': data
+            'Sections': cleaned_data
         }
         return obj
 

@@ -39,22 +39,22 @@ class ElsevierReadMetaData(RuleIngredient):
     @staticmethod
     def _parse(soup):
         # journal
-        journal_name = ElsevierReadMetaData.get_text_or_none(soup, 'xocs:srctitle') or \
-                       ElsevierReadMetaData.get_text_or_none(soup, 'prism:publicationName')
-        doi = ElsevierReadMetaData.get_text_or_none(soup, 'xocs:doi')
-
+        journal_name = (ElsevierReadMetaData.get_text_or_none(soup, 'xocs:srctitle') or ElsevierReadMetaData.get_text_or_none(soup, 
+                        'prism:publicationName') or ElsevierReadMetaData.get_text_or_none(soup, 'srctitle') or ElsevierReadMetaData.get_text_or_none(soup,
+                        'publicationName'))
+        doi = (ElsevierReadMetaData.get_text_or_none(soup, 'xocs:doi') or ElsevierReadMetaData.get_text_or_none(soup, 'ce:doi') or 
+              ElsevierReadMetaData.get_text_or_none(soup, 'doi')) 
         # https://www.elsevier.com/__data/assets/pdf_file/0003/58872/ja5_tagbytag5_v1.9.5.pdf
         # Elsevier XML definition pp. 46
         head_node = soup.find('head')
 
-        title = ElsevierReadMetaData.get_text_or_none(head_node, 'ce:title', extract_ce_title) or \
-                ElsevierReadMetaData.get_text_or_none(soup, 'dc:title')
-
+        title = (ElsevierReadMetaData.get_text_or_none(head_node, 'ce:title', extract_ce_title) or ElsevierReadMetaData.get_text_or_none(soup, 'dc:title')
+                or ElsevierReadMetaData.get_text_or_none(soup, 'title'))
         keywords = []
         if head_node is not None:
             # Elsevier XML definition pp. 366
-            for node in head_node.find_all('ce:keyword'):
-                text_node = node.find('ce:text')
+            for node in head_node.find_all('keyword'):
+                text_node = node.find('text')
                 if text_node is not None:
                     keyword = remove_consecutive_whitespaces(
                         extract_ce_text(text_node),
@@ -63,7 +63,7 @@ class ElsevierReadMetaData(RuleIngredient):
                     keywords.append(keyword)
 
         if len(keywords) == 0:
-            for subject in soup.find_all('dcterms:subject'):
+            for subject in soup.find_all('subject'):
                 keywords.append(subject.get_text().strip())
 
         return soup, {
@@ -83,18 +83,18 @@ class ElsevierCollect(RuleIngredient):
         paragraphs = []
 
         # find all sections
-        for node in soup.find_all('ce:abstract'):
+        for node in soup.find_all('abstract'):
             abstract_paragraph = extract_ce_abstract(node)
             normalized_name = re.sub(r'[^\w]', '', abstract_paragraph['name'])
             if re.match(r'abstracts?', normalized_name, re.IGNORECASE):
                 paragraphs.append(abstract_paragraph)
 
-        sections = soup.find('ce:sections')
+        sections = soup.find('sections')
         if sections is not None:
             for node in find_non_empty_children(sections):
-                if node_named(node, 'ce:para'):
+                if node_named(node, 'para'):
                     paragraphs.extend(extract_ce_para(node).split('\n'))
-                elif node_named(node, 'ce:section'):
+                elif node_named(node, 'section'):
                     paragraphs.append(extract_ce_section(node))
 
         obj['Sections'] = paragraphs
