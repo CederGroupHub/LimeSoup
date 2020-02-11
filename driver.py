@@ -10,8 +10,8 @@ from LimeSoup import (
     WileySoup,
 )
 import json
-
-with open('data/ECS/10114911543949.html', 'r', encoding = 'utf-8') as f:
+'data\springer\101007s10853-006-0223-4.html'
+with open('data/springer/101007s10853-006-0223-4.html', 'r', encoding = 'utf-8') as f:
 
     html_str = f.read()
 

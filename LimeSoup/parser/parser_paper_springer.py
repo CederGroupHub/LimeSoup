@@ -391,12 +391,69 @@ class ParserPaper:
         This handles list so they show up as one paragraph and ensure that list elements do not get double counted as two paragraphs
         This function will extra the contents of a list, delete the list and then reinsert the list contents as separate paragraphs
         """
+        # unordered lists (bulleted lists)
         list_tags = self.soup.find_all('div', class_='UnorderedList')
         for unordered_list in list_tags:
-            paras_to_add = unordered_list.find_all('p', class_='Para')
+            paras_to_add = unordered_list.find_all(class_='Para')
+            # paras_to_add.append(unordered_list.find_all('div', class_='Para'))
             parent_of_list = unordered_list.parent
             for para in paras_to_add[::-1]:
                 parent_of_list.insert_after(para)
             unordered_list.extract()
-            
+        # Ordered lists (numbered lists)
+        list_tags = self.soup.find_all('div', class_='OrderedList')
+        for ordered_list in list_tags:
+            paras_to_add = ordered_list.find_all(class_='Para')
+            # paras_to_add.append(ordered_list.find_all('div', class_='Para'))
+            parent_of_list = ordered_list.parent
+            for para in paras_to_add[::-1]:
+                parent_of_list.insert_after(para)
+            ordered_list.extract()
+    
+    def create_tag_for_untitled_sections(self):
+        """
+        This function will create a section header for body paragraphs which are unlabelled. The name will be set to untitled
+        """
+        # first need to find paragraphs which do not belong to a section
+        untitled_paras = []
+        # print(self.soup.prettify())
+        # this means the paragraph has no section header
+        for para in self.soup.find_all('p', class_='Para'):
+            try:
+                if para.parent.name == 'div' and para.parent['id'] == 'body':
+                    # print('HERE')
+                    # print(para.parent)
+                    untitled_paras.append(para)
+                    # para.wrap(self.soup.new_tag('section'))
+                    # para.wrap(self.soup.new_tag('section_h2'))
+                    # para.wrap(self.soup.new_tag('div', class_='content'))
+            except:
+                pass
+        if len(untitled_paras)>0:
+            untitled_paras[0].wrap(self.soup.new_tag('section'))
+            untitled_paras[0].wrap(self.soup.new_tag('section_h2'))
+            untitled_paras[0].wrap(self.soup.new_tag('div', class_='content'))
+            newtag = self.soup.new_tag('h2', class_='Heading')
+            newtag.append('Untitled')
+            untitled_paras[0].parent.insert_before(newtag)
+            for para in untitled_paras[1:]:
+                untitled_paras[0].parent.append(para)
+                
+                # newtag = self.soup.new_tag('section')
+                # newtag.append(self.soup.new_tag('section_h2'))
+                # newtag.section_h2.append(self.soup.new_tag('h2', class_='Heading'))
+                # newtag.section_h2.h2.append('Untitled')
+                # newtag.section_h2.append(self.soup.new_tag('div', class_='content'))
+                # for para in untitled_paras:
+                #     para.wrap(newtag)
 
+            
+"""
+ </section_h2>
+         <section class="Section1 RenderAsSection1" id="Sec1" tabindex="-1">
+          <section_h2>
+           <h2 class="Heading">
+            Experimental
+           </h2>
+           <div class="content">
+"""

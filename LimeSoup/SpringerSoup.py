@@ -86,6 +86,7 @@ class SpringerRemoveTrash(RuleIngredient):
             {'name':'div', 'class':'EquationContent'},
             {'name':'div', 'class':'EquationNumber'},
             {'name': 'div', 'class':'Equation EquationMathjax'},
+            {'name' : 'div', 'class': 'AbbreviationGroup'}  # list of abreviations at the beginning of paper
         ]
         parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
         parser.remove_tags(rules=list_remove)
@@ -126,12 +127,6 @@ class SpringerReplaceDivTag(RuleIngredient):
         parser.strip_tags(rules)
         rules = [{'name': 'span', 'id': parser.compile('^sect[0-9]+$')}]  # some span are heading
         _ = parser.strip_tags(rules)
-        rules = [
-            {'name': 'div', 'class': 'UnorderedList'},
-            {'name': 'ul', 'class': 'UnorderedListMarkBullet'},
-            {'name': 'li'}
-        ]
-        paser.strip_tags(rules)
         return parser.raw_html
 
 class SpringerReplaceDivTagPara(RuleIngredient):
@@ -146,9 +141,19 @@ class SpringerReplaceDivTagPara(RuleIngredient):
 class SpringerListHandler(RuleIngredient):
 
     @staticmethod
-    def _parser(html_str):
+    def _parse(html_str):
         parser = ParserPaper(html_str, parser_type = 'html.parser', debugging = False)
-        paser.handle_list()
+        parser.handle_list()
+        return parser.raw_html
+
+class SpringerCreateTagsForUntitledParagraphs(RuleIngredient):
+
+    @staticmethod
+    def _parse(html_str):
+        # this particularly handles adding a header tag to paragraphs which did not have one (i.e. lets the parser get paragraphs which 
+        # were not placed in a section)
+        parser = ParserPaper(html_str, parser_type='html.parser', debugging=False)
+        parser.create_tag_for_untitled_sections()
         return parser.raw_html
 
 class SpringerCollect(RuleIngredient):
@@ -167,6 +172,10 @@ class SpringerCollect(RuleIngredient):
         soup = BeautifulSoup(html_str, 'html.parser')
         parser.deal_with_sections()
         data = parser.data_sections
+        if len(data) == 0:  # this means there are no headers at all, so all paragraphs will be collected
+            data = [{'name': 'null',  # this causes the next if statement to pick up the error and fix it rather than throw an error
+                    'section_type': 'null',
+                    'content': 'null'}]
         if data[0]['name'] != 'Abstract':
             sections = soup.find_all('section')
             for s in sections:
@@ -225,4 +234,5 @@ SpringerSoup.add_ingredient(SpringerRemoveTrash())
 SpringerSoup.add_ingredient(SpringerListHandler())
 SpringerSoup.add_ingredient(SpringerCreateTags())
 SpringerSoup.add_ingredient(SpringerReplaceDivTagPara())
+SpringerSoup.add_ingredient(SpringerCreateTagsForUntitledParagraphs())
 SpringerSoup.add_ingredient(SpringerCollect())
