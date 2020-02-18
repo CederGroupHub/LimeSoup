@@ -49,7 +49,6 @@ class ECSRemoveTrash(RuleIngredient):
                 doi = meta.get('content')
             if meta.get('name') == 'citation_journal_title':
                 journal = meta.get('content')
-        print(doi, journal)
         obj = {
             'Title': '',
             'Keywords': [],
