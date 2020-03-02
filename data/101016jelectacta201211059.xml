@@ -1,0 +1,2165 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S0013468612018786</prism:url><dc:identifier>doi:10.1016/j.electacta.2012.11.059</dc:identifier><eid>1-s2.0-S0013468612018786</eid><prism:doi>10.1016/j.electacta.2012.11.059</prism:doi><pii>S0013-4686(12)01878-6</pii><dc:title>Bulk solid state rechargeable lithium ion battery fabrication with Al-doped Li7La3Zr2O12 electrolyte and Cu0.1V2O5 cathode </dc:title><prism:publicationName>Electrochimica Acta</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><prism:issn>00134686</prism:issn><prism:volume>89</prism:volume><prism:startingPage>407</prism:startingPage><prism:endingPage>412</prism:endingPage><prism:pageRange>407-412</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2013-02-01</prism:coverDate><prism:coverDisplayDate>1 February 2013</prism:coverDisplayDate><prism:copyright>Copyright © 2012 Elsevier Ltd. All rights reserved.</prism:copyright><prism:publisher>Elsevier Ltd.</prism:publisher><dc:creator>Jin, Ying</dc:creator><dc:creator>McGinn, Paul J.</dc:creator><dc:description>
+               Abstract
+               
+                  A simple, low-temperature route was developed to process bulk solid-state Li-ion batteries employing Al-doped Li7La3Zr2O12 solid electrolyte (thickness: ∼ 0.5mm; 25°C conductivity: ∼ 2×10−4 S cm−1). A composite Cu0.1V2O5–based slurry was directly painted on Li7La3Zr2O12 and dried at 120°C to prepare the cathode film. The opposite side of the electrolyte was subsequently exposed to molten Li to form the anode. The discharge capacity of the solid state battery was 53mAhg−1 (calculated based on the weight of active cathode material) at room temperature with 5μAcm−2 discharging current. Severe capacity decay occurred after the initial discharging. A comparable liquid electrolyte battery was tested at room temperature for comparison and had a much slower decay rate. However, when the operating temperature of the solid state battery was increased to 50°C, the cell performance significantly improved. At 50°C, the battery exhibited 176mAhg−1 initial discharging capacity at 5μAcm−2 current density and 93mAhg−1 initial capacity under a 10μAcm−2 discharging current density. After 20 cycles, the capacity decayed to 68.6mAhg−1 when cycled at a 10μAcm−2 current density. Impedance spectroscopy was used to investigate the interface resistance of the battery at different temperatures. The results indicated that both the cathode and anode interface resistance were dramatically reduced at 50°C. The decrease in interface resistances at elevated temperature is proposed as the main reason for the observed battery performance enhancement.
+               
+            </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><dcterms:subject>Solid-state battery</dcterms:subject><dcterms:subject>Solid electrolyte</dcterms:subject><dcterms:subject>Li7La3Zr2O12
+                  </dcterms:subject><dcterms:subject>Garnet structure</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S0013468612018786" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S0013468612018786" rel="scidir"/></coredata><objects><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="216" height="164" size="4247">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr1.sml?httpAccept=%2A%2F%2A</object><object ref="gr2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="218" height="164" size="4090">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr2.sml?httpAccept=%2A%2F%2A</object><object ref="gr3" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="218" height="164" size="5635">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr3.sml?httpAccept=%2A%2F%2A</object><object ref="gr4" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="106" height="164" size="4355">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr4.sml?httpAccept=%2A%2F%2A</object><object ref="gr5" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="217" height="164" size="3699">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr5.sml?httpAccept=%2A%2F%2A</object><object ref="gr6" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="160" size="5889">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr6.sml?httpAccept=%2A%2F%2A</object><object ref="gr7" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="159" size="5717">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr7.sml?httpAccept=%2A%2F%2A</object><object ref="gr8" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="111" height="163" size="3822">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr8.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="376" height="285" size="13883">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="376" height="282" size="12217">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr2.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="376" height="283" size="18828">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr3.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="377" height="582" size="40180">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr4.jpg?httpAccept=%2A%2F%2A</object><object ref="gr5" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="376" height="284" size="12112">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr5.jpg?httpAccept=%2A%2F%2A</object><object ref="gr6" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="376" height="275" size="19241">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr6.jpg?httpAccept=%2A%2F%2A</object><object ref="gr7" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="376" height="273" size="17546">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr7.jpg?httpAccept=%2A%2F%2A</object><object ref="gr8" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="376" height="552" size="31101">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr8.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1666" height="1265" size="106104">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr1_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1667" height="1252" size="101025">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr2_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1667" height="1253" size="151163">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr3_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1670" height="2576" size="337644">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr4_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr5" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1666" height="1260" size="93816">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr5_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr6" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1667" height="1217" size="166519">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr6_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr7" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1665" height="1211" size="163665">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr7_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr8" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1667" height="2449" size="294417">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468612018786-gr8_lrg.jpg?httpAccept=%2A%2F%2A</object></objects><scopus-id>84874439251</scopus-id><scopus-eid>2-s2.0-84874439251</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/84874439251" rel="abstract"/><originalText><xocs:doc xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd" xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd">
+   <xocs:meta>
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>271355</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291685</xocs:ssid>
+         <xocs:ssid type="subj">291786</xocs:ssid>
+         <xocs:ssid type="subj">291790</xocs:ssid>
+         <xocs:ssid type="subj">291865</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Electrochimica Acta</xocs:srctitle>
+      <xocs:normalized-srctitle>ELECTROCHIMICAACTA</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20121124">2012-11-24</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20121124">2012-11-24</xocs:available-online-date>
+      <xocs:ew-transaction-id>2019-12-11T12:52:48</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S0013468612018786</xocs:eid>
+      <xocs:pii-formatted>S0013-4686(12)01878-6</xocs:pii-formatted>
+      <xocs:pii-unformatted>S0013468612018786</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.electacta.2012.11.059</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.2</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S0013468612X0029X</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20191211">2019-12-11T13:04:07.911806Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20130201</xocs:date-search-begin>
+      <xocs:year-nav>2013</xocs:year-nav>
+      <xocs:indexeddate epoch="1353715200">2012-11-24T00:00:00Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure body acknowledge affil articletitle auth authfirstini authfull authkeywords authlast primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>0013-4686</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>00134686</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>89</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>89</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 89</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>55</xocs:sort-order>
+      <xocs:first-fp>407</xocs:first-fp>
+      <xocs:last-lp>412</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>407</xocs:first-page>
+         <xocs:last-page>412</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>20130201</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>1 February 2013</xocs:cover-date-text>
+      <xocs:cover-date-start>2013-02-01</xocs:cover-date-start>
+      <xocs:cover-date-year>2013</xocs:cover-date-year>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2012 Elsevier Ltd. All rights reserved.</xocs:copyright-line>
+      <xocs:normalized-article-title>BULKSOLIDSTATERECHARGEABLELITHIUMIONBATTERYFABRICATIONALDOPEDLI7LA3ZR2O12ELECTROLYTECU01V2O5CATHODE</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>JIN</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>Y</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>1</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Introduction</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>2</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Experimental</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.1</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Preparation</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.2</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Characterization</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>3</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Results and discussion</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>4</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Conclusions</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>Acknowledgements</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="bib0005">
+            <xocs:ref-normalized-surname>KNAUTH</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>911</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0010">
+            <xocs:ref-normalized-surname>FERGUS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4554</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0015">
+            <xocs:ref-normalized-surname>QUARTARONE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2525</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>E</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0020">
+            <xocs:ref-normalized-surname>DUDNEY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>479</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0025">
+            <xocs:ref-normalized-surname>MURUGAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>7778</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0030">
+            <xocs:ref-normalized-surname>KAERIYAMA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>175</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0035">
+            <xocs:ref-normalized-surname>KOTOBUKI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A1076</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0040">
+            <xocs:ref-normalized-surname>AWAKA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>6062</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0045">
+            <xocs:ref-normalized-surname>KIM</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>764</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0050">
+            <xocs:ref-normalized-surname>OHTA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3342</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0055">
+            <xocs:ref-normalized-surname>GEIGER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1089</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0060">
+            <xocs:ref-normalized-surname>BUSCHMANN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>19378</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0065">
+            <xocs:ref-normalized-surname>KOTOBUKI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>7750</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0070">
+            <xocs:ref-normalized-surname>MURUGAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1373</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0075">
+            <xocs:ref-normalized-surname>JIN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>8683</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0080">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1289</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0085">
+            <xocs:ref-normalized-surname>KUMAZAKI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>509</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0090">
+            <xocs:ref-normalized-surname>KOTOBUKI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>346</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0095">
+            <xocs:ref-normalized-surname>OHTA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>332</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0100">
+            <xocs:ref-normalized-surname>COUSTIER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>9</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0105">
+            <xocs:ref-normalized-surname>COUSTIER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1355</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0110">
+            <xocs:ref-normalized-surname>TAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A37</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0115">
+            <xocs:ref-normalized-surname>LIU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2005</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A100</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0120">
+            <xocs:ref-normalized-surname>HE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>15703</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0125">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4865</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0130">
+            <xocs:ref-normalized-surname>PETKOV</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2002</xocs:ref-pub-year>
+            <xocs:ref-first-fp>10157</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>V</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0135">
+            <xocs:ref-normalized-surname>KOTOBUKI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1023</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0140">
+            <xocs:ref-normalized-surname>KOBAYASHI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2005</xocs:ref-pub-year>
+            <xocs:ref-first-fp>719</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0145">
+            <xocs:ref-normalized-surname>PROSINI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2001</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2623</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="bib0150">
+            <xocs:ref-normalized-surname>NAVONE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2008</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3329</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>JINX2013X407</xocs:refkey3>
+         <xocs:refkey4lp>JINX2013X407X412</xocs:refkey4lp>
+         <xocs:refkey4ai>JINX2013X407XY</xocs:refkey4ai>
+         <xocs:refkey5>JINX2013X407X412XY</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+      </xocs:open-access>
+      <xocs:funding-list has-funding-info="1">
+         <xocs:funding-addon-generated-timestamp>2019-03-15T13:10:42.131Z</xocs:funding-addon-generated-timestamp>
+         <xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/nlp</xocs:funding-addon-type>
+         <xocs:funding-source-document source-document-type="pii">S0013468612018786</xocs:funding-source-document>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>U.S. Army TARDEC</xocs:funding-agency-matched-string>
+            <xocs:funding-agency>U.S. Army</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/100006751</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/6252001/</xocs:funding-agency-country>
+         </xocs:funding>
+         <xocs:funding-text>This work was supported by the U.S. Army TARDEC under Contract No. W56HZV-08-C-0236, through a subcontract with Mississippi State University, and was performed as part of the Simulation Based Reliability and Safety (SimBRS) research program. Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the U.S. Army TARDEC.  </xocs:funding-text>
+      </xocs:funding-list>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S0013-4686(12)01878-6</xocs:pii-formatted>
+         <xocs:pii-unformatted>S0013468612018786</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S0013468612018786</xocs:eid>
+         <xocs:doi>10.1016/j.electacta.2012.11.059</xocs:doi>
+         <xocs:cid>271355</xocs:cid>
+         <xocs:timestamp>2019-12-11T13:04:07.911806Z</xocs:timestamp>
+         <xocs:cover-date-start>2013-02-01</xocs:cover-date-start>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/MAIN/application/pdf/b3e3e3e9f450b0edd01beeeea16a2152/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>660384</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>6</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S0013468612018786-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/PREVIEW/image/png/e770d4801d11fdc5e38c4a0433312758/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>57523</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr1/THUMBNAIL/image/gif/093a99a6dc16c0de076d2e77d3d2cc35/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>4247</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>216</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr2/THUMBNAIL/image/gif/c3c085effc724dc0acbe261f2beb5172/gr2.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>4090</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>218</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr3.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr3/THUMBNAIL/image/gif/4ecca3f2b6b3de2b2ec14e4864cca0e0/gr3.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>5635</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>218</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr4.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr4/THUMBNAIL/image/gif/dd347e61b0f4b597cfebb81c8081bf53/gr4.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>4355</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>106</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr5.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr5/THUMBNAIL/image/gif/193a264536bfd470efce5ddaaf56c1d3/gr5.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>3699</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>217</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr6.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr6/THUMBNAIL/image/gif/e7fc0230cbf44b7556fcbe77e130ad18/gr6.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr6</xocs:file-basename>
+               <xocs:filename>gr6.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>5889</xocs:filesize>
+               <xocs:pixel-height>160</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr7.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr7/THUMBNAIL/image/gif/e829d38368712ae093afac5e52cce481/gr7.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr7</xocs:file-basename>
+               <xocs:filename>gr7.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>5717</xocs:filesize>
+               <xocs:pixel-height>159</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr8.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr8/THUMBNAIL/image/gif/c5de9874cbadabd1348d6bd2da120361/gr8.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr8</xocs:file-basename>
+               <xocs:filename>gr8.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>3822</xocs:filesize>
+               <xocs:pixel-height>163</xocs:pixel-height>
+               <xocs:pixel-width>111</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr1/DOWNSAMPLED/image/jpeg/3a197e38d58a1f2d246d35da6133d818/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>13883</xocs:filesize>
+               <xocs:pixel-height>285</xocs:pixel-height>
+               <xocs:pixel-width>376</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr2.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr2/DOWNSAMPLED/image/jpeg/f7fc3ba02bfb9798489386729b862dc1/gr2.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>12217</xocs:filesize>
+               <xocs:pixel-height>282</xocs:pixel-height>
+               <xocs:pixel-width>376</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr3.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr3/DOWNSAMPLED/image/jpeg/6aad4a4c26bf86e64940ca82c0cb93e6/gr3.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>18828</xocs:filesize>
+               <xocs:pixel-height>283</xocs:pixel-height>
+               <xocs:pixel-width>376</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr4.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr4/DOWNSAMPLED/image/jpeg/8a79146516ecfe0310f6263114d3a109/gr4.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>40180</xocs:filesize>
+               <xocs:pixel-height>582</xocs:pixel-height>
+               <xocs:pixel-width>377</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr5.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr5/DOWNSAMPLED/image/jpeg/620ff7677c0655ee9e575d979cd54dc5/gr5.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>12112</xocs:filesize>
+               <xocs:pixel-height>284</xocs:pixel-height>
+               <xocs:pixel-width>376</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr6.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr6/DOWNSAMPLED/image/jpeg/46c1c88e9bef5611a2cb3bcd6b7d6ec0/gr6.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr6</xocs:file-basename>
+               <xocs:filename>gr6.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>19241</xocs:filesize>
+               <xocs:pixel-height>275</xocs:pixel-height>
+               <xocs:pixel-width>376</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr7.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr7/DOWNSAMPLED/image/jpeg/fd833109d8dc9948ee3a8f8098f76fb1/gr7.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr7</xocs:file-basename>
+               <xocs:filename>gr7.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>17546</xocs:filesize>
+               <xocs:pixel-height>273</xocs:pixel-height>
+               <xocs:pixel-width>376</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr8.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr8/DOWNSAMPLED/image/jpeg/c07c6761291c577accaf33a3d83244e1/gr8.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr8</xocs:file-basename>
+               <xocs:filename>gr8.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>31101</xocs:filesize>
+               <xocs:pixel-height>552</xocs:pixel-height>
+               <xocs:pixel-width>376</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr1_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr1/HIGHRES/image/jpeg/d276c7f98bc9134e397d8f4e6b5bdd2f/gr1_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>106104</xocs:filesize>
+               <xocs:pixel-height>1265</xocs:pixel-height>
+               <xocs:pixel-width>1666</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr2_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr2/HIGHRES/image/jpeg/404d27c834971bfbdc91226040cc8391/gr2_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>101025</xocs:filesize>
+               <xocs:pixel-height>1252</xocs:pixel-height>
+               <xocs:pixel-width>1667</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr3_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr3/HIGHRES/image/jpeg/03377539eebded120bfb6b96880a2e0a/gr3_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>151163</xocs:filesize>
+               <xocs:pixel-height>1253</xocs:pixel-height>
+               <xocs:pixel-width>1667</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr4_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr4/HIGHRES/image/jpeg/5a7a19997326f8ff990587cc0efabc2c/gr4_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>337644</xocs:filesize>
+               <xocs:pixel-height>2576</xocs:pixel-height>
+               <xocs:pixel-width>1670</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr5_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr5/HIGHRES/image/jpeg/55c0ded267056466a8e7d7107b0636cf/gr5_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>93816</xocs:filesize>
+               <xocs:pixel-height>1260</xocs:pixel-height>
+               <xocs:pixel-width>1666</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr6_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr6/HIGHRES/image/jpeg/238bfbcd23a704e08d6274f7526e7bff/gr6_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr6</xocs:file-basename>
+               <xocs:filename>gr6_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>166519</xocs:filesize>
+               <xocs:pixel-height>1217</xocs:pixel-height>
+               <xocs:pixel-width>1667</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr7_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr7/HIGHRES/image/jpeg/df6f5e65286cb96d6281b49fa84f8678/gr7_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr7</xocs:file-basename>
+               <xocs:filename>gr7_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>163665</xocs:filesize>
+               <xocs:pixel-height>1211</xocs:pixel-height>
+               <xocs:pixel-width>1665</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468612018786-gr8_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468612018786/gr8/HIGHRES/image/jpeg/a318f89a761b396ccf5e291f9efbbae1/gr8_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr8</xocs:file-basename>
+               <xocs:filename>gr8_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>294417</xocs:filesize>
+               <xocs:pixel-height>2449</xocs:pixel-height>
+               <xocs:pixel-width>1667</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta>
+   <xocs:serial-item>
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.1" xml:lang="en" docsubtype="fla">
+         <item-info>
+            <jid>EA</jid>
+            <aid>19588</aid>
+            <ce:pii>S0013-4686(12)01878-6</ce:pii>
+            <ce:doi>10.1016/j.electacta.2012.11.059</ce:doi>
+            <ce:copyright type="full-transfer" year="2012">Elsevier Ltd</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig0005">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption>
+                  <ce:simple-para id="spar0010" view="all">XRD pattern of the composite Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> film on a glass substrate. Peaks attributed to the composite Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> film are marked by black dots. The amorphous hump is from the glass substrate.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr1"/>
+            </ce:figure>
+            <ce:figure id="fig0010">
+               <ce:label>Fig. 2</ce:label>
+               <ce:caption>
+                  <ce:simple-para id="spar0015" view="all">Discharging capacities at 25<ce:hsp sp="0.25"/>°C for the first 20 cycles of the liquid electrolyte coin cell battery (composite Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> cathode/liquid electrolyte/Li foil).</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr2"/>
+            </ce:figure>
+            <ce:figure id="fig0015">
+               <ce:label>Fig. 3</ce:label>
+               <ce:caption>
+                  <ce:simple-para id="spar0020" view="all">Charging and discharging curves of the Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf>/LLZO/Li solid state battery. The 1<ce:sup loc="post">st</ce:sup> cycle curve is denoted by dotted-lines.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr3"/>
+            </ce:figure>
+            <ce:figure id="fig0020">
+               <ce:label>Fig. 4</ce:label>
+               <ce:caption>
+                  <ce:simple-para id="spar0025" view="all">(a) Charging and discharging curves of the Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf>/LLZO/Li battery tested at 50<ce:hsp sp="0.25"/>°C. current density: 5<ce:hsp sp="0.25"/>μA<ce:hsp sp="0.25"/>cm<ce:sup loc="post">−2</ce:sup>. Cut off voltage range: 2.0<ce:hsp sp="0.25"/>V∼3.8<ce:hsp sp="0.25"/>V. The 1<ce:sup loc="post">st</ce:sup> cycle curve is denoted by dotted-lines (b) battery capacities of the first 20 cycles when tested at a 10<ce:hsp sp="0.25"/>μA<ce:hsp sp="0.25"/>cm<ce:sup loc="post">−2</ce:sup> current density at 50<ce:hsp sp="0.25"/>°C.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr4"/>
+            </ce:figure>
+            <ce:figure id="fig0025">
+               <ce:label>Fig. 5</ce:label>
+               <ce:caption>
+                  <ce:simple-para id="spar0030" view="all">Battery capacities of the Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf>/liquid electrolyte/LLZO/Li configuration battery; current density: first five cycles — 5<ce:hsp sp="0.25"/>μA<ce:hsp sp="0.25"/>cm<ce:sup loc="post">−2</ce:sup>; last five cycles — 10<ce:hsp sp="0.25"/>μA<ce:hsp sp="0.25"/>cm<ce:sup loc="post">−2</ce:sup>. Cut off voltage range: 2.0<ce:hsp sp="0.25"/>V∼3.8<ce:hsp sp="0.25"/>V. Battery working temperature: RT.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr5"/>
+            </ce:figure>
+            <ce:figure id="fig0030">
+               <ce:label>Fig. 6</ce:label>
+               <ce:caption>
+                  <ce:simple-para id="spar0035" view="all">Impedance spectra of a LLZO pellet at RT and 50<ce:hsp sp="0.25"/>°C. AC voltage: 10<ce:hsp sp="0.25"/>mV; frequency range: 16<ce:hsp sp="0.25"/>MHz-50<ce:hsp sp="0.25"/>kHz. (Triangles: measured impedance data; solid line: impedance fitted from the inset equivalent circuit.).</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr6"/>
+            </ce:figure>
+            <ce:figure id="fig0035">
+               <ce:label>Fig. 7</ce:label>
+               <ce:caption>
+                  <ce:simple-para id="spar0040" view="all">Impedance spectra of the ‘composite Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> film/LLZO/Li’ configuration and the ‘Ag/LLZO/Li’ structure. AC voltage: 10<ce:hsp sp="0.25"/>mV; frequency range: 18<ce:hsp sp="0.25"/>MHz-1<ce:hsp sp="0.25"/>Hz. (Triangles: measured impedance data; solid line: impedance fitted from the inset equivalent circuit.).</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr7"/>
+            </ce:figure>
+            <ce:figure id="fig0040">
+               <ce:label>Fig. 8</ce:label>
+               <ce:caption>
+                  <ce:simple-para id="spar0045" view="all">Impedance measurement of the solid state battery. (a) RT; (b) 50<ce:hsp sp="0.25"/>°C; Frequency range: 18<ce:hsp sp="0.25"/>MHz ∼ 1<ce:hsp sp="0.25"/>Hz. (Triangles: measured impedance data; solid line: impedance fitted from the inset equivalent circuit).</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr8"/>
+            </ce:figure>
+         </ce:floats>
+         <head>
+            <ce:title>Bulk solid state rechargeable lithium ion battery fabrication with Al-doped Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> electrolyte and Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> cathode</ce:title>
+            <ce:author-group>
+               <ce:author id="ceauthor378" author-id="S0013468612018786-01c4ad723ac6e9c6eece81d9141985e5">
+                  <ce:given-name>Ying</ce:given-name>
+                  <ce:surname>Jin</ce:surname>
+               </ce:author>
+               <ce:author id="ceauthor379" author-id="S0013468612018786-cdd36c9b5c4faefff0d53c188404f56c">
+                  <ce:given-name>Paul J.</ce:given-name>
+                  <ce:surname>McGinn</ce:surname>
+                  <ce:cross-ref refid="cor0005">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  <ce:e-address type="email">pmcginn@nd.edu</ce:e-address>
+               </ce:author>
+               <ce:affiliation>
+                  <ce:textfn>Department of Chemical and Biomolecular Engineering, University of Notre Dame, Notre Dame, IN 46556, USA</ce:textfn>
+               </ce:affiliation>
+               <ce:correspondence id="cor0005">
+                  <ce:label>⁎</ce:label>
+                  <ce:text>Corresponding author at: 178 Fitzpatrick Hall, University of Notre Dame, Notre Dame, IN 46556, Tel.: +1 574 631 6151; fax: +1 574 631 8366.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="5" month="7" year="2012"/>
+            <ce:date-revised day="14" month="11" year="2012"/>
+            <ce:date-accepted day="15" month="11" year="2012"/>
+            <ce:abstract class="author">
+               <ce:section-title>Abstract</ce:section-title>
+               <ce:abstract-sec>
+                  <ce:simple-para id="spar0005" view="all">A simple, low-temperature route was developed to process bulk solid-state Li-ion batteries employing Al-doped Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> solid electrolyte (thickness: ∼ 0.5<ce:hsp sp="0.25"/>mm; 25<ce:hsp sp="0.25"/>°C conductivity: ∼ 2<ce:hsp sp="0.25"/>×<ce:hsp sp="0.25"/>10<ce:sup loc="post">−4</ce:sup> S cm<ce:sup loc="post">−1</ce:sup>). A composite Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf>–based slurry was directly painted on Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> and dried at 120<ce:hsp sp="0.25"/>°C to prepare the cathode film. The opposite side of the electrolyte was subsequently exposed to molten Li to form the anode. The discharge capacity of the solid state battery was 53<ce:hsp sp="0.25"/>mAh<ce:hsp sp="0.25"/>g<ce:sup loc="post">−1</ce:sup> (calculated based on the weight of active cathode material) at room temperature with 5<ce:hsp sp="0.25"/>μA<ce:hsp sp="0.25"/>cm<ce:sup loc="post">−2</ce:sup> discharging current. Severe capacity decay occurred after the initial discharging. A comparable liquid electrolyte battery was tested at room temperature for comparison and had a much slower decay rate. However, when the operating temperature of the solid state battery was increased to 50<ce:hsp sp="0.25"/>°C, the cell performance significantly improved. At 50<ce:hsp sp="0.25"/>°C, the battery exhibited 176<ce:hsp sp="0.25"/>mAh<ce:hsp sp="0.25"/>g<ce:sup loc="post">−1</ce:sup> initial discharging capacity at 5<ce:hsp sp="0.25"/>μA<ce:hsp sp="0.25"/>cm<ce:sup loc="post">−2</ce:sup> current density and 93<ce:hsp sp="0.25"/>mAh<ce:hsp sp="0.25"/>g<ce:sup loc="post">−1</ce:sup> initial capacity under a 10<ce:hsp sp="0.25"/>μA<ce:hsp sp="0.25"/>cm<ce:sup loc="post">−2</ce:sup> discharging current density. After 20 cycles, the capacity decayed to 68.6<ce:hsp sp="0.25"/>mAh<ce:hsp sp="0.25"/>g<ce:sup loc="post">−1</ce:sup> when cycled at a 10<ce:hsp sp="0.25"/>μA<ce:hsp sp="0.25"/>cm<ce:sup loc="post">−2</ce:sup> current density. Impedance spectroscopy was used to investigate the interface resistance of the battery at different temperatures. The results indicated that both the cathode and anode interface resistance were dramatically reduced at 50<ce:hsp sp="0.25"/>°C. The decrease in interface resistances at elevated temperature is proposed as the main reason for the observed battery performance enhancement.</ce:simple-para>
+               </ce:abstract-sec>
+            </ce:abstract>
+            <ce:keywords class="keyword">
+               <ce:section-title>Keywords</ce:section-title>
+               <ce:keyword>
+                  <ce:text>Solid-state battery</ce:text>
+               </ce:keyword>
+               <ce:keyword>
+                  <ce:text>Solid electrolyte</ce:text>
+               </ce:keyword>
+               <ce:keyword>
+                  <ce:text>Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf>
+                  </ce:text>
+               </ce:keyword>
+               <ce:keyword>
+                  <ce:text>Garnet structure</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:section id="sec0005" view="all">
+                  <ce:label>1</ce:label>
+                  <ce:section-title>Introduction</ce:section-title>
+                  <ce:para id="par0005" view="all">Compared with liquid organic electrolytes, lithium ion conductive solid electrolytes offer improved safety, reliability and leakage-free properties, as well as the advantages wider electrochemical voltage ranges, better chemical compatibility, and the possibility for structural batteries. The development of highly conductive solid electrolytes has been an area of active research for several decades <ce:cross-refs refid="bib0005 bib0010 bib0015 bib0020">[1–4]</ce:cross-refs>. Among the solid Li-ion electrolyte materials, Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> (LLZO), a garnet structured compound with a relatively high room temperature ionic conductivity (∼ 2<ce:hsp sp="0.25"/>×<ce:hsp sp="0.25"/>10<ce:sup loc="post">−4</ce:sup> S cm<ce:sup loc="post">−1</ce:sup>), has attracted much attention since first being reported <ce:cross-ref refid="bib0025">[5]</ce:cross-ref>. In addition to its high conductivity, LLZO was also reported to have high chemical and electrochemical stability with lithium metal <ce:cross-refs refid="bib0030 bib0035">[6,7]</ce:cross-refs>.</ce:para>
+                  <ce:para id="par0010" view="all">The solid state method is the most common route to synthesize LLZO. Long duration sintering at temperatures at or exceeding 1200<ce:hsp sp="0.25"/>°C is necessary to obtain dense bodies of the highly conductive cubic phase of LLZO rather than the lower conductivity tetragonal structure <ce:cross-refs refid="bib0025 bib0030 bib0035 bib0040 bib0045 bib0050">[5–10]</ce:cross-refs>. The long time and high temperature sintering can also lead to Li loss and the formation of impurity phases. Al-doping was reported as a key aspect in stabilizing the cubic phase and enhancing the sintering process. Geiger et al., <ce:cross-ref refid="bib0055">[11]</ce:cross-ref> first suggested the important role Al can play in the synthesis of highly conductive cubic phase LLZO. They proposed that Al<ce:sup loc="post">3+</ce:sup> partially substituted for Li<ce:sup loc="post">+</ce:sup>, both stabilizing the cubic phase relative to the tetragonal structure, and creating vacancies for enhanced Li ion diffusion. A recent report <ce:cross-ref refid="bib0060">[12]</ce:cross-ref>, confirmed that Al<ce:sup loc="post">3+</ce:sup> is incorporated in the garnet lattice on the tetrahedral 24<ce:italic>d</ce:italic> Li sites, and this replacement stabilized the cubic LLZO modification. From a processing standpoint, a number of papers reported that Al, in the form of purposeful additions or contamination from an Al<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf> crucible, can enhance the sintering process and lead to increased LLZO pellet density <ce:cross-refs refid="bib0055 bib0065 bib0070 bib0075 bib0080 bib0085">[11,13–17]</ce:cross-refs>. Subsequent formation of secondary phases associated with Al additions were observed along LLZO grain boundaries by microscopy. <ce:cross-refs refid="bib0075 bib0080 bib0085">[15–17]</ce:cross-refs>.</ce:para>
+                  <ce:para id="par0015" view="all">Due to the high conductivity, the resistance of 0.5 ∼ 1<ce:hsp sp="0.25"/>mm thick LLZO slices is small enough for application in solid state batteries. LiCoO<ce:inf loc="post">2</ce:inf> has been frequently reported as the cathode material in LLZO-based solid state batteries. Many techniques have been applied to prepare LiCoO<ce:inf loc="post">2</ce:inf> films on LLZO substrates, including pulsed laser deposition (PLD) <ce:cross-ref refid="bib0045">[9]</ce:cross-ref>, sputtering <ce:cross-ref refid="bib0065">[13]</ce:cross-ref>, and sol-gel coating <ce:cross-refs refid="bib0035 bib0090">[7,18]</ce:cross-refs> methods. However, in all these papers, high temperature post-annealing (&gt; 500<ce:hsp sp="0.25"/>°C) was applied to the LiCoO<ce:inf loc="post">2</ce:inf> films coated on LLZO. High temperature processing can cause interaction between LiCoO<ce:inf loc="post">2</ce:inf> and LLZO which strongly affects the battery performance. The utilization of LiCoO<ce:inf loc="post">2</ce:inf> cathode material during cycling was not high in such high-temperature processed batteries. Recently high initial capacity and excellent battery cycle life were reported in a solid state battery made with Nb-doped LLZO and LiCoO<ce:inf loc="post">2</ce:inf> deposited at 600<ce:hsp sp="0.25"/>°C by PLD. <ce:cross-refs refid="bib0050 bib0095">[10,19]</ce:cross-refs> The Nb doping may play a key role by stabilizing the interface between LiCoO<ce:inf loc="post">2</ce:inf>/LLZO and preventing the unwanted film-substrate interaction.</ce:para>
+                  <ce:para id="par0020" view="all">In the present work, an all solid state battery based on Al-doped LLZO was prepared by a simple low-temperature process. A Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> - carbon composite slurry was directly painted on a 0.5<ce:hsp sp="0.25"/>mm thick LLZO slice to prepare the cathode film. The other side of the electrolyte was subsequently exposed to molten Li to form the anode. After coating on LLZO, the cathode slurry was dried at 120<ce:hsp sp="0.25"/>°C, but no high temperature post-annealing was applied, thus minimizing interfacial interactions. Compared to LiCoO<ce:inf loc="post">2</ce:inf> or LiMn<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">4</ce:inf>, Cu-doped V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> has much higher capacity (300mAh<ce:hsp sp="0.25"/>g<ce:sup loc="post">−1</ce:sup>) <ce:cross-refs refid="bib0100 bib0105">[20,21]</ce:cross-refs>. In one report, a LiCoO<ce:inf loc="post">2</ce:inf>/LLZO/Li cell was produced by tape-casting LiCoO<ce:inf loc="post">2</ce:inf> powder on LLZO <ce:cross-ref refid="bib0110">[22]</ce:cross-ref>. Only 3.4<ce:hsp sp="0.25"/>mAh<ce:hsp sp="0.25"/>g<ce:sup loc="post">−1</ce:sup> capacity was achieved and no capacity retention properties were mentioned.</ce:para>
+                  <ce:para id="par0025" view="all">The composite Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf>/LLZO/Li battery reported in the present work achieved 53<ce:hsp sp="0.25"/>mAh<ce:hsp sp="0.25"/>g<ce:sup loc="post">−1</ce:sup> capacity for the first cycle at RT and 176<ce:hsp sp="0.25"/>mAh<ce:hsp sp="0.25"/>g<ce:sup loc="post">−1</ce:sup> capacity at elevated temperature (50<ce:hsp sp="0.25"/>°C). When tested at RT, the battery decayed dramatically after the first cycle. A reaction with cycling at the cathode interface is shown to be the main reason for the large capacity decay at RT. At elevated temperature, both the initial capacity and battery cycle life were significantly improved. Impedance measurement indicated the anode and cathode interface resistances were significantly reduced at 50<ce:hsp sp="0.25"/>°C.</ce:para>
+               </ce:section>
+               <ce:section id="sec0010" view="all">
+                  <ce:label>2</ce:label>
+                  <ce:section-title>Experimental</ce:section-title>
+                  <ce:section id="sec0015" view="all">
+                     <ce:label>2.1</ce:label>
+                     <ce:section-title>Preparation</ce:section-title>
+                     <ce:para id="par0030" view="all">Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> powder was prepared as the active cathode material. Appropriate amounts of Cu (99.5%, Alfa) and V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> (99.6%<ce:hsp sp="0.25"/>min, Alfa) were dissolved together in H<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">2</ce:inf> (30<ce:hsp sp="0.25"/>wt.%, Fisher) with stirring. V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> powder reacted with H<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">2</ce:inf> first, and gas was immediately generated from the solution. As the Cu powder dissolved, the solution changed from orange to a dark red color. The solution was not stable. Precipitates appeared about 30<ce:hsp sp="0.25"/>min after preparation. The solution was dried at 130<ce:hsp sp="0.25"/>°C overnight to evaporate the solvent. During drying, further precipitation occurred. After drying, the residue was calcined at 300<ce:hsp sp="0.25"/>°C for 5<ce:hsp sp="0.25"/>hours to form the final product.</ce:para>
+                     <ce:para id="par0035" view="all">The Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> powder was incorporated into a slurry mixture, along with carbon black (Lampblack, Fisher) and a binder (a combination of styrene-butadiene-rubber (SBR, MTI Corp, 48∼52% solids) and sodium-carboxyl-methyl-cellulose (CMC-Na, TCI, Japan)). The SBR/CMC-Na combination is reported to have small modulus, large maximum elongation, and strong adhesion strength <ce:cross-refs refid="bib0115 bib0120">[23,24]</ce:cross-refs>. To prepare the cathode slurry, Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> powder, carbon black, SBR and CMC-Na (in the ratio of 80:15:2.5:2.5 (wt %)) were ball mixed overnight with distilled water.</ce:para>
+                     <ce:para id="par0040" view="all">An Al-doped LLZO solid electrolyte pellet was prepared by a polymerized complex method (pechini method). LiNO<ce:inf loc="post">3</ce:inf> anhydrous (99%), La(NO<ce:inf loc="post">3</ce:inf>)<ce:inf loc="post">3</ce:inf>·6H<ce:inf loc="post">2</ce:inf>O (99.9%), ZrOCl<ce:inf loc="post">2</ce:inf>·8H<ce:inf loc="post">2</ce:inf>O (99.9%), and Al(NO<ce:inf loc="post">3</ce:inf>)<ce:inf loc="post">3</ce:inf>·9H<ce:inf loc="post">2</ce:inf>O (98.0%∼102.0%), (all from Alfa Aesar), were used to prepare nitrate precursor solutions. The molar ratio between Li, La, and Zr was controlled as 7.7:3:2. Excess Li (10%) was added to compensate for expected Li loss during high temperature heat treatments. 1.2<ce:hsp sp="0.25"/>wt% of Al were added to Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> by adding Al(NO<ce:inf loc="post">3</ce:inf>)<ce:inf loc="post">3</ce:inf>·9H<ce:inf loc="post">2</ce:inf>O to the nitrate solution, based on earlier research on the effect of Al additions<ce:cross-ref refid="bib0075">[15]</ce:cross-ref>. The weight percent was based on the calculated Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> product weight. Citric acid (99.5%, Aldrich) and ethylene glycol (Fisher Chemical), in the ratio of 60:40 (mol) were added to the nitrate solution as complexing agents. The overall metallic ion to organic ratio was 38:62 (mol). The organic solution was poured into the stirred nitrate solution. The mixture was heated at around 130<ce:hsp sp="0.25"/>°C until hardened foam formed. The foam was crushed, and then calcined at 900<ce:hsp sp="0.25"/>°C for 6<ce:hsp sp="0.25"/>hours (ramp rate: 5<ce:hsp sp="0.25"/>°C<ce:hsp sp="0.25"/>min<ce:sup loc="post">−1</ce:sup>) in air in an alumina crucible to react the precursors. After the calcination, the powder was pressed into a 1.27<ce:hsp sp="0.25"/>cm diameter pellet in a uniaxial press (Carver Inc.) with a load of 40<ce:hsp sp="0.25"/>MPa for 5<ce:hsp sp="0.25"/>min. The pellet was sintered at 1200<ce:hsp sp="0.25"/>°C in air for 6<ce:hsp sp="0.25"/>hours (ramp rate: 5<ce:hsp sp="0.25"/>°C<ce:hsp sp="0.25"/>min<ce:sup loc="post">−1</ce:sup>) on an alumina plate. A 2.4<ce:hsp sp="0.25"/>cm diameter LLZO pellet made by conventional solid state processing with no Al added was put between the small pellet and the alumina support plate to prevent interaction between the sample pellet and the plate. The small pellet was covered by additional LLZO powder to reduce Li loss at high temperature. An alumina crucible was used to cover entire pellet assembly to help further reduce Li losses.</ce:para>
+                     <ce:para id="par0045" view="all">The sample pellet was cut into slices using a high speed diamond saw. The LLZO slice was progressively polished through 1<ce:hsp sp="0.25"/>μm grit diamond until it was approximately 0.5<ce:hsp sp="0.25"/>mm thick. A proper amount of cathode slurry was transferred onto the polished LLZO by an automatic pipette. The area of the cathode film was controlled to ∼ 0.5 cm<ce:sup loc="post">2</ce:sup>. The slurry was allowed to dry at room temperature and then was slowly heated to 120<ce:hsp sp="0.25"/>°C over 12<ce:hsp sp="0.25"/>hours (1<ce:hsp sp="0.25"/>°C<ce:hsp sp="0.25"/>min<ce:sup loc="post">−1</ce:sup>). The mass of cathode film was about 0.4<ce:hsp sp="0.25"/>mg. The weight ratio between Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> powder, carbon, and binder was 85:10:5. Therefore, the Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> active material was approximately 0.34<ce:hsp sp="0.25"/>mg. The capacity was calculated based on this value. The Li anode was applied in an Ar filled glovebox. Li foil (0.75<ce:hsp sp="0.25"/>mm thick, 99.9%, Alfa) was cut into a 0.5 cm<ce:sup loc="post">2</ce:sup> square, melted at 200<ce:hsp sp="0.25"/>°C and attached to the LLZO slice. Copper foil was attached to the molten Li as the anode current collector. After cooling to room temperature, the Li metal anode was strongly bonded to both the LLZO and the Cu foil. Finally, while still in the glovebox, the LLZO with Li side down and cathode side up was dipped into a small stainless steel cap containing molten wax (Crystal Bond 509, Aremco). The Li side was immersed into the molten wax but the cathode side was left uncovered by the wax. The wax served to protect the Li from the ambient upon removal of the battery from the glovebox. Colloidal Ag paint (Ted Pella Inc.) was painted on the cathode film as the current collector.</ce:para>
+                     <ce:para id="par0050" view="all">For comparison purposes, a battery with liquid electrolyte (1<ce:hsp sp="0.25"/>mol<ce:hsp sp="0.25"/>L<ce:sup loc="post">−1</ce:sup> LiPF<ce:inf loc="post">6</ce:inf> in EC<ce:hsp sp="0.25"/>+<ce:hsp sp="0.25"/>DMC<ce:hsp sp="0.25"/>+<ce:hsp sp="0.25"/>DEC (1:1:1 in vol.), from MTI Corp.) was assembled in a coin cell. The composite cathode slurry described above was drop cast onto stainless steel foil and dried in the same manner as for the solid state battery. The stainless steel foil with cathode film, a filter paper separator (Whatman) soaked with liquid electrolyte and a piece of Li foil were assembled in a coin cell. The assembled coin cell was tested by the same method as the solid battery.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0020" view="all">
+                     <ce:label>2.2</ce:label>
+                     <ce:section-title>Characterization</ce:section-title>
+                     <ce:para id="par0055" view="all">X-ray structural analysis of the Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> powder was performed by a powder diffractometer (Scintag X1, Cu-Kα, 40<ce:hsp sp="0.25"/>kV, 30<ce:hsp sp="0.25"/>mA) at room temperature. Electrochemical impedance spectroscopy measurements were performed with an impedance analyzer (1260 Impedance/Gain-Phase analyzer, Solartron) combined with a dielectric interface (1296 Dielectric Interface, Solartron). When measuring solid electrolyte conductivity, silver paint was applied on each side of the electrolyte pellet to make the current collectors. Cu wire sample leads were attached to the painted ends. Impedance spectra were collected by sweeping the frequency from 18<ce:hsp sp="0.25"/>MHz to 1<ce:hsp sp="0.25"/>Hz with a voltage set at 10<ce:hsp sp="0.25"/>mV. Ionic conductivity values were calculated from the complex impedance plots using ZView2 (Scribner Associates) for analysis. Equivalent circuits were fitted to the measured impedance spectra using ZView2. Battery testing was performed on a multiple independent-channel testing system (BT-2000, Arbin Instruments).</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="sec0025" view="all">
+                  <ce:label>3</ce:label>
+                  <ce:section-title>Results and discussion</ce:section-title>
+                  <ce:para id="par0060" view="all">
+                     <ce:cross-ref refid="fig0005">Fig. 1</ce:cross-ref>
+                     <ce:float-anchor refid="fig0005"/> shows the XRD pattern of the composite Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> film on a glass substrate. The two peaks (marked by black dots) are attributed to V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf>·<ce:italic>n</ce:italic>H<ce:inf loc="post">2</ce:inf>O. The pattern corresponds well with low temperature processed V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf>·<ce:italic>n</ce:italic>H<ce:inf loc="post">2</ce:inf>O xerogel patterns reported in the literature <ce:cross-refs refid="bib0125 bib0130">[25,26]</ce:cross-refs>. The most intense peak is from the (001) diffraction line and the second peak corresponds to the (003) diffraction line. The large amorphous hump is attributed to the glass substrate.</ce:para>
+                  <ce:para id="par0065" view="all">To separate cathode performance from possible solid electrolyte issues, a composite Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> film coated on a stainless steel foil was assembled with Li foil and liquid electrolyte soaked separator in a coin cell. <ce:cross-ref refid="fig0010">Fig. 2</ce:cross-ref>
+                     <ce:float-anchor refid="fig0010"/> shows the discharging capacity of the first 20 cycles from the liquid electrolyte coin cell battery tested at a current density of 5<ce:hsp sp="0.25"/>μA<ce:hsp sp="0.25"/>cm<ce:sup loc="post">−2</ce:sup> and cycled from 2.0–3.8<ce:hsp sp="0.25"/>V. This coin cell battery had an open circuit cell potential of ∼3.3<ce:hsp sp="0.25"/>V after assembly. The initial discharge capacity was 231.2<ce:hsp sp="0.25"/>mAh<ce:hsp sp="0.25"/>g<ce:sup loc="post">−1</ce:sup>. The capacity decayed steadily to 179.5<ce:hsp sp="0.25"/>mAh<ce:hsp sp="0.25"/>g<ce:sup loc="post">−1</ce:sup> after 20 cycles. The cycling results confirmed that the Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> composite cathode was satisfactory for use in a secondary lithium ion battery.</ce:para>
+                  <ce:para id="par0070" view="all">The solid state battery was first tested at 25<ce:hsp sp="0.25"/>°C at a current density of 5<ce:hsp sp="0.25"/>μA<ce:hsp sp="0.25"/>cm<ce:sup loc="post">−2</ce:sup> between 2.0 - 3.8<ce:hsp sp="0.25"/>V. <ce:cross-ref refid="fig0015">Fig. 3</ce:cross-ref>
+                     <ce:float-anchor refid="fig0015"/> shows the charging and discharging curves of the first 5 cycles. The initial discharge capacity of this solid state battery was 53<ce:hsp sp="0.25"/>mAh<ce:hsp sp="0.25"/>g<ce:sup loc="post">−1</ce:sup>. After 5 cycles, the capacity decayed to 4.9<ce:hsp sp="0.25"/>mAh<ce:hsp sp="0.25"/>g<ce:sup loc="post">−1</ce:sup>, which is only 9.2% of the initial value. Strong polarization was found in the charging process. After the first discharge, the cell potential increased very rapidly in the following charging process and reached the cut-off voltage quickly, resulting in a small charge capacity. The asymmetry of the charging and discharging curves indicated that most of the Li initially intercalated in the cathode film could not be successfully extracted in the charging process.</ce:para>
+                  <ce:para id="par0075" view="all">However, when the working temperature of the battery increased from 25<ce:hsp sp="0.25"/>°C to 50<ce:hsp sp="0.25"/>°C, the performance dramatically improved. Hence, a fresh solid state battery was prepared and tested at 50<ce:hsp sp="0.25"/>°C. <ce:cross-ref refid="fig0020">Fig. 4</ce:cross-ref>
+                     <ce:float-anchor refid="fig0020"/> (a) shows the first five cycling curves. At 50<ce:hsp sp="0.25"/>°C, the battery achieved 176<ce:hsp sp="0.25"/>mAh<ce:hsp sp="0.25"/>g<ce:sup loc="post">−1</ce:sup> initial discharge capacity when cycled with a 5<ce:hsp sp="0.25"/>μA<ce:hsp sp="0.25"/>cm<ce:sup loc="post">−2</ce:sup> current density. The strong charging polarization disappeared, and the battery decayed much slower than the battery tested at 25<ce:hsp sp="0.25"/>°C. In the first charging process, the cell potential slowly ramped to the cut-off voltage, and almost ∼100% coulombic efficiency was achieved. <ce:cross-ref refid="fig0020">Fig. 4</ce:cross-ref> (b) shows the battery capacities of the first 20 cycles when tested at a 10<ce:hsp sp="0.25"/>μA<ce:hsp sp="0.25"/>cm<ce:sup loc="post">−2</ce:sup> current density at 50<ce:hsp sp="0.25"/>°C. At the higher cycling current, the initial discharge capacity was 93<ce:hsp sp="0.25"/>mAh<ce:hsp sp="0.25"/>g<ce:sup loc="post">−1</ce:sup>. This capacity decayed to 68.6<ce:hsp sp="0.25"/>mAh<ce:hsp sp="0.25"/>g<ce:sup loc="post">−1</ce:sup> (73.8% of the initial value) after 20 cycles.</ce:para>
+                  <ce:para id="par0080" view="all">At room temperature, the cathode film behaved satisfactorily in a liquid electrolyte, which suggests the decay of the 25<ce:hsp sp="0.25"/>°C solid state battery is not associated with the cathode material itself. Interfacial issues were suspected as the primary cause of the large capacity decay at room temperature. To identify which interface might be the source of the problem, the cathode/LLZO interface was eliminated as a factor by assembling and testing a hybrid ‘Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf>/liquid electrolyte/LLZO/Li’ battery in a coin cell configuration. A separator soaked with liquid electrolyte was put between the composite Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> cathode film (coated on stainless steel foil) and the LLZO solid electrolyte. Hence the cathode/solid electrolyte interface was replaced by a cathode/liquid electrolyte/solid electrolyte interface. <ce:cross-ref refid="fig0025">Fig. 5</ce:cross-ref>
+                     <ce:float-anchor refid="fig0025"/> shows the capacities of the first ten cycles from this hybrid liquid/solid electrolyte battery. 174<ce:hsp sp="0.25"/>mAh<ce:hsp sp="0.25"/>g<ce:sup loc="post">−1</ce:sup> capacity was achieved in the initial discharge. Minimal capacity decay was found in this hybrid battery compared with the all-solid-state battery. The rapid large capacity decay at room temperature disappeared with the absence of the cathode/solid electrolyte interface. Therefore, in the all-solid-state battery, the anode interface contributes little to the decay observed during early cycling. The cathode/electrolyte interface or interfaces in the cathode itself (i.e. cracks) are the primary source of the rapid decay during room temperature cycling. The instability seen in the charge and discharge curves for the solid state battery (<ce:cross-refs refid="fig0015 fig0020">Figs. 3 and 4</ce:cross-refs>) were not observed for either the liquid electrolyte battery or the ‘hybrid’ battery, both of which had smooth cycling curves. The high interface resistance on the cathode side might cause this instability.</ce:para>
+                  <ce:para id="par0085" view="all">It is interesting to note that the initial capacity of the hybrid ‘Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf>/liquid electrolyte/LLZO/Li’ battery (174<ce:hsp sp="0.25"/>mAh<ce:hsp sp="0.25"/>g<ce:sup loc="post">−1</ce:sup> capacity) is still lower than the initial capacity of the pure liquid electrolyte battery (231.2<ce:hsp sp="0.25"/>mAh<ce:hsp sp="0.25"/>g<ce:sup loc="post">−1</ce:sup>, <ce:cross-ref refid="fig0010">Fig. 2</ce:cross-ref>). The higher internal resistance of the hybrid battery could be the reason for this lower capacity. The impedance study described below verified the existence of an anode/electrolyte interface resistance at RT. The liquid electrolyte battery did not have this Li/LLZO interface, so it was expected to have lower internal resistance than the hybrid battery. This Li/LLZO interface resistance in the hybrid battery might be one contributing factor to the lower capacity compared to the liquid electrolyte battery. However, in the all-solid-state battery, this anode interface resistance was not as large as the cathode interface resistance. Therefore, the hybrid battery did not decay dramatically like the all-solid-state battery did. Additionally, since the Li<ce:sup loc="post">+</ce:sup> conductivity of LLZO is lower than the Li<ce:sup loc="post">+</ce:sup> conductivity of liquid electrolyte, the LLZO electrolyte will introduce greater internal resistance in the hybrid battery compared with the battery having only liquid electrolyte.</ce:para>
+                  <ce:para id="par0090" view="all">To gain further insights into how the elevated temperature affected the battery performance, impedance spectroscopy was applied to measure the electrolyte conductivity and interface resistance at RT and elevated temperature. <ce:cross-ref refid="fig0030">Fig. 6</ce:cross-ref>
+                     <ce:float-anchor refid="fig0030"/> shows the impedance spectra of a LLZO pellet (area: 0.78<ce:hsp sp="0.25"/>cm<ce:sup loc="post">2</ce:sup>; thickness: 0.43<ce:hsp sp="0.25"/>cm) at room temperature and 50<ce:hsp sp="0.25"/>°C. The semicircle at the high frequency reflects the resistance from solid electrolyte while the tail at the low frequency is attributed to the Ag paint current collector. The open triangles in <ce:cross-ref refid="fig0030">Fig. 6</ce:cross-ref> are the measured data and the solid line represents fitted data based on an equivalent circuit embedded in <ce:cross-ref refid="fig0030">Fig. 6</ce:cross-ref>. Since the connection between Ag paint and LLZO was not ideally smooth, depressed arcs were obtained. Constant phase elements (CPEs) were applied in the fitting instead of capacitances. R1 and CPE1 represent the resistance and the capacitance associated with the LLZO electrolyte. CPE2 reflects the capacitance from the Ag paint current collector. Based on the equivalent circuit, the estimated resistances of the high frequency LLZO arcs in the RT and 50<ce:hsp sp="0.25"/>°C impedance curves are 2.3 kΩ to 1.0 kΩ. Therefore, the lithium ion conductivity of LLZO should increase about 2.3 times with the 25<ce:hsp sp="0.25"/>°C temperature increase. The Li<ce:sup loc="post">+</ce:sup> conductivity of LLZO at 50<ce:hsp sp="0.25"/>°C was measured to be ∼ 5.5<ce:hsp sp="0.25"/>×<ce:hsp sp="0.25"/>10<ce:sup loc="post">−4</ce:sup> S cm<ce:sup loc="post">−1</ce:sup>.</ce:para>
+                  <ce:para id="par0095" view="all">The source of the impedance arcs was determined in a stepwise fashion. Impedance measurement of a ‘composite Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> film/LLZO/Li’ battery was performed first. After the measurement, the composite cathode film was removed and Ag paint was applied directly onto the cathode side of the LLZO. Impedance of the ‘Ag/LLZO/Li’ structure was then measured. <ce:cross-ref refid="fig0035">Fig. 7</ce:cross-ref>
+                     <ce:float-anchor refid="fig0035"/> shows the impedance spectra of the two configurations. In the curve of the ‘composite Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> film/LLZO/Li’ configuration, there were two semicircles observed. The low frequency arc (right side) disappeared after replacing the cathode film by Ag paint. Hence, the low frequency arc is attributed to the cathode interface resistance of the solid state battery. The high frequency arc (left side) remained unchanged in these two measurements. The same equivalent circuit in <ce:cross-ref refid="fig0030">Fig. 6</ce:cross-ref> was applied to estimate the resistance of the high frequency arc in the ‘Ag/LLZO/Li’ configuration. If this arc is attributed to the solid electrolyte, the calculated conductivity from this arc is 8<ce:hsp sp="0.25"/>×<ce:hsp sp="0.25"/>10<ce:sup loc="post">−5</ce:sup> S cm<ce:sup loc="post">−1</ce:sup>, which is much lower than the RT conductivity of LLZO. Therefore, this semicircle should not only represent the bulk solid electrolyte resistance, but also the charge transfer resistance at the anode interface. The arc identification results are consistent with the results reported by others <ce:cross-refs refid="bib0135 bib0140">[27,28]</ce:cross-refs>.</ce:para>
+                  <ce:para id="par0100" view="all">
+                     <ce:cross-ref refid="fig0040">Fig. 8</ce:cross-ref>
+                     <ce:float-anchor refid="fig0040"/> (a) and (b) show the impedance spectra of an as-assembled solid state battery at RT and 50<ce:hsp sp="0.25"/>°C. At 50<ce:hsp sp="0.25"/>°C, the diameters of both the high frequency and low frequency arcs (<ce:bold>a</ce:bold> and <ce:bold>b</ce:bold>) were significantly reduced. The high frequency arc reflects contributions from both the bulk solid electrolyte resistance and the charge transfer resistance of the anode interface. An equivalent circuit shown in <ce:cross-ref refid="fig0040">Fig. 8</ce:cross-ref> (a) was applied to fit the measured impedance from the solid state battery. In <ce:cross-ref refid="fig0040">Fig. 8</ce:cross-ref> (a), R1 represents the total resistance from the electrolyte and anode interface and R2 is the cathode interface resistance. Corresponding capacitance data were calculated from the constant phase elements (CPE1 and CPE2). A Warburg resistance (W<ce:inf loc="post">o</ce:inf>) was added to reflect the Li diffusion impedance in the cathode film. At 50<ce:hsp sp="0.25"/>°C, the resistance of the high frequency arc (<ce:bold>a</ce:bold>) decreased from 1.2 kΩ to 0.25 kΩ. The capacitances associated with these two resistances are 1.3<ce:hsp sp="0.25"/>×<ce:hsp sp="0.25"/>10<ce:sup loc="post">−9</ce:sup> F and 9.7<ce:hsp sp="0.25"/>×<ce:hsp sp="0.25"/>10<ce:sup loc="post">−7</ce:sup> F. Based on the results shown in <ce:cross-ref refid="fig0030">Fig. 6</ce:cross-ref>, the resistance of the LLZO solid electrolyte should have decreased by a factor of ∼2.3 after increasing the temperature to 50<ce:hsp sp="0.25"/>°C. Here, the high frequency arc had ∼ 4.8 times lower resistance. Hence, from the magnitude of the change, the resistance decrease reflects a proportionally greater decrease in the anode interface resistance. <ce:cross-ref refid="fig0040">Figure 8</ce:cross-ref> also shows that the resistance of the low frequency arc decreased from 5.8 kΩ to 1.5 kΩ with the temperature change. The capacitances associated with these two resistances are 4.0<ce:hsp sp="0.25"/>×<ce:hsp sp="0.25"/>10<ce:sup loc="post">−7</ce:sup> F and 7.0<ce:hsp sp="0.25"/>×<ce:hsp sp="0.25"/>10<ce:sup loc="post">−8</ce:sup> F. At room temperature in an all-solid-state battery the dominant resistance is from the cathode interface (5.8 kΩ), which is much higher than the total resistance of the anode interface and the solid electrolyte (1.2 kΩ). After increasing the temperature to 50<ce:hsp sp="0.25"/>°C, both the cathode interface resistance, and the anode interface and electrolyte resistance decreased (4.3 kΩ and 0.95 kΩ resistance reduction, respectively). The cathode interface resistance decrease at the higher temperature made a major contribution to the reduction in the polarization.</ce:para>
+                  <ce:para id="par0105" view="all">The decrease of interface charge transfer resistance at elevated temperature is not unique to LLZO solid state batteries. In polymer solid state batteries, similar Li/electrolyte and V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf>/electrolyte interface resistance behavior at moderate temperatures was reported by Prosini, et al. <ce:cross-ref refid="bib0145">[29]</ce:cross-ref>. Even in liquid electrolytes, the charge transfer resistance at the V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf>/liquid electrolyte interface was reported to be significantly reduced after the temperature was increased from 17<ce:hsp sp="0.25"/>°C to 52<ce:hsp sp="0.25"/>°C <ce:cross-ref refid="bib0150">[30]</ce:cross-ref>. If strategies can be developed to further reduce interfacial resistances in all-solid-state batteries, further performance improvements can be expected. For example, limiting access of water vapor to the electrolyte by sealing both electrodes may eliminate undesired hydroxide formation on LLZO surfaces.</ce:para>
+               </ce:section>
+               <ce:section id="sec0030" view="all">
+                  <ce:label>4</ce:label>
+                  <ce:section-title>Conclusions</ce:section-title>
+                  <ce:para id="par0110" view="all">An all-solid-state battery was developed using a thin slice of Al-doped Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> solid electrolyte. A composite Cu<ce:inf loc="post">0.1</ce:inf>V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf>–carbon film and Li were separately applied on the LLZO as the cathode and anode, respectively. No high temperature post-annealing was applied to the battery. The battery exhibited severe capacity decay at room temperature. When the working temperature was increased to 50<ce:hsp sp="0.25"/>°C, both the energy density and battery cycle life were significantly improved. Impedance spectroscopy measurements indicated that both the cathode and anode interface resistances were dramatically reduced at 50<ce:hsp sp="0.25"/>°C, suggesting reduction in charge transfer resistance at both interfaces was the primary cause for the battery performance enhancement.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:acknowledgment>
+               <ce:section-title>Acknowledgements</ce:section-title>
+               <ce:para id="par0115" view="all">This work was supported by the U.S. Army TARDEC under Contract No. W56HZV-08-C-0236, through a subcontract with Mississippi State University, and was performed as part of the Simulation Based Reliability and Safety (SimBRS) research program. Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the U.S. Army TARDEC.</ce:para>
+            </ce:acknowledgment>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="bibl0005" view="all">
+               <ce:section-title>References</ce:section-title>
+               <ce:bibliography-sec id="bibs0005">
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Knauth</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Inorganic solid Li ion conductors: An overview</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Solid State Ionics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>180</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>911</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0010">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.W.</ce:given-name>
+                                 <ce:surname>Fergus</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Ceramic and polymeric solid electrolytes for lithium-ion batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>195</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4554</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0015">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Quartarone</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.P.</ce:given-name>
+                                 <ce:surname>Mustarelli</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Electrolytes for solid-state lithium rechargeable batteries: recent advances and perspectives</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Chemical Society Reviews</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>40</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2525</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0020">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.J.</ce:given-name>
+                                 <ce:surname>Dudney</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.J.</ce:given-name>
+                                 <ce:surname>Neudecker</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Solid state thin-film lithium battery systems</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Current Opinion in Solid State and Materials Science</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>4</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>479</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0025">
+                     <ce:label>[5]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Murugan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Thangadurai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Weppner</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Fast Lithium Ion Conduction in Garnet-Type Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Angewandte Chemie International Edition</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>46</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>7778</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0030">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Kaeriyama</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Munakata</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Kajihara</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Kanamura</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Sato</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Yoshida</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Evaluation of Electrochemical Characteristics of Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> Solid Electrolyte</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>ECS Transactions</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>16</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>175</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0035">
+                     <ce:label>[7]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Kotobuki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Munakata</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Kanamura</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Sato</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Yoshida.</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Compatibility of Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> Solid Electrolyte to All-Solid-State Battery Using Li Metal Anode</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of the Electrochemical Society</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>157</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A1076</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0040">
+                     <ce:label>[8]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Awaka</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Takashima</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Kataoka</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Kijima</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Idemoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Akimoto.</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Crystal Structure of Fast Lithium-ion-conducting Cubic Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Chemistry Letters</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>40</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>6062</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0045">
+                     <ce:label>[9]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.H.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Iriyama</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Yamamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Kumazaki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Asaka</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Tanabe</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.A.J.</ce:given-name>
+                                 <ce:surname>Fisher</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Hirayama</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Murugan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Ogumi.</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Characterization of the interface between LiCoO<ce:inf loc="post">2</ce:inf> and Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> in an all-solid-state rechargeable lithium battery</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>196</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>764</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0050">
+                     <ce:label>[10]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Ohta</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Kobayashi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Asaoka.</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>High lithium ionic conductivity in the garnet-type oxide Li<ce:inf loc="post">7</ce:inf>X La<ce:inf loc="post">3</ce:inf>(Zr<ce:inf loc="post">2</ce:inf>.X, Nb<ce:inf loc="post">X</ce:inf>)O<ce:inf loc="post">12</ce:inf> (X<ce:hsp sp="0.25"/>=<ce:hsp sp="0.25"/>0−2)</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>196</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3342</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0055">
+                     <ce:label>[11]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.A.</ce:given-name>
+                                 <ce:surname>Geiger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Alekseev</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Lazic</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Fisch</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Armbruster</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Langner</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Fechtelkord</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Pettke</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Weppner.</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Crystal Chemistry and Stability of “Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf>” Garnet: A Fast Lithium-Ion Conductor</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Inorganic Chemistry</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>50</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1089</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0060">
+                     <ce:label>[12]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Buschmann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Dolle</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Berendts</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Kuhn</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Bottke</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Wilkening</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Heitjans</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Senyshyn</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Ehrenberg</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Lotnyk</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Duppel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Kienle</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Janek.</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Structure and dynamics of the fast lithium ion conductor “Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf>”</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Physical Chemistry Chemical Physics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>13</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>19378</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0065">
+                     <ce:label>[13]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Kotobuki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Kanamura</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Sato</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Yoshida.</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Fabrication of all-solid-state lithium battery with lithium metal anode using Al<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf>-added Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> solid electrolyte</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>196</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>7750</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0070">
+                     <ce:label>[14]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Murugan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Ramakumar</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Janani.</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>High conductive yttrium doped Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> cubic lithium garnet</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochemistry Communications</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>13</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1373</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0075">
+                     <ce:label>[15]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Jin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.J.</ce:given-name>
+                                 <ce:surname>McGinn</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Al-doped Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> synthesized by a polymerized complex method</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>196</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>8683</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0080">
+                     <ce:label>[16]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.A.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Xie</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Cheng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.B.</ce:given-name>
+                                 <ce:surname>Goodenough</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>High lithium ion conduction in garnet-type Li<ce:inf loc="post">6</ce:inf>La<ce:inf loc="post">3</ce:inf>ZrTaO<ce:inf loc="post">12</ce:inf>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochemistry Communications</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>13</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1289</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0085">
+                     <ce:label>[17]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Kumazaki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Iriyama</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.H.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Murugan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Tanabe</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Yamamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Hirayama</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Ogumi.</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>High lithium ion conductive Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> by inclusion of both Al and Si</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochemistry Communications</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>13</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>509</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0090">
+                     <ce:label>[18]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Kotobuki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Kanamura</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Sato</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Yamamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Yoshida.</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Electrochemical properties of Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> solid electrolyte prepared in argon atmosphere</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>199</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>346</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0095">
+                     <ce:label>[19]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Ohta</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Kobayashi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Seki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Asaoka.</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Electrochemical performance of an all-solid-state lithium ion battery with garnet-type oxide electrolyte</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>202</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>332</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0100">
+                     <ce:label>[20]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Coustier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Jarero</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Passerini</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.H.</ce:given-name>
+                                 <ce:surname>Smyrl.</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Performance of copper-doped V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> xerogel in coin cell assembly</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>83</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>9</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0105">
+                     <ce:label>[21]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Coustier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Hill</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.B.</ce:given-name>
+                                 <ce:surname>Owens</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Passerini</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.H.</ce:given-name>
+                                 <ce:surname>Smyrl</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Doped Vanadium Oxides as Host Materials for Lithium Intercalation</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of The Electrochemical Society</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>146</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1355</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0110">
+                     <ce:label>[22]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Tan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Tiwari</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Synthesis of Cubic Phase Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> Electrolyte for Solid-State Lithium-Ion Batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochemical and Solid-State Letters</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>15</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A37</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0115">
+                     <ce:label>[23]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.R.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.H.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.C.</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.M.</ce:given-name>
+                                 <ce:surname>Chiao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.L.</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Enhanced Cycle Life of Si Anode for Li-Ion Batteries by Using Modified Elastomeric Binder</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochemical and Solid-State Letters</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>8</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2005</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A100</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0120">
+                     <ce:label>[24]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>He</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.X.</ce:given-name>
+                                 <ce:surname>Yuan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.X.</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.L.</ce:given-name>
+                                 <ce:surname>Hu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.H.</ce:given-name>
+                                 <ce:surname>Huang.</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Enhanced Cyclability for Sulfur Cathode Achieved by a Water-Soluble Binder</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Physical Chemistry C</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>115</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>15703</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0125">
+                     <ce:label>[25]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Cao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Li+-intercalation electrochemical/electrochromic properties of vanadium pentoxide films by sol electrophoretic deposition</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochimica Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>51</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4865</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0130">
+                     <ce:label>[26]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Petkov</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.N.</ce:given-name>
+                                 <ce:surname>Trikalitis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.S.</ce:given-name>
+                                 <ce:surname>Bozin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.J.L.</ce:given-name>
+                                 <ce:surname>Billinge</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Vogt</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.G.</ce:given-name>
+                                 <ce:surname>Kanatzidis</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Structure of V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf>·nH<ce:inf loc="post">2</ce:inf>O Xerogel Solved by the Atomic Pair Distribution Function Technique</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of the American Chemical Society</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>124</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2002</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>10157</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0135">
+                     <ce:label>[27]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Kotobuki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Suzuki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Munakata</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Kanamura</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Sato</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Yamamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Yoshida.</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Effect of sol composition on solid electrode/solid electrolyte interface for all-solid-state lithium ion battery</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochimica Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>56</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1023</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0140">
+                     <ce:label>[28]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Kobayashi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Seki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Yamanaka</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Miyashiro</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Kanamura</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Sato</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Yamamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Yoshida.</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Development of high-voltage and high-capacity all-solid-state lithium secondary batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>146</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2005</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>719</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0145">
+                     <ce:label>[29]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.P.</ce:given-name>
+                                 <ce:surname>Prosini</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Xia</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Fujieda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Vellone</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Shikano</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Sakai.</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Performance and capacity fade of V<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf>–lithium polymer batteries at a moderate–low temperature</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochimica Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>46</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2001</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2623</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0150">
+                     <ce:label>[30]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Navone</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Baddour-Hadjean</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.P.</ce:given-name>
+                                 <ce:surname>Pereira-Ramos</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Salot</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A kinetic study of electrochemical lithium insertion into oriented V<ce:inf loc="post">2</ce:inf>O5 thin films prepared by rf sputtering</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochimica Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>53</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2008</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3329</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item>
+</xocs:doc></originalText></full-text-retrieval-response>

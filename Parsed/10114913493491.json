@@ -1,0 +1,59 @@
+{
+    "DOI": "10.1149/1.3493491",
+    "Journal": "Electrochemical and Solid-State Letters",
+    "Keywords": [
+        "atomic layer deposition",
+        "II-VI semiconductors",
+        "nanofabrication",
+        "nanoparticles",
+        "nanowires",
+        "particle size",
+        "photodetectors",
+        "platinum",
+        "semiconductor quantum wires",
+        "wide band gap semiconductors",
+        "zinc compounds"
+    ],
+    "Sections": [
+        {
+            "content": [
+                "Platinum nanoparticles were uniformily deposited on ZnO nanowires for photon-sensing applications. The morphology, size, and concentration of Pt particles on the ZnO nanowires can be controlled by varying the number of atomic layer deposition reaction cycles. The Pt-decorated ZnO nanowires exhibit much faster photon response and recovery speeds than the pristine ZnO nanowires. This provides an efficient route for strongly enhancing the photon-sensing properties of nanostructured metal oxides and fabricating photodetectors with fast response and recovery speeds."
+            ],
+            "name": "Abstract",
+            "type": "section_h2"
+        },
+        {
+            "content": [
+                "Effectively constructing a bridge across the gap between the surface chemical reactions and electronic signal transition plays a considerable role in the development of sensors with high performance. The electrical properties of one-dimensional metal oxide nanostructures are very sensitive to the adsorbed species on their surface owing to their extremely large length-to-diameter and surface-to-volume ratios, and these nanostructured metal oxides have therefore received great attention for the application to fabricate sensors.– Among these sensing metal oxides, ZnO is a multifunctional n-type semiconductor and has been widely used for gas sensors, piezoelectronics, solar cells, light emitting diodes, and photodetectors.– With a wide direct bandgap (3.37 eV) and a large exciton binding energy (60 meV) at room temperature, ZnO is also considered one of the most promising materials for the fabrication of photon-sensing devices.– However, to enhance the photon sensitivity and decrease the response and recovery time is still a challenge for ZnO nanostructure-based photodetectors.",
+                "Recently, many solutions have been developed to improve the photon-sensing performance of ZnO-based photodetectors, including doping appropriate elements into the ZnO matrix,, incorporation of a heterojunction system,, and surface functional ization. Among these methods, surface functionalization is considered a practical method for strongly enhancing the photon-sensing performance of ZnO nanowires because sensing properties strongly depend on the surface states. In this study, we report the results for the deposition of Pt nanoparticles by atomic layer deposition (ALD) on ZnO nanowires as a catalyst to improve the photon-sensing properties of ZnO nanowires. Both the photon response and recovery rates increased after ALD of Pt. Furthermore, we also report the growth mode, chemical composition, and electrical properties of the ALD of Pt nanoparticles on ZnO nanowires."
+            ],
+            "name": "",
+            "type": "section_h2"
+        },
+        {
+            "content": [
+                "ZnO nanowires used in the experiments were prepared on an alumina substrate by thermal evaporation via a catalyst-free vapor–solid mechanism, which is similar to the method reported for the synthesis of nanowires in a previous literature. High purity Zn powders (0.1 g, Aldrich, 99.99%) in an alumina boat and an alumina substrate served as the evaporation source and substrate, respectively. The temperature of the system was raised to at at a fixed flow rate of 10 sccm Ar, held at the same temperature for 1 h under a mixed gas of 10 sccm Ar and 2 sccm, and then cooled to room temperature without any being introduced. During the growth, the pressure inside the quartz tube was maintained at 10 Torr. After the formation of ZnO nanowires, Pt nanoparticles were deposited on the nanowire surface by 0–150 ALD reaction cycles of alternating exposures to methylcyclopentadienyl trimethylplatinum ( ) Aldrich, purity 98% and oxygen 99.999% at. During ALD, the container for was kept at, providing a steady-state flux of at a constant pressure of 0.308 Torr to the reactor. In each cycle, a 1 s pulse and a 5 s pulse were separated by 20 s of purging with (99.9995%). The morphology, chemical composition, and crystal structure of the Pt-decorated ZnO nanowires were investigated by a high resolution transmission electron microscope (HRTEM, JEOL, JEM-3000F) and an X-ray photoelectron spectroscope (XPS, Perkin-Elmer model PHI1600 system). After the preparation of pristine and Pt-decorated ZnO nanowires on an alumina substrate, a simple mask was then placed to block most of the area; a hole in the mask allowed Au to be deposited as a contact electrode on the surface of the nanowires, which is similar to the methods reported for the preparation of nanowire-based photodetectors. The photon-sensing measurements were carried out using a voltamperometric technique. A constant voltage source (5 V) and a UV lamp (365 nm) with an intensity of were examined at room temperature."
+            ],
+            "name": "Experimental",
+            "type": "section_h2"
+        },
+        {
+            "content": [
+                "The Pt concentration on the nanowire surface was examined by XPS analysis and determined as the ratio of the area under the Pt 4f peak to that under the and O 1s peaks in the XPS core-level spectrum corrected by atomic sensitivity factors (Pt: 6.080, Zn: 2.768, and O: 0.733). The Pt concentration of the Pt-decorated ZnO nanowires was proportional to the number of ALD reaction cycles, increasing from 0 to 17.8 atom %, as shown in Fig. 1. The insets are transmission electron microscopy (TEM) images of the Pt-decorated ZnO nanowires obtained after 0–150 ALD reaction cycles. Clearly, the Pt nanoparticles are uniformly dispersed on the ZnO nanowire surface and the average Pt particle size and coverage increase with the number of reaction cycles. Islandlike Pt nanoparticles on the nanowires are observed after 100 reaction cycles, and the Pt nanoparticles merge to become Pt films covering the ZnO nanowires after 150 reaction cycles, indicating that the ALD of Pt on ZnO nanowires follows an island-growth mode.",
+                "The detailed microstructure of the Pt-decorated ZnO nanowires was analyzed by HRTEM. Figure 2 is the HRTEM image of the Pt-decorated nanowire obtained after 50 ALD reaction cycles, showing a preferred growth in the  direction; a single-crystal structure of hexagonal wurtzite ZnO with a clear lattice fringe of is observed. The Pt nanoparticles have a lattice spacing of 0.22 nm, corresponding to the (111) plane of face-centered cubic Pt. Moreover, the Pt-decorated ZnO nanowire has Moiré patterns due to the overlapping of two lattices (i.e., Pt and ZnO).",
+                "The surface condition of substrates strongly determines whether or not the reaction occurs in the ALD process, and the surface OH groups can react with in the ALD of Pt. In ZnO nanowires, there is a large amount of the native functional OH groups on the nanowire surface, resulting from the species present as a residue on the alumina substrate or from the quartz reactor used in thermal evaporation. These groups provide reactive sites for the ALD reactions. Consequently, Pt can be effectively and uniformly deposited on the ZnO nanowire surface by ALD. Although the ALD of Pt on various substrates has been widely investigated, this study is the first to deposit Pt nanoparticles on ZnO nanowires via ALD.",
+                "After the characterization of the structure and chemical composition, the Pt-decorated ZnO nanowire-based sensors were fabricated to investigate the electrical and sensing properties of the Pt-decorated ZnO nanowire (50 ALD cycles). The sensors were similar to our previously fabricated fluorinated nanowire-based photodetectors. Figure 3a shows the measured current–voltage curves of the fabricated devices at atmospheric pressure and room temperature. The electrical resistance of Pt-decorated ZnO nanowires is only, which is slightly higher than that of pure ZnO nanowires. This is because electrons transfer to the Pt nanoparticle, which leads to the charge depletion regions beneath the Pt nanoparticles. Moreover, the curves show that the current increases linearly with increasing applied voltage, which confirms that the ZnO nanowire-based photodetectors are well connected, with low contact resistance, and that charge transfer between nanowires in each device can be neglected. Figure 3b and 3c is the periodic photoresponse curves of the pristine and Pt-decorated ZnO nanowire-based photodetectors under the UV illumination of 365 nm, respectively. The measurements show that the current rapidly increases to a steady value under UV illumination (UV on) and then slowly recovers to its initial value in the dark (UV off). It has been widely reported that the photon-sensing mechanism is based on the adsorption/desorption of oxygen species (i.e., ) on the surface of the nanowires.,, In the dark, the oxygen molecules are adsorbed on the surface and capture free electrons to form oxygen ions and a low conductivity depletion region near the nanowire surface, which decreases the electrical conductivity of the nanowires. When UV light switches on, the electron-hole pairs are photogenerated, and the photo-induced holes transfer to the nanowire surface and recombine with oxygen ions. Simultaneously, the photon-generated electrons can act as free electrons, resulting in an increase in the density of charge carriers and the electrical conductance of the nanowires. As a result, the photocurrent rapidly increases with the reduced depletion layer. For Pt-decorated ZnO nanowires, the response and recovery times are only 24 and 210 s, respectively. These values are much smaller than that of pure ZnO nanowires (67 and 3380 s). The enhancement in both the response and recovery speeds of the ZnO nanowire-based photodetectors is because the Pt nanoparticles act as a functional catalyst to strongly improve both the speed and amount of oxygen molecule adsorption/desorption on the nanowire surface, leading to both faster and more electron capture and release in the nanowires. Consequently, the photon-sensing performances of the ZnO nanowires can be remarkedly improved after ALD of Pt on the nanowire surface. These improved sensing properties hold promise for the photodetector applications."
+            ],
+            "name": "Results and Discussion",
+            "type": "section_h2"
+        },
+        {
+            "content": [
+                "ALD has been successfully employed for the deposition of Pt nanoparticles on ZnO nanowires for the application to photodetectors. The surface concentration of Pt on nanowires increases with the number of ALD reaction cycles. In addition, the Pt nanoparticles are deposited on ZnO nanowire surfaces with a good dispersion due to the presence of a large amount of native functional OH groups on the nanowire surface. The photon-sensing measurements show that the ALD of Pt nanoparticles on ZnO nanowires leads to strongly enhanced photon-sensing performance because Pt is a far better catalyst than ZnO in that it effectively enhances oxygen adsorption/desorption. Thus, Pt-decorated ZnO nanowires prepared by ALD have potential for application in the fabrication of photodetectors."
+            ],
+            "name": "Conclusions",
+            "type": "section_h2"
+        }
+    ],
+    "Title": "Enhancing the Photon-Sensing Properties of ZnO Nanowires by Atomic Layer Deposition of Platinum"
+}

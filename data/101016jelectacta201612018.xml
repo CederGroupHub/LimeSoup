@@ -1,0 +1,1979 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S0013468616325609</prism:url><dc:identifier>doi:10.1016/j.electacta.2016.12.018</dc:identifier><eid>1-s2.0-S0013468616325609</eid><prism:doi>10.1016/j.electacta.2016.12.018</prism:doi><pii>S0013-4686(16)32560-9</pii><dc:title>Intergranular Li metal propagation through polycrystalline Li6.25Al0.25La3Zr2O12 ceramic electrolyte </dc:title><prism:publicationName>Electrochimica Acta</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><prism:issn>00134686</prism:issn><prism:volume>223</prism:volume><prism:startingPage>85</prism:startingPage><prism:endingPage>91</prism:endingPage><prism:pageRange>85-91</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2017-01-01</prism:coverDate><prism:coverDisplayDate>1 January 2017</prism:coverDisplayDate><prism:copyright>© 2016 Elsevier Ltd. All rights reserved.</prism:copyright><prism:publisher>Elsevier Ltd.</prism:publisher><dc:creator>Cheng, Eric Jianfeng</dc:creator><dc:creator>Sharafi, Asma</dc:creator><dc:creator>Sakamoto, Jeff</dc:creator><dc:description>
+               Abstract
+               
+                  The potential to enable unprecedented performance, durability, and safety has created the impetus to develop bulk-scale all-solid-state batteries employing metallic Li as the negative electrode. Owing to its low density, low electronegativity and high specific capacity, Li metal is the most attractive negative electrode. However, failure caused by the formation of dendrites has limited the widespread use of rechargeable batteries using metallic Li negative electrodes coupled with liquid electrolytes. One approach to mitigate the formation of dendrites involves the use of a solid electrolyte to physically stabilize the Li–electrolyte interface while allowing the facile transport of Li-ions. Though in principle this approach should work, it has been observed that at high Li deposition rates Li metal can propagate through relatively hard ceramic electrolytes and Li dendrite formation causing short circuit has been reported. Why this occurs is poorly understood, emphasizing the need to close the knowledge gap and facilitate the development of advanced batteries employing solid electrolytes. Here, through precise microstructural control, striking electron microscopy, and high-resolution surface spectroscopy, we directly observed for the first time the propagation of Li metal through a promising polycrystalline solid electrolyte based on the garnet mineral structure (Li6.25Al0.25La3Zr2O12). Moreover, we observed that Li preferentially deposits along grain boundaries (intergranularly). These results offer insight into the electrochemical-mechanical phenomena that govern the stability of the metallic Li–polycrystalline solid electrolyte interface and are essential to the maturation of solid-state batteries.
+               
+            </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><dcterms:subject>Li metal</dcterms:subject><dcterms:subject>short-circuiting</dcterms:subject><dcterms:subject>garnet</dcterms:subject><dcterms:subject>current density</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S0013468616325609" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S0013468616325609" rel="scidir"/></coredata><objects><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="95" size="13833">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-gr1.sml?httpAccept=%2A%2F%2A</object><object ref="gr2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="72" size="15108">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-gr2.sml?httpAccept=%2A%2F%2A</object><object ref="gr3" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="214" height="164" size="23869">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-gr3.sml?httpAccept=%2A%2F%2A</object><object ref="gr4" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="165" height="164" size="28591">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-gr4.sml?httpAccept=%2A%2F%2A</object><object ref="gr5" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="144" size="33245">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-gr5.sml?httpAccept=%2A%2F%2A</object><object ref="gr6" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="65" size="17582">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-gr6.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="376" height="163" size="38050">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="640" height="210" size="47904">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-gr2.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="640" height="490" size="97164">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-gr3.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="696" height="691" size="192352">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-gr4.jpg?httpAccept=%2A%2F%2A</object><object ref="gr5" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="753" height="497" size="285436">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-gr5.jpg?httpAccept=%2A%2F%2A</object><object ref="gr6" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="748" height="222" size="108547">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-gr6.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1667" height="721" size="228331">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-gr1_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2833" height="931" size="558383">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-gr2_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2833" height="2167" size="939902">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-gr3_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="3083" height="3061" size="1778291">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-gr4_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr5" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="3333" height="2199" size="4520563">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-gr5_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr6" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="3312" height="984" size="875235">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-gr6_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P07" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="581710">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P07.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P12" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="303473">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P12.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P05" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="547046">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P05.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P10" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="645671">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P10.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P16" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="460972">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P16.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P14" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="576732">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P14.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P18" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="268717">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P18.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P15" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="212951">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P15.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P09" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="623702">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P09.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P13" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="659826">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P13.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P11" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="501454">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P11.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P01" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="502990">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P01.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P19" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="234861">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P19.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P04" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="564562">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P04.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P06" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="575718">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P06.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P21" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="479513">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P21.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P23" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="281138">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P23.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P17" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="234314">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P17.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016" category="standard" type="AAM-PDF" multimediatype="Acrobat PDF file" mimetype="application/pdf" size="1756936">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016.pdf?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P08" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="595158">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P08.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P03" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="623792">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P03.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P20" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="330956">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P20.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P02" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="524860">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P02.jpg?httpAccept=%2A%2F%2A</object><object ref="Eric_Jianfeng_Cheng_current_density_2016_P22" category="standard" type="AAM-PAGE-IMAGE" multimediatype="JPEG image file" mimetype="image/jpeg" size="677676">https://api.elsevier.com/content/object/eid/1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P22.jpg?httpAccept=%2A%2F%2A</object></objects><scopus-id>85002960467</scopus-id><scopus-eid>2-s2.0-85002960467</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/85002960467" rel="abstract"/><originalText><xocs:doc xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd" xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd">
+   <xocs:meta>
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>271355</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291685</xocs:ssid>
+         <xocs:ssid type="subj">291786</xocs:ssid>
+         <xocs:ssid type="subj">291790</xocs:ssid>
+         <xocs:ssid type="subj">291865</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Electrochimica Acta</xocs:srctitle>
+      <xocs:normalized-srctitle>ELECTROCHIMICAACTA</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20161206">2016-12-06</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20161206">2016-12-06</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20161209">2016-12-09</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20161209">2016-12-09</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2018-07-14T06:41:35</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S0013468616325609</xocs:eid>
+      <xocs:pii-formatted>S0013-4686(16)32560-9</xocs:pii-formatted>
+      <xocs:pii-unformatted>S0013468616325609</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.electacta.2016.12.018</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.2</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S0013468616X00357</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20190315">2019-03-15T16:30:56.227075Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20170101</xocs:date-search-begin>
+      <xocs:year-nav>2017</xocs:year-nav>
+      <xocs:indexeddate epoch="1481041753">2016-12-06T16:29:13.171843Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure body acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>0013-4686</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>00134686</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>223</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>223</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 223</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>11</xocs:sort-order>
+      <xocs:first-fp>85</xocs:first-fp>
+      <xocs:last-lp>91</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>85</xocs:first-page>
+         <xocs:last-page>91</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>20170101</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>1 January 2017</xocs:cover-date-text>
+      <xocs:cover-date-start>2017-01-01</xocs:cover-date-start>
+      <xocs:cover-date-year>2017</xocs:cover-date-year>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 2016 Elsevier Ltd. All rights reserved.</xocs:copyright-line>
+      <xocs:normalized-article-title>INTERGRANULARLIMETALPROPAGATIONTHROUGHPOLYCRYSTALLINELI625AL025LA3ZR2O12CERAMICELECTROLYTE</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>CHENG</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>E</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>1</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Introduction</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>2</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Experimental</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.1</xocs:item-toc-label>
+               <xocs:item-toc-section-title>LLZO specimen preparation</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.2</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Electrochemical measurements</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.3</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Materials characterization</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>3</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Results and discussion</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.1</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Electron micrographs of as-prepared LLZO</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.2</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Electrochemical studies of a Li/LLZO/Li cell</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.3</xocs:item-toc-label>
+               <xocs:item-toc-section-title>SEM and FIB analysis of a short-circuited LLZO</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.4</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Web structure in the fracture surface</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.5</xocs:item-toc-label>
+               <xocs:item-toc-section-title>EDS analysis of the web structure after exposure to air</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.6</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Direct observation of metallic Li (AES analysis)</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.7</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Li plating through grain boundaries</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>4</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Conclusions</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>Acknowledgements</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0005">
+            <xocs:ref-normalized-surname>STERN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>16043</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0010">
+            <xocs:ref-normalized-surname>NYKVIST</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>329</xocs:ref-first-fp>
+            <xocs:ref-last-lp>332</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0015">
+            <xocs:ref-normalized-surname>LUX</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>10</xocs:ref-first-fp>
+            <xocs:ref-last-lp>22</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0020">
+            <xocs:ref-normalized-surname>HARRY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>69</xocs:ref-first-fp>
+            <xocs:ref-last-lp>73</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0025">
+            <xocs:ref-normalized-surname>SAKAMOTO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>391</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0030">
+            <xocs:ref-normalized-surname>STRAMARE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2003</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3974</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3990</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0035">
+            <xocs:ref-normalized-surname>BOHNKE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1996</xocs:ref-pub-year>
+            <xocs:ref-first-fp>21</xocs:ref-first-fp>
+            <xocs:ref-last-lp>31</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>O</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0040">
+            <xocs:ref-normalized-surname>NI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>7978</xocs:ref-first-fp>
+            <xocs:ref-last-lp>7985</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0045">
+            <xocs:ref-normalized-surname>MONROE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2005</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A396</xocs:ref-first-fp>
+            <xocs:ref-last-lp>A404</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0050">
+            <xocs:ref-normalized-surname>SHARAFI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>135</xocs:ref-first-fp>
+            <xocs:ref-last-lp>139</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0055">
+            <xocs:ref-normalized-surname>REN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>27</xocs:ref-first-fp>
+            <xocs:ref-last-lp>30</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0060">
+            <xocs:ref-normalized-surname>ISHIGURO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A1690</xocs:ref-first-fp>
+            <xocs:ref-last-lp>A1693</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0065">
+            <xocs:ref-normalized-surname>ABRAMOFF</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>36</xocs:ref-first-fp>
+            <xocs:ref-last-lp>42</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0070">
+            <xocs:ref-normalized-surname>KIM</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0075">
+            <xocs:ref-normalized-surname>DAVID</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1209</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1214</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>I</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0080">
+            <xocs:ref-normalized-surname>RANGASAMY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>28</xocs:ref-first-fp>
+            <xocs:ref-last-lp>32</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>E</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0085">
+            <xocs:ref-normalized-surname>IRVINE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1990</xocs:ref-pub-year>
+            <xocs:ref-first-fp>132</xocs:ref-first-fp>
+            <xocs:ref-last-lp>138</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0090">
+            <xocs:ref-normalized-surname>CHENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>17649</xocs:ref-first-fp>
+            <xocs:ref-last-lp>17655</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0095">
+            <xocs:ref-normalized-surname>XU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2937</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2945</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0100">
+            <xocs:ref-normalized-surname>SUDO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>151</xocs:ref-first-fp>
+            <xocs:ref-last-lp>154</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0105">
+            <xocs:ref-normalized-surname>BELLINO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>107</xocs:ref-first-fp>
+            <xocs:ref-last-lp>113</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>CHENGX2017X85</xocs:refkey3>
+         <xocs:refkey4lp>CHENGX2017X85X91</xocs:refkey4lp>
+         <xocs:refkey4ai>CHENGX2017X85XE</xocs:refkey4ai>
+         <xocs:refkey5>CHENGX2017X85X91XE</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+      </xocs:open-access>
+      <xocs:open-research>
+         <xocs:or-agreements>
+            <xocs:or-agreement>
+               <xocs:or-agreement-id>http://vtw.elsevier.com/content/oragreement/1</xocs:or-agreement-id>
+               <xocs:or-agreement-name>CHU_DOE</xocs:or-agreement-name>
+               <xocs:or-agreement-terms>publishAcceptedManuscript</xocs:or-agreement-terms>
+            </xocs:or-agreement>
+         </xocs:or-agreements>
+         <xocs:or-embargo-opening-date>2017-12-09T00:00:00Z</xocs:or-embargo-opening-date>
+         <xocs:or-agreement-license>http://www.elsevier.com/open-access/userlicense/1.0/</xocs:or-agreement-license>
+      </xocs:open-research>
+      <xocs:self-archiving>
+         <xocs:sa-start-date>2017-12-09T00:00:00Z</xocs:sa-start-date>
+         <xocs:sa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:sa-user-license>
+      </xocs:self-archiving>
+      <xocs:copyright-info>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2016 Elsevier Ltd. All rights reserved.</xocs:cp-notice>
+         </xocs:cp-notices>
+         <xocs:cp-license-lines/>
+      </xocs:copyright-info>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S0013-4686(16)32560-9</xocs:pii-formatted>
+         <xocs:pii-unformatted>S0013468616325609</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S0013468616325609</xocs:eid>
+         <xocs:doi>10.1016/j.electacta.2016.12.018</xocs:doi>
+         <xocs:cid>271355</xocs:cid>
+         <xocs:timestamp>2018-07-14T13:31:32.549592Z</xocs:timestamp>
+         <xocs:cover-date-start>2017-01-01</xocs:cover-date-start>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/MAIN/application/pdf/1d6cfa9f7112093257ff3c120dc3ec20/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/MAIN/application/pdf/1d6cfa9f7112093257ff3c120dc3ec20/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>4660721</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>7</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S0013468616325609-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/PREVIEW/image/png/696b97872fcf8469be8727a3fd817991/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/PREVIEW/image/png/696b97872fcf8469be8727a3fd817991/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>55602</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/gr1/THUMBNAIL/image/gif/5f86c4b56850d6b1231bc6a737e363c2/gr1.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/gr1/THUMBNAIL/image/gif/5f86c4b56850d6b1231bc6a737e363c2/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>13833</xocs:filesize>
+               <xocs:pixel-height>95</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-gr2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/gr2/THUMBNAIL/image/gif/b7e126e7dfb7b90e32a6cdb0f7faf627/gr2.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/gr2/THUMBNAIL/image/gif/b7e126e7dfb7b90e32a6cdb0f7faf627/gr2.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>15108</xocs:filesize>
+               <xocs:pixel-height>72</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-gr3.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/gr3/THUMBNAIL/image/gif/e4ee795049e37c45d5ac23d0cd9ac5ec/gr3.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/gr3/THUMBNAIL/image/gif/e4ee795049e37c45d5ac23d0cd9ac5ec/gr3.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>23869</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>214</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-gr4.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/gr4/THUMBNAIL/image/gif/a965410f2b085bf54c2998fc9e981008/gr4.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/gr4/THUMBNAIL/image/gif/a965410f2b085bf54c2998fc9e981008/gr4.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>28591</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>165</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-gr5.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/gr5/THUMBNAIL/image/gif/8ccba712ab307c34f72fe9f5094e02a5/gr5.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/gr5/THUMBNAIL/image/gif/8ccba712ab307c34f72fe9f5094e02a5/gr5.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>33245</xocs:filesize>
+               <xocs:pixel-height>144</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-gr6.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/gr6/THUMBNAIL/image/gif/442527ab56a7b04e4fe7ec8147feab75/gr6.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/gr6/THUMBNAIL/image/gif/442527ab56a7b04e4fe7ec8147feab75/gr6.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr6</xocs:file-basename>
+               <xocs:filename>gr6.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>17582</xocs:filesize>
+               <xocs:pixel-height>65</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/gr1/DOWNSAMPLED/image/jpeg/37b679b0bdea46dc5fb4a7d802f0d7a5/gr1.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/gr1/DOWNSAMPLED/image/jpeg/37b679b0bdea46dc5fb4a7d802f0d7a5/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>38050</xocs:filesize>
+               <xocs:pixel-height>163</xocs:pixel-height>
+               <xocs:pixel-width>376</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-gr2.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/gr2/DOWNSAMPLED/image/jpeg/707c5054da6bcd9577e858088a95652b/gr2.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/gr2/DOWNSAMPLED/image/jpeg/707c5054da6bcd9577e858088a95652b/gr2.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>47904</xocs:filesize>
+               <xocs:pixel-height>210</xocs:pixel-height>
+               <xocs:pixel-width>640</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-gr3.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/gr3/DOWNSAMPLED/image/jpeg/43eb2108829cd84bcfc0d62a501ef05a/gr3.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/gr3/DOWNSAMPLED/image/jpeg/43eb2108829cd84bcfc0d62a501ef05a/gr3.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>97164</xocs:filesize>
+               <xocs:pixel-height>490</xocs:pixel-height>
+               <xocs:pixel-width>640</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-gr4.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/gr4/DOWNSAMPLED/image/jpeg/bd7d46afbd549d0044a1d523dc35e862/gr4.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/gr4/DOWNSAMPLED/image/jpeg/bd7d46afbd549d0044a1d523dc35e862/gr4.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>192352</xocs:filesize>
+               <xocs:pixel-height>691</xocs:pixel-height>
+               <xocs:pixel-width>696</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-gr5.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/gr5/DOWNSAMPLED/image/jpeg/fa7a08b3a97d742a6f4c243647ee525a/gr5.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/gr5/DOWNSAMPLED/image/jpeg/fa7a08b3a97d742a6f4c243647ee525a/gr5.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>285436</xocs:filesize>
+               <xocs:pixel-height>497</xocs:pixel-height>
+               <xocs:pixel-width>753</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-gr6.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/gr6/DOWNSAMPLED/image/jpeg/42887cc3065f4592b49a7de8aea8d109/gr6.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/gr6/DOWNSAMPLED/image/jpeg/42887cc3065f4592b49a7de8aea8d109/gr6.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr6</xocs:file-basename>
+               <xocs:filename>gr6.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>108547</xocs:filesize>
+               <xocs:pixel-height>222</xocs:pixel-height>
+               <xocs:pixel-width>748</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-gr1_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/gr1/HIGHRES/image/jpeg/81e5afb52749033263690febbc019466/gr1_lrg.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/gr1/HIGHRES/image/jpeg/81e5afb52749033263690febbc019466/gr1_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>228331</xocs:filesize>
+               <xocs:pixel-height>721</xocs:pixel-height>
+               <xocs:pixel-width>1667</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-gr2_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/gr2/HIGHRES/image/jpeg/89aa0640a777c1945e1db8f4925ce9c1/gr2_lrg.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/gr2/HIGHRES/image/jpeg/89aa0640a777c1945e1db8f4925ce9c1/gr2_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>558383</xocs:filesize>
+               <xocs:pixel-height>931</xocs:pixel-height>
+               <xocs:pixel-width>2833</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-gr3_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/gr3/HIGHRES/image/jpeg/0ec33cf8e34268c167811faedd43eef7/gr3_lrg.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/gr3/HIGHRES/image/jpeg/0ec33cf8e34268c167811faedd43eef7/gr3_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>939902</xocs:filesize>
+               <xocs:pixel-height>2167</xocs:pixel-height>
+               <xocs:pixel-width>2833</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-gr4_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/gr4/HIGHRES/image/jpeg/a20541f8428299549eac526696abc5da/gr4_lrg.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/gr4/HIGHRES/image/jpeg/a20541f8428299549eac526696abc5da/gr4_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>1778291</xocs:filesize>
+               <xocs:pixel-height>3061</xocs:pixel-height>
+               <xocs:pixel-width>3083</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-gr5_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/gr5/HIGHRES/image/jpeg/120d7a0bdee07392cf3ebab610b228f3/gr5_lrg.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/gr5/HIGHRES/image/jpeg/120d7a0bdee07392cf3ebab610b228f3/gr5_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>4520563</xocs:filesize>
+               <xocs:pixel-height>2199</xocs:pixel-height>
+               <xocs:pixel-width>3333</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-gr6_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013468616325609/gr6/HIGHRES/image/jpeg/4a210b139528b87908c7a84af46b5935/gr6_lrg.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0013468616325609/gr6/HIGHRES/image/jpeg/4a210b139528b87908c7a84af46b5935/gr6_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr6</xocs:file-basename>
+               <xocs:filename>gr6_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>875235</xocs:filesize>
+               <xocs:pixel-height>984</xocs:pixel-height>
+               <xocs:pixel-width>3312</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P07.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/806fdffc28a47139621c2f9a34ef0419/Eric_Jianfeng_Cheng_current_density_2016_P07.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/806fdffc28a47139621c2f9a34ef0419/Eric_Jianfeng_Cheng_current_density_2016_P07.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P07</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P07.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>581710</xocs:filesize>
+               <xocs:aam-page-image-sequence>07</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P12.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/5b0c8b994c5299c93fd7d01151906401/Eric_Jianfeng_Cheng_current_density_2016_P12.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/5b0c8b994c5299c93fd7d01151906401/Eric_Jianfeng_Cheng_current_density_2016_P12.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P12</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P12.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>303473</xocs:filesize>
+               <xocs:aam-page-image-sequence>12</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P05.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/5661eeca167d6f10cf5c0dfe4fe499fd/Eric_Jianfeng_Cheng_current_density_2016_P05.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/5661eeca167d6f10cf5c0dfe4fe499fd/Eric_Jianfeng_Cheng_current_density_2016_P05.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P05</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P05.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>547046</xocs:filesize>
+               <xocs:aam-page-image-sequence>05</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P10.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/fe59e60c841a313d9a3964a1171fa471/Eric_Jianfeng_Cheng_current_density_2016_P10.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/fe59e60c841a313d9a3964a1171fa471/Eric_Jianfeng_Cheng_current_density_2016_P10.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P10</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P10.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>645671</xocs:filesize>
+               <xocs:aam-page-image-sequence>10</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P16.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/65a6221f9b929c503eb0fb00eb16dec9/Eric_Jianfeng_Cheng_current_density_2016_P16.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/65a6221f9b929c503eb0fb00eb16dec9/Eric_Jianfeng_Cheng_current_density_2016_P16.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P16</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P16.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>460972</xocs:filesize>
+               <xocs:aam-page-image-sequence>16</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P14.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/1194479fac692efa57ccd1cc1f364385/Eric_Jianfeng_Cheng_current_density_2016_P14.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/1194479fac692efa57ccd1cc1f364385/Eric_Jianfeng_Cheng_current_density_2016_P14.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P14</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P14.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>576732</xocs:filesize>
+               <xocs:aam-page-image-sequence>14</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P18.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/e778a7a2eedc48d4ff35820b1a9b5586/Eric_Jianfeng_Cheng_current_density_2016_P18.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/e778a7a2eedc48d4ff35820b1a9b5586/Eric_Jianfeng_Cheng_current_density_2016_P18.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P18</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P18.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>268717</xocs:filesize>
+               <xocs:aam-page-image-sequence>18</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P15.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/be8b5cecddfce1766ff257b25d74f964/Eric_Jianfeng_Cheng_current_density_2016_P15.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/be8b5cecddfce1766ff257b25d74f964/Eric_Jianfeng_Cheng_current_density_2016_P15.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P15</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P15.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>212951</xocs:filesize>
+               <xocs:aam-page-image-sequence>15</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P09.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/044e1fb0450995718837f53519399151/Eric_Jianfeng_Cheng_current_density_2016_P09.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/044e1fb0450995718837f53519399151/Eric_Jianfeng_Cheng_current_density_2016_P09.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P09</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P09.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>623702</xocs:filesize>
+               <xocs:aam-page-image-sequence>09</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P13.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/d5997d1407467f1ef40e6d7babd157ed/Eric_Jianfeng_Cheng_current_density_2016_P13.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/d5997d1407467f1ef40e6d7babd157ed/Eric_Jianfeng_Cheng_current_density_2016_P13.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P13</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P13.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>659826</xocs:filesize>
+               <xocs:aam-page-image-sequence>13</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P11.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/78bef181c0aeef5a52691e9cb950f3a6/Eric_Jianfeng_Cheng_current_density_2016_P11.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/78bef181c0aeef5a52691e9cb950f3a6/Eric_Jianfeng_Cheng_current_density_2016_P11.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P11</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P11.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>501454</xocs:filesize>
+               <xocs:aam-page-image-sequence>11</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P01.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/98459e71033df42c8f05736c1a3d139a/Eric_Jianfeng_Cheng_current_density_2016_P01.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/98459e71033df42c8f05736c1a3d139a/Eric_Jianfeng_Cheng_current_density_2016_P01.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P01</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P01.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>502990</xocs:filesize>
+               <xocs:aam-page-image-sequence>01</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P19.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/6271e931f876149e288df07f89bb2868/Eric_Jianfeng_Cheng_current_density_2016_P19.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/6271e931f876149e288df07f89bb2868/Eric_Jianfeng_Cheng_current_density_2016_P19.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P19</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P19.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>234861</xocs:filesize>
+               <xocs:aam-page-image-sequence>19</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P04.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/5113c19efe7669d6a83d5209f4f7bbcb/Eric_Jianfeng_Cheng_current_density_2016_P04.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/5113c19efe7669d6a83d5209f4f7bbcb/Eric_Jianfeng_Cheng_current_density_2016_P04.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P04</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P04.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>564562</xocs:filesize>
+               <xocs:aam-page-image-sequence>04</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P06.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/a9531e4692f1842474c374040cb423f3/Eric_Jianfeng_Cheng_current_density_2016_P06.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/a9531e4692f1842474c374040cb423f3/Eric_Jianfeng_Cheng_current_density_2016_P06.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P06</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P06.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>575718</xocs:filesize>
+               <xocs:aam-page-image-sequence>06</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P21.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/6c27c0f881e5ad52ce076cd12358e191/Eric_Jianfeng_Cheng_current_density_2016_P21.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/6c27c0f881e5ad52ce076cd12358e191/Eric_Jianfeng_Cheng_current_density_2016_P21.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P21</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P21.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>479513</xocs:filesize>
+               <xocs:aam-page-image-sequence>21</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P23.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/e140549d12e5435e4dc9c7c4c41e8ecc/Eric_Jianfeng_Cheng_current_density_2016_P23.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/e140549d12e5435e4dc9c7c4c41e8ecc/Eric_Jianfeng_Cheng_current_density_2016_P23.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P23</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P23.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>281138</xocs:filesize>
+               <xocs:aam-page-image-sequence>23</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P17.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/965b7d15b34177e543b30c982e96fdf4/Eric_Jianfeng_Cheng_current_density_2016_P17.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/965b7d15b34177e543b30c982e96fdf4/Eric_Jianfeng_Cheng_current_density_2016_P17.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P17</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P17.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>234314</xocs:filesize>
+               <xocs:aam-page-image-sequence>17</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/MAIN/application/pdf/a05bd7c09d29fea65dcd0b28313fe947/Eric_Jianfeng_Cheng_current_density_2016.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/MAIN/application/pdf/a05bd7c09d29fea65dcd0b28313fe947/Eric_Jianfeng_Cheng_current_density_2016.pdf</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>false</xocs:pdf-optimized>
+               <xocs:filesize>1756936</xocs:filesize>
+               <xocs:attachment-type>AAM-PDF</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P08.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/b7d8d563597eced05ffa282b6ed52de0/Eric_Jianfeng_Cheng_current_density_2016_P08.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/b7d8d563597eced05ffa282b6ed52de0/Eric_Jianfeng_Cheng_current_density_2016_P08.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P08</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P08.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>595158</xocs:filesize>
+               <xocs:aam-page-image-sequence>08</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P03.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/ba2cb987597845849b1aa7dd3e12824b/Eric_Jianfeng_Cheng_current_density_2016_P03.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/ba2cb987597845849b1aa7dd3e12824b/Eric_Jianfeng_Cheng_current_density_2016_P03.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P03</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P03.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>623792</xocs:filesize>
+               <xocs:aam-page-image-sequence>03</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P20.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/9933cf16ac4b2d1a618c3511ef68374a/Eric_Jianfeng_Cheng_current_density_2016_P20.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/9933cf16ac4b2d1a618c3511ef68374a/Eric_Jianfeng_Cheng_current_density_2016_P20.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P20</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P20.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>330956</xocs:filesize>
+               <xocs:aam-page-image-sequence>20</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P02.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/0102d944e2e8af49985cc14af9272082/Eric_Jianfeng_Cheng_current_density_2016_P02.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/0102d944e2e8af49985cc14af9272082/Eric_Jianfeng_Cheng_current_density_2016_P02.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P02</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P02.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>524860</xocs:filesize>
+               <xocs:aam-page-image-sequence>02</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013468616325609-Eric_Jianfeng_Cheng_current_density_2016_P22.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105687N1778/PAGE-IMAGE/image/jpg/8cf6e11997a529df7fd9b80db3ce378a/Eric_Jianfeng_Cheng_current_density_2016_P22.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/egi:105687N1778/PAGE-IMAGE/image/jpg/8cf6e11997a529df7fd9b80db3ce378a/Eric_Jianfeng_Cheng_current_density_2016_P22.jpg</xocs:ucs-locator>
+               <xocs:file-basename>Eric_Jianfeng_Cheng_current_density_2016_P22</xocs:file-basename>
+               <xocs:filename>Eric_Jianfeng_Cheng_current_density_2016_P22.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>677676</xocs:filesize>
+               <xocs:aam-page-image-sequence>22</xocs:aam-page-image-sequence>
+               <xocs:attachment-type>AAM-PAGE-IMAGE</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta>
+   <xocs:serial-item>
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.4" xml:lang="en" docsubtype="fla">
+         <item-info>
+            <jid>EA</jid>
+            <aid>28490</aid>
+            <ce:pii>S0013-4686(16)32560-9</ce:pii>
+            <ce:doi>10.1016/j.electacta.2016.12.018</ce:doi>
+            <ce:copyright type="full-transfer" year="2016">Elsevier Ltd</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig0005">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption id="cap0005">
+                  <ce:simple-para id="spar0005" view="all">
+                     <ce:bold>I</ce:bold>llustration of Li metal plating through polycrystalline LLZO solid electrolyte (a) transgranular, (b) intergranular.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="at0515" role="short">Fig. 1</ce:alt-text>
+               <ce:link locator="gr1" xlink:href="pii:S0013468616325609/gr1" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4"/>
+            </ce:figure>
+            <ce:figure id="fig0010">
+               <ce:label>Fig. 2</ce:label>
+               <ce:caption id="cap0010">
+                  <ce:simple-para id="spar0010" view="all">Electron micrographs of uncycled LLZO (a) SEM image of a polished surface (arrow heads indicate micron-sized pores), (b) SEM image of a fracture surface, (c) high-resolution TEM image of (011) plane along the [100] direction. The inset shows the corresponding selected area diffraction pattern.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="at0520" role="short">Fig. 2</ce:alt-text>
+               <ce:link locator="gr2" xlink:href="pii:S0013468616325609/gr2" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4"/>
+            </ce:figure>
+            <ce:figure id="fig0015">
+               <ce:label>Fig. 3</ce:label>
+               <ce:caption id="cap0015">
+                  <ce:simple-para id="spar0015" view="all">Electrochemical studies of a Li/LLZO/Li symmetric cell at room temperature and SEM analysis of LLZO after DC polarization (a) Galvanostatic cycling (the inset shows the last two cycles), (b) Nyquist plots before and after cycling, and (c) optical image of a cycled LLZO pellet showing the appearance of black linear features, believed to be caused by the propagation of metallic Li, (d) SEM image of a polished surface exhibiting fissures on the surface once in contact with a Li electrode, (e) SEM image of a subsurface fissure excavated by FIB.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="at0525" role="short">Fig. 3</ce:alt-text>
+               <ce:link locator="gr3" xlink:href="pii:S0013468616325609/gr3" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4"/>
+            </ce:figure>
+            <ce:figure id="fig0020">
+               <ce:label>Fig. 4</ce:label>
+               <ce:caption id="cap0020">
+                  <ce:simple-para id="spar0020" view="all">SEM micrographs of the web structure in cycled LLZO (a) illustration of a fractured surface through a black linear feature, (b) SEM image of a fracture surface, (c) enlarged SEM micrograph of the boxed area B in (a), (d) higher magnification SEM image of the web structure in (c), and (e) statistical distribution of the average hexagon-like diameters defined by the web structure. (f), (g) and (h) are successively amplified SEM images of the web structure after exposure to air.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="at0530" role="short">Fig. 4</ce:alt-text>
+               <ce:link locator="gr4" xlink:href="pii:S0013468616325609/gr4" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4"/>
+            </ce:figure>
+            <ce:figure id="fig0025">
+               <ce:label>Fig. 5</ce:label>
+               <ce:caption id="cap0025">
+                  <ce:simple-para id="spar0025" view="all">EDS analysis of the web structure (a) Tilted SEM image of the web structure, (b) line scan spectra of O and C along the dashed line ABC in (a), (c) O mapping, (d) C mapping, (e) La mapping, and (d) Zr mapping.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="at0535" role="short">Fig. 5</ce:alt-text>
+               <ce:link locator="gr5" xlink:href="pii:S0013468616325609/gr5" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4"/>
+            </ce:figure>
+            <ce:figure id="fig0030">
+               <ce:label>Fig. 6</ce:label>
+               <ce:caption id="cap0030">
+                  <ce:simple-para id="spar0030" view="all">Auger analysis of the web structure (a) SEM image of the web structure, (b) Li mapping, (c) SEM image of the web structure and corresponding Auger line scan spectrum of Li along line ABCD.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="at0540" role="short">Fig. 6</ce:alt-text>
+               <ce:link locator="gr6" xlink:href="pii:S0013468616325609/gr6" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4"/>
+            </ce:figure>
+         </ce:floats>
+         <head>
+            <ce:title id="tit0005">Intergranular Li metal propagation through polycrystalline Li<ce:inf loc="post">6.25</ce:inf>Al<ce:inf loc="post">0.25</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> ceramic electrolyte</ce:title>
+            <ce:author-group id="aug0005">
+               <ce:author id="aut0005" author-id="S0013468616325609-dbcb4a1e9aa2444e3a0ddb64ba915e15">
+                  <ce:given-name>Eric Jianfeng</ce:given-name>
+                  <ce:surname>Cheng</ce:surname>
+               </ce:author>
+               <ce:author id="aut0010" author-id="S0013468616325609-a6cabf0fd0a68f1d4dbb14483750e836">
+                  <ce:given-name>Asma</ce:given-name>
+                  <ce:surname>Sharafi</ce:surname>
+               </ce:author>
+               <ce:author id="aut0015" author-id="S0013468616325609-dcabda461c99023550b5bfdcf5cd88d3">
+                  <ce:given-name>Jeff</ce:given-name>
+                  <ce:surname>Sakamoto</ce:surname>
+                  <ce:cross-ref id="crf0005" refid="cor0005">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  <ce:e-address id="eadd0005" type="email">jeffsaka@umich.edu</ce:e-address>
+               </ce:author>
+               <ce:affiliation id="aff0005">
+                  <ce:textfn>Department of Mechanical Engineering, University of Michigan, Ann Arbor, MI 48109, USA</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Mechanical Engineering</sa:organization>
+                     <sa:organization>University of Michigan</sa:organization>
+                     <sa:city>Ann Arbor</sa:city>
+                     <sa:state>MI</sa:state>
+                     <sa:postal-code>48109</sa:postal-code>
+                     <sa:country>USA</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:correspondence id="cor0005">
+                  <ce:label>⁎</ce:label>
+                  <ce:text>Corresponding author.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="23" month="7" year="2016"/>
+            <ce:date-revised day="25" month="11" year="2016"/>
+            <ce:date-accepted day="5" month="12" year="2016"/>
+            <ce:abstract id="abs0005" view="all" class="author">
+               <ce:section-title id="sect0005">Abstract</ce:section-title>
+               <ce:abstract-sec id="abst0005" view="all">
+                  <ce:simple-para id="spar0035" view="all">The potential to enable unprecedented performance, durability, and safety has created the impetus to develop bulk-scale all-solid-state batteries employing metallic Li as the negative electrode. Owing to its low density, low electronegativity and high specific capacity, Li metal is the most attractive negative electrode. However, failure caused by the formation of dendrites has limited the widespread use of rechargeable batteries using metallic Li negative electrodes coupled with liquid electrolytes. One approach to mitigate the formation of dendrites involves the use of a solid electrolyte to physically stabilize the Li–electrolyte interface while allowing the facile transport of Li-ions. Though in principle this approach should work, it has been observed that at high Li deposition rates Li metal can propagate through relatively hard ceramic electrolytes and Li dendrite formation causing short circuit has been reported. Why this occurs is poorly understood, emphasizing the need to close the knowledge gap and facilitate the development of advanced batteries employing solid electrolytes. Here, through precise microstructural control, striking electron microscopy, and high-resolution surface spectroscopy, we directly observed for the first time the propagation of Li metal through a promising polycrystalline solid electrolyte based on the garnet mineral structure (Li<ce:inf loc="post">6.25</ce:inf>Al<ce:inf loc="post">0.25</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf>). Moreover, we observed that Li preferentially deposits along grain boundaries (intergranularly). These results offer insight into the electrochemical-mechanical phenomena that govern the stability of the metallic Li–polycrystalline solid electrolyte interface and are essential to the maturation of solid-state batteries.</ce:simple-para>
+               </ce:abstract-sec>
+            </ce:abstract>
+            <ce:keywords id="kwd0005" class="keyword" view="all">
+               <ce:section-title id="sect0010">Keywords</ce:section-title>
+               <ce:keyword id="kw0005">
+                  <ce:text>Li metal</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0010">
+                  <ce:text>short-circuiting</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0015">
+                  <ce:text>garnet</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0020">
+                  <ce:text>current density</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:section id="sec0005" role="introduction" view="all">
+                  <ce:label>1</ce:label>
+                  <ce:section-title id="sect0015">Introduction</ce:section-title>
+                  <ce:para id="par0005" view="all">The demand for high energy density, safe and low cost energy storage is ever-increasing <ce:cross-refs id="crfs0005" refid="bib0005 bib0010 bib0015">[1–3]</ce:cross-refs>. Li-ion is a promising technology to meet near term energy storage needs, however future demands will require a step increase in performance. In particular, vehicle electrification will likely require<ce:hsp sp="0.25"/>&gt;<ce:hsp sp="0.25"/>1000 Wh/l (at the cell level) to enable driving ranges commensurate with current internal combustion engine powertrains. Achieving<ce:hsp sp="0.25"/>&gt;<ce:hsp sp="0.25"/>1000 Wh/l using Li-ion technology will be challenging, thus advanced battery technology must be developed. One approach is to develop solid electrolyte technology to allow the use of metallic Li as the negative electrode <ce:cross-ref id="crf0010" refid="bib0020">[4]</ce:cross-ref>. The volumetric capacity of Li is 10X higher than state-of-the-art (SOA) graphite negative electrodes. Thus, by coupling Li metal with SOA and advanced high voltage electrodes, a step increase in energy density can be achieved.</ce:para>
+                  <ce:para id="par0010" view="all">While myriad solid electrolytes exhibit fast ion conductivity (∼1mS/cm at 298<ce:hsp sp="0.25"/>K), few are stable against Li metal <ce:cross-refs id="crfs0010" refid="bib0025 bib0030 bib0035">[5–7]</ce:cross-refs>. Garnet-type solid electrolyte, based on the nominal formula, Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> (LLZO)<ce:inf loc="post">,</ce:inf> is an example of a solid electrolyte that is a fast ion conductor and is believed to be stable against Li. Moreover, because garnet-type Li-conductors are oxides, they exhibit relatively high elastic (∼150<ce:hsp sp="0.25"/>GPa) and shear (∼60<ce:hsp sp="0.25"/>GPa) moduli that could suppress the initiation and propagation of dendrites that have plagued previous generations of rechargeable batteries employing metallic Li as the negative electrode <ce:cross-ref id="crf0015" refid="bib0040">[8]</ce:cross-ref>. Though perhaps more applicable to amorphous polymers or glass ceramic electrolytes, a theory proposed by Monroe et al. <ce:cross-ref id="crf0020" refid="bib0045">[9]</ce:cross-ref>, establishes a criterion for metal filament initiation that is governed by the ratio of the shear moduli of Li and a solid electrolyte. Monroe et al., proposed that if the solid electrolyte shear modulus is greater than a factor of two higher than Li (4.8<ce:hsp sp="0.25"/>GPa at 298<ce:hsp sp="0.25"/>K), Li filament initiation should not occur. Thus, because the shear modulus of LLZO is ∼12 times higher than that of Li, according to the Monroe et al. criterion, Li filaments should not form. However, recent studies indicate that Li filaments do indeed form in LLZO <ce:cross-refs id="crfs0015" refid="bib0050 bib0055 bib0060">[10–12]</ce:cross-refs>. For example, Sharafi et al., characterized the effect of current density and temperature on the formation of Li filaments in solid-state Li-LLZO-Li cells <ce:cross-ref id="crf0025" refid="bib0050">[10]</ce:cross-ref>. Macroscopically, dark features formed on the LLZO surface when the current density exceeded 0.1<ce:hsp sp="0.25"/>mA/cm<ce:sup loc="post">2</ce:sup> at room temperature and 20<ce:hsp sp="0.25"/>mA/cm<ce:sup loc="post">2</ce:sup> at 160<ce:hsp sp="0.25"/>°C. Inductive behavior in the electrochemical impedance spectroscopy (EIS) spectra after cycling indicated metallic short-circuiting occurred. Similarly, Ren and Imanishi et al. confirmed the formation of dark features above comparable current densities at room temperature <ce:cross-refs id="crfs0020" refid="bib0055 bib0060">[11,12]</ce:cross-refs>. Thus, the question arises: despite meeting and exceeding the shear modulus criterion proposed by the Monroe model, how are Li filaments propagating through LLZO?</ce:para>
+                  <ce:para id="par0015" view="all">In this study, we hypothesize that the Monroe model may not be applicable to polycrystalline solid electrolytes. Polycrystalline materials consist of grains and grain boundaries. Yet, the role that grain boundaries may play in governing Li filament initiation and propagation is not known at this time. To elucidate this phenomenon, the purpose of this study was to determine if Li filaments preferentially propagate inter or transgranularly (<ce:cross-ref id="crf0030" refid="fig0005">Fig. 1</ce:cross-ref>
+                     <ce:float-anchor refid="fig0005"/>). Understanding the mode of Li propagation will help future efforts to better engineer the microstructure and/or interfaces to increase the current density at which Li is plated during charging solid-state batteries employing metallic Li electrodes. However, characterizing Li metal is challenging due to its reactivity with air and low electron density. In this study, a novel approach to confirm the presence of Li and how it propagates in polycrystalline LLZO was demonstrated.</ce:para>
+                  <ce:para id="par0020" view="all">LLZO was synthesized using a conventional solid-state technique and hot pressed to provide precise control of the microstructure, e.g. limit porosity to<ce:hsp sp="0.25"/>&lt;<ce:hsp sp="0.25"/>3% and result in consistent grain and grain boundary characteristics. The hot pressed LLZO was cycled using previously reported protocol to cause Li short-circuiting at room temperature. Scanning electron microscopy (SEM), energy-dispersive X-ray spectroscopy (EDS) and Auger electron spectroscopy (AES) were used to confirm the presence and spatial distribution of Li to determine which propagation mode (<ce:cross-ref id="crf0035" refid="fig0005">Fig. 1</ce:cross-ref>) occurs. We believe the analysis in this study presents key evidence to demonstrate how Li propagates in solids, particularly polycrystalline ceramics. Because the polycrystalline form is more practical compared to single crystals, understanding the role that grain boundaries play is critical. In addition, because the formation of Li metal in the microstructure involves mechanical failure through fracture, we believe the results of this study will help elucidate the electrochemical-mechanical phenomena that govern the stability of the Li–solid electrolyte interface. Overall, these data may help improve the charge rate of solid-state batteries employing metallic Li negative electrodes.</ce:para>
+               </ce:section>
+               <ce:section id="sec0010" role="materials-methods" view="all">
+                  <ce:label>2</ce:label>
+                  <ce:section-title id="sect0020">Experimental</ce:section-title>
+                  <ce:section id="sec0015" view="all">
+                     <ce:label>2.1</ce:label>
+                     <ce:section-title id="sect0025">LLZO specimen preparation</ce:section-title>
+                     <ce:para id="par0025" view="all">Cubic LLZO was prepared by a solid-state synthetic technique. Starting materials, Li<ce:inf loc="post">2</ce:inf>CO<ce:inf loc="post">3</ce:inf> (99.0%, Alfa Aesar, Ward Hill, MA), La(OH)<ce:inf loc="post">3</ce:inf> (99.95%, Alfa Aesar, Ward Hill, MA), ZrO<ce:inf loc="post">2</ce:inf> (99.9%, Inframat Advanced Materials, Manchester, CT) and Al<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf> (99.9%, Mager Scientific, Dexter, MI), were weighted in desired stoichiometry and dry-milled for 4<ce:hsp sp="0.25"/>h in a planetary mill (Retsch GmbH, Haan, Germany) at 350<ce:hsp sp="0.25"/>rpm. Excess Li<ce:inf loc="post">2</ce:inf>CO<ce:inf loc="post">3</ce:inf> was used to compensate for Li volatilization during calcination. The mixed powder was cold-pressed into to pellets with a diameter of 2.54<ce:hsp sp="0.25"/>cm and calcined at 1000<ce:hsp sp="0.25"/>°C for 4<ce:hsp sp="0.25"/>h in air. The calcined pellets were then ground into powders and hot-pressed using a rapid induction hot-pressing technique at 1100<ce:hsp sp="0.25"/>°C and 62<ce:hsp sp="0.25"/>MPa for 1<ce:hsp sp="0.25"/>h under Ar to achieve 97<ce:hsp sp="0.25"/>±<ce:hsp sp="0.25"/>1% relative densities. The pellet was cut into 1.0<ce:hsp sp="0.25"/>±<ce:hsp sp="0.25"/>0.2<ce:hsp sp="0.25"/>mm discs using a diamond saw. The discs were transferred to an Ar-filled glove box to avoid reaction with air and moisture.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0020" view="all">
+                     <ce:label>2.2</ce:label>
+                     <ce:section-title id="sect0030">Electrochemical measurements</ce:section-title>
+                     <ce:para id="par0030" view="all">The cells used in this experiments were symmetric Li-LLZO-Li cells assembled inside an Ar-filled glove box. Before cell assembly, the LLZO was polished inside the glove box to remove surface contamination. The metallic Li was scrapped to expose a clean surface. The Li-LLZO-Li cell was compressed using a 316<ce:hsp sp="0.25"/>kPa uniaxial pressure and heated to 175<ce:hsp sp="0.25"/>°C to reduce interfacial impedance. The cell was cycled at room temperature using a potentiostat/galvanostat (Bio-logic SP300). The symmetric cells were cycled at various current densities (1<ce:hsp sp="0.25"/>hour per cycle) with a rest period of 2<ce:hsp sp="0.25"/>min between each current step until the cell showed an evidence of short circuit. Electrochemical impedance spectroscopy (EIS) was conducted in a frequency range between 1<ce:hsp sp="0.25"/>Hz to 7<ce:hsp sp="0.25"/>MHz before and after cycling to characterize the cell impedance upon cycling. After cycling, the cells were disassembled and the short-circuited LLZO was removed for analysis.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0025" role="materials-methods" view="all">
+                     <ce:label>2.3</ce:label>
+                     <ce:section-title id="sect0035">Materials characterization</ce:section-title>
+                     <ce:para id="par0035" view="all">SEM/FIB/EDS were performed on a FEI Nova 200 Nano lab Dualbeam SEM/FIB microscope (accelerating voltage: 0.2–30<ce:hsp sp="0.25"/>kV (electrons), up to 30<ce:hsp sp="0.25"/>kV (ions)) and on a FEI Helios Nanolab 650 Dualbeam SEM/FIB microscope (accelerating voltage: 50V–30<ce:hsp sp="0.25"/>kV (electrons), 0.5 kV–30<ce:hsp sp="0.25"/>kV (ions) beam current: 0.8 pA–26<ce:hsp sp="0.25"/>nA (electrons), 0.1 pA–65<ce:hsp sp="0.25"/>nA (ions) at the Michigan Center for Materials Characterization. LLZO specimens for SEM/FIB/EDS analysis were wet polished with a series of sand paper grits, with a final polishing using a 1<ce:hsp sp="0.25"/>
+                        <ce:italic>μ</ce:italic>m diamond paste. A JEOL 2010F analytical TEM (100 and 200<ce:hsp sp="0.25"/>kV) was used for the HRTEM analysis. Specimens for TEM observation were prepared by diamond-saw cutting, SiC-paper grinding, dimpling and Ar ion beam milling. A physical electronics Auger Nanoprobe 680 microscope (spatial resolution ∼50<ce:hsp sp="0.25"/>nm; energy resolution ∼0.3% of the electron energy) was used to probe elements in LLZO. The cycled LLZO specimen was coated with a thin Au layer before SEM/XPS/EDS/AES analysis to increase electron conductivity. Based on high-resolution SEM micrographs, the average diameter of the web structure was estimated from 75 webs using ImageJ software <ce:cross-ref id="crf0040" refid="bib0065">[13]</ce:cross-ref>.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="sec0030" role="discussion" view="all">
+                  <ce:label>3</ce:label>
+                  <ce:section-title id="sect0040">Results and discussion</ce:section-title>
+                  <ce:section id="sec0035" view="all">
+                     <ce:label>3.1</ce:label>
+                     <ce:section-title id="sect0045">Electron micrographs of as-prepared LLZO</ce:section-title>
+                     <ce:para id="par0040" view="all">To characterize the LLZO electrolyte before cycling, electron microscopy was conducted (<ce:cross-ref id="crf0045" refid="fig0010">Fig. 2</ce:cross-ref>
+                        <ce:float-anchor refid="fig0010"/>). An SEM micrograph of a polished surface is shown in <ce:cross-ref id="crf0050" refid="fig0010">Fig. 2</ce:cross-ref>(a), where no cracks, except a few pores, were observed and was consistent with the expected high relative density of 97<ce:hsp sp="0.25"/>±<ce:hsp sp="0.25"/>1% <ce:cross-ref id="crf0055" refid="bib0050">[10]</ce:cross-ref>. <ce:cross-ref id="crf0060" refid="fig0010">Fig. 2</ce:cross-ref>(b) presents a freshly cleaved surface, from which the average grain size is estimated to be ∼2.8<ce:hsp sp="0.25"/>±<ce:hsp sp="0.25"/>0.8<ce:hsp sp="0.25"/>
+                        <ce:italic>μ</ce:italic>m, consistent with that reported by previous investigations <ce:cross-refs id="crfs0025" refid="bib0070 bib0075">[14,15]</ce:cross-refs>. The fracture mode was predominantly transgranular, indicating relatively high grain boundary strength. A high-resolution transmission electron microscopy (HR-TEM) image of the LLZO (011) plane along the [100] direction is depicted in <ce:cross-ref id="crf0065" refid="fig0010">Fig. 2</ce:cross-ref>(c) (the inset is the corresponding selected area electron diffraction pattern). The TEM analysis indicates that the Al-doped LLZO has a cubic crystal structure with a lattice parameter of approximately 1.3<ce:hsp sp="0.25"/>nm, which is in agreement with X-ray diffraction (XRD) <ce:cross-refs id="crfs0030" refid="bib0050 bib0080">[10,16]</ce:cross-refs>.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0040" view="all">
+                     <ce:label>3.2</ce:label>
+                     <ce:section-title id="sect0050">Electrochemical studies of a Li/LLZO/Li cell</ce:section-title>
+                     <ce:para id="par0045" view="all">The direct current (DC) cycling behavior of LLZO was characterized using Li-LLZO-Li symmetric cells. <ce:cross-ref id="crf0070" refid="fig0015">Fig. 3</ce:cross-ref>
+                        <ce:float-anchor refid="fig0015"/>. (a) shows the DC cycling of the symmetric cell at room temperature. The cell followed Ohmic behavior (V<ce:hsp sp="0.25"/>=<ce:hsp sp="0.25"/>IR) at the lower current densities of less than 0.015<ce:hsp sp="0.25"/>mA.cm<ce:sup loc="post">−2</ce:sup> and deviated from Ohmic behavior at current densities greater than 0.015<ce:hsp sp="0.25"/>mA.cm<ce:sup loc="post">−2</ce:sup>. At 0.10<ce:hsp sp="0.25"/>mA.cm<ce:sup loc="post">−2</ce:sup>, an abrupt drop in polarization voltage to approximately 0<ce:hsp sp="0.25"/>V occurred, indicating the cell had short-circuited. In addition, EIS was performed before and after completing the DC polarization at room temperature. Prior to initiating the cycling test, the electrochemical impedance behavior of the cell was measured as illustrated in <ce:cross-ref id="crf0075" refid="fig0015">Fig. 3</ce:cross-ref>. (b). The Nyquist plot consists of two semicircular features that are consistent with the Ohmic resistance of LLZO at the higher frequencies (7 MHz–100<ce:hsp sp="0.25"/>kHz) and charge transfer resistance at the lower frequencies (100 kHz–1<ce:hsp sp="0.25"/>Hz). The calculated values of capacitance were about 10<ce:sup loc="post">−12</ce:sup>
+                        <ce:hsp sp="0.25"/>F.cm<ce:sup loc="post">−2</ce:sup> for bulk LLZO, 10<ce:sup loc="post">−8</ce:sup>
+                        <ce:hsp sp="0.25"/>F.cm<ce:sup loc="post">−2</ce:sup> for grain boundaries and 10<ce:sup loc="post">−6</ce:sup>
+                        <ce:hsp sp="0.25"/>F.cm<ce:sup loc="post">−2</ce:sup> for Li-LLZO charge transfer resistance. These capacitance values are in good agreement with the ascribed phenomena as described previously <ce:cross-ref id="crf0080" refid="bib0085">[17]</ce:cross-ref>. The Nyquist plot after DC cycling is consistent with an electronic short-circuit exhibiting inductance. After cycling and upon cell disassembly, clear evidence of dark macroscopic features were evident, as shown in the optical image <ce:cross-ref id="crf0085" refid="fig0015">Fig. 3</ce:cross-ref>. (c). It was believed, that the dark features were Li metal filaments that propagated between pellet faces to cause short-circuiting.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0045" view="all">
+                     <ce:label>3.3</ce:label>
+                     <ce:section-title id="sect0055">SEM and FIB analysis of a short-circuited LLZO</ce:section-title>
+                     <ce:para id="par0050" view="all">After short-circuiting, fissures were observed on the surface of the cycled LLZO electrolyte, as shown in the SEM micrograph of <ce:cross-ref id="crf0090" refid="fig0015">Fig. 3</ce:cross-ref>(d). In geometry and scale, these fissures closely resembled the black lines observed in <ce:cross-ref id="crf0095" refid="fig0015">Fig. 3</ce:cross-ref>(c). To determine if the features extended below the pellet face, focused ion beam (FIB) milling was used to observe the sub-surface microstructure. As shown in <ce:cross-ref id="crf0100" refid="fig0015">Fig. 3</ce:cross-ref>(e), the surface features propagate well below the LLZO pellet surface taking on the appearance of fissures. Because no such features were observed on the surface of the pre-cycled polished pellet surface (<ce:cross-ref id="crf0105" refid="fig0010">Fig. 2</ce:cross-ref>(a)), it was believed the features were caused by Li metal propagation.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0050" view="all">
+                     <ce:label>3.4</ce:label>
+                     <ce:section-title id="sect0060">Web structure in the fracture surface</ce:section-title>
+                     <ce:para id="par0055" view="all">Assuming the features were metallic Li, attempts were made to determine if they propagated inter or transgranularly. To do so, a bending moment was applied to the pellet to cause fracture near or along the feature. Immediately after fracture, one half of the specimen was transferred into an SEM (<ce:cross-ref id="crf0110" refid="fig0020">Fig. 4</ce:cross-ref>
+                        <ce:float-anchor refid="fig0020"/>(a)). An SEM micrograph of the fractured surface is presented in <ce:cross-ref id="crf0115" refid="fig0020">Fig. 4</ce:cross-ref>(b), where a designated area B is enlarged and shown in <ce:cross-ref id="crf0120" refid="fig0020">Fig. 4</ce:cross-ref>(c). A distinguishable web-like structure was observed on particular regions of the fractured surface. In higher magnification SEM image (<ce:cross-ref id="crf0125" refid="fig0020">Fig. 4</ce:cross-ref>(d)), the web structure generally defined hexagonal-like features. Moreover, the LLZO predominately exhibited transgranular fracture, which is consistent with what was previously observed in fracture toughness analysis on LLZO of comparable relative density <ce:cross-refs id="crfs0035" refid="bib0070 bib0080">[14,16]</ce:cross-refs>. <ce:cross-ref id="crf0130" refid="fig0020">Fig. 4</ce:cross-ref>(e) presents the diameter distribution statistics of the web structure. The average diameter of the web structure was estimated to be ∼2.6<ce:hsp sp="0.25"/>±<ce:hsp sp="0.25"/>0.7<ce:hsp sp="0.25"/>
+                        <ce:italic>μ</ce:italic>m, similar to the average grain size of LLZO, ∼2.8<ce:hsp sp="0.25"/>±<ce:hsp sp="0.25"/>0.8<ce:hsp sp="0.25"/>
+                        <ce:italic>μ</ce:italic>m. In addition, the formation of the web structure appeared to be superimposed on the grain boundaries, implying that the web structure formed at the grain boundaries (intergranularly).</ce:para>
+                     <ce:para id="par0060" view="all">The web structure was unavoidably exposed to air during specimen transfer between different analytical microscopes. <ce:cross-ref id="crf0135" refid="fig0020">Fig. 4</ce:cross-ref>(f) depicts an SEM micrograph of the same web structure shown in <ce:cross-ref id="crf0140" refid="fig0020">Fig. 4</ce:cross-ref>(c), but after the exposure to air occurred during sample transfer. Higher magnification SEM images of the web structure in <ce:cross-ref id="crf0145" refid="fig0020">Fig. 4</ce:cross-ref>(f) are shown in <ce:cross-ref id="crf0150" refid="fig0020">Figs. 4</ce:cross-ref>(g) and (h), from which porous reaction layers were observed on the web structure and the thickness of the web wall slightly increased. This indicated that the web structure was highly reactive in air compared to LLZO; consistent with the hypothesis that the web structure consisted of metallic Li.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0055" view="all">
+                     <ce:label>3.5</ce:label>
+                     <ce:section-title id="sect0065">EDS analysis of the web structure after exposure to air</ce:section-title>
+                     <ce:para id="par0065" view="all">
+                        <ce:cross-ref id="crf0155" refid="fig0025">Fig. 5</ce:cross-ref>
+                        <ce:float-anchor refid="fig0025"/> represents spatially resolved EDS analysis results of the web structure after exposure to air. A tilted SEM micrograph is shown in <ce:cross-ref id="crf0160" refid="fig0025">Fig. 5</ce:cross-ref>(a), where the black dashed-line indicated an EDS line scan (from point A to C) for elements O and C. As shown in <ce:cross-ref id="crf0165" refid="fig0025">Fig. 5</ce:cross-ref>(b), the web structure (from point B to C) was much richer in O and C than the LLZO matrix (point A to B). The distance between neighboring peaks of the O or C spectrum generally corresponded to the diameter of the webs. In addition, the average intensity (counts per 0.2<ce:hsp sp="0.25"/>second) ratio between O and C along the line scan path A to C in <ce:cross-ref id="crf0170" refid="fig0025">Fig. 5</ce:cross-ref>(a) was 3.0:1.0. The O and C concentration Z-contrast images are shown in <ce:cross-ref id="crf0175" refid="fig0025">Figs. 5</ce:cross-ref>(c) and (d), respectively. It was apparent that the O and C concentrations are higher in the web structure (bright contrast) compared to the LLZO matrix. The La and Zr concentration mappings are depicted in <ce:cross-ref id="crf0180" refid="fig0025">Figs. 5</ce:cross-ref>(e) and (f), respectively. Compared to O and C, negligible La and Zr (dark contrast) could be detected in the web structure, while La and Zr were homogeneously distributed in the LLZO matrix (bright contrast).</ce:para>
+                     <ce:para id="par0070" view="all">The formation of Li<ce:inf loc="post">2</ce:inf>CO<ce:inf loc="post">3</ce:inf> on the LLZO surfaces upon brief air exposure was proven by Raman and soft X-ray absorption spectroscopy <ce:cross-ref id="crf0185" refid="bib0090">[18]</ce:cross-ref>. Since the web structure was rich in Li, therefore, more prone to carbonation in air compared to the LLZO matrix, and the average O to C ratio in the oxycarbonated web structure and the LLZO matrix was 3:0:1:0, the oxycarbonated web structure was most likely to be Li<ce:inf loc="post">2</ce:inf>CO<ce:inf loc="post">3</ce:inf>. It should be noted that the amount of doped Al was trace in LLZO and negligible La and Zr were detected in the web structure. Though the EDS analysis suggests the web structure consisted of metallic Li before exposure to air, the evidence is compelling. However, direct confirmation of metallic Li is required to confirm our hypothesis.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0060" view="all">
+                     <ce:label>3.6</ce:label>
+                     <ce:section-title id="sect0070">Direct observation of metallic Li (AES analysis)</ce:section-title>
+                     <ce:para id="par0075" view="all">AES is an analytical technique used to characterize the elemental make up of the first few atomic layers (0.5–5<ce:hsp sp="0.25"/>nm) of a surface using high spatial resolution (∼50<ce:hsp sp="0.25"/>nm point-to-point), and precise chemical sensitivity <ce:cross-ref id="crf0190" refid="bib0095">[19]</ce:cross-ref>. We investigated the surface chemical composition of the web structure by AES. An AES-SEM micrograph of the web structure is presented in <ce:cross-ref id="crf0195" refid="fig0030">Fig. 6</ce:cross-ref>
+                        <ce:float-anchor refid="fig0030"/>(a), where Auger element mapping of Li was carried out, as shown in <ce:cross-ref id="crf0200" refid="fig0030">Fig. 6</ce:cross-ref>(b). The Li concentration in the web structure was much higher (bright contrast) than that in the LLZO matrix (dark contrast). In addition, an AES line scan for Li was performed in a different area, along line ABCD in the SEM micrograph shown in <ce:cross-ref id="crf0205" refid="fig0030">Fig. 6</ce:cross-ref>(c). Well-defined Li peaks were observed along line segment BC, where the line scan path from point B to C was located on the web structure. In contrast, almost no Li peaks were observed along line segments AB and CD, which was primarily believed to be LLZO. On the other hand, the Au line-scan spectrum along the line ABCD was nearly invariant. In general, the elemental distribution results (e.g., the distribution of Li and Zr) from AES were consistent with those from EDS. Therefore, based on the EDS and AES analysis, the grain consisted of LLZO garnet and the grain boundaries were saturated with Li metal. We believe this is the first report to directly measure the formation of metallic Li in LLZO.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0065" view="all">
+                     <ce:label>3.7</ce:label>
+                     <ce:section-title id="sect0075">Li plating through grain boundaries</ce:section-title>
+                     <ce:para id="par0080" view="all">The web structure closely resembled the LLZO microstructure in that the hexagonal shapes defined by the metallic Li mimicked grains in hot-pressed LLZO. In addition, the hexagonal feature diameters were close to the diameter of LLZO grains. Based on these observations, we believed the Li web structure was generally observed along the LLZO grain boundaries. Thus, Li plated intergranularly through the LLZO electrolyte grain boundaries causing the grains to fracture transgranularly. Sudo et al. speculated that the black spots on the short-circuited LLZO surface was Li, growing through the grain boundaries or voids in LLZO <ce:cross-ref id="crf0210" refid="bib0100">[20]</ce:cross-ref>. Ren et al., using backscattered electron SEM and EDS, indicated that Li grew through grain boundaries and interconnected pores in short-circuited LLZO <ce:cross-ref id="crf0215" refid="bib0055">[11]</ce:cross-ref>. Though previous work certainly points to the formation Li metal propagation through LLZO, we believe that through the combination of precise microstructural control, striking SEM imagery, and the spatial resolution offered using Auger spectroscopy, this article is the first to confirm that Li propagates along grain boundaries in short-circuited LLZO. We believe this information will play a key role in elucidating Li metal propagation in polycrystalline solid electrolytes and can be used to establish strategies to stabilize the Li–solid electrolyte interface upon charging. However, regarding the effect of grain size on total conductivity, it has been shown that nanostructured materials can exhibit an order of magnitude higher ionic conductivity than the conventional microcrystalline materials <ce:cross-ref id="crf0220" refid="bib0105">[21]</ce:cross-ref>.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="sec0070" role="conclusion" view="all">
+                  <ce:label>4</ce:label>
+                  <ce:section-title id="sect0080">Conclusions</ce:section-title>
+                  <ce:para id="par0085" view="all">In summary, we showed direct evidence for the first time that Li preferentially propagated intergranularly through LLZO grain boundaries and resulted in metallic short-circuiting of the Li/LLZO/Li symmetric cells during cycling. The results of this study are essential in understanding Li metal propagation in polycrystalline solid electrolytes and leading to potential strategies for stabilizing Li–solid electrolyte interface during charging. To improve the stability of the Li–solid electrolyte interface, future efforts should focus on engineering grain boundary structures to suppress Li filament propagation in polycrystalline solid electrolytes. We believe these data can be used to enable metallic Li electrodes to allow for unprecedented improvements in battery technology performance, safety, and durability.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:acknowledgment id="ack0005" view="all">
+               <ce:section-title id="sect0085">Acknowledgements</ce:section-title>
+               <ce:para id="par0090" view="all">This work was supported by the <ce:grant-sponsor id="gs1" sponsor-id="http://dx.doi.org/10.13039/100006177" xlink:type="simple" xlink:role="http://www.elsevier.com/xml/linking-roles/grant-sponsor">U.S. Department of Energy (DOE) Office of Energy Efficiency and Renewable Energy (EERE) Vehicle Technologies Office (VTO) and Advanced Battery Material Research (BMR) program</ce:grant-sponsor> under contract <ce:grant-number refid="gs1">DE-EE 00006821</ce:grant-number>. Eric Jianfeng Cheng thanks Zhongrui Li, Kai Sun, Haiping Sun and Eric Kazyak for their technical help in this study. Eric Jianfeng Cheng is grateful to Robert Schmidt, Travis Thompson, and Yunsung Kim for valuable discussions.</ce:para>
+            </ce:acknowledgment>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="bibl0005" view="all">
+               <ce:section-title id="sect0090">References</ce:section-title>
+               <ce:bibliography-sec id="bibs0005" view="all">
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="sbref0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.C.</ce:given-name>
+                                 <ce:surname>Stern</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.B.</ce:given-name>
+                                 <ce:surname>Janda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.A.</ce:given-name>
+                                 <ce:surname>Brown</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Steg</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.L.</ce:given-name>
+                                 <ce:surname>Vine</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Lutzenhiser</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Opportunities and insights for reducing fossil fuel consumption by households and organizations</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nature Energy</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>1</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>16043</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0010">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference id="sbref0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Nykvist</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Nilsson</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Rapidly falling costs of battery packs for electric vehicles</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nature Climate Change</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>5</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>329</sb:first-page>
+                              <sb:last-page>332</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0015">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference id="sbref0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Lux</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Williams</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Ma</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Heat-treatment of metal–organic frameworks for green energy applications</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>CrystEngComm</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>17</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>10</sb:first-page>
+                              <sb:last-page>22</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0020">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference id="sbref0020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.J.</ce:given-name>
+                                 <ce:surname>Harry</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.T.</ce:given-name>
+                                 <ce:surname>Hallinan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.Y.</ce:given-name>
+                                 <ce:surname>Parkinson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.A.</ce:given-name>
+                                 <ce:surname>MacDowell</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.P.</ce:given-name>
+                                 <ce:surname>Balsara</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Detection of subsurface structures underneath dendrites formed on cycled lithium metal electrodes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nature materials</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>13</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>69</sb:first-page>
+                              <sb:last-page>73</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0025">
+                     <ce:label>[5]</ce:label>
+                     <sb:reference id="sbref0025">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Sakamoto</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Super-ionic Conducting Oxide Electrolytes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Handbook of Solid State Batteries</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>6</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>391</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0030">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference id="sbref0030">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Stramare</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Thangadurai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Weppner</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Lithium lanthanum titanates: a review</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Chemistry of Materials</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>15</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2003</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3974</sb:first-page>
+                              <sb:last-page>3990</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0035">
+                     <ce:label>[7]</ce:label>
+                     <sb:reference id="sbref0035">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Bohnke</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Bohnke</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Fourquet</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Mechanism of ionic conduction and electrochemical intercalation of lithium into the perovskite lanthanum lithium titanate</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Solid State Ionics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>91</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1996</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>21</sb:first-page>
+                              <sb:last-page>31</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0040">
+                     <ce:label>[8]</ce:label>
+                     <sb:reference id="sbref0040">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.E.</ce:given-name>
+                                 <ce:surname>Ni</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.D.</ce:given-name>
+                                 <ce:surname>Case</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.S.</ce:given-name>
+                                 <ce:surname>Sakamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Rangasamy</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.B.</ce:given-name>
+                                 <ce:surname>Wolfenstine</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Room temperature elastic moduli and Vickers hardness of hot-pressed LLZO cubic garnet</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Materials Science</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>47</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>7978</sb:first-page>
+                              <sb:last-page>7985</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0045">
+                     <ce:label>[9]</ce:label>
+                     <sb:reference id="sbref0045">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Monroe</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Newman</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The impact of elastic deformation on deposition kinetics at lithium/polymer interfaces</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of The Electrochemical Society</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>152</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2005</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A396</sb:first-page>
+                              <sb:last-page>A404</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0050">
+                     <ce:label>[10]</ce:label>
+                     <sb:reference id="sbref0050">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Sharafi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.M.</ce:given-name>
+                                 <ce:surname>Meyer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Nanda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Wolfenstine</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Sakamoto</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Characterizing the Li-Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> interface stability and kinetics as a function of temperature and current density</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>302</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>135</sb:first-page>
+                              <sb:last-page>139</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0055">
+                     <ce:label>[11]</ce:label>
+                     <sb:reference id="sbref0055">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Ren</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Shen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Lin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Nan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Direct observation of lithium dendrites inside garnet-type lithium-ion solid electrolyte</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochemistry Communications</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>57</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>27</sb:first-page>
+                              <sb:last-page>30</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0060">
+                     <ce:label>[12]</ce:label>
+                     <sb:reference id="sbref0060">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Ishiguro</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Nakata</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Matsui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I.</ce:given-name>
+                                 <ce:surname>Uechi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Takeda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Yamamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Imanishi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Stability of Nb-doped cubic Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> with lithium metal</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of The Electrochemical Society</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>160</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A1690</sb:first-page>
+                              <sb:last-page>A1693</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0065">
+                     <ce:label>[13]</ce:label>
+                     <sb:reference id="sbref0065">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.D.</ce:given-name>
+                                 <ce:surname>Abràmoff</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.J.</ce:given-name>
+                                 <ce:surname>Magalhães</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.J.</ce:given-name>
+                                 <ce:surname>Ram</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Image processing with ImageJ</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Biophotonics international</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>11</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>36</sb:first-page>
+                              <sb:last-page>42</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0070">
+                     <ce:label>[14]</ce:label>
+                     <sb:reference id="sbref0070">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Jo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.L.</ce:given-name>
+                                 <ce:surname>Allen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Choe</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Wolfenstine</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Sakamoto</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The Effect of Relative Density on the Mechanical Properties of Hot-Pressed Cubic Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of the American Ceramic Society</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0075">
+                     <ce:label>[15]</ce:label>
+                     <sb:reference id="sbref0075">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>I.N.</ce:given-name>
+                                 <ce:surname>David</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Thompson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Wolfenstine</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.L.</ce:given-name>
+                                 <ce:surname>Allen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Sakamoto</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Microstructure and Li‐Ion Conductivity of Hot‐Pressed Cubic Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Journal of the American Ceramic Society</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>98</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1209</sb:first-page>
+                              <sb:last-page>1214</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0080">
+                     <ce:label>[16]</ce:label>
+                     <sb:reference id="sbref0080">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Rangasamy</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Wolfenstine</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Sakamoto</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The role of Al and Li concentration on the formation of cubic garnet solid electrolyte of nominal composition Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Solid State Ionics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>206</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>28</sb:first-page>
+                              <sb:last-page>32</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0085">
+                     <ce:label>[17]</ce:label>
+                     <sb:reference id="sbref0085">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.T.S.</ce:given-name>
+                                 <ce:surname>Irvine</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.C.</ce:given-name>
+                                 <ce:surname>Sinclair</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.R.</ce:given-name>
+                                 <ce:surname>West</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Electroceramics: Characterization by Impedance Spectroscopy</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Advanced Materials</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>2</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1990</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>132</sb:first-page>
+                              <sb:last-page>138</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0090">
+                     <ce:label>[18]</ce:label>
+                     <sb:reference id="sbref0090">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Cheng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.H.</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Jarry</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Ye</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Zhu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Kostecki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Persson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Guo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Salmeron</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Interrelationships among Grain Size, Surface Composition, Air Stability, and Interfacial Resistance of Al-Substituted Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> Solid Electrolytes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>ACS applied materials &amp; interfaces</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>7</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>17649</sb:first-page>
+                              <sb:last-page>17655</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0095">
+                     <ce:label>[19]</ce:label>
+                     <sb:reference id="sbref0095">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Xu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Fujita</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Gao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Hanagata</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Auger electron spectroscopy: a rational method for determining thickness of graphene films</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>ACS applied materials &amp; interfaces</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>4</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2937</sb:first-page>
+                              <sb:last-page>2945</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0100">
+                     <ce:label>[20]</ce:label>
+                     <sb:reference id="sbref0100">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Sudo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Nakata</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Ishiguro</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Matsui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Hirano</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Takeda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Yamamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Imanishi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Interface behavior between garnet-type lithium-conducting solid electrolyte and lithium metal</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Solid State Ionics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>262</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>151</sb:first-page>
+                              <sb:last-page>154</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0105">
+                     <ce:label>[21]</ce:label>
+                     <sb:reference id="sbref0105">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.G.</ce:given-name>
+                                 <ce:surname>Bellino</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.G.</ce:given-name>
+                                 <ce:surname>Lamas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Walsöe de Reca</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Enhanced ionic conductivity in nanostructured, heavily doped ceria ceramics</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Advanced Functional Materials</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>16</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>107</sb:first-page>
+                              <sb:last-page>113</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item>
+</xocs:doc></originalText></full-text-retrieval-response>

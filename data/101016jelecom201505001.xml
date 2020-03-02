@@ -1,0 +1,1333 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1388248115001241</prism:url><dc:identifier>doi:10.1016/j.elecom.2015.05.001</dc:identifier><eid>1-s2.0-S1388248115001241</eid><prism:doi>10.1016/j.elecom.2015.05.001</prism:doi><pii>S1388-2481(15)00124-1</pii><dc:title>Direct observation of lithium dendrites inside garnet-type lithium-ion solid electrolyte </dc:title><prism:publicationName>Electrochemistry Communications</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>
+               Short communication
+            </pubType><prism:issn>13882481</prism:issn><prism:volume>57</prism:volume><prism:startingPage>27</prism:startingPage><prism:endingPage>30</prism:endingPage><prism:pageRange>27-30</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2015-08-31</prism:coverDate><prism:coverDisplayDate>August 2015</prism:coverDisplayDate><prism:copyright>Copyright © 2015 Elsevier B.V. All rights reserved.</prism:copyright><prism:publisher>Elsevier B.V.</prism:publisher><dc:creator>Ren, Yaoyu</dc:creator><dc:creator>Shen, Yang</dc:creator><dc:creator>Lin, Yuanhua</dc:creator><dc:creator>Nan, Ce-Wen</dc:creator><dc:description>
+               Abstract
+               
+                  This work investigated the resistance of Al-contained Li6.75La3Zr1.75Ta0.25O12 (LLZTO) sintered pellets to lithium dendrites. The short-circuiting period for Li/LLZTO/Li cells under a high applied direct current showed positive correlation to the variation in the relative densities of the LLZTO pellets sintered at different temperatures. Lithium dendrites were observed directly inside short-circuited LLZTO electrolytes. Our observations demonstrate that lithium dendrites can grow through grain boundaries and interconnected pores in the ceramic electrolytes.
+               
+            </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><dcterms:subject>Garnet-type solid electrolyte</dcterms:subject><dcterms:subject>Lithium dendrites</dcterms:subject><dcterms:subject>Ex-situ SEM</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1388248115001241" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1388248115001241" rel="scidir"/></coredata><objects><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="120" height="164" size="13808">https://api.elsevier.com/content/object/eid/1-s2.0-S1388248115001241-gr1.sml?httpAccept=%2A%2F%2A</object><object ref="gr2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="109" height="163" size="20122">https://api.elsevier.com/content/object/eid/1-s2.0-S1388248115001241-gr2.sml?httpAccept=%2A%2F%2A</object><object ref="gr3" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="97" height="163" size="10872">https://api.elsevier.com/content/object/eid/1-s2.0-S1388248115001241-gr3.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="371" height="506" size="61190">https://api.elsevier.com/content/object/eid/1-s2.0-S1388248115001241-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="625" height="936" size="264310">https://api.elsevier.com/content/object/eid/1-s2.0-S1388248115001241-gr2.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="313" height="526" size="39651">https://api.elsevier.com/content/object/eid/1-s2.0-S1388248115001241-gr3.jpg?httpAccept=%2A%2F%2A</object></objects><scopus-id>84929615381</scopus-id><scopus-eid>2-s2.0-84929615381</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/84929615381" rel="abstract"/><originalText><xocs:doc xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd" xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd">
+   <xocs:meta>
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>272020</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291685</xocs:ssid>
+         <xocs:ssid type="subj">291786</xocs:ssid>
+         <xocs:ssid type="subj">291790</xocs:ssid>
+         <xocs:ssid type="subj">291865</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Electrochemistry Communications</xocs:srctitle>
+      <xocs:normalized-srctitle>ELECTROCHEMISTRYCOMMUNICATIONS</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20150515">2015-05-15</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20150515">2015-05-15</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20150522">2015-05-22</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20150522">2015-05-22</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2016-05-08T09:08:32</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1388248115001241</xocs:eid>
+      <xocs:pii-formatted>S1388-2481(15)00124-1</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1388248115001241</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.elecom.2015.05.001</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.2</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1388248115X00075</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20160508">2016-05-08T05:00:37.850765-04:00</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20150801</xocs:date-search-begin>
+      <xocs:date-search-end>20150831</xocs:date-search-end>
+      <xocs:year-nav>2015</xocs:year-nav>
+      <xocs:indexeddate epoch="1431654088">2015-05-15T01:41:28.411875Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure body acknowledge affil articletitle auth authfirstini authfull authkeywords authlast grantnumber grantsponsor grantsponsorid highlightsabst orcid primabst pubtype ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1388-2481</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>13882481</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>57</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>57</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 57</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>10</xocs:sort-order>
+      <xocs:first-fp>27</xocs:first-fp>
+      <xocs:last-lp>30</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>27</xocs:first-page>
+         <xocs:last-page>30</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201508</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>August 2015</xocs:cover-date-text>
+      <xocs:cover-date-start>2015-08-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2015-08-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2015</xocs:cover-date-year>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Short Communications</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>sco</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2015 Elsevier B.V. All rights reserved.</xocs:copyright-line>
+      <xocs:normalized-article-title>DIRECTOBSERVATIONLITHIUMDENDRITESINSIDEGARNETTYPELITHIUMIONSOLIDELECTROLYTE</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>REN</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>Y</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>1</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Introduction</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>2</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Experimental</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>3</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Results and discussion</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>4</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Conclusions</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Conflict of interest</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>Acknowledgments</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="rf0005">
+            <xocs:ref-normalized-surname>MONROE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2005</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A396</xocs:ref-first-fp>
+            <xocs:ref-last-lp>A404</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0010">
+            <xocs:ref-normalized-surname>THANGADURAI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4714</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4727</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>V</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0015">
+            <xocs:ref-normalized-surname>ISHIGURO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A1690</xocs:ref-first-fp>
+            <xocs:ref-last-lp>A1693</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0020">
+            <xocs:ref-normalized-surname>SUDO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>151</xocs:ref-first-fp>
+            <xocs:ref-last-lp>154</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0025">
+            <xocs:ref-normalized-surname>ISHIGURO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>A668</xocs:ref-first-fp>
+            <xocs:ref-last-lp>A674</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0030">
+            <xocs:ref-normalized-surname>NAGAO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>18600</xocs:ref-first-fp>
+            <xocs:ref-last-lp>18606</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0035">
+            <xocs:ref-normalized-surname>REN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>561</xocs:ref-first-fp>
+            <xocs:ref-last-lp>572</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0040">
+            <xocs:ref-normalized-surname>COOK</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1992</xocs:ref-pub-year>
+            <xocs:ref-first-fp>193</xocs:ref-first-fp>
+            <xocs:ref-last-lp>222</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0045">
+            <xocs:ref-normalized-surname>CHENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>18294</xocs:ref-first-fp>
+            <xocs:ref-last-lp>18300</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0050">
+            <xocs:ref-normalized-surname>BUSCHMANN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>236</xocs:ref-first-fp>
+            <xocs:ref-last-lp>244</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0055">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>15357</xocs:ref-first-fp>
+            <xocs:ref-last-lp>15361</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0060">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>642</xocs:ref-first-fp>
+            <xocs:ref-last-lp>646</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0065">
+            <xocs:ref-normalized-surname>ROSSO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>5334</xocs:ref-first-fp>
+            <xocs:ref-last-lp>5340</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0070">
+            <xocs:ref-normalized-surname>WOLFENSTINE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4428</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4431</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0075">
+            <xocs:ref-normalized-surname>MEI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>871</xocs:ref-first-fp>
+            <xocs:ref-last-lp>875</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0080">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>76</xocs:ref-first-fp>
+            <xocs:ref-last-lp>80</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>RENX2015X27</xocs:refkey3>
+         <xocs:refkey4lp>RENX2015X27X30</xocs:refkey4lp>
+         <xocs:refkey4ai>RENX2015X27XY</xocs:refkey4ai>
+         <xocs:refkey5>RENX2015X27X30XY</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+      </xocs:open-access>
+      <xocs:self-archiving>
+         <xocs:sa-start-date>2017-05-22T00:00:00Z</xocs:sa-start-date>
+         <xocs:sa-embargo-status>UnderEmbargo</xocs:sa-embargo-status>
+         <xocs:sa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:sa-user-license>
+      </xocs:self-archiving>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1388-2481(15)00124-1</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1388248115001241</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1388248115001241</xocs:eid>
+         <xocs:doi>10.1016/j.elecom.2015.05.001</xocs:doi>
+         <xocs:cid>272020</xocs:cid>
+         <xocs:timestamp>2016-05-08T04:21:14.961524-04:00</xocs:timestamp>
+         <xocs:cover-date-start>2015-08-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2015-08-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1388248115001241-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1388248115001241/MAIN/application/pdf/9b12a6eb81d6c8fe22007aaab822d0fb/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1388248115001241/MAIN/application/pdf/9b12a6eb81d6c8fe22007aaab822d0fb/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>1215433</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>4</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1388248115001241-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1388248115001241/PREVIEW/image/png/f73bc685108a9ee6fbb613e8b3e44b30/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1388248115001241/PREVIEW/image/png/f73bc685108a9ee6fbb613e8b3e44b30/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>60325</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1388248115001241-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1388248115001241/gr1/THUMBNAIL/image/gif/cd37df63d2406cf58b6282ece456d5d3/gr1.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1388248115001241/gr1/THUMBNAIL/image/gif/cd37df63d2406cf58b6282ece456d5d3/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>13808</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>120</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1388248115001241-gr2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1388248115001241/gr2/THUMBNAIL/image/gif/69e98254a82e1c9827722bd0e64073f2/gr2.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1388248115001241/gr2/THUMBNAIL/image/gif/69e98254a82e1c9827722bd0e64073f2/gr2.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>20122</xocs:filesize>
+               <xocs:pixel-height>163</xocs:pixel-height>
+               <xocs:pixel-width>109</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1388248115001241-gr3.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1388248115001241/gr3/THUMBNAIL/image/gif/a6806c3999eeaa3c631f0518c77ad6e4/gr3.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1388248115001241/gr3/THUMBNAIL/image/gif/a6806c3999eeaa3c631f0518c77ad6e4/gr3.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>10872</xocs:filesize>
+               <xocs:pixel-height>163</xocs:pixel-height>
+               <xocs:pixel-width>97</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1388248115001241-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1388248115001241/gr1/DOWNSAMPLED/image/jpeg/1fe01a135b8fccfc75641d1003aef382/gr1.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1388248115001241/gr1/DOWNSAMPLED/image/jpeg/1fe01a135b8fccfc75641d1003aef382/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>61190</xocs:filesize>
+               <xocs:pixel-height>506</xocs:pixel-height>
+               <xocs:pixel-width>371</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1388248115001241-gr2.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1388248115001241/gr2/DOWNSAMPLED/image/jpeg/ef468a1ba32d67c0e855531ba15474d1/gr2.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1388248115001241/gr2/DOWNSAMPLED/image/jpeg/ef468a1ba32d67c0e855531ba15474d1/gr2.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>264310</xocs:filesize>
+               <xocs:pixel-height>936</xocs:pixel-height>
+               <xocs:pixel-width>625</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1388248115001241-gr3.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1388248115001241/gr3/DOWNSAMPLED/image/jpeg/46d94f21db21ff130c1d3fff54a3e150/gr3.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1388248115001241/gr3/DOWNSAMPLED/image/jpeg/46d94f21db21ff130c1d3fff54a3e150/gr3.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>39651</xocs:filesize>
+               <xocs:pixel-height>526</xocs:pixel-height>
+               <xocs:pixel-width>313</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta>
+   <xocs:serial-item>
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.2" docsubtype="sco" xml:lang="en">
+         <item-info>
+            <jid>ELECOM</jid>
+            <aid>5442</aid>
+            <ce:pii>S1388-2481(15)00124-1</ce:pii>
+            <ce:doi>10.1016/j.elecom.2015.05.001</ce:doi>
+            <ce:copyright type="full-transfer" year="2015">Elsevier B.V.</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="f0005">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption id="ca0005">
+                  <ce:simple-para id="sp0010" view="all">(a) Variation of the relative density and ionic conductivity of the pellets with sintering temperature. The inset shows a typical impedance spectrum for Au/LLZTO-1075/Au cell. (b) Initial impedance spectra (the inset) and cell voltage vs. polarization period curves measured at 0.5<ce:hsp sp="0.25"/>mA/cm<ce:sup loc="post">2</ce:sup> and room temperature for Li/LLZTO-t/Li cells.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr1" id="lk0005"/>
+            </ce:figure>
+            <ce:figure id="f0010">
+               <ce:label>Fig. 2</ce:label>
+               <ce:caption id="ca0010">
+                  <ce:simple-para id="sp0015" view="all">SEM micrographs of almost whole cross-section of (a) original and (b, c) short-circuited LLZTO-1100 pellet in either SE or BSE mode; (d, e) enlarged images of the local region around #1 and #2 circled in (c), respectively; (f) line scan EDX along the yellow line across a dark region shown in (e). (g, h) Cross-sectional SEM micrographs of the short-circuited pellet after ethanol leaching, where the arrows in (h) indicate the possible interconnected pores near grain boundaries.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr2" id="lk0010"/>
+            </ce:figure>
+            <ce:figure id="f0015">
+               <ce:label>Fig. 3</ce:label>
+               <ce:caption id="ca0015">
+                  <ce:simple-para id="sp0020" view="all">(a) Initial and short-circuited (inset) impedance spectra of Li/LLZTO-1100/Li cell. (b) Cell voltage vs. polarization period curves measured at 0.5<ce:hsp sp="0.25"/>mA/cm<ce:sup loc="post">2</ce:sup> and room temperature for the original Li/LLZTO-1050/Li cell and the cell re-prepared after short-circuiting and ethanol leaching of the LLZTO-1050 pellet. The inset shows the initial impedance spectra of these two cells.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr3" id="lk0015"/>
+            </ce:figure>
+         </ce:floats>
+         <head>
+            <ce:dochead id="dh0005">
+               <ce:textfn id="tn0005">Short communication</ce:textfn>
+            </ce:dochead>
+            <ce:title id="ti0005">Direct observation of lithium dendrites inside garnet-type lithium-ion solid electrolyte</ce:title>
+            <ce:author-group id="ag0005">
+               <ce:author id="au0005" orcid="0000-0003-3261-5846">
+                  <ce:given-name>Yaoyu</ce:given-name>
+                  <ce:surname>Ren</ce:surname>
+                  <ce:cross-ref refid="cr0005" id="cf0005">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  <ce:e-address id="em0005" type="email">ryy@mail.tsinghua.edu.cn</ce:e-address>
+               </ce:author>
+               <ce:author id="au0010">
+                  <ce:given-name>Yang</ce:given-name>
+                  <ce:surname>Shen</ce:surname>
+               </ce:author>
+               <ce:author id="au0015">
+                  <ce:given-name>Yuanhua</ce:given-name>
+                  <ce:surname>Lin</ce:surname>
+               </ce:author>
+               <ce:author id="au0020">
+                  <ce:given-name>Ce-Wen</ce:given-name>
+                  <ce:surname>Nan</ce:surname>
+                  <ce:cross-ref refid="cr0010" id="cf0010">
+                     <ce:sup loc="post">⁎⁎</ce:sup>
+                  </ce:cross-ref>
+                  <ce:e-address id="em0010" type="email">cwnan@tsinghua.edu.cn</ce:e-address>
+               </ce:author>
+               <ce:affiliation id="af0005">
+                  <ce:textfn id="tn0010">School of Materials Science and Engineering, State Key Lab of New Ceramics and Fine Processing, Tsinghua University, Beijing 100084, PR China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>School of Materials Science and Engineering</sa:organization>
+                     <sa:organization>State Key Lab of New Ceramics and Fine Processing</sa:organization>
+                     <sa:organization>Tsinghua University</sa:organization>
+                     <sa:city>Beijing</sa:city>
+                     <sa:postal-code>100084</sa:postal-code>
+                     <sa:country>PR China</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:correspondence id="cr0005">
+                  <ce:label>⁎</ce:label>
+                  <ce:text id="tx0005">Correspondence to: Y. Ren, Postal address: School of Materials Science and Engineering, Tsinghua University, Beijing 100084, PR China. Tel.: +<ce:hsp sp="0.10"/>86 10 62773300.</ce:text>
+               </ce:correspondence>
+               <ce:correspondence id="cr0010">
+                  <ce:label>⁎⁎</ce:label>
+                  <ce:text id="tx0010">Correspondence to: C.-W. Nan, School of Materials Science and Engineering, Tsinghua University, Beijing 100084, PR China. Tel.: +<ce:hsp sp="0.10"/>86 10 62773587; fax: +<ce:hsp sp="0.10"/>86 10 62772507.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="29" month="4" year="2015"/>
+            <ce:date-revised day="5" month="5" year="2015"/>
+            <ce:date-accepted day="5" month="5" year="2015"/>
+            <ce:abstract id="ab0005" view="all" class="author">
+               <ce:section-title id="st0005">Abstract</ce:section-title>
+               <ce:abstract-sec id="as0005" view="all">
+                  <ce:simple-para id="sp0005" view="all">This work investigated the resistance of Al-contained Li<ce:inf loc="post">6.75</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">1.75</ce:inf>Ta<ce:inf loc="post">0.25</ce:inf>O<ce:inf loc="post">12</ce:inf> (LLZTO) sintered pellets to lithium dendrites. The short-circuiting period for Li/LLZTO/Li cells under a high applied direct current showed positive correlation to the variation in the relative densities of the LLZTO pellets sintered at different temperatures. Lithium dendrites were observed directly inside short-circuited LLZTO electrolytes. Our observations demonstrate that lithium dendrites can grow through grain boundaries and interconnected pores in the ceramic electrolytes.</ce:simple-para>
+               </ce:abstract-sec>
+            </ce:abstract>
+            <ce:abstract class="author-highlights" id="ab0010" view="all">
+               <ce:section-title id="st0010">Highlights</ce:section-title>
+               <ce:abstract-sec id="as0010" view="all">
+                  <ce:simple-para id="sp0025" view="all">
+                     <ce:list id="l0005">
+                        <ce:list-item id="u0005">
+                           <ce:label>•</ce:label>
+                           <ce:para id="p0090" view="all">LLZTO solid electrolyte can be short-circuited by lithium dendrites.</ce:para>
+                        </ce:list-item>
+                        <ce:list-item id="u0010">
+                           <ce:label>•</ce:label>
+                           <ce:para id="p0095" view="all">The period before short-circuit positively correlates to the relative density.</ce:para>
+                        </ce:list-item>
+                        <ce:list-item id="u0015">
+                           <ce:label>•</ce:label>
+                           <ce:para id="p0100" view="all">Lithium dendrites are observed directly inside short-circuited LLZTO electrolyte.</ce:para>
+                        </ce:list-item>
+                        <ce:list-item id="u0020">
+                           <ce:label>•</ce:label>
+                           <ce:para id="p0105" view="all">Lithium dendrites can grow through grain boundaries and interconnected pores.</ce:para>
+                        </ce:list-item>
+                     </ce:list>
+                  </ce:simple-para>
+               </ce:abstract-sec>
+            </ce:abstract>
+            <ce:keywords id="ks0005" view="all" class="keyword">
+               <ce:section-title id="st0015">Keywords</ce:section-title>
+               <ce:keyword id="kw0020">
+                  <ce:text id="tx0015">Garnet-type solid electrolyte</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0025">
+                  <ce:text id="tx0020">Lithium dendrites</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0030">
+                  <ce:text id="tx0025">Ex-situ SEM</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:section id="s0005" view="all">
+                  <ce:label>1</ce:label>
+                  <ce:section-title id="st0020">Introduction</ce:section-title>
+                  <ce:para id="p0005" view="all">Lithium-ion batteries with nonflammable solid electrolytes are intrinsically safe for future wide applications, since solid electrolytes are considered to be capable of inhibiting the growth of lithium dendrite. Monroe and Newman's model <ce:cross-ref refid="bb0005" id="cf0015">[1]</ce:cross-ref> explained dendrite growth from mechanical aspect and suggested a critical value of the shear modulus to be 6<ce:hsp sp="0.25"/>GPa for a solid electrolyte to inhibit lithium dendrites. Inorganic solid electrolytes are generally satisfied for this criterion.</ce:para>
+                  <ce:para id="p0010" view="all">Among the inorganic electrolytes with high lithium-ion conductivity, garnet-type oxides, e.g., Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> (LLZO), are most promising by considering their high stability in contact with lithium metal and wide electrochemical window <ce:cross-ref refid="bb0010" id="cf0020">[2]</ce:cross-ref>. However, recent experiments by Yamamoto's group reported a ‘short circuit’ phenomenon by applying direct current (DC) with relatively high current density (0.5<ce:hsp sp="0.25"/>mA/cm<ce:sup loc="post">2</ce:sup>) through symmetric Li/LLZO-based electrolyte/Li cells, though relative density of sintered pellets was as high as 96% <ce:cross-refs refid="bb0015 bb0020 bb0025" id="cf0025">[3–5]</ce:cross-refs>. By designing various experiments to obtain indirect evidences, they concluded that this phenomenon was caused by lithium dendrite growth inside the LLZO electrolyte and suggested a penetration pathway of lithium dendrites through the grain boundaries and voids inside the electrolyte. However, there is still no direct evidence of lithium dendrites in the oxide electrolytes ever since. Recently, Nagao et al. <ce:cross-ref refid="bb0030" id="cf0030">[6]</ce:cross-ref> observed lithium dendrite growth through Li<ce:inf loc="post">2</ce:inf>S–P<ce:inf loc="post">2</ce:inf>S<ce:inf loc="post">5</ce:inf> electrolyte by in-situ scanning electron microscopy method. They found that lithium dendrites grew along grain boundaries inside the sulfide electrolyte layer, and then several cracks generated locally, and finally pillared deposits appeared, causing the short-circuiting of the cells.</ce:para>
+                  <ce:para id="p0015" view="all">In our previous work, we prepared Al-contained Li<ce:inf loc="post">6.75</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">1.75</ce:inf>Ta<ce:inf loc="post">0.25</ce:inf>O<ce:inf loc="post">12</ce:inf> (LLZTO) ceramics with high relative density and ionic conductivity <ce:cross-ref refid="bb0035" id="cf0035">[7]</ce:cross-ref>. In this work, we investigated the resistance of such LLZTO ceramic electrolytes to lithium dendrites by scanning electron microscopy (SEM) observations, providing direct evidence for the growth of lithium dendrites inside the oxide ceramic electrolytes.</ce:para>
+               </ce:section>
+               <ce:section id="s0010" view="all">
+                  <ce:label>2</ce:label>
+                  <ce:section-title id="st0025">Experimental</ce:section-title>
+                  <ce:para id="p0020" view="all">Al-contained LLZTO sintered pellets were prepared via the same way as before <ce:cross-ref refid="bb0035" id="cf0040">[7]</ce:cross-ref>. LLZTO powder was synthesized by solid state reaction with Al<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf> (0.15<ce:hsp sp="0.25"/>mol per mol LLZTO) intentionally added to the raw materials as sintering aid, i.e., stoichiometric amounts of LiOH<ce:hsp sp="0.25"/>·<ce:hsp sp="0.25"/>H<ce:inf loc="post">2</ce:inf>O (with 10<ce:hsp sp="0.25"/>wt.% excess), La<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf>, ZrO<ce:inf loc="post">2</ce:inf>, and Ta<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">5</ce:inf> were mixed together and calcined at 900<ce:hsp sp="0.25"/>
+                     <ce:sup loc="post">o</ce:sup>C for 6<ce:hsp sp="0.25"/>h. The as-calcined powders were ball-milled in 2-propanol for 13<ce:hsp sp="0.25"/>h using planetary ball mill, followed by drying process. The powder was then pressed into pellets and sintered in alumina crucibles at various temperatures from 1050 to 1150<ce:hsp sp="0.25"/>
+                     <ce:sup loc="post">o</ce:sup>C. The final sintered sample pellets were named as ‘LLZTO-sintering temperature value’.</ce:para>
+                  <ce:para id="p0025" view="all">The content of aluminum in the LLZTO-1100 was determined by induced coupled plasma optical emission spectrometer (ICP-OES, VARIN VISTA-MPX), and the atomic ratio of La/Al measured in the LLZTO-1100 is 3.00/0.39, in reasonable agreement with the nominal composition of 3.00/0.30 in LLZTO. A bit higher Al content could be due to contamination from alumina crucible. The relative densities of the pellets were measured using the Archimedes method with ethanol as medium, and theoretical density of LLZTO was calculated from the lattice parameters determined by X-ray diffraction <ce:cross-ref refid="bb0035" id="cf0045">[7]</ce:cross-ref>.</ce:para>
+                  <ce:para id="p0030" view="all">The conductivities of the pellets were evaluated based on the impedance profiles of Au/LLZTO/Au cells measured by using Agilent 4294A (100<ce:hsp sp="0.25"/>Hz to 110<ce:hsp sp="0.25"/>MHz) as usual <ce:cross-ref refid="bb0035" id="cf0050">[7]</ce:cross-ref>. Li/LLZTO/Li cells were prepared by sandwiching thin lithium metal plates and LLZTO pellets (ca. 0.09, 0.11, 0.10, and 0.11<ce:hsp sp="0.25"/>cm in thickness for LLZTO-1050, LLZTO-1075, LLZTO-1100, and LLZTO-1150, respectively) in a sealed stainless steel container in Ar-filled glove box. The assembly was heated at 180<ce:hsp sp="0.25"/>
+                     <ce:sup loc="post">o</ce:sup>C (i.e., close to melting point of lithium metal) to ensure good contact between lithium metal and LLZTO. DC polarization of the Li/LLZTO/Li cell was conducted with current density of 0.5<ce:hsp sp="0.25"/>mA/cm<ce:sup loc="post">2</ce:sup>. Electrochemical impedance spectra (EIS) of the cells were measured in the frequency range from 1<ce:hsp sp="0.25"/>Hz to 8<ce:hsp sp="0.25"/>MHz. Both measurements were performed on Electrochemical Working Station (Zahner IM6) at room temperature.</ce:para>
+                  <ce:para id="p0035" view="all">The microstructure of the LLZTO electrolytes in the cells was observed via scanning electron microscope (SEM, JSM-7001F JEOL) in second electron (SE) mode. The SEM samples were prepared in Ar-filled glove box by cracking the LLZTO pellet into pieces so that the whole cross sections along the thickness direction can be used for SEM measurements. Backscattered electron (BSE) images were also taken to highlight the position of lithium dendrites. Line scan energy dispersive X-ray (EDX) analysis was performed to analyze the elemental distribution.</ce:para>
+               </ce:section>
+               <ce:section id="s0015" view="all">
+                  <ce:label>3</ce:label>
+                  <ce:section-title id="st0030">Results and discussion</ce:section-title>
+                  <ce:para id="p0040" view="all">Shown in <ce:cross-ref refid="f0005" id="cf0055">Fig. 1</ce:cross-ref>a<ce:float-anchor refid="f0005"/> are the variations in the relative density and total conductivity of the sintered LLZTO pellets with sintering temperature. A bit higher relative density of LLZTO-1075 compared with LLZTO-1050 could be due to the formation of liquid phase Li–Al–O compound as a sintering aid at temperatures higher than 1055<ce:hsp sp="0.25"/>
+                     <ce:sup loc="post">o</ce:sup>C <ce:cross-ref refid="bb0040" id="cf0060">[8]</ce:cross-ref>, facilitating the densification process. But higher sintering temperature would cause more Li evaporation, resulting in lower relative densities again.</ce:para>
+                  <ce:para id="p0045" view="all">A typical impedance profile of the Au/LLZTO/Au cells is shown in the inset of <ce:cross-ref refid="f0005" id="cf0065">Fig. 1</ce:cross-ref>a. As usual for cubic LLZO, the impedance profile is composed of one semicircle at high frequencies (above 0.8<ce:hsp sp="0.25"/>MHz) and a tail. The semicircle corresponds to the total resistance contribution of the pellets, and the tail in the low frequency range arises from the ionic blocking electrode. Thus the total conductivity of the pellets was estimated from the total resistance <ce:italic>ρ</ce:italic>
+                     <ce:inf loc="post">total</ce:inf>. The conductivity is dependent on not only Li content but also microstructure. <ce:cross-ref refid="f0005" id="cf0070">Fig. 1</ce:cross-ref>a shows a high conductivity value for the LLZTO-1100 <ce:cross-ref refid="bb0035" id="cf0075">[7]</ce:cross-ref>.</ce:para>
+                  <ce:para id="p0050" view="all">
+                     <ce:cross-ref refid="f0005" id="cf0080">Fig. 1</ce:cross-ref>b shows the changes in the cell voltage with polarization period at 0.5<ce:hsp sp="0.25"/>mA/cm<ce:sup loc="post">2</ce:sup> for the Li/LLZTO/Li cells. The initial impedance spectra of these cells are presented in the inset of <ce:cross-ref refid="f0005" id="cf0085">Fig. 1</ce:cross-ref>b, and they contain two semicircles though those at high frequencies (above 0.8<ce:hsp sp="0.25"/>MHz) are not complete. By comparison with the impedance profile of the Au/LLZTO/Au cells in <ce:cross-ref refid="f0005" id="cf0090">Fig. 1</ce:cross-ref>a, it can be seen that the incomplete semicircles at high frequencies (above 0.8<ce:hsp sp="0.25"/>MHz) correspond well to the total resistance contribution of the LLZTO pellets. The semicircles at low frequencies (40<ce:hsp sp="0.25"/>Hz–0.8<ce:hsp sp="0.25"/>MHz) are thus ascribed to the interfacial resistance with the values comparable to those reported by Yamamoto's group <ce:cross-refs refid="bb0020 bb0025" id="cf0095">[4,5]</ce:cross-refs> and Li et al.<ce:cross-ref refid="bb0045" id="cf0100">[9]</ce:cross-ref>, suggesting a good contact between LLZTO and Li electrodes. Under applied DC polarization, the cell voltages rose possibly due to the structural change of the lithium/garnet interface resulting from a degrading electrode contact by pore formation <ce:cross-ref refid="bb0050" id="cf0105">[10]</ce:cross-ref>. Intentional break-off of the current during the polarization process was made for the Li/LLZTO-1100/Li cell, where a relaxation process, i.e., abrupt drop in the cell voltage (as indicated by the dash arrow in <ce:cross-ref refid="f0005" id="cf0110">Fig. 1</ce:cross-ref>b), was observed when the current was re-applied. This phenomenon is an indication of the slow kinetics of lithium ion transport across the interface <ce:cross-ref refid="bb0050" id="cf0115">[10]</ce:cross-ref>, which could be another reason for the rise of the cell voltage under polarization. Abrupt drops in the cell voltage after polarization for a period were observed for all the cells, indicating the occurrence of short-circuiting. The short-circuiting period increases in the order of LLZTO-1150<ce:hsp sp="0.25"/>&lt;<ce:hsp sp="0.25"/>LLZTO-1050<ce:hsp sp="0.25"/>&lt;<ce:hsp sp="0.25"/>LLZTO-1100<ce:hsp sp="0.25"/>&lt;<ce:hsp sp="0.25"/>LLZTO-1075, which could be correlated to the trend of the relative density of the LLZTO pellets sintered at different temperatures (<ce:cross-ref refid="f0005" id="cf0120">Fig. 1</ce:cross-ref>a) irrespective of the microstructure variations. This correlation is in agreement with the previous report for Al-doped LLZO <ce:cross-ref refid="bb0020" id="cf0125">[4]</ce:cross-ref>.</ce:para>
+                  <ce:para id="p0055" view="all">In order to observe what happen to the Li/LLZTO/Li cell, almost whole cross-sectional micrographs of the LLZTO electrolytes after polarization loading were observed via SEM, as shown in <ce:cross-ref refid="f0010" id="cf0130">Fig. 2</ce:cross-ref>
+                     <ce:float-anchor refid="f0010"/>. Comparing with its original micrograph (<ce:cross-ref refid="f0010" id="cf0135">Fig. 2</ce:cross-ref>a) before polarization test, some dark regions distributed along the thickness direction of the whole cross section (<ce:cross-ref refid="f0010" id="cf0140">Fig. 2</ce:cross-ref>b) appear after short-circuiting, and are more clearly shown in BSE mode (see <ce:cross-ref refid="f0010" id="cf0145">Fig. 2</ce:cross-ref>c with dark regions circled by red dash lines), suggesting the enrichment of light weight elements in these dark regions. The detailed microstructure of one such dark region (i.e., region #1 in <ce:cross-ref refid="f0010" id="cf0150">Fig. 2</ce:cross-ref>c) is given as a combined SE (left) and BSE (right) images (see <ce:cross-ref refid="f0010" id="cf0155">Fig. 2</ce:cross-ref>d). It can be clearly seen from <ce:cross-ref refid="f0010" id="cf0160">Fig. 2</ce:cross-ref>d that some ‘dark’ substance either covers on the ceramic electrolyte or is embedded in it. Across the dark region (see the yellow line in <ce:cross-ref refid="f0010" id="cf0165">Fig. 2</ce:cross-ref>e, an enlarged view of region #2 in <ce:cross-ref refid="f0010" id="cf0170">Fig. 2</ce:cross-ref>c), the line scan EDX (<ce:cross-ref refid="f0010" id="cf0175">Fig. 2</ce:cross-ref>f) indicate that the amounts of La, Zr, Ta, and O elements in the dark region decrease, consistently suggesting that the dark region could be rich in Li element. We suggest that the substance in the dark regions could be lithium dendrites. EDX detected Al only in the grain boundary, a result consistent with many previous reports including ours <ce:cross-refs refid="bb0035 bb0055 bb0060" id="cf0180">[7,11,12]</ce:cross-refs>. It is currently not sure why O is absent in the entire dark region while other metal elements only show decreased amount.</ce:para>
+                  <ce:para id="p0060" view="all">After immersing this sample in ethanol for a while, the dark contrast (shown in <ce:cross-ref refid="f0010" id="cf0185">Fig. 2</ce:cross-ref>c,d) disappears in all the regions (<ce:cross-ref refid="f0010" id="cf0190">Fig. 2</ce:cross-ref>g,h), further indicating that those regions are rich in lithium metal because lithium metal can be dissolved in ethanol. By comparing <ce:cross-ref refid="f0010" id="cf0195">Fig. 2</ce:cross-ref>d with <ce:cross-ref refid="f0010" id="cf0200">Fig. 2</ce:cross-ref>h, it can be seen that the lithium dendrites grow through interconnected pores and along porous grain boundaries (as indicated by yellow arrows in <ce:cross-ref refid="f0010" id="cf0205">Fig. 2</ce:cross-ref>h) inside the ceramics. Such pores originated from the green body and were trapped during sintering process <ce:cross-ref refid="bb0035" id="cf0210">[7]</ce:cross-ref>.</ce:para>
+                  <ce:para id="p0065" view="all">Accordingly, the impedance spectra (see, for example, the inset in <ce:cross-ref refid="f0015" id="cf0215">Fig. 3</ce:cross-ref>a<ce:float-anchor refid="f0015"/>) for the Li/LLZTO/Li cells also change after short-circuiting. As seen from <ce:cross-ref refid="f0015" id="cf0220">Fig. 3</ce:cross-ref>a, the incomplete semicircle at high frequencies corresponding to the LLZTO is significantly distorted, and the semicircle at low frequencies due to the interfacial resistance shrinks a lot. The change can be understood based on the model proposed by Rosso et al. <ce:cross-ref refid="bb0065" id="cf0225">[13]</ce:cross-ref>. By using their either Z′<ce:inf loc="post">0</ce:inf> or Z′<ce:inf loc="post">∞</ce:inf> equations (i.e., equations (9) and (10) in ref. <ce:cross-ref refid="bb0065" id="cf0230">[13]</ce:cross-ref>), the resistance (r<ce:inf loc="post">3</ce:inf>) of the lithium dendrite can be calculated, i.e., a consistent value of r<ce:inf loc="post">3</ce:inf>
+                     <ce:hsp sp="0.25"/>=<ce:hsp sp="0.25"/>22.5<ce:hsp sp="0.25"/>Ω is obtained from either Z′<ce:inf loc="post">0</ce:inf> or Z′<ce:inf loc="post">∞</ce:inf>, justifying the rationality of the model for the current case. Further by using the thickness of the LLZTO-1100 pellet, the room-temperature resistivity (i.e., 9.28<ce:hsp sp="0.25"/>×<ce:hsp sp="0.25"/>10<ce:sup loc="post">−<ce:hsp sp="0.10"/>6</ce:sup>
+                     <ce:hsp sp="0.25"/>Ω<ce:hsp sp="0.25"/>cm) of lithium metal and this resistance r<ce:inf loc="post">3</ce:inf>, a diameter of approximately 2.3<ce:hsp sp="0.25"/>μm for the lithium dendrite could be estimated, which is in reasonable agreement with the pore size indicated by SEM observation (<ce:cross-ref refid="f0010" id="cf0235">Fig. 2</ce:cross-ref>h).</ce:para>
+                  <ce:para id="p0070" view="all">The short-circuiting periods (<ce:cross-ref refid="f0005" id="cf0240">Fig. 1</ce:cross-ref>b) were reproducible. We also evaluate the repeatability of the short-circuiting phenomenon by immersing the short-circuited cells in ethanol. This process is thought to remove lithium dendrites, and thus the Li/LLZTO/Li cells should restore the original impedance. This is verified by one example (i.e., Li/LLZTO-1050/Li cell) in <ce:cross-ref refid="f0015" id="cf0245">Fig. 3</ce:cross-ref>b. Under the same polarization current, the cell undergoes similar voltage variation during similar period, after which an abrupt drop in the cell voltage occurs (<ce:cross-ref refid="f0015" id="cf0250">Fig. 3</ce:cross-ref>b). This result indicates that the lithium dendrites may not grow in a random manner but follow a similar path. This is reasonable if we consider that lithium dendrites easily grow through the pores.</ce:para>
+                  <ce:para id="p0075" view="all">According to the observations discussed above, solid electrolytes with higher relative density or more essentially modified grain boundaries with no interconnected pores are needed to prevent lithium dendrites. Dense electrolytes could be made by pressure-assisted sintering techniques <ce:cross-refs refid="bb0070 bb0075" id="cf0255">[14,15]</ce:cross-refs> or conventional sintering with sintering aids <ce:cross-ref refid="bb0080" id="cf0260">[16]</ce:cross-ref> or atmospheric sintering <ce:cross-ref refid="bb0060" id="cf0265">[12]</ce:cross-ref>.</ce:para>
+               </ce:section>
+               <ce:section id="s0020" view="all">
+                  <ce:label>4</ce:label>
+                  <ce:section-title id="st0035">Conclusions</ce:section-title>
+                  <ce:para id="p0080" view="all">Li/LLZTO/Li cells have shown short-circuiting phenomena after polarization for some time under a high applied direct current with a current density of 0.5<ce:hsp sp="0.25"/>mA/cm<ce:sup loc="post">2</ce:sup>. The short-circuiting period shows positive correlation to the relative density of the LLZTO electrolyte pellets. Direct observation of the lithium dendrites inside short-circuited LLZTO pellet suggests that the lithium dendrites grow through grain boundaries and interconnected pores. Thus electrolytes with no interconnected pores are essential for preventing lithium dendrites.</ce:para>
+               </ce:section>
+               <ce:section id="s1020" view="all">
+                  <ce:section-title id="st1035">Conflict of interest</ce:section-title>
+                  <ce:para id="p5080" view="all">The authors declare that there are no conflicts of interest.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:acknowledgment id="ac0005" view="all">
+               <ce:section-title id="st0040">Acknowledgments</ce:section-title>
+               <ce:para id="p0085" view="all">This work was supported by <ce:grant-sponsor id="gts0005" sponsor-id="http://dx.doi.org/10.13039/501100002858" xlink:type="simple" xlink:role="http://www.elsevier.com/xml/linking-roles/grant-sponsor">China Postdoctoral Science Foundation</ce:grant-sponsor> funded project (grant No. <ce:grant-number refid="gts0005">043202211</ce:grant-number>) and the <ce:grant-sponsor id="gts0010" sponsor-id="http://dx.doi.org/10.13039/501100001809" xlink:type="simple" xlink:role="http://www.elsevier.com/xml/linking-roles/grant-sponsor">National Natural Science Foundation of China</ce:grant-sponsor> (grant No. <ce:grant-number refid="gts0010">51221291</ce:grant-number>).</ce:para>
+            </ce:acknowledgment>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="bi0005" view="all">
+               <ce:section-title id="st0045">References</ce:section-title>
+               <ce:bibliography-sec id="bs0005" view="all">
+                  <ce:bib-reference id="bb0005">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="rf0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Monroe</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Newman</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The impact of elastic deformation on deposition kinetics at lithium/polymer interfaces</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>152</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2005</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A396</sb:first-page>
+                              <sb:last-page>A404</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0010">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference id="rf0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Thangadurai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Narayanan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Pinzaru</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Garnet-type solid-state fast Li ion conductors for Li batteries: critical review</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Chem. Soc. Rev.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>43</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4714</sb:first-page>
+                              <sb:last-page>4727</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0015">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference id="rf0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Ishiguro</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Nakata</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Matsui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I.</ce:given-name>
+                                 <ce:surname>Uechi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Takeda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Yamamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Imanishi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Stability of Nb-doped cubic Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> with lithium metal</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>160</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A1690</sb:first-page>
+                              <sb:last-page>A1693</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0020">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference id="rf0020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Sudo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Nakata</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Ishiguro</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Matsui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Hirano</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Takeda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Yamamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Imanishi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Interface behavior between garnet-type lithium-conducting solid electrolyte and lithium metal</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Solid State Ionics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>262</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>151</sb:first-page>
+                              <sb:last-page>154</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0025">
+                     <ce:label>[5]</ce:label>
+                     <sb:reference id="rf0025">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Ishiguro</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Nemori</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Sunahiro</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Nakata</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Sudo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Matsui</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Takeda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Yamamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Imanishi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Ta-doped Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf> for water-stable lithium electrode of lithium–air batteries</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Electrochem. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>161</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>A668</sb:first-page>
+                              <sb:last-page>A674</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0030">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference id="rf0030">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Nagao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Hayashi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Tatsumisago</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Kanetsuku</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Tsuda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Kuwabata</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>In situ SEM study of a lithium deposition and dissolution mechanism in a bulk-type solid-state cell with a Li<ce:inf loc="post">2</ce:inf>S–P<ce:inf loc="post">2</ce:inf>S<ce:inf loc="post">5</ce:inf> solid electrolyte</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Phys. Chem. Chem. Phys.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>15</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>18600</sb:first-page>
+                              <sb:last-page>18606</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0035">
+                     <ce:label>[7]</ce:label>
+                     <sb:reference id="rf0035">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Ren</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Deng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Shen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Lin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.-W.</ce:given-name>
+                                 <ce:surname>Nan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Effects of Li source on microstructure and ionic conductivity of Al-contained Li<ce:inf loc="post">6.75</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">1.75</ce:inf>Ta<ce:inf loc="post">0.25</ce:inf>O<ce:inf loc="post">12</ce:inf> ceramics</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Eur. Ceram. Soc.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>35</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>561</sb:first-page>
+                              <sb:last-page>572</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0040">
+                     <ce:label>[8]</ce:label>
+                     <sb:reference id="rf0040">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.P.</ce:given-name>
+                                 <ce:surname>Cook</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.R.</ce:given-name>
+                                 <ce:surname>Plante</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Phase Diagram of the System Li<ce:inf loc="post">2</ce:inf>O–Al<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Ceram. Trans.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>27</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1992</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>193</sb:first-page>
+                              <sb:last-page>222</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0045">
+                     <ce:label>[9]</ce:label>
+                     <sb:reference id="rf0045">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Cheng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.J.</ce:given-name>
+                                 <ce:surname>Crumlin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Qiao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Hou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.F.</ce:given-name>
+                                 <ce:surname>Lux</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Zorba</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Russo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Kostecki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Persson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Cabana</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Richardson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Doeff</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The origin of high electrolyte–electrode interfacial resistances in lithium cells containing garnet type solid electrolytes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Phys. Chem. Chem. Phys.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>16</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>18294</sb:first-page>
+                              <sb:last-page>18300</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0050">
+                     <ce:label>[10]</ce:label>
+                     <sb:reference id="rf0050">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Buschmann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Berendts</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Mogwitz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Janek</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Lithium metal electrode kinetics and ionic conductivity of the solid lithium ion conductors “Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf>” and Li<ce:inf loc="post">7<ce:hsp sp="0.10"/>−<ce:hsp sp="0.25"/>x</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2<ce:hsp sp="0.10"/>−<ce:hsp sp="0.25"/>x</ce:inf>Ta<ce:inf loc="post">x</ce:inf>O<ce:inf loc="post">12</ce:inf> with garnet-type structure</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>206</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>236</sb:first-page>
+                              <sb:last-page>244</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0055">
+                     <ce:label>[11]</ce:label>
+                     <sb:reference id="rf0055">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.-T.</ce:given-name>
+                                 <ce:surname>Han</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.-A.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Xie</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.B.</ce:given-name>
+                                 <ce:surname>Goodenough</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Optimizing Li<ce:sup loc="post">+</ce:sup> conductivity in a garnet framework</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Mater. Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>22</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>15357</sb:first-page>
+                              <sb:last-page>15361</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0060">
+                     <ce:label>[12]</ce:label>
+                     <sb:reference id="rf0060">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Cao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Guo</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Densification and ionic-conduction improvement of lithium garnet solid electrolytes by flowing oxygen sintering</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Power Sources</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>248</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>642</sb:first-page>
+                              <sb:last-page>646</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0065">
+                     <ce:label>[13]</ce:label>
+                     <sb:reference id="rf0065">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Rosso</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Brissot</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Teyssot</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Dollé</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Sannier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.-M.</ce:given-name>
+                                 <ce:surname>Tarascon</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Bouchet</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Lascaud</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Dendrite short-circuit and fuse effect on Li/polymer/Li cells</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Electrochim. Acta</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>51</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>5334</sb:first-page>
+                              <sb:last-page>5340</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0070">
+                     <ce:label>[14]</ce:label>
+                     <sb:reference id="rf0070">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Wolfenstine</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Sakamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.L.</ce:given-name>
+                                 <ce:surname>Allen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Electron microscopy characterization of hot-pressed Al substituted Li<ce:inf loc="post">7</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">12</ce:inf>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Mater. Sci.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>47</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4428</sb:first-page>
+                              <sb:last-page>4431</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0075">
+                     <ce:label>[15]</ce:label>
+                     <sb:reference id="rf0075">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Mei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Q.-H.</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.-H.</ce:given-name>
+                                 <ce:surname>Lin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.-W.</ce:given-name>
+                                 <ce:surname>Nan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Lithium lanthanum titanium oxide solid-state electrolyte by spark plasma sintering</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Alloys Compd.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>486</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>871</sb:first-page>
+                              <sb:last-page>875</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0080">
+                     <ce:label>[16]</ce:label>
+                     <sb:reference id="rf0080">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Cao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Guo</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Influence of lithium oxide additives on densification and ionic conductivity of garnet-type Li<ce:inf loc="post">6.75</ce:inf>La<ce:inf loc="post">3</ce:inf>Zr<ce:inf loc="post">1.75</ce:inf>Ta<ce:inf loc="post">0.25</ce:inf>O<ce:inf loc="post">12</ce:inf> solid electrolytes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Solid State Ionics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>253</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>76</sb:first-page>
+                              <sb:last-page>80</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item>
+</xocs:doc></originalText></full-text-retrieval-response>

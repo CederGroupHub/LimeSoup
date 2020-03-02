@@ -1,0 +1,171 @@
+{
+    "DOI": "10.1002/bio.3051",
+    "Journal": "Luminescence",
+    "Keywords": [
+        "phosphors",
+        "yttrium aluminium garnet",
+        "wet chemical synthesis",
+        "luminescence",
+        "rare earth"
+    ],
+    "Sections": [
+        {
+            "content": [
+                "Yttrium aluminate (Y3A5O12) was doped with different rare earth ions (i.e. Gd3+, Ce3+, Eu3+ and/or Tb3+) in order to obtain phosphors (YAG:RE) with general formula,Y3‐x‐aGdxREaAl5O12 (x = 0; 1.485; 2.97 and a = 0.03). The synthesis of the phosphor samples was done using the simultaneous addition of reagents technique. This study reveals new aspects regarding the influence of different activator ions on the morpho‐structural and luminescent characteristics of garnet type phosphor. All YAG:RE phosphors are well crystallized powders containing a cubic‐Y3Al5O12 phase as major component along with monoclinic‐Y4Al2O9 and orthorhombic‐YAlO3 phases as the impurity. The crystallites dimensions of YAG:RE phosphors vary between 38 nm and 88 nm, while the unit cell slowly increase as the ionic radius of the activator increases. Under UV excitation, YAG:Ce exhibits yellow emission due to electron transition in Ce3+ from the 5d level to the ground state levels (2F5/2, 2F7/2). The emission intensity of Ce3+ is enhanced in the presence of the Tb3+ ions and is decreased in the presence of Eu3+ ions due to some radiative or non‐radiative processes that take place between activator ions. By varying the rare earth ions, the emission colour can be modulated from green to white and red. Copyright © 2015 John Wiley & Sons, Ltd."
+            ],
+            "name": "Abstract",
+            "type": "section_h2"
+        },
+        {
+            "content": [
+                "Light‐emitting diodes (LEDs) are the lamps of the future, substituting for incandescent lamps because they have long lifetime, high energy efficiency and environmental advantage. Generally, the production of white light can be done in three ways namely: (a) mixing red, green, and blue LEDs; (b) use of an UV‐ LED to stimulate red–green–blue phosphors; and (c) the use of a blue‐emitting diode that excites a yellow‐emitting phosphor.",
+                "Nowadays, the commercial white LEDs normally use a 450–470 nm blue InGaN/GaN LED chip covered by a yellow‐emitting phosphor coating. The LEDs phosphor market is dominated by cerium doped yttrium aluminate (YAG:Ce) phosphor due to its simple and low cost fabrication, as well as its colour stability in time attributed to the high melting point, high hardness, stable thermal and chemical properties. However, the LEDs using cerium doped yttrium aluminate garnet (YAG:Ce), posses some deficiencies related to limitation in colour gamut, high correlated colour temperature (CCT) and low colour rendering index (CRI), due to a lack of a red spectral component.",
+                "Considerable efforts have been done to overcome limits of white LEDs and to shift the emission of YAG:Ce phosphor into the red emission domain. In this respect, YAG:Ce phosphor composition was modified by incorporation of additional activator ions or through the substitution of yttrium with other elements. The most common co‐activator ions are the rare earth such as: Tb3+, Eu3+, Pr3+, Gd3+ but transitional metals like Cu2+, Cr3+ and Mn2+ have been also used. Therefore, a variety of YAG:Ce compositions with tunable emission were synthesized during the last decade -.",
+                "It is known that the methods used for the preparation of YAG phosphors play a significant role in determining their morphology, microstructure and luminescent characteristics. The synthesis of the YAG phosphors can be done either by solid‐state reaction or using wet chemical synthesis routes such as: hydrothermal, sol‐gel, coprecipitation, combustion, spray pyrolysis, Pechini-.",
+                "In the last decades, research has focused either on finding of new YAG compositions or improving and developing of existing synthesis methods.",
+                "Our previous works were focused on the synthesis of europium‐doped yttrium aluminate phosphors using an original method based on the simultaneous addition of reagents (SimAdd technique). In this study, our attention has turned to synthesis and characterization of yttrium aluminate (Y3A5O12) double and triple activated with Ce3+‐Tb3+, Ce3+‐Eu3+ and Ce3+‐Tb3+‐Eu3+ respectively. The aim of the present research is to bring some new understandings regarding the structure, morphology and luminescent properties of YAG:RE phosphors. The effect of Tb3+ and Eu3+ ions on the Ce3+ emission incorporated in aluminate lattice is revealed based on the luminescent spectra. By varying the rare earth ions the chromatic coordinates are changing significantly leading to modulated emissions with colours ranging from green to white and red."
+            ],
+            "name": "Introduction",
+            "type": "section_h2"
+        },
+        {
+            "content": [
+                {
+                    "content": [
+                        "Single or multiple rare earth doped YAG phosphors were prepared by homogeneous precipitation with urea by simultaneous addition of reagents (SimAdd technique). Commercially available yttrium nitrate Y(NO3)3·5H2O (99.9% Aldrich), gadolinium nitrate Gd(NO3)3·6H2O (extrapure, Merck), terbium nitrate Tb(NO3)3·5H2O (extrapure, Merck), europium nitrate Eu(NO3)3·5H2O (extrapure, Merck) and urea (99.0–100.5% Aldrich) were used as starting materials."
+                    ],
+                    "name": "Materials",
+                    "type": "section_h3"
+                },
+                {
+                    "content": [
+                        "The phosphor synthesis consists in two main stages. In the first stage, the precursors were prepared by simultaneous addition of equal volumes of metallic nitrate solution (0.5 M) and urea (2 M) into a diluted bottom solution of urea (0.2 M). The reaction takes place under constant stirring, at 80°C and pH = 8 (adjusted with ammonia) until a white precipitate is formed. Depending on the phosphor composition the nitrate solution mixture contains Y3+, Gd3+, Ce3+, Eu3+ and/or Tb3+ with Al3+ in stoichiometric amounts. The total content of rare earth (Ce3+, Eu3+, Tb3+) that acts as activators was kept constant at 1.0 mole%. After completion of the reaction, the synthesis mixture is maturated for 2 h, centrifuged, washed with distilled water and dried at 115°C.",
+                        "The second stage of the synthesis consist in preparing the phosphor powders by thermal treatment of the precursors at 1200°C, in N2 atmosphere, for 2 h. No flux was used during the firing stage. All phosphor powders were water washed, dried and sieved. Samples with the general formula Y3‐x‐aGdxREaAl5O12 (x = 0; 1.485; 2.97 and a = 0.03) were prepared. The phosphors composition is summarized in Table 1."
+                    ],
+                    "name": "Sample preparation",
+                    "type": "section_h3"
+                },
+                {
+                    "content": [
+                        "The morpho‐structural and luminescent characteristics of aluminate garnet type phosphors were investigated using the usual methods for materials characterization. In this respect, the crystalline structure was determined by X‐ray diffraction using a BRUKER D8 Advance X‐ray diffractometer (40 kV, 40 mA, CuKα1 = 1.54056Å, 2θ range 15–85° step of Δ2θ = 0.01°). The microcrystalline parameters were calculated from band‐profile analysis, with the XRLINE program based on the Warren–Averbach method. FT‐IR analysis of the was recorded by using a JASCO 610 Spectrometer (KBr pellets technique).",
+                        "The shape and size of phosphor particles were investigated by scanning electron microscopy using an EOL–JSM 5510LV Microscope, Au coated powders and Transmission electron microscopy using an JEOL‐JEM‐1210 Microscope, 120kV.",
+                        "The luminescent characteristics were measured at room temperature using a Spectrofluorimeter Wavel; Glass filter WG 320. The chromatic coordinates were calculated based on emission spectra.",
+                        "In order to evaluate the incorporation of the rare earth ions into the YAG host lattice, chemical analysis was performed by inductively coupled plasma‐optical emission spectrometry (PerkinElmer, OPTIMA 2100DV). Therefore the corresponding precursors were precisely weighed (0.2 g), dissolved in 10 mL mixture of 3:1:0.5 nitric acid (65%); hydrochloric acid (35%) and sulphuric acid (95%) and boiled for 30 min. After the samples were dissolved, the solutions were diluted and measured."
+                    ],
+                    "name": "Sample characterization",
+                    "type": "section_h3"
+                }
+            ],
+            "name": "Experimental",
+            "type": "section_h2"
+        },
+        {
+            "content": [
+                "Three groups of samples have been prepared in order to study the influence of different rare earth ions (Ce, Eu, Tb) on the luminescent and morpho‐structural characteristics of aluminate phosphors. The composition of the samples and the emission intensities for each activator ion are systematized in Table 1. The first group contains samples doped with a single rare earth (Ce3+, Eu3+ or Tb3+) codified YAG:Ce, YAG:Eu and YAG:Tb. The second set includes double (Ce3+–Eu3+; Ce3+–Tb3+) and triple activated (Ce3+–Eu3+–Tb3+) samples codified as follows: YAG:Ce,Eu; YAG:Ce,Tb and YAG:Ce, Eu,Tb. The third group contains in yttrium aluminate modified with gadolinium and double doped with Ce3+ and Eu3+ named: YAG:Ce,Eu, YGAG:Ce,Eu, GAG:Ce,Eu. In order to evaluate the evolution of luminescence of multiple activated phosphors, single doped phosphors were used as internal standards considered to have the emission intensity of 100%.",
+                {
+                    "content": [
+                        "The crystalline structure and composition of phosphors were evidenced by X‐ray diffraction (XRD) and FT‐IR spectroscopy. Figure 1 shows the XRD patterns and FT‐IR spectra of some Ce‐Eu doped YAG phosphors. All phosphor samples were well crystallized and contained cubic Y3Al5O12 phase as majority product along with monoclinic‐Y4Al2O9 or orthorhombic‐YAlO3 phases as secondary products. The main peak centred at 2θ = 33.4° corresponds to the crystalline plane with Miller indices of 420 and indicates the formation of cubic Y3Al5O12 phase. The evaluation of XRD patterns was done using the PDF files for cubic‐Y3Al5O12 phase (PDF 79–1892), monoclinic‐Y4Al2O9 phase (PDF 34–0368) and orthorhombic‐YAlO3 phase YAP (PDF 33–0041). XRD diffraction lines, situated at around 27.0°, 30.9° and 34.4° are attributed for monoclinic‐Y4Al2O9 and orthorhombic‐YAlO3 phases.",
+                        "The partial or total replacement of yttrium with gadolinium affects both the positions and intensities of diffraction line. For example, the plane [4 2 0] shifts the to lower 2θ angles, suggesting that bigger Gd3+ ions (0.938 Å) substitute the smaller Y3+ ion (0.900 Å). Moreover the intensities ratio between plane [321] and plane [400] increased from 0.6 (YAG:Ce,Eu) to 1.0 (YGAG:Ce,Eu) and to 1.2 (GAG:Ce,Eu) as the gadolinium was accommodated in the host lattice. The results are in concordance with PDF 73–1371 file for cubic‐Gd3Al5O12 phase and PDF 79–1892 file for cubic‐Y3Al5O12 orthorhombic GdAlO3 was detected for sample GAG:Ce,Eu (PDF 46–0395).",
+                        "The FT‐IR spectra come as a confirmation of the XRD results, bringing information regarding the status of anions in the chemical environment of phosphors. All samples, exhibit very similar FT‐IR spectra with strong vibration bands situated at 690 cm–1, 724 cm–1 and 786 cm–1 regardless the nature of rare earth ions. These bands are assigned to the metal–oxygen–metal vibration modes of Y–O–Al specific for the formation of a YAG phase. Specific metal–oxygen vibrations (Y–O and Al–O) are also observed in the range 450–600 cm–1.",
+                        "The FT‐IR vibration bands specific for the formation of YAG, tend to shift to smaller wavelengths as the yttrium is replaced with gadolinium. Moreover, some other vibrational bands situated at around 813 cm–1, 887 cm–1 and 935 cm–1are observed. These additional bands may be associated with stretching vibration modes of metal–oxygen bonds (Al–O and Y–O) in yttrium aluminate with monoclinic (YAM) or perovskite (YAP) structure as impurities.",
+                        "The microcrystalline parameters of YAG:RE samples were calculated from band‐profile analysis, with the XRLINE program based on the Warren–Averbach method. -. Effective crystallite mean size (Deff) and the root mean square of the microstrains (rms) were calculated on the basis of XRD patterns. XRD quantitative phase analysis was performed using the XPowder software program for Windows.",
+                        "The microstructural parameters and quantitative analysis phase results for YAG:RE samples are illustrated in Table 2.",
+                        "The garnet type powders contain crystallites of different dimensions, between ~38 nm and 88 nm and possess a density of lattice microstrains between 0.785·103 and 3.117·103. The unit cell of single activated YAG samples slowly increased as the ionic radius of the activator increased, following the order: 0.174503 nm (rTb 3+ = 0.923 Å), 0.174586 nm (rEu3+ = 0.947 Å) and 0.175147 nm (rCe3+ = 1.02Å). Also, the diffraction data show that the unit cell expands with increasing the Gd3+ content due to the fact that the ionic radius of Gd3+ (0.938Å), is slightly larger than that of Y3+ (0.893 Å).",
+                        "The heterogeneity of samples strongly depend on both nature and number of the rare earth ions in the phosphor composition. The presence of secondary phases, may favour the formation of various luminescent centres, disturbing the energy transfer processes and affecting the phosphor luminescent performances."
+                    ],
+                    "name": "Structural characterization",
+                    "type": "section_h3"
+                },
+                {
+                    "content": [
+                        "YAG:RE phosphors shows different colours of the powders depending on the rare earth ions, namely: white powder (samples containing Eu3+, Tb3+), cream coloured powder (samples containing Ce3+) or intense orange powder (samples containing Gd3+).",
+                        "The transmission electron microscopy (TEM) and scanning electron microscopy (SEM) micrographs depicted in Figs. 2 and 3 reveal the shape and size of phosphors particles that were modified with gadolinium. The powders are agglomerated and consist of crystallites with particle size between 50 nm and 160 nm estimated from TEM images. The size of particles tend to decrease and become more dispersed as gadolinium substitute yttrium in the host lattice.",
+                        "The particles dispersion tendency is also observed in the SEM images. Sample YAG:Ce,Eu is a compact and homogeneous material formed from sintered particles with size of 0.2 µm. Sample YGAG:Ce,Eu presents some dispersed agglomerates of about 1 µm, which are composed of round submicron particles. Sample GAG:Ce,Eu has an heterogeneous aspect. The gadolinium compounds from precursor, act as mineralizing agent during the firing stage."
+                    ],
+                    "name": "Morphological characterization",
+                    "type": "section_h3"
+                },
+                {
+                    "content": [
+                        "In order to determine the real content of the rare earth incorporated into the phosphor lattice, ICP‐OES measurements were performed. Table 3 presents the comparison of the theoretical and experimental composition of the YAG:RE phosphors calculated on the basis of metallic ions molar ratio from precursor precipitate.",
+                        "All samples have a total content of rare earth ions lower than the theoretical values. Also, the difference between the experimental and theoretical becomes higher when gadolinium is involved in the precipitation. This behavior can be explained by the selective precipitation of metallic ions due to different solubility product of cations (Y3+, Ce3+, Eu3+, Tb3+, Gd3+ and Al3+)."
+                    ],
+                    "name": "Elemental analysis",
+                    "type": "section_h3"
+                },
+                {
+                    "content": [
+                        "Single rare earth doped YAG phosphors (code sample YAG:Ce, YAG:Tb and YAG:Eu) were first investigated based on the excitation (PLE) and emission (PL) spectra, depicted in Fig. 4.",
+                        {
+                            "content": [
+                                "The PLE spectrum of YAG:Ce possess three bands situated at 232 nm, 341 nm and 448 nm characteristic for the electronic transition that take place between ground state (2F5/2or 2F7/2) and excited state levels (5d, 2D) in Ce3+ ions. The PL spectra of YAG:Ce show one broad band in the green–yellow spectral domain with the maximum peak situated at 527 nm."
+                            ],
+                            "name": "The PLE spectrum of YAG:Ce",
+                            "type": "section_h4"
+                        },
+                        {
+                            "content": [
+                                "The excitation spectrum of YAG:Tb consists on three well defined excitation bands centred at 227 nm, 270 nm and 322 nm, all corresponding to the 4f8–4f75d1 electron transition in Tb3+ ion. The PL spectrum presents the specific emission lines of Tb3+ centres distributed in the YAG lattice responsible for blue and green luminescence, associated with 5D3–7FJ and 5D4–7FJ electronic transitions. The strongest emission band is in the green spectral (5D4–7F5) located at 544 nm."
+                            ],
+                            "name": "The excitation spectrum of YAG:Tb",
+                            "type": "section_h4"
+                        },
+                        {
+                            "content": [
+                                "The PLE spectrum of YAG:Eu is composed from one intense charge transfer band (CTB) at 234 nm due to the Eu3+‐ O2–and several small lines corresponding to the f‐f electronic transitions within Eu3+ that are situated in 280 nm ‐ 400 nm domain. The PL spectrum shows the lines of Eu3+ centres are responsible for the characteristic orange–red luminescence associated with intra‐ion 5D0→7F1 and; 5D0→7F2 transitions. The emission bands specific for Eu3+ in YAG lattice were observed at 592 nm, 598 nm, 609 nm and 631 nm.",
+                                "PLE spectra of multiple rare earth doped YAG samples are depicted in Fig. 5. The PLE spectra were measured at three wavelengths that correspond to the maximum of emission of activators as follows: 592 nm (5D0→7F1 transitions of Eu3+); 544 nm (5D4→7F5 transitions of Tb3+) and 527 nm (d–f transitions of Ce3+).",
+                                "The excitability of multiple activated YAG samples are well defined under blue light (445 nm), but weak under short UV (227 nm). One can see that double or triple activation of YAG leads to the apparition of additional excitation bands that are specific for Eu3+ (232 nm, 394 nm) and Tb3+ (227 nm, 270 nm) along with those of Ce3+ bands (340 nm and 445 nm).",
+                                "PL spectra of multiple doped YAG samples are depicted in Fig. 6. The PL spectra were registered under excitation with radiation of 234 nm, 270 nm and 450 nm specific for Eu3+, Tb3+ and Ce3+ ion. Table 1 gathers the emission intensities values for each activator ion. We found that, under excitation with 450 nm radiation, the terbium ions have a positive effect on the emission of cerium ions, demonstrated by the improvement of emission intensity of YAG: Ce,Tb sample with 23% compared to YAG:Ce (see Table 1). Therefore, we can talk about an energy transfer that takes place from Tb3+ to Ce3+. Moreover, the intensity of the broad band of Ce3+ with maximum situated at 527 nm, decrease from 123% (YSO:Ce,Tb) to 77% (YAG:Ce,Eu) and to73% (YAG:Ce,Eu,Tb), suggesting that Eu3+ favors some non‐radiative energy transfer from Ce to Eu and Tb to Eu.",
+                                "Normally YAG:Ce phosphor does not exhibit emission when is excited with radiation of 270 nm. This situation is changed in the presence of Tb3+ ions. Therefore, under excitation with 270 nm, the emission spectrum of YAG:Ce,Tb presents a broad band located at 521 nm that is specific for Ce3+ which overlaps with the Tb3+ lines at 493 nm, 545 nm and 555 nm (Fig. 6).",
+                                "Under excitation with 234 nm radiation, the PL spectra of YAG:Ce,Eu, shows only the emission lines of Eu3+due to the 5D0→7FJ electron transitions at 592 nm, 598 nm, 611 nm and 632 nm. YAG:Ce,Eu shows no emission under 270 nm excitation. The emission intensities of Eu3+ and Ce3+ in YAG:Ce,Eu decrease at 18 % and 77% in comparison with YAG:Ce and YAG:Eu samples. The simultaneous reduction of Eu3+ and Ce3+ intensities can be explained by the non‐radiative interaction between excited states of Ce3+ (5d; 2D) and Eu3+ (5D0, 5D1, 5D2 and 5D3) levels. Another cause may be due the presence of different luminescence centres formed in YAM and YAP phases that can interfere in the luminescence processes. Since there was no improvement in emission of either Ce3+ or Eu3+ ions is unlikely that energy transfer take place.",
+                                "The PL spectrum of YAG:Ce,Tb,Eu reveals the simultaneous appearance of emission lines of all three activators if sample is excited with 270 nm confirming the positive effect of Tb3+ ions on Ce3+ emission. We can make some remarks by analyzing the PL spectra of YAG:Ce,Tb; YAG:Ce,Eu and YAG:Ce,Tb,Eu: The 592 nm line specific for 5D0→7F1 transition in Eu3+ increases in intensity from 18% to 29% while the 545 nm line specific for 5D4→7F5 transition in Tb3+ decreases from 90 to 80% suggesting an energy transfer from Tb3+ to Eu3+ (5D4 →5D0). The band of Ce3+ situated at 527 nm due to 2D3/2→2F7/2,5/2 transitions decrease in intensity from 122.6 % to 73% in the presence of Eu3+ ions; possible due to some energy transfer from Ce3+ to Eu3+ (2D3/2→5D0).",
+                                "The structural heterogeneity of YAG:Ce,Tb,Eu samples must be also taken in consideration, because some other centres may be involved in processes and lead to some non‐radiative transfers between activator ions."
+                            ],
+                            "name": "The PLE spectrum of YAG:Eu",
+                            "type": "section_h4"
+                        },
+                        {
+                            "content": [
+                                "Effect of Gd3+ on the luminescence is discussed based on the PLE and PL spectra presented in Fig. 7.",
+                                "The excitability of YGAG:Ce,Eu and GAG:Ce,Eu samples in blue domain decrease significantly, compared to YAG:Ce,Eu sample. Moreover the band situated in the blue region (400–500 nm) becomes more broadened and structured as the content of gadolinium increase. An additional small band situated at 275 nm is also observed. Gadolinium ions affect both the Eu3+ and Ce3+ emission intensity and their peak position. The intensity of 592 nm line increases from 18.4 % to 42 % while that of 527 nm line decreases from 76.6% to 36.1% as gadolinium amount in the host lattice increase (Table 1). The gadolinium ions may sensitize the 5D0→7F1,2 red emissions of Eu3+ through an energy transfer from Gd3+ to Eu3+.",
+                                "On the other hand the accommodation of Gd3+ in the host lattice, leads to a larger crystal splitting of the 5d energy level of Ce3+ ions, leading to the shift of Ce3+ emission band to longer wavelength from to 527 to 554 nm as can be seen in Fig. 7 right.."
+                            ],
+                            "name": "Effect of Gd3+",
+                            "type": "section_h4"
+                        },
+                        {
+                            "content": [
+                                "The chromaticity CIE diagrams presented in Fig. 8 shows various luminescence colours for YAG samples. Every colour can be identified by chromatic coordinates (x, y) that are positioned inside the chromatic diagram representing the saturated colour. The ideal white light with x = 0.33 and y = 0.33 (point E) is also included in the CIE diagram. Depending on the excitation wavelength the chromatic coordinates of the YAG samples are positioned either closer to the rim or to the centre of the CIE diagram.",
+                                "Under 254 nm excitation, the chromatic coordinates of the single activated YAG samples (points A, B, C) are placed in the green and red region respectively (Fig. 8 a). We expected that the multiple rare earth doped YAG samples would be situated inside the region marked by the ABC points, but this did not happened, due to the mutual influence of the rare earth. Samples 2 YAG:Ce,Eu (x = 0.2981; y = 0.3501) and 4 YGAG:Ce, Eu (x = 0.3271; y = 0.3001) are situated very closed to the white point (E) while 5 GAG:Ce, Eu( x = 0.4676; y = 0.3341) is closer to point B. Triple activation of YAG with Ce–Tb–Eu leads to an intermediate luminescent colour (x = 0.2842; y = 0.4066) situated between the colours obtained by double doping with Ce–Tb and Ce–Eu.",
+                                "Under excitation with 450 nm the chromatic coordinates of the YAG phosphors are little affected by the activator system (Fig. 8 b). However, a visible shift toward red and saturated colours can be observed for YAG samples modified with gadolinium (codes 3, 4, 5 in Fig. 8 b)."
+                            ],
+                            "name": "Chromaticity CIE diagrams",
+                            "type": "section_h4"
+                        }
+                    ],
+                    "name": "Luminescent characterization",
+                    "type": "section_h3"
+                }
+            ],
+            "name": "Results and discussion",
+            "type": "section_h2"
+        },
+        {
+            "content": [
+                "Rare earth activated yttrium aluminate phosphors were prepared with urea as precipitating agent using an original wet chemical synthesis route.",
+                "All samples were well crystallized containing cubic Y3Al5O12 phase as main component. The presence of monoclinic Y4Al2O9 and orthorhombic YAlO3 phases were also found in variable volume concentration depending on the phosphor composition. The homogeneity of the samples tends to decrease in cases of multiple rare earth doped YAG samples. In our experimental condition, the presence of Tb3+ions led to the enhancement of Ce3+ emission to 23% while Eu3+ ions decreased it to 23%. The partial or total replacement of yttrium with gadolinium led to a shift of the Ce3+ emission from 527 nm to 554 nm along with a decrease in intensity. In the same, time the emission of Eu3+ was increased due to some radiative processes that took place from Gd3+ to Eu3+.",
+                "Chromatic coordinates of the samples depend both on the excitation radiation and composition of the phosphors. Variable luminescence from green to white to red can be achieved for multiple activated YAG samples under 254 nm radiation. A visible shift of the luminescence from green to red and to saturated colours was observed for gadolinium modified YAG phosphors both under 254 nm and 450 nm radiation."
+            ],
+            "name": "Conclusions",
+            "type": "section_h2"
+        },
+        {
+            "content": [
+                "This work was possible due to the financial support of the Sectoral Operational Programme for Human Resources Development 2007–2013, co‐financed by the European Social Fund, under the project number POSDRU 89/1.5/S/60189 with the title ‘Postdoctoral Programs for Sustainable Development in a Knowledge Based Society’."
+            ],
+            "name": "Acknowledgements",
+            "type": "section_h2"
+        }
+    ],
+    "Title": "Rare earth activated yttrium aluminate phosphors with modulated luminescence"
+}

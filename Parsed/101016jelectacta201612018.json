@@ -1,0 +1,121 @@
+{
+    "DOI": "10.1016/j.electacta.2016.12.018",
+    "Journal": "Electrochimica Acta",
+    "Keywords": [
+        "Li metal",
+        "short-circuiting",
+        "garnet",
+        "current density"
+    ],
+    "Sections": [
+        {
+            "content": [
+                "The potential to enable unprecedented performance, durability, and safety has created the impetus to develop bulk-scale all-solid-state batteries employing metallic Li as the negative electrode. Owing to its low density, low electronegativity and high specific capacity, Li metal is the most attractive negative electrode. However, failure caused by the formation of dendrites has limited the widespread use of rechargeable batteries using metallic Li negative electrodes coupled with liquid electrolytes. One approach to mitigate the formation of dendrites involves the use of a solid electrolyte to physically stabilize the Li–electrolyte interface while allowing the facile transport of Li-ions. Though in principle this approach should work, it has been observed that at high Li deposition rates Li metal can propagate through relatively hard ceramic electrolytes and Li dendrite formation causing short circuit has been reported. Why this occurs is poorly understood, emphasizing the need to close the knowledge gap and facilitate the development of advanced batteries employing solid electrolytes. Here, through precise microstructural control, striking electron microscopy, and high-resolution surface spectroscopy, we directly observed for the first time the propagation of Li metal through a promising polycrystalline solid electrolyte based on the garnet mineral structure (Li6.25Al0.25La3Zr2O12). Moreover, we observed that Li preferentially deposits along grain boundaries (intergranularly). These results offer insight into the electrochemical-mechanical phenomena that govern the stability of the metallic Li–polycrystalline solid electrolyte interface and are essential to the maturation of solid-state batteries."
+            ],
+            "name": "Abstract",
+            "type": "ce_section"
+        },
+        {
+            "content": [
+                "The demand for high energy density, safe and low cost energy storage is ever-increasing. Li-ion is a promising technology to meet near term energy storage needs, however future demands will require a step increase in performance. In particular, vehicle electrification will likely require 1000 Wh/l (at the cell level) to enable driving ranges commensurate with current internal combustion engine powertrains. Achieving 1000 Wh/l using Li-ion technology will be challenging, thus advanced battery technology must be developed. One approach is to develop solid electrolyte technology to allow the use of metallic Li as the negative electrode. The volumetric capacity of Li is 10X higher than state-of-the-art (SOA) graphite negative electrodes. Thus, by coupling Li metal with SOA and advanced high voltage electrodes, a step increase in energy density can be achieved.",
+                "While myriad solid electrolytes exhibit fast ion conductivity (∼1mS/cm at 298 K), few are stable against Li metal. Garnet-type solid electrolyte, based on the nominal formula, Li7La3Zr2O12 (LLZO), is an example of a solid electrolyte that is a fast ion conductor and is believed to be stable against Li. Moreover, because garnet-type Li-conductors are oxides, they exhibit relatively high elastic (∼150 GPa) and shear (∼60 GPa) moduli that could suppress the initiation and propagation of dendrites that have plagued previous generations of rechargeable batteries employing metallic Li as the negative electrode. Though perhaps more applicable to amorphous polymers or glass ceramic electrolytes, a theory proposed by Monroe et al., establishes a criterion for metal filament initiation that is governed by the ratio of the shear moduli of Li and a solid electrolyte. Monroe et al., proposed that if the solid electrolyte shear modulus is greater than a factor of two higher than Li (4.8 GPa at 298 K), Li filament initiation should not occur. Thus, because the shear modulus of LLZO is ∼12 times higher than that of Li, according to the Monroe et al. criterion, Li filaments should not form. However, recent studies indicate that Li filaments do indeed form in LLZO. For example, Sharafi et al., characterized the effect of current density and temperature on the formation of Li filaments in solid-state Li-LLZO-Li cells. Macroscopically, dark features formed on the LLZO surface when the current density exceeded 0.1 mA/cm2 at room temperature and 20 mA/cm2 at 160 °C. Inductive behavior in the electrochemical impedance spectroscopy (EIS) spectra after cycling indicated metallic short-circuiting occurred. Similarly, Ren and Imanishi et al. confirmed the formation of dark features above comparable current densities at room temperature. Thus, the question arises: despite meeting and exceeding the shear modulus criterion proposed by the Monroe model, how are Li filaments propagating through LLZO?",
+                "In this study, we hypothesize that the Monroe model may not be applicable to polycrystalline solid electrolytes. Polycrystalline materials consist of grains and grain boundaries. Yet, the role that grain boundaries may play in governing Li filament initiation and propagation is not known at this time. To elucidate this phenomenon, the purpose of this study was to determine if Li filaments preferentially propagate inter or transgranularly (Fig. 1 ). Understanding the mode of Li propagation will help future efforts to better engineer the microstructure and/or interfaces to increase the current density at which Li is plated during charging solid-state batteries employing metallic Li electrodes. However, characterizing Li metal is challenging due to its reactivity with air and low electron density. In this study, a novel approach to confirm the presence of Li and how it propagates in polycrystalline LLZO was demonstrated.",
+                "LLZO was synthesized using a conventional solid-state technique and hot pressed to provide precise control of the microstructure, e.g. limit porosity to 3% and result in consistent grain and grain boundary characteristics. The hot pressed LLZO was cycled using previously reported protocol to cause Li short-circuiting at room temperature. Scanning electron microscopy (SEM), energy-dispersive X-ray spectroscopy (EDS) and Auger electron spectroscopy (AES) were used to confirm the presence and spatial distribution of Li to determine which propagation mode (Fig. 1) occurs. We believe the analysis in this study presents key evidence to demonstrate how Li propagates in solids, particularly polycrystalline ceramics. Because the polycrystalline form is more practical compared to single crystals, understanding the role that grain boundaries play is critical. In addition, because the formation of Li metal in the microstructure involves mechanical failure through fracture, we believe the results of this study will help elucidate the electrochemical-mechanical phenomena that govern the stability of the Li–solid electrolyte interface. Overall, these data may help improve the charge rate of solid-state batteries employing metallic Li negative electrodes."
+            ],
+            "name": "Introduction",
+            "type": "ce_section"
+        },
+        {
+            "content": [
+                {
+                    "content": [
+                        "Cubic LLZO was prepared by a solid-state synthetic technique. Starting materials, Li2CO3 (99.0%, Alfa Aesar, Ward Hill, MA), La(OH)3 (99.95%, Alfa Aesar, Ward Hill, MA), ZrO2 (99.9%, Inframat Advanced Materials, Manchester, CT) and Al2O3 (99.9%, Mager Scientific, Dexter, MI), were weighted in desired stoichiometry and dry-milled for 4 h in a planetary mill (Retsch GmbH, Haan, Germany) at 350 rpm. Excess Li2CO3 was used to compensate for Li volatilization during calcination. The mixed powder was cold-pressed into to pellets with a diameter of 2.54 cm and calcined at 1000 °C for 4 h in air. The calcined pellets were then ground into powders and hot-pressed using a rapid induction hot-pressing technique at 1100 °C and 62 MPa for 1 h under Ar to achieve 97 ± 1% relative densities. The pellet was cut into 1.0 ± 0.2 mm discs using a diamond saw. The discs were transferred to an Ar-filled glove box to avoid reaction with air and moisture."
+                    ],
+                    "name": "LLZO specimen preparation",
+                    "type": "ce_section"
+                },
+                {
+                    "content": [
+                        "The cells used in this experiments were symmetric Li-LLZO-Li cells assembled inside an Ar-filled glove box. Before cell assembly, the LLZO was polished inside the glove box to remove surface contamination. The metallic Li was scrapped to expose a clean surface. The Li-LLZO-Li cell was compressed using a 316 kPa uniaxial pressure and heated to 175 °C to reduce interfacial impedance. The cell was cycled at room temperature using a potentiostat/galvanostat (Bio-logic SP300). The symmetric cells were cycled at various current densities (1 hour per cycle) with a rest period of 2 min between each current step until the cell showed an evidence of short circuit. Electrochemical impedance spectroscopy (EIS) was conducted in a frequency range between 1 Hz to 7 MHz before and after cycling to characterize the cell impedance upon cycling. After cycling, the cells were disassembled and the short-circuited LLZO was removed for analysis."
+                    ],
+                    "name": "Electrochemical measurements",
+                    "type": "ce_section"
+                },
+                {
+                    "content": [
+                        "SEM/FIB/EDS were performed on a FEI Nova 200 Nano lab Dualbeam SEM/FIB microscope (accelerating voltage: 0.2–30 kV (electrons), up to 30 kV (ions)) and on a FEI Helios Nanolab 650 Dualbeam SEM/FIB microscope (accelerating voltage: 50V–30 kV (electrons), 0.5 kV–30 kV (ions) beam current: 0.8 pA–26 nA (electrons), 0.1 pA–65 nA (ions) at the Michigan Center for Materials Characterization. LLZO specimens for SEM/FIB/EDS analysis were wet polished with a series of sand paper grits, with a final polishing using a 1 μm diamond paste. A JEOL 2010F analytical TEM (100 and 200 kV) was used for the HRTEM analysis. Specimens for TEM observation were prepared by diamond-saw cutting, SiC-paper grinding, dimpling and Ar ion beam milling. A physical electronics Auger Nanoprobe 680 microscope (spatial resolution ∼50 nm; energy resolution ∼0.3% of the electron energy) was used to probe elements in LLZO. The cycled LLZO specimen was coated with a thin Au layer before SEM/XPS/EDS/AES analysis to increase electron conductivity. Based on high-resolution SEM micrographs, the average diameter of the web structure was estimated from 75 webs using ImageJ software."
+                    ],
+                    "name": "Materials characterization",
+                    "type": "ce_section"
+                }
+            ],
+            "name": "Experimental",
+            "type": "ce_section"
+        },
+        {
+            "content": [
+                {
+                    "content": [
+                        "To characterize the LLZO electrolyte before cycling, electron microscopy was conducted (Fig. 2 ). An SEM micrograph of a polished surface is shown in Fig. 2(a), where no cracks, except a few pores, were observed and was consistent with the expected high relative density of 97 ± 1%. Fig. 2(b) presents a freshly cleaved surface, from which the average grain size is estimated to be ∼2.8 ± 0.8 μm, consistent with that reported by previous investigations. The fracture mode was predominantly transgranular, indicating relatively high grain boundary strength. A high-resolution transmission electron microscopy (HR-TEM) image of the LLZO (011) plane along the direction is depicted in Fig. 2(c) (the inset is the corresponding selected area electron diffraction pattern). The TEM analysis indicates that the Al-doped LLZO has a cubic crystal structure with a lattice parameter of approximately 1.3 nm, which is in agreement with X-ray diffraction (XRD)."
+                    ],
+                    "name": "Electron micrographs of as-prepared LLZO",
+                    "type": "ce_section"
+                },
+                {
+                    "content": [
+                        "The direct current (DC) cycling behavior of LLZO was characterized using Li-LLZO-Li symmetric cells. Fig. 3. (a) shows the DC cycling of the symmetric cell at room temperature. The cell followed Ohmic behavior (V = IR) at the lower current densities of less than 0.015 mA.cm−2 and deviated from Ohmic behavior at current densities greater than 0.015 mA.cm−2. At 0.10 mA.cm−2, an abrupt drop in polarization voltage to approximately 0 V occurred, indicating the cell had short-circuited. In addition, EIS was performed before and after completing the DC polarization at room temperature. Prior to initiating the cycling test, the electrochemical impedance behavior of the cell was measured as illustrated in Fig. 3. (b). The Nyquist plot consists of two semicircular features that are consistent with the Ohmic resistance of LLZO at the higher frequencies (7 MHz–100 kHz) and charge transfer resistance at the lower frequencies (100 kHz–1 Hz). The calculated values of capacitance were about 10−12 F.cm−2 for bulk LLZO, 10−8 F.cm−2 for grain boundaries and 10−6 F.cm−2 for Li-LLZO charge transfer resistance. These capacitance values are in good agreement with the ascribed phenomena as described previously. The Nyquist plot after DC cycling is consistent with an electronic short-circuit exhibiting inductance. After cycling and upon cell disassembly, clear evidence of dark macroscopic features were evident, as shown in the optical image Fig. 3. (c). It was believed, that the dark features were Li metal filaments that propagated between pellet faces to cause short-circuiting."
+                    ],
+                    "name": "Electrochemical studies of a Li/LLZO/Li cell",
+                    "type": "ce_section"
+                },
+                {
+                    "content": [
+                        "After short-circuiting, fissures were observed on the surface of the cycled LLZO electrolyte, as shown in the SEM micrograph of Fig. 3(d). In geometry and scale, these fissures closely resembled the black lines observed in Fig. 3(c). To determine if the features extended below the pellet face, focused ion beam (FIB) milling was used to observe the sub-surface microstructure. As shown in Fig. 3(e), the surface features propagate well below the LLZO pellet surface taking on the appearance of fissures. Because no such features were observed on the surface of the pre-cycled polished pellet surface (Fig. 2(a)), it was believed the features were caused by Li metal propagation."
+                    ],
+                    "name": "SEM and FIB analysis of a short-circuited LLZO",
+                    "type": "ce_section"
+                },
+                {
+                    "content": [
+                        "Assuming the features were metallic Li, attempts were made to determine if they propagated inter or transgranularly. To do so, a bending moment was applied to the pellet to cause fracture near or along the feature. Immediately after fracture, one half of the specimen was transferred into an SEM (Fig. 4 (a)). An SEM micrograph of the fractured surface is presented in Fig. 4(b), where a designated area B is enlarged and shown in Fig. 4(c). A distinguishable web-like structure was observed on particular regions of the fractured surface. In higher magnification SEM image (Fig. 4(d)), the web structure generally defined hexagonal-like features. Moreover, the LLZO predominately exhibited transgranular fracture, which is consistent with what was previously observed in fracture toughness analysis on LLZO of comparable relative density. Fig. 4(e) presents the diameter distribution statistics of the web structure. The average diameter of the web structure was estimated to be ∼2.6 ± 0.7 μm, similar to the average grain size of LLZO, ∼2.8 ± 0.8 μm. In addition, the formation of the web structure appeared to be superimposed on the grain boundaries, implying that the web structure formed at the grain boundaries (intergranularly).",
+                        "The web structure was unavoidably exposed to air during specimen transfer between different analytical microscopes. Fig. 4(f) depicts an SEM micrograph of the same web structure shown in Fig. 4(c), but after the exposure to air occurred during sample transfer. Higher magnification SEM images of the web structure in Fig. 4(f) are shown in Figs. 4(g) and (h), from which porous reaction layers were observed on the web structure and the thickness of the web wall slightly increased. This indicated that the web structure was highly reactive in air compared to LLZO; consistent with the hypothesis that the web structure consisted of metallic Li."
+                    ],
+                    "name": "Web structure in the fracture surface",
+                    "type": "ce_section"
+                },
+                {
+                    "content": [
+                        "Fig. 5 represents spatially resolved EDS analysis results of the web structure after exposure to air. A tilted SEM micrograph is shown in Fig. 5(a), where the black dashed-line indicated an EDS line scan (from point A to C) for elements O and C. As shown in Fig. 5(b), the web structure (from point B to C) was much richer in O and C than the LLZO matrix (point A to B). The distance between neighboring peaks of the O or C spectrum generally corresponded to the diameter of the webs. In addition, the average intensity (counts per 0.2 second) ratio between O and C along the line scan path A to C in Fig. 5(a) was 3.0:1.0. The O and C concentration Z-contrast images are shown in Figs. 5(c) and (d), respectively. It was apparent that the O and C concentrations are higher in the web structure (bright contrast) compared to the LLZO matrix. The La and Zr concentration mappings are depicted in Figs. 5(e) and (f), respectively. Compared to O and C, negligible La and Zr (dark contrast) could be detected in the web structure, while La and Zr were homogeneously distributed in the LLZO matrix (bright contrast).",
+                        "The formation of Li2CO3 on the LLZO surfaces upon brief air exposure was proven by Raman and soft X-ray absorption spectroscopy. Since the web structure was rich in Li, therefore, more prone to carbonation in air compared to the LLZO matrix, and the average O to C ratio in the oxycarbonated web structure and the LLZO matrix was 3:0:1:0, the oxycarbonated web structure was most likely to be Li2CO3. It should be noted that the amount of doped Al was trace in LLZO and negligible La and Zr were detected in the web structure. Though the EDS analysis suggests the web structure consisted of metallic Li before exposure to air, the evidence is compelling. However, direct confirmation of metallic Li is required to confirm our hypothesis."
+                    ],
+                    "name": "EDS analysis of the web structure after exposure to air",
+                    "type": "ce_section"
+                },
+                {
+                    "content": [
+                        "AES is an analytical technique used to characterize the elemental make up of the first few atomic layers (0.5–5 nm) of a surface using high spatial resolution (∼50 nm point-to-point), and precise chemical sensitivity. We investigated the surface chemical composition of the web structure by AES. An AES-SEM micrograph of the web structure is presented in Fig. 6 (a), where Auger element mapping of Li was carried out, as shown in Fig. 6(b). The Li concentration in the web structure was much higher (bright contrast) than that in the LLZO matrix (dark contrast). In addition, an AES line scan for Li was performed in a different area, along line ABCD in the SEM micrograph shown in Fig. 6(c). Well-defined Li peaks were observed along line segment BC, where the line scan path from point B to C was located on the web structure. In contrast, almost no Li peaks were observed along line segments AB and CD, which was primarily believed to be LLZO. On the other h, the Au line-scan spectrum along the line ABCD was nearly invariant. In general, the elemental distribution results (e.g., the distribution of Li and Zr) from AES were consistent with those from EDS. Therefore, based on the EDS and AES analysis, the grain consisted of LLZO garnet and the grain boundaries were saturated with Li metal. We believe this is the first report to directly measure the formation of metallic Li in LLZO."
+                    ],
+                    "name": "Direct observation of metallic Li (AES analysis)",
+                    "type": "ce_section"
+                },
+                {
+                    "content": [
+                        "The web structure closely resembled the LLZO microstructure in that the hexagonal shapes defined by the metallic Li mimicked grains in hot-pressed LLZO. In addition, the hexagonal feature diameters were close to the diameter of LLZO grains. Based on these observations, we believed the Li web structure was generally observed along the LLZO grain boundaries. Thus, Li plated intergranularly through the LLZO electrolyte grain boundaries causing the grains to fracture transgranularly. Sudo et al. speculated that the black spots on the short-circuited LLZO surface was Li, growing through the grain boundaries or voids in LLZO. Ren et al., using backscattered electron SEM and EDS, indicated that Li grew through grain boundaries and interconnected pores in short-circuited LLZO. Though previous work certainly points to the formation Li metal propagation through LLZO, we believe that through the combination of precise microstructural control, striking SEM imagery, and the spatial resolution offered using Auger spectroscopy, this article is the first to confirm that Li propagates along grain boundaries in short-circuited LLZO. We believe this information will play a key role in elucidating Li metal propagation in polycrystalline solid electrolytes and can be used to establish strategies to stabilize the Li–solid electrolyte interface upon charging. However, regarding the effect of grain size on total conductivity, it has been shown that nanostructured materials can exhibit an order of magnitude higher ionic conductivity than the conventional microcrystalline materials."
+                    ],
+                    "name": "Li plating through grain boundaries",
+                    "type": "ce_section"
+                }
+            ],
+            "name": "Results and discussion",
+            "type": "ce_section"
+        },
+        {
+            "content": [
+                "In summary, we showed direct evidence for the first time that Li preferentially propagated intergranularly through LLZO grain boundaries and resulted in metallic short-circuiting of the Li/LLZO/Li symmetric cells during cycling. The results of this study are essential in understanding Li metal propagation in polycrystalline solid electrolytes and leading to potential strategies for stabilizing Li–solid electrolyte interface during charging. To improve the stability of the Li–solid electrolyte interface, future efforts should focus on engineering grain boundary structures to suppress Li filament propagation in polycrystalline solid electrolytes. We believe these data can be used to enable metallic Li electrodes to allow for unprecedented improvements in battery technology performance, safety, and durability."
+            ],
+            "name": "Conclusions",
+            "type": "ce_section"
+        }
+    ],
+    "Title": "Intergranular Li metal propagation through polycrystalline Li6.25Al0.25La3Zr2O12 ceramic electrolyte"
+}

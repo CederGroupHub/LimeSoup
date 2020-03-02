@@ -1,6 +1,6 @@
 {
-    "DOI": "",
-    "Journal": null,
+    "DOI": "10.1149/1.1543949",
+    "Journal": "Journal of The Electrochemical Society",
     "Keywords": [
         "lithium",
         "X-ray photoelectron spectra",
@@ -19,7 +19,13 @@
             "name": "Abstract",
             "type": "section_h2"
         },
-        "Procedures have been developed in our research group for the identification of reaction products formed on clean Li surfaces upon exposure to solvents of relevance to lithium batteries in gas phase. These experiments are carried out in ultrahigh vacuum (UHV), using infrared reflection absorption spectroscopy (IRAS), Auger electron spectroscopy (AES) and X-ray photoelectron (XPS) spectroscopy as complementary vibrational and electronic probes. This paper extends the suite of linear and cyclic alkyl carbonates investigated in previous work, to γ-butyrolactone (γ-BL), a model cyclic ester, as well as 1,3-dioxalane (DIOX) and tetrahydrofuran (THF), two model cyclic ethers, to compare the reactivity of these latter solvents toward metallic Li with that of linear alkyl carbonates.",
+        {
+            "content": [
+                "Procedures have been developed in our research group for the identification of reaction products formed on clean Li surfaces upon exposure to solvents of relevance to lithium batteries in gas phase. These experiments are carried out in ultrahigh vacuum (UHV), using infrared reflection absorption spectroscopy (IRAS), Auger electron spectroscopy (AES) and X-ray photoelectron (XPS) spectroscopy as complementary vibrational and electronic probes. This paper extends the suite of linear and cyclic alkyl carbonates investigated in previous work, to γ-butyrolactone (γ-BL), a model cyclic ester, as well as 1,3-dioxalane (DIOX) and tetrahydrofuran (THF), two model cyclic ethers, to compare the reactivity of these latter solvents toward metallic Li with that of linear alkyl carbonates."
+            ],
+            "name": "",
+            "type": "section_h2"
+        },
         {
             "content": [
                 "All measurements were performed in a custom designed UHV chamber equipped with instrumentation required for the cleaning of Li specimens and their subsequent spectral characterization with AES, XPS, and IRAS. As described elsewhere, p-polarized infrared (IR) light emerging from a Mattson Cygnus 25 Fourier transform IR (FTIR) spectrometer was focused at an incident angle of 69° onto the surface of a coin-shaped Li foil (ca. 12 mm diam, 1 mm thick) mounted onto the UHV sample stage (see below). As is customary, IRAS spectra are reported in the form of ΔR/R=(Rref−Rsamp)/Rref vs. wavenumber, where Rref and Rsamp refer to the coadded and averaged single beam spectrum of the Li surface before (ref) and after (samp) solvent dosings. Extensive Ar+ sputtering (ca. 100 h) was found necessary to reduce carbon and oxygen (the only detectable impurities) below the AES detection limit of our instrumentation. Additional details regarding sample preparation and other experimental aspects may be found in previous publications.",
