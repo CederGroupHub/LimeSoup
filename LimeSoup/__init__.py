@@ -7,3 +7,4 @@ from LimeSoup.NatureSoup import NatureSoup
 from LimeSoup.RSCSoup import RSCSoup
 from LimeSoup.SpringerSoup import SpringerSoup
 from LimeSoup.WileySoup import WileySoup
+from LimeSoup.AIPSoup import AIPSoup

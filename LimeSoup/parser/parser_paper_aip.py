@@ -1,31 +1,12 @@
-"""
-ParserPaper is a class to parse HTML, XML papers from different publishers into
-simples text. It can be used to feed a database.
-This is the first version, I tried to separate things 
-related to a specific publisher in the ParsePaper in order to help
-to think how to reuse code in new publishers.
-This class is not yet finished, just a security copy in GitHub.
-"""
-
-__author__ = "Tiago Botari"
-__copyright__ = ""
-__version__ = "1.0"
-__maintainer__ = "Tiago Botari"
-__email__ = "tiagobotari@gmail.com"
-__date__ = "Feb 18 2018"
-
 import itertools
 import re
 import warnings
-
 import bs4
-
 import LimeSoup.parser.tools as tl
 
 
 class ParserPaper:
     journal_name = None
-
     def __init__(self, raw_html, parser_type='lxml-xml', debugging=False):
         """
         :param raw_html:
@@ -36,6 +17,7 @@ class ParserPaper:
         # parsers 'html.parser', 'lxml', 'html5lib', 'lxml-xml'
         self.soup = bs4.BeautifulSoup('{:}'.format(raw_html), parser_type)
         self.parser_type = parser_type
+        # self.journal_name = None
         self.title = []
         self.keywords = []
         self.data_sections = []
@@ -52,10 +34,6 @@ class ParserPaper:
         """
         self.data_sections = []
         self.create_parser_sections(self.soup)
-
-    @staticmethod
-    def compile(pattern):
-        return re.compile(pattern)
 
     @staticmethod
     def compile(pattern):
@@ -82,21 +60,22 @@ class ParserPaper:
             except AttributeError:
                 continue
             content = []
-            for p in tag.find_all('p'):
+            for p in tag.find_all('div', class_='NLM_paragraph'):  # for some reason this is the paragraph tag/class that AIP uses for paragraphs
                 p = p.getText()
-                p = re.sub('\n*\s+\n*', ' ', p)
-                p = re.sub(r'\s?\[(\s|-\s|–\s|,\s)*\]', '', p)
-
-                content.append(p.strip())
+                p = p.strip()
+                p = re.sub(r'[\n] *', ' ', p)  # an embedded tag of named_content was adding in whitespaces which wouldn,'t strip but this solved the problem. These embedded tags couldn't be just thrown out because their text had relevant text to the paragraph they were imbedded in
+                p = re.sub(r' {2,}', ' ', p)  # common for multiple named_content tags leading to the above line adding more than one space 
+                content.append(p)
             if len(content) > 0:
                 self.data_sections.append(self.create_section(
                     name=name,
                     type_section=tag.name,
                     content=content))
 
+        
         # Nest data sections
         prev_texts = []
-        for i in range(6, 1, -1):
+        for i in range(10, 1, -1):
             did_nest = False
             secname = "section_h{}".format(i)
             supersec_name = "section_h{}".format(i - 1)
@@ -140,8 +119,6 @@ class ParserPaper:
                 fd_div.write(self.soup.prettify())
                 fd_div.write('\n')
             else:
-                # for item in self.soup:
-                #     #fd_div.write(item)
                 fd_div.write(str(self.soup))
                 fd_div.write('\n')
 
@@ -150,15 +127,6 @@ class ParserPaper:
             self.title = next(x for x in self.get(rules))
         except StopIteration:
             self.title = None
-
-    """ 
-        for rule in rules:
-            title = self.soup.find_all(**rule)
-            for item_title in title:
-                text = tl.convert_to_text(item_title.get_text())
-                self.title.append(text)
-                item_title.extract()
-    """
 
     def get(self, rules):
         results = list()
@@ -176,6 +144,33 @@ class ParserPaper:
             for keyword in self.soup.find_all(**rule):
                 self.keywords.append(tl.convert_to_text(keyword.get_text()))
                 keyword.extract()
+    
+    def get_doi(self, rule={'name': 'ul', 'class': 'breadcrumbs'}):
+        self.doi = ''
+        try:
+            breadcrumbs = self.soup.find(**rule)
+            for li in breadcrumbs.find_all('li'):
+                if '10.10' in li.getText():
+                    doi = li.getText()
+                    doi = re.sub(r'[\n] *', '', doi)
+                    self.doi = doi
+        except:
+            pass
+    
+    def get_journal(self, rule={'name': 'ul', 'class': 'breadcrumbs'}):
+        try:
+            breadcrumbs = self.soup.find(**rule)
+            count=0
+            for li in breadcrumbs.find_all('li'):
+                count+=1
+                if count == 2:
+                    journal = li.getText()
+                    journal = re.sub(r'[\n] *>*', '', journal)
+                    self.journal_name = journal
+        except:
+            pass
+
+
 
     def remove_tags(self, rules):
         """
@@ -279,9 +274,8 @@ class ParserPaper:
             return None
         number_of_paragraphs_children = len(list(list(
             self.soup_orig.children)[0].find_all('p', recursive=True)
-                                                 )
-                                            )
-
+                                                 ))
+    
     def create_tag_from_selection(self, rule, name_new_tag, name_section='Abstract'):
         """
         Create a tag inside a bs4 soup object from a selection using a rule.
@@ -347,17 +341,25 @@ class ParserPaper:
         :param rule:
         :return:
         """
-        tag_names = ['h{}'.format(i) for i in range(1, 6)]
+        search_str = re.compile('NLM_sec_level_[2-6]')
+        sub_sections = self.soup.find_all(class_=search_str)
+        for s in sub_sections:
+            s.contents[1].name = 'h'+str(int(s['class'][1][-1])+3)
+
+        tag_names = ['h{}'.format(i) for i in range(1, 10)]
         for tag_name in tag_names:
             tags = self.soup.find_all(tag_name)  # Tags corresponded to headings
             for each_tag in tags:
-                inside_tags = [item for item in itertools.takewhile(
-                    lambda t: t.name not in [each_tag.name, 'script'],
-                    each_tag.next_siblings)]
+                if each_tag.name == 'h4':
+                    inside_tags = [x for x in each_tag.parent.next_siblings]
+                else:  # this feels extremely hacky, but this is the simplist way if I am to build off the already established ParserPaper. Essentially after the h4 tag the same order for internal paragraphs is not followed so this is necessary
+                    inside_tags = [x for x in each_tag.next_siblings]
                 section = self.soup.new_tag('section_{}'.format(tag_name))
                 each_tag.wrap(section)
-                for tag in inside_tags:
-                    section.append(tag)
+                # for tag in inside_tags:
+                if inside_tags:
+                    for tag in inside_tags:
+                        section.append(tag)
 
     def rename_tag(self, rule, new_name='section_h4'):
         tags = self.soup.find_all(**rule)
@@ -386,27 +388,39 @@ class ParserPaper:
     def raw_html(self):
         return self.soup.prettify()
 
-    def handle_list(self):
+    def handle_lists(self):
         """
         This handles list so they show up as one paragraph and ensure that list elements do not get double counted as two paragraphs
         This function will extra the contents of a list, delete the list and then reinsert the list contents as separate paragraphs
         """
         # unordered lists (bulleted lists)
-        list_tags = self.soup.find_all('div', class_='UnorderedList')
+        list_tags = self.soup.find_all('table', class_='listgroup')
         for unordered_list in list_tags:
-            paras_to_add = unordered_list.find_all(class_='Para')
+            paras_to_add = unordered_list.find_all('div', class_='NLM_paragraph')
+            # paras_to_add.append(unordered_list.find_all('div', class_='Para'))
             parent_of_list = unordered_list.parent
+            # parent_of_list.insert_after(para)
             for para in paras_to_add[::-1]:
                 parent_of_list.insert_after(para)
-            unordered_list.extract()
+            # unordered_list.extract()
         # Ordered lists (numbered lists)
-        list_tags = self.soup.find_all('div', class_='OrderedList')
-        for ordered_list in list_tags:
-            paras_to_add = ordered_list.find_all(class_='Para')
-            parent_of_list = ordered_list.parent
+        list_tags = self.soup.find_all('ol', class_='NLM_list-list_type-alpha-lower')
+        for nlm_list in list_tags:
+            paras_to_add = nlm_list.find_all('p')
+            parent_of_list = nlm_list.parent
             for para in paras_to_add[::-1]:
+                para.name='div'
+                para['class']='NLM_paragraph'
                 parent_of_list.insert_after(para)
-            ordered_list.extract()
+        
+        list_tags = self.soup.find_all('ul', class_='NLM_list-list_type-simple')
+        for nlm_list in list_tags:
+            paras_to_add = nlm_list.find_all('p')
+            parent_of_list = nlm_list.previous_sibling
+            for para in paras_to_add[::-1]:
+                para.name='div'
+                para['class']='NLM_paragraph'
+                parent_of_list.insert_after(para)
     
     def create_tag_for_untitled_sections(self):
         """
@@ -415,19 +429,27 @@ class ParserPaper:
         # first need to find paragraphs which do not belong to a section
         untitled_paras = []
         # this means the paragraph has no section header
-        for para in self.soup.find_all('p', class_='Para'):
+        for para in self.soup.find_all('div', class_='NLM_paragraph'):
+            check=True
+
+            for tag in ['h{}'.format(str(i)) for i in range(1, 10)]:
+                if tag in para.parent.name:
+                    check = False
+                    break
             try:
-                if para.parent.name == 'div' and para.parent['id'] == 'body':
-                    untitled_paras.append(para)
+                if check:
+                    for parent in para.parents:
+                        if parent.name == 'div' and parent['class'] == ["hlFld-Fulltext"]:
+                            untitled_paras.append(para)
+                            break
             except:
                 pass
         if len(untitled_paras)>0:
             untitled_paras[0].wrap(self.soup.new_tag('section'))
-            untitled_paras[0].wrap(self.soup.new_tag('section_h2'))
+            untitled_paras[0].wrap(self.soup.new_tag('section_h4'))
             untitled_paras[0].wrap(self.soup.new_tag('div', class_='content'))
-            newtag = self.soup.new_tag('h2', class_='Heading')
+            newtag = self.soup.new_tag('h4', class_='Heading')
             newtag.append('Untitled')
             untitled_paras[0].parent.insert_before(newtag)
             for para in untitled_paras[1:]:
                 untitled_paras[0].parent.append(para)
-
