@@ -5,14 +5,15 @@ from LimeSoup import (
     ElsevierSoup, 
     IOPSoup, 
     NatureSoup, 
-    RSCSoup, 
+    RSCSoup,
     SpringerSoup, 
     WileySoup,
     AIPSoup
 )
 import json
 
-with open('data/AIP/Berkeley/AIP-Advances.10.1063-1.4820389.html', 'r', encoding = 'utf-8') as f:
+'data\AIP\Berkeley\The-Journal-of-Chemical-Physics.10.1063-1.5094220.html'
+with open('data\AIP\Berkeley\The-Journal-of-Chemical-Physics.10.1063-1.5094220.html', 'r', encoding = 'utf-8') as f:
 
     html_str = f.read()
 
