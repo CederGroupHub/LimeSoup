@@ -16,5 +16,5 @@ with open('data/101016jelectacta201612018.xml', 'r', encoding = 'utf-8') as f:
 
 data = ElsevierSoup.parse(html_str)
 
-with open('Parsed/101016jelectacta201612018.json', 'w', encoding = 'utf-8') as f:
+with open('file_test.json', 'w', encoding = 'utf-8') as f:
     json.dump(data, f, sort_keys=True, indent=4, ensure_ascii=False)
