@@ -64,7 +64,7 @@ class ParserPaper:
                 p = p.getText()
                 p = p.strip()
                 p = re.sub(r'[\n] *', ' ', p)  # an embedded tag of named_content was adding in whitespaces which wouldn,'t strip but this solved the problem. These embedded tags couldn't be just thrown out because their text had relevant text to the paragraph they were imbedded in
-                p = re.sub(r' {2,}', ' ', p)  # common for multiple named_content tags leading to the above line adding more than one space 
+                p = re.sub(r' {2,}', ' ', p)  # common for multiple named_content tags leading to the above line adding more than one space
                 content.append(p)
             if len(content) > 0:
                 self.data_sections.append(self.create_section(
@@ -431,9 +431,8 @@ class ParserPaper:
         # this means the paragraph has no section header
         for para in self.soup.find_all('div', class_='NLM_paragraph'):
             check=True
-
-            for tag in ['h{}'.format(str(i)) for i in range(1, 10)]:
-                if tag in para.parent.name:
+            for parent in para.parents:
+                if re.match(re.compile(r'section_h[0-9]'), parent.name):
                     check = False
                     break
             try:

@@ -33,11 +33,13 @@ class AIPRemoveTagsSmallSub(RuleIngredient):
                  {'name': 'span', 'class':'InlineEquation'},
                  {'name': 'span', 'class':'InternalRef'},
                  {'name': 'mi'},
-                 {'name': 'mtext'},
+                #  {'name': 'mtext'},  # this was removing important spaces for units embedded in math text
                  {'name': 'mrow'},
                  {'name': 'msub'},
                  {'name': 'msup'},
-                 {'name': 'named-content'}
+                 {'name': 'named-content'},
+                 {'name': 'a', 'class': 'ref headerSection'},
+                 {'name': 'a', 'title': 'Open Figure Viewer'}
                 ]
         parser.operation_tag_remove_space(rules)
         # Remove some specific all span that are inside of a paragraph 'p'
@@ -121,6 +123,9 @@ class AIPCollect(RuleIngredient):
                 {'name': 'h1', 'recursive': True},
             ]
         )
+        parser.title = re.sub('&ensp;', ' ', parser.title)
+        parser.title = re.sub('&thinsp', ' ', parser.title)
+        parser.title = re.sub('&emsp', ' ', parser.title)
         parser.get_doi()
         parser.get_journal()
         # Create tag from selection function in ParserPaper
@@ -128,6 +133,7 @@ class AIPCollect(RuleIngredient):
         soup = BeautifulSoup(html_str, 'html.parser')
         parser.deal_with_sections()
         data = parser.data_sections
+
         if len(data) == 0:  # this means there are no headers at all, so all paragraphs will be collected
             abstract_tag = parser.soup.find('div', class_='hlFld-Abstract')
             if abstract_tag:
