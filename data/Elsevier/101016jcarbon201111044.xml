@@ -1,0 +1,983 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S0008622311009304</prism:url><dc:identifier>doi:10.1016/j.carbon.2011.11.044</dc:identifier><eid>1-s2.0-S0008622311009304</eid><prism:doi>10.1016/j.carbon.2011.11.044</prism:doi><pii>S0008-6223(11)00930-4</pii><dc:title>The filling of carbon nanotubes with magnetoelectric Cr2O3
+             </dc:title><prism:publicationName>Carbon</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>
+               Letter to the Editor
+            </pubType><prism:issn>00086223</prism:issn><prism:volume>50</prism:volume><prism:issueIdentifier>4</prism:issueIdentifier><prism:startingPage>1706</prism:startingPage><prism:endingPage>1709</prism:endingPage><prism:pageRange>1706-1709</prism:pageRange><prism:number>4</prism:number><dc:format>text/xml</dc:format><prism:coverDate>2012-04-30</prism:coverDate><prism:coverDisplayDate>April 2012</prism:coverDisplayDate><prism:copyright>Copyright © 2011 Elsevier Ltd. All rights reserved.</prism:copyright><prism:publisher>Elsevier Ltd.</prism:publisher><dc:creator>Bajpai, A.</dc:creator><dc:creator>Gorantla, S.</dc:creator><dc:creator>Löffler, M.</dc:creator><dc:creator>Hampel, S.</dc:creator><dc:creator>Rümmeli, M.H.</dc:creator><dc:creator>Thomas, J.</dc:creator><dc:creator>Ritschel, M.</dc:creator><dc:creator>Gemming, T.</dc:creator><dc:creator>Büchner, B.</dc:creator><dc:creator>Klingeler, R.</dc:creator><dc:description>
+               Abstract
+               
+                  We report the encapsulation of the antiferromagnetic and magnetoelectric oxide Cr2O3 inside both multi - and single-walled carbon nanotubes. This is achieved by a two step post-synthesis filling process which involves the filling of nanotubes with CrO3 either from aqueous solution or from the molten phase, followed by appropriate annealing sequences. TEM imaging confirms significant filling rates for both multi- and single-walled carbon nanotubes. Analytical transmission electron microscopy implies that after secondary annealing Cr2O3 is formed inside the nanotubes.
+               
+            </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><link href="https://api.elsevier.com/content/article/pii/S0008622311009304" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S0008622311009304" rel="scidir"/></coredata><objects><object ref="gr2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="311" height="451" size="32814">https://api.elsevier.com/content/object/eid/1-s2.0-S0008622311009304-gr2.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="113" height="164" size="4557">https://api.elsevier.com/content/object/eid/1-s2.0-S0008622311009304-gr2.sml?httpAccept=%2A%2F%2A</object><object ref="gr3" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="355" height="704" size="88617">https://api.elsevier.com/content/object/eid/1-s2.0-S0008622311009304-gr3.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="82" height="163" size="5733">https://api.elsevier.com/content/object/eid/1-s2.0-S0008622311009304-gr3.sml?httpAccept=%2A%2F%2A</object><object ref="gr4" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="360" height="281" size="34557">https://api.elsevier.com/content/object/eid/1-s2.0-S0008622311009304-gr4.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="210" height="164" size="7289">https://api.elsevier.com/content/object/eid/1-s2.0-S0008622311009304-gr4.sml?httpAccept=%2A%2F%2A</object><object ref="fx1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="542" height="818" size="118989">https://api.elsevier.com/content/object/eid/1-s2.0-S0008622311009304-fx1.jpg?httpAccept=%2A%2F%2A</object><object ref="fx1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="108" height="163" size="6575">https://api.elsevier.com/content/object/eid/1-s2.0-S0008622311009304-fx1.sml?httpAccept=%2A%2F%2A</object><object ref="fx3" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="267" height="255" size="32922">https://api.elsevier.com/content/object/eid/1-s2.0-S0008622311009304-fx3.jpg?httpAccept=%2A%2F%2A</object><object ref="fx3" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="172" height="164" size="13024">https://api.elsevier.com/content/object/eid/1-s2.0-S0008622311009304-fx3.sml?httpAccept=%2A%2F%2A</object><object ref="fx2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="396" height="366" size="56808">https://api.elsevier.com/content/object/eid/1-s2.0-S0008622311009304-fx2.jpg?httpAccept=%2A%2F%2A</object><object ref="fx2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="177" height="163" size="10360">https://api.elsevier.com/content/object/eid/1-s2.0-S0008622311009304-fx2.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="477" height="477" size="57921">https://api.elsevier.com/content/object/eid/1-s2.0-S0008622311009304-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="164" height="164" size="6557">https://api.elsevier.com/content/object/eid/1-s2.0-S0008622311009304-gr1.sml?httpAccept=%2A%2F%2A</object></objects><scopus-id>84855847295</scopus-id><scopus-eid>2-s2.0-84855847295</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/84855847295" rel="abstract"/><originalText><xocs:doc xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd" xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd">
+   <xocs:meta>
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>271508</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291681</xocs:ssid>
+         <xocs:ssid type="subj">291689</xocs:ssid>
+         <xocs:ssid type="subj">291711</xocs:ssid>
+         <xocs:ssid type="subj">291940</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Carbon</xocs:srctitle>
+      <xocs:normalized-srctitle>CARBON</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20111201">2011-12-01</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20111201">2011-12-01</xocs:available-online-date>
+      <xocs:ew-transaction-id>2012-01-12T22:43:23</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S0008622311009304</xocs:eid>
+      <xocs:pii-formatted>S0008-6223(11)00930-4</xocs:pii-formatted>
+      <xocs:pii-unformatted>S0008622311009304</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.carbon.2011.11.044</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.1</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S0008622312X00022</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20150513">2015-05-13T23:51:00.570352-04:00</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20120401</xocs:date-search-begin>
+      <xocs:date-search-end>20120430</xocs:date-search-end>
+      <xocs:year-nav>2012</xocs:year-nav>
+      <xocs:indexeddate epoch="1322697600">2011-12-01T00:00:00Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo crossmark dco dateupdated tomb dateloaded datesearch indexeddate issuelist volumelist yearnav articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright dateloadedtxt docsubtype doctype doi eid ewtransactionid hubeid issfirst issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype subheadings volfirst volissue webpdf webpdfpagecount figure body acknowledge affil appendices articletitle auth authfirstini authfull authlast primabst pubtype ref alllist content subj ssids</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>0008-6223</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>00086223</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0"/>
+      <xocs:vol-first>50</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>50</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>4</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>4</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 50, Issue 4</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>31</xocs:sort-order>
+      <xocs:first-fp>1706</xocs:first-fp>
+      <xocs:last-lp>1709</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>1706</xocs:first-page>
+         <xocs:last-page>1709</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201204</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>April 2012</xocs:cover-date-text>
+      <xocs:cover-date-start>2012-04-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2012-04-30</xocs:cover-date-end>
+      <xocs:cover-date-year>2012</xocs:cover-date-year>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Letters to the Editor</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>simple-article</xocs:document-type>
+      <xocs:document-subtype>cor</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2011 Elsevier Ltd. All rights reserved.</xocs:copyright-line>
+      <xocs:normalized-article-title>FILLINGCARBONNANOTUBESMAGNETOELECTRICCR2O3</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>BAJPAI</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>A</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>Acknowledgements</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:appendices">
+            <xocs:item-toc-label>Appendix A</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Supplementary data</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="b0005">
+            <xocs:ref-normalized-surname>HAMPEL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2316</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2322</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="b0010">
+            <xocs:ref-normalized-surname>ZUTIC</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>323</xocs:ref-first-fp>
+            <xocs:ref-last-lp>410</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>I</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="b0015">
+            <xocs:ref-normalized-surname>RADO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1961</xocs:ref-pub-year>
+            <xocs:ref-first-fp>310</xocs:ref-first-fp>
+            <xocs:ref-last-lp>311</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="b0020">
+            <xocs:ref-normalized-surname>BORISOV</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2005</xocs:ref-pub-year>
+            <xocs:ref-first-fp>117203</xocs:ref-first-fp>
+            <xocs:ref-last-lp>117204</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="b0025">
+            <xocs:ref-normalized-surname>SAHOO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>259</xocs:ref-first-fp>
+            <xocs:ref-last-lp>268</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="b0030">
+            <xocs:ref-normalized-surname>RUMMELI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>8234</xocs:ref-first-fp>
+            <xocs:ref-last-lp>8241</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="b0035">
+            <xocs:ref-normalized-surname>MITTAL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2001</xocs:ref-pub-year>
+            <xocs:ref-first-fp>311</xocs:ref-first-fp>
+            <xocs:ref-last-lp>318</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="b0040">
+            <xocs:ref-normalized-surname>AJAYAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1995</xocs:ref-pub-year>
+            <xocs:ref-first-fp>564</xocs:ref-first-fp>
+            <xocs:ref-last-lp>567</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="b0045">
+            <xocs:ref-normalized-surname>AREVALOLOPEZ</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>11843</xocs:ref-first-fp>
+            <xocs:ref-last-lp>11846</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>BAJPAIX2012X1706</xocs:refkey3>
+         <xocs:refkey4lp>BAJPAIX2012X1706X1709</xocs:refkey4lp>
+         <xocs:refkey4ai>BAJPAIX2012X1706XA</xocs:refkey4ai>
+         <xocs:refkey5>BAJPAIX2012X1706X1709XA</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+      </xocs:open-access>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S0008-6223(11)00930-4</xocs:pii-formatted>
+         <xocs:pii-unformatted>S0008622311009304</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S0008622311009304</xocs:eid>
+         <xocs:doi>10.1016/j.carbon.2011.11.044</xocs:doi>
+         <xocs:cid>271508</xocs:cid>
+         <xocs:timestamp>2012-01-13T04:25:31.849442-05:00</xocs:timestamp>
+         <xocs:cover-date-start>2012-04-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2012-04-30</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S0008622311009304-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0008622311009304/MAIN/application/pdf/e650d5515253088e9477a1d48d6ac3de/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0008622311009304/MAIN/application/pdf/e650d5515253088e9477a1d48d6ac3de/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>757593</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>4</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S0008622311009304-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0008622311009304/PREVIEW/image/png/89fb5e32ec17fd0b2541e178bd3e1f38/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0008622311009304/PREVIEW/image/png/89fb5e32ec17fd0b2541e178bd3e1f38/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>67843</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0008622311009304-gr2.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0008622311009304/gr2/DOWNSAMPLED/image/jpeg/309001e1fa499be5752525499394be9e/gr2.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0008622311009304/gr2/DOWNSAMPLED/image/jpeg/309001e1fa499be5752525499394be9e/gr2.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>32814</xocs:filesize>
+               <xocs:pixel-height>451</xocs:pixel-height>
+               <xocs:pixel-width>311</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0008622311009304-gr2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0008622311009304/gr2/THUMBNAIL/image/gif/f6fe4529949de4415c26c0e5ac2d2154/gr2.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0008622311009304/gr2/THUMBNAIL/image/gif/f6fe4529949de4415c26c0e5ac2d2154/gr2.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>4557</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>113</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0008622311009304-gr3.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0008622311009304/gr3/DOWNSAMPLED/image/jpeg/23ede9520c43b6218e62ce27b966d179/gr3.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0008622311009304/gr3/DOWNSAMPLED/image/jpeg/23ede9520c43b6218e62ce27b966d179/gr3.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>88617</xocs:filesize>
+               <xocs:pixel-height>704</xocs:pixel-height>
+               <xocs:pixel-width>355</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0008622311009304-gr3.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0008622311009304/gr3/THUMBNAIL/image/gif/a4e5951483f9e5977589616809015a05/gr3.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0008622311009304/gr3/THUMBNAIL/image/gif/a4e5951483f9e5977589616809015a05/gr3.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>5733</xocs:filesize>
+               <xocs:pixel-height>163</xocs:pixel-height>
+               <xocs:pixel-width>82</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0008622311009304-gr4.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0008622311009304/gr4/DOWNSAMPLED/image/jpeg/69683e2f7a0e4f5468df569c39b88e80/gr4.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0008622311009304/gr4/DOWNSAMPLED/image/jpeg/69683e2f7a0e4f5468df569c39b88e80/gr4.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>34557</xocs:filesize>
+               <xocs:pixel-height>281</xocs:pixel-height>
+               <xocs:pixel-width>360</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0008622311009304-gr4.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0008622311009304/gr4/THUMBNAIL/image/gif/c468317a9d9b29e8389c04300d9ca4d0/gr4.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0008622311009304/gr4/THUMBNAIL/image/gif/c468317a9d9b29e8389c04300d9ca4d0/gr4.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>7289</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>210</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0008622311009304-fx1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0008622311009304/fx1/DOWNSAMPLED/image/jpeg/b7ce3006c120e8d70113abbef35e1b9c/fx1.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0008622311009304/fx1/DOWNSAMPLED/image/jpeg/b7ce3006c120e8d70113abbef35e1b9c/fx1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>fx1</xocs:file-basename>
+               <xocs:filename>fx1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>118989</xocs:filesize>
+               <xocs:pixel-height>818</xocs:pixel-height>
+               <xocs:pixel-width>542</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0008622311009304-fx1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0008622311009304/fx1/THUMBNAIL/image/gif/4a247ad240521eae2de2eca88a2125fc/fx1.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0008622311009304/fx1/THUMBNAIL/image/gif/4a247ad240521eae2de2eca88a2125fc/fx1.sml</xocs:ucs-locator>
+               <xocs:file-basename>fx1</xocs:file-basename>
+               <xocs:filename>fx1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>6575</xocs:filesize>
+               <xocs:pixel-height>163</xocs:pixel-height>
+               <xocs:pixel-width>108</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0008622311009304-fx3.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0008622311009304/fx3/DOWNSAMPLED/image/jpeg/add74b5b58f6076911e4ec680d09c6b4/fx3.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0008622311009304/fx3/DOWNSAMPLED/image/jpeg/add74b5b58f6076911e4ec680d09c6b4/fx3.jpg</xocs:ucs-locator>
+               <xocs:file-basename>fx3</xocs:file-basename>
+               <xocs:filename>fx3.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>32922</xocs:filesize>
+               <xocs:pixel-height>255</xocs:pixel-height>
+               <xocs:pixel-width>267</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0008622311009304-fx3.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0008622311009304/fx3/THUMBNAIL/image/gif/84b3df9c971d9cd3c8dfb3ecd9a004ff/fx3.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0008622311009304/fx3/THUMBNAIL/image/gif/84b3df9c971d9cd3c8dfb3ecd9a004ff/fx3.sml</xocs:ucs-locator>
+               <xocs:file-basename>fx3</xocs:file-basename>
+               <xocs:filename>fx3.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>13024</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>172</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0008622311009304-fx2.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0008622311009304/fx2/DOWNSAMPLED/image/jpeg/587760aaf5701ddf7d9713d919c3b6a6/fx2.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0008622311009304/fx2/DOWNSAMPLED/image/jpeg/587760aaf5701ddf7d9713d919c3b6a6/fx2.jpg</xocs:ucs-locator>
+               <xocs:file-basename>fx2</xocs:file-basename>
+               <xocs:filename>fx2.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>56808</xocs:filesize>
+               <xocs:pixel-height>366</xocs:pixel-height>
+               <xocs:pixel-width>396</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0008622311009304-fx2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0008622311009304/fx2/THUMBNAIL/image/gif/d566787e0701cb469f3fba79431a97a4/fx2.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0008622311009304/fx2/THUMBNAIL/image/gif/d566787e0701cb469f3fba79431a97a4/fx2.sml</xocs:ucs-locator>
+               <xocs:file-basename>fx2</xocs:file-basename>
+               <xocs:filename>fx2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>10360</xocs:filesize>
+               <xocs:pixel-height>163</xocs:pixel-height>
+               <xocs:pixel-width>177</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0008622311009304-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0008622311009304/gr1/DOWNSAMPLED/image/jpeg/0b7161e2f5173ecbdcb39156cfb39e4b/gr1.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0008622311009304/gr1/DOWNSAMPLED/image/jpeg/0b7161e2f5173ecbdcb39156cfb39e4b/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>57921</xocs:filesize>
+               <xocs:pixel-height>477</xocs:pixel-height>
+               <xocs:pixel-width>477</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0008622311009304-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0008622311009304/gr1/THUMBNAIL/image/gif/a9562b5d2bb39cf032d6aafb11b3ed83/gr1.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0008622311009304/gr1/THUMBNAIL/image/gif/a9562b5d2bb39cf032d6aafb11b3ed83/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>6557</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>164</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta>
+   <xocs:serial-item>
+      <simple-article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="cor" xml:lang="en" version="5.1">
+         <item-info>
+            <jid>CARBON</jid>
+            <aid>6960</aid>
+            <ce:pii>S0008-6223(11)00930-4</ce:pii>
+            <ce:doi>10.1016/j.carbon.2011.11.044</ce:doi>
+            <ce:copyright type="full-transfer" year="2011">Elsevier Ltd</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="f0005">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption>
+                  <ce:simple-para id="sp010" view="all">(a and c) Displays bright field TEM images for representative samples of multi- and single-walled CNT, respectively. Both images are recorded after step 1, following the wet chemical route, (b and d) display STEM-HAADF images of MWNT samples after step 1, using wet chemical and melting routes, respectively.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr1"/>
+            </ce:figure>
+            <ce:figure id="f0010">
+               <ce:label>Fig. 2</ce:label>
+               <ce:caption>
+                  <ce:simple-para id="sp015" view="all">Schematic of the filling procedure used for encapsulating Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf> in carbon nanotubes. Both the wet chemical and the melting routes yielded significant filling rates.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr2"/>
+            </ce:figure>
+            <ce:figure id="f0015">
+               <ce:label>Fig. 3</ce:label>
+               <ce:caption>
+                  <ce:simple-para id="sp020" view="all">(a) Displays STEM-HAADF image of a filled MWNT after secondary treatment (step 2). The inset in (b) shows the interlayer filling in a MWNT, (b) shows EELS spectrum (normalized counts vs. energy loss) of the filling (after step 2) as obtained in the wall-region enclosed by the rectangular box in the inset, (c) displays a bright field image of the filled MWNT, in which the interlayer filling is visible as a dark streak, along side the core cavity filling.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr3"/>
+            </ce:figure>
+            <ce:figure id="f0020">
+               <ce:label>Fig. 4</ce:label>
+               <ce:caption>
+                  <ce:simple-para id="sp025" view="all">EELS spectra for (a) bulk CrO<ce:inf loc="post">3</ce:inf>, (b) bulk Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf> and (c) encapsulated material of secondarily treated filled MWNT (see the text). All spectra have been normalized for their signal counts and are shifted arbitrarily along the vertical axis for better visual comparison. Inset: STEM-HAADF image related to spectrum (c).</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr4"/>
+            </ce:figure>
+         </ce:floats>
+         <simple-head>
+            <ce:dochead>
+               <ce:textfn>Letter to the Editor</ce:textfn>
+            </ce:dochead>
+            <ce:title>The filling of carbon nanotubes with magnetoelectric Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf>
+            </ce:title>
+            <ce:author-group>
+               <ce:author>
+                  <ce:given-name>A.</ce:given-name>
+                  <ce:surname>Bajpai</ce:surname>
+                  <ce:cross-ref refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="cor1">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  <ce:e-address type="email">ashnabajpai@gmail.com</ce:e-address>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>S.</ce:given-name>
+                  <ce:surname>Gorantla</ce:surname>
+                  <ce:cross-ref refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>M.</ce:given-name>
+                  <ce:surname>Löffler</ce:surname>
+                  <ce:cross-ref refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>S.</ce:given-name>
+                  <ce:surname>Hampel</ce:surname>
+                  <ce:cross-ref refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>M.H.</ce:given-name>
+                  <ce:surname>Rümmeli</ce:surname>
+                  <ce:cross-ref refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="aff2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>J.</ce:given-name>
+                  <ce:surname>Thomas</ce:surname>
+                  <ce:cross-ref refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>M.</ce:given-name>
+                  <ce:surname>Ritschel</ce:surname>
+                  <ce:cross-ref refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>T.</ce:given-name>
+                  <ce:surname>Gemming</ce:surname>
+                  <ce:cross-ref refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>B.</ce:given-name>
+                  <ce:surname>Büchner</ce:surname>
+                  <ce:cross-ref refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>R.</ce:given-name>
+                  <ce:surname>Klingeler</ce:surname>
+                  <ce:cross-ref refid="aff3">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="aff1">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>Leibniz-Institute for Solid State and Materials Research, IFW Dresden - 01171 Dresden, Germany</ce:textfn>
+               </ce:affiliation>
+               <ce:affiliation id="aff2">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>Technical University Dresden, 01062 Dresden, Germany</ce:textfn>
+               </ce:affiliation>
+               <ce:affiliation id="aff3">
+                  <ce:label>c</ce:label>
+                  <ce:textfn>Kirchhoff Institute for Physics, University of Heidelberg, 69120 Heidelberg, Germany</ce:textfn>
+               </ce:affiliation>
+               <ce:correspondence id="cor1">
+                  <ce:label>⁎</ce:label>
+                  <ce:text>
+                     <ce:italic>Corresponding author:</ce:italic> Current address: Department of Materials, University of Oxford, Oxford OX1 3PH, UK.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="21" month="9" year="2011"/>
+            <ce:date-accepted day="23" month="11" year="2011"/>
+            <ce:abstract class="author" xml:lang="en">
+               <ce:section-title>Abstract</ce:section-title>
+               <ce:abstract-sec>
+                  <ce:simple-para id="sp005" view="all">We report the encapsulation of the antiferromagnetic and magnetoelectric oxide Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf> inside both multi - and single-walled carbon nanotubes. This is achieved by a two step post-synthesis filling process which involves the filling of nanotubes with CrO<ce:inf loc="post">3</ce:inf> either from aqueous solution or from the molten phase, followed by appropriate annealing sequences. TEM imaging confirms significant filling rates for both multi- and single-walled carbon nanotubes. Analytical transmission electron microscopy implies that after secondary annealing Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf> is formed inside the nanotubes.</ce:simple-para>
+               </ce:abstract-sec>
+            </ce:abstract>
+         </simple-head>
+         <body view="all">
+            <ce:sections>
+               <ce:para id="p0005" view="all">Encapsulating magnetic materials in carbon nanotubes (CNTs) and thereby coupling the functionality of the nanoscale magnetic materials with that of the CNT is highly desired for a diverse range of future applications <ce:cross-ref refid="b0005">[1]</ce:cross-ref>. The magnetic filling in CNT is particularly relevant in spintronics <ce:cross-ref refid="b0010">[2]</ce:cross-ref> where magnetic field, electric field and possibly strain guided applications for magnetically functionalized nanotubes can give rise to novel nano-spintronic devices.</ce:para>
+               <ce:para id="p0010" view="all">Here, we exploit the feasibility of endohedral functionalization of CNT by means of the technologically relevant Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3,</ce:inf> thereby merging the fields of magnetoelectrics and intrinsically nanoscaled core-shell materials. Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf> is a well explored antiferromagnetic (AFM) insulator and a prototypical magnetoelectric (ME) compound, having the ability to exhibit electric field induced magnetization or magnetic field induced electric polarization <ce:cross-ref refid="b0015">[3]</ce:cross-ref>. Due to this reason, Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf> has been extensively studied in the past and in recent years <ce:cross-ref refid="b0020">[4]</ce:cross-ref>, with the focus aiming to explore its utility as a spintronic material. Interestingly, Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf> was also studied regarding the possibility of piezomagnetism <ce:cross-ref refid="b0025">[5]</ce:cross-ref>, i.e. wherein applied stress results in a spontaneous magnetic moment. Thus nanoscaled carbon-shielded Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf> is interesting from both fundamental and application point of view.</ce:para>
+               <ce:para id="p0015" view="all">The concentric multi-walled and single wall carbon nanotubes (MWNT/ SWNT) used in the filling process were synthesized by usual aerosol-assisted chemical vapor deposition technique and laser ablation <ce:cross-ref refid="b0030">[6]</ce:cross-ref> respectively. Transmission electron microscopy (TEM) studies were performed using a FEI Tecnai F30 TEM/STEM microscope operated at 300 kV accelerating voltage. In addition, the scanning TEM-high angle annular dark field (STEM-HAADF) imaging mode was used to visualize the oxide filling. Analytical characterization was done by means of electron energy loss spectroscopy (EELS) in the STEM mode. We have also obtained EELS data from the bulk CrO<ce:inf loc="post">3</ce:inf> and Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf> samples procured from Sigma Aldrich, for comparison.</ce:para>
+               <ce:para id="p0020" view="all">CrO<ce:inf loc="post">3</ce:inf> is a strong oxidant and often used as catalyst in chemical industries and previously there have been efforts to stabilize CrO<ce:inf loc="post">3</ce:inf> inside CNT using a chemical route<ce:cross-ref refid="b0035">[7]</ce:cross-ref>. However, in our two step method, first the raw material CrO<ce:inf loc="post">3</ce:inf> is filled inside the CNT by capillary action<ce:cross-ref refid="b0040">[8]</ce:cross-ref>, followed by conversion of this filling to the desired oxide by suitable annealing sequences (see <ce:cross-ref refid="s0015">Fig. S1</ce:cross-ref> for pristine MWNT). It is to be noted that CrO<ce:inf loc="post">3</ce:inf> is soluble in water and it also melts at moderately low temperatures of about 200 °C. Thus, capillary action of step-1 is in principle applicable from aqueous solution (wet chemical approach) or the molten phase of CrO<ce:inf loc="post">3</ce:inf>. For wet chemical approach, CrO<ce:inf loc="post">3</ce:inf> is dissolved in water and the solution is slowly heated up to 125 °C which leads to the filling of the CNT with CrO<ce:inf loc="post">3</ce:inf>. Note, that there are no traces of filling when keeping the CrO<ce:inf loc="post">3</ce:inf>/water solution at room temperature, even for days. In contrast, heating the solution for even very short time periods results in filled CNT. Prior to TEM investigations, the filled CNT were repetitively washed with distilled water so as to remove the residual CrO<ce:inf loc="post">3</ce:inf>. Representative TEM images from several successful trials are shown in <ce:cross-ref refid="f0005">Fig. 1</ce:cross-ref>
+                  <ce:float-anchor refid="f0005"/>. The filling is clearly visible in a bright field TEM (<ce:cross-ref refid="f0005">Fig. 1</ce:cross-ref>a) and STEM (<ce:cross-ref refid="f0005">Fig. 1</ce:cross-ref>b) of an individual MWNT. Interestingly, the same filling procedures can be applied for SWNT (<ce:cross-ref refid="f0005">Fig. 1</ce:cross-ref>c). It was observed that the step 1 did not work when the ratio of the respective mass fractions of CrO<ce:inf loc="post">3</ce:inf> and CNT was significantly above a critical ratio of 20. Another crucial parameter is the temperature which can be up to 125 °C during the step 1 of wet chemical process. Beyond these critical values, all the CNT in the sample were oxidized and only the crystallites of CrO<ce:inf loc="post">3</ce:inf> could be traced at the end. (<ce:cross-ref refid="s0015">Fig. S2</ce:cross-ref>, supplementary data). The alternative post-synthesis filling route involves a molten state procedure where a mixture of CNT and CrO<ce:inf loc="post">3</ce:inf> was heated (inside vacuum sealed quartz tube) near the melting temperature of CrO<ce:inf loc="post">3</ce:inf> for time periods lasting up to several days (<ce:cross-ref refid="f0005">Fig. 1</ce:cross-ref>d). The characterization by EELS showed no differences in the filling obtained either by the wet chemical method or using molten CrO<ce:inf loc="post">3</ce:inf>. However, for melting route, heating the mixture in air destroyed the CNT and in most trails, no traces of CNT were found at the end. The experiments hence imply that for step 1, the wet chemical route is simpler than the molten phase, as no prolonged heating time periods under vacuum are required. <ce:cross-ref refid="f0010">Fig. 2</ce:cross-ref>
+                  <ce:float-anchor refid="f0010"/> summarizes the steps involved in both procedures. The filling efficiency in case of capillary action can be up to 50%, though in our case we have not done any specific measurements to determine it. However, the overview TEM image of filled MWNT in samples prepared in different batches is similar to what is shown in <ce:cross-ref refid="s0015">Fig. S3</ce:cross-ref>.</ce:para>
+               <ce:para id="p0025" view="all">The conversion of the filling into the desired Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf> phase is done by a secondary treatment as step 2. The filled CNT(after step 1) are further annealed at 400 °C as bulk CrO<ce:inf loc="post">3</ce:inf> is known to convert to Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf> at or above this temperature (<ce:cross-ref refid="f0010">Fig. 2</ce:cross-ref>). While it is possible to convert bulk CrO<ce:inf loc="post">3</ce:inf> to Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf> by simply heating in air but when CrO<ce:inf loc="post">3</ce:inf> is filled inside CNT, this conversion needs to be done under vacuum. <ce:cross-ref refid="f0015">Fig. 3</ce:cross-ref>
+                  <ce:float-anchor refid="f0015"/>a shows a STEM-HAADF image of a filled CNT after step-2. Surprisingly, the step-2 also results in a significant amount of interlayer filling in between the walls (inset of <ce:cross-ref refid="f0015">Fig. 3</ce:cross-ref>b and <ce:cross-ref refid="f0015">Fig. 3</ce:cross-ref>c). The EELS spectrum obtained on the wall-region further confirms that the interlayer filling still constitutes of chromium and oxygen (<ce:cross-ref refid="f0015">Fig. 3</ce:cross-ref>b).</ce:para>
+               <ce:para id="p0030" view="all">We investigated a variety of individual filled CNT (after step 2) by means of EELS. A representative spectrum is shown in <ce:cross-ref refid="f0020">Fig. 4</ce:cross-ref>
+                  <ce:float-anchor refid="f0020"/>. Here, the onset of the O-<ce:italic>K</ce:italic> edge of each spectrum is aligned to the O-<ce:italic>K</ce:italic> EELS energy loss value of 532 eV. The data in <ce:cross-ref refid="f0020">Fig. 4</ce:cross-ref> clearly shows that the EELS response of the annealed filling inside the MWNT is comparable to that of bulk Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf>. The <ce:italic>L</ce:italic>-edges appear at the same energies relative to the O-<ce:italic>K</ce:italic> peak and the shapes as well as peaks heights of O-<ce:italic>K</ce:italic>, Cr-<ce:italic>L</ce:italic>
+                  <ce:inf loc="post">3</ce:inf>, and Cr-<ce:italic>L</ce:italic>
+                  <ce:inf loc="post">2</ce:inf> excitations are very similar to the bulk Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf> spectrum. The observed energy difference between the onset of Cr-<ce:italic>L</ce:italic>
+                  <ce:inf loc="post">3</ce:inf> edges of bulk CrO<ce:inf loc="post">3</ce:inf> and Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf> in <ce:cross-ref refid="f0020">Fig. 4</ce:cross-ref> was ∼4.5 eV. This is in good agreement with previously reported energy difference (ΔE<ce:inf loc="post">Cr</ce:inf>
+                  <ce:italic>
+                     <ce:inf loc="post">L</ce:inf>
+                  </ce:italic>
+                  <ce:inf loc="post">3-O</ce:inf>
+                  <ce:italic>
+                     <ce:inf loc="post">K</ce:inf>
+                  </ce:italic>) between the O-<ce:italic>K</ce:italic> and Cr-<ce:italic>L</ce:italic>
+                  <ce:inf loc="post">3</ce:inf> edges, for CrO<ce:inf loc="post">3</ce:inf> (+6) and Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf> (+3) EELS spectra to be in the range of 4.4-5.6 eV <ce:cross-ref refid="b0045">[9]</ce:cross-ref>. Also, the mismatch between EELS spectra features of the annealed filling and bulk CrO<ce:inf loc="post">3</ce:inf> is clearly apparent in <ce:cross-ref refid="f0020">Fig. 4</ce:cross-ref>. Our EELS data therefore provide evidence that the filling inside CNT after step 2 is Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf>.</ce:para>
+               <ce:para id="p0035" view="all">Our results hence show the feasibility of filling antiferromagnetic and magnetoelectric Cr<ce:inf loc="post">2</ce:inf>O<ce:inf loc="post">3</ce:inf> inside CNT, thereby fabricating intrinsically nanoscaled functional material which is shielded by a protecting carbon shell and may exhibit tunability of magnetism with applied magnetic fields as well as electric fields.</ce:para>
+            </ce:sections>
+            <ce:acknowledgment>
+               <ce:section-title>Acknowledgements</ce:section-title>
+               <ce:para id="p0045" view="all">A.B. acknowledges support through a EU Marie Curie IIF fellowship under Project 040127-NEWMATCR. MHR thanks the EU (ECEMP) and the Freistaat Sachsen.</ce:para>
+            </ce:acknowledgment>
+            <ce:appendices view="all">
+               <ce:section view="compact-standard" id="s0010">
+                  <ce:label>Appendix A</ce:label>
+                  <ce:section-title>Supplementary data</ce:section-title>
+                  <ce:para id="p0050" view="all">Supplementary data associated with this article can be found, in the online version, at <ce:inter-ref xlink:href="doi:10.1016/j.carbon.2011.11.044" xlink:type="simple">doi:10.1016/j.carbon.2011.11.044</ce:inter-ref>.</ce:para>
+               </ce:section>
+               <ce:section view="extended" id="s0015">
+                  <ce:label>Appendix A</ce:label>
+                  <ce:section-title>Supplementary data</ce:section-title>
+                  <ce:para id="p0055" view="all">
+                     <ce:display>
+                        <ce:figure id="f0025">
+                           <ce:label>Supplementary Fig. S1</ce:label>
+                           <ce:caption>
+                              <ce:simple-para id="sp030" view="all">Overview images of the pristine tubes prior to their filling. (a) and (b) show the bright field TEM images of the pristine MWNT. The cross-section of the tube ends in (c) and (d) show that the tubes are circular i.e. concentric type. (e) shows the opened ends of the MWNT prior to their filling. (f) a representative STEM-HAADF image of the pristine MWNT.</ce:simple-para>
+                           </ce:caption>
+                           <ce:link locator="fx1"/>
+                        </ce:figure>
+                     </ce:display>
+                     <ce:display>
+                        <ce:figure id="f0030">
+                           <ce:label>Supplementary Fig. 2</ce:label>
+                           <ce:caption>
+                              <ce:simple-para id="sp035" view="all">SEM image of crystallites of CrO3, when the ratio of the mass fractions of CrO3 and CNT was significantly more than 20 during step 1. No traces of CNT were found after the heat treatment. Similar results were obtained when the temperature was beyond 125<ce:hsp sp="0.25"/>°C, while using wet chemical approach in step 1.</ce:simple-para>
+                           </ce:caption>
+                           <ce:link locator="fx2"/>
+                        </ce:figure>
+                     </ce:display>
+                     <ce:display>
+                        <ce:figure id="f0035">
+                           <ce:label>Supplementary Fig. 3</ce:label>
+                           <ce:caption>
+                              <ce:simple-para id="sp040" view="all">Bright field TEM image of filled MWNT after step 2. The oxide filling was seen in tubes with diameter ranging from 20 to 65<ce:hsp sp="0.25"/>nm.</ce:simple-para>
+                           </ce:caption>
+                           <ce:link locator="fx3"/>
+                        </ce:figure>
+                     </ce:display>
+                  </ce:para>
+               </ce:section>
+            </ce:appendices>
+         </body>
+         <simple-tail view="all">
+            <ce:bibliography id="bi0005" view="all">
+               <ce:section-title>References</ce:section-title>
+               <ce:bibliography-sec id="bs0005">
+                  <ce:bib-reference id="b0005">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Hampel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Leonhardt</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Selbmann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Biedermann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Elefant</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Mueller</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Growth and characterization of filled carbon nanotubes with ferromagnetic properties</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Carbon</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>44</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2316</sb:first-page>
+                              <sb:last-page>2322</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b0010">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>I.</ce:given-name>
+                                 <ce:surname>Zutic</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Fabian</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.D.</ce:given-name>
+                                 <ce:surname>Sarma</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Spintronics: fundamentals and applications</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Rev Mod Phys</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>76</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>323</sb:first-page>
+                              <sb:last-page>410</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b0015">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.T.</ce:given-name>
+                                 <ce:surname>Rado</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.J.</ce:given-name>
+                                 <ce:surname>Folen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Observation of magnetically induced magnetoelectric effect and evidence for antiferromagnetic domains</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Phys Rev Lett</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>7</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1961</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>310</sb:first-page>
+                              <sb:last-page>311</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b0020">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Borisov</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Hochstrat</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Kleemann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Ch</ce:given-name>
+                                 <ce:surname>Binek</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Magnetoelectric switching of exchange bias</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Phys Rev Lett</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>94</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2005</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>117203</sb:first-page>
+                              <sb:last-page>117204</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b0025">
+                     <ce:label>[5]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Sahoo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Ch</ce:given-name>
+                                 <ce:surname>Binek</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Piezomagnetism in epitaxial Cr<ce:inf loc="post">2</ce:inf> O<ce:inf loc="post">3</ce:inf> thin films and spintronics applications</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Phil Mag Lett</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>87</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>259</sb:first-page>
+                              <sb:last-page>268</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b0030">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.H.</ce:given-name>
+                                 <ce:surname>Rummeli</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Kramberger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Loeffler</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Jost</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Bystrzejewski</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Grueneis</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Catalyst volume to surface area constraints for nucleating carbon nanotubes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Phy Chem B</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>3</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>8234</sb:first-page>
+                              <sb:last-page>8241</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b0035">
+                     <ce:label>[7]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Mittal</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Monthioux</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Allouche</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Stephan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Room temperature filling of single-wall carbon nanotubes with chromium oxide in open air</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Chem Phys Lett</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>339</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2001</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>311</sb:first-page>
+                              <sb:last-page>318</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b0040">
+                     <ce:label>[8]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.M.</ce:given-name>
+                                 <ce:surname>Ajayan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Stephan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.H.</ce:given-name>
+                                 <ce:surname>Redlich</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Colliex</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Carbon nanotubes as removable templates for metal oxide nanocomposites and nanostructure</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nature</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>375</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1995</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>564</sb:first-page>
+                              <sb:last-page>567</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="b0045">
+                     <ce:label>[9]</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.M.</ce:given-name>
+                                 <ce:surname>Arevalo-Lopez</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.A.</ce:given-name>
+                                 <ce:surname>Alario-Franco</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Reliable method for determining the oxidation state in chromium oxides</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Inorg Chem</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>48</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>11843</sb:first-page>
+                              <sb:last-page>11846</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </simple-tail>
+      </simple-article>
+   </xocs:serial-item>
+</xocs:doc></originalText></full-text-retrieval-response>
