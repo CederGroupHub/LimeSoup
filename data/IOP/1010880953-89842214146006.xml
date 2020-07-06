@@ -1,0 +1,6682 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE article SYSTEM "http://ej.iop.org/dtd/iopv1_5_2.dtd">
+<html>
+ <body>
+  <article artid="cm340204">
+   <article-metadata>
+    <jnl-data jnlid="cm">
+     <jnl-fullname>
+      Journal of Physics: Condensed Matter
+     </jnl-fullname>
+     <jnl-abbreviation>
+      J. Phys.: Condens. Matter
+     </jnl-abbreviation>
+     <jnl-shortname>
+      JPhysCM
+     </jnl-shortname>
+     <jnl-issn>
+      0953-8984
+     </jnl-issn>
+     <jnl-coden>
+      JCOMEL
+     </jnl-coden>
+     <jnl-imprint>
+      IOP Publishing
+     </jnl-imprint>
+     <jnl-web-address>
+      stacks.iop.org/JPhysCM
+     </jnl-web-address>
+    </jnl-data>
+    <volume-data>
+     <year-publication>
+      2010
+     </year-publication>
+     <volume-number>
+      22
+     </volume-number>
+    </volume-data>
+    <issue-data>
+     <issue-number>
+      14
+     </issue-number>
+     <coverdate>
+      14 April 2010
+     </coverdate>
+    </issue-data>
+    <article-data>
+     <article-type sort="regular" type="paper">
+     </article-type>
+     <type-number artnum="146006" numbering="article" type="paper">
+     </type-number>
+     <article-number>
+      340204
+     </article-number>
+     <first-page>
+      1
+     </first-page>
+     <last-page>
+      9
+     </last-page>
+     <length>
+      9
+     </length>
+     <pii>
+      S0953-8984(10)40204-0
+     </pii>
+     <doi>
+      10.1088/0953-8984/22/14/146006
+     </doi>
+     <copyright>
+      IOP Publishing Ltd
+     </copyright>
+     <ccc>
+      0953-8984/10/146006 &amp;plus; 9&amp;dollar;30.00
+     </ccc>
+     <printed>
+      Printed in the UK &amp; the USA
+     </printed>
+     <features colour="global">
+     </features>
+    </article-data>
+   </article-metadata>
+   <header>
+    <title-group>
+     <title>
+      A phenomenological approach to the anisotropic magnetoresistance and planar Hall effect in tetragonal
+La
+      <sub>
+       2/3
+      </sub>
+      Ca
+      <sub>
+       1/3
+      </sub>
+      MnO
+      <sub>
+       3
+      </sub>
+      thin films
+     </title>
+     <short-title>
+      AMR and PHE in tetragonal La
+      <sub>
+       2/3
+      </sub>
+      Ca
+      <sub>
+       1/3
+      </sub>
+      MnO
+      <sub>
+       3
+      </sub>
+      thin films
+     </short-title>
+     <ej-title>
+      A phenomenological approach to the anisotropic magnetoresistance and planar Hall effect
+in tetragonal La2/3Ca1/3MnO3 thin films
+     </ej-title>
+    </title-group>
+    <author-group>
+     <author address="cm340204ad1" email="cm340204ea1">
+      <first-names>
+       J
+      </first-names>
+      <second-name>
+       Li
+      </second-name>
+     </author>
+     <author address="cm340204ad1">
+      <first-names>
+       S L
+      </first-names>
+      <second-name>
+       Li
+      </second-name>
+     </author>
+     <author address="cm340204ad1">
+      <first-names>
+       Z W
+      </first-names>
+      <second-name>
+       Wu
+      </second-name>
+     </author>
+     <author address="cm340204ad1">
+      <first-names>
+       S
+      </first-names>
+      <second-name>
+       Li
+      </second-name>
+     </author>
+     <author address="cm340204ad1">
+      <first-names>
+       H F
+      </first-names>
+      <second-name>
+       Chu
+      </second-name>
+     </author>
+     <author address="cm340204ad1">
+      <first-names>
+       J
+      </first-names>
+      <second-name>
+       Wang
+      </second-name>
+     </author>
+     <author address="cm340204ad1">
+      <first-names>
+       Y
+      </first-names>
+      <second-name>
+       Zhang
+      </second-name>
+     </author>
+     <author address="cm340204ad1">
+      <first-names>
+       H Y
+      </first-names>
+      <second-name>
+       Tian
+      </second-name>
+     </author>
+     <author address="cm340204ad1" email="cm340204ea2">
+      <first-names>
+       D N
+      </first-names>
+      <second-name>
+       Zheng
+      </second-name>
+     </author>
+     <short-author-list>
+      J Li
+      <italic>
+       et al
+      </italic>
+     </short-author-list>
+    </author-group>
+    <address-group>
+     <address id="cm340204ad1" showid="no">
+      <orgname>
+       National Laboratory for Superconductivity, Beijing National Laboratory for Condensed
+Matter Physics and Institute of Physics, Chinese Academy of Sciences
+      </orgname>
+      , Beijing
+100190,
+      <country>
+       People’s Republic of China
+      </country>
+     </address>
+     <e-address id="cm340204ea1">
+      <email mailto="lijie@ssc.iphy.ac.cn">
+       lijie@ssc.iphy.ac.cn
+      </email>
+     </e-address>
+     <e-address id="cm340204ea2">
+      <email mailto="dzheng@ssc.iphy.ac.cn">
+       dzheng@ssc.iphy.ac.cn
+      </email>
+     </e-address>
+    </address-group>
+    <history finalform="22 February 2010" online="23 March 2010" received="4 December 2009">
+    </history>
+    <abstract-group>
+     <abstract>
+      <heading>
+       Abstract
+      </heading>
+      <p indent="no">
+       A La
+       <sub>
+        2/3
+       </sub>
+       Ca
+       <sub>
+        1/3
+       </sub>
+       MnO
+       <sub>
+        3
+       </sub>
+       Hall bar with its long dimension roughly along the hard axis [110]
+was fabricated on a single-crystal-like tensilely strained film on
+SrTiO
+       <sub>
+        3
+       </sub>
+       (001). The anisotropic magnetoresistance (AMR) and planar Hall effect (PHE) have been studied at
+various external magnetic fields and temperatures. A phenomenological model in the high
+field limit is developed, and the galvanomagnetic tensor based on a tetragonal symmetry
+4/
+       <italic>
+        mmm
+       </italic>
+       (D
+       <sub>
+        4h
+       </sub>
+       ), applicable to epitaxial films on a substrate, has been obtained by expanding
+the tensor to the sixth order. The derived in-plane transverse resistance
+       <italic>
+        R
+       </italic>
+       <sub>
+        <italic>
+         xy
+        </italic>
+       </sub>
+       shows
+a sin2&amp;phis;
+       <sub>
+        <italic>
+         M
+        </italic>
+       </sub>
+       angular dependence, while the longitudinal
+       <italic>
+        R
+       </italic>
+       <sub>
+        <italic>
+         xx
+        </italic>
+       </sub>
+       is constituted by not
+only a two-fold cos2&amp;phis;
+       <sub>
+        <italic>
+         M
+        </italic>
+       </sub>
+       term,
+but also a four-fold cos4&amp;phis;
+       <sub>
+        <italic>
+         M
+        </italic>
+       </sub>
+       term due to the square symmetry of the lattice. The model is in good agreement with
+the experimental results in high fields, while deviations are observed near the
+〈100〉 
+easy axis with the decreasing field. Close inspection of the fitting parameters reveals the
+evolution of these term weights with temperature and magnetic field, which is distinct from
+conventional ferromagnetic metals and cannot be explained by the phenomenological
+model. An alternative mechanism for AMR, stemming from the magnetization-induced
+local orbit deformation through spin–orbit interaction, as previously proposed by
+O’Donnell
+       <italic>
+        et al
+       </italic>
+       , may be prevalent in manganites and other systems of complicated crystal
+structure.
+      </p>
+     </abstract>
+    </abstract-group>
+    <classifications>
+     <class-codes scheme="pacs">
+      <code>
+       75.47.Lx
+      </code>
+      <code>
+       73.43.Qt
+      </code>
+      <code>
+       75.70.Ak
+      </code>
+     </class-codes>
+    </classifications>
+   </header>
+   <sec-level1 id="cm340204s1" label="1">
+    <heading>
+     Introduction
+    </heading>
+    <p indent="no">
+     The planar Hall effect (PHE) was intensively studied during the mid-60s of the last
+century, mainly in traditional polycrystalline ferromagnetic metals and alloys [
+     <cite linkend="cm340204bib1" range="cm340204bib1,cm340204bib2,cm340204bib3">
+      1–3
+     </cite>
+     ], and has long been
+recognized as an efficient tool to probe and track magnetic anisotropy and magnetization
+reversal in tiny or film samples. It was widely accepted that PHE originates from the
+change in the scattering rate due to spin–orbit interaction, occurring when the
+magnetization direction is tuned with respect to the electrical current, similar to
+anisotropic magnetoresistance (AMR) [
+     <cite linkend="cm340204bib4">
+      4
+     </cite>
+     ,
+     <cite linkend="cm340204bib5">
+      5
+     </cite>
+     ]. In recent years renascent
+interests in this effect have developed since the discovery of the so-called
+     <italic>
+      giant
+     </italic>
+     PHE in
+the diluted magnetic semiconductor (Ga, Mn)As, where a pseudo-Hall signal
+10
+     <sup>
+      4
+     </sup>
+     times larger than that of conventional ferromagnetic metals was observed [
+     <cite linkend="cm340204bib6">
+      6
+     </cite>
+     ,
+     <cite linkend="cm340204bib7">
+      7
+     </cite>
+     ].
+Through a two-step rotation of the sample magnetization [
+     <cite linkend="cm340204bib8">
+      8
+     </cite>
+     ], the magnetic
+reversal by a weak in-plane sweeping magnetic field leads to two abrupt PHE voltage
+jumps, analogous to the giant magnetoresistance (GMR) in metallic multilayers [
+     <cite linkend="cm340204bib9">
+      9
+     </cite>
+     ]. Advanced magnetic sensors and memory components based on PHE are
+now expected.
+    </p>
+    <p>
+     Similarly, one can expect a giant PHE in manganites, where a strong
+spin–orbit coupling also exists. Actually, transverse resistivity jumps
+comparable in magnitude to that of (Ga, Mn)As were observed shortly after in
+La
+     <sub>
+      1 −
+      <italic>
+       x
+      </italic>
+     </sub>
+     Sr
+     <sub>
+      <italic>
+       x
+      </italic>
+     </sub>
+     MnO
+     <sub>
+      3
+     </sub>
+     [
+     <cite linkend="cm340204bib10">
+      10
+     </cite>
+     ,
+     <cite linkend="cm340204bib11">
+      11
+     </cite>
+     ], and the phenomenon persists up to temperatures even higher than Curie temperature
+     <italic>
+      T
+     </italic>
+     <sub>
+      C
+     </sub>
+     . However, so far only a few studies on PHE in manganites are reported, although it is of
+value not only for practical devices, but also for a comprehensive understanding of
+spin–orbit physics itself. The latter is extremely interesting since the material shares
+a perovskite-like structure with many other transition-metal-based functional
+oxides.
+    </p>
+    <p>
+     On the other hand, in terms of the single domain model for homogeneous polycrystalline
+samples with the magnetization strictly lying in the easy plane [
+     <cite linkend="cm340204bib1">
+      1
+     </cite>
+     ,
+     <cite linkend="cm340204bib2">
+      2
+     </cite>
+     ,
+     <cite linkend="cm340204bib4">
+      4
+     </cite>
+     ,
+     <cite linkend="cm340204bib5">
+      5
+     </cite>
+     ],
+the in-plane longitudinal (AMR) and transverse (PHE) resistivity can be described
+respectively as
+     <display-eqn eqnnum="1" id="cm340204eqn1">
+      <?TeX \begin{equation} 
+\label{equation1}
+\ceqns{\rho_{xx}=\rho_{\perp}+
+(\rho_{\parallel}-\rho_{\perp})\cos^2\phi_M,\\
+\rho_{xy}=\case{1}{2}(\rho_{\parallel}-\rho_{\perp})\sin2\phi_M}
+\end{equation} ?>
+      <eqn-graphic filename="images/cm340204eqn1.gif" format="GIF">
+      </eqn-graphic>
+     </display-eqn>
+     where &amp;phis;
+     <sub>
+      <italic>
+       M
+      </italic>
+     </sub>
+     denotes the angle between the in-plane rotating magnetization
+     <bold>
+      M
+     </bold>
+     and the
+current
+     <bold>
+      J
+     </bold>
+     .
+     <inline-eqn>
+      <?TeX \rho_{\parallel } ?>
+      <inline-graphic filename="images/cm340204ieqn1.gif" format="GIF">
+      </inline-graphic>
+     </inline-eqn>
+     (
+     <inline-eqn>
+      <?TeX \rho_{\perp } ?>
+      <inline-graphic filename="images/cm340204ieqn2.gif" format="GIF">
+      </inline-graphic>
+     </inline-eqn>
+     ) is the resistivity measured with
+     <bold>
+      M
+     </bold>
+     parallel
+(perpendicular) to
+     <bold>
+      J
+     </bold>
+     . When the applied external field is strong enough to saturate the sample,
+     <bold>
+      M
+     </bold>
+     rotates coherently according to the Stoner–Wohlfarth model, and
+&amp;phis;
+     <sub>
+      <italic>
+       M
+      </italic>
+     </sub>
+     equals the angle
+between
+     <bold>
+      J
+     </bold>
+     and the
+magnetic field
+     <bold>
+      H
+     </bold>
+     .
+Below saturation,
+     <bold>
+      M
+     </bold>
+     drops behind
+     <bold>
+      H
+     </bold>
+     and individual domains are each magnetized to their respective nearest easy axes.
+    </p>
+    <p>
+     In fact, equations (
+     <eqnref linkend="cm340204eqn1">
+      1
+     </eqnref>
+     ) were derived phenomenologically from the cubic
+     <italic>
+      m
+     </italic>
+     3
+     <italic>
+      m
+     </italic>
+     symmetry, and the magnetocrystalline anisotropy has been averaged out by integrating the
+randomly oriented grains, therefore it is applied only to polycrystalline samples [
+     <cite linkend="cm340204bib4">
+      4
+     </cite>
+     ].
+Nevertheless, the equation has been widely used to describe AMR and PHE in epitaxial
+thin films [
+     <cite linkend="cm340204bib6">
+      6
+     </cite>
+     ,
+     <cite linkend="cm340204bib12">
+      12
+     </cite>
+     ,
+     <cite linkend="cm340204bib13">
+      13
+     </cite>
+     ], including manganites [
+     <cite linkend="cm340204bib11">
+      11
+     </cite>
+     ,
+     <cite linkend="cm340204bib14" range="cm340204bib14,cm340204bib15,cm340204bib16,cm340204bib17">
+      14–17
+     </cite>
+     ]. Actually, qualitative
+and quantitative deviations have been observed previously in manganites [
+     <cite linkend="cm340204bib18" range="cm340204bib18,cm340204bib19,cm340204bib20">
+      18–20
+     </cite>
+     ], and more recently in
+Fe
+     <sub>
+      3
+     </sub>
+     Si, (Ga,
+Mn)As and Fe
+     <sub>
+      3
+     </sub>
+     O
+     <sub>
+      4
+     </sub>
+     thin films [
+     <cite linkend="cm340204bib21" range="cm340204bib21,cm340204bib22,cm340204bib23">
+      21–23
+     </cite>
+     ]. A
+four-fold oscillation of comparable magnitude has been observed superimposed
+on the two-fold, especially in the longitudinal resistivity, which is gradually
+recognized as originating from higher rank resistivity tensors [
+     <cite linkend="cm340204bib20" range="cm340204bib20,cm340204bib21,cm340204bib22,cm340204bib23">
+      20–23
+     </cite>
+     ].
+In our present study on PHE in a single-crystal-like tensilely strained
+La
+     <sub>
+      2/3
+     </sub>
+     Ca
+     <sub>
+      1/3
+     </sub>
+     MnO
+     <sub>
+      3
+     </sub>
+     thin film
+grown on SrTiO
+     <sub>
+      3
+     </sub>
+     (001), the longitude resistivity does not follow equation (
+     <eqnref linkend="cm340204eqn1">
+      1
+     </eqnref>
+     ), even in fields higher than
+the saturation magnetic field. We then did a phenomenological deduction of the
+galvanomagnetic tensor based on a more complicated tetragonal symmetry
+4/
+     <italic>
+      mmm
+     </italic>
+     (D
+     <sub>
+      4h
+     </sub>
+     ), applicable to films on a substrate, by expanding the tensor to the sixth order following
+Birss’s scheme [
+     <cite linkend="cm340204bib24">
+      24
+     </cite>
+     ]. The derived nonzero components of higher rank tensors,
+as listed in the tables in the appendix, are not only appropriate for electrical resistivity, but
+also for other property tensors such as the thermal conductivity, the Seebeck effect and the
+Peltier effect [
+     <cite linkend="cm340204bib25">
+      25
+     </cite>
+     ]. The AMR and PHE expression derived can fit the
+experimental data in high fields well. Close inspection of the fitting coefficient may reveal
+the evolution of the effects with temperature and magnetic field, which can also provide
+useful information for microscopic theory to obtain parameters of Fermi surface model [
+     <cite linkend="cm340204bib26">
+      26
+     </cite>
+     ], thus deepening our understanding of the electronic structure in
+manganites.
+    </p>
+   </sec-level1>
+   <sec-level1 id="cm340204s2" label="2">
+    <heading>
+     Experimental details
+    </heading>
+    <p indent="no">
+     The La
+     <sub>
+      2/3
+     </sub>
+     Ca
+     <sub>
+      1/3
+     </sub>
+     MnO
+     <sub>
+      3
+     </sub>
+     (LCMO) thin
+film was grown on a SrTiO
+     <sub>
+      3
+     </sub>
+     (001) 
+(STO) substrate by the pulsed laser deposition (PLD) technique from a stoichiometric
+ceramic target. Details of film preparation have been described elsewhere [
+     <cite linkend="cm340204bib27">
+      27
+     </cite>
+     ,
+     <cite linkend="cm340204bib28">
+      28
+     </cite>
+     ]. The whole film growth procedure can be routinely monitored
+     <italic>
+      in
+situ
+     </italic>
+     by a high-pressure reflection high energy electron diffraction (RHEED) system, as seen
+in figure
+     <figref linkend="cm340204fig1">
+      1
+     </figref>
+     (b). The film in this study has been confirmed to be
+     <italic>
+      c
+     </italic>
+     -axis oriented single
+phase with an in-plane epitaxial relationship LCMO[100] (Mn–O bond directions)
+     <inline-eqn>
+      <?TeX \parallel ?>
+      <inline-graphic filename="images/cm340204ieqn3.gif" format="GIF">
+      </inline-graphic>
+     </inline-eqn>
+     STO[100] (cube-on-cube growth). The thickness of the film is ∼ 1500 Å, estimated using atomic force microscopy (AFM). The temperature dependence of the film
+resistance was measured using the four-probe method. The insulator-to-metal transition point
+     <italic>
+      T
+     </italic>
+     <sub>
+      P
+     </sub>
+     was around 170 K, as shown in figure
+     <figref linkend="cm340204fig1">
+      1
+     </figref>
+     (a), lower than the bulk value. This can be attributed to the tensile strain
+from the film–substrate lattice mismatch, which combined with the shape anisotropy
+results in an easy plane parallel to the film surface [
+     <cite linkend="cm340204bib27">
+      27
+     </cite>
+     ].
+     <figure id="cm340204fig1" orientation="port" parts="single" position="float" printstyle="normal" width="column">
+      <graphic>
+       <graphic-file filename="images/4020401.eps" format="EPS" scale="100" version="print">
+       </graphic-file>
+       <graphic-file filename="images/4020401.jpg" format="JPEG" version="ej">
+       </graphic-file>
+      </graphic>
+      <caption id="cm340204fc1" label="Figure 1" type="figure">
+       <p indent="no">
+        (a) The
+        <italic>
+         R–T
+        </italic>
+        curve of the LCMO film. The inset is the schematic diagram of the experimental
+configuration. The bar is roughly along LCMO[110]. (b)
+        <italic>
+         In situ
+        </italic>
+        RHEED monitoring of a
+LCMO film grown in 26 Pa oxygen, with the zone axis along (100) and (110), respectively.
+       </p>
+      </caption>
+     </figure>
+    </p>
+    <p>
+     The film was patterned by ultraviolet photolithography plus ion milling. The Hall bar is 100 
+µm 
+in width, the separation between the voltage electrodes is 600 
+µm, and the long dimension of the Hall bar was aligned roughly along the LCMO[110]
+direction, as schematically shown in the inset of figure
+     <figref linkend="cm340204fig1">
+      1
+     </figref>
+     (a). The electrical contacts were coated with gold by magnetron sputtering
+and soldered to copper leads with indium. The sample was stuck on a specially designed
+copper stage and then mounted on a sample holder, so that the sample could be
+rotated continuously in the film plane during measurement. The relative angle
+&amp;phis;
+     <sub>
+      <italic>
+       H
+      </italic>
+     </sub>
+     between
+     <bold>
+      J
+     </bold>
+     and
+     <bold>
+      H
+     </bold>
+     can be
+tuned from 90° 
+to 450° 
+and then backwards. It has been revealed that the in-plane magnetic easy axes in LCMO films on
+STO are along [100] and its equivalents [
+     <cite linkend="cm340204bib29">
+      29
+     </cite>
+     ]. The configuration therefore means that
+     <bold>
+      J
+     </bold>
+     was collinear with a hard axis of the magnetocrystalline anisotropy in LCMO. When the
+film behaves like a macroscopic single domain above magnetization saturation,
+&amp;phis;
+     <sub>
+      <italic>
+       M
+      </italic>
+     </sub>
+     &amp;equals; &amp;phis;
+     <sub>
+      <italic>
+       H
+      </italic>
+     </sub>
+     , otherwise, there exists
+a difference between &amp;phis;
+     <sub>
+      <italic>
+       M
+      </italic>
+     </sub>
+     and &amp;phis;
+     <sub>
+      <italic>
+       H
+      </italic>
+     </sub>
+     .
+    </p>
+    <p>
+     The magnetic fields for PHE and AMR measurements were generated by a Quantum
+Design Physical Property Measurement System (PPMS). Standard four-probe low
+frequency
+     <italic>
+      ac
+     </italic>
+     measurements using a lock-in voltmeter are performed with a current 10 
+µA 
+at 14 Hz. The longitudinal and transverse voltages were recorded simultaneously at four
+different temperatures of 5, 50, 100, and 140 K and in various magnetic fields of 500, 1000,
+4000, 8000, and 16 000 Oe.
+    </p>
+   </sec-level1>
+   <sec-level1 id="cm340204s3" label="3">
+    <heading>
+     Phenomenological model
+    </heading>
+    <p indent="no">
+     In general, for ferromagnetic and ferrimagnetic crystals, the effect of time inversion
+on dynamic transport property tensors cannot be ignored, since the current
+     <bold>
+      J
+     </bold>
+     is time antisymmetric. Assuming that the time-inversion operation reverses the direction of
+spin in magnetic single crystals [
+     <cite linkend="cm340204bib24">
+      24
+     </cite>
+     ], in order to describe spin distributions the
+122 Shubnikov point groups must be derived from the original 32 classical crystallographic
+point groups, and in the presence of a magnetic field the relationship between
+     <bold>
+      E
+     </bold>
+     and
+     <bold>
+      J
+     </bold>
+     can be nonlinear
+     <display-eqn eqnnum="2" id="cm340204eqn2">
+      <?TeX \begin{equation} 
+E_i=\rho_{ij}J_j+R_{ijk}H_k+\cdots
+\end{equation} ?>
+      <eqn-graphic filename="images/cm340204eqn2.gif" format="GIF">
+      </eqn-graphic>
+     </display-eqn>
+     where ρ
+     <sub>
+      <italic>
+       ij
+      </italic>
+     </sub>
+     and
+     <italic>
+      R
+     </italic>
+     <sub>
+      <italic>
+       ijk
+      </italic>
+     </sub>
+     are components of the zero-field resistivity tensor and the Hall coefficient tensor,
+respectively.
+    </p>
+    <p>
+     However, when the external magnetic field is high enough to saturate the magnetization,
+the spin distribution in a crystal is completely determined by the field direction. This
+means the time symmetry of the crystal is effectively suppressed and the geometrical
+description of classical crystallography regains its validity. Since the crystal is
+magnetically saturated, the resistivity tensor is independent of the magnitude of
+     <bold>
+      H
+     </bold>
+     , though the
+direction of
+     <bold>
+      H
+     </bold>
+     must be taken into account. In this case, the relationship between
+     <bold>
+      E
+     </bold>
+     and
+     <bold>
+      J
+     </bold>
+     is still
+linear,
+     <italic>
+      E
+     </italic>
+     <sub>
+      <italic>
+       i
+      </italic>
+     </sub>
+     &amp;equals; ρ
+     <sub>
+      <italic>
+       ij
+      </italic>
+     </sub>
+     <italic>
+      J
+     </italic>
+     <sub>
+      <italic>
+       j
+      </italic>
+     </sub>
+     , where the Einstein summation convention is understood, and
+     <italic>
+      i
+     </italic>
+     and
+     <italic>
+      j
+     </italic>
+     can be in any of the three orthogonal directions. The resistivity tensor
+ρ
+     <sub>
+      <italic>
+       ij
+      </italic>
+     </sub>
+     depends on the
+direction cosines, α
+     <sub>
+      <italic>
+       i
+      </italic>
+     </sub>
+     , of the field vector, and may be expressed as series expansions in ascending powers of
+α
+     <sub>
+      <italic>
+       i
+      </italic>
+     </sub>
+     <display-eqn eqnnum="3" id="cm340204eqn3">
+      <?TeX \begin{leqnarray} 
+\fl \rho_{ij}(\alpha)=a_{ij}+a_{kij}\alpha_k+
+a_{klij}\alpha_k\alpha_l+a_{klmij}\alpha_k\alpha_l\alpha_m\nonumber\\
++\ a_{klmnij}\alpha_k\alpha_l\alpha_m\alpha_n+\cdots.
+\end{leqnarray} ?>
+      <eqn-graphic filename="images/cm340204eqn3.gif" format="GIF">
+      </eqn-graphic>
+     </display-eqn>
+     Components of these high rank tensors can be dictated by the requirements of the spatial
+symmetry of the particular crystal, according to the Neumann principle.
+    </p>
+    <p>
+     Since
+     <italic>
+      E
+     </italic>
+     <sub>
+      <italic>
+       i
+      </italic>
+     </sub>
+     and
+     <italic>
+      J
+     </italic>
+     <sub>
+      <italic>
+       j
+      </italic>
+     </sub>
+     are components of a polar i-vector and a polar c-vector respectively [
+     <cite linkend="cm340204bib24">
+      24
+     </cite>
+     ], the
+resistivity tensors of even rank are polar c-tensors while those of odd rank are axial
+i-tensors. Since the phenomenon under consideration now is the dynamic transport
+property tensor, terms of odd orders may not be discarded. The second rank tensor
+ρ
+     <sub>
+      <italic>
+       ij
+      </italic>
+     </sub>
+     (α) 
+can be divided into its symmetrical and antisymmetrical parts,
+     <display-eqn eqnnum="4" id="cm340204eqn4">
+      <?TeX \begin{equation} 
+{ \rho_{ij}^s=\case{1}{2}[\rho_{ij}(\alpha)+\rho_{ji}(\alpha)],\tqs
+\rho_{ij}^a=\case{1}{2}[\rho_{ij}(\alpha)-\rho_{ji}(\alpha)].}
+\end{equation} ?>
+      <eqn-graphic filename="images/cm340204eqn4.gif" format="GIF">
+      </eqn-graphic>
+     </display-eqn>
+     Taking into account the Onsager reciprocity relation
+ρ
+     <sub>
+      <italic>
+       ij
+      </italic>
+     </sub>
+     (α) &amp;equals; ρ
+     <sub>
+      <italic>
+       ji
+      </italic>
+     </sub>
+     (−α),
+ρ
+     <sub>
+      <italic>
+       ij
+      </italic>
+     </sub>
+     <sup>
+      <italic>
+       s
+      </italic>
+     </sup>
+     must be an even
+function of α
+     <sub>
+      <italic>
+       i
+      </italic>
+     </sub>
+     , and ρ
+     <sub>
+      <italic>
+       ij
+      </italic>
+     </sub>
+     <sup>
+      <italic>
+       a
+      </italic>
+     </sup>
+     an odd function. Thus,
+     <display-eqn eqnnum="5" id="cm340204eqn5">
+      <?TeX \begin{equation} 
+\ceqns{\rho_{ij}^s(\alpha)=a_{ij}+a_{klij}\alpha_k\alpha_l
++a_{klmnij}\alpha_k\alpha_l\alpha_m\alpha_n+\cdots,\\
+\rho_{ij}^a(\alpha)=a_{kij}\alpha_k+a_{klmij}\alpha_k\alpha_l\alpha_m
++\cdots}
+\end{equation} ?>
+      <eqn-graphic filename="images/cm340204eqn5.gif" format="GIF">
+      </eqn-graphic>
+     </display-eqn>
+     which is the generalized magnetoresistance and the generalized Hall coefficient,
+respectively.
+    </p>
+    <p>
+     It is known that the LCMO single crystal is orthorhombic of crystal class
+     <italic>
+      mmm
+     </italic>
+     , as expressed by the Hermann–Mauguin symbol (equivalent Schöenflies symbol
+D
+     <sub>
+      2h
+     </sub>
+     <sup>
+      16
+     </sup>
+     ). Grown
+on SrTiO
+     <sub>
+      3
+     </sub>
+     (001), due to the biaxial tensile strain from the substrate it becomes tetragonal of symmetry
+4/
+     <italic>
+      mmm
+     </italic>
+     (D
+     <sub>
+      4h
+     </sub>
+     ) with the (001) direction out of plane. Therefore nonzero components
+of its high rank tensors can be derived with the generating elements
+σ
+     <sup>
+      (1)
+     </sup>
+     ,
+σ
+     <sup>
+      (2)
+     </sup>
+     , and
+σ
+     <sup>
+      (7)
+     </sup>
+     . Nevertheless, we would rather directly use the results of Birss [
+     <cite linkend="cm340204bib24">
+      24
+     </cite>
+     ] for the
+second, third, and fourth rank tensors, and that of Fieschi [
+     <cite linkend="cm340204bib30">
+      30
+     </cite>
+     ] for the fifth
+and sixth rank ones.
+    </p>
+    <p>
+     According to Birss (table 4 in [
+     <cite linkend="cm340204bib24">
+      24
+     </cite>
+     ]), for the point group
+4/
+     <italic>
+      mmm
+     </italic>
+     , there are constrictions
+     <display-eqn eqnnum="6" id="cm340204eqn6">
+      <?TeX \begin{equation} 
+\ceqns{y^2=x^2,\tqs z^2=z^2;\\
+yxz=-xyz,\tqs yzx=-xzy,\tqs zyx=-zxy;\\
+y^4=x^4,\tqs z^4=z^4, \\
+x^2y^2=y^2x^2(3),\tqs x^2z^2=y^2z^2(6)}
+\end{equation} ?>
+      <eqn-graphic filename="images/cm340204eqn6.gif" format="GIF">
+      </eqn-graphic>
+     </display-eqn>
+     for the second, third and fourth tensor, respectively. Here, notations of the type
+     <italic>
+      x
+     </italic>
+     <sup>
+      2
+     </sup>
+     <italic>
+      z
+     </italic>
+     <sup>
+      2
+     </sup>
+     &amp;equals;
+     <italic>
+      y
+     </italic>
+     <sup>
+      2
+     </sup>
+     <italic>
+      z
+     </italic>
+     <sup>
+      2
+     </sup>
+     (6) 
+denote the 6 equations which are the distinct permutations of
+     <italic>
+      x
+     </italic>
+     <sup>
+      2
+     </sup>
+     <italic>
+      z
+     </italic>
+     <sup>
+      2
+     </sup>
+     &amp;equals;
+     <italic>
+      y
+     </italic>
+     <sup>
+      2
+     </sup>
+     <italic>
+      z
+     </italic>
+     <sup>
+      2
+     </sup>
+     .
+    </p>
+    <p>
+     Therefore, the polar c-tensor of second rank
+     <italic>
+      a
+     </italic>
+     <sub>
+      <italic>
+       ij
+      </italic>
+     </sub>
+     has two independent components, as listed in table
+     <tabref linkend="cm340204tabA.1">
+      A.1
+     </tabref>
+     in the appendix; whilst that of the fourth rank
+     <italic>
+      a
+     </italic>
+     <sub>
+      <italic>
+       klij
+      </italic>
+     </sub>
+     has seven independent components listed in table
+     <tabref linkend="cm340204tabA.3">
+      A.3
+     </tabref>
+     , noting here the intrinsic symmetry must be considered, i.e., the first two indices
+     <italic>
+      k
+     </italic>
+     and
+     <italic>
+      l
+     </italic>
+     are interchangeable because
+the term
+     <italic>
+      a
+     </italic>
+     <sub>
+      <italic>
+       klij
+      </italic>
+     </sub>
+     α
+     <sub>
+      <italic>
+       k
+      </italic>
+     </sub>
+     α
+     <sub>
+      <italic>
+       l
+      </italic>
+     </sub>
+     is symmetric
+for direction cosines α
+     <sub>
+      <italic>
+       k
+      </italic>
+     </sub>
+     and α
+     <sub>
+      <italic>
+       l
+      </italic>
+     </sub>
+     , and the last
+pair of indices
+     <italic>
+      i
+     </italic>
+     and
+     <italic>
+      j
+     </italic>
+     are also
+interchangeable since ρ
+     <sub>
+      <italic>
+       ij
+      </italic>
+     </sub>
+     <sup>
+      <italic>
+       s
+      </italic>
+     </sup>
+     (even ranks) is a symmetrical tensor. Similarly, the third rank axial i-tensor
+     <italic>
+      a
+     </italic>
+     <sub>
+      <italic>
+       kij
+      </italic>
+     </sub>
+     has two independent components listed in table
+     <tabref linkend="cm340204tabA.2">
+      A.2
+     </tabref>
+     , and here the last pair of indices are asymmetric.
+    </p>
+    <p>
+     Furthermore, Fieschi and Fumi [
+     <cite linkend="cm340204bib30">
+      30
+     </cite>
+     ] pointed out that
+groups which differ by the center of symmetry are equivalent for polar
+tensors of even rank and axial tensors of odd rank. In this sense, groups
+C
+     <sub>
+      4v
+     </sub>
+     ,
+D
+     <sub>
+      2d
+     </sub>
+     ,
+D
+     <sub>
+      4
+     </sub>
+     , and
+D
+     <sub>
+      4h
+     </sub>
+     are equivalent. Accordingly, the fifth and sixth rank tensor has constrictions respectively
+     <display-eqn eqnnum="7" id="cm340204eqn7">
+      <?TeX \begin{equation} 
+\ceqns{y^3xz=-x^3yz~(20),\tqs z^3yx=-z^3xy~(10);\\
+y^6=x^6,\tqs z^6=z^6, \\
+y^4x^2=x^4y^2~(15),\tqs y^4z^2=x^4z^2~(15),\\
+z^4y^2=z^4x^2~(15),\tqs y^2x^2z^2=x^2y^2z^2~(45).}
+\end{equation} ?>
+      <eqn-graphic filename="images/cm340204eqn7.gif" format="GIF">
+      </eqn-graphic>
+     </display-eqn>
+    </p>
+    <p>
+     Similarly, the six independent components of the fifth rank axial i-tensor
+     <italic>
+      a
+     </italic>
+     <sub>
+      <italic>
+       klmij
+      </italic>
+     </sub>
+     are derived and listed in table
+     <tabref linkend="cm340204tabA.4">
+      A.4
+     </tabref>
+     , and the 15 independent components of the sixth rank polar c-tensor
+     <italic>
+      a
+     </italic>
+     <sub>
+      <italic>
+       klmnij
+      </italic>
+     </sub>
+     are in table
+     <tabref linkend="cm340204tabA.5">
+      A.5
+     </tabref>
+     . Noting here the first three indices are interchangeable in
+the fifth rank tensor, this annihilates six more components. The last two are
+asymmetric. The first four indices and the last two are interchangeable in the sixth rank
+tensor.
+    </p>
+    <p>
+     For PHE study in the LCMO thin film on STO, the sample maintains an easy plane in the
+film surface, due to the interface mismatch strain as well as the demagnetization
+effect. The magnetization sweeps only in the easy plane, i.e., perpendicular to the
+     <italic>
+      z
+     </italic>
+     -axis of the tetragonal form, therefore we have
+α
+     <sub>
+      1
+     </sub>
+     &amp;equals; cos&amp;phis;,
+α
+     <sub>
+      2
+     </sub>
+     &amp;equals; sin&amp;phis;, and
+α
+     <sub>
+      3
+     </sub>
+     &amp;equals; 0.
+    </p>
+    <p>
+     So
+     <display-eqn eqnnum="8" id="cm340204eqn8">
+      <?TeX \begin{equation} 
+\ceqns{\rho_{11}(\alpha)=C_0+C_1\cos^2\phi+C_2\cos^4\phi,\\
+\rho_{12}(\alpha)=C_4\sin\phi\cos\phi,\\
+\rho_{13}(\alpha)=-C_6\sin\phi-C_7\sin^3\phi,\\
+\rho_{21}(\alpha)=C_4\sin\phi\cos\phi,\\
+\rho_{22}(\alpha)=C_0+C_1\sin^2\phi+C_2\sin^4\phi, \\
+\rho_{23}(\alpha)=C_6\cos\phi+C_7\cos^3\phi, \\
+\rho_{31}(\alpha)=C_6\sin\phi+C_7\sin^3\phi, \\
+\rho_{32}(\alpha)=-C_6\cos\phi-C_7\cos^3\phi, \\
+\rho_{33}(\alpha)=C_8+C_9\sin^2\phi\cos^2\phi}
+\end{equation} ?>
+      <eqn-graphic filename="images/cm340204eqn8.gif" format="GIF">
+      </eqn-graphic>
+     </display-eqn>
+     where
+     <display-eqn eqnnum="no" id="cm340204eqn9">
+      <?TeX \[C_0=a_{11}+a_{1122}+a_{111122}, 
+\] ?>
+      <eqn-graphic filename="images/cm340204eqn9.gif" format="GIF">
+      </eqn-graphic>
+     </display-eqn>
+     <display-eqn eqnnum="no" id="cm340204eqn10">
+      <?TeX \[C_1=a_{1111}-a_{1122}+6a_{112211}-2a_{111122}, 
+\] ?>
+      <eqn-graphic filename="images/cm340204eqn10.gif" format="GIF">
+      </eqn-graphic>
+     </display-eqn>
+     <display-eqn eqnnum="no" id="cm340204eqn11">
+      <?TeX \[C_2=a_{111111}+a_{111122}-6a_{112211}, 
+\] ?>
+      <eqn-graphic filename="images/cm340204eqn11.gif" format="GIF">
+      </eqn-graphic>
+     </display-eqn>
+     <display-eqn eqnnum="no" id="cm340204eqn12">
+      <?TeX \[C_4=a_{1212}+2a_{111212}, \tqs C_6=a_{123}+3a_{12223}, 
+\] ?>
+      <eqn-graphic filename="images/cm340204eqn12.gif" format="GIF">
+      </eqn-graphic>
+     </display-eqn>
+     <display-eqn eqnnum="no" id="cm340204eqn13">
+      <?TeX \[C_7=a_{11123}-3a_{12223},\tqs C_8=a_{33}+a_{1133}+a_{111133}, 
+\] ?>
+      <eqn-graphic filename="images/cm340204eqn13.gif" format="GIF">
+      </eqn-graphic>
+     </display-eqn>
+     <display-eqn eqnnum="no" id="cm340204eqn14">
+      <?TeX \[C_9=6a_{112233}-2a_{111133}. 
+\] ?>
+      <eqn-graphic filename="images/cm340204eqn14.gif" format="GIF">
+      </eqn-graphic>
+     </display-eqn>
+    </p>
+    <p>
+     Now considering our experimental configuration, where the long dimension of the Hall bar (
+     <bold>
+      J
+     </bold>
+     ) was aligned roughly along the LCMO[110] direction, the resistivity tensor must be
+transformed to the new coordinate system by the matrix
+     <display-eqn eqnnum="9" id="cm340204eqn15">
+      <?TeX \begin{equation} 
+l=
+\pmatrix{
+\cos\theta & \sin\theta & 0 \cr-\sin\theta & \cos\theta & 0 \cr
+0 & 0 & 1 }=
+\pmatrix{
+\frac{\sqrt{2}}{2} & \frac{\sqrt{2}}{2} & 0 \cr-\frac{\sqrt{2}}{2} & \frac{\sqrt{2}}{2} & 0 \cr
+0 & 0 & 1 }
+\end{equation} ?>
+      <eqn-graphic filename="images/cm340204eqn15.gif" format="GIF">
+      </eqn-graphic>
+     </display-eqn>
+     whose elements have been determined by the relative orientation of the old and new sets of
+axes. Then the longitudinal and transverse resistivities in our experimental configuration
+are
+     <display-eqn eqnnum="10" id="cm340204eqn16">
+      <?TeX \begin{equation} 
+\label{equation10}
+\ceqns{ \rho_{xx}=C_0'+C_1'\sin2\phi+C_2'\cos4\phi,\\
+\rho_{xy}=-C_3'\cos2\phi}
+\end{equation} ?>
+      <eqn-graphic filename="images/cm340204eqn16.gif" format="GIF">
+      </eqn-graphic>
+     </display-eqn>
+     respectively, where
+     <display-eqn eqnnum="no" id="cm340204eqn17">
+      <?TeX \begin{leqnarray*} 
+\fl C_0'=C_0+\case{1}{2}C_1+\case{3}{8}C_2=a_{11}
++\case{1}{2}(a_{1111}+a_{1122})\\
++\ \case{3}{8}(a_{111111}+a_{111122}+2a_{112211}),\\
+\fl C_1'=\case{1}{2}C_4=\case{1}{2}a_{1212}+a_{111212},\\
+\fl C_2'=\case{1}{8}C_2=\case{1}{8}(a_{111111}+a_{111122}-6a_{112211}),\\
+\fl C_3'=\case{1}{2}(C_1+C_2)=\case{1}{2}(a_{1111}-a_{1122}+a_{111111}-a_{111122}).
+\end{leqnarray*} ?>
+      <eqn-graphic filename="images/cm340204eqn17.gif" format="GIF">
+      </eqn-graphic>
+     </display-eqn>
+    </p>
+    <p>
+     Note here that &amp;phis; is the angle
+between magnetization
+     <bold>
+      M
+     </bold>
+     and the [100] direction, and &amp;phis; &amp;equals; &amp;phis;
+     <sub>
+      <italic>
+       M
+      </italic>
+     </sub>
+     &amp;plus; 45°, where &amp;phis;
+     <sub>
+      <italic>
+       M
+      </italic>
+     </sub>
+     is the angle
+of
+     <bold>
+      M
+     </bold>
+     with respect of
+     <bold>
+      J
+     </bold>
+     . Then equations (
+     <eqnref linkend="cm340204eqn16">
+      10
+     </eqnref>
+     )
+can be expressed in &amp;phis;
+     <sub>
+      <italic>
+       M
+      </italic>
+     </sub>
+     as
+     <display-eqn eqnnum="11" id="cm340204eqn18">
+      <?TeX \begin{equation} 
+\label{equation11}
+\ceqns{\rho_{xx}=C_0'+C_1'\cos2\phi_M-C_2'\cos4\phi_M,\\
+\rho_{xy}=C_3'\sin2\phi_M.}
+\end{equation} ?>
+      <eqn-graphic filename="images/cm340204eqn18.gif" format="GIF">
+      </eqn-graphic>
+     </display-eqn>
+     Clearly, the longitudinal resistivity
+ρ
+     <sub>
+      <italic>
+       xx
+      </italic>
+     </sub>
+     is constituted by not
+only a two-fold cos2&amp;phis;
+     <sub>
+      <italic>
+       M
+      </italic>
+     </sub>
+     term,
+but also a four-fold cos4&amp;phis;
+     <sub>
+      <italic>
+       M
+      </italic>
+     </sub>
+     oscillation; while in the transverse case the curve is hardly changed with respect to
+equation (
+     <eqnref linkend="cm340204eqn1">
+      1
+     </eqnref>
+     ).
+    </p>
+   </sec-level1>
+   <sec-level1 id="cm340204s4" label="4">
+    <heading>
+     Experimental results and discussion
+    </heading>
+    <p indent="no">
+     The angular dependence of the longitudinal resistance
+     <italic>
+      R
+     </italic>
+     <sub>
+      <italic>
+       xx
+      </italic>
+     </sub>
+     and the transverse
+resistance
+     <italic>
+      R
+     </italic>
+     <sub>
+      <italic>
+       xy
+      </italic>
+     </sub>
+     measured in 8000 Oe at different temperatures 5, 50, 100, and 140 K (slightly below
+     <italic>
+      T
+     </italic>
+     <sub>
+      P
+     </sub>
+     ) are shown in figure
+     <figref linkend="cm340204fig2">
+      2
+     </figref>
+     . For clarity, only the backward data are plotted. Here the constant part in
+     <italic>
+      R
+     </italic>
+     <sub>
+      <italic>
+       xy
+      </italic>
+     </sub>
+     has been removed, which is actually a contribution from
+     <italic>
+      R
+     </italic>
+     <sub>
+      <italic>
+       xx
+      </italic>
+     </sub>
+     due to an imperfect geometrical alignment of the transverse contacts. To fit the
+experimental data, equations (
+     <eqnref linkend="cm340204eqn18">
+      11
+     </eqnref>
+     ) are revised as
+     <display-eqn eqnnum="12" id="cm340204eqn19">
+      <?TeX \begin{equation} 
+\label{equation12}
+\ceqns{ R_{xx}=C_0''+C_1''\cos2\phi_M+C_2''\cos4\phi_M+C_m\sin2\phi_M,\\
+R_{xy}=C_3''\sin2\phi_M}
+\end{equation} ?>
+      <eqn-graphic filename="images/cm340204eqn19.gif" format="GIF">
+      </eqn-graphic>
+     </display-eqn>
+     where an extra sin2&amp;phis; 
+term is added on account of the slight misalignment of the Hall bar with regard to the LCMO [110] direction.
+The
+     <italic>
+      C
+     </italic>
+     <sub>
+      <italic>
+       m
+      </italic>
+     </sub>
+     value is actually fairly small as compared with
+     <italic>
+      C
+     </italic>
+     <sub>
+      1
+     </sub>
+     ′′ and
+     <italic>
+      C
+     </italic>
+     <sub>
+      2
+     </sub>
+     ′′. The fitting curves are also given in the figure and the parameters are listed in
+table
+     <tabref linkend="cm340204tab1">
+      1
+     </tabref>
+     . For LCMO films on STO the coercivity and the in-plane magnetocrystalline
+anisotropic field are all well below 500 Oe, therefore a 8000 Oe field should be high
+enough to saturate the sample. That is, the magnetization in the sample is defined
+solely by the direction of the external magnetic field, so that the whole sample is
+in a
+     <italic>
+      macroscopic
+     </italic>
+     single domain state during the field sweeps. As a result, here
+the precondition of the phenomenological model dictated above is fulfilled, and
+thus the data can be perfectly fitted. As predicted, the longitudinal resistance
+     <italic>
+      R
+     </italic>
+     <sub>
+      <italic>
+       xx
+      </italic>
+     </sub>
+     actually consists
+of a cos4&amp;phis;
+     <sub>
+      <italic>
+       M
+      </italic>
+     </sub>
+     term
+as well as a cos2&amp;phis;
+     <sub>
+      <italic>
+       M
+      </italic>
+     </sub>
+     term, corresponding to a biaxial anisotropy due to the in-plane square symmetry of the lattice, and a
+uniaxial anisotropy due to the two-fold symmetry of the current, respectively. The transverse resistance
+     <italic>
+      R
+     </italic>
+     <sub>
+      <italic>
+       xy
+      </italic>
+     </sub>
+     basically
+follows the sin2&amp;phis;
+     <sub>
+      <italic>
+       M
+      </italic>
+     </sub>
+     function, the same as expected for polycrystalline samples. At 5 K the data in a 16 000 Oe
+field are also selected to ensure the high field prerequisite, where both the forward and
+reverse sweeps are shown, since at low temperatures the magnetocrystalline anisotropic
+field is higher. Obviously, although the angular dependence of the data at 5 K is roughly a
+‘W’ shape, especially in a 8000 Oe field, while that at other temperatures are
+‘M’ shape, the data can all be well fitted using equations (
+     <eqnref linkend="cm340204eqn19">
+      12
+     </eqnref>
+     ), except that here
+     <italic>
+      C
+     </italic>
+     <sub>
+      2
+     </sub>
+     ′′ 
+is positive whereas at other temperatures it is negative.
+     <figure id="cm340204fig2" orientation="port" parts="single" position="float" printstyle="normal" width="page">
+      <graphic>
+       <graphic-file filename="images/4020402.eps" format="EPS" scale="100" version="print">
+       </graphic-file>
+       <graphic-file filename="images/4020402.jpg" format="JPEG" version="ej">
+       </graphic-file>
+      </graphic>
+      <caption id="cm340204fc2" label="Figure 2" type="figure">
+       <p indent="no">
+        Angular dependence of
+        <italic>
+         R
+        </italic>
+        <sub>
+         <italic>
+          xx
+         </italic>
+        </sub>
+        and
+        <italic>
+         R
+        </italic>
+        <sub>
+         <italic>
+          xy
+         </italic>
+        </sub>
+        measured in high fields of 8000 or 16 000 Oe at different temperatures. The scattered
+spots are experimental data and the lines are fitting results using equations (
+        <eqnref linkend="cm340204eqn19">
+         12
+        </eqnref>
+        ).
+       </p>
+      </caption>
+     </figure>
+    </p>
+    <table id="cm340204tab1" width="42pc">
+     <caption id="tc1" label="Table 1">
+      <p indent="no">
+       Fitting results using equations (
+       <eqnref linkend="cm340204eqn19">
+        12
+       </eqnref>
+       ). The data enclosed in brackets are of lower reliability
+since in low fields the phenomenological model is no longer applicable.
+      </p>
+     </caption>
+     <tgroup cols="7">
+      <colspec align="left" colname="col1" colnum="1">
+      </colspec>
+      <colspec align="left" colname="col2" colnum="2">
+      </colspec>
+      <colspec align="left" colname="col3" colnum="3">
+      </colspec>
+      <colspec align="left" colname="col4" colnum="4">
+      </colspec>
+      <colspec align="left" colname="col5" colnum="5">
+      </colspec>
+      <colspec align="left" colname="col6" colnum="6">
+      </colspec>
+      <colspec align="left" colname="col7" colnum="7">
+      </colspec>
+      <thead>
+       <row>
+        <entry>
+         T (K)
+        </entry>
+        <entry>
+         H (Oe)
+        </entry>
+        <entry>
+         <italic>
+          C
+         </italic>
+         <sub>
+          0
+         </sub>
+         ′′ (Ω)
+        </entry>
+        <entry>
+         <italic>
+          C
+         </italic>
+         <sub>
+          1
+         </sub>
+         ′′ (Ω)
+        </entry>
+        <entry>
+         <italic>
+          C
+         </italic>
+         <sub>
+          2
+         </sub>
+         ′′ (Ω)
+        </entry>
+        <entry>
+         <italic>
+          C
+         </italic>
+         <sub>
+          3
+         </sub>
+         ′′ (Ω)
+        </entry>
+        <entry>
+         <italic>
+          C
+         </italic>
+         <sub>
+          2
+         </sub>
+         ′′/
+         <italic>
+          C
+         </italic>
+         <sub>
+          1
+         </sub>
+         ′′
+        </entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>
+         5
+        </entry>
+        <entry>
+         16 000
+        </entry>
+        <entry>
+         155.47
+         <sub>
+          ± 0.0009
+         </sub>
+        </entry>
+        <entry>
+         − 0.031
+         <sub>
+          ± 0.001
+         </sub>
+        </entry>
+        <entry>
+         0.032
+         <sub>
+          ± 0.001
+         </sub>
+        </entry>
+        <entry>
+         − 0.224
+         <sub>
+          ± 0.004
+         </sub>
+        </entry>
+        <entry>
+         − 1.0393
+        </entry>
+       </row>
+       <row>
+        <entry>
+         5
+        </entry>
+        <entry>
+         8 000
+        </entry>
+        <entry>
+         157.555
+         <sub>
+          ± 0.0008
+         </sub>
+        </entry>
+        <entry>
+         − 0.039
+         <sub>
+          ± 0.001
+         </sub>
+        </entry>
+        <entry>
+         0.006
+         <sub>
+          ± 0.001
+         </sub>
+        </entry>
+        <entry>
+         − 0.22
+         <sub>
+          ± 0.002
+         </sub>
+        </entry>
+        <entry>
+         − 0.1435
+        </entry>
+       </row>
+       <row>
+        <entry>
+         5
+        </entry>
+        <entry>
+         4 000
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         − 0.209
+         <sub>
+          ± 0.004
+         </sub>
+        </entry>
+        <entry>
+         —
+        </entry>
+       </row>
+       <row>
+        <entry>
+         5
+        </entry>
+        <entry>
+         1 000
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         (−0.164
+         <sub>
+          ± 0.008
+         </sub>
+         )
+        </entry>
+        <entry>
+         —
+        </entry>
+       </row>
+       <row>
+        <entry>
+         5
+        </entry>
+        <entry>
+         500
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         (−0.154
+         <sub>
+          ± 0.007
+         </sub>
+         )
+        </entry>
+        <entry>
+         —
+        </entry>
+       </row>
+       <row>
+        <entry>
+         50
+        </entry>
+        <entry>
+         16 000
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         − 0.68
+         <sub>
+          ± 0.01
+         </sub>
+        </entry>
+        <entry>
+         —
+        </entry>
+       </row>
+       <row>
+        <entry>
+         50
+        </entry>
+        <entry>
+         8 000
+        </entry>
+        <entry>
+         197.705
+         <sub>
+          ± 0.004
+         </sub>
+        </entry>
+        <entry>
+         − 0.173
+         <sub>
+          ± 0.005
+         </sub>
+        </entry>
+        <entry>
+         − 0.193
+         <sub>
+          ± 0.005
+         </sub>
+        </entry>
+        <entry>
+         − 0.92
+         <sub>
+          ± 0.01
+         </sub>
+        </entry>
+        <entry>
+         1.1156
+        </entry>
+       </row>
+       <row>
+        <entry>
+         50
+        </entry>
+        <entry>
+         4 000
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         − 0.94
+         <sub>
+          ± 0.02
+         </sub>
+        </entry>
+        <entry>
+         —
+        </entry>
+       </row>
+       <row>
+        <entry>
+         50
+        </entry>
+        <entry>
+         1 000
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         (−0.76
+         <sub>
+          ± 0.03
+         </sub>
+         )
+        </entry>
+        <entry>
+         —
+        </entry>
+       </row>
+       <row>
+        <entry>
+         50
+        </entry>
+        <entry>
+         500
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         —
+        </entry>
+        <entry>
+         (−0.56
+         <sub>
+          ± 0.03
+         </sub>
+         )
+        </entry>
+        <entry>
+         —
+        </entry>
+       </row>
+       <row>
+        <entry>
+         100
+        </entry>
+        <entry>
+         8 000
+        </entry>
+        <entry>
+         2348.2
+         <sub>
+          ± 0.1
+         </sub>
+        </entry>
+        <entry>
+         − 11.7
+         <sub>
+          ± 0.2
+         </sub>
+        </entry>
+        <entry>
+         − 12.6
+         <sub>
+          ± 0.2
+         </sub>
+        </entry>
+        <entry>
+         − 20.5
+         <sub>
+          ± 0.4
+         </sub>
+        </entry>
+        <entry>
+         1.0806
+        </entry>
+       </row>
+       <row>
+        <entry>
+         140
+        </entry>
+        <entry>
+         8 000
+        </entry>
+        <entry>
+         35 493
+         <sub>
+          ± 1
+         </sub>
+        </entry>
+        <entry>
+         − 173
+         <sub>
+          ± 2
+         </sub>
+        </entry>
+        <entry>
+         − 62
+         <sub>
+          ± 2
+         </sub>
+        </entry>
+        <entry>
+         − 248
+         <sub>
+          ± 2
+         </sub>
+        </entry>
+        <entry>
+         0.3593
+        </entry>
+       </row>
+       <row>
+        <entry>
+         140
+        </entry>
+        <entry>
+         1 000
+        </entry>
+        <entry>
+         69 190
+         <sub>
+          ± 4
+         </sub>
+        </entry>
+        <entry>
+         − 379
+         <sub>
+          ± 6
+         </sub>
+        </entry>
+        <entry>
+         − 158
+         <sub>
+          ± 6
+         </sub>
+        </entry>
+        <entry>
+         − 314
+         <sub>
+          ± 5
+         </sub>
+        </entry>
+        <entry>
+         0.4156
+        </entry>
+       </row>
+       <row>
+        <entry>
+         140
+        </entry>
+        <entry>
+         500
+        </entry>
+        <entry>
+         (73 230
+         <sub>
+          ± 6
+         </sub>
+         )
+        </entry>
+        <entry>
+         (−380
+         <sub>
+          ± 9
+         </sub>
+         )
+        </entry>
+        <entry>
+         (−92
+         <sub>
+          ± 9
+         </sub>
+         )
+        </entry>
+        <entry>
+         (−241
+         <sub>
+          ± 4
+         </sub>
+         )
+        </entry>
+        <entry>
+         (0.2418)
+        </entry>
+       </row>
+      </tbody>
+     </tgroup>
+    </table>
+    <p>
+     The pseudo-Hall signal is conventionally defined as
+     <inline-eqn>
+      <?TeX R_\parallel-R_\perp
+?>
+      <inline-graphic filename="images/cm340204ieqn4.gif" format="GIF">
+      </inline-graphic>
+     </inline-eqn>
+     , the amplitude of
+     <italic>
+      R
+     </italic>
+     <sub>
+      <italic>
+       xx
+      </italic>
+     </sub>
+     or
+     <italic>
+      R
+     </italic>
+     <sub>
+      <italic>
+       xy
+      </italic>
+     </sub>
+     oscillations (equations (
+     <eqnref linkend="cm340204eqn1">
+      1
+     </eqnref>
+     )). It is usually positive in transition metal polycrystallines. To
+investigate the evolution of the signals with temperature for the LCMO film, in the top
+panel of figure
+     <figref linkend="cm340204fig3">
+      3
+     </figref>
+     the fitting parameters
+     <italic>
+      C
+     </italic>
+     <sub>
+      1
+     </sub>
+     ′′ and
+     <italic>
+      C
+     </italic>
+     <sub>
+      3
+     </sub>
+     ′′, prefactors
+of cos2&amp;phis;
+     <sub>
+      <italic>
+       M
+      </italic>
+     </sub>
+     in
+     <italic>
+      R
+     </italic>
+     <sub>
+      <italic>
+       xx
+      </italic>
+     </sub>
+     and sin2&amp;phis;
+     <sub>
+      <italic>
+       M
+      </italic>
+     </sub>
+     in
+     <italic>
+      R
+     </italic>
+     <sub>
+      <italic>
+       xy
+      </italic>
+     </sub>
+     respectively, in varied fields are plotted versus temperature. Clearly, the two parameters are
+negative at all the temperatures. At 140 K in a 1000 Oe field (see table
+     <tabref linkend="cm340204tab1">
+      1
+     </tabref>
+     ), the PHE signal
+     <italic>
+      C
+     </italic>
+     <sub>
+      3
+     </sub>
+     ′′ is quite
+large ∼ −  314 Ω. It decreases remarkably with cooling, but only changes slightly with field, and is ∼ −  20 Ω at 100 K, and is further
+reduced to only ∼ −  0.22 
+at 5 K. The
+     <italic>
+      C
+     </italic>
+     <sub>
+      1
+     </sub>
+     ′′ 
+value roughly follows the same trend. The observation is distinct from
+that in ferromagnetic metals like cobalt, also having been reported
+previously. The decrease of AMR and PHE signals with temperature below
+     <italic>
+      T
+     </italic>
+     <sub>
+      C
+     </sub>
+     has been widely observed in crystalline samples of complicated lattice structures such as manganite [
+     <cite linkend="cm340204bib10">
+      10
+     </cite>
+     ,
+     <cite linkend="cm340204bib14" range="cm340204bib14,cm340204bib15,cm340204bib16,cm340204bib17">
+      14–17
+     </cite>
+     ,
+     <cite linkend="cm340204bib19">
+      19
+     </cite>
+     ],
+Fe
+     <sub>
+      3
+     </sub>
+     O
+     <sub>
+      4
+     </sub>
+     [
+     <cite linkend="cm340204bib13">
+      13
+     </cite>
+     ],
+and Fe
+     <sub>
+      3
+     </sub>
+     Si [
+     <cite linkend="cm340204bib21">
+      21
+     </cite>
+     ]. This is substantially different from that in conventional metals, which
+would behave like the square of magnetization and thus approach a saturation value at low
+temperatures. This appears to be in connection with the temperature dependence of the
+sample resistance, and thus may indicate a unique spin–orbit coupling mechanism in the
+complicated crystal systems.
+     <figure id="cm340204fig3" orientation="port" parts="single" position="float" printstyle="normal" width="column">
+      <graphic>
+       <graphic-file filename="images/4020403.eps" format="EPS" scale="100" version="print">
+       </graphic-file>
+       <graphic-file filename="images/4020403.jpg" format="JPEG" version="ej">
+       </graphic-file>
+      </graphic>
+      <caption id="cm340204fc3" label="Figure 3" type="figure">
+       <p indent="no">
+        The temperature dependence of the fitting parameters
+        <italic>
+         C
+        </italic>
+        <sub>
+         1
+        </sub>
+        ′′ and
+        <italic>
+         C
+        </italic>
+        <sub>
+         3
+        </sub>
+        ′′ (top), and
+the ratio
+        <italic>
+         C
+        </italic>
+        <sub>
+         2
+        </sub>
+        ′′/
+        <italic>
+         C
+        </italic>
+        <sub>
+         1
+        </sub>
+        ′′ 
+(bottom) of equations (
+        <eqnref linkend="cm340204eqn19">
+         12
+        </eqnref>
+        ).
+       </p>
+      </caption>
+     </figure>
+    </p>
+    <p>
+     Although the magnitude of all the three parameters decreases with cooling, in accordance
+with the metallic transport behavior of the sample, the relative weight of the biaxial
+anisotropy with respect to the uniaxial one varies with temperature. In the bottom panel of
+figure
+     <figref linkend="cm340204fig3">
+      3
+     </figref>
+     , the biaxial prefactor
+     <italic>
+      C
+     </italic>
+     <sub>
+      2
+     </sub>
+     ′′ is normalized with
+     <italic>
+      C
+     </italic>
+     <sub>
+      1
+     </sub>
+     ′′. The absolute
+value of
+     <italic>
+      C
+     </italic>
+     <sub>
+      2
+     </sub>
+     ′′/
+     <italic>
+      C
+     </italic>
+     <sub>
+      1
+     </sub>
+     ′′ 
+drops rapidly with warming, meaning the relative contribution from the
+cos4&amp;phis;
+     <sub>
+      <italic>
+       M
+      </italic>
+     </sub>
+     term decreases with increasing temperature. Nevertheless, it is noted that the sign of
+     <italic>
+      C
+     </italic>
+     <sub>
+      2
+     </sub>
+     ′′ 
+at 5 K is opposite to the others (see table
+     <tabref linkend="cm340204tab1">
+      1
+     </tabref>
+     ), and in 8000 Oe the ratio is very small, as circled in red in the figure.
+This may be on account of a field-induced reorientation of the easy axis from
+〈100〉 to
+〈110〉, which so far has never been reported; or perhaps a structural change caused
+by the 110 K phase transition of the STO substrate. Further experiments are
+needed. As for the field dependence, O’Donnell
+     <italic>
+      et al
+     </italic>
+     [
+     <cite linkend="cm340204bib19">
+      19
+     </cite>
+     ] have
+claimed a decrease of the normalized AMR signal with increasing magnetic field
+in LCMO films on STO. Ramos
+     <italic>
+      et al
+     </italic>
+     [
+     <cite linkend="cm340204bib23">
+      23
+     </cite>
+     ] also argued that in
+Fe
+     <sub>
+      3
+     </sub>
+     O
+     <sub>
+      4
+     </sub>
+     thin films the magnitude of the ‘additional anisotropy’ grew with increasing field and
+decreasing temperature. However, it seems not to be that straightforward here. We can see
+from table
+     <tabref linkend="cm340204tab1">
+      1
+     </tabref>
+     that, at 140 K the ratio increases when the field is raised from 500 to
+1000 Oe, but reduces when the field is further increased to 8000 Oe. Apparently further
+experiments at different fields are needed to clarify this issue [
+     <cite linkend="cm340204bib22">
+      22
+     </cite>
+     ].
+    </p>
+    <p>
+     Finally the angular dependence of
+     <italic>
+      R
+     </italic>
+     <sub>
+      <italic>
+       xx
+      </italic>
+     </sub>
+     and
+     <italic>
+      R
+     </italic>
+     <sub>
+      <italic>
+       xy
+      </italic>
+     </sub>
+     measured at 140 K in external magnetic fields 8000, 1000, and 500 Oe are shown in
+figure
+     <figref linkend="cm340204fig4">
+      4
+     </figref>
+     . Both the down- and the up-sweep data are plotted. It is noted
+that in high fields the curves almost superimpose on each other, showing
+only very small hysteresis. With the field decreasing, hysteresis appears in
+     <italic>
+      R
+     </italic>
+     <sub>
+      <italic>
+       xx
+      </italic>
+     </sub>
+     , especially around the
+in-plane easy axes LCMO〈100〉, say 135°, 225°,
+315°, and
+405(45)°. The
+     <italic>
+      R
+     </italic>
+     <sub>
+      <italic>
+       xy
+      </italic>
+     </sub>
+     data also show obvious distortions at these angles. It is noted that the resistance peaks at
+135° and
+315° are broadened
+while the valleys at 45° 
+and 225° 
+are deepened. In fact the phenomenon is more pronounced as the temperature and the
+external field are both reduced. However, no abrupt jump is observed. This means that,
+even in the case of 140 K, where the magnetocrystalline anisotropy energy is relatively low,
+in fields below 1000 Oe the film is still not in a complete single domain state. This may be
+due to the relatively large thickness of the film [
+     <cite linkend="cm340204bib31">
+      31
+     </cite>
+     ]. A kind of multi-domain
+state emerges as the sweeping magnetic field comes across the easy axes, where it is more
+difficult for the external field to drag the sample magnetization with it. Therefore,
+while at high temperatures in high magnetic fields the sample can be described
+using the single domain model expressed by equations (
+     <eqnref linkend="cm340204eqn19">
+      12
+     </eqnref>
+     ), its magnetocrystalline
+anisotropy and perhaps shape anisotropy cannot be ignored at low temperatures in low
+fields.
+     <figure id="cm340204fig4" orientation="port" pageposition="bottom" parts="single" position="float" printstyle="normal" width="page">
+      <graphic>
+       <graphic-file filename="images/4020404.eps" format="EPS" scale="100" version="print">
+       </graphic-file>
+       <graphic-file filename="images/4020404.jpg" format="JPEG" version="ej">
+       </graphic-file>
+      </graphic>
+      <caption id="cm340204fc4" label="Figure 4" type="figure">
+       <p indent="no">
+        Angular dependence of
+        <italic>
+         R
+        </italic>
+        <sub>
+         <italic>
+          xx
+         </italic>
+        </sub>
+        and
+        <italic>
+         R
+        </italic>
+        <sub>
+         <italic>
+          xy
+         </italic>
+        </sub>
+        measured at 140 K in sweeping fields of fixed magnitude 8000, 1000,
+and 500 Oe respectively. The sample was rotated forwards from
+90° to
+450°, and then backwards.
+       </p>
+      </caption>
+     </figure>
+    </p>
+    <p>
+     We know that the most traditional explanation of AMR and PHE in ferromagnetic metals and
+alloys is the change in scattering rate of the charge carriers, which relates only to the angle between
+     <bold>
+      M
+     </bold>
+     and
+     <bold>
+      J
+     </bold>
+     , with no concern given to the crystal symmetry. The phenomenological model developed in
+this paper elucidates the effect of crystal axes and space anisotropy on AMR, which are
+actually a reflection of the anisotropy in the Fermi surface. However, the theory still fails in
+interpreting the strong temperature and field dependence of the AMR/PHE signal and the
+     <italic>
+      C
+     </italic>
+     <sub>
+      2
+     </sub>
+     ′′/
+     <italic>
+      C
+     </italic>
+     <sub>
+      1
+     </sub>
+     ′′ 
+ratio. It has been widely observed in complicated crystal systems such as (Ga, Mn)As,
+Fe
+     <sub>
+      3
+     </sub>
+     Si,
+Fe
+     <sub>
+      3
+     </sub>
+     O
+     <sub>
+      4
+     </sub>
+     , and manganite, that the AMR signal peaks around the temperature of the maximum
+resistance and shows a substantial field dependency. This may suggest an alternative
+mechanism distinct from that in traditional ferromagnets, which may share some features
+with the colossal magnetoresistance (CMR) effect. It is worth noting that O’Donnell
+     <italic>
+      et al
+     </italic>
+     [
+     <cite linkend="cm340204bib19">
+      19
+     </cite>
+     ] and Viret
+     <italic>
+      et al
+     </italic>
+     [
+     <cite linkend="cm340204bib32">
+      32
+     </cite>
+     ] have proposed a mechanism
+of field-induced Mn 3d and O 2p orbital deformation by means of spin–orbit
+coupling. Rotation of the magnetization continuously deforms the local electron
+orbitals through the spin–orbit interaction, which then changes the orbital overlap
+between neighboring Mn and O ions and in turn modulates the conductivity
+through changing the hopping probability. In order to look at in detail the origin of
+AMR in ferromagnetic complicated systems, more experiments are needed to
+determine the independent components of the galvanomagnetic tensors at different
+temperatures.
+    </p>
+   </sec-level1>
+   <sec-level1 id="cm340204s5" label="5">
+    <heading>
+     Conclusions
+    </heading>
+    <p indent="no">
+     In summary, a phenomenological model base on a tetragonal film with
+D
+     <sub>
+      4h
+     </sub>
+     symmetry has been successfully developed and the high rank resistivity tensors are given explicitly.
+A cos4&amp;phis;
+     <sub>
+      <italic>
+       M
+      </italic>
+     </sub>
+     term appears in the angular dependence of the longitudinal resistance
+     <italic>
+      R
+     </italic>
+     <sub>
+      <italic>
+       xx
+      </italic>
+     </sub>
+     in a LCMO bar along [110], which originates from the four-fold symmetry of the lattice. The
+experimental data can be well fitted by using the model except that the relative fraction of the
+cos2&amp;phis;
+     <sub>
+      <italic>
+       M
+      </italic>
+     </sub>
+     and
+the cos4&amp;phis;
+     <sub>
+      <italic>
+       M
+      </italic>
+     </sub>
+     terms changes with temperature and field. A qualitatively different mechanism stemming
+from the magnetization-induced local orbit deformation through spin–orbit interaction may
+be responsible for the AMR effect in manganites and other systems of complicated crystal
+structure.
+    </p>
+   </sec-level1>
+   <acknowledgment>
+    <heading>
+     Acknowledgments
+    </heading>
+    <p indent="no">
+     The project was sponsored by the National Natural Science Foundation of China under
+grant Nos 50672125, 10974229, 10974243, and 10911130357, and the Ministry of Science and
+Technology (2006CB921107 and 2007AA03Z214). The authors would like to thank
+Professor D Wu of Nanjing University for helpful discussions and Mr S K Su for Hall
+measurements.
+    </p>
+   </acknowledgment>
+   <appendix id="cm340204app1">
+    <sec-level1 id="cm340204sA" label="A">
+     <heading>
+     </heading>
+     <table id="cm340204tabA.1" position="fixed">
+      <caption id="tcA.1" label="Table A.1">
+       <p indent="no">
+        The forms of the second rank tensor
+        <italic>
+         a
+        </italic>
+        <sub>
+         <italic>
+          ij
+         </italic>
+        </sub>
+        (polar c-tensor) of
+the symmetry class 4/
+        <italic>
+         mmm
+        </italic>
+        , from table 4 in reference [
+        <cite linkend="cm340204bib24">
+         24
+        </cite>
+        ].
+       </p>
+      </caption>
+      <tgroup cols="10">
+       <colspec align="left" colname="col1" colnum="1">
+       </colspec>
+       <colspec align="left" colname="col2" colnum="2">
+       </colspec>
+       <colspec align="left" colname="col3" colnum="3">
+       </colspec>
+       <colspec align="left" colname="col4" colnum="4">
+       </colspec>
+       <colspec align="left" colname="col5" colnum="5">
+       </colspec>
+       <colspec align="left" colname="col6" colnum="6">
+       </colspec>
+       <colspec align="left" colname="col7" colnum="7">
+       </colspec>
+       <colspec align="left" colname="col8" colnum="8">
+       </colspec>
+       <colspec align="left" colname="col9" colnum="9">
+       </colspec>
+       <colspec align="left" colname="col10" colnum="10">
+       </colspec>
+       <thead>
+        <row>
+         <entry>
+          <italic>
+           ij
+          </italic>
+         </entry>
+         <entry>
+          11
+         </entry>
+         <entry>
+          22
+         </entry>
+         <entry>
+          33
+         </entry>
+         <entry>
+          23
+         </entry>
+         <entry>
+          32
+         </entry>
+         <entry>
+          31
+         </entry>
+         <entry>
+          13
+         </entry>
+         <entry>
+          12
+         </entry>
+         <entry>
+          21
+         </entry>
+        </row>
+       </thead>
+       <tbody>
+        <row>
+         <entry>
+         </entry>
+         <entry>
+          11
+         </entry>
+         <entry>
+          11
+         </entry>
+         <entry>
+          33
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+       </tbody>
+      </tgroup>
+     </table>
+     <table id="cm340204tabA.2" position="fixed">
+      <caption id="tcA.2" label="Table A.2">
+       <p indent="no">
+        The forms of the third rank tensor
+        <italic>
+         a
+        </italic>
+        <sub>
+         <italic>
+          kij
+         </italic>
+        </sub>
+        (axial i-tensor) of
+the symmetry class 4/
+        <italic>
+         mmm
+        </italic>
+        , from table 4 in reference [
+        <cite linkend="cm340204bib24">
+         24
+        </cite>
+        ].
+       </p>
+      </caption>
+      <tgroup cols="10">
+       <colspec align="left" colname="col1" colnum="1">
+       </colspec>
+       <colspec align="left" colname="col2" colnum="2">
+       </colspec>
+       <colspec align="left" colname="col3" colnum="3">
+       </colspec>
+       <colspec align="left" colname="col4" colnum="4">
+       </colspec>
+       <colspec align="left" colname="col5" colnum="5">
+       </colspec>
+       <colspec align="left" colname="col6" colnum="6">
+       </colspec>
+       <colspec align="left" colname="col7" colnum="7">
+       </colspec>
+       <colspec align="left" colname="col8" colnum="8">
+       </colspec>
+       <colspec align="left" colname="col9" colnum="9">
+       </colspec>
+       <colspec align="left" colname="col10" colnum="10">
+       </colspec>
+       <thead>
+        <row>
+         <entry>
+          <italic>
+           ij
+          </italic>
+         </entry>
+         <entry>
+          11
+         </entry>
+         <entry>
+          22
+         </entry>
+         <entry>
+          33
+         </entry>
+         <entry>
+          23
+         </entry>
+         <entry>
+          32
+         </entry>
+         <entry>
+          31
+         </entry>
+         <entry>
+          13
+         </entry>
+         <entry>
+          12
+         </entry>
+         <entry>
+          21
+         </entry>
+        </row>
+       </thead>
+       <tbody>
+        <row>
+         <entry>
+          α
+          <sub>
+           1
+          </sub>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          123
+         </entry>
+         <entry>
+          − 123
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           2
+          </sub>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          123
+         </entry>
+         <entry>
+          − 123
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           3
+          </sub>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          312
+         </entry>
+         <entry>
+          − 312
+         </entry>
+        </row>
+       </tbody>
+      </tgroup>
+     </table>
+     <table id="cm340204tabA.3" place="bottom" width="42pc">
+      <caption id="tcA.3" label="Table A.3">
+       <p indent="no">
+        The forms of the fourth rank tensor
+        <italic>
+         a
+        </italic>
+        <sub>
+         <italic>
+          klij
+         </italic>
+        </sub>
+        (polar c-tensor) of
+the symmetry class 4/
+        <italic>
+         mmm
+        </italic>
+        , from table 4 in reference [
+        <cite linkend="cm340204bib24">
+         24
+        </cite>
+        ].
+       </p>
+      </caption>
+      <tgroup cols="10">
+       <colspec align="left" colname="col1" colnum="1">
+       </colspec>
+       <colspec align="left" colname="col2" colnum="2">
+       </colspec>
+       <colspec align="left" colname="col3" colnum="3">
+       </colspec>
+       <colspec align="left" colname="col4" colnum="4">
+       </colspec>
+       <colspec align="left" colname="col5" colnum="5">
+       </colspec>
+       <colspec align="left" colname="col6" colnum="6">
+       </colspec>
+       <colspec align="left" colname="col7" colnum="7">
+       </colspec>
+       <colspec align="left" colname="col8" colnum="8">
+       </colspec>
+       <colspec align="left" colname="col9" colnum="9">
+       </colspec>
+       <colspec align="left" colname="col10" colnum="10">
+       </colspec>
+       <thead>
+        <row>
+         <entry>
+          <italic>
+           ij
+          </italic>
+         </entry>
+         <entry>
+          11
+         </entry>
+         <entry>
+          22
+         </entry>
+         <entry>
+          33
+         </entry>
+         <entry>
+          23
+         </entry>
+         <entry>
+          32
+         </entry>
+         <entry>
+          31
+         </entry>
+         <entry>
+          13
+         </entry>
+         <entry>
+          12
+         </entry>
+         <entry>
+          21
+         </entry>
+        </row>
+       </thead>
+       <tbody>
+        <row>
+         <entry>
+          α
+          <sub>
+           1
+          </sub>
+          <sup>
+           2
+          </sup>
+         </entry>
+         <entry>
+          1111
+         </entry>
+         <entry>
+          1122
+         </entry>
+         <entry>
+          1133
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           2
+          </sub>
+          <sup>
+           2
+          </sup>
+         </entry>
+         <entry>
+          1122
+         </entry>
+         <entry>
+          1111
+         </entry>
+         <entry>
+          1133
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           3
+          </sub>
+          <sup>
+           2
+          </sup>
+         </entry>
+         <entry>
+          3311
+         </entry>
+         <entry>
+          3311
+         </entry>
+         <entry>
+          3333
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           2
+          </sub>
+          α
+          <sub>
+           3
+          </sub>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          2323
+          <sup>
+           *
+          </sup>
+          2
+         </entry>
+         <entry>
+          2323
+          <sup>
+           *
+          </sup>
+          2
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           3
+          </sub>
+          α
+          <sub>
+           1
+          </sub>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          2323
+          <sup>
+           *
+          </sup>
+          2
+         </entry>
+         <entry>
+          2323
+          <sup>
+           *
+          </sup>
+          2
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           1
+          </sub>
+          α
+          <sub>
+           2
+          </sub>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          1212
+          <sup>
+           *
+          </sup>
+          2
+         </entry>
+         <entry>
+          1212
+          <sup>
+           *
+          </sup>
+          2
+         </entry>
+        </row>
+       </tbody>
+      </tgroup>
+     </table>
+     <table id="cm340204tabA.4" width="42pc">
+      <caption id="tcA.4" label="Table A.4">
+       <p indent="no">
+        The forms of the fifth rank tensor
+        <italic>
+         a
+        </italic>
+        <sub>
+         <italic>
+          klmij
+         </italic>
+        </sub>
+        (axial i-tensor) of
+the symmetry class 4/
+        <italic>
+         mmm
+        </italic>
+        , from reference [
+        <cite linkend="cm340204bib30">
+         30
+        </cite>
+        ].
+       </p>
+      </caption>
+      <tgroup cols="10">
+       <colspec align="left" colname="col1" colnum="1">
+       </colspec>
+       <colspec align="left" colname="col2" colnum="2">
+       </colspec>
+       <colspec align="left" colname="col3" colnum="3">
+       </colspec>
+       <colspec align="left" colname="col4" colnum="4">
+       </colspec>
+       <colspec align="left" colname="col5" colnum="5">
+       </colspec>
+       <colspec align="left" colname="col6" colnum="6">
+       </colspec>
+       <colspec align="left" colname="col7" colnum="7">
+       </colspec>
+       <colspec align="left" colname="col8" colnum="8">
+       </colspec>
+       <colspec align="left" colname="col9" colnum="9">
+       </colspec>
+       <colspec align="left" colname="col10" colnum="10">
+       </colspec>
+       <thead>
+        <row>
+         <entry>
+          <italic>
+           ij
+          </italic>
+         </entry>
+         <entry>
+          11
+         </entry>
+         <entry>
+          22
+         </entry>
+         <entry>
+          33
+         </entry>
+         <entry>
+          23
+         </entry>
+         <entry>
+          32
+         </entry>
+         <entry>
+          31
+         </entry>
+         <entry>
+          13
+         </entry>
+         <entry>
+          12
+         </entry>
+         <entry>
+          21
+         </entry>
+        </row>
+       </thead>
+       <tbody>
+        <row>
+         <entry>
+          α
+          <sub>
+           1
+          </sub>
+          <sup>
+           3
+          </sup>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          11123
+         </entry>
+         <entry>
+          − 11123
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           2
+          </sub>
+          <sup>
+           3
+          </sup>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          11123
+         </entry>
+         <entry>
+          − 11123
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           3
+          </sub>
+          <sup>
+           3
+          </sup>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          33312
+         </entry>
+         <entry>
+          − 33312
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           1
+          </sub>
+          α
+          <sub>
+           2
+          </sub>
+          <sup>
+           2
+          </sup>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          12223
+          <sup>
+           *
+          </sup>
+          3
+         </entry>
+         <entry>
+          − 12223
+          <sup>
+           *
+          </sup>
+          3
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           2
+          </sub>
+          α
+          <sub>
+           3
+          </sub>
+          <sup>
+           2
+          </sup>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          23331
+          <sup>
+           *
+          </sup>
+          3
+         </entry>
+         <entry>
+          − 23331
+          <sup>
+           *
+          </sup>
+          3
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           3
+          </sub>
+          α
+          <sub>
+           1
+          </sub>
+          <sup>
+           2
+          </sup>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          11312
+          <sup>
+           *
+          </sup>
+          3
+         </entry>
+         <entry>
+          − 11312
+          <sup>
+           *
+          </sup>
+          3
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           1
+          </sub>
+          α
+          <sub>
+           3
+          </sub>
+          <sup>
+           2
+          </sup>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          23331
+          <sup>
+           *
+          </sup>
+          3
+         </entry>
+         <entry>
+          − 23331
+          <sup>
+           *
+          </sup>
+          3
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           2
+          </sub>
+          α
+          <sub>
+           1
+          </sub>
+          <sup>
+           2
+          </sup>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          12223
+          <sup>
+           *
+          </sup>
+          3
+         </entry>
+         <entry>
+          − 12223
+          <sup>
+           *
+          </sup>
+          3
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           3
+          </sub>
+          α
+          <sub>
+           2
+          </sub>
+          <sup>
+           2
+          </sup>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          11312
+          <sup>
+           *
+          </sup>
+          3
+         </entry>
+         <entry>
+          − 11312
+          <sup>
+           *
+          </sup>
+          3
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           1
+          </sub>
+          α
+          <sub>
+           2
+          </sub>
+          α
+          <sub>
+           3
+          </sub>
+         </entry>
+         <entry>
+          12311
+          <sup>
+           *
+          </sup>
+          6
+         </entry>
+         <entry>
+          − 12311
+          <sup>
+           *
+          </sup>
+          6
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+       </tbody>
+      </tgroup>
+     </table>
+     <table id="cm340204tabA.5" width="42pc">
+      <caption id="tcA.5" label="Table A.5">
+       <p indent="no">
+        The forms of the sixth rank tensor
+        <italic>
+         a
+        </italic>
+        <sub>
+         <italic>
+          klmnij
+         </italic>
+        </sub>
+        (polar c-tensor) of
+the symmetry class 4/
+        <italic>
+         mmm
+        </italic>
+        , from reference [
+        <cite linkend="cm340204bib30">
+         30
+        </cite>
+        ].
+       </p>
+      </caption>
+      <tgroup cols="10">
+       <colspec align="left" colname="col1" colnum="1">
+       </colspec>
+       <colspec align="left" colname="col2" colnum="2">
+       </colspec>
+       <colspec align="left" colname="col3" colnum="3">
+       </colspec>
+       <colspec align="left" colname="col4" colnum="4">
+       </colspec>
+       <colspec align="left" colname="col5" colnum="5">
+       </colspec>
+       <colspec align="left" colname="col6" colnum="6">
+       </colspec>
+       <colspec align="left" colname="col7" colnum="7">
+       </colspec>
+       <colspec align="left" colname="col8" colnum="8">
+       </colspec>
+       <colspec align="left" colname="col9" colnum="9">
+       </colspec>
+       <colspec align="left" colname="col10" colnum="10">
+       </colspec>
+       <thead>
+        <row>
+         <entry>
+          <italic>
+           ij
+          </italic>
+         </entry>
+         <entry>
+          11
+         </entry>
+         <entry>
+          22
+         </entry>
+         <entry>
+          33
+         </entry>
+         <entry>
+          23
+         </entry>
+         <entry>
+          32
+         </entry>
+         <entry>
+          31
+         </entry>
+         <entry>
+          13
+         </entry>
+         <entry>
+          12
+         </entry>
+         <entry>
+          21
+         </entry>
+        </row>
+       </thead>
+       <tbody>
+        <row>
+         <entry>
+          α
+          <sub>
+           1
+          </sub>
+          <sup>
+           4
+          </sup>
+         </entry>
+         <entry>
+          111111
+         </entry>
+         <entry>
+          111122
+         </entry>
+         <entry>
+          111133
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           2
+          </sub>
+          <sup>
+           4
+          </sup>
+         </entry>
+         <entry>
+          111122
+         </entry>
+         <entry>
+          111111
+         </entry>
+         <entry>
+          111133
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           3
+          </sub>
+          <sup>
+           4
+          </sup>
+         </entry>
+         <entry>
+          333311
+         </entry>
+         <entry>
+          333311
+         </entry>
+         <entry>
+          333333
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           2
+          </sub>
+          <sup>
+           2
+          </sup>
+          α
+          <sub>
+           3
+          </sub>
+          <sup>
+           2
+          </sup>
+         </entry>
+         <entry>
+          223311
+          <sup>
+           *
+          </sup>
+          6
+         </entry>
+         <entry>
+          223322
+          <sup>
+           *
+          </sup>
+          6
+         </entry>
+         <entry>
+          223333
+          <sup>
+           *
+          </sup>
+          6
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           3
+          </sub>
+          <sup>
+           2
+          </sup>
+          α
+          <sub>
+           1
+          </sub>
+          <sup>
+           2
+          </sup>
+         </entry>
+         <entry>
+          223322
+          <sup>
+           *
+          </sup>
+          6
+         </entry>
+         <entry>
+          223311
+          <sup>
+           *
+          </sup>
+          6
+         </entry>
+         <entry>
+          223333
+          <sup>
+           *
+          </sup>
+          6
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           1
+          </sub>
+          <sup>
+           2
+          </sup>
+          α
+          <sub>
+           2
+          </sub>
+          <sup>
+           2
+          </sup>
+         </entry>
+         <entry>
+          112211
+          <sup>
+           *
+          </sup>
+          6
+         </entry>
+         <entry>
+          112211
+          <sup>
+           *
+          </sup>
+          6
+         </entry>
+         <entry>
+          112233
+          <sup>
+           *
+          </sup>
+          6
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           1
+          </sub>
+          <sup>
+           2
+          </sup>
+          α
+          <sub>
+           2
+          </sub>
+          α
+          <sub>
+           3
+          </sub>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          112323
+          <sup>
+           *
+          </sup>
+          12
+         </entry>
+         <entry>
+          112323
+          <sup>
+           *
+          </sup>
+          12
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           2
+          </sub>
+          <sup>
+           2
+          </sup>
+          α
+          <sub>
+           3
+          </sub>
+          α
+          <sub>
+           1
+          </sub>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          112323
+          <sup>
+           *
+          </sup>
+          12
+         </entry>
+         <entry>
+          112323
+          <sup>
+           *
+          </sup>
+          12
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           3
+          </sub>
+          <sup>
+           2
+          </sup>
+          α
+          <sub>
+           1
+          </sub>
+          α
+          <sub>
+           2
+          </sub>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          331212
+          <sup>
+           *
+          </sup>
+          12
+         </entry>
+         <entry>
+          331212
+          <sup>
+           *
+          </sup>
+          12
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           2
+          </sub>
+          <sup>
+           3
+          </sup>
+          α
+          <sub>
+           3
+          </sub>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          111313
+          <sup>
+           *
+          </sup>
+          4
+         </entry>
+         <entry>
+          111313
+          <sup>
+           *
+          </sup>
+          4
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           3
+          </sub>
+          <sup>
+           3
+          </sup>
+          α
+          <sub>
+           1
+          </sub>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          333131
+          <sup>
+           *
+          </sup>
+          4
+         </entry>
+         <entry>
+          333131
+          <sup>
+           *
+          </sup>
+          4
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           1
+          </sub>
+          <sup>
+           3
+          </sup>
+          α
+          <sub>
+           2
+          </sub>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          111212
+          <sup>
+           *
+          </sup>
+          4
+         </entry>
+         <entry>
+          111212
+          <sup>
+           *
+          </sup>
+          4
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           3
+          </sub>
+          <sup>
+           3
+          </sup>
+          α
+          <sub>
+           2
+          </sub>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          333131
+          <sup>
+           *
+          </sup>
+          4
+         </entry>
+         <entry>
+          333131
+          <sup>
+           *
+          </sup>
+          4
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           1
+          </sub>
+          <sup>
+           3
+          </sup>
+          α
+          <sub>
+           3
+          </sub>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          111313
+          <sup>
+           *
+          </sup>
+          4
+         </entry>
+         <entry>
+          111313
+          <sup>
+           *
+          </sup>
+          4
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+        </row>
+        <row>
+         <entry>
+          α
+          <sub>
+           2
+          </sub>
+          <sup>
+           3
+          </sup>
+          α
+          <sub>
+           1
+          </sub>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+         </entry>
+         <entry>
+          111212
+          <sup>
+           *
+          </sup>
+          4
+         </entry>
+         <entry>
+          111212
+          <sup>
+           *
+          </sup>
+          4
+         </entry>
+        </row>
+       </tbody>
+      </tgroup>
+     </table>
+    </sec-level1>
+   </appendix>
+   <back>
+    <references>
+     <heading>
+      References
+     </heading>
+     <reference-list type="numeric">
+      <journal-ref id="cm340204bib1" num="1">
+       <authors>
+        <au>
+         <second-name>
+          Ky
+         </second-name>
+         <first-names>
+          V D
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        1968
+       </year>
+       <jnl-title>
+        Phys. Status Solidi
+       </jnl-title>
+       <volume>
+        26
+       </volume>
+       <pages>
+        565
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1002/pssb.19680260220
+        </cr_doi>
+        <cr_issn type="print">
+         03701972
+        </cr_issn>
+        <cr_issn type="electronic">
+         15213951
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib2" num="2">
+       <authors>
+        <au>
+         <second-name>
+          Hirsch
+         </second-name>
+         <first-names>
+          A A
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Kleefeld
+         </second-name>
+         <first-names>
+          J
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        1971
+       </year>
+       <jnl-title>
+        IEEE Trans. Magn.
+       </jnl-title>
+       <volume>
+        7
+       </volume>
+       <pages>
+        733
+       </pages>
+       <misc-text>
+        (presented at the 1971 InterMag Conference, Denver, Colo., April 13–16)
+       </misc-text>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1109/TMAG.1971.1067165
+        </cr_doi>
+        <cr_issn type="print">
+         00189464
+        </cr_issn>
+        <cr_issn type="electronic">
+         19410069
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib3" num="3">
+       <authors>
+        <au>
+         <second-name>
+          Yau
+         </second-name>
+         <first-names>
+          K L
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Chang
+         </second-name>
+         <first-names>
+          J T H
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        1971
+       </year>
+       <jnl-title>
+        J. Phys. F: Met. Phys.
+       </jnl-title>
+       <volume>
+        1
+       </volume>
+       <pages>
+        38
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1088/0305-4608/1/1/307
+        </cr_doi>
+        <cr_issn type="print">
+         03054608
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib4" num="4">
+       <authors>
+        <au>
+         <second-name>
+          McGuire
+         </second-name>
+         <first-names>
+          T R
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Potter
+         </second-name>
+         <first-names>
+          R I
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        1975
+       </year>
+       <jnl-title>
+        IEEE Trans. Magn.
+       </jnl-title>
+       <volume>
+        11
+       </volume>
+       <pages>
+        1018
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1109/TMAG.1975.1058782
+        </cr_doi>
+        <cr_issn type="print">
+         00189464
+        </cr_issn>
+        <cr_issn type="electronic">
+         19410069
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib5" num="5">
+       <authors>
+        <au>
+         <second-name>
+          Thompson
+         </second-name>
+         <first-names>
+          D A
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Romankiw
+         </second-name>
+         <first-names>
+          L T
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Mayadas
+         </second-name>
+         <first-names>
+          A F
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        1975
+       </year>
+       <jnl-title>
+        IEEE Trans. Magn.
+       </jnl-title>
+       <volume>
+        11
+       </volume>
+       <pages>
+        1039
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1109/TMAG.1975.1058786
+        </cr_doi>
+        <cr_issn type="print">
+         00189464
+        </cr_issn>
+        <cr_issn type="electronic">
+         19410069
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib6" num="6">
+       <authors>
+        <au>
+         <second-name>
+          Tang
+         </second-name>
+         <first-names>
+          H X
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Kawakami
+         </second-name>
+         <first-names>
+          R K
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Awschalom
+         </second-name>
+         <first-names>
+          D D
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Roukes
+         </second-name>
+         <first-names>
+          M L
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2003
+       </year>
+       <jnl-title>
+        Phys. Rev. Lett.
+       </jnl-title>
+       <volume>
+        90
+       </volume>
+       <pages>
+        107201
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1103/PhysRevLett.90.107201
+        </cr_doi>
+        <cr_issn type="print">
+         00319007
+        </cr_issn>
+        <cr_issn type="electronic">
+         10797114
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib7" num="7">
+       <authors>
+        <au>
+         <second-name>
+          Sarma
+         </second-name>
+         <first-names>
+          S D
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2003
+       </year>
+       <jnl-title>
+        Nat. Mater.
+       </jnl-title>
+       <volume>
+        2
+       </volume>
+       <pages>
+        292
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1038/nmat883
+        </cr_doi>
+        <cr_issn type="print">
+         14761122
+        </cr_issn>
+        <cr_issn type="electronic">
+         14764660
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib8" num="8">
+       <authors>
+        <au>
+         <second-name>
+          Cowburn
+         </second-name>
+         <first-names>
+          R P
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Gray
+         </second-name>
+         <first-names>
+          S J
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Ferré
+         </second-name>
+         <first-names>
+          J
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Bland
+         </second-name>
+         <first-names>
+          J A C
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Miltat
+         </second-name>
+         <first-names>
+          J
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        1995
+       </year>
+       <jnl-title>
+        J. Appl. Phys.
+       </jnl-title>
+       <volume>
+        78
+       </volume>
+       <pages>
+        7210
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1063/1.360431
+        </cr_doi>
+        <cr_issn type="print">
+         00218979
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib9" num="9">
+       <authors>
+        <au>
+         <second-name>
+          Gould
+         </second-name>
+         <first-names>
+          C
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Röster
+         </second-name>
+         <first-names>
+          C
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Jungwirth
+         </second-name>
+         <first-names>
+          T
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Girgis
+         </second-name>
+         <first-names>
+          E
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Schott
+         </second-name>
+         <first-names>
+          G M
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Giraud
+         </second-name>
+         <first-names>
+          R
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Brunner
+         </second-name>
+         <first-names>
+          K
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Schmidt
+         </second-name>
+         <first-names>
+          G
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Molenkamp
+         </second-name>
+         <first-names>
+          L W
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2004
+       </year>
+       <jnl-title>
+        Phys. Rev. Lett.
+       </jnl-title>
+       <volume>
+        93
+       </volume>
+       <pages>
+        117203
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1103/PhysRevLett.93.117203
+        </cr_doi>
+        <cr_issn type="print">
+         00319007
+        </cr_issn>
+        <cr_issn type="electronic">
+         10797114
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib10" num="10">
+       <authors>
+        <au>
+         <second-name>
+          Bason
+         </second-name>
+         <first-names>
+          Y
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Kleina
+         </second-name>
+         <first-names>
+          L
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Yau
+         </second-name>
+         <first-names>
+          J-B
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Hong
+         </second-name>
+         <first-names>
+          X
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Ahn
+         </second-name>
+         <first-names>
+          C H
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2004
+       </year>
+       <jnl-title>
+        Appl. Phys. Lett.
+       </jnl-title>
+       <volume>
+        84
+       </volume>
+       <pages>
+        2593
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1063/1.1695197
+        </cr_doi>
+        <cr_issn type="print">
+         00036951
+        </cr_issn>
+        <cr_issn type="electronic">
+         00036951
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib11" num="11">
+       <authors>
+        <au>
+         <second-name>
+          Bason
+         </second-name>
+         <first-names>
+          Y
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Klein
+         </second-name>
+         <first-names>
+          L
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Yau
+         </second-name>
+         <first-names>
+          J-B
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Hong
+         </second-name>
+         <first-names>
+          X
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Hoffman
+         </second-name>
+         <first-names>
+          J
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Ahn
+         </second-name>
+         <first-names>
+          C H
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2006
+       </year>
+       <jnl-title>
+        J. Appl. Phys.
+       </jnl-title>
+       <volume>
+        99
+       </volume>
+       <pages>
+        08R701
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1063/1.2162824
+        </cr_doi>
+        <cr_issn type="print">
+         00218979
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib12" num="12">
+       <authors>
+        <au>
+         <second-name>
+          Bowen
+         </second-name>
+         <first-names>
+          M
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Friedland
+         </second-name>
+         <first-names>
+          K-J
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Herfort
+         </second-name>
+         <first-names>
+          J
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Schönherr
+         </second-name>
+         <first-names>
+          H-P
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Ploog
+         </second-name>
+         <first-names>
+          K H
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2005
+       </year>
+       <jnl-title>
+        Phys. Rev.
+       </jnl-title>
+       <part>
+        B
+       </part>
+       <volume>
+        71
+       </volume>
+       <pages>
+        172401
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1103/PhysRevB.71.172401
+        </cr_doi>
+        <cr_issn type="print">
+         10980121
+        </cr_issn>
+        <cr_issn type="electronic">
+         1550235X
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib13" num="13">
+       <authors>
+        <au>
+         <second-name>
+          Fernndez-Pacheco
+         </second-name>
+         <first-names>
+          A
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          De Teresa
+         </second-name>
+         <first-names>
+          J M
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Orna
+         </second-name>
+         <first-names>
+          J
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Morellon
+         </second-name>
+         <first-names>
+          L
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Algarabel
+         </second-name>
+         <first-names>
+          P A
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Pardo
+         </second-name>
+         <first-names>
+          J A
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Ibarra
+         </second-name>
+         <first-names>
+          M R
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Magen
+         </second-name>
+         <first-names>
+          C
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Snoeck
+         </second-name>
+         <first-names>
+          E
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2008
+       </year>
+       <jnl-title>
+        Phys. Rev.
+       </jnl-title>
+       <part>
+        B
+       </part>
+       <volume>
+        78
+       </volume>
+       <pages>
+        212402
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1103/PhysRevB.78.212402
+        </cr_doi>
+        <cr_issn type="print">
+         10980121
+        </cr_issn>
+        <cr_issn type="electronic">
+         1550235X
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib14" num="14">
+       <authors>
+        <au>
+         <second-name>
+          Eckstein
+         </second-name>
+         <first-names>
+          J N
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Bozovic
+         </second-name>
+         <first-names>
+          I
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          O’Donnell
+         </second-name>
+         <first-names>
+          J
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Onellion
+         </second-name>
+         <first-names>
+          M
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Rzchowski
+         </second-name>
+         <first-names>
+          M S
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        1996
+       </year>
+       <jnl-title>
+        Appl. Phys. Lett.
+       </jnl-title>
+       <volume>
+        69
+       </volume>
+       <pages>
+        1312
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1063/1.117402
+        </cr_doi>
+        <cr_issn type="print">
+         00036951
+        </cr_issn>
+        <cr_issn type="electronic">
+         00036951
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib15" num="15">
+       <authors>
+        <au>
+         <second-name>
+          Amaral
+         </second-name>
+         <first-names>
+          V S
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Lourenço
+         </second-name>
+         <first-names>
+          A A C S
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Araújo
+         </second-name>
+         <first-names>
+          J P
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Pereira
+         </second-name>
+         <first-names>
+          A M
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Sousa
+         </second-name>
+         <first-names>
+          J B
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Tavares
+         </second-name>
+         <first-names>
+          P B
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Vieira
+         </second-name>
+         <first-names>
+          J M
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Alves
+         </second-name>
+         <first-names>
+          E
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          da Silva
+         </second-name>
+         <first-names>
+          M F
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Soares
+         </second-name>
+         <first-names>
+          J C
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2000
+       </year>
+       <jnl-title>
+        J. Appl. Phys.
+       </jnl-title>
+       <volume>
+        87
+       </volume>
+       <pages>
+        5570
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1063/1.373407
+        </cr_doi>
+        <cr_issn type="print">
+         00218979
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib16" num="16">
+       <authors>
+        <au>
+         <second-name>
+          Infante
+         </second-name>
+         <first-names>
+          I C
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Laukhin
+         </second-name>
+         <first-names>
+          V
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Sánchez
+         </second-name>
+         <first-names>
+          F
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Fontcuberta
+         </second-name>
+         <first-names>
+          J
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Melnikov
+         </second-name>
+         <first-names>
+          O
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Yu Gorbenko
+         </second-name>
+         <first-names>
+          O
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Kaul
+         </second-name>
+         <first-names>
+          A R
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2006
+       </year>
+       <jnl-title>
+        J. Appl. Phys.
+       </jnl-title>
+       <volume>
+        99
+       </volume>
+       <pages>
+        08C502
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1063/1.2150812
+        </cr_doi>
+        <cr_issn type="print">
+         00218979
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib17" num="17">
+       <authors>
+        <au>
+         <second-name>
+          Infante
+         </second-name>
+         <first-names>
+          I C
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Laukhin
+         </second-name>
+         <first-names>
+          V
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Sánchez
+         </second-name>
+         <first-names>
+          F
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Fontcuberta
+         </second-name>
+         <first-names>
+          J
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2006
+       </year>
+       <jnl-title>
+        Mater. Sci. Eng.
+       </jnl-title>
+       <part>
+        B
+       </part>
+       <volume>
+        126
+       </volume>
+       <pages>
+        283
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1016/j.mseb.2005.09.040
+        </cr_doi>
+        <cr_issn type="print">
+         09215107
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib18" num="18">
+       <authors>
+        <au>
+         <second-name>
+          Bibes
+         </second-name>
+         <first-names>
+          M
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Martínez
+         </second-name>
+         <first-names>
+          B
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Fontcuberta
+         </second-name>
+         <first-names>
+          J
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Trtik
+         </second-name>
+         <first-names>
+          V
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Ferrater
+         </second-name>
+         <first-names>
+          C
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Sánchez
+         </second-name>
+         <first-names>
+          F
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Varela
+         </second-name>
+         <first-names>
+          M
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Hiergeist
+         </second-name>
+         <first-names>
+          R
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Steenbeck
+         </second-name>
+         <first-names>
+          K
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2000
+       </year>
+       <jnl-title>
+        J. Magn. Magn. Mater.
+       </jnl-title>
+       <volume>
+        211
+       </volume>
+       <pages>
+        206
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1016/S0304-8853(99)00735-0
+        </cr_doi>
+        <cr_issn type="print">
+         03048853
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib19" num="19">
+       <authors>
+        <au>
+         <second-name>
+          O’Donnell
+         </second-name>
+         <first-names>
+          J
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Eckstein
+         </second-name>
+         <first-names>
+          J N
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Rzchowski
+         </second-name>
+         <first-names>
+          M S
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2000
+       </year>
+       <jnl-title>
+        Appl. Phys. Lett.
+       </jnl-title>
+       <volume>
+        76
+       </volume>
+       <pages>
+        218
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1063/1.125707
+        </cr_doi>
+        <cr_issn type="print">
+         00036951
+        </cr_issn>
+        <cr_issn type="electronic">
+         00036951
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib20" num="20">
+       <authors>
+        <au>
+         <second-name>
+          Bason
+         </second-name>
+         <first-names>
+          Y
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Hoffman
+         </second-name>
+         <first-names>
+          J
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Ahn
+         </second-name>
+         <first-names>
+          C H
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Klein
+         </second-name>
+         <first-names>
+          L
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2009
+       </year>
+       <jnl-title>
+        Phys. Rev.
+       </jnl-title>
+       <part>
+        B
+       </part>
+       <volume>
+        79
+       </volume>
+       <pages>
+        092406
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1103/PhysRevB.79.092406
+        </cr_doi>
+        <cr_issn type="print">
+         10980121
+        </cr_issn>
+        <cr_issn type="electronic">
+         1550235X
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib21" num="21">
+       <authors>
+        <au>
+         <second-name>
+          Muduli
+         </second-name>
+         <first-names>
+          P K
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Friedland
+         </second-name>
+         <first-names>
+          K-J
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Herfort
+         </second-name>
+         <first-names>
+          J
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Schönherr
+         </second-name>
+         <first-names>
+          H-P
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Ploog
+         </second-name>
+         <first-names>
+          K H
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2005
+       </year>
+       <jnl-title>
+        Phys. Rev.
+       </jnl-title>
+       <part>
+        B
+       </part>
+       <volume>
+        72
+       </volume>
+       <pages>
+        104430
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1103/PhysRevB.72.104430
+        </cr_doi>
+        <cr_issn type="print">
+         10980121
+        </cr_issn>
+        <cr_issn type="electronic">
+         1550235X
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib22" num="22">
+       <authors>
+        <au>
+         <second-name>
+          Wu
+         </second-name>
+         <first-names>
+          D
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Wei
+         </second-name>
+         <first-names>
+          P
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Johnston-Halperin
+         </second-name>
+         <first-names>
+          E
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Awschalom
+         </second-name>
+         <first-names>
+          D D
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Shi
+         </second-name>
+         <first-names>
+          J
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2008
+       </year>
+       <jnl-title>
+        Phys. Rev.
+       </jnl-title>
+       <part>
+        B
+       </part>
+       <volume>
+        77
+       </volume>
+       <pages>
+        125320
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1103/PhysRevB.77.125320
+        </cr_doi>
+        <cr_issn type="print">
+         10980121
+        </cr_issn>
+        <cr_issn type="electronic">
+         1550235X
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib23" num="23">
+       <authors>
+        <au>
+         <second-name>
+          Ramos
+         </second-name>
+         <first-names>
+          R
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Arora
+         </second-name>
+         <first-names>
+          S K
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Shvets
+         </second-name>
+         <first-names>
+          I V
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2008
+       </year>
+       <jnl-title>
+        Phys. Rev.
+       </jnl-title>
+       <part>
+        B
+       </part>
+       <volume>
+        78
+       </volume>
+       <pages>
+        214402
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1103/PhysRevB.78.214402
+        </cr_doi>
+        <cr_issn type="print">
+         10980121
+        </cr_issn>
+        <cr_issn type="electronic">
+         1550235X
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <book-ref id="cm340204bib24" num="24">
+       <authors>
+        <au>
+         <second-name>
+          Birss
+         </second-name>
+         <first-names>
+          R R
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        1964
+       </year>
+       <book-title>
+        Symmetry and Magnetism
+       </book-title>
+       <publication>
+        <place>
+         Amsterdam
+        </place>
+        <publisher>
+         North-Holland
+        </publisher>
+       </publication>
+      </book-ref>
+      <journal-ref id="cm340204bib25" num="25">
+       <authors>
+        <au>
+         <second-name>
+          Grimmer
+         </second-name>
+         <first-names>
+          H
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        1993
+       </year>
+       <jnl-title>
+        Acta Crystallogr.
+       </jnl-title>
+       <part>
+        A
+       </part>
+       <volume>
+        49
+       </volume>
+       <pages>
+        763–71
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1107/S0108767393003770
+        </cr_doi>
+        <cr_issn type="print">
+         01087673
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib26" num="26">
+       <authors>
+        <au>
+         <second-name>
+          Akgöz
+         </second-name>
+         <first-names>
+          Y C
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Saunders
+         </second-name>
+         <first-names>
+          G A
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        1974
+       </year>
+       <jnl-title>
+        J. Phys. C: Solid State Phys.
+       </jnl-title>
+       <volume>
+        9
+       </volume>
+       <pages>
+        1655
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1088/0022-3719/7/9/008
+        </cr_doi>
+        <cr_issn type="print">
+         00223719
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib27" num="27">
+       <authors>
+        <au>
+         <second-name>
+          Li
+         </second-name>
+         <first-names>
+          J
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Wang
+         </second-name>
+         <first-names>
+          P
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Xiang
+         </second-name>
+         <first-names>
+          J Y
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Zhu
+         </second-name>
+         <first-names>
+          X H
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Peng
+         </second-name>
+         <first-names>
+          W
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Chen
+         </second-name>
+         <first-names>
+          Y F
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Zheng
+         </second-name>
+         <first-names>
+          D N
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Li
+         </second-name>
+         <first-names>
+          Z W
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2005
+       </year>
+       <jnl-title>
+        Appl. Phys. Lett.
+       </jnl-title>
+       <volume>
+        86
+       </volume>
+       <pages>
+        112514
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1063/1.1875766
+        </cr_doi>
+        <cr_issn type="print">
+         00036951
+        </cr_issn>
+        <cr_issn type="electronic">
+         00036951
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib28" num="28">
+       <authors>
+        <au>
+         <second-name>
+          Li
+         </second-name>
+         <first-names>
+          J
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Wang
+         </second-name>
+         <first-names>
+          P
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Peng
+         </second-name>
+         <first-names>
+          W
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Xiang
+         </second-name>
+         <first-names>
+          J Y
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Zhu
+         </second-name>
+         <first-names>
+          X H
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Chen
+         </second-name>
+         <first-names>
+          Y F
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Wang
+         </second-name>
+         <first-names>
+          F B
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Zheng
+         </second-name>
+         <first-names>
+          D N
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2006
+       </year>
+       <jnl-title>
+        Appl. Phys.
+       </jnl-title>
+       <part>
+        A
+       </part>
+       <volume>
+        83
+       </volume>
+       <pages>
+        313
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1007/s00339-006-3491-6
+        </cr_doi>
+        <cr_issn type="print">
+         09478396
+        </cr_issn>
+        <cr_issn type="electronic">
+         14320630
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib29" num="29">
+       <authors>
+        <au>
+         <second-name>
+          O’Donnell
+         </second-name>
+         <first-names>
+          J
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Rzchowski
+         </second-name>
+         <first-names>
+          M S
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Eckstein
+         </second-name>
+         <first-names>
+          J N
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Bozovic
+         </second-name>
+         <first-names>
+          I
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        1998
+       </year>
+       <jnl-title>
+        Appl. Phys. Lett.
+       </jnl-title>
+       <volume>
+        72
+       </volume>
+       <pages>
+        1775
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1063/1.121181
+        </cr_doi>
+        <cr_issn type="print">
+         00036951
+        </cr_issn>
+        <cr_issn type="electronic">
+         00036951
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib30" num="30">
+       <authors>
+        <au>
+         <second-name>
+          Fieschi
+         </second-name>
+         <first-names>
+          B
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Fumi
+         </second-name>
+         <first-names>
+          F G
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        1953
+       </year>
+       <jnl-title>
+        Nuovo Cimento
+       </jnl-title>
+       <volume>
+        10
+       </volume>
+       <pages>
+        865
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1007/BF02773081
+        </cr_doi>
+        <cr_issn type="print">
+         00296341
+        </cr_issn>
+        <cr_issn type="electronic">
+         18276121
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib31" num="31">
+       <authors>
+        <au>
+         <second-name>
+          Shin
+         </second-name>
+         <first-names>
+          D Y
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Chung
+         </second-name>
+         <first-names>
+          S J
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Lee
+         </second-name>
+         <first-names>
+          S
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2007
+       </year>
+       <jnl-title>
+        Phys. Rev. Lett.
+       </jnl-title>
+       <volume>
+        98
+       </volume>
+       <pages>
+        047201
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1103/PhysRevLett.98.047201
+        </cr_doi>
+        <cr_issn type="print">
+         00319007
+        </cr_issn>
+        <cr_issn type="electronic">
+         10797114
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+      <journal-ref id="cm340204bib32" num="32">
+       <authors>
+        <au>
+         <second-name>
+          Viret
+         </second-name>
+         <first-names>
+          M
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Gabureac
+         </second-name>
+         <first-names>
+          M
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Ott
+         </second-name>
+         <first-names>
+          F
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Fermon
+         </second-name>
+         <first-names>
+          C
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Barreteau
+         </second-name>
+         <first-names>
+          C
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Autes
+         </second-name>
+         <first-names>
+          G
+         </first-names>
+        </au>
+        <au>
+         <second-name>
+          Guirado-Lopez
+         </second-name>
+         <first-names>
+          R
+         </first-names>
+        </au>
+       </authors>
+       <year>
+        2006
+       </year>
+       <jnl-title>
+        Eur. Phys. J.
+       </jnl-title>
+       <part>
+        B
+       </part>
+       <volume>
+        51
+       </volume>
+       <pages>
+        1
+       </pages>
+       <crossref>
+        <cr_doi>
+         http://dx.doi.org/10.1140/epjb/e2006-00201-3
+        </cr_doi>
+        <cr_issn type="print">
+         14346028
+        </cr_issn>
+        <cr_issn type="electronic">
+         14346036
+        </cr_issn>
+       </crossref>
+      </journal-ref>
+     </reference-list>
+    </references>
+   </back>
+  </article>
+ </body>
+</html>

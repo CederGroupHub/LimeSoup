@@ -127,7 +127,8 @@ class NatureExtractArticleBody(RuleIngredient):
                 for rule in rules_to_remove:
                     for tag in article_body.find_all(**rule):
                         tag.extract()
-
+        if article_body is None:
+            article_body = parser.soup.find('div', id='articlebody')
         if article_body is None:
             raise ValueError('Cannot find article body. You '
                              'should inspect this HTML file carefully.')
