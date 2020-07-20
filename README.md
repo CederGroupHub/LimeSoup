@@ -12,6 +12,7 @@ Full Usage:
 ```
 from LimeSoup import (
     ACSSoup, 
+    AIPSoup,
     APSSoup, 
     ECSSoup, 
     ElsevierSoup, 
@@ -44,6 +45,7 @@ Currently, we have implemented the following parsers:
 - [ACS: American Chemical Society](https://pubs.acs.org)
 - [APS: American Physical Society](https://journals.aps.org)
 - [IOP Publishing](https://ioppublishing.org/publications/our-journals/)
+- [AIP: American Institute of Physics](https://aip.scitation.org/)
 
 # Development documentation
 

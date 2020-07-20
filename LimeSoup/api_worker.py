@@ -1,8 +1,9 @@
-from LimeSoup.APSSoup import APSSoup
 from synthesis_api_hub import api_method
 from synthesis_api_hub.apiegg import APIEgg
 
 from LimeSoup.ACSSoup import ACSSoup
+from LimeSoup.AIPSoup import AIPSoup
+from LimeSoup.APSSoup import APSSoup
 from LimeSoup.ECSSoup import ECSSoup
 from LimeSoup.ElsevierSoup import ElsevierSoup
 from LimeSoup.NatureSoup import NatureSoup
@@ -77,3 +78,11 @@ class LimeSoupWorker(APIEgg):
     @api_method
     def parse_aps(self, html_string):
         return APSSoup.parse(html_string)
+
+    @api_method
+    def version_aip(self):
+        return AIPSoup.version
+
+    @api_method
+    def parse_aip(self, html_string):
+        return AIPSoup.parse(html_string)

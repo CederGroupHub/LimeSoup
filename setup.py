@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 if __name__ == "__main__":
     setup(
         name='LimeSoup',
-        version="0.3.1",
+        version="0.3.2",
         python_requires='>=3.4',
         author="Ceder Group",
         license="MIT License",
