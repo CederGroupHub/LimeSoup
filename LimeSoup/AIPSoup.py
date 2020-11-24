@@ -125,9 +125,10 @@ class AIPCollect(RuleIngredient):
         )
         print(type(parser.title))
         print(parser.title)
-        parser.title = re.sub('&ensp;', ' ', parser.title)
-        parser.title = re.sub('&thinsp', ' ', parser.title)
-        parser.title = re.sub('&emsp', ' ', parser.title)
+        if parser.title is not None:
+            parser.title = re.sub('&ensp;', ' ', parser.title)
+            parser.title = re.sub('&thinsp', ' ', parser.title)
+            parser.title = re.sub('&emsp', ' ', parser.title)
         parser.get_doi()
         parser.get_journal()
         # Create tag from selection function in ParserPaper
