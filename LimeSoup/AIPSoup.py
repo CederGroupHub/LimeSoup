@@ -123,6 +123,8 @@ class AIPCollect(RuleIngredient):
                 {'name': 'h1', 'recursive': True},
             ]
         )
+        print(type(parser.title))
+        print(parser.title)
         parser.title = re.sub('&ensp;', ' ', parser.title)
         parser.title = re.sub('&thinsp', ' ', parser.title)
         parser.title = re.sub('&emsp', ' ', parser.title)
