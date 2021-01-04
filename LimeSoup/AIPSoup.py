@@ -130,8 +130,6 @@ class AIPCleanArticleBody(RuleIngredient):
         rules = {'name': 'div', 'class': 'sectionHeading'}
         parser.rename_tag(rules, 'h4')
 
-        print(parser.raw_html)
-
         return obj, parser
 
 
